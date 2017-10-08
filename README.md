@@ -27,11 +27,11 @@
 
 ## 部分字库数据来源
 
-[中古全拼及三拼](https://github.com/biopolyhedron/rime-middle-chinese)
-[中古四拼](https://github.com/inzoi/inzoi.github.io)
-[潮語拼音](https://github.com/Kahaani/dieghv)
-[客拼](https://pan.baidu.com/s/1gd1JtdT#list/path=%2F)
-[廣韻羅馬字](https://gist.github.com/lotem/3950485)
-[閩南語輸入法](https://pan.baidu.com/share/link?shareid=875603941&uk=1043098103)
-[옛한글・漢字](https://github.com/biopolyhedron/rime-qyeyshanglr-hanja)
-[poly日文](https://github.com/biopolyhedron/rime-jap-poly)
+- [中古全拼及三拼](https://github.com/biopolyhedron/rime-middle-chinese)
+- [中古四拼](https://github.com/inzoi/inzoi.github.io)
+- [潮語拼音](https://github.com/Kahaani/dieghv)
+- [客拼](https://pan.baidu.com/s/1gd1JtdT#list/path=%2F)
+- [廣韻羅馬字](https://gist.github.com/lotem/3950485)
+- [閩南語輸入法](https://pan.baidu.com/share/link?shareid=875603941&uk=1043098103)
+- [옛한글・漢字](https://github.com/biopolyhedron/rime-qyeyshanglr-hanja)
+- [poly日文](https://github.com/biopolyhedron/rime-jap-poly)
