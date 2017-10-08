@@ -7,10 +7,11 @@
 - 上古汉语
     - 上古全拼 - `dkzp`
 - 中古汉语
-    - 中古四拼 - `deuqguv`
-    - 中古三拼 - `sampheng`
     - 中古全拼 - `zyenpheng`
+    - 中古三拼 - `triungkoxsampheng`
+    - 中古四拼 - `deuqguv`
     - 廣韻羅馬字 - `kuankhiunn`
+    - 廣韻查詢 - `middle_chinese_lookup`
 - 粤语
     - 粤拼 - `jyutping`
     - 耶鲁粤语拼音 - `yale`
@@ -41,6 +42,7 @@
 
 - [中古全拼及三拼](https://github.com/biopolyhedron/rime-middle-chinese)
 - [中古四拼](https://github.com/inzoi/inzoi.github.io)
+- [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
 - [潮語拼音](https://github.com/Kahaani/dieghv)
 - [客拼](https://pan.baidu.com/s/1gd1JtdT#list/path=%2F)
 - [廣韻羅馬字](https://gist.github.com/lotem/3950485)
