@@ -1,0 +1,81 @@
+# Rime schema
+# vim: set sw=2 sts=2 et:
+# encoding: utf-8
+
+schema:
+  schema_id: kuankhiunn
+  name: 廣韻羅馬字
+  version: "0.3"
+  author:
+    - Polyhedron
+    - 有女同車
+  description: |
+    基於Polyhedron、有女同車整理的《廣韻全字表》製作
+    拼寫方案採用有女同車羅馬字，佛振根據有女同車的修改意見改編
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - echo_translator
+    - punct_translator
+    - r10n_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba'
+  delimiter: " '-"
+  algebra:
+    - derive/^ph/f/
+    - derive/^q/kh/
+    - derive/^tc/cj/
+    - abbrev/^([a-z]).+$/$1/
+    - abbrev/^(ph|kh|ng|th|dz|sz|tr|ch|dr|sh|zh|tj|tc|cj|dj|sj|zj).+$/$1/
+
+translator:
+  dictionary: kuankhiunn
+  spelling_hints: 4
+
+reverse_lookup:
+  dictionary: cangjie5
+  enable_completion: true
+  prefix: "`"
+  tips: 〔倉頡〕
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*$"
