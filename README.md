@@ -9,10 +9,10 @@
 - 中古汉语
     - 中古全拼 - `zyenpheng`
     - 中古三拼 - `triungkoxsampheng`
-    - 中古四拼 - `deuqguv`
+    - 中古四拼 - `deuqguv4`
     - 廣韻羅馬字 - `kuankhiunn`
     - 廣韻查詢 - `middle_chinese_lookup`
-    - 唐韵 - `Dangrvond`
+    - 唐韻 - `Dangrvond`
 - 粤语
     - 粤拼 - `jyutping`
     - 耶鲁粤语拼音 - `yale`
