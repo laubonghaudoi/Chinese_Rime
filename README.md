@@ -50,3 +50,9 @@
 - [閩南語輸入法](https://pan.baidu.com/share/link?shareid=875603941&uk=1043098103)
 - [옛한글・漢字](https://github.com/biopolyhedron/rime-qyeyshanglr-hanja)
 - [poly日文](https://github.com/biopolyhedron/rime-jap-poly)
+
+## 致谢
+
+- [biopolyhedron](https://github.com/biopolyhedron)
+- [osfans](https://github.com/osfans)
+- [Kahaani](https://github.com/Kahaani)
