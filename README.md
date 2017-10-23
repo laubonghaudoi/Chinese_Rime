@@ -39,6 +39,7 @@
 - 域外方音
     - 옛한글・漢字 - `qyeyshanglr_hanja`
     - poly日文 - `jap_poly`
+    - 輸入法𡨸漢喃 - `hannomPS`
 
 ## 部分字库数据来源
 
