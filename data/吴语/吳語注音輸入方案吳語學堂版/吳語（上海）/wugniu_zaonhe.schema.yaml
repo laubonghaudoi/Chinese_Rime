@@ -1,0 +1,83 @@
+﻿# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: wugniu_zaonhe
+  name: 吳語（上海）
+  version: "0.14"
+  author:
+    - 吳飛得<fededemarco@gmail.com>
+  description: |
+    上海吳語注音輸入方案吳語學堂版
+    www.wugniu.com
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - abbrev/^([bcdfghjklprstvwxyz]).+$/$1/       # 對齊標準行
+    - derive/^(c|ch|d?j|gn|x|y)i([aeou])/$1$2/     # 本行不要改動
+    #- derive/(.*)aon/$1an/                        # 模糊前後an
+
+
+translator:
+  dictionary: wugniu_zaonhe
+  spelling_hints: 5
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"

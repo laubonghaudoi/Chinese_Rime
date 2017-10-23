@@ -1,0 +1,94 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: wugniu_soutseu
+  name: 吳語（蘇州）
+  version: "2016.8.13"
+  author:
+    - 予安˂181065229@qq.com˃
+  description: |
+    蘇州吳語注音輸入方案吳語學堂版
+    www.wugniu.com
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: "zyxwvutsrqponmlkjihgfedcba"
+  delimiter: " "
+  algebra:
+    - xform/\(.+\)//  #刪除備註
+    #規則
+    #- xform/yi([aoeu])/y$1/
+    - abbrev/^([bpmfdtnlgkhjqxzcsyw]+).*$/$1/       # 無韻簡拼
+    - xform/\d$//       # 無調輸入
+
+    
+
+translator:
+  dictionary: wugniu_soutseu
+  prism: wugniu_soutseu
+  spelling_hints: 5
+  comment_format:
+    - xform/^(.*)\((.*)\)$/$2✔/
+    #- xform ^(.*)$ /$1/
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    # hack: to enable "/fh" style symbols, '/' must be mapped to a [list].
+    # so those who have customized '/' for direct commit won't be affected by
+    # this change.
+    punct: "^/([0-9]+[a-z]*|[a-z]+)$"
+    reverse_lookup: "`[a-z]*'?$"

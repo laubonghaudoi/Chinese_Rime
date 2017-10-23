@@ -36,6 +36,17 @@
     - 蘇州吳語 - `soutzoe`
     - 上海吳語 - `wugniu_lopha`
     - 上海新派 - `wugniu`
+    - 吳語注音輸入方案吳語學堂版
+        - 吳語（桐鄉） - `wugniu_donshian`
+        - 吳語（寧波） - `wugniu_gninpou`
+        - 吳語（海寧） - `wugniu_haegnin`
+        - 吳語（海鹽） - `wugniu_haeye`
+        - 吳語（永嘉） - `wugniu_ionko`
+        - 吳語（嘉善） - `wugniu_kazoe`
+        - 吳語（嘉興） - `wugniu_kashin`
+        - 吳語（松江） - `wugniu_sonkaon`
+        - 吳語（蘇州） - `wugniu_soutseu`
+        - 吳語（上海） - `wugniu_zaonhe`
 - 域外方音
     - 옛한글・漢字 - `qyeyshanglr_hanja`
     - poly日文 - `jap_poly`
@@ -50,6 +61,7 @@
 - [潮語拼音](https://github.com/Kahaani/dieghv)
 - [客拼](https://pan.baidu.com/s/1gd1JtdT#list/path=%2F)
 - [閩南語輸入法](https://pan.baidu.com/share/link?shareid=875603941&uk=1043098103)
+- [吳語注音輸入方案吳語學堂版](http://www.wugniu.com/main/index.php?s=/Home/Article/detail/id/10.html)
 - [옛한글・漢字](https://github.com/biopolyhedron/rime-qyeyshanglr-hanja)
 - [poly日文](https://github.com/biopolyhedron/rime-jap-poly)
 
