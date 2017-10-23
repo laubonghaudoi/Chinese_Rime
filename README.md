@@ -16,6 +16,7 @@
 - 粤语
     - 粤拼 - `jyutping`
     - 耶鲁粤语拼音 - `yale`
+    - 梧州白話 - `NgZjau_JyutPing`
 - 闽语
     - 泉漳閩南語輸入方案
         - 廈腔閩南語 - `blg_ha`
@@ -44,9 +45,9 @@
 - [中古全拼及三拼](https://github.com/biopolyhedron/rime-middle-chinese)
 - [中古四拼](https://github.com/inzoi/inzoi.github.io)
 - [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
+- [廣韻羅馬字](https://gist.github.com/lotem/3950485)
 - [潮語拼音](https://github.com/Kahaani/dieghv)
 - [客拼](https://pan.baidu.com/s/1gd1JtdT#list/path=%2F)
-- [廣韻羅馬字](https://gist.github.com/lotem/3950485)
 - [閩南語輸入法](https://pan.baidu.com/share/link?shareid=875603941&uk=1043098103)
 - [옛한글・漢字](https://github.com/biopolyhedron/rime-qyeyshanglr-hanja)
 - [poly日文](https://github.com/biopolyhedron/rime-jap-poly)
