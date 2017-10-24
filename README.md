@@ -50,6 +50,7 @@
 - 域外方音
     - 옛한글・漢字 - `qyeyshanglr_hanja`
     - poly日文 - `jap_poly`
+    - 古壮字拼音 - `sawndip`
     - 輸入法𡨸漢喃 - `hannomPS`
 
 ## 部分字库数据来源
@@ -64,6 +65,7 @@
 - [吳語注音輸入方案吳語學堂版](http://www.wugniu.com/main/index.php?s=/Home/Article/detail/id/10.html)
 - [옛한글・漢字](https://github.com/biopolyhedron/rime-qyeyshanglr-hanja)
 - [poly日文](https://github.com/biopolyhedron/rime-jap-poly)
+- [古壮字拼音](https://zhuanlan.zhihu.com/p/24138023)
 
 ## 致谢
 
