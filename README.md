@@ -1,4 +1,4 @@
-# Rime输入法汉语方言拼音字库全集
+# Rime输入法汉语方言拼音方案全集
 
 本仓库收集现代汉语各大方言及上古、中古汉语的Rime字库，若要在自己的Rime输入法中添加以下语言，只需将本仓库中`\data`文件夹下所有文件复制至用户文件夹（例如Win10系统下的PRIME输入法，则路径为`C:\Users\用户名\AppData\Roaming\PIME\Rime`）下，修改`default.yaml`中的输入法列表，再重新部署即可。
 
@@ -53,7 +53,7 @@
     - 古壮字拼音 - `sawndip`
     - 輸入法𡨸漢喃 - `hannomPS`
 
-## 部分字库数据来源
+## 部分方案数据来源
 
 - [中古全拼及三拼](https://github.com/biopolyhedron/rime-middle-chinese)
 - [中古四拼](https://github.com/inzoi/inzoi.github.io)
