@@ -47,6 +47,10 @@
         - 吳語（松江） - `wugniu_sonkaon`
         - 吳語（蘇州） - `wugniu_soutseu`
         - 吳語（上海） - `wugniu_zaonhe`
+- 官话
+    - 棗莊話羅馬字輸入方案
+        - 嶧州話傳統羅馬字 - `yihdjoouhuah`
+        - 嶧州話羅馬字 - `yihjoouhuah_romatzyh`
 - 域外方音
     - 옛한글・漢字 - `qyeyshanglr_hanja`
     - poly日文 - `jap_poly`
@@ -63,6 +67,7 @@
 - [客拼](https://pan.baidu.com/s/1gd1JtdT#list/path=%2F)
 - [閩南語輸入法](https://pan.baidu.com/share/link?shareid=875603941&uk=1043098103)
 - [吳語注音輸入方案吳語學堂版](http://www.wugniu.com/main/index.php?s=/Home/Article/detail/id/10.html)
+- [棗莊話羅馬字輸入方案](https://github.com/tsauibusato/yihdjoouhuah)
 - [옛한글・漢字](https://github.com/biopolyhedron/rime-qyeyshanglr-hanja)
 - [poly日文](https://github.com/biopolyhedron/rime-jap-poly)
 - [古壮字拼音](https://zhuanlan.zhihu.com/p/24138023)
