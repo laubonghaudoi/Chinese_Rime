@@ -30,6 +30,9 @@
         - 潮語拼音〔汕头〕 - `suantau`
         - 潮語拼音〔澄海〕 - `tenghai`
         - 潮語拼音〔饒平〕 - `riaupeng`
+    - 平話字表 (閩東語‣福州話)
+        - 戚林八音 - `ciklinbekin`
+        - 福州話字典 - `dfd`
 - 客家语
     - 客拼 - `hakka_pinyin`
 - 吴语
@@ -64,6 +67,7 @@
 - [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
 - [廣韻羅馬字](https://gist.github.com/lotem/3950485)
 - [潮語拼音](https://github.com/Kahaani/dieghv)
+- [平話字表](https://github.com/only3km/ciklinbekin)
 - [客拼](https://pan.baidu.com/s/1gd1JtdT#list/path=%2F)
 - [閩南語輸入法](https://pan.baidu.com/share/link?shareid=875603941&uk=1043098103)
 - [吳語注音輸入方案吳語學堂版](http://www.wugniu.com/main/index.php?s=/Home/Article/detail/id/10.html)
