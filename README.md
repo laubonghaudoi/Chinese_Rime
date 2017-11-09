@@ -56,6 +56,7 @@
         - 嶧州話羅馬字 - `yihjoouhuah_romatzyh`
 - 域外方音
     - 옛한글・漢字 - `qyeyshanglr_hanja`
+    - 한글・漢字 - `hangyl_hanja`
     - poly日文 - `jap_poly`
     - 古壮字拼音 - `sawndip`
     - 輸入法𡨸漢喃 - `hannomPS`
@@ -73,6 +74,7 @@
 - [吳語注音輸入方案吳語學堂版](http://www.wugniu.com/main/index.php?s=/Home/Article/detail/id/10.html)
 - [棗莊話羅馬字輸入方案](https://github.com/tsauibusato/yihdjoouhuah)
 - [옛한글・漢字](https://github.com/biopolyhedron/rime-qyeyshanglr-hanja)
+- [한글・漢字](https://github.com/rime-aca/rime-hangyl)
 - [poly日文](https://github.com/biopolyhedron/rime-jap-poly)
 - [古壮字拼音](https://zhuanlan.zhihu.com/p/24138023)
 
