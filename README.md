@@ -24,6 +24,7 @@
         - 臺灣閩南語 - `blg_tai`
         - 漳腔閩南語 - `blg_tsiang`
         - 泉腔閩南語 - `blg_tsuan`
+        - 廈台閩語 - `blg_etai`
     - 潮语拼音输入法
         - 潮語拼音〔潮州〕 - `dieziu`
         - 潮語拼音〔潮阳〕 - `dioion`
@@ -51,6 +52,8 @@
         - 吳語（松江） - `wugniu_sonkaon`
         - 吳語（蘇州） - `wugniu_soutseu`
         - 吳語（上海） - `wugniu_zaonhe`
+- 晋语
+    - 晋拼解州片 - `haitrou`
 - 官话
     - 棗莊話羅馬字輸入方案
         - 嶧州話傳統羅馬字 - `yihdjoouhuah`
@@ -82,6 +85,7 @@
 
 ## 致谢
 
+- [lotem](https://github.com/lotem)
 - [biopolyhedron](https://github.com/biopolyhedron)
 - [osfans](https://github.com/osfans)
 - [Kahaani](https://github.com/Kahaani)
