@@ -68,6 +68,7 @@ speller:
     - derive/6/7/
     - derive/ⁿ/q/		#鼻化韻
     - derive/ŋ/ng/		#後鼻音
+    - derive/ik([^a-z])?/ek/
     - derive/iuⁿ/ioq/		#廈門市海滄區腔
     - derive/iŋ/eng/		#廈門市海滄區腔
     - derive/iat([^a-z])?/et/		#懶音
@@ -94,7 +95,7 @@ speller:
     - 'xlit 12345678 [/\]90-;'
 
 translator:
-  dictionary: banlam
+  dictionary: banlam_etai
   spelling_hints: 5
   preedit_format:
     - 'xform ([aeiou])(r?m?n*h?g?p?t?k?)([\[/\\\]90\-;]) $1$3$2'

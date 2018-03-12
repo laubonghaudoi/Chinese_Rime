@@ -24,7 +24,7 @@
         - 臺灣閩南語 - `blg_tai`
         - 漳腔閩南語 - `blg_tsiang`
         - 泉腔閩南語 - `blg_tsuan`
-        - 廈台閩語 - `blg_etai`
+    - 閩南語廈台腔專用版 - `blg_etai`
     - 潮语拼音输入法
         - 潮語拼音〔潮州〕 - `dieziu`
         - 潮語拼音〔潮阳〕 - `dioion`
