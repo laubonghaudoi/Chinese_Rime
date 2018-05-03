@@ -1,0 +1,178 @@
+﻿# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: KMG
+  name: 廣韻段毄攴字法
+  version: "2013.10.05"
+  author:
+    - "叔寍 <coywjs@gmail.com>"
+  description: |
+    以《廣韻》音系爲基礎旳合理拼音方案，單字碼長爲三，依次取聲母、介音加聲調、韻基。
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: half_shape
+    reset: 0
+    states: [ 全角, 半角 ]
+  - name: simplification
+    reset: 0
+    states: [ 漢字, 汉字 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: abcdefghijklmnopqrstuvwxyz
+  delimiter: " '"
+
+translator:
+  dictionary: kmg
+  preedit_format:
+    - xform/(^|[ '])q/$1kh/
+    - xform/(^|[ '])g/$1qg/
+    - xform/(^|[ '])k/$1qk/
+    - xform/(^|[ '])t/$1qt/
+    - xform/(^|[ '])d/$1qd/
+    - xform/(^|[ '])n/$1qn/
+    - xform/(^|[ '])p/$1qp/
+    - xform/(^|[ '])w/$1gh/
+    - xform/(^|[ '])e/$1tj/
+    - xform/(^|[ '])r/$1tc/
+    - xform/(^|[ '])y/$1qy/
+    - xform/(^|[ '])u/$1th/
+    - xform/(^|[ '])i/$1ng/
+    - xform/(^|[ '])o/$1qo/
+    - xform/(^|[ '])a/$1dj/
+    - xform/(^|[ '])s/$1qs/
+    - xform/(^|[ '])f/$1ph/
+    - xform/(^|[ '])h/$1qh/
+    - xform/(^|[ '])j/$1qz/
+    - xform/(^|[ '])l/$1ql/
+    - xform/(^|[ '])z/$1dz/
+    - xform/(^|[ '])x/$1ts/
+    - xform/(^|[ '])c/$1tz/
+    - xform/(^|[ '])v/$1qc/
+    - xform/(^|[ '])b/$1qb/
+    - xform/(^|[ '])m/$1qm/
+    - xform/(^|[ '])qg([wryusfhjxvnm])/$1gh$2/
+    - xform/(^|[ '])qn([tigkba])/$1nj$2/
+    - xform/(..)u(.)($|[ '])/$1uX$2$3/
+    - xform/(..)v(.)($|[ '])/$1rQ$2$3/
+    - xform/(..)i(.)($|[ '])/$1vX$2$3/
+    - xform/(..)r(.)($|[ '])/$1rX$2$3/
+    - xform/(..)s(.)($|[ '])/$1ruV$2$3/
+    - xform/(..)d(.)($|[ '])/$1riV$2$3/
+    - xform/(..)f(.)($|[ '])/$1rV$2$3/
+    - xform/(..)g(.)($|[ '])/$1iV$2$3/
+    - xform/(..)h(.)($|[ '])/$1V$2$3/
+    - xform/(..)j(.)($|[ '])/$1uV$2$3/
+    - xform/(..)k(.)($|[ '])/$1vV$2$3/
+    - xform/(..)l(.)($|[ '])/$1rvV$2$3/
+    - xform/(..)x(.)($|[ '])/$1ruQ$2$3/
+    - xform/(..)c(.)($|[ '])/$1riQ$2$3/
+    - xform/(..)b(.)($|[ '])/$1iQ$2$3/
+    - xform/(..)n(.)($|[ '])/$1Q$2$3/
+    - xform/(..)m(.)($|[ '])/$1uQ$2$3/
+    - xform/(..)a(.)($|[ '])/$1vQ$2$3/
+    - xform/(..)z(.)($|[ '])/$1rvQ$2$3/
+    - xform/(..)w(.)($|[ '])/$1ruX$2$3/
+    - xform/(..)e(.)($|[ '])/$1riX$2$3/
+    - xform/(..)t(.)($|[ '])/$1iX$2$3/
+    - xform/(..)y(.)($|[ '])/$1X$2$3/
+    - xform/(..)o(.)($|[ '])/$1rvX$2$3/
+    - xform/(^|[ '])(..)([VQX])i/$1$2ii$3/
+    - xform/(^|[ '])(..)r([VQX])i/$1$2rii$3/
+    - xform/(^|[ '])(..)u([VQX])i/$1$2vi$3/
+    - xform/(^|[ '])(..)ru([VQX])i/$1$2rvi$3/
+    - xform/(^|[ '])(..)(i|ri|v|rv)([VQX])i/$1$2$3e$4/
+    - xform/(^|[ '])(..)([VQX])o$/$1$2i$3/
+    - xform/(^|[ '])(..)r([VQX])o$/$1$2ri$3/
+    - xform/(\w)([VQX])o/$1o$2/
+    - xform/(\w)([VQX])u/$1oi$2/
+    - xform/(\w)([VQX])a/$1a$2/
+    - xform/(\w)([VQX])e/$1ou$2/
+    - xform/(\w)([VQX])q/$1ot/
+    - xform/(\w)([VQX])w/$1on$2/
+    - xform/(\w)u([VQX])r/$1op/
+    - xform/(\w)([VQX])r/$1om$2/
+    - xform/(\w)([VQX])t/$1uk/
+    - xform/(\w)([VQX])y/$1ei$2/
+    - xform/(\w)([VQX])p/$1eu$2/
+    - xform/(\w)([VQX])s/$1at/
+    - xform/(\w)([VQX])d/$1ak/
+    - xform/(\w)([VQX])f/$1an$2/
+    - xform/(\w)([VQX])g/$1ang$2/
+    - xform/(\w)([VQX])h/$1eng$2/
+    - xform/(\w)([VQX])j/$1en$2/
+    - xform/(\w)([VQX])k/$1ek/
+    - xform/(\w)([VQX])l/$1et/
+    - xform/(\w)([VQX])z/$1ai$2/
+    - xform/(\w)([VQX])x/$1au$2/
+    - xform/(\w)([VQX])c/$1ok/
+    - xform/(\w)([VQX])v/$1ong$2/
+    - xform/(\w)u([VQX])b/$1ap/
+    - xform/(\w)([VQX])b/$1am$2/
+    - xform/(\w)u([VQX])n/$1ep/
+    - xform/(\w)([VQX])n/$1em$2/
+    - xform/(\w)([VQX])m/$1ung$2/
+    - xform/rio(nV|nQ|nX|t)/ri$1/
+    - xform/rvo(nV|nQ|nX|t)/rvi$1/
+    - xform/ro([nt])/i$1/
+    - xform/ruo([nt])/vi$1/
+    - xform/(\w)V/$1/
+    - xform/(\w)Q/$1h/
+    - xform/(\w)X/$1s/
+    - xform/(^|[ '])q(\w)/$1$2/
+    - xform/(^|[ '])o(\w)/$1$2/
+    - xform/(^|\w)([jcy])i([^i])/$1$2$3/
+    - xform/(^|\w)([jcy])ri([^i])/$1$2r$3/
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+menu:
+  page_size: 9
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"

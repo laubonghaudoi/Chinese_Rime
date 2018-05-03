@@ -27,6 +27,7 @@ Linux、OS X与其他Windows版本系统下操作同理。
     - 爾切羅馬字 - `nieh_ched`
     - 廣韻查詢 - `middle_chinese_lookup`
     - 唐韻 - `Dangrvond`
+    - 廣韻段毄攴字法 - `kmg`
 - 粤语
     - 粤拼 - `jyutping`
     - 耶鲁粤语拼音 - `yale`
@@ -85,6 +86,7 @@ Linux、OS X与其他Windows版本系统下操作同理。
 - [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
 - [廣韻羅馬字](https://gist.github.com/lotem/3950485)
 - [爾切羅馬字](https://github.com/rime-aca/rime-nieh-ched)
+- [廣韻段毄攴字法](https://bintray.com/rime-aca/Schemata/KMG)
 - [潮語拼音](https://github.com/Kahaani/dieghv)
 - [平話字表](https://github.com/only3km/ciklinbekin)
 - [客拼](https://pan.baidu.com/s/1gd1JtdT#list/path=%2F)
