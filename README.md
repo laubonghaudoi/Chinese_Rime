@@ -1,8 +1,21 @@
 # Rime输入法汉语方言拼音方案全集
 
-本仓库收集现代汉语各大方言及上古、中古汉语的Rime字库，若要在自己的Rime输入法中添加以下语言，只需将本仓库中`\data`文件夹下所有文件复制至用户文件夹（例如Win10系统下的PRIME输入法，则路径为`C:\Users\用户名\AppData\Roaming\PIME\Rime`）下，修改`default.yaml`中的输入法列表，再重新部署即可。
+本仓库收集现代汉语各大方言及上古、中古汉语的Rime字库。
 
-#### 目前已收录语言及输入方案：
+若要在自己的Rime输入法中添加某一输入方案，只需将该方案的`.dict.yaml`和`.schema.yaml`文件复制到用户文件夹下，然后在`default.yaml`中添加方案名称，再重新部署即可。
+
+例如使用Win10系统下的PIME输入法，要添加上古全拼输入方案`dkzp`，则只需将`dkzp.dict.yaml`和`dkzp.schema.yaml`两个文件复制到路径`C:\Users\用户名\AppData\Roaming\PIME\Rime`下，然后打开该路径下的`default.yaml`，在`schema_list:`后加入`- schema: dkzp`，如下：
+```
+schema_list:
+  - schema: XXX
+  - schema: YYY
+  - schema: dkzp
+```
+保存后重新部署，再按Ctrl+`即可在菜单中选择上古全拼方案。
+
+Linux、OS X与其他Windows版本系统下操作同理。
+
+## 已收录方案
 
 - 上古汉语
     - 上古全拼 - `dkzp`
@@ -83,6 +96,10 @@
 - [poly日文](https://github.com/biopolyhedron/rime-jap-poly)
 - [古壮字拼音](https://zhuanlan.zhihu.com/p/24138023)
 
+## 资源
+
+- [Rime官网](http://rime.im/)
+- [Pime输入法](https://github.com/EasyIME/PIME/releases)
 ## 致谢
 
 - [lotem](https://github.com/lotem)
