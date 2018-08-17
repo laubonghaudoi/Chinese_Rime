@@ -113,4 +113,4 @@ Linux、OS X与其他Windows版本系统下操作同理。
 - [biopolyhedron](https://github.com/biopolyhedron)
 - [osfans](https://github.com/osfans)
 - [Kahaani](https://github.com/Kahaani)
-- [滕謄](https://www.zhihu.com/people/teng-teng-64-96/columns)
+- [滕謄](https://github.com/tengtengteng)
