@@ -34,6 +34,7 @@ Linux、OS X与其他Windows版本系统下操作同理。
     - 粤拼 - `jyutping`
     - 耶鲁粤语拼音 - `yale`
     - 梧州白話 - `NgZjau_JyutPing`
+    - 貴州韻 - `gvaizauvan`
 - 闽语
     - 泉漳閩南語輸入方案
         - 廈腔閩南語 - `blg_ha`
@@ -89,6 +90,7 @@ Linux、OS X与其他Windows版本系统下操作同理。
 - [廣韻羅馬字](https://gist.github.com/lotem/3950485)
 - [爾切羅馬字](https://github.com/rime-aca/rime-nieh-ched)
 - [廣韻段毄攴字法](https://bintray.com/rime-aca/Schemata/KMG)
+- [貴州韻](https://zhuanlan.zhihu.com/p/31464937)
 - [潮語拼音](https://github.com/Kahaani/dieghv)
 - [平話字表](https://github.com/only3km/ciklinbekin)
 - [客拼](https://pan.baidu.com/s/1gd1JtdT#list/path=%2F)
@@ -104,9 +106,11 @@ Linux、OS X与其他Windows版本系统下操作同理。
 
 - [Rime官网](http://rime.im/)
 - [Pime输入法](https://github.com/EasyIME/PIME/releases)
+
 ## 致谢
 
 - [lotem](https://github.com/lotem)
 - [biopolyhedron](https://github.com/biopolyhedron)
 - [osfans](https://github.com/osfans)
 - [Kahaani](https://github.com/Kahaani)
+- [滕謄](https://www.zhihu.com/people/teng-teng-64-96/columns)
