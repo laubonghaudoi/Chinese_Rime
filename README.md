@@ -80,6 +80,7 @@ Linux、OS X与其他Windows版本系统下操作同理。
 - 域外方音
     - 옛한글・漢字 - `qyeyshanglr_hanja`
     - 한글・漢字 - `hangyl_hanja`
+    - 한글 - `hangyl`
     - poly日文 - `jap_poly`
     - 古壮字拼音 - `sawndip`
     - 輸入法𡨸漢喃 - `hannomPS`
@@ -203,6 +204,7 @@ Linux、OS X與其他Windows版本系統下操作同理。
 - 域外方音
     - 옛한글・漢字 - `qyeyshanglr_hanja`
     - 한글・漢字 - `hangyl_hanja`
+    - 한글 - `hangyl`
     - poly日文 - `jap_poly`
     - 古壮字拼音 - `sawndip`
     - 輸入法𡨸漢喃 - `hannomPS`
@@ -325,6 +327,7 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
 - Foreign Dialects
     - 옛한글・漢字 - `qyeyshanglr_hanja`
     - 한글・漢字 - `hangyl_hanja`
+    - 한글 - `hangyl`
     - poly日文 - `jap_poly`
     - 古壮字拼音 - `sawndip`
     - 輸入法𡨸漢喃 - `hannomPS`
