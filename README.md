@@ -1,6 +1,6 @@
 # Rime输入法汉语方言拼音方案全集
 
-#### [简体中文](#Rime输入法汉语方言拼音方案全集)    [正體中文](#Rime輸入法漢語方言拼音方案全集)    [English](#Collections-of-Rime-Input-Method-Schemas-for-Chinese-Dialects)
+#### [简体中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_dict#rime%E8%BE%93%E5%85%A5%E6%B3%95%E6%B1%89%E8%AF%AD%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)    [正體中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_dict#rime%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)    [English](https://github.com/laubonghaudoi/Chinese_dialect_Rime_dict#collection-of-rime-input-method-schemas-for-chinese-dialects)
 
 本仓库收集现代汉语各大方言及上古、中古汉语的Rime字库。
 
