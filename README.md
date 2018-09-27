@@ -106,8 +106,13 @@ Linux、OS X与其他Windows版本系统下操作同理。
 
 ## 资源
 
-- [Rime官网](http://rime.im/)
-- [Pime输入法](https://github.com/EasyIME/PIME/releases)
+- 输入法软件
+    - [Rime官网](http://rime.im/)
+    - [Pime输入法](https://github.com/EasyIME/PIME/releases)
+- 语言资料
+    - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
+    - [薪典](http://syndict.com/)
+    - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
 
 ## 致谢
 
@@ -224,8 +229,13 @@ Linux、OS X與其他Windows版本系統下操作同理。
 
 ## 資源
 
-- [Rime官网](http://rime.im/)
-- [Pime输入法](https://github.com/EasyIME/PIME/releases)
+- 输入法软件
+    - [Rime官網](http://rime.im/)
+    - [Pime輸入法](https://github.com/EasyIME/PIME/releases)
+- 语言资料
+    - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
+    - [薪典](http://syndict.com/)
+    - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
 
 ## 致謝
 
@@ -341,8 +351,13 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
 
 ## Resources
 
-- [Rime官网](http://rime.im/)
-- [Pime输入法](https://github.com/EasyIME/PIME/releases)
+- Input Method Software
+    - [Rime Official Website](http://rime.im/)
+    - [Pime Input Method](https://github.com/EasyIME/PIME/releases)
+- Language Resources
+    - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
+    - [Syndict](http://syndict.com/)
+    - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
 
 ## Acknowledgements
 
