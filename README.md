@@ -229,10 +229,10 @@ Linux、OS X與其他Windows版本系統下操作同理。
 
 ## 資源
 
-- 输入法软件
+- 輸入法軟件
     - [Rime官網](http://rime.im/)
     - [Pime輸入法](https://github.com/EasyIME/PIME/releases)
-- 语言资料
+- 語言資料
     - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
     - [薪典](http://syndict.com/)
     - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
