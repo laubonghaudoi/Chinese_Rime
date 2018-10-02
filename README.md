@@ -253,14 +253,14 @@ This repo collects the Rime input method schemas and vocabularies for Archaic Ch
 
 To add support for a certain schema to your Rime input method, simply copy the `.dict.yaml` and `.schema.yaml` to the user folder, then append the schema id in `default.yaml` and re-deploy.
 
-For example, if you are using PIME under Windows 10, and would like to add support for the Achaic Chinese schema `dkzp`, simiply copy the two files `dkzp.dict.yaml` and `dkzp.schema.yaml` to `C:\Users\Username\AppData\Roaming\PIME\Rime`, then open `default.yaml` and append `- schema: dkzp` after `schema_list:`, like this:
+For example, if you are using PIME under Windows 10, and would like to add support for the Archaic Chinese schema `dkzp`, simiply copy the two files `dkzp.dict.yaml` and `dkzp.schema.yaml` to `C:\Users\Username\AppData\Roaming\PIME\Rime`, then open `default.yaml` and append `- schema: dkzp` after `schema_list:`, like this:
 ```
 schema_list:
   - schema: XXX
   - schema: YYY
   - schema: dkzp
 ```
-Then save and re-deploy, and press Ctrl+`. You will see the Achaic Chinese schema available in the menu.
+Then save and re-deploy, and press Ctrl+`. You will see the Archaic Chinese schema available in the menu.
 
 Steps are the similar under Linux, OS X and other versions of Windows operating systems.
 
