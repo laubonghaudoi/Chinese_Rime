@@ -111,6 +111,7 @@ Linux、OS X与其他Windows版本系统下操作同理。
     - [Rime官网](http://rime.im/)
     - [Pime输入法](https://github.com/EasyIME/PIME/releases)
 - 语言资料
+    - [中国语言资源保护工程 汉语方言用字规范](http://www.moe.gov.cn/s78/A19/A19_gggs/A19_sjhj/201704/W020170405307025943395.pdf)
     - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
     - [薪典](http://syndict.com/)
     - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
@@ -235,6 +236,7 @@ Linux、OS X與其他Windows版本系統下操作同理。
     - [Rime官網](http://rime.im/)
     - [Pime輸入法](https://github.com/EasyIME/PIME/releases)
 - 語言資料
+    - [中国语言资源保护工程 汉语方言用字规范](http://www.moe.gov.cn/s78/A19/A19_gggs/A19_sjhj/201704/W020170405307025943395.pdf)
     - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
     - [薪典](http://syndict.com/)
     - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
@@ -358,6 +360,7 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
     - [Rime Official Website](http://rime.im/)
     - [Pime Input Method](https://github.com/EasyIME/PIME/releases)
 - Language Resources
+    - [中国语言资源保护工程 汉语方言用字规范](http://www.moe.gov.cn/s78/A19/A19_gggs/A19_sjhj/201704/W020170405307025943395.pdf)
     - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
     - [Syndict](http://syndict.com/)
     - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
