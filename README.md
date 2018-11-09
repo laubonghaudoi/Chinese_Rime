@@ -116,6 +116,8 @@ Linux、OS X与其他Windows版本系统下操作同理。
     - [薪典](http://syndict.com/)
     - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
     - [潮语拼音教程](https://kahaani.github.io/gatian/index.html)
+    - [平話字表 (閩東語‣福州話)](https://only3km.github.io/ciklinbekin/)
+    - [貴州韻](https://github.com/tengtengteng/gvaizauvan/wiki)
 
 
 ## 致谢
@@ -243,6 +245,8 @@ Linux、OS X與其他Windows版本系統下操作同理。
     - [薪典](http://syndict.com/)
     - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
     - [潮语拼音教程](https://kahaani.github.io/gatian/index.html)
+    - [平話字表 (閩東語‣福州話)](https://only3km.github.io/ciklinbekin/)
+    - [貴州韻](https://github.com/tengtengteng/gvaizauvan/wiki)
 
 ## 致謝
 
@@ -368,6 +372,8 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
     - [Syndict](http://syndict.com/)
     - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
     - [潮语拼音教程](https://kahaani.github.io/gatian/index.html)
+    - [平話字表 (閩東語‣福州話)](https://only3km.github.io/ciklinbekin/)
+    - [貴州韻](https://github.com/tengtengteng/gvaizauvan/wiki)
 
 
 ## Acknowledgements
