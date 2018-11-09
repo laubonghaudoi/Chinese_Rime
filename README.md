@@ -87,7 +87,7 @@ Linux、OS X与其他Windows版本系统下操作同理。
 
 ## 部分方案数据来源
 
-- [中古全拼及三拼](https://github.com/biopolyhedron/rime-middle-chinese)
+- [中古漢語（切韻音系）全拼及三拼 ](https://github.com/biopolyhedron/rime-middle-chinese)
 - [中古四拼](https://github.com/inzoi/inzoi.github.io)
 - [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
 - [廣韻羅馬字](https://gist.github.com/lotem/3950485)
@@ -115,6 +115,8 @@ Linux、OS X与其他Windows版本系统下操作同理。
     - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
     - [薪典](http://syndict.com/)
     - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
+    - [潮语拼音教程](https://kahaani.github.io/gatian/index.html)
+
 
 ## 致谢
 
@@ -212,7 +214,7 @@ Linux、OS X與其他Windows版本系統下操作同理。
 
 ## 部分方案數據來源
 
-- [中古全拼及三拼](https://github.com/biopolyhedron/rime-middle-chinese)
+- [中古漢語（切韻音系）全拼及三拼 ](https://github.com/biopolyhedron/rime-middle-chinese)
 - [中古四拼](https://github.com/inzoi/inzoi.github.io)
 - [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
 - [廣韻羅馬字](https://gist.github.com/lotem/3950485)
@@ -240,6 +242,7 @@ Linux、OS X與其他Windows版本系統下操作同理。
     - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
     - [薪典](http://syndict.com/)
     - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
+    - [潮语拼音教程](https://kahaani.github.io/gatian/index.html)
 
 ## 致謝
 
@@ -336,7 +339,7 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
 
 ## Incomplete List of Data Sources
 
-- [中古全拼及三拼](https://github.com/biopolyhedron/rime-middle-chinese)
+- [中古漢語（切韻音系）全拼及三拼 ](https://github.com/biopolyhedron/rime-middle-chinese)
 - [中古四拼](https://github.com/inzoi/inzoi.github.io)
 - [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
 - [廣韻羅馬字](https://gist.github.com/lotem/3950485)
@@ -364,6 +367,8 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
     - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
     - [Syndict](http://syndict.com/)
     - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
+    - [潮语拼音教程](https://kahaani.github.io/gatian/index.html)
+
 
 ## Acknowledgements
 
