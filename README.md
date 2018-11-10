@@ -7,12 +7,14 @@
 若要在自己的Rime输入法中添加某一输入方案，只需将该方案的`.dict.yaml`和`.schema.yaml`文件复制到用户文件夹下，然后在`default.yaml`中添加方案名称，再重新部署即可。
 
 例如使用Win10系统下的PIME输入法，要添加上古全拼输入方案`dkzp`，则只需将`dkzp.dict.yaml`和`dkzp.schema.yaml`两个文件复制到路径`C:\Users\用户名\AppData\Roaming\PIME\Rime`下，然后打开该路径下的`default.yaml`，在`schema_list:`后加入`- schema: dkzp`，如下：
-```
+
+```yaml
 schema_list:
   - schema: XXX
   - schema: YYY
   - schema: dkzp
 ```
+
 保存后重新部署，再按Ctrl+`即可在菜单中选择上古全拼方案。
 
 Linux、OS X与其他Windows版本系统下操作同理。
@@ -36,6 +38,7 @@ Linux、OS X与其他Windows版本系统下操作同理。
     - 粤拼 - `jyutping`
     - 耶鲁粤语拼音 - `yale`
     - 梧州白話 - `NgZjau_JyutPing`
+    - 沟漏片藤县白话输入方案 - `jutjnyu_gaulaupin_dangjunbikwaa`
     - 貴州韻 - `gvaizauvan`
 - 闽语
     - 泉漳閩南語輸入方案
@@ -51,10 +54,14 @@ Linux、OS X与其他Windows版本系统下操作同理。
         - 潮語拼音〔汕头〕 - `suantau`
         - 潮語拼音〔澄海〕 - `tenghai`
         - 潮語拼音〔饒平〕 - `riaupeng`
+    - 潮汕话輸入方案
+        - 潮語 - `diege_j`
+        - 潮語（帶潮語形聲鍵盤） - `diege`
+        - 潮語（形聲鍵盤） - `diege_gb`
     - 平話字表 (閩東語‣福州話)
         - 戚林八音 - `ciklinbekin`
         - 福州話字典 - `dfd`
-- 客家语
+- 客家话
     - 客拼 - `hakka_pinyin`
 - 吴语
     - 蘇州吳語 - `soutzoe`
@@ -74,6 +81,16 @@ Linux、OS X与其他Windows版本系统下操作同理。
 - 晋语
     - 晋拼解州片 - `haitrou`
 - 官话
+    - 中原官話洛陽方言
+        - 洛陽羅馬字 - `lakyang`
+        - 洛陽註音 - `lakyang_chuim`
+    - 中原官話輸入方案
+        - 中州羅馬字 - `zhung`
+        - 中州打字速記法 - `zhung_stenotype`
+        - 中州注音法（四十二鍵） - `zhung_42`
+        - 中州羅馬字（並擊） - `zhung_combo`
+        - 中州注音法（轉寫） - `zhung_transcript`
+        - 中州注音法（並擊） - `zhung_combo_transcript`
     - 棗莊話羅馬字輸入方案
         - 嶧州話傳統羅馬字 - `yihdjoouhuah`
         - 嶧州話羅馬字 - `yihjoouhuah_romatzyh`
@@ -87,23 +104,30 @@ Linux、OS X与其他Windows版本系统下操作同理。
 
 ## 部分方案数据来源
 
-- [中古漢語（切韻音系）全拼及三拼 ](https://github.com/biopolyhedron/rime-middle-chinese)
-- [中古四拼](https://github.com/inzoi/inzoi.github.io)
-- [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
-- [廣韻羅馬字](https://gist.github.com/lotem/3950485)
-- [爾切羅馬字](https://github.com/rime-aca/rime-nieh-ched)
-- [廣韻段毄攴字法](https://bintray.com/rime-aca/Schemata/KMG)
-- [貴州韻](https://zhuanlan.zhihu.com/p/31464937)
-- [潮語拼音](https://github.com/Kahaani/dieghv)
-- [平話字表](https://github.com/only3km/ciklinbekin)
-- [客拼](https://pan.baidu.com/s/1gd1JtdT#list/path=%2F)
-- [閩南語輸入法](https://pan.baidu.com/share/link?shareid=875603941&uk=1043098103)
-- [吳語注音輸入方案吳語學堂版](http://www.wugniu.com/main/index.php?s=/Home/Article/detail/id/10.html)
-- [棗莊話羅馬字輸入方案](https://github.com/tsauibusato/yihdjoouhuah)
-- [옛한글・漢字](https://github.com/biopolyhedron/rime-qyeyshanglr-hanja)
-- [한글・漢字](https://github.com/rime-aca/rime-hangyl)
-- [poly日文](https://github.com/biopolyhedron/rime-jap-poly)
-- [古壮字拼音](https://zhuanlan.zhihu.com/p/24138023)
+- 中古汉语
+    - [中古漢語（切韻音系）全拼及三拼](https://github.com/biopolyhedron/rime-middle-chinese)
+    - [中古四拼](https://github.com/inzoi/inzoi.github.io)
+    - [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
+    - [廣韻羅馬字](https://gist.github.com/lotem/3950485)
+    - [爾切羅馬字](https://github.com/rime-aca/rime-nieh-ched)
+    - [廣韻段毄攴字法](https://bintray.com/rime-aca/Schemata/KMG)
+- 粤语
+    - [貴州韻](https://zhuanlan.zhihu.com/p/31464937)
+- 闽语
+    - [閩南語輸入法](https://pan.baidu.com/share/link?shareid=875603941&uk=1043098103)
+    - [潮語拼音](https://github.com/Kahaani/dieghv)
+    - [平話字表](https://github.com/only3km/ciklinbekin)
+- 客家话
+    - [客拼](https://pan.baidu.com/s/1gd1JtdT#list/path=%2F)
+- 吴语
+    - (已失效)[吳語注音輸入方案吳語學堂版](http://www.wugniu.com/main/index.php?s=/Home/Article/detail/id/10.html)
+- 官话
+    - [棗莊話羅馬字輸入方案](https://github.com/tsauibusato/yihdjoouhuah)
+- 域外方音
+    - [옛한글・漢字](https://github.com/biopolyhedron/rime-qyeyshanglr-hanja)
+    - [한글・漢字](https://github.com/rime-aca/rime-hangyl)
+    - [poly日文](https://github.com/biopolyhedron/rime-jap-poly)
+    - [古壮字拼音](https://zhuanlan.zhihu.com/p/24138023)
 
 ## 资源
 
@@ -118,7 +142,6 @@ Linux、OS X与其他Windows版本系统下操作同理。
     - [潮语拼音教程](https://kahaani.github.io/gatian/index.html)
     - [平話字表 (閩東語‣福州話)](https://only3km.github.io/ciklinbekin/)
     - [貴州韻](https://github.com/tengtengteng/gvaizauvan/wiki)
-
 
 ## 致谢
 
@@ -135,12 +158,14 @@ Linux、OS X与其他Windows版本系统下操作同理。
 若要在自己的Rime輸入法中添加某一輸入方案，只需將該方案的`.dict.yaml`和`.schema.yaml`文件復制到用戶文件夾下，然後在`default.yaml`中添加方案名稱，再重新部署即可。
 
 例如使用Win10系統下的PIME輸入法，要添加上古全拼輸入方案`dkzp`，則只需將`dkzp.dict.yaml`和`dkzp.schema.yaml`兩個文件復制到路徑`C:\Users\用戶名\AppData\Roaming\PIME\Rime`下，然後打開該路徑下的`default.yaml`，在`schema_list:`後加入`- schema: dkzp`，如下：
-```
+
+```yaml
 schema_list:
   - schema: XXX
   - schema: YYY
   - schema: dkzp
 ```
+
 保存後重新部署，再按Ctrl+`即可在菜單中選擇上古全拼方案。
 
 Linux、OS X與其他Windows版本系統下操作同理。
@@ -148,7 +173,6 @@ Linux、OS X與其他Windows版本系統下操作同理。
 ## 已收錄方案
 
 目前**主要缺失閩北語、蒲仙語、平語、湘語、贛語、徽語、西南官話、蘭銀官話、江淮官話、中原官話、膠遼官話**的輸入方案，如有作者已編寫以上語言的輸入方案，歡迎聯系我添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
-
 
 - 上古漢語
     - 上古全拼 - `dkzp`
@@ -165,6 +189,7 @@ Linux、OS X與其他Windows版本系統下操作同理。
     - 粤拼 - `jyutping`
     - 耶鲁粤语拼音 - `yale`
     - 梧州白話 - `NgZjau_JyutPing`
+    - 沟漏片藤县白话输入方案 - `jutjnyu_gaulaupin_dangjunbikwaa`
     - 貴州韻 - `gvaizauvan`
 - 閩語
     - 泉漳閩南語輸入方案
@@ -180,6 +205,10 @@ Linux、OS X與其他Windows版本系統下操作同理。
         - 潮語拼音〔汕头〕 - `suantau`
         - 潮語拼音〔澄海〕 - `tenghai`
         - 潮語拼音〔饒平〕 - `riaupeng`
+    - 潮汕话輸入方案
+        - 潮語 - `diege_j`
+        - 潮語（帶潮語形聲鍵盤） - `diege`
+        - 潮語（形聲鍵盤） - `diege_gb`
     - 平話字表 (閩東語‣福州話)
         - 戚林八音 - `ciklinbekin`
         - 福州話字典 - `dfd`
@@ -203,6 +232,16 @@ Linux、OS X與其他Windows版本系統下操作同理。
 - 晉語
     - 晋拼解州片 - `haitrou`
 - 官話
+    - 中原官話洛陽方言
+        - 洛陽羅馬字 - `lakyang`
+        - 洛陽註音 - `lakyang_chuim`
+    - 中原官話輸入方案
+        - 中州羅馬字 - `zhung`
+        - 中州打字速記法 - `zhung_stenotype`
+        - 中州注音法（四十二鍵） - `zhung_42`
+        - 中州羅馬字（並擊） - `zhung_combo`
+        - 中州注音法（轉寫） - `zhung_transcript`
+        - 中州注音法（並擊） - `zhung_combo_transcript`
     - 棗莊話羅馬字輸入方案
         - 嶧州話傳統羅馬字 - `yihdjoouhuah`
         - 嶧州話羅馬字 - `yihjoouhuah_romatzyh`
@@ -216,23 +255,30 @@ Linux、OS X與其他Windows版本系統下操作同理。
 
 ## 部分方案數據來源
 
-- [中古漢語（切韻音系）全拼及三拼 ](https://github.com/biopolyhedron/rime-middle-chinese)
-- [中古四拼](https://github.com/inzoi/inzoi.github.io)
-- [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
-- [廣韻羅馬字](https://gist.github.com/lotem/3950485)
-- [爾切羅馬字](https://github.com/rime-aca/rime-nieh-ched)
-- [廣韻段毄攴字法](https://bintray.com/rime-aca/Schemata/KMG)
-- [貴州韻](https://zhuanlan.zhihu.com/p/31464937)
-- [潮語拼音](https://github.com/Kahaani/dieghv)
-- [平話字表](https://github.com/only3km/ciklinbekin)
-- [客拼](https://pan.baidu.com/s/1gd1JtdT#list/path=%2F)
-- [閩南語輸入法](https://pan.baidu.com/share/link?shareid=875603941&uk=1043098103)
-- [吳語注音輸入方案吳語學堂版](http://www.wugniu.com/main/index.php?s=/Home/Article/detail/id/10.html)
-- [棗莊話羅馬字輸入方案](https://github.com/tsauibusato/yihdjoouhuah)
-- [옛한글・漢字](https://github.com/biopolyhedron/rime-qyeyshanglr-hanja)
-- [한글・漢字](https://github.com/rime-aca/rime-hangyl)
-- [poly日文](https://github.com/biopolyhedron/rime-jap-poly)
-- [古壮字拼音](https://zhuanlan.zhihu.com/p/24138023)
+- 中古漢語
+    - [中古漢語（切韻音系）全拼及三拼](https://github.com/biopolyhedron/rime-middle-chinese)
+    - [中古四拼](https://github.com/inzoi/inzoi.github.io)
+    - [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
+    - [廣韻羅馬字](https://gist.github.com/lotem/3950485)
+    - [爾切羅馬字](https://github.com/rime-aca/rime-nieh-ched)
+    - [廣韻段毄攴字法](https://bintray.com/rime-aca/Schemata/KMG)
+- 粵語
+    - [貴州韻](https://zhuanlan.zhihu.com/p/31464937)
+- 閩語
+    - [閩南語輸入法](https://pan.baidu.com/share/link?shareid=875603941&uk=1043098103)
+    - [潮語拼音](https://github.com/Kahaani/dieghv)
+    - [平話字表](https://github.com/only3km/ciklinbekin)
+- 客家話
+    - [客拼](https://pan.baidu.com/s/1gd1JtdT#list/path=%2F)
+- 吳語
+    - (已失效)[吳語注音輸入方案吳語學堂版](http://www.wugniu.com/main/index.php?s=/Home/Article/detail/id/10.html)
+- 官話
+    - [棗莊話羅馬字輸入方案](https://github.com/tsauibusato/yihdjoouhuah)
+- 域外方音
+    - [옛한글・漢字](https://github.com/biopolyhedron/rime-qyeyshanglr-hanja)
+    - [한글・漢字](https://github.com/rime-aca/rime-hangyl)
+    - [poly日文](https://github.com/biopolyhedron/rime-jap-poly)
+    - [古壮字拼音](https://zhuanlan.zhihu.com/p/24138023)
 
 ## 資源
 
@@ -263,12 +309,14 @@ This repo collects the Rime input method schemas and vocabularies for Archaic Ch
 To add support for a certain schema to your Rime input method, simply copy the `.dict.yaml` and `.schema.yaml` to the user folder, then append the schema id in `default.yaml` and re-deploy.
 
 For example, if you are using PIME under Windows 10, and would like to add support for the Archaic Chinese schema `dkzp`, simiply copy the two files `dkzp.dict.yaml` and `dkzp.schema.yaml` to `C:\Users\Username\AppData\Roaming\PIME\Rime`, then open `default.yaml` and append `- schema: dkzp` after `schema_list:`, like this:
-```
+
+```yaml
 schema_list:
   - schema: XXX
   - schema: YYY
   - schema: dkzp
 ```
+
 Then save and re-deploy, and press Ctrl+`. You will see the Archaic Chinese schema available in the menu.
 
 Steps are the similar under Linux, OS X and other versions of Windows operating systems.
@@ -292,6 +340,7 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
     - 粤拼 - `jyutping`
     - 耶鲁粤语拼音 - `yale`
     - 梧州白話 - `NgZjau_JyutPing`
+    - 沟漏片藤县白话输入方案 - `jutjnyu_gaulaupin_dangjunbikwaa`
     - 貴州韻 - `gvaizauvan`
 - Min (Hokkien)
     - 泉漳閩南語輸入方案
@@ -307,6 +356,10 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
         - 潮語拼音〔汕头〕 - `suantau`
         - 潮語拼音〔澄海〕 - `tenghai`
         - 潮語拼音〔饒平〕 - `riaupeng`
+    - 潮汕话輸入方案
+        - 潮語 - `diege_j`
+        - 潮語（帶潮語形聲鍵盤） - `diege`
+        - 潮語（形聲鍵盤） - `diege_gb`
     - 平話字表 (閩東語‣福州話)
         - 戚林八音 - `ciklinbekin`
         - 福州話字典 - `dfd`
@@ -330,6 +383,16 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
 - Jin
     - 晋拼解州片 - `haitrou`
 - Mandarin
+    - 中原官話洛陽方言
+        - 洛陽羅馬字 - `lakyang`
+        - 洛陽註音 - `lakyang_chuim`
+    - 中原官話輸入方案
+        - 中州羅馬字 - `zhung`
+        - 中州打字速記法 - `zhung_stenotype`
+        - 中州注音法（四十二鍵） - `zhung_42`
+        - 中州羅馬字（並擊） - `zhung_combo`
+        - 中州注音法（轉寫） - `zhung_transcript`
+        - 中州注音法（並擊） - `zhung_combo_transcript`
     - 棗莊話羅馬字輸入方案
         - 嶧州話傳統羅馬字 - `yihdjoouhuah`
         - 嶧州話羅馬字 - `yihjoouhuah_romatzyh`
@@ -343,23 +406,30 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
 
 ## Incomplete List of Data Sources
 
-- [中古漢語（切韻音系）全拼及三拼 ](https://github.com/biopolyhedron/rime-middle-chinese)
-- [中古四拼](https://github.com/inzoi/inzoi.github.io)
-- [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
-- [廣韻羅馬字](https://gist.github.com/lotem/3950485)
-- [爾切羅馬字](https://github.com/rime-aca/rime-nieh-ched)
-- [廣韻段毄攴字法](https://bintray.com/rime-aca/Schemata/KMG)
-- [貴州韻](https://zhuanlan.zhihu.com/p/31464937)
-- [潮語拼音](https://github.com/Kahaani/dieghv)
-- [平話字表](https://github.com/only3km/ciklinbekin)
-- [客拼](https://pan.baidu.com/s/1gd1JtdT#list/path=%2F)
-- [閩南語輸入法](https://pan.baidu.com/share/link?shareid=875603941&uk=1043098103)
-- [吳語注音輸入方案吳語學堂版](http://www.wugniu.com/main/index.php?s=/Home/Article/detail/id/10.html)
-- [棗莊話羅馬字輸入方案](https://github.com/tsauibusato/yihdjoouhuah)
-- [옛한글・漢字](https://github.com/biopolyhedron/rime-qyeyshanglr-hanja)
-- [한글・漢字](https://github.com/rime-aca/rime-hangyl)
-- [poly日文](https://github.com/biopolyhedron/rime-jap-poly)
-- [古壮字拼音](https://zhuanlan.zhihu.com/p/24138023)
+- Middle Chinese
+    - [中古漢語（切韻音系）全拼及三拼](https://github.com/biopolyhedron/rime-middle-chinese)
+    - [中古四拼](https://github.com/inzoi/inzoi.github.io)
+    - [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
+    - [廣韻羅馬字](https://gist.github.com/lotem/3950485)
+    - [爾切羅馬字](https://github.com/rime-aca/rime-nieh-ched)
+    - [廣韻段毄攴字法](https://bintray.com/rime-aca/Schemata/KMG)
+- Yue (Cantonese)
+    - [貴州韻](https://zhuanlan.zhihu.com/p/31464937)
+- Min (Hokkien)
+    - [閩南語輸入法](https://pan.baidu.com/share/link?shareid=875603941&uk=1043098103)
+    - [潮語拼音](https://github.com/Kahaani/dieghv)
+    - [平話字表](https://github.com/only3km/ciklinbekin)
+- Hakka
+    - [客拼](https://pan.baidu.com/s/1gd1JtdT#list/path=%2F)
+- Wu
+    - (Obsolete)[吳語注音輸入方案吳語學堂版](http://www.wugniu.com/main/index.php?s=/Home/Article/detail/id/10.html)
+- Mandarin
+    - [棗莊話羅馬字輸入方案](https://github.com/tsauibusato/yihdjoouhuah)
+- Foreign Dialects
+    - [옛한글・漢字](https://github.com/biopolyhedron/rime-qyeyshanglr-hanja)
+    - [한글・漢字](https://github.com/rime-aca/rime-hangyl)
+    - [poly日文](https://github.com/biopolyhedron/rime-jap-poly)
+    - [古壮字拼音](https://zhuanlan.zhihu.com/p/24138023)
 
 ## Resources
 
@@ -374,7 +444,6 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
     - [潮语拼音教程](https://kahaani.github.io/gatian/index.html)
     - [平話字表 (閩東語‣福州話)](https://only3km.github.io/ciklinbekin/)
     - [貴州韻](https://github.com/tengtengteng/gvaizauvan/wiki)
-
 
 ## Acknowledgements
 
