@@ -1,0 +1,105 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: zhung_transcript
+  name: 中州注音法（轉寫）
+  version: "0.4"
+  author:
+    - 佛振 <chen.sst@gmail.com>
+  description: |
+    老派鄭州話
+    以羅馬字轉寫注音符號
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - fluency_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba-:;<,/\'
+  initials: 'zyxwvutsrqponmlkjihgfedcba'
+  delimiter: " '"
+  algebra:
+    - derive/^yi?/i/
+    - derive/^wu?/u/
+    - derive/^wu/vu/
+    - derive/^([vw])u([in])/$1e$2/
+    - derive/^([jqx])([^i])/$1i$2/
+    - derive/ui/uei/
+    - derive/([iu])n/$1en/
+    - derive/^([zcsr]h?)y/$1/
+    - derive/^rh/r/
+    #- derive/iu/y/
+    #- derive/el/w/
+    #- derive/([aou])l/$1w/
+    - derive/^w(a|au|ang?|en)/v$1/
+    - abbrev/^([bpmfvdtnlgkhjqxyw]|[zcsr]h?).+$/$1/
+    - derive/^([A-Za-z]+)\d$/$1/
+    - 'xlit|1234|-</\|'
+    - 'derive/^(.*)-$/$1:/'
+    - 'derive/^(.*)-$/$1;/'
+    - 'derive/^(.*)<$/$1,/'
+
+translator:
+  dictionary: zhung
+  prism: zhung_transcript
+  preedit_format:
+    - "xform/(^|[ '])yi?/$1i/"
+    - "xform/(^|[ '])wu?/$1u/"
+    - xform/([zcsr]h?)y/$1/
+    - xform/([zcsr])h/\U$1/
+    - xform/iu/Y/
+    - xform/([jqx])u/$1Y/
+    - xform/el/W/
+    - xform/([aou])l/$1W/
+    - xform/eo/O/
+    - xform/ai/I/
+    - xform/ei/E/
+    - xform/ui/uE/
+    - xform/au/A/
+    - xform/ou/U/
+    - xform/ang/K/
+    - xform/eng/G/
+    - xform/([iuY])ng/$1G/
+    - xform/an/M/
+    - xform/en/N/
+    - xform/([iuY])n/$1N/
+    - 'xlit|:;,|--<|'
+    - 'xlit|bpmfvdtnlgkhjqxZCSRzcsriuYWaoOeIEAUMNKG-</\|ㄅㄆㄇㄈㄪㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄖㄧㄨㄩㄦㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥˉˆˊˋ|'
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
