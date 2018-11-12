@@ -2,7 +2,13 @@
 
 #### [简体中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_dict#rime%E8%BE%93%E5%85%A5%E6%B3%95%E6%B1%89%E8%AF%AD%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)    [正體中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_dict#rime%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)    [English](https://github.com/laubonghaudoi/Chinese_dialect_Rime_dict#collection-of-rime-input-method-schemas-for-chinese-dialects)
 
-本仓库收集现代汉语各大方言及上古、中古汉语的Rime字库。
+## 项目宗旨
+
+本仓库收集现代汉语各大方言及上古、中古汉语的Rime字库和拼音输入方案。本项目的宗旨是为汉语非普通话使用者提供实用的拼音输入方案，解决被迫使用普通话输入法的困难，并为现代汉语方言、古汉语学习者提供实用便利的学习工具以及为语言学界学术研究提供参考资料。
+
+本仓库分为两部分：`data/`路径下为各个输入方案的来源仓库，以submodule的形式保存，方便方案作者实时更新自己的方案。由于部分方案不存在于Github，故此路径下方案收录不完整，`download/`路径下为已收录所有方案的下载版，可直接部署使用。我会检查`data/`下各个方案的更新情况并将最新版本方案覆盖至`download/`中，确保直接下载的方案为最新版本。
+
+## 使用教程
 
 若要在自己的Rime输入法中添加某一输入方案，只需将该方案的`.dict.yaml`和`.schema.yaml`文件复制到用户文件夹下，然后在`default.yaml`中添加方案名称，再重新部署即可。
 
@@ -21,7 +27,7 @@ Linux、OS X与其他Windows版本系统下操作同理。
 
 ## 已收录方案
 
-目前**主要缺失闽北语、蒲仙语、平语、湘语、赣语、徽语、西南官话、兰银官话、江淮官话、中原官话、胶辽官话**的输入方案，如有作者已编写以上语言的输入方案，欢迎联系我添加收录。其他汉语或域外方音的方案亦强烈欢迎。
+目前**主要缺失闽北语、蒲仙语、平语、湘语、赣语、徽语、西南官话、兰银官话、江淮官话、胶辽官话**的输入方案，如有作者已编写以上语言的输入方案，欢迎联系我添加收录。其他汉语或域外方音的方案亦强烈欢迎。
 
 - 上古汉语
     - 上古全拼 - `dkzp`
@@ -136,10 +142,13 @@ Linux、OS X与其他Windows版本系统下操作同理。
     - [Pime输入法](https://github.com/EasyIME/PIME/releases)
 - 语言资料
     - [中国语言资源保护工程 汉语方言用字规范](http://www.moe.gov.cn/s78/A19/A19_gggs/A19_sjhj/201704/W020170405307025943395.pdf)
+    - [乡音苑](http://phonemica.net/)
     - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
     - [薪典](http://syndict.com/)
     - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
     - [潮语拼音教程](https://kahaani.github.io/gatian/index.html)
+    - [潮州音字典](http://www.czyzd.com/)
+    - [潮州·母语](https://www.mogher.com/)
     - [平話字表 (閩東語‣福州話)](https://only3km.github.io/ciklinbekin/)
     - [貴州韻](https://github.com/tengtengteng/gvaizauvan/wiki)
 
@@ -153,7 +162,13 @@ Linux、OS X与其他Windows版本系统下操作同理。
 
 # Rime輸入法漢語方言拼音方案全集
 
-本倉庫收集現代漢語各大方言及上古、中古漢語的Rime字庫。
+## 項目宗旨
+
+本倉庫收集現代漢語各大方言及上古、中古漢語的Rime字庫和拼音輸入方案。本項目的宗旨是爲漢語非普通話使用者提供實用的拼音輸入方案，解決被迫使用普通話輸入法的困難，並爲現代漢語方言、古漢語學習者提供實用便利的學習工具以及爲語言學界學術研究提供參考資料。
+
+本倉庫分爲兩部分：`data/`路徑下爲各個輸入方案的來源倉庫，而submodule的形式保存，方便方案作者實時更新自己的方案。由於部分方案不存在於Github，故此路徑下方案收錄不完整，`download/`路徑下爲已收錄所有方案的下載版，可直接部署使用。我會檢查`data/`下各個方案的更新情況並將最新版本方案覆蓋至`download/`中，確保直接下載的方案爲最新版本。
+
+## 使用教程
 
 若要在自己的Rime輸入法中添加某一輸入方案，只需將該方案的`.dict.yaml`和`.schema.yaml`文件復制到用戶文件夾下，然後在`default.yaml`中添加方案名稱，再重新部署即可。
 
@@ -172,7 +187,7 @@ Linux、OS X與其他Windows版本系統下操作同理。
 
 ## 已收錄方案
 
-目前**主要缺失閩北語、蒲仙語、平語、湘語、贛語、徽語、西南官話、蘭銀官話、江淮官話、中原官話、膠遼官話**的輸入方案，如有作者已編寫以上語言的輸入方案，歡迎聯系我添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
+目前**主要缺失閩北語、蒲仙語、平語、湘語、贛語、徽語、西南官話、蘭銀官話、江淮官話、膠遼官話**的輸入方案，如有作者已編寫以上語言的輸入方案，歡迎聯系我添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
 - 上古漢語
     - 上古全拼 - `dkzp`
@@ -212,7 +227,7 @@ Linux、OS X與其他Windows版本系統下操作同理。
     - 平話字表 (閩東語‣福州話)
         - 戚林八音 - `ciklinbekin`
         - 福州話字典 - `dfd`
-- 客家語
+- 客家話
     - 客拼 - `hakka_pinyin`
 - 吳語
     - 蘇州吳語 - `soutzoe`
@@ -287,10 +302,13 @@ Linux、OS X與其他Windows版本系統下操作同理。
     - [Pime輸入法](https://github.com/EasyIME/PIME/releases)
 - 語言資料
     - [中国语言资源保护工程 汉语方言用字规范](http://www.moe.gov.cn/s78/A19/A19_gggs/A19_sjhj/201704/W020170405307025943395.pdf)
+    - [鄉音苑](http://phonemica.net/)
     - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
     - [薪典](http://syndict.com/)
     - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
     - [潮语拼音教程](https://kahaani.github.io/gatian/index.html)
+    - [潮州音字典](http://www.czyzd.com/)
+    - [潮州·母语](https://www.mogher.com/)
     - [平話字表 (閩東語‣福州話)](https://only3km.github.io/ciklinbekin/)
     - [貴州韻](https://github.com/tengtengteng/gvaizauvan/wiki)
 
@@ -304,7 +322,13 @@ Linux、OS X與其他Windows版本系統下操作同理。
 
 # Collection of Rime Input Method Schemas for Chinese Dialects
 
-This repo collects the Rime input method schemas and vocabularies for Archaic Chinese, Middle Chinese and modern Chinese dialects.
+## The Mission of this Project
+
+This repo collects the Rime phonetic spelling input method schemas and vocabularies for Archaic Chinese, Middle Chinese and modern Chinese dialects. This project is dedicated to providing useful phonetic spelling input methods for all non-Mandarin Chinese dialects, preventing the stale where non-Mandarin Chinese speakers are compelled to use Mandarin input methods. In addition, this project also serves as a useful tool for Chinese dialect learners and a reference for linguistic research.
+
+This repo works as two parts. Folders under the `data/` directory are the sources of some schemas, which are reserved as submodules so that authors of these repos can keep their schemas up to date. Since not all schemas are created on Github, the collection of schemas under this directory is incomplete. The folders under `download/` are off-the-shelf version of the all collected schemas, which you can download, deploy and use directly. I will check the version of schemas under `data/` and copy the newest version to `download/`, to make sure all off-the-shelf schemas are updated.
+
+## Tutorial
 
 To add support for a certain schema to your Rime input method, simply copy the `.dict.yaml` and `.schema.yaml` to the user folder, then append the schema id in `default.yaml` and re-deploy.
 
@@ -323,7 +347,7 @@ Steps are the similar under Linux, OS X and other versions of Windows operating 
 
 ## Collected Schemas
 
-At the moment this is collection **is missing the schemas for Northern Min, Pu-Xian Min, Pinghua, Xiang, Gan, Huizhou, Lower Yangtze Mandarin, Central Plains Mandarin, Lan–Yin Mandarin, Southwestern Mandarin**. If you have composed a schema for any of the languages above, please contact me to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
+At the moment this is collection **is missing the schemas for Northern Min, Pu-Xian Min, Pinghua, Xiang, Gan, Huizhou, Lower Yangtze Mandarin, Lan–Yin Mandarin, Southwestern Mandarin**. If you have composed a schema for any of the languages above, please contact me to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
 
 - Archaic Chinese
     - 上古全拼 - `dkzp`
@@ -438,10 +462,13 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
     - [Pime Input Method](https://github.com/EasyIME/PIME/releases)
 - Language Resources
     - [中国语言资源保护工程 汉语方言用字规范](http://www.moe.gov.cn/s78/A19/A19_gggs/A19_sjhj/201704/W020170405307025943395.pdf)
+    - [Phonemica](http://phonemica.net/)
     - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
     - [Syndict](http://syndict.com/)
     - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
     - [潮语拼音教程](https://kahaani.github.io/gatian/index.html)
+    - [潮州音字典](http://www.czyzd.com/)
+    - [潮州·母语](https://www.mogher.com/)
     - [平話字表 (閩東語‣福州話)](https://only3km.github.io/ciklinbekin/)
     - [貴州韻](https://github.com/tengtengteng/gvaizauvan/wiki)
 
