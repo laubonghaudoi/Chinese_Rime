@@ -108,31 +108,23 @@ Linux、OS X与其他Windows版本系统下操作同理。
     - 古壮字拼音 - `sawndip`
     - 輸入法𡨸漢喃 - `hannomPS`
 
-## 部分方案数据来源
+## 部分方案数据来源（非Github submodule）
 
 - 中古汉语
-    - [中古漢語（切韻音系）全拼及三拼](https://github.com/biopolyhedron/rime-middle-chinese)
-    - [中古四拼](https://github.com/inzoi/inzoi.github.io)
     - [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
     - [廣韻羅馬字](https://gist.github.com/lotem/3950485)
-    - [爾切羅馬字](https://github.com/rime-aca/rime-nieh-ched)
     - [廣韻段毄攴字法](https://bintray.com/rime-aca/Schemata/KMG)
 - 粤语
     - [貴州韻](https://zhuanlan.zhihu.com/p/31464937)
 - 闽语
-    - [閩南語輸入法](https://pan.baidu.com/share/link?shareid=875603941&uk=1043098103)
-    - [潮語拼音](https://github.com/Kahaani/dieghv)
-    - [平話字表](https://github.com/only3km/ciklinbekin)
+    - （均来自Github）
 - 客家话
-    - [客拼](https://pan.baidu.com/s/1gd1JtdT#list/path=%2F)
+    - （均来自Github）
 - 吴语
     - (已失效)[吳語注音輸入方案吳語學堂版](http://www.wugniu.com/main/index.php?s=/Home/Article/detail/id/10.html)
 - 官话
-    - [棗莊話羅馬字輸入方案](https://github.com/tsauibusato/yihdjoouhuah)
+    - （均来自Github）
 - 域外方音
-    - [옛한글・漢字](https://github.com/biopolyhedron/rime-qyeyshanglr-hanja)
-    - [한글・漢字](https://github.com/rime-aca/rime-hangyl)
-    - [poly日文](https://github.com/biopolyhedron/rime-jap-poly)
     - [古壮字拼音](https://zhuanlan.zhihu.com/p/24138023)
 
 ## 资源
@@ -140,9 +132,14 @@ Linux、OS X与其他Windows版本系统下操作同理。
 - 输入法软件
     - [Rime官网](http://rime.im/)
     - [Pime输入法](https://github.com/EasyIME/PIME/releases)
-- 语言资料
+    - [iRime输入法](https://itunes.apple.com/us/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E4%BA%94%E7%AC%94%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977?mt=8)
+    - [同文输入法](https://play.google.com/store/apps/details?id=com.osfans.trime&hl=zh)
+- 语言学参考
     - [中国语言资源保护工程 汉语方言用字规范](http://www.moe.gov.cn/s78/A19/A19_gggs/A19_sjhj/201704/W020170405307025943395.pdf)
+    - [中国语言资源保护工程采录展示平台](https://zhongguoyuyan.cn/)
+    - [家乡话](http://jiaxianghua.org)
     - [乡音苑](http://phonemica.net/)
+- 语言学习资源
     - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
     - [薪典](http://syndict.com/)
     - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
@@ -268,31 +265,23 @@ Linux、OS X與其他Windows版本系統下操作同理。
     - 古壮字拼音 - `sawndip`
     - 輸入法𡨸漢喃 - `hannomPS`
 
-## 部分方案數據來源
+## 部分方案數據來源（非Github submodule）
 
 - 中古漢語
-    - [中古漢語（切韻音系）全拼及三拼](https://github.com/biopolyhedron/rime-middle-chinese)
-    - [中古四拼](https://github.com/inzoi/inzoi.github.io)
     - [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
     - [廣韻羅馬字](https://gist.github.com/lotem/3950485)
-    - [爾切羅馬字](https://github.com/rime-aca/rime-nieh-ched)
     - [廣韻段毄攴字法](https://bintray.com/rime-aca/Schemata/KMG)
 - 粵語
     - [貴州韻](https://zhuanlan.zhihu.com/p/31464937)
 - 閩語
-    - [閩南語輸入法](https://pan.baidu.com/share/link?shareid=875603941&uk=1043098103)
-    - [潮語拼音](https://github.com/Kahaani/dieghv)
-    - [平話字表](https://github.com/only3km/ciklinbekin)
+    - （均來自Github）
 - 客家話
-    - [客拼](https://pan.baidu.com/s/1gd1JtdT#list/path=%2F)
+    - （均來自Github）
 - 吳語
     - (已失效)[吳語注音輸入方案吳語學堂版](http://www.wugniu.com/main/index.php?s=/Home/Article/detail/id/10.html)
 - 官話
-    - [棗莊話羅馬字輸入方案](https://github.com/tsauibusato/yihdjoouhuah)
+    - （均來自Github）
 - 域外方音
-    - [옛한글・漢字](https://github.com/biopolyhedron/rime-qyeyshanglr-hanja)
-    - [한글・漢字](https://github.com/rime-aca/rime-hangyl)
-    - [poly日文](https://github.com/biopolyhedron/rime-jap-poly)
     - [古壮字拼音](https://zhuanlan.zhihu.com/p/24138023)
 
 ## 資源
@@ -300,9 +289,14 @@ Linux、OS X與其他Windows版本系統下操作同理。
 - 輸入法軟件
     - [Rime官網](http://rime.im/)
     - [Pime輸入法](https://github.com/EasyIME/PIME/releases)
-- 語言資料
+    - [iRime輸入法](https://itunes.apple.com/us/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E4%BA%94%E7%AC%94%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977?mt=8)
+    - [同文輸入法](https://play.google.com/store/apps/details?id=com.osfans.trime&hl=zh)
+- 語言學參考
     - [中国语言资源保护工程 汉语方言用字规范](http://www.moe.gov.cn/s78/A19/A19_gggs/A19_sjhj/201704/W020170405307025943395.pdf)
+    - [中国语言资源保护工程采录展示平台](https://zhongguoyuyan.cn/)
+    - [家乡话](http://jiaxianghua.org)
     - [鄉音苑](http://phonemica.net/)
+- 語言學習資源
     - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
     - [薪典](http://syndict.com/)
     - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
@@ -428,31 +422,23 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
     - 古壮字拼音 - `sawndip`
     - 輸入法𡨸漢喃 - `hannomPS`
 
-## Incomplete List of Data Sources
+## Incomplete List of Data Sources (non-Github submodules)
 
 - Middle Chinese
-    - [中古漢語（切韻音系）全拼及三拼](https://github.com/biopolyhedron/rime-middle-chinese)
-    - [中古四拼](https://github.com/inzoi/inzoi.github.io)
     - [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
     - [廣韻羅馬字](https://gist.github.com/lotem/3950485)
-    - [爾切羅馬字](https://github.com/rime-aca/rime-nieh-ched)
     - [廣韻段毄攴字法](https://bintray.com/rime-aca/Schemata/KMG)
 - Yue (Cantonese)
     - [貴州韻](https://zhuanlan.zhihu.com/p/31464937)
 - Min (Hokkien)
-    - [閩南語輸入法](https://pan.baidu.com/share/link?shareid=875603941&uk=1043098103)
-    - [潮語拼音](https://github.com/Kahaani/dieghv)
-    - [平話字表](https://github.com/only3km/ciklinbekin)
+    - (All from Github)
 - Hakka
-    - [客拼](https://pan.baidu.com/s/1gd1JtdT#list/path=%2F)
+    - (All from Github)
 - Wu
     - (Obsolete)[吳語注音輸入方案吳語學堂版](http://www.wugniu.com/main/index.php?s=/Home/Article/detail/id/10.html)
 - Mandarin
-    - [棗莊話羅馬字輸入方案](https://github.com/tsauibusato/yihdjoouhuah)
+    - (All from Github)
 - Foreign Dialects
-    - [옛한글・漢字](https://github.com/biopolyhedron/rime-qyeyshanglr-hanja)
-    - [한글・漢字](https://github.com/rime-aca/rime-hangyl)
-    - [poly日文](https://github.com/biopolyhedron/rime-jap-poly)
     - [古壮字拼音](https://zhuanlan.zhihu.com/p/24138023)
 
 ## Resources
@@ -460,9 +446,14 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
 - Input Method Software
     - [Rime Official Website](http://rime.im/)
     - [Pime Input Method](https://github.com/EasyIME/PIME/releases)
-- Language Resources
+    - [iRime Input Method](https://itunes.apple.com/us/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E4%BA%94%E7%AC%94%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977?mt=8)
+    - [同文Input Method](https://play.google.com/store/apps/details?id=com.osfans.trime&hl=zh)
+- Linguistics References
     - [中国语言资源保护工程 汉语方言用字规范](http://www.moe.gov.cn/s78/A19/A19_gggs/A19_sjhj/201704/W020170405307025943395.pdf)
+    - [中国语言资源保护工程采录展示平台](https://zhongguoyuyan.cn/)
+    - [家乡话](http://jiaxianghua.org)
     - [Phonemica](http://phonemica.net/)
+- Language Learning Resources
     - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
     - [Syndict](http://syndict.com/)
     - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
