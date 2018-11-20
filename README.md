@@ -41,7 +41,10 @@ Linux、OS X与其他Windows版本系统下操作同理。
     - 唐韻 - `Dangrvond`
     - 廣韻段毄攴字法 - `kmg`
 - 粤语
-    - 粤拼 - `jyutping`
+    - 粤拼
+        - 粵拼 - `jyutping`
+        - 耶魯粵語拼音 - `yale`
+        - 香港廣東話拼音 - `hkcantonese`
     - 粵拼⁺ - `jyutping+`
     - 粵語注音 - `zyujam`
     - 袖珍粵拼 - `jyutping_compact`
@@ -202,7 +205,10 @@ Linux、OS X與其他Windows版本系統下操作同理。
     - 唐韻 - `Dangrvond`
     - 廣韻段毄攴字法 - `kmg`
 - 粵語
-    - 粤拼 - `jyutping`
+    - 粤拼
+        - 粵拼 - `jyutping`
+        - 耶魯粵語拼音 - `yale`
+        - 香港廣東話拼音 - `hkcantonese`
     - 粵拼⁺ - `jyutping+`
     - 粵語注音 - `zyujam`
     - 袖珍粵拼 - `jyutping_compact`
@@ -363,7 +369,10 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
     - 唐韻 - `Dangrvond`
     - 廣韻段毄攴字法 - `kmg`
 - Yue (Cantonese)
-    - 粤拼 - `jyutping`
+    - 粤拼
+        - 粵拼 - `jyutping`
+        - 耶魯粵語拼音 - `yale`
+        - 香港廣東話拼音 - `hkcantonese`
     - 粵拼⁺ - `jyutping+`
     - 粵語注音 - `zyujam`
     - 袖珍粵拼 - `jyutping_compact`
