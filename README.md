@@ -158,10 +158,17 @@ Linux、OS X与其他Windows版本系统下操作同理。
 
 ## 致谢
 
-- [lotem](https://github.com/lotem)
+- [a-thok](https://github.com/a-thok)
 - [biopolyhedron](https://github.com/biopolyhedron)
+- [cryptogun](https://github.com/cryptogun)
+- [Hector Sioh](https://github.com/only3km)
+- [inzoi](https://github.com/inzoi)
+- [lois.左](https://github.com/xunux)
 - [osfans](https://github.com/osfans)
-- [Kahaani](https://github.com/Kahaani)
+- [Patrick T.](https://github.com/Patricivs)
+- [Tenda Huang](https://github.com/Kahaani)
+- [tsauibusato](https://github.com/tsauibusato)
+- [佛振](https://github.com/lotem)
 - [滕謄](https://github.com/tengtengteng)
 
 # Rime輸入法漢語方言拼音方案全集
@@ -322,10 +329,17 @@ Linux、OS X與其他Windows版本系統下操作同理。
 
 ## 致謝
 
-- [lotem](https://github.com/lotem)
+- [a-thok](https://github.com/a-thok)
 - [biopolyhedron](https://github.com/biopolyhedron)
+- [cryptogun](https://github.com/cryptogun)
+- [Hector Sioh](https://github.com/only3km)
+- [inzoi](https://github.com/inzoi)
+- [lois.左](https://github.com/xunux)
 - [osfans](https://github.com/osfans)
-- [Kahaani](https://github.com/Kahaani)
+- [Patrick T.](https://github.com/Patricivs)
+- [Tenda Huang](https://github.com/Kahaani)
+- [tsauibusato](https://github.com/tsauibusato)
+- [佛振](https://github.com/lotem)
 - [滕謄](https://github.com/tengtengteng)
 
 # Collection of Rime Input Method Schemas for Chinese Dialects
@@ -486,8 +500,15 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
 
 ## Acknowledgements
 
-- [lotem](https://github.com/lotem)
+- [a-thok](https://github.com/a-thok)
 - [biopolyhedron](https://github.com/biopolyhedron)
+- [cryptogun](https://github.com/cryptogun)
+- [Hector Sioh](https://github.com/only3km)
+- [inzoi](https://github.com/inzoi)
+- [lois.左](https://github.com/xunux)
 - [osfans](https://github.com/osfans)
-- [Kahaani](https://github.com/Kahaani)
+- [Patrick T.](https://github.com/Patricivs)
+- [Tenda Huang](https://github.com/Kahaani)
+- [tsauibusato](https://github.com/tsauibusato)
+- [佛振](https://github.com/lotem)
 - [滕謄](https://github.com/tengtengteng)
