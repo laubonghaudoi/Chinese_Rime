@@ -42,6 +42,9 @@ Linux、OS X与其他Windows版本系统下操作同理。
     - 廣韻段毄攴字法 - `kmg`
 - 粤语
     - 粤拼 - `jyutping`
+    - 粵拼⁺ - `jyutping+`
+    - 粵語注音 - `zyujam`
+    - 袖珍粵拼 - `jyutping_compact`
     - 耶鲁粤语拼音 - `yale`
     - 梧州白話 - `NgZjau_JyutPing`
     - 沟漏片藤县白话输入方案 - `jutjnyu_gaulaupin_dangjunbikwaa`
@@ -53,6 +56,7 @@ Linux、OS X与其他Windows版本系统下操作同理。
         - 漳腔閩南語 - `blg_tsiang`
         - 泉腔閩南語 - `blg_tsuan`
     - 閩南語廈台腔專用版 - `blg_etai`
+    - 閩倂輸入灋 - `mp`
     - 潮语拼音输入法
         - 潮語拼音〔潮州〕 - `dieziu`
         - 潮語拼音〔潮阳〕 - `dioion`
@@ -199,6 +203,9 @@ Linux、OS X與其他Windows版本系統下操作同理。
     - 廣韻段毄攴字法 - `kmg`
 - 粵語
     - 粤拼 - `jyutping`
+    - 粵拼⁺ - `jyutping+`
+    - 粵語注音 - `zyujam`
+    - 袖珍粵拼 - `jyutping_compact`
     - 耶鲁粤语拼音 - `yale`
     - 梧州白話 - `NgZjau_JyutPing`
     - 沟漏片藤县白话输入方案 - `jutjnyu_gaulaupin_dangjunbikwaa`
@@ -210,6 +217,7 @@ Linux、OS X與其他Windows版本系統下操作同理。
         - 漳腔閩南語 - `blg_tsiang`
         - 泉腔閩南語 - `blg_tsuan`
     - 閩南語廈台腔專用版 - `blg_etai`
+    - 閩倂輸入灋 - `mp`
     - 潮语拼音输入法
         - 潮語拼音〔潮州〕 - `dieziu`
         - 潮語拼音〔潮阳〕 - `dioion`
@@ -356,6 +364,9 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
     - 廣韻段毄攴字法 - `kmg`
 - Yue (Cantonese)
     - 粤拼 - `jyutping`
+    - 粵拼⁺ - `jyutping+`
+    - 粵語注音 - `zyujam`
+    - 袖珍粵拼 - `jyutping_compact`
     - 耶鲁粤语拼音 - `yale`
     - 梧州白話 - `NgZjau_JyutPing`
     - 沟漏片藤县白话输入方案 - `jutjnyu_gaulaupin_dangjunbikwaa`
@@ -367,6 +378,7 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
         - 漳腔閩南語 - `blg_tsiang`
         - 泉腔閩南語 - `blg_tsuan`
     - 閩南語廈台腔專用版 - `blg_etai`
+    - 閩倂輸入灋 - `mp`
     - 潮语拼音输入法
         - 潮語拼音〔潮州〕 - `dieziu`
         - 潮語拼音〔潮阳〕 - `dioion`
