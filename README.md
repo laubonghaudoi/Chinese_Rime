@@ -1,6 +1,6 @@
 # Rime输入法汉语方言拼音方案全集
 
-#### [简体中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#rime%E8%BE%93%E5%85%A5%E6%B3%95%E6%B1%89%E8%AF%AD%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)    [正體中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#rime%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)    [English](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#collection-of-rime-input-method-schemas-for-chinese-dialects)
+**[简体中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#rime%E8%BE%93%E5%85%A5%E6%B3%95%E6%B1%89%E8%AF%AD%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)    [正體中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#rime%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)    [English](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#collection-of-rime-input-method-schemas-for-chinese-dialects)**
 
 ## 项目宗旨
 
@@ -144,17 +144,27 @@ Linux、OS X与其他Windows版本系统下操作同理。
 - 语言学参考
     - [中国语言资源保护工程 汉语方言用字规范](http://www.moe.gov.cn/s78/A19/A19_gggs/A19_sjhj/201704/W020170405307025943395.pdf)
     - [中国语言资源保护工程采录展示平台](https://zhongguoyuyan.cn/)
+    - [复旦大学东亚语言数据中心](http://ccdc.fudan.edu.cn)
     - [家乡话](http://jiaxianghua.org)
     - [乡音苑](http://phonemica.net/)
 - 语言学习资源
-    - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
-    - [薪典](http://syndict.com/)
-    - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
-    - [潮语拼音教程](https://kahaani.github.io/gatian/index.html)
-    - [潮州音字典](http://www.czyzd.com/)
-    - [潮州·母语](https://www.mogher.com/)
-    - [平話字表 (閩東語‣福州話)](https://only3km.github.io/ciklinbekin/)
-    - [貴州韻](https://github.com/tengtengteng/gvaizauvan/wiki)
+    - 中古汉语
+        - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
+    - 粤语
+        - [貴州韻](https://github.com/tengtengteng/gvaizauvan/wiki)
+    - 闽语
+        - [平話字表 (閩東語‣福州話)](https://only3km.github.io/ciklinbekin/)
+        - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
+        - [潮语拼音教程](https://kahaani.github.io/gatian/index.html)
+        - [潮州音字典](http://www.czyzd.com/)
+        - [潮州·母语](https://www.mogher.com/)
+    - 客家话
+        - [薪典](http://syndict.com/)
+    - 吴语
+        - [吴语学堂](https://wugniu.com/)
+        - [吴语协会 通用吴语拼音](http://wu-chinese.com/romanization/)
+        - [吴语协会 吴音小字典](http://wu-chinese.com/minidict/)
+        - [吳語注音法](http://input.foruto.com/wu/method.html)
 
 ## 致谢
 
@@ -315,18 +325,28 @@ Linux、OS X與其他Windows版本系統下操作同理。
 - 語言學參考
     - [中国语言资源保护工程 汉语方言用字规范](http://www.moe.gov.cn/s78/A19/A19_gggs/A19_sjhj/201704/W020170405307025943395.pdf)
     - [中国语言资源保护工程采录展示平台](https://zhongguoyuyan.cn/)
+    - [复旦大学东亚语言数据中心](http://ccdc.fudan.edu.cn)
     - [家乡话](http://jiaxianghua.org)
     - [鄉音苑](http://phonemica.net/)
 - 語言學習資源
-    - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
-    - [薪典](http://syndict.com/)
-    - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
-    - [潮语拼音教程](https://kahaani.github.io/gatian/index.html)
-    - [潮州音字典](http://www.czyzd.com/)
-    - [潮州·母语](https://www.mogher.com/)
-    - [平話字表 (閩東語‣福州話)](https://only3km.github.io/ciklinbekin/)
-    - [貴州韻](https://github.com/tengtengteng/gvaizauvan/wiki)
-
+    - 中古漢語
+        - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
+    - 粵語
+        - [貴州韻](https://github.com/tengtengteng/gvaizauvan/wiki)
+    - 閩語
+        - [平話字表 (閩東語‣福州話)](https://only3km.github.io/ciklinbekin/)
+        - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
+        - [潮语拼音教程](https://kahaani.github.io/gatian/index.html)
+        - [潮州音字典](http://www.czyzd.com/)
+        - [潮州·母语](https://www.mogher.com/)
+    - 客家話
+        - [薪典](http://syndict.com/)
+    - 吳語
+        - [吴语学堂](https://wugniu.com/)
+        - [吴语协会 通用吴语拼音](http://wu-chinese.com/romanization/)
+        - [吴语协会 吴音小字典](http://wu-chinese.com/minidict/)
+        - [吳語注音法](http://input.foruto.com/wu/method.html)
+  
 ## 致謝
 
 - [a-thok](https://github.com/a-thok)
@@ -486,18 +506,28 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
 - Linguistics References
     - [中国语言资源保护工程 汉语方言用字规范](http://www.moe.gov.cn/s78/A19/A19_gggs/A19_sjhj/201704/W020170405307025943395.pdf)
     - [中国语言资源保护工程采录展示平台](https://zhongguoyuyan.cn/)
+    - [复旦大学东亚语言数据中心](http://ccdc.fudan.edu.cn)
     - [家乡话](http://jiaxianghua.org)
     - [Phonemica](http://phonemica.net/)
 - Language Learning Resources
-    - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
-    - [Syndict](http://syndict.com/)
-    - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
-    - [潮语拼音教程](https://kahaani.github.io/gatian/index.html)
-    - [潮州音字典](http://www.czyzd.com/)
-    - [潮州·母语](https://www.mogher.com/)
-    - [平話字表 (閩東語‣福州話)](https://only3km.github.io/ciklinbekin/)
-    - [貴州韻](https://github.com/tengtengteng/gvaizauvan/wiki)
-
+    - Middle Chinese
+        - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
+    - Yue (Cantonese)
+        - [貴州韻](https://github.com/tengtengteng/gvaizauvan/wiki)
+    - Min (Hokkien)
+        - [平話字表 (閩東語‣福州話)](https://only3km.github.io/ciklinbekin/)
+        - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
+        - [潮语拼音教程](https://kahaani.github.io/gatian/index.html)
+        - [潮州音字典](http://www.czyzd.com/)
+        - [潮州·母语](https://www.mogher.com/)
+    - Hakka
+        - [薪典](http://syndict.com/)
+    - Wu
+        - [吴语学堂](https://wugniu.com/)
+        - [吴语协会 通用吴语拼音](http://wu-chinese.com/romanization/)
+        - [吴语协会 吴音小字典](http://wu-chinese.com/minidict/)
+        - [吳語注音法](http://input.foruto.com/wu/method.html)
+  
 ## Acknowledgements
 
 - [a-thok](https://github.com/a-thok)
