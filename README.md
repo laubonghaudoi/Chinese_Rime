@@ -150,16 +150,19 @@ Linux、OS X与其他Windows版本系统下操作同理。
 - 语言学习资源
     - 中古汉语
         - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
+        - [古音手鏡](http://www.guguolin.com/)
     - 粤语
         - [貴州韻](https://github.com/tengtengteng/gvaizauvan/wiki)
     - 闽语
         - [平話字表 (閩東語‣福州話)](https://only3km.github.io/ciklinbekin/)
+        - [臺語萌典](https://www.moedict.tw/'%E7%99%BC%E7%A9%8E)
         - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
         - [潮语拼音教程](https://kahaani.github.io/gatian/index.html)
         - [潮州音字典](http://www.czyzd.com/)
         - [潮州·母语](https://www.mogher.com/)
     - 客家话
         - [薪典](http://syndict.com/)
+        - [客語萌典](https://www.moedict.tw/:%E7%99%BC%E8%8A%BD)
     - 吴语
         - [吴语学堂](https://wugniu.com/)
         - [吴语协会 通用吴语拼音](http://wu-chinese.com/romanization/)
@@ -331,16 +334,19 @@ Linux、OS X與其他Windows版本系統下操作同理。
 - 語言學習資源
     - 中古漢語
         - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
+        - [古音手鏡](http://www.guguolin.com/)
     - 粵語
         - [貴州韻](https://github.com/tengtengteng/gvaizauvan/wiki)
     - 閩語
         - [平話字表 (閩東語‣福州話)](https://only3km.github.io/ciklinbekin/)
+        - [臺語萌典](https://www.moedict.tw/'%E7%99%BC%E7%A9%8E)
         - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
         - [潮语拼音教程](https://kahaani.github.io/gatian/index.html)
         - [潮州音字典](http://www.czyzd.com/)
         - [潮州·母语](https://www.mogher.com/)
     - 客家話
         - [薪典](http://syndict.com/)
+        - [客語萌典](https://www.moedict.tw/:%E7%99%BC%E8%8A%BD)
     - 吳語
         - [吴语学堂](https://wugniu.com/)
         - [吴语协会 通用吴语拼音](http://wu-chinese.com/romanization/)
@@ -512,16 +518,19 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
 - Language Learning Resources
     - Middle Chinese
         - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
+        - [古音手鏡](http://www.guguolin.com/)
     - Yue (Cantonese)
         - [貴州韻](https://github.com/tengtengteng/gvaizauvan/wiki)
     - Min (Hokkien)
         - [平話字表 (閩東語‣福州話)](https://only3km.github.io/ciklinbekin/)
+        - [臺語萌典](https://www.moedict.tw/'%E7%99%BC%E7%A9%8E)
         - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
         - [潮语拼音教程](https://kahaani.github.io/gatian/index.html)
         - [潮州音字典](http://www.czyzd.com/)
         - [潮州·母语](https://www.mogher.com/)
     - Hakka
         - [薪典](http://syndict.com/)
+        - [客語萌典](https://www.moedict.tw/:%E7%99%BC%E8%8A%BD)
     - Wu
         - [吴语学堂](https://wugniu.com/)
         - [吴语协会 通用吴语拼音](http://wu-chinese.com/romanization/)
