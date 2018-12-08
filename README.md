@@ -78,8 +78,9 @@ Linux、OS X与其他Windows版本系统下操作同理。
     - 客拼 - `hakka_pinyin`
 - 吴语
     - 蘇州吳語 - `soutzoe`
-    - 上海吳語 - `wugniu_lopha`
-    - 上海新派 - `wugniu`
+    - 上海吳語輸入方案 
+        - 上海吳語 - `wugniu_lopha`
+        - 上海新派 - `wugniu`
     - 吳語注音輸入方案吳語學堂版
         - 吳語（桐鄉） - `wugniu_donshian`
         - 吳語（寧波） - `wugniu_gninpou`
@@ -91,6 +92,7 @@ Linux、OS X与其他Windows版本系统下操作同理。
         - 吳語（松江） - `wugniu_sonkaon`
         - 吳語（蘇州） - `wugniu_soutseu`
         - 吳語（上海） - `wugniu_zaonhe`
+    - 標準吳語 - `pcngng`
 - 晋语
     - 晋拼解州片 - `haitrou`
 - 官话
@@ -262,8 +264,9 @@ Linux、OS X與其他Windows版本系統下操作同理。
     - 客拼 - `hakka_pinyin`
 - 吳語
     - 蘇州吳語 - `soutzoe`
-    - 上海吳語 - `wugniu_lopha`
-    - 上海新派 - `wugniu`
+    - 上海吳語輸入方案 
+      - 上海吳語 - `wugniu_lopha`
+      - 上海新派 - `wugniu`
     - 吳語注音輸入方案吳語學堂版
         - 吳語（桐鄉） - `wugniu_donshian`
         - 吳語（寧波） - `wugniu_gninpou`
@@ -275,6 +278,7 @@ Linux、OS X與其他Windows版本系統下操作同理。
         - 吳語（松江） - `wugniu_sonkaon`
         - 吳語（蘇州） - `wugniu_soutseu`
         - 吳語（上海） - `wugniu_zaonhe`
+    - 標準吳語 - `pcngng`
 - 晉語
     - 晋拼解州片 - `haitrou`
 - 官話
@@ -446,8 +450,9 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
     - 客拼 - `hakka_pinyin`
 - Wu
     - 蘇州吳語 - `soutzoe`
-    - 上海吳語 - `wugniu_lopha`
-    - 上海新派 - `wugniu`
+    - 上海吳語輸入方案 
+      - 上海吳語 - `wugniu_lopha`
+      - 上海新派 - `wugniu`
     - 吳語注音輸入方案吳語學堂版
         - 吳語（桐鄉） - `wugniu_donshian`
         - 吳語（寧波） - `wugniu_gninpou`
@@ -459,6 +464,7 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
         - 吳語（松江） - `wugniu_sonkaon`
         - 吳語（蘇州） - `wugniu_soutseu`
         - 吳語（上海） - `wugniu_zaonhe`
+    - 標準吳語 - `pcngng`
 - Jin
     - 晋拼解州片 - `haitrou`
 - Mandarin
