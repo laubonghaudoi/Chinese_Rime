@@ -1,0 +1,91 @@
+# Rime schema
+# vim: set sw=2 sts=2 et:
+# encoding: utf-8
+
+schema:
+  schema_id: Dangrvond
+  name: 唐韻
+  version: "2015.09.14"
+  author:
+    - 紫雪藍海
+  description: |
+    中古拼音輸方案，根據「廣韻」音系，參考諸家擬音而製作。
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: half_shape
+    states: [ 全角, 半角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: 'abcdefghijklmnopqrstuvwxyz'
+  delimiter: " '"
+  algebra:
+    - "xform/'//"
+#    - "xform/^([b-df-np-z])$/$1_/"
+    - derive/^zz/z/
+    - derive/^zg/dg/
+    - derive/^zj/j/
+    - abbrev/([ptkcxqs]h).+$/$1/     # 聲母簡拼
+    - abbrev/^(zz).+$/$1/        # 聲母簡拼
+    - abbrev/^(ng).+$/$1/        # 聲母簡拼
+    - abbrev/^(nj).+$/$1/        # 聲母簡拼
+    - abbrev/^(zj).+$/$1/        # 聲母簡拼
+    - abbrev/^(zg).+$/$1/        # 聲母簡拼
+    - abbrev/^(tx).+$/$1/        # 聲母簡拼
+    - abbrev/^(dg).+$/$1/        # 聲母簡拼
+    - abbrev/^([a-z]).+$/$1/        # 聲母簡拼
+    - fuzz/^([a-z]{1,2}).+$/$1/
+
+translator:
+  dictionary: Dangrvond.extended
+  spelling_hints: 2
+#  strict_spelling: true
+  enable_user_dict: true
+  preedit_format:
+    - xform/v/ü/
+
+reverse_lookup:
+  dictionary: wubi86
+  prefix: "`"
+  tips: 〔五筆〕
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    number: "^[-+]?[0-9][.:0-9]*[%]?$"
+    punct: "^/[0-9]*[a-z]*$"
+    reverse_lookup: "`[a-z]*'?$"

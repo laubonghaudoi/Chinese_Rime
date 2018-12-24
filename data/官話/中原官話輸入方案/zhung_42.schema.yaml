@@ -1,0 +1,174 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: zhung_42
+  name: 中州注音法（四十二鍵）
+  version: "0.4"
+  author:
+    - 佛振 <chen.sst@gmail.com>
+  description: |
+    老派鄭州話
+    以注音符號錄入！
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - fluency_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+menu:
+  alternative_select_keys: "ABCDEFGHIJ"
+
+speller:
+  alphabet: '1qaz`2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347'
+  initials: '1qaz`2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/-'
+  finals: " 6347"
+  delimiter: "'"
+  use_space: true
+  algebra:
+    - xform/^yi?/i/
+    - xform/^wu?/u/
+    - xform/^([jqx])([^i])/$1i$2/
+    - xform/ui/uei/
+    - xform/([iu])n/$1en/
+    - xform/^zhy?/Z/
+    - xform/^chy?/C/
+    - xform/^shy?/S/
+    - xform/^rhy?/R/
+    - xform/^([zcs])y/$1/
+    - xform/iu/Y/
+    - xform/eo/O/
+    - xform/ai/I/
+    - xform/ei/E/
+    - xform/au/A/
+    - xform/ou/U/
+    - xform/ang/K/
+    - xform/eng/G/
+    - xform/an/M/
+    - xform/en/N/
+    - xform/el/L/
+    - xform/([aoAU])l/$1L/
+    - derive/^(u\d?)$/v$1/
+    - derive/^u([aAMNK])/v$1/
+    - abbrev/^([bpmfvdtnlgkhjqxZCSRzcs]).+$/$1/
+    - derive/^([A-Za-z]+)\d$/$1/
+    - derive/^([jqx])i([A-Za-z])/$1$2/
+    - derive/[12]$/5/
+    - 'xlit|bpmfvdtnlgkhjqxZCSRzcsiuYaoOeIEAUMNKGL12345|1qaz`2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347|'
+
+translator:
+  dictionary: zhung
+  prism: zhung_42
+  preedit_format:
+    - 'xlit|1qaz`2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347''|ㄅㄆㄇㄈㄪㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˉˆˊˋ˙ |'
+
+punctuator:
+  full_shape:
+    " " : { commit: "　" }
+    "<" : [ ，, 《, 〈, «, ‹ ]
+    ">" : [ 。, 》, 〉, », › ]
+    "?" : [ ？, ／, "/", ÷ ]
+    ":" : [ ：, ； ]
+    "'" : { pair: [ "‘", "’" ] }
+    "\"" : { pair: [ "“", "”" ] }
+    "\\" : [ 、, ＼, "\\" ]
+    "|" : [ ·, ｜, "|", "§", "¦" ]
+    "~" : [ 〜, "~", ～, 〰 ]
+    "!" : { commit: ！ }
+    "@" : [ ＠, "@", ☯ ]
+    "#" : [ ＃, "#", ⌘ ]
+    "%" : [ ％, "%", "°", "℃" ]
+    "$" : [ ￥, "$", "€", "£", "¥", "¢", "¤" ]
+    "^" : { commit: …… }
+    "&" : [ ＆, "&" ]
+    "*" : [ ＊, "*", ·, ×, ※, ❂, ・ ]
+    "(" : （
+    ")" : ）
+    "_" : [ ——, －, "-" ]
+    "+" : [ ＋, "+" ]
+    "=" : [ ＝, "=" ]
+    "[" : [ 「, 【, 〔, ［ ]
+    "]" : [ 」, 】, 〕, ］ ]
+    "{" : [ 『, 〖, ｛ ]
+    "}" : [ 』, 〗, ｝ ]
+  half_shape:
+    "<" : [ ，, 《, 〈, «, ‹ ]
+    ">" : [ 。, 》, 〉, », › ]
+    "?" : [ ？, ／, "/", ÷ ]
+    ":" : [ ：, ； ]
+    "'" : { pair: [ "‘", "’" ] }
+    "\"" : { pair: [ "“", "”" ] }
+    "\\" : [ 、, "\\", ＼ ]
+    "|" : [ ·, "|", ｜, "§", "¦" ]
+    "~" : [ "~", "~~", 〜, ～, 〰 ]
+    "!" : { commit: ！ }
+    "@" : [ "@", ＠, ☯ ]
+    "#" : [ "#", ＃, ⌘ ]
+    "%" : [ "%", ％, "°", "℃" ]
+    "$" : [ ￥, "$", "€", "£", "¥", "¢", "¤" ]
+    "^" : { commit: …… }
+    "&" : [ "&", ＆ ]
+    "*" : [ "*", ＊, ·, ×, ※, ❂, ・ ]
+    "(" : （
+    ")" : ）
+    "_" : [ ——, －, "-" ]
+    "+" : [ "+", ＋ ]
+    "=" : [ "=", ＝ ]
+    "[" : [ 「, 【, 〔, ［ ]
+    "]" : [ 」, 】, 〕,  ］ ]
+    "{" : [ 『, 〖, ｛ ]
+    "}" : [ 』, 〗, ｝ ]
+
+key_binder:
+  bindings:
+    # Emacs style
+    - { when: composing, accept: Control+p, send: Up }
+    - { when: composing, accept: Control+n, send: Down }
+    - { when: composing, accept: Control+b, send: Left }
+    - { when: composing, accept: Control+f, send: Right }
+    - { when: composing, accept: Control+a, send: Home }
+    - { when: composing, accept: Control+e, send: End }
+    - { when: composing, accept: Control+d, send: Delete }
+    - { when: composing, accept: Control+k, send: Shift+Delete }
+    - { when: composing, accept: Control+g, send: Escape }
+    - { when: composing, accept: Alt+v, send: Page_Up }
+    - { when: composing, accept: Control+v, send: Page_Down }
+    # commonly used paging keys
+    - { when: composing, accept: ISO_Left_Tab, send: Page_Up }
+    - { when: composing, accept: Shift+Tab, send: Page_Up }
+    - { when: composing, accept: Tab, send: Page_Down }
+    - { when: paging, accept: minus, send: Page_Up }
+    - { when: has_menu, accept: equal, send: Page_Down }
+
+recognizer:
+  patterns:
+    email: "^[a-z][-_.0-9a-z]*@.*$"
+    uppercase: "^[A-Z][-_+.'0-9A-Za-z]*$"
+    url: "^(www[.]|https?:|ftp:|mailto:).*$"

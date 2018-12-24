@@ -1,0 +1,135 @@
+﻿# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: dkzp
+  name: 上古全拼
+  version: "0.3"
+  author:
+    - 牧羊旳蠍子 <798046821@qq.com>
+  description: |
+    根據鄭張尚芳擬定的上古音系進行拼音轉寫，長元音雙寫。
+    感謝脫支奶粉<tittii@163.com>提供全字表。
+    對應關係：v-ɯ g-ɡ y-ŋ c-ɢ x-ʔ f-ɦ 
+    清鼻流音：mh-m̥ʰ nh-n̥ʰ yh-ŋ̥ʰ lh-l̥ʰ rh-r̥ʰ
+    塞化流音：lc-l' rc-r' 
+    特殊標記：;-· r-ʀ vc-ɯ'
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - script_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba;
+  delimiter: " '"
+  algebra:
+    - abbrev/^([pbtdszkgqcrlmnyxhf]).+$/$1/
+    - abbrev/^([ptskqrlmny]h).+$/$1/
+    - abbrev/^([pbszkgqcrmyxhf][rlj]).+$/$1/
+    - abbrev/^([pskqmy]h[rlj]).+$/$1/
+    - abbrev/^(p[kqn]).+$/$1/
+    - abbrev/^(p[kqc][rwh]).+$/$1/
+    - abbrev/^(pqh[rlw]).+$/$1/
+    - abbrev/^([bgm];).+$/$1/
+    - abbrev/^(g[rw];).+$/$1/
+    - abbrev/^(ty).+$/$1/
+    - abbrev/^(ty[rh]).+$/$1/
+    - abbrev/^(s[bkgqcrlnmyf]).+$/$1/
+    - abbrev/^(s[kqlmny]h).+$/$1/
+    - abbrev/^(sy[rw]).+$/$1/
+    - abbrev/^(z[rlj]).+$/$1/
+    - abbrev/^(m[pbg]).+$/$1/
+    - abbrev/^(m[pbgy][rlwh]).+$/$1/
+    - abbrev/^(n[lj]).+$/$1/
+    - abbrev/^(y[grjw]).+$/$1/
+    - abbrev/^(yg[rl]).+$/$1/
+    - abbrev/^([kgqc]w).+$/$1/
+    - abbrev/^([kq]hw).+$/$1/
+    - abbrev/^([lr]c).+$/$1/
+    - abbrev/^([xhf]y).+$/$1/
+    - abbrev/^(f[bkrlmyw]).+$/$1/
+
+translator:
+  dictionary: dkzp
+  preedit_format:
+    - xform/aa(|[ '])/aː/
+    - xform/ee(|[ '])/eː/
+    - xform/ii(|[ '])/iː/
+    - xform/oo(|[ '])/oː/
+    - xform/uu(|[ '])/uː/
+    - xform/vv(|[ '])/ɯː/
+    - xform/vc(|[ '])/ɯ'/
+    - xform/v(|[ '])/ɯ/
+    - xform/ar(|[ '])/aʀ/
+    - "xlit|;|·|"
+    - xform/ph(|[ '])/pʰ/
+    - xform/th(|[ '])/tʰ/
+    - xform/kh(|[ '])/kʰ/
+    - xform/qh(|[ '])/qʰ/
+    - xform/mh(|[ '])/m̥ʰ/
+    - xform/nh(|[ '])/n̥ʰ/
+    - xform/yh(|[ '])/ŋ̥ʰ/
+    - xform/lh(|[ '])/l̥ʰ/
+    - xform/rh(|[ '])/r̥ʰ/
+    - xform/lc(|[ '])/l'/
+    - xform/rc(|[ '])/r'/
+    - xform/g(|[ '])/ɡ/
+    - xform/y(|[ '])/ŋ/
+    - xform/c(|[ '])/ɢ/
+    - xform/x(|[ '])/ʔ/
+    - xform/f(|[ '])/ɦ/
+  spelling_hints: 12
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  full_shape:
+    "<" : { commit: "，" }
+    ">" : { commit: "。" }
+    "?" : [ ？, ／, "/", ÷ ]
+    ":" : [ ：, ； ]
+    "{" : [ 「, 【, 《, 〔, ［, 『, 〖, 〈, ｛ ]
+    "}" : [ 」, 】, 》, 〕, ］, 』, 〗, 〉, ｝ ]
+  half_shape:
+    "<" : { commit: "，" }
+    ">" : { commit: "。" }
+    "?" : [ ？, ／, "/", ÷ ]
+    ":" : [ ：, ； ]
+    "{" : [ 「, 【, 《, 〔, ［, 『, 〖, 〈, ｛ ]
+    "}" : [ 」, 】, 》, 〕, ］, 』, 〗, 〉, ｝ ]
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"

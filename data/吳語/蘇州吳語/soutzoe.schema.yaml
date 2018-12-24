@@ -1,0 +1,84 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: soutzoe
+  name: 蘇州吳語
+  version: "0.5"
+  author:
+    - 寒寒豆
+    - 吳語越音 <zhufya@mail.ustc.edu.cn>
+  description: |
+    蘇州言話，採用《吳語拉丁式注音法》拼寫
+    http://input.foruto.com/wu/method.html
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - abbrev/^([bcdfghjklprstvwxyz]).+$/$1/       # 簡拼
+    - derive/^(ch|d?j|gn|x|y)i([aeou])/$1$2/      # 可省略的 i
+    - derive/ien$/in/
+    - derive/^yen$/yin/
+
+translator:
+  dictionary: soutzoe
+  spelling_hints: 5
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"

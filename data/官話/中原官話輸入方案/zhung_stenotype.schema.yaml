@@ -1,0 +1,159 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: zhung_stenotype
+  name: 中州打字速記法
+  version: "0.1"
+  author:
+    - 佛振 <chen.sst@gmail.com>
+  description: |
+    老派鄭州話
+    改編自早期的打字速記方案
+  dependencies:
+    - zhung
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA.:\"'`~;,*^<>@#%&$-=()"
+  delimiter: " _"
+  algebra:
+    - xform/^([a-z]*)[0-9]+$/$1/
+    - derive/^w/v/
+    - xform/^vu([in])/ve$1/
+    - xform/^yu/iu/
+    - xform/^yi?/i/
+    - xform/^wu?/u/
+    - xform/([iu])n$/$1en/
+    - xform/ui$/uei/
+    - xform/iuo$/*/
+    - xform/uo$/,/
+    - xform/e?o$/;/
+    - xform/iung$/O/
+    - xform/ung$/U/
+    - xform/ing$/I/
+    - xform/eng$/E/
+    - xform/^bi/B/
+    - xform/^pi/P/
+    - xform/^mi/M/
+    - xform/^fi/F/
+    - xform/^vi/V/
+    - xform/^di/D/
+    - xform/^ti/T/
+    - xform/^ni(?!u)/N/
+    - xform/^li(?!u)/L/
+    - xform/^gu/G/
+    - xform/^ku/K/
+    - xform/^hu/H/
+    - xform/^ju/J/
+    - xform/^qu/Q/
+    - xform/^xu/X/
+    - xform/^zh/Z/
+    - xform/^ch/C/
+    - xform/^sh/S/
+    - xform/^rh/R/
+    - xform/el$/r/
+    - xform/^([bpmfv])u$/$1/
+    - xform/^([dtnl])a$/$1/
+    - xform/^([gkh]);$/$1/
+    - xform/^([jqx])i/$1/
+    - xform/^([ZCSRzcs])y$/$1/
+    - xform/(?<![ae])i$/./
+    - xform/(?<![aoi])u$/:/
+    - "xform/iu$/\"/"
+    - xform/ia$/`/
+    - xform/ua$/~/
+    - "xform/a$/'/"
+    - xform/iue$/>/
+    - xform/ie$/</
+    - xform/e$/^/
+    - xform/uai$/@/
+    - xform/uei$/#/
+    - xform/iau$/%/
+    - xform/iou$/&/
+    - xform/ai$/e/
+    - xform/ei$/i/
+    - xform/au$/o/
+    - xform/ou$/u/
+    - xform/iuan$/$/
+    - xform/ian$/y/
+    - xform/uan$/w/
+    - xform/an$/a/
+    - xform/iuen$/)/
+    - xform/uen$/(/
+    - xform/ien$/=/
+    - xform/en$/-/
+    - xform/iang$/Y/
+    - xform/uang$/W/
+    - xform/ang$/A/
+    - derive|^([BPMFVDTNL])a$|\L$1\Ey|
+    - derive|^([GKHJQX])a$|\L$1\Ew|
+    - derive/\^$/e/
+    - derive/%$/o/
+    - derive/&$/u/
+
+translator:
+  dictionary: zhung
+  prism: zhung_stenotype
+
+punctuator:
+  full_shape:
+    " " : { commit: "　" }
+    "/" : [ "，", "。", "、", ／, "/", "：", "；" ]
+    "?" : { commit: ？ }
+    "!" : { commit: ！ }
+    "|" : [ ……, ——, ·, ｜, "¦", "§" ]
+    "[" : [ 「, 【, 〈, 〔, ［ ]
+    "]" : [ 」, 】, 〉, 〕, ］ ]
+    "{" : [ （, 『, 《, 〖, ｛ ]
+    "}" : [ ）, 』, 》, 〗, ｝ ]
+  half_shape:
+    " " : { commit: " " }
+    "/" : [ "，", "。", "、", "/", ／, "：", "；" ]
+    "?" : { commit: ？ }
+    "!" : { commit: ！ }
+    "|" : [ ……, ——, ·, "¦", ｜, "§" ]
+    "[" : [ 「, 【, 〈, 〔, ［ ]
+    "]" : [ 」, 】, 〉, 〕, ］ ]
+    "{" : [ （, 『, 《, 〖, ｛ ]
+    "}" : [ ）, 』, 》, 〗, ｝ ]
+
+key_binder:
+  import_preset: default
+  bindings:
+    - { when: has_menu, accept: minus, send: minus }
+    - { when: has_menu, accept: equal, send: equal }
+    - { when: paging, accept: comma, send: comma }
+    - { when: has_menu, accept: period, send: period }
+

@@ -1,0 +1,14399 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# NgZjau - 梧州白话
+#
+#   derived from scim-table-zh Jyutping table.
+#   add phrases from open Cantonese dictionary: http://kaifangcidian.com/han/yue
+
+---
+name: NgZjau
+version: "2017.08.06"
+sort: by_weight
+use_preset_vocabulary: true
+max_phrase_length: 7
+min_phrase_weight: 100
+...
+
+
+悲	bi1
+卑	bi1
+碑	bi1
+蓖	bi1
+陂	bi1
+屄	bi1
+比	bi2
+妣	bi2
+秕	bi2
+畀	bi2	150%
+俾	bi2
+髀	bi2	150%
+匕	bi3
+庇	bi3
+毖	bi3
+痹	bi3
+臂	bi3
+泌	bi3
+秘	bi3
+祕	bi3
+潷	bi3
+費	bi3	0.1%
+备	bi4
+備	bi4
+偹	bi4
+被	bi4
+鼻	bi4
+避	bi4
+披	pi1
+纰	pi1
+紕	pi1
+砒	pi1
+丕	pi1
+坯	pi1	6%
+胚	pi1	6%
+彼	pi2	101%
+鄙	pi2
+痞	pi2
+否	pi2	5%
+屁	pi3
+譬	pi3
+皮	pi4
+疲	pi4
+枇	pi4
+琵	pi4
+脾	pi4
+裨	pi4
+毗	pi4
+毘	pi4
+貔	pi4
+被	pi5
+婢	pi5
+咪	mi
+眯	mi1
+溦	mi1
+㵟	mi1
+沕	mi3
+眉	mi4
+嵋	mi4
+湄	mi4
+楣	mi4
+郿	mi4
+微	mi4
+薇	mi4
+縻	mi4
+糜	mi4
+麋	mi4
+醾	mi4
+弥	mi4
+彌	mi4
+䉲	mi4
+未	mi4
+味	mi4
+魅	mi4
+媚	mi4
+寐	mi4
+䉲	mi4
+蘼	mi4
+美	mi5
+尾	mi5
+娓	mi5
+媺	mi5
+镁	mi5
+鎂	mi5
+靡	mi5
+飞	fi1 
+飛	fi1
+飝	fi1
+非	fi1
+菲	fi1
+霏	fi1
+妃	fi1
+扉	fi1
+绯	fi1
+緋	fi1
+蜚	fi1
+匪	fi2
+篚	fi2
+翡	fi2
+诽	fi2
+誹	fi2
+疿	fi2
+痱	fi2
+斐	fi2
+蜚	fi2
+悱	fi2
+榧	fi2
+肺	fi3
+费	fi3
+費	fi3
+废	fi3
+廢	fi3
+肥	fi4
+淝	fi4
+啲	di1
+哋	di4
+地	di4
+墬	di4
+埊	di4
+弥	ni1
+彌	ni1
+腻	ni4
+膩	ni4
+尼	ni4
+妮	ni4
+怩	ni4
+弥	ni4
+彌	ni4
+猕	ni4
+獼	ni4
+呢	ni4
+昵	ni4	5.1%
+暱	ni4	5.1%
+你	ni5
+妳	ni5
+您	ni5
+尔	ni5
+爾	ni5
+拟	ni5
+擬	ni5	36
+洱	ni5
+迩	ni5
+邇	ni5	80
+哩	li
+璃	li1
+厘	li1
+釐	li1
+痢	li1
+喱	li1
+离	li4
+離	li4
+漓	li4
+灕	li4
+篱	li4
+籬	li4
+梨	li4
+棃	li4
+狸	li4
+貍	li4
+厘	li4
+釐	li4
+嫠	li4
+罹	li4
+吏	li4
+利	li4	581500
+俐	li4
+莉	li4
+脷	li4	1220
+蜊	li4
+唎	li4
+莅	li4
+蒞	li4
+李	li5
+理	li5
+鲤	li5
+鯉	li5
+里	li5
+裏	li5
+裡	li5	1
+锂	li5
+鋰	li5
+俚	li5
+娌	li5
+资	zi1
+資	zi1
+諮	zi1
+咨	zi1
+谘	zi1
+姿	zi1
+兹	zi1
+茲	zi1
+滋	zi1
+孜	zi1
+嗞	zi1
+孳	zi1
+之	zji1
+芝	zji1
+支	zji1
+枝	zji1
+肢	zji1
+知	zji1
+蜘	zji1
+鼅	zji1
+䵹	zji1
+脂	zji1
+辎	zji1
+輜	zji1
+淄	zji1
+缁	zji1
+緇	zji1
+梔	zji1
+子	zi2
+仔	zi2
+姊	zi2
+紫	zi2	39360
+梓	zi2
+滓	zi2
+籽	zi2
+旨	zji2
+指	zji2
+只	zji2
+衹	zji2	3336
+纸	zji2
+紙	zji2
+帋	zji2
+咫	zji2
+止	zji2
+址	zji2
+祉	zji2
+趾	zji2
+阯	zji2
+芷	zji2
+酯	zji2
+徵	zji2	23
+至	zji3
+致	zji3
+緻	zji3
+志	zji3
+誌	zji3
+痣	zji3
+智	zji3
+置	zji3
+炽	zji3
+熾	zji3
+质	zji3	0.1%
+質	zji3	1%
+挚	zji3
+摯	zji3
+自	zi4
+字	zi4
+牸	zi4
+寺	zi4
+祀	zi4
+治	zji4
+稚	zji4
+稺	zji4
+穉	zji4
+雉	zji4
+俟	zji4
+痔	zji4
+疵	ci1
+雌	ci1
+差	ci1	5%
+癡	cji1
+痴	cji1
+黐	cji1	4830
+嗤	cji1
+蚩	cji1
+媸	cji1
+差	cji1
+眵	cji1
+此	ci2
+齿	cji2
+齒	cji2
+始	cji2
+耻	cji2
+恥	cji2
+侈	cji2
+矢	cji2
+刺	ci3
+次	ci3
+厕	ci3
+廁	ci3
+赐	ci3
+賜	ci3
+嗜	ci3
+翅	cji3
+帜	cji3
+幟	cji3
+词	ci4
+詞	ci4
+辞	ci4
+辭	ci4
+慈	ci4
+磁	ci4
+糍	ci4
+餈	ci4
+瓷	ci4
+茨	ci4
+鹚	ci4
+鷀	ci4
+鶿	ci4
+祠	ci4
+脐	ci4
+臍	ci4
+寺	ci4
+饲	ci4
+飼	ci4
+嗣	ci4
+伺	ci4
+池	cji4
+弛	cji4
+驰	cji4
+馳	cji4
+持	cji4
+迟	cji4
+遲	cji4
+匙	cji4
+坻	cji4
+篪	cji4
+痔	cji4
+似	ci5
+巳	ci5
+汜	ci5
+恃	cji5
+峙	cji5
+思	si1
+私	si1
+司	si1
+丝	si1
+絲	si1
+糸	si1	0%
+鸶	si1
+鷥	si1
+师	si1
+師	si1
+狮	si1
+獅	si1
+蛳	si1
+螄	si1
+斯	si1
+嘶	si1
+厮	si1
+廝	si1
+撕	si1
+施	sji1	347700
+尸	sji1
+屍	sji1
+诗	sji1
+詩	sji1
+师	sji1
+師	sji1
+狮	sji1
+獅	sji1
+死	si2
+豕	sji2
+矢	sji2
+史	sji2
+屎	sji2
+使	sji2
+驶	sji2
+駛	sji2
+四	si3
+肆	si3
+泗	si3
+驷	si3
+駟	si3
+嗜	si3
+试	sji3
+試	sji3
+事	si4
+侍	si4
+伺	si4
+时	sji4
+時	sji4
+侍	sji4
+示	sji4
+豉	sji4
+匙	sji4
+鲥	sji4
+鰣	sji4
+视	sji4
+視	sji4
+眎	sji4
+士	sji4
+仕	sji4
+氏	sji4
+示	sji4
+是	sji4
+昰	sji4
+俟	sji4
+事	sji4
+市	sji5
+柿	sji5
+儿	nji4
+兒	nji4
+児	nji4
+而	nji4
+仪	nji4
+儀	nji4
+宜	nji4
+疑	nji4
+嶷	nji4
+二	nji4
+贰	nji4
+貳	nji4
+义	nji4
+義	nji4
+谊	nji4
+誼	nji4
+耳	nji5
+饵	nji5
+餌	nji5
+议	nji5
+議	nji5
+洱	nji5
+尔	nji5
+爾	nji5	3213
+尒	nji5
+拟	nji5
+擬	nji5
+迩	nji5
+邇	nji5
+衣	ji1
+依	ji1
+伊	ji1
+医	ji1
+醫	ji1
+姨	ji1
+漪	ji1
+咿	ji1
+噫	ji1	10%
+倚	ji2
+椅	ji2
+绮	ji2
+綺	ji2
+意	ji3
+薏	ji3
+懿	ji3
+噫	ji3
+咦	ji
+夷	ji4
+姨	ji4
+移	ji4
+沂	ji4
+怡	ji4
+贻	ji4
+貽	ji4
+饴	ji4
+飴	ji4
+颐	ji4
+頤	ji4
+彝	ji4
+彞	ji4
+彜	ji4
+胰	ji4
+痍	ji4
+异	ji4
+異	ji4
+易	ji4
+肄	ji4
+蛇	ji4	0.1
+已	ji5
+以	ji5
+矣	ji5
+机	gi1
+機	gi1
+肌	gi1
+饥	gi1
+飢	gi1
+饑	gi1
+叽	gi1
+嘰	gi1
+讥	gi1
+譏	gi1
+玑	gi1
+璣	gi1
+幾	gi1	5%
+畿	gi1
+基	gi1
+箕	gi1
+几	gi1
+奇	gi1	5%
+姬	gi1
+羁	gi1
+羈	gi1
+矶	gi1
+磯	gi1
+畸	gi1
+㚻	gi1	1000
+碁	gi1	5%
+己	gi2
+纪	gi2
+紀	gi2
+杞	gi2
+几	gi2
+幾	gi2
+记	gi3
+記	gi3
+寄	gi3
+既	gi3
+旣	gi3
+暨	gi3
+冀	gi3	6%
+骥	gi3
+驥	gi3
+觊	gi3
+覬	gi3
+忌	gi4
+技	gi4
+伎	gi4
+妓	gi4
+冀	ki3
+骥	ki3
+驥	ki3
+亟	ki3
+其	ki4
+期	ki4
+淇	ki4
+棋	ki4
+碁	ki4
+琪	ki4
+祺	ki4
+麒	ki4
+萁	ki4
+骐	ki4
+騏	ki4
+旗	ki4
+旂	ki4
+芪	ki4
+祈	ki4
+祁	ki4
+岐	ki4
+歧	ki4
+技	ki4
+奇	ki4
+琦	ki4
+崎	ki4
+耆	ki4
+鳍	ki4
+鰭	ki4
+祇	ki4
+俟	ki4	13
+锜	ki4
+錡	ki4
+颀	ki4
+頎	ki4
+绮	ki4	0.01%
+綺	ki4	0.01
+企	ki5
+徛	ki5	1318
+暨	ki5
+希	hi1
+稀	hi1
+晞	hi1
+欷	hi1
+唏	hi1
+欺	hi1
+熙	hi1
+曦	hi1
+牺	hi1
+犧	hi1
+羲	hi1
+嘻	hi1
+嬉	hi1
+禧	hi1
+僖	hi1
+熹	hi1
+烯	hi1
+譆	hi1
+起	hi2
+喜	hi2
+岂	hi2
+豈	hi2
+蟢	hi2
+囍	hi2
+氣	hi3
+气	hi3
+汽	hi3
+饩	hi3
+餼	hi3
+弃	hi3
+棄	hi3
+器	hi3
+戏	hi3
+戲	hi3
+嚱	hi3
+
+㨃	dyu2
+女	nyu5
+驴	lyu4
+驢	lyu4
+虑	lyu4
+慮	lyu4
+滤	lyu4
+濾	lyu4
+吕	lyu5
+呂	lyu5
+侣	lyu5
+侶	lyu5
+铝	lyu5
+鋁	lyu5
+稆	lyu5
+穭	lyu5
+榈	lyu5
+櫚	lyu5
+闾	lyu5
+閭	lyu5
+里	lyu5
+裏	lyu5
+旅	lyu5
+膂	lyu5
+屡	lyu5
+屢	lyu5
+履	lyu5
+缕	lyu5
+縷	lyu5
+褛	lyu5
+褸	lyu5
+资	zyu1
+資	zyu1
+諮	zyu1
+咨	zyu1
+谘	zyu1
+姿	zyu1
+兹	zyu1
+茲	zyu1
+滋	zyu1
+孜	zyu1
+朱	zjyu1
+硃	zjyu1
+株	zjyu1
+珠	zjyu1
+诛	zjyu1
+誅	zjyu1
+诸	zjyu1
+諸	zjyu1
+猪	zjyu1
+豬	zjyu1
+蛛	zjyu1
+鼄	zjyu1
+邾	zjyu1
+侏	zjyu1
+茱	zjyu1
+铢	zjyu1
+銖	zjyu1
+咀	zyu2
+沮	zyu2
+狙	zyu2	100%
+子	zyu2
+仔	zyu2
+姊	zyu2
+紫	zyu2	39360
+籽	zyu2
+主	zjyu2
+拄	zjyu2
+炷	zjyu2	99%
+䰞	zjyu2
+煮	zjyu2
+煑	zjyu2
+渚	zjyu2
+似	zyu3	47
+注	zjyu3
+註	zjyu3
+驻	zjyu3
+駐	zjyu3
+蛀	zjyu3
+炷	zjyu3	101%
+著	zjyu3
+铸	zjyu3
+鑄	zjyu3
+聚	zyu4
+序	zyu4
+敘	zyu4
+字	zyu4
+牸	zyu4
+自	zyu4
+住	zjyu4
+箸	zjyu4
+似	zyu5	95
+蛆	cyu1
+䏣	cyu1
+趋	cyu1
+趨	cyu1
+取	cyu2
+娶	cyu2
+褚	cjyu2
+拄	cjyu2
+杵	cjyu2
+处	cjyu2
+處	cjyu2
+䖏	cjyu2
+処	cjyu2
+趣	cyu3
+觑	cyu3
+覷	cyu3
+次	cyu3
+厕	cyu3
+廁	cyu3
+赐	cyu3
+賜	cyu3
+处	cjyu3
+處	cjyu3
+䖏	cjyu3
+徐	cyu4
+茨	cyu4
+除	cjyu4
+厨	cjyu4
+廚	cjyu4
+雏	cjyu4
+雛	cjyu4
+橱	cjyu4
+櫥	cjyu4
+滁	cjyu4
+躇	cjyu4
+躇	cjyu4
+躕	cjyu4
+蜍	cjyu4
+似	cyu5
+巳	cyu5
+汜	cyu5
+柱	cjyu5
+苎	cjyu5
+苧	cjyu5
+贮	cjyu5
+貯	cjyu5
+伫	cjyu5
+佇	cjyu5
+竚	cjyu5
+储	cjyu5
+儲	cjyu5
+竖	cjyu5
+豎	cjyu5	6%
+竪	cjyu5	6%
+署	cjyu5	85%
+曙	cjyu5
+需	syu1
+须	syu1
+須	syu1
+胥	syu1	100%
+司	syu1
+师	syu1
+師	syu1
+丝	syu1
+絲	syu1
+书	sjyu1
+書	sjyu1
+舒	sjyu1
+抒	sjyu1
+攄	sjyu1
+摅	sjyu1
+输	sjyu1
+輸	sjyu1
+枢	sjyu1
+樞	sjyu1
+暑	sjyu2
+黍	sjyu2
+鼠	sjyu2
+墅	sjyu2
+署	sjyu2	101%
+曙	sjyu2
+数	sjyu2	
+數	sjyu2	8%
+絮	syu3
+嗉	syu3
+庶	sjyu3
+恕	sjyu3
+戍	sjyu3
+数	sjyu3
+數	sjyu3	8%
+事	syu4
+殊	sjyu4
+薯	sjyu4
+蜍	sjyu4
+树	sjyu4
+樹	sjyu4
+竖	sjyu4
+豎	sjyu4
+竪	sjyu4
+绪	syu5
+緒	syu5
+墅	sjyu5
+署	sjyu5	80%
+曙	sjyu5
+鱼	njyu4
+魚	njyu4
+渔	njyu4
+漁	njyu4
+如	njyu4
+茹	njyu4
+禺	njyu4
+愚	njyu4
+虞	njyu4
+御	njyu4
+禦	njyu4
+遇	njyu4
+寓	njyu4
+驭	njyu4
+馭	njyu4
+洳	njyu4
+语	njyu5
+語	njyu5
+汝	njyu5
+洳	njyu5
+於	jyu1
+于	jyu1
+吁	jyu1
+迂	jyu1
+淤	jyu1
+竽	jyu1
+瘀	jyu2
+淤	jyu2
+瘀	jyu3
+淤	jyu3
+余	jyu4
+馀	jyu4
+餘	jyu4
+俞	jyu4
+兪	jyu4
+愉	jyu4
+逾	jyu4
+踰	jyu4
+榆	jyu4
+楡	jyu4
+瑜	jyu4
+渝	jyu4
+予	jyu4
+妤	jyu4
+娱	jyu4
+娛	jyu4
+盂	jyu4
+舆	jyu4
+輿	jyu4
+儒	jyu4
+舁	jyu4
+觎	jyu4
+覦	jyu4
+腴	jyu4
+禺	jyu4	99%
+愚	jyu4	99%
+虞	jyu4	99%
+如	jyu4	99%
+茹	jyu4	99%
+谀	jyu4
+諛	jyu4
+萸	jyu4
+吁	jyu4
+龥	jyu4
+籲	jyu4
+预	jyu4
+預	jyu4
+喻	jyu4
+谕	jyu4
+諭	jyu4
+裕	jyu4
+愈	jyu4
+癒	jyu4
+誉	jyu4
+譽	jyu4
+豫	jyu4
+遇	jyu4	99%
+寓	jyu4	99%
+驭	jyu4	99%
+馭	jyu4	99%
+御	jyu4	99%
+禦	jyu4	99%
+洳	jyu4	99%
+宇	jyu5
+㝢	jyu5
+羽	jyu5
+雨	jyu5
+禹	jyu5
+与	jyu5
+與	jyu5
+擩	jyu5
+予	jyu5
+汝	jyu5	99%
+洳	jyu5	99%
+居	gyu1
+车	gyu1
+車	gyu1
+萁	gyu1
+苣	gyu1
+举	gyu2
+舉	gyu2
+擧	gyu2
+矩	gyu2
+句	gyu3
+倨	gyu3
+据	gyu3
+據	gyu3
+遽	gyu3
+锯	gyu3
+鋸	gyu3
+巨	gyu4
+具	gyu4
+飓	gyu4
+颶	gyu4
+惧	gyu4
+懼	gyu4
+俱	gyu4	1625
+炬	gyu4
+钜	gyu4
+鉅	gyu4	946
+区	kyu1
+區	kyu1
+岖	kyu1
+嶇	kyu1
+躯	kyu1
+軀	kyu1
+驱	kyu1
+驅	kyu1
+敺	kyu1
+枢	kyu1
+樞	kyu1
+拘	kyu1
+驹	kyu1
+駒	kyu1
+俱	kyu1
+佉	kyu1
+祛	kyu1
+呿	kyu1
+渠	kyu4
+瞿	kyu4
+衢	kyu4
+佢	kyu5
+拒	kyu5
+距	kyu5
+钜	kyu5
+鉅	kyu5
+虚	hyu1
+虛	hyu1
+嘘	hyu1
+噓	hyu1
+歔	hyu1
+墟	hyu1
+圩	hyu1
+许	hyu2
+許	hyu2
+诩	hyu2
+詡	hyu2
+栩	hyu2
+珝	hyu2
+去	hyu3
+祛	hyu3
+呿	hyu3
+
+啤	be1
+屄	be1
+啡	fe1
+咩	me1
+孭	me1
+乜	me2	0
+爹	de1
+嗲	de2
+呢	ne1
+罅	le3
+嗟	ze1
+遮	zje1
+姐	ze2
+者	zje2
+赭	zje2
+锗	zje2
+鍺	zje2
+借	ze3
+藉	ze3	60
+啫	zje3
+蔗	zje3
+鹧	zje3
+鷓	zje3
+谢	ze4
+謝	ze4
+榭	ze4
+这	zje5
+這	zje5
+车	cje1
+車	cje1
+奢	cje1
+且	ce2
+扯	cje2
+撦	cje2
+笡	ce3
+趄	ce3
+邪	ce4
+斜	ce4
+些	se1
+赊	sje1	
+賒	sje1
+賖	sje1
+畲	sje1
+畬	sje1
+輋	sje1
+写	se2
+寫	se2
+泻	se2
+瀉	se2
+舍	se2
+捨	sje2
+卸	se3
+泻	se3
+瀉	se3
+赦	sje3
+舍	sje3
+舎	sje3
+蛇	sje4
+佘	sje4
+射	sje4
+麝	sje4
+社	sje5
+舍	sje5
+舎	sje5
+惹	nje5
+嘢	nje5
+爷	je4
+爺	je4
+耶	je4
+椰	je4
+邪	je4	0.1%
+斜	je4	0.1%
+夜	je4
+野	je5
+埜	je5
+冶	je5
+搲	we2
+攨	we2
+迦	ge1
+嘅	ge3	0%
+佉	ke1
+呿	ke1
+骑	ke4
+騎	ke4	110%
+茄	ke4
+伽	ke4
+瘸	ke4
+瘸	kwe4
+佉	he1
+呿	he1
+
+朵	doe2
+朶	doe2
+啐	coe1
+锯	goe3
+鋸	goe3
+瘸	koe4
+靴	hoe1
+锯	ngoe3
+鋸	ngoe3	80%
+
+巴	baa1
+芭	baa1
+疤	baa1
+笆	baa1
+爸	baa1
+吧	baa1
+岜	baa1
+叭	baa1
+把	baa2
+欛	baa2
+弝	baa2
+靶	baa2
+欛	baa3
+弝	baa3
+霸	baa3
+坝	baa3
+壩	baa3
+垻	baa3
+爸	baa4
+罢	baa4
+罷	baa4
+吧	baa4
+趴	paa1
+葩	paa1
+怕	paa3
+杷	paa4
+琶	paa4
+爬	paa4
+耙	paa4
+鈀	paa4
+扒	paa4
+吗	maa
+嗎	maa
+嘛	maa
+妈	maa1
+媽	maa1
+犸	maa1
+獁	maa1
+孖	maa1
+麻	maa4
+痲	maa4
+骂	maa4
+罵	maa4
+駡	maa4
+嫲	maa4
+马	maa5
+馬	maa5
+码	maa5
+碼	maa5
+蚂	maa5
+螞	maa5
+玛	maa5
+瑪	maa5
+犸	maa5
+獁	maa5
+花	faa1
+華	faa1	1
+𠤎	faa3
+化	faa3
+咑	daa1
+打	daa1	50%
+打	daa2	
+他	taa1
+她	taa1
+它	taa1
+牠	taa1
+佗	taa1
+拏	naa1
+䵙	naa1
+𪐀	naa1
+乸	naa2
+拿	naa4
+娜	naa4
+那	naa4	5%
+哪	naa4	5%
+哪	naa5
+那	naa5
+旯	laa1
+旯	laa3
+罅	laa3
+喇	laa3
+啦	laa3
+揸	zjaa1
+摣	zjaa1
+𠭯	zjaa1
+楂	zjaa1
+吒	zjaa1
+查	zjaa1
+査	zjaa1
+渣	zjaa1
+齇	zjaa1
+皻	zjaa1
+齄	zjaa1
+抓	zjaa1
+喳	zjaa1
+鲊	zjaa2
+鮓	zjaa2
+乍	zjaa3
+诈	zjaa3
+詐	zjaa3
+榨	zjaa3
+炸	zjaa3
+灹	zjaa3
+痄	zjaa3
+蚱	zjaa3
+咋	zjaa3
+叉	cjaa1
+杈	cjaa1
+扠	cjaa1
+䟕	cjaa1
+差	cjaa1
+岔	cjaa3
+汊	cjaa3
+衩	cjaa3
+詫	cjaa3
+姹	cjaa3
+查	cjaa4
+査	cjaa4
+茶	cjaa4
+搽	cjaa4
+塗	cjaa4	0
+茬	cjaa4
+卅	saa1
+沙	sjaa1
+砂	sjaa1
+纱	sjaa1
+紗	sjaa1
+莎	sjaa1
+痧	sjaa1
+裟	sjaa1
+鲨	sjaa1
+鯊	sjaa1
+耍	saa2
+耍	sjaa2
+洒	sjaa2
+灑	sjaa2
+揸	njaa1
+摣	njaa1
+𠭯	njaa1
+廿	njaa4
+也	jaa5
+哗	waa1
+嘩	waa1
+譁	waa1
+娃	waa1
+蛙	waa1
+鼃	waa1
+洼	waa1
+窪	waa1
+哇	waa1
+画	waa4
+畫	waa4
+华	waa4
+華	waa4
+蕐	waa4
+𦻏	waa4
+崋	waa4
+铧	waa4
+鏵	waa4
+桦	waa4
+樺	waa4
+嬅	waa4
+话	waa4
+話	waa4
+加	gaa1
+家	gaa1	525600
+嘉	gaa1
+袈	gaa1
+痂	gaa1
+枷	gaa1
+珈	gaa1
+迦	gaa1
+伽	gaa1
+傢	gaa1
+葭	gaa1
+假	gaa2
+贾	gaa2
+賈	gaa2
+架	gaa3
+驾	gaa3
+駕	gaa3
+假	gaa3
+嫁	gaa3
+稼	gaa3
+价	gaa3
+價	gaa3
+咖	gaa3
+㗎	gaa
+嘎	kaa1
+卡	kaa1
+拤	kaa1
+咖	kaa1
+咔	kaa1
+旮	kaa1
+旮	kaa3
+瓜	gwaa1
+呱	gwaa1
+剐	gwaa2
+剮	gwaa2
+寡	gwaa2
+卦	gwaa3
+挂	gwaa3
+掛	gwaa3
+褂	gwaa3
+啩	gwaa3
+夸	kwaa1
+誇	kwaa1
+侉	kwaa1
+垮	kwaa1
+挎	kwaa1
+胯	kwaa1
+跨	kwaa1
+虾	haa1
+蝦	haa1
+哈	haa1
+呀	haa1
+𨉣	haa1
+煆	haa1
+霞	haa4
+赮	haa4
+瑕	haa4
+暇	haa4
+遐	haa4
+厦	haa4
+廈	haa4
+夏	haa4
+下	haa4
+下	haa5
+桠	ngaa1
+椏	ngaa1
+讶	ngaa3
+訝	ngaa3
+讶	ngaa4
+訝	ngaa4
+牙	ngaa4
+伢	ngaa4
+芽	ngaa4
+蚜	ngaa4
+呀	ngaa4
+衙	ngaa4
+瓦	ngaa5
+雅	ngaa5
+佤	ngaa5
+啊	aa
+丫	aa1
+吖	aa
+鸦	aa1
+鴉	aa1
+钶	aa1
+鈳	aa1
+锕	aa1
+錒	aa1
+哑	aa2
+啞	aa2
+阿	aa3
+亚	aa3
+亞	aa3
+娅	aa3
+婭	aa3
+氩	aa3
+氬	aa3
+㝞	aa
+
+啊	ah
+
+
+
+啵	bo
+波	bo1
+玻	bo1
+菠	bo1
+坡	bo1
+跛	bo2
+播	bo3
+簸	bo3
+坡	po1
+颇	po1
+頗	po1
+棵	po1
+颇	po2
+頗	po2
+破	po3
+婆	po4
+菩	po4
+摸	mo1
+魔	mo1
+摩	mo1
+模	mo1
+摹	mo1
+么	mo1
+麽	mo1
+麼	mo1
+嚒	mo1
+仫	mo1
+磨	mo4
+䃺	mo4
+蘑	mo4
+摩	mo4	10%
+卧	mo4
+臥	mo4	40%
+科	fo1
+蝌	fo1
+窠	fo1
+稞	fo1
+火	fo2
+伙	fo2
+夥	fo2
+颗	fo2
+顆	fo2	4%
+课	fo3
+課	fo3
+货	fo3
+貨	fo3
+多	do1
+朵	do2
+朶	do2
+躲	do2
+躱	do2
+垛	do3
+惰	do4
+墮	do4
+跺	do4
+跥	do4
+驮	do4
+馱	do4	10%
+拖	to1
+锗	to2	0%
+鍺	to2	0%
+唾	to3
+陀	to4
+坨	to4
+砣	to4
+驼	to4
+駝	to4
+鸵	to4
+鴕	to4
+舵	to4
+驮	to4
+馱	to4
+佗	to4
+沱	to4
+酡	to4
+妥	to5
+橢	to5
+舵	to5	6%
+捼	no1
+挪	no4
+懦	no4
+糯	no4
+啰	lo1
+囉	lo1
+箩	lo1
+籮	lo1
+裸	lo2
+瘰	lo2
+颗	lo2
+顆	lo2
+攞	lo2	200%
+罗	lo4
+羅	lo4
+萝	lo4
+蘿	lo4
+啰	lo4
+囉	lo4
+箩	lo4
+籮	lo4
+逻	lo4
+邏	lo4
+锣	lo4
+鑼	lo4
+螺	lo4
+骡	lo4
+騾	lo4
+驘	lo4
+脶	lo4
+腡	lo4
+左	zo2
+佐	zo2
+咗	zo2	0%
+阻	zjo2
+狙	zjo2	100%
+座	zo4
+助	zjo4
+磋	co1
+搓	co1
+初	cjo1
+雏	cjo1
+雛	cjo1
+楚	cjo2
+础	cjo2
+礎	cjo2
+错	co3
+錯	co3
+挫	co3
+锉	co3
+銼	co3
+莝	co3
+矬	co4
+锄	cjo4
+鋤	cjo4
+雏	cjo4
+雛	cjo4
+坐	co5
+梭	so1
+唆	so1
+嗦	so1
+蓑	so1
+莎	so1
+娑	so1
+挲	so1
+挱	so1
+羧	so1
+梳	sjo1
+蔬	sjo1
+疏	sjo1
+䟽	sjo1
+锁	so2
+鎖	so2
+琐	so2
+瑣	so2
+唢	so2
+嗩	so2
+所	sjo2
+疏	sjo3
+䟽	sjo3
+傻	so4
+窝	wo1
+窩	wo1
+蜗	wo1
+蝸	wo1
+莴	wo1
+萵	wo1
+涡	wo1
+渦	wo1
+娲	wo1
+媧	wo1
+倭	wo1
+踒	wo1
+锅	wo1
+鍋	wo1	10%
+窠	wo1
+涴	wo3
+禾	wo4
+和	wo4
+龢	wo4
+祸	wo5
+禍	wo5
+喎	wo
+哥	go1
+歌	go1
+锅	gwo1				
+鍋	gwo1
+挝	gwo1
+撾	gwo1
+戈	gwo1
+果	gwo2
+菓	gwo2
+裹	gwo2
+馃	gwo2
+餜	gwo2
+箇	go3
+個	go3
+个	go3
+过	go3
+過	go3
+过	gwo3
+過	gwo3
+呵	ho1
+诃	ho1
+訶	ho1
+苛	ho1
+珂	ho1
+轲	ho1
+軻	ho1
+可	ho2
+坷	ho2
+軻	ho2
+何	ho4
+河	ho4
+荷	ho4
+贺	ho4
+賀	ho4
+俄	ngo4
+娥	ngo4
+峨	ngo4
+峩	ngo4
+蛾	ngo4
+鹅	ngo4
+鵝	ngo4
+鵞	ngo4
+讹	ngo4
+訛	ngo4
+饿	ngo4
+餓	ngo4
+卧	ngo4
+臥	ngo4												
+我	ngo5
+哦	o
+阿	o1
+屙	o1	1000%
+呵	o1
+诃	o1
+訶	o1
+苛	o1
+柯	o1
+珂	o1
+轲	o1
+軻	o1
+妸	o1
+婀	o1
+娿	o1
+锕	o1
+錒	o1
+钶	o1
+鈳	o1
+
+
+补	bu2
+補	bu2
+布	bu3
+佈	bu3
+怖	bu3
+步	bu4
+部	bu4
+簿	bu4
+埠	bu4	97
+铺	pu1
+鋪	pu1
+捕	pu1
+甫	pu2
+哺	pu2
+捕	pu2	1
+脯	pu2
+辅	pu2
+輔	pu2
+圃	pu2
+埔	pu2
+浦	pu2
+普	pu2
+谱	pu2
+譜	pu2
+黼	pu2
+铺	pu3
+鋪	pu3
+舖	pu3
+舗	pu3
+葡	pu4
+匍	pu4
+莆	pu4
+蒲	pu4
+菩	pu4
+脯	pu4
+浮	pu4	1%
+瓠	pu4	425
+葫	pu4	469
+巫	mu1
+诬	mu1
+誣	mu1
+模	mu1
+摹	mu1
+无	mu4
+無	mu4
+芜	mu4
+蕪	mu4
+毋	mu4
+募	mu4
+墓	mu4
+慕	mu4
+暮	mu4
+戊	mu4
+务	mu4
+務	mu4
+雾	mu4
+霧	mu4
+婺	mu4
+骛	mu4
+騖	mu4
+鹜	mu4
+鶩	mu4
+母	mu5
+姆	mu5
+拇	mu5
+武	mu5
+侮	mu5
+舞	mu5
+鹉	mu5
+鵡	mu5
+妩	mu5
+嫵	mu5
+肤	fu1
+膚	fu1
+夫	fu1
+孵	fu1
+呼	fu1
+麸	fu1
+麩	fu1
+俘	fu1
+枯	fu1
+跗	fu1
+敷	fu1
+孚	fu1
+郛	fu1
+府	fu2
+俯	fu2
+腑	fu2
+斧	fu2
+釜	fu2
+苦	fu2
+虎	fu2
+琥	fu2
+浒	fu2
+滸	fu2
+抚	fu2
+撫	fu2
+拊	fu2
+殕	fu2
+輔	fu2	60%
+富	fu3
+副	fu3
+赋	fu3
+賦	fu3
+库	fu3
+庫	fu3
+裤	fu3
+褲	fu3
+戽	fu3
+咐	fu3
+扶	fu4
+芙	fu4
+符	fu4
+苻	fu4
+乎	fu4
+凫	fu4
+鳧	fu4
+父	fu4
+腐	fu4
+付	fu4
+负	fu4
+負	fu4
+附	fu4
+咐	fu4
+驸	fu4
+駙	fu4
+赴	fu4
+傅	fu4
+讣	fu4
+訃	fu4
+妇	fu5
+婦	fu5
+都	du1
+嘟	du1
+堵	du2
+睹	du2
+覩	du2
+赌	du2
+賭	du2
+妒	du3
+妬	du3
+杜	du4
+度	du4
+渡	du4
+镀	du4
+鍍	du4
+妒	du4
+妬	du4
+蠹	du4
+吐	tu1
+土	tu2
+吐	tu3
+兔	tu3
+兎	tu3
+徒	tu4
+屠	tu4
+途	tu4
+涂	tu4
+塗	tu4
+图	tu4
+圖	tu4
+図	tu4
+荼	tu4
+肚	tu5
+呶	nu4
+奴	nu4
+驽	nu4
+駑	nu4
+怒	nu4
+努	nu5
+弩	nu5
+噜	lu
+嚕	lu
+髅	lu1
+髏	lu1
+卢	lu4
+盧	lu4
+庐	lu4
+廬	lu4
+芦	lu4
+蘆	lu4
+炉	lu4
+爐	lu4
+鲈	lu4
+鱸	lu4
+颅	lu4
+顱	lu4
+泸	lu4
+瀘	lu4
+轳	lu4
+轤	lu4
+鸬	lu4
+鸕	lu4
+胪	lu4
+臚	lu4
+驴	lu4
+驢	lu4
+路	lu4
+露	lu4
+璐	lu4	106000
+赂	lu4
+賂	lu4
+辂	lu4
+輅	lu4
+潞	lu4
+鹭	lu4
+鷺	lu4
+鲁	lu5
+魯	lu5
+撸	lu5
+擼	lu5
+橹	lu5
+櫓	lu5
+虏	lu5
+虜	lu5
+掳	lu5
+擄	lu5
+卤	lu5
+鹵	lu5
+滷	lu5
+租	zu1
+祖	zu2
+组	zu2
+組	zu2
+做	zu3
+粗	cu1
+麤	cu1
+娶	cu2
+醋	cu3
+措	cu3
+兔	cu3	221
+酥	su1
+苏	su1
+蘇	su1
+甦	su1
+须	su1
+鬚	su1
+稣	su1
+穌	su1
+数	sju2
+數	sju2
+素	su3
+愫	su3
+诉	su3
+訴	su3
+漱	su3
+数	sju3
+數	sju3
+乌	wu1
+烏	wu1
+邬	wu1
+鄔	wu1
+钨	wu1
+鎢	wu1
+坞	wu1
+塢	wu1
+污	wu1
+汙	wu1
+圬	wu1
+呜	wu1
+嗚	wu1
+捂	wu2
+恶	wu3
+惡	wu3
+胡	wu4
+鬍	wu4
+衚	wu4
+湖	wu4
+糊	wu4
+餬	wu4
+蝴	wu4
+瓠	wu4
+葫	wu4
+弧	wu4
+狐	wu4
+瑚	wu4
+煳	wu4
+醐	wu4
+猢	wu4
+壶	wu4
+壺	wu4
+互	wu4
+护	wu4
+護	wu4
+芋	wu4
+祜	wu5
+户	wu5
+戶	wu5
+扈	wu5
+沪	wu5
+滬	wu5
+孤	gu1
+姑	gu1
+菇	gu1
+菰	gu1
+辜	gu1
+鸪	gu1
+鴣	gu1
+咕	gu1
+沽	gu1
+枯	gu1	145
+骷	gu1
+祜	gu1	6%
+古	gu2
+估	gu2
+牯	gu2
+股	gu2
+鼓	gu2
+臌	gu2
+蛊	gu2
+蠱	gu2
+贾	gu2
+賈	gu2
+果	gu2	0
+䀇	gu2
+故	gu3
+雇	gu3
+僱	gu3
+顾	gu3
+顧	gu3
+固	gu3
+锢	gu3
+錮	gu3
+箍	ku1
+枯	ku1	119
+
+
+
+摆	baai2
+擺	baai2
+捭	baai2
+拜	baai3
+𢷎	baai3
+呗	baai4
+唄	baai4
+败	baai4
+敗	baai4
+稗	baai4
+派	paai3
+排	paai4
+俳	paai4
+牌	paai4
+簰	paai4
+埋	maai4
+霾	maai4
+劢	maai4
+卖	maai4
+賣	maai4
+迈	maai4
+邁	maai4
+勱	maai4
+买	maai5
+買	maai5
+快	faai3
+筷	faai3
+块	faai3
+塊	faai3
+懛	daai1
+呆	daai1
+歹	daai2
+傣	daai2
+带	daai3
+帶	daai3
+戴	daai3
+大	daai4
+钛	taai1
+鈦	taai1
+太	taai3
+汰	taai3
+泰	taai3
+贷	taai3
+貸	taai3
+态	taai3
+態	taai3
+钛	taai3
+鈦	taai3
+肽	taai3
+傣	taai3
+舵	taai5
+乃	naai5
+奶	naai5
+啦	laai	1033
+拉	laai1
+癞	laai3
+癩	laai3
+赖	laai4
+賴	laai4
+籁	laai4
+籟	laai4
+濑	laai4
+瀨	laai4
+攋	laai4
+攋	laai5
+斋	zjaai1
+齋	zjaai1
+债	zjaai3
+債	zjaai3
+寨	zjaai4
+砦	zjaai4
+猜	cjaai1
+差	cjaai1
+钗	cjaai1
+釵	cjaai1
+搋	cjaai1
+踩	caai2
+揣	cjaai2	900
+柴	cjaai4
+豺	cjaai4
+侪	cjaai4
+儕	cjaai4
+嘥	saai
+徙	saai2	650
+玺	saai2
+璽	saai2	750
+嗮	saai
+晒	sjaai3
+曬	sjaai3
+舐	sjaai5
+舓	sjaai5
+搋	njaai1
+踩	njaai2
+歪	waai1
+竵	waai1
+淮	waai4
+槐	waai4
+怀	waai4
+懷	waai4
+坏	waai4
+壞	waai4
+徊	waai4
+皆	gaai1
+阶	gaai1
+階	gaai1
+稭	gaai1
+秸	gaai1
+佳	gaai1
+街	gaai1
+解	gaai2
+介	gaai3
+尬	gaai3
+芥	gaai3
+蚧	gaai3
+疥	gaai3
+届	gaai3
+屆	gaai3
+戒	gaai3
+诫	gaai3
+誡	gaai3
+界	gaai3
+鎅	gaai3
+解	gaai3	5%
+楷	gaai1	266
+圿	kaai4	32
+乖	gwaai1
+柺	gwaai2
+枴	gwaai2
+拐	gwaai2
+怪	gwaai3
+蒯	kwaai2
+揩	haai1
+鞋	haai4
+偕	haai4
+谐	haai4
+諧	haai4
+孩	haai4	15
+蟹	haai5
+懈	haai5
+解	haai5	5%
+械	haai5
+獬	haai5
+邂	haai5
+涯	ngaai4
+崖	ngaai4
+捱	ngaai4
+挨	ngaai4
+乂	ngaai4
+艾	ngaai4
+砹	ngaai4
+哎	ngaai4
+埃	aai1
+挨	aai1
+𢰇	aai1
+矮	aai2	1254
+隘	aai3
+
+跛	bai1
+闭	bai3
+閉	bai3
+蔽	bai3
+币	bai4
+幣	bai4
+陛	bai4
+毙	bai4
+斃	bai4
+敝	bai4
+弊	bai4
+批	pai1
+咪	mai
+米	mai1
+迷	mai4
+谜	mai4
+謎	mai4
+醚	mai4
+米	mai5	16911
+挥	fai1	1%
+揮	fai1	6%
+晖	fai1	1%
+暉	fai1	6%
+辉	fai1	1%
+輝	fai1	6%
+麾	fai1
+废	fai3
+廢	fai3
+费	fai3
+費	fai3
+肺	fai3
+沸	fai3	357
+吠	fai4
+低	dai1
+底	dai2
+抵	dai2
+帝	dai3
+蒂	dai3
+蔕	dai3
+缔	dai3
+締	dai3
+谛	dai3
+諦	dai3
+渧	dai3
+弟	dai4
+第	dai4
+递	dai4
+遞	dai4
+逮	dai4
+隶	dai4
+隸	dai4
+棣	dai4
+梯	tai1
+锑	tai1
+銻	tai1
+体	tai2
+體	tai2
+睇	tai2
+睼	tai2
+替	tai3
+涕	tai3
+剃	tai3
+屉	tai3
+屜	tai3
+嚏	tai3
+缔	tai3
+締	tai3
+提	tai4
+题	tai4
+題	tai4
+堤	tai4
+啼	tai4
+嗁	tai4
+謕	tai4
+蹄	tai4
+缇	tai4
+緹	tai4
+醍	tai4
+娣	tai5
+悌	tai5
+泥	nai4
+坭	nai4
+黎	lai4
+犁	lai4
+犂	lai4
+藜	lai4
+藜	lai4
+来	lai4
+來	lai4
+例	lai4
+丽	lai4
+麗	lai4
+俪	lai4
+儷	lai4
+厉	lai4
+厲	lai4
+荔	lai4
+茘	lai4
+励	lai4
+勵	lai4
+砺	lai4
+礪	lai4
+唳	lai4
+悷	lai4
+捩	lai4
+戾	lai4
+嚟	lai4	0.5
+禮	lai5
+礼	lai5
+澧	lai5
+醴	lai5
+鳢	lai5
+鱧	lai5
+豊	lai5
+蠡	lai5
+挤	zai1
+擠	zai1
+剂	zai1
+劑	zai1
+仔	zai2
+祭	zai3
+际	zai3
+際	zai3
+穄	zai3
+济	zai3
+濟	zai3
+制	zjai3
+製	zjai3
+掣	zjai3
+滞	zjai4
+滯	zjai4
+妻	cai1
+凄	cai1
+悽	cai1
+栖	cai1
+棲	cai1
+萋	cai1
+砌	cai3
+切	cai3
+齐	cai4
+齊	cai4
+荠	cai4
+薺	cai4
+西	sai1
+犀	sai1
+硒	sai1
+筛	sjai1
+篩	sjai1
+洗	sai2
+徙	sai2
+玺	sai2
+璽	sai2
+使	sjai2	3531
+驶	sjai2
+駛	sjai2	97
+细	sai3
+細	sai3
+婿	sai3
+壻	sai3
+世	sjai3	
+势	sjai3
+勢	sjai3
+逝	sjai4
+誓	sjai4
+噬	sjai4
+柿	sjai5	446
+曳	jai4
+曵	jai4
+威	wai1
+葳	wai1
+挥	wai1
+揮	wai1
+辉	wai1
+輝	wai1
+晖	wai1
+暉	wai1
+珲	wai1
+琿	wai1
+麾	wai1
+痿	wai2
+委	wai2
+萎	wai2
+諉	wai2
+喂	wai2
+毁	wai2
+毀	wai2
+燬	wai2
+畏	wai3
+喂	wai3
+餵	wai3
+餧	wai3
+慰	wai3
+秽	wai3
+穢	wai3
+讳	wai3
+諱	wai3
+尉	wai3
+蔚	wai3
+为	wai4
+爲	wai4
+為	wai4
+维	wai4
+維	wai4
+唯	wai4
+惟	wai4
+帷	wai4
+潍	wai4
+濰	wai4
+遗	wai4
+遺	wai4
+韦	wai4
+韋	wai4
+围	wai4
+圍	wai4
+帏	wai4
+幃	wai4
+违	wai4
+違	wai4
+闱	wai4
+闈	wai4
+彗	wai4
+慧	wai4	238200
+惠	wai4
+蕙	wai4
+位	wai4
+谓	wai4
+謂	wai4
+渭	wai4
+彙	wai4	90%
+胃	wai4
+蝟	wai4
+卫	wai4
+衛	wai4
+莅	wai4	
+蒞	wai4	0
+伟	wai5
+偉	wai5
+苇	wai5
+葦	wai5
+炜	wai5
+煒	wai5
+纬	wai5
+緯	wai5
+玮	wai5
+瑋	wai5
+韦	wai5
+韋	wai5
+韪	wai5
+韙	wai5
+卫	wai5
+衛	wai5
+胃	wai5
+卉	wai5
+鸡	gai1
+鷄	gai1
+雞	gai1
+㚻	gai1	1000
+计	gai3
+計	gai3
+髻	gai3
+继	gai3
+繼	gai3
+偈	gai4
+谿	kai1
+溪	kai1
+稽	kai1
+奚	kai1
+启	kai2
+啓	kai2
+啟	kai2
+契	kai3
+龟	gwai1
+龜	gwai1
+归	gwai1
+歸	gwai1
+圭	gwai1
+硅	gwai1
+闺	gwai1
+閨	gwai1
+珪	gwai1
+皈	gwai1
+鬼	gwai2
+诡	gwai2
+詭	gwai2
+轨	gwai2
+軌	gwai2
+宄	gwai2
+傀	gwai2
+癸	gwai3
+桂	gwai3
+瑰	gwai3
+贵	gwai3
+貴	gwai3
+季	gwai3
+鳜	gwai3
+鱖	gwai3
+炔	gwai3	0.1
+跪	gwai4
+柜	gwai4
+櫃	gwai4
+规	kwai1
+規	kwai1
+窥	kwai1
+窺	kwai1
+亏	kwai1
+虧	kwai1
+盔	kwai1	655
+傀	kwai2
+愧	kwai3
+刽	kwai3
+劊	kwai3	356
+桧	kwai3
+檜	kwai3	533
+馈	kwai3
+饋	kwai3	568
+葵	kwai4
+奎	kwai4
+逵	kwai4
+携	kwai4
+攜	kwai4
+匮	kwai4
+匱	kwai4
+夔	kwai4
+戣	kwai4
+閪	hai1	0
+喺	hai2	0
+兮	hai4
+奚	hai4
+系	hai4
+係	hai4
+繫	hai4
+危	ngai4
+倪	ngai4
+霓	ngai4
+巍	ngai4
+桅	ngai4
+猊	ngai4
+麑	ngai4
+艺	ngai4
+藝	ngai4	20630
+毅	ngai4
+魏	ngai4
+诣	ngai4
+詣	ngai4
+伪	ngai4
+僞	ngai4
+偽	ngai4
+睨	ngai4
+刈	ngai4
+羿	ngai4
+蚁	ngai5
+蟻	ngai5
+矮	ai1	5%
+矮	ai2
+瞖	ai3
+翳	ai3
+缢	ai3
+縊	ai3
+
+代	doi4
+袋	doi4
+黛	doi4
+黱	doi4
+待	doi4
+岱	doi4
+瑇	doi4
+玳	doi4
+胎	toi1
+台	toi1
+苔	toi1
+臺	toi4
+檯	toi4
+颱	toi4
+苔	toi4
+薹	toi4
+抬	toi4
+擡	toi4
+跆	toi4
+怠	toi5
+殆	toi5
+奈	noi4
+柰	noi4
+耐	noi4
+内	noi4	1%
+內	noi4	6%
+来	loi4
+來	loi4
+莱	loi4
+萊	loi4
+崃	loi4
+崍	loi4
+徕	loi4
+徠	loi4
+涞	loi4
+淶	loi4
+睐	loi4
+睞	loi4
+赉	loi4
+賚	loi4
+栽	zoi1
+哉	zoi1
+災	zoi1
+灾	zoi1
+烖	zoi1
+宰	zoi2
+崽	zoi2
+载	zoi2
+載	zoi2
+再	zoi3
+载	zoi3
+載	zoi3
+在	zoi4
+扗	zoi4
+彩	coi2
+采	coi2
+採	coi2
+睬	coi2
+菜	coi3
+蔡	coi3					
+才	coi4
+纔	coi4
+材	coi4
+财	coi4
+財	coi4
+裁	coi4
+在	coi5	9742
+腮	soi1
+鳃	soi1
+鰓	soi1
+赛	soi3
+賽	soi3
+塞	soi3	5.1%
+该	goi1
+該	goi1
+赅	goi1
+賅	goi1
+改	goi2
+盖	goi3
+蓋	goi3
+概	koi3
+槪	koi3
+槩	koi3
+溉	koi3
+漑	koi3
+摡	koi3
+慨	koi3
+慨	koi3
+钙	koi3
+鈣	koi3
+丐	koi3
+忾	koi3
+愾	koi3
+盖	koi3
+蓋	koi3
+开	hoi1
+開	hoi1
+海	hoi2
+铠	hoi2
+鎧	hoi2
+凯	hoi2
+凱	hoi2
+恺	hoi2
+愷	hoi2
+豈	hoi2	0.01
+孩	hoi4
+骸	hoi4
+亥	hoi4
+骇	hoi4
+駭	hoi4
+害	hoi4
+氦	hoi4
+骇	hoi5
+駭	hoi5
+獃	ngoi4
+呆	ngoi4
+皑	ngoi4
+皚	ngoi4
+硙	ngoi4
+磑	ngoi4
+外	ngoi4
+碍	ngoi4
+礙	ngoi4
+艾	ngoi4	343
+砹	ngoi4
+哎	ngoi4
+哀	oi1
+蔼	oi2
+藹	oi2
+霭	oi2
+靄	oi2
+叆	oi2
+靉	oi2
+暧	oi2
+曖	oi2
+皑	oi2
+皚	oi2
+凯	oi2
+凱	oi2
+恺	oi2
+愷	oi2
+毐	oi2
+爱	oi3
+愛	oi3
+暧	oi3
+曖	oi3
+瑷	oi3
+璦	oi3
+
+杯	beoi1
+盃	beoi1
+贝	beoi3
+貝	beoi3
+狈	beoi3
+狽	beoi3
+辈	beoi3
+輩	beoi3
+背	beoi3
+揹	beoi3
+钡	beoi3
+鋇	beoi3
+呗	beoi3
+唄	beoi3
+背	beoi4
+焙	beoi4
+蓓	beoi4
+孛	beoi4	10%
+坯	peoi1
+胚	peoi1
+配	peoi3
+佩	peoi3
+沛	peoi3
+霈	peoi3
+陪	peoi4
+培	peoi4
+赔	peoi4
+賠	peoi4
+裴	peoi4
+徘	peoi4
+焙	peoi4
+蓓	peoi4
+倍	peoi5
+蓓	peoi5
+妹	meoi1
+枚	meoi4
+玫	meoi4
+莓	meoi4
+梅	meoi4
+脢	meoi4	300%
+黴	meoi4
+霉	meoi4
+酶	meoi4
+煤	meoi4
+媒	meoi4
+寐	meoi4
+昧	meoi4
+每	meoi5
+灰	feoi1
+恢	feoi1
+诙	feoi1
+詼	feoi1
+徽	feoi1
+魁	feoi1	446
+悔	feoi2
+贿	feoi2
+賄	feoi2
+晦	feoi2
+誨	feoi2
+晦	feoi3
+誨	feoi3
+堆	deoi1
+鎚	deoi1	1
+对	deoi3
+對	deoi3
+兑	deoi3
+兌	deoi3
+碓	deoi3
+队	deoi4
+隊	deoi4
+推	teoi1
+腿	teoi2
+骽	teoi2
+退	teoi3
+褪	teoi3
+蜕	teoi3
+蛻	teoi3
+颓	teoi4
+頽	teoi4
+頹	teoi4
+內	neoi4
+雷	leoi4
+靁	leoi4
+蕾	leoi4
+擂	leoi4
+攂	leoi4
+泪	leoi4
+淚	leoi4
+類	leoi4	1
+累	leoi4
+酹	leoi4
+儡	leoi5
+壘	leoi5
+磊	leoi5
+累	leoi5
+类	leoi5
+類	leoi5
+彙	leoi5	6%
+追	zjeoi1
+椎	zjeoi1
+錐	zjeoi1
+嘴	zeoi2
+咀	zeoi2	1%
+最	zeoi3
+醉	zeoi3
+罪	zeoi4
+聚	zeoi4
+坠	zjeoi4
+墜	zjeoi4
+缀	zjeoi4
+綴	zjeoi4
+缒	zjeoi4
+縋	zjeoi4
+赘	zjeoi4
+贅	zjeoi4
+鎚	zjeoi4	10
+崔	ceoi1
+催	ceoi1
+摧	ceoi1
+璀	ceoi1
+吹	cjeoi1
+龡	cjeoi1
+炊	cjeoi1
+揣	cjeoi2
+脆	ceoi3
+翠	ceoi3
+悴	ceoi3
+萃	ceoi3
+隋	ceoi4
+随	ceoi4
+隨	ceoi4
+捶	cjeoi4
+槌	cjeoi4
+锤	cjeoi4
+錘	cjeoi4
+鎚	cjeoi4
+陲	cjeoi4
+虽	seoi1
+雖	seoi1
+绥	seoi1
+綏	seoi1
+衰	sjeoi1
+髓	seoi2
+水	sjeoi2
+岁	seoi3
+歲	seoi3
+碎	seoi3
+粹	seoi3
+税	sjeoi3
+稅	sjeoi3
+帅	sjeoi3
+帥	sjeoi3
+隋	seoi4	10
+随	seoi4
+隨	seoi4	66
+瑞	seoi4
+穗	seoi4
+遂	seoi4
+隧	seoi4
+燧	seoi4
+邃	seoi4
+谁	sjeoi4
+誰	sjeoi4
+垂	sjeoi4
+睡	sjeoi4
+锥	njeoi1
+錐	njeoi1
+蕤	njeoi4
+乳	njeoi5
+蕊	njeoi5
+蘂	njeoi5
+锐	jeoi4
+銳	jeoi4
+鋭	jeoi4
+睿	jeoi4
+叡	jeoi4
+裔	jeoi4
+芮	jeoi4
+煨	weoi1
+回	weoi4
+囘	weoi4
+迴	weoi4
+廻	weoi4
+𡇌	weoi4
+茴	weoi4
+徊	weoi4
+蛔	weoi4
+汇	weoi4
+匯	weoi4
+彙	weoi4
+会	weoi4
+會	weoi4
+荟	weoi4
+薈	weoi4
+烩	weoi4
+燴	weoi4
+绘	weoi4
+繪	weoi4
+会	weoi5
+會	weoi5
+攰	geoi4
+㩻	geoi4
+盔	keoi1
+魁	keoi1
+溃	keoi2
+潰	keoi2
+溃	keoi3
+潰	keoi3
+绘	keoi3
+繪	keoi3
+脍	keoi3
+膾	keoi3
+馈	keoi3
+饋	keoi3
+桧	keoi3
+檜	keoi3
+刽	keoi3
+劊	keoi3
+
+
+
+
+錶	biu1
+彪	biu1
+骉	biu1
+驫	biu1
+猋	biu1
+飙	biu1
+飆	biu1
+飈	biu1
+标	biu1
+標	biu1
+镖	biu1
+鏢	biu1
+膘	biu1
+臕	biu1
+鑣	biu1
+瀌	biu1
+熛	biu1
+髟	biu1
+表	biu2
+婊	biu2
+裱	biu2
+漂	piu1
+飘	piu1
+飄	piu1
+缥	piu1
+縹	piu1
+嘌	piu1
+票	piu3
+漂	piu3
+剽	piu3
+瓢	piu4
+薸	piu4
+嫖	piu4
+朴	piu4
+鳔	piu5
+鰾	piu5
+瞄	miu1
+苗	miu4
+描	miu4
+瞄	miu4
+庙	miu4
+廟	miu4
+秒	miu5
+渺	miu5
+淼	miu5
+缈	miu5
+緲	miu5
+妙	miu5
+玅	miu5
+藐	miu5
+杳	miu5
+淼	miu5
+丢	diu1
+丟	diu1
+碉	diu1
+雕	diu1
+凋	diu1
+貂	diu1
+叼	diu1
+刁	diu1
+彫	diu1
+屌	diu2
+鳥	diu2	1
+钓	diu3
+釣	diu3
+吊	diu3
+弔	diu3
+调	diu4
+調	diu4
+掉	diu4
+挑	tiu1
+跳	tiu3
+眺	tiu3
+粜	tiu3
+糶	tiu3
+条	tiu3
+條	tiu3
+迢	tiu4
+调	tiu4
+調	tiu4
+髫	tiu4
+龆	tiu4
+齠	tiu4
+笤	tiu4
+尿	niu4
+鸟	niu5
+鳥	niu5
+袅	niu5
+裊	niu5
+嬲	niu5
+寮	liu1
+溜	liu1
+澑	liu1
+遛	liu1
+缭	liu2
+繚	liu2
+撩	liu2
+蓼	liu2
+尞	liu4
+燎	liu4
+𤐗	liu4
+聊	liu4
+寥	liu4
+僚	liu4
+潦	liu4
+辽	liu4
+遼	liu4
+暸	liu4
+療	liu4
+瞭	liu4
+缭	liu4
+繚	liu4
+撩	liu4
+寮	liu4
+療	liu4
+嘹	liu4
+廖	liu4
+镣	liu4
+鐐	liu4
+料	liu4
+尥	liu4
+尦	liu4																																								
+了	liu5
+瞭	liu5
+焦	ziu1
+蕉	ziu1
+礁	ziu1
+椒	ziu1
+招	zjiu1
+朝	zjiu1
+剿	ziu2
+劋	ziu2
+照	zjiu3
+诏	zjiu3
+詔	zjiu3
+赵	zjiu4
+趙	zjiu4
+召	zjiu4
+噍	zjiu4
+兆	zjiu4	22
+悄	ciu1
+锹	ciu1
+鍬	ciu1
+繰	ciu1
+超	cjiu1
+昭	cjiu1
+钊	cjiu1
+釗	cjiu1
+俏	ciu3
+鞘	ciu3
+峭	ciu3
+憔	ciu4
+樵	ciu4
+瞧	ciu4
+谯	ciu4
+譙	ciu4
+朝	cjiu4
+潮	cjiu4
+鼂	cjiu4
+晁	cjiu4
+𪓙	cjiu4
+萧	siu1				
+蕭	siu1
+潇	siu1
+瀟	siu1
+箫	siu1
+簫	siu1
+肖	siu1	1000%
+消	siu1
+逍	siu1
+硝	siu1
+销	siu1
+銷	siu1
+宵	siu1
+霄	siu1
+烧	sjiu1
+燒	sjiu1
+焼	sjiu1
+小	siu2
+筱	siu2
+少	sjiu2
+笑	siu3
+𥬇	siu3
+咲	siu3
+㗛	siu3
+啸	siu3
+嘯	siu3
+肖	siu3	10000%
+少	sjiu3
+韶	sjiu4
+绍	sjiu4
+紹	sjiu4
+劭	sjiu4
+邵	sjiu4
+卲	sjiu4
+肇	sjiu4
+兆	sjiu4
+扰	njiu2
+擾	njiu2
+绕	njiu2
+繞	njiu2
+要	njiu3
+垚	njiu4
+尧	njiu4
+堯	njiu4
+绕	njiu4
+繞	njiu4
+夭	jiu1
+妖	jiu1
+幺	jiu1
+吆	jiu1	60%
+要	jiu1
+腰	jiu1
+邀	jiu1
+妖	jiu2
+要	jiu3
+姚	jiu4
+摇	jiu4
+搖	jiu4
+遥	jiu4
+遙	jiu4
+瑶	jiu4
+瑤	jiu4
+猺	jiu4
+谣	jiu4
+謠	jiu4
+窑	jiu4
+窯	jiu4
+饶	jiu4
+饒	jiu4
+桡	jiu4
+橈	jiu4
+耀	jiu4
+曜	jiu4
+鹞	jiu4
+鷂	jiu4
+舀	jiu5
+娇	giu1
+嬌	giu1
+骄	giu1
+驕	giu1
+浇	giu1
+澆	giu1
+矫	giu2
+矯	giu2
+缴	giu2
+繳	giu2
+侥	giu2
+僥	giu2	6
+叫	giu3
+轿	giu4
+轎	giu4
+峤	giu4
+嶠	giu4
+橇	kiu1
+跷	kiu1
+蹺	kiu1
+巧	kiu2
+窍	kiu3
+竅	kiu3
+乔	kiu4
+喬	kiu4
+侨	kiu4
+僑	kiu4
+桥	kiu4
+橋	kiu4
+荞	kiu4
+蕎	kiu4
+翘	kiu4
+翹	kiu4
+轿	kiu4
+轎	kiu4
+峤	kiu4
+嶠	kiu4
+㠐	kiu4
+藠	kiu5	
+骁	hiu1
+驍	hiu1
+囂	hiu1
+嚻	hiu1
+枭	hiu1
+梟	hiu1
+侥	hiu1
+僥	hiu1
+枵	hiu1
+晓	hiu1
+曉	hiu1
+
+包	beu1	0.01
+龅	beu4
+齙	beu4
+猫	meu1
+貓	meu1
+喵	meu1
+鹩	leu1
+鷯	leu1
+寥	leu1
+撩	leu2
+缭	leu2
+繚	leu2
+嫽	leu2
+噍	zeu4
+噍	zjeu4
+搅	geu2
+攪	geu2	111%
+觉	geu2
+覺	geu2	111%
+撬	geu4
+翘	geu4
+翹	geu4
+跷	keu3
+蹺	keu3
+撬	keu3
+姣	heu4	1000%
+拗	ngeu2	45%
+吆	eu1	200%
+拗	eu2
+詏	eu3
+
+
+勹	baau1
+包	baau1
+苞	baau1
+胞	baau1
+鲍	baau1
+鮑	baau1
+孢	baau1
+饱	baau2
+飽	baau2
+豹	baau3
+爆	baau3
+龅	baau4
+齙	baau4
+抛	paau1
+拋	paau1
+泡	paau1
+脬	paau1
+雹	paau1
+跑	paau2
+炮	paau3
+砲	paau3
+礮	paau3
+泡	paau3
+疱	paau3
+皰	paau3
+咆	paau4
+狍	paau4
+麅	paau4
+鉋	paau4
+刨	paau4
+猫	maau1
+貓	maau1
+矛	maau4
+茅	maau4
+锚	maau4
+錨	maau4
+楙	maau4
+茂	maau4
+懋	maau4
+貌	maau4
+卯	maau5
+铆	maau5
+鉚	maau5
+昴	maau5
+牡	maau5
+亩	maau5
+畝	maau5
+呶	naau4
+挠	naau4
+撓	naau4
+铙	naau4
+鐃	naau4
+蛲	naau4
+蟯	naau4
+锚	naau4
+錨	naau4	81
+闹	naau4
+鬧	naau4
+淖	naau4
+捞	laau1
+撈	laau1
+嘲	zjaau1
+找	zjaau2
+爪	zjaau2
+帚	zjaau2	100%
+箒	zjaau2	100%
+罩	zjaau3
+笊	zjaau3
+㷹	zjaau3	3364
+炸	zjaau3
+棹	zjaau4
+櫂	zjaau4
+抄	cjaau1
+钞	cjaau1
+鈔	cjaau1
+炒	cjaau2
+吵	cjaau3
+抄	cjaau3
+巢	cjaau4
+梢	sjaau1
+艄	sjaau1
+筲	sjaau1
+髾	sjaau1
+稍	sjaau2
+捎	sjaau2
+潲	sjaau3
+哨	sjaau3
+睄	sjaau3
+睄	sjaau4
+爪	njaau2
+交	gaau1
+郊	gaau1
+蛟	gaau1
+跤	gaau1
+鲛	gaau1
+鮫	gaau1
+胶	gaau1
+膠	gaau1
+茭	gaau1
+搞	gaau2
+攪	gaau2
+饺	gaau2
+餃	gaau2
+狡	gaau2
+皎	gaau2
+绞	gaau2
+絞	gaau2
+佼	gaau2
+姣	gaau2	149
+教	gaau3
+敎	gaau3
+较	gaau3
+較	gaau3
+觉	gaau3
+覺	gaau3
+校	gaau3	90%
+铰	gaau3
+鉸	gaau3
+窖	gaau3
+靠	kaau3
+铐	kaau3
+銬	kaau3
+犒	kaau3
+酵	haau1
+烤	haau1
+敲	haau1
+哮	haau1
+考	haau2
+攷	haau2
+拷	haau2
+巧	haau2
+孝	haau3
+效	haau4
+校	haau4
+拗	ngaau2	81
+爻	ngaau4
+肴	ngaau4
+餚	ngaau4
+淆	ngaau4
+咬	ngaau5
+齩	ngaau5
+拗	aau2
+拗	aau3
+詏	aau3
+坳	aau3
+靿	aau3
+
+抔	pau1
+剖	pau2
+痞	mau1
+踎	mau1
+牟	mau4
+哞	mau4
+眸	mau4
+谋	mau4
+謀	mau4
+谬	mau4
+謬	mau4
+缪	mau4
+繆	mau4
+贸	mau4
+貿	mau4	810
+楙	mau4
+茂	mau4	1351
+懋	mau4
+某	mau5
+亩	mau5
+畝	mau5
+冇	mau5
+否	fau2
+阜	fau4
+埠	fau4
+浮	fau4
+蜉	fau4
+兜	dau1
+蔸	dau1
+篼	dau1
+斗	dau2
+抖	dau2
+蚪	dau2
+陡	dau2
+糾	dau2
+赳	dau2
+鬥	dau3
+鬪	dau3
+鬭	dau3
+鬦	dau3
+窦	dau3
+竇	dau3
+豆	dau4
+逗	dau4
+痘	dau4
+窦	dau4
+竇	dau4
+偷	tau1
+敨	tau2
+㪗	tau2
+透	tau3
+头	tau4
+頭	tau4
+投	tau4
+鳅	nau1
+鰍	nau1
+嬲	nau1
+纽	nau2
+紐	nau2
+扭	nau2
+妞	nau2
+忸	nau2
+朽	nau2
+钮	nau5
+鈕	nau5
+褛	lau1
+褸	lau1
+骝	lau1
+騮	lau1
+驑	lau1
+溜	lau1
+澑	lau1
+遛	lau1
+髅	lau1
+髏	lau1
+搂	lau1
+摟	lau1
+耧	lau1
+耬	lau1
+搂	lau2
+摟	lau2
+溜	lau3
+澑	lau3
+遛	lau3
+刘	lau4
+劉	lau4	124120
+浏	lau4
+瀏	lau4
+流	lau4
+硫	lau4
+琉	lau4
+瑠	lau4
+留	lau4
+畱	lau4
+榴	lau4
+橊	lau4
+瘤	lau4
+癅	lau4
+馏	lau4
+餾	lau4
+娄	lau4
+婁	lau4
+楼	lau4
+樓	lau4
+偻	lau4
+僂	lau4
+喽	lau4
+嘍	lau4
+蝼	lau4
+螻	lau4
+鎏	lau4
+镂	lau4
+鏤	lau4
+漏	lau4
+陋	lau4
+柳	lau5
+篓	lau5
+簍	lau5
+缕	lau5
+縷	lau5
+褛	lau5
+褸	lau5
+鬏	zau1
+揪	zau1
+揫	zau1
+舟	zjau1
+周	zjau1
+州	zjau1
+洲	zjau1
+搊	zjau1
+邹	zjau1
+鄒	zjau1
+酒	zau2
+走	zau2
+帚	zjau2	100%
+箒	zjau2	100%
+奏	zau3
+皱	zau3
+皺	zau3
+绉	zau3
+縐	zau3
+咒	zjau3
+呪	zjau3
+昼	zjau3
+晝	zjau3
+皱	zjau3
+皺	zjau3
+绉	zjau3
+縐	zjau3
+就	zau4
+鹫	zau4
+鷲	zau4
+岫	zau4
+袖	zau4
+宙	zjau4
+冑	zjau4
+胄	zjau4
+骤	zjau4
+驟	zjau4
+纣	zjau4
+紂	zjau4
+肘	zjau4
+秋	cau1
+鞦	cau1
+鳅	cau1
+鰍	cau1
+楸	cau1
+抽	cjau1
+瞅	cjau1
+搊	cjau1
+丑	cjau2
+醜	cjau2
+魗	cjau2
+凑	cau3
+湊	cau3
+臭	cjau3
+嗅	cjau3
+齅	cjau3
+溴	cjau3
+囚	cau4
+泅	cau4
+酋	cau4
+遒	cau4
+愁	cau4
+筹	cjau4
+籌	cjau4
+畴	cjau4
+疇	cjau4
+俦	cjau4
+儔	cjau4
+踌	cjau4
+躊	cjau4
+惆	cjau4
+绸	cjau4
+綢	cjau4
+稠	cjau4
+酬	cjau4
+仇	cjau4
+讎	cjau4
+犨	cjau4
+犫	cjau4
+售	cjau4	3333
+修	sau1
+脩	sau1
+羞	sau1
+馐	sau1
+饈	sau1
+飕	sau1
+颼	sau1
+馊	sau1
+餿	sau1
+蒐	sau1
+嗖	sau1
+收	sjau1
+叟	sau2
+搜	sau2
+艘	sau2
+擞	sau2
+擻	sau2
+手	sjau2
+首	sjau2
+守	sjau2
+秀	sau3
+绣	sau3
+繡	sau3
+锈	sau3
+鏽	sau3
+宿	sau3
+嗽	sau3
+嗖	sjau3
+瘦	sjau3
+兽	sjau3
+獸	sjau3
+狩	sjau3
+受	sjau4
+授	sjau4
+绶	sjau4
+綬	sjau4
+寿	sjau4
+壽	sjau4
+售	sjau4	444
+皱	njau3
+皺	njau3
+绉	njau3
+縐	njau3
+柔	njau4
+揉	njau4
+蹂	njau4
+幽	jau1
+休	jau1
+丘	jau1
+邱	jau1
+忧	jau1
+憂	jau1
+优	jau1
+優	jau1
+蚯	jau1
+貅	jau1
+呦	jau1
+柚	jau2
+幼	jau3
+莠	jau3
+尤	jau4
+由	jau4
+油	jau4
+邮	jau4
+郵	jau4
+游	jau4
+遊	jau4
+蝣	jau4
+犹	jau4
+猶	jau4
+攸	jau4
+悠	jau4
+鱿	jau4
+魷	jau4
+酋	jau4
+又	jau4
+右	jau4
+佑	jau4
+祐	jau4
+釉	jau4
+鼬	jau4
+柔	jau4	99%
+揉	jau4	99%
+蹂	jau4	99%															
+友	jau5
+有	jau5
+酉	jau5
+诱	jau5
+誘	jau5	80%
+莠	jau5
+鸠	gau1
+鳩	gau1
+沟	gau1
+溝	gau1
+阄	gau1
+鬮	gau1
+勾	gau1
+句	gau1
+九	gau2
+久	gau2
+玖	gau2
+狗	gau2
+苟	gau2
+枸	gau2
+笱	gau2
+纠	gau2
+糾	gau2	5%
+韭	gau2
+韮	gau2
+救	gau3
+够	gau3
+夠	gau3
+究	gau3
+咎	gau3
+构	gau3
+構	gau3
+购	gau3
+購	gau3
+彀	gau3
+灸	gau3
+疚	gau3
+垢	gau3
+厩	gau3
+廄	gau3
+廏	gau3
+旧	gau4
+舊	gau4
+柩	gau4
+抠	kau1
+摳	kau1
+眍	kau1
+瞘	kau1
+沟	kau1
+溝	kau1	40%
+扣	kau3
+釦	kau3
+叩	kau3
+寇	kau3
+蔻	kau3
+购	kau3
+購	kau3	30%
+构	kau3
+構	kau3	40%
+求	kau4
+球	kau4
+裘	kau4
+𧚍	kau4
+仇	kau4	15
+逑	kau4
+毬	kau4
+俅	kau4
+舅	kau5
+臼	kau5
+桕	kau5
+口	hau2
+吼	hau2
+侯	hau4
+矦	hau4
+喉	hau4
+猴	hau4
+篌	hau4
+瘊	hau4
+睺	hau4
+𥈑	hau4
+㬋	hau4
+後	hau4
+后	hau4
+逅	hau4
+候	hau4
+骺	hau4
+厚	hau5
+钩	ngau1
+鉤	ngau1
+勾	ngau1
+句	ngau1
+溝	ngau1
+牛	ngau4
+偶	ngau5
+藕	ngau5
+耦	ngau5
+欧	au1
+歐	au1
+鸥	au1
+鷗	au1
+瓯	au1
+甌	au1
+殴	au1
+毆	au1
+区	au1	0%
+區	au1	5.1%
+讴	au1
+謳	au1
+呕	au2
+嘔	au2	
+沤	au3
+漚	au3
+怄	au3
+慪	au3
+
+
+煲	bou1
+褒	bou1
+宝	bou2
+寶	bou2
+寳	bou2
+保	bou2
+堡	bou2
+葆	bou2
+褓	bou2
+鸨	bou2
+鴇	bou2
+报	bou3
+報	bou3
+菢	bou4
+暴	bou4
+爆	bou4
+瀑	bou4
+曝	bou4
+袍	pou4
+抱	pou5
+泡	pou5
+毛	mou1
+髦	mou1
+踎	mou1
+毛	mou4
+髦	mou4
+楙	mou4
+茂	mou4
+懋	mou4
+冒	mou4
+帽	mou4
+瑁	mou4
+贸	mou4
+貿	mou4
+瑁	mou4
+谋	mou4
+謀	mou4
+某	mou5
+亩	mou5
+畝	mou5
+冇	mou5	950727
+無	mou5	0
+牡	mou5
+刀	dou1
+叨	dou1
+倒	dou2
+岛	dou2
+島	dou2
+捣	dou2
+搗	dou2
+祷	dou2
+禱	dou2	68
+倒	dou3
+到	dou3
+道	dou4
+导	dou4
+導	dou4
+蹈	dou4
+稻	dou4
+悼	dou4
+盗	dou4
+盜	dou4
+滔	tou1
+韬	tou1
+韜	tou1
+焘	tou1
+燾	tou1
+掏	tou1
+饕	tou1
+讨	tou2
+討	tou2
+祷	tou2
+禱	tou2
+套	tou3
+桃	tou4
+逃	tou4
+涛	tou4
+濤	tou4
+淘	tou4
+萄	tou4
+陶	tou4
+啕	tou4
+绹	tou4
+綯	tou4
+啕	tou4
+脑	nou5
+腦	nou5
+瑙	nou5
+恼	nou5
+惱	nou5
+捞	lou1
+撈	lou1
+佬	lou2
+牢	lou4
+劳	lou4
+勞	lou4
+痨	lou4
+癆	lou4
+唠	lou4
+嘮	lou4
+涝	lou4
+澇	lou4
+老	lou5
+姥	lou5
+遭	zou1
+糟	zou1
+早	zou2
+蚤	zou2
+枣	zou2
+棗	zou2
+澡	zou2
+灶	zou3
+竈	zou3
+皂	zou4
+皁	zou4
+造	zou4
+操	cou1
+草	cou2
+艸	cou2
+艹	cou2
+騲	cou2
+燥	cou3
+糙	cou3
+藻	cou3
+噪	cou3
+躁	cou3
+操	cou3
+造	cou3	5%
+曹	cou4
+槽	cou4
+嘈	cou4
+漕	cou4
+搔	sou1
+骚	sou1
+騷	sou1
+瘙	sou1
+缫	sou1
+繅	sou1
+臊	sou1
+嫂	sou2
+㛮	sou2
+扫	sou3
+掃	sou3
+嗽	sou3
+高	gou1
+髙	gou1
+羔	gou1
+糕	gou1
+餻	gou1
+膏	gou1
+篙	gou1
+睾	gou1
+皋	gou1
+臯	gou1
+稿	gou2
+暠	gou2	65%
+杲	gou2
+告	gou3
+诰	gou3
+誥	gou3
+郜	gou3
+锆	gou3
+鋯	gou3
+蒿	hou1
+薅	hou1
+好	hou2
+耗	hou3
+好	hou3
+恏	hou3
+犒	hou3	5%
+毫	hou4
+豪	hou4
+壕	hou4
+嚎	hou4
+蠔	hou4
+蚝	hou4
+号	hou4				
+號	hou4
+昊	hou4
+浩	hou4
+皓	hou4
+暠	hou4	40%
+颢	hou4
+顥	hou4
+灏	hou4
+灝	hou4
+酷	hou4
+敖	ngou4
+嗷	ngou4
+遨	ngou4
+摮	ngou4
+𢳆	ngou4
+熬	ngou4
+獒	ngou4
+螯	ngou4
+驁	ngou4
+鰲	ngou4
+鼇	ngou4
+翱	ngou4
+傲	ngou4
+鏊	ngou4
+袄	ou2
+襖	ou2
+奥	ou3
+奧	ou3
+澳	ou3
+懊	ou3 
+
+
+
+毋	m4
+唔	m4
+
+掂	dim1
+点	dim2
+點	dim2
+店	dim3
+踮	dim3
+玷	dim3
+惦	dim3
+垫	dim3
+墊	dim3
+垫	dim4
+墊	dim4
+簟	dim4
+添	tim1
+舔	tim2
+掭	tim2
+㮇	tim2
+甜	tim4	1298300
+甛	tim4
+䑚	tim4
+𥑠	tim4
+恬	tim4
+黏	nim1
+棯	nim1
+拈	nim1
+捻	nim2
+念	nim4
+鲇	nim4
+鮎	nim4
+鲶	nim4
+鯰	nim4
+验	nim4
+驗	nim4
+廉	lim4
+帘	lim4
+簾	lim4
+镰	lim4
+鐮	lim4
+殓	lim4
+殮	lim4
+脸	lim5
+臉	lim5
+敛	lim5
+斂	lim5
+尖	zim1
+鑯	zim1
+笺	zim1
+箋	zim1
+沾	zjim1
+粘	zjim1
+霑	zjim1
+占	zjim1
+詹	zjim1
+瞻	zjim1
+佔	zjim3
+渐	zim4
+漸	zim4
+签	cim1
+簽	cim1
+籤	cim1
+纤	cim1
+纖	cim1
+歼	cim1
+殲	cim1
+忏	cim1
+懺	cim1	125
+迁	cim1
+遷	cim1	1512
+堑	cim3
+塹	cim3
+暹	cim3
+僭	cim3
+潜	cim4
+潛	cim4
+挦	cim4
+撏	cim4
+谄	cjim4
+諂	cjim4
+蟾	cjim4
+陕	sjim2
+陝	sjim2
+闪	sjim2
+閃	sjim2
+赡	sjim4
+贍	sjim4
+婵	sjim4
+嬋	sjim4
+蝉	sjim4
+蟬	sjim4
+阐	sjim4
+闡	sjim4
+蟾	sjim4
+禅	sjim4
+禪	sjim4
+严	njim4
+嚴	njim4
+髯	njim4
+俨	njim4
+儼	njim4
+酽	njim4
+釅	njim4
+验	njim4
+驗	njim4
+冉	njim5
+苒	njim5
+染	njim5
+俨	njim5
+儼	njim5
+广	njim5	1
+淹	jim1
+阉	jim1
+閹	jim1
+醃	jim1	83
+腌	jim1	77
+掩	jim2
+厣	jim2
+厴	jim2
+魇	jim2
+魘	jim2
+奄	jim2
+厌	jim3
+厭	jim3
+炎	jim4
+盐	jim4
+鹽	jim4
+嫌	jim4
+檐	jim4
+簷	jim4
+阎	jim4
+閻	jim4
+闫	jim4
+閆	jim4
+艳	jim4
+艷	jim4
+豔	jim4
+滟	jim4
+灩	jim4
+灔	jim4
+焰	jim4												
+兼	gim1
+搛	gim1
+检	gim2
+檢	gim2
+捡	gim2
+撿	gim2
+剑	gim3
+劍	gim3
+俭	gim4
+儉	gim4
+黔	kim4
+黚	kim4
+谦	him1
+謙	him1
+险	him2
+險	him2
+欠	him3
+歉	him3
+
+鹐	dem1
+鵮	dem1
+拈	nem1
+燫	lem1
+熑	lem1
+钳	kem4
+鉗	kem4
+黔	kem4
+黚	kem4
+
+担	daam1
+擔	daam1
+眈	daam1
+耽	daam1
+鹐	daam1
+鵮	daam1
+儋	daam1
+膽	daam2
+担	daam3
+擔	daam3
+啖	daam4
+啗	daam4
+淡	daam4
+氮	daam4	28
+贪	taam1
+貪	taam1
+坍	taam1
+忐	taam2	870
+憳	taam2	900
+探	taam3
+谈	taam4
+談	taam4
+痰	taam4
+潭	taam4
+谭	taam4
+譚	taam4
+燂	taam4
+昙	taam4
+曇	taam4
+淡	taam5
+氮	taam5
+喃	naam1
+男	naam4
+南	naam4
+楠	naam4
+腩	naam5
+揇	naam5
+篮	laam1
+籃	laam1					
+览	laam2
+覽	laam2
+揽	laam2
+攬	laam2
+榄	laam2
+欖	laam2
+蓝	laam4
+藍	laam4
+篮	laam4
+籃	laam4
+岚	laam4
+嵐	laam4
+婪	laam4
+褴	laam4
+襤	laam4
+滥	laam4
+濫	laam4
+缆	laam4
+纜	laam4
+舰	laam4
+艦	laam4
+漤	laam5
+灠	laam5
+簪	zaam1
+斩	zjaam2
+斬	zjaam2
+湛	zjaam3
+崭	zjaam3
+嶄	zjaam3
+嶃	zjaam3
+蘸	zjaam3
+暂	zaam4
+暫	zaam4
+錾	zaam4
+鏨	zaam4
+站	zjaam4
+参	caam1
+參	caam1
+骖	caam1
+驂	caam1
+参	cjaam1
+參	cjaam1
+搀	cjaam1
+攙	cjaam1
+慘	caam2
+忏	cjaam3
+懺	cjaam3
+杉	cjaam3
+渗	cjaam3
+滲	cjaam3
+惭	caam4
+慚	caam4
+蚕	caam4
+蠶	caam4
+谗	cjaam4
+讒	cjaam4
+馋	cjaam4
+饞	cjaam4
+鑱	cjaam5
+三	saam1
+叄	saam1
+钐	saam1
+釤	saam1
+衫	sjaam1
+糝	saam2
+渗	jaam3
+滲	jaam3
+监	gaam1
+監	gaam1
+缄	gaam1
+緘	gaam1
+减	gaam2
+減	gaam2
+监	gaam3
+監	gaam3
+鉴	gaam3
+鑒	gaam3
+鑑	gaam3
+尷	gaam3
+尲	gaam3
+槛	kaam5
+檻	kaam5
+酣	haam1
+憨	haam1
+馅	haam2
+餡	haam2
+喊	haam3
+函	haam4
+涵	haam4
+咸	haam4
+鹹	haam4
+衔	haam4
+銜	haam4
+陷	haam4
+撼	haam4
+憾	haam4
+馅	haam4
+餡	haam4
+啱	ngaam1	0%
+巖	ngaam4
+岩	ngaam4
+喦	ngaam4
+癌	ngaam4
+
+抌	dam2	1000%
+髧	dam3
+窞	tam5	1532
+氹	tam5
+凼	tam5	50%
+谂	nam2
+諗	nam2
+惗	nam2
+腍	nam4
+稔	nam4
+淰	nam4
+冧	lam
+林	lam4
+淋	lam4
+琳	lam4
+霖	lam4
+临	lam4
+臨	lam4
+凛	lam5
+凜	lam5
+廪	lam5
+廩	lam5
+檩	lam5
+檁	lam5
+针	zjam1
+針	zjam1
+斟	zjam1
+砧	zjam1
+箴	zjam1
+怎	zam2
+枕	zjam2
+浸	zam3
+朕	zjam4
+侵	cam1
+參	cjam1
+寢	cam2
+吢	cam3
+吣	cam3
+唚	cam3
+寻	cam4
+尋	cam4
+浔	cam4
+潯	cam4
+覃	cam4
+沉	cjam4
+岑	cjam4
+涔	cjam4
+忱	cjam4
+心	sam1
+芯	sam1				
+深	sjam1
+森	sjam1
+参	sjam1
+參	sjam1
+审	sjam2
+審	sjam2
+婶	sjam2
+嬸	sjam2
+沈	sjam2
+瀋	sjam2
+渗	sam3
+滲	sam3
+甚	sam4
+谌	sjam4
+諶	sjam4
+甚	sjam4
+葚	sjam4
+什	sjam4	5%
+椹	sjam4
+饮	njam2
+飲	njam2
+饮	njam3
+飲	njam3
+壬	njam4
+任	njam4
+纴	njam4
+紝	njam4
+荏	njam4
+饪	njam4	100%
+飪	njam4	100%
+赁	njam4
+賃	njam4
+吟	njam4
+音	jam1
+歆	jam1
+阴	jam1
+陰	jam1
+荫	jam1
+蔭	jam1
+钦	jam1
+欽	jam1
+鑫	jam3
+窨	jam3
+淫	jam4
+霪	jam4
+今	gam1	150%
+金	gam1	130%
+禁	gam1	1%
+甘	gam1	70%
+柑	gam1	70%
+疳	gam1	70%
+泔	gam1	70%
+苷	gam1	70%
+锦	gam2	105%
+錦	gam2	120%
+感	gam2	70%
+敢	gam2	70%
+橄	gam2	70%
+禁	gam3	70%
+揿	gam4
+撳	gam4
+襟	kam1
+禁	kam1
+琴	kam4
+禽	kam4
+擒	kam4
+蠄	kam4
+黚	kam4
+妗	kam5
+堪	ham1
+龛	ham1
+龕	ham1
+蚶	ham1
+欽	ham1	5.5%
+坎	ham2
+砍	ham2
+轗	ham2
+坎	ham3
+墈	ham3
+勘	ham3
+嵌	ham3
+吟	ngam4
+庵	am1
+鹌	am1
+鵪	am1
+揞	am2
+瘖	am2
+暗	am3
+黯	am3
+
+泵	bom1
+𩛎	mom1
+沊	dom2
+揽	lom2
+攬	lom2
+甘	gom1
+柑	gom1
+疳	gom1
+泔	gom1
+苷	gom1
+敢	gom2
+橄	gom2
+感	gom2
+贛	gom2	95
+贛	gom3
+赣	gom3
+咁	gom
+堪	hom1
+龛	hom1
+龕	hom1
+蚶	hom1
+坎	hom2
+砍	hom2
+轗	hom2
+坎	hom3
+墈	hom3
+勘	hom3
+含	hom4
+撼	hom4
+憾	hom4
+陷	hom4	4%
+庵	om1
+鹌	om1
+鵪	om1
+揞	om2
+暗	om3
+黯	om3
+
+边	bin1
+邊	bin1
+鞭	bin1
+辫	bin1
+辮	bin1
+鳊	bin1
+鯾	bin1
+鯿	bin1
+扁	bin2
+匾	bin2
+贬	bin2
+貶	bin2
+变	bin3
+變	bin3
+便	bin4
+辨	bin4
+辩	bin4
+辯	bin4
+汴	bin4
+卞	bin4
+弁	bin4
+抃	bin4
+拚	bin4	6
+编	pin1
+編	pin1
+蝙	pin1
+偏	pin1
+篇	pin1
+翩	pin1
+片	pin3
+遍	pin3
+骗	pin3
+騙	pin3
+騗	pin3
+便	pin4
+棉	min4
+绵	min4
+綿	min4
+眠	min4
+面	min4
+麪	min4
+麵	min4	
+免	min5
+勉	min5
+冕	min5
+娩	min5
+缅	min5
+緬	min5
+渑	min5
+澠	min5
+愐	min5
+湎	min5
+勔	min5
+颠	din1
+顛	din1
+顚	din1
+巅	din1
+顛	din1
+巓	din1
+巅	din1
+癲	din1
+滇	din1
+滇	din1
+典	din2
+碘	din2
+腆	din2
+电	din4
+電	din4
+殿	din4
+澱	din4
+臀	din4
+臀	din4
+奠	din4
+淀	din4
+靛	din4
+佃	din4
+甸	din4
+钿	din4
+鈿	din4
+天	tin1
+兲	tin1
+靝	tin1
+䒶	tin1
+田	tin4
+填	tin4
+塡	tin4
+滇	tin4
+钿	tin4
+鈿	tin4
+蔫	nin1
+碾	nin2
+年	nin4
+秊	nin4
+链	lin2
+鏈	lin2
+连	lin4
+連	lin4
+莲	lin4
+蓮	lin4
+鲢	lin4
+鰱	lin4
+链	lin4
+鏈	lin4
+涟	lin4
+漣	lin4
+怜	lin4
+憐	lin4
+梿	lin4
+槤	lin4
+练	lin4
+練	lin4
+炼	lin4
+煉	lin4
+鍊	lin4
+楝	lin4												
+辇	lin5
+輦	lin5
+煎	zin1
+毡	zjin1
+氈	zjin1
+剪	zin2
+翦	zin2
+践	zin2
+踐	zin2
+戬	zin2
+戩	zin2
+展	zjin2
+辗	zjin2
+輾	zjin2
+碾	zjin2
+箭	zin3
+荐	zin3
+薦	zin3
+溅	zin3
+濺	zin3
+饯	zin3
+餞	zin3
+战	zjin3
+戰	zjin3
+颤	zjin3
+顫	zjin3
+贱	zin4
+賤	zin4
+千	cin1
+仟	cin1
+芊	cin1
+扦	cin1
+迁	cin1
+遷	cin1
+韆	cin1
+阡	cin1
+浅	cin2
+淺	cin2
+前	cin4
+歬	cin4
+钱	cin4
+錢	cin4
+缠	cjin4
+纏	cjin4
+躔	cjin4
+先	sin1
+仙	sin1
+僊	sin1
+扇	sin1
+搧	sin1
+鲜	sin1
+鮮	sin1
+鱻	sin1
+酰	sin1
+𥑻	sin1
+冼	sin2
+铣	sin2
+銑	sin2
+鲜	sin2
+鮮	sin2
+藓	sin2
+蘚	sin2
+癣	sin2
+癣	sin2
+羡	sin3
+羨	sin3
+线	sin3
+綫	sin3
+線	sin3
+腺	sin3
+霰	sin3	6%
+扇	sjin3
+煽	sjin3
+骟	sjin3
+騸	sjin3
+倩	sin4
+涎	sin4
+善	sjin4
+膳	sjin4
+缮	sjin4
+繕	sjin4
+擅	sjin4
+禅	sjin4
+禪	sjin4
+单	sjin4
+單	sjin4
+鳝	sjin5
+鱔	sjin5
+烟	njin1
+煙	njin1
+菸	njin1
+胭	njin1
+焉	njin1	
+然	njin4
+燃	njin4
+言	njin4
+研	njin4
+硏	njin4
+硯	njin4
+菸	jin1
+燕	jin1
+咽	jin1
+焉	jin1
+嫣	jin1
+演	jin2
+毽	jin2
+偃	jin2
+躽	jin2	223
+衍	jin2
+宴	jin3
+咽	jin3
+嚥	jin3
+燕	jin3
+堰	jin3
+贤	jin4
+賢	jin4
+弦	jin4
+舷	jin4
+姸	jin4
+妍	jin4
+延	jin4
+筵	jin4
+蜒	jin4
+涎	jin4
+焉	jin4
+现	jin4
+現	jin4
+苋	jin4
+莧	jin4
+彦	jin4
+彥	jin4
+谚	jin4
+諺	jin4
+唁	jin4
+兖	jin5
+兗	jin5
+延	jin5
+蜒	jin5
+筵	jin5
+涎	jin5
+衍	jin5
+肩	gin1
+坚	gin1
+堅	gin1
+蹇	gin2
+笕	gin2
+筧	gin2
+见	gin3
+見	gin3
+建	gin3
+犍	gin3
+件	gin4
+建	gin4
+健	gin4
+键	gin4
+鍵	gin4
+楗	gin4
+腱	gin4
+犍	gin4
+搴	kin2
+虔	kin4
+乾	kin4	5%
+掮	kin4
+牵	hin1
+牽	hin1
+轩	hin1
+軒	hin1
+骞	hin1
+騫	hin1
+掀	hin1
+搴	hin1
+褰	hin1
+遣	hin2
+显	hin2
+顯	hin2
+谴	hin2
+譴	hin2
+缱	hin2
+繾	hin2
+蚬	hin2
+蜆	hin2
+衍	hin2
+櫶	hin3
+宪	hin3
+憲	hin3
+献	hin3
+獻	hin3
+䭤	hin3
+
+扁	ben2
+匾	ben2
+贬	ben2
+貶	ben2
+撵	nen2
+攆	nen2
+齴	njen
+齴	njen
+躽	en2	273
+
+
+
+班	baan1
+颁	baan1
+頒	baan1
+斑	baan1
+癍	baan1
+板	baan2
+闆	baan2
+版	baan2
+扳	baan2
+坂	baan2
+舨	baan2
+办	baan4
+辦	baan4
+瓣	baan4
+扮	baan4
+湴	baan4
+攀	paan1
+盼	paan3
+襻	paan3
+爿	paan4
+闆	paan4	0.01
+摱	maan1
+扳	maan1
+曼	maan4
+馒	maan4
+饅	maan4
+鳗	maan4
+鰻	maan4
+谩	maan4
+謾	maan4
+蛮	maan4
+蠻	maan4
+鬘	maan4
+慢	maan4
+萬	maan4
+漫	maan4
+幔	maan4
+蔓	maan4
+晚	maan5
+翻	faan1
+番	faan1
+幡	faan1
+藩	faan1
+蕃	faan1
+返	faan1
+反	faan2
+返	faan2
+贩	faan3
+販	faan3
+泛	faan3
+烦	faan4
+煩	faan4
+繁	faan4
+帆	faan4
+藩	faan4
+凡	faan4
+樊	faan4
+礬	faan4
+矾	faan4
+饭	faan4
+飯	faan4
+范	faan4
+梵	faan4
+犯	faan4
+犯	faan5
+範	faan5
+丹	daan1
+单	daan1
+單	daan1
+郸	daan1
+鄲	daan1
+掸	daan2
+撣	daan2
+胆	daan2
+旦	daan3
+诞	daan3
+誕	daan3
+但	daan4
+蛋	daan4
+疍	daan4
+弹	daan4
+彈	daan4
+摊	taan1
+攤	taan1
+滩	taan1
+灘	taan1
+瘫	taan1
+癱	taan1
+坦	taan2
+袒	taan2
+疸	taan2
+瘫	taan2
+癱	taan2
+毯	taan2
+忐	taan2	391
+憳	taan2	405
+炭	taan3
+碳	taan3
+叹	taan3
+嘆	taan3
+歎	taan3
+坛	taan4
+壇	taan4
+檀	taan4
+弹	taan4
+彈	taan4
+难	naan4
+難	naan4
+栏	laan1
+欄	laan1
+躝	laan1
+兰	laan4
+蘭	laan4
+阑	laan4
+闌	laan4
+拦	laan4
+攔	laan4
+斓	laan4
+斕	laan4
+栏	laan4
+欄	laan4
+澜	laan4
+瀾	laan4
+谰	laan4
+讕	laan4
+镧	laan4
+鑭	laan4
+襕	laan4
+烂	laan4
+爛	laan4
+糷	laan4
+懒	laan5
+懶	laan5
+嬾	laan5
+盏	zjaan2
+盞	zjaan2
+栈	zjaan2
+棧	zjaan2
+赞	zaan3
+贊	zaan3
+讚	zaan3
+讃	zaan3
+攒	zaan3
+攢	zaan3
+灒	zaan3
+赚	zaan4
+賺	zaan4
+赚	zjaan4
+賺	zjaan4
+栈	zjaan4
+棧	zjaan4
+绽	zjaan4
+綻	zjaan4
+餐	caan1
+产	cjaan2
+産	cjaan2
+產	cjaan2
+铲	cjaan2
+鏟	cjaan2
+粲	caan3
+灿	caan3
+燦	caan3
+璨	caan3
+颤	cjaan3
+顫	cjaan3	6%
+残	caan4
+殘	caan4
+孱	cjaan4
+潺	cjaan4
+姗	saan1
+姍	saan1
+珊	saan1
+山	sjaan1
+删	sjaan1
+刪	sjaan1
+闩	sjaan1
+閂	sjaan1
+拴	sjaan1
+栓	sjaan1
+羶	sjaan1
+姗	sjaan1
+姍	sjaan1
+珊	sjaan1
+散	saan2
+馓	saan2
+饊	saan2
+糤	saan2
+霰	saan2	62
+伞	saan3
+傘	saan3
+散	saan3
+汕	sjaan3
+疝	sjaan3
+篡	sjaan3
+剜	waan1
+豌	waan1
+弯	waan1
+彎	waan1
+湾	waan1
+灣	waan1
+玩	waan2
+还	waan4
+還	waan4
+环	waan4
+環	waan4
+鬟	waan4
+豢	waan4
+寰	waan4
+宦	waan4
+患	waan4
+幻	waan4
+鲩	waan5
+鯇	waan5	150%
+幻	waan5
+挽	waan5
+间	gaan1
+間	gaan1
+奸	gaan1
+姦	gaan1
+艰	gaan1
+艱	gaan1
+简	gaan2
+簡	gaan2
+柬	gaan2
+拣	gaan2
+揀	gaan2
+痫	gaan2
+癇	gaan2
+裥	gaan2
+襇	gaan2
+茧	gaan2
+繭	gaan2
+碱	gaan2
+鹼	gaan2
+枧	gaan2
+梘	gaan2
+锏	gaan2
+鐧	gaan2
+鐗	gaan2
+间	gaan3
+間	gaan3
+涧	gaan3
+澗	gaan3
+谏	gaan3
+諫	gaan3
+锏	gaan3
+鐧	gaan3	5
+鐗	gaan3	7
+关	gwaan1
+關	gwaan1
+関	gwaan1
+鳏	gwaan1
+鰥	gwaan1
+惯	gwaan3
+慣	gwaan3
+掼	gwaan3
+摜	gwaan3
+悭	haan1
+慳	haan1
+闲	haan4
+閑	haan4
+娴	haan4
+嫻	haan4
+痫	haan4
+癇	haan4
+限	haan4
+颜	ngaan4
+顏	ngaan4
+顽	ngaan4
+頑	ngaan4
+研	ngaan4
+硏	ngaan4
+碾	ngaan4
+雁	ngaan4	1662000
+鴈	ngaan4
+鳫	ngaan4
+𩾦	ngaan4
+𤻉	ngaan4
+𪁡	ngaan4
+𪂢	ngaan4
+赝	ngaan4
+贗	ngaan4
+贋	ngaan4								
+眼	ngaan5
+晏	aan3
+
+奔	ban1
+犇	ban1
+锛	ban1
+錛	ban1
+宾	ban1
+賓	ban1
+彬	ban1
+斌	ban1
+滨	ban1
+濱	ban1
+缤	ban1
+繽	ban1
+槟	ban1
+檳	ban1
+膑	ban1
+臏	ban1
+髌	ban1
+髕	ban1
+禀	ban2
+稟	ban2
+殡	ban3
+殯	ban3
+鬓	ban3
+鬢	ban3
+笨	ban4
+牝	ban5
+品	pan1
+喷	pan3
+噴	pan3
+频	pan4
+頻	pan4
+颦	pan4
+顰	pan4
+濒	pan4
+瀕	pan4
+贫	pan4
+貧	pan4
+嫔	pan4
+嬪	pan4
+蚊	man1
+焖	man1
+燜	man1
+缗	man1
+緡	man1
+炆	man1
+抆	man2
+汶	man3
+文	man4
+纹	man4
+紋	man4
+雯	man4
+旻	man4
+民	man4
+闻	man4
+聞	man4
+问	man4
+問	man4
+璺	man4
+汶	man4
+玟	man4
+珉	man4
+敏	man5	338800
+闽	man5
+閩	man5
+悯	man5
+憫	man5
+吻	man5
+刎	man5
+㨉	man5
+抿	man5
+闵	man5
+閔	man5
+泯	man5
+分	fan1
+吩	fan1
+芬	fan1
+氛	fan1
+纷	fan1
+紛	fan1
+婚	fan1
+昏	fan1
+熏	fan1
+薰	fan1
+勋	fan1
+勳	fan1
+醺	fan1
+酚	fan1
+粉	fan2
+粪	fan3
+糞	fan3
+训	fan3
+訓	fan3
+睏	fan3
+瞓	fan3
+奋	fan3
+奮	fan3
+焚	fan4
+坟	fan4
+墳	fan4
+汾	fan4
+豮	fan4
+豶	fan4
+份	fan4
+分	fan4
+忿	fan4
+愤	fan5
+憤	fan5
+奋	fan5
+奮	fan5
+忿	fan5
+敦	dan1
+吨	dan1
+噸	dan1
+墩	dan1
+礅	dan1
+蹲	dan1
+惇	dan1
+墩	dan2
+礅	dan2
+盹	dan2
+趸	dan2
+躉	dan2
+扽	dan3
+顿	dan4
+頓	dan4
+沌	dan4
+盾	dan4
+遁	dan4
+钝	dan4
+鈍	dan4
+炖	dan4
+燉	dan4
+囤	dan4
+囤	dan5
+吞	tan1
+饨	tan1
+飩	tan1
+褪	tan3
+屯	tan4
+臀	tan4
+豚	tan4
+腯	tan4
+撚	nan2
+邻	lan4
+鄰	lan4
+嶙	lan4
+磷	lan4
+㷠	lan4
+燐	lan4
+麟	lan4
+鳞	lan4
+鱗	lan4
+粼	lan4
+璘	lan4
+遴	lan4
+仑	lan4
+侖	lan4
+伦	lan4
+倫	lan4
+崘	lan4
+崙	lan4
+沦	lan4
+淪	lan4
+轮	lan4
+輪	lan4
+论	lan4
+論	lan4
+吝	lan4
+抡	lan4
+掄	lan4
+囵	lan4
+圇	lan4
+津	zan1
+榛	zan1
+臻	zan1
+遵	zan1
+樽	zan1	200%
+罇	zan1	150% 
+真	zjan1
+眞	zjan1
+珍	zjan1
+禛	zjan1	
+甄	zjan1	5.6%							
+缜	zjan2
+縝	zjan2
+准	zjan2
+準	zjan2
+进	zan3
+進	zan3
+晋	zan3
+晉	zan3
+缙	zan3
+縉	zan3
+俊	zan3
+儁	zan3
+峻	zan3
+浚	zan3
+濬	zan3
+竣	zan3
+骏	zan3
+駿	zan3
+畯	zan3
+圳	zan3
+振	zjan3
+赈	zjan3
+賑	zjan3
+震	zjan3
+镇	zjan3
+鎮	zjan3
+鎭	zjan3
+尽	zan4
+盡	zan4
+儘	zan4
+烬	zan4
+燼	zan4
+阵	zjan4
+陣	zjan4
+亲	can1
+親	can1
+皴	can1
+春	cjan1
+椿	cjan1
+鹑	cjan1
+鶉	cjan1
+蠢	cjan2
+诊	cjan2
+診	cjan2
+疹	cjan2
+轸	cjan2
+軫	cjan2
+趁	cjan3
+衬	cjan3
+襯	cjan2
+秦	can4
+巡	can4
+循	can4
+旬	can4
+峋	can4
+珣	can4
+询	can4
+詢	can4
+徇	can4
+陈	cjan4
+陳	cjan4	1395300
+尘	cjan4
+塵	cjan4
+臣	cjan4
+新	san1
+薪	san1
+辛	san1
+莘	san1
+锌	san1
+鋅	san1
+询	san1
+詢	san1
+身	sjan1
+申	sjan1
+伸	sjan1
+呻	sjan1
+珅	sjan1
+绅	sjan1
+紳	sjan1
+砷	sjan1
+笋	san2
+筍	san2
+隼	san2
+榫	san2
+囟	san2				
+信	san3
+讯	san3
+訊	san3
+迅	san3
+汛	san3
+逊	san3
+遜	san3
+巽	san3
+舜	sjan3
+瞬	sjan3
+抻	sjan3
+呻	sjan3
+荀	san4
+驯	san4
+馴	san4
+殉	san4					
+神	sjan4
+纯	sjan4
+純	sjan4
+辰	sjan4
+晨	sjan4
+唇	sjan4
+脣	sjan4
+娠	sjan4
+宸	sjan4
+醇	sjan4
+蓴	sjan4
+莼	sjan4
+蒓	sjan4
+淳	sjan4
+蜃	sjan4
+顺	sjan4
+順	sjan4
+慎	sjan4
+愼	sjan4
+肾	sjan5
+腎	sjan5
+忍	njan2
+隐	njan2
+隱	njan2
+膶	njan2	1732
+人	njan4
+仁	njan4
+刃	njan4
+韧	njan4
+韌	njan4
+纫	njan4
+紉	njan4
+闰	njan4
+閏	njan4
+润	njan4
+潤	njan4
+认	njan4
+認	njan4	2584
+忍	njan5
+听	njan5
+欣	jan1
+因	jan1
+恩	jan1
+姻	jan1
+茵	jan1
+洇	jan1
+殷	jan1
+甄	jan1
+堙	jan1
+昕	jan1
+忻	jan1
+嗯	jan1	0
+隐	jan2
+隱	jan2
+印	jan3
+衅	jan3
+釁	jan3
+寅	jan4
+孕	jan4
+胤	jan4
+引	jan5
+蚓	jan5
+瘾	jan5
+癮	jan5
+温	wan1
+溫	wan1
+瘟	wan1
+瘟	wan1
+荤	wan1
+葷	wan1
+晕	wan1
+暈	wan1
+稳	wan2
+穩	wan2
+揾	wan2
+搵	wan2	1930
+蕴	wan2
+蘊	wan2
+熨	wan3
+酝	wan3
+醞	wan3
+蕴	wan3
+蘊	wan3
+云	wan4
+雲	wan4
+芸	wan4
+蕓	wan4
+纭	wan4
+紜	wan4
+耘	wan4
+魂	wan4
+䰟	wan4
+晕	wan4
+暈	wan4
+浑	wan4
+渾	wan4
+馄	wan4
+餛	wan4
+匀	wan4
+勻	wan4
+韵	wan4
+韻	wan4
+运	wan4
+運	wan4
+混	wan4
+允	wan5
+尹	wan5
+陨	wan5
+隕	wan5
+陨	wan5
+殞	wan5
+韵	wan5
+韻	wan5
+根	gan1
+跟	gan1
+巾	gan1
+斤	gan1
+筋	gan1
+紧	gan2
+緊	gan2
+仅	gan2
+僅	gan2
+瑾	gan2
+谨	gan2
+謹	gan2
+馑	gan2
+饉	gan2
+艮	gan3
+近	gan4	75%
+觐	gan4
+覲	gan4
+勤	kan4
+芹	kan4
+靳	kan4
+近	kan5
+君	gwan1
+军	gwan1
+軍	gwan1
+均	gwan1
+钧	gwan1
+鈞	gwan1
+丨	gwan2
+滚	gwan2
+滾	gwan2
+衮	gwan2
+袞	gwan2
+䜇	gwan2
+䜇	gwan3
+棍	gwan3
+謴	gwan3
+郡	gwan4
+昆	kwan1
+崐	kwan1
+崑	kwan1
+焜	kwan1
+琨	kwan1
+坤	kwan1
+堃	kwan1
+髡	kwan1
+捆	kwan2
+綑	kwan2
+困	kwan3
+窘	kwan3
+群	kwan4
+羣	kwan4
+裙	kwan4
+菌	kwan5
+很	han2
+狠	han2
+垦	han2
+墾	han2
+恳	han2
+懇	han2
+睏	han3	22896
+痕	han4
+恨	han4
+奀	ngan1
+银	ngan4
+銀	ngan4
+垠	ngan4
+龈	ngan4
+齦	ngan4
+听	ngan5
+恩	an1	113792
+嗯	an1	0
+
+吮	soen5
+
+吮	son5
+干	gon1
+乾	gon1	60%
+肝	gon1
+竿	gon1
+酐	gon1
+赶	gon2
+趕	gon2
+杆	gon2
+桿	gon2
+秆	gon2
+稈	gon2
+擀	gon2
+扞	gon2
+幹	gon3
+榦	gon3
+看	hon1
+刊	hon2
+罕	hon2
+䍐	hon2
+侃	hon2
+厂	hon2	1
+厂	hon3	1
+汉	hon3
+漢	hon3
+看	hon3
+寒	hon4
+汗	hon4
+鼾	hon4
+韩	hon4
+韓	hon4
+邯	hon4
+翰	hon4
+瀚	hon4
+旱	hon5
+悍	hon5
+捍	hon5
+焊	hon5
+岸	ngon4
+安	on1	124740
+桉	on1
+鞍	on1
+鞍	on1
+氨	on1
+铵	on1
+銨	on1
+胺	on1
+按	on3
+案	on3
+
+
+
+
+
+般	bun1
+搬	bun1
+本	bun2
+苯	bun2
+半	bun3
+绊	bun4
+絆	bun4
+畔	bun4
+伴	bun4
+拌	bun4
+潘	pun1
+番	pun1	5%
+判	pun3
+叛	pun3
+拚	pun3
+盘	pun4
+盤	pun4
+盆	pun4
+槃	pun4
+磐	pun4
+胖	pun4
+肨	pun4
+拌	pun5
+伴	pun5
+胖	pun5
+拚	pun5
+扪	mun1
+捫	mun1
+门	mun4
+門	mun4
+们	mun4
+們	mun4
+瞒	mun4
+瞞	mun4
+懑	mun4
+懣	mun4
+闷	mun4
+悶	mun4
+焖	mun4
+燜	mun4					
+满	mun5
+滿	mun5
+螨	mun5
+蟎	mun5
+欢	fun1
+歡	fun1
+宽	fun1
+寬	fun1
+款	fun2
+碗	wun2
+腕	wun2
+宛	wun2
+桓	wun4
+换	wun4
+換	wun4
+唤	wun4
+喚	wun4
+涣	wun4
+渙	wun4
+焕	wun4
+煥	wun4
+痪	wun4
+瘓	wun4
+奂	wun4
+奐	wun4
+援	wun5
+缓	wun5
+緩	wun5
+皖	wun5
+官	gun1
+棺	gun1
+观	gun1
+觀	gun1
+冠	gun1
+管	gun2
+馆	gun2
+館	gun2
+舘	gun2
+莞	gun2	
+冠	gun3
+观	gun3
+觀	gun3
+贯	gun3
+貫	gun3
+灌	gun3
+罐	gun3
+鹳	gun3
+鸛	gun3
+瓘	gun3
+
+端	dyun1
+蹲	dyun1
+短	dyun2
+断	dyun3
+斷	dyun3
+段	dyun4
+缎	dyun4
+緞	dyun4
+锻	dyun4
+鍛	dyun4
+煅	dyun4
+椴	dyun4
+断	dyun4
+斷	dyun4
+团	tyun4
+團	tyun4
+糰	tyun4
+豚	tyun4
+断	tyun5
+斷	tyun5
+嫩	nyun4
+媆	nyun4
+暖	nyun5
+煗	nyun5
+煖	nyun5	13
+孪	lyun1
+攣	lyun1
+卵	lyun2
+恋	lyun2
+戀	lyun2
+联	lyun4
+聯	lyun4
+峦	lyun4
+巒	lyun4
+孪	lyun4
+孿	lyun4
+栾	lyun4
+欒	lyun4
+滦	lyun4
+灤	lyun4
+銮	lyun4
+鑾	lyun4
+鸾	lyun4
+鸞	lyun4
+乱	lyun4
+亂	lyun4
+尊	zyun1
+遵	zyun1
+钻	zyun1
+鑽	zyun1
+专	zjyun1
+專	zjyun1
+砖	zjyun1
+磚	zjyun1
+颛	zjyun1
+顓	zjyun1
+撙	zyun2
+轉	zjyun2
+钻	zyun3
+鑽	zyun3
+转	zjyun3
+轉	zjyun3
+纂	zyun4
+旋	zyun4	1
+传	zjyun3
+傳	zjyun3
+篆	zjyun3
+撰	zjyun3
+村	cyun1
+汆	cyun1
+川	cjyun1
+巛	cjyun1
+穿	cjyun1
+忖	cyun2
+喘	cjyun2
+寸	cyun3
+串	cjyun3
+窜	cjyun3
+竄	cjyun3
+蹿	cjyun3
+躥	cjyun3
+钏	cjyun3
+釧	cjyun3
+泉	cyun4
+存	cyun4
+全	cyun4
+㒰	cyun4
+痊	cyun4
+栓	cyun4
+诠	cyun4
+詮	cyun4
+荃	cyun4
+醛	cyun4
+传	cjyun4
+傳	cjyun4
+椽	cjyun4
+酸	syun1
+孙	syun1
+孫	syun1
+狲	syun1
+猻	syun1
+荪	syun1
+蓀	syun1
+宣	syun1
+损	syun2
+損	syun2
+选	syun2
+選	syun2
+蒜	syun3
+算	syun3
+筭	syun3
+逊	syun3
+遜	syun3	543
+巽	syun3
+旋	syun4
+璇	syun4
+漩	syun4
+镟	syun4
+鏇	syun4
+船	sjyun4
+吮	syun5
+原	njyun4
+源	njyun4
+厵	njyun4
+愿	njyun4
+願	njyun4
+软	njyun5
+軟	njyun5
+輭	njyun5
+冤	jyun1
+渊	jyun1
+淵	jyun1
+鸳	jyun1
+鴛	jyun1
+㾓	jyun1
+院	jyun2
+苑	jyun2
+宛	jyun2
+婉	jyun2
+惋	jyun2
+怨	jyun3
+员	jyun4
+員	jyun4
+圆	jyun4
+圓	jyun4
+园	jyun4
+園	jyun4
+辕	jyun4
+轅	jyun4
+猿	jyun4
+袁	jyun4
+缘	jyun4
+緣	jyun4
+玄	jyun4	241800
+元	jyun4
+完	jyun4
+芫	jyun4
+悬	jyun4
+懸	jyun4
+铅	jyun4
+鉛	jyun4
+沿	jyun4
+丸	jyun4
+炫	jyun4
+眩	jyun4
+烷	jyun4
+县	jyun4
+縣	jyun4
+远	jyun5
+遠	jyun5
+阮	jyun5
+娟	gyun1
+捐	gyun1
+涓	gyun1
+鹃	gyun1
+鵑	gyun1
+绢	gyun1
+絹	gyun1
+卷	gyun2
+捲	gyun2
+眷	gyun3
+券	gyun3
+圈	gyun3
+倦	gyun4
+拳	kyun4
+权	kyun4
+權	kyun4
+颧	kyun4
+顴	kyun4
+圈	hyun1
+喧	hyun1
+暄	hyun1
+萱	hyun1
+禤	hyun1
+楦	hyun1
+楥	hyun1
+煖	hyun1	73
+煊	hyun1
+晅	hyun1
+晅	hyun2
+犬	hyun2
+劝	hyun3
+勸	hyun3
+楦	hyun3
+楥	hyun3
+
+
+
+嗯	ng
+梧	ng4	7580
+吾	ng4
+吴	ng4
+吳	ng4	81870
+呉	ng4	1544
+蜈	ng4
+误	ng4
+誤	ng4
+悟	ng4
+晤	ng4
+寤	ng4
+五	ng5
+伍	ng5
+午	ng5
+忤	ng5
+啎	ng5
+
+冰	bing1
+氷	bing1
+仌	bing1
+冫	bing1
+兵	bing1
+乒	bing1
+并	bing1	5%
+丙	bing2
+炳	bing2
+饼	bing2
+餅	bing2
+秉	bing2
+摒	bing3
+迸	bing3
+逬	bing3
+柄	bing3
+併	bing3
+病	bing4
+並	bing4
+竝	bing4
+靐	bing4
+砯	ping1
+𩩍	ping1
+拼	ping3
+姘	ping3
+聘	ping3
+骋	ping3
+騁	ping3
+瓶	ping4
+屏	ping4
+屛	ping4
+平	ping4
+评	ping4
+評	ping4
+坪	ping4
+萍	ping4
+蘋	ping4
+抨	ping4
+並	ping5
+併	ping5
+竝	ping5
+名	ming4
+铭	ming4
+銘	ming4
+明	ming4
+朙	ming4
+眀	ming4
+鸣	ming4
+鳴	ming4
+冥	ming4
+瞑	ming4
+螟	ming4
+命	ming4
+皿	ming4
+铭	ming4
+銘	ming4
+酩	ming4
+茗	ming4
+皿	ming5
+铭	ming5
+銘	ming5
+酩	ming5
+茗	ming5
+丁	ding1
+仃	ding1
+叮	ding1
+疔	ding1
+盯	ding1
+钉	ding1
+釘	ding1
+靪	ding1
+汀	ding1
+顶	ding2
+頂	ding2
+鼎	ding2
+酊	ding2
+订	ding3
+訂	ding3
+掟	ding3
+定	ding4
+锭	ding4
+錠	ding4
+订	ding4
+訂	ding4
+啶	ding4
+聽	ting1
+厅	ting1
+廳	ting1
+汀	ting1
+烃	ting1
+烴	ting1
+听	ting3
+聽	ting3
+亭	ting4
+婷	ting4
+停	ting4
+廷	ting4
+庭	ting4
+蜓	ting4
+霆	ting4
+挺	ting5
+铤	ting5
+鋌	ting5
+艇	ting5
+拧	ning1
+擰	ning1
+寧	ning4
+拧	ning4
+擰	ning4
+咛	ning4
+嚀	ning4
+柠	ning4
+檸	ning4
+狞	ning4
+獰	ning4
+甯	ning4
+寗	ning4
+泞	ning4
+濘	ning4
+佞	ning4
+拎	ling1
+铃	ling1
+鈴	ling1
+鈴	ling1
+齡	ling4
+玲	ling4
+玲	ling4
+羚	ling4
+羚	ling4
+聆	ling4
+聆	ling4
+零	ling4
+零	ling4
+铃	ling4
+鈴	ling4
+鈴	ling4
+伶	ling4
+泠	ling4
+苓	ling4
+翎	ling4
+蛉	ling4
+軨	ling4
+棱	ling4
+凌	ling4
+陵	ling4
+菱	ling4
+蔆	ling4
+绫	ling4
+綾	ling4
+鲮	ling4
+鯪	ling4
+灵	ling4
+靈	ling4
+囹	ling4
+〇	ling4
+呤	ling4
+令	ling4
+令	ling4
+另	ling4
+领	ling5
+領	ling5
+領	ling5
+岭	ling5
+嶺	ling5
+嶺	ling5
+精	zing1
+睛	zing1
+晶	zing1
+旌	zing1
+贞	zjing1
+貞	zjing1
+侦	zjing1
+偵	zjing1
+桢	zjing1
+楨	zjing1
+祯	zjing1
+禎	zjing1
+征	zjing1
+蒸	zjing1
+徵	zjing1
+井	zing2
+阱	zing2
+穽	zing2
+整	zjing2
+拯	zjing2
+政	zjing3
+正	zjing3	214310
+证	zjing3
+證	zjing3
+症	zjing3
+净	zing4
+淨	zing4
+凈	zing4
+靖	zing4
+静	zing4
+靜	zing4
+婧	zing4
+靚	zing4
+剩	zjing4
+郑	zjing4
+鄭	zjing4
+靑	cing1
+青	cing1
+清	cing1
+淸	cing1
+蜻	cing1
+蜻	cing1
+氰	cing1
+称	cjing1
+稱	cjing1
+请	cing2
+請	cing2
+逞	cjing2
+骋	cjing2
+騁	cjing2	508
+拯	cjing2
+丞	cjing2
+秤	cjing3
+称	cjing3
+稱	cjing3
+郢	cjing3
+情	cing4
+晴	cing4
+	cing4
+䝼	cing4
+呈	cjing4
+程	cjing4
+埕	cjing4
+堘	cjing4
+塍	cjing4
+澄	cjing4
+澂	cjing4
+惩	cjing4
+懲	cjing4
+星	sing1
+惺	sing1
+猩	sing1
+腥	sing1
+鉎	sing1
+鍟	sing1
+升	sjing1
+昇	sjing1
+陞	sjing1
+声	sjing1
+聲	sjing1
+蛏	sjing1
+蟶	sjing1
+醒	sing2
+省	sing2	698
+姓	sing3
+鉎	sing3
+性	sing3
+胜	sjing3
+勝	sjing3
+圣	sjing3
+聖	sjing3
+蛏	sjing3
+蟶	sjing3
+貹	sjing3
+成	sjing4
+城	sjing4
+诚	sjing4
+誠	sjing4
+盛	sjing4
+丞	sjing4
+承	sjing4
+乘	sjing4
+绳	sjing4
+繩	sjing4
+晟	sjing4
+仍	njing4
+认	njing4
+認	njing4
+英	jing1
+瑛	jing1
+应	jing1
+應	jing1
+膺	jing1
+鹰	jing1
+鷹	jing1
+婴	jing1
+嬰	jing1
+樱	jing1
+櫻	jing1
+罂	jing1
+罌	jing1
+莺	jing1
+鶯	jing1
+缨	jing1
+纓	jing1
+鹦	jing1
+鸚	jing1
+影	jing2
+映	jing2
+暎	jing2
+应	jing3
+應	jing3
+刑	jing4
+形	jing4
+邢	jing4
+型	jing4
+盈	jing4
+楹	jing4
+荧	jing4
+熒	jing4
+营	jing4
+營	jing4
+莹	jing4
+瑩	jing4
+萤	jing4
+螢	jing4
+荥	jing4
+滎	jing4
+茔	jing4
+塋	jing4
+萦	jing4
+縈	jing4
+滢	jing4
+瀅	jing4
+赢	jing4
+贏	jing4
+嬴	jing4
+瀛	jing4
+迎	jing4
+陉	jing4
+陘	jing4
+蝇	jing4
+蠅	jing4
+颍	jing5
+潁	jing5
+荣	wing4
+榮	wing4
+嵘	wing4
+嶸	wing4
+永	wing5
+泳	wing5
+咏	wing5
+詠	wing5
+颖	wing5
+穎	wing5
+颍	wing5
+潁	wing5
+京	ging1
+经	ging1
+經	ging1
+惊	ging1
+驚	ging1
+荆	ging1
+荊	ging1
+兢	ging1
+矜	ging1
+泾	ging1
+涇	ging1
+景	ging2	3654000
+憬	ging2
+璟	ging2
+警	ging2
+儆	ging2
+竟	ging2
+境	ging2
+颈	ging2
+頸	ging2
+烃	ging2
+烴	ging2
+逕	ging3
+径	ging3
+徑	ging3
+茎	ging3
+莖	ging3
+敬	ging3
+镜	ging3
+鏡	ging3
+劲	ging4
+勁	ging4
+竞	ging4
+競	ging4
+儆	ging4
+痉	ging4
+痙	ging4
+倾	king1
+傾	king1
+顷	king2
+頃	king2
+苘	king2
+檾	king2
+擎	king4
+琼	king4
+瓊	king4
+鲸	king4
+鯨	king4
+䲔	king4
+黥	king4
+迥	gwing2
+炯	gwing2
+炅	gwing2
+颎	gwing2
+熲	gwing2
+轻	hing1
+輕	hing1
+兄	hing1
+兴	hing1
+興	hing1
+馨	hing1
+卿	hing1
+氢	hing1
+氫	hing1
+庆	hinh3
+慶	hing3
+磬	hing3
+兴	hing3
+興	hing3
+罄	hing3
+凝	nging4
+迎	nging4
+应	ing3
+應	ing3
+
+病	beng4
+平	peng4
+掟	deng3
+艇	teng5
+靓	leng3
+靚	leng3
+正	zjeng3
+惊	geng1
+驚	geng1
+
+娘	noeng4
+孃	noeng4
+两	loeng2
+兩	loeng2	17605
+辆	loeng2
+輛	loeng2
+良	loeng4
+凉	loeng4
+涼	loeng4
+量	loeng4
+粮	loeng4
+糧	loeng4
+梁	loeng4
+樑	loeng4	1
+粱	loeng4
+亮	loeng4
+谅	loeng4
+諒	loeng4
+两	loeng5
+兩	loeng5
+俩	loeng5
+倆	loeng5
+辆	loeng5
+輛	loeng5
+将	zoeng1
+將	zoeng1
+浆	zoeng1
+漿	zoeng1
+糨	zoeng1
+糡	zoeng1
+张	zjoeng1
+張	zjoeng1
+章	zjoeng1
+彰	zjoeng1
+樟	zjoeng1
+麞	zjoeng1
+獐	zjoeng1
+璋	zjoeng1
+蟑	zjoeng1
+漳	zjoeng1
+嫜	zjoeng1
+傽	zjoeng1
+鄣	zjoeng1
+蒋	zoeng2
+蔣	zoeng2
+奖	zoeng2
+奬	zoeng2
+獎	zoeng2
+桨	zoeng2
+槳	zoeng2
+掌	zjoeng2
+长	zjoeng2
+長	zjoeng2
+镸	zjoeng2
+将	zoeng3
+將	zoeng3
+酱	zoeng3
+醬	zoeng3
+胀	zjoeng3
+脹	zjoeng3
+账	zjoeng3
+賬	zjoeng3
+帐	zjoeng3
+帳	zjoeng3
+涨	zjoeng3
+漲	zjoeng3
+障	zjoeng3
+瘴	zjoeng3
+幛	zjoeng3
+嶂	zjoeng3
+匠	zoeng4
+象	zoeng4
+像	zoeng4
+橡	zoeng4
+丈	zjoeng4
+杖	zjoeng4
+仗	zjoeng4
+枪	coeng1
+槍	coeng1
+昌	cjoeng1
+猖	cjoeng1
+娼	cjoeng1
+倡	cjoeng1
+菖	cjoeng1
+鲳	cjoeng1
+鯧	cjoeng1
+抢	coeng2
+搶	coeng2
+呛	coeng3
+嗆	coeng3	
+唱	cjoeng3
+畅	cjoeng3
+暢	cjoeng3
+怅	cjoeng3
+悵	cjoeng3
+倡	cjoeng3	0.1
+墙	coeng4
+墻	coeng4
+牆	coeng4
+祥	coeng4
+翔	coeng4
+详	coeng4
+詳	coeng4
+蔷	coeng4
+薔	coeng4
+樯	coeng4
+樯	coeng4
+肠	cjoeng4
+腸	cjoeng4
+场	cjoeng4
+場	cjoeng4
+长	cjoeng4
+長	cjoeng4
+镸	cjoeng4
+苌	cjoeng4
+萇	cjoeng4
+常	cjoeng4
+嫦	cjoeng4
+尝	cjoeng4
+嘗	cjoeng4
+嚐	cjoeng4
+償	cjoeng4
+相	soeng1
+湘	soeng1
+箱	soeng1
+厢	soeng1
+廂	soeng1
+襄	soeng1
+镶	soeng1
+鑲	soeng1
+骧	soeng1
+驤	soeng1
+商	sjoeng1
+伤	sjoeng1
+傷	sjoeng1
+殇	sjoeng1
+殤	sjoeng1
+觞	sjoeng1
+觴	sjoeng1
+汤	sjoeng1
+湯	sjoeng1	57
+想	soeng2
+鲞	soeng2
+鯗	soeng2
+赏	sjoeng2
+賞	sjoeng2
+相	soeng3
+尝	sjoeng4
+嘗	sjoeng4
+嚐	sjoeng4
+偿	sjoeng4
+償	sjoeng4
+裳	sjoeng4
+上	sjoeng4
+尚	sjoeng4
+尙	sjoeng4
+上	sjoeng5
+让	njoeng4
+讓	njoeng4
+釀	njoeng4
+壤	njoeng5
+嚷	njoeng5
+攘	njoeng5
+仰	njoeng5
+央	joeng1
+殃	joeng1
+秧	joeng1
+鸯	joeng1
+鴦	joeng1
+盎	joeng1
+鞅	joeng1
+羊	joeng4
+洋	joeng4
+烊	joeng4
+阳	joeng4
+陽	joeng4
+扬	joeng4
+揚	joeng4
+杨	joeng4
+楊	joeng4
+疡	joeng4
+瘍	joeng4
+佯	joeng4
+飏	joeng4
+颺	joeng4
+旸	joeng4
+暘	joeng4
+徉	joeng4
+样	joeng4
+樣	joeng4
+漾	joeng4
+恙	joeng4
+养	joeng5
+養	joeng5
+痒	joeng5
+癢	joeng5
+氧	joeng5
+姜	goeng1
+薑	goeng1
+僵	goeng1
+殭	goeng1
+礓	goeng1
+疆	goeng1
+缰	goeng1
+繮	goeng1
+韁	goeng1
+犟	goeng3
+羌	koeng1
+强	koeng4
+強	koeng4
+彊	koeng4
+强	koeng5
+強	koeng5
+彊	koeng5
+勥	koeng5
+香	hoeng1
+乡	hoeng1
+鄉	hoeng1
+享	hoeng2
+饷	hoeng2
+餉	hoeng2
+响	hoeng2
+響	hoeng2
+晌	hoeng2
+向	hoeng3
+
+乓	baang1
+嘭	baang4
+烹	paang1
+抨	paang1
+砰	paang1
+怦	paang1
+嘭	paang1
+棚	paang4
+膨	paang4
+彭	paang4
+澎	paang4
+庞	paang4
+龐	paang4
+鹏	paang4
+鵬	paang4
+蟛	paang4
+蟚	paang4
+硼	paang4
+棒	paang5
+锰	maang1
+錳	maang1
+蜢	maang2
+盲	maang4
+孟	maang4
+猛	maang4
+紷	laang1
+冷	laang5
+争	zjaang1
+爭	zjaang1
+峥	zjaang1
+崢	zjaang1
+挣	zjaang1
+掙	zjaang1
+狰	zjaang1
+猙	zjaang1
+睁	zjaang1
+睜	zjaang1
+筝	zjaang1
+箏	zjaang1
+铮	zjaang1
+錚	zjaang1
+诤	zjaang1
+諍	zjaang1
+㬹	zjaang1
+䂻	zjaang4
+撑	cjaang1
+撐	cjaang1
+铛	cjaang1
+鐺	cjaang1
+罉	cjaang1
+橙	cjaang2
+牚	cjaang3
+锃	cjaang4
+鋥	cjaang4
+生	sjaang1
+牲	sjaang1
+笙	sjaang1
+甥	sjaang1
+省	sjaang2
+貹	sjaang3
+泓	waang1
+横	waang4
+橫	waang4
+宏	waang4
+纮	waang4
+紘	waang4
+更	gaang1
+耕	gaang1
+羹	gaang1
+庚	gaang1
+赓	gaang1
+賡	gaang1
+粳	gaang1
+框	kwaang1
+坑	haang1
+夯	haang1
+亨	haang1
+行	haang4
+桁	haang4
+珩	haang4
+硬	ngaang4
+罂	aang1
+罌	aang1
+甖	aang1
+䓨	aang1
+罃	aang1
+
+崩	bang1
+绷	bang1
+繃	bang1
+蹦	bang1
+浜	bang1
+迸	bang3
+凭	bang4
+靐	bang4
+烹	pang1
+朋	pang4
+硼	pang4
+鹏	pang4
+鵬	pang4
+彭	pang4
+澎	pang4
+憑	pang4
+凭	pang4
+掹	mang1
+盟	mang4
+萌	mang4
+登	dang1
+燈	dang1
+蹬	dang1
+等	dang2
+凳	dang3
+镫	dang3
+鐙	dang3
+邓	dang4
+鄧	dang4
+澄	dang4
+滕	tang4
+藤	tang4
+謄	tang4
+腾	tang4
+騰	tang4
+疼	tang4
+能	nang4
+楞	lang4
+愣	lang4
+增	zang1
+憎	zang1
+曾	zang1
+僧	zang1
+赠	zang4
+贈	zang4
+蹭	cang3
+层	cang4
+層	cang4
+曾	cang4
+擤	sang3
+宏	wang4	90%
+弘	wang4	120%
+縆	gang1
+緪	gang1
+絙	gang1
+絚	gang1
+更	gang1
+羹	gang1
+耿	gang2
+梗	gang2
+哽	gang2
+鲠	gang2
+鯁	gang2
+埂	gang2
+亘	gang3
+亙	gang3
+更	gang3
+轰	gwang1
+轟	gwang1
+輷	gwang1
+肱	gwang1
+亨	hang1
+哼	hang1
+铿	hang1
+鏗	hang1
+摼	hang1
+肯	hang2
+啃	hang2
+齦	hang2
+恒	hang4
+恆	hang4
+衡	hang4
+行	hang4
+桁	hang4
+珩	hang4
+杏	hang4
+幸	hang4
+莺	ang1
+鶯	ang1
+
+邦	bong1
+帮	bong1
+幫	bong1
+浜	bong1
+绑	bong2
+綁	bong2
+榜	bong2
+㮄	bong2
+膀	bong2
+傍	bong4
+磅	bong4
+镑	bong4
+鎊	bong4
+谤	bong4
+謗	bong4
+徬	bong4
+镑	pong1
+鎊	pong1
+耪	pong1
+谤	pong3
+謗	pong3
+旁	pong4
+傍	pong4
+膀	pong4
+滂	pong4
+螃	pong4
+彷	pong4
+徬	pong4	5.5%
+庞	pong4
+龐	pong4	6%
+房	pong4	8
+蚌	pong5
+芒	mong1
+亡	mong4
+忙	mong4
+茫	mong4
+芒	mong4
+氓	mong4
+虻	mong4
+邙	mong4
+望	mong4
+忘	mong4
+莽	mong5
+蟒	mong5
+罔	mong5
+網	mong5
+网	mong5
+惘	mong5
+辋	mong5
+輞	mong5
+魍	mong5
+妄	mong5
+方	fong1
+坊	fong1
+芳	fong1
+肪	fong1
+荒	fong1
+慌	fong1
+仿	fong2
+彷	fong2
+髣	fong2
+纺	fong2
+紡	fong2
+访	fong2
+訪	fong2
+谎	fong2
+謊	fong2
+晃	fong2
+幌	fong2
+放	fong3
+防	fong4
+妨	fong4
+房	fong4
+噹	dong1
+当	dong1
+當	dong1
+铛	dong1
+鐺	dong1
+挡	dong2
+擋	dong2
+党	dong2
+黨	dong2
+档	dong2
+檔	dong2
+当	dong3
+當	dong3
+档	dong3
+檔	dong3
+荡	dong4
+蕩	dong4
+盪	dong4
+宕	dong4
+砀	dong4
+碭	dong4
+汤	tong1
+湯	tong1
+劏	tong1	2347
+羰	tong1
+躺	tong2
+淌	tong2
+倘	tong2
+傥	tong2
+儻	tong2
+趟	tong3
+烫	tong3
+燙	tong3
+唐	tong4
+糖	tong4
+塘	tong4
+溏	tong4
+搪	tong4
+瑭	tong4
+堂	tong4
+棠	tong4
+膛	tong4
+螳	tong4
+囊	nong4
+裆	nong4
+襠	nong4
+瓤	nong4
+穰	nong4
+噥	nong4
+曩	nong5
+攮	nong5					
+狼	long4
+郎	long4
+廊	long4
+榔	long4
+螂	long4
+稂	long4
+晾	long4
+㫰	long4
+琅	long4
+浪	long4
+埌	long4
+埌	long5
+朗	long5
+塱	long5
+臧	zong1
+赃	zong1
+贓	zong1
+贜	zong1
+脏	zong1
+髒	zong1
+庄	zjong1
+莊	zjong1
+装	zjong1
+裝	zjong1
+妆	zjong1
+妝	zjong1
+樁	zjong1
+桩	zjong1
+葬	zong3
+壯	zjong3
+藏	zong4
+脏	zong4
+臟	zong4
+藏	zong4
+撞	zjong4
+状	zjong4
+狀	zjong4
+獞	zjong4
+僮	zjong4	5%
+壮	zjong4	336
+壯	zjong4	336
+仓	cong1
+倉	cong1
+沧	cong1
+滄	cong1
+苍	cong1
+蒼	cong1
+舱	cong1
+艙	cong1
+窗	cjong1
+疮	cjong1
+瘡	cjong1
+敞	cjong2
+廠	cjong2
+闯	cjong2
+闖	cjong2
+氅	cjong2
+创	cjong3
+創	cjong3
+藏	cong4
+牀	cjong4
+床	cjong4
+桑	song1
+喪	song1
+霜	sjong1
+孀	sjong1
+双	sjong1
+雙	sjong1
+泷	sjong1
+瀧	sjong1
+嗓	song2
+搡	song2
+磉	song2
+爽	sjong2
+丧	song3
+喪	song3
+汪	wong1
+枉	wong3
+皇	wong4
+凰	wong4
+隍	wong4
+惶	wong4
+煌	wong4
+蝗	wong4
+遑	wong4
+徨	wong4
+蟥	wong4
+蟥	wong4
+黄	wong4
+黃	wong4
+璜	wong4
+磺	wong4
+簧	wong4
+王	wong4
+旺	wong4
+往	wong5
+江	gong1
+缸	gong1
+肛	gong1
+冈	gong1
+岡	gong1
+刚	gong1
+剛	gong1
+纲	gong1
+綱	gong1
+岗	gong1
+崗	gong1
+罡	gong1
+堽	gong1
+豇	gong1
+光	gwong1
+胱	gwong1
+咣	gwong1
+讲	gong2
+講	gong2
+港	gong2
+桄	gong2
+犷	gong2
+獷	gong2
+耩	gong2
+廣	gwong2
+広	gwong2
+钢	gong3
+鋼	gong3
+杠	gong3
+降	gong3
+绛	gong3
+絳	gong3
+虹	gong3	1%
+逛	gong4
+逛	gwong4
+扛	kong1
+匡	kwong1
+筐	kwong1
+框	kwong1
+诓	kwong1
+誆	kwong1
+眶	kwong1
+抗	kong3
+闶	kong3
+閌	kong3
+炕	kong3
+伉	kong3
+亢	kong3
+旷	kwong3
+曠	kwong3
+矿	kwong3
+礦	kwong3
+扩	kwong3
+擴	kwong3
+邝	kwong3
+鄺	kwong3
+况	kwong3
+況	kwong3
+犷	kwong3
+獷	kwong3
+狂	kwong4
+康	hong1
+漮	hong1
+糠	hong1
+腔	hong1
+巷	hong2
+慷	hong2
+酐	hong2
+炕	hong3
+杭	hong4
+航	hong4
+行	hong4
+桁	hong4
+降	hong4
+项	hong4
+項	hong4
+巷	hong4
+项	hong5
+項	hong5
+戆	ngong3
+戇	ngong3
+昂	ngong4
+戆	ngong4
+戇	ngong4
+昂	ngong5
+仰	ngong5	4%
+肮	ong1
+骯	ong1
+盎	ong3
+
+捧	bung2
+塳	pung1
+碰	pung3
+蓬	pung4
+篷	pung4
+檬	mung1
+懵	mung2
+瞢	mung4
+矒	mung4
+𥊃	mung4
+蒙	mung4
+濛	mung4
+矇	mung4
+朦	mung4
+蠓	mung4
+步	mung4
+夢	mung4
+风	fung1
+風	fung1
+枫	fung1
+楓	fung1
+疯	fung1
+瘋	fung1
+封	fung1
+峰	fung1
+峯	fung1
+蜂	fung1
+蠭	fung1
+锋	fung1
+鋒	fung1
+烽	fung1
+丰	fung1
+豐	fung1
+酆	fung1
+鄷	fung1
+讽	fung2
+諷	fung2
+逢	fung4
+冯	fung4
+馮	fung4
+缝	fung4
+縫	fung4
+奉	fung4
+俸	fung4
+凤	fung4
+鳳	fung4
+冬	dung1
+鼕	dung1
+东	dung1
+東	dung1
+氡	dung1
+氭	dung1
+咚	dung1
+佟	dung1
+董	dung2
+懂	dung2
+冻	dung3
+凍	dung3
+栋	dung3
+棟	dung3
+洞	dung4
+动	dung4
+動	dung4
+恸	dung4
+慟	dung4
+垌	dung4
+栋	dung4
+棟	dung4
+衕	dung4
+憧	dung4
+通	tung1
+熥	tung1
+捅	tung2
+桶	tung2
+统	tung2
+統	tung2
+痛	tung3
+同	tung4
+仝	tung4
+衕	tung4
+筒	tung4
+峒	tung4
+铜	tung4
+銅	tung4
+茼	tung4
+桐	tung4
+彤	tung4
+童	tung4
+瞳	tung4
+潼	tung4
+僮	tung4
+佟	tung4
+鼕	tung4
+酮	tung4
+侬	nung1
+儂	nung1
+燶	nung1	1999
+𪒬	nung1
+农	nung4
+農	nung4
+侬	nung4
+儂	nung4
+哝	nung4
+噥	nung4
+浓	nung4
+濃	nung4
+脓	nung4
+膿	nung4
+齈	nung4
+窿	lung1
+咙	lung1
+嚨	lung1
+拢	lung2
+攏	lung2
+隆	lung4
+龙	lung4
+龍	lung4
+咙	lung4
+嚨	lung4
+笼	lung4
+籠	lung4
+聋	lung4
+聾	lung4
+珑	lung4
+瓏	lung4
+栊	lung4
+櫳	lung4
+胧	lung4
+朧	lung4
+昽	lung4
+曨	lung4
+眬	lung4
+矓	lung4
+泷	lung4
+瀧	lung4
+弄	lung4
+挊	lung4
+陇	lung5
+隴	lung5
+垄	lung5
+壟	lung5
+垅	lung5
+壠	lung5
+拢	lung5
+攏	lung5
+笼	lung5
+籠	lung5
+竉	lung5
+宗	zung1
+棕	zung1
+椶	zung1
+综	zung1
+綜	zung1
+踪	zung1
+蹤	zung1
+鬃	zung1
+鬉	zung1
+騣	zung1
+中	zjung1
+忠	zjung1
+盅	zjung1
+衷	zjung1
+钟	zjung1
+鍾	zjung1
+鐘	zjung1
+终	zjung1
+終	zjung1
+舂	zjung1
+总	zung2
+總	zung2
+肿	zjung2
+腫	zjung2
+種	zjung2
+踵	zjung2
+粽	zung3
+糉	zung3
+纵	zung3
+縱	zung3
+䝋	zung3
+众	zjung3
+眾	zjung3
+衆	zjung3
+中	zjung3
+種	zjung3
+诵	zung4
+誦	zung4
+颂	zung4
+頌	zung4
+讼	zung4
+訟	zung4
+仲	zjung4
+重	zjung4
+匆	cung1
+怱	cung1
+悤	cung1
+葱	cung1
+蔥	cung1
+聪	cung1
+聰	cung1
+充	cjung1
+冲	cjung1
+沖	cjung1
+衝	cjung1
+囱	cjung1
+囪	cjung1
+忡	cjung1
+憧	cjung1
+宠	cjung2
+寵	cjung2
+冢	cjung2
+铳	cjung3
+銃	cjung3
+从	cung4
+從	cung4
+叢	cung4
+松	cung4
+虫	cjung4
+蟲	cjung4
+崇	cjung4
+种	cjung4
+重	cjung4
+重	cjung5
+嵩	sung1
+崧	sung1
+鬆	sung1
+耸	sung2
+聳	sung2
+怂	sung2
+慫	sung2
+悚	sung2
+竦	sung2
+宋	sung3
+送	sung3
+餸	sung3
+颂	sung4
+頌	sung4
+诵	sung4
+誦	sung4
+讼	sung4
+訟	sung4
+涌	njung2
+湧	njung2
+冗	njung2
+宂	njung2
+嗅	njung3
+戎	njung4
+绒	njung4
+絨	njung4
+邕	jung1
+雍	jung1
+臃	jung1
+痈	jung1
+癰	jung1
+壅	jung1
+㙲	jung1
+翁	jung1
+嗡	jung1
+拥	jung2
+擁	jung2
+甬	jung2
+俑	jung2
+涌	jung2
+湧	jung2
+蛹	jung2
+恿	jung2
+慂	jung2
+踊	jung2
+踴	jung2
+冗	jung2
+宂	jung2
+容	jung4
+溶	jung4
+蓉	jung4
+榕	jung4
+熔	jung4
+融	jung4
+镕	jung4
+鎔	jung4
+熊	jung4
+庸	jung4
+茸	jung4
+戎	jung4
+绒	jung4
+絨	jung4
+用	jung4
+勇	jung5
+工	gung1
+功	gung1
+攻	gung1
+公	gung1
+蚣	gung1
+弓	gung1
+躬	gung1
+躳	gung1
+宫	gung1
+宮	gung1
+供	gung1
+龚	gung1
+龔	gung1
+恭	gung1
+红	gung1	0
+紅	gung1	0.1%
+芎	gung1
+巩	gung2
+鞏	gung2
+拱	gung2
+贡	gung3
+貢	gung3
+汞	gung3
+供	gung3
+赣	gung3
+贛	gung3	50%
+共	gung4
+穷	kung4
+窮	kung4
+空	hung1
+凶	hung1
+兇	hung1
+匈	hung1
+洶	hung1
+胸	hung1
+胷	hung1
+烘	hung1
+轰	hung1	1%
+轟	hung1	5%
+揈	hung1
+崆	hung1
+箜	hung1
+孔	hung2
+恐	hung2
+哄	hung2
+控	hung3
+嗅	hung3
+洪	hung4
+红	hung4
+紅	hung4
+虹	hung4
+鸿	hung4
+鴻	hung4
+哄	hung4
+鬨	hung4
+雄	hung4
+蕻	hung4
+弘	hung4	6%
+宏	hung4	6%
+泓	hung4	6%
+纮	hung4	0.1%
+紘	hung4	6%
+壅	ung1
+㙲	ung1
+翁	ung1
+嗡	ung1
+蕹	ung3
+瓮	ung3
+甕	ung3
+罋	ung3
+
+
+
+蝶	dip4
+碟	dip4
+牒	dip4
+谍	dip4
+諜	dip4
+蹀	dip4
+喋	dip4
+叠	dip4
+疊	dip4
+帖	tip3
+贴	tip3
+貼	tip3
+蹑	nip3
+躡	nip3
+聂	nip4
+聶	nip4
+蹑	nip4
+躡	nip4
+猎	lip4
+獵	lip4
+鬣	lip4
+接	zip3
+折	zjip3	0
+摺	zjip3
+褶	zjip3
+襵	zjip3
+妾	cip3
+燮	sip3
+摄	sjip3
+攝	sjip3
+涉	sjip3
+慑	sjip3
+懾	sjip3
+葉	sjip3	1%
+业	njip4
+業	njip4
+邺	njip4
+鄴	njip4
+孽	njip4
+腌	jip3
+醃	jip3
+靥	jip3
+靨	jip3
+页	jip4
+頁	jip4
+葉	jip4
+烨	jip4
+燁	jip4
+晔	jip4
+曄	jip4
+箧	gip1
+篋	gip1
+劫	gip3
+涩	gip3
+澀	gip3
+挟	hip3
+挾	hip3
+怯	hip3
+协	hip3
+協	hip3
+叶	hip3
+胁	hip3
+脅	hip3
+呿	hip3
+
+嗒	dep1
+镊	nep3
+鑷	nep3
+擸	lep4
+鬣	nep4
+箧	gep1
+篋	gep1
+夹	gep4
+夾	gep4
+荚	gep4
+莢	gep4
+颊	gep4
+頰	gep4
+
+嗒	daap1
+答	daap3
+搭	daap3
+沓	daap4
+踏	daap4
+蹋	daap4
+塔	taap3
+榻	taap3
+塌	taap3
+溻	taap3
+嗒	taap3
+搨	taap3
+㩉	taap3
+衲	naap4
+纳	naap4
+納	naap4
+钠	naap4
+鈉	naap4
+呐	naap4
+吶	naap4
+臘	laap4
+蜡	laap4
+蠟	laap4
+镴	laap4
+鑞	laap4
+垃	laap4
+拉	laap4	0.0001
+咂	zaap
+帀	zaap3
+匝	zaap3
+迊	zaap3
+眨	zjaap3
+习	zaap4
+習	zaap4
+袭	zaap4
+襲	zaap4
+杂	zaap4
+雜	zaap4
+集	zaap4
+雧	zaap4
+闸	zjaap4
+閘	zjaap4
+铡	zjaap4
+鍘	zjaap4
+什	zjaap4
+插	cjaap3
+飒	saap3
+颯	saap3
+圾	saap3
+霎	sjaap3
+涩	sjaap4
+澀	sjaap4
+煠	sjaap4
+眨	jaap3
+甲	gaap3
+胛	gaap3
+夹	gaap3
+夾	gaap3
+裌	gaap3
+钾	gaap3
+鉀	gaap3
+岬	gaap3
+𥑐	gaap3
+玾	gaap3
+夹	gaap4
+夾	gaap4
+挟	gaap4
+挾	gaap4
+恰	haap3
+洽	haap3
+呷	haap3
+欱	haap3
+掐	haap3
+侠	haap4
+俠	haap4
+峡	haap4
+峽	haap4
+狭	haap4
+狹	haap4
+匣	haap4
+鸭	aap3
+鴨	aap3
+押	aap3
+
+耷	dap1
+錔	tap1
+嗒	tap3
+粒	nap1
+凹	nap1
+笠	lap1
+泣	lap1
+拉	lap1
+立	lap4
+笠	lap4
+执	zjap1
+執	zjap1
+汁	zjap1
+集	zap4
+雧	zap4
+习	zap4
+習	zap4
+袭	zap4
+襲	zap4
+杂	zap4
+雜	zap4
+什	zjap4
+辑	cap1
+輯	cap1
+缉	cap1
+緝	cap1
+葺	cap1
+湿	sjap1
+濕	sjap1
+溼	sjap1
+十	sjap4
+拾	sjap4
+什	sjap4
+入	njap4
+邑	jap1
+揖	jap1
+泣	jap1
+眨	jap1
+熠	jap4
+急	gap1
+及	gap4
+岌	gap4
+𥄫	gap4	100%
+级	kap1
+級	kap1
+吸	kap1
+给	kap1
+給	kap1
+笈	kap1
+汲	kap1
+岌	kap1
+㬤	kap1
+瞌	hap1	1000
+磕	hap1
+闔	hap4
+嗑	ngap1
+𧪞	ngap1
+岌	ngap4
+岋	ngap4
+腌	ap1	1
+搕	ap1
+
+錔	top1
+錔	top3
+凹	nop3
+蛤	gop1
+鸽	gop3
+鴿	gop3
+蛤	gop3
+佮	gop3
+颌	gop3
+頜	gop3
+郃	gop3
+搿	gop3
+合	gop3	1
+盖	gop3
+蓋	gop3	1
+欱	hop3	1000%
+合	hop4
+盒	hop4
+郃	hop4
+颌	hop4
+頜	hop4
+
+
+
+必	bit1
+憋	bit3
+蹩	bit3
+鳖	bit3
+鱉	bit3
+鼈	bit3
+瘪	bit3
+癟	bit3
+彆	bit3
+别	bit4
+別	bit4
+丿	pit3
+撇	pit3
+撆	pit3
+瞥	pit3
+搣	mit1
+屘	mit1
+篾	mit3
+烕	mit4
+灭	mit4
+滅	mit4
+篾	mit4
+蔑	mit4
+衊	mit4
+啲	dit1
+跌	dit3
+秩	dit4
+迭	dit4
+跌	dit4
+铁	tit3
+鐵	tit3
+餮	tit3
+捏	nit4
+涅	nit4
+孽	nit4
+列	lit4
+烈	lit4
+裂	lit4
+冽	lit4
+捩	lit4
+节	zit3
+節	zit3
+哲	zjit3
+折	zjit3
+浙	zjit3
+蜇	zjit3
+喆	zjit3
+截	zit4
+捷	zit4
+睫	zit4
+婕	zit4
+辙	zjit4
+轍	zjit4
+切	cit3
+窃	cit3
+竊	cit3
+彻	cjit3
+徹	cjit3
+掣	cjit3
+撤	cjit3
+澈	cjit3
+设	cjit3
+設	cjit3
+辙	cjit3
+轍	cjit3
+屮	cjit3
+泄	sit3
+屑	sit3
+薛	sit3
+亵	sit3
+褻	sit3
+䙝	sit3
+楔	sit3
+舌	sjit4
+折	sjit4
+热	njit4
+熱	njit4
+孽	njit4
+噎	jit3
+谒	jit3
+謁	jit3
+拽	jit4
+结	git3
+結	git3
+拮	git3
+诘	git3
+詰	git3
+洁	git3	0.1
+潔	git3
+䥛	git3
+杰	git4
+傑	git4
+桀	git4
+竭	git4
+揭	kit3
+孑	kit3
+蝎	kit3
+蠍	kit3
+竭	kit3
+羯	kit3
+颉	kit3
+頡	kit3
+契	kit3
+遏	kit3
+歇	hit3
+蝎	hit3
+蠍	hit3
+挈	hit3
+
+八	bet3	0.00001
+瘪	met3
+癟	met3
+龁	nget4
+齕	nget4
+
+八	baat3
+捌	baat3
+拔	baat4
+跋	baat4
+钹	baat4
+鈸	baat4
+抹	maat3
+袜	maat4
+襪	maat4
+韤	maat4
+发	faat3
+發	faat3
+髮	faat3
+灋	faat3
+法	faat3
+琺	faat3
+珐	faat3
+乏	faat4
+伐	faat4
+筏	faat4
+阀	faat4
+閥	faat4
+罚	faat4
+罰	faat4
+哒	daat3
+噠	daat3
+笪	daat3
+达	daat4
+達	daat4
+鞑	daat4
+繨	daat4
+遢	taat3
+闼	taat3
+闥	taat3
+挞	taat3
+撻	taat3
+焫	naat3
+捺	naat4
+呐	naat4
+吶	naat4
+瘌	laat3
+癞	laat3
+癩	laat3
+攋	laat3
+揦	laat3
+辣	laat4
+邋	laat4
+札	zjaat3
+扎	zjaat3
+紥	zjaat3
+紮	zjaat3
+铡	zjaat3
+鍘	zjaat3
+轧	zjaat3
+軋	zjaat3
+砸	zjaat4
+擦	caat3
+察	cjaat3
+刷	cjaat3
+涮	cjaat3
+獭	cjaat3
+獺	cjaat3
+嚓	cjaat3
+撒	saat3
+萨	saat3
+薩	saat3
+杀	sjaat3
+殺	sjaat3
+煞	sjaat3
+刹	sjaat3
+剎	sjaat3
+挖	waat3
+斡	waat3
+滑	waat4
+猾	waat4
+嘎	gaat3
+刮	gwaat3
+括	gwaat3	8490
+聒	gwaat3
+活	gwaat	0
+适	gwaat3	5.1%
+𨓈	gwaat3
+适	kwaat3	5.1%
+𨓈	gwaat3
+括	kwaat3	10%
+瞎	haat4
+龁	ngaat4
+齕	ngaat4
+压	aat3
+壓	aat3
+押	aat3
+遏	aat3
+
+笔	bat1
+筆	bat1
+不	bat1
+毕	bat1
+畢	bat1
+筚	bat1
+篳	bat1
+荜	bat1
+蓽	bat1
+弼	bat4
+钹	bat4
+鈸	bat4
+匹	pat1
+拂	pat1
+乜	mat1	299666
+勿	mat4
+物	mat4
+密	mat4
+蜜	mat4
+谧	mat4
+謐	mat4
+嘧	mat4
+忽	fat1
+弗	fat1
+彿	fat1
+髴	fat1
+拂	fat1
+窟	fat1
+沸	fat1
+胐	fat1
+惚	fat1
+氟	fat
+佛	fat4
+罚	fat4
+罰	fat4
+阀	fat4
+閥	fat4
+狒	fat4
+腯	dat1
+突	dat4
+凸	dat4
+甩	lat1
+律	lat4
+率	lat4
+栗	lat4
+慄	lat4
+傈	lat4
+溧	lat4
+篥	lat4
+聿	lat4
+卒	zat1
+猝	zat1
+质	zjat1
+質	zjat1
+疾	zat4
+姪	zjat4
+窒	zjat4
+蛭	zjat4
+嫉	zjat4
+郅	zjat4
+七	cat1
+柒	cat1
+漆	cat1
+出	cjat1
+齣	cjat1
+膝	sat1
+率	sat1
+恤	sat1
+裇	sat1
+戌	sat1
+悉	sat1
+失	sjat1
+瑟	sjat1
+虱	sjat1
+室	sjat1
+摔	sjat1
+蟀	sjat1
+實	sjat4
+术	sjat4
+朮	sjat4
+術	sjat4
+述	sjat4
+秫	sjat4
+沭	sjat4
+日	njat4
+一	jat1
+壹	jat1
+弌	jat1
+逸	jat4
+佚	jat4
+轶	jat4
+軼	jat4
+溢	jat4
+屈	wat1
+鬱	wat1
+爩	wat1
+煀	wat1
+窟	wat1
+尉	wat1	6%
+核	wat4
+吉	gat1
+桔	gat1
+吃	gat1	80
+咳	kat1
+汩	gwat
+骨	gwat1
+橘	gwat1
+亅	gwat4
+掘	gwat4
+倔	gwat4
+崛	gwat4
+乞	hat1
+覈	hat4
+核	hat4
+阂	hat4
+閡	hat4
+辖	hat4
+轄	hat4
+劾	hat4
+兀	ngat4
+杌	ngat4
+屹	ngat4
+迄	ngat4
+讫	ngat4
+訖	ngat4
+纥	ngat4
+紇	ngat4
+一	at1	90%
+
+割	got3
+葛	got3
+褐	got3
+喝	hot3
+渴	hot3
+㵣	hot3
+褐	hot3
+遏	ot3
+哕	ot4
+噦	ot4
+
+哕	oet4
+噦	oet4
+
+钵	but3
+鉢	but3
+缽	but3
+砵	but3
+拨	but4
+撥	but4
+孛	but4
+脖	but4
+饽	but4
+餑	but4
+勃	but4
+渤	but4
+荸	but4
+泼	put3
+潑	put3
+抹	mut3
+秣	mut3
+末	mut4
+沫	mut4
+茉	mut4
+没	mut4
+沒	mut4
+殁	mut4
+歿	mut4
+阔	fut3
+闊	fut3
+豁	fut3
+俸	fut3
+活	wut4
+汩	gut
+活	gut	0
+
+咄	dyut1
+腯	dyut1
+掇	dyut3
+夺	dyut4
+奪	dyut4
+脱	tyut3
+脫	tyut3
+劣	lyut4
+捋	lyut4
+撮	zyut3
+拙	zjyut3
+茁	zjyut3
+绝	zyut4
+絕	zyut4
+黢	cyut1
+裇	syut1
+雪	syut3
+䨮	syut3
+说	sjyut3
+說	sjyut3
+月	njyut4
+玥	njyut4
+乛	jyut3
+乙	jyut3
+粤	jyut4
+粵	jyut4
+悦	jyut4
+悅	jyut4
+阅	jyut4
+閱	jyut4
+越	jyut4
+戉	jyut4
+钺	jyut4
+鉞	jyut4
+穴	jyut4
+曰	jyut4
+𠄌	gyut3
+决	kyut3
+決	kyut3
+诀	kyut3
+訣	kyut3
+缺	kyut3
+玦	kyut3
+抉	kyut3
+厥	kyut3
+獗	kyut3
+蕨	kyut3
+橛	kyut3
+阙	kyut3
+闕	kyut3
+镢	kyut3
+钁	kyut3
+孓	kyut3
+孒	kyut3
+炔	kyut3	0.1
+血	hyut3
+
+
+
+壁	bik1
+碧	bik1
+璧	bik1
+逼	bik1
+煏	bik1
+𤐧	bik1
+迫	bik1
+辟	pik1
+闢	pik1
+僻	pik1
+霹	pik1
+癖	pik1
+劈	pik1
+幂	mik1
+冪	mik1
+觅	mik4
+覓	mik4
+汨	mik4
+幂	mik4
+冪	mik4
+鼏	mik4
+糸	mik4
+的	dik1
+嫡	dik1
+扚	dik1
+笛	dik4
+迪	dik4
+敌	dik4
+敵	dik4
+滴	dik4
+涤	dik4
+滌	dik4
+狄	dik4
+荻	dik4
+籴	dik4
+糴	dik4
+翟	dik4
+剔	tik1
+惕	tik1
+踢	tik1
+倜	tik1
+踢	tik3
+搦	nik1
+溺	nik1
+昵	nik4
+暱	nik4
+匿	nik4
+溺	nik4
+雳	lik1
+靂	lik1
+砾	lik1
+礫	lik1
+烁	lik1
+爍	lik1
+铄	lik1
+鑠	lik1
+沥	lik1
+瀝	lik1
+力	lik4
+历	lik4
+歷	lik4
+曆	lik4
+沥	lik4
+瀝	lik4
+枥	lik4
+櫪	lik4
+积	zik1
+積	zik1
+绩	zik1
+績	zik1
+勣	zik1
+渍	zik1
+漬	zik1
+即	zik1
+卽	zik1
+迹	zik1
+跡	zik1
+蹟	zik1
+稷	zik1
+瘠	zik1
+脊	zik1
+唧	zik1 
+织	zjik1
+織	zjik1
+职	zjik1
+職	zjik1
+炙	zjik1
+脊	zik3
+隻	zjik3
+夕	zik4
+汐	zik4
+籍	zik4
+藉	zik4
+寂	zik4
+席	zik4
+蓆	zik4
+褯	zik4
+直	zjik4
+值	zjik4
+値	zjik4
+植	zjik4
+殖	zjik4
+稙	zjik4
+掙	zjik4
+擲	zjik4
+蛰	zjik4
+蟄	zjik4
+戚	cik1
+慼	cik1
+慽	cik1
+斥	cjik1
+赤	cjik1
+饬	cjik1
+飭	cjik1
+叱	cjik1
+敕	cjik1
+彳	cjik1
+尺	cjik3
+赤	cjik3
+昔	sik1
+惜	sik1
+啬	sik1
+嗇	sik1
+息	sik1
+熄	sik1
+媳	sik1
+析	sik1
+晰	sik1
+蜥	sik1
+皙	sik1
+淅	sik1
+锡	sik1
+錫	sik1
+腊	sik1
+识	sjik1
+識	sjik1
+式	sjik1
+色	sjik1
+饰	sjik1
+飾	sjik1
+適	sjik1
+释	sjik1
+釋	sjik1
+轼	sjik1
+軾	sjik1
+拭	sjik1
+弑	sjik1
+弒	sjik1
+铯	sjik1
+銫	sjik1
+錫	sik3
+燮	sik4	6%
+食	sjik4
+蚀	sjik4
+蝕	sjik4
+石	sjik4
+硕	sjik4
+碩	sjik4
+益	jik1
+亿	jik1
+億	jik1
+忆	jik1
+憶	jik1
+臆	jik1
+抑	jik1
+亦	jik4
+奕	jik4
+弈	jik4
+液	jik4
+腋	jik4
+掖	jik4
+翼	jik4
+译	jik4
+譯	jik4
+易	jik4
+疫	jik4
+役	jik4
+绎	jik4
+繹	jik4
+驿	jik4
+驛	jik4
+怿	jik4
+懌	jik4
+蜴	jik4
+弋	jik4
+翊	jik4
+翌	jik4
+域	wik4
+惑	wik4	45%
+阈	wik4
+閾	wik4
+激	gik1
+击	gik1
+擊	gik1
+毄	gik1
+戟	gik1
+棘	gik1
+亟	gik1
+殛	gik1
+极	gik4
+極	gik4
+虢	gwik1
+棘	kik1
+屐	kik1
+隙	kik1
+郤	kik1
+郄	kik1
+居	kik4
+劇	kik4
+隙	kwik1
+帼	kwik1
+幗	kwik1
+掴	kwik1
+摑	kwik1
+郤	kwik1
+郄	kwik1
+閾	kwik1
+吃	hik1
+喫	hik1
+𠱘	ngik1
+𠸺	ngik1
+逆	ngik4
+嶷	ngik4
+呃	ik1
+
+劈	pek3
+踢	tek3
+尺	cjek3
+锡	sek3
+錫	sek3
+惜	sek3
+剧	kek4
+劇	kek4
+屐	kek4
+
+剁	doek3
+刴	doek3
+啄	doek3
+琢	doek3
+涿	doek3
+掠	loek3
+略	loek3
+掠	loek4
+略	loek4
+撂	loek4
+爵	zoek3
+嚼	zoek3
+雀	zoek3
+鹊	zoek3
+鵲	zoek3
+著	zjoek3
+着	zjoek3
+灼	zjoek3
+酌	zjoek3
+著	zoek4
+著	zjoek4
+着	zjoek4
+焯	cjoek3
+绰	cjoek3
+綽	cjoek3
+卓	cjoek3
+芍	cjoek3
+灼	cjoek3
+削	soek3
+勺	sjoek3
+杓	sjoek3
+若	njoek4
+弱	njoek4
+虐	njoek4
+疟	njoek4
+瘧	njoek4
+约	joek3
+約	joek3
+哟	joek3
+喲	joek3
+跃	joek3
+躍	joek3
+药	joek4
+藥	joek4
+跃	joek4
+躍	joek4
+钥	joek4
+鑰	joek4
+脚	goek3
+腳	goek3
+却	koek3
+卻	koek3
+虐	ngoek4
+瘧	ngoek4
+
+百	baak3
+佰	baak3
+伯	baak3
+柏	baak3
+白	baak4
+蔔	baak4
+帛	baak4
+铂	baak4
+鉑	baak4
+箔	baak4
+啪	paak1
+拍	paak3
+泊	paak3
+舶	paak3
+帕	paak3
+珀	paak3
+粕	paak3
+魄	paak3
+柏	paak3
+檗	paak3
+掰	maak3
+擘	maak3
+麦	maak4	40%
+麥	maak4
+脉	maak4	40%
+脈	maak4	40%
+衇	maak4	40%
+𧖴	maak4	40%
+䘑	maak4	40%
+陌	maak4	40%
+蓦	maak4	40%
+驀	maak4	40%
+貊	maak4	40%
+责	zjaak3
+責	zjaak3
+窄	zjaak3
+咋	zjaak3
+啧	zjaak3
+嘖	zjaak3
+咋	zjaak4
+择	zjaak4
+擇	zjaak4
+泽	zjaak4
+澤	zjaak4
+摘	zjaak4
+宅	zjaak4
+翟	zjaak4
+掷	zjaak4
+擲	zjaak4
+册	cjaak3
+冊	cjaak3
+策	cjaak3
+拆	cjaak3
+坼	cjaak3
+㿭	cjaak3
+喫	jaak3
+画	waak4
+畫	waak4
+划	waak4
+劃	waak4
+或	waak4
+惑	waak4
+革	gaak3
+格	gaak3
+隔	gaak3
+嗝	gaak3
+膈	gaak3
+骼	gaak3
+掴	gwaak3
+摑	gwaak3
+虢	gwaak3
+喀	haak1
+客	haak3
+赫	haak3
+吓	haak3
+嚇	haak3
+额	ngaak4
+額	ngaak4
+握	aak1
+幄	aak1
+龌	aak1
+齷	aak1
+渥	aak1
+喔	aak1
+啞	aak3	1%
+鈪	aak3	300
+軛	aak3
+
+北	bak1
+蔔	bak4	9
+默	mak4
+墨	mak4
+脉	mak4	60%
+脈	mak4	60%
+麦	mak4	600%
+麥	mak4	60%
+陌	mak4	60%
+蓦	mak4	60%
+驀	mak4	60%
+貊	mak4	60%
+万	mak4	1%
+冒	mak4	5%
+得	dak1
+德	dak1
+悳	dak1
+特	dak4
+忒	tak1
+忑	tak1
+嘞	lak
+勒	lak4
+肋	lak4
+竻	lak4
+簕	lak4
+则	zak1
+則	zak1
+鲫	zak1
+鯽	zak1
+鰿	zak1
+𩺀	zak1
+侧	zjak1
+側	zjak1
+仄	zjak1
+昃	zjak1
+测	cjak1
+測	cjak1
+恻	cjak1
+惻	cjak1
+贼	cak4
+賊	cak4
+塞	sak1
+噻	sak1
+嘿	hak1
+黑	hak1
+克	hak1
+刻	hak1
+赫	hak1
+氪	hak1
+剋	hak1
+勀	hak1
+勊	hak1
+尅	hak1
+可	hak1	0.001
+握	ngak1	0
+戹	ak1
+厄	ak1
+㧖	ak1
+扼	ak1
+呃	ak1
+呝	ak1
+轭	ak1
+軛	ak1
+軶	ak1
+握	ak1
+幄	ak1
+龌	ak1
+齷	ak1
+渥	ak1
+喔	ak1
+啞	ak1	1%
+
+博	bok3
+搏	bok3
+膊	bok3
+驳	bok3
+駁	bok3
+馎	bok3
+餺	bok3
+缚	bok3
+縛	bok3
+剥	bok3
+剝	bok3
+薄	bok4
+帛	bok4
+礴	bok4
+濼	bok4
+泊	bok4
+雹	bok4
+箔	bok4
+铂	bok4
+鉑	bok4
+攴	pok1
+朴	pok3
+樸	pok3
+扑	pok3
+撲	pok3
+噗	pok3
+璞	pok3
+摸	mok1
+膜	mok3
+漠	mok3
+幕	mok3
+剥	mok3
+剝	mok3
+馍	mok3
+饃	mok3
+莫	mok4	5358000
+𦶛	mok4
+𦱤	mok4
+𦱴	mok4
+𦮅	mok4
+𢍋	mok4
+䒬	mok4
+寞	mok4
+霍	fok3	18
+藿	fok3	5
+剁	dok3
+刴	dok3
+度	dok4
+踱	dok4
+铎	dok4
+鐸	dok4
+托	tok3
+託	tok3
+饦	tok3
+飥	tok3
+拓	tok3
+魄	tok3	0.1%
+橐	tok3
+诺	nok4
+諾	nok4
+喏	nok4
+洛	lok3
+雒	lok3
+络	lok3
+絡	lok3
+骆	lok3
+駱	lok3
+烙	lok3
+酪	lok3
+胳	lok3
+乐	lok4
+樂	lok4
+落	lok4
+珞	lok4
+桌	zjok3
+捉	zjok3
+作	zjok3
+卓	zjok3	1016
+涿	zjok3
+啄	zjok3
+琢	zjok3
+昨	zok4
+柞	zok4
+凿	zok4
+鑿	zok4
+浞	zjok4
+浊	zjok4
+濁	zjok4
+镯	zjok4
+鐲	zjok4
+戳	cjok3
+索	sok3
+塑	sjok3
+溯	sjok3
+朔	sjok3
+欶	sjok3
+嗍	sjok3
+槊	sjok3
+矟	sjok3
+烁	sjok3
+爍	sjok3
+铄	sjok3
+鑠	sjok3
+获	wok4
+獲	wok4
+镬	wok4
+鑊	wok4
+虢	gok1	62
+各	gok3
+角	gok3
+觉	gok3
+覺	gok3
+阁	gok3
+閣	gok3
+搁	gok3
+擱	gok3
+桷	gok3
+郭	gok3
+傕	gok3
+国	gwok3
+國	gwok3
+囯	gwok3
+䆐	gwok3
+帼	gwok3
+幗	gwok3
+确	kok3
+確	kok3
+廓	kok3
+恪	kok3
+霍	kok3
+藿	kok3
+壑	kok3
+郝	kok3
+劐	kok3
+郭	kok3
+榷	kok3
+搉	kok3
+傕	kok3
+壳	hok3
+殼	hok3
+郝	hok3
+蠚	hok3
+学	hok4
+學	hok4
+鹤	hok4
+鶴	hok4
+岳	ngok4
+嶽	ngok4
+乐	ngok4
+樂	ngok4
+鄂	ngok4
+愕	ngok4
+颚	ngok4
+顎	ngok4
+腭	ngok4
+齶	ngok4
+㗁	ngok4
+噩	ngok4
+鳄	ngok4
+鰐	ngok4
+鱷	ngok4
+鹗	ngok4
+鶚	ngok4
+谔	ngok4
+諤	ngok4
+萼	ngok4
+喔	ok1
+恶	ok3
+惡	ok3
+垩	ok3
+堊	ok3
+
+卜	buk1
+攴	buk1
+讣	buk1
+訃	buk1
+仆	buk4
+僕	buk4
+瀑	buk4	50%
+曝	buk4	50%
+伏	buk4	25%
+仆	puk1
+扑	puk1
+撲	puk1
+醭	puk1
+讣	puk1
+訃	puk1
+剥	muk1
+剝	muk1
+木	muk4
+目	muk4
+牧	muk4
+睦	muk4
+穆	muk4
+沐	muk4
+苜	muk4
+福	fuk1
+幅	fuk1
+蝠	fuk1
+辐	fuk1
+輻	fuk1
+复	fuk1
+腹	fuk1
+覆	fuk1
+蝮	fuk1
+馥	fuk1
+複	fuk1
+復	fuk1
+服	fuk4
+伏	fuk4
+茯	fuk4
+袱	fuk4
+栿	fuk4
+督	duk1
+篤	duk1
+𡰪	duk1
+㞘	duk1
+䐁	duk1
+厾	duk1
+𧰵	duk1
+𢽚	duk1
+毒	duk4
+独	duk4
+獨	duk4
+读	duk4
+讀	duk4
+渎	duk4
+瀆	duk4
+牍	duk4
+牘	duk4
+犊	duk4
+犢	duk4
+黩	duk4
+黷	duk4
+椟	duk4
+櫝	duk4
+髑	duk4
+瑇	duk4
+秃	tuk1
+禿	tuk1
+衄	nuk1
+碌	luk1
+睩	luk1
+辘	luk1
+轆	luk1
+漉	luk1
+摝	luk1
+六	luk4
+陆	luk4
+陸	luk4
+录	luk4
+錄	luk4
+绿	luk4
+綠	luk4
+祿	luk4
+鹿	luk4
+麓	luk4
+戮	luk4
+蓼	luk4
+氯	luk4
+騄	luk4
+熝	luk4	1%
+足	zuk1
+竹	zjuk1
+竺	zjuk1
+粥	zjuk1
+祝	zjuk1
+烛	zjuk1
+燭	zjuk1
+曯	zjuk1
+嘱	zjuk1
+囑	zjuk1
+瞩	zjuk1
+矚	zjuk1
+触	zjuk1
+觸	zjuk1
+蜀	zjuk1
+续	zuk4
+續	zuk4
+族	zuk4
+俗	zuk4
+逐	zjuk4
+轴	zjuk4
+軸	zjuk4
+浊	zjuk4	0.1%
+濁	zjuk4	3%
+促	cuk1
+簇	cuk1
+蹙	cuk1
+蹴	cuk1
+速	cuk1
+束	cjuk1
+畜	cjuk1
+蓄	cjuk1
+建	cjuk1
+築	cjuk1
+搐	cjuk1
+亍	cjuk1
+龊	cjuk1
+齪	cjuk1
+俶	cjuk1
+轴	cjuk4	0.1%
+軸	cjuk4	6%
+肃	suk1
+肅	suk1
+粟	suk1
+僳	suk1
+宿	suk1
+蓿	suk1
+馊	suk1
+餿	suk1
+夙	suk1
+嗖	sjuk1
+叔	sjuk1
+缩	sjuk1
+縮	sjuk1
+俗	suk4	15%
+熟	sjuk4
+孰	sjuk4
+塾	sjuk4
+赎	sjuk4
+贖	sjuk4
+属	sjuk4
+屬	sjuk4
+淑	sjuk4
+蜀	sjuk4
+逳	njuk1
+㥔	njuk1
+肉	njuk4
+玉	njuk4
+钰	njuk4
+鈺	njuk4
+狱	njuk4
+獄	njuk4
+辱	njuk4
+褥	njuk4
+旭	juk1
+沃	juk1
+郁	juk1
+彧	juk1
+戫	juk1
+煜	juk1
+昱	juk1
+育	juk4
+浴	juk4
+欲	juk4
+慾	juk4
+峪	juk4
+谷	juk4	5.1%
+毓	juk4
+鬻	juk4
+鬻	juk4
+狱	juk4
+獄	juk4
+辱	juk4
+褥	juk4
+谷	guk1	10000%
+穀	guk1	10000%
+毂	guk1
+轂	guk1
+菊	guk1
+掬	guk1
+鞠	guk1
+锔	guk1
+鋦	guk1
+斛	guk3
+局	guk4
+焗	guk4
+酷	guk4
+斛	guk4
+曲	kuk1
+麴	kuk1
+哭	huk1
+斛	huk4
+酷	huk4
+屋	uk1
+
+
+
+
+
+
+
+
+吳家安		10000000
+大渡河飛過海		1000000
+景甜		10000000
+甜寶
+大甜甜
+你是誰
+不懂愛
+巧遇安徒生
+還愛你
+女人如詩
+好好就好
+風
+心上人	sam1 sjoeng4 njan4
+一個女人的史詩
+歐陽雪
+孫子大傳
+漪羅
+班淑傳奇
+班淑
+大玉兒傳奇
+大玉兒
+大唐榮耀
+沈珍珠
+狂蟒驚魂
+田娟
+我的美女老闆
+小愛
+戰國
+田夕
+超時空救兵
+靈芝郡主
+史靈芝
+影子愛人
+許願
+新媽媽再愛我一次
+董小霖
+越來越好之村晚
+村晚
+連生
+特殊身份
+方静
+警察故事
+警察故事2013	ging2 cjaat4 gu3 si4
+警察故事2013	ging2 cjaat4 gu3 syu4
+警察故事2013	ging2 cjaat4 gu3 sji4
+苗苗
+鍾苗苗
+澳門風雲
+賭城風雲
+洛欣
+洛子雯
+破曉奇兵
+長城	cjoeng4 sjing4
+林梅
+林梅將軍
+鶴軍將領
+金剛骷髏島
+骷髏島
+珊
+
+
+
+
+
+
+
+黎瑞恩
+小恩子
+
+當孤獨遇上孤獨
+慶祝失戀
+無緣分的愛
+昨天今天下雨天
+愛是不保留
+初戀
+1991-06-11
+《我從這裏開始》
+我從這裏開始
+發誓
+How Deep Is Your Love	haau dip is jo lap
+專一
+相信不會再一起
+隨你喜歡
+多麼想你
+倚靠在你身
+莫失莫忘
+你說吧
+終於
+道別
+1992-10-02
+《雨季不再來》
+雨季不再來
+Lovers	lap wa
+少女心
+夏日初吻
+了不起
+別偷去我的夢
+二十世紀不了情
+瑞恩行動
+微夢
+你的魔力
+1993-04-01
+《我是不是眞的戀愛了》
+我是不是眞的戀愛了
+一人有一個夢想
+一人有一箇夢想
+多情
+無須太早決定
+正義
+長流不息	cjoeng4 lau4 bat1 sik1
+夢想一天
+等到今夜
+資深戀愛家
+一家笑口
+玉女心經
+1993-10-28
+《不知不覺想起你》
+自動消失Lonely Days	zi4 dung4 siu1 sjat1 long li dai
+愛你這樣傻
+明白我這世界沒有別人
+這夜仍然溫暖
+放下了心事
+說愛談情
+不知不覺想起你
+但願給烈火灼傷
+還欠缺甚麼
+1994-04-01
+《你愛我甚麼》
+你愛我甚麼
+三級
+以心出發
+你愛我甚麼
+夢與我飛翔
+一見如故
+造夢
+愛情
+愛一次便夠
+1994-06-04
+《陽光路上》
+陽光路上
+留不住
+愛你一定快樂
+妒忌
+不愛天才
+幻想曲
+舊愛新歡
+眞的愛我就別離開
+你知我想說甚麼
+你從來未說過愛我
+火熱的情傷痛的心
+火熱的情、傷痛的心	fo2 njat4 dik1 cing4 sjoeng1 tung3 dik1 sam1
+1994-10-04
+《黎瑞恩94精選》
+陽光路上
+愛你一定快樂
+發誓
+雨季不再來
+長流不息	cjoeng4 lau4 bat1 sik1
+愛你這樣傻
+多情
+不知不覺想起你
+一人有一個夢想
+一人有一箇夢想
+少女心
+爲情爲愛
+How Deep Is Your Love	how deep is your love
+說愛談情
+自動消失Lonely Days	zyu4 dung4 siu1 sjat1 lonely days
+1995-02-17
+《卿半佳人》
+卿半佳人
+你愛我甚麼
+一見如故
+愛你一定快樂
+1995-05-02
+《你是我生命中一切》
+卿半佳人
+你是我生命中一切
+錯在多情
+你
+一天天請你動情
+覺悟
+迷濛下雨天
+全是我幸運
+有情天
+1995-12-10
+《祕密》
+愛我就疼我
+當孤單遇上孤單
+爲你活下去
+一人有一個夢想
+故事
+從相處到瞭解
+欠你太多
+傻子
+1996-06-06
+《我知道在說再見》
+我知道在說再見
+讓我知道
+遇上今生最愛的人
+愛你一輩子
+愛是永遠
+體貼
+把明天給了你
+你讓我感動
+自願
+伴娘
+1996-08-01
+《恩想》
+預先彩排的分手
+丰采依然
+再不想錯過
+缺憾美
+跟你講清楚
+相信自己
+親恩
+繼續繼續繼續
+繼續、繼續、繼續	gai3 zuk4 gai3 zuk4 gai3 zuk4
+恩想
+將知識放送
+愛你會是多悽美	oi3 ni5 weoi2 do1	cai1 mi5
+1997-10-01
+《認眞》
+認眞
+怎麼都不錯
+永遠暗戀
+分居
+情況普通
+完全的快樂
+自卑
+榴槤飄香
+望你
+無盡是大地
+2001-12-01
+《環球眞經典系列》
+環球眞經典系列
+陽光路上
+發誓
+雨季不再來
+一人有一箇夢想
+多情
+長流不息	cjoeng4 lau4 bat1 sik1
+自動消失Lonely Days	zyu4 dung4 siu1 sjat1 long li dai
+愛你這樣傻
+妒忌
+愛你一樣快樂
+愛一次便夠
+眞的愛我就別離開
+一見如故
+覺悟
+2002-03-26
+《雲上的日子》
+雲上的日子
+一人有一個理想
+一人有一箇理想
+今夜來世
+你最了不起
+音樂派對
+花瓣占卜
+踢走鋼盔
+恩愛對象
+我要忘掉你
+我從一個人
+我從一箇人
+若我們真的很有緣
+2002-03-26
+《理想的日子 精選47首》
+理想的日子
+問候
+一人有一個夢想
+多情
+雨季不再來
+陽光路上
+愛你一定快樂
+愛你這樣傻
+卿半佳人
+愛你會是多悽美	onwsjdcm
+愛一次便夠
+一見如故
+你是我生命中一切
+你愛我甚麼
+超人小子
+一家笑口
+學生哥
+千個太陽
+發誓
+莫失莫忘
+How Deep Is Your Love	hdijl
+覺悟
+自動消失Lonely Days	zi4 dung4 siu1 sjat1 lonely days
+預先彩排的分手
+風的季節
+倩影
+爲情爲愛
+說愛談情
+愛情
+長流不息	cjoeng4 lau4 bat1 sik1
+母親
+眞的愛我就別離開
+2002-08-02
+《夢成眞演唱會》
+夢成眞演唱會
+一人有一個夢想
+陽光路上
+音樂派對
+發誓
+莫失莫忘
+認眞
+卿半佳人
+我要忘掉你
+一人有一個理想
+愛你會是多悽美
+Love Me Once Again
+悟
+幸運是我
+心底話
+自動消失Lonely Days	zdssjlld
+踢走鋼盔
+雨季不再來
+流離所愛
+請你回來
+愛你一定快樂
+問候
+多情
+一人有一個夢想
+Wedding March
+小玩意
+細水長流	sai3 sjeoi2 cjoeng4 lau4
+雲上的日子
+2012-12-05
+《一人有一個夢想》
+多情
+這夜仍然溫暖
+一人有一個夢想
+愛你這樣傻
+玉女心經
+遙遠的歌
+但願給戀火灼傷
+不知不覺想起你
+我是不是戀愛了
+放下了心事
+正義
+2016-12-23
+《感恩》
+幸福摩天輪
+身外情
+逾越生死
+城裏的月光
+今生不再
+舊街角
+回眸一笑
+祝英臺
+假使有日能忘記
+陌上歸人
+
+
+
+
+A	ai
+B	bi
+C	si
+D	di
+E	ji
+F	efu	1
+F	ef	1
+F	e fu	1
+G	zjyu
+G	zjy
+H	ikcjyu
+H	ekcjyu	1
+H	ikcyu
+H	ekcyu	1
+H	ik cjyu
+H	ek cjyu	1
+H	ik cyu
+H	ek cyu	1
+I	aai
+J	zjeoi
+J	zjui
+K	kai
+K	ke
+L	eu lu	1
+L	eul	1
+L	eu	1
+L	eur	1
+L	eu ru	1
+M	em	1
+N	en	1
+O	ou
+P	pi
+Q	kiu
+R	aa
+R	aal
+R	aa lu
+R	aar
+R	aa ru
+S	e si	1
+S	es	1
+T	ti
+U	ju
+V	wi
+W	dap bu liu
+W	dapuliu
+W	dapliu
+W	dabuliu
+W	dab bu liu
+X	iks
+X eks
+X	ik si
+X	ek si	1
+Y	waai
+Z	jisik
+Z	ji sik
+RIME
+QQ	kiu kiu
+QQ	qq
+WIFI	wifi
+WIFI	waaifaai
+WIFI	waai faai
+β	betaa
+β	be taa
+π	paai
+μ	miu
+ρ	lou
+σ	sikmaa
+ς	sikmaa
+σ	sigmaa
+ς	sigmaa
+φ	faai
+θ	sitaa
+θ	sit taa
+θ	thit taa
+θ	fsit taa
+θ	sfit taa
+ω	oumigaa
+Ω	oumigaa
+ω	ou mi gaa
+Ω	ou mi gaa
+∵	jan1 wai4	10										#因为
+∴	sjo2 ji2	10										#所以
+°	du4	25														#度
+√	ngau1															#勾
+×	cjaa1															#叉
+℃	sjip3 sji4 du4									#攝氏度
+℉	waa4 sji4 du4										#華氏度
+㎎	hou4 hak1												#毫克
+㎏	cin1 hak1												#千克
+㎜	hou4 mai1												#毫米
+㎝	li4 mai1												#釐米
+㎞	cin1 mai1												#千米
+㎡	ping4 fong1 mai1								#平方米
+㏄	hou4 sjing1											#毫升
+㏎	cin1 mai1                     	#千米
+㏑	ln
+㏒	log
+
+
+☯	taai3 gik4
+☰	kin4
+☱	deoi3
+☲	li4
+☳	zjan3
+☴	san3
+☴	syun3
+☵	ham2
+☶	gan3
+☷	kwan1
+
+
+
+
+
+地名
+古代
+蒼梧郡
+廣信
+廣信縣
+高要
+臨賀
+臨賀縣
+臨賀郡
+謝沐
+謝沐縣
+馮乘
+馮乘縣
+端谿
+端谿縣
+端溪
+富川
+鍾山
+鍾山縣
+荔浦
+猛陵
+孟陵
+猛陵縣
+孟陵縣
+封陽
+封陽縣
+農城
+遂城
+戎城
+豪静
+开江
+封川
+永平
+永平郡
+
+梧州
+藤州
+義州
+永安州
+
+明代
+蒼梧縣
+五廂
+華嶽
+善教
+宣德
+寶伦
+阜民
+華嶽廂
+善教廂
+宣德廂
+寶伦廂
+阜民廂
+五坊
+淳政
+通泰
+迎恩
+水西
+育真
+淳政坊
+通泰坊
+迎恩坊
+水西坊
+育真坊
+
+清代
+華嶽坊
+宣德坊
+善政坊
+保伦坊
+阜民坊
+淳政坊
+通泰坊
+迎恩坊
+水西坊
+育仁坊
+富民坊
+江南五鄉
+平樂
+吉陽
+長行
+冠蓋
+須羅
+江北六鄉
+多賢
+潯陽
+恩德
+平政
+安平
+東安
+
+梧州萬秀
+梧州蝶山
+梧州長洲	ng4 zjau1 cjoeng4 zjau1
+梧州龍圩
+梧州戎圩
+梧州龍墟
+梧州戎墟
+
+市區
+萬秀
+街道辦
+城北街道辦事處
+城中街道辦事處
+城南街道辦事處
+城東街道辦事處
+城北街
+城中街
+城南街
+城東街
+城北街道
+城中街道
+城南街道
+城東街道
+城北街道辦
+城中街道辦
+城南街道辦
+城東街道辦
+城東鎮
+龍母
+龍母廟
+龍母太廟
+水師營
+西竺園
+白雲山公園
+伏虎崖
+神鹿臺
+光華亭
+雙清亭
+半山亭
+雲峯亭
+車路尾
+西水巷
+百花沖
+平民沖
+冰泉沖
+河東防洪堤
+騎樓城
+東正
+東正路
+東中
+東中路
+馬皇街
+摩天嶺
+大東上路
+步行街
+大東下路
+南中
+南中菜市
+下關菜市
+大中路
+和平路
+西門口
+西門口碼頭
+中山碼頭
+大南路
+大東酒家
+小南路
+維新里
+維新街
+沙街
+居仁路
+南環
+南環路
+四坊井
+四坊路
+五坊路
+九坊路
+萬壽宫
+獁騮鋪
+北環路
+桂北路
+金龍巷
+廣西特委舊址
+文筆塔
+允升塔
+錦屏山
+火山
+火山隧道
+聖文園
+聖南湖山莊
+撫沖苗圃
+東出口
+阜民
+阜民路
+思達醫院
+宏道幼兒園
+高地路
+高地街
+大同路
+砧板巷
+砧板街
+雲蓋
+雲蓋路
+雲蓋山
+石鼓沖
+鸳江丽港
+四恩寺
+地委大院
+雲龍橋
+雲龍公園
+龍船沖
+龍船沖車站
+撫河
+桂江
+潯江
+鴛鴦江
+鴛江
+鴛江橋
+三角嘴
+錢鑒
+扶典
+思扶
+華堂
+
+粵桂合作特別試驗區
+粵桂合作試驗區
+粵桂試驗區
+李家莊碼頭
+扶典
+扶典村
+思扶
+思扶村
+華堂
+華堂村
+塘源
+塘源村
+旺步
+旺步村
+社學
+社學村
+鷄籠洲
+繫龍洲
+
+蝶山
+角嘴街道辦事處
+東興街道辦事處
+富民街道辦事處
+角嘴街道辦
+東興街道辦
+富民街道辦
+角嘴街
+東興街
+富民街
+角嘴街道
+東興街道
+富民街道
+角嘴
+鶴崗樓
+富民一路
+富民二路
+富民三路
+東山沖
+太和
+太和沖
+太和花園
+鯉魚沖
+棗沖
+寶石城
+寶石大廈
+黨校	dong2 haau4
+廣東路
+廣廈花園
+西環
+西環路
+西環小學
+怡景
+怡景菜市
+榜山公園
+傍山
+大學路
+河濱公園
+珠山革命烈士紀念碑
+珠山
+革命烈士紀念碑
+牛屎碼頭
+步埠
+步埠路
+電大
+三雲
+上三雲
+下三雲
+上沖
+下沖
+龍骨沖
+潘塘
+潘塘公園
+文瀾
+文瀾菜市
+工廠路
+工廠二路
+工廠路小學
+龍山路
+三和里
+龍湖鎮
+郊區
+塘源
+桃花村
+旺步
+紫金村
+旺地
+高望
+高旺
+八寶塘
+
+梧高
+梧州一中
+梧州二中
+梧州三中
+梧州四中
+梧州五中
+梧州六中
+梧州七中
+梧州八中
+梧州九中
+梧州十中
+梧州十一中
+梧州十二中
+梧州十三中
+梧州十四中
+梧州十五中
+蒼中
+一附小
+二附小
+三附小
+
+桂江一橋
+桂江二橋
+西江大橋
+雲龍橋
+雲龍大橋
+鴛江橋
+彩虹橋
+鸳鸯江大橋
+桂江三橋
+紫竹大橋
+莲花橋
+莲花大橋
+桂江鐵路橋
+西江鐵路橋
+
+大塘街道辦事處
+興龍街道辦事處
+大塘街道辦
+興龍街道辦
+大塘街
+興龍街
+大塘街道
+興龍街道
+大塘小學
+老碼頭
+河西老碼頭
+獅臥山
+獅臥山公園
+寶石園
+石人沖
+奧奇麗
+奧奇麗路
+新興菜市
+振興小學
+新興一路
+新興二路
+新興三路
+新興小學
+京梧
+京梧新苑
+灝景玥城
+金晖
+金晖車站
+興龍
+新興村
+玫瑰湖
+玫瑰湖公園
+三龍
+龍平
+龍華
+龍新
+龍新村
+紅嶺
+平浪
+平浪村
+長洲	cjoeng4 zjau1
+長洲區	cjoeng4 zjau1 kyu1
+長洲島	cjoeng4 zjau1 dou2
+竹灣
+竹灣村
+寺沖
+長地
+正陽
+泗洲
+泗洲島
+長洲水利樞紐	cjoeng4 zjau1 sjeoi2 li4 sjyu1 nau2
+長洲水利樞紐	cjoeng4 zjau1 sjeoi2 li4 kyu1 nau2
+梧州長洲機場	ng4 zjau1 cjoeng4 zjau1 gi1 cjoeng4
+長洲機場	cjoeng4 zjau1 gi1 cjoeng4
+梧州體育訓練基地
+
+蒼海湖
+蒼海湖公園
+下小河
+上小河
+炳蔚塔
+李濟深紀念館
+李濟深歇馬場
+龍圩
+戎圩
+戎墟
+龍圩
+林水
+大坡
+新地
+廣平
+旺甫
+夏郢
+倒水
+嶺腳
+人和
+獅寨
+獅砦
+京南
+長發	cjoeng4 faat3
+石橋
+沙頭
+木雙
+梨埠
+六堡
+龍圩鎮
+戎圩鎮
+戎墟鎮
+林水鎮
+大坡鎮
+新地鎮
+廣平鎮
+旺甫鎮
+夏郢鎮
+倒水鎮
+嶺腳鎮
+人和鎮
+獅寨鎮
+獅砦鎮
+京南鎮
+漢士威彦先生故里石刻
+長發镇	cjoeng4 faat3 zjan3
+石橋鎮
+沙頭鎮
+木雙鎮
+梨埠鎮
+六堡鎮
+大爽河生態遊樂景區
+大爽河
+爽島民俗風情旅遊區
+爽島
+飛龍湖旅遊度假區
+飛龍湖
+石橋龍巖
+
+藤縣
+藤州
+藤城
+潭東
+津北
+南安
+赤水
+塘步
+金雞
+金鷄
+象棋
+嶺景
+新慶
+埌南
+濛江
+天平
+和平
+太平
+古龍
+平福
+東榮
+大黎
+寧康
+藤州鎮
+藤城鎮
+禤洲島
+潭東鎮
+津北鎮
+南安鎮
+赤水鄉
+塘步鎮
+金雞鎮
+金鷄鎮
+象棋鎮
+嶺景鎮
+新慶鎮
+埌南鎮
+濛江鎮
+天平鎮
+和平鎮
+太平鎮
+古龍鎮
+東榮鎮
+大黎鎮
+平福鄉
+寧康鄉
+石表山
+獅山
+太平獅山
+四王亭
+英王陳玉成
+忠王李秀成
+侍王李世賢
+耒王陸順德
+
+岑溪
+岑城
+馬路
+南渡
+水汶
+大隆
+大業
+筋竹
+梨木
+誠諫
+歸義
+糯垌
+安平
+三堡
+波塘
+岑城鎮
+馬路鎮
+南渡鎮
+水汶鎮
+大隆鎮
+大業鎮
+筋竹鎮
+梨木鎮
+誠諫鎮
+歸義鎮
+糯垌鎮
+安平鎮
+三堡鎮
+波塘鎮
+天龍頂
+白霜澗
+五世衍祥
+
+蒙山
+永安州
+西河
+新圩
+文圩
+黃村
+陈塘
+漢豪
+夏宜
+長坪	cjoneg4 ping4
+蒙山鎮
+西河鎮
+新圩鎮
+文圩鎮
+黃村鎮
+陳塘鎮
+漢豪鄉
+夏宜鄉
+長坪鄉	cjoneg4 ping4 hoeng1
+夏宜瑶族鄉
+長坪瑶族鄉	cjoneg4 ping4 hoeng1 jiu4 zuk4 hoeng1
+西炮臺公園
+鰲山文筆
+玉孟沖
+茶山湖
+龍潭瀑布
+
+鴛江春泛
+桂江春泛
+雲岭晴嵐
+龍洲砥峙
+鶴崗返照
+金牛仙渡
+鱷池漾月
+火山夕焰
+冰井泉香
+世界人工寶石之都
+人工寶石之都
+千年古城
+百年商埠
+千年古城百年商埠
+山城水都
+綠城水都
+
+名人
+陳欽
+陳元
+牟子
+士燮
+契嵩
+韩雍
+李濟深
+梁羽生
+
+牟子理惑論
+理惑論
+
+水門
+木犀舞
+火碗舞
+牛娘戲
+木偶戲
+香龍舞
+麒麟白馬舞
+盘王舞
+舞鹿兒
+舞春色
+黃西盛
+譚謙記
+
+龜苓膏
+爽錢龜苓膏
+冰泉豆漿
+冰泉滴珠豆漿
+紙包鷄
+粵西樓
+蔥油魚
+蔥油鯇
+蔥油鯇魚
+艇仔粥
+龍虱
+和味龍虱
+龍鬚糖
+大福餅
+睇哭餅
+雲片糕
+馬蹄糕
+香蕉糕
+炒米餅
+河粉
+牛腩粉
+牛雜粉
+超記粉
+瘦鬼釗
+窩粉
+鍋粉
+腸粉	cjoeng2 fan2 
+禾草狗
+缽仔糕
+鉢仔糕
+神仙鉢
+豆腐渣
+三蛇酒
+蛤蚧酒
+嶺南神酒
+桑寄生
+長洲桑寄生茶	cjoeng4 zjau1 song1 gi3 sjaang1 cjaa4
+龍珠茶
+臘腸
+龍舟臘腸
+豆腐酿
+古典鷄
+三黃鷄
+白斬狗
+艾糍
+灰水糉
+生炒田螺
+蛤蚧乾
+岑溪紅
+和味狗肉煲
+田螺鷄煲
+豬肚鷄煲
+龍虎鳳
+粉蟲
+紅扣果子貍
+油泡石鴿腿
+三蛇羹
+三蛇龙虎燴
+古鳳荔枝
+土茯苓
+京南米粉
+苍梧蜜棗
+東安古檑糍
+岑溪米粉
+岑溪粉
+燒腩
+戎墟燒腩
+戎圩燒腩
+龍圩燒腩
+
+
+
+涼茶
+福康涼茶
+生地綠豆
+竹蔗
+竹蔗馬蹄
+清熱去溼
+清熱祛溼
+清肝明目
+癍痧茶
+苦痧茶
+魚腥草
+燈盞菜
+
+
+
+
+
+勾漏
+晉語
+玉篇
+切韻
+廣韻
+集韻
+分韻
+分韻撮要
+反切
+反切上字
+反切下字
+小韻
+介音
+音韻	jam1 wan5
+雙脣
+雙脣音
+重脣	cjung5 sjan4
+重脣音	cjung5 sjan4 jam1
+脣齒
+脣齒音
+輕脣
+輕脣音
+舌頭音
+舌上	sjit4 sjoeng4
+舌上音	sjit4 sjoeng4 jam1
+齒頭
+齒頭音
+正齒
+正齒音
+正齒音莊組
+正齒音章組
+半舌音
+半齒音
+內爆
+內爆音
+內爆濁
+內爆濁音
+邊擦
+邊擦音
+齒間
+齒間音
+喉塞	hau4 sak1
+顎化
+鼻化
+舒化
+促化
+高化
+低化
+塞化	sak1 faa3
+清化
+濁化
+咽化
+裂化
+弱化
+簡化
+圓脣
+圓脣化
+脣化
+送氣
+不送氣
+精組塞化
+陰平
+陽平
+陰上	jam1 sjoeng5
+陽上	joeng4 sjoeng5
+陰去
+陽去
+陰入
+陽入
+陰聲韻
+陽聲韻
+入聲韻
+
+濁音
+全清
+次清
+全濁
+次濁
+入聲
+次入聲
+一等韻
+二等韻
+三等韻
+四等韻
+民科
+官科
+懶化音
+懶音
+
+幫組
+非組
+端組
+知組
+精組
+莊組
+章組
+見組
+影組
+
+幫母
+滂母
+並母
+明母
+非母
+敷母
+奉母
+微母
+端母
+透母
+定母
+泥母
+知母
+徹母
+澄母
+孃母
+精母
+清母
+從母
+心母
+邪母
+照母
+穿母
+牀母
+審母
+禪母
+莊母
+初母
+崇母
+生母
+俟母
+章母
+昌母
+常母
+書母
+船母
+見母
+谿母
+羣母
+疑母
+曉母
+匣母
+影母
+云母
+以母
+來母
+日母
+
+幫紐
+滂紐
+並紐
+明紐
+非紐
+敷紐
+奉紐
+微紐
+端紐
+透紐
+定紐
+泥紐
+知紐
+徹紐
+澄紐
+孃紐
+精紐
+清紐
+從紐
+心紐
+邪紐
+照紐
+穿紐
+牀紐
+審紐
+禪紐
+莊紐
+初紐
+崇紐
+生紐
+俟紐
+章紐
+昌紐
+常紐
+書紐
+船紐
+見紐
+谿紐
+羣紐
+疑紐
+曉紐
+匣紐
+影紐
+云紐
+以紐
+來紐
+日紐
+
+通摄
+江摄
+止摄
+遇摄
+蟹摄
+臻摄
+山摄
+咸摄
+效摄
+果摄
+假摄
+宕摄
+梗摄
+蒸摄
+流摄
+深摄
+
+
+
+
+
+葉縣	sjip3 jyun4	10
+葉公好龍	jip4 gung1 hou3 lung4 	0
+葉公好龍	sjip3 gung1 hou3 lung4
+万俟	mak4 ki4
+可汗	hak1 hon4
+落魄
+落魄	lok4 tok3
+大將	daai4 zoeng3
+壯族	zjong4 zuk4
+并州	bing1 zjau1
+造詣
+造詣	cou3 ngai4
+斜谷	je4 guk1
+莫邪	mok4 je4
+乾坤	kin4 kwan1
+乾卦	kin4 gwaa3
+乾象	kin4 zoeng4
+乾健	kin4 gin4
+乾儀	kin4 nji4
+乾顧	kin4 gu3
+乾隆	kin4 lung4
+南宮适
+李适
+張嶷	zjoeng1 ngik4
+尉遲	wat1 cji4
+尉遲恭	wat1 cji4 gung1
+尉遲敬德	wat1 cji4 ging3 dak1
+易建聯	jik4 gin3 lyun4
+易經	jik4 ging1
+易筋經	jik4 gan1 ging1
+變易	bin3 jik4
+交易	gaau1 jik4
+籠罩	lung5 zjaau3
+籠統	lung5 tung2
+番禺	pun1 njyu4
+番禺	pun1 jyu4
+南番順	naam4 pun1 sjan4
+打仗	daa2 zjoeng3
+勝仗	sjing3 zjoeng3
+敗仗	baai4 zjoeng3
+打勝仗	daa2 sjing3 zjoeng3
+打敗仗	daa2 baai4 zjoeng3
+什麼	sjam4 mo1
+衝擊鑽	cjung1 gik1 cyu3
+長處	cjoeng4 cjyu3
+長大	zjoeng2 daai4
+長短	cjoeng4 dyun2
+長高	zjoeng2 gou1
+簡易	gaan2 ji4
+要塞	njiu3 soi3																																																																																																																																																																																																																																																														
+要塞	jiu3 soi3																																																																																																																																																																																																																																																														
+重量	cjung5 loeng4																																																																																																																																																																																																																																																														
+重要	cjung5 jiu3																																																																																																																																																																																																																																																														
+重要	cjung5 njiu3																																																																																																																																																																																																																																																														
+解差	gaai3 cjaai1
+解送	gaai3 sung3
+押解	aap3 gaai3
+押解	aat3 gaai3
+啞然失笑	ak1 njin4 sjat1 siu3
+啞然失笑	aak3 njin4 sjat1 siu3
+啞然	ak1 njin4
+啞然	aak3 njin4
+參加	caam1 gaa1
+參與	caam1 jyu5
+參政	caam1 zjing3
+參賽	caam1 soi3
+參議	caam1 nji5
+參雜	caam1 zaap4
+參半	caam1 bun3
+參考	caam1 haau2
+參照	caam1 zjiu3
+參看	caam1 hon3
+參閱	caam1 jyut4
+參檢	caam1 gim2
+參悟	caam1 ng4
+參透	caam1 tau3
+參破	caam1 po3
+參禪	caam1 sjim4
+參禪	caam1 sjin4
+參見	caam1 gin3
+參拜	caam1 baai3
+參奏	caam1 zau3
+參劾	caam1 hat4
+參革	caam1 gaak3
+參差	cjam1 ci1
+參差	cjaam1 ci1
+參差不齊	cjam1 ci1 bat1 cai4
+參差不齊	cjaam1 ci1 bat1 cai4
+人參	njan4 sjam1
+黨參	dong2 sjam1
+花旗參	faa1 ki4 sjam1
+玄参	jyun4 sjam1
+参茸	sjam1 jung4
+参鬚	sjam1 su1
+參宿	sjam1 sau3
+參商	sjam1 sjoeng1
+差錯	cjaa1 co3
+差異	cjaa1 ji4
+差別	cjaa1 bit4
+相差	soeng1 cjaa1
+出差	cjat1 cjaai
+差旅	cjaai1 lyu5
+差旅費	cjaai1 lyu5 fi3
+差人	cjaai1 njan4
+差距	cjaa1 kyu5
+差額	cjaa1 ngaak4
+差價	cjaa1 kaa3
+差池	cjaa1 cji4
+差數	cjaa1 sju3
+偏差	pin1 cjaa1
+差遣	cjaai1 hin2
+差事	cjaai1 sji4
+公差	gung1 cjaai1
+太差	taai3 cjaa3
+差得	cjaa1 dak1
+差得太多	cjaa1 dak1 taai3 do1
+鬼使神差	gwai2 sji2 sjan4 cjaai1
+差役	cjaai1 jik4
+當差	dong1 cjaai1
+千差萬別	cin1 cjaa1 maan4 bit4
+差等	cjaa1 dang2
+差互	ci1 wu4
+差肩	ci1 gin1
+哪吒	naa4 zjaa1
+
+家長	gaa1 zjoeng2
+長輩	zjoeng2 beoi3
+尊長	zyun1 zjoeng2
+專長	zjyun1 cjoeng4
+兄長	hing1 zjoeng2
+師長	syu1 zjoeng2
+師長	si1 zjoeng2
+師長	sji1 zjoeng2
+副師長	fu3 syu1 zjoeng2
+副師長	fu3 si1 zjoeng2
+副師長	fu3 sji1 zjoeng2
+軍長	gwan1 zjoeng2
+班長	baan1 zjoeng2
+副班長	fu3 baan1 zjoeng2
+村長	cyun1 zjoeng2
+部長	bu4 zjoeng2
+副部長	fu3 bu4 zjoeng2
+首長	sjau2 zjoeng2
+特長	dak4 cjoeng4
+全長	cyun4 cjoeng4
+
+爸爸	baa4 baa1
+媽媽	maa4 maa1
+姐姐	ze4 ze1
+哥哥	go4 go1
+弟弟	dai4 dai2
+妹妹	meoi4 meoi2
+爺爺	je4 je2
+婆婆	po4 po2
+公公	gung1 gung1
+公公	gung4 gung1
+爸爸媽媽	baa4 baa1 maa4 maa1
+哥哥姐姐	go4 go1 ze4 ze1
+弟弟妹妹	dai4 dai2 meoi4 meoi2
+爺爺嫲嫲	je4 je2 maa4 maa4
+公公婆婆	gung1 gung1 po4 po2
+
+
+
+語文佬
+語文婆
+數學佬
+數學婆
+英語佬
+英語婆
+物理佬
+物理婆
+化學佬
+化學婆
+生物佬
+生物婆
+政治佬
+政治婆
+歷史佬
+歷史婆
+地理佬
+地理婆
+音樂佬
+音樂婆
+美術佬
+美術婆
+體育佬
+體育婆
+政教婆
+鬥木佬	dau3 muk4 lou2	
+枴子佬
+九八佬	gau2 baat3 lou2	
+扛狗佬	kong1 gau2 lou2	
+收買佬	sjau1 mai5 lou2	
+針寶佬	zjam1 bou2 lou2	
+司機佬
+垃圾佬
+垃圾婆
+豬肉佬
+豬肉婆
+扒灰佬
+賊佬
+鄉下佬	hoeng1 haa5 lou2
+車衣婆
+艇家婆
+飯堂婆
+包租婆
+包租公
+跛腳佬
+飛髮佬
+飛髮婆
+反骨仔	faan2 gwat1 zai2
+二五仔	nji4 ng5 zai2
+爛仔	laan4 zai2
+世界仔	sjai3 gaai3 zai2
+
+
+驅風油
+萬花油
+黑鬼油
+萬金油
+
+
+電制
+水制
+手制
+剎制
+撳制
+煤氣制
+總制
+
+
+咁蚊
+
+A	jin1
+K	king1
+Q	man5
+J zjik1
+2	di2
+AKQJ10	jin1 king1 man5 zjik1 sjap4
+AKQJ十	jin1 king1 man5 zjik1 sjap4
+七鬼五二三
+
+
+
+
+AA制		
+BB機		
+K歌		
+T裇		
+阿嫲	aa3 maa2	
+阿嫲	aa3 maa4	
+阿爺	aa3 je4	
+啊大	aa daai2	
+挨呃都未知天光	ngaai4 ngak1 du1 mi4 zji1 tin1 gwong1	
+捱更抵夜		
+捱眼睏		
+捱夜	ngaai4 je2	
+矮凳	ai1 dang3	
+矮瓜	ai2 gwaa1	
+安心	on1 sam1	
+八下	baat3 haa5	
+扒灰		
+把刀冇利		
+把炮		
+吧閉	baa1 bai3	
+吧喳	baa1 zjaa1	
+掰大個口得個窿		
+掰大嘴	maak3 daai4 zeoi2	
+白焯	baak4 cjoek3	
+白蘭地	baak4 laan1 di2	
+白雪雪	baak4 syt1 syt1	
+白粥	baak4 zjuk1	
+白撞	baak4 zjong4	
+百分比	baak3 fan4 bi2	
+百厭	baak3 jim3	
+百足	baak3 zuk1	
+擺檔	baai2 dong3	
+擺酒	baai2 zau2	
+拜拜	baai1 baai3	
+拜山	baai3 sjaan1	
+半唐番	bun3 tong4 faan1	
+半桶水	bun3 tung2 sjeoi2	
+扮懵		
+扮嘢		
+幫襯	bong1 cjan3	
+幫手	bong1 sjau2	
+幫拖	bong1 to1	
+幫下我手	bong1 haa5 ngo5 sjau2	
+幫下我手喂		
+傍水	bong4 sjeoi2	
+包租公		
+包租婆		
+煲燶粥		
+薄笠	bok4 lap1	
+薄笠褲	bok4 lap1 fu3	
+爆煲	baau3 bou1	
+爆格	baau3 gaak3	
+爆箍	baau3 ku1	
+爆鏡	baau3 ging3	
+爆棚	baau3 paang4	
+背脊		
+背脢	beoi3 meoi4	
+被竇	pi5 dau3	
+被鋪蚊帳	pi5 pu1 man1 zjoeng3	
+被套	pi5 tou3	
+笨柒次次新鲜		
+笨柒有新鮮	ban4 cat4 jau2 san1 sin1	
+泵一聲		
+鼻哥	bi4 go1	
+鼻示	bi4 sji4	
+比對	bi2 deoi3	
+筆刨	bat1 paau4	
+筆水		
+筆錔		
+筆套		
+筆頭		
+筆嘴		
+畀面	bi2 min2	
+畀心機	bi2 sam1 gi1	
+蓖麻	bi1 maa4	
+弊傢夥	bai4 gaa1 fo2	
+邊度	bin1 du4	
+邊個	bin1 go3	
+邊塞	bin1 soi3	
+邊位	bin1 wai2	
+飆冷汗	biu1 laang5 hon4	
+表錯情	biu2 co3 cing4	
+餅印	bing2 jan3	
+玻璃樽		
+玻珠		
+剝光豬		
+伯爺公	baak3 je1 gung1	
+泊車		
+博彩	bok3 coi2	
+博亂	bok3 lyun4	
+博懵	bok3 mung2	
+搏命	bok3 ming4	
+駁嘴	bok3 zeoi2	
+駁嘴駁舌		
+膊頭	bok3 tau4	
+餺鐺	bok3 cjaang1	
+擘大個口得個窿		
+擘大嘴	maak3 daai4 zeoi2	
+布碎	bu3 seoi3	
+佈告	bu3 gou3	
+彩數	coi2 sju3	
+彩數	coi2 sjyu3	0
+睬佢都傻		
+睬佢都戇		
+睬佢都戇鳩		
+踩大	caai2 daai6	
+菜乾	coi3 gon1	
+慘過		
+慘過食屎		
+慘過豬潲		
+嘈喧吧閉	cou4 hyun1 baa1 bai3	
+槽騸雞	cou4 sjin3 gai1	
+草花頭	cou2 faa1 tau4	
+草蜢	cou2 maang2	
+察覺	cjaat4 gok3	
+鏟刀磨鉸剪		
+長氣	cjoeng4 hi3	
+唱歌仔		
+暢散紙	cjoeng3 saan2 zji2	
+抄架撐		
+朝頭早	zjiu1 tau4 zou2	
+朝早	zjiu1 zou2	
+吵耳		
+炒更	cjaau2 gaang1	
+炒燶		
+炒魷魚	cjaau2 jau4 njyu4	
+車大炮	cje1 daai4 paau3	
+車轆	cje1 luk1	
+車你返去		
+車你返屋		
+車條褲		
+扯鼻鼾	cje2 bi4 hon4	
+扯風	cje2 fung1	
+扯風箱		
+扯哈		
+趁你病		
+趁你病		
+趁你病攞你命		
+趁墟	cjan3 hyu1	
+撐艇	cjaang1 ting5	
+撐遮	cjaang1 zje1	
+成村人		
+成副身家	sjing4 fu3 sjan1 gaa1	
+成日	sjing4 njat4	
+成世		
+黐餐	cji1 caan1	
+黐脷根		
+黐頭旁	cji1 tau4 pong4	
+黐頭婆	cji1 tau4 po4	
+黐線	cji1 sin3	
+黐牙		
+黐住		
+黐孖筋	cji1 maa1 gan1	
+豉油	sji4 jau4	
+沖茶	cjung1 cjaa4	
+沖滚水		
+沖涼	cjung1 loeng4	
+沖涼房	cjung1 loeng4 fong4	
+沖落渠坑		
+抽筋藤		
+抽住機		
+臭串	cjau3 cjyun3	
+臭屁蟲	cjau3 pi3 cjung4	
+臭青		
+臭餿	cjau3 suk1	
+臭酸臭餿	cjau3 sun1 cjau3 suk1	
+臭珠	cjau3 zjyu1	
+出恭	cjat1 gung1	
+出糧	cjat1 loeng4	
+出聲	cjat1 sjing1	
+出世	cjat1 sjai3	
+初初	cjo1 cjo1	
+初時	cjo1 sji4	
+畜牲	cjuk1 sjaang1	
+搋麵粉	cjaai1 min4	
+穿煲	cjyun1 bou1	
+牀頭打交牀尾和		
+吹得我脹		
+吹咩		
+吹水	cjeoi1 sjeoi2	
+吹水冇抹嘴		
+吹我脹		
+吹脹		
+純粹攞來擺景		
+純粹擰來擺景		
+純粹搦來擺景		
+次次笨柒次次新鲜		
+從細		
+錯有錯著	co3 jau2 co3 zjoek4	
+耷頭耷腦		
+打鼻鼾	daa2 bi4 hon4	
+打邊爐	daa2 bin1 lu4	
+打出咕咕咕	daa2 cjat1 gu4 gu1 gu3	
+打到你一扑一碌		
+打斧頭	daa2 fu2 tau4	
+打交		
+打軍斗	daa2 gwan1 dau2	
+打赖屎		
+打冷振	daa2 laang5 zjan3	
+打失	daa2 sjat1	
+打霧水	daa2 mu4 sjeoi2	
+打住機		
+打孖	daa2 maa1	
+打孖來		
+大把	daai4 baa2	
+大笨象		
+大髀	daai4 bi2	
+大耳窿		
+大個女		
+大個仔		
+大個仔啦		
+大鑊	daai4 wok4	
+大劑	daai4 zai1	
+大家姐	daai4 gaa1 ze1	
+大件夾抵食		
+大件事		
+大佬		
+大馬路		
+大你		
+大聲公		
+大聲夾惡		
+大聲夾冇準		
+大食		
+大水蟲	daai4 sjeoi2 cjung2	
+大頭佛		
+大頭熟	daai4 tau4 sjuk4	
+大頭蝦		
+大眼鷄		
+大姨		
+大飲		
+大飲大食		
+大隻累累	daai4 zjik3 leoi4 leoi4	
+帶壞鬼頭		
+帶你又遠		
+帶挈	daai3 hit3	
+帶協		
+袋袋平安		
+單車	daan1 cje1	
+擔屎都冇偷食	daam1 sji2 du1 mou5 tau1 sjik4	
+擔屎都冇偷食	daam1 sji2 du1 mau5 tau1 sjik4	
+擔屎冇偷食	daam1 sji2 mou5 tau1 sjik4	
+擔屎冇偷食	daam1 sji2 mau5 tau1 sjik4	
+擔挑	daam3 tiu1	
+沊聲		
+沊一聲		
+淡定	daam4 ding4	
+蛋饊		
+蛋筒	daan2 tong4	
+蛋筒		
+髧落來		
+彈彈卡		
+當黑	dong1 hak1	
+當鋪	dong3 pu3	
+當衰	dong1 sjeoi1	
+當堂	dong1 tong4	
+檔次	dong2 ci3	
+檔次	dong2 cyu3	
+檔口	dong3 kau2	
+蕩街	dong4 gaai1	
+蕩失路	dong4 sjat1 lu4	
+倒瀉	dou2 se2	
+倒瀉螺蟹		
+得把口	dak1 baa2 hau2	
+得把聲	dak1 baa2 sjing1	
+得把嘴	dak1 baa2 zeoi2	
+得發		
+得個吉	dak1 go3 gat1	
+得就		0%
+得未		
+得閑		
+得意	dak1 ji3	
+的而且確	dik1 nji4 ce2 kok3	
+的士	dik1 si2	
+等返陣		
+等你食飽先		
+等錢使		
+等佢食飽先		
+等陣	dang2 zjan4	
+等陣兒		
+凳仔	dang3 zai2	
+抵死	dai2 si2	
+抵惜		
+底撐	dai2 cjaang3	
+底狗		
+底褲	dai2 fu3	
+底褲又穿窿		
+地低	di4 dai1	
+地底	di4 dai2	
+地豆		
+地喱		
+地拖	di4 to1	
+地下	di4 haa2	
+地下	di4 haa5	
+睇白	tai2 baak3	
+睇病	tai2 bing1	
+睇大戲		
+睇得過眼		
+睇低	tai2 dai1	
+睇睇		
+睇法	tai2 faat3	
+睇過先	tai2 gwo3 sin1	
+睇過先知	tai2 gwo3 sin1 zji1	
+睇極		
+睇極都係		
+睇開	tai2 hoi1	
+睇來		
+睇路	tai2 lu4	
+睇你仲冇死		
+睇衰	tai2 sjeoi1	
+睇水	tai2 sjeoi2	
+睇死	tai2 si2	
+睇死你	tai2 si2 ni2	
+睇戲	tai2 hi3	
+睇住	tai2 zjyu4	
+掂檔	dim4 dong3	
+點蚊	dim2 man1	
+彫刻		
+扚起		
+扚起心肝		
+屌得你		
+屌得一	diu2 dak1 jat1	
+屌那媽		
+屌你老母		
+屌你唔知屌		
+屌柒你		
+吊頸	diu3 ging2	
+吊尾		
+吊液	diu3 jik4	
+吊癮	diu3 jan5	
+釣水魚		
+調轉頭	diu4 zjyun3 tau4	
+跌落屎坑		
+頂檔	ding2 dong3	
+頂肚	ding2 tu5	
+頂冇順		
+頂數	ding2 sju3	
+頂數	ding2 sjyu3	0
+頂頭頂頸		
+頂硬上	ding2 ngaang4 sjoeng5	
+凍冰冰	dung3 bing1 bing1	
+動親手打腫		
+棟床板	dung4 cjong4 baan2	
+都係		50
+豆腐花	dau4 fu4 faa1	
+豆腐碌	dau4 fu4 luk1	
+豆腐皮	dau4 fu4 pi4	
+豆腐渣		
+豆腐磚	dau4 fu4 zjyun1	
+鬥毒	dau3 duk4	
+鬥木佬	dau3 muk4 lou2	
+鬥氣	dau3 hi2	
+督卒		
+督卒過河當車使	duk1 zat1 gwo3 ho4 dong3 gyu1 sjai2	
+獨食	duk4 sjik4	
+獨食難肥	duk4 sjik4 naan4 fi4	
+讀死書		
+肚屙	tu5 o1	
+肚餓	tu5 ngo4	
+肚腩	tu5 naam5	
+肚痛	tu5 tung3	
+斷定	dyun3 ding4	
+斷估	dyun3 gu2	
+對出	deoi3 cjat1	
+對落	deoi3 lok4	
+對上	deoi3 sjoeng5	
+對摺	deoi3 zjip3	
+多得		
+多得你		
+多得佢		
+多謝	do1 ze4	
+屙風	o1 fung1	
+屙尿	o1 niu4	2235
+屙屎	o1 sji2	1085
+屙屎冇出賴地硬		
+額頭皺過春袋皮		
+而家	nji4 gaa1	
+兒嬉	nji4 hi1	791
+耳聾		
+耳聾		
+耳又聾		
+耳仔	nji5 zai2	
+二十字頭		
+二五仔		
+發達	faat3 daat4	
+發雞瘟		
+發姣	faat3 heu4	635
+發開口夢		
+發冷	faat3 laang5	
+發夢		
+發夢就有你份		
+發錢寒	faat3 cin2 hon4	
+發熱		
+發肉緊	faat3 njuk4 gan2	
+發燒友	faat3 sjiu1 jau5	
+發市	faat3 sji2	
+發死人財		
+發瘟	faat3 wan1	
+發瘟雞		
+發羊吊	faat3 joeng4 diu3	
+廢鬼薯		
+髮腳	faat3 goek3	
+番鬼	faan1 gwai2	
+番鬼佬	faan1 gwai2 lou2	
+翻風	fan1 fung1	
+反查		
+反骨仔		
+反手	faan2 sjau2	
+反轉豬肚	faan2 zjyun3 zjyu1 tu5	
+反轉豬肚就係屎	faan2 zjyun3 zjyu1 tu5 zau4 hai4 sji2	
+返來	faan1 lai4	
+返來	faan1 loi4	
+返去	faan1 hyu3	
+返生	faan1 sjaang1	
+返屋	faan1 uk1	
+返梧州		
+返學	faan1 hok3	
+返尋味	faan1 cam4 mi4	
+飯煲	faan4 bou1	
+飯鏟頭	faan4 cjaan2 tau4	
+飯盒	faan4 hop4	
+飯燶	faan4 nung1	
+放飛機	fong3 fi1 gi1	
+非常之	fi1 cjoeng4 zji1	
+非洲鯽	fi1 zjau1 zak1	
+飛髮	fi1 faat3	
+飛鼠	fi1 sjyu2	
+飛天雞乸		
+飛象過河	fi1 zoeng4 gwo3 ho4	
+肥妹	fi4 meoi1	
+肥尸大隻	fi4 sji1 daai4 sjik3	
+肥腯腯	fi4 dyut1 dyut1	
+肥腯腯	fi4 dyut1 dyut1	
+肥腯腯	fi4 tan4 tan4	
+分分鐘	fan1 fan1 zjung1	
+忿氣	fan4 hi3	
+風栗	fung1 lat4	
+風落膜	fung1 lok4 mok3	
+附次		
+呷醋	haap3 cu3	
+呷一啖		
+呷粥	haap3 zjuk1	
+趕工	gon2 gung1	
+高大衰	gou1 daai4 sjeoi1	
+高鬥		
+高佬		
+搞到一鑊泡		
+搞掂	gaau2 dim4	
+搞搞震	gaau2 gaau2 zjan3	
+哥哥仔	go4 go1 zai2	
+胳肋	gaak4 lak1	
+胳肋底	gaak4 lak1 dai2	
+隔籬	gaak3 li4	
+隔籬鄰舍	gaak3 li4 lan4 sje3	
+各處鄉村各處來		
+個邊		
+個輪		
+個輪時	go3 lan4 sji4	
+個排時	go3 paai4 sji4	
+個陣時	go3 zjan4 sji4	
+箇邊		
+箇輪		
+箇輪時	go3 lan4 sji4	
+箇排時	go3 paai4 sji4	
+箇陣時	go3 zjan4 sji4	
+跟冇上		
+拱趷	gung2 gat4	
+狗缽	gau2 but3	
+狗竇	gau2 dau3	
+狗乸		
+狗屎垃雜		
+狗爪		
+狗爪邊		
+狗爪旁		
+夠勁		
+夠力		
+夠運		
+夠鐘		
+估大豬	gu2 daai4 zjyu1	
+咕喱	gu1 li1	
+孤寒	gu1 hon4	
+姑姐	gu1 zje1	
+姑媽	gu1 maa1	
+姑婆		
+古靈精怪	gu2 ling4 zing1 gwai3	
+谷毛蛆	guk1 mou1 cyu1	
+蠱惑	gu2 waak4	
+寡佬	gwaa2 lou2	
+柺子佬		
+官字兩把口		
+關塞	gwaan1 soi3	
+光管	gwong1 gun2	
+鬼兒	gwai2 nji1	
+鬼咁串		
+鬼咁好		
+鬼咁好傾		
+鬼咁識做		
+櫃桶	gwai4 tung2	
+滾攪	gwan2 gaau2	
+滾水	gwan2 sjeoi2	
+裹蒸粽	gwo2 zjing1 zung3	
+過耷	gwo3 dap1	
+過海	gwo3 hoi2	
+過貨		
+過街	gwo3 gaai1	
+過數	gwo3 sjyu3	
+過頭	gwo3 tau4	
+過雲雨	gwo3 wan4 jyu5	
+過造	gwo3 zou4	
+過鐘		
+蛤乸	gop3 naa2	
+魽魚	kim5 njyu4	
+魽魚	kem5 njyu4	
+含柒	hom4 cat4	
+咁耐		
+咁逸		
+寒背	hon4 beoi3	
+寒涼		
+行白雲山		
+行船		
+行街	haang4 gaai1	
+行路	haang4 lu4	
+行衰運	haang4 sjeoi1 wan4	
+行住先		
+絎被	hong4 pi5	
+毫子		
+好彩	hou2 coi2	
+好彩	hou2 coi2	
+好地地	hou2 di4 di4	
+好睇		
+好鬼攰		
+好鬼勁		
+好攰	hou2 geoi4	
+好過	hou2 gwo3	
+好好睇睇		
+好話爲		
+好激氣		
+好激氣啊		
+好極		
+好極有限		
+好架勢		
+好勁	hou2 ging4	
+好了事		
+好靚		
+好冇		
+好面好貌生沙虱		
+好耐	hou2 noi4	
+好聲	hou2 sjing1	
+好食		
+好似		
+好似你		
+好似佢		
+好似係		
+好手勢		
+好天	hou2 tin1	
+好犀利		
+好心機		
+好易話爲	hou2 ji1 waa4 wai4	
+好瘀	hou2 jyu2	
+和味		
+荷蘭豆	ho4 laan1 dau2	
+核突	wat4 dat4	
+黑燈	hak1 dang1	
+黑口黑面	hak1 hau2 hak1 min4	
+黑墨墨		
+黑仔	hak1 zai2	
+紅瓜子		
+喉甘子		
+喉柑子		
+喉欖	hau4 laam2	
+後生仔		
+後尾	hau4 mi5	
+花灑	faa1 sjaa2	
+花順	faa1 sjan2	
+花樽		
+滑潺潺	waat4 cjaan4 cjaan4	
+滑溜	waat4 lau4	
+滑捋捋	waat4 lyut1 lyut1	
+話明		
+話事	waa4 sji4	
+話這話那		
+壞極有限		
+壞水	waai4 sjeoi2	
+換褲		
+換衫		
+換襪		
+換韤		
+換鞋		
+鯇魚	waan5 njyu4	
+慌失失		
+黃蜂	wong4 fung1	
+黃綠醫生	wong4 luk4 ji1 sjaang1	
+黃黚黚	wong4 kam4 kam4	
+黃霜霜	wong4 sjong1 sjong1	
+黃芽白	hung4 nga4 baak4	
+黃𩸆	wong4 ngap1	
+黃𩸆魚	wong4 ngap1 njyu4	
+暉春		
+回南	weoi4 naan3	
+回南天	weoi4 naan3 tin1	
+會錯意	weoi4 co3 ji3	
+噦出啊啖氣		
+噦出啖氣		
+噦冇出		
+噦冇出啖氣		
+噦氣		
+混吉		
+火滾	fo2 gwan2	
+火氣	fo2 hi2	
+火遮眼	fo2 zje1 ngaan5	
+火燭	fo2 zjuk1	
+火燭樓		
+鑊鏟	wok4 cjaan2	
+鑊蓋	wok4 goi3	
+鑊黑	wok4 hak1	
+鑊氣	wok4 hi2	
+鑊頭	wok4 tau4	
+積聚		
+激氣		
+激死		
+激死你		
+激死佢		
+激死我		
+雞髀	gai1 bi2	
+雞竇	gai1 dau3	
+雞公	gai1 gung1	
+雞毛掃	gai1 mou4 sou3	
+雞毛鴨血	gai1 mou4 aap3 hyut3	
+雞乸	gai1 naa2	
+雞嗉	gai1 syu3	
+雞同鴨講	gai1 tung4 aap3 gong2	
+雞翼	gai1 jik4	
+雞翼髀		
+雞翼根		
+雞翼尖		
+雞翼中		
+雞膶		
+鷄紅		
+即管	zik1 gun2	
+即係		
+極之		
+極之無謂		
+幾變態	gi2 bin3 taai3	
+幾得意	gi2 dak1 ji3	
+幾好啊	gi2 hou2 aa	
+幾架勢	gi2 gaa3 sjai2	
+幾老友	gi2 lou5 jau2	
+幾耐	gi2 noi4	
+幾三八	gi2 saam1 baat3	
+擠擁	zai1 jung2	
+計我話	gai3 ngo5 waa4	
+加加埋埋		
+家公	gaa1 gung1	
+家姐	gaa1 ze1	
+家婆	gaa1 po4	
+家嫂	gaa1 sou2	
+家私	gaa1 si1	
+家下	gaa1 haa5	
+假假地	gaa2 gaa2 di2	
+假斯文		
+架撐		
+架勢	gaa3 sjai3	
+奸奸狡狡		
+奸狡	gaan1 gaau2	
+兼且	gim1 ce2	
+間尺		
+揀靚衫		
+揀食	gaan2 sjik4	
+減開		
+簡筆字		
+鹹溼	haam4 sjap1	
+鹹魚返生		
+見步行步	gin3 bu4 haang4 bu4	
+見食	gin3 sjik4	
+見使	gin3 sjai2	
+僭隊		
+將軍抽車	zoeng1 gwan1 chau1 gyu1	
+漿糊	zoeng1 wu4	
+講白話		
+講大話		
+講多無謂		
+講個啲		
+講箇啲		
+講古	gong2 gu2	
+講話冇過腦		
+講話冇經腦		
+講開又講		
+講來停下	gong2 lai2 ting1 haa5	
+講漏嘴		
+講你又信		
+講柒冇講毛		
+講柒唔講毛		
+講诉口	gong2 su3 hau2	
+講耶穌	gong2 je4 su1	
+講又冇識		
+交帶	gaau1 daai3	
+交關	kaau1 kwan1	
+茭筍	gaau1 san2	
+姣尸扽督	heu4 sji1 dan3 duk1	
+膠擦	gaau1 caat3	
+膠箍	gaau1 ku1	
+膠喉		
+腳甲	goek3 gaap3	
+腳面	goek3 min2	
+腳囊	goek3 nong1	
+腳眼	goek3 ngan5	
+腳趾公	goek3 zji2 gung1	
+腳趾屘		
+腳趾罅		
+鉸剪	gaau3 zin2	
+攪屎棍		
+接續	zip3 zuk4	
+階磚	gaai1 zjyun1	
+結恭	git3 gung1	
+結厴	git3 jim2	
+解褲	gaai2 fu3	
+解衫		
+解襪		
+解韤		
+解鞋		
+解鞋帶		
+芥辣	gaai3 laat4	
+借借	ze3 ze3	
+借頭借路	ze3 tau4 ze3 lu4	
+借意	ze3 ji3	
+今時今日		
+今時冇同往日		
+矜貴	ging1 gwai3	
+緊要	gan2 njiu3	
+緊要	gan2 jiu3	
+妗母	kam5 mu5	
+勁抽	ging4 cjau1	
+浸豬籠		
+粳米	gaang1 mai2	
+經已		
+精乖		
+精乖伶俐		
+頸渴	ging2 hot3	
+頸鏈	ging2 lin2	
+靜雞雞		
+靜鷄鷄		
+九八佬	gau2 baat3 lou2	
+九唔搭八		
+九下	gau2 haa5	
+酒埕		
+酒米	zau2 mai5	
+酒樽		
+就手		
+舊年	kau4 nin4	
+舊陣		
+舊陣時	kau4 zjan4 sji4	
+焗飯		
+焗熱	guk4 njik4	
+桷子		
+桷子板	gok3 zi2 baan2	
+覺覺豬	gaau4 gaau2 zjyu1	
+覺覺豬	geu4 geu2 zjyu1	
+覺意	gok3 ji3	
+軍眞	gwan1 zjan1	
+卡大樹		
+卡拉OK		
+卡拉OK	kaa1 laa1 ou kai	
+卡拉OK	kaa1 laa1 ou ke	
+揩油	haai1 jau2	
+開煲	hoi1 bou1	
+開煲打邊爐	hoi1 bou1 daa2 bin1 lu4	
+開波		
+開襠褲	hoi1 nong4 fu3	
+開檔	hoi1 dong3	
+開估	hoi1 gu2	
+開口埋口		
+開片		
+開聲		
+開胸		
+開住車		
+坎崩	ham3 bang1	
+墈崩	ham3 bang1	
+糠耳	hong1 nji5	
+扛狗佬	kong1 gau2 lou2	
+瞌眼	hap1 ngaan5	
+瞌一陣	hap1 jat1 zjan4	
+咳哈	kat1 haa1	
+坑渠		
+口花花	hau2 faa1 faa1	
+口入		
+口水鼻涕一齊來		
+口水多過茶	hau2 sjeoi2 do1 gwo3 cjaa4	
+口響		
+口啞	hau2 aa2	
+口盅	hau2 zjung1	
+骷髏		
+骷髏骨	gu1 lu1 gwat1	
+褲袋	fu4 doi2	
+褲襠	fu3 nong4	
+褲襠穿窿		
+褲腳	fu3 goek3	
+褲頭	fu3 tau4	
+褲頭帶	fu3 tau4 daai3	
+快菜	faai3 coi3	
+快脆	faai3 ceoi3	
+快高長大	faai3 gou1 zjoeng2 daai4	
+快手	faai3 sjau2	
+葵瓜子		
+睏得就睏		
+睏覺		
+睏戾頸		
+睏醒		
+睏晏覺		
+睏住		
+睏住覺		
+垃圾	laap4 saap3	
+垃圾篸	laap4 saap3 cjaam2	
+垃雜	laap4 zaap4	
+拉電閘		
+拉頭纜	laai1 tau4 laan2	
+拉閘放狗		
+賴得就賴		
+蘭豆苗	laan1 dau2 miu4	
+懶理		
+懶人多屎尿		
+懶人屎尿多		
+攬身攬勢		
+攬住		
+爛湴	laan4 baan4	
+爛臭		
+爛飯	laan4 faan4	
+爛癮	laan4 jan5	
+爛仔	laan4 zai2	
+糷飯	laan4 faan4	
+狼萁草	long1 gyu1 cou2	0
+狼萁草	long1 gi1 cou2	30
+狼胎	long4 toi1	
+撈籬	laau1 li1	
+撈麵	laau1 min4	
+撈麵	lou1 min4	
+撈油水	lou1 jau4 sjeoi2	
+老本		
+老大	lou5 daai2	
+老豆	lou2 dau4	
+老公	lou2 gung1	
+老姑婆	lou2 gu1 po4	
+老虎乸	lou5 fu2 naa2	
+老雞乸	lou5 gai1 naa2	
+老坑	lou2 haang1	
+老坑公		
+老媽子		
+老懵懂	lou5 mung2 dung2	
+老米	lou5 mai3	
+老乸	lou2 naa2	
+老婆	lou2 po4	
+老婆又走佬		
+老契	lou5 kai3	
+老溼	lou5 sjap1	
+老溼兒	lou5 sjap1 nji1	
+老溼妹	lou5 sjap1 meoi1	
+老世	lou2 sjai3	
+老友鬼鬼		
+老字號		
+累人累物	leoi4 njan4 leoi4 mat4	
+理得佢		
+理得佢咁多		
+裏底		
+立定心水	lap4 ding4 sam1 sjeoi2	
+利害	li4 hoi4	
+笠帽	lap1 mou2	
+笠衫	lap1 sjaam1	
+粒兒	nap1 nji1	
+涼茶西施		
+涼爽	loeng4 sjong2	
+兩羹		
+兩公婆	loeng2 gung1 po4	
+兩口菸		
+兩老表		
+兩老襟		
+兩手牌		
+兩下	loeng5 haa5	
+兩兄弟		
+兩仔乸	loeng2 zai2 naa2	
+兩箸		
+兩姊妹		
+晾衫	long4 sjaam1	
+撩鼻示	leu2 bi4 sji4	
+撩火棍	leu2 fo2 gwan3	
+撩事鬥非		
+鷯哥	leu1 go1	
+淋花		
+淋水		
+臨急臨忙	lam4 gap1 lam4 mong4	
+菱粉	ling4  fan2	
+靈醒	ling4 sing2	
+另傾	ling4 king1	
+另舍	ling4 sje3	
+溜口	lau3 hau2	
+留醫	lau4 ji1	
+流星	lau4 sing1	
+六下	luk4 haa5	
+龍床不如狗竇	lung4 cjong4 bat1 njyu4 gau2 dau3	
+龍虎鳳	lung4 fu2 fung4	
+龍精虎猛		
+龍母		
+龍蘇苗	lung4 su1 miu4	
+龍圩廢仔	lung4 hyu1 fai3 zai2	
+窿窿罅罅	lung1 lung1 laa3 laa3	
+窿罅		
+樓花	lau4 faa1	
+漏罅		
+漏夜		
+陸續有來		
+攣弓蝦背	lyun1 kung1 haa1 beoi3	
+攣毛	lyun1 mou1	
+攣毛雞	lyun1 mou1 gai1	
+亂屌號碼		
+亂逳	lyun4 njuk1	
+螺絲批	lo4 si1 pai1	
+攞命	lo2 ming2	
+攞你命		
+落班	lok4 ban1	
+落大雨		
+落課	lok4 fo3	
+落力		
+落樓	lok4 lou2	
+落霜	lok4 sjong1	
+落湯雞	lok4 tong1 gai1	
+落形	lok4 jing4	
+落雪	lok4 syut3	
+落雨	lok4 jyu2	
+麻麻	maa4 maa2	
+麻麻地	maa4 maa2 di2	
+馬仔	maa2 zai2	
+馬鬃蛇	maa5 zung1 sje4	
+碼頭級	maa5 tau4 kap1	
+螞蝗	maa5 wong4	
+埋街		
+埋檯	maai4 toi4	
+埋位		
+屘指	nit1 zji2	
+慢行	maan4 haang4	
+慢慢	maan4 maan2	
+慢慢行	maan4 maan2 haang4	
+慢慢撚		
+慢慢食		
+慢慢歎		
+慢慢玩		
+慢慢飲		
+慢慢做		
+芒草	mong1 cou2	
+毛長狗瘦	mou4 cjoeng4 gau2 sjau3	
+毛管棟	mou4 gun2 dung4	
+毛管棟督徛	mou4 gun2 dung4 duk1 ki5	
+毛管棟督企	mou4 gun2 dung4 duk1 ki5	
+冇幫		
+冇幫襯		
+冇出		
+冇得		
+冇得傾		
+冇等使		
+冇啲耐心		
+冇屌		
+冇屌得		
+冇肚裂		
+冇煩我		
+冇忿		
+冇忿頸		
+冇忿氣		
+冇關你事		
+冇關佢事		
+冇關事		
+冇關我事		
+冇好		32056
+冇幾耐		683
+冇計		
+冇禁	mou4 kam1	
+冇禁使	mou4 kam1 sjai2	
+冇覺		2063
+冇覺好瞓		
+冇覺好睏		
+冇覺意		
+冇釐醒目		
+冇理		
+冇理啦		
+冇理佢		
+冇料		
+冇拏羹	mou5 naa1 gaang1	
+冇拏羹	mau5 naa1 gaang1	
+冇耐心		
+冇你估		
+冇你估啊		
+冇拍檔		
+冇錢		5208
+冇傾		7397
+冇傾先		
+冇權冇勢		
+冇人		11079
+冇腎		
+冇腎啦		
+冇識		10433
+冇識事		
+冇使		33984
+冇事		21136
+冇衰攞來衰		
+冇所謂		6710
+冇頭冇尾		
+冇爲意	mou5 wai4 ji3	
+冇聞冇味		
+冇悉你	mou5 sat1 ni5	
+冇悉佢	mou5 sat1 kyu5	
+冇悉我	mou5 sat1 ngo5	
+冇係幾熟		
+冇相干		
+冇曉		
+冇心水		
+冇癮		
+冇用		5276
+冇有		326050
+冇在	mou5 coi5	
+冇知		14431
+冇知死		1047
+冇制		
+孭帶	me1 dai3	
+眉尖眼利		
+脢肉	meoi4 njuk4	537
+妹兒	meoi1 nji1	
+妹妹仔	meoi4 meoi1 zai2	
+妹仔	meoi1 zai2	
+妹仔大過主人婆	meoi1 zai2 daai4 gwo3 zjyu2 njan4 po4	
+門罅	mun4 laa3	731
+掹斷	mang1 tyun5	
+掹哈	mang1 haa1	
+掹爛		
+掹衫尾	mang1 sjaam1 mi5	
+矒眼豬	mung1 ngaan2 zjyu1	
+矒豬眼	mung1 zjyu1 ngaan2	
+懵餅		
+懵懂	mung2 dung2	
+懵䒏䒏	mung2 sang4 sang4	
+米兒	mai3 nji1	
+密實	mit4 sjit4	
+密斟	mit4 zjam1	
+棉褸	min4 lau1	
+棉衲	min4 naap4	1610
+棉胎	min4 toi1	871
+面紅	min4 hung4	
+面懵懵	min4 mung2 mung2	
+面盆	min4 pun4	
+面皮厚	min4 pi4 hau5	
+面青	min4 cing1	
+面青口脣白		
+面青嘴脣白		
+面善	min4 sjin4	
+面先	min4 sin1	
+面撞面	min4 zjong4 min4	
+明框	ming4 kwaang1	
+明框係咁蚊	ming4 kwaang1 hai4 gom2 man1	
+摸身摸勢		
+魔法卡		
+抹臺布	maat3 toi4 bu3	
+木虱	muk4 sjat1	
+乸型	naa2 jing4	
+納袋	naap4 doi2	
+乃念		
+男人老狗		
+南蛇	naam4 sje4	
+喃經	naam1 ging1	
+喃齋	naam1 zjaai1	
+難睇		
+難屌		
+難頂	nan4 ding2	
+難食		
+難飲		
+揇水	naam5 sjeoi2	
+腦大生草		
+腦入水		
+泥湴		
+泥湴醬		
+你部車		
+你睇		
+你廢我冇同你廢		
+你行先		
+你行先啦		
+你行住先		
+你行住先啦		
+你間屋		
+你就想	ni2 zau4 soeng2	
+你老母		
+你老乸		
+你同我扯		
+你我	ni5 ngo5	
+你我蟲	ni5 ngo5 cjung4	
+你洗身先		
+你想點蚊就點蚊囉		
+你准算點蚊		
+年卅晚	nin4 saa1 aa4 maan5	
+年卅晚		
+年頭	nin4 tau4	
+年尾	nin4 mi5	
+撚化		
+撚死你		
+撚息		
+撚息你		
+廿字頭		
+尿急	niu4 gap1	
+乜乜物物	mat1 mat1 mat4 mat4	
+擰頭	ning4 dau2	1825
+擰轉	ning4 zjyun3	1926
+擰轉頭	ning4 zjyun3 dau4	
+牛高馬大	ngau4 gou1 maa2 daai4	
+牛牯	ngau4 gu2	
+牛欄	ngau4 laan1	
+牛一	ngau4 jat1	
+牛牸		
+扭計	nau2 gai2	
+扭擰	nau2 ning4	
+扭扭擰擰	nau2 nau2 ning4 ning4	
+拗柴		
+拗斷		
+拗頸	aau3 ging2	
+拗撬	aau3 giu4	
+拗撬	aau3 geu4	
+拗手瓜		
+拗腰		
+儂隊	nung1 deoi4	
+儂是		
+儂煮儂喫		
+暖壺	nyun5 hu4	
+暖水	nyun5 sjeoi2	
+女人婆	nyu5 njan4 po4	
+女仔	nyu5 zai2	
+女仔兒	nyu3 zai2 nji1	
+漚肥	au3 fi3	
+嘔血	au2 hyut3	
+怕醜	paa3 cjau2	
+拍檔	paak3 dong3	
+拍拖	paak3 to1	
+拍烏蠅	paak3 wu1 ying1	
+拍心口	paak3 sam1 hau2	
+拍硬檔	paak3 ngaang4 dong3	
+排排坐		
+盤滿缽滿	pun4 mun5 but3 mun5	
+耪頭	pong1 tau1	
+拋浪頭	paau1 long4 tau4	
+塳哼哼	pung1 hang1 hang1	
+捧碗		
+碰彩		
+劈低佢		
+劈友		
+撇人		
+撇友	pit3 jau2	
+撇雨		
+頻撲	pan4 pok3	
+𩩍骨	ping1 gwat1	
+平碼行	ping4 maa5 hong4	
+鋪面	pu3 min4	
+僕街		
+七七八八	cat1 cat1 baat3 baat3	
+七下	cat1 haa5	
+柒筋現		
+奇數	gi1 sju3	
+奇數	gi1 sjyu3	0
+齊輯輯	cai4 cap1 cap1	
+齊齊		
+齊整	zai4 zjing2	
+騎膊馬		
+騎樓	ke4 lau4	
+騎樓底		
+騎牛搵馬	ke4 ngau4 wan2 maa5	
+乞兒	hat1 nji1	
+乞食	hat1 sjik4	
+起鑊		
+起肉毛脂	hi2 njuk4 mou4 zji1	
+起身		
+起屋	hi2 uk1	
+契弟	kai3 dai4	
+契家佬	kai3 gaa1 lou2	
+契媽	kai3 maa1	
+契乸	kai3 naa2	
+契爺	kai3 je4	
+契仔	kai3 zai2	
+氣咳	hi3 kat1	
+氣力	hi3 lik4	
+千祈		
+慳返		
+慳雞		
+慳儉		
+慳錢	haan1 cin2	
+韆鞦	cin1 cau1	
+乾蝦	gon1 haa1	
+錢有冇		
+搶手	coeng2 sjau2	
+蹺蹊	kiu1 kai1	
+蹺蹊	kiu1 ki1	
+撬牆腳	geu4 zoeng4 goek3	
+篋帽	gep1 mou2	
+琴物	kam4 mat4	
+勤力	kan4 lik4	
+擒柺		
+擒擒柺柺		
+蠄蟝	kam4 kyu4	
+唚氣		
+青BB	cing1 bi1 bi1	
+青筋	cing1 gan1	
+清水白煠		
+傾住		
+傾住計		
+情願	cing4 njyun2	
+請飲	cing2 njam2	
+窮到褲穿窿		
+求其		
+求求其其		
+球館		
+屈得就屈		
+屈質	wat1 zjat1	
+驅風	kyu1 fung1	
+佢部車		
+佢話		
+佢間屋		
+佢識		
+佢屋		
+佢係		
+佢有		
+渠坑	kyu4 haang1	
+去菜市學雞腸		
+去風	hyu3 fung1	
+去開邊度		
+去溼	hyu3 sjap1	
+羣埋	kwan4 maai4	
+然之後	njin4 zji1 hau4	
+熱到發瘟		
+熱到身水身汗		
+熱氣	njit4 hi3	
+熱頭	njit4 tau4	
+人蠢冇藥医		
+人兒	njan4 nji1	
+人工	njan4 gung1	
+人讲你又信		
+人客	njan4 haak3	
+人搖福薄		
+人又老		
+人仔細細	njan4 zai2 sai3 sai3	
+日光日白		
+日起	njat4 hi2	
+日頭	njat4 tau4	
+戎圩廢仔	njung4 hyu1 fai3 zai2	
+戎墟廢仔	njung4 hyu1 fai3 zai2	
+容易	jung4 ji4	
+肉赤	njuk4 cjek3	
+肉緊	njuk4 kan2	
+肉毛脂	njuk4 mou4 zji1	
+肉酸	njuk4 syun1	
+肉痛	njuk4 tung3	
+如果		
+如果	njyu4 gu2	0
+軟攰	njyun2 geoi4	
+軟皮蛇		
+軟熟	njyun2 sjuk4	
+軟水	njyun5 sjeoi2	
+弱智生		
+焫腦		
+塞車	sak1 cje1	
+塞外	soi3 ngoi4	
+塞翁失馬	soi3 jung1 sjat1 maa4	
+塞翁失馬	soi3 ung1 sjat1 maa4	
+三幅被		
+三姑媽六姨婆		
+三下	saam1 haa5	
+散檔	saan3 dong3	
+散開	saan3 hoi1	
+散腦	saan2 nou5	
+散仔	saan2 zai2	
+散紙	saan2 zji2	
+掃把	sou3 baa2	
+掃把星	sou3 ba2 sing1	
+色水	sjik1 sjeoi2	
+沙薑		
+砂煲	sjaa1 bou1	
+殺攤	sjaat3 tan1	
+傻開未好		
+傻有傻福		
+霎戇	sjaap3 ngong3	
+衫袋		
+衫腳	sjaam1 goek3	
+衫褲	sjaam1 fu3	
+衫紐	sjaam1 nau5	
+衫袖	sjaam1 zau4	
+騸雞	sjin3 kai1	
+賞賞		
+上邊	sjoeng4 bin1	
+上高	sjoeng4 gou1	
+上胛	sjoeng4 gaap3	
+上鏈	sjoeng5 lin2	
+上落	sjoeng5 lok4	
+上五寸下五寸	sjoeng4 ng5 cyun3 haa4 ng5 cyun3	
+上晝	sjoeng4 zjau3	
+燒雞翼		
+燒雞翼我鍾意食		
+燒酒	sjiu1 zau2	
+燒口菸		
+哨牙	saau3 ngaa4	
+賒數	sje1 sju3	
+賒數	sje1 sjyu3	0
+蛇鼠一竇		
+蛇摊拐		
+攝石	sjip3 sjik4	
+懾令		
+身痕		
+身家	sjan1 gaa1	
+身尸蘿蔔皮		
+身水身汗		
+深筆		
+深筆字		
+神憎鬼厭		
+抌背脊		
+抌心口	dam2 sam1 hau2	
+抌一錘		
+谂鬼谂怪	nam2 gwai2 nam2 gwaai3	
+腎到冇著褲		
+腎仔	sjan5 zai2	
+生安白造	sjaang1 on1 baak4 zou4	
+生疳積	sjaang1 gom1 zik1	
+生勾勾		
+生猛	sjaang1 maang5	
+生生性性		
+生水	sjaang1 sjeoi2	
+生性	sjaang1 sing3	
+失禮	sjat1 lai5	
+失禮人		
+虱乸	sjat1 naa5	
+溼熱	sjap1 njit4	
+溼滯	sjap1 zjai4	
+十下	sjap4 haa5	
+石級	sjik4 kap1	
+食飽		
+食飽冇屎屙		
+食飽搵屎屙		
+食飽先		
+食飽眼又睏		
+食得過滯		
+食得就食		
+食得就係福		
+食多溼滯		
+食飯	sjik4 faan4	
+食果果		
+食過返尋味		
+食過夜粥		
+食𩛎𩛎		
+食懵		
+食懵你		
+食懵你啊		
+食屎屙飯		
+食死貓		
+食碗面反碗底		
+食菸		
+食晏		
+食夜粥	sjik4 je4 zjuk1	
+食着屎		
+食政策	sjik4 zjing3 cjaak3	
+食滯	sjik4 zjai4	
+食粥		
+食粥屙硬屎		
+食粥食飯		
+食粥食飯睇你		
+食粥食飯睇你囉		
+食粥食飯靠你		
+食粥食飯靠你囉		
+食住		
+食住飯		
+時不時	sji4 bat1 sji4	
+時間	sji4 gaan1	
+時時	sji4 sji4	
+時運滯		
+實食冇黐牙		
+實穩	sjat4 wan2	
+識穿		
+識精	sjik1 zing1	
+識事		
+識做		
+使得		
+使乜		
+屎窞		
+屎急	sji2 gap1	
+屎坑	sji2 haang1	
+屎坑窿		
+屎渠		
+屎水流到淡		
+屎塔		
+屎塔蓋	sji2 taap3 goi3	
+士多		
+世界	sjai3 gaai3	
+似模似樣		
+似樣		10
+是但	sji5 daan4	
+勢凶	sjai3 hung1	
+勢凶夾狼	sjai3 hung1 gaap3 long4	
+試過先知		
+試下	sji3 haa5	
+誓願	sjai4 jyun4	
+適而可止		
+收檔	sjau1 dong3	
+收買爛銅爛鐵		
+收買佬	sjau1 mai5 lou2	
+收屘	sjau1 mit1	
+收數	sjau1 sju3	
+收數	sjau1 sjyu3	0
+手多		
+手瓜		
+手巾	sjau2 gan1	
+手巾仔		
+手快有		
+手快有手慢冇		
+手慢冇		
+手勢	sjau2 sjai3	
+手勢差		
+手勢好		
+手頭緊		
+手襪		
+手尾	sjau2 mi2	
+手信	sjau2 san3	
+手踭	sjau2 zjaang1	
+手指公	sjau2 zji2 gung1	
+瘦蜢蜢	sjau3 maang2 maang2	
+瘦削	sjau3 soek3	
+叔仔	sjuk1 zai2	
+疏堂	sjo1 tong4	
+輸賭	sjyu1 du2	
+輸折	sjyu1 sjit4	
+熟手	sjuk4 sjau2	
+豎心邊		
+豎心旁		
+樹搖葉落		
+閂窗		
+閂門	sjaan1 mun4	
+爽脆	sjong2 ceoi3	
+爽口	sjong2 hau2	
+爽手	sjong2  sjau2	
+水抱	sjeoi2 pou5	
+水窞		632
+水凼		0
+水斗	sjeoi2 dau2	
+水喉	sjeoi2 hau4	
+水貨		
+水門	sjeoi2 mun4	
+水面行	sjeoi2 min4 hong4	
+水殼	sjeoi2 hok3	
+水魚	sjeoi2 njyu4	
+水樽		
+順路		
+順手	sjan4 sjau2	
+私隱		
+斯斯文文		
+死蠢	si2 cjan2	
+死火	si2 fo2	
+死雞撐硬腳		
+死鷄撐硬腳		
+死忍爛忍	si2 njan2 laan4 njan2	
+死腎仔		
+死要面	si2 njiu3 min2	
+死要面	si2 jiu3 min2	
+四幅墙		
+四圍檯		
+四下	si3 haa5	
+四眼仔		
+四正	si3 zjing3	
+四周圍	si3 zjau1 wai4	
+松雞子	cung4 gai1 zi2	
+松毛菜	cung4 mou1 coi3	
+鬆骨	sung1 gwat1	
+鬆人		
+欶氣		
+欶一啖		
+粟米	suk1 mai5	
+塑膠	sok3 gaau1	
+酸眯草	syn1 mi1 cou2	
+碎紙	seoi3 zji2	
+唆擺		
+嗍氣		
+嗍一啖		
+縮沙	suk1 sjaa1	
+縮水	suk1 sjeoi2	
+縮頭縮尾		
+鎖匙	so2 sji4	
+踏凳	daap4 dang3	
+踏正	daap4 zjing3	
+太細		
+太細個		
+貪得意	taam1 dak1 ji3	
+貪過癮	taam1 gwo3 jan2	
+痰罐	taam4 gun3	
+歎茶		
+歎世界	taan3 sjai3 gaai3	
+劏鷄		
+劏鷄還神		
+劏鷄又劏鴨		
+劏牛		
+劏鴨		
+劏羊		
+劏豬	tong1 zjyu1	
+塘鯴	tong4 sjat1	
+燙斗	tong3 dau2	
+特登		
+啼哭	tai4 kuk1	
+啼哭		
+啼哭貓		
+嗁哭		
+嗁哭貓		
+天都光		
+天光		
+天河	tin4 ho4	
+天黑	tin1 hak1	
+天井		
+天棚	tin1 paang2	
+跳八格		
+跳虱	tiu1 sjat1	
+鐵枝		
+聽便	ting3 bin4	
+聽打	ting3 daa2	
+聽屌	ting3 diu2	
+聽講	ting1 gong2	
+聽鬧	ting3 naau4	
+聽憑	ting3 pang4	
+聽其自然	ting3 ki4 zi4 njin4	
+聽任	ting3 njam4	
+聽日	ting1 njat4	
+聽晚	ting1 maan5	
+聽聞	ting1 man4	
+聽之任之	ting3 zji1 njam4 zji1	
+廳底	ting1 dai2	
+通籠	tung1 lung2	
+通宵	tung1 siu1	
+頭耷耷		
+頭大冇腦		
+頭尖額窄		
+頭先	tau4 sin1	
+頭暈葉	tau4 wan4 jip4	
+㪗涼	tau2 loeng4	
+㪗氣	tau2 hi3	
+透火	tau3 fo2	
+透煤爐	tau3 meoi4 lu4	
+突兀	dat4 ngat4	
+團團圓圓		
+托大腳		
+托手踭	tok3 sjau2 zjaang1	
+瓦鐺	ngaa5 cjaang1	
+瓦坑蟲	nga5 haang1 cjung4	
+瓦簷	ngaa5 jim4	
+瓦簷水		
+外父	ngoi4 fu2	
+外母	ngoi4 mu5	
+灣車		
+灣船		
+玩住		
+晚黑	maan5 hak1	
+威水	wai1 sjeoi2	
+微絲細雨	mi4 si1 sai3 jyu5	
+微信		
+爲食	wai4 sjik4	
+爲食貓	wai4 sjik4 meu1	
+爲意	wai4 ji3	
+未飽		
+未睇		
+未餓		
+未睏		
+未食		
+未識		
+未識死		1047
+未學行先學走		
+未知死		1047
+未做		
+蚊都瞓		
+蚊都會瞓		
+蚊都會睏		
+蚊都睏		
+抆屎		
+穩陣	wan2 zjan4	
+問下	man4 haa5	
+搵笨	wan2 ban4	
+搵笨柒		
+搵工	wan2 gung1	
+搵褲		
+搵老公		
+搵老婆		
+搵錢	wan2 cin2	
+搵衫		
+搵食	wan2 sjik4	
+搵屎喂		
+蕹菜	ung3 coi3	
+我好鍾意你		
+我間屋		
+我識		
+我識做		
+我係		
+我係梧州人		
+我先冇著緊		
+我憂住		
+我憂住你		
+我憂住你做錯		
+我鍾意		
+我鍾意你		
+我仲要		
+烏龍	wu1 lung2	
+烏龍	wu1 lung2	
+烏數	wu1 sju3	2
+烏數	wu1 sjyu3	0
+烏蠅	wu1 jing1	
+烏蠅	wu1 jing1	
+烏蠅	wu1 jing1	
+嗚嗚哇哇	wu1 wu1 waa1 waa1	
+唔嗲唔吊	m4 de2 m4 diu3	
+無端白事		
+無功者飯菜不留		
+五下	ng5 haa5	
+霧水	mu4 sjeoi4	
+惜啖先		
+惜你		
+犀利	sai1 li4	
+嘻嘻哈哈	hi1 hi1 haa1 haa1	
+膝頭	sat1 tau4	
+膝頭大過髀		
+膝頭哥		
+洗白白		
+洗米煮飯		
+洗衫		
+洗身	sai2 sjan1	
+洗身先		
+係威係勢	hai4 wai1 hai4 sjai3	
+係至好講		
+細膽	sai3 daam2	
+細風		
+細個		
+細佬		
+細粒	sai3 nap1	
+細妹	sai3 meoi2	
+細食	sai1 sjik4	
+細叔	sai3 sjuk1	
+細雨		
+戲肉	hi3 njuk4	
+下低	haa4 dai1	
+下底		
+下胛	haa4 gaap3	
+下下	haa5 haa5	
+下晝	haa4 zjau3	
+下晝	haa4 zjau3	
+先至		
+閑閑地	haan4 haan4 di2	
+相睇	soeng1 tai2	
+香口膠		
+鄉下	hoeng1 haa5	
+想噦		
+想噦噦冇出		
+想嘔	soeng2 au2	
+想嘔嘔冇出		
+響雷		
+巷兒巷罅	hong2 nji1 hong2 laa3	
+宵夜	siu1 je2	
+宵夜		
+小兒科	siu1 nji4 fo1	
+小氣	siu2 hi3	
+校錶	gaau3 biu1	
+校草	haau4 cou2	
+校長	haau4 zjoneg2	
+校車	haau4 cje1	
+校對	gaau3 deoi3	
+校規	haau4 kwai1	
+校花	haau4 faa1	
+校鬧鐘	gaau3 naau4 zjung1	
+校舍	haau4 sje3	
+校驗	gaau3 nim4	
+校驗	gaau3 njim4	
+校友	haau4 jau5	
+校園	haau4 jyun4	
+校運會	haau4 wan4 weoi2	
+校正	gaau3 zjing3	
+校鐘	gaau3 zjung3	
+校準	gaau3 zjan2	
+笑伤我		
+些少	se1 sjiu2	
+卸膊		
+卸水		
+蟹膏	haai5 gou1	
+心大心細	sam1 daai4 sam1 sai3	
+心淡		
+心多		
+心甘		
+心甘情願		
+心掛掛		
+心火滾		
+心火湧		
+心火燥		
+心驚驚	sam1 geng1 geng1	
+心口	sam1 kau2	
+心水	sam1 sjeoi2	
+心水清		
+心思思		
+心㥔㥔	sam1 njuk1 njuk1	
+心照		
+新婦	san1 pu5	
+新婦	sam1 pu5	
+新年流流		
+新鮮滾熱辣		
+醒定	sing2 ding4	
+醒覺	sing2 gok3	
+醒目	sing2 muk4	
+醒目仔	sing2 muk4 zai2	
+醒神	sing2 sjan4	
+擤鼻涕	sang3 bi4 tai3	
+休闲		
+羞家		
+裇衫		
+鬚刨		
+學口學舌	hok4 hau2 hok4 sje4	
+學生哥		
+學校	hok4 haau4	
+雪櫃		
+雪批		
+雪條	syut3 tiu2	
+鴨乸		
+鴨乸腳	aap3 naa2 goek3	
+鴨翼		
+鴨翼腳		
+鴨膶		
+牙齒又生蟲		
+牙根扯	ngaa4 gan1 cje2	
+牙骹	ngaa4 gaau3	
+牙肉		
+牙哨		
+牙罅		
+牙罅疏		
+呀呀嗚	jaa4 jaa4 wu1	
+煙灰盅	jin1 feoi1 zjung1	
+煙通	jin1 tung1	
+啱先	ngaam1 sin1	
+簷蛇	jim4 sje4	
+鹽焗鷄		
+眼大望過界		
+眼定定		
+眼光光		
+眼鬼火爆		
+眼核		
+眼火爆		
+眼看手勿動		
+眼睩睩		
+眼盲		
+眼眉		
+眼瞢		
+眼矇		
+眼溼溼	ngan2 sjap1 sjap1	
+眼又朦		
+眼眨眨		
+躽胸	en2 hung1	
+躽胸突肚		
+晏覺		
+晏晝	aan3 zjau3	
+吆你		
+詏頸	aau3 ging2	
+野仔	je5 zai2	
+夜晚黑	je4 maan5 hak1	
+夜晚夜		
+一本通書睇到老		
+一本通書讀到老		
+一擔擔	jat1 daam3 daam1	
+一擔擔	at1 daam3 daam1	
+一幅被		
+一幅墙		
+一哥	jat1 go1	
+一羹		
+一鑊		
+一鑊泡		
+一鑊熟		
+一碌		
+一碌木		
+一匹布咁長		
+一齊		56621
+一殼眼淚		
+一身蟻		
+一手牌		
+一沓		
+一沓銀紙		
+一天都光		
+一頭霧水		
+一圍檯	jat1 wai4 toi4	
+一下	jat1 haa5	
+一下	at1 haa5	
+一支公		
+一箸		
+一箸麪		
+一箸青菜		
+一樽		5
+一樽酒		
+一樽涼茶		
+一樽燒酒		
+一樽水		
+一樽飲料		
+衣車	ji1 cje1	
+醫病		
+姨媽		
+姨婆		
+姨甥		
+姨丈		
+易話爲	ji1 waa4 wai4	
+逸你		
+逸佢		
+逸我		
+逸我啊		
+逸下你	jat4 haa5 ni5	
+逸下你啫	jat4 haa5 ni5 zje1	
+逸下佢	jat4 haa5 kyu5	
+逸下佢啫	jat4 haa5 kyu5 zje1	
+意頭		
+因住	jan1 zjyu4	
+陰聲細氣		
+陰溼	jam1 sjap1	
+陰司紙		
+陰陰笑		
+引笑	jan5 siu3	
+飲大	njam2 daai4	
+飲得過滯		
+飲得就飲		
+隱翅蟲	jan2 cji3 cjung4	
+硬頸	ngaang4 jing2	
+應承	jing1 sjing4	
+永碩		
+憂住		
+憂住你做錯事		
+由細到大		
+油耳	jau4 nji5	
+油炸鬼		
+油㷹		
+油㷹鬼	jau4 zjaau3 gwai2	
+游車		
+游水	jau4 sjeoi2	
+有病搵藥醫		
+有功者留飯不留菜		
+有幾何	jau5 gi2 ho4	
+有冇		
+有排	jau5 paai4	
+有殺錯冇放過		
+有山崩		
+有山崩冇肚裂		
+有聲氣	jau5 sjing1 hi3	
+有突	jau5 daat4	
+有知	jau2 zji1	
+又係		
+又這又那		
+幼細	jau3 sai3	
+於是乎	jyu1 sji4 fu4	
+汙糟	wu1 zou1	
+魚腩	njyu4 naam5	
+魚乾	njyu4 gon1	
+魚油		
+魚雲		
+雨遮	jyu5 zje1	
+逳你		
+逳身你		
+逳手逳腳		
+預先		
+預有		
+預早		
+預住		
+慾你		
+元肉	jyun4 njuk4	
+院校	jyun2 haau4	
+月光	njyut4 gong1	
+月頭	njyut4 tau4	
+月尾	njyut4 mi5	
+暈浪	wun4 long4	
+勻陳	wan4 cjan4	
+雲耳		
+仔大仔世界	zai2 daai4 zai2 sjai3 gaai3	
+仔細	zi2 sai3	
+仔細	zyu2 sai3	
+早㪗	zou2 tau2	
+早敨	zou2 tau2	
+早響	zou2 hoeng2	
+早知		
+灶頭	zou3 tau4	
+啫喱	zje3 li1	
+擇菜	zjaak4 coi3	
+賊佬樹	cak4 lou2 sjy4	
+賊佬葉	cak4 lou2 jip4	
+賊仔	cak4 zai2	
+贈慶		
+揸飛機		
+揸槍		
+閘住	zjaap4 zjyu4	
+煠蛋		
+煠熟狗頭		
+煠豬肉		
+詐諦	zjaa3 dai3	
+詐嗲	zjaa3 de2	
+詐廢	zjaa3 fai3	
+詐傻	zjaa3 sjo4	
+詐傻扮懵		
+摣飛機		
+摣槍		
+招積		
+找數	zjaau2 sju3	
+找數	zjaau2 sjyu3	0
+棹船	zjaau4 sjyun4	
+棹忌	zjaau4 gi4	
+棹艇	zjaau4 ting5	
+照計		
+遮骨		
+折本	sjit4 bun2	
+折底	sjit4 dai2	
+折墮	zjit3 do4	
+折老本	sjit4 lou5 bun2	
+摺疊		
+摺紙	zjip3 zji2	
+這這那那		
+真係		
+砧板	zjam1 baan2	
+針寶佬	zjam1 bou2 lou2	
+眞係		
+斟茶	zjam1 cjaa4	
+斟酒	zjam1 zau2	
+枕檔口	sjam2 dong3	
+枕住		
+爭交		
+爭拗	zjaang1 aau3	
+爭天共地	zjaang1 tin1 gung4 di4	
+整餅	zjing2 bing2	
+整得		
+整定	zjing2 ding4	
+整蠱	zjing2 gu2	
+整蠱作怪		
+整瓜你		
+整開佢		
+整落		
+整色整水		
+整死你		
+整息		
+整息你		
+整息佢		
+整熄佢		
+正斗	zjing3 dau2	
+正話		
+正識		
+正手	zjing3 sjau2	
+正月	zjing1 njyut4	
+吱喳		
+吱喳蟲	zji1 zjaa1 cjung4	
+枝竹		
+知醜	zji1 cjau2	
+知到	zji1 dou3	
+知慳識儉	zji1 haan1 sjik1 gim4	
+知識	zji3 sjik1	
+知死	zji1 si2	
+知網		
+衹不過	zji2 bat1 gwo3	
+衹要		
+衹准		
+隻抽	zjik3 cjau1	
+直程	zjik4 cjing4	
+直頭	zjik4 tau4	
+執波仔		
+執骨	zjip1 gwat1	
+執笠	zjap1 lap1	
+執生		
+執拾	zjap1 sjap4	
+執手尾	zjap1 sjau2 mi2	
+執輸	zjap1 sjyu1	
+執死雞	zjap1 si2 gai1	
+執頭執尾		
+執藥	zjap1 joek4	
+指甲鉗	zji2 gaap3 kem4	
+指手指腳		
+指天爲證		
+紙皮		
+紙碎		
+志在		
+質素	zjat1 su3	
+中毒	zjung3 duk4	
+中箭	zjung3 zin3	
+中獎	zjung3 zoeng2	
+中舉	zjung3 gyu2	
+中選	zjung3 syun2	
+中柱	zjung1 cjyu2	
+中狀元	zjung3 zjong4 jyun4	
+種樹	zjung3 sjyu4	
+重重複復	cjung4 cjung4 fuk1 fuk1	
+周邊		
+周街		
+周身	zjau1 sjan1	
+周身骨痛		
+周身痕		
+周身屎		
+周身蟻		
+豬紅		
+豬欄	zjyu1 laan1	
+豬脷		
+豬乸		
+豬潲	zjyu1 sjaau3	
+豬手		
+豬膶		
+竹篙	zjuk1 gou1	
+竹蟀	zjuk1 zjat1	
+著緊	zjoek4 gan2	
+著褲	zjoek3 fu3	
+著衫	zjoek3 sjaam1	
+著數	zjoek4 sju3	
+著數	zjoek4 sjyu3	
+著鞋	sjoek3 haai4	
+專登		
+裝飯	zjong1 faan4	
+裝香	zjong1 hoeng1	
+撞板	zjong4 baan2	
+撞見	zjong4 gin3	
+撞聾		
+撞面		
+撞親		
+撞著	zjong4 zjoek4	
+戇鳩		
+戇鳩鳩		
+墜火	zjeoi4 fo2	
+准算點蚊		
+準算	zjan2 syun3	
+孖辮	maa1 bin1	
+孖女	maa1 nyu5	
+孖鋪	maa1 pu1	
+孖生	maa1 sjaang1	
+孖生仔	maa1 sjaang1 zai2	
+孖仔	maa1 zai2	
+滋油	zi1 jau4	
+資質	zi1 zjat1	
+自己		
+自己	gi4 gi2	0
+自己搵來衰		
+自己友		
+自細		
+卒之	zat1 zji1	
+阻頭阻勢		
+最屘		
+最先		
+坐監	co5 gaam1	
+手斷	sjau2 tyun5	
+腳跛	goek3 bai1	
+腳斷	goek3 tyun5	
+周身刀冇把利		
+周身刀		
+冇把利		
+鹹溼普通話		
+偷睇		
+拜山		
+拜託		
+拜祖先		
+一個字		
+兩個字		
+三個字		
+四個字		
+五個字		
+六個字		
+七個字		
+八個字		
+九個字		
+十個字		
+十一個字		
+十二個字		
+爆坼	baau3 cjaak3	
+包糉	baau1 zung3	
+包粽	baau1 zung3	
+跛手	bai1 sjau2	
+臭屎		
+出必		
+菠蘿啤		
+博大膽		
+駁線		
+煲電話粥		
+煲涼茶		
+煲水		
+補鑊		
+煲仔飯	bou1 zai2 faan4	
+半肥瘦		
+搬屋		
+半生熟		
+半世人		
+差火	cjaa1 fo2	
+差少少	cjaa1 sjiu2 sjiu2	
+踩單車		
+踩低		
+踩雪屐	caai2 syut3 gik4	
+抄櫃桶	cjaau3 gwai4 tung2	
+趁興	cjan3 hing3	
+趁熱食	cjan3 njit4 sjik4	
+趁佢病		
+車匙	cje1 sji4	
+車衫		
+車尾箱		
+車死		
+請人飲茶		
+請人飲餐茶		
+解眼鏡	gaai2 ngaan5 ging3	
+吹我冇漲		
+吹冇漲		
+蠢過隻豬		
+出街		
+出街食		
+出煙		
+出計		
+出啖氣		
+癡癡地	cji1 cji1 di2	10
+似到極		
+似足		
+似到十足十		
+錢罌		
+坐低		
+坐定定		
+企起		
+徛起		
+企定定		
+徛定定		
+坐地底		
+初哥		
+坐起身		
+企起身		
+徛起身		
+坐冇定		
+唱衰		
+唱衰佢		
+睬你都傻		
+被鋪	pi5 pu1	
+蚊帳被鋪	man1 zjoeng3 pi5 pu1	
+嘈到死		
+好嘈	hou2 cou4	
+好鬼嘈	hou2 gwai2 cou4	
+嘈交		
+嘈醒		
+嘈到睏冇著		
+嘈到冇得睏		
+冇得睏		
+穿窿		
+打低		
+打突		
+打波		
+打機室		
+打機		
+打預		
+打手指模		
+手指模		
+打橫寫		
+打橫放		
+打橫睏		
+打橫來	daa2 waang4 lai4	
+打橫睇		
+打橫		
+打制		
+打震		
+打政府工		
+大清早流流		
+大大啖		
+大番薯		
+大件事		
+大菌食細菌		
+大褸	daai4 lau1	
+大牌檔	daai4 paai4 dong3	
+大少少	daai4 sjiu2 sjiu2	
+大少	daai4 sjiu3	
+大肚婆		
+大鑊飯		
+帶遮		
+大隻佬		
+大蕉		
+兩梳蕉		
+擔鋤頭	daam1 cjo4 tau4	
+擔耪頭	daam1 pong1 tau4	
+擔大旗	daam1 daai4 ki4	
+擔凳	daam1 dang3	
+擔凳仔	daam1 dang3 zai2	
+擔冇逳		
+擔遮	daam1 zje1	
+擔檯擔凳	daam1 tong4 daam1 dang3	
+彈牀	daan4 cjong4	
+蛋筒	daan2 tong4	
+單係		
+但係		
+搭的		
+搭的士		
+搭食		
+搭上搭		
+搭住膊頭		
+抵到爛		
+抵到飛起		
+抵打		
+抵鬧		
+抵你死		
+抵食		
+抵飲		
+抵玩		
+底衫		
+底衫底褲		
+抵餓		
+得餐笑		
+得啖笑		
+得個講		
+鬥快		
+鬥大		
+鬥大力		
+鬥龍船		
+㨃水		
+㨃過去		
+對冇住		
+扚起來		
+點豉油		
+點辣椒		
+電髮		
+總制		
+電燙斗		
+電話冇人聽		
+頂得住		
+頂冇住		
+電話講緊		
+頂下肚	ding5 haa5 tu5	
+頂得順		
+頂心杉		
+多過頭		
+當堂	dong1 tong4	
+當黑	dong1 hak1	
+當衰	dong1 sjeoi1	
+倒瀉籮蟹		
+蟛鉗		
+蟛蟹		
+凍滾水		
+飯鉢		
+凡係		
+飯檯		
+食飯燶		
+粉筆擦		
+睏低		
+睏落		
+我份人		
+你份人		
+佢份人		
+飛髮檔		
+飛髮舖		
+肥婆		
+肥仔	fi4 zai2	
+肥佬		
+火燭樓		
+火燭車		
+戒奶		
+隔離飯香		
+隔離飯菜香		
+計落		
+計埋		
+今個星期		
+今個月		
+今個月初		
+今個月尾		
+今晚夜		
+今晚黑		
+金舖		
+今鋪	gam1 pu1	
+個鋪	go3 pu1	
+甘醇	gom1 sjan4	
+跟尾狗		
+緊要事		
+近排		
+跟住來		
+跟住落來		
+跟住過來		
+跟住		
+梗係		
+夠有突		
+九曲十三彎		
+夠好彩		
+機室		
+渣都冇得剩		
+鼻鼾		
+幾多錢		
+幾錢		
+怕凍		
+腳板		
+腳板底		
+腳鈪		
+講到尾		
+講假		
+講眞		
+講真		
+講是非		
+講笑		
+講數	gong2 sju3	10
+講數	gong2 sjyu3	0
+告到你		
+告到佢		
+高踭鞋		
+估錯	gu2 co3	
+估估下	gu2 gu2 haa5	
+孤寒種		
+孤寒鬼		
+攰到		
+攰死		
+焗茶		
+焗著	guk4 zjoek4	
+焗熱		
+怪之		
+摑一巴掌		
+鬼打鬼		
+跪低		
+鬼叫你		
+鬼妹	gwai2 meoi1	
+櫃桶		
+鬼仔	gwai2 zai2	
+鬼知		
+鬼知佢		
+鬼知你		
+光頭佬		
+嚇着		
+銜頭		
+慳得就慳		
+慳電		
+慳水		
+慳鷄		
+慳油		
+慳時間	haan1 sji4 gaan1	
+行出行入	haang4 cjat1 haang4 njap4	
+行出去	haang4 cjat1 hyu1	
+行得埋	haang1 dak1 maai4	
+行得正	haang1 dak1 zjing3	
+出去行下	cjat1 hyu3 haang4 haa5	
+行下	haang4 haa5	
+行行企企	haang4 haang4 ki5 ki5	
+行行徛徛	haang4 haang4 ki5 ki5	
+行入去	haang4 njap4 hyu3	
+行雷	haang4 leoi4	
+行近路	haang4 kan5 lu4	
+行開	haang4 hoi1	
+行前門	haang4 cin4 mun4	
+行後門	haang4 hau4 mun4	
+行入來	haang4 njap4 lai4	
+行冇開	haang4 mou5 hoi1	
+行冇逳	haang4 mou5 njuk1	
+行冇開	haang4 mau5 hoi1	
+行冇逳	haang4 mau5 njuk1	
+行冇埋	haang4 mou5 maai4	
+行冇埋	haang4 mau5 maai5	
+行過去	haang4 gwo3 hyu3	
+口多多		
+口輕輕		
+口水花		
+口水花噴噴		
+口水尾		
+執人口水尾		
+囍帖		
+戲臺		
+後枕		
+起骨		
+荷包蛋		
+好抵		
+好睏		
+好好睏		
+好行	hou2 haang4	
+好味		
+好好味		
+好味道		
+好意頭		
+好夜		
+好冇心機		
+好耐好耐之前		
+好耐冇見		
+好曬		
+好細聲		
+好大聲		
+好心你		
+好心着雷劈		
+好衰		
+好少少		
+好欶氣		
+好嗍氣		
+紅蘿蔔		
+好肚餓		
+好眼睏		
+飲啖		
+任揀		
+飲醉		
+飲傻仔水		
+人冇似人		
+鬼冇似鬼		
+人頭湧湧		
+入去		
+入來		
+一次過		
+一鑊過		
+一槍過		
+一日到黑		
+一路以爲		
+一路都有		
+一額汗		
+一直過		
+一直去		
+一直行		
+有金執		
+有口齒		
+有型		
+有料		
+有料到		
+有落		
+有排等		
+幼嫩		
+幼滑		
+你條友仔	ni5 tiu4 jau2 zai2	
+煙灰盅		
+認低威		
+熱到飛起		
+熱到死		
+熱熱地	njit4 njit4 di2	100
+暖暖地	nyun5 nyun5 di2	100
+凍凍地	dung3 dung3 di2	100
+樣衰	joeng2 sjeoi1	
+肉赤		
+肉緊		
+肉粒		
+玉鈪		
+契家婆		
+契老乸		
+禁做	kam1 zu2	
+禁捱	kam1 ngaai4	
+禁等	kam1 dang2	
+禁睇	kam1 tai2	
+傾電話		
+傾下	king1 haa5	
+傾傾下	king1 king1 haa5	
+傾下傾下	king1 haa5 king1 haa5	
+傾生意		
+箍頸		
+攬頭攬頸		
+攬實		
+攬到實		
+爛睏		
+爛賭		
+爛打		
+懶理		
+懶得理		
+懶睬你		
+爛銅爛鐵		
+爛飲		
+冷飯菜汁		
+臨急抱佛腳		
+笠高帽		
+留低		
+放學留低		
+老師話		
+老師話放學留低		
+來遲		
+靚歌		
+飲歌		
+靚衫		
+攞車		
+攞錢		
+攞到		
+攞來		
+攞佢命		
+落車		
+落藥		
+落樓		
+落力		
+落船		
+落臺		
+老實講句		
+亂估		
+冇合法		
+冇合理		
+冇可以		
+冇可能		
+冇開心		
+冇開胃		
+冇好意思		
+冇好飲		
+冇好食		
+冇好聽		
+冇一定 		
+冇憂		
+冇使憂		
+冇憂食		
+冇憂住		
+冇認得		
+冇應該		
+冇認賬		
+冇要		
+冇要得		
+冇逳		
+冇逳得		
+冇禁使	mou5 kam1 sjai2	
+冇明		
+冇命		
+冇難		
+冇易	mou5 ji4	
+冇安樂		
+冇耐煩		
+冇耐		
+冇安全		
+冇怕		
+冇使驚	mou5 sjai2 geng1	
+冇使講		
+冇使客氣		
+冇使做		
+冇使幾耐		
+冇受得		
+冇捨得		
+冇識佢		
+冇識唱歌		
+冇識路		
+冇識死		
+冇識睇		
+冇識聽		
+冇識講		
+冇識做		
+冇識行	mou5 sjik1 haang4	
+冇識寫		
+冇識字		
+鬥字		
+冇識你		
+冇同意		
+冇舒服		
+冇會		
+冇會啦		
+冇會哇		
+冇習慣		
+冇制		
+冇制得過		
+冇走得		
+冇行得	mou5 haang4 dak1	
+冇准		
+冇準		
+冇準確		
+冇准出去		
+冇准玩電腦		
+冇准打機		
+冇准捱夜		
+冇准揀食		
+冇准買		
+冇准去玩		
+冇准走		
+冇准行	mou5 zjan2 haang4	
+冇准放學		
+冇止		
+冇知醜		
+冇知死		
+冇知到		
+冇志在		
+冇志在啊粒		
+冇志在個粒		
+冇值得		
+冇値得		
+冇正常		
+冇鍾意		
+冇重要		
+麻鬼煩		
+買衫		
+買樓		
+買屋		
+晚晚		
+晚晚夜		
+抹布		
+抹窗口		
+抹檯		
+抹地		
+抹手		
+抹乾淨		
+未得		
+未夠		
+未睏醒		
+未知		
+命水		
+面青青		
+剝光		
+剝殼		
+冇人幫襯		
+冇人惜		
+冇預我		
+奶樽		
+難睇		
+難搵		
+你估		
+你好有心		
+你話點蚊就點蚊		
+眼利		
+眼溼溼		
+咬冇入		
+岌頭		
+岋頭		
+屙爛屎		
+屙硬屎		
+壅肥		
+壅泥		
+擰來	ning1 lai4	
+搦來		
+擰過來		
+扭螺絲		
+怕醜		
+皮褸		
+平底鑊		
+破柴		
+舖頭	pu3 tau2	
+沙葛		
+粉葛		
+曬熱頭		
+三國誌		
+閂舖		
+散賣	saan2 maai4	
+散瘀	saan3 jyu2	
+生蟲		
+生果		
+生果舖		
+生得靚		
+生得好睇		
+生得樣衰		
+生瘌痢		
+生熱痱		
+熱痱		
+熱疿		
+生劏		
+生仔	sjaang1 zai2	
+生女		
+細髀		
+洗頭水		
+身紀		
+有身紀		
+手鈪		
+寫冇切		
+做冇切		
+寫字檯		
+死鷄		
+死就死		
+惜身		
+惜一啖		
+成地都係		
+醒睏		
+聲沙		
+成身		
+成身汗		
+成朝	sjing4 zjiu1	
+成朝早	sjing4 zjiu1 zou2	
+水豆腐		
+女人水豆腐		
+衰鬼		
+衰人		
+誰不知		
+水鞋		
+水皮		
+衰神		
+衰婆		
+衰女		
+衰仔	sjeoi1 zai2	
+豉油碟		
+豉油樽		
+食飽未		
+食冇飽		
+食冇切		
+食冇落		
+食晏		
+食朝	sjik4 zjiu1	
+食晚		
+食腦		
+識食		
+食宵夜		
+識睇		
+識聽		
+識唱		
+識飲		
+識做		
+識撈	sjik1 lou1	
+食齋		
+食滯		
+閃閃下	sjim2 sjim2 haa5	
+鮮甜		
+醒定		
+折本貨	sjit4 bun2 fo3	
+折本生意	sjit4 bun2 sjaang1 ji3	
+折本貸	sjit4 bun2 taai3	
+折錢	sjit4 cin2	
+折底	sjit4 dai2	
+燒鴨		
+燒鵝		
+燒燶		
+燒炮仗		
+腎腎地	sjan5 sjan5 di2	
+欶水		
+嗍水		
+熟面口		
+太空褸		
+探溫針		
+歎冷氣		
+歎空調		
+睇電視		
+睇電腦		
+睇手機		
+睇球		
+銻煲		
+睇清楚		
+睇錯		
+睇穿		
+睇風水		
+睇見		
+睇法		
+睇下	tai2 haa5	
+睇下先	tai2 haa5 sin1	
+睇起		
+睇冇清		
+睇冇見		
+睇冇到		
+睇冇切		
+睇冇起		
+睇冇開		
+睇冇過眼		
+睇冇明		
+睇老婆		
+睇靚女		
+睇實		
+睇小		
+睇相	tai2 soeng3	
+睇上眼	tai2 sjoeng5 ngaan5	
+睇書		
+睇小說		
+睇動畫片		
+睇鐘		
+敨下	tau2 haa5	
+敨過啖氣	tau2 gwo3 daam4 hi3	
+聽清楚	ting1 cing1 cjo2	
+聽電話	ting1 din4 waa2	
+聽教	ting1 gaau3	
+聽冇到		
+聽冇聞		
+甜甜地	tim4 tim4 di2	
+聽挨打	ting3 ngaai4 daa2	
+聽死	ting3 si2	
+聽衰	ting3 sjeoi1	
+聽者有意		
+講者無心		
+跳起身		
+檯檯凳凳		
+劏開		
+欶粉		
+嗍粉		
+湯粉		
+湯麪		
+糖水舖		
+通街		
+痛惜		
+話畀你聽		
+話畀你知		
+話畀我聽		
+話畀我知		
+攨爛		
+攨開		
+搲爛		
+搲開		
+攨穿		
+搲穿		
+話你知		
+話我知		
+話佢知		
+講這講那	gong2 zje5 gong2 naa5	
+搵錢		
+搵到		
+搵飯食		
+搵機會		
+搵人		
+搵人幫手		
+搵人出氣		
+搵来辛苦		
+搵冇到		
+搵冇見		
+搵銀紙		
+搵我出氣		
+搵位	wan2 wai2	
+搵位坐		
+搵周公		
+揸車		
+揸錢		
+揸的士		
+揸筷子		
+揸槍		
+摣車		
+摣錢		
+摣的士		
+摣筷子		
+詐睏		
+摣緊		
+摣緊時間	zjaa1 gan2 shi4 gaan1	
+揸緊時間	zjaa1 gan2 shi4 gaan1	
+揸緊		
+詐冇知		
+詐冇見		
+詐睇冇見		
+詐望冇見		
+詐老乸嗲		
+揸奶		
+摣奶		
+炸奶		
+摣波		
+揸波		
+摣波龍爪手		
+揸波龍爪手		
+詐傻		
+詐傻扮懵		
+揸拖拉機		
+摣拖拉機		
+揸主意		
+揸住時機		
+摣主意		
+摣住時機		
+齋菜		
+齋湯		
+齋講		
+雜貨舖		
+紮孖辮		
+制得過		
+制冇		
+斟水		
+斟豉油		
+執包袱		
+執包袱走人		
+執齊行李		
+執牀		
+執下張牀	zjap1 haa5 zjoeng1 cjong4	
+執屋		
+執起		
+執拾乾淨	zjap1 sjap4 gon1 zing4	
+執拾好行李		
+執檯		
+走先		
+開隻眼閉隻眼		
+樽裝		
+樽裝啤酒		
+樽裝水		
+紙皮盒		
+紙皮箱		
+照殺		
+整穿		
+整着	zjing2 zjoek4	
+左揀右揀		
+阻手阻腳		
+阻頭阻勢		
+撞彩		
+做大戲		
+做低		
+做電燈膽		
+仲未		
+仲未到		
+鐘數		
+豬籠入水		
+豬乸		
+豬扒		
+豬踭		
+豬踭肉		
+佢叫		
+擰住	ning1 zjyu4	
+新淨		
+研碎		
+逢係		
+逢係見到你		
+逢係見到你我就冇好事		
+瞌一陣		
+羽絨褸		
+賣剩蔗		
+隔夜茶		
+香港腳		
+一僕一碌		
+一公一乸		
+一張一蚊		
+一張一百蚊		
+一滾就熟		
+上晝九點		
+下晝五點		
+今日下晝		
+今日上晝		
+今日得閑		
+你係邊個		
+你同我鬥		
+你聽我講		
+你睇住來		
+你睇實佢		
+你懷疑佢		
+你冇使驚		
+你冇出聲		
+你坐就坐		
+佢大過我		
+佢冇應承		
+佢冇拍拖		
+佢冇眼睏		
+你冇眼睏		
+我冇眼睏		
+佢好孤寒		
+佢好打得		
+佢好爛食		
+佢好犀利		
+佢好眼利		
+佢好硬頸		
+佢好粗魯		
+佢好老實		
+佢好變態		
+你好變態		
+佢好靚仔		
+你好靚仔		
+我好靚仔		
+佢好靚女		
+你好靚女		
+我好靚女		
+佢實應承		
+佢幾鍾意		
+佢想幫人		
+使乜緊張		
+值得聽下	zjik4 dak1 ting1 haa5	
+聽下	ting1 haa5	
+講下	gong2 haa5	
+做下	zu3 haa5	
+抱下	pou5 haa5	
+惜下	sik1 haa5	
+惜下	sek3 haa5	
+惜下先	sik1 haa5 sin1	
+惜下先	sek3 haa5 sin1	
+做到嗍氣		
+做到欶氣		
+凹凹凸凸		
+冇使理佢		
+冇使面青		
+冇使預我		
+冇係幾快		
+冇係幾明		
+冇出得去		
+冇同你講		
+冇來罷就		
+冇夠佢快		
+冇寫得字		
+冇想食飯		
+冇敢認同		
+冇會益人		
+冇熟冇食		
+冇理咁多		
+冇知做乜		
+冇知斤兩		
+冇知有冇		
+冇知邊個		
+冇識規矩		
+冇鬼理你		
+問你死未		
+嘻嘻哈哈		
+大家坐低		
+大家起筷		
+大家都去		
+天氣乾燥	tin1hi3 gon1 cou3	
+天氣潮溼		
+失禮死人		
+好抵死		
+好得意		
+好核突		
+好犀利		
+好眼睏		
+好肉痛		
+好難估		
+就快就快		
+就會成功		
+尿都忍得		
+平平坦坦		
+平平滑滑		
+幾複雜下	gi2 fuk1 zaap4 haa5	
+得個睇		
+冇幫得手		
+得閑再來		
+得閑睇下	dak1 haan4 tai2 haa5	
+得閑再睇		
+心中有數		
+心知肚明		
+我冇做過		
+我冇帶遮		
+我冇所謂		
+我冇眼睇		
+我去搵佢		
+我叫你走		
+我冇識你		
+我冇識佢		
+我冇鍾意		
+我冇飲酒		
+我冇驚佢		
+我好夜睏		
+我好想嘔		
+我好鍾意		
+我對筷子		
+我幾好		
+我應承你		
+我打死你		
+我未食飽		
+我未驚過	ngo5 mi4 geng1 gwo3	
+我爭佢錢		
+我睇錯你		
+我求吓你	ngo5 kau4 haa5 ni5	
+我趕時間		
+我都冇明		
+我頂冇住		
+搵佢幫手		
+摑佢一巴		
+有冇人知		
+有冇興趣			
+激起公憤		
+激起民憤		
+畀本書我		
+真係好正		
+真係好食		
+真係吧閉		
+真係淒涼		
+真係激氣		
+真係犀利		
+真係當衰		
+睇過點先		
+睇錢份上		
+睄佢幾眼		
+穩穩陣陣		
+紅粉緋緋		
+經常上落		
+自斟自飲		
+惜佢一啖		
+錯就要認		
+陰陰溼溼		
+神仙打交		
+一下子冇記得		
+一下子	at1 haa5 zi2	
+一下子	jat1 haa5 zi2	
+一下子	jat1 jaa5 zyu2	
+一下子	at1 haa5 zyu2	
+一手拖住仔		
+一捶打過去		
+一搵就搵到		
+一日食三餐		
+今日好好天		
+今日我睇數		
+今日真係凍		
+今日真係慘		
+佢行得好快		
+仲係半桶水		
+仲係有問題		
+仲標準過我		
+你今日遲到		
+你今次好彩		
+你今鑊好彩		
+你去冇去先		
+你又冇識做		
+你同我收聲		
+你吊住佢尾		
+你冇使狡辯		
+你就開胃		
+你明冇		
+你知冇		
+你知冇知		
+你明冇明		
+你要冇		
+你要冇要		
+你話點蚊辦		
+你講大聲啲		
+佢仲係冇聽		
+佢係我大佬		
+佢係我細佬		
+佢係我老乸		
+佢係我老婆		
+佢係我男朋友		
+佢係我女朋友		
+佢係攪屎棍		
+佢係梧州人		
+佢冇敢出聲		
+冇敢		
+佢冇識白話		
+佢冇識講白話		
+佢冇識普通話		
+佢冇識講普通話		
+佢識講白話		
+佢識白話		
+佢好冇手尾		
+佢好好相與		
+佢好得意		
+佢好相與		
+佢就係冇聽		
+佢把聲好熟		
+佢硬係要去	kyu5 ngaang2 hai4 njiu3 hyu3	
+佢話口未完		
+佢都好激氣		
+佢好難服侍		
+去求佢幫手		
+去沖滾水		
+去行下街	hyu3 haang4 haa5 gaai1	
+去邊度宵夜		
+去邊度玩		
+同我打招呼		
+同你打招呼		
+同佢打招呼		
+同平時一樣		
+冇使你擔心		
+冇了解情況		
+咬都咬冇入		
+冇使你憂心		
+冇使講都知		
+冇信得過		
+冇准亂講		
+冇到你話事		
+冇到你冇信		
+冇制得過		
+冇睇就走人		
+不知幾好食		
+不知幾好睇		
+不知幾好飲		
+不知幾好玩		
+不知幾好傾		
+冇記得帶筆		
+冇記得帶錢		
+個條街好旺		
+坐低慢慢傾		
+夜晚要趕工		
+夠鐘開工		
+好似見過		
+好彩冇打爛		
+如果佢有事		
+專登來探我		
+專登來探你		
+專登來探佢		
+專登去探你		
+專登去探佢		
+就快收檔		
+就快考試		
+就要搏出位		
+幫我睇住佢		
+得一日時間		
+慢慢等機會		
+成日去睇戲		
+成家一齊食		
+成家人一齊食		
+成晚眼光光		
+成街都係人		
+我出去一陣		
+我包你冇事		
+我包保你冇事		
+包保		
+我同你搏命		
+我周圍搵你		
+我好掛住你		
+我來救你		
+我成日話佢		
+我成日話你		
+我日日都買		
+我日日都睇		
+我日日都做		
+我日日都寫		
+我日日都聽		
+我日日都食		
+我日日都飲		
+我日日都行		
+我日日都玩		
+我日日都講		
+我未出門口		
+我準備出門口		
+我就快出門口		
+我請你食飯		
+你請我食飯		
+打預你冇來		
+真係估冇到		
+真係冇眼睇		
+真係冇話得		
+真係冇容易	zjan1 hai4 mou5 jung4 ji4	
+真係好食		
+真係好飲		
+真係好睇		
+真係好聽		
+真係好玩		
+真係好靚		
+真係好靚女		
+真係折墮		
+真係有心		
+真係笑爆肚		
+等佢慢慢講		
+等我一陣間		
+而家幾精神		
+而家就好		
+而家好晏		
+而家好早		
+而家都仲有		
+而家都未遲		
+聽佢講完先		
+自己顧自己		
+好細粒		
+要自己逳手		
+講極都冇用		
+講極都冇有用		
+講翻正經		
+都係佢去好		
+都係佢最好		
+都係你最好		
+開頭聽冇明		
+點蚊好意思		
+點蚊稱呼		
+一路睇一路笑		
+一路行一路講		
+不過冇係好熟		
+仲成日口花花		
+件事越攪越大		
+但係我做冇到		
+你估好容易		
+你估我冇知		
+你估我驚你		
+你估我怕你		
+你係幾時來		
+你可以冇可以		
+你好熟面口		
+你實會鍾意		
+你幾時去梧州		
+你幾時來梧州		
+你憂佢冇來咩		
+你成日針對我		
+你根本冇受傷		
+你真係好好人		
+你真係好拍檔		
+你真係心水清		
+你真係有福		
+你點蚊冇理我		
+你都黐孖筋		
+你都冇口齒		
+你逼我都冇用		
+你還你我還我		
+佢今日放假		
+佢份人好任性		
+佢份人好求其		
+佢係我老表		
+佢係老板粒仔		
+佢個面口好熟		
+佢好熟面口		
+佢好似有病		
+佢好惜佢個仔		
+佢好惜佢粒仔		
+佢好鍾意打交		
+佢實會講出來		
+佢就成日鬧人		
+佢專同我拗頸		
+佢專門同我拗頸		
+佢幾時都有理		
+幾時都有理		
+佢後尾點蚊		
+佢把口好犀利		
+佢把嘴好犀利		
+佢想搵你傾下	kyu5 soeng2 wan2 ni5 king1 haa5	
+佢把聲好好聽		
+佢早就走人		
+佢有事搵你傾		
+佢正一攪屎棍		
+佢生得好細粒		
+佢生得好大隻		
+佢生得好靚仔		
+佢生得好靚女		
+佢睇落好後生		
+佢睇落好得意		
+佢睇落好精神		
+佢睇落好細粒		
+佢睇來好精神		
+佢經驗未夠		
+佢而家冇得閒		
+佢而家開住會		
+佢而家食住飯		
+正一攪屎棍		
+個個都冇理佢		
+再要半隻燒鴨		
+卒之完成任務		
+原來我冇估錯		
+原來我冇估到錯		
+叫佢打電話		
+衹要勤力做		
+叫佢自己來		
+叫佢自己來做		
+叫佢自己來講		
+叫佢自己做		
+叫佢自己玩		
+叫佢自己食		
+叫佢自己飲		
+叫佢自己睇		
+叫佢自己聽		
+叫佢自己行		
+叫極佢都冇來		
+叫極都冇來		
+冇去得冇		
+同你講過		
+冇信你試下	mou5 san3 ni5 sji3 haa5	
+冇做都要做		
+冇同你講咁多		
+冇夠錢冇緊要		
+冇睇真係後悔		
+冇聽真係後悔		
+冇肯聽人勸		
+冇阻你休息		
+商店幾點開門		
+大家極之高興		
+好彩佢遇到我		
+好得佢來幫手		
+幾大就幾大		
+幾大都要頂住		
+後尾先至應承		
+我一槍打瓜你		
+我今日好眼睏		
+我冇同意		
+我信多你一次		
+我再信多你一次		
+我可以告你		
+我同你鬥快		
+我冇贊成你去		
+我冇識捉棋		
+我冇會放過你		
+我冇得閑陪你		
+我冇夠佢打		
+我冇係好熟行		
+我冇係好飲得		
+我四圍都搵過		
+我四周圍都搵過		
+我周圍都搵過		
+我幫你勸吓佢	ngo5 bong1 ni5 hyun3 haa5 kyu5	
+我幫你添飯		
+我幫你裝飯		
+我幾時都得閑		
+我怕你頂冇住		
+我怕你頂冇順		
+我怕挨人見到		
+我想話去搵你		
+我憎到佢鬼咁蚊		
+我早就知到		
+我斟杯水畀你		
+我最憎挨人屈		
+我有事走先		
+我最憎着人屈		
+我最鍾意行街		
+我真係冇估錯		
+我真係未睇過		
+我真係頂冇順		
+我真係冇知		
+我而家冇得閑		
+我聽日冇得閑		
+我話畀你知啦		
+手腳凍到爆坼		
+把聲冇係幾好		
+抽水機好有用		
+拍得好有心機		
+攤凍佢先飲得		
+攤凍佢先食得		
+有事慢慢傾		
+有些少冇習慣		
+條街夜晚好靜		
+本身好地地		
+畀張紙我寫低		
+祝你新年快樂		
+考試都冇帶筆		
+講極佢都冇聽		
+講過就要做到		
+都冇似梧州人		
+一世都係好兄弟		
+一出門就落大雨		
+一出門口就落大雨		
+一定要落蚊帳		
+一張相都冇影到		
+唱歌好好聽		
+九點鐘先開檔		
+你估佢好有錢		
+幾時先翻學		
+你趕時間走先		
+佢下下都用電腦	kyu5 haa5 haa5 du1 jung4 din4 nou5	
+佢好似未睏醒		
+佢打人好狼胎		
+佢擰轉身就走		
+佢爭一分就合格		
+佢真係大個仔		
+你真係大個仔		
+佢雖然年紀細細		
+個個都成家立業		
+個個都身水身汗		
+冇覺意倒瀉水		
+大家講好一齊去		
+好似好恐怖		
+好多大公司請佢		
+好難搵得		
+攰就休息下先	geoi4 zau4 jau1 sik1 haa5 sin1	
+攰就敨下先	geoi4 zau4 tau2 haa5 sin1	
+後尾大家都同意		
+成日都冇餐飯食		
+成日都想搵着數		
+我一世人未見過		
+我成世人未見過		
+我以後一定小心		
+我仲係心大心細		
+十五十六		
+我冇心機同你傾		
+我問你一個問題		
+我就打蛇隨棍上		
+打蛇隨棍上		
+我覺得幾好睇		
+我餐餐都好開胃		
+我麻煩你一件事		
+日日都要去睇病		
+晚晚都捱更抵夜		
+最近佢人氣好旺		
+次次都係你埋單		
+次次都係我埋單		
+等一陣間我就去		
+等陣間我就去		
+我等一陣間就去		
+我等陣間就去		
+聽日又要翻學啦		
+要複印幾多份		
+複印多幾份		
+要打印幾多份		
+打印多幾份		
+隻貓搲爛我本書		
+對得住自己良心		
+一早就話過你		
+一擰轉頭就睇見佢		
+一擰轉頭就見佢		
+下半世就冇使憂啦		
+今日一定要講清楚		
+今日同朋友出街		
+今次真係大出血		
+今晚打電話畀你		
+你冇可能快得過我		
+學校四圍都有門口		
+如果我屋企附近有		
+搞到兄弟姊妹不和		
+每日朝早我都跑步		
+每朝我都跑步		
+真係今時不同往日		
+今時不同往日		
+二打六
+眼睇
+有眼睇
+冇眼睇
+久久又整粒
+耐耐又整粒
+慾到你口水流
+欲到你口水流
+慾到你
+欲到你
+慾到你心㥔㥔
+欲到你心㥔㥔
+慾到你心逳逳
+欲到你心逳逳
+慾到佢
+欲到佢
+欲佢
+慾到佢口水流
+欲到佢口水流
+慾到佢心㥔㥔
+欲到佢心㥔㥔
+慾到佢心逳逳
+欲到佢心逳逳
+
+
+
+
+
+out	au
+cheap	cip
+friend	fen
+feel	fiu
+high	haai
+cute	kiu
+call	ko
+cool	ku
+short	sot
+
+
+
+
+
+人又老，錢又冇	njan4 jau4 lou5 cin2 jau4 mou4	
+人又老，錢又冇	njan4 jau4 lou5 cin2 jau4 mau4	
+人又老，錢又冇，老婆又走佬	njan4 jau4 lou5 cin2 jau4 mou4	
+人又老，錢又冇，老婆又走佬	njan4 jau4 lou5 cin2 jau4 mau4	
+人又老，錢又冇，老婆又走佬	njan4 jau4 lou5 cin2 jau4 mou4 lou5 po4 jau4 zau2 lou2	
+人又老，錢又冇，老婆又走佬	njan4 jau4 lou5 cin2 jau4 mau4 lou5 po4 jau4 zau2 lou2	
+搞搞震，冇幫襯	gaau2 gaau2 zjan3 mou5	
+搞搞震，冇幫襯	gaau2 gaau2 zjan3 mau5	
+搞搞震，冇幫襯	gaau2 gaau2 zjan3 mou5 bong1	
+搞搞震，冇幫襯	gaau2 gaau2 zjan3 mau5 bong1	
+搞搞震，冇幫襯	gaau2 gaau2 zjan3 mou5 bong1 can3	
+搞搞震，冇幫襯	gaau2 gaau2 zjan3 mau5 bong1 can3	
+講又冇識，帶你又遠	gong2 jau4 mou5 sjik1	
+講又冇識，帶你又遠	gong2 jau4 mou5 sjik1 daai3	
+講又冇識，帶你又遠	gong2 jau4 mou5 sjik1 daai3 ni5	
+講又冇識，帶你又遠	gong2 jau4 mou5 sjik1 daai3 ni5 jau4	
+講又冇識，帶你又遠	gong2 jau4 mou5 sjik1 daai3 ni5 jau4 jyun5	
+樹搖葉落，人搖福薄	sjyu4 jiu4 jip4 lok4 	
+樹搖葉落，人搖福薄	sjyu4 jiu4 jip4 lok4 njan4	
+樹搖葉落，人搖福薄	sjyu4 jiu4 jip4 lok4 njan4 jiu4	
+樹搖葉落，人搖福薄	sjyu4 jiu4 jip4 lok4 njan4 jiu4 fuk1	
+樹搖葉落，人搖福薄	sjyu4 jiu4 jip4 lok4 njan4 jiu4 fuk1 bok4	
+頭大冇腦，腦大生草	tau4 daai4 mou5 nou5	
+頭大冇腦，腦大生草	tau4 daai4 mou5 nou5 nou2	
+頭大冇腦，腦大生草	tau4 daai4 mou5 nou5 nou2 daai4 	
+頭大冇腦，腦大生草	tau4 daai4 mou5 nou5 nou2 daai4 sjaang1	
+頭大冇腦，腦大生草	tau4 daai4 mou5 nou5 nou2 daai4 sjaang1 cou2	
+眼看手勿動，動親手打腫	ngaan5 hon3 sjau2 mat4 dung4	
+眼看手勿動，動親手打腫	ngaan5 hon3 sjau2 mat4 dung4 dung4	
+眼看手勿動，動親手打腫	ngaan5 hon3 sjau2 mat4 dung4 dung4 can1	
+眼看手勿動，動親手打腫	ngaan5 hon3 sjau2 mat4 dung4 dung4 can1 sjau2	
+眼看手勿動，動親手打腫	ngaan5 hon3 sjau2 mat4 dung4 dung4 can1 sjau2 daa2	
+眼看手勿動，動親手打腫	ngaan5 hon3 sjau2 mat4 dung4 dung4 can1 sjau2 daa2 zjung2	
+有功者留飯不留菜，無功者飯菜不留	jau5 gung1 zje2 lau4 faan4 bat1 lau4 coi3	
+有功者留飯不留菜，無功者飯菜不留	jau5 gung1 zje2 lau4 faan4 bat1 lau4 coi3 mu4	
+有功者留飯不留菜，無功者飯菜不留	jau5 gung1 zje2 lau4 faan4 bat1 lau4 coi3 mu4 gung1	
+有功者留飯不留菜，無功者飯菜不留	jau5 gung1 zje2 lau4 faan4 bat1 lau4 coi3 mu4 gung1 zje2	
+有功者留飯不留菜，無功者飯菜不留	jau5 gung1 zje2 lau4 faan4 bat1 lau4 coi3 mu4 gung1 zje2 faan4	
+有功者留飯不留菜，無功者飯菜不留	jau5 gung1 zje2 lau4 faan4 bat1 lau4 coi3 mu4 gung1 zje2 faan4 coi3	
+有功者留飯不留菜，無功者飯菜不留	jau5 gung1 zje2 lau4 faan4 bat1 lau4 coi3 mu4 gung1 zje2 faan4 coi3 bat1	
+有功者留飯不留菜，無功者飯菜不留	jau5 gung1 zje2 lau4 faan4 bat1 lau4 coi3 mu4 gung1 zje2 faan4 coi3 bat1 lau4	
+聖誕老人，聖誕老人，騎住單車，去殺人，見到美女解嗮衫褲，見到超人賣底撐	sjing3 daan3 lou5 njan4 sjing3 daan3 lou5 njan4	
+講多無謂，食多溼滯	gong2 do1 mu4 wai4	
+講多無謂，食多溼滯	gong2 do1 mu4 wai4 sjik4	
+講多無謂，食多溼滯	gong2 do1 mu4 wai4 sjik4 do1	
+講多無謂，食多溼滯	gong2 do1 mu4 wai4 sjik4 do1 sjap1 	
+講多無謂，食多溼滯	gong2 do1 mu4 wai4 sjik4 do1 sjap1 zjai4	
+趁你病，攞你命	cjan3 ni5 bing4	
+趁你病，攞你命	cjan3 ni5 bing4 lo2	
+趁你病，攞你命	cjan3 ni5 bing4 lo2 ni2	
+趁你病，攞你命	cjan3 ni5 bing4 lo2 ni2 ming4	
+趁你病，攞你命	cjan3 ni5 bing4 lo2 ni2 meng4	
+趁你病，攞你命	cjan3 ni5 beng4	
+趁你病，攞你命	cjan3 ni5 beng4 lo2	
+趁你病，攞你命	cjan3 ni5 beng4 lo2 ni2	
+趁你病，攞你命	cjan3 ni5 beng4 lo2 ni2 ming4	
+趁你病，攞你命	cjan3 ni5 beng4 lo2 ni2 meng4	
+排排坐，食果果	paai4 paai4 co5
+排排坐，食果果	paai4 paai4 co5 sjik4
+排排坐，食果果	paai4 paai4 co5 sjik4 gwo2
+排排坐，食果果	paai4 paai4 co5 sjik4 gwo2 gwo2
+
+
+
+
+
+
+あ	xwa
+い	xwi
+う	xwu
+え	xwe
+お	xwo
+ぁ	xwa
+ぃ	xwi
+ぅ	xwu
+ぇ	xwe
+ぉ	xwo
+か	xwka
+き	xwki
+く	xwku
+け	xwke
+こ	xwko
+さ	xwsa
+し	xwshi
+し	xwsi
+す	xwsu
+せ	xwse
+そ	xwso
+た	xwta
+ち	xwchi
+ち	xwti
+つ	xwtsu
+つ	xwtu
+て	xwte
+と	xwto
+な	xwna
+に	xwni
+ぬ	xwnu
+ね	xwne
+の	xwno
+は	xwha
+ひ	xwhi
+ふ	xwfu
+ふ	xwhu
+へ	xwhe
+ほ	xwho
+ま	xwma
+み	xwmi
+む	xwmu
+め	xwme
+も	xwmo
+や	xwya
+ゆ	xwyu
+よ	xwyo
+ゃ	xwya
+ゅ	xwyu
+ょ	xwyo
+ら	xwra
+り	xwri
+る	xwru
+れ	xwre
+ろ	xwro
+わ	xwwa
+ゐ	xwwi
+ゔ	xwwu
+ゑ	xwwe
+を	xwwo
+ん	xwn
+っ	xwq
+	xwx
+が	xwga
+ぎ	xwgi
+ぐ	xwgu
+げ	xwge
+ご	xwgo
+ざ	xwza
+じ	xwji
+じ	xwzi
+ず	xwzu
+ぜ	xwze
+ぞ	xwzo
+だ	xwda
+ぢ	xwdji
+ぢ	xwdi
+づ	xwdzu
+づ	xwdu
+で	xwde
+ど	xwdo
+ば	xwba
+び	xwbi
+ぶ	xwbu
+べ	xwbe
+ぼ	xwbo
+ぱ	xwpa
+ぴ	xwpi
+ぷ	xwpu
+ぺ	xwpe
+ぽ	xwpo
+きゃ	xwkya
+きゅ	xwkyu
+きょ	xwkyo
+ぎゃ	xwgya
+ぎゅ	xwgyu
+ぎょ	xwgyo
+しゃ	xwsya
+しゅ	xwsyu
+しょ	xwsyo
+しゃ	xwsha
+しゅ	xwshu
+しょ	xwsho
+じゃ	xwja
+じゅ	xwju
+じょ	xwjo
+じゃ	xwzya
+じゅ	xwzyu
+じょ	xwzyo
+ちゃ	xwcha
+ちゅ	xwchu
+ちょ	xwcho
+ちゃ	xwtya
+ちゅ	xwtyu
+ちょ	xwtyo
+ぢゃ	xwdya
+ぢゅ	xwdyu
+ぢょ	xwdyo
+ぢゃ	xwdha
+ぢゅ	xwdhu
+ぢょ	xwdho
+ちゃ	xwnya
+にゅ	xwnyu
+にょ	xwnyo
+ひゃ	xwhya
+ひゅ	xwhyu
+ひょ	xwhyo
+びゃ	xwbya
+びゅ	xwbyu
+びょ	xwbyo
+ぴゃ	xwpya
+ぴゅ	xwpyu
+ぴょ	xwpyo
+みゃ	xwmya
+みゅ	xwmyu
+みょ	xwmyo
+りゃ	xwrya
+りゅ	xwryu
+りょ	xwryo
+
+
+
+ア	xwa
+イ	xwi
+ウ	xwu
+エ	xwe
+オ	xwo
+ァ	xwa
+ィ	xwi
+ゥ	xwu
+ェ	xwe
+ォ	xwo
+カ	xwka
+キ	xwki
+ク	xwku
+ケ	xwke
+コ	xwko
+サ	xwsa
+シ	xwshi
+シ	xwsi
+ス	xwsu
+セ	xwse
+ソ	xwso
+タ	xwta
+チ	xwchi
+チ	xwti
+ツ	xwtsu
+ツ	xwtu
+テ	xwte
+ト	xwto
+ナ	xwna
+ニ	xwni
+ヌ	xwnu
+ネ	xwne
+ノ	xwno
+ハ	xwha
+ヒ	xwhi
+フ	xwfu
+フ	xwhu
+ヘ	xwhe
+ホ	xwho
+マ	xwma
+ミ	xwmi
+ム	xwmu
+メ	xwme
+モ	xwmo
+ヤ	xwya
+ユ	xwyu
+ヨ	xwyo
+ャ	xwya
+ュ	xwyu
+ョ	xwyo
+ラ	xwra
+リ	xwri
+ル	xwru
+レ	xwre
+ロ	xwro
+ワ	xwwa
+ヰ	xwwi
+ヴ	xwwu
+ヱ	xwwe
+ヲ	xwwo
+ン	xwn
+ッ	xwq
+ー	xwx
+ガ	xwga
+ギ	xwgi
+グ	xwgu
+ゲ	xwge
+ゴ	xwgo
+ザ	xwza
+ジ	xwji
+ジ	xwzi
+ズ	xwzu
+ゼ	xwze
+ゾ	xwzo
+ダ	xwda
+ヂ	xwdji
+ヂ	xwdi
+ヅ	xwdzu
+ヅ	xwdu
+デ	xwde
+ド	xwdo
+バ	xwba
+ビ	xwbi
+ブ	xwbu
+ベ	xwbe
+ボ	xwbo
+パ	xwpa
+ピ	xwpi
+プ	xwpu
+ペ	xwpe
+ポ	xwpo
+キャ	xwkya
+キュ	xwkyu
+キョ	xwkyo
+ギャ	xwgya
+ギュ	xwgyu
+ギョ	xwgyo
+シャ	xwsya
+シュ	xwsyu
+ショ	xwsyo
+シャ	xwsha
+シュ	xwshu
+ショ	xwsho
+ジャ	xwja
+ジュ	xwju
+ジョ	xwjo
+ジャ	xwzya
+ジュ	xwzyu
+ジョ	xwzyo
+チャ	xwcha
+チュ	xwchu
+チョ	xwcho
+チャ	xwtya
+チュ	xwtyu
+チョ	xwtyo
+ヂャ	xwdya
+ヂュ	xwdyu
+ヂョ	xwdyo
+ヂャ	xwdha
+ヂュ	xwdhu
+ヂョ	xwdho
+ニャ	xwnya
+ニュ	xwnyu
+ニョ	xwnyo
+ヒャ	xwhya
+ヒュ	xwhyu
+ヒョ	xwhyo
+ビャ	xwbya
+ビュ	xwbyu
+ビョ	xwbyo
+ピャ	xwpya
+ピュ	xwpyu
+ピョ	xwpyo
+ミャ	xwmya
+ミュ	xwmyu
+ミョ	xwmyo
+リャ	xwrya
+リュ	xwryu
+リョ	xwryo
+ヴャ	xwvya
+ヴュ	xwvyu
+ヴョ	xwvyo
+ファ	xwhua
+フィ	xwhui
+フ	xwhu
+フェ	xwhue
+フォ	xwhuo
+ファ	xwfa
+フィ	xwfi
+フ	xwfu
+フェ	xwfe
+フォ	xwfo
+ワ	xwwa
+ウィ	xwwi
+ウ	xwwu
+ウェ	xwwe
+ウォ	xwwo
+ツァ	xwtsa
+ツィ	xwtsi
+ツ	xwtsu
+ツェ	xwtse
+ツォ	xwtso
+ツァ	xwtsua
+ツィ	xwtsui
+ツ	xwtsuu
+ツェ	xwtsue
+ツォ	xwtsuo
+ヴァ	xwva
+ヴィ	xwvi
+ヴ	xwvu
+ヴェ	xwve
+ヴォ	xwvo
+テャ	xwtea
+ティ	xwtei
+テュ	xwteu
+テェ	xwtee
+テョ	xwteo
+デャ	xwdea
+ディ	xwdei
+デュ	xwdeu
+デェ	xwdee
+デョ	xwdeo
+テャ	xwta
+ティ	xwti
+テュ	xwtu
+テェ	xwte
+テョ	xwto
+デャ	xwda
+ディ	xwdi
+デュ	xwdu
+デェ	xwde
+デョ	xwdo
+トァ	xwtoa
+トィ	xwtoi
+トゥ	xwtou
+トェ	xwtoe
+トォ	xwtoo
+ドァ	xwdoa
+ドィ	xwdoi
+ドゥ	xwdou
+ドェ	xwdoe
+ドォ	xwdoo
+トァ	xwtwa
+トィ	xwtwi
+トゥ	xwtwu
+トェ	xwtwe
+トォ	xwtwo
+ドァ	xwdwa
+ドィ	xwdwi
+ドゥ	xwdwu
+ドェ	xwdwe
+ドォ	xwdwo
+シャ	xwsha
+シ	xwshi
+シュ	xwshu
+シェ	xwshe
+ショ	xwsho
+ジャ	xwzha
+ジ	xwzhi
+ジュ	xwzhu
+ジェ	xwzhe
+ジョ	xwzho
+ジャ	xwja
+ジ	xwji
+ジュ	xwju
+ジェ	xwje
+ジョ	xwjo
+チャ	xwcha
+チ	xwchi
+チュ	xwchu
+チェ	xwche
+チョ	xwcho
+クァ	xwkwa
+クィ	xwkwi
+クゥ	xwkwu
+クェ	xwkwe
+クォ	xwkwo
+グァ	xwgwa
+グィ	xwgwi
+グゥ	xwgwu
+グェ	xwgwe
+グォ	xwgwo
+クァ	xwkua
+クィ	xwkui
+クゥ	xwkuu
+クェ	xwkue
+クォ	xwkuo
+グァ	xwgua
+グィ	xwgui
+グゥ	xwguu
+グェ	xwgue
+グォ	xwguo
+
+
+
+
+
+
+
+
+

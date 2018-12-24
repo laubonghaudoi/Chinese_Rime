@@ -1,0 +1,614 @@
+﻿# Rime schema
+# vim: set sw=2 sts=2 et:
+# encoding: utf-8
+
+schema:
+  schema_id: qyeyshanglr_hanja
+  name: 옛한글・漢字
+  version: "0.2"
+  author:
+    - 沈逸磊 <917514182@qq.com>
+    - Patrick <ipatrickmac@gmail.com>
+    - polyhedron <biopolyhedron@gmail.com>
+  description: |
+    옛한글·漢字 input method
+    
+    ㄱg ㄴn ㄷd ㄹr ㅁm ㅂb ㅅs ㅇq ㅈj
+    ㅊc ㅋk ㅌt ㅍp ㅎh
+    ㆁ; ㅿz ㆆx ㅸv
+    double letter: 各字竝書
+    suffixing 1: 齒頭音
+    suffixing 2: 正齒音
+    suffixing q: light sound
+    ᄼᅠs1 ᅑᅠjj2 ㅹvv ㅱmq ㆄpq ᄛᅠrq
+    
+    ㅏa ㅐay ㅑya ㅒyay ㅓe ㅔey ㅕye ㅖyey
+    ㅗo ㅘwa ㅙway ㅚoy ㅛyo ㅜu ㅝwe ㅞwey ㅟuy ㅠyu
+    ㅡl ㅢly ㅣi ㆍf ㆎfy
+    
+    初聲 filler: 8
+    中聲 filler: 9
+    single dot 傍點: 1
+    double dot 傍點: 2
+    delimiter before complex 初聲s: '
+    
+    Press Shift+Enter to output the navigator contents.
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: half_shape
+    states: [ 半角, 全角 ]
+    reset: 0
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - echo_translator
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: '8912;zyxwvutsrqponmlkjihgfedcba'
+  delimiter: " '"
+  algebra:
+#    - abbrev/^([bcdghjkmnpqrstvxz]).+$/$1/
+    - derive/(^|[ '])q([aeoulif])/$2/
+#    - derive/q$/ng/
+#    - derive/l/r/
+#    - derive/p/f/
+#    - derive/^j/di/
+#    - derive/^c/ti/
+#    - derive/^s/si/
+#    - derive/^([A-Za-z]+)\d$/$1/
+#     - 'derive/^(.*)-$/$1:/'
+#     - 'derive/^(.*)-$/$1;/'
+#     - 'derive/^(.*)<$/$1,/'
+
+translator:
+  dictionary: qyeyshanglr_hanja
+  spelling_hints: 4
+  prism: qyeyshanglr_hanja
+  preedit_format:
+
+# space erasure:
+    - xform/ //
+
+# automatic syllabification: ('', different from specified ')
+#   Preempt the last C-letter in a successive C-letter string circumscribed by V-letters at both ends, preventing it from being matched for the coda of the former syllable.
+#   '' is subject to later cancellation after coda matching.
+#   The 齒頭音 1 / 正齒音 2 may intervene between the last C-letter and the V-letter.
+    - xform/(?<=[aeiouflyw9])([bcdghjkmnpqrstvxz;8]*)([bcdghjkmnpqrstvxz;8])(1|2)?(?=[aeiouflyw9])/$1''$2$3/
+#   For the convenience of potential elaboration upon automatic syllabification, recurrent complex jamos are listed below:
+#     ancient complex onsets: sg sd ss sb bd bs bt bsg bsd
+#     ancient complex codas (sai sios/zieuz aside): gs ns rg rm rb rx
+#     modern complex onsets: bb dd gg jj ss
+#     modern complex codas: gg gs nj nh rg rm rb rs rt rp rh bs ss
+
+# coda
+    - xform/(?<=[aeiouflyw9])gsg/ᇄ/
+    - xform/(?<=[aeiouflyw9])rgs/ᇌ/
+    - xform/(?<=[aeiouflyw9])rdh/ᇏ/
+    - xform/(?<=[aeiouflyw9])rmg/ᇑ/
+    - xform/(?<=[aeiouflyw9])rms/ᇒ/
+    - xform/(?<=[aeiouflyw9])rbs/ᇓ/
+    - xform/(?<=[aeiouflyw9])rbh/ᇔ/
+    - xform/(?<=[aeiouflyw9])rss/ᇖ/
+    - xform/(?<=[aeiouflyw9])mss/ᇞ/
+    - xform/(?<=[aeiouflyw9])qgg/ᇭ/
+    - xform/(?<=[aeiouflyw9])ddb/ퟎ/    # ext-B
+    - xform/(?<=[aeiouflyw9])dsg/ퟑ/    # ext-B
+    - xform/(?<=[aeiouflyw9])rgg/ퟕ/    # ext-B
+    - xform/(?<=[aeiouflyw9])rgh/ퟖ/    # ext-B
+    - xform/(?<=[aeiouflyw9])rrk/ퟗ/    # ext-B
+    - xform/(?<=[aeiouflyw9])rmh/ퟘ/    # ext-B
+    - xform/(?<=[aeiouflyw9])rbd/ퟙ/    # ext-B
+    - xform/(?<=[aeiouflyw9])rbp/ퟚ/    # ext-B
+    - xform/(?<=[aeiouflyw9])rxh/ퟜ/    # ext-B
+    - xform/(?<=[aeiouflyw9])mnn/ퟟ/    # ext-B
+    - xform/(?<=[aeiouflyw9])mbs/ퟡ/    # ext-B
+    - xform/(?<=[aeiouflyw9])brp/ퟤ/    # ext-B
+    - xform/(?<=[aeiouflyw9])bsd/ퟧ/    # ext-B
+    - xform/(?<=[aeiouflyw9])ssg/ퟬ/    # ext-B
+    - xform/(?<=[aeiouflyw9])ssd/ퟭ/    # ext-B
+    - xform/(?<=[aeiouflyw9])jbb/ퟸ/    # ext-B
+    - xform/(?<=[aeiouflyw9])gg/ᆩ/
+    - xform/(?<=[aeiouflyw9])gs/ᆪ/
+    - xform/(?<=[aeiouflyw9])nj/ᆬ/
+    - xform/(?<=[aeiouflyw9])nh/ᆭ/
+    - xform/(?<=[aeiouflyw9])rg/ᆰ/
+    - xform/(?<=[aeiouflyw9])rm/ᆱ/
+    - xform/(?<=[aeiouflyw9])rb/ᆲ/
+    - xform/(?<=[aeiouflyw9])rs/ᆳ/
+    - xform/(?<=[aeiouflyw9])rt/ᆴ/
+    - xform/(?<=[aeiouflyw9])rp/ᆵ/
+    - xform/(?<=[aeiouflyw9])rh/ᆶ/
+    - xform/(?<=[aeiouflyw9])bs/ᆹ/
+    - xform/(?<=[aeiouflyw9])ss/ᆻ/
+    - xform/(?<=[aeiouflyw9])gr/ᇃ/
+    - xform/(?<=[aeiouflyw9])ng/ᇅ/
+    - xform/(?<=[aeiouflyw9])nd/ᇆ/
+    - xform/(?<=[aeiouflyw9])ns/ᇇ/
+    - xform/(?<=[aeiouflyw9])nz/ᇈ/
+    - xform/(?<=[aeiouflyw9])nt/ᇉ/
+    - xform/(?<=[aeiouflyw9])dg/ᇊ/
+    - xform/(?<=[aeiouflyw9])dr/ᇋ/
+    - xform/(?<=[aeiouflyw9])rn/ᇍ/
+    - xform/(?<=[aeiouflyw9])rd/ᇎ/
+    - xform/(?<=[aeiouflyw9])rr/ᇐ/
+    - xform/(?<=[aeiouflyw9])rv/ᇕ/
+    - xform/(?<=[aeiouflyw9])rz/ᇗ/
+    - xform/(?<=[aeiouflyw9])rk/ᇘ/
+    - xform/(?<=[aeiouflyw9])rx/ᇙ/
+    - xform/(?<=[aeiouflyw9])mg/ᇚ/
+    - xform/(?<=[aeiouflyw9])mr/ᇛ/
+    - xform/(?<=[aeiouflyw9])mb/ᇜ/
+    - xform/(?<=[aeiouflyw9])ms/ᇝ/
+    - xform/(?<=[aeiouflyw9])mz/ᇟ/
+    - xform/(?<=[aeiouflyw9])mc/ᇠ/
+    - xform/(?<=[aeiouflyw9])mh/ᇡ/
+    - xform/(?<=[aeiouflyw9])mq/ᇢ/
+    - xform/(?<=[aeiouflyw9])br/ᇣ/
+    - xform/(?<=[aeiouflyw9])bp/ᇤ/
+    - xform/(?<=[aeiouflyw9])bh/ᇥ/
+    - xform/(?<=[aeiouflyw9])sg/ᇧ/
+    - xform/(?<=[aeiouflyw9])sd/ᇨ/
+    - xform/(?<=[aeiouflyw9])sr/ᇩ/
+    - xform/(?<=[aeiouflyw9])sb/ᇪ/
+    - xform/(?<=[aeiouflyw9])qg/ᇬ/
+    - xform/(?<=[aeiouflyw9])qq/ᇮ/
+    - xform/(?<=[aeiouflyw9])qk/ᇯ/
+    - xform/(?<=[aeiouflyw9]);s/ᇱ/
+    - xform/(?<=[aeiouflyw9]);z/ᇲ/
+    - xform/(?<=[aeiouflyw9])pb/ᇳ/
+    - xform/(?<=[aeiouflyw9])pq/ᇴ/
+    - xform/(?<=[aeiouflyw9])hn/ᇵ/
+    - xform/(?<=[aeiouflyw9])hr/ᇶ/
+    - xform/(?<=[aeiouflyw9])hm/ᇷ/
+    - xform/(?<=[aeiouflyw9])hb/ᇸ/
+    - xform/(?<=[aeiouflyw9])gn/ᇺ/    # ext-B
+    - xform/(?<=[aeiouflyw9])gb/ᇻ/    # ext-B
+    - xform/(?<=[aeiouflyw9])gc/ᇼ/    # ext-B
+    - xform/(?<=[aeiouflyw9])gk/ᇽ/    # ext-B
+    - xform/(?<=[aeiouflyw9])gh/ᇾ/    # ext-B
+    - xform/(?<=[aeiouflyw9])nn/ᇿ/    # ext-B
+    - xform/(?<=[aeiouflyw9])nr/ퟋ/    # ext-B
+    - xform/(?<=[aeiouflyw9])nc/ퟌ/    # ext-B
+    - xform/(?<=[aeiouflyw9])dd/ퟍ/    # ext-B
+    - xform/(?<=[aeiouflyw9])db/ퟏ/    # ext-B
+    - xform/(?<=[aeiouflyw9])ds/ퟐ/    # ext-B
+    - xform/(?<=[aeiouflyw9])dj/ퟒ/    # ext-B
+    - xform/(?<=[aeiouflyw9])dc/ퟓ/    # ext-B
+    - xform/(?<=[aeiouflyw9])dt/ퟔ/    # ext-B
+    - xform/(?<=[aeiouflyw9])r;/ퟛ/    # ext-B
+    - xform/(?<=[aeiouflyw9])rq/ퟝ/    # ext-B
+    - xform/(?<=[aeiouflyw9])mn/ퟞ/    # ext-B
+    - xform/(?<=[aeiouflyw9])mm/ퟠ/    # ext-B
+    - xform/(?<=[aeiouflyw9])mj/ퟢ/    # ext-B
+    - xform/(?<=[aeiouflyw9])bd/ퟣ/    # ext-B
+    - xform/(?<=[aeiouflyw9])bm/ퟥ/    # ext-B
+    - xform/(?<=[aeiouflyw9])bb/ퟦ/    # ext-B
+    - xform/(?<=[aeiouflyw9])bj/ퟨ/    # ext-B
+    - xform/(?<=[aeiouflyw9])bc/ퟩ/    # ext-B
+    - xform/(?<=[aeiouflyw9])sm/ퟪ/    # ext-B
+    - xform/(?<=[aeiouflyw9])sv/ퟫ/    # ext-B
+    - xform/(?<=[aeiouflyw9])sz/ퟮ/    # ext-B
+    - xform/(?<=[aeiouflyw9])sj/ퟯ/    # ext-B
+    - xform/(?<=[aeiouflyw9])sc/ퟰ/    # ext-B
+    - xform/(?<=[aeiouflyw9])st/ퟱ/    # ext-B
+    - xform/(?<=[aeiouflyw9])sh/ퟲ/    # ext-B
+    - xform/(?<=[aeiouflyw9])zb/ퟳ/    # ext-B
+    - xform/(?<=[aeiouflyw9])zv/ퟴ/    # ext-B
+    - xform/(?<=[aeiouflyw9]);m/ퟵ/    # ext-B
+    - xform/(?<=[aeiouflyw9]);h/ퟶ/    # ext-B
+    - xform/(?<=[aeiouflyw9])jb/ퟷ/    # ext-B
+    - xform/(?<=[aeiouflyw9])jj/ퟹ/    # ext-B
+    - xform/(?<=[aeiouflyw9])ps/ퟺ/    # ext-B
+    - xform/(?<=[aeiouflyw9])pt/ퟻ/    # ext-B
+    - xform/(?<=[aeiouflyw9])g/ᆨ/
+    - xform/(?<=[aeiouflyw9])n/ᆫ/
+    - xform/(?<=[aeiouflyw9])d/ᆮ/
+    - xform/(?<=[aeiouflyw9])r/ᆯ/
+    - xform/(?<=[aeiouflyw9])m/ᆷ/
+    - xform/(?<=[aeiouflyw9])b/ᆸ/
+    - xform/(?<=[aeiouflyw9])s/ᆺ/
+    - xform/(?<=[aeiouflyw9])q/ᆼ/
+    - xform/(?<=[aeiouflyw9])j/ᆽ/
+    - xform/(?<=[aeiouflyw9])c/ᆾ/
+    - xform/(?<=[aeiouflyw9])k/ᆿ/
+    - xform/(?<=[aeiouflyw9])t/ᇀ/
+    - xform/(?<=[aeiouflyw9])p/ᇁ/
+    - xform/(?<=[aeiouflyw9])h/ᇂ/
+    - xform/(?<=[aeiouflyw9])v/ᇦ/
+    - xform/(?<=[aeiouflyw9])z/ᇫ/
+    - xform/(?<=[aeiouflyw9]);/ᇰ/
+    - xform/(?<=[aeiouflyw9])x/ᇹ/
+
+# cancel automatic syllabification (''; specified ' unaffected)
+    - xform/''//
+
+# onset
+    - xform/ss1(?=[aeiouflyw9])/ᄽ/
+    - xform/ss2(?=[aeiouflyw9])/ᄿ/
+    - xform/jj1(?=[aeiouflyw9])/ᅏ/
+    - xform/jj2(?=[aeiouflyw9])/ᅑ/
+    - xform/s1(?=[aeiouflyw9])/ᄼ/
+    - xform/s2(?=[aeiouflyw9])/ᄾ/
+    - xform/j1(?=[aeiouflyw9])/ᅎ/
+    - xform/j2(?=[aeiouflyw9])/ᅐ/
+    - xform/c1(?=[aeiouflyw9])/ᅔ/
+    - xform/c2(?=[aeiouflyw9])/ᅕ/
+    - xform/bsg(?=[aeiouflyw9])/ᄢ/
+    - xform/bsd(?=[aeiouflyw9])/ᄣ/
+    - xform/bsb(?=[aeiouflyw9])/ᄤ/
+    - xform/bss(?=[aeiouflyw9])/ᄥ/
+    - xform/bsj(?=[aeiouflyw9])/ᄦ/
+    - xform/sbg(?=[aeiouflyw9])/ᄳ/
+    - xform/sss(?=[aeiouflyw9])/ᄴ/
+    - xform/rgg(?=[aeiouflyw9])/ꥥ/    # ext-A
+    - xform/rdd(?=[aeiouflyw9])/ꥧ/    # ext-A
+    - xform/rbb(?=[aeiouflyw9])/ꥪ/    # ext-A
+    - xform/bst(?=[aeiouflyw9])/ꥲ/    # ext-A
+    - xform/ssb(?=[aeiouflyw9])/ꥵ/    # ext-A
+    - xform/jjh(?=[aeiouflyw9])/ꥸ/    # ext-A
+    - xform/gg(?=[aeiouflyw9])/ᄁ/
+    - xform/dd(?=[aeiouflyw9])/ᄄ/
+    - xform/bb(?=[aeiouflyw9])/ᄈ/
+    - xform/ss(?=[aeiouflyw9])/ᄊ/
+    - xform/jj(?=[aeiouflyw9])/ᄍ/
+    - xform/ng(?=[aeiouflyw9])/ᄓ/
+    - xform/nn(?=[aeiouflyw9])/ᄔ/
+    - xform/nd(?=[aeiouflyw9])/ᄕ/
+    - xform/nb(?=[aeiouflyw9])/ᄖ/
+    - xform/dg(?=[aeiouflyw9])/ᄗ/
+    - xform/rn(?=[aeiouflyw9])/ᄘ/
+    - xform/rr(?=[aeiouflyw9])/ᄙ/
+    - xform/rh(?=[aeiouflyw9])/ᄚ/
+    - xform/rq(?=[aeiouflyw9])/ᄛ/
+    - xform/mb(?=[aeiouflyw9])/ᄜ/
+    - xform/mq(?=[aeiouflyw9])/ᄝ/
+    - xform/bg(?=[aeiouflyw9])/ᄞ/
+    - xform/bn(?=[aeiouflyw9])/ᄟ/
+    - xform/bd(?=[aeiouflyw9])/ᄠ/
+    - xform/bs(?=[aeiouflyw9])/ᄡ/
+    - xform/bj(?=[aeiouflyw9])/ᄧ/
+    - xform/bc(?=[aeiouflyw9])/ᄨ/
+    - xform/bt(?=[aeiouflyw9])/ᄩ/
+    - xform/bp(?=[aeiouflyw9])/ᄪ/
+    - xform/vv(?=[aeiouflyw9])/ᄬ/
+    - xform/sg(?=[aeiouflyw9])/ᄭ/
+    - xform/sn(?=[aeiouflyw9])/ᄮ/
+    - xform/sd(?=[aeiouflyw9])/ᄯ/
+    - xform/sr(?=[aeiouflyw9])/ᄰ/
+    - xform/sm(?=[aeiouflyw9])/ᄱ/
+    - xform/sb(?=[aeiouflyw9])/ᄲ/
+    - xform/sq(?=[aeiouflyw9])/ᄵ/
+    - xform/sj(?=[aeiouflyw9])/ᄶ/
+    - xform/sc(?=[aeiouflyw9])/ᄷ/
+    - xform/sk(?=[aeiouflyw9])/ᄸ/
+    - xform/st(?=[aeiouflyw9])/ᄹ/
+    - xform/sp(?=[aeiouflyw9])/ᄺ/
+    - xform/sh(?=[aeiouflyw9])/ᄻ/
+    - xform/qg(?=[aeiouflyw9])/ᅁ/
+    - xform/qd(?=[aeiouflyw9])/ᅂ/
+    - xform/qm(?=[aeiouflyw9])/ᅃ/
+    - xform/qb(?=[aeiouflyw9])/ᅄ/
+    - xform/qs(?=[aeiouflyw9])/ᅅ/
+    - xform/qz(?=[aeiouflyw9])/ᅆ/
+    - xform/qq(?=[aeiouflyw9])/ᅇ/
+    - xform/qj(?=[aeiouflyw9])/ᅈ/
+    - xform/qc(?=[aeiouflyw9])/ᅉ/
+    - xform/qt(?=[aeiouflyw9])/ᅊ/
+    - xform/qp(?=[aeiouflyw9])/ᅋ/
+    - xform/jq(?=[aeiouflyw9])/ᅍ/
+    - xform/ck(?=[aeiouflyw9])/ᅒ/
+    - xform/ch(?=[aeiouflyw9])/ᅓ/
+    - xform/pb(?=[aeiouflyw9])/ᅖ/
+    - xform/pq(?=[aeiouflyw9])/ᅗ/
+    - xform/hh(?=[aeiouflyw9])/ᅘ/
+    - xform/gd(?=[aeiouflyw9])/ᅚ/
+    - xform/ns(?=[aeiouflyw9])/ᅛ/
+    - xform/nj(?=[aeiouflyw9])/ᅜ/
+    - xform/nh(?=[aeiouflyw9])/ᅝ/
+    - xform/dr(?=[aeiouflyw9])/ᅞ/
+    - xform/dm(?=[aeiouflyw9])/ꥠ/    # ext-A
+    - xform/db(?=[aeiouflyw9])/ꥡ/    # ext-A
+    - xform/ds(?=[aeiouflyw9])/ꥢ/    # ext-A
+    - xform/dj(?=[aeiouflyw9])/ꥣ/    # ext-A
+    - xform/rg(?=[aeiouflyw9])/ꥤ/    # ext-A
+    - xform/rd(?=[aeiouflyw9])/ꥦ/    # ext-A
+    - xform/rm(?=[aeiouflyw9])/ꥨ/    # ext-A
+    - xform/rb(?=[aeiouflyw9])/ꥩ/    # ext-A
+    - xform/rv(?=[aeiouflyw9])/ꥫ/    # ext-A
+    - xform/rs(?=[aeiouflyw9])/ꥬ/    # ext-A
+    - xform/rj(?=[aeiouflyw9])/ꥭ/    # ext-A
+    - xform/rk(?=[aeiouflyw9])/ꥮ/    # ext-A
+    - xform/mg(?=[aeiouflyw9])/ꥯ/    # ext-A
+    - xform/md(?=[aeiouflyw9])/ꥰ/    # ext-A
+    - xform/ms(?=[aeiouflyw9])/ꥱ/    # ext-A
+    - xform/bk(?=[aeiouflyw9])/ꥳ/    # ext-A
+    - xform/bh(?=[aeiouflyw9])/ꥴ/    # ext-A
+    - xform/qr(?=[aeiouflyw9])/ꥶ/    # ext-A
+    - xform/qh(?=[aeiouflyw9])/ꥷ/    # ext-A
+    - xform/tt(?=[aeiouflyw9])/ꥹ/    # ext-A
+    - xform/ph(?=[aeiouflyw9])/ꥺ/    # ext-A
+    - xform/hs(?=[aeiouflyw9])/ꥻ/    # ext-A
+    - xform/xx(?=[aeiouflyw9])/ꥼ/    # ext-A
+    - xform/g(?=[aeiouflyw9])/ᄀ/
+    - xform/n(?=[aeiouflyw9])/ᄂ/
+    - xform/d(?=[aeiouflyw9])/ᄃ/
+    - xform/r(?=[aeiouflyw9])/ᄅ/
+    - xform/m(?=[aeiouflyw9])/ᄆ/
+    - xform/b(?=[aeiouflyw9])/ᄇ/
+    - xform/s(?=[aeiouflyw9])/ᄉ/
+    - xform/q(?=[aeiouflyw9])/ᄋ/
+    - xform/j(?=[aeiouflyw9])/ᄌ/
+    - xform/c(?=[aeiouflyw9])/ᄎ/
+    - xform/k(?=[aeiouflyw9])/ᄏ/
+    - xform/t(?=[aeiouflyw9])/ᄐ/
+    - xform/p(?=[aeiouflyw9])/ᄑ/
+    - xform/h(?=[aeiouflyw9])/ᄒ/
+    - xform/v(?=[aeiouflyw9])/ᄫ/
+    - xform/z(?=[aeiouflyw9])/ᅀ/
+    - xform/;(?=[aeiouflyw9])/ᅌ/
+    - xform/x(?=[aeiouflyw9])/ᅙ/
+    - xform/8(?=[aeiouflyw9])/ᅟ/
+
+# nucleus
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yoyay/ᆅ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yuyey/ᆒ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yayo/ᅹ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])oyey/ᆁ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yoya/ᆄ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yoye/ᆆ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])uyey/ᆌ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yuey/ᆐ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yuye/ᆑ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yeya/ᆥ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])oyay/ᆧ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yoay/ힳ/    # ext-B
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yuay/ힷ/    # ext-B
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])iyao/ힽ/    # ext-B
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])iyay/ힾ/    # ext-B
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])iyey/ퟀ/    # ext-B
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yay/ᅤ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yey/ᅨ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])way/ᅫ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])wey/ᅰ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yao/ᅸ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yeo/ᅽ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yeu/ᅾ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])oey/ᆀ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yoo/ᆇ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yoi/ᆈ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])uay/ᆊ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])uel/ᆋ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yua/ᆎ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yue/ᆏ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yuu/ᆓ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yui/ᆔ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])lyu/ᆗ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])iya/ᆙ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yau/ᆤ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])oya/ᆦ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])oye/ힰ/    # ext-B
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])ooi/ힱ/    # ext-B
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yoa/ힲ/    # ext-B
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yoe/ힴ/    # ext-B
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])uye/ힵ/    # ext-B
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])uii/ힶ/    # ext-B
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yuo/ힸ/    # ext-B
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])ley/ힻ/    # ext-B
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])iye/ힿ/    # ext-B
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])ioi/ퟁ/    # ext-B
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])iyo/ퟂ/    # ext-B
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])iyu/ퟃ/    # ext-B
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])fey/ퟆ/    # ext-B
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])ay/ᅢ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])ya/ᅣ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])ey/ᅦ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])ye/ᅧ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])wa/ᅪ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])oy/ᅬ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yo/ᅭ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])we/ᅯ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])uy/ᅱ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])yu/ᅲ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])ly/ᅴ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])ao/ᅶ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])au/ᅷ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])eo/ᅺ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])eu/ᅻ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])el/ᅼ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])oe/ᅿ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])oo/ᆂ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])ou/ᆃ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])ua/ᆉ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])uu/ᆍ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])lu/ᆕ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])ll/ᆖ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])ia/ᆘ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])io/ᆚ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])iu/ᆛ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])il/ᆜ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])if/ᆝ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])fe/ᆟ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])fu/ᆠ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])fy/ᆡ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])ff/ᆢ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])al/ᆣ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])la/ힹ/    # ext-B
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])le/ힺ/    # ext-B
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])lo/ힼ/    # ext-B
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])ii/ퟄ/    # ext-B
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])fa/ퟅ/    # ext-B
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])9/ᅠ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])a/ᅡ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])e/ᅥ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])o/ᅩ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])u/ᅮ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])l/ᅳ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])i/ᅵ/
+    - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])f/ᆞ/
+# # semivowel
+    # - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])w/ᅮ/
+    # - xform/(?<=[ᄀ-ᅟꥠ-ꥼ])y/ᅵ/
+
+# comp jamo
+    - xform/yuyey/ㆋ/
+    - xform/yoyay/ㆈ/
+    - xform/yuye/ㆊ/
+    - xform/yoya/ㆇ/
+    - xform/yuy/ㆌ/
+    - xform/yoy/ㆉ/
+    - xform/yey/ㅖ/
+    - xform/yay/ㅒ/
+    - xform/wey/ㅞ/
+    - xform/way/ㅙ/
+    - xform/rgs/ㅩ/
+    - xform/rbs/ㅫ/
+    - xform/bsg/ㅴ/
+    - xform/bsd/ㅵ/
+    - xform/yu/ㅠ/
+    - xform/yo/ㅛ/
+    - xform/ye/ㅕ/
+    - xform/ya/ㅑ/
+    - xform/we/ㅝ/
+    - xform/wa/ㅘ/
+    - xform/vv/ㅹ/
+    - xform/uy/ㅟ/
+    - xform/ss/ㅆ/
+    - xform/sn/ㅻ/
+    - xform/sj/ㅾ/
+    - xform/sg/ㅺ/
+    - xform/sd/ㅼ/
+    - xform/sb/ㅽ/
+    - xform/rz/ㅬ/
+    - xform/rx/ㅭ/
+    - xform/rt/ㄾ/
+    - xform/rs/ㄽ/
+    - xform/rp/ㄿ/
+    - xform/rm/ㄻ/
+    - xform/rh/ㅀ/
+    - xform/rg/ㄺ/
+    - xform/rd/ㅪ/
+    - xform/rb/ㄼ/
+    - xform/qz/ㆃ/
+    - xform/qs/ㆂ/
+    - xform/qq/ㆀ/
+    - xform/pq/ㆄ/
+    - xform/oy/ㅚ/
+    - xform/nz/ㅨ/
+    - xform/ns/ㅧ/
+    - xform/nn/ㅥ/
+    - xform/nj/ㄵ/
+    - xform/nh/ㄶ/
+    - xform/nd/ㅦ/
+    - xform/mz/ㅰ/
+    - xform/ms/ㅯ/
+    - xform/mq/ㅱ/
+    - xform/mb/ㅮ/
+    - xform/ly/ㅢ/
+    - xform/jj/ㅉ/
+    - xform/hh/ㆅ/
+    - xform/gs/ㄳ/
+    - xform/gg/ㄲ/
+    - xform/fy/ㆎ/
+    - xform/ey/ㅔ/
+    - xform/dd/ㄸ/
+    - xform/bt/ㅷ/
+    - xform/bs/ㅄ/
+    - xform/bj/ㅶ/
+    - xform/bg/ㅲ/
+    - xform/bd/ㅳ/
+    - xform/bb/ㅃ/
+    - xform/ay/ㅐ/
+    - xform/z/ㅿ/
+    - xform/x/ㆆ/
+    - xform/v/ㅸ/
+    - xform/u/ㅜ/
+    - xform/t/ㅌ/
+    - xform/s/ㅅ/
+    - xform/r/ㄹ/
+    - xform/q/ㅇ/
+    - xform/p/ㅍ/
+    - xform/o/ㅗ/
+    - xform/n/ㄴ/
+    - xform/m/ㅁ/
+    - xform/l/ㅡ/
+    - xform/k/ㅋ/
+    - xform/j/ㅈ/
+    - xform/i/ㅣ/
+    - xform/h/ㅎ/
+    - xform/g/ㄱ/
+    - xform/f/ㆍ/
+    - xform/e/ㅓ/
+    - xform/d/ㄷ/
+    - xform/c/ㅊ/
+    - xform/b/ㅂ/
+    - xform/a/ㅏ/
+    - xform/;/ㆁ/
+    - xform/9/ㅤ/
+    - xform/2/〯/
+    - xform/1/〮/
+    - xform/8/ㅤ/
+# # semivowel
+    # - xform/w/ㅜ/
+    # - xform/y/ㅣ/
+
+# tone
+    - xform/(.)'(.)/$1$2/
+# already handled above
+#    - xform/1/〮/
+#    - xform/2/〯/
+
+
+#  dictionary: qyeyshanglr_hanja
+#  preedit_format:
+#     - 'xlit|gndlmbsqjcktphGDBSJaAeEoOuUiyvz|'
+
+reverse_lookup:
+  dictionary: wubikuozhan
+  prefix: "`"
+  tips: 〔五筆〕
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*$"
+
+style:
+  font_face: "HCR Dotum LVT"
+#  font_face: "HCR Batang LVT"
+#  font_face: "Noto Sans CJK KR Regular"
+
+menu:
+  alternative_select_keys: "34567"
+  page_size: 5

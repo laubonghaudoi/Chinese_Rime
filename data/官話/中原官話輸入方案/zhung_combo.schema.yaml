@@ -1,0 +1,141 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: zhung_combo
+  name: 中州羅馬字（並擊）
+  version: "0.3"
+  author:
+    - 佛振 <chen.sst@gmail.com>
+  description: |
+    並擊輸入老派鄭州話
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - chord_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - xform/^([A-Za-z]+)\d$/$1/
+    #- derive/^yi?/i/
+    #- derive/^wu?/u/
+    - derive/^wu/vu/
+    - derive/^([vw])u([in])/$1e$2/
+    - derive/^([jqx])([^i])/$1i$2/
+    - derive/ui/uei/
+    - derive/([iu])n/$1en/
+    #- derive/^([zcsr]h?)y/$1/
+    - derive/^rh/r/
+    - derive/^w(a|au|ang?|en)/v$1/
+
+chord_composer:
+  alphabet: "swxdecfrvgtbnjum ki,lo."
+  algebra:
+    - 'xlit|swxdecfrvgtbnjum ki,lo.|sczhlfgdbktpLiuVaNIUeOE|'
+    - xform/^zfb/v/
+    - xform/^zf/zh/
+    - xform/^cl/ch/
+    - xform/^fb/m/
+    - xform/^ld/n/
+    - xform/^hg/rh/
+    - xform/^g([iV])/j$1/
+    - xform/^k([iV])/q$1/
+    - xform/^h([iV])/x$1/
+    - 'xform/^a$/ /'
+    - xform/ae$/a/
+    - xform/^U$/,/
+    - xform/^E$/./
+    - xform/(ua?)IO$/$1Ne/
+    - xform/aI$/ai/
+    - xform/I[Oe]$/ei/
+    - xform/uI$/ui/
+    - xform/^gI$/ji/
+    - xform/^kI$/qi/
+    - xform/^hI$/xi/
+    - xform/I$/i/
+    - xform/VUE$/VNe/
+    - xform/V(a?)U$/i$1U/
+    - xform/aU$/au/
+    - xform/UE?$/ou/
+    - xform/([aiuV])Ne$/$1ng/
+    - xform/Ne$/eng/
+    - xform/([aiuV])N$/$1n/
+    - xform/N$/en/
+    - xform/L$/el/
+    - xform/iO$/iuo/
+    - xform/uO$/uo/
+    - xform/aO$/o/
+    - xform/O$/eo/
+    - xform/^i(ng?)$/yi$1/
+    - xform/^i$/yi/
+    - xform/^i/y/
+    - xform/^u(i|ng?)$/wu$1/
+    - xform/^u$/wu/
+    - xform/^u/w/
+    - xform/^V/yu/
+    - xform/V/iu/
+    - xform/^([jqx])i([aoeu])/$1$2/
+    - xform/^([zcsr]h)i$/$1y/
+    - xform/^([zcsr]h)i([aoeu])/$1$2/
+    - xform/^([zcsr]h)i(ng?)$/$1e$2/
+    - xlit/VE/ve/
+    - xform/^([bpmfv])$/$1u/
+    - xform/^([dtnl])$/$1i/
+    - xform/^([gkh])$/$1eo/
+    - xform/^([zcsr]h?)$/$1y/
+  output_format:
+    - "xform/^([bpmfv])([iu]|i?[ae]|uo|[ae]i|i?[ao]u|[ei]n|i?an|ang|[ei]ng)$/$1$2'/"
+    - "xform/^([dtnl])(i|i?u|i?[ae]|[eu]o|iu[eo]|[aeu]i|i?[ao]u|i?u?an|[ei]n|i?un|i?ang|[ei]ng|i?ung)$/$1$2'/"
+    - "xform/^([gkh])(u|u?[ae]|[eu]o|u?ai|[eu]i|[ao]u|u?an|[eu]n|u?ang|[eu]ng)$/$1$2'/"
+    - "xform/^([jqx]|[zcs]i?)([iu]|u?[ae]|uo|ai|[ao]u|u?an|[iu]n|[aiu]ng)$/$1$2'/"
+    - "xform/^([zcsr]h?)([yu]|u?[ae]|[eu]o|u?ai|[eu]i|[ao]u|u?an|[eu]n|u?ang|[eu]ng)$/$1$2'/"
+    - "xform/^(y?)([aeo]|[ae]i|[ao]u|[aeiu]ng?)$/$1$2'/"
+    - "xform/^(yu|w)([aeo]|[au]i|[au]ng?)$/$1$2'/"
+    - "xform/^(eo|el|yi|wu|yu)$/$1'/"
+    - "erase/^([A-Za-z]+)$/"
+  prompt_format:
+    - "xform/^(.*)$/[$1]/"
+
+translator:
+  dictionary: zhung
+  prism: zhung_combo
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default

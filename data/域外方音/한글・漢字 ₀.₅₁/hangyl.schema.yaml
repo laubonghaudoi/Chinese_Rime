@@ -1,0 +1,139 @@
+# Rime schema
+# vim: set sw=2 sts=2 et:
+# encoding: utf-8
+
+schema:
+  schema_id: hangyl
+  name: 한글 ₀.₉₂
+  version: "0.92"
+  author:
+    - Patrick <ipatrickmac@me.com>
+  description: |
+    한글입력법 for Rime
+    ㄱg ㄴn ㄷd ㄹlr ㅁm ㅂbv ㅅs ㅇqx
+    ㅈjz ㅊc ㅋk ㅌt ㅍpf ㅎh
+    ㅏaㅐai ㅑia ㅒiai ㅓe ㅔei ㅕie ㅖiei
+    ㅗo ㅘoa ㅙoai ㅚoi ㅛio
+    ㅜu ㅝue ㅞuei ㅟui ㅠiu
+    ㅡy ㅢyi ㅣi
+
+switches:
+  - name: half_shape
+    states: [ 半角, 全角 ]
+    reset: 0
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+    - fluency_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+    - echo_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba'
+  initials: 'zyxwvutsrqponmlkjihgfedcba'
+  delimiter: " '"
+  algebra:
+    - abbrev/^([gndlmbsqjcktph]).+$/$1/
+    - derive/(^|[ '])q?([aeiouy])/$1$2/
+    - derive/q$/ng/
+    - derive/q/x/
+    - derive/l/r/
+    - derive/b/v/
+    - derive/p/f/
+    - derive/j/z/
+    - derive/u/w/
+    - derive/oa/wa/
+    - derive/u([ei])/w$1/
+    - derive/ue/wo/
+    - derive/i([aeou])/y$1/
+    - derive/^([A-Za-z]+)\d$/$1/
+
+translator:
+  dictionary: hangyl
+  prism: hangyl
+  spelling_hints: 9
+  preedit_format:
+    - xform/'/ /
+    - xform/(^|[ '])([qx])/$1/
+    - xform/([qx])/ng/
+  comment_format:
+    - xform/(^|[ '])q/$1/
+    - xform/q/ng/
+
+reverse_lookup:
+  dictionary: hangyl_hanja
+  prefix: "`"
+  tips: 〔漢字・한자〕
+  comment_format:
+    - xform/(^|[ '])q/$1/
+    - xform/q/ng/
+
+punctuator:
+  import_preset: default
+  full_shape:
+    "$" : [ ￦, ￥, "$", "€", "£", "¥", "¢", "¤" ]
+  half_shape:
+    "$" : [ ₩, "$", "€", "£", "¥", "¢", "¤" ]
+    "," : { commit: "," }
+    "." : { commit: "." }
+    "<" : "<"
+    ">" : ">"
+    "/" : "/"
+    "?" : { commit: "?" }
+    ";" : { commit: ";" }
+    ":" : { commit: ":" }
+    "'" : "'"
+    "\"" : "\""
+    "\\" : "\\"
+    "|" : "|"
+    "`" : "`"
+    "~" : "~"
+    "!" : { commit: "!" }
+    "@" : "@"
+    "#" : "#"
+    "%" : "%"
+    "^" : "^"
+    "&" : "&"
+    "*" : "*"
+    "(" : "("
+    ")" : ")"
+    "-" : "-"
+    "_" : "_"
+    "+" : "+"
+    "=" : "="
+    "[" : "["
+    "]" : "]"
+    "{" : "{"
+    "}" : "}"
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*$"
+
+abc_segmentor:
+  extra_tags:
+    #- reverse_lookup

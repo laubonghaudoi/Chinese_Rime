@@ -1,0 +1,225 @@
+# lakyang_chuim.schema.yaml
+# Rime schema
+# vim: set sw=2 sts=2 et:
+# encoding: utf-8
+
+schema:
+  schema_id: lakyang_chuim
+  name: "洛陽註音 ₀.₉ᵦ"
+  version: "0.9β5"
+  author:
+    - Patrick <ipatrickmac@me.com>
+  description: |
+    洛陽註音
+    中原官話洛陽方言
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: ["中文", "西文"]
+  - name: full_shape
+    states: ["半角", "全角"]
+  - name: dzing
+    states: ["傳統", "自定"]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+    - fluency_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+    - echo_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: "zyxwvutsrqponmlkjihgfedcba-:;/<,\\"
+  initials: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  #use_space: true
+  algebra:
+    - erase/^xx$/
+    - derive/([aeiouwy])m/$1n/
+    - derive/([aeiouwy])([ptk])/$1/
+    - derive/^ji?([aeou]?)/gi$1/
+    - derive/^qi?([aeou]?)/ki$1/
+    - derive/^xi?([aeou]?)/hi$1/
+    - derive/^([jqx])([aeo])/$1i$2/
+    - derive/^ngi/yi/
+    - derive/^ngi([aeou])/y$1/
+    - derive/^ng([u])/w$1/
+    - derive/^ngu([aeio])/w$1/
+    - derive/^ng([aeou]|yu)/$1/
+    - derive/^([wv])u([in]|ng)/$1e$2/
+    - derive/([zscr]h?)y([ptk]?)/$1$2/
+    - derive/([w]?)ung/ong/
+    - derive/wung/wong/
+    - derive/wu/u/
+    - derive/au/ao/
+    - derive/^([bpmfgkhy])uo/$1o/
+    - derive/([zcsjqx])([yi]u)(et)/$1y$3/
+    - derive/([dtnlzcs]|ng)o/$1ou/
+    - "derive/^([a-z]+)\\d$/$1/"
+    - "abbrev/^([zcs]h).+$/$1/"
+    - "abbrev/^([a-z]).+$/$1/"
+    - "xlit 1234 :/<\\"
+    - "derive/^(.*)<$/$1,/"
+    - "derive/^(.*):$/$1;/"
+    - "derive/^(.*):$/$1-/"
+
+translator:
+  dictionary: lakyang
+  prism: lakyang_chuim
+  spelling_hints: 0
+  preedit_format:
+    - xform/'/ /
+    - xform/([aeiou]|yu)h/$1=/
+    - xform/wu/u/
+    - xform/w?([ou])ng/uG/
+    - xform/w([aou])/u$1/
+    - xform/([uw])e?i/uE/
+    - xform/ang/K/
+    - xform/eng/G/
+    - xform/([iuY])ng/$1G/
+    - xform/[yo|i]u/iU/
+    - xform/yo([k]?)/Yo$1/
+    - xform/([zcsjqx])yet/$1Yet/
+    - xform/([jqx])u/$1Y/
+    - xform/([iy])u/Y/
+    - xform/(^|[ '])yi?/$1i/
+    - xform/([zcsr]h?)y/$1/
+    - xform/([zcsr])h/\U$1/
+    - xform/(e[ao]|oe)/O/
+    - xform/([mfgkhjqx])ou/$1U/
+    - xform/([bpmfgkh])o([ptk]?)/$1uo$2/
+    - xform/([mdtnlgkhjqxzcs]i?|[zcsr]h?|ng)ou?([ptk]?)/$1U$2/
+    - xform/(e[ur]|e?w)/W/
+    - xform/rh?/R/
+    - xform/a([ie])/I/
+    - xform/ei/E/
+    - xform/a([ou])/A/
+    - xform/ou/U/
+    - xform/an/M/
+    - xform/([iuY]|[jqx])am/$1em/
+    - xform/en/N/
+    - xform/([iuY])n/$1N/
+    - xform/ng([iuYWaoOeIEAUMNKG])/Q$1/
+    - xform/ng/Q/
+    - xlit|-;,|::<|
+    - 'xlit|bpmfvdtnlgkhjqxZCSRzcsiuYWaoOeIEAUMNKGQ=:/<\|ㄅㄆㄇㄈㄪㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄦㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄫ〃ˉˊˆˋ|'
+  comment_format:
+    - "xform ([aeo])([iu])([ptk]?)([1234]) $1$4$2$3"
+    - "xform ([aeiouyw])([rwmptk]?|ng?)([1234]) $1$3$2"
+    - "xform/c([aouw])/ç$1/"
+    - "xform a1 ä"
+    - "xform a2 á"
+    - "xform a3 â"
+    - "xform a4 à"
+    - "xform e1 ë"
+    - "xform e2 é"
+    - "xform e3 ê"
+    - "xform e4 è"
+    - "xform o1 ö"
+    - "xform o2 ó"
+    - "xform o3 ô"
+    - "xform o4 ò"
+    - "xform i1 ï"
+    - "xform i2 í"
+    - "xform i3 î"
+    - "xform i4 ì"
+    - "xform u1 ü"
+    - "xform u2 ú"
+    - "xform u3 û"
+    - "xform u4 ù"
+    - "xform y1 ÿ"
+    - "xform y2 ý"
+    - "xform y3 ŷ"
+    - "xform y4 ỳ"
+    - "xform w1 ẅ"
+    - "xform w2 ẃ"
+    - "xform w3 ŵ"
+    - "xform w4 ẁ"
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  tips: 〔朙月拼音〕
+  preedit_format:
+    - xform/([nljqxy])v/$1ü/
+  comment_format:
+    - "xform ([aeo])([iu])([ptk]?)([1234]) $1$4$2$3"
+    - "xform ([aeiouyw])([rwmptk]?|ng?)([1234]) $1$3$2"
+    - "xform/c([aouw])/ç$1/"
+    - "xform a1 ä"
+    - "xform a2 á"
+    - "xform a3 â"
+    - "xform a4 à"
+    - "xform e1 ë"
+    - "xform e2 é"
+    - "xform e3 ê"
+    - "xform e4 è"
+    - "xform o1 ö"
+    - "xform o2 ó"
+    - "xform o3 ô"
+    - "xform o4 ò"
+    - "xform i1 ï"
+    - "xform i2 í"
+    - "xform i3 î"
+    - "xform i4 ì"
+    - "xform u1 ü"
+    - "xform u2 ú"
+    - "xform u3 û"
+    - "xform u4 ù"
+    - "xform y1 ÿ"
+    - "xform y2 ý"
+    - "xform y3 ŷ"
+    - "xform y4 ỳ"
+    - "xform w1 ẅ"
+    - "xform w2 ẃ"
+    - "xform w3 ŵ"
+    - "xform w4 ẁ"
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+  bindings:
+    - { when: composing, accept: minus, send: minus }
+    - { when: composing, accept: equal, send: equal }
+    - { when: composing, accept: period, send: period }
+    - { when: has_menu, accept: minus, send: minus }
+    - { when: has_menu, accept: equal, send: equal }
+    - { when: has_menu, accept: period, send: period }
+    - { when: always, accept: Control+Shift+4, toggle: dzing }
+    - { when: always, accept: Control+Shift+dollar, toggle: dzing }
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*$"
+    punct: '^/[a-z]*$'
+
+simplifier:
+  opencc_config: dzing.ini
+  option_name: dzing
+  tip: all
+
+style:
+  font_face: sin mienglan
