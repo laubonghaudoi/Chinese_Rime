@@ -159,6 +159,7 @@ Linux、OS X与其他Windows版本系统下操作同理。
         - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
         - [古音手鏡](http://www.guguolin.com/)
     - 粤语
+        - [南宁白话](https://leimaau.github.io/book/)
         - [貴州韻](https://github.com/tengtengteng/gvaizauvan/wiki)
     - 闽语
         - [平話字表 (閩東語‣福州話)](https://only3km.github.io/ciklinbekin/)
@@ -351,6 +352,7 @@ Linux、OS X與其他Windows版本系統下操作同理。
         - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
         - [古音手鏡](http://www.guguolin.com/)
     - 粵語
+        - [南宁白话](https://leimaau.github.io/book/)
         - [貴州韻](https://github.com/tengtengteng/gvaizauvan/wiki)
     - 閩語
         - [平話字表 (閩東語‣福州話)](https://only3km.github.io/ciklinbekin/)
@@ -543,6 +545,7 @@ For detailed information of the collected schemas in the download packege, pleas
         - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
         - [古音手鏡](http://www.guguolin.com/)
     - Yue (Cantonese)
+        - [南宁白话](https://leimaau.github.io/book/)
         - [貴州韻](https://github.com/tengtengteng/gvaizauvan/wiki)
     - Min (Hokkien)
         - [平話字表 (閩東語‣福州話)](https://only3km.github.io/ciklinbekin/)
