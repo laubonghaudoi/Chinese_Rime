@@ -50,6 +50,9 @@ Linux、OS X与其他Windows版本系统下操作同理。
     - 袖珍粵拼 - `jyutping_compact`
     - 耶鲁粤语拼音 - `yale`
     - 梧州白話 - `NgZjau_JyutPing`
+    - 南寧白話輸入方案
+      - 南寧白話 - `naamning_jyutping`
+      - 南寧白話(IPA) - `naamning_jyutping_IPA`
     - 沟漏片藤县白话输入方案 - `jutjnyu_gaulaupin_dangjunbikwaa`
     - 貴州韻 - `gvaizauvan`
 - 闽语
@@ -181,6 +184,7 @@ Linux、OS X与其他Windows版本系统下操作同理。
 - [Hector Sioh](https://github.com/only3km)
 - [inzoi](https://github.com/inzoi)
 - [lois.左](https://github.com/xunux)
+- [LeiMaau](https://github.com/leimaau)
 - [osfans](https://github.com/osfans)
 - [Patrick T.](https://github.com/Patricivs)
 - [Tenda Huang](https://github.com/Kahaani)
@@ -238,6 +242,9 @@ Linux、OS X與其他Windows版本系統下操作同理。
     - 袖珍粵拼 - `jyutping_compact`
     - 耶鲁粤语拼音 - `yale`
     - 梧州白話 - `NgZjau_JyutPing`
+    - 南寧白話輸入方案
+      - 南寧白話 - `naamning_jyutping`
+      - 南寧白話(IPA) - `naamning_jyutping_IPA`
     - 沟漏片藤县白话输入方案 - `jutjnyu_gaulaupin_dangjunbikwaa`
     - 貴州韻 - `gvaizauvan`
 - 閩語
@@ -368,6 +375,7 @@ Linux、OS X與其他Windows版本系統下操作同理。
 - [cryptogun](https://github.com/cryptogun)
 - [Hector Sioh](https://github.com/only3km)
 - [inzoi](https://github.com/inzoi)
+- [LeiMaau](https://github.com/leimaau)
 - [lois.左](https://github.com/xunux)
 - [osfans](https://github.com/osfans)
 - [Patrick T.](https://github.com/Patricivs)
@@ -426,6 +434,9 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
     - 袖珍粵拼 - `jyutping_compact`
     - 耶鲁粤语拼音 - `yale`
     - 梧州白話 - `NgZjau_JyutPing`
+    - 南寧白話輸入方案
+      - 南寧白話 - `naamning_jyutping`
+      - 南寧白話(IPA) - `naamning_jyutping_IPA`
     - 沟漏片藤县白话输入方案 - `jutjnyu_gaulaupin_dangjunbikwaa`
     - 貴州韻 - `gvaizauvan`
 - Min (Hokkien)
@@ -556,6 +567,7 @@ For detailed information of the collected schemas in the download packege, pleas
 - [cryptogun](https://github.com/cryptogun)
 - [Hector Sioh](https://github.com/only3km)
 - [inzoi](https://github.com/inzoi)
+- [LeiMaau](https://github.com/leimaau)
 - [lois.左](https://github.com/xunux)
 - [osfans](https://github.com/osfans)
 - [Patrick T.](https://github.com/Patricivs)
