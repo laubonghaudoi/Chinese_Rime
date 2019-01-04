@@ -10,20 +10,7 @@
 
 ## 使用教程
 
-若要在自己的Rime输入法中添加某一输入方案，只需将该方案的`.dict.yaml`和`.schema.yaml`文件复制到用户文件夹下，然后在`default.yaml`中添加方案名称，再重新部署即可。
-
-例如使用Win10系统下的PIME输入法，要添加上古全拼输入方案`dkzp`，则只需将`dkzp.dict.yaml`和`dkzp.schema.yaml`两个文件复制到路径`C:\Users\用户名\AppData\Roaming\PIME\Rime`下，然后打开该路径下的`default.yaml`，在`schema_list:`后加入`- schema: dkzp`，如下：
-
-```yaml
-schema_list:
-  - schema: XXX
-  - schema: YYY
-  - schema: dkzp
-```
-
-保存后重新部署，再按Ctrl+`即可在菜单中选择上古全拼方案。
-
-Linux、OS X与其他Windows版本系统下操作同理。
+### [汉语方言拼音输入](https://laubonghaudoi.github.io/dialects/)
 
 ## 已收录方案
 
@@ -203,20 +190,7 @@ Linux、OS X与其他Windows版本系统下操作同理。
 
 ## 使用教程
 
-若要在自己的Rime輸入法中添加某一輸入方案，只需將該方案的`.dict.yaml`和`.schema.yaml`文件復制到用戶文件夾下，然後在`default.yaml`中添加方案名稱，再重新部署即可。
-
-例如使用Win10系統下的PIME輸入法，要添加上古全拼輸入方案`dkzp`，則只需將`dkzp.dict.yaml`和`dkzp.schema.yaml`兩個文件復制到路徑`C:\Users\用戶名\AppData\Roaming\PIME\Rime`下，然後打開該路徑下的`default.yaml`，在`schema_list:`後加入`- schema: dkzp`，如下：
-
-```yaml
-schema_list:
-  - schema: XXX
-  - schema: YYY
-  - schema: dkzp
-```
-
-保存後重新部署，再按Ctrl+`即可在菜單中選擇上古全拼方案。
-
-Linux、OS X與其他Windows版本系統下操作同理。
+### [漢語方言拼音輸入](https://laubonghaudoi.github.io/dialects/)
 
 ## 已收錄方案
 
@@ -410,6 +384,10 @@ schema_list:
 Then save and re-deploy, and press Ctrl+`. You will see the Archaic Chinese schema available in the menu.
 
 Steps are the similar under Linux, OS X and other versions of Windows operating systems.
+
+For detailed steps and explanations, check out this website (Chinese only):
+
+### [漢語方言拼音輸入](https://laubonghaudoi.github.io/dialects/)
 
 ## Collected Schemas
 
