@@ -4,7 +4,7 @@
 
 ## 项目宗旨
 
-本仓库收集现代汉语各大方言及上古、中古汉语的Rime字库和拼音输入方案。本项目的宗旨是为汉语非普通话使用者提供实用的拼音输入方案，解决被迫使用普通话输入法的困难，并为现代汉语方言、古汉语学习者提供实用便利的学习工具以及为语言学界学术研究提供参考资料。
+本仓库收集现代汉语各大方言及上古、中古汉语的Rime字库和拼音输入方案。本项目的宗旨是为汉语非普通话使用者提供实用的拼音输入方案，解决被迫使用普通话输入法的困难，并为现代汉语方言、古汉语学习者提供实用便利的学习工具以及为语言学界学术研究提供参考资料。关于本项目理念的详细介绍请阅读[本文](https://laubonghaudoi.github.io/dialects/blog/mission.html)。
 
 本仓库分为三部分：`sources/`路径下为各个输入方案的来源仓库，以submodule的形式保存，方便方案作者实时更新自己的方案。由于部分方案不存在于Github，故此路径下方案收录不完整，`data/`路径下为已收录所有方案文件，我会检查`sources/`下各个方案的更新情况并将最新版本方案覆盖至`data/`中。而`download/`路径下则为用于发布的下载整合包，包括各个语言的唯一权威版拼音，以方便用户直接部署使用。
 
@@ -184,7 +184,7 @@
 
 ## 項目宗旨
 
-本倉庫收集現代漢語各大方言及上古、中古漢語的Rime字庫和拼音輸入方案。本項目的宗旨是爲漢語非普通話使用者提供實用的拼音輸入方案，解決被迫使用普通話輸入法的困難，並爲現代漢語方言、古漢語學習者提供實用便利的學習工具以及爲語言學界學術研究提供參考資料。
+本倉庫收集現代漢語各大方言及上古、中古漢語的Rime字庫和拼音輸入方案。本項目的宗旨是爲漢語非普通話使用者提供實用的拼音輸入方案，解決被迫使用普通話輸入法的困難，並爲現代漢語方言、古漢語學習者提供實用便利的學習工具以及爲語言學界學術研究提供參考資料。關於本項目理念的詳細介紹請閱讀[本文](https://laubonghaudoi.github.io/dialects/blog/mission.html)。
 
 本倉庫分爲三部分：`sources/`路徑下爲各個輸入方案的來源倉庫，而submodule的形式保存，方便方案作者實時更新自己的方案。由於部分方案不存在於Github，故此路徑下方案收錄不完整，`data/`路徑下爲已收錄所有方案文件，我會檢查`sources/`下各個方案的更新情況並將最新版本方案覆蓋至`data/`中。而`/download`路徑下則爲用於發佈的下載整合包，包括各個語言的唯一權威版拼音，以方便用戶直接部署使用。
 
@@ -364,11 +364,15 @@
 
 ## The Mission of this Project
 
-This repo collects the Rime phonetic spelling input method schemas and vocabularies for Archaic Chinese, Middle Chinese and modern Chinese dialects. This project is dedicated to providing useful phonetic spelling input methods for all non-Mandarin Chinese dialects, preventing the stale where non-Mandarin Chinese speakers are compelled to use Mandarin input methods. In addition, this project also serves as a useful tool for Chinese dialect learners and a reference for linguistic research.
+This repo collects the Rime phonetic spelling input method schemas and character tables for Old Chinese, Middle Chinese and modern Chinese dialects. This project is aimed to provide useful phonetic spelling input methods for all non-Mandarin Chinese dialects, preventing the stale where non-Mandarin Chinese speakers are compelled to use Mandarin input methods. In addition, this project also serves as a useful tool for Chinese dialect learners as well as a reference for linguistic researches. For detailed explanations of the purpose and motivation of this project, please read [this page](https://laubonghaudoi.github.io/dialects/blog/mission.html) (Chinese only).
 
-This repo works as three parts. Folders under the `sources/` directory are the sources of some schemas, which are preserved as submodules so that authors of these repos can keep their schemas up to date. Since not all schemas are created on Github, the collection of schemas under this directory is incomplete. I will check the version of schemas under `sources/` and copy the newest version to `data/`. The folders under `download/` contain only the prestiged schema for each language, so that users can download, deploy and use these off-the-shelf schemas conveniently.
+This repo works as three parts. Folders under the `sources/` directory are the sources of some schemas, which are preserved as submodules so that the schema designers can keep their schemas up to date. Since not all schemas are created on Github, the collection under this directory is incomplete. I will check the version of schemas under `sources/` and copy the newest version to `data/`. The folders under `download/` contain only the schema for the prestiged dialect of each language, so that users can download, deploy and use these off-the-shelf schemas conveniently.
 
 ## Tutorial
+
+For detailed steps and explanations, check out this website (Chinese only):
+
+### [漢語方言拼音輸入](https://laubonghaudoi.github.io/dialects/)
 
 To add support for a certain schema to your Rime input method, simply copy the `.dict.yaml` and `.schema.yaml` to the user folder, then append the schema id in `default.yaml` and re-deploy.
 
@@ -384,10 +388,6 @@ schema_list:
 Then save and re-deploy, and press Ctrl+`. You will see the Archaic Chinese schema available in the menu.
 
 Steps are the similar under Linux, OS X and other versions of Windows operating systems.
-
-For detailed steps and explanations, check out this website (Chinese only):
-
-### [漢語方言拼音輸入](https://laubonghaudoi.github.io/dialects/)
 
 ## Collected Schemas
 
