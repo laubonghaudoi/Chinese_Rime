@@ -1,6 +1,6 @@
 # Rime輸入法漢語方言拼音方案全集
 
-**[中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#rime%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)    [English](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#collection-of-rime-input-method-schemas-for-chinese-dialects)**
+**[中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#rime%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)        [English](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#collection-of-rime-input-method-schemas-for-chinese-dialects)**
 
 ## 項目宗旨
 
@@ -10,8 +10,7 @@
 
 ## 使用教程（项目网站）
 
-<a href="https://laubonghaudoi.github.io/dialects/">
-<button style="font-size : 40px; width: 100%; height: 140px;">漢語方言拼音輸入</button></a>
+### [**漢語方言拼音輸入**](https://laubonghaudoi.github.io/dialects/)
 
 ## 已收錄方案
 
@@ -190,14 +189,13 @@ This repo collects the Rime phonetic spelling input method schemas and character
 
 This repo works as three parts. Folders under the `sources/` directory are the sources of some schemas, which are preserved as submodules so that the schema designers can keep their schemas up to date. Since not all schemas are created on Github, the collection under this directory is incomplete. I will check the version of schemas under `sources/` and copy the newest version to `data/`. The folders under `download/` contain only the schema for the prestiged dialect of each language, so that users can download, deploy and use these off-the-shelf schemas conveniently.
 
-## Tutorial 
+## Tutorial
 
-### Detailed introduction (Project Website)
+### Detailed Introduction (Project Website)
 
 For detailed steps and explanations, check out this website (Chinese only):
 
-<a href="https://laubonghaudoi.github.io/dialects/">
-<button style="font-size : 40px; width: 100%; height: 140px;">漢語方言拼音輸入</button></a>
+### [**漢語方言拼音輸入**](https://laubonghaudoi.github.io/dialects/)
 
 ### Short Introduction
 
@@ -271,7 +269,7 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
         - 福州話字典 - `dfd`
 - Hakka
     - 客拼 - `hakka_pinyin`
-- Wu
+- Wu (Goetian)
     - 蘇州吳語 - `soutzoe`
     - 上海吳語輸入方案 
       - 上海吳語 - `wugniu_lopha`
@@ -326,7 +324,7 @@ For detailed information of the collected schemas in the download packege, pleas
     - (All from Github)
 - Hakka
     - (All from Github)
-- Wu
+- Wu (Goetian)
     - (Obsolete)[吳語注音輸入方案吳語學堂版](http://www.wugniu.com/main/index.php?s=/Home/Article/detail/id/10.html)
 - Mandarin
     - (All from Github)
@@ -363,7 +361,7 @@ For detailed information of the collected schemas in the download packege, pleas
     - Hakka
         - [薪典](http://syndict.com/)
         - [客語萌典](https://www.moedict.tw/:%E7%99%BC%E8%8A%BD)
-    - Wu
+    - Wu (Goetian)
         - [吴语学堂](https://wugniu.com/)
         - [吴语协会 通用吴语拼音](http://wu-chinese.com/romanization/)
         - [吴语协会 吴音小字典](http://wu-chinese.com/minidict/)
