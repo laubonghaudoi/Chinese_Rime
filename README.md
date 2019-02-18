@@ -14,7 +14,7 @@
 
 ## 已收錄方案
 
-目前**主要缺失閩北語、蒲仙語、平語、湘語、贛語、徽語、西南官話、蘭銀官話、江淮官話、膠遼官話**的輸入方案，如有作者已編寫以上語言的輸入方案，歡迎聯系我添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
+目前**主要缺失閩北語、蒲仙語、平話、湘語、贛語、徽語、西南官話、蘭銀官話、膠遼官話**的輸入方案，如有作者已編寫以上語言的輸入方案，歡迎聯系我添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
 - 上古漢語
     - 上古全拼 - `dkzp`
@@ -100,6 +100,7 @@
     - 棗莊話羅馬字輸入方案
         - 嶧州話傳統羅馬字 - `yihdjoouhuah`
         - 嶧州話羅馬字 - `yihjoouhuah_romatzyh`
+    - 南京官話拼音 - `langjin`
 - 域外方音
     - 옛한글・漢字 - `qyeyshanglr_hanja`
     - 한글・漢字 - `hangyl_hanja`
@@ -164,6 +165,8 @@
         - [吴语协会 通用吴语拼音](http://wu-chinese.com/romanization/)
         - [吴语协会 吴音小字典](http://wu-chinese.com/minidict/)
         - [吳語注音法](http://input.foruto.com/wu/method.html)
+    - 官話
+      - [南京話拼音教程](https://uliloewi.github.io/LangJinPinIn/SUMMARY)
   
 ## 致謝（按字母-筆畫順序排列）
 
@@ -178,10 +181,13 @@
 - [Patrick T.](https://github.com/Patricivs)
 - [Tenda Huang](https://github.com/Kahaani)
 - [tsauibusato](https://github.com/tsauibusato)
+- [uliloewi](https://github.com/uliloewi)
 - [佛振](https://github.com/lotem)
 - [滕謄](https://github.com/tengtengteng)
 
 # Collection of Rime Input Method Schemas for Chinese Dialects
+
+**[中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#rime%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)        [English](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#collection-of-rime-input-method-schemas-for-chinese-dialects)**
 
 ## The Mission of this Project
 
@@ -216,7 +222,7 @@ Steps are the similar under Linux, OS X and other versions of Windows operating 
 
 ## Collected Schemas
 
-At the moment this is collection **is missing the schemas for Northern Min, Pu-Xian Min, Pinghua, Xiang, Gan, Huizhou, Lower Yangtze Mandarin, Lan–Yin Mandarin, Southwestern Mandarin**. If you have composed a schema for any of the languages above, please contact me to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
+At the moment this is collection **is missing the schemas for Northern Min, Pu-Xian Min, Pinghua, Xiang, Gan, Huizhou, Lan–Yin Mandarin, Southwestern Mandarin**. If you have composed a schema for any of the languages above, please contact me to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
 
 - Archaic Chinese
     - 上古全拼 - `dkzp`
@@ -302,6 +308,7 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
     - 棗莊話羅馬字輸入方案
         - 嶧州話傳統羅馬字 - `yihdjoouhuah`
         - 嶧州話羅馬字 - `yihjoouhuah_romatzyh`
+    - 南京官話拼音 - `langjin`
 - Foreign Dialects
     - 옛한글・漢字 - `qyeyshanglr_hanja`
     - 한글・漢字 - `hangyl_hanja`
@@ -366,6 +373,8 @@ For detailed information of the collected schemas in the download packege, pleas
         - [吴语协会 通用吴语拼音](http://wu-chinese.com/romanization/)
         - [吴语协会 吴音小字典](http://wu-chinese.com/minidict/)
         - [吳語注音法](http://input.foruto.com/wu/method.html)
+    - Mandarin
+      - [南京話拼音教程](https://uliloewi.github.io/LangJinPinIn/SUMMARY)
   
 ## Acknowledgements (In alphabetical and strokes order)
 
@@ -380,5 +389,6 @@ For detailed information of the collected schemas in the download packege, pleas
 - [Patrick T.](https://github.com/Patricivs)
 - [Tenda Huang](https://github.com/Kahaani)
 - [tsauibusato](https://github.com/tsauibusato)
+- [uliloewi](https://github.com/uliloewi)
 - [佛振](https://github.com/lotem)
 - [滕謄](https://github.com/tengtengteng)
