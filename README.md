@@ -1,4 +1,4 @@
-# Rime輸入法漢語方言拼音方案全集
+# 中州韻輸入法漢語方言拼音方案全集
 
 **[中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#rime%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)        [English](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#collection-of-rime-input-method-schemas-for-chinese-dialects)**
 
@@ -6,7 +6,7 @@
 
 本倉庫收集現代漢語各大方言及上古、中古漢語的Rime字庫和拼音輸入方案。本項目的宗旨是爲漢語非普通話使用者提供實用的拼音輸入方案，解決被迫使用普通話輸入法的困難，並爲現代漢語方言、古漢語學習者提供實用便利的學習工具以及爲語言學界學術研究提供參考資料。關於本項目理念的詳細介紹請閱讀[本文](https://laubonghaudoi.github.io/dialects/blog/mission.html)。
 
-本倉庫分爲三部分：`sources/`路徑下爲各個輸入方案的來源倉庫，而submodule的形式保存，方便方案作者實時更新自己的方案。由於部分方案不存在於Github，故此路徑下方案收錄不完整，`data/`路徑下爲已收錄所有方案文件，我會檢查`sources/`下各個方案的更新情況並將最新版本方案覆蓋至`data/`中。而`/download`路徑下則爲用於發佈的下載整合包，包括各個語言的唯一權威版拼音，以方便用戶直接部署使用。
+本倉庫分爲三部分：`sources/`路徑下爲各個輸入方案的來源倉庫，而submodule的形式保存，方便方案作者實時更新自己的方案。由於部分方案不存在於Github，故此路徑下方案收錄不完整，`data/`路徑下爲已收錄所有方案文件，我會檢查`sources/`下各個方案的更新情況並將最新版本方案覆蓋至`data/`中。`/download`路徑用於存放各個語言的唯一權威版拼音，即爲[發佈頁面](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases)的下載整合包，方便用戶直接部署使用。
 
 ## 使用教程（项目网站）
 
@@ -143,6 +143,8 @@
     - [复旦大学东亚语言数据中心](http://ccdc.fudan.edu.cn)
     - [家乡话](http://jiaxianghua.org)
     - [鄉音苑](http://phonemica.net/)
+    - [韻典網](https://ytenx.org/)
+    - [古今文字集成](http://www.ccamc.co/index.php)
 - 語言學習資源
     - 中古漢語
         - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
@@ -191,9 +193,9 @@
 
 ## The Mission of this Project
 
-This repo collects the Rime phonetic spelling input method schemas and character tables for Old Chinese, Middle Chinese and modern Chinese dialects. This project is aimed to provide useful phonetic spelling input methods for all non-Mandarin Chinese dialects, preventing the stale where non-Mandarin Chinese speakers are compelled to use Mandarin input methods. In addition, this project also serves as a useful tool for Chinese dialect learners as well as a reference for linguistic researches. For a full statement of the mission and motivation of this project, please read [this page](https://laubonghaudoi.github.io/dialects/blog/mission.html) (Chinese only).
+This repo collects the Rime phonetic spelling input method schemas and character tables for Old Chinese, Middle Chinese and modern Chinese topolects(dialects). This project is aimed to provide useful phonetic spelling input methods for all non-Mandarin Chinese topolects(dialects), preventing the stale where non-Mandarin Chinese speakers are compelled to use Mandarin input methods. In addition, this project also serves as a useful tool for Chinese topolect/dialect learners as well as a reference for linguistic researches. For a full statement of the mission and motivation of this project, please read [this page](https://laubonghaudoi.github.io/dialects/blog/mission.html) (Chinese only).
 
-This repo works as three parts. Folders under the `sources/` directory are the sources of some schemas, which are preserved as submodules so that the schema designers can keep their schemas up to date. Since not all schemas are created on Github, the collection under this directory is incomplete. I will check the version of schemas under `sources/` and copy the newest version to `data/`. The folders under `download/` contain only the schema for the prestiged dialect of each language, so that users can download, deploy and use these off-the-shelf schemas conveniently.
+This repo works as three parts. Folders under the `sources/` directory are the sources of some schemas, which are preserved as submodules so that the schema designers can keep their schemas up to date. Since not all schemas are created on Github, the collection under this directory is incomplete. I will check the version of schemas under `sources/` and copy the newest version to `data/`. The `download/` directory serves as the folder for the [realeased](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) packages， which contains only the schema for the prestiged dialect of each language. Hence users can download, deploy and use these off-the-shelf schemas conveniently.
 
 ## Tutorial
 
@@ -351,6 +353,8 @@ For detailed information of the collected schemas in the download packege, pleas
     - [复旦大学东亚语言数据中心](http://ccdc.fudan.edu.cn)
     - [家乡话](http://jiaxianghua.org)
     - [Phonemica](http://phonemica.net/)
+    - [韻典網](https://ytenx.org/)
+    - [古今文字集成](http://www.ccamc.co/index.php)
 - Language Learning Resources
     - Middle Chinese
         - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
