@@ -145,6 +145,7 @@
     - [鄉音苑](http://phonemica.net/)
     - [韻典網](https://ytenx.org/)
     - [古今文字集成](http://www.ccamc.co/index.php)
+    - [篇韻データベース](http://suzukish.s252.xrea.com/search/)
 - 語言學習資源
     - 中古漢語
         - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
@@ -355,6 +356,7 @@ For detailed information of the collected schemas in the download packege, pleas
     - [Phonemica](http://phonemica.net/)
     - [韻典網](https://ytenx.org/)
     - [古今文字集成](http://www.ccamc.co/index.php)
+    - [篇韻データベース](http://suzukish.s252.xrea.com/search/)
 - Language Learning Resources
     - Middle Chinese
         - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
