@@ -1,6 +1,6 @@
 # 中州韻輸入法漢語方言拼音方案全集
 
-**[中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#rime%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)        [English](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#collection-of-rime-input-method-schemas-for-chinese-dialects)**
+**[中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#%E4%B8%AD%E5%B7%9E%E9%9F%BB%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)        [English](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#collection-of-rime-input-method-schemas-for-chinese-dialects)**
 
 ## 項目宗旨
 
@@ -69,7 +69,7 @@
     - 客拼 - `hakka_pinyin`
 - 吳語
     - 蘇州吳語 - `soutzoe`
-    - 上海吳語輸入方案 
+    - 上海吳語輸入方案
       - 上海吳語 - `wugniu_lopha`
       - 上海新派 - `wugniu`
     - 吳語注音輸入方案吳語學堂版
@@ -169,7 +169,7 @@
         - [吳語注音法](http://input.foruto.com/wu/method.html)
     - 官話
       - [南京話拼音教程](https://uliloewi.github.io/LangJinPinIn/SUMMARY)
-  
+
 ## 致謝（按字母-筆畫順序排列）
 
 - [a-thok](https://github.com/a-thok)
@@ -189,7 +189,7 @@
 
 # Collection of Rime Input Method Schemas for Chinese Dialects
 
-**[中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#rime%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)        [English](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#collection-of-rime-input-method-schemas-for-chinese-dialects)**
+**[中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#%E4%B8%AD%E5%B7%9E%E9%9F%BB%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)        [English](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#collection-of-rime-input-method-schemas-for-chinese-dialects)**
 
 ## The Mission of this Project
 
@@ -279,7 +279,7 @@ At the moment this is collection **is missing the schemas for Northern Min, Pu-X
     - 客拼 - `hakka_pinyin`
 - Wu (Goetian)
     - 蘇州吳語 - `soutzoe`
-    - 上海吳語輸入方案 
+    - 上海吳語輸入方案
       - 上海吳語 - `wugniu_lopha`
       - 上海新派 - `wugniu`
     - 吳語注音輸入方案吳語學堂版
@@ -379,7 +379,7 @@ For detailed information of the collected schemas in the download packege, pleas
         - [吳語注音法](http://input.foruto.com/wu/method.html)
     - Mandarin
       - [南京話拼音教程](https://uliloewi.github.io/LangJinPinIn/SUMMARY)
-  
+
 ## Acknowledgements (In alphabetical and strokes order)
 
 - [a-thok](https://github.com/a-thok)
