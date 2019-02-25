@@ -1,7 +1,7 @@
 # Rime dictionary
 # encoding: UTF-8 w/o BOM
 #
-# 潮語拼音〔汕頭〕
+# 潮語拼音·汕頭
 #
 # 來源：《潮州音字典》
 # - 吳華重、林適民主編，廣東人民出版社1983年重版
@@ -10,7 +10,7 @@
 
 ---
 name: suantau
-version: "2016.12.03"
+version: "2019.02.11"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -6697,6 +6697,7 @@ use_preset_vocabulary: true
 悲	bui1
 埤	bui1
 痱	bui3
+疿	bui3
 沸	bui3
 肥	bui5
 淝	bui5
@@ -6924,7 +6925,7 @@ use_preset_vocabulary: true
 穟	sui5
 邃	sui5
 陲	sui5
-惰	sui5
+隋	sui5
 隧	sui5
 棰	sui5
 箠	sui5
@@ -8464,6 +8465,7 @@ use_preset_vocabulary: true
 放	bang3
 瓣	bang7
 曝	bau6
+唄	be7
 平	ben5
 痱	bhui3
 疿	bhui3
@@ -8471,20 +8473,32 @@ use_preset_vocabulary: true
 遍	bin3
 哺	bou7
 飯	bung7
+穿	ceng7
+漱	ciu3
 臊	co1
 纂	cuang3
 找	cue7
+穿	cvng1
 等	dang2
 婷	deng5
+昳	diak4
+昳	diak8
 簟	diam6
+堆	du1
+堆	dui1
 轉	dvng2
+頓	dvng3
 長	dvng5
 斷	dvng6
+盪	dvng6
 亦	ek8
+浴	ek8
 翁	eng1
 鉸	ga1
 合	gah4
+缸	gang1
 下	ge6
+支	gi1
 指	gi2
 假	gian2
 見	gin3
@@ -8493,6 +8507,7 @@ use_preset_vocabulary: true
 指	goi1
 狹	goih8
 蓋	gua3
+菓	guain2
 汗	guan7
 逛	guang6
 關	guen1
@@ -8501,10 +8516,13 @@ use_preset_vocabulary: true
 廣	gvng2
 捲	gvng2
 下	he6
+掀	hiaun1
+耳	hin6
 遠	hng6
 擤	hngh4
 荷	ho5
 還	hoin5
+呼	hou1
 還	huan1
 歡	huan1
 緩	huang2
@@ -8528,11 +8546,16 @@ use_preset_vocabulary: true
 狠	hvng2
 恨	hvng6
 一	iau1
+昳	ik8
 陽	ion5
 檻	kam2
+空	kang1
+空	kang3
 杞	ki2
+歧	ki5
 奇	kia1
 徛	kia6
+呼	kou1
 擴	kuang3
 開	kui1
 魁	kui5
@@ -8540,6 +8563,7 @@ use_preset_vocabulary: true
 留	lau5
 流	lau5
 叻	leh4
+潦	liau5
 唔	m6
 蠓	mang2
 暝	me5
@@ -8575,6 +8599,7 @@ use_preset_vocabulary: true
 兩	no6
 餒	nui2
 厄	oh4
+學	oh8
 會	oi3
 狹	oih8
 伏	pak4
@@ -8592,6 +8617,7 @@ use_preset_vocabulary: true
 纖	siam1
 𤞚	siau2
 薪	sing1
+相	sio1
 小	sio2
 塑	suak4
 溯	suak4
@@ -8607,10 +8633,13 @@ use_preset_vocabulary: true
 蒽	vng1
 尹	vng2
 隱	vng2
+積	zek4
 姊	zi2
 樟	ziang1
 輯	zip4
 緝	zip4
+癢	zion6
+㩼	zoi7
 指	zoin2
 粥	zok8
 就	zu6
@@ -8620,46 +8649,89 @@ use_preset_vocabulary: true
 鴨母𥺴	ah4 bho2 nim3
 翁姐	ang1 zia2
 牡丹	bhou2 duan1
+尾翼	bhue2 iah8
 薄荷	boh8 ho3
+草猴	cau2 gau5
+草蜢	cau2 me2
 手䘼	ciu2 ng2
+漱齒	ciu3 ki2
+髧眉	dam3 bhai7
 豆仁	dau7 ring5
 地豆	di7 dau7
+得罪	dik4 zo6
 潮語	dio5 ghv2
+盪嘴	dvng6 cui3
 鉸刀	ga1 do1
 家己	ga1 gi7
 家己人	ga1 gi7 nang5
 鉸毛	ga1 mo5
+橄欖	gan1 na2
 工夫茶	gang1 hu1 de5
 交代	gau1 dai3
+傢俬	ge1 si1
+驚蟄	geng1 dek8
 弓蕉	geng1 zio1
+蜈蚣	ghe5 gang1
+蜈蚣	ghou5 gong1
 雞翁	goi1 ang1
 穀雨	gok4 u2
 杠杆	gong3 hang2
+歌冊	gua1 ceh4
+歇假	hiah4 gia2
+歇乏	hiah4 hek8
+歇夜	hiah4 me5
+香口膠	hiang1 kau2 ga1
 現在	hing7 zai6
 雨遮	hou6 zia1
 雨水	hou6 zui2
+風禽	huang1 kim5
+番梨	huang1 lai5
 煩惱	huang5 lo2
+風爐	huang1 lou5
 煩惱	huang5 nau2
+風颱	huang1 tai1
+番葛	hung1 guah4
 粉纖	hung2 ciam1
 工課	kang1 kue3
+齒漱	ki2 ciu3
+流鼻	lau5 pin7
 鬧熱	lau7 riak8
 𨻧隍	liu5 ng5
+目仁	mak8 ring5
+目屎	mak8 sai2
 曼谷	mang6 gok8
 明年	me5 ni5
 麻秧	mua5 ng2
+欖仁	nam2 ring5
 蓮霧	niang1 bhu7
+荔菓	noi7 guain2
+卵仁	nvng6 ring5
+烏欖	ou1 nam2
 沙茶	sa1 de5
 師父	sai1 be6
+私家	sai1 kia1
+剎車	sap8 cia1
+閘車	sap8 cia1
+生菇	sen1 gou1
+聖杯	seng3 bue1
+豉油	si7 iu5
 纖須	siam1 su1
 石叻	sik8 lak8
 新婦	sim1 bu6
 什麽	sim6 moh4
 什麼	sim6 moh4
 先生	sing1 sen1
+相共	sio1 gang7
+相輔	sio1 hu6
+相罵	sio1 me7
+相輸	sio1 su1
+相借問	sio1 zioh4 mung7
 石榴	sioh8 liu5
 沙𧌊	sua1 me1
+私家	sv1 ge1
 頭毛	tau5 mo5
 雨水	u2 zui2
+積惡	zek4 ak4
 粘米	ziam1 bhi2
 狀元	zo6 nguang5
 節氣	zoih4 ki3
