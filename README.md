@@ -172,6 +172,7 @@
         - [吴语协会 通用吴语拼音](http://wu-chinese.com/romanization/)
         - [吴语协会 吴音小字典](http://wu-chinese.com/minidict/)
         - [吳語注音法](http://input.foruto.com/wu/method.html)
+        - [宁波话吴拼教程](https://shinzoqchiuq.github.io/gninpou-tutorial/)
     - 官話
         - [南京話拼音教程](https://uliloewi.github.io/LangJinPinIn/SUMMARY)
 
@@ -180,6 +181,7 @@
 - [a-thok](https://github.com/a-thok)
 - [biopolyhedron](https://github.com/biopolyhedron)
 - [cryptogun](https://github.com/cryptogun)
+- [Electric Sheep](https://github.com/shinzoqchiuq)
 - [Hector Sioh](https://github.com/only3km)
 - [inzoi](https://github.com/inzoi)
 - [LeiMaau](https://github.com/leimaau)
@@ -190,6 +192,7 @@
 - [tsauibusato](https://github.com/tsauibusato)
 - [uliloewi](https://github.com/uliloewi)
 - [佛振](https://github.com/lotem)
+- [芽油](https://github.com/Yaryou)
 - [滕謄](https://github.com/tengtengteng)
 
 # Collection of Rime Input Method Schemas for Chinese Dialects
@@ -387,6 +390,7 @@ For detailed information of the collected schemas in the download packege, pleas
         - [吴语协会 通用吴语拼音](http://wu-chinese.com/romanization/)
         - [吴语协会 吴音小字典](http://wu-chinese.com/minidict/)
         - [吳語注音法](http://input.foruto.com/wu/method.html)
+        - [宁波话吴拼教程](https://shinzoqchiuq.github.io/gninpou-tutorial/)
     - Mandarin
         - [南京話拼音教程](https://uliloewi.github.io/LangJinPinIn/SUMMARY)
 
@@ -395,6 +399,7 @@ For detailed information of the collected schemas in the download packege, pleas
 - [a-thok](https://github.com/a-thok)
 - [biopolyhedron](https://github.com/biopolyhedron)
 - [cryptogun](https://github.com/cryptogun)
+- [Electric Sheep](https://github.com/shinzoqchiuq)
 - [Hector Sioh](https://github.com/only3km)
 - [inzoi](https://github.com/inzoi)
 - [LeiMaau](https://github.com/leimaau)
@@ -405,4 +410,5 @@ For detailed information of the collected schemas in the download packege, pleas
 - [tsauibusato](https://github.com/tsauibusato)
 - [uliloewi](https://github.com/uliloewi)
 - [佛振](https://github.com/lotem)
+- [芽油](https://github.com/Yaryou)
 - [滕謄](https://github.com/tengtengteng)

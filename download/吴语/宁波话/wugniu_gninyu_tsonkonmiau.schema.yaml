@@ -2,13 +2,14 @@
 # encoding: utf-8
 
 schema:
-  schema_id: wugniu_gninpou
-  name: 吳語（寧波）
+  schema_id: wugniu_gninyu_tsonkonmiau
+  name: 吳語（鄞縣鍾公廟）
   version: "2019.02.24"
   author:
     - Electric Sheep ˂1613023143@qq.com˃
   description: |
-    寧波吳語注音輸入方案吳語學堂版
+    鄞縣鍾公廟吳語注音輸入方案吳語學堂版
+    鍾公廟音系基於《鄞县方言同音字汇》
     https://www.wugniu.com/
     https://github.com/shinzoqchiuq/rime-wugniu_gninpou/
   dependencies:
@@ -58,11 +59,27 @@ speller:
   alphabet: abcdefghijklmnopqrstuvwxyz
   delimiter: "'"
   algebra:
-    - xform/\d//     # 去掉聲調
-    # 還原城區音系
-    - xlit/AEIOWN/aeiown/
+    # 生成鍾公廟音系
+    - xform/WU/ngu/
+    - xform/nEI/nae/
+    - xform/EI|AE/e/
+    - xform/nE/gnie/
+    - xform/I/e/
+    - xform/W/v/
+    - xform/N/w/
+    - xform/(^y|i)u(?=n)/$1o/
+    - xform/([pb]|ph)un([1234])/$1oe$2/
+    - xform/mun/moe/
+    - xform/uo/o/
+    - xform/wo/gho/
+    - derive/tshOE/tshoe/
+    - xform/tshOE/chieu/
+    - xform/dzOE/jieu/
+    - xform/^([sz])OE/$1hieu/
+    - xform/\d//      # 去掉聲調
+    - erase/(^|c|j|gn|[csz]h)(y|i)u?o(\d|\b)/
 
-    ## 轉爲吳語協會式拼音
+    # 轉爲吳語協會式拼音
     #- xform/q/h/
     #- xform/(?<=[yi])o(\d|$)/uo/
     #- xform/iau/io/
@@ -79,13 +96,11 @@ speller:
     #- derive/zhi(?=[nqh]|$)/yi/
     ## 胡符不分
     #- derive/wu$/vu/
-    ## 亂漏不分
+    # 亂漏不分
     - derive/loe/leu/
 
     # 新派
 
-    # io韻消失
-    - erase/(^|c|j|gn|kn|[csz]h)(y|i)u?o$/
     # 且采不分
     - derive/c(h)?ie$/ts$1e/
     - derive/jie$/dze/
@@ -93,15 +108,6 @@ speller:
     - derive/^ye$/ghe/
     # 降壯不分
     - derive/ciaon/tsaon/
-    # 穿秋不分
-    - derive/ts(h)?oe$/c$1ieu/
-    - derive/dzoe$/jieu/
-    - derive/^(s|z)oe$/$1hieu/
-    # 掛架不分
-    - derive/(kh?)uo/$1o/
-    # 話夏不分
-    - derive/wo/gho/
-    - derive/^(h)?uo/$1o/
     # 官孤不分
     - derive/(?<![iy])un/u/
     # 春沖不分 出促不分
@@ -133,7 +139,6 @@ speller:
     - abbrev/^([a-z]).+$/$1/
     - abbrev/^([pmtnlszkg]h|ng|ngh|tsh).+$/$1/
     # 容錯 un => oe
-    - derive/([pbmw]|ph)un/$1oe/
     - derive/^([kgh]|kh)?un/$1uoe/
     # 容錯 au => ao
     - derive/au/ao/
@@ -152,15 +157,30 @@ speller:
     # 容錯 ae => ea
     - derive/ae/ea/
 
-# 主翻譯器 寧波吳拼
+# 主翻譯器 鍾公廟吳拼
 translator:
-  dictionary: wugniu_gninpou # 調取詞典wugniu_gninpou
-  prism: wugniu_gninpou      # 根據拼寫運算生成棱鏡文件wugniu_gninpou
-  spelling_hints: 5          # 標註拼音
+  dictionary: wugniu_gninpou       # 調取詞典wugniu_gninpou
+  prism: wugniu_gninyu_tsonkonmiau # 根據拼寫運算生成棱鏡文件wugniu_gninyu_tsonkonmiau
+  spelling_hints: 5                # 標註拼音
   comment_format:
-    # 還原城區音系
-    - xlit/AEIOWN/aeiown/
+    - xform/WU/ngu/
+    - xform/nEI/nae/
+    - xform/EI|AE/e/
+    - xform/nE/gnie/
+    - xform/I/e/
+    - xform/W/v/
+    - xform/N/w/
+    - xform/(^y|i)u(?=n)/$1o/
+    - xform/([pb]|ph)un([1234])/$1oe$2/
+    - xform/mun/moe/
+    - xform/uo/o/
+    - xform/wo/gho/
+    - derive/tshOE/tshoe/
+    - xform/tshOE/chieu/
+    - xform/dzOE/jieu/
+    - xform/^([sz])OE/$1hieu/
     - xform/4/6/
+    - erase/(^|c|j|gn|[csz]h)(y|i)u?o(\d|\b)/
 
     # 顯示吳語協會式拼音
     #- xform/q/h/
@@ -171,7 +191,6 @@ translator:
     #- xform/([gk])ni(?=[aoue])/ny/
     #- xform/(?<=[szh])yu(?=n|h)/oe/
     #- xform/er/r/
-    #- xlit/2345678/1223344/
 
     # 多字不顯示聲調
     - xform/(\d.+)\d/$1/
@@ -188,7 +207,7 @@ luna_pinyin:
   prefix: '`'             # 引導鍵「`」
   suffix: "'"             # 結束鍵「'」
   tips: 〔拼音〕          # 輸入前提示〔拼音〕
-  closing_tips: 〔吳語（寧波）〕
+  closing_tips: 〔吳語（鄞縣鍾公廟）〕
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
@@ -202,7 +221,7 @@ stroke:
   prefix: 'x'             # 引導鍵「x」
   suffix: "'"             # 結束鍵「'」
   tips: 〔筆畫〕          # 輸入前提示〔筆畫〕
-  closing_tips: 〔吳語（寧波）〕
+  closing_tips: 〔吳語（鄞縣鍾公廟）〕
   preedit_format:
     - xlit/hspnz/一丨丿丶乙/
 
@@ -212,9 +231,24 @@ reverse_lookup:
   overwrite_comment: true     # 覆蓋其他提示
   dictionary: wugniu_gninpou  # 反查所得爲寧波吳拼
   comment_format:
-    # 還原城區音系
-    - xlit/AEIOWN/aeiown/
+    - xform/WU/ngu/
+    - xform/nEI/nae/
+    - xform/EI|AE/e/
+    - xform/nE/gnie/
+    - xform/I/e/
+    - xform/W/v/
+    - xform/N/w/
+    - xform/(^y|i)u(?=n)/$1o/
+    - xform/([pb]|ph)un([1234])/$1oe$2/
+    - xform/mun/moe/
+    - xform/uo/o/
+    - xform/wo/gho/
+    - derive/tshOE/tshoe/
+    - xform/tshOE/chieu/
+    - xform/dzOE/jieu/
+    - xform/^([sz])OE/$1hieu/
     - xform/4/6/
+    - erase/(^|c|j|gn|[csz]h)(y|i)u?o(\d|\b)/
 
     # 顯示吳語協會式拼音
     #- xform/q/h/
@@ -225,7 +259,6 @@ reverse_lookup:
     #- xform/([gk])ni(?=[aoue])/ny/
     #- xform/(?<=[szh])yu(?=n|h)/oe/
     #- xform/er/r/
-    #- xlit/2345678/1223344/
 
     # 聲調上標
     - xlit/12345678/¹²³⁴⁵⁶⁷⁸/
