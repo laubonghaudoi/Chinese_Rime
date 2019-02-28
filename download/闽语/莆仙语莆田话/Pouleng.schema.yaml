@@ -2,13 +2,14 @@
 # encoding: UTF-8 w/o BOM
 
 schema:
-  schema_id: HinghuaBUC
-  name: 興化語平話字
-  version: "2019.2.24.5"
+  schema_id: Pouleng
+  name: 興化語莆田城關話
+  version: "2019.2.25.2"
   author:
     - 文本：芽油 <963737435@qq.com> 
+            叶子
     - 程序：子善
-  description: 测试版 v0.1 
+  description: 测试版 v0.1 词汇录入中
   dependencies:
     - luna_pinyin
 
@@ -58,29 +59,82 @@ speller:
     # 普通話拼音
     #- derive/原码/模糊音/
     #- derive/^原码全词匹配/模糊音/
+    - derive/y/v/
+    - derive/au/ao/
+    - derive/ieng/ian/
+    - derive/ieu/iao/
+    - derive/e/ei/
+    - derive/^ieng/yan/
+    - derive/yor/yo/
+    - derive/yorng/yong/
+    - derive/uang/uong/
+    - derive/uah/uoh/
+    - derive/yorng/iong/
+    
+    # 普通話拼音的零声母辅音
+    - derive/^ia/ya/
+    - derive/^i/yi/
+    - derive/^iu/you/
+    - derive/^y/yu/
+    - derive/^ie/ye/
+    - derive/^yorng/yong/
+    - derive/uang/wan/
    
     
     # 鼻音韵尾简化
     - derive/ang/an/
     - derive/ing/in/
-    - derive/uung/uun/
-    - derive/oeng/oen/
+    - derive/yng/yn/
+    - derive/ong/on/
     - derive/eng/en/
     - derive/orng/orn/
     - derive/ieng/ien/
     - derive/ung/un/
     - derive/uang/uan/
-    - derive/eeng/een/
-    - derive/uang/uan/
-    - derive/iang/ian/
-    - derive/ioong/ioon/
+    
+   
+    - derive/^ui/wei/
+    - derive/^ua/wa/
+    - derive/^uai/wai/
+    - derive/^u/wu/
+    - derive/^uo/wo/
+    - derive/^uei/ui/
+    
+    # 顎化
+    - derive/zi/ji/
+    - derive/ci/qi/
+    - derive/si/xi/
+    - derive/zy/ju/
+    - derive/cy/qu/
+    - derive/sy/xu/
+    
+    # 入聲
+    - derive/^(.+)[hk]$/$1/
+    - derive/^(.+)[hk]$/$1h/
+    - derive/^(.+)[hk]$/$1k/
+    
+    #類普拼式與IPA式轉換
+    - derive/z/ts/
+    - derive/c/tsh/
+    
+    #仙遊腔韻母轉換
+    - derive/oeng/yeng/
+    - derive/oeh/yeh/
     
     
-    
+    #老派
+    - derive/ieh/iah/
+    - derive/ieng/iang/
+  
+    #新派
+    - derive/o/er/
+    - derive/ong/erng/
+    - derive/oh/erh/
+    - derive/ue/uei/
     
     
 translator:
-  dictionary: HinghuaBUC
+  dictionary: Pouleng
   spelling_hints: 12
   enable_sentence: true
   enable_encoder: true

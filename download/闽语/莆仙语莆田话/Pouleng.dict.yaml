@@ -1,0 +1,3689 @@
+# Rime dictionary
+# encoding: utf-8
+#參考書目：
+#《莆田縣誌》同音字表
+---
+name: Pouleng
+version: "2019.2.25.2"
+use_preset_vocabulary: false
+sort: by_weight
+...
+
+#測試區----------------------------------------------------------------------
+我	gua3
+寡	gua
+汝	dy3
+伊	i1
+飯	buei5
+飯	{muei}
+福州	horh6 ziu1
+食飯	sia2 muei5
+茶箬	dor2 nieu2
+興化語	hing1 ngua4 gy3
+莆田	pou2 leng2
+莆田儂	pou2 leng2 nang2
+行	gia2
+行	heng2
+行	hang2
+𠹛	hi2
+食	sia2
+捼	duei2
+斎	zai1
+測試	ceh6 si4
+#促化人稱
+我	guoh8	90%
+汝	dyh8	90%
+伊	ih8	70%
+#慣用音
+是	lih6	90%
+#a韻
+巴	ba1
+芭	ba1
+疤	ba1
+喇	ba1
+叭	ba1
+爬	ba2
+平	ba2	5000
+棚	ba2	5000
+坪	ba2	5000
+麥	ba2
+白	ba2	5000
+把	ba3
+靶	ba3
+霸	ba4
+壩	ba4
+罷	ba4
+爸	ba5
+伯	ba5	5000
+百	ba5	5000
+病	ba5	5000
+擘	ba5
+彭	pa2
+澎	pa2
+怕	pa4
+帕	pa4
+拍	pa5	5000
+麻	ma2
+暝	ma2	5000
+明	ma2
+鋩	ma2
+媽	ma3	5000
+嬤	ma3	5000
+馬	ma3
+碼	ma3
+罵	ma4
+脈	ma5
+今	da1	5000
+仱	da1	5000
+澄	da2	5000
+呈	da2
+宅	da2
+打	da3
+郑	da5	5000
+矺	da5	5000
+他	ta1
+它	ta1
+她	ta1
+撐	ta1	5000
+垞	ta2
+牚	ta4
+澈	ta5	5000
+生	{na}
+拿	na2
+娜	na4
+捺	na4
+捏	na5	5000
+#拉、垃 la1 俗音
+拉	la1
+垃	la1
+啦	la5
+渣	za1
+吒	za1
+查	za1
+爭	za1
+井	za3	5000
+乍	za4
+炸	za4
+榨	za4
+詐	za4
+諍	za4	5000
+窄	za5	5000
+仄	za5
+績	za5
+星	ca1	5000
+差	ca1
+青	ca1	5000
+查	ca2
+茶	ca2
+柴	ca2
+醒	ca3	5000
+冊	ca5	5000
+沙	sa1
+砂	sa1
+紗	sa1
+莎	sa1
+鯊	sa1
+生	sa1	5000
+晴	sa2
+省	sa3
+灑	sa3
+性	sa4
+姓	sa4
+靜	sa5
+傻	sa5
+加	ga1	5000
+家	ga1	5000
+嘉	ga1	1000
+茄	ga1	1000
+佳	ga1	1000
+經	ga1	5000
+更	ga1	5000
+牙	ga2	1000
+芽	ga2	1000
+涯	ga2	1000
+戛	ga2	1000
+假	ga3	1000
+鯁	ga3	5000
+賈	ga3	1000
+架	ga4	1000
+價	ga4	1000
+屆	ga4	1000
+稼	ga4	1000
+駕	ga4	1000
+隔	ga5	1500
+吭	ka1	500
+咖	ka1	500
+卡	ka2	500
+揩	ka2	500
+咔	ka3	500
+客	ka5	500
+雅	nga3
+訝	nga5
+迓	nga5
+哈	ha1
+霞	ha2
+瑕	ha2
+暇	ha2
+遐	ha2
+嗄	ha3
+下	ha5	5000
+夏	ha5	5000
+廈	ha5
+阿	a1
+啊	a1
+丫	a1
+鴉	a1
+桁	a2
+啞	a3
+亞	a4
+氬	a4
+啊	a5
+
+#ai韻
+眉	bai2	5000
+排	bai2
+埋	bai2
+牌	bai2
+擺	bai3
+[爬起]	bai3	5000
+拜	bai4	5000
+敗	bai5	5000
+憊	bai5
+排	pai2
+痞	pai3	5000
+派	pai4
+湃	pai4
+尒	mai1
+滅	mai2
+買	mai3
+味	mai5	5000
+賣	mai5
+邁	mai5
+呆	dai1
+埋	dai2	5000
+台	dai2
+臺	dai2
+檯	dai2
+颱	dai2
+歹	dai3
+滓	dai3
+戴	dai4
+貸	dai4
+帶	dai4
+事	dai5	5000
+代	dai5	5000
+大	dai5
+袋	dai5
+逮	dai5
+黛	dai5
+怠	dai5
+殆	dai5
+待	dai5
+岱	dai5
+胎	tai1	5000
+篩	tai1	5000
+治	tai2	5000
+刣	tai2	5000
+太	tai4
+泰	tai4
+態	tai4
+乃	nai3
+奶	nai3
+耐	nai5
+奈	nai5
+來	lai2
+梨	lai2	5000
+萊	lai2
+賴	lai5
+利	lai5	5000
+瀨	lai5
+籟	lai5
+知	zai1	5000
+災	zai1
+栽	zai1	5000
+哉	zai1
+斎	zai1
+臍	zai2	5000
+裁	zai2
+才	zai2	5000
+財	zai2	5000
+材	zai2	5000
+指	zai3	5000
+滓	zai3
+宰	zai3
+載	zai3
+再	zai4
+載	zai4
+在	zai5
+寨	zai5
+差	cai1
+釵	cai1
+猜	cai1
+柴	cai2
+彩	cai3	5000
+采	cai3
+採	cai3	5000
+踩	cai4	5000
+菜	cai4	5000
+婿	cai4
+西	sai1	5000
+師	sai1	5000
+獅	sai1	5000
+腮	sai1
+使	sai3	5000
+駛	sai3	5000
+屎	sai3	5000
+曬	sai4
+士	sai5	5000
+仕	sai5	5000
+侍	sai5
+祀	sai5
+該	gai1
+皆	gai1
+階	gai1
+偕	gai1
+呆	gai2	5000
+㾏	gai2	5000
+改	gai3	5000
+解	gai3
+蓋	gai4
+鈣	gai4	5000
+丐	gai4
+界	gai4	5000
+戒	gai4	5000
+介	gai4
+芥	gai4
+艾	gai5
+開	kai1	5000
+楷	kai3
+凱	kai3
+概	kai4	5000
+慨	kai4
+溉	kai4
+忾	kai4
+礙	ngai5
+孩	hai2
+還	hai2
+骸	hai2
+諧	hai2
+海	hai3	5000
+害	hai5	5000
+駭	hai5
+亥	hai5	5000
+懈	hai5
+解	hai5
+哀	ai1
+挨	ai1
+埃	ai1
+唉	ai2
+藹	ai2
+霭	ai2
+愛	ai4	5000
+
+#au韻
+包	bau1	5000
+胞	bau2	5000
+茅	bau2
+矛	bau2
+袍	bau2
+飽	bau3
+卯	bau3	5000
+豹	bau4
+趵	bau4
+鮑	bau4	5000
+貌	bau5	5000
+拋	pau1
+刨	pau1
+咆	pau2
+跑	pau3
+炮	pau4	5000
+抱	pau5
+貓	mau1
+株	dau1	5000
+橷	dau1
+兜	dau1
+蔸	dau1
+投	dau2	5000
+骰	dau2	5000
+斗	dau3	5000
+撓	dau3
+[豆腐]	dau4	5000
+晝	dau4
+鬧	dau5	5000
+豆	dau5	5000
+脰	dau5	5000
+逗	dau5
+偷	tau1	5000
+頭	tau2	5000
+㪗	tau3	5000
+透	tau4
+毒	tau4
+皺	nau1	5000
+猱	nau2
+鬧	nau5	5000
+嘮	lau1
+留	lau2	5000
+流	lau2	5000
+劉	lau2	5000
+樓	lau2	5000
+落	lau4	5000
+老	lau5	5000
+漏	lau5	5000
+糟	zau1
+巢	zau2
+剿	zau2
+走	zau3	5000
+找	zau3
+竈	zau4	5000
+奏	zau4
+棹	zau5
+抄	cau1	5000
+鈔	cau1
+操	cau1
+吵	cau2
+草	cau3	5000
+湊	cau4
+捎	sau1
+梢	sau1
+騷	sau1
+稍	sau2
+𨈘	sau3
+俏	sau3
+掃	sau4	5000
+哨	sau4
+勾	gau1	5000
+鉤	gau1	5000
+溝	gau1	5000
+郊	gau1
+茭	gau1
+交	gau1
+膠	gau1
+猴	gau2	5000
+搞	gau2
+爻	gau2
+九	gau3	5000
+狗	gau3	5000
+咬	gau3
+絞	gau3
+狡	gau3
+遘	gau4	5000
+到	gau4	5000
+夠	gau4	5000
+校	gau4
+較	gau4
+教	gau4	5000
+厚	gau5
+熰	gau5	5000
+漚	gau5
+摳	kau1	5000
+鬮	kau1
+口	kau3	5000
+巧	kau3
+扣	kau4
+銬	kau4
+藕	ngau5
+薅	hau1	5000
+酵	hau1
+肴	hau2
+淆	hau2
+吼	hau3	5000
+孝	hau4
+鱟	hau4	5000
+校	hau5
+效	hau5
+甌	au1	5000
+鷗	au1
+歐	au1
+區	au1
+喉	au2
+朽	au4
+後	au5	5000
+候	au5
+厚	au5
+侯	au5
+
+#ah韻
+八	bah6	5000
+北	bah6	5000
+腹	bah6	5000
+幅	bah6
+拔	bah7
+跋	bah7
+墨	bah7	5000
+伏	pah6
+趴	pah6	5000
+覆	pah6
+雹	pah7	5000
+毣	mah6	5000
+目	mah7	5000
+脈	mah7	5000
+丈	dah6	5000
+搭	dah6
+答	dah6	5000
+褡	dah6
+達	dah7	5000
+踏	dah7
+納	dah7	5000
+妲	dah7
+逐	dah7	5000
+毒	dah7
+塔	tah6
+塌	tah6
+拓	tah6
+蹋	tah6
+觸	tah6
+讀	tah7	5000
+掿	nah7
+#替字 lah6 套入義
+捒	lah6
+蠟	lah7
+獵	lah7
+臘	lah7
+辣	lah7
+粒	lah7
+六	lah7	5000
+拉	lah7
+垃	lah7
+扎	zah6
+札	zah6
+閘	zah6
+臢	zah6
+雜	zah7	5000
+鍘	zah7
+察	cah6
+擦	cah6	5000
+插	cah6	5000
+鑿	cah7	5000
+殺	sah6
+煞	sah6
+卅	sah6
+颯	sah6
+霎	sah6
+薩	sah6
+甲	gah6
+覺	gah6
+葛	gah6
+鴿	gah6	5000
+蛤	gah6
+角	gah6
+各	gah6
+岳	gah7
+樂	gah7
+合	gah7	5000
+確	kah6
+渴	kah6
+殼	kah6	5000
+拾	kah6	5000
+磕	kah7	5000
+咯	kah7
+法	hah6	5000
+合	hah7	5000
+學	hah7	5000
+褐	hah7
+壓	ah6	5000
+押	ah6	5000
+捱	ah6
+沃	ah6
+腌	ah6
+握	ah6
+乏	ah7
+合	ah7
+盒	ah7	5000
+#ang韻
+班	bang1	5000
+斑	bang1
+邦	bang1
+幫	bang1	5000
+頒	bang1
+房	bang2	5000
+縫	bang2
+板	bang3	5000
+扳	bang3
+綁	bang3
+放	bang4	5000
+辦	bang5
+攀	pang1
+蜂	pang1	5000
+峯	pang1
+芳	pang1	5000
+帆	pang2	5000
+捧	pang2	5000
+龐	pang2
+蓬	pang2	5000
+紡	pang3	5000
+縫	pang4	5000
+龐	pang5
+閩	mang2	5000
+蠻	mang2
+虻	mang2
+龐	mang2
+晚	mang3	5000
+蠓	mang3	5000
+夢	mang4	5000
+萬	mang5	5000
+網	mang5	5000
+慢	mang5
+漫	mang5
+鰻	mang5
+丹	dang1
+單	dang1	5000
+耽	dang1
+東	dang1	5000
+冬	dang1	5000
+擔	dang1	90%
+談	dang2	5000
+同	dang2	5000
+痰	dang2
+彈	dang2
+銅	dang2	5000
+桐	dang2
+筒	dang2	5000
+㴷	dang2	5000
+澹	dang2	5000
+膽	dang3
+董	dang3	5000
+旦	dang4	5000
+擔	dang4	10%
+凍	dang4	5000
+重	dang5	5000
+動	dang5	5000
+洞	dang5
+但	dang5	5000
+誕	dang5
+氮	dang5
+淡	dang5
+貪	tang1	5000
+灘	tang1
+攤	tang1
+通	tang1	5000
+癱	tang1
+蟲	tang2	5000
+潭	tang2
+壇	tang2
+檀	tang2
+桐	tang2
+桶	tang3	5000
+毯	tang3	5000
+坦	tang3
+探	tang4
+嘆	tang4
+歎	tang4
+炭	tang4
+碳	tang4
+撣	tang5
+男	nang2	5000
+南	nang2	5000
+楠	nang2
+難	nang2
+儂	nang2	5000
+膿	nang2	5000
+囊	nang2
+赧	nang3
+難	nang5
+㝗	lang1
+藍	lang2	5000
+籃	lang2
+蘭	lang2
+欄	lang2
+攔	lang2
+婪	lang2
+籠	lang2	5000
+聾	lang2	5000
+瀾	lang2
+覽	lang3
+攬	lang3	5000
+欖	lang3
+懶	lang3
+纜	lang3
+濫	lang5
+艦	lang5	5000
+爛	lang5
+弄	lang5	5000
+髒	zang1
+棕	zang1	5000
+鬃	zang1
+綜	zang1
+慚	zang2
+盞	zang2	5000
+殘	zang2
+蠶	zang2
+斬	zang3
+嶄	zang3
+讚	zang4
+贊	zang4
+粽	zang4	5000
+站	zang5
+暫	zang5
+鏨	zang5
+棧	zang5
+參	cang1
+蔥	cang1	5000
+摻	cang1
+沖	cang2 	5000
+饞	cang2
+讒	cang2
+殘	cang2
+慘	cang3	5000
+燦	cang4
+懺	cang4
+三	sang1	5000
+山	sang1	5000
+杉	sang1	5000
+衫	sang1
+珊	sang1
+刪	sang1	5000
+雙	sang1	5000
+鬆	sang1	5000
+叢	sang2
+產	sang3	5000
+傘	sang3
+散	sang3
+散	sang4
+送	sang41	5000
+宋	sang4
+乾	gang1
+肝	gang1
+甘	gang1	5000
+艱	gang1	5000
+間	gang1	5000
+公	gang1	5000
+工	gang1	5000
+江	gang1
+監	gang1
+柑	gang1
+含	gang2	5000
+銜	gang2
+感	gang3
+杆	gang3
+敢	gang3
+簡	gang3	5000
+講	gang3	5000
+港	gang3	5000
+柬	gang3
+趕	gang3
+幹	gang4
+鑑	gang4
+間	gang4
+降	gang4
+共	gang5
+刊	kang1
+堪	kang1
+空	kang1
+扛	kang2
+坎	kang3
+砍	kang3
+侃	kang3
+勘	kang4	5000
+看	kang4
+扻	kang4	5000
+嵌	kang4
+啱	ngang1
+岩	ngang2
+顏	ngang2	5000
+癌	ngang2	5000
+眼	ngang3
+岸	ngang5	5000
+雁	ngang5	5000
+酣	hang1
+鼾	hang1
+夯	hang1
+烘	hang1	5000
+魟	hang1
+含	hang2
+涵	hang2	5000
+函	hang2
+凡	hang2
+寒	hang2
+航	hang2
+杭	hang2	5000
+閒	hang2
+韓	hang2	5000
+降	hang2
+行	hang2	5000
+絎	hang2
+罕	hang3
+喊	hang3
+漢	hang4	5000
+泛	hang4
+憾	hang4
+巷	hang4
+撼	hang5
+頜	hang5
+汗	hang5
+陷	hang5
+範	hang5	5000
+犯	hang5
+旱	hang5	5000
+項	hang5	5000
+限	hang5
+翰	hang5
+安	ang1	5000
+鞍	ang1
+骯	ang1
+庵	ang1
+翁	ang1
+氨	ang1
+涵	ang2	5000
+紅	ang2	5000
+洪	ang2
+飲	ang3	5000
+銨	ang3
+暗	ang4	5000
+案	ang4
+按	ang4
+晏	ang4	5000
+甕	ang4
+蓊	ang5	5000
+#e韻
+迷	be2	5000
+謎	be2
+排	be2	5000
+牌	be2	5000
+買	be3	5000
+反	be3	5000
+閉	be4
+蔽	be4
+敝	be4
+幣	be5
+賣	be5	5000
+八	be5	5000
+𣍐	be5	5000
+［勿会］	be5	5000
+鱉	be5
+弊	be5
+批	pe1	5000
+髀	pe2
+稗	pe4
+片	pe4
+咩	me1
+拔	me2
+乜	me5
+低	de1	5000
+爹	de1
+提	de2
+題	de2	5000
+堤	de2
+蹄	de2
+底	de3
+抵	de3
+砥	de3
+㓠	de3	5000
+帝	de4
+店	de4	5000
+第	de5	5000
+地	de5	5000
+隸	de5
+埭	de5
+弟	de5
+帝	de5	5000
+遞	de5
+蒂	de5
+橂	de5	5000
+梯	te1	5000
+摕	te2	5000
+啼	te2
+體	te3	5000
+替	te4	5000
+涕	te4
+締	te4
+貼	te5	5290
+帖	te5
+妳	ne1
+林	ne2	5000
+泥	ne2	5000
+尼	ne2
+蓮	ne2	5000
+嬭	ne3
+黎	le2
+犁	le2
+䔣	le2
+䥥	le2
+禮	le3	5000
+詈	le3
+麗	le5	5000
+隸	le5	5000
+例	le5	5000
+厲	le5
+勵	le5
+唳	le5
+鱺	le5
+荔	le5	5000
+劑	ze1
+齋	ze1
+擠	ze1
+齊	ze2	5000
+截	ze2
+祭	ze4
+濟	ze4	5000
+際	ze4
+製	ze4
+制	ze4
+纃	ze4
+節	ze5	5000
+妻	ce1
+棲	ce1
+淒	ce1
+萋	ce1
+千	ce1	5100
+差	ce1
+筅	ce3	5100
+砌	ce4
+粞	ce4	5100
+西	se1	5100
+犀	se1
+先	se1	5100
+前	se2	5100
+洗	se3	5100
+細	se4	5100
+世	se4	5100
+勢	se4
+#se5 多義 候選字：穧、価
+穧	se5	5000
+価	se5	5000
+塞	se5
+逝	se5
+誓	se5
+雞	ge1	5000
+街	ge1	5000
+奎	ge1
+硅	ge1
+肩	ge1	5000
+間	ge1
+羈	ge1
+個	ge2	5000
+懸	ge2	5000
+倪	ge2
+鮭	ge2
+𥉐	ge2
+揀	ge3	5000
+解	ge3
+詣	ge3
+掛	ge4	5000
+計	ge4
+慣	ge4	5000
+疥	ge4
+繼	ge4
+桂	ge4
+縣	ge5	5000
+夾	ge5	5000
+潔	ge5	5000
+藝	ge5
+䥛	ge5
+溪	ke1	5000
+嵇	ke1
+稽	ke1
+啓	ke2
+蓋	ke4	5000
+快	ke4	5000
+喫	ke4	5000
+毽	ke4	5000
+契	ke4
+篋	ke5	5000
+擠	ke5	5000
+眼	nge3	5000
+繭	nge3
+趼	nge3
+硬	nge5	5000
+兮	he1
+還	he2	5000
+懸	he2
+攜	he2
+蜆	he3	5000
+廢	he4	5000
+血	he5	5000
+莧	he5	5000
+蟹	he5	5000
+系	he5	5000
+係	he5	5000
+惠	he5	5000
+彗	he5
+挨	e1	5000
+鞋	e2	5000
+閒	e2	5000
+耶	e2
+矮	e3	5000
+躷	e3
+覸	e4	5000
+會	e5	5000
+衛	e5	5000
+#eh韻
+八	{beh}	5000
+別	{beh}	5000
+伯	beh6
+柏	beh6
+粕	beh6
+別	beh7	5000
+白	beh7
+密	beh7	5000
+默	beh7
+墨	beh7
+脈	beh7
+蔑	beh7
+滅	beh7
+陌	beh7
+迫	peh6
+拍	peh6	5000
+甓	peh6	5000
+魄	peh6
+滴	deh6
+的	deh6
+德	deh6	5000
+哲	deh6
+謫	deh6
+得	deh6	5000
+徹	deh6
+值	deh7	5000
+笛	deh7	5000
+迪	deh7
+敵	deh7
+狄	deh7
+徹	{deh7}
+特	deh7	5000
+翟	deh7
+轍	deh7
+踢	teh6	5000
+鐵	teh6
+惕	teh6
+勒	leh6
+劣	leh6
+列	leh7
+烈	leh7
+歷	leh7	5000
+曆	leh7	5000
+洌	leh7
+瀝	leh7
+折	zeh6	5000
+浙	zeh6	5000
+節	zeh6	5000
+責	zeh6
+熱	zeh7	5000
+截	zeh7	5000
+擇	zeh7
+澤	zeh7
+賊	zeh7
+宅	zeh7
+漆	ceh6	5000
+廁	ceh6	5000
+切	ceh6
+測	ceh6	5000
+側	ceh6
+策	ceh6
+撤	ceh6
+拆	ceh6	5000
+賊	ceh7	5000
+色	seh6	5000
+設	seh6	5000
+虱	seh6	5000
+澀	seh6	5000
+櫛	seh6
+瑟	seh6
+索	seh6
+塞	seh6	5000
+十	seh7	5000
+實	seh7
+舌	seh7
+吉	geh6
+結	geh6	5000
+潔	geh6
+革	geh6
+割	geh6
+揭	geh6
+格	geh6	5000
+隔	geh6
+額	geh7	5000
+孽	geh7
+客	keh6
+克	keh6
+刻	keh6
+黑	heh6
+蠍	heh6
+謁	heh6
+劃	heh7	5000
+或	heh7	5000
+獲	heh7
+赫	heh7
+惑	heh7
+核	heh7
+厄	eh6
+扼	eh6
+伌	eh6
+#eng韻
+邊	beng1	5000
+鞭	beng1
+朋	beng2	5000
+瓶	beng2	5000
+便	beng2	5000
+扁	beng3
+貶	beng3
+變	beng4
+遍	beng4
+㬟	beng5	5000
+朆	beng5
+便	beng5	5000
+辮	beng5
+辨	beng5
+辯	beng5
+篇	peng1
+編	peng1
+翩	peng1
+偏	peng1
+硼	peng2
+騙	peng4	5000
+片	peng4	5000
+遍	peng4	5000
+眠	meng2
+棉	meng2
+盟	meng2
+螟	meng2
+綿	meng2
+免	meng3	5000
+勉	meng3
+娩	meng3
+猛	meng3
+面	meng4
+麵	meng5
+慢	meng5
+孟	meng5
+燈	deng1	5000
+丁	deng1
+登	deng1
+釘	deng1	5000
+廳	deng1
+顛	deng1	5000
+癲	deng1
+纏	deng2
+陳	deng2	5000
+田	deng2
+停	deng2	5000
+亭	deng2
+庭	deng2
+霆	deng2	5000
+廷	deng2
+騰	deng2
+等	deng3	5000
+頂	deng3
+鼎	deng3
+典	deng3	5000
+戥	deng3
+釘	{deng7}	5000
+訂	deng4	5000
+鄧	deng4
+凳	deng4
+磸	deng4
+電	deng5	5000
+定	deng5	5000
+殿	deng5
+奠	deng5
+天	teng1
+蟶	teng1	5000
+聽	teng1
+甜	teng2
+沉	teng2
+展	teng3	5000
+挺	teng3
+艇	teng3
+趁	teng4
+聽	｛teng4｝
+奶	neng1	5000
+年	neng2	5000
+能	neng2	5000
+寧	neng2
+檸	neng2
+濘	neng4
+佞	neng5
+摙	leng1	5000
+連	leng2	5000
+聯	leng2	5000
+憐	leng2
+蓮	leng2
+靈	leng2	5000
+鈴	leng2	5000
+羚	leng2
+玲	leng2
+齡	leng2
+冷	leng3	5000
+蹥	leng4	5000
+𡳞	leng5
+膦	leng5	5000
+煎	zeng1
+氈	zeng1
+真	zeng1	5000
+爭	zeng1
+蒸	zeng1
+貞	zeng1
+幀	zeng1
+曾	zeng1
+增	zeng1
+僧	zeng1
+曾	｛zeng2｝
+層	zeng2	5000
+然	zeng2	5000
+燃	zeng2
+前	zeng2
+戰	zeng4	5000
+薦	zeng4
+箭	zeng4
+賤	zeng5	5000
+踐	zeng5
+漸	zeng5	5000
+贈	zeng5
+千	ceng1	5000
+遷	ceng1
+纖	ceng1
+呻	ceng1
+塍	ceng2	5000
+田	ceng2	5000
+纏	ceng2
+淺	ceng3	5000
+闡	ceng3
+襯	ceng4
+生	seng1	5000
+仙	seng1	5000
+甥	seng1	5000
+先	seng1
+鉎	seng1
+鮮	seng1
+笙	seng1
+牲	seng1
+蟬	seng2	5000
+禪	seng2
+㾪	seng3	5000
+省	seng3	5000
+信	seng4	5000
+善	seng5	5000
+膳	seng5
+擅	seng5
+跟	geng1
+更	geng1	5000
+根	geng1
+耕	geng1
+堅	geng1	5000
+肩	geng1
+虔	geng2
+耿	geng3
+繭	geng3
+梗	geng3
+鯁	geng3
+更	｛geng4｝
+見	geng4	5000
+牽	keng1	5000
+坑	keng1
+肯	keng3	5000
+啃	keng3
+罄	keng4
+元	ngeng2	5000
+研	ngeng2
+硯	ngeng4
+彥	ngeng5
+癮	｛ngeng5｝
+亨	heng1
+行	heng2	5000
+賢	heng2
+橫	heng2	5000
+痕	heng2
+衡	heng2	5000
+恆	heng2
+鋐	heng2
+現	heng5	5000
+幸	heng5	5000
+杏	heng5
+冤	eng1
+煙	eng1	5000
+菸	eng1
+胭	eng1
+鴛	eng1	5000
+鸚	eng1
+鶯	eng1
+轟	eng1
+延	eng2
+拫	eng2
+演	eng3	5000
+燕	eng4	5000
+宴	eng4
+豔	eng4
+衍	eng5
+羨	eng5
+#ae韻
+哂	sae1
+十	sae2
+#ee韵
+短	dee3	5000
+䧘	dee3	5000
+頓	dee4	5000
+戴	dee4	5000
+袋	dee5	5000
+斷	dee5	5000
+埭	dee5	5000
+啄	dee5	5000
+黛	dee5
+推	tee1	5000
+謎	tee1
+退	tee4	5000
+褪	tee4	5000
+蛻	tee4
+卵	nee5
+嫩	nee5
+螺	lee2
+腡	lee2
+挖	lee3
+鑢	lee4
+災	zee1
+全	zee2	5000
+鋤	zee2
+阻	zee3
+詛	zee3
+鑽	zee4
+晬	zee4
+助	zee5	5000
+初	cee1	5000
+梭	cee1
+躦	cee2
+蹲	cee2
+楚	cee3
+髓	cee3	5000
+礎	cee3
+脆	cee4	5000
+撮	cee5
+酸	see1	5000
+痠	see1
+疏	see1
+蔬	see1
+梳	see1	5000
+所	see3
+黍	see3	5000
+損	see3	5000
+賽	see4
+坐	see5	5000
+雪	see5	5000
+旋	see5
+改	gee3	5000
+羯	gee5
+咳	kee3
+歇	hee5
+還	hee2
+嘔	ee3
+#oeh韻
+竹	doeh6	5000
+築	doeh6	5000
+竺	doeh6
+逐	doeh7	5000
+軸	doeh7
+肉	noeh7
+六	loeh7	5000
+陸	loeh7
+綠	loeh7
+錄	loeh7	5000
+氯	loeh7
+叔	zoeh6	5000
+足	zoeh6
+祝	zoeh6
+絕	zoeh7
+辱	zoeh7
+肉	zoeh7
+觸	coeh6	5000
+促	coeh6
+誶	coeh7
+叔	soeh6
+宿	soeh6
+說	soeh6	5000
+肅	soeh6
+縮	soeh6
+淑	soeh6
+秫	soeh7	5000
+續	soeh7
+俗	soeh7	5000
+屬	soeh7	5000
+熟	soeh7	5000
+術	soeh7	5000
+蜀	soeh7
+塾	soeh7
+贖	soeh7
+菊	goeh6	5000
+決	goeh6
+抉	goeh6
+訣	goeh6
+鞠	goeh6
+玉	goeh7	5000
+月	goeh7	5000
+獄	goeh7	5000
+局	goeh7
+曲	koeh6
+麴	koeh6
+缺	koeh6	5000
+闕	koeh6
+畜	hoeh6
+旭	hoeh6
+血	hoeh6
+蓄	hoeh6
+穴	hoeh7
+鬱	oeh6
+哊	oeh6
+育	oeh7
+越	oeh7
+慾	oeh7
+欲	oeh7
+曰	oeh7
+粵	oeh7
+閱	oeh7
+悅	oeh7
+浴	oeh7
+#oeng韻
+中	doeng1	5000
+忠	doeng1
+衷	doeng1
+重	doeng2
+傳	doeng2
+轉	doeng3
+仲	doeng5
+重	doeng5
+傳	doeng5
+窗	toeng1	5000
+蟲	toeng2
+冢	toeng3
+寵	toeng3
+濃	noeng2	5000
+膿	noeng2	5000
+嫩	noeng3
+龍	loeng2	5000
+隆	loeng2
+籠	loeng2
+輦	loeng3	5000
+僆	loeng3
+戀	loeng5
+練	loeng5
+鏈	loeng5	5000
+煉	loeng5
+舂	zoeng1	5000
+摏	zoeng1	5000
+終	zoeng1
+鐘	zoeng1	5000
+專	zoeng1
+種	zoeng3	5000
+腫	zoeng3	5000
+縱	zoeng4
+㼿	zoeng4
+衆	zoeng4	5000
+衝	coeng1	5000
+川	coeng1	5000
+村	coeng1	5000
+忡	coeng1
+充	coeng1	5000
+沖	coeng2	5000
+噇	coeng2
+喘	coeng3	5000
+銃	coeng5	5000
+宣	soeng1
+喧	soeng1
+嵩	soeng1
+泉	soeng2	5000
+松	soeng2	5000
+榕	soeng2	5000
+旋	soeng2
+選	soeng3	5000
+損	soeng3
+線	soeng4
+誦	soeng5
+頌	soeng5
+宮	goeng1	5000
+供	goeng1
+恭	goeng1
+弓	goeng1
+娟	goeng1
+捐	goeng1
+絹	goeng1
+涓	goeng1
+窮	goeng2
+權	goeng2	5000
+捲	goeng3
+卷	goeng3
+建	goeng4	5000
+券	goeng4
+眷	goeng4
+共	goeng5	5000
+供	goeng5	5000
+健	goeng5	5000
+鍵	goeng5	5000
+倦	goeng5
+圈	koeng1	5000
+環	koeng2	5000
+犬	koeng3
+恐	koeng3
+鞏	koeng3
+勸	koeng4
+言	ngoeng2	5000
+原	ngoeng2	5000
+源	ngoeng2
+元	ngoeng2	5000
+願	ngoeng5
+兇	hoeng1
+匈	hoeng1
+胸	hoeng1
+洶	hoeng1
+雄	hoeng2	5000
+熊	hoeng2	5000
+宏	hoeng2
+玄	hoeng2
+弦	hoeng2
+懸	hoeng2
+融	hoeng2
+憲	hoeng4
+獻	hoeng4	5000
+縣	hoeng5
+冤	oeng1
+淵	oeng1
+雍	oeng1
+容	oeng2
+園	oeng2	5000
+員	oeng2	5000
+圓	oeng2
+袁	oeng2
+援	oeng2
+沿	oeng2
+完	oeng2
+緣	oeng2	5000
+媛	oeng2
+榕	oeng2
+蓉	oeng2
+融	oeng2
+勇	oeng3
+遠	oeng3
+涌	oeng4
+擁	oeng4
+冤	oeng4
+怨	oeng4
+用	oeng5
+傭	oeng5
+#o韻
+無	bo2	5000
+婆	bo2
+薄	bo2	5000
+巫	bo2
+母	bo3	5000
+寶	bo3	5000
+保	bo3	5000
+報	bo4	5000
+帽	bo5	5000
+磨	bo5	5000
+抱	po5	5000
+粕	po5	5000
+刀	do1	5000
+佇	do2	5000
+躲	do2
+倒	do3	5000
+倒	do4
+桌	do5	5000
+卓	do5	5000
+桃	to2	5000
+萄	to2
+討	to3	5000
+套	to4	5000
+托	to5
+落	lo2	5000
+籮	lo2	5000
+羅	lo2
+騾	lo2
+牢	lo2
+資	zo1
+姿	zo1
+兹	zo1
+滋	zo1
+孜	zo1
+之	zo1
+慈	zo2
+磁	zo2
+瓷	zo2
+子	zo3	5000
+棗	zo3	5000
+紫	zo3
+梓	zo3
+仔	zo3
+做	zo4	5000
+恣	zo4
+自	zo5	5000
+字	zo5	5000
+座	zo5
+作	zo5
+搓	co1	5000
+臊	co1	5000
+差	co1
+雌	co2
+㧗	co3	5000
+此	co3
+糙	co4	5000
+刺	co4	5000
+次	co4	5000
+廝	so1	5000
+師	so1	5000
+思	so1	5000
+私	so1
+司	so1	5000
+嘶	so1
+唆	so1
+詞	so2	5000
+辭	so2
+祠	so2	5000
+鎖	so3	5000
+嫂	so3	5000
+使	so3
+駛	so3
+死	so3
+史	so3
+四	so4	5000
+肆	so4
+賜	so4
+索	so5	5000
+士	so5
+仕	so5
+事	so5	5000
+埽	so5
+飼	so5
+嗣	so5
+似	so5
+祀	so5
+伺	so5
+糕	go1	5000
+膏	go1	5000
+哥	go1	5000
+篙	go1	5000
+羔	go1
+熬	go2	5000
+稿	go3	5000
+過	go4	5000
+告	go4	5000
+餓	go5	5000
+郭	go5
+窠	ko1
+柯	ko1
+科	ko1
+洘	ko3
+魺	ko4
+好	ho3	5000
+貨	ho4	5000
+號	ho5	5000
+賀	ho5
+鍋	o1
+窩	o1
+倭	o1
+惡	o4
+#oh韻
+不	boh6	5000
+卜	boh6
+抔	boh6
+物	boh7	5000
+沒	boh7
+勿	boh7
+突	doh7
+燙	toh6	5000
+禿	toh6
+𢫫	loh6
+律	loh7
+率	loh7
+卒	zoh6
+出	coh6	5000
+黜	coh6
+齣	coh6
+戌	soh6
+率	soh6
+恤	soh6
+蜀	soh7	5000
+一	soh7	5000
+術	soh7	5000
+述	soh7
+秫	soh7	5000
+乞	goh6	5000
+骨	goh6	5000
+滑	goh7	5000
+猾	goh7	5000
+掘	goh7	5000
+乞	koh6	5000
+窟	koh6
+屈	koh7
+䘿	koh7
+拂	hoh6
+忽	hoh6
+佛	hoh7	5000
+核	hoh7	5000
+熨	oh6
+#ong韻
+分	bong1	5000
+奔	bong1
+㖹	bong2	5000
+本	bong3
+畚	bong4
+糞	bong4
+笨	bong5
+潘	pong1	5000
+盆	pong2
+埲	pong3
+噴	pong4	5000
+湓	pong4
+文	mong2	5000
+聞	mong2	5000
+門	mong2	5000
+紋	mong2
+雯	mong2
+吻	mong3 
+問	mong5	5000
+燜	mong5
+悶	mong5
+紊	mong5
+鈍	dong1
+噸	dong1
+墩	dong1
+敦	dong1
+脣	dong2
+盾	dong3
+囤	dong3
+頓	dong4
+鈍	dong5
+燉	dong5
+遁	dong5
+吞	tong1	5000
+椿	tong1
+豚	tong2
+魨	tong2
+腯	tong3
+填	tong4	5000
+撚	nong1
+忍	nong3	5000
+潤	nong4	5000
+閏	nong5	5000
+嫩	nong5
+扔	long1	5000
+輪	long2
+侖	long2
+倫	long2
+淪	long2
+論	long5	5000
+尊	zong1
+遵	zong1
+諄	zong1
+存	zong2	5000
+準	zong3	5000
+圳	zong4	5000
+俊	zong4
+駿	zong4
+潤	zomg5
+伸	cong1	5000
+春	cong1	5000
+蠢	cong3
+寸	cong4
+孫	song1	5000
+船	song2	5000
+勻	song2
+巡	song2
+純	song2
+醇	song2
+淳	song2
+旬	song2
+循	song2
+荀	song2
+筍	song3	5000
+隼	song3
+舜	song4
+遜	song4
+瞬	song4
+順	song5
+殉	song5
+君	gong1	5000
+軍	gong1	5000
+裙	gong2	5000
+煇	gong2
+𤉙	gong2	5000
+拳	gong2	5000
+群	gong2	5000
+滾	gong3	5000
+袞	gong3
+棍	gong4
+郡	gong5
+菌	kong1
+坤	kong1
+昆	kong1
+捆	kong3
+睏	kong4	5000
+困	kong4
+分	hong1	5000
+薰	hong1	5000
+婚	hong1	5000
+紛	hong1
+芬	hong1
+勳	hong1
+昏	hong1
+葷	hong1
+魂	hong2
+渾	hong2
+痕	hong2	5000
+眩	hong2	5000
+粉	hong3	5000
+忿	hong3
+憤	hong3
+奮	hong4
+訓	hong4
+混	hong5
+份	hong5
+分	hong5
+溫	ong1
+瘟	ong1
+雲	ong2	5000
+勻	ong2
+耘	ong2
+穩	ong3	5000
+搵	ong4	5000
+運	ong5	5000
+韻	ong5
+醖	ong5
+蘊	ong5
+愠	ong5
+
+#or韻
+波	bor1
+坡	bor1
+玻	bor1
+爬	bor2
+杷	bor2	5000
+琶	bor2
+袍	bor2
+耙	bor2	5000
+把	bor3	5000
+飽	bor3	5000
+馬	bor3	5000
+碼	bor3	5000
+寶	bor3	5000
+褒	bor3
+葆	bor3
+堡	bor3
+煲	bor3
+報	bor4	5000
+播	bor4	5000
+暴	bor5
+冒	bor5
+北	bor5
+脬	por1
+葩	por1
+帕	por4	5000
+破	por4
+泡	por5	5000
+瀑	por5
+貓	mor1	5000
+摸	mor1	5000
+毛	mor2
+髦	mor2
+摩	mor2
+磨	mor2
+罵	mor4	5000
+磨	mor5
+擔	dor1	5000
+多	dor1
+焦	dor1
+刀	dor1
+茶	dor2	5000
+踏	dor2
+濤	dor2
+陶	dor2
+淘	dor2
+逃	dor2
+駝	dor2
+馱	dor2
+佗	dor2
+膽	dor3	5000
+島	dor3	5000
+倒	dor3
+禱	dor3
+榨	dor4	5000
+擔	dor4
+到	dor4
+搭	dor5
+托	dor5
+賺	dor5	5000
+誕	dor5	5000
+詫	dor5
+導	dor5
+道	dor5	5000
+惰	dor5
+盜	dor5
+蹈	dor5
+稻	dor5
+舵	dor5
+滔	tor1
+叨	tor1
+桃	tor2
+濌	tor2	5000
+討	tor3
+妥	tor3
+䖳	tor4	5000
+套	tor4
+塔	tor5	5000
+籃	nor2	5000
+林	nor2	50000
+挪	nor2
+腦	nor3
+欖	nor3	5000
+惱	nor3	5000
+爁	nor4
+乇	nor5	5000
+儺	nor5
+撈	lor1
+勞	lor2	5000
+拉	lor2	5000
+牢	lor2
+羅	lor2
+鑼	lor2
+老	lor3	5000
+裸	lor3
+涝	lor4
+勞	lor5
+渣	zor1	5000
+遭	zor1
+糟	zor1
+閘	zor2
+曹	zor2
+槽	zor2
+早	zor3	5000
+左	zor3	5000
+棗	zor3
+竈	zor4
+揸	zor5
+叉	cor1	5000
+操	cor1
+杈	cor1
+釵	cor1
+柴	cor2	5000
+炒	cor3	5000
+草	cor3
+造	cor4	5000
+操	cor1
+糙	cor4
+插	cor5	5000
+三	sor1	5000
+衫	sor1	5000
+紗	sor1
+騷	sor1
+搜	sor1
+唆	sor1
+煠	sor2	5000
+鎖	sor3
+瑣	sor3
+掃	sor3
+嫂	sor3
+藻	sor3
+燥	sor4	5000
+噪	sor4
+柑	gor1	5000
+干	gor1
+膠	gor1	5000
+鉸	gor1	5000
+高	gor1
+羔	gor1
+皋	gor1
+歌	gor1	5000
+哥	gor1
+銜	gor2	5000
+芽	gor2	5000
+牙	gor2	5000
+衙	gor2
+敖	gor2
+鰲	gor2
+俄	gor2
+蛾	gor2
+峨	gor2
+娥	gor2
+鵝	gor2
+敢	gor3	5000
+果	gor3	5000
+假	gor3	5000
+稿	gor3
+教	gor4	5000
+價	gor4	5000
+架	gor4	5000
+漖	gor4	5000
+告	gor4	5000
+過	gor4
+咬	gor5	5000
+䘥	gor5	5000
+㔶	gor5	5000
+夾	gor5	5000
+餓	gor5
+臥	gor5
+鮫	kor1	5000
+坩	kor1	5000
+科	kor1
+柯	kor1
+蛾	kor1
+戈	kor1
+珂	kor1
+顆	kor1
+苛	kor1
+窠	kor1
+合	kor2	5000
+攷	kor3
+考	kor3	5000
+可	kor3
+鉸	kor4
+課	kor4	5000
+個	kor4
+浩	kor4
+犒	kor4
+拷	kor4
+烤	kor4
+銬	kor4
+栲	kor5
+嗷	ngor2
+我	ngor3	1%
+瘕	hor1	5000
+蝦	hor2	5000
+何	hor2
+河	hor2
+荷	hor2
+禾	hor2
+和	hor2
+豪	hor2
+毫	hor2
+壕	hor2
+火	hor3
+好	hor4	5000
+孝	hor4
+耗	hor4
+賀	hor5
+禍	hor5
+號	hor5
+顥	hor5
+窩	or1
+霞	or2
+拗	or3	5000
+襖	or3
+奧	or4
+澳	or4
+鴨	or5	5000
+押	or5	5000
+下	or5	5000
+餡	or5	5000
+廈	or5	5000
+啞	or5
+夏	or5
+傲	or5
+#orh韻
+卜	borh6
+剝	borh6
+木	borh7	5000
+目	borh7	5000
+牧	borh7
+穆	borh7
+寞	borh7
+博	borh7
+博	porh6	5000
+撲	porh6
+樸	porh6
+搏	porh6
+曝	porh7	5000
+篤	dorh6
+督	dorh6	5000
+琢	dorh6
+諑	dorh6
+毒	dorh7	5000
+濯	dorh7
+獨	dorh7	5000
+諾	dorh7
+鐸	dorh7
+犢	dorh7
+牘	dorh7
+度	dorh7
+托	torh6	5000
+𠟶	torh6	5000
+豛	torh6
+讀	torh7
+漉	lorh6	5000
+鹿	lorh7
+綠	lorh7	5000
+落	lorh7
+洛	lorh7
+駱	lorh7
+絡	lorh7
+祿	lorh7
+碌	lorh7
+樂	lorh7
+烙	lorh7
+摝	lorh7
+燭	zorh6	5000
+作	zorh6	5000
+座	zorh6
+坐	zorh6
+族	zorh7	5000
+褥	zorh7	5000
+濁	zorh7
+粟	corh6	5000
+錯	corh6
+鑿	corh7
+䟉	corh7
+速	sorh7
+束	sorh7
+索	sorh7
+國	gorh6	5000
+各	gorh6
+閣	gorh6
+穀	gorh6	5000
+谷	gorh6
+郭	gorh6
+萼	gorh6
+鄂	gorh6
+鱷	gorh6
+芽	gorh7	5000
+噩	gorh7
+擴	korh6
+哭	korh6
+酷	korh6
+麯	korh6
+磕	korh7
+福	horh6	5000
+幅	horh6
+覆	horh6
+複	horh6
+霍	horh6
+合	horh7
+服	horh7
+鶴	horh7
+伏	horh7
+腹	horh7
+復	horh7	5000
+茯	horh7
+惡	orh6	5000
+沃	orh6	5000
+屋	orh6
+盒	orh7	5000
+#orng韻
+乓	borng1
+房	borng2
+旁	borng2
+榜	borng3
+謗	borng4
+傍	borng5
+磅	borng5
+棒	borng5
+泵	borng5
+豐	porng1	5000
+盤	porng2
+捧	porng2
+蓬	porng2
+肨	porng3
+碰	porng5
+膨	porng5	5000
+亡	morng2
+蒙	morng2
+芒	morng2
+茫	morng2
+網	morng3
+莽	morng3
+妄	morng4
+夢	morng4
+忘	morng5
+望	morng5
+妄	morng5
+中	dorng1
+東	dorng1
+冬	dorng1
+當	dorng1	5000
+同	dorng2	5000
+桐	dorng2
+堂	dorng2	5000
+筒	dorng2
+螳	dorng2
+童	dorng2	5000
+唐	dorng2	5000
+棠	dorng2
+塘	dorng2
+黨	dorng3
+董	dorng3
+檔	dorng4
+當	dorng4
+擋	dorng4
+凍	dorng4
+棟	dorng4
+幢	dorng4
+撞	dorng5	5000
+動	dorng5	5000
+洞	dorng5	5000
+恫	dorng5
+湯	torng1
+通	torng1
+糖	torng2
+統	torng3	5000
+痛	torng4	5000
+燙	torng4
+蕩	torng4
+幢	torng5
+莊	zorng1
+裝	zorng1
+妝	zorng1	5000
+贓	zorng1
+宗	zorng1	5000
+棕	zorng1
+綜	zorng1
+藏	zorng2	10%
+崇	zorng2
+總	zorng3
+壯	zorng4	5000
+葬	zorng4
+縱	zorng4
+狀	zorng5
+臟	zorng5	5000
+藏	zorng5	90%
+倉	corng1
+聰	corng1	5000
+瘡	corng1
+蒼	corng1
+匆	corng1
+床	corng2
+愴	corng3
+創	corng4	5000
+慫	corng5
+桑	sorng1
+雙	sorng1
+霜	sorng1
+松	sorng1	5000
+喪	sorng1
+叢	sorng2
+爽	sorng3
+嗓	sorng3
+宋	sorng4	5000
+送	sorng4
+喪	sorng4
+工	gorng1	5000
+公	gorng1	5000
+鋼	gorng1	10%
+崗	gorng1
+岡	gorng1
+剛	gorng1
+綱	gorng1
+缸	gorng1
+光	gorng1	5000
+功	gorng1	5000
+攻	gorng1
+江	gorng1
+狂	gorng2	5000
+講	gorng3	5000
+廣	gorng3	5000
+龔	gorng3
+貢	gorng4
+汞	gorng4
+贛	gorng4
+康	korng1	5000
+空	korng1	5000	70%
+慷	korng1
+糠	korng1
+腔	korng1
+框	korng1
+匡	korng1
+筐	korng1
+窮	korng2
+孔	korng3
+炕	korng4	5000
+控	korng4
+礦	korng4
+曠	korng4
+空	korng4	30%
+虹	korng5
+昂	ngorng2
+戇	ngorng5
+風	horng1	5000
+封	horng1
+方	horng1	5000
+芳	horng1	5000
+豐	horng1	5000
+瘋	horng1
+楓	horng1
+鋒	horng1	5000
+蜂	horng1
+峯	horng1
+慌	horng1
+荒	horng1
+烘	horng1
+黃	horng2	5000
+皇	horng2	5000
+惶	horng2
+蝗	horng2
+煌	horng2
+洪	horng2
+鴻	horng2
+逢	horng2
+縫	horng2
+防	horng2	5000
+凰	horng2	5000
+訪	horng3
+紡	horng3
+諷	horng3
+放	horng4	5000
+況	horng4
+鳳	horng5
+哄	horng5
+奉	horng5	5000
+塕	orng1	5000
+汪	orng1
+翁	orng1
+王	orng2	5000
+灣	orng2	5000
+往	orng3
+枉	orng3
+忹	orng3	5000
+甕	orng4
+旺	orng5
+#ou韻	
+夫	bou1
+坡	bou1
+模	bou2
+蒲	bou2
+膜	bou2
+某	bou3
+母	bou3
+斧	bou3
+捕	bou3
+補	bou3
+畝	bou3
+牡	bou3
+佈	bou4
+布	bou4
+傅	bou4
+怖	bou4
+步	bou5
+部	bou5
+埔	bou5
+埠	bou5
+戊	bou5
+捕	bou5
+哺	bou5
+暮	bou5
+募	bou5
+鋪	pou1
+麩	pou1
+扶	pou2
+浮	pou2
+莆	pou2
+蒲	pou2
+菩	pou2
+普	pou3
+譜	pou3
+埔	pou3
+圃	pou3
+浦	pou3
+鋪	pou4
+簿	pou5
+摸	mou1
+墓	mou4
+都	dou1
+圖	dou2
+途	dou2
+塗	dou2
+荼	dou2
+徒	dou2
+屠	dou2
+肚	dou3
+賭	dou3
+睹	dou3
+堵	dou3
+住	dou4
+妒	dou4
+蠹	dou4
+註	dou4
+墿	dou5
+路	dou5
+度	dou5
+渡	dou5
+鍍	dou5
+踱	dou5
+杜	dou5
+怒	dou5
+涂	tou2
+土	tou3
+凸	tou3
+吐	tou4
+兔	tou4
+孥	nou1
+奴	nou2
+弩	nou2
+努	nou5
+攎	lou2
+廬	lou2
+蘆	lou2
+爐	lou2
+顱	lou2
+滷	lou3
+魯	lou3
+虜	lou3
+橹	lou3
+擄	lou3
+露	lou4
+路	lou5
+滷	lou5
+賂	lou5
+鷺	lou5
+朱	zou1
+珠	zou1
+租	zou1
+俞	zou2
+殂	zou2
+徂	zou2
+祖	zou3
+主	zou3
+組	zou3
+註	zou4
+著	zou4
+鑄	zou4
+喩	zou5
+詐	
+粗	cou1
+醋	cou4
+厝	cou4
+蘇	sou1
+酥	sou1
+輸	sou1
+甦	sou1
+數	sou4
+素	sou4
+塑	sou4
+訴	sou4
+數	sou4
+埾	sou5
+姑	gou1
+蛄	gou1
+菰	gou1
+菇	gou1
+辜	gou1
+沽	gou1
+吳	gou2
+糊	gou2
+吾	gou2
+梧	gou2
+古	gou3
+鼓	gou3
+午	gou3
+估	gou3
+牯	gou3
+五	gou3
+股	gou3
+蛊	gou3
+䀇	gou3
+顧	gou4
+故	gou4
+固	gou4
+雇	gou4
+錮	gou4
+誤	gou5
+悟	gou5
+晤	gou5
+寤	gou5
+呼	kou1
+箍	kou1
+枯	kou1
+苦	kou3
+古	kou3
+褲	kou4
+庫	kou4
+五	ngou5
+仵	ngou5
+呼	hou1
+胡	hou2
+湖	hou2
+壺	hou2
+狐	hou2
+弧	hou2
+葫	hou2
+糊	hou2
+乎	hou2
+虎	hou3
+滸	hou3
+琥	hou3
+戽	hou4
+雨	hou5
+戶	hou5
+護	hou5
+扈	hou5
+互	hou5
+滬	hou5
+怙	hou5
+烏	ou1
+鎢	ou1
+壺	ou2
+盂	ou2
+污	ou4
+惡	ou4
+芋	ou5
+護	ou5
+
+
+
+#i韻
+碑	bi1
+卑	bi1
+悲	bi1
+陂	bi1
+眉	bi2
+湄	bi2	5000
+楣	bi2
+彌	bi2
+維	bi2
+唯	bi2
+微	bi2
+脾	bi2
+琵	bi2
+蓖	bi2
+枇	bi2	5000
+獼	bi2
+篾	bi2	5000
+比	bi3
+米	bi3	5000
+彼	bi3
+美	bi3	5000
+尾	bi3
+庇	bi4
+痺	bi4
+啤	bi4
+箅	bi4
+毖	bi4
+秘	bi4
+沸	bi4
+備	bi5
+味	bi5	5000
+未	bi5
+寐	bi5
+沕	bi5
+鼻	bi5	5000
+披	pi1
+胚	pi1
+砒	pi1
+皮	pi2
+疲	pi2
+丕	pi3
+痞	pi3
+匕	pi3
+鄙	pi3
+疕	pi3
+屁	pi4
+鼻	pi4	5000
+被	pi5
+㓟	pi5	5000
+咪	mi1
+毜	mi1	5000
+知	di1	5000
+池	di2	5000
+挃	di2	5000
+馳	di2
+遲	di2
+持	di2
+峙	di3
+置	di4
+智	di4
+致	di4
+蒂	di4
+戴	di4	5000
+治	di5
+痔	di5
+弟	di5	5000
+膩	di5
+稚	di5
+笞	ti1
+癡	ti1
+粚	ti1	5000
+啼	ti2
+苔	ti2
+恥	ti3
+拸	ti3
+剃	ti4	5000
+鐵	ti5	5000
+雉	ti5
+柅	ni1
+尼	ni2
+泥	ni2
+呢	ni2
+餌	ni4
+𥍉	ni5
+躡	ni5
+來	li2	5000
+梨	li2	5000
+釐	li2
+狸	li2
+離	li2
+璃	li2	5000
+籬	li2
+灕	li2
+里	li3
+理	li3	5000
+李	li3
+鯉	li3
+利	li4	5000
+吏	li4
+利	li5
+痢	li5
+莉	li5
+俐	li5
+內	li5	5000
+厲	li5
+支	zi1
+吱	zi1
+肢	zi1
+脂	zi1
+芝	zi1
+兒	zi2
+止	zi3
+只	zi3
+耳	zi3	5000
+尓	zi3
+旨	zi3
+指	zi3
+址	zi3
+籽	zi3	5000
+紫	zi3
+姊	zi3
+子	zi3	5000
+你	zi3
+志	zi4
+痣	zi4	10%
+至	zi4
+二	zi5	5000
+字	zi5	5000
+接	zi5	5000
+鰓	ci1	5000
+蠘	ci2	5000
+蠞	ci2	5000
+侈	ci3
+齒	ci3
+幟	ci4
+刺	ci4	5000
+飼	ci4	5000
+翅	ci4
+市	ci5	5000
+詩	si1
+屍	si1
+施	si1
+撕	si1
+絲	si1
+司	si1
+時	si2	5000
+匙	si2
+辭	si2	5000
+舌	si2	5000
+始	si3
+矢	si3
+屎	si3
+死	si3	5000
+試	si4
+薛	si4
+勢	si4
+四	si4	5000
+是	si5	5000	10%
+氏	si5
+視	si5	5000
+舐	si5	5000
+寺	si5	5000
+示	si5
+侍	si5
+蝕	si5
+枝	gi1
+肌	gi1
+飢	gi1
+機	gi1	5000
+幾	gi1
+基	gi1
+規	gi1
+奇	gi2
+棋	gi2
+其	gi2
+旗	gi2
+期	gi2
+逵	gi2
+葵	gi2
+宜	gi2
+疑	gi2
+儀	gi2
+歧	gi2
+己	gi3
+蟻	gi3
+議	gi3
+指	gi3	5000
+記	gi4
+寄	gi4
+季	gi4
+痣	gi4	5000	90%
+既	gi4
+冀	gi4
+紀	gi4
+義	gi5
+忌	gi5
+毅	gi5
+妓	gi5
+技	gi5
+砌	gi5
+欺	ki1
+欹	ki1	5000
+窺	ki1
+騎	ki2
+畸	ki2
+蜞	ki2
+起	ki3	5000
+豈	ki3
+齒	ki3	5000
+棄	ki4
+企	ki4
+氣	ki4	5000
+汽	ki4	5000
+器	ki4
+柿	ki5	5000
+缺	ki5	5000
+飛	hi1	5000
+非	hi1
+匪	hi1
+菲	hi1
+嬉	hi1
+禧	hi1
+曦	hi1
+熙	hi1
+犧	hi1
+希	hi1
+妃	hi1
+扉	hi1
+晞	hi1
+肥	hi2
+嘻	hi2	5000
+喜	hi3	5000
+誹	hi3
+費	hi4	5000
+肺	hi4
+吠	hi4
+戲	hi4	5000
+耳	hi5	5000
+衣	i1
+依	i1
+伊	i1	30%
+醫	i1	5000
+移	i2
+夷	i2
+姨	i2
+怡	i2
+遺	i2
+胰	i2	5000
+彝	i2
+以	i3
+椅	i3	5000
+意	i4
+懿	i4
+易	i5
+異	i5
+億	i5	5000
+憶	i5
+已	i5
+
+#ieh韻	
+疈	bieh6	5000
+蝶	dieh7
+碟	dieh7
+諜	dieh7
+迭	dieh7
+疊	dieh7
+牒	dieh7
+貼	tieh6	5000
+帖	tieh6
+聶	nieh6
+鑷	nieh6
+捏	nieh6
+躡	nieh6
+攝	nieh6
+笠	lieh7
+接	zieh6	5000
+汁	zieh6	5000
+捷	zieh7
+婕	zieh7
+啑	zieh7
+竊	cieh6
+妾	cieh6
+攝	sieh6
+澀	sieh6	5000
+涉	sieh7
+夾	gieh6
+劫	gieh6
+業	gieh7
+挾	gieh7
+梜	gieh7
+愜	kieh6
+協	hieh7
+峽	hieh7
+脅	hieh7
+狹	hieh7
+俠	hieh7
+葉	ieh7
+頁	ieh7
+擛	ieh7
+#ieng韻	
+扁	bieng5
+砧	dieng1	5000
+點	dieng3	5000
+店	dieng4
+甸	dieng5
+墊	dieng5
+添	tieng1
+甜	tieng2
+恬	tieng2
+忝	tieng3
+填	tieng4	5000
+黏	nieng2
+攆	nieng3
+捻	nieng4
+唸	nieng5
+念	nieng5
+簾	lieng
+鈴	lieng2
+廉	lieng2
+鐮	lieng2
+濂	lieng2
+臉	lieng3
+殮	lieng5
+斂	lieng5
+尖	zieng1	5000
+針	zieng1	5000
+占	zieng1
+潛	zieng2
+剪	zieng3
+染	zieng3	5000
+翦	zieng3
+戩	zieng3
+佔	zieng4	5000
+箭	zieng4
+簽	cieng1	5000
+纖	cieng1
+譛	cieng2
+僣	cieng4
+森	sieng1	5000
+蔘	sieng1	5000
+閃	sieng3
+陝	sieng3
+贍	sieng5
+兼	gieng1
+鹹	gieng2	5000
+減	gieng3	5000
+檢	gieng3
+劍	gieng4
+儉	gieng5
+謙	kieng1
+鉗	kieng2	5000
+鹼	kieng3
+歉	kieng3
+欠	kieng4	5000
+芡	kieng4	5000
+嚴	ngieng2	5000
+閻	ngieng2
+儼	ngieng3
+驗	ngieng5
+掀	hieng1	5000
+嫌	hieng2	5000
+險	hieng3
+顯	hieng3
+醃	ieng1	5000
+閹	ieng1
+鹽	ieng2	5000
+炎	ieng2
+掩	ieng3
+厭	ieng4
+蔭	ieng4
+焰	ieng5
+焱	ieng5	5000
+豔	ieng5
+
+#u韻
+無	bu1
+蕪	bu1
+炰	bu1
+巫	bu1
+芙	bu1
+武	bu2
+鵡	bu2
+舞	bu2
+富	bu4
+務	bu5
+霧	bu5
+侮	bu5
+孵	bu5
+婦	bu5
+浮	pu2
+烰	pu2
+爐	pu2
+殕	pu3
+毛	mu2
+膜	mu3
+嘟	du1
+拄	du3
+托	tu5
+奴	nu2
+咮	zu2
+𠲿	su5
+龜	gu1
+蚼	gu1
+牛	gu2
+久	gu3
+韭	gu3
+句	gu4
+灸	gu4
+舊	gu5
+舅	gu5
+臼	gu5
+丘	ku1
+邱	ku1
+跍	ku2
+夫	hu1
+膚	hu1
+敷	hu1
+灰	hu1
+芙	hu2
+俘	hu2
+扶	hu2
+符	hu2
+府	hu3
+俯	hu3
+甫	hu3
+付	hu4
+副	hu4
+赴	hu4
+富	hu4
+賦	hu4
+腐	hu5
+父	hu5
+附	hu5
+傅	hu5
+駙	hu5
+阜	hu5
+負	hu5
+婦	hu5
+輔	hu5
+杇	u1
+污	u4
+有	u5
+#ung韻
+榜	pung3
+莽	mung3
+蟒	mung3
+當	dung1
+張	dung1
+長	dung2
+腸	dung2
+堂	dung2
+唐	dung2
+塘	dung2
+漲	dung3
+當	dung4
+丈	dung5
+蕩	dung5
+湯	tung1
+糖	tung2
+兩	nung5
+郎	lung2
+瓤	lung2
+榔	lung2
+浪	lung5
+妝	zung1
+裝	zung1
+贓	zung1
+莊	zung1
+狀	zung5
+髒	zung5
+倉	cung1
+瘡	cung1
+滄	cung1
+艙	cung1
+床	cung2
+霜	sung1
+嗓	sung3
+光	gung1
+扛	gung1
+缸	gung1
+狂	gung2
+廣	gung3
+鋼	gung4	90%
+杠	gung4
+康	kung1
+糖	kung1
+壙	kung3
+囥	kung4
+放	hung4
+
+#ue韻
+杯	bue1
+飛	bue1
+風	bue1
+楓	bue1
+緋	bue1
+襪	bue2
+賠	bue2
+陪	bue2
+梅	bue2
+莓	bue2
+煤	bue2
+培	bue2
+玫	bue2
+媒	bue2
+尾	bue3
+每	bue3
+本	bue3
+痱	bue4
+輩	bue4
+褙	bue4
+貝	bue4
+背	bue4
+飯	bue5
+未	bue5
+髮	bue5
+倍	bue5
+背	bue5
+焙	bue5
+佩	bue5
+狽	bue5
+坯	pue1
+胚	pue1
+皮	pue2
+末	pue2
+佩	pue4
+沛	pue4
+杮	pue4
+被	pue5
+門	mue2
+聞	mue2
+物	mue2
+糜	mue2
+妹	mue4
+傳	due2
+椽	due2
+捼	due2
+轉	due3
+綴	due4
+對	due4
+內	due5
+傳	due5
+篆	due5
+推	tue1
+揣	tue3
+退	tue4
+褪	tue4
+蛻	tue4
+蔫	nue1
+捼	nue2
+軟	nue3
+揣	nue4
+磚	zue1
+鉛	zue2
+最	zue4
+罪	zue5
+睿	zue5
+銳	zue5
+穿	cue1
+炊	cue1
+吹	cue1
+崔	cue1
+箠	cue2
+髓	cue3
+[扌罪]	cue4
+出	cue5
+啜	cue5
+衰	sue1
+甩	sue3
+歲	sue4
+稅	sue4
+帥	sue4
+率	sue4
+說	sue5
+關	gue1
+乖	gue1
+月	gue2
+果	gue3
+粿	gue3
+管	gue3
+跂	gue3
+捲	gue3
+拐	gue3
+桊	gue4
+髻	gue4
+卷	gue4
+會	gue4
+怪	gue4
+檜	gue4
+繪	gue4
+外	gue5
+月	gue5
+魁	kue1
+盔	kue1
+詼	kue1
+恢	kue1
+跪	kue3
+快	kue4
+勸	kue4
+缺	kue5
+[乞伊]	kue5
+原	ngue2
+元	ngue2
+願	ngue5
+灰	hue1
+園	hue2
+回	hue2
+懷	hue2
+蛔	hue2
+槐	hue2
+淮	hue2
+火	hue3
+伙	hue3
+悔	hue3
+賄	hue3
+誨	hue3
+歲	hue4
+遠	hue5
+彙	hue5
+匯	hue5
+壞	hue5
+薈	hue5
+歪	ue1
+丸	ue2
+䘼	ue3
+箢	ue3
+阮	
+穢	ue4
+訛	ue5
+
+#ua韻
+搬	bua1
+般	bua1
+盤	bua2
+磨	bua2
+跋	bua2
+坂	bua3
+半	bua4
+簸	bua4
+撥	bua5
+抹	bua5
+潘	pua1
+袚	pua2
+破	pua4
+判	pua4
+潑	pua5
+麻	mua2
+鰻	mua2
+瞞	mua2
+滿	mua3
+漫	mua5
+單	dua1
+彈	dua2
+汏	dua2
+帶	dua4
+旦	dua4
+大	dua5
+段	dua5
+舵	dua5
+拖	tua1
+攤	tua1
+炭	tua4
+欄	nua2
+瀾	nua3
+爛	nua5
+籮	lua2
+辣	lua2
+籃	lua2
+捋	lua2
+賴	lua5
+抓	zua1
+盞	zua3
+債	zua4
+蔡	cua4
+礤	cua5
+擦	cua5
+鑔	cua5
+銼	cua5
+沙	sua1
+山	sua1
+鯊	sua1
+傘	sua3
+耍	sua3
+算	sua4
+散	sua4
+汕	sua4
+灑	sua5
+薩	sua5
+煞	sua5
+乾	gua1
+肝	gua1
+官	gua1
+瓜	gua1
+柯	gua1
+過	gua1
+菅	gua1
+寒	gua2
+我	gua3	9%
+趕	gua3
+秆	gua3
+寡	gua3
+蓋	gua4
+觀	gua4
+芥	gua4
+掛	gua4
+卦	gua4
+庎	gua4
+汗	gua5
+外	gua5
+刮	gua5
+割	gua5
+扞	gua5
+摜	gua5
+旱	gua5
+寬	kua1
+誇	kua1
+夸	kua1
+垮	kua2
+看	kua4
+跨	kua4
+靠	kua4
+闊	kua5
+花	hua1
+歡	hua1
+河	hua2
+橫	hua2
+宏	hua2
+華	hua2
+鏵	hua2
+嘩	hua2
+化	hua4
+華	hua4
+喝	hua5
+話	hua5
+安	ua1
+鞍	ua1
+哇	ua1
+挖	ua1
+窪	ua1
+橫	ua2
+何	ua2
+河	ua2
+碗	ua3
+倚	ua3
+瓦	ua3
+晏	ua4
+話	ua5
+畫	ua5
+#uah韻
+抹	buah6
+末	buah7
+潑	puah6
+袚	puah7
+奪	duah7
+闊	kuah6
+刮	guah6
+擴	guah6
+禿	tuah6
+脫	tuah6
+捋	luah7
+辣	luah7
+刷	suah6
+發	huah6
+髮	huah6
+罰	huah7
+伐	huah7
+劃	huah7
+閥	huah7
+䢕	huah7
+斡	uah6
+活	uah7
+劃	uah7
+#uang韻
+般	buang1
+搬	buang1
+盤	buang2
+蟠	buang2
+坂	buang3
+半	buang4
+伴	buang5
+番	puang1
+潘	puang1
+藩	puang1
+判	puang4
+叛	puang4
+伴	puang5
+絆	puang5
+胖	puang5
+瞞	muang2
+滿	muang3
+端	duang1
+團	duang2
+糰	duang2
+短	duang3
+斷	duang5
+鍛	duang5
+段	duang5
+緞	duang5
+湍	tuang1
+團	tuang2
+暖	nuang3
+欒	luang2
+孿	luang2
+巒	luang2
+鑾	luang2
+卵	luang3
+亂	luang5
+鑽	zuang1
+轉	zuang3
+鑽	zuang4
+撰	zuang5
+穿	cuang1
+串	cuang4
+竄	cuang4
+闖	cuang4
+篡	cuang4
+酸	suang1
+痠	suang1
+算	suang4
+蒜	suang4
+	suang5
+檨	suang5
+官	guang1
+觀	guang1
+冠	guang1
+關	guang1
+鰥	guang1
+菅	guang1
+棺	guang1
+管	guang3
+館	guang3
+冠	guang4
+罐	guang4
+灌	guang4
+貫	guang4
+慣	guang4
+觀	guang4
+寬	kuang1
+款	kuang3
+玩	nguang2
+頑	nguang2
+玩	nguang5
+翻	huang1
+番	huang1
+繁	huang2
+礬	huang2
+環	huang2
+還	huang2
+桓	huang2
+反	huang3
+返	huang3
+換	huang4
+喚	huang4
+煥	huang4
+販	huang4
+渙	huang4
+幻	huang5
+緩	huang5
+宦	huang5
+患	huang5
+彎	uang1
+灣	uang2
+刓	uang2
+碗	uang3
+腕	uang3
+宛	uang3
+婉	uang3
+皖	uang3
+烷	uang3
+
+#y韻
+豬	dy1
+誅	dy1
+除	dy2
+女	dy3
+汝	dy3	10%
+著	dy4
+箸	dy5
+洙	ty1
+鋤	ty2
+儲	ty2
+貯	ty3
+杵	ty2
+馿	ly2
+旅	ly3
+呂	ly3
+鋁	ly3
+縷	ly3
+慮	ly5
+濾	ly5
+鑢	ly5
+屢	ly5
+珠	zy1
+諸	zy1
+書	zy1
+如	zy2
+茹	zy2
+瑜	zy2
+俞	zy2
+愉	zy2
+儒	zy2
+主	zy3
+煮	zy3
+乳	zy3
+汝	zy3
+注	zy4
+鑄	zy4
+駐	zy4
+蛀	zy4
+住	zy5
+聚	zy5
+裕	zy5
+喻	zy5
+柱	zy5
+炷	zy5
+蛆	cy1
+舒	cy1
+廚	cy2
+櫥	cy2
+取	cy3
+娶	cy3
+鼠	cy3
+趣	cy4
+處	cy4
+書	sy1
+舒	sy1
+須	sy1
+需	sy1
+輸	sy1
+儒	sy1
+徐	sy2
+舒	sy2
+薯	sy2
+暑	sy3
+署	sy3
+墅	sy3
+黍	sy3
+絮	sy4
+恕	sy4
+庶	sy4
+戍	sy4
+序	sy5
+嶼	sy5
+豎	sy5
+樹	sy5
+敘	sy5
+緒	sy5
+墅	sy5
+車	gy1
+居	gy1
+裾	gy1
+漁	gy2
+愚	gy2
+虞	gy2
+娛	gy2
+渠	gy2
+瞿	gy2
+禺	gy2
+隅	gy2
+語	gy3
+舉	gy3
+矩	gy3
+據	gy4
+鋸	gy4
+劇	gy4
+句	gy4
+拒	gy5
+巨	gy5
+炬	gy5
+具	gy5
+懼	gy5
+俱	gy5
+遇	gy5
+御	gy5
+區	ky1
+驅	ky1
+拘	ky1
+駒	ky1
+軀	ky1
+去	ky4
+虛	hy1
+噓	hy1
+吁	hy1
+墟	hy1
+魚	hy2
+許	hy3
+詡	hy3
+淤	y1
+余	y2
+於	y2
+餘	y2
+輿	y2
+宇	y3
+禹	y3
+羽	y3
+雨	y3
+栩	y3
+煦	y4
+予	y5
+預	y5
+豫	y5
+譽	y5
+與	y5
+#yh韻
+役	yh7
+疫	yh7
+域	yh7
+#yng韻
+斤	gyng1
+筋	gyng1
+巾	gyng1
+根	gyng1
+跟	gyng1
+均	gyng1
+勤	gyng2
+靳	gyng4
+近	gyng5
+傾	kyng1
+芹	kyng2
+瓊	kyng2
+懇	kyng3
+墾	kyng3
+頃	kyng3
+銀	ngyng1
+欣	hyng1
+眩	hyng2
+狠	hyng3
+釁	hyng4
+恨	hyng5
+恩	yng1
+殷	yng1
+榮	yng2
+嶸	yng2
+熒	yng2
+營	yng2
+允	yng3
+永	yng3
+隱	yng3
+瑩	yng4
+詠	yng5
+泳	yng5
+
+#yor韻
+蚮	dyor5
+在	dyor5
+展	tyor3
+拖	tyor1
+燃	nyor2
+撋	nyor3
+挪	nyor4
+煎	zyor1
+紙	zyor3
+漈	zyor4
+纖	cyor1
+癬	cyor3
+抴	cyor4
+𤆬	cyor4
+鱔	cyor5
+施	syor1
+蛇	syor2
+泉	syor2
+徙	syor3
+線	syor4
+腺	syor4
+紲	syor4
+誓	syor4
+鵝	gyor2
+蜈	gyor2
+墘	gyor2
+囝	gyor3
+舉	gyor3
+寄	gyor4
+件	gyor5
+健	gyor5
+奇	kyor1
+騎	kyor2
+企	kyor4
+徛	kyor5
+岸	ngyor5
+靴	hyor1
+桸	hyor1
+禧	hyor1
+許	hyor3
+艾	hyor4
+瓦	hyor5
+蟻	hyor5
+贏	yor2
+營	yor2
+嘔	yor3
+換	yor5
+#yorh韻
+着	dyorh
+略	lyorh7
+掠	lyorh7
+斟	zyorh6
+爵	zyorh6
+若	zyorh7
+弱	zyorh7
+雀	cyorh6
+鵲	cyorh6
+削	syorh6
+勺	syorh6
+灼	syorh6
+芍	syorh6
+矍	gyorh6
+腳	gyorh6
+虐	gyorh7
+瘧	gyorh7
+卻	kyorh6
+䢕	hyorh7
+約	yorh6
+躍	yorh7
+#yorng韻
+張	dyorng1
+長	dyorng2
+腸	dyorng2
+場	dyorng2
+長	dyorng3
+脹	dyorng4
+漲	dyorng4
+丈	dyorng5
+杖	dyorng5
+仗	dyorng5
+暢	tyorng4
+悵	tyorng4
+良	lyorng2
+涼	lyorng2
+量	lyorng2
+糧	lyorng2
+梁	lyorng2
+粱	lyorng2
+兩	lyorng3
+亮	lyorng5
+輛	lyorng5
+諒	lyorng5
+晾	lyorng5
+量	lyorng5
+章	zyorng1
+漳	zyorng1
+將	zyorng1
+璋	zyorng1
+彰	zyorng1
+樟	zyorng1
+掌	zyorng3
+壤	zyorng3
+獎	zyorng4
+醬	zyorng4
+將	zyorng4
+障	zyorng4
+嶂	zyorng4
+讓	zyorng5
+釀	zyorng5
+槍	cyorng1
+昌	cyorng1
+猖	cyorng1
+鯧	cyorng1
+娼	cyorng1
+牆	cyorng2
+廠	cyorng3
+搶	cyorng3
+唱	cyorng4
+倡	cyorng4
+傷	syorng1
+商	syorng1
+廂	syorng1
+箱	syorng1
+湘	syorng1
+襄	syorng1
+常	syorng2
+詳	syorng2
+祥	syorng2
+嘗	syorng2
+嚐	syorng2
+翔	syorng2
+想	syorng3
+賞	syorng3
+相	syorng5
+上	syorng5
+尚	syorng5
+象	syorng5
+像	syorng5
+疆	gyorng1
+薑	gyorng1
+姜	gyorng1
+強	gyorng2
+強	gyorng3
+羌	kyorng1
+仰	ngyorng3
+香	hyorng1
+鄉	hyorng1
+薌	hyorng1
+響	hyorng3
+向	hyorng4
+嚮	hyorng4
+央	yorng1
+秧	yorng1
+殃	yorng1
+洋	yorng2
+羊	yorng2
+楊	yorng2
+陽	yorng2
+揚	yorng2
+煬	yorng2
+養	yorng3
+氧	yorng3
+癢	yorng3
+映	yorng4
+樣	yorng5
+
+#ng韻
+方	hng1
+坊	hng1
+咉	hng1
+秧	ng1
+央	ng1
+峯	ng1
+黃	ng2
+行	ng2
+影	ng3
+母	ng3
+眏	ng4
+鳳	ng5
+毋	ng5
+伓	ng5
+
+
+
+
+
+
+
+
+
+
+
+
+
