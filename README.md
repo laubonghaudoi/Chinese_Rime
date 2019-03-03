@@ -4,7 +4,7 @@
 
 ## 項目宗旨
 
-本倉庫收集現代漢語各大方言及上古、中古漢語的Rime字庫和拼音輸入方案。本項目的目標有三：
+本倉庫收集現代漢語各大方言及上古、中古漢語的[中州韻輸入法](https://rime.im/)拼音輸入方案和字庫。本項目的目標有三：
 
 1. 爲漢語非普通話使用者提供實用的拼音輸入方案，解決被迫使用普通話輸入法的困難。
 2. 爲現代漢語方言、古漢語學習者提供實用便利的學習工具，通過拼音打字來練習正音和正字。
@@ -13,7 +13,7 @@
 本項目同作爲推廣漢語方言拼音輸入的支持項目，關於推廣漢語方言拼音的理念和宗旨詳情請閱讀[本文](https://laubonghaudoi.github.io/dialects/blog/mission.html)。
 
 本倉庫分爲三部分：
-1. `sources/`路徑下爲各個輸入方案的來源倉庫，而submodule的形式保存，方便方案作者實時更新自己的方案。由於部分方案不存在於Github，故此路徑下方案收錄不完整，
+1. `sources/`路徑下爲各個輸入方案的來源倉庫，以submodule的形式保存，方便方案作者實時更新自己的方案。由於部分方案不存在於GitHub，故此路徑下方案收錄不完整，
 2. `data/`路徑下爲已收錄所有方案文件，我會檢查`sources/`下各個方案的更新情況並將最新版本方案覆蓋至`data/`中。
 3. `download/`路徑用於存放各個語言的唯一權威版拼音，即爲[發佈頁面](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases)的下載整合包，方便用戶直接部署使用。
 
@@ -23,7 +23,7 @@
 
 ## 已收錄方案
 
-目前總共收錄40門語言/方言的74個方案（上古漢語和中古漢語各算一門語言）。**主要缺失閩北語、閩中語、邵將語、瓊雷話、平話、湘語、贛語、徽語、西南官話、蘭銀官話、膠遼官話**的輸入方案，如有作者已編寫以上語言的輸入方案，歡迎[聯系我](mailto:laubonghaudoi@qq.com)或者新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
+目前總共收錄40門語言/方言的74個方案（上古漢語和中古漢語各算一門語言）。**主要缺失閩北語、閩中語、邵將語、瓊雷話、平話、湘語、贛語、徽語、西南官話、蘭銀官話、膠遼官話**的輸入方案，如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@qq.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
 - 上古漢語
     - 上古全拼 - `dkzp`
@@ -124,7 +124,7 @@
 
 下載包內方案信息詳見[發佈](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases)頁面。
 
-## 部分方案數據來源（非Github submodule）
+## 部分方案數據來源（非GitHub submodule）
 
 - 中古漢語
     - [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
@@ -133,13 +133,13 @@
 - 粵語
     - [貴州韻](https://zhuanlan.zhihu.com/p/31464937)
 - 閩語
-    - （均來自Github）
+    - （均來自GitHub）
 - 客家話
-    - （均來自Github）
+    - （均來自GitHub）
 - 吳語
     - (已失效)[吳語注音輸入方案吳語學堂版](http://www.wugniu.com/main/index.php?s=/Home/Article/detail/id/10.html)
 - 官話
-    - （均來自Github）
+    - （均來自GitHub）
 - 域外方音
     - [古壮字拼音](https://zhuanlan.zhihu.com/p/24138023)
 
@@ -204,25 +204,26 @@
 - [芽油](https://github.com/Yaryou)
 - [滕謄](https://github.com/tengtengteng)
 
-# Collection of Rime Input Method Schemas for Chinese Dialects
+# Collection of Rime Input Method Schemas for Chinese 
+/Dialects
 
 **[中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#%E4%B8%AD%E5%B7%9E%E9%9F%BB%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)        [English](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#collection-of-rime-input-method-schemas-for-chinese-dialects)**
 
 ## The Mission of this Project
 
-This repo collects the Rime phonetic spelling input method schemas and character sets for Old Chinese, Middle Chinese and modern Chinese topolects(dialects). This project aims to:
+This repo collects the phonetic spelling schemas and character sets of [Rime input method](https://rime.im/) for Old Chinese, Middle Chinese and modern Chinese topolects/dialects. This project aims to:
 
-1. Provide useful phonetic spelling input schemas for all non-Mandarin Chinese topolects(dialects), preventing the predicament where non-Mandarin Chinese speakers are compelled to type in Mandarin. 
-2. Serve as a useful tool for Chinese topolect/dialect learners, as one can use phonetic spelling input to practice the standard pronounciation and orthorgraphy.
+1. Provide useful phonetic spelling input schemas for all non-Mandarin Chinese topolects/dialects, preventing the predicament where non-Mandarin Chinese speakers are compelled to type in Mandarin. 
+2. Serve as a useful tool for Chinese topolect/dialect learners, as one can use phonetic spelling input to practice the standard pronunciation and orthography.
 3. Provide references for academic researches (Linguistics, Sinology, Anthropology, etc.).  
 
 This project also supports the promotion project of non-Mandarin phonetic spelling input. For a complete statement of the mission and motivation of the promotion, please read [this page](https://laubonghaudoi.github.io/dialects/blog/mission.html) (Chinese only).
 
 This repo works as three parts:
 
-1. Folders under the `sources/` directory are the source repos of some schemas, which are preserved as submodules so that the schema designers can keep their schemas up to date. Since not all schemas are open-sourced on Github, the collection under this directory is incomplete. 
-2. The `data/` directory is a complete collection, which contains schemas that I collected from all sources (including those on Github). I will check the version of schemas under `sources/` regularly and copy the newest version to `data/`. 
-3. The `download/` directory serves as the folder for the [realeased](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) packages. It contains only the selected schema for the prestiged dialect of each language. Hence users can download, deploy and use these off-the-shelf schemas conveniently.
+1. Folders under the `sources/` directory are the source repos of some schemas, which are preserved as submodules so that the schema designers can keep their schemas up to date. Since not all schemas are open-sourced on GitHub, the collection under this directory is incomplete. 
+2. The `data/` directory is a complete collection, which contains schemas that I collected from all sources (including those on GitHub). I will check the version of schemas under `sources/` regularly and copy the newest version to `data/`. 
+3. The `download/` directory serves as the folder for the [released](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) packages. It contains only the selected schema for the prestige dialect of each language. Hence users can download, deploy and use these off-the-shelf schemas conveniently.
 
 ## Tutorial
 
@@ -234,9 +235,9 @@ For detailed steps and explanations, check out this website (Chinese only):
 
 ### Short Introduction
 
-To add support for a certain schema to your Rime input method, simply copy the `.dict.yaml` and `.schema.yaml` to the user folder, then append the schema id in `default.yaml` and re-deploy.
+To deploy a certain schema to your Rime input method, simply copy the `.dict.yaml` and `.schema.yaml` to the user folder, then append the schema id in `default.yaml` and re-deploy.
 
-For example, if you are using PIME under Windows 10, and would like to add support for the Archaic Chinese schema `dkzp`, simiply copy the two files `dkzp.dict.yaml` and `dkzp.schema.yaml` to `C:\Users\Username\AppData\Roaming\PIME\Rime`, then open `default.yaml` and append `- schema: dkzp` after `schema_list:`, like this:
+For example, if you are using PIME under Windows 10, and would like to add support for the Old Chinese schema `dkzp`, simply copy the two files `dkzp.dict.yaml` and `dkzp.schema.yaml` to `C:\Users\Username\AppData\Roaming\PIME\Rime`, then open `default.yaml` and append `- schema: dkzp` after `schema_list:`, like this:
 
 ```yaml
 schema_list:
@@ -253,7 +254,7 @@ Steps are the similar under Linux, OS X and other versions of Windows operating 
 
 At the moment there are 74 schemas for 40 languages/dialects collected (old Chinese and middle Chinese are counted as one language respectively), and still **missing the schemas for Northern Min, Central Min, Shao-Jiang Min, Qiongleihua, Pinghua, Xiang, Gan, Huizhou, Lan–Yin Mandarin, Southwestern Mandarin**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@qq.com) or open a new issue to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
 
-- Archaic Chinese
+- Old Chinese
     - 上古全拼 - `dkzp`
 - Middle Chinese
     - 中古全拼 - `zyenpheng`
@@ -352,7 +353,7 @@ At the moment there are 74 schemas for 40 languages/dialects collected (old Chin
 
 For detailed information of the collected schemas in the download packege, please see the [release](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) page.
 
-## Incomplete List of Data Sources (non-Github submodules)
+## Incomplete List of Data Sources (non-GitHub submodules)
 
 - Middle Chinese
     - [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
@@ -361,13 +362,13 @@ For detailed information of the collected schemas in the download packege, pleas
 - Yue (Cantonese)
     - [貴州韻](https://zhuanlan.zhihu.com/p/31464937)
 - Min (Hokkien)
-    - (All from Github)
+    - (All from GitHub)
 - Hakka
-    - (All from Github)
+    - (All from GitHub)
 - Wu (Goetian)
     - (Obsolete)[吳語注音輸入方案吳語學堂版](http://www.wugniu.com/main/index.php?s=/Home/Article/detail/id/10.html)
 - Mandarin
-    - (All from Github)
+    - (All from GitHub)
 - Foreign Dialects
     - [古壮字拼音](https://zhuanlan.zhihu.com/p/24138023)
 
