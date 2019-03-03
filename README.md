@@ -204,8 +204,7 @@
 - [芽油](https://github.com/Yaryou)
 - [滕謄](https://github.com/tengtengteng)
 
-# Collection of Rime Input Method Schemas for Chinese 
-/Dialects
+# Collection of Rime Input Method Schemas for Chinese Topolects/Dialects
 
 **[中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#%E4%B8%AD%E5%B7%9E%E9%9F%BB%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)        [English](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#collection-of-rime-input-method-schemas-for-chinese-dialects)**
 
