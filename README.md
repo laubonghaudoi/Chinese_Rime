@@ -23,7 +23,7 @@
 
 ## 已收錄方案
 
-目前總共收錄40門語言/方言的74個方案（上古漢語和中古漢語各算一門語言）。**主要缺失閩北語、閩中語、邵將語、瓊雷話、平話、湘語、贛語、徽語、西南官話、蘭銀官話、膠遼官話**的輸入方案，如有作者已編寫以上語言的輸入方案，歡迎聯系我添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
+目前總共收錄40門語言/方言的74個方案（上古漢語和中古漢語各算一門語言）。**主要缺失閩北語、閩中語、邵將語、瓊雷話、平話、湘語、贛語、徽語、西南官話、蘭銀官話、膠遼官話**的輸入方案，如有作者已編寫以上語言的輸入方案，歡迎[聯系我](mailto:laubonghaudoi@qq.com)或者新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
 - 上古漢語
     - 上古全拼 - `dkzp`
@@ -212,13 +212,14 @@
 
 This repo collects the Rime phonetic spelling input method schemas and character sets for Old Chinese, Middle Chinese and modern Chinese topolects(dialects). This project aims to:
 
-1. Provide useful phonetic spelling input schemas for all non-Mandarin Chinese topolects(dialects), preventing the predicament where non-Mandarin Chinese speakers are compelled to use Mandarin input methods. 
+1. Provide useful phonetic spelling input schemas for all non-Mandarin Chinese topolects(dialects), preventing the predicament where non-Mandarin Chinese speakers are compelled to type in Mandarin. 
 2. Serve as a useful tool for Chinese topolect/dialect learners, as one can use phonetic spelling input to practice the standard pronounciation and orthorgraphy.
-3. Provide references for academic researches (linguistic, Sinology, anthropology, etc.).  
+3. Provide references for academic researches (Linguistics, Sinology, Anthropology, etc.).  
 
-This project also supports the promotion project of non-Mandarin phonetic spelling input. For a full statement of the mission and motivation of the promotion, please read [this page](https://laubonghaudoi.github.io/dialects/blog/mission.html) (Chinese only).
+This project also supports the promotion project of non-Mandarin phonetic spelling input. For a complete statement of the mission and motivation of the promotion, please read [this page](https://laubonghaudoi.github.io/dialects/blog/mission.html) (Chinese only).
 
 This repo works as three parts:
+
 1. Folders under the `sources/` directory are the source repos of some schemas, which are preserved as submodules so that the schema designers can keep their schemas up to date. Since not all schemas are open-sourced on Github, the collection under this directory is incomplete. 
 2. The `data/` directory is a complete collection, which contains schemas that I collected from all sources (including those on Github). I will check the version of schemas under `sources/` regularly and copy the newest version to `data/`. 
 3. The `download/` directory serves as the folder for the [realeased](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) packages. It contains only the selected schema for the prestiged dialect of each language. Hence users can download, deploy and use these off-the-shelf schemas conveniently.
@@ -250,7 +251,7 @@ Steps are the similar under Linux, OS X and other versions of Windows operating 
 
 ## Collected Schemas
 
-At the moment there are 74 schemas for 40 languages/dialects collected (old Chinese and middle Chinese are counted as one language respectively), and still **missing the schemas for Northern Min, Central Min, Shao-Jiang Min, Qiongleihua, Pinghua, Xiang, Gan, Huizhou, Lan–Yin Mandarin, Southwestern Mandarin**. If you have composed a schema for any of the languages above, please contact me to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
+At the moment there are 74 schemas for 40 languages/dialects collected (old Chinese and middle Chinese are counted as one language respectively), and still **missing the schemas for Northern Min, Central Min, Shao-Jiang Min, Qiongleihua, Pinghua, Xiang, Gan, Huizhou, Lan–Yin Mandarin, Southwestern Mandarin**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@qq.com) or open a new issue to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
 
 - Archaic Chinese
     - 上古全拼 - `dkzp`
