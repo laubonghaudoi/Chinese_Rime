@@ -4,9 +4,18 @@
 
 ## 項目宗旨
 
-本倉庫收集現代漢語各大方言及上古、中古漢語的Rime字庫和拼音輸入方案。本項目的宗旨是爲漢語非普通話使用者提供實用的拼音輸入方案，解決被迫使用普通話輸入法的困難，並爲現代漢語方言、古漢語學習者提供實用便利的學習工具以及爲語言學界學術研究提供參考資料。關於本項目理念的詳細介紹請閱讀[本文](https://laubonghaudoi.github.io/dialects/blog/mission.html)。
+本倉庫收集現代漢語各大方言及上古、中古漢語的Rime字庫和拼音輸入方案。本項目的目標有三：
 
-本倉庫分爲三部分：`sources/`路徑下爲各個輸入方案的來源倉庫，而submodule的形式保存，方便方案作者實時更新自己的方案。由於部分方案不存在於Github，故此路徑下方案收錄不完整，`data/`路徑下爲已收錄所有方案文件，我會檢查`sources/`下各個方案的更新情況並將最新版本方案覆蓋至`data/`中。`/download`路徑用於存放各個語言的唯一權威版拼音，即爲[發佈頁面](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases)的下載整合包，方便用戶直接部署使用。
+1. 爲漢語非普通話使用者提供實用的拼音輸入方案，解決被迫使用普通話輸入法的困難。
+2. 爲現代漢語方言、古漢語學習者提供實用便利的學習工具，通過拼音打字來練習正音和正字。
+3. 爲學術研究（語言學、漢學、人類學等）提供參考資料。
+
+本項目同作爲推廣漢語方言拼音輸入的支持項目，關於推廣漢語方言拼音的理念和宗旨詳情請閱讀[本文](https://laubonghaudoi.github.io/dialects/blog/mission.html)。
+
+本倉庫分爲三部分：
+1. `sources/`路徑下爲各個輸入方案的來源倉庫，而submodule的形式保存，方便方案作者實時更新自己的方案。由於部分方案不存在於Github，故此路徑下方案收錄不完整，
+2. `data/`路徑下爲已收錄所有方案文件，我會檢查`sources/`下各個方案的更新情況並將最新版本方案覆蓋至`data/`中。
+3. `download/`路徑用於存放各個語言的唯一權威版拼音，即爲[發佈頁面](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases)的下載整合包，方便用戶直接部署使用。
 
 ## 使用教程（项目网站）
 
@@ -201,9 +210,18 @@
 
 ## The Mission of this Project
 
-This repo collects the Rime phonetic spelling input method schemas and character tables for Old Chinese, Middle Chinese and modern Chinese topolects(dialects). This project is aimed to provide useful phonetic spelling input methods for all non-Mandarin Chinese topolects(dialects), preventing the stale where non-Mandarin Chinese speakers are compelled to use Mandarin input methods. In addition, this project also serves as a useful tool for Chinese topolect/dialect learners as well as a reference for linguistic researches. For a full statement of the mission and motivation of this project, please read [this page](https://laubonghaudoi.github.io/dialects/blog/mission.html) (Chinese only).
+This repo collects the Rime phonetic spelling input method schemas and character sets for Old Chinese, Middle Chinese and modern Chinese topolects(dialects). This project aims to:
 
-This repo works as three parts. Folders under the `sources/` directory are the sources of some schemas, which are preserved as submodules so that the schema designers can keep their schemas up to date. Since not all schemas are created on Github, the collection under this directory is incomplete. I will check the version of schemas under `sources/` and copy the newest version to `data/`. The `download/` directory serves as the folder for the [realeased](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) packages， which contains only the schema for the prestiged dialect of each language. Hence users can download, deploy and use these off-the-shelf schemas conveniently.
+1. Provide useful phonetic spelling input schemas for all non-Mandarin Chinese topolects(dialects), preventing the predicament where non-Mandarin Chinese speakers are compelled to use Mandarin input methods. 
+2. Serve as a useful tool for Chinese topolect/dialect learners, as one can use phonetic spelling input to practice the standard pronounciation and orthorgraphy.
+3. Provide references for academic researches (linguistic, Sinology, anthropology, etc.).  
+
+This project also supports the promotion project of non-Mandarin phonetic spelling input. For a full statement of the mission and motivation of the promotion, please read [this page](https://laubonghaudoi.github.io/dialects/blog/mission.html) (Chinese only).
+
+This repo works as three parts:
+1. Folders under the `sources/` directory are the source repos of some schemas, which are preserved as submodules so that the schema designers can keep their schemas up to date. Since not all schemas are open-sourced on Github, the collection under this directory is incomplete. 
+2. The `data/` directory is a complete collection, which contains schemas that I collected from all sources (including those on Github). I will check the version of schemas under `sources/` regularly and copy the newest version to `data/`. 
+3. The `download/` directory serves as the folder for the [realeased](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) packages. It contains only the selected schema for the prestiged dialect of each language. Hence users can download, deploy and use these off-the-shelf schemas conveniently.
 
 ## Tutorial
 
