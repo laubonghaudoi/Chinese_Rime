@@ -1,11 +1,10 @@
-## 袖珍粵拼〔Jyutping Compact〕
+##袖珍粵拼〔Jyutping Compact〕
 
 1. This is Jyutping in short.
 2. No more than 3 keystrokes per character without tone, no more than 4 with tone.
 3. 26 keys in alphabet are used.
 
----
-
+======
 1. 此爲基於粵拼之簡拼
 2. 每字不帶調不超過三鍵，帶調不超過四鍵
 3. 使用26個英文字母輸入

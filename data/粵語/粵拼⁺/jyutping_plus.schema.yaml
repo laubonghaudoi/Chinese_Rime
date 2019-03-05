@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 schema:
-  schema_id: jyutping+
+  schema_id: jyutping_plus
   name: 粵拼⁺ ₀.₉₆
   version: "0.96" #20160229
   author:
@@ -85,7 +85,7 @@ speller:
     - "derive/^(.*)<$/$1,/"
 
 translator:
-  dictionary: jyutping+
+  dictionary: jyutping_plus
   spelling_hints: 9
   preedit_format:
     - xform/(^|[ '])(m|ng)+$/$1$2̩$3/	唔m̩ 五ŋ̩
