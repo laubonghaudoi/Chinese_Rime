@@ -4,14 +4,14 @@
 schema:
   schema_id: wugniu_gninyu_tsonkonmiau
   name: 吳語（鄞縣鍾公廟）
-  version: "2019.02.24"
+  version: "2019.03.09"
   author:
     - Electric Sheep ˂1613023143@qq.com˃
   description: |
     鄞縣鍾公廟吳語注音輸入方案吳語學堂版
     鍾公廟音系基於《鄞县方言同音字汇》
     https://www.wugniu.com/
-    https://github.com/shinzoqchiuq/rime-wugniu_gninpou/
+    https://github.com/NGLI/rime-wugniu_gninpou/
   dependencies:
     - luna_pinyin
     - stroke
@@ -57,7 +57,7 @@ engine:
 
 speller:
   alphabet: abcdefghijklmnopqrstuvwxyz
-  delimiter: "'"
+  delimiter: " '"
   algebra:
     # 生成鍾公廟音系
     - xform/WU/ngu/
@@ -139,6 +139,7 @@ speller:
     - abbrev/^([a-z]).+$/$1/
     - abbrev/^([pmtnlszkg]h|ng|ngh|tsh).+$/$1/
     # 容錯 un => oe
+    - derive/([pbmw]|ph)un/$1oe/
     - derive/^([kgh]|kh)?un/$1uoe/
     # 容錯 au => ao
     - derive/au/ao/
@@ -192,12 +193,15 @@ translator:
     #- xform/(?<=[szh])yu(?=n|h)/oe/
     #- xform/er/r/
 
-    # 多字不顯示聲調
-    - xform/(\d.+)\d/$1/
-    - xform/\d(.+?)(?=\b)/$1/
+    # 不顯示單字調
+    - xform/\d//
 
-    # 聲調上標
-    - xlit/12345678/¹²³⁴⁵⁶⁷⁸/
+    ## 多字不顯示聲調
+    #- xform/(\d.+)\d/$1/
+    #- xform/\d(.+?)(?=\b)/$1/
+
+    ## 聲調上標
+    #- xlit/12345678/¹²³⁴⁵⁶⁷⁸/
 
 # 副翻譯器1 朙月拼音
 luna_pinyin:
@@ -260,8 +264,11 @@ reverse_lookup:
     #- xform/(?<=[szh])yu(?=n|h)/oe/
     #- xform/er/r/
 
-    # 聲調上標
-    - xlit/12345678/¹²³⁴⁵⁶⁷⁸/
+    # 不顯示單字調
+    - xform/\d//
+
+    ## 聲調上標
+    #- xlit/12345678/¹²³⁴⁵⁶⁷⁸/
 
 punctuator:
   import_preset: symbols # 句讀處理器，統一從外部導入

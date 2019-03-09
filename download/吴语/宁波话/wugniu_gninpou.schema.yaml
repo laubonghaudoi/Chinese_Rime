@@ -4,13 +4,13 @@
 schema:
   schema_id: wugniu_gninpou
   name: 吳語（寧波）
-  version: "2019.02.24"
+  version: "2019.03.09"
   author:
     - Electric Sheep ˂1613023143@qq.com˃
   description: |
     寧波吳語注音輸入方案吳語學堂版
     https://www.wugniu.com/
-    https://github.com/shinzoqchiuq/rime-wugniu_gninpou/
+    https://github.com/NGLI/rime-wugniu_gninpou/
   dependencies:
     - luna_pinyin
     - stroke
@@ -56,7 +56,7 @@ engine:
 
 speller:
   alphabet: abcdefghijklmnopqrstuvwxyz
-  delimiter: "'"
+  delimiter: " '"
   algebra:
     - xform/\d//     # 去掉聲調
     # 還原城區音系
@@ -173,12 +173,15 @@ translator:
     #- xform/er/r/
     #- xlit/2345678/1223344/
 
-    # 多字不顯示聲調
-    - xform/(\d.+)\d/$1/
-    - xform/\d(.+?)(?=\b)/$1/
+    # 不顯示單字調
+    - xform/\d//
 
-    # 聲調上標
-    - xlit/12345678/¹²³⁴⁵⁶⁷⁸/
+    ## 多字不顯示聲調
+    #- xform/(\d.+)\d/$1/
+    #- xform/\d(.+?)(?=\b)/$1/
+
+    ## 聲調上標
+    #- xlit/12345678/¹²³⁴⁵⁶⁷⁸/
 
 # 副翻譯器1 朙月拼音
 luna_pinyin:
@@ -227,8 +230,11 @@ reverse_lookup:
     #- xform/er/r/
     #- xlit/2345678/1223344/
 
-    # 聲調上標
-    - xlit/12345678/¹²³⁴⁵⁶⁷⁸/
+    ## 聲調上標
+    #- xlit/12345678/¹²³⁴⁵⁶⁷⁸/
+
+    # 不顯示單字調
+    - xform/\d//
 
 punctuator:
   import_preset: symbols # 句讀處理器，統一從外部導入

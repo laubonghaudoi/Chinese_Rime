@@ -4,14 +4,19 @@
 schema:
   schema_id: wugniu_soutseu
   name: 吳語（蘇州）
-  version: "2016.8.13"
+  version: "2019.03.09"
   author:
-    - 予安˂181065229@qq.com˃
+    - 字表作者：予安 ˂181065229@qq.com˃
+    - osfans <waxaca@163.com>
+    - 雪心居士 ˂sihsin@live.com˃
+    - Electric Sheep ˂1613023143@qq.com˃
   description: |
     蘇州吳語注音輸入方案吳語學堂版
-    www.wugniu.com
+    https://www.wugniu.com/
+    https://github.com/NGLI/rime-wugniu_soutseu/
   dependencies:
     - luna_pinyin
+    - stroke
 
 switches:
   - name: ascii_mode
@@ -37,16 +42,20 @@ engine:
   segmentors:
     - ascii_segmentor
     - matcher
+    - affix_segmentor@luna_pinyin # 自定義tag luna_pinyin
+    - affix_segmentor@stroke      # 自定義tag stroke
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
-    - script_translator
-    - reverse_lookup_translator
+    - script_translator             # 主翻譯器
+    - script_translator@luna_pinyin # 用於反查的luna_pinyin翻譯器
+    - table_translator@stroke       # 用於反查的stroke翻譯器
   filters:
     - simplifier
     - uniquifier
+    - reverse_lookup_filter@reverse_lookup # 反查濾鏡
 
 speller:
   alphabet: "zyxwvutsrqponmlkjihgfedcba"
@@ -58,37 +67,59 @@ speller:
     - abbrev/^([bpmfdtnlgkhjqxzcsyw]+).*$/$1/       # 無韻簡拼
     - xform/\d$//       # 無調輸入
 
-    
-
+# 主翻譯器 蘇州吳拼
 translator:
-  dictionary: wugniu_soutseu
-  prism: wugniu_soutseu
-  spelling_hints: 5
+  dictionary: wugniu_soutseu # 調取詞典wugniu_soutseu
+  prism: wugniu_soutseu      # 根據拼寫運算生成棱鏡文件wugniu_soutseu
+  spelling_hints: 5          # 標註拼音
   comment_format:
     - xform/^(.*)\((.*)\)$/$2✔/
     #- xform ^(.*)$ /$1/
 
-reverse_lookup:
-  dictionary: luna_pinyin
-  prefix: "`"
-  suffix: "'"
-  tips: 〔拼音〕
+# 副翻譯器1 朙月拼音
+luna_pinyin:
+  tag: luna_pinyin
+  dictionary: luna_pinyin # 調取詞典luna_pinyin
+  enable_user_dict: false # 關閉用戶詞典
+  prefix: '`'             # 引導鍵「`」
+  suffix: "'"             # 結束鍵「'」
+  tips: 〔拼音〕          # 輸入前提示〔拼音〕
+  closing_tips: 〔吳語（蘇州）〕
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
 
+# 副翻譯器2 五筆畫
+stroke:
+  tag: stroke
+  dictionary: stroke      # 調取詞典stroke
+  enable_user_dict: false # 關閉用戶詞典
+  prefix: 'x'             # 引導鍵「x」
+  suffix: "'"             # 結束鍵「'」
+  tips: 〔筆畫〕          # 輸入前提示〔筆畫〕
+  closing_tips: 〔吳語（蘇州）〕
+  preedit_format:
+    - xlit/hspnz/一丨丿丶乙/
+
+# 反查濾鏡
+reverse_lookup:
+  tags: [luna_pinyin, stroke] # 掛在翻譯器luna_pinyin和stroke上
+  overwrite_comment: true     # 覆蓋其他提示
+  dictionary: wugniu_soutseu  # 反查所得爲蘇州吳拼
+  comment_format:
+    - xform/^(.*)\((.*)\)$/$2✔/
+    #- xform ^(.*)$ /$1/
+
 punctuator:
-  import_preset: symbols
+  import_preset: symbols # 句讀處理器，統一從外部導入
 
 key_binder:
-  import_preset: default
+  import_preset: default # 快捷鍵，統一從外部導入
 
 recognizer:
-  import_preset: default
+  import_preset: default # 特殊規則輸入碼，統一從外部導入
   patterns:
-    # hack: to enable "/fh" style symbols, '/' must be mapped to a [list].
-    # so those who have customized '/' for direct commit won't be affected by
-    # this change.
-    punct: "^/([0-9]+[a-z]*|[a-z]+)$"
-    reverse_lookup: "`[a-z]*'?$"
+    punct: "^/([0-9]|10|[A-Za-z]+)$" # 按 / 輸入符號
+    luna_pinyin: "`[a-z]*'?$"        # 按 ` 使用拼音反查，按 ' 結束
+    stroke: "x[hspnz]*'?$"           # 按 x 使用筆畫反查，按 ' 結束

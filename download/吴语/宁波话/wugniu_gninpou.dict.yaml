@@ -22,7 +22,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2019.02.17"
+version: "2019.03.09"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -72,6 +72,7 @@ use_preset_vocabulary: true
 鼒	tsy1
 鎡	tsy1
 黹	tsy1
+癡	tsy1	0%
 煮	tsy3
 煑	tsy3
 翥	tsy3
@@ -336,6 +337,7 @@ use_preset_vocabulary: true
 置	tsyu1
 致	tsyu1	0%
 滋	tsyu1	0%
+癡	tsyu1	0%
 猪	tsyu3
 豬	tsyu3
 主	tsyu3
@@ -880,6 +882,8 @@ use_preset_vocabulary: true
 䬫	di2
 娣	di2
 隶	di2
+隸	di2
+隷	di2
 恬	di2
 湉	di2
 甜	di2
@@ -1044,8 +1048,6 @@ use_preset_vocabulary: true
 濾	li6
 鑢	li6
 吏	li6
-隸	li6
-隷	li6
 𥷗	li6
 𤃀	li6
 劙	li6
@@ -1522,6 +1524,7 @@ use_preset_vocabulary: true
 西	shi1
 粞	shi1
 硒	shi1
+茜	shi1	5%
 犀	shi1
 樨	shi1
 髓	shi1
@@ -5206,6 +5209,7 @@ k	khe1
 蚴	ieu3
 幼	ieu5
 幽	ieu5	5%
+婆	boe2	0%
 耑	toe1
 端	toe1
 鍴	toe1
@@ -7171,7 +7175,6 @@ k	khe1
 蹣	bun2
 𥑍	bun2
 柈	bun2
-婆	bun2
 耙	bun2	5%
 鉡	bun4
 伴	bun4
@@ -7573,8 +7576,8 @@ k	khe1
 根	ken3
 耿	ken3	5%
 鯁	ken3	5%
-綆	ken3
 㾘	ken3
+綆	ken3
 更	ken5	5%
 鏗	khen1
 硜	khen1
@@ -9867,7 +9870,7 @@ k	khe1
 𤒘	toq7
 督	toq7
 𧝴	toq7
-豛	toq7
+𧰵	toq7
 厾	toq7
 𡰪	toq7
 㞘	toq7
@@ -11629,17 +11632,17 @@ k	khe1
 老頭
 老頭	lau dei
 老𡢿
-老婆	lau bou
+老婆
 女人	gniu gnin
 屋裏人	oq li gnin
 老太婆	lau tha bou
-老太婆	lau tha bun
+老太婆	lau tha boe
 老人	lau gnin
 兩老頭
 兩老
-兩公婆	lian kon bou
+兩公婆
 兩家婆	lian ko bou
-兩公老婆	lian kon lau bou
+兩公老婆
 兩爹
 兩孃
 晚爹	mae tia
@@ -11715,11 +11718,11 @@ k	khe1
 叔伯姆	soq pan m
 叔伯姆	soq pa m
 叔公
-叔婆	soq bou
+叔婆
 姑丈公
-姑婆	ku bou
+姑婆
 姨丈公
-姨婆	yi bou
+姨婆
 外甥娃	nga san uae
 外甥囡	nga san noe
 外甥皇帝	nga san waon ti
@@ -11729,7 +11732,7 @@ k	khe1
 偷生	theu san
 偷生爿	theu san bae
 公公
-婆婆	bou bou
+婆婆
 老成人	lau jin gnin
 老頭伯	lau deu pan
 男人家	nEI gnin ko
@@ -11819,7 +11822,7 @@ k	khe1
 唸伴
 唸先生	nE shi san
 肚仙
-肚仙婆	du shi bou
+肚仙婆
 廟堂人	miau daon gnin
 小熱昏
 擋娃
@@ -11914,10 +11917,10 @@ k	khe1
 壽頭兒子	zhieu deu ng tsy
 蠟燭
 𧱝頭子
-體汰婆	thi tha bou
+體汰婆
 牽扯阿姆	chi tsho a m
 團蕩
-團蕩婆	doe daon bou
+團蕩婆
 團蕩阿姆	doe daon a m
 豁出	huaq tshyuq
 木屐鞋
@@ -13000,7 +13003,7 @@ k	khe1
 鮸魚
 米魚
 毛鱨魚
-黃婆雞	waon bou ci
+黃婆雞
 黃草雞
 白果子
 梅魚
@@ -13156,7 +13159,7 @@ k	khe1
 鰻筍
 羊尾筍	yan mi syun
 野山茶
-老茶婆	lau dzo bou
+老茶婆
 白蒲
 白蒲西瓜
 脆瓜
@@ -14022,7 +14025,7 @@ k	khe1
 揩刷
 揩刷團
 響器
-豛鼓
+𧰵鼓
 鏜鑼
 糖鑼
 鐋鑼
@@ -14578,7 +14581,7 @@ k	khe1
 諫訓	kae shiun
 做規矩
 改教	ke ciau
-敲豛
+敲𧰵
 出閒話
 屙講
 拆空	tshaq khon

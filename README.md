@@ -137,7 +137,7 @@
 - 客家話
     - （均來自GitHub）
 - 吳語
-    - (已失效)[吳語注音輸入方案吳語學堂版](http://www.wugniu.com/main/index.php?s=/Home/Article/detail/id/10.html)
+    - （均來自GitHub）
 - 官話
     - （均來自GitHub）
 - 域外方音
@@ -365,7 +365,7 @@ For detailed information of the collected schemas in the download packege, pleas
 - Hakka
     - (All from GitHub)
 - Wu (Goetian)
-    - (Obsolete)[吳語注音輸入方案吳語學堂版](http://www.wugniu.com/main/index.php?s=/Home/Article/detail/id/10.html)
+    - (All from GitHub)
 - Mandarin
     - (All from GitHub)
 - Foreign Dialects
