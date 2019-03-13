@@ -161,8 +161,17 @@
     - [篇韻データベース](http://suzukish.s252.xrea.com/search/)
 - 語言學習資源
     - 中古漢語
+        - [中古漢語拼音](https://zh.wikipedia.org/wiki/User:Polyhedron/%E4%B8%AD%E5%8F%A4%E6%BC%A2%E8%AA%9E%E6%8B%BC%E9%9F%B3)
         - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
         - [古音手鏡](http://www.guguolin.com/)
+    - 官話
+        - [南京話拼音教程](https://uliloewi.github.io/LangJinPinIn/SUMMARY)
+    - 吳語
+        - [吴语学堂](https://wugniu.com/)
+        - [吴语协会 通用吴语拼音](http://wu-chinese.com/romanization/)
+        - [吴语协会 吴音小字典](http://wu-chinese.com/minidict/)
+        - [吳語注音法](http://input.foruto.com/wu/method.html)
+        - [宁波话吴拼教程](https://shinzoqchiuq.github.io/gninpou-tutorial/)
     - 粵語
         - [南宁白话](https://leimaau.github.io/book/)
         - [貴州韻](https://github.com/tengtengteng/gvaizauvan/wiki)
@@ -176,17 +185,26 @@
     - 客家話
         - [薪典](http://syndict.com/)
         - [客語萌典](https://www.moedict.tw/:%E7%99%BC%E8%8A%BD)
-    - 吳語
-        - [吴语学堂](https://wugniu.com/)
-        - [吴语协会 通用吴语拼音](http://wu-chinese.com/romanization/)
-        - [吴语协会 吴音小字典](http://wu-chinese.com/minidict/)
-        - [吳語注音法](http://input.foruto.com/wu/method.html)
-        - [宁波话吴拼教程](https://shinzoqchiuq.github.io/gninpou-tutorial/)
-    - 官話
-        - [南京話拼音教程](https://uliloewi.github.io/LangJinPinIn/SUMMARY)
+- 語言學參考
+    - [中国语言资源保护工程 汉语方言用字规范](http://www.moe.gov.cn/s78/A19/A19_gggs/A19_sjhj/201704/W020170405307025943395.pdf)
+    - [中国语言资源保护工程采录展示平台](https://zhongguoyuyan.cn/)
+    - [复旦大学东亚语言数据中心](http://ccdc.fudan.edu.cn)
+    - [家乡话](http://jiaxianghua.org)
+    - [鄉音苑](http://phonemica.net/)
+    - [韻典網](https://ytenx.org/)
+    - [古今文字集成](http://www.ccamc.co/index.php)
+    - [篇韻データベース](http://suzukish.s252.xrea.com/search/)
+- 輸入法軟件
+    - [Rime官網](http://rime.im/)
+    - [Pime輸入法](https://github.com/EasyIME/PIME/releases)
+    - [iRime輸入法](https://itunes.apple.com/us/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E4%BA%94%E7%AC%94%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977?mt=8)
+    - [同文輸入法](https://play.google.com/store/apps/details?id=com.osfans.trime&hl=zh)
 
-## 致謝（按字母-筆畫順序排列）
+## 致謝（按筆畫-字母順序排列）
 
+- [佛振](https://github.com/lotem)
+- [芽油](https://github.com/Yaryou)
+- [滕謄](https://github.com/tengtengteng)
 - [a-thok](https://github.com/a-thok)
 - [biopolyhedron](https://github.com/biopolyhedron)
 - [cryptogun](https://github.com/cryptogun)
@@ -200,9 +218,6 @@
 - [Tenda Huang](https://github.com/Kahaani)
 - [tsauibusato](https://github.com/tsauibusato)
 - [uliloewi](https://github.com/uliloewi)
-- [佛振](https://github.com/lotem)
-- [芽油](https://github.com/Yaryou)
-- [滕謄](https://github.com/tengtengteng)
 
 # Collection of Rime Input Method Schemas for Chinese Topolects/Dialects
 
@@ -373,22 +388,9 @@ For detailed information of the collected schemas in the download packege, pleas
 
 ## Resources
 
-- Input Method Software
-    - [Rime Official Website](http://rime.im/)
-    - [Pime Input Method](https://github.com/EasyIME/PIME/releases)
-    - [iRime Input Method](https://itunes.apple.com/us/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E4%BA%94%E7%AC%94%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977?mt=8)
-    - [Trime Input Method](https://play.google.com/store/apps/details?id=com.osfans.trime&hl=zh)
-- Linguistics References
-    - [中国语言资源保护工程 汉语方言用字规范](http://www.moe.gov.cn/s78/A19/A19_gggs/A19_sjhj/201704/W020170405307025943395.pdf)
-    - [中国语言资源保护工程采录展示平台](https://zhongguoyuyan.cn/)
-    - [复旦大学东亚语言数据中心](http://ccdc.fudan.edu.cn)
-    - [家乡话](http://jiaxianghua.org)
-    - [Phonemica](http://phonemica.net/)
-    - [韻典網](https://ytenx.org/)
-    - [古今文字集成](http://www.ccamc.co/index.php)
-    - [篇韻データベース](http://suzukish.s252.xrea.com/search/)
-- Language Learning Resources
+- Language learning resources (schema white papers, tutorials, dictionaries, etc.)
     - Middle Chinese
+        - [中古漢語拼音](https://zh.wikipedia.org/wiki/User:Polyhedron/%E4%B8%AD%E5%8F%A4%E6%BC%A2%E8%AA%9E%E6%8B%BC%E9%9F%B3)
         - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
         - [古音手鏡](http://www.guguolin.com/)
     - Yue (Cantonese)
@@ -412,9 +414,27 @@ For detailed information of the collected schemas in the download packege, pleas
         - [宁波话吴拼教程](https://shinzoqchiuq.github.io/gninpou-tutorial/)
     - Mandarin
         - [南京話拼音教程](https://uliloewi.github.io/LangJinPinIn/SUMMARY)
+- Linguistics references
+    - [中国语言资源保护工程 汉语方言用字规范](http://www.moe.gov.cn/s78/A19/A19_gggs/A19_sjhj/201704/W020170405307025943395.pdf)
+    - [中国语言资源保护工程采录展示平台](https://zhongguoyuyan.cn/)
+    - [复旦大学东亚语言数据中心](http://ccdc.fudan.edu.cn)
+    - [家乡话](http://jiaxianghua.org)
+    - [Phonemica](http://phonemica.net/)
+    - [韻典網](https://ytenx.org/)
+    - [古今文字集成](http://www.ccamc.co/index.php)
+    - [篇韻データベース](http://suzukish.s252.xrea.com/search/)
+- Input method software
+    - [Rime Official Website](http://rime.im/)
+    - [Pime Input Method](https://github.com/EasyIME/PIME/releases)
+    - [iRime Input Method](https://itunes.apple.com/us/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E4%BA%94%E7%AC%94%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977?mt=8)
+    - [Trime Input Method](https://play.google.com/store/apps/details?id=com.osfans.trime&hl=zh)
 
-## Acknowledgements (In alphabetical and strokes order)
 
+## Acknowledgements (In strokes and alphabetical order)
+
+- [佛振](https://github.com/lotem)
+- [芽油](https://github.com/Yaryou)
+- [滕謄](https://github.com/tengtengteng)
 - [a-thok](https://github.com/a-thok)
 - [biopolyhedron](https://github.com/biopolyhedron)
 - [cryptogun](https://github.com/cryptogun)
@@ -428,6 +448,3 @@ For detailed information of the collected schemas in the download packege, pleas
 - [Tenda Huang](https://github.com/Kahaani)
 - [tsauibusato](https://github.com/tsauibusato)
 - [uliloewi](https://github.com/uliloewi)
-- [佛振](https://github.com/lotem)
-- [芽油](https://github.com/Yaryou)
-- [滕謄](https://github.com/tengtengteng)
