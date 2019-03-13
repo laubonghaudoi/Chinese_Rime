@@ -1,5 +1,6 @@
 # 中州韻輸入法漢語方言拼音方案全集
 
+**[中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#%E4%B8%AD%E5%B7%9E%E9%9F%BB%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)        [English](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#collection-of-rime-input-method-schemas-for-chinese-topolectsdialects)**
 
 ## 項目宗旨
 
@@ -144,14 +145,6 @@
 
 ## 資源
 
-- 輸入法軟件
-    - [Rime官網](http://rime.im/)
-    - [Pime輸入法](https://github.com/EasyIME/PIME/releases)
-    - [iRime輸入法](https://itunes.apple.com/us/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E4%BA%94%E7%AC%94%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977?mt=8)
-    - [同文輸入法](https://play.google.com/store/apps/details?id=com.osfans.trime&hl=zh)
-- 語言學參考
-    - [中国语言资源保护工程 汉语方言用字规范](http://www.moe.gov.cn/s78/A19/A19_gggs/A19_sjhj/201704/W020170405307025943395.pdf)
-    - [中国语言资源保护工程采录展示平台](https://zhongguoyuyan.cn/)
 - 語言學習資源（方案白皮書、教程、字典）
     - 中古漢語
         - [中古漢語拼音](https://zh.wikipedia.org/wiki/User:Polyhedron/%E4%B8%AD%E5%8F%A4%E6%BC%A2%E8%AA%9E%E6%8B%BC%E9%9F%B3)
