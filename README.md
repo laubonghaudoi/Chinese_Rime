@@ -1,6 +1,5 @@
 # 中州韻輸入法漢語方言拼音方案全集
 
-**[中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#%E4%B8%AD%E5%B7%9E%E9%9F%BB%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)        [English](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#collection-of-rime-input-method-schemas-for-chinese-dialects)**
 
 ## 項目宗旨
 
@@ -153,13 +152,7 @@
 - 語言學參考
     - [中国语言资源保护工程 汉语方言用字规范](http://www.moe.gov.cn/s78/A19/A19_gggs/A19_sjhj/201704/W020170405307025943395.pdf)
     - [中国语言资源保护工程采录展示平台](https://zhongguoyuyan.cn/)
-    - [复旦大学东亚语言数据中心](http://ccdc.fudan.edu.cn)
-    - [家乡话](http://jiaxianghua.org)
-    - [鄉音苑](http://phonemica.net/)
-    - [韻典網](https://ytenx.org/)
-    - [古今文字集成](http://www.ccamc.co/index.php)
-    - [篇韻データベース](http://suzukish.s252.xrea.com/search/)
-- 語言學習資源
+- 語言學習資源（方案白皮書、教程、字典）
     - 中古漢語
         - [中古漢語拼音](https://zh.wikipedia.org/wiki/User:Polyhedron/%E4%B8%AD%E5%8F%A4%E6%BC%A2%E8%AA%9E%E6%8B%BC%E9%9F%B3)
         - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
@@ -221,7 +214,7 @@
 
 # Collection of Rime Input Method Schemas for Chinese Topolects/Dialects
 
-**[中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#%E4%B8%AD%E5%B7%9E%E9%9F%BB%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)        [English](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#collection-of-rime-input-method-schemas-for-chinese-dialects)**
+**[中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#%E4%B8%AD%E5%B7%9E%E9%9F%BB%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)        [English](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#collection-of-rime-input-method-schemas-for-chinese-topolectsdialects)**
 
 ## The Mission of this Project
 
