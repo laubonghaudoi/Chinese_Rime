@@ -4,16 +4,15 @@
 schema:
   schema_id: naamning_jyutping
   name: "南寧白話"
-  version: "20181230"
+  version: "20190220"
   author:
-    - LeiMaau<https://leimaau.github.io/book/>
+    - LeiMaau<leimaau@qq.com>  |  https://leimaau.github.io/book/
   description: |
     採用『香港語言學會粵語拼音方案』
     聲調輸入 q平 v上 x去 （雙擊爲陽調）
     提供繁簡字體轉換方案
     提供一種反查方案，[`]反查南寧白話
   dependencies:
-    - luna_pinyin
     - leimaau_jyutping
 
 switches:
