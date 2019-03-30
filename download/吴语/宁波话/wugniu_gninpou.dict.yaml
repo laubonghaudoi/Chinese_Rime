@@ -4,25 +4,20 @@
 # wugniu_gninpou - 吳語（寧波）
 #
 # Author:
-#  - Electric Sheep <1613023143@qq.com>
 #
-# https://www.wugniu.com/
+# - Electric Sheep <1613023143@qq.com>
 #
-# 參考:
-# - 湯珍珠、陳忠敏、吳新賢:《寧波方言詞典》,江蘇教育出版社,1997
-# - 宁波市地方志编纂委员会:《宁波市志·方言》,中华书局,1995
-# - 朱彰年、薛恭穆、周志锋、汪维辉:《阿拉宁波话(修订版)》,宁波出版社,2016
-# - 朱彰年、薛恭穆、周志锋、汪维辉:《宁波方言词典》,汉语大辞典出版社,1996
-# - 宁波市海曙区地方志编纂委员会编:《宁波市海曙区志·方言》,浙江人民出版社,2014
-# - 周志锋:《周志锋解说宁波话》,语文出版社,2012
-# - 周志锋 :《江苏教育版<宁波方言词典>词目用字问题》,方言 2008年第一期
-# - 《鄞縣通志·文獻志·方言》,鄞縣通志館,1951
-# - P. G. von Möllendorff:《The Ningpo Syllabary》,Shanghai: American Presbyterian Mission Press,1901
+# 使用以下項目：
+#
+# - 寧波方言資料整理
+#   https://github.com/shinzoqchiuq/gninpou-dialect
+# - 字表寧波話
+#   https://github.com/shinzoqchiuq/gninpou-list
 #
 
 ---
 name: wugniu_gninpou
-version: "2019.03.17"
+version: "2019.03.24"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -225,7 +220,7 @@ use_preset_vocabulary: true
 使	sy3
 駛	sy3
 鉂	sy3
-死	sy3	5%
+死	sy3	6%
 梳	sy3
 矢	sy3
 豕	sy3
@@ -2013,7 +2008,7 @@ use_preset_vocabulary: true
 亡	vu2	0%
 侮	vu2
 巫	vu2
-浮	vu2	5%
+浮	vu2	6%
 父	vu4
 撫	vu4
 廡	vu4
@@ -2356,7 +2351,7 @@ use_preset_vocabulary: true
 焐	u5
 熩	u5
 居	ciu1
-鋸	ciu1	5%
+鋸	ciu1	6%
 据	ciu1
 拘	ciu1
 駒	ciu1
@@ -2421,7 +2416,7 @@ use_preset_vocabulary: true
 畎	chiu3
 埍	chiu3
 圈	chiu3
-去	chiu5	5%
+去	chiu5	6%
 蕖	jiu2
 磲	jiu2
 巨	jiu2
@@ -2553,7 +2548,7 @@ use_preset_vocabulary: true
 𩋢	shiu5
 煦	shiu5
 漁	yu2
-魚	yu2	5%
+魚	yu2	6%
 余	yu2
 餘	yu2
 狳	yu2
@@ -2730,7 +2725,7 @@ use_preset_vocabulary: true
 他	tha5
 她	tha5
 埭	da2
-大	da6	5%
+大	da6	6%
 𢪂	da6
 𠯈	da6
 汏	da6
@@ -2766,7 +2761,7 @@ use_preset_vocabulary: true
 齋	tsa1
 亝	tsa1
 𠷒	tsa1
-抓	tsa1	5%
+抓	tsa1	6%
 債	tsa5
 𨝋	tsa5
 差	tsha1
@@ -2863,7 +2858,7 @@ use_preset_vocabulary: true
 傢	cia1
 稼	cia1
 鎵	cia1
-加	cia1	5%
+加	cia1	6%
 袈	cia1
 嘉	cia1
 迦	cia1
@@ -2877,12 +2872,12 @@ use_preset_vocabulary: true
 豭	cia1
 佳	cia1
 姐	cia3
-解	cia3	5%
+解	cia3	6%
 薢	cia3
 賈	cia3
 檟	cia3
-假	cia3	5%
-叚	cia3	5%
+假	cia3	6%
+叚	cia3	6%
 斝	cia3
 藉	cia5
 借	cia5
@@ -2899,7 +2894,7 @@ use_preset_vocabulary: true
 駕	cia5
 届	cia5	5%
 屆	cia5	5%
-架	cia5	5%
+架	cia5	6%
 㗎	cia5
 笡	chia3
 趄	chia3	0%
@@ -2968,19 +2963,19 @@ use_preset_vocabulary: true
 拐	kua3
 柺	kua3
 箉	kua3
-寡	kua3	5%
-剮	kua3	5%
+寡	kua3	6%
+剮	kua3	6%
 夬	kua5
 怪	kua5
 恠	kua5
 掛	kua5	5%
 挂	kua5	5%
 卦	kua5	5%
-誇	khua1	5%
+誇	khua1	6%
 夸	khua1	5%
 蒯	khua1
-垮	khua3	5%
-跨	khua5	5%
+垮	khua3	6%
+跨	khua5	6%
 挎	khua5
 快	khua5
 噲	khua5
@@ -2999,7 +2994,7 @@ use_preset_vocabulary: true
 窪	ua1
 蛙	ua1	5%
 鼃	ua1	5%
-娃	ua1	5%
+娃	ua1	6%
 媧	ua1
 哇	ua5
 褒	pau1
@@ -3054,7 +3049,7 @@ use_preset_vocabulary: true
 犛	mau2
 氂	mau2
 䭷	mau2
-茂	mau2	5%
+茂	mau2	6%
 茅	mau2
 矛	mau2
 蝥	mau2
@@ -3072,8 +3067,8 @@ use_preset_vocabulary: true
 媢	mau6
 萺	mau6
 錨	mau6
-貓	mau6	5%
-猫	mau6	5%
+貓	mau6	6%
+猫	mau6	6%
 貌	mau6
 耄	mau6
 芼	mau6
@@ -3155,7 +3150,7 @@ use_preset_vocabulary: true
 ⿰閙	nau6
 ⿰鬧	nau6
 踔	nau6
-淖	nau6	5%
+淖	nau6	6%
 橈	nau6
 勞	lau2
 澇	lau2
@@ -3794,18 +3789,18 @@ use_preset_vocabulary: true
 矯	ciau1
 嬌	ciau1
 驕	ciau1
-交	ciau1	5%
+交	ciau1	6%
 郊	ciau1
 蛟	ciau1
 佼	ciau1
 鵁	ciau1
 珓	ciau1	5%
 茭	ciau1	5%
-膠	ciau1	5%
+膠	ciau1	6%
 較	ciau1
 校	ciau1	5%
-僥	ciau1	5%
-覺	ciau1	5%
+僥	ciau1	6%
+覺	ciau1	6%
 嘐	ciau1
 艽	ciau1
 窖	ciau1
@@ -3818,7 +3813,7 @@ use_preset_vocabulary: true
 姣	ciau3
 䘨	ciau3
 皎	ciau3
-攪	ciau3	5%
+攪	ciau3	6%
 繳	ciau3
 皦	ciau3
 㽲	ciau3
@@ -3830,7 +3825,7 @@ use_preset_vocabulary: true
 叫	ciau5
 呌	ciau5
 教	ciau5
-酵	ciau5	5%
+酵	ciau5	6%
 徼	ciau5
 噭	ciau5
 超	chiau1
@@ -3842,7 +3837,7 @@ use_preset_vocabulary: true
 鍫	chiau1
 帩	chiau1
 鞘	chiau1	5%
-敲	chiau1	5%
+敲	chiau1	6%
 橇	chiau1
 磽	chiau1
 趬	chiau1
@@ -3882,7 +3877,7 @@ use_preset_vocabulary: true
 嬈	gniau4
 繞	gniau4
 遶	gniau4
-鳥	gniau4	5%
+鳥	gniau4	6%
 蔦	gniau4
 𢶑	gniau4
 裊	gniau4
@@ -3890,7 +3885,7 @@ use_preset_vocabulary: true
 嬝	gniau4
 褭	gniau4
 嬲	gniau4
-尿	gniau6	5%
+尿	gniau6	6%
 脲	gniau6
 簫	shiau1
 蕭	shiau1
@@ -3922,7 +3917,7 @@ use_preset_vocabulary: true
 ⿰扌囂	shiau1
 梟	shiau1
 驍	shiau1
-酵	shiau1	5%
+酵	shiau1	6%
 哮	shiau1
 硣	shiau1
 猇	shiau1
@@ -5095,7 +5090,7 @@ k	khe1
 酎	jieu6
 舊	jieu6
 柩	jieu6
-牛	gnieu2	5%
+牛	gnieu2	6%
 揉	gnieu2
 妞	gnieu2
 原	gnieu2	0%
@@ -5189,7 +5184,7 @@ k	khe1
 槱	yeu4
 祐	yeu6
 佑	yeu6
-又	yeu6	5%
+又	yeu6	6%
 囿	yeu6
 宥	yeu6
 侑	yeu6
@@ -5314,7 +5309,7 @@ k	khe1
 珮	bei6
 邶	bei6
 薜	bei6
-眉	mei2	5%
+眉	mei2	6%
 楣	mei2
 嵋	mei2
 鶥	mei2
@@ -5437,8 +5432,8 @@ k	khe1
 酹	lei6
 類	lei6
 纇	lei6
-淚	lei6	5%
-泪	lei6	5%
+淚	lei6	6%
+泪	lei6	6%
 擂	lei6
 攂	lei6
 洡	lei6
@@ -5465,7 +5460,7 @@ k	khe1
 催	tshei1
 摧	tshei1
 磪	tshei1
-吹	tshei1	5%
+吹	tshei1	6%
 炊	tshei1
 衰	tshei1	0%
 榱	tshei1
@@ -5494,15 +5489,15 @@ k	khe1
 夊	sei1
 濉	sei1
 碎	sei1	1%
-水	sei3	5%
+水	sei3	6%
 毨	sei3	5%
 碎	sei5
 誶	sei5
 萃	sei5
 稅	sei5
 帨	sei5
-歲	sei5	5%
-嵗	sei5	5%
+歲	sei5	6%
+嵗	sei5	6%
 祟	sei5
 糝	sei5
 說	sei5	1%
@@ -5624,7 +5619,7 @@ k	khe1
 鮭	kuei1
 硅	kuei1
 邽	kuei1
-龜	kuei1	5%
+龜	kuei1	6%
 歸	kuei1
 巋	kuei1
 蘬	kuei1
@@ -5633,7 +5628,7 @@ k	khe1
 瓌	kuei1
 嬀	kuei1
 媯	kuei1
-鬼	kuei3	5%
+鬼	kuei3	6%
 軌	kuei3
 匭	kuei3
 詭	kuei3
@@ -5927,7 +5922,7 @@ k	khe1
 捼	nou2
 挼	nou2
 儺	nou2
-挪	nou2	5%
+挪	nou2	6%
 㑚	nou2
 娜	nou4
 儂	nou6
@@ -6951,7 +6946,7 @@ k	khe1
 嘗	dzaon2	5%
 甞	dzaon2	5%
 鱨	dzaon2
-償	dzaon2	5%
+償	dzaon2	6%
 幢	dzaon4
 藏	dzaon6
 臟	dzaon6
@@ -7350,7 +7345,7 @@ k	khe1
 玟	ven2
 馼	ven2
 聞	ven2
-問	ven2	5%
+問	ven2	6%
 甮	ven2
 焚	ven2
 氛	ven2
@@ -7488,10 +7483,10 @@ k	khe1
 罇	tsen1
 墫	tsen1
 斟	tsen1
-爭	tsen1	5%
+爭	tsen1	6%
 箏	tsen1
-掙	tsen1	5%
-睜	tsen1	5%
+掙	tsen1	6%
+睜	tsen1	6%
 錚	tsen1
 猙	tsen1
 棦	tsen1
@@ -7569,7 +7564,7 @@ k	khe1
 層	zen6	5%
 根	ken1
 跟	ken1
-耕	ken1	5%
+耕	ken1	6%
 更	ken1
 哽	ken1
 亙	ken1
@@ -7577,11 +7572,11 @@ k	khe1
 賡	ken1
 鶊	ken1
 根	ken3
-耿	ken3	5%
-鯁	ken3	5%
+耿	ken3	6%
+鯁	ken3	6%
 㾘	ken3
 綆	ken3
-更	ken5	5%
+更	ken5	6%
 鏗	khen1
 硜	khen1
 㰢	khen1
@@ -8323,7 +8318,7 @@ k	khe1
 縈	in3
 隱	in3
 䌥	in3
-癮	in3	5%
+癮	in3	6%
 櫽	in3
 𢷍	in5
 應	in5
@@ -8557,7 +8552,7 @@ k	khe1
 紉	zyun6
 仞	zyun6
 韌	zyun6	5%
-認	zyun6	5%
+認	zyun6	6%
 潤	zyun6
 慎	zyun6
 愼	zyun6
@@ -8595,7 +8590,7 @@ k	khe1
 瞢	mon2
 懵	mon2
 曚	mon4
-夢	mon6	5%
+夢	mon6	6%
 風	fon1
 楓	fon1
 瘋	fon1
@@ -8682,7 +8677,6 @@ k	khe1
 𢳾	don6
 洞	don6
 胴	don6
-烔	don6
 農	non2
 辳	non2
 膿	non2
@@ -9261,7 +9255,7 @@ k	khe1
 抐	naq8
 㨥	naq8
 辣	naq8	0%
-垃	laq8	5%
+垃	laq8	6%
 拉	laq8
 啦	laq8
 辣	laq8
@@ -9386,8 +9380,8 @@ k	khe1
 㳐	dzaq8
 澤	dzaq8
 擇	dzaq8
-雜	dzaq8	5%
-襍	dzaq8	5%
+雜	dzaq8	6%
+襍	dzaq8	6%
 殺	saq7
 剎	saq7
 脎	saq7
@@ -9428,7 +9422,7 @@ k	khe1
 釋	saq7	5%
 濕	saq7	5%
 溼	saq7	5%
-圾	saq7	5%
+圾	saq7	6%
 碎	saq7	0%
 石	zaq8
 閘	zaq8
@@ -9861,7 +9855,7 @@ k	khe1
 𥷱	foq7
 服	voq8
 菔	voq8
-伏	voq8	5%
+伏	voq8	6%
 茯	voq8
 袱	voq8	0%
 𩢰	voq8
@@ -10039,7 +10033,7 @@ k	khe1
 續	dzoq8
 藚	dzoq8
 族	dzoq8
-昨	dzoq8	5%
+昨	dzoq8	6%
 怍	dzoq8
 柞	dzoq8	5%
 酢	dzoq8
@@ -10328,7 +10322,7 @@ k	khe1
 𨵩	phiq7
 別	biq8
 弼	biq8
-鼻	biq8	5%
+鼻	biq8	6%
 䕗	biq8
 𦤫	biq8
 𩑻	biq8
@@ -11081,7 +11075,7 @@ k	khe1
 洏	er2
 耏	er2
 䎟	er2
-耳	er4	5%
+耳	er4	6%
 鉺	er4
 餌	er2
 珥	er4
@@ -11091,8 +11085,8 @@ k	khe1
 𧊗	er4
 䣵	er4
 邇	er4
-二	er6	5%
-貳	er6	5%
+二	er6	6%
+貳	er6	6%
 𢄽	er6
 樲	er6
 咡	er6
@@ -11150,7 +11144,7 @@ k	khe1
 燥風水	sau fon syu
 秋汏
 雨毛絲
-魚鱗斑
+魚鱗斑	ng lin pae
 野豬頭雲
 過雲雨
 胭脂紅	i ci ghon
@@ -11183,9 +11177,9 @@ k	khe1
 田畈
 田頭
 鄉下頭	shian gho deu
-水明湯
-水窞
-水窞窞
+水明湯	syu min thaon
+水窞	syu dei
+水窞窞	syu dei dei
 水𡍲頭	syu thaq deu
 地㽘
 㽘底
@@ -11199,11 +11193,11 @@ k	khe1
 河塘墈	ghou daon khe
 河墈	ghou khI
 河墈	ghou khe
-大塘
-大水
-水頭
-大水頭
-小水頭
+大塘	dou daon
+大水	dou syu
+水頭	syu deu
+大水頭	dou syu deu
+小水頭	shiau syu deu
 泥塗
 甩龍橋	guae lon jiau
 過橋
@@ -11218,8 +11212,8 @@ k	khe1
 下江	gho kaon
 塘河
 漕嘴
-水缺
-水缺頭
+水缺	syu chiuq
+水缺頭	syu chiuq deu
 缺頭
 車頭
 埠頭
@@ -11252,7 +11246,7 @@ k	khe1
 頭頂	deu ten
 高頭
 低頭
-浮面
+浮面	veu mi
 面頂	mi ten
 面頭頂	mi deu ten
 下底	gho ti
@@ -11362,8 +11356,8 @@ k	khe1
 天亮頭	thiq gnian deu
 第二天亮	di gni thi gnian
 第二天亮	di gni thiq gnian
-大天白亮
-大天亮
+大天白亮	dou thi baq lian
+大天亮	dou thi lian
 早半晌
 上半日	zaon pun gniq
 上半日頭	zaon pun gniq deu
@@ -11444,9 +11438,9 @@ k	khe1
 今朝	cin ciau
 今密	ciq miq
 今密子	ciq miq tsy
-昨末
+昨末	zoq maq
 昨末	zaon maq
-昨末子
+昨末子	zoq maq tsy
 昨末子	zaon maq tsy
 昨日	zoq gniq
 昨日	zaon gniq
@@ -11479,7 +11473,7 @@ k	khe1
 長日	jian gniq
 一夠晝
 一隔週
-一夠歲
+一夠歲	iq keu syu
 一𪰻
 上𪰻	zaon chian
 上一𪰻	zaon iq chian
@@ -11524,7 +11518,7 @@ k	khe1
 念年子
 開年
 出開年
-新年新歲
+新年新歲	shin gni shin syu
 正月頭面	cin yuq deu mi
 上燈夜	zaon ten ya
 端午	ton ng
@@ -11536,7 +11530,7 @@ k	khe1
 三十年夜	sae syuq gni ya
 年三十夜
 年三十夜	gni sae syuq ya
-大年夜
+大年夜	dou gni ya
 節肯
 節日頭間	ciq gniq deu kae
 節頭節面
@@ -11567,10 +11561,10 @@ k	khe1
 西瓜汛裏
 橘子時
 橘子汛裏
-交秋
+交秋	kau chieu
 秋場	chieu jian
 秋場裏	chieu jian li
-秋厄伏
+秋厄伏	chieu aq boq
 秋老虎
 桂花蒸
 一生世	iq san shi
@@ -11659,16 +11653,16 @@ k	khe1
 小人	shiau gnin
 兒囡	ng no
 兒子囡	ng tsy noe
-小娃
-小娃頭
-男小娃
+小娃	shiau uae
+小娃頭	shiau uae deu
+男小娃	nEI shiau uae
 小娃婢	shiau uae pi
 小娘
 小娘婢	shiau gnian pi
 小娘爿
 小娘頭
 娘子
-小娘鬼
+小娘鬼	shiau gnian ciu
 囡囡	nhoe nhoe
 囡囡寶	nhoe nhoe pau
 阿囡	aq noe
@@ -11746,7 +11740,7 @@ k	khe1
 老人爿	lau gnin bae
 男同胞
 女同胞
-大姑娘
+大姑娘	dou ku gnian
 孤老
 孤孀老𡢿
 小官人	shiau kun gnin
@@ -11794,7 +11788,7 @@ k	khe1
 解匠	ga zhian
 𨮂匠
 簟匠
-泥水
+泥水	gni syu
 小工
 箍桶	khu don
 箍桶	khou don
@@ -11803,17 +11797,17 @@ k	khe1
 幫廚
 #飯師傅	vae sy vu
 飯頭腦
-飯烏龜
+飯烏龜	vae u ciu
 #剃頭師傅	thi deu sy vu
 剃頭
 剃頭郎
-水底工
-電燈貓
-電工貓
+水底工	syu ti kon
+電燈貓	di ten mae
+電工貓	di kon mae
 地方
 警察爛眼
 爛眼
-大肚皮
+大肚皮	dou du bi
 雙身老𡢿
 有身老𡢿
 生姆孃	san m gnian
@@ -11830,7 +11824,7 @@ k	khe1
 肚仙婆
 廟堂人	miau daon gnin
 小熱昏
-擋娃
+擋娃	taon uae
 擋瞎眼
 擋喊
 看牛娃	khI ngeu uae
@@ -11843,7 +11837,7 @@ k	khe1
 送娘子
 送娘爿
 送嫂
-挈出尿瓶
+挈出尿瓶	chiq tshyuq syu bin
 戲子人	shi tsy gnin
 大頭和尚	dou deu ghou zaon
 䠷頭王
@@ -11852,8 +11846,8 @@ k	khe1
 香靈貓卵袋	shian lin mae loe de
 大好佬	dou hau lau
 大好老	dou hau lau
-大侾佬
-大貨癩𪓿
+大侾佬	dou hau lau
+大貨癩𪓿	dou hou la sy
 現成人	yi jin gnin
 現成人	yi yin gnin
 快活人	khua waq gnin
@@ -11901,22 +11895,22 @@ k	khe1
 連襠碼子
 阿青阿黃	aq chin aq waon
 朝白笑	jiau baq shiau
-呆大
-呆大佬
+呆大	nge dou
+呆大佬	nge dou lau
 社會呆大	dzo wei nge dou
-木大
+木大	moq dou
 木頭
 木家	moq ko
 阿木林	aq moq lin
 木人	moq gnin
 笨賊佬
-戇大
+戇大	gaon dou
 特戇
 白肚皮
 書毒頭
 書獨頭
 丁相公	tin shian kon
-直頭牛
+直頭牛	jiq deu ngeu
 壽頭
 壽頭碼子
 壽頭兒子	zhieu deu ng tsy
@@ -11938,8 +11932,8 @@ k	khe1
 惹彈梅	zo dae mei
 阿姐婢	aq cia pi
 傻子	shia tsy
-大糊
-大糊病
+大糊	dou wu
+大糊病	dou wu bin
 嘸郎
 嘸郎	mh naon
 𤵾亂
@@ -11947,14 +11941,14 @@ k	khe1
 旺興丁
 黃豆湯
 投孫
-投孫鬼
-投孫活鬼
+投孫鬼	deu sen ciu
+投孫活鬼	deu sen waq ciu
 老三
 萬三
-萬三鬼
+萬三鬼	vae sae ciu
 伯嚭	paq phi
 洋伯嚭	yan paq phi
-馬屁鬼
+馬屁鬼	mo phi ciu
 馬屁精
 老屁眼
 老麻將
@@ -11981,20 +11975,20 @@ k	khe1
 屋裏無賴	oq li vu la
 屋裏無賴	oq li Wu la
 大佛	dou baq
-大白
+大白	dou baq
 爛泥菩薩	na gni bu saq
 天裏菩薩
 瘟孫
 瘟生	uen sen
-曲死
+曲死	chiuq shi
 阿曲死	aq chiuq shi
-牛坯
-牛頭
-老鬼
-老鬼三
-燙煞鬼
-地頭鬼
-討債鬼
+牛坯	ngeu phei
+牛頭	ngeu deu
+老鬼	lau ciu
+老鬼三	lau ciu sae
+燙煞鬼	thaon saq ciu
+地頭鬼	di deu ciu
+討債鬼	thau tsa ciu
 衆生	tson san
 沙鍋	so kou
 茶籮
@@ -12005,8 +11999,8 @@ k	khe1
 要鈿嘸郎
 要鈿嘸郎	iau di mh naon
 小氣䏘
-小鳥碼子
-孤鳥
+小鳥碼子	shiau tiau mo tsy
+孤鳥	ku tiau
 老槍
 饞癆丫麻
 七巴叉
@@ -12014,7 +12008,7 @@ k	khe1
 夯頭
 坯子
 賭坯
-賭鬼
+賭鬼	tu ciu
 賊坯
 做坯
 壞坯子	ua phei tsy
@@ -12024,13 +12018,13 @@ k	khe1
 賴學精	la ghoq cin
 臭豬頭
 熱拆骨頭
-吵朋烏龜
+吵朋烏龜	tshau ban u ciu
 壞吃芋艿頭	ua chioq n na deu
 好吃果子	hau chioq kou tsy
 小貨
 小貨場	shiau hou jian
 貨場	hou jian
-小鬼
+小鬼	shiau ciu
 小棺材	shiau kun ze
 小撮佬	shiau tshaq lau
 小人頭腦	shiau gnin deu nau
@@ -12061,11 +12055,11 @@ k	khe1
 老貼蛋	lau thaq dae
 老樸屍
 浮屍	vei sy
-浮屍
-死屍
+浮屍	veu sy
+死屍	shi sy
 百搭
 樣有份
-三腳貓
+三腳貓	sae ciaq mae
 寶貨
 買主
 瞎眼買主
@@ -12088,14 +12082,14 @@ k	khe1
 嘸腳蟹
 #沒腳蟹	mh ciaq ha
 鐵絲揢籮
-大襟布衫
+大襟布衫	dou cin pu sae
 嘸腳活猻
 鑽倉老鼠	tsoe tshaon lau tsy
 落弶老鼠	loq jian lau tsy
 𤖼腳賴𪓿
 蓬頭獅
-蓬頭活鬼
-死藤南瓜
+蓬頭活鬼	bon deu waq ciu
+死藤南瓜	shi den nEI kuo
 差人	tsha gnin
 差狗	tsha keu
 阿狗阿貓	aq keu aq mhau
@@ -12105,7 +12099,7 @@ k	khe1
 生病黃魚	san bin waon ng
 蔫樣黃
 吃口
-拖鼻頭
+拖鼻頭	thou baq deu
 哭作包
 ⿸尸咋屙樸	dza ou phoq
 ⿸尸咋尿樸	dza syu phoq
@@ -12122,7 +12116,7 @@ k	khe1
 長腳梗	jian ciaq kuan
 矮子桶
 發䨣泥螺
-大胖嘵豬
+大胖嘵豬	dou phaon gniau tsyu
 壯胖嘵豬
 柴油桶
 大阿福	dou aq foq
@@ -12131,7 +12125,7 @@ k	khe1
 𢺵頭
 笡頭
 黑炭
-黃頭貓
+黃頭貓	waon deu mae
 僵果佬
 僵果梅
 僵果梅梅
@@ -12306,7 +12300,7 @@ k	khe1
 長丫臉	jian o li
 下大臉	gho dou li
 面盤子
-面架子
+面架子	mi ko tsy
 面頰巴
 凹臉
 酒窞
@@ -12314,9 +12308,9 @@ k	khe1
 眼泡皮
 眼沿
 眼眨毛	ngae saq mau
-眼眉毛
-眉頭管
-掃帚眉毛
+眼眉毛	ngae mi mau
+眉頭管	mi deu kun
+掃帚眉毛	sau cieu mi mau
 眼烏珠
 烏珠
 仙人	shi gnin
@@ -12326,20 +12320,20 @@ k	khe1
 眼窗骨
 肉裏眼
 三角眼
-眼淚水
+眼淚水	ngae li syu
 眼屙
 眼火
 耳朵皮	gni to bi
 耳朵爿	gni to bae
 耳朵屙	gni to ou
-鼻頭管
-老鷹鼻頭管
-塌鼻頭管
-鼻頭樑
+鼻頭管	baq deu kun
+老鷹鼻頭管	lau in baq deu kun
+塌鼻頭管	thaq baq deu kun
+鼻頭樑	baq deu lian
 鼻頭樑	baq deu gnian
-鼻頭
-鼻頭水
-鼻頭屙
+鼻頭	baq deu
+鼻頭水	baq deu syu
+鼻頭屙	baq deu ou
 鼻頭紅	baq deu on
 鼻頭紅血	baq deu on shiuq
 丫麻
@@ -12408,8 +12402,8 @@ k	khe1
 爛屙
 爛薄屙
 爛薄稀屙
-大尿
-大尿血
+大尿	dou syu
+大尿血	dou syu shiuq
 鏖糟
 尿⿸尸咋	syu dza
 黃汗
@@ -12419,8 +12413,8 @@ k	khe1
 卵黃	loe uaon
 卵袋黃	loe de uaon
 卵漿	loe cian
-漿水
-䏘漿水
+漿水	cian syu
+䏘漿水	phiq cian syu
 卵毛	loe mau
 卵脬	loe phau
 尾巴骨	mi po kuaq
@@ -12444,7 +12438,7 @@ k	khe1
 借隻腳
 順腳
 順隻腳
-大腳髈
+大腳髈	dou ciaq phaon
 屁股腳
 腳骨
 腳䯊頭
@@ -12478,13 +12472,13 @@ k	khe1
 油皮
 肉彩
 暗肉
-記認
+記認	ci gnin
 筋骸
 絞股	gau ku
 大身	da shin
 身條
 條子
-身架
+身架	shin ko
 腰身
 四圍	sy wei
 四圍	syu wei
@@ -12499,7 +12493,7 @@ k	khe1
 賣相	ma shian
 生相	san shian
 老相	lau shian
-眉眼
+眉眼	mi ngae
 樣範
 相勢	shian syu
 相道	shian dau
@@ -12522,7 +12516,7 @@ k	khe1
 呵鼾	huo he
 眠鼾
 雞眨覺	ci saq kau
-亂夢地裏
+亂夢地裏	loe maon di li
 心網
 心相	shin shian
 心想
@@ -12547,7 +12541,7 @@ k	khe1
 資格
 人意	gnin i
 意姿	i ci
-鳥頭
+鳥頭	tiau deu
 行爲	ghan wei
 力道
 勁道
@@ -12571,7 +12565,7 @@ k	khe1
 話柄
 講口
 接口令
-死話
+死話	shi wo
 亂話
 忮話
 脹話
@@ -12602,15 +12596,15 @@ k	khe1
 青盲瞎
 借米聾
 借米聾	cian mi lon
-齈鼻頭
+齈鼻頭	nhon baq deu
 篤舌頭
 𪙞牙
 𪙞牙	tshei ngo
 泥螺胖
 泥螺䨣
-大嘴巴
+大嘴巴	dou tsyu po
 大嘴脯	dou tsyu bu
-大頭頸
+大頭頸	dou deu cin
 癧串
 風手	fon shieu
 蛇手
@@ -12618,7 +12612,7 @@ k	khe1
 雞爪風	ci tsau fon
 風指甲	fon tsy khaq
 瘄子
-大腳痱子
+大腳痱子	dou ciaq fi tsy
 脹面癗
 熱癤
 熱癤	gniq tsoq
@@ -12679,7 +12673,7 @@ k	khe1
 病痼毒
 大卵袋	dou loe de
 小腸氣
-尿急病
+尿急病	syu ciq bin
 大腳風	dou ciaq fon
 象皮病
 流火
@@ -12687,7 +12681,7 @@ k	khe1
 熱度
 爛腳疤
 藥圓
-藍藥水
+藍藥水	lae yaq syu
 快口藥
 戴頭篷	ta deu bon
 蒲帽
@@ -12702,7 +12696,7 @@ k	khe1
 活猻帽
 老頭帽
 太陽帽	tha yan mau
-大蓋帽
+大蓋帽	dou ke mau
 白帽頭
 白帽頭	baq mau dei
 橄欖帽
@@ -12784,12 +12778,12 @@ k	khe1
 褲腳
 褲腳筒
 褲帶縛
-尿衲布
-尿布
-尿衲
-尿衲布頭
+尿衲布	syu naq pu
+尿布	syu pu
+尿衲	syu naq
+尿衲布頭	syu naq pu deu
 衲頭
-大衲
+大衲	dou naq
 上山襪	zaon sae maq
 長統襪	jian thon maq
 木屐
@@ -12878,7 +12872,7 @@ k	khe1
 冷盆
 拼盆
 鑲盆
-汁水
+汁水	ciq syu
 汁湯
 鹵滯	lu dzyu
 臭滷
@@ -12932,7 +12926,7 @@ k	khe1
 白煠蛋
 糖煮蛋
 糖氽蛋
-魚草
+魚草	ng tshau
 張網貨
 淡菜
 蠣黃	li uaon
@@ -12981,7 +12975,7 @@ k	khe1
 滑皮蝦
 活皮蝦
 竹節蝦
-水蝦
+水蝦	syu huo
 白米飯蝦
 糯米飯蝦
 ⿰鹵倉蝦	chian huo
@@ -12993,27 +12987,27 @@ k	khe1
 借手箬鰨	cia shieu gnioq thaq
 順手箬鰨	zyun shieu gnioq thaq
 川烏
-青鱄魚
-叉魚
-叉扁魚
+青鱄魚	chin tsoe ng
+叉魚	tsho ng
+叉扁魚	tsho pi ng
 長鱗	jian lin
 黑叉
 鰳魚	lei ng
 鮮白鰳魚	shi baq lei ng
 鹹鰳魚	ghae lei ng
-鱭魚
+鱭魚	ji ng
 黃鮚
 ⿱寨魚	dza ng
 ⿱寨魚	za ng
-鮸魚
-米魚
-毛鱨魚
+鮸魚	mi ng
+米魚	mi ng
+毛鱨魚	mau dzaon ng
 黃婆雞
 黃草雞
 白果子
-梅魚
-小梅魚
-大頭梅蒜
+梅魚	mei ng
+小梅魚	shiau mei ng
+大頭梅蒜	dou deu mei soe
 楓樹葉
 蝦𩻣	huo zae
 蝦𩻣	huo dzae
@@ -13022,9 +13016,9 @@ k	khe1
 蝦步彈	huo bu dae
 望潮	maon jiau
 章舉
-章魚
+章魚	tsaon ng
 章乾	tsaon kI
-鬼公
+鬼公	ciu kon
 嘰咕	ci ku
 烏賊卵黃	u zaq loe waon
 烏賊蛋
@@ -13033,39 +13027,39 @@ k	khe1
 沙鰻	so mun
 明府鯗
 烏賊鯗
-黃魚鯗
+黃魚鯗	waon ng shian
 白鯗
 鰻鯗
 鰻筒
-銀魚絲
+銀魚絲	gnin ng sy
 開洋
 鮳頭
 龍頭鮳
 豆莢鮳	deu ciaq khau
-帶魚絲鮳
+帶魚絲鮳	ta ng sy khau
 梅子鮳
 鹵菜
-河鯽魚
+河鯽魚	ghou ci ng
 河鯽魚	ghou cin ng
-胖頭魚
-塘魚
+胖頭魚	phaon deu ng
+塘魚	daon ng
 白鰱
-烏鱧魚
-鮊魚
-翹嘴鮊魚
+烏鱧魚	u li ng
+鮊魚	ba ng
+翹嘴鮊魚	chiau tsyu ba ng
 青條
 差魚	tsha ng
 差鮊魚	tsha ba ng
 螺螄青
-土鯆魚
-䱀顙魚
-烏浪魚
-鬼魚
+土鯆魚	thu bu ng
+䱀顙魚	aon saon ng
+烏浪魚	u laon ng
+鬼魚	ciu ng
 烏浪鯗
-烏浪魚鯗
-鬼魚鯗
+烏浪魚鯗	u laon ng shian
+鬼魚鯗	ciu ng shian
 黃鱔	waon yi
-鱔魚
+鱔魚	zoe ng
 老黃泥鰍
 豁水	huaq syu
 鰭槍
@@ -13119,8 +13113,8 @@ k	khe1
 黃芽菜	waon ian tshe
 包心菜
 捲心菜
-青大頭
-白大頭
+青大頭	chin dou deu
+白大頭	baq dou deu
 黑油筒
 黑油菜
 小郎菜
@@ -13169,7 +13163,7 @@ k	khe1
 白蒲西瓜
 脆瓜
 稍瓜	sau kuo
-烏鱧魚瓜
+烏鱧魚瓜	u li ng kuo
 竹管筒瓜
 黃金瓜
 海冬青
@@ -13181,7 +13175,7 @@ k	khe1
 生梨	san li
 蕭梨
 梨頭
-水蜜桃
+水蜜桃	syu miq dau
 金柑
 金蛋
 文旦
@@ -13196,7 +13190,7 @@ k	khe1
 金鈴子
 紫葡萄
 紫胡桃
-水胡桃
+水胡桃	syu wu dau
 白蒲棗
 圓眼
 杏梅
@@ -13216,7 +13210,7 @@ k	khe1
 蒲薺
 老菱
 刺菱
-水菱
+水菱	syu lin
 香瓜子
 飯瓜子
 南瓜子
@@ -13255,7 +13249,7 @@ k	khe1
 春餅
 春捲
 路菜
-酒水
+酒水	cieu syu
 好日酒	hau gniq cieu
 開面酒
 正酒	cin cieu
@@ -13270,7 +13264,7 @@ k	khe1
 米醋
 山粉
 漿粉
-鹼水
+鹼水	kae syu
 料理
 碗腳
 碗腳	un cian
@@ -13283,7 +13277,7 @@ k	khe1
 吃場	chioq jian
 吃場案	chioq jian EI
 吃食
-湯水
+湯水	thaon syu
 閒食
 碎食
 碎食	saq zhiq
@@ -13352,10 +13346,10 @@ k	khe1
 棒頭糖
 小糖
 寸金糖
-牛皮糖
-發酵粉
-老酵
-酵頭
+牛皮糖	ngeu bi daon
+發酵粉	faq kau fen
+老酵	lau kau
+酵頭	kau deu
 老酒
 燒酒
 槍斃燒
@@ -13363,14 +13357,14 @@ k	khe1
 嗆氣
 還魂酒	wae wen cieu
 清茶
-清水白滾湯
+清水白滾湯	chin syu baq kuen thaon
 茶葉茶
 冷茶
 熱茶
 赤泡茶	chiq phau dzo
 棒冰
 地栗糕
-吃水
+吃水	chioq syu
 熱食
 發食
 屋裏
@@ -13381,9 +13375,9 @@ k	khe1
 屋爿
 草屋
 瓦屋
-五架屋
+五架屋	ng ko oq
 五架屋	ng ko on
-七架屋
+七架屋	chiq ko oq
 七架屋	chiq ko on
 客堂間	khaq daon kae
 堂前
@@ -13498,7 +13492,7 @@ k	khe1
 多孔板
 桁條
 木屑板
-鋸屑板
+鋸屑板	kI shiq pae
 篾牑
 磚牑
 瓦片
@@ -13507,7 +13501,7 @@ k	khe1
 洋瓦
 龍骨
 開磚
-二五十
+二五十	gni ng zyuq
 斷橛
 亂石
 塊石
@@ -13541,7 +13535,7 @@ k	khe1
 牢監	lau kae
 監牢	kae lau
 牛廄間	ngeu ji kae
-牛廄
+牛廄	ngeu ji
 豬廄間	tsyu ji kae
 豬廄
 鴨廄間	aq ji kae
@@ -13553,13 +13547,13 @@ k	khe1
 踏腳
 撐腳
 座墊
-書包架
+書包架	syu pau ko
 捎棚
 鋼絲
 輪盤
 擂盤
 氣胎
-黃魚車
+黃魚車	waon ng tsho
 手拉車	shieu lha tsho
 黃包車
 救命車
@@ -13576,9 +13570,9 @@ k	khe1
 火輪
 回聲	wei sen
 地莊船
-抲魚船
+抲魚船	kho ng zOE
 ⿰舟巤子	laq tsy
-抲水
+抲水	kho syu
 看鴨船	khI ae zOE
 腳搲船	ciaq uo zOE
 航船
@@ -13586,10 +13580,10 @@ k	khe1
 風篷	fon bon
 篙子
 船機
-打水機船
+打水機船	tan syu ci zOE
 石蛋路
 汽車路
-機耕路
+機耕路	ci kan lu
 火車路
 站頭
 家計	ko ci
@@ -13689,7 +13683,7 @@ k	khe1
 痰瓶
 便桶	bi don
 料勺
-尿瓶
+尿瓶	syu bin
 㫰竿
 㫰丫叉
 㫰衣墩
@@ -13710,11 +13704,11 @@ k	khe1
 煤頭紙
 美孚燈
 火油燈
-鬼燈籠
+鬼燈籠	ciu ten lon
 洋燭
 洋蠟燭
 火熜
-湯水壺
+湯水壺	thaon syu wu
 司的克
 按杖棒
 踉䠀
@@ -13762,7 +13756,7 @@ k	khe1
 鑊墨灰	ghon moq huei
 鑊煤
 鑊扛	ghoq gaon
-羹架
+羹架	kan ko
 鑊鏟
 茶壺
 鋼精鍋子
@@ -13795,7 +13789,7 @@ k	khe1
 軟柴
 刺柴
 木杮
-鋸屑
+鋸屑	kI shiq
 麩炭
 錠炭
 煤球風爐	mei jieu fon lou
@@ -13863,7 +13857,7 @@ k	khe1
 羹桶
 挈當	chiq taon
 挈當桶	chiq taon don
-挈水桶
+挈水桶	chiq syu don
 吊樑桶
 環頭	guae deu
 鋬頭
@@ -13876,7 +13870,7 @@ k	khe1
 鑞酒壺
 五事
 元寶籃
-大蘇籃
+大蘇籃	dou su lae
 餅盆籃
 幢籃
 杭州籃
@@ -13934,7 +13928,7 @@ k	khe1
 泥鏝板
 泥墁板
 泥桶
-鋸路
+鋸路	kI lu
 鑽子	tsoe tsy
 木馬
 蠻矮凳	mae a ten
@@ -13946,7 +13940,7 @@ k	khe1
 板鋤	pae zyu
 板鋤	pae zy
 麥搗孔
-麥水孔
+麥水孔	maq syu khon
 麥搗子頭
 麥摐
 㲀頭
@@ -13989,19 +13983,19 @@ k	khe1
 稻繫繩	dau ci zhin
 草苫
 龍骨車
-牛車盤
-牛軛
-牛桊
+牛車盤	ngeu tsho bun
+牛軛	ngeu aq
+牛桊	ngeu ciun
 牛鼻桊	ngeu biq ciun
 牛鼻銷	ngeu biq shiau
-牛控篰
+牛控篰	ngeu khon bu
 鴨泥	aq gni
 豬泥
 煝焦泥
 缸沙	kaon so
 屙浸草
 撩篷
-魚罩
+魚罩	ng tsau
 黃鱔籠	waon yi lon
 揢簍
 揢籮
@@ -14013,14 +14007,14 @@ k	khe1
 窩子	ou tsyu
 紙頭
 申報紙	shin pau tsy
-黏膠紙
+黏膠紙	kni kau tsy
 大字簿	da zy bu
 墨筆
 筆套管
 硯瓦	gni ngoq
 硯瓦爿	gni ngoq bae
 教方板	kau faon pae
-大頭別針
+大頭別針	dou deu biq cin
 撳釘	chin tin
 圖書釘	du syu tin
 鑷子鉗
@@ -14036,7 +14030,7 @@ k	khe1
 鐋鑼
 戤叉
 鳳凰簫
-吹簫
+吹簫	tshyu shiau
 橫簫	wan shiau
 胡琴
 盧琴
@@ -14044,7 +14038,7 @@ k	khe1
 叫扁
 鷂子
 鷂虻
-大頭殼子
+大頭殼子	dou deu khoq tsy
 野狐狸
 人案頭	gnin e deu
 人案	gnin e
@@ -14063,7 +14057,7 @@ k	khe1
 炮仗	phau jian
 百子炮
 洋泡泡
-吹吹泡
+吹吹泡	tshyu tshyu phau
 派司牌	pha sy bae
 杜路克
 杜路克牌	du lu khaq bae
@@ -14072,9 +14066,9 @@ k	khe1
 嬲和東西	na ghou ton shi
 𤖱頭
 和頭	ghou deu
-牛娘
-牯牛
-羯牛
+牛娘	ngeu gnian
+牯牛	ku ngeu
+羯牛	ciq ngeu
 嘵豬
 愚豬
 泥豬
@@ -14213,8 +14207,8 @@ k	khe1
 癩𪓿
 癩螄
 田雞
-水雞
-烏鼻頭蟲
+水雞	syu ci
+烏鼻頭蟲	u baq deu dzon
 田雞噥噥
 田雞肚肚
 蛤蚆
@@ -14223,10 +14217,10 @@ k	khe1
 癩𪓿蛤蚆
 石戇
 石撞
-珠珠魚
+珠珠魚	tsyu tsyu ng
 亮眼頭絲
-偷飯烏龜
-魚泡泡
+偷飯烏龜	theu vae u ciu
+魚泡泡	ng phau phau
 田螺嗍
 田螺血
 燥地螞蝗
@@ -14263,10 +14257,10 @@ k	khe1
 紅芷根	ghon tsy ken
 茅針
 革命草
-水鹹草
+水鹹草	syu ghae tshau
 鹹草
-水葫蘆
-浮薸
+水葫蘆	syu wu lu
+浮薸	veu biau
 綠萍
 薀草
 青衣
@@ -14278,8 +14272,8 @@ k	khe1
 根頭	ken deu
 根株	ken tsyu
 稻根株	dau ken tsyu
-掙株
-樹掙
+掙株	tsan tsyu
+樹掙	zyu tsan
 絲流
 椏杈
 丫叉
@@ -14291,13 +14285,13 @@ k	khe1
 毛筒
 𥲄竹
 淡竹
-水竹
+水竹	syu tsoq
 箬殼	gniq khoq
 篾白
 葛藤
 木蓮藤
-老勿大
-老勿大草
+老勿大	lau vaq dou
+老勿大草	lau vaq dou tshau
 玉荷花
 朝日頭花	jiau gniq deu huo
 柴白絳花
@@ -14358,21 +14352,21 @@ k	khe1
 行業	ghaon gniq
 行當	ghaon taon
 暗行生意	EI ghaon san i
-鬼戳屄
+鬼戳屄	ciu tshoq pi
 生活	san waq
 生活	san wo
 大工	da kon
 計件工
 事體
 事幹
-大事體
+大事體	dou zy thi
 閒賬
 場頭	jian deu
 外場面	nga jian mi
 見面鈿
 拜見鈿
-壓歲鈿
-壓歲銅鈿
+壓歲鈿	aq syu di
+壓歲銅鈿	aq syu don di
 蠟燭鈿
 盤纏鈿	bun zoe di
 定頭鈿
@@ -14386,13 +14380,13 @@ k	khe1
 過賬洋鈿
 經摺
 現升
-貼水
+貼水	thiaq syu
 押頭
 分書	fen syu
 票子
 勢口
 陶窯
-開交
+開交	khe kau
 陶成
 純肉頭
 揀落腳	kae loq cian
@@ -14478,10 +14472,10 @@ k	khe1
 聖珓
 無常	vu dzaon
 無常	Wu dzaon
-活鬼
-河水鬼
-吊煞鬼
-槍斃鬼
+活鬼	waq ciu
+河水鬼	ghou syu ciu
+吊煞鬼	tiau saq ciu
+槍斃鬼	chian bi ciu
 香菸屁股
 香菸蒂頭
 根渣	ken tso
@@ -14491,11 +14485,11 @@ k	khe1
 別十
 破裏破碎
 小零小碎
-面水
-天水
-檐頭水
+面水	mi syu
+天水	thi syu
+檐頭水	yi deu syu
 倒汗	tau ghEI
-漆水
+漆水	chiq syu
 烏子
 豁裂縫	huaq liq von
 豁烏	huaq u
@@ -14508,11 +14502,11 @@ k	khe1
 廚頓
 吃食命
 漲息
-水缸腳
-米漿泔水
+水缸腳	syu kaon ciaq
+米漿泔水	mi cian kI syu
 米漿泔
-淘米漿泔水
-淘米漿水
+淘米漿泔水	dau mi cian kI syu
+淘米漿水	dau mi cian syu
 細糠
 白花
 白殕
@@ -14545,8 +14539,8 @@ k	khe1
 彈眼落睛	dae ngae loq cin
 䀨瞎
 翻白
-眼淚出
-出眼淚
+眼淚出	ngae li tshyuq
+出眼淚	tshyuq ngae li
 聽張
 聽明
 聽明	thiq min
@@ -14562,15 +14556,15 @@ k	khe1
 吃煞
 上念	zaon gni
 上念頭	zaon gni deu
-厥去
-瘚去
+厥去	ciuq chi
+瘚去	ciuq chi
 掏古
 掏老古
 商量	shian lian
 商商量量	shian shian lian lian
 查查廉廉
-查查問問
-問癟
+查查問問	dzo dzo men men
+問癟	men piq
 派來
 難話	nae wo
 難講	nae kaon
@@ -14586,27 +14580,27 @@ k	khe1
 諫訓	kae shiun
 做規矩
 改教	ke ciau
-敲𧰵
+敲𧰵	khau toq
 出閒話
 屙講
 拆空	tshaq khon
 拆亂
 嚼麥糕
 扯蛋
-吹牛屄
+吹牛屄	tshyu ngeu pi
 搗親
-搗鯁
+搗鯁	tau gan
 造孽
 應嘴	in tsyu
-交代
+交代	kau de
 撩起
 剋落
 上書	zaon syu
 下落	gho loq
 ⿰氵丈起	jian chi
 打襉
-敲邊
-大做
+敲邊	khau pi
+大做	dou tsou
 貼襪底	thaq maq ti
 褙袹
 結袹
@@ -14615,11 +14609,11 @@ k	khe1
 𢲔跌
 蹁倒	bi tau
 能能	nhen nhen
-大套
+大套	dou thau
 彎轉
 串陣
 奔東落西
-奔來落去
+奔來落去	pen le loq chi
 奔來倒去	pen le tau chi
 𧼰出
 𧼱競
@@ -14661,7 +14655,7 @@ k	khe1
 ⿰氵丈人	jian gnin
 ⿰氵丈肉	jian gnioq
 𢄺身
-落水
+落水	loq syu
 軋頭
 伸懶長	shin lae jian
 伸懶勢	shin lae syu
@@ -14677,7 +14671,7 @@ k	khe1
 調覺	diau kau
 醒覺轉	shin kau tsoe
 睏失覺	khuen syuq kau
-做亂夢
+做亂夢	tsou loe maon
 講夜話
 爬起
 背夜	pei ya
@@ -14723,7 +14717,7 @@ k	khe1
 凍進
 凍掉
 傷風氣	saon fon chi
-鼻頭管塞煞
+鼻頭管塞煞	baq deu kun saq saq
 發酒凚
 𢪂痚駝
 吃熱
@@ -14760,7 +14754,7 @@ k	khe1
 減壽命
 合撲
 合撲	gha phoq
-死掉
+死掉	shi diau
 落材	loq ze
 落殮
 入木
@@ -14806,7 +14800,7 @@ k	khe1
 罪過
 罪過	zei khou
 見情
-交代勿過
+交代勿過	kau de vaq kou
 痗心勿過
 心焦
 壞過	ua kou
@@ -14824,9 +14818,9 @@ k	khe1
 發喥
 發喥性
 光火	kuan hou
-火大
-加氣
-加氣煩惱
+火大	hou dou
+加氣	ko chi
+加氣煩惱	ko chi vae nau
 怨煞
 怨苦大結	iu khu da ciq
 氣惱糟
@@ -14838,12 +14832,12 @@ k	khe1
 賅人家	kI gnin ko
 賅人家	ke gnin ko
 做新婦
-擡去
+擡去	de chi
 兌姑嫂
 擡䞁房
 討䞁房
 吃糖
-過歲
+過歲	kou syu
 發送
 搬嫁妝
 搬嫁資衣
@@ -14936,7 +14930,7 @@ k	khe1
 炒地皮
 打紅五
 打紅五星
-鈵大小
+鈵大小	pin dou shiau
 叉麻將
 叉麻雀	tsho mo cian
 搓麻將	tsho mo cian
@@ -14950,7 +14944,7 @@ k	khe1
 撮紙團	tshaq tsy doe
 拔長短	baq jian toe
 張貓	cian mhau
-尋幽貓
+尋幽貓	zhin ieu mae
 幽貓	ieu mhau
 搶窠
 保窠
@@ -15052,7 +15046,7 @@ k	khe1
 橋眠牀
 擔飯	tae vae
 帶信
-弶貓
+弶貓	jian mae
 撣蚊蟲
 起屋
 卸舊
@@ -15067,7 +15061,7 @@ k	khe1
 釘碗	tin un
 碫磨	toe mou
 鍛磨	toe mou
-趕水
+趕水	kI syu
 耖田
 劖白
 耙田
@@ -15089,7 +15083,7 @@ k	khe1
 做隊
 做腳
 搭界
-來去
+來去	le chi
 犯對
 解纜	ka lae
 𤖼鯗
@@ -15152,8 +15146,8 @@ k	khe1
 吃着	chioq dzoq
 落軋
 落薄
-交運
-交老運
+交運	kau yun
+交老運	kau lau yun
 行運	ghan yun
 候榫頭
 候榫
@@ -15180,8 +15174,8 @@ k	khe1
 抵配
 閘出
 和攏	ghou lon
-做認
-做記認
+做認	tsou gnin
+做記認	tsou ci gnin
 做撥
 做仔
 調撥	diau paq
@@ -15189,7 +15183,7 @@ k	khe1
 做則
 看起	khI chi
 看樣	khI yan
-認樣
+認樣	gnin yan
 充闊
 做客
 慣常
@@ -15198,7 +15192,7 @@ k	khe1
 縋膯	dzyu ten
 積食
 賴孵
-打水
+打水	tan syu
 打勢
 打渾
 褪殼	then khoq
@@ -15252,7 +15246,7 @@ k	khe1
 塞車
 倒沒	tau maq
 翻向
-翻大向
+翻大向	fae dou shian
 倒翻	tau fae
 傾轉
 翻肚	fae tu
@@ -15276,7 +15270,7 @@ k	khe1
 開雪眼
 響雷
 出蜃
-做大水
+做大水	tsou dou syu
 做風水	tsou fon syu
 做風潮	tsou fon jiau
 魚轉側	ng tsoe tsaq
@@ -15420,35 +15414,35 @@ k	khe1
 迫煞
 燥煞
 急急動
-大箌
-大淘
-雷大
-雷大大
-大膨膨
+大箌	dou dau
+大淘	dou dau
+雷大	lei dou
+雷大大	lei dou dou
+大膨膨	dou ban ban
 長大	jian dou
 呆長呆大	nge jian nge dou
 蠻長蠻大	mae jian mae dou
-大面大得
-大眼睩索
+大面大得	dou mi dou taq
+大眼睩索	dou ngae lhoq soq
 倒大	tau dou
-大隻小
+大隻小	dou tsaq shiau
 橫闊大	wan khuaq dou
 中幫
 中幫管
-半中大
+半中大	pun tson dou
 小結結
 小羅嗦
 小羅嗦	shiau lhou sou
 小格楞敦
 米米大	mhi mhi dou
-蝨末鬼
-蝨末老鬼
+蝨末鬼	saq maq ciu
+蝨末老鬼	saq maq lau ciu
 極細
 有夥
 木佬佬
 崩倒	pon tau
 翻倒	fae tau
-造大反
+造大反	zau dou fae
 造反
 甚多沒少	zhin tou maq shiau
 嘸告多少	mh kau tou shiau
@@ -15465,7 +15459,7 @@ k	khe1
 對帶	tei tan
 堆打
 滿掉
-一大摙
+一大摙	iq dou li
 極刻
 有還	yeu wae
 老口
@@ -15497,7 +15491,7 @@ k	khe1
 候分刻數	gheu fen khaq su
 候成刻數	gheu jin khaq su
 候分刻毛	gheu fen khaq mau
-候眉刻毛
+候眉刻毛	gheu mi khaq mau
 候分候數	gheu fen gheu su
 分眼分榫	fen ngae fen syun
 蠻長	mae jian
@@ -15543,7 +15537,7 @@ k	khe1
 直儱侗	jiq lon thon
 直白儱侗	jiq baq lon thon
 彎折格亂
-水平
+水平	syu bin
 雪平
 筆篤
 骨篤
@@ -15559,7 +15553,7 @@ k	khe1
 翹聳聳
 骨陡翹
 側棱	tsaq len
-雜角
+雜角	zaq koq
 閘角
 側角	tsaq koq
 笡擺
@@ -15591,8 +15585,8 @@ k	khe1
 花裏花繃	huo li huo pan
 花裏花繃	huo liq huo pan
 花裏不剌	huo li paq laq
-雜格楞敦
-雜七格勒
+雜格楞敦	zaq kaq len ten
+雜七格勒	zaq chiq kaq laq
 滿嘴滿得
 沒嘴沒得	maq tsyu maq taq
 彌滿	mhi mun
@@ -15648,7 +15642,7 @@ k	khe1
 登樣
 吃格
 出勢
-架勢
+架勢	ko syu
 映起
 上照	zaon ciau
 難相	nae shian
@@ -15714,7 +15708,7 @@ k	khe1
 哭作環臉	khoq tsoq wae li
 哭作無賴	khoq tsoq vu la
 哭作無賴	khoq tsoq Wu la
-青大腫
+青大腫	chin dou tson
 青腫
 血出糊剌	shiuq tshyuq wu la
 好模好樣	hau moq hau yan
@@ -15755,13 +15749,13 @@ k	khe1
 爽脆
 直肚白腸
 直頭白腦
-天膽地大
+天膽地大	thi tae di dou
 利朗
 潑賴	pha la
 煞辣
 煞辣	saq naq
 煞辣斯
-大氣
+大氣	dou chi
 大度	da du
 注意
 熱石
@@ -15785,8 +15779,8 @@ k	khe1
 倒爺笨	tau ya ben
 外行結夾	nga ghaon ciq kaq
 腦髓粉燥
-腦子敲𥣘
-腦子進水
+腦子敲𥣘	nau tsy khau iq
+腦子進水	nau tsy cin syu
 腦子短路
 腦子搭錯
 腦子錯拼
@@ -15809,13 +15803,13 @@ k	khe1
 呆剝龍東
 呆臉呆得
 呆頭呆腦
-呆大刮氣
+呆大刮氣	nge dou kuaq chi
 戇得得
 戇性性
 大糊其其	dou wu ji ji
-大糊稀稀
-大糊性轟
-大糊得氣
+大糊稀稀	dou wu shi shi
+大糊性轟	dou wu shin hon
+大糊得氣	dou wu taq chi
 壽得得
 壽刮刮
 壽頭刮氣
@@ -15861,9 +15855,9 @@ k	khe1
 難弄	nae lon
 異樣
 異樣刮得
-頭大
+頭大	deu dou
 頭大不剌	deu dou paq laq
-大戤戤
+大戤戤	dou ge ge
 精明
 黑心
 起黑心
@@ -15871,8 +15865,8 @@ k	khe1
 嗇鄙鄙
 嗇啚啚
 狗皮倒竈	keu bi tau tsau
-小鬼裏氣
-做鬼勿大
+小鬼裏氣	shiau ciu li chi
+做鬼勿大	tsou ciu vaq dou
 指甲伸	tsy khaq shin
 眼孔淺
 眼殼子高
@@ -15905,10 +15899,10 @@ k	khe1
 橫𠡒	uan tei
 促掐
 惡尖尖	oq ci ci
-臭要死
+臭要死	chieu iau shi
 賊腔
 賊頭狗腦
-死樣怪氣
+死樣怪氣	shi yan kua chi
 嘸氣懶魄	mh chi lae phaq
 洋皮皮
 皮頓頓
@@ -15943,7 +15937,7 @@ k	khe1
 落檻
 領徑
 省力	san liq
-隨水
+隨水	zei syu
 順湯
 順流
 順阿流	zyun aq lieu
@@ -15975,7 +15969,7 @@ k	khe1
 推位
 勿對
 差差	tsho tsho
-死樣
+死樣	shi yan
 拉打	lhan tan
 拆搭
 嘸做
@@ -16065,9 +16059,9 @@ k	khe1
 灰籮覆出
 犯關
 退過
-尋死
-死蟹𡀂
-死快𡀂
+尋死	zhin shi
+死蟹𡀂	shi ha lei
+死快𡀂	shi khua lei
 做人勿來	tsou gnin vaq le
 阿難	aq nae
 阿難死	aq nae shi
@@ -16080,11 +16074,11 @@ k	khe1
 霧露且且	Wu lu chia chia
 窩風	ou fon
 鬥風	teu fon
-鬥水
+鬥水	teu syu
 熱溫溫
 熱度度
-熱烔烔	gniq don don
-火熱烔	hou gniq don
+熱烔烔
+火熱烔
 涾涾滾
 火熱涾涾滾
 𤉦暖
@@ -16127,7 +16121,7 @@ k	khe1
 溼漬漬	shiq tsaq tsaq
 #溚溚滴	taq taq ti
 #涾涾滴	daq daq ti
-水出爛糟
+水出爛糟	syu tshyuq lae tsau
 餲𦤣幾糟
 餲𦤣𦤣
 溼𦤣幾糟	saq boq ci tsau
@@ -16145,7 +16139,7 @@ k	khe1
 滑饞饞
 滑饞饞	waq zae zae
 滑石石
-油光水滑
+油光水滑	yeu kuaon syu waq
 極䪆
 䪆潔
 糙粒不剌	tshau liq paq laq
@@ -16159,7 +16153,7 @@ k	khe1
 末末腐
 末末碎
 黏牙齒	kni ngo tsy
-黏膠膠
+黏膠膠	kni kau kau
 黏格格
 黏得得
 黏結格牢
@@ -16246,10 +16240,10 @@ k	khe1
 透骨新鮮
 蔫糟糟
 霉頭脫腦
-半死爛活
+半死爛活	pun shi lae waq
 清湯寡水	chin thaon kua syu
 清湯寡水	chin thaon kuan syu
-油挪挪
+油挪挪	yeu no no
 油注刮得
 油漬格勒
 煞清爽
@@ -16273,8 +16267,8 @@ k	khe1
 單角	tae koq
 彎角
 過邊
-蹽河隔水
-蹽遠隔水
+蹽河隔水	liau ghou kaq syu
+蹽遠隔水	liau yu kaq syu
 遠天白地
 遠天百地
 靜注
@@ -16331,7 +16325,7 @@ k	khe1
 貼色葫蘆
 各號	koq ghau
 各色各樣
-大推大扳
+大推大扳	dou thei dou pae
 大差大扳	dou tsho dou pae
 各有人	koq yeu gnin
 看人起	khI gnin chi
@@ -16480,14 +16474,14 @@ k	khe1
 淡刮裏漿
 淡刮泥漿
 淡沙沙	dae so so
-淡水水
-淡水刮得
-淡水毛氣
-淡水毛漿
+淡水水	dae syu syu
+淡水刮得	dae syu kuaq taq
+淡水毛氣	dae syu mau chi
+淡水毛漿	dae syu mau cian
 澀口
 澀肯肯
 澀肯頭
-大舌頭
+大舌頭	dou zhiq deu
 麻舌頭
 麻口
 麻辣辣
@@ -16513,8 +16507,8 @@ k	khe1
 臭稀稀
 臭稀頭
 臭齈齈
-尿臊臭
-尿臊氣
+尿臊臭	syu sau chieu
+尿臊氣	syu sau chi
 屙腥臭
 腳屙臭
 腳屙爛臭
@@ -16522,7 +16516,7 @@ k	khe1
 酸汪汪
 酸汪氣
 酸漿氣
-魚腥氣
+魚腥氣	ng shin chi
 腥氣刮得
 藥腥氣
 生腥氣	san shin chi
@@ -16638,7 +16632,7 @@ k	khe1
 和個	ghou kou
 整個	cin kou
 全個	dzoe kou
-大筆頭
+大筆頭	dou piq deu
 篤長	toq jian
 多少	tou shiau
 益加	i ko
@@ -16646,11 +16640,11 @@ k	khe1
 稍勢	sau syu
 差眼	tsho ngae
 差一眼	tsho iq ngae
-煞死
+煞死	saq shi
 煞快
 煞人	saq gnin
 足輸贏
-嘸采去
+嘸采去	mh tshe chi
 塔塔響
 暗氣介	EI chi ka
 暗氣一樣
@@ -16659,7 +16653,7 @@ k	khe1
 阿爹阿孃勿認得	aq tia aq gnian vaq gnin taq
 算賬
 可憐
-蹱去
+蹱去	tshon chi
 𠡒百筋
 眼烏珠翻白
 𠡒九筋
@@ -16755,7 +16749,7 @@ k	khe1
 莫怕	mhau pho
 阿爬	aq bo
 阿防	aq baon
-落去
+落去	loq chi
 弄仿
 弄勿好	lon vaq hau
 像人家	zhian gnin ko
@@ -16763,7 +16757,7 @@ k	khe1
 像煞
 頂好	tin hau
 派派
-大面
+大面	dou mi
 限板
 板規
 好壞	hau ua
@@ -16839,8 +16833,8 @@ k	khe1
 要煞性命
 要條性命
 恨命
-恨死命
-恨死老命
+恨死命	ghen shi min
+恨死老命	ghen shi lau min
 阿講	aq kaon
 阿講	oq kaon
 枉爲	uaon wei
@@ -16965,7 +16959,7 @@ k	khe1
 開火倉
 扎面子
 佔相因	ci shian in
-見䏘鬼
+見䏘鬼	ci phiq ciu
 勿上課	vaq zaon khou
 勿長毛	vaq cian mau
 勿出產	vaq tshyuq sae
@@ -16996,7 +16990,7 @@ k	khe1
 甩翎子	huaq lin tsy
 接翎子
 頭出角
-出大汗
+出大汗	tshyuq dou ghEI
 出槍花
 調槍花	diau chian huo
 出事體
@@ -17009,14 +17003,14 @@ k	khe1
 有數賬	yeu su cian
 𢪂頭皮
 吊心火
-吊燥水
+吊燥水	tiau sau syu
 吃小苦
 吃勿落
 吃勒落
 吃巴掌
 吃生活	chioq san waq
 吃老苦
-吃死飯
+吃死飯	chioq shi vae
 吃夾餅
 吃後撲
 吃花菜
@@ -17046,7 +17040,7 @@ k	khe1
 忖野心
 安陰陽
 愛陰陽
-安落去
+安落去	EI loq chi
 講大道	kaon da dau
 講聊天
 講斤頭
@@ -17136,8 +17130,8 @@ k	khe1
 是介講	zy ka kaon
 是介話	zy ka wo
 看三色	khI sae saq
-鬼擄頭
-甮加氣
+鬼擄頭	ciu lou deu
+甮加氣	ven ko chi
 派勿來
 起血性
 䀣眼火	piq ngae hou
@@ -17196,13 +17190,13 @@ k	khe1
 管團圓
 管閒賬
 孵豆芽
-敲瓦爿
+敲瓦爿	khau ngo bae
 敲橫檔	khau wan taon
 瘟跌倒	uen tiq tau
 撮白失	tshaq baq syuq
 撮外快	tshaq nga khua
 撮便宜	tshaq bi gni
-鯁胡嚨
+鯁胡嚨	gan wu lon
 戳壁腳
 劖着劖	zae dzoq zae
 買着買	ma dzoq ma
@@ -17218,16 +17212,16 @@ k	khe1
 一打一挼
 一包一𢷒
 一包一折
-一直鼻頭
+一直鼻頭	iq jiq baq deu
 一轉一迴
 一進一出
-一來一去
+一來一去	iq le iq chi
 一定不易	iq din paq yi
 一帶兩便	iq ta lian bi
 一眼嘸告
 一搭一檔
-二五八六
-二五打八六
+二五八六	gni ng paq loq
+二五打八六	gni ng tan paq loq
 八貓介	paq mae ka
 十人九傲	zyuq gnin cieu ngau
 十人九𧮙	zyuq gnin cieu zoq
@@ -17248,11 +17242,11 @@ k	khe1
 三對六面
 三腳六面
 三搭六橋
-大大勿大
-大快勿快
-大遠勿遠
-大笨勿笨
-大忙勿忙
+大大勿大	dou dou vaq dou
+大快勿快	dou khua vaq khua
+大遠勿遠	dou yu vaq yu
+大笨勿笨	dou ben vaq ben
+大忙勿忙	dou maon vaq maon
 大貴勿貴	dou ciu vaq ciu
 萬試萬應	vae sy vae in
 上嘴勿得	zaon tsyu vaq taq
@@ -17265,7 +17259,7 @@ k	khe1
 日長時久	gniq jian zy cieu
 日長時久	gniq jian sy cieu
 日長夜大	gniq cian ya dou
-見大頭鬼
+見大頭鬼	ci dou deu ciu
 介小數目	ka shiau su moq
 介話既話	ka wo ci wo
 介講既講	ka kaon ci kaon
@@ -17274,7 +17268,7 @@ k	khe1
 介煩既煩	ka vae ci vae
 介揀既揀	ka kae ci kae
 介看既看	ka khI ci khI
-勿二勿三
+勿二勿三	vaq gni vaq sae
 勿問長短	vaq men jian toe
 上落勿問	zaon loq vaq men
 勿燥勿溼
@@ -17312,8 +17306,8 @@ k	khe1
 有⿰氵丈嘸⿰氵丈	yeu jian mh jian
 老相扮出	lau shian pae tshyuq
 死人勿怪	shi gnin vaq kua
-死蟹一隻
-死蟹吹白
+死蟹一隻	shi ha iq tsaq
+死蟹吹白	shi ha tshyu baq
 夾頭夾腦
 吃人腦髓	chioq gnin nau shi
 吃氣勿過
@@ -17380,7 +17374,7 @@ k	khe1
 古老百千
 青草𣍐出
 現試文章
-抲眉毛蟲
+抲眉毛蟲	kho mi mau dzon
 揀完賣完	kae wun ma wun
 擔心擔事	tae shin tae zy
 擔心落事	tae shin loq zy
@@ -17422,7 +17416,7 @@ k	khe1
 活靈生進	waq lin san cin
 活靈捉進
 活靈𧼰進
-活靈死出
+活靈死出	waq lin shi tshyuq
 活靈反背	waq lin fae pei
 活靈𧼰出
 活靈嚇出
@@ -17488,7 +17482,7 @@ k	khe1
 撳撳塞塞
 蛔蟲朝下	wei dzon jiau gho
 短命促死	toe min tshaq shi
-裝棚搭架
+裝棚搭架	tsaon ban taq ko
 碎碎塞塞
 睬儂瞎子
 睬儂阿白哥	tshe nou aq baq kou
@@ -17502,8 +17496,8 @@ k	khe1
 新花暴熱	shin huo pau gniq
 塞暗亮頭
 鮮龍活跳
-敲開木魚
-敲火油箱
+敲開木魚	khau khe moq ng
+敲火油箱	khau hou yeu shian
 遮蔭遮日	tso in tso gniq
 撮來依到	tshaq le i tau
 撐鬥風船	tshan teu fon zOE

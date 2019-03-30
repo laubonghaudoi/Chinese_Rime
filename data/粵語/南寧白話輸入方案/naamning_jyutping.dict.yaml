@@ -6,23 +6,25 @@
 # Author - LeiMaau<leimaau@qq.com>  |  https://leimaau.github.io/book/
 #
 # 心母邊擦音sl[ɬ]，老派口音的師韻zy[tsɿ]、cy[tsʰɿ]、sy[sɿ]，老派口音的津韻-yun[-yn]、-yut[-yt]
+# (白)白讀；(文)文讀；(老派)老派讀音；(習)習慣讀法；(常)常見讀法；(又)又音；(訓)訓讀；(舊)舊讀；(語)口語音；(書)書面音；(外)外來語音譯
 #
 # 【參考文獻】
 # 1994年謝建猷《南寧白話同音字彙》 | 記音質量： ★★☆☆☆  两颗星
 # 1997年楊煥典《南寧話音檔》 |  記音質量： ★★★☆☆  三颗星
 # 1998年廣西地方誌編纂委員會《廣西通誌（漢語方言誌）》 | 記音質量： ★★★★☆  四颗星
+# 2002年楊煥典《現代漢語方言音庫字庫》 | 記音質量： ★★★☆☆  三颗星
 # 2007年謝建猷《廣西漢語方言研究》|  記音質量： ★★☆☆☆  两颗星
 # 2008年林亦、覃鳳餘《廣西南寧白話研究》 | 記音質量： ★★★★☆  四颗星
 # 2009年陳海倫、林亦《粵語平話土話方音字彙》 |  記音質量： ★★★☆☆  三颗星
-# 
-# 「基礎字音表」常用字字音取上述資料並經過審音，非常用字字音依照中古音並結合實際情況推導
-# 「基礎詞彙表」收錄了cc-cedict-canto、cc-canto和《開放粵語詞典》修正後的詞彙
-# 「南寧本地詞彙表」收錄了轉換後的搜狗詞庫《南寧市城市信息精選》並增補新詞
-# 
+#
+#「基礎字音表」常用字字音取上述資料並經過審音，非常用字字音依照中古音並結合實際情況推導
+#「基礎詞彙表」收錄了cc-cedict-canto、cc-canto和《開放粵語詞典》修正後的詞彙
+#「本地詞彙表」收錄了轉換後的搜狗詞庫《南寧市城市信息精選》並增補新詞
+#
 
 ---
 name: naamning_jyutping
-version: "20190316"
+version: "20190327"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -69,10 +71,10 @@ min_phrase_weight: 100
 坳	aau3	10%	# (文)
 拗	aau3	10%	# (文)
 靿	aau3		
-哎	ai1	10%	# (又)
 矮	ai1	5%	# (白)
 矮	ai2		
 㜇	ai3		# 心情煩悶，俗字翳
+曀	ai3		
 瞖	ai3		
 縊	ai3		
 翳	ai3		
@@ -87,12 +89,12 @@ min_phrase_weight: 100
 軶	ak1	5%	# (又)
 軛	ak1	5%	# (又)
 齷	ak1		
-庵	am1		
 菴	am1		
+庵	am1		
 諳	am1		
 鵪	am1		
-垵	am2	10%	# (又)
-埯	am2	10%	# (又)
+垵	am2		
+埯	am2		
 揞	am2		# 用手捂
 黯	am2		
 暗	am3		
@@ -135,7 +137,6 @@ min_phrase_weight: 100
 霸	baa3		
 㞎	baa4	10%	# (又)
 吧	baa6		# 助詞
-唄	baa6	10%	# (又)
 罷	baa6		
 掰	baai1		
 捭	baai2		
@@ -143,7 +144,7 @@ min_phrase_weight: 100
 襬	baai2		
 拜	baai3		
 湃	baai3		
-唄	baai6		# 梵音
+唄	baai6		# 唄唱，梵唄
 憊	baai6	10%	# (又)
 稗	baai6		
 敗	baai6		
@@ -180,7 +181,7 @@ min_phrase_weight: 100
 魃	baat6		
 包	baau1	10%	# (文)
 胞	baau1		# 細胞
-苞	baau1	10%	# (文)
+苞	baau1		
 褒	baau1		
 鮑	baau1		
 飽	baau2	10%	# (文)
@@ -190,13 +191,13 @@ min_phrase_weight: 100
 齙	baau6	10%	# (文)
 跛	bai1		
 稗	bai2	5%	# (又)
-蔽	bai3	10%	# (書)
+蔽	bai3		# (書)
 轡	bai3	10%	# (又)
 閉	bai3		
 幣	bai6		
-弊	bai6	10%	# (書)作弊；糟糕，倒楣
-敝	bai6	10%	# (書)
-斃	bai6	10%	# (書)
+弊	bai6		# (書)作弊；糟糕，倒楣
+敝	bai6		# (書)
+斃	bai6		# (書)
 鐾	bai6		
 陛	bai6		
 北	bak1		
@@ -205,21 +206,21 @@ min_phrase_weight: 100
 賓	ban1		
 彬	ban1		
 檳	ban1		
-殯	ban1		
+殯	ban1	5%	# (習)
 濱	ban1		
 繽	ban1		
 賁	ban1		# 虎賁；姓
 逩	ban1		
 錛	ban1		
-髕	ban1	5%	# (又)
-鬢	ban1		
-稟	ban2		
+鬢	ban1	5%	# (習)
+稟	ban2		# 稟告
 儐	ban3		
 嬪	ban3		
-殯	ban3	10%	# (書)
+擯	ban3		
+殯	ban3		
 臏	ban3		
 髕	ban3		
-鬢	ban3	10%	# (書)
+鬢	ban3		
 笨	ban6		
 崩	bang1		
 繃	bang1		
@@ -237,7 +238,7 @@ min_phrase_weight: 100
 屄	be1		# (白)女陰
 㞎	be2		# 㞎be4～，屎，童語
 㞎	be4		# ～㞎be2，屎，童語
-唄	be6		# 語氣助詞
+唄	be6		# 語氣詞
 砭	ben1		# (白)
 邊	ben1	10%	# (白)破邊，剖開兩半
 匾	ben2		# (白)
@@ -250,10 +251,9 @@ min_phrase_weight: 100
 坺	bet6		# (白)濕～～，濕貌
 拔	bet6	10%	# (白)
 跋	bet6	10%	# (白)
-魃	bet6	10%	# (白)
 包	beu1		# (白)
 胞	beu1	10%	# (白)胞胎
-苞	beu1		# (白)
+苞	beu1	10%	# (白)
 飽	beu2		# (白)
 爆	beu3		# (白)
 豹	beu3	10%	# (白)
@@ -272,16 +272,17 @@ min_phrase_weight: 100
 比	bi2		
 畀	bi2		# 給
 秕	bi2		
-譬	bi2	5%	# (又)
+譬	bi2	5%	# (訓)訓讀爲比
 髀	bi2		# 大腿
 匕	bi3		
 庇	bi3		
 泌	bi3		
 潷	bi3		# 濾去渣滓；擋住渣滓，把液體倒出
-痹	bi3		
 痺	bi3		
-秘	bi3		
+痹	bi3		
 祕	bi3		
+秘	bi3		
+箅	bi3		
 臂	bi3		
 賁	bi3		# 賁臨
 轡	bi3		
@@ -289,15 +290,15 @@ min_phrase_weight: 100
 備	bi6		
 婢	bi6	10%	# (又)
 幣	bi6	10%	# (又)
-弊	bi6		# (習)作弊
+弊	bi6	10%	# (習)作弊
 憊	bi6		
-敝	bi6		# (習)
-斃	bi6		# (習)
+敝	bi6	10%	# (習)
+斃	bi6	10%	# (習)
 箄	bi6		# 漁具
-箅	bi6		
+箅	bi6	10%	# (習)
 篦	bi6		
 簰	bi6		# 漁具
-蔽	bi6		# (習)
+蔽	bi6	10%	# (習)
 被	bi6		# 被動
 避	bi6		
 陛	bi6	10%	# (又)
@@ -323,6 +324,7 @@ min_phrase_weight: 100
 便	bin6		# 方便
 卞	bin6		
 弁	bin6		
+昪	bin6		
 汴	bin6		
 辨	bin6		
 辯	bin6		
@@ -345,11 +347,13 @@ min_phrase_weight: 100
 必	bit1		
 彆	bit3		
 憋	bit3		
-癟	bit3		
-蹩	bit3		
+癟	bit3	10%	# (又)
+蹩	bit3	10%	# (常)
 鱉	bit3		
 鼈	bit3		
 別	bit6		
+癟	bit6		
+蹩	bit6		
 儦	biu1		
 彪	biu1		
 標	biu1		
@@ -382,7 +386,7 @@ min_phrase_weight: 100
 膊	bok3		
 駁	bok3		
 帛	bok6	10%	# (又)
-泊	bok6	10%	# (書)飄泊，停泊
+泊	bok6		# 飄泊，停泊
 箔	bok6		
 舶	bok6		
 薄	bok6		# 厚薄
@@ -412,8 +416,8 @@ min_phrase_weight: 100
 補	bu2		
 褓	bu2		
 埔	bu3		
-布	bu3		
 佈	bu3		
+布	bu3		
 怖	bu3		
 報	bu3		
 哺	bu6	10%	# (又)
@@ -429,8 +433,8 @@ min_phrase_weight: 100
 菢	bu6		# 孵
 虣	bu6		
 部	bu6		
-杯	bui1		
 盃	bui1		
+杯	bui1		
 桮	bui1		
 揹	bui3		# 揹黑鍋
 狽	bui3		
@@ -471,7 +475,6 @@ min_phrase_weight: 100
 餑	but6		
 𡋯	but6		
 叉	caa1		
-岔	caa1	5%	# (又)
 差	caa1		# 差別
 杈	caa1		
 鑔	caa2		
@@ -503,7 +506,6 @@ min_phrase_weight: 100
 策	caak3		
 賊	caak6	10%	# (白)
 鰂	caak6		# 烏鰂
-嵾	caam1	10%	# (又)
 參	caam1		# 參加
 攙	caam1		
 噆	caam2		# 叼、銜；咬、叮
@@ -522,8 +524,8 @@ min_phrase_weight: 100
 㔆	caam5		# 刺；扎
 餐	caan1		
 產	caan2		
-鏟	caan2	10%	# (文)
 剷	caan2	10%	# (文)
+鏟	caan2	10%	# (文)
 闡	caan2	10%	# (又)
 燦	caan3		
 顫	caan3	10%	# (又)
@@ -544,7 +546,7 @@ min_phrase_weight: 100
 𨅝	caang3	10%	# (又)
 𨆪	caang3	10%	# (又)
 倀	caang4		# 獨立貌
-扱	caap3	10%	# (書)插；挹取
+扱	caap3		# 插、挹取
 插	caap3	10%	# (文)
 刷	caat3		
 嚓	caat3		
@@ -560,12 +562,12 @@ min_phrase_weight: 100
 抄	caau3	10%	# (文)翻找，亂翻
 䩌	caau4	10%	# (語)褶皺
 巢	caau4		
-凄	cai1		
-悽	cai1		
 淒	cai1		
+悽	cai1		
+凄	cai1		
 妻	cai1		
-棲	cai1		
 栖	cai1		
+棲	cai1		
 萋	cai1		
 傺	cai3		
 切	cai3		# 一切
@@ -591,7 +593,7 @@ min_phrase_weight: 100
 讖	cam3		
 尋	cam4		
 岑	cam4		
-沈	cam4		# 沈沒，同沉字
+沈	cam4		# 沈沒
 沉	cam4		
 潯	cam4		
 涔	cam4		
@@ -636,19 +638,20 @@ min_phrase_weight: 100
 葺	cap1		
 輯	cap1		
 七	cat1		
-出	cat1	10%	# (又)
 齣	cat1	10%	# (又)
+出	cat1	10%	# (又)
 柒	cat1		
 漆	cat1		
 猝	cat1	10%	# (又)
 抽	cau1		
-掫	cau1		
+掫	cau1	10%	# (又)
 搊	cau1		
 秋	cau1		
 鞦	cau1		
 鰍	cau1		
-丑	cau2		
+篘	cau1		
 醜	cau2		
+丑	cau2		
 瞅	cau2		
 湊	cau3		
 嗅	cau3		# 嗅覺
@@ -667,6 +670,7 @@ min_phrase_weight: 100
 酋	cau4	10%	# (又)
 酬	cau4		
 讎	cau4		
+唓	ce1		
 奢	ce1	10%	# (又)
 車	ce1		# 車輛
 且	ce2		
@@ -685,10 +689,10 @@ min_phrase_weight: 100
 劖	cem4		# (白)刺入，又作鑱/攙字
 攙	cem4	10%	# (白)刺入，又作鑱/劖字
 鑱	cem4		# (白)刺入，又作攙/劖字
-鏟	cen2		# (白)
 剷	cen2		# (白)
+鏟	cen2		# (白)
 清	ceng1	10%	# (白)水清
-青	ceng1	10%	# (白)青色
+青	ceng1	10%	# (白)青色，面青青
 請	ceng2	10%	# (白)
 插	cep3		# (白)
 抄	ceu1		# (白)抄書
@@ -698,8 +702,8 @@ min_phrase_weight: 100
 嗤	ci1		
 差	ci1		# 參差
 疵	ci1		
-痴	ci1		
 癡	ci1		
+痴	ci1		
 眵	ci1		
 笞	ci1		
 蚩	ci1		
@@ -746,14 +750,12 @@ min_phrase_weight: 100
 飼	ci4		
 馳	ci4		
 似	ci5		
-兕	ci5	10%	# (又)
 姒	ci5		
-峙	ci5		
+峙	ci5	10%	# (又)
 恃	ci5		
+汜	ci5		
 嗣	ci6		
 寺	ci6		
-飤	ci6	10%	# (又)
-飼	ci6	10%	# (又)
 㡿	cik1		
 叱	cik1		
 慽	cik1		
@@ -767,7 +769,7 @@ min_phrase_weight: 100
 僉	cim1		
 櫼	cim1		
 殲	cim1		
-牋	cim1		# 同箋字
+牋	cim1	10%	# (習)
 箋	cim1	10%	# (習)
 籤	cim1		
 簽	cim1		
@@ -853,8 +855,8 @@ min_phrase_weight: 100
 鋤	co4		
 坐	co5		
 㪕	coek3		
+噱	coek3	10%	# (又)
 戳	coek3	10%	# (又)
-淖	coek3		# 同綽字
 焯	coek3		
 綽	coek3		
 雀	coek3		
@@ -877,12 +879,12 @@ min_phrase_weight: 100
 暢	coeng3		
 償	coeng4		
 場	coeng4		
-墻	coeng4		
 牆	coeng4		
+墻	coeng4		
 嫦	coeng4		
 嬙	coeng4		
-嚐	coeng4		
 嘗	coeng4		
+嚐	coeng4		
 常	coeng4		
 庠	coeng4		
 戕	coeng4		
@@ -901,14 +903,14 @@ min_phrase_weight: 100
 棌	coi3		
 菜	coi3		
 蔡	coi3		
-纔	coi4		
 才	coi4		
+纔	coi4		
 材	coi4		
 裁	coi4		
 豺	coi4	10%	# (又)
 財	coi4		
 戳	cok3		
-擉	cok3		
+擉	cok3	10%	# (又)～人，用肘部擊人
 倉	cong1		
 傖	cong1		
 滄	cong1		
@@ -926,8 +928,8 @@ min_phrase_weight: 100
 愴	cong3		
 噇	cong4		
 幢	cong4		# 人影幢幢
-床	cong4		
 牀	cong4		
+床	cong4		
 藏	cong4		# 隱藏
 腏	cot6	10%	# (語)男陰
 操	cu1		
@@ -939,7 +941,7 @@ min_phrase_weight: 100
 騲	cu2		
 噪	cu3		
 燥	cu3		
-糙	cu3		# 粗糙
+糙	cu3		
 躁	cu3		
 造	cu3		# 造詣
 醋	cu3		
@@ -950,9 +952,12 @@ min_phrase_weight: 100
 漕	cu4		
 催	cui1		
 吹	cui1		
+嗺	cui1		
 崔	cui1		
 摧	cui1		
 炊	cui1		
+縗	cui1		
+脧	cui1		# 赤子陰
 揣	cui2		
 啐	cui3		
 啜	cui3		# 姓
@@ -979,11 +984,12 @@ min_phrase_weight: 100
 𡃴	cui4		# 氣味
 亍	cuk1		
 促	cuk1		
+擉	cuk1		
 束	cuk1		
 畜	cuk1		
 矗	cuk1		
-筑	cuk1		
 築	cuk1		
+筑	cuk1		
 簇	cuk1		
 蓄	cuk1		
 触	cuk1		
@@ -1003,14 +1009,14 @@ min_phrase_weight: 100
 涌	cung1		# 小河
 聰	cung1		
 舂	cung1		
-葱	cung1		
 蔥	cung1		
+葱	cung1		
 寵	cung2		
 揰	cung3		
 銃	cung3		
 叢	cung4		
-從	cung4		
 从	cung4		
+從	cung4		
 崇	cung4		
 松	cung4		
 淙	cung4	10%	# (又)
@@ -1018,8 +1024,8 @@ min_phrase_weight: 100
 潨	cung4		# 水流匯合處
 种	cung4		# 姓
 藂	cung4		
-蟲	cung4		
 虫	cung4		# 同蟲字
+蟲	cung4		
 重	cung4		# 重複
 重	cung5		# 輕重
 差	cy1	10%	# (老派)參差
@@ -1029,8 +1035,8 @@ min_phrase_weight: 100
 伺	cy3	10%	# (老派)
 佽	cy3	10%	# (老派)
 刺	cy3	10%	# (老派)魚刺
-廁	cy3	10%	# (老派)
 厠	cy3	10%	# (老派)
+廁	cy3	10%	# (老派)
 嗣	cy3	10%	# (又)
 次	cy3	10%	# (老派)
 賜	cy3	10%	# (老派)
@@ -1048,10 +1054,9 @@ min_phrase_weight: 100
 似	cy5	10%	# (老派)
 姒	cy5	10%	# (老派)
 恃	cy5	10%	# (老派)
+汜	cy5	10%	# (老派)
 嗣	cy6	10%	# (老派)
 寺	cy6	10%	# (又)
-飤	cy6	10%	# (又)
-飼	cy6	10%	# (又)
 芻	cyu1		
 蛆	cyu1		
 趨	cyu1		
@@ -1115,8 +1120,8 @@ min_phrase_weight: 100
 荃	cyun4		
 詮	cyun4		
 銓	cyun4		
-出	cyut1		
 齣	cyut1		
+出	cyut1		
 猝	cyut1		
 黢	cyut1		
 咄	cyut3	10%	# (又)
@@ -1169,12 +1174,14 @@ min_phrase_weight: 100
 沓	daap6		
 踏	daap6		
 蹋	daap6		
-噠	daat3		
+龘	daap6		
+墶	daat3		
 笪	daat3		# 竹笪；量詞，塊，一～地方
 靼	daat3		
 𢴈	daat3		# 拍、貼，～藥膏；摔，～生魚；突然倒下，～落床就睡
-噠	daat6	10%	# (又)
+噠	daat6		
 達	daat6		
+繨	daat6		
 低	dai1		
 氐	dai1		# 古民族名；二十八宿之一
 底	dai2		
@@ -1238,6 +1245,7 @@ min_phrase_weight: 100
 遯	dan6		
 鈍	dan6		
 頓	dan6		# 頓號
+噔	dang1		
 燈	dang1		
 登	dang1		
 瞪	dang1		
@@ -1270,12 +1278,13 @@ min_phrase_weight: 100
 赳	dau2		
 陡	dau2		
 鬥	dau3		
-逗	dau3		
+竇	dau3	10%	# (語)窩，狗竇
+逗	dau3	10%	# (習)
 哣	dau6		# 吽哣，古板
 痘	dau6		
 竇	dau6		
 豆	dau6		
-逗	dau6	10%	# (又)
+逗	dau6		
 𢭃	dau6		# ～利是；托住
 爹	de1		
 嗲	de2		
@@ -1306,7 +1315,7 @@ min_phrase_weight: 100
 嫡	dik1		
 滴	dik1		
 的	dik1		
-鏑	dik1	5%	# (又)
+鏑	dik1		
 嘀	dik6		# 嘀咕
 嫡	dik6	10%	# (又)
 敵	dik6		
@@ -1320,7 +1329,6 @@ min_phrase_weight: 100
 踧	dik6		# 踧踧
 迪	dik6		
 逖	dik6	10%	# (又)
-鏑	dik6		
 掂	dim1		# 掂量
 敁	dim1		
 踮	dim1		
@@ -1348,8 +1356,8 @@ min_phrase_weight: 100
 佃	din6		# 佃戶
 奠	din6		
 殿	din6		
-澱	din6		
 淀	din6		
+澱	din6		
 電	din6		
 甸	din6		
 靛	din6		
@@ -1387,9 +1395,9 @@ min_phrase_weight: 100
 叼	diu1		
 碉	diu1		
 貂	diu1		
-鵰	diu1		
 彫	diu1		
 雕	diu1		
+鵰	diu1		
 屌	diu2		
 鳥	diu2	5%	# (白)同屌字
 吊	diu3		
@@ -1410,12 +1418,12 @@ min_phrase_weight: 100
 馱	do6		# 馱子
 噘	doe1	5%	# (語)～嘴，噘嘴
 朵	doe2	10%	# (白)
-斲	doek1	5%	# (又)
 斫	doek1	5%	# (又)
-剁	doek3		# (訓)訓讀爲斫
+斲	doek1	5%	# (又)
+剁	doek3		# (訓)訓讀爲斲
 啄	doek3		
-斫	doek3		
 斲	doek3		
+斫	doek3	10%	# (又)
 涿	doek3		
 琢	doek3		
 啄	doeng1	5%	# (白)
@@ -1440,6 +1448,7 @@ min_phrase_weight: 100
 鐺	dong1		# 鋃鐺
 党	dong2		
 黨	dong2		
+壋	dong2		
 擋	dong2		
 攩	dong2		# 同擋字
 檔	dong2		# 檔案
@@ -1462,8 +1471,8 @@ min_phrase_weight: 100
 倒	du3		# 倒掛
 到	du3		
 蠹	du3		
-妒	du6		
 妬	du6		
+妒	du6		
 導	du6		
 度	du6		# 長度
 悼	du6		
@@ -1476,8 +1485,8 @@ min_phrase_weight: 100
 鍍	du6		
 堆	dui1		
 㨃	dui2		# 捅
-兌	dui3		
 兑	dui3		
+兌	dui3		
 對	dui3		
 碓	dui3		
 懟	dui6		
@@ -1498,8 +1507,8 @@ min_phrase_weight: 100
 讀	duk6		
 黷	duk6		
 東	dung1		
-鼕	dung1		
 冬	dung1		
+鼕	dung1		
 咚	dung1		
 菄	dung1		
 懂	dung2		
@@ -1518,7 +1527,7 @@ min_phrase_weight: 100
 𡁯	dut1		# ～～車，童語，汽車
 端	dyun1		
 短	dyun2		
-斷	dyun3		# 斷估，推測
+斷	dyun3		# 斷估
 斷	dyun6	10%	# (文)判斷
 椴	dyun6		
 段	dyun6		
@@ -1558,7 +1567,7 @@ min_phrase_weight: 100
 汎	faan3		
 泛	faan3		
 畈	faan3		
-範	faan3		# 模範
+範	faan3	10%	# (習)模範
 販	faan3		
 凡	faan4		
 帆	faan4		
@@ -1571,7 +1580,7 @@ min_phrase_weight: 100
 梵	faan6		
 犯	faan6		
 范	faan6		# 姓
-範	faan6	10%	# (又)
+範	faan6		# 示範
 飯	faan6		
 髮	faat3		
 發	faat3		
@@ -1597,8 +1606,8 @@ min_phrase_weight: 100
 吠	fai6		
 掝	fak1	5%	# (語)甩
 分	fan1		# 分開
-勳	fan1		
-勛	fan1		
+勳	fan1	10%	# (文)
+勛	fan1	10%	# (文)
 吩	fan1		
 婚	fan1	10%	# (文)
 昏	fan1	10%	# (文)
@@ -1665,16 +1674,16 @@ min_phrase_weight: 100
 誹	fi2		
 肥	fi4		
 掝	fik1	5%	# (語)甩
-捹	fing3		# 甩
-捹	fing6	10%	# (又)
+捹	fing3	10%	# (又)
+捹	fing6		# 甩
 揈	fing6	10%	# (又)甩，又作捹字
 掝	fit1	5%	# (語)抽打
 科	fo1		
 窠	fo1		
 蝌	fo1	10%	# (又)
-伙	fo2		
 夥	fo2		
-吙	fo2	5%	# (又)
+伙	fo2		
+吙	fo2		
 火	fo2		
 課	fo3	10%	# (又)
 貨	fo3		
@@ -1702,7 +1711,6 @@ min_phrase_weight: 100
 妨	fong4		
 房	fong4		
 防	fong4		
-乎	fu1	5%	# (又)
 伕	fu1		
 俘	fu1		
 刳	fu1		
@@ -1737,16 +1745,15 @@ min_phrase_weight: 100
 戽	fu3		
 褲	fu3		
 賦	fu3		
-赴	fu3	10%	# (又)
 乎	fu4	10%	# (又)
 扶	fu4		
 符	fu4		
 芙	fu4		
 婦	fu5		
-仆	fu6	10%	# (書)前仆後繼
+仆	fu6	10%	# (書)前仆後繼，又作前赴後繼
 付	fu6		
 傅	fu6		
-婦	fu6	10%	# (又)
+婦	fu6	10%	# (常)
 父	fu6		
 腐	fu6		
 訃	fu6		
@@ -1762,13 +1769,15 @@ min_phrase_weight: 100
 詼	fui1		
 魁	fui1	5%	# (書)
 悔	fui2		
-晦	fui2	5%	# (又)
+晦	fui2		
+誨	fui2		
 賄	fui2		
-晦	fui3		
-誨	fui3		
+悔	fui3	10%	# (又)
+晦	fui3	10%	# (又)
+誨	fui3	10%	# (又)
 复	fuk1		
-復	fuk1		
 複	fuk1		
+復	fuk1		
 幅	fuk1		
 福	fuk1		
 腹	fuk1		
@@ -1790,11 +1799,12 @@ min_phrase_weight: 100
 丰	fung1		
 豐	fung1		
 封	fung1		
-峯	fung1		
 峰	fung1		
+峯	fung1		
 楓	fung1		
 烽	fung1		
 瘋	fung1		
+碸	fung1		
 蜂	fung1		
 鋒	fung1		
 飌	fung1		
@@ -1808,6 +1818,7 @@ min_phrase_weight: 100
 鳳	fung6		
 奉	fung6		
 縫	fung6		# 裂縫
+蛞	fut3		
 豁	fut3		
 闊	fut3		
 㹢	gaa1		
@@ -1816,8 +1827,8 @@ min_phrase_weight: 100
 嘉	gaa1		
 嘎	gaa1		# 象聲詞
 噶	gaa1		# 譯音用字
-傢	gaa1		
 家	gaa1		
+傢	gaa1		
 枷	gaa1		
 痂	gaa1		
 茄	gaa1		# 雪茄
@@ -1873,8 +1884,8 @@ min_phrase_weight: 100
 監	gaam3		# 太監
 鑒	gaam3		
 鑑	gaam3		
-姦	gaan1		# 強姦
 奸	gaan1		# 漢奸
+姦	gaan1		# 強姦
 艱	gaan1		
 菅	gaan1		
 間	gaan1	10%	# (文)中間
@@ -1902,7 +1913,6 @@ min_phrase_weight: 100
 羹	gaang1	10%	# (白)
 耕	gaang1		# (白)
 浭	gaang3		# 涉水
-匣	gaap3	10%	# (又)
 夾	gaap3	10%	# (文)夾層
 挾	gaap3	10%	# (文)挾帶
 甲	gaap3		# 花甲螺
@@ -1912,9 +1922,11 @@ min_phrase_weight: 100
 裌	gaap3		# 同袷字
 鉀	gaap3		
 頰	gaap3		
+餄	gaap3		# 餄餅
 戛	gaat3		
-擖	gaat3		# 刮聲；斬斷
+擖	gaat3		# 刮聲、斬斷
 曱	gaat6		# ～甴，蟑螂
+鵁	gaau1		
 交	gaau1	10%	# (文)成交
 膠	gaau1	10%	# (文)
 茭	gaau1		
@@ -1927,20 +1939,20 @@ min_phrase_weight: 100
 攪	gaau2	10%	# (文)
 搞	gaau2		
 狡	gaau2	10%	# (文)
-皎	gaau2	10%	# (文)
+皎	gaau2		
 絞	gaau2	10%	# (文)
-鉸	gaau2	5%	# (又)
+鉸	gaau2	10%	# (文)
 餃	gaau2		
 教	gaau3	10%	# (文)
 校	gaau3		# 校對，上校
 窖	gaau3		
 覺	gaau3	10%	# (文)睡覺
 較	gaau3		
-鉸	gaau3	10%	# (文)
+鉸	gaau3	10%	# (又)
 攪	gaau6	10%	# (語)摎laau2攪，胡搞
 㚻	gai1		
-鷄	gai1		
 雞	gai1		
+鷄	gai1		
 偈	gai2	5%	# (語)傾偈，聊天
 計	gai2	5%	# (白)諗計，想辦法
 繼	gai3		
@@ -1952,6 +1964,7 @@ min_phrase_weight: 100
 泔	gam1		
 甘	gam1		
 疳	gam1		
+苷	gam1		
 金	gam1		
 噉	gam2		# 如此、這樣
 錦	gam2		
@@ -1983,7 +1996,7 @@ min_phrase_weight: 100
 㹴	gang1		
 庚	gang1		
 更	gang1		# 更換
-浭	gang1	5%	# (書)浭水，河流名
+浭	gang1		# 浭水，河流名
 粳	gang1		
 羹	gang1		
 耕	gang1	10%	# (文)
@@ -2005,26 +2018,28 @@ min_phrase_weight: 100
 及	gap6		
 𥄫	gap6		# 盯住
 㓤	gat1		# 刺
+仡	gat1	10%	# (又)仡佬族
+吃	gat1		# 口吃
 吉	gat1		
 桔	gat1		
 橘	gat1		
 紇	gat1		# 紇繨
-訖	gat1	5%	# (又)
+訖	gat1		
 詰	gat1		# 詰屈聱牙
 䞘	gat6		# ～路，滾蛋，又作趌/趷字
-搩	gat6	10%	# (語)抬，扛，本字揭，又作𢷒字
-疙	gat6		
-紇	gat6	10%	# (語)紇𤶸，活結，引申為摳門
+圪	gat6	10%	# (又)
+搩	gat6	10%	# (語)抬、扛，本字揭，又作𢷒字
+疙	gat6	10%	# (語)疙𤶸，活結，引申為摳門
 趌	gat6		# ～路，滾蛋，又作趷/䞘字
 趷	gat6		# ～路，滾蛋，又作趌/䞘字
-𢷒	gat6	10%	# (語)抬，扛，本字揭，又作搩字
+𢷒	gat6	10%	# (語)抬、扛，本字揭，又作搩字
 㞗	gau1		# 男陰
 佝	gau1	5%	# (又)
 勾	gau1	10%	# (文)
 摎	gau1		# 摎蓼
 溝	gau1		
-鉤	gau1	10%	# (文)
 鈎	gau1	10%	# (文)
+鉤	gau1	10%	# (文)
 鬮	gau1		
 鳩	gau1		
 久	gau2		
@@ -2042,13 +2057,10 @@ min_phrase_weight: 100
 媾	gau3		
 彀	gau3		
 救	gau3		
-構	gau3	10%	# (又)
-构	gau3	10%	# (又)
 灸	gau3		
 疚	gau3		
 究	gau3		
 詬	gau3		
-購	gau3	10%	# (又)
 遘	gau3		
 嚿	gau6		# 量詞，塊、團
 舊	gau6		
@@ -2063,8 +2075,8 @@ min_phrase_weight: 100
 揀	gen2		# (白)
 梘	gen2		# (白)肥皂，又作碱字
 柬	gen2		# (白)
-鹼	gen2		# (白)
 礆	gen2		# (白)
+鹼	gen2		# (白)
 堿	gen2		# (白)
 碱	gen2		# (白)
 簡	gen2	10%	# (白)
@@ -2073,11 +2085,12 @@ min_phrase_weight: 100
 趼	gen2	10%	# (白)
 鐧	gen2	10%	# (白)殺手鐧
 間	gen3	10%	# (白)間隔，間斷
-驚	geng1	10%	# (白)
 惊	geng1	10%	# (白)
+驚	geng1	10%	# (白)
+猄	geng1		# (白)
 頸	geng2		
 鏡	geng3		
-儆	geng6	10%	# (語)儆惜，珍惜
+儆	geng6	10%	# (語)儆惜slek3，珍惜
 喼	gep1		# (白)手提箱，又作篋字
 篋	gep1	5%	# (語)箱子，又作喼字
 挾	gep3		# (白)挾菜
@@ -2086,24 +2099,20 @@ min_phrase_weight: 100
 夾	gep6		# (白)鐵夾
 交	geu1		# (白)交錢
 膠	geu1		# (白)
-茭	geu1	10%	# (白)
-蛟	geu1	10%	# (白)
 跤	geu1		# (白)
 郊	geu1	10%	# (白)市郊
-鮫	geu1	10%	# (白)
 佼	geu2	10%	# (白)
 姣	geu2		# (白)姣好
 攪	geu2		# (白)
 狡	geu2		# (白)
-皎	geu2		# (白)
 矯	geu2	10%	# (白)
 絞	geu2		# (白)
-鉸	geu2	5%	# (又)
+鉸	geu2		# (白)
 餃	geu2	10%	# (白)
 教	geu3		# (白)
 覺	geu3		# (白)睡覺
-鉸	geu3		# (白)
-撬	geu6		# (白)
+鉸	geu3	10%	# (又)
+撬	geu6		# (白)撬開
 乩	gi1		
 幾	gi1		# 幾乎
 几	gi1		# 茶几
@@ -2121,10 +2130,9 @@ min_phrase_weight: 100
 羈	gi1		
 肌	gi1		
 萁	gi1		# 草名
-蟣	gi1	5%	# (又)
 譏	gi1		
-饑	gi1		
 飢	gi1		
+饑	gi1		
 幾	gi2		# 幾個
 己	gi2		
 杞	gi2		
@@ -2133,6 +2141,7 @@ min_phrase_weight: 100
 冀	gi3		
 寄	gi3		
 既	gi3		
+暨	gi3		
 覬	gi3		
 計	gi3		# 老夥計
 記	gi3		
@@ -2143,6 +2152,7 @@ min_phrase_weight: 100
 亟	gik1		# 亟待
 擊	gik1		
 戟	gik1		
+撠	gik1		
 棘	gik1		
 激	gik1		
 虢	gik1	5%	# (又)
@@ -2162,18 +2172,18 @@ min_phrase_weight: 100
 建	gin3		
 犍	gin3		# 犍牛
 腱	gin3		
-見	gin3		# 看見
+見	gin3		
 件	gin6		
 健	gin6		
 揵	gin6		# 同楗字
 楗	gin6		
-犍	gin6		# 犍爲縣
 鍵	gin6		
 京	ging1		
 兢	ging1		
-驚	ging1		
 惊	ging1		
+驚	ging1		
 涇	ging1		
+猄	ging1	10%	# (文)
 矜	ging1		
 經	ging1		
 荊	ging1		
@@ -2186,25 +2196,26 @@ min_phrase_weight: 100
 勁	ging3		# 幹勁
 徑	ging3		
 敬	ging3		
-競	ging3		
+競	ging3	10%	# (習)
 竟	ging3		
 脛	ging3		
 莖	ging3		
 逕	ging3		
-勁	ging6		# 好勁，好厲害
+勁	ging6		# 強勁
 痙	ging6		
-競	ging6	10%	# (又)
+競	ging6		
 喼	gip1	10%	# (文)
 篋	gip1	5%	# (語)箱子，又作喼字
 劫	gip3		
 澀	gip3		# 苦澀
 䥛	git3		
 拮	git3		
-潔	git3		
 洁	git3		
+潔	git3		
 結	git3		
-傑	git6		# 傑出；（粥）稠
+偈	git6		# 武貌，疾馳
 杰	git6		
+傑	git6		# 傑出；（粥）稠
 桀	git6		
 嬌	giu1		
 澆	giu1		
@@ -2215,8 +2226,10 @@ min_phrase_weight: 100
 徼	giu3		
 撬	giu6	10%	# (文)
 轎	giu6		
+仡	go1		# 仡佬族
 哥	go1		
 戈	go1		
+旮	go1	5%	# (又)
 歌	go1		
 鍋	go1		
 果	go2		
@@ -2231,14 +2244,14 @@ min_phrase_weight: 100
 腳	goek3		
 殭	goeng1		
 僵	goeng1		
-姜	goeng1		
 薑	goeng1		
+姜	goeng1		
 彊	goeng1	5%	# (又)同疆字
 畺	goeng1		
 疆	goeng1		
 礓	goeng1		
-韁	goeng1		
 繮	goeng1		
+韁	goeng1		
 蔃	goeng2		# 根，莖
 強	goeng6		# 倔強，又作犟/勥字
 彊	goeng6		# 同強字，倔強
@@ -2257,6 +2270,7 @@ min_phrase_weight: 100
 國	gok3		
 幗	gok3		
 摑	gok3	10%	# (又)
+擱	gok3	10%	# (書)
 桷	gok3		
 玨	gok3		
 珏	gok3		
@@ -2273,13 +2287,13 @@ min_phrase_weight: 100
 竿	gon1		
 肝	gon1		
 擀	gon2		
-桿	gon2		
 杆	gon2		
+桿	gon2		
 稈	gon2		
 笴	gon2		
 簳	gon2		
-赶	gon2		
 趕	gon2		
+赶	gon2		
 榦	gon3		# 同幹字
 幹	gon3		
 光	gong1		
@@ -2305,8 +2319,8 @@ min_phrase_weight: 100
 獷	gong2		
 耩	gong2		
 講	gong2		
-槓	gong3		# 槓桿
 杠	gong3		
+槓	gong3		# 槓桿
 虹	gong3	10%	# (白)
 鋼	gong3		
 降	gong3		# 下降
@@ -2315,7 +2329,6 @@ min_phrase_weight: 100
 割	got3		
 噶	got3		# 象聲詞
 葛	got3		
-估	gu1	5%	# (又)
 呱	gu1		# 呱呱墜地
 咕	gu1		
 姑	gu1		
@@ -2368,6 +2381,7 @@ min_phrase_weight: 100
 鵠	guk1		# 鵠的
 侷	guk6		
 局	guk6		
+焗	guk6		
 跼	guk6		
 鋦	guk6		# 金屬元素，符號Cm
 倌	gun1		
@@ -2379,6 +2393,7 @@ min_phrase_weight: 100
 管	gun2		
 莞	gun2		# 東莞
 館	gun2		
+䲘	gun2		
 冠	gun3		# 冠軍
 灌	gun3		
 盥	gun3		
@@ -2416,9 +2431,9 @@ min_phrase_weight: 100
 掛	gwaa3		
 褂	gwaa3		
 乖	gwaai1		
-柺	gwaai2		
-拐	gwaai2		# 拐彎；拐棍
+拐	gwaai2		
 枴	gwaai2		
+柺	gwaai2		
 蒯	gwaai2	10%	# (又)
 𧊅	gwaai2	10%	# (書)
 怪	gwaai3		
@@ -2431,17 +2446,18 @@ min_phrase_weight: 100
 梗	gwaang2	10%	# (白)菜梗
 俇	gwaang6		
 逛	gwaang6		
-刮	gwaat3	10%	# (文)
 颳	gwaat3	10%	# (文)
+刮	gwaat3	10%	# (文)
 括	gwaat3		
 聒	gwaat3		
+适	gwaat3		# 疾速
 傀	gwai1		# 傀奇
 圭	gwai1		
-嬀	gwai1		
 媯	gwai1		
+嬀	gwai1		
 歸	gwai1		
-溈	gwai1		
 潙	gwai1		
+溈	gwai1		
 瑰	gwai1		# 瑰寶
 皈	gwai1		
 硅	gwai1		
@@ -2464,8 +2480,8 @@ min_phrase_weight: 100
 貴	gwai3		
 鱖	gwai3		
 匱	gwai6		
-櫃	gwai6		
 柜	gwai6		# 同櫃字
+櫃	gwai6		
 簣	gwai6		
 跪	gwai6		
 餽	gwai6		
@@ -2473,12 +2489,12 @@ min_phrase_weight: 100
 砳	gwak1	5%	# (語)敲
 軍	gwan1		
 君	gwan1		
-均	gwan1	10%	# (又)
+均	gwan1		
 筠	gwan1		# 筠連，地名
-鈞	gwan1	10%	# (又)
+鈞	gwan1		
 滾	gwan2		
-緄	gwan2	10%	# (又)
-袞	gwan2	10%	# (又)
+緄	gwan2		
+袞	gwan2		
 棍	gwan3		
 𧥺	gwan3		# 騙
 郡	gwan6		
@@ -2490,7 +2506,7 @@ min_phrase_weight: 100
 倔	gwat6		
 崛	gwat6		
 掘	gwat6		
-橛	gwat6	10%	# (語)
+橛	gwat6	10%	# (語)量詞
 𠺌	gwe1		# 叫～～，叫喳喳
 𠺌	gwe2	5%	# (又)叫～～，叫喳喳
 𠺌	gwe4	10%	# (又)叫～～，叫喳喳
@@ -2517,13 +2533,13 @@ min_phrase_weight: 100
 齲	gyu2		
 倨	gyu3		
 句	gyu3		
-据	gyu3		# 同據字
 據	gyu3		
+据	gyu3		# 同據字
 鋸	gyu3		
 俱	gyu6		
 具	gyu6		
-鉅	gyu6		
 巨	gyu6		
+鉅	gyu6		
 懼	gyu6		
 拒	gyu6	10%	# (又)
 炬	gyu6		
@@ -2547,6 +2563,7 @@ min_phrase_weight: 100
 倦	gyun6		
 憠	gyut3		
 蕨	gyut3	10%	# (又)
+橛	gyut6		# 量詞，兩橛
 吓	haa1		# 嘆詞
 哈	haa1		
 蝦	haa1		# 蝦米
@@ -2571,22 +2588,21 @@ min_phrase_weight: 100
 骸	haai4		
 懈	haai5		
 蟹	haai5		
-諧	haai5	10%	# (又)
 邂	haai5		
 駭	haai5	10%	# (又)
 械	haai6		
 解	haai6		# 姓
 邂	haai6	10%	# (又)
-吓	haak3		# 同嚇字
 嚇	haak3		
+吓	haak3		# 同嚇字
 喀	haak3		# 喀山
 客	haak3		
 揢	haak3		# 以手把着
 赫	haak3		
 憨	haam1		
-餡	haam2	5%	# (白)
+酣	haam1		
+餡	haam2	5%	# (又)
 喊	haam3	10%	# (文)
-酣	haam3		
 函	haam4		
 咸	haam4		# 咸陽，老少咸宜
 鹹	haam4	10%	# (文)
@@ -2598,33 +2614,31 @@ min_phrase_weight: 100
 陷	haam6		
 餡	haam6		
 慳	haan1		
-嫺	haan4		
 嫻	haan4		
-閒	haan4	10%	# (文)
+嫺	haan4		
 閑	haan4	10%	# (文)
+閒	haan4	10%	# (文)
 限	haan6		
 坑	haang1		
 夯	haang1		
 阬	haang1		
 行	haang4		# 行路
 呷	haap3		# 大口喝
-恰	haap3		
+恰	haap3	10%	# (又)
 掐	haap3		
 欱	haap3	10%	# (語)大口喝，又作呷字
-狹	haap3		
+狹	haap3	10%	# (習)
 莢	haap3	10%	# (語)菜莢，老菜葉
-陜	haap3		# 同狹字
 俠	haap6		
 匣	haap6		
 峽	haap6		
-挾	haap6		# 挾持
-洽	haap6		
+挾	haap6	10%	# (又)挾持
+洽	haap6	10%	# (又)
 狎	haap6		
-狹	haap6	10%	# (又)
+狹	haap6		
 篋	haap6		
-陜	haap6		# 同峽字
+陜	haap6		
 瞎	haat3		
-瞎	haat6	10%	# (又)
 哮	haau1		
 尻	haau1		
 敲	haau1		
@@ -2645,11 +2659,11 @@ min_phrase_weight: 100
 閪	hai1		# 女陰，本字㞓
 喺	hai2		# 在
 兮	hai4		
-奚	hai4	10%	# (又)
+奚	hai4	10%	# (書)
 蹊	hai4		# 蹊徑
+系	hai6		
 繫	hai6		
 係	hai6		# 關係；是
-系	hai6		
 克	hak1		
 剋	hak1		
 刻	hak1		
@@ -2658,16 +2672,21 @@ min_phrase_weight: 100
 坩	ham1		
 堪	ham1		
 嵁	ham1		
+嶔	ham1		
+廞	ham1		
 忻	ham1	10%	# (常)
 戡	ham1		
 欣	ham1	10%	# (常)
+歆	ham1		
 蚶	ham1		
+酣	ham1	10%	# (又)
+鑫	ham1		
 欽	ham1		
 龕	ham1		
 坅	ham2		# 坑
 坎	ham2		
-垵	ham2		
-埯	ham2		
+埯	ham2	10%	# (又)
+垵	ham2	10%	# (又)
 扻	ham2		# 磕，碰
 欿	ham2		
 砍	ham2		
@@ -2698,43 +2717,46 @@ min_phrase_weight: 100
 啃	hang2		
 肯	hang2		
 齦	hang2	5%	# (又)同啃字
-恒	hang4		
 恆	hang4		
+恒	hang4		
 行	hang4		# 行為
 衡	hang4		
 倖	hang6		
 幸	hang6		
 悻	hang6		
 杏	hang6		
-舋	hang6	10%	# (又)
-釁	hang6	10%	# (又)
 恰	hap1	5%	# (語)欺負
 瞌	hap1		
 磕	hap1		# 磕碰，磕頭
+恰	hap3		
+洽	hap3		
 閤	hap6		# 同闔字
 合	hap6		
 嗑	hap6		
 搕	hap6		# 敲擊；取
 欱	hap6		
-洽	hap6	10%	# (又)
 溘	hap6		
 烚	hap6		
 盍	hap6		
 盒	hap6		
 磕	hap6	10%	# (又)
 闔	hap6		
+餄	hap6		# 餄餎
 乞	hat1		
-吃	hat1	5%	# (又)
+吃	hat1	10%	# (又)吃飯
 喫	hat1	5%	# (又)
+訖	hat1	10%	# (又)
 迄	hat1	5%	# (又)
 劾	hat6		
 覈	hat6		
 核	hat6		# 審核
 檄	hat6		
+瞎	hat6	10%	# (又)
 紇	hat6		# 回紇
 轄	hat6		
 閡	hat6		# 隔閡
-黠	hat6	10%	# (又)
+黠	hat6		
+齕	hat6		
 睺	hau1		# 守候，留意
 口	hau2		
 吼	hau2		
@@ -2746,18 +2768,18 @@ min_phrase_weight: 100
 厚	hau5		
 垕	hau5		# 同厚字
 候	hau6		
-後	hau6		
 后	hau6		
+後	hau6		
 逅	hau6		
 鱟	hau6		
 哈	he1	10%	# (語)笑哈哈
 𠺬	he2		# 嘆詞，希望對方同意自己的意見
 㹃	he3		# 翻開、扒開、撬
-气	he3	10%	# (語)離le4～，不修邊幅
 氣	he3	10%	# (語)離le4氣，不修邊幅
-吃	hek3		
+气	he3	10%	# (語)離le4～，不修邊幅
+吃	hek3		# 吃飯
 喫	hek3	10%	# (文)
-餡	hem2	5%	# (白)
+餡	hem2	5%	# (又)
 喊	hem3		# (白)
 鹹	hem4		# (白)
 咸	hem4	10%	# (白)同鹹字
@@ -2771,12 +2793,13 @@ min_phrase_weight: 100
 贏	heng4	10%	# (又)
 勩	het6	10%	# (語)器物磨損
 敲	heu1	10%	# (白)
+橇	heu1	10%	# (又)
 翹	heu1		# (白)翹腳，翹二郎腿
 蹺	heu1	10%	# (又)蹺腳，又作翹字
 姣	heu4		# (白)淫蕩
 俙	hi1		
 僖	hi1		
-兮	hi1	5%	# (又)
+兮	hi1	5%	# (習)
 嘻	hi1		
 嬉	hi1		
 希	hi1		
@@ -2800,7 +2823,7 @@ min_phrase_weight: 100
 氣	hi3		# 空氣
 汽	hi3		
 喫	hik1	5%	# (又)
-吃	hik1	5%	# (又)
+吃	hik1	10%	# (又)吃飯
 謙	him1		
 險	him2		
 欠	him3		
@@ -2838,16 +2861,17 @@ min_phrase_weight: 100
 叶	hip3		# 叶韻
 怯	hip3		
 愜	hip3		
-挾	hip3	10%	# (書)要挾
-搚	hip3	10%	# (又)
+挾	hip3		# 要挾，挾持
 脅	hip3		
+搚	hip6	10%	# (又)
 歇	hit3		
-蠍	hit3		
 蝎	hit3		# 同蠍字
+蠍	hit3		
 僥	hiu1		
 囂	hiu1		
 梟	hiu1		
 枵	hiu1		
+橇	hiu1	10%	# (又)
 蹺	hiu1	10%	# (又)蹊蹺
 曉	hiu2		
 竅	hiu3	10%	# (又)
@@ -2863,7 +2887,7 @@ min_phrase_weight: 100
 荷	ho6		# 荷載
 賀	ho6		
 㗾	hoe1		# 擬聲詞
-吙	hoe1		# 呼氣聲
+吙	hoe1	5%	# (又)呼氣聲
 靴	hoe1		
 㗾	hoe2		# 㗾hoe4～聲，熱鬧貌
 㗾	hoe4		# ～㗾hoe2聲，熱鬧貌
@@ -2905,16 +2929,18 @@ min_phrase_weight: 100
 看	hon3		# 看見
 寒	hon4		
 韓	hon4		
+鼾	hon4		
 旱	hon5		
 悍	hon6		
+憾	hon6	10%	# (又)
 捍	hon6		
+撼	hon6	10%	# (又)
 汗	hon6		
 瀚	hon6		
 焊	hon6		
 釬	hon6		# 同焊字
 翰	hon6		
 銲	hon6		# 同焊字
-鼾	hon6		
 康	hong1		
 糠	hong1		
 腔	hong1		
@@ -2930,12 +2956,9 @@ min_phrase_weight: 100
 行	hong4		# 銀行
 降	hong4		# 投降
 項	hong5	10%	# (又)項鏈
-巷	hong6	10%	# (書)
-衖	hong6	10%	# (書)同巷字
 項	hong6		
 喝	hot3		
 曷	hot3		
-欱	hot3	10%	# (又)
 渴	hot3		
 蝎	hot3		# 木中蠹蟲
 褐	hot3		
@@ -2992,8 +3015,8 @@ min_phrase_weight: 100
 訌	hung4		
 雄	hung4		
 鴻	hung4		
-鬨	hung6		# 起鬨
 哄	hung6		# 起哄
+鬨	hung6		# 起鬨
 吁	hyu1		
 噓	hyu1		
 圩	hyu1		# 同墟字
@@ -3005,7 +3028,7 @@ min_phrase_weight: 100
 煦	hyu2		
 許	hyu2		
 去	hyu3		
-酗	hyu3	10%	# (又)
+酗	hyu3		
 儇	hyun1		
 喧	hyun1		
 圈	hyun1		# 圓圈
@@ -3024,8 +3047,8 @@ min_phrase_weight: 100
 吔	jaa1		# 語氣詞
 呀	jaa1	10%	# (又)
 抓	jaa1	10%	# (白)
-摣	jaa1	10%	# (白)
 揸	jaa1	10%	# (白)
+摣	jaa1	10%	# (白)
 渣	jaa1	10%	# (白)
 鴉	jaa1	10%	# (又)
 也	jaa5		
@@ -3034,7 +3057,7 @@ min_phrase_weight: 100
 踩	jaai2	10%	# (白)
 踹	jaai2	10%	# (白)
 喫	jaak3		# (白)
-吃	jaak3	10%	# (白)
+吃	jaak3	10%	# (白)吃飯
 𨅝	jaang3		# 蹬，又作撐/𨆪字
 𨆪	jaang3		# 蹬，又作𨅝/撐字
 悒	jaap1	10%	# (語)心悒，心煩
@@ -3047,14 +3070,18 @@ min_phrase_weight: 100
 拽	jai6		
 曳	jai6		
 喑	jam1		
+嶔	jam1	10%	# (書)
+廞	jam1	10%	# (書)
 愔	jam1		
-歆	jam1		
+歆	jam1	10%	# (書)
+鑫	jam1	10%	# (書)
+欽	jam1	10%	# (書)
 陰	jam1		
 音	jam1		
 飲	jam2		# 飲酒
 窨	jam3		# 窨井
-廕	jam3		
 蔭	jam3		
+廕	jam3		
 飲	jam3		# 飲馬
 任	jam4		# 姓
 吟	jam4		
@@ -3081,14 +3108,15 @@ min_phrase_weight: 100
 氤	jan1		
 洇	jan1		
 湮	jan1		
+溵	jan1		
 甄	jan1		
 茵	jan1		
-涊	jan2	5%	# (又)
 潤	jan2	5%	# (白)豬～，豬肝，又作膶字
 膶	jan2	5%	# (白)豬～，豬肝
 隱	jan2		
 印	jan3		
 舋	jan3		# 同釁字
+茚	jan3		
 釁	jan3		
 人	jan4		
 仁	jan4		
@@ -3100,7 +3128,6 @@ min_phrase_weight: 100
 忍	jan5		
 癮	jan5		
 蚓	jan5		
-隱	jan5	10%	# (又)
 仞	jan6		
 刃	jan6		
 孕	jan6		
@@ -3134,13 +3161,13 @@ min_phrase_weight: 100
 逸	jat6		
 丘	jau1		
 休	jau1		
-优	jau1		
 優	jau1		
+优	jau1		
 咻	jau1		
 幽	jau1		
 庥	jau1		
 憂	jau1		
-悠	jau1	5%	# (常)
+悠	jau1	5%	# (又)
 掫	jau1	10%	# (白)
 搊	jau1	10%	# (白)
 攸	jau1	5%	# (又)
@@ -3160,8 +3187,8 @@ min_phrase_weight: 100
 攸	jau4		
 柔	jau4		
 油	jau4		
-遊	jau4		
 游	jau4		
+遊	jau4		
 猶	jau4		
 猷	jau4		
 由	jau4		
@@ -3240,8 +3267,8 @@ min_phrase_weight: 100
 頤	ji4		
 飴	ji4		
 以	ji5		
-尔	ji5		
 爾	ji5		
+尔	ji5		
 已	ji5		
 洱	ji5		
 矣	ji5		
@@ -3269,8 +3296,8 @@ min_phrase_weight: 100
 益	jik1		
 肊	jik1		# 同臆字
 臆	jik1		
+㑊	jik6		
 亦	jik6		
-域	jik6	10%	# (又)
 奕	jik6		
 弈	jik6		
 役	jik6		
@@ -3287,8 +3314,8 @@ min_phrase_weight: 100
 驛	jik6		
 奄	jim1		# 奄奄一息
 淹	jim1		
-腌	jim1	5%	# (書)
 醃	jim1	5%	# (書)
+腌	jim1	5%	# (書)
 閹	jim1		
 厴	jim2		
 奄	jim2		# 奄然
@@ -3319,14 +3346,14 @@ min_phrase_weight: 100
 焱	jim6		
 燄	jim6		
 爓	jim6		# 同焰字
-豔	jim6		# (書)
 艷	jim6		# (書)
+豔	jim6		# (書)
 釅	jim6		
 咽	jin1		# 咽喉
 嫣	jin1		
 湮	jin1	10%	# (又)
-菸	jin1		
 煙	jin1		
+菸	jin1		
 焉	jin1		# 焉能
 燕	jin1		# 燕京
 胭	jin1		
@@ -3340,16 +3367,17 @@ min_phrase_weight: 100
 嚥	jin3		
 堰	jin3		
 宴	jin3		
+彥	jin3	10%	# (習)
 燕	jin3		# 燕子
-豔	jin3	10%	# (習)
 艷	jin3	10%	# (習)
-諺	jin3	10%	# (又)
+豔	jin3	10%	# (習)
+諺	jin3	10%	# (習)
 鷰	jin3		# 同燕字
 㳄	jin4		
 妍	jin4		
 延	jin4		
-絃	jin4		
 弦	jin4		
+絃	jin4		
 涎	jin4		
 焉	jin4		# 心不在焉
 然	jin4		
@@ -3363,12 +3391,12 @@ min_phrase_weight: 100
 賢	jin4		
 兗	jin5		
 衍	jin5	10%	# (又)
+睍	jin5		
 唁	jin6		
 彥	jin6		
 現	jin6		
 硯	jin6		
 莧	jin6		
-見	jin6		# 同現字
 諺	jin6		
 嚶	jing1		
 嬰	jing1		
@@ -3419,8 +3447,12 @@ min_phrase_weight: 100
 咽	jit3		# 硬咽
 噎	jit3		
 謁	jit3		
+囓	jit6		# 囓齒
+嚙	jit6		# 嚙齒
 拽	jit6	10%	# (又)
 熱	jit6		
+齧	jit6		# 齧齒
+闑	jit6		
 么	jiu1		# 同幺字
 吆	jiu1		# 吆喝
 夭	jiu1		
@@ -3449,13 +3481,13 @@ min_phrase_weight: 100
 喲	jo1		
 唷	jo1		
 約	joek3		
+葯	joek3		
 躍	joek3		
 弱	joek6		
 瘧	joek6		
 箬	joek6		
 若	joek6		
 藥	joek6		
-葯	joek6		
 虐	joek6		
 鑰	joek6		
 央	joeng1		
@@ -3482,8 +3514,8 @@ min_phrase_weight: 100
 仰	joeng5		# 信仰
 養	joeng5		
 氧	joeng5		
-癢	joeng5		
 痒	joeng5		
+癢	joeng5		
 嚷	joeng6		
 壤	joeng6		
 恙	joeng6		
@@ -3501,8 +3533,8 @@ min_phrase_weight: 100
 睿	jui6		
 芮	jui6		
 裔	jui6		
-鋭	jui6		
 銳	jui6		
+鋭	jui6		
 勗	juk1		
 喐	juk1		# 動，本字逳
 旭	juk1		
@@ -3513,8 +3545,8 @@ min_phrase_weight: 100
 逳	juk1		# 動，俗作喐字
 郁	juk1		# 姓；馥郁
 峪	juk6		
-欲	juk6		
 慾	juk6		
+欲	juk6		
 浴	juk6		
 獄	juk6		
 玉	juk6		# 玉石
@@ -3535,12 +3567,12 @@ min_phrase_weight: 100
 恿	jung2		
 擁	jung2		# 擁有
 氄	jung2		
-涌	jung2		# 涌現
 湧	jung2		
+涌	jung2		# 涌現
 甬	jung2		
 絨	jung2	5%	# (白)
-踊	jung2		
 踴	jung2		
+踊	jung2		
 傭	jung4		# 傭工
 容	jung4		
 庸	jung4		
@@ -3569,7 +3601,7 @@ min_phrase_weight: 100
 傴	jyu2		
 嫗	jyu2		
 煦	jyu3	10%	# (又)
-酗	jyu3		
+酗	jyu3	10%	# (又)
 予	jyu4		# 予取予求
 余	jyu4		
 餘	jyu4		
@@ -3581,7 +3613,7 @@ min_phrase_weight: 100
 娛	jyu4		
 孺	jyu4		
 嶼	jyu4		# 大嶼山
-庾	jyu4		
+庾	jyu4	10%	# (又)
 愉	jyu4		
 愚	jyu4		
 挐	jyu4		# 牽引；連續；亂
@@ -3612,20 +3644,21 @@ min_phrase_weight: 100
 俁	jyu5		
 宇	jyu5		
 嶼	jyu5	10%	# (又)島嶼
-庾	jyu5	10%	# (又)
+庾	jyu5		
 擩	jyu5		
 汝	jyu5		
 禹	jyu5		
 羽	jyu5		
 語	jyu5		
+鋙	jyu5		# 鉏鋙
 雨	jyu5		
 齬	jyu5		
 籲	jyu6		
 喻	jyu6		
 寓	jyu6		
 峪	jyu6	10%	# (又)
-御	jyu6		
 禦	jyu6		
+御	jyu6		
 愈	jyu6		
 癒	jyu6		
 瘉	jyu6		
@@ -3644,7 +3677,7 @@ min_phrase_weight: 100
 鳶	jyun1		
 鴛	jyun1		
 婉	jyun2		
-宛	jyun2	10%	# (又)
+宛	jyun2		
 惋	jyun2	10%	# (又)
 潤	jyun2	5%	# (白)豬～，豬肝，又作膶字
 膶	jyun2	5%	# (白)豬～，豬肝
@@ -3663,6 +3696,7 @@ min_phrase_weight: 100
 園	jyun4		
 圓	jyun4		
 圜	jyun4		# 同圓字
+塬	jyun4		
 媛	jyun4		
 完	jyun4		
 懸	jyun4		
@@ -3702,16 +3736,15 @@ min_phrase_weight: 100
 穴	jyut6		
 粵	jyut6		
 越	jyut6		
-閲	jyut6		
 閱	jyut6		
+閲	jyut6		
 卡	kaa1		
 咔	kaa1		# 擬聲詞
 咖	kaa1	5%	# (又)
 喀	kaa1		# 喀嚓
 拤	kaa1		# 用兩手掐住
-旮	kaa1		
 假	kaa3	10%	# (常)放假
-旮	kaa3	10%	# (又)
+旮	kaa3		
 架	kaa3		# 架子
 駕	kaa3	10%	# (常)
 咔	kaa4		# 阻塞；擬聲詞
@@ -3719,7 +3752,7 @@ min_phrase_weight: 100
 坎	kaam2	10%	# (又)
 砍	kaam2	10%	# (又)
 檻	kaam5		# 門檻
-擖	kaat3		# 刮；撻
+擖	kaat3		# 刮、撻
 犒	kaau3		
 銬	kaau3		
 靠	kaau3		
@@ -3767,8 +3800,8 @@ min_phrase_weight: 100
 伋	kap1		
 吸	kap1		
 噏	kap1		# 同吸字
-岌	kap1		# (書)岌岌可危
-扱	kap1		# 罩，扣，蓋
+岌	kap1		# 岌岌可危
+扱	kap1		# 蓋
 汲	kap1		
 笈	kap1		
 級	kap1		
@@ -3776,6 +3809,7 @@ min_phrase_weight: 100
 咳	kat1		
 欬	kat1		
 摳	kau1		# 挖；搬
+溝	kau1	10%	# (又)
 瞘	kau1		
 佝	kau3		
 叩	kau3		
@@ -3783,12 +3817,11 @@ min_phrase_weight: 100
 寇	kau3		
 扣	kau3		
 釦	kau3		
-构	kau3		# (習)
-構	kau3		# (習)
+構	kau3		
+构	kau3		
 桕	kau3	10%	# (又)
 灸	kau3	10%	# (又)
-臼	kau3	10%	# (又)
-購	kau3		# (習)
+購	kau3		
 㞗	kau4	10%	# (書)
 仇	kau4		# 姓
 俅	kau4		
@@ -3811,19 +3844,21 @@ min_phrase_weight: 100
 鈐	kem4		# (白)
 鉗	kem4		# (白)
 黔	kem4		# (白)
-黚	kem4		# (白)
+黚	kem4	10%	# (白)
 魽	kem5		# (白)
 橛	ket1	5%	# (語)斷～，斷成兩截
 橇	keu1		# (白)
-翹	keu1	10%	# (又)又作蹺字
+翹	keu1	10%	# (又)翹腳，又作蹺字
 蹺	keu1		# (白)蹺腳，翹二郎腿
 巧	keu2	10%	# (白)
-撬	keu3	10%	# (又)
+撬	keu3	10%	# (又)亂翻
 翹	keu4	10%	# (又)～翹keu1，死亡
 崎	ki1		# 崎嶇
 畸	ki1		
 亟	ki3		# 亟請
-暨	ki3		
+冀	ki3	10%	# (又)
+暨	ki3	10%	# (又)
+驥	ki3	10%	# (又)
 亓	ki4		
 俟	ki4		# 万俟，複姓
 其	ki4		
@@ -3854,17 +3889,18 @@ min_phrase_weight: 100
 鈐	kim4	10%	# (文)
 鉗	kim4	10%	# (文)
 黔	kim4	10%	# (文)
-黚	kim4	10%	# (文)
+黚	kim4		
 魽	kim5	10%	# (文)
 㨴	kin2		# 掀，揭
 搴	kin2	5%	# (語)揭開，又作㨴字
 乾	kin4		# 乾坤
 掮	kin4		
 揵	kin4		# 掮扛
+犍	kin4		# 犍爲縣
 虔	kin4		
 傾	king1		
-檾	king2		
 苘	king2		
+檾	king2		
 頃	king2		
 凝	king4	10%	# (語)凝結，啲油～嗮
 擎	king4		
@@ -3884,7 +3920,7 @@ min_phrase_weight: 100
 詰	kit3		# 詰問
 鍥	kit3		
 頡	kit3		
-黠	kit3		
+黠	kit3	10%	# (又)
 𢷒	kit3		
 橇	kiu1	10%	# (文)
 巧	kiu2		
@@ -3907,13 +3943,13 @@ min_phrase_weight: 100
 卻	koek3		
 噱	koek3		
 覺	koek3		# 感覺
-僵	koeng1	10%	# (常)
-殭	koeng1	10%	# (常)
+殭	koeng1	10%	# (又)
+僵	koeng1	10%	# (又)
 畺	koeng1	10%	# (常)
 疆	koeng1	10%	# (常)
 礓	koeng1	10%	# (又)
-韁	koeng1	10%	# (常)
-繮	koeng1	10%	# (常)
+繮	koeng1	10%	# (又)
+韁	koeng1	10%	# (又)
 羌	koeng1		
 腔	koeng1	10%	# (又)
 強	koeng2	5%	# (又)勉強
@@ -3935,7 +3971,7 @@ min_phrase_weight: 100
 溉	koi3		
 鈣	koi3		
 㺢	kok3		
-劐	kok3		# 用刀劃開；裂口
+劐	kok3		
 壑	kok3		
 廓	kok3		
 恪	kok3		
@@ -3946,12 +3982,12 @@ min_phrase_weight: 100
 槨	kok3		
 榷	kok3		
 涸	kok3		
-砳	kok3	10%	# (語)二石相擊成聲
-确	kok3		
+硞	kok3		# 石聲、堅固
 確	kok3		
+确	kok3		
 碻	kok3		
 藿	kok3		
-覺	kok3	10%	# (又)覺得
+覺	kok3	10%	# (又)知覺
 郝	kok3		
 郭	kok3		
 钁	kok3	10%	# (又)
@@ -3983,13 +4019,13 @@ min_phrase_weight: 100
 劊	kui3		
 檜	kui3		
 膾	kui3		
-麴	kuk1		
 麯	kuk1		
+麴	kuk1		
 曲	kuk1		
+硞	kuk1		# 碌硞
 酷	kuk1	5%	# (又)
 酷	kuk3	10%	# (又)
 孔	kung2	10%	# (又)
-鞏	kung2	10%	# (又)
 恐	kung2	10%	# (又)
 控	kung3	10%	# (又)
 窮	kung4		
@@ -4000,9 +4036,6 @@ min_phrase_weight: 100
 誇	kwaa1		
 跨	kwaa1		
 挎	kwaa3		
-枴	kwaai2	10%	# (又)
-拐	kwaai2	10%	# (又)拐棍，又作枴/柺字
-柺	kwaai2	10%	# (又)
 蒯	kwaai2		
 儈	kwaai3	10%	# (又)
 劊	kwaai3	10%	# (又)
@@ -4034,7 +4067,7 @@ min_phrase_weight: 100
 揆	kwai4		
 攜	kwai4		
 畦	kwai4		
-癸	kwai4	10%	# (常)
+癸	kwai4	10%	# (又)
 睽	kwai4		
 葵	kwai4		
 逵	kwai4		
@@ -4042,16 +4075,16 @@ min_phrase_weight: 100
 揆	kwai5	10%	# (又)
 钁	kwak1	5%	# (語)鐝頭
 𥕏	kwak1		# 斫；劃
-均	kwan1		# (舊)
+均	kwan1	10%	# (舊)
 坤	kwan1		
 崑	kwan1		
 昆	kwan1		
 琨	kwan1		
-鈞	kwan1		# (舊)
+鈞	kwan1	10%	# (舊)
 捆	kwan2		
 綑	kwan2		
-緄	kwan2		# (舊)
-袞	kwan2		# (舊)
+緄	kwan2	10%	# (舊)
+袞	kwan2	10%	# (舊)
 困	kwan3		# 困難
 睏	kwan3	10%	# (文)
 窘	kwan3		
@@ -4065,6 +4098,7 @@ min_phrase_weight: 100
 纊	kwang3	10%	# (語)掛着，絆着
 𧊅	kwe2		# 小青蛙
 瘸	kwe4		
+㭕	kyu1		
 佉	kyu1		
 佝	kyu1	5%	# (又)
 俱	kyu1	5%	# (又)
@@ -4096,7 +4130,7 @@ min_phrase_weight: 100
 孓	kyut3		
 抉	kyut3		
 撅	kyut3		
-橛	kyut3		
+橛	kyut3		# 木橛
 潏	kyut3		# 河流名
 炔	kyut3		# 乙炔
 獗	kyut3		
@@ -4130,6 +4164,7 @@ min_phrase_weight: 100
 嘞	laak1	10%	# (語)～咑daak1，不修邊幅
 嘞	laak3		# 裂開
 砳	laak6		
+肋	laak6	10%	# (又)肋骨
 籃	laam1	5%	# (白)
 攬	laam2		
 欖	laam2		
@@ -4160,7 +4195,6 @@ min_phrase_weight: 100
 冷	laang5		# 冷凍
 唥	laang6		# 冚𠾴～，全部
 拉	laap3	10%	# (語)包攬，又作擸字
-搚	laap3		
 擸	laap3		# 攬取，收攏
 垃	laap6		
 腊	laap6		# 同臘字
@@ -4168,6 +4202,7 @@ min_phrase_weight: 100
 蠟	laap6		
 蜡	laap6		# 同蠟字
 鑞	laap6		
+鱲	laap6		# 廣東人稱一種海魚；赤鱲角，香港地名
 瘌	laat3		
 癩	laat3	10%	# (又)癩laat3/laai3痢li1，頭癬，又作瘌laat3痢li1，又作鬎laat3鬁li1
 鬎	laat3		
@@ -4176,9 +4211,9 @@ min_phrase_weight: 100
 辣	laat6		
 迾	laat6	10%	# (文)量詞，排，又作列字
 邋	laat6		# 邋遢
-撈	laau1		# (白)撈籬
+撈	laau1	10%	# (白)撈籬li1
 摎	laau2	5%	# (語)摎攪gaau6，胡搞
-撈	laau4	10%	# (文)打撈
+撈	laau4		# 打撈
 戾	lai2	5%	# (語)睡戾頸，落枕，又作捩字
 捩	lai2	5%	# (語)睡捩頸，落枕，又作戾字
 嚟	lai4		# 來
@@ -4202,12 +4237,16 @@ min_phrase_weight: 100
 荔	lai6		
 蠣	lai6		
 嘞	lak1		# 跳～～，跳動貌；～揢kak1，路不平，說話結巴
-肋	lak1		# 胳肋，腋窩
+肋	lak1	5%	# (又)胳肋，腋窩
 勒	lak6		
 簕	lak6		# 植物的刺
 肋	lak6		# 肋骨，打赤肋
 冧	lam1		# 哄；花～，花蕾；好～，甜蜜
-凜	lam2	5%	# (又)
+凜	lam2	5%	# (舊)
+廩	lam2	5%	# (舊)
+懍	lam2	5%	# (舊)
+檁	lam2	5%	# (舊)
+稟	lam2	10%	# (舊)同廩字
 冧	lam3		# 垮塌
 臨	lam4		
 林	lam4		
@@ -4219,8 +4258,9 @@ min_phrase_weight: 100
 廩	lam5		
 懍	lam5		
 檁	lam5		
+稟	lam5		# 同廩字
 㨆	lam6		# 堆砌
-𠹹	lan1	5%	# (語)啃；飽滿
+噒	lan1		# 啃
 涊	lan2	5%	# (語)粘，溢出，弄髒
 崙	lan4		
 侖	lan4		
@@ -4240,21 +4280,19 @@ min_phrase_weight: 100
 鄰	lan4		
 鱗	lan4		
 麟	lan4		
-𠹹	lan4		
 吝	lan6		
 藺	lan6		
 論	lan6		
 躪	lan6		
 㘄	lang1		# 象聲詞
 愣	lang4		
-棱	lang4	10%	# (又)
-稜	lang4	10%	# (又)
 楞	lang4		
-棱	lang5	10%	# (語)鞭痕
 稜	lang5	10%	# (語)鞭痕
+棱	lang5	10%	# (語)鞭痕
 㘄	lang6	10%	# (語)攔截
 泣	lap1	10%	# (又)
 笠	lap1		# (白)
+搚	lap6		
 立	lap6		
 笠	lap6	10%	# (文)
 甩	lat1		# (訓)訓讀字，～色，掉色
@@ -4266,7 +4304,7 @@ min_phrase_weight: 100
 聿	lat6	10%	# (又)
 摟	lau1		# 邀請；挑逗；搜刮；披；（蒼蠅等）趴
 褸	lau1		# 大褸，大衣
-騮	lau1	5%	# (語)馬maa1～，猴子
+騮	lau1	5%	# (語)獁maa1～，猴子
 摟	lau2		# 摟抱
 劉	lau4		
 嘍	lau4		
@@ -4307,14 +4345,14 @@ min_phrase_weight: 100
 靈	leng4	10%	# (白)靈驗
 零	leng4	10%	# (語)千零文，一千多元
 鯪	leng4		# (白)
-嶺	leng5		# (白)
 岭	leng5		# (白)
+嶺	leng5		# (白)
 領	leng5	10%	# (白)衫領
 列	let6	10%	# (白)量詞，排，又作迾字
 迾	let6	10%	# (白)量詞，排，又作列字
 寥	leu1	5%	# (語)空寥寥，空蕩蕩
-撈	leu1		# (白)探取
-撩	leu1	5%	# (白)
+撈	leu1	10%	# (白)探取
+撩	leu1	5%	# (白)挑逗
 鷯	leu1	10%	# (白)
 撩	leu2	5%	# (語)捲起
 繚	leu2	5%	# (白)繞
@@ -4337,10 +4375,10 @@ min_phrase_weight: 100
 犛	li4		
 狸	li4		
 璃	li4		# 琉璃
-离	li4		# 同離字
 離	li4		# 離開
-籬	li4		
+离	li4		# 同離字
 篱	li4		
+籬	li4		
 罹	li4		
 貍	li4		
 驪	li4		
@@ -4352,9 +4390,9 @@ min_phrase_weight: 100
 浬	li5		
 理	li5		
 邐	li5		
-里	li5		
 裡	li5		
 裏	li5		
+里	li5		
 鯉	li5		
 𢃇	li5		# 帆
 俐	li6		
@@ -4376,36 +4414,36 @@ min_phrase_weight: 100
 瀝	lik6		
 癧	lik6	10%	# (文)
 靂	lik6	10%	# (文)
-斂	lim2		
-殮	lim2		
+斂	lim2	5%	# (舊)
+殮	lim2	5%	# (舊)
 奩	lim4		
-簾	lim4		
 帘	lim4		
+簾	lim4		
 廉	lim4		
 濂	lim4		
-鎌	lim4		
 鐮	lim4		
+鎌	lim4		
+斂	lim5		
 臉	lim5		
-斂	lim6	10%	# (又)
-殮	lim6	10%	# (又)
+殮	lim6		
 鍊	lin2		# 同鏈字，拉鏈，鏈條
-臉	lin2	5%	# (又)
 鏈	lin2		
-怜	lin4		
 憐	lin4		
+怜	lin4		
 漣	lin4		
-聯	lin4	10%	# (習)
+聯	lin4	10%	# (常)
 蓮	lin4		
 連	lin4		
 鰱	lin4		
 僆	lin5		
 楝	lin6		
-煉	lin6		
 鍊	lin6		# 同煉字，煉乳，修煉
+煉	lin6		
 練	lin6		
 拎	ling1	10%	# (書)
 靈	ling1	5%	# (白)精靈，聰明
 鈴	ling1	5%	# (又)鈴啷，模仿搖鈴聲
+〇	ling4		
 伶	ling4		
 凌	ling4		
 淩	ling4		
@@ -4414,6 +4452,7 @@ min_phrase_weight: 100
 稜	ling4		
 靈	ling4		
 玲	ling4		
+祾	ling4		
 笭	ling4		
 綾	ling4		
 羚	ling4		
@@ -4434,6 +4473,7 @@ min_phrase_weight: 100
 另	ling6		
 獵	lip6		
 鬣	lip6		
+鱲	lip6		# 淡水魚，又稱桃花魚
 冽	lit6		
 列	lit6		# 排列
 劣	lit6	10%	# (習)
@@ -4466,6 +4506,7 @@ min_phrase_weight: 100
 料	liu6		# 預料，料定
 咯	lo1		# 助詞
 囉	lo1		# 囉嗦
+旯	lo1	10%	# (又)
 籮	lo1	5%	# (白)
 𦣇	lo1		
 攞	lo2		# 拿，取
@@ -4515,8 +4556,9 @@ min_phrase_weight: 100
 烙	lok3		
 絡	lok3		
 犖	lok3		
-酪	lok3		
+酪	lok3		# 奶酪
 鉻	lok3		# 剃髮
+餎	lok3		
 駱	lok3		
 樂	lok6		# 快樂
 落	lok6		
@@ -4534,7 +4576,6 @@ min_phrase_weight: 100
 埌	long5		# 埌東
 塱	long5		
 朗	long5		
-琅	long5	10%	# (又)
 誏	long5		# 同朗字
 晾	long6		
 浪	long6		
@@ -4556,8 +4597,8 @@ min_phrase_weight: 100
 驢	lu4	10%	# (又)
 鱸	lu4		
 鸕	lu4		
-鹵	lu5		
 滷	lu5		
+鹵	lu5		
 姥	lu5		
 擄	lu5		
 櫓	lu5		
@@ -4568,6 +4609,7 @@ min_phrase_weight: 100
 潦	lu6		# 同澇字
 賂	lu6		
 路	lu6		
+酪	lu6		# 杏仁酪，又作杏仁露
 露	lu6		
 鷺	lu6		
 壘	lui1	5%	# (又)一～堆，一大堆
@@ -4583,7 +4625,6 @@ min_phrase_weight: 100
 儡	lui5		
 儽	lui5		
 壘	lui5		# 堡壘
-屢	lui5	10%	# (又)
 磊	lui5		
 累	lui5		# 積累
 絫	lui5		
@@ -4594,11 +4635,13 @@ min_phrase_weight: 100
 類	lui6		
 累	lui6		# 勞累，連累
 耒	lui6		
+摝	luk1		
 淥	luk1	5%	# (語)燙，又作熝字
-漉	luk1	5%	# (又)
-熝	luk1	10%	# (語)～手，燙手，又作淥字
+漉	luk1		
+熝	luk1	10%	# (語)燙，又作淥字
 睩	luk1	5%	# (語)瞪
 碌	luk1		
+簏	luk1		
 轆	luk1		
 麓	luk1		
 僇	luk6		
@@ -4607,7 +4650,6 @@ min_phrase_weight: 100
 戮	luk6		
 氯	luk6		
 淥	luk6		
-漉	luk6		
 熝	luk6		# 提煉
 睩	luk6		
 祿	luk6		
@@ -4615,7 +4657,7 @@ min_phrase_weight: 100
 陸	luk6		
 鹿	luk6		
 窿	lung1		
-攏	lung2	5%	# (又)
+攏	lung2	5%	# (舊)
 嚨	lung4		
 瓏	lung4		
 矓	lung4		
@@ -4626,8 +4668,8 @@ min_phrase_weight: 100
 隆	lung4		
 龍	lung4		
 儱	lung5		
-壠	lung5		# 同壟字
 壟	lung5		
+壠	lung5		# 同壟字
 攏	lung5		
 槓	lung5		# 衣箱，又作籠字
 籠	lung5		# 籠箱
@@ -4672,25 +4714,26 @@ min_phrase_weight: 100
 亂	lyun6		
 吝	lyun6	10%	# (老派)
 論	lyun6	10%	# (老派)
-躪	lyun6	10%	# (老派)
-捋	lyut3	10%	# (又)
-劣	lyut6		
+劣	lyut3		
+埒	lyut3		
+脟	lyut3		
+鋝	lyut3		
 律	lyut6	10%	# (老派)
 捋	lyut6		
-慄	lyut6	10%	# (老派)
 栗	lyut6	10%	# (老派)
+慄	lyut6	10%	# (老派)
 溧	lyut6	10%	# (老派)
 率	lyut6	10%	# (老派)效率
 聿	lyut6	10%	# (又)
 酹	lyut6		
 唔	m4		# 否定詞
 么	maa1		# 同嗎字
-麼	maa1	10%	# (又)同嗎字
-嗎	maa1		
+嗎	maa1		# 疑問助詞
 嚜	maa1		# 助詞
 媽	maa1		
 嬤	maa1		
 孖	maa1		
+獁	maa1	5%	# (語)～騮lau1，猴子
 螞	maa1		# 螞螂，蜻蜓
 嘛	maa3		# 助詞
 嘛	maa4		# 喇嘛
@@ -4699,6 +4742,8 @@ min_phrase_weight: 100
 痳	maa4		# 同痲字
 蟆	maa4		# 蛤蟆，又作蝦蟆
 麻	maa4		
+嗎	maa5		# 嗎啡
+獁	maa5		
 瑪	maa5		
 碼	maa5		
 螞	maa5		# 螞蟻
@@ -4715,16 +4760,16 @@ min_phrase_weight: 100
 擘	maak3		
 𢫦	maak3		# 打
 扳	maan1	10%	# (白)扳倒，又作𢺳字
-摱	maan1		# 攀爬，扶，又作攀字
-攀	maan1	10%	# (白)攀爬，扶，又作摱字
+摱	maan1		# 攀爬、扶，又作攀字
+攀	maan1	10%	# (白)攀爬、扶，又作摱字
 𢺳	maan1		# 扳倒，又作扳字
 蠻	maan4		
 頑	maan4	10%	# (訓)訓讀爲蠻
 饅	maan4		
 鰻	maan4		
 晚	maan5		
-万	maan6		# 同萬字
 萬	maan6		
+万	maan6		# 同萬字
 幔	maan6		
 慢	maan6		
 曼	maan6		
@@ -4752,9 +4797,10 @@ min_phrase_weight: 100
 劘	mai1	5%	# (語)～皮，削皮
 咪	mai1		# 話筒
 米	mai1	5%	# (語)一米七
-謎	mai4		
-迷	mai4		
-弭	mai5	10%	# (又)
+謎	mai4		# (書)
+迷	mai4		# (書)
+弭	mai5	10%	# (常)
+眯	mai5		# 塵物入眼
 米	mai5		# 米粉
 美	mai5	10%	# (常)
 鎂	mai5	10%	# (常)
@@ -4764,8 +4810,8 @@ min_phrase_weight: 100
 万	mak6		# 万俟，複姓
 嚜	mak6		# 同默字
 墨	mak6		
-脈	mak6		
 脉	mak6		
+脈	mak6		
 驀	mak6		
 貉	mak6		# 同貊字
 貊	mak6		
@@ -4776,7 +4822,7 @@ min_phrase_weight: 100
 𩜠	mam1		# 食～～，吃飯，童語
 文	man1	5%	# (語)一文銀
 炆	man1		# 燒，燉
-燜	man1	5%	# (語)燜（炆）熟，同炆字
+燜	man1	5%	# (語)同炆字
 蚊	man1		
 抆	man2		# 擦拭
 汶	man3	10%	# (又)
@@ -4800,6 +4846,7 @@ min_phrase_weight: 100
 皿	man5	10%	# (習)
 閔	man5		
 閩	man5		
+黽	man5		
 汶	man6		
 璺	man6		# 裂痕
 紊	man6		
@@ -4810,7 +4857,6 @@ min_phrase_weight: 100
 𤷪	mang2		# ～𤺧，暴躁
 盟	mang4		
 萌	mang4		
-孟	mang6	10%	# (又)
 凹	map1		
 乜	mat1		# 乜嘢
 黴	mat1	5%	# (語)
@@ -4823,8 +4869,9 @@ min_phrase_weight: 100
 襪	mat6		
 痞	mau1	5%	# (語)地痞，又作踎字
 踎	mau1		# 蹲
-謬	mau3		
+謬	mau3	10%	# (習)
 侔	mau4		
+毪	mau4		
 牟	mau4		
 眸	mau4		
 繆	mau4		# 綢繆
@@ -4834,13 +4881,14 @@ min_phrase_weight: 100
 牡	mau5	10%	# (又)
 繆	mau6		# 紕繆
 茂	mau6		
-謬	mau6	10%	# (又)
+謬	mau6		
 貿	mau6		
+乜	me1		# 斜視
 咩	me1		
 孖	me1	10%	# (白)孖指，六指
 孭	me1		# 背，動詞
 𧋦	me1	10%	# (語)塘～，蜻蜒
-乜	me2		# (訓)歪，訓讀字
+乜	me2	5%	# (訓)歪，訓讀字
 歪	me2	5%	# (語)
 乜	me4	10%	# (語)～斜sle4，醉態
 翻	men1	10%	# (語)
@@ -4857,7 +4905,7 @@ min_phrase_weight: 100
 茅	meu4		# (白)
 咪	mi1		# 貓咪
 屘	mi1		# 末尾
-眯	mi1		
+眯	mi1		# 眯眼
 瞇	mi1		
 𧋦	mi1		
 沕	mi3	10%	# (語)潷
@@ -4871,12 +4919,12 @@ min_phrase_weight: 100
 薇	mi4		
 謎	mi4	10%	# (習)
 迷	mi4	10%	# (習)
-黴	mi4	10%	# (又)
 霉	mi4	10%	# (又)
+黴	mi4	10%	# (又)
 靡	mi4		# 奢靡
 麋	mi4		
-䉲	mi4		
 𥮜	mi4		
+䉲	mi4		
 娓	mi5		
 尾	mi5		
 弭	mi5		
@@ -4886,7 +4934,7 @@ min_phrase_weight: 100
 味	mi6		
 媚	mi6		
 寐	mi6		
-昧	mi6	10%	# (常)
+昧	mi6	10%	# (又)
 未	mi6		
 魅	mi6		
 掰	mik1	10%	# (又)同擘字
@@ -4896,8 +4944,8 @@ min_phrase_weight: 100
 覓	mik6		
 覛	mik6		# 同覓字
 麵	min1	5%	# (白)薯類很粉，形容詞
-麪	min1	5%	# (白)薯類很粉，形容詞
 面	min1	5%	# (白)薯類很粉，形容詞
+麪	min1	5%	# (白)薯類很粉，形容詞
 面	min2	5%	# (白)畀面，給面子
 棉	min4		
 眠	min4		
@@ -4910,6 +4958,7 @@ min_phrase_weight: 100
 澠	min5	10%	# (又)澠池縣
 緬	min5		
 靦	min5		# 靦腆
+黽	min5	10%	# (又)
 面	min6		
 麪	min6		
 麵	min6		
@@ -4923,7 +4972,7 @@ min_phrase_weight: 100
 酩	ming4	10%	# (又)
 銘	ming4		
 鳴	ming4		
-皿	ming5		
+皿	ming5		# (書)
 瞑	ming5	10%	# (又)
 茗	ming5		
 酩	ming5		
@@ -4953,6 +5002,7 @@ min_phrase_weight: 100
 繆	miu6		# 姓
 么	mo1		# 同麼字
 麼	mo1		
+仫	mo1	5%	# (又)
 摩	mo1		
 摸	mo1		# 撫摸
 摹	mo1		# 摹仿，又作模仿
@@ -4983,8 +5033,8 @@ min_phrase_weight: 100
 茫	mong4		
 虻	mong4		
 惘	mong5		
-网	mong5		
 網	mong5		
+网	mong5		
 罔	mong5		
 莽	mong5		
 蟒	mong5		
@@ -5032,6 +5082,7 @@ min_phrase_weight: 100
 煤	mui4		
 玫	mui4		
 莓	mui4		
+酶	mui4		
 霉	mui4		
 黴	mui4		
 每	mui5		
@@ -5039,6 +5090,7 @@ min_phrase_weight: 100
 昧	mui6		
 沬	mui6		
 瑁	mui6	10%	# (又)玳瑁
+仫	muk6		
 木	muk6		
 沐	muk6		
 牧	muk6		
@@ -5060,9 +5112,9 @@ min_phrase_weight: 100
 懞	mung2		# 同懵字
 蠓	mung2	5%	# (又)
 朦	mung4		
-懞	mung4		# 同蒙字，遮蓋
 矇	mung4		
 蒙	mung4		
+懞	mung4		# 同蒙字，遮蓋
 濛	mung4		
 蠓	mung4		
 夢	mung6		
@@ -5112,15 +5164,16 @@ min_phrase_weight: 100
 納	naap6		
 衲	naap6		
 鈉	naap6		
-捺	naat3		
+捺	naat3	10%	# (常)
 焫	naat3		# 灼，燙
+捺	naat6		
 呶	naau4		
 撓	naau4		
 橈	naau4		# 曲折，曲木
 蟯	naau4	10%	# (又)
 鐃	naau4		
 錨	naau4		
-淖	naau6		# 泥淖
+淖	naau6		
 鬧	naau6		
 尼	nai4	10%	# (又)
 泥	nai4		# 泥土
@@ -5139,6 +5192,7 @@ min_phrase_weight: 100
 𣲷	nap6		# 濕～～，濕漉漉
 𥹉	nap6		# 黏糊；做事慢
 吶	nat6	10%	# (又)
+肭	nat6		
 訥	nat6		
 嬲	nau1		# 生氣
 妞	nau2		
@@ -5158,10 +5212,11 @@ min_phrase_weight: 100
 攆	nen2		
 碾	nen2		# (白)
 輦	nen2		
-娘	neng1	5%	# (語)老laau1娘，母親的敘稱
+娘	neng1	5%	# (語)同孃字
 孃	neng1	5%	# (語)老laau1孃，母親的敘稱
 笭	neng2	5%	# (語)魚～，魚簍
-鑷	nep3		# (白)鑷子；夾
+囁	nep1	5%	# (語)蚊蟲咬
+鑷	nep3		# (白)鑷子、夾
 捏	net6		# (白)
 黏	neu1	10%	# (語)
 嗯	ng2		
@@ -5169,6 +5224,7 @@ min_phrase_weight: 100
 吾	ng4		
 梧	ng4		
 蜈	ng4		
+鋙	ng4		# 錕鋙
 五	ng5		
 仵	ng5		
 伍	ng5		
@@ -5194,13 +5250,14 @@ min_phrase_weight: 100
 砑	ngaa6		
 訝	ngaa6		
 𠊎	ngaai1		# 𠊎話，客家話
-呆	ngaai4	10%	# (又)呆板
 獃	ngaai4	10%	# (又)獃板
+呆	ngaai4	10%	# (又)呆板
 崖	ngaai4		
-挨	ngaai4		# 挨打，同捱字
 捱	ngaai4		
+挨	ngaai4		# 挨打，同捱字
 涯	ngaai4		
 皚	ngaai4	10%	# (又)
+睚	ngaai4		
 磑	ngaai4	10%	# (又)磑磑
 乂	ngaai6		
 艾	ngaai6		
@@ -5215,13 +5272,16 @@ min_phrase_weight: 100
 頑	ngaan4	10%	# (又)
 顏	ngaan4		
 眼	ngaan5	10%	# (文)
-贋	ngaan6		
 贗	ngaan6		
+贋	ngaan6		
 雁	ngaan6		
 鴈	ngaan6		
 硬	ngaang2	5%	# (白)硬要
 硬	ngaang6		
-扤	ngaat6		# 碾壓
+嚙	ngaat6		# 啃、咬
+囓	ngaat6		# 啃、咬
+扤	ngaat6		# 碾壓、搖晃着挪動、摩擦
+齧	ngaat6		# 啃、咬
 撓	ngaau1	5%	# (語)抓撓，又作𢯎字
 𢯎	ngaau1	10%	# (文)
 㟼	ngaau4	10%	# (語)用力搖動，又作嶅字
@@ -5271,20 +5331,23 @@ min_phrase_weight: 100
 䟴	ngan3		# 抖動
 仁	ngan4	10%	# (白)果仁
 垠	ngan4		
+珢	ngan4		
 銀	ngan4		
 齦	ngan4		
 韌	ngan6	10%	# (白)煙煙韌韌，食物有勁道
 戇	ngang1	5%	# (語)癡癡～～，瘋瘋癲癲
 戇	ngang2	5%	# (語)發愣
 噏	ngap1		# 亂～，胡說
-岌	ngap6		# (語)岌頭，點頭
-扤	ngat1	10%	# (又)
+岌	ngap6		# 岌頭，點頭
+扤	ngat1	10%	# (又)用力塞
 胺	ngat1	5%	# (語)屙～尿，尿淋
+仡	ngat6		# 壯勇
 兀	ngat6		
+圪	ngat6		
 屹	ngat6		
 杌	ngat6		
-疙	ngat6	10%	# (又)
-訖	ngat6		
+疙	ngat6		
+訖	ngat6	10%	# (又)
 迄	ngat6		
 勾	ngau1		# (白)
 鉤	ngau1		# (白)
@@ -5298,14 +5361,18 @@ min_phrase_weight: 100
 椏	nge1	10%	# (白)
 𡃀	nge1		# 𡃀nge4～：提琴，二胡
 𡃀	nge4		# ～𡃀nge1：提琴，二胡
-砑	ngen4	10%	# (語)碾，砑平
 研	ngen4	10%	# (又)研磨
 顏	ngen4	10%	# (白)
 眼	ngen5		# (白)
+扤	nget6	10%	# (語)擠壓、緩慢移步、摩擦
 撓	ngeu1	5%	# (語)抓撓，又作𢯎字
 𢯎	ngeu1		# (白)抓撓，又作撓字
 咬	ngeu5		# (白)
 逆	ngik6	10%	# (又)
+凝	nging4	10%	# (又)
+嚙	ngit6	10%	# (又)嚙齒
+囓	ngit6	10%	# (又)囓齒
+齧	ngit6	10%	# (又)齧齒
 俄	ngo4		
 吪	ngo4		
 哦	ngo4		# 吟哦
@@ -5318,8 +5385,8 @@ min_phrase_weight: 100
 臥	ngo6		
 卧	ngo6		
 餓	ngo6		
-呆	ngoi4		# 呆板
 獃	ngoi4		# 獃板
+呆	ngoi4		# 呆板
 皚	ngoi4		
 磑	ngoi4		# 磑磑
 外	ngoi6		
@@ -5362,8 +5429,8 @@ min_phrase_weight: 100
 妮	ni4		
 宜	ni4	10%	# (又)
 尼	ni4		
-瀰	ni4	10%	# (又)
 彌	ni4	10%	# (又)
+瀰	ni4	10%	# (又)
 疑	ni4		
 䉲	ni4	10%	# (又)
 𥮜	ni4	10%	# (又)
@@ -5383,6 +5450,7 @@ min_phrase_weight: 100
 逆	nik6		
 拈	nim1	10%	# (文)
 棯	nim1		# 花（番）～，番石榴，又作稔/捻字
+研	nim1	5%	# (又)
 稔	nim1		# 花（番）～，番石榴，又作棯/捻字
 粘	nim1		# 粘貼；舊同黏字
 黏	nim1		
@@ -5400,19 +5468,19 @@ min_phrase_weight: 100
 年	nin4		
 涊	nin5		
 拎	ning1		
-擰	ning1		# (白)～嘢，拿東西
+擰	ning1		# (白)拿
 笭	ning2	5%	# (語)魚～，魚簍
 凝	ning4		
 嚀	ning4		
-甯	ning4		# 同寧字
 寧	ning4		
 宁	ning4		# 同寧字
-擰	ning4	10%	# (又)～毛巾
+甯	ning4		# 同寧字
+擰	ning4	10%	# (又)擰毛巾
 檸	ning4		
 獰	ning4		
 佞	ning6		
 甯	ning6		# 姓
-擰	ning6		# ～轉，扭轉
+擰	ning6		# 擰轉
 濘	ning6		
 業	nip6		
 囁	nip6	10%	# (又)
@@ -5444,14 +5512,15 @@ min_phrase_weight: 100
 瘧	noek6	10%	# (又)
 虐	noek6	10%	# (又)
 孃	noeng1	5%	# (白)阿孃，母之妹
-娘	noeng1	5%	# (白)阿孃，母之妹
-娘	noeng4		
-孃	noeng4		
+娘	noeng1	5%	# (白)姑娘
+孃	noeng4		# 爹孃
+娘	noeng4		# 新娘
 倷	noi6		
 奈	noi6		
 耐	noi6		
 喏	nok6		# 同諾字
 諾	nok6		
+鍩	nok6		
 襠	nong1	10%	# (語)又作𧟘字
 𧟘	nong1		# 襠
 擃	nong2		# 同攮字
@@ -5460,7 +5529,7 @@ min_phrase_weight: 100
 瓤	nong4		
 穰	nong4		
 曩	nong5		
-齉	nong6	10%	# (又)
+齉	nong6		
 奴	nu4		
 駑	nu4		
 努	nu5		
@@ -5471,6 +5540,7 @@ min_phrase_weight: 100
 怒	nu6		
 餒	nui5		
 內	nui6		
+朒	nuk6		
 燶	nung1		# 焦，糊，又作𪒬字
 儂	nung1	5%	# (又)
 鬞	nung1		# ～鬤naang1，窩囊、不整潔
@@ -5484,7 +5554,7 @@ min_phrase_weight: 100
 膿	nung4		
 齈	nung4		
 弄	nung6		# 玩弄
-齉	nung6		
+齉	nung6	10%	# (又)
 女	nyu5		
 暖	nyun5		
 煖	nyun5		# 同暖字
@@ -5541,17 +5611,17 @@ min_phrase_weight: 100
 牌	paai4		
 箄	paai4		# 竹筏，又作簰/𥱼字
 篺	paai4		
-簰	paai4		# 同箄字
 𥱼	paai4		# 同箄字
+簰	paai4		# 同箄字
 啪	paak1		
 帕	paak3		
 帛	paak3	10%	# (白)
 拍	paak3		
 柏	paak3		
 檗	paak3		
-泊	paak3		# 泊船
+泊	paak3	10%	# (習)泊船
 珀	paak3		
-粕	paak3		
+粕	paak3	10%	# (又)
 舶	paak3	10%	# (又)
 迫	paak3		
 魄	paak3		# 魂魄
@@ -5569,14 +5639,16 @@ min_phrase_weight: 100
 硼	paang4		
 膨	paang4		
 螃	paang4		
-鵬	paang4	10%	# (又)
+蟛	paang4		
+鵬	paang4		
 棒	paang5	10%	# (語)驅趕，亦可能作（捧/抨/㧸）字
 拋	paau1		
 泡	paau1		# 量詞；虛鬆不實
-穮	paau1	10%	# (又)穮䅦，禾虛貌
+穮	paau1	10%	# (又)禾虛貌
 脬	paau1		
 雹	paau1	5%	# (又)
-跑	paau2	10%	# (文)
+跑	paau2		
+奅	paau3	10%	# (文)
 泡	paau3		# 浸泡
 炮	paau3	10%	# (文)
 皰	paau3	10%	# (文)
@@ -5585,8 +5657,8 @@ min_phrase_weight: 100
 匏	paau4		
 咆	paau4		
 庖	paau4		
-狍	paau4		
 麅	paau4		
+狍	paau4		
 鉋	paau4	10%	# (文)
 㓟	pai1		# 削，又作𠜱字
 批	pai1		
@@ -5605,7 +5677,7 @@ min_phrase_weight: 100
 烹	pang1		
 憑	pang4		
 朋	pang4		
-鵬	pang4		
+鵬	pang4	10%	# (又)
 匹	pat1		
 拂	pat1	10%	# (白)
 疋	pat1		# 同匹字
@@ -5624,7 +5696,8 @@ min_phrase_weight: 100
 拋	peu1	10%	# (白)
 泡	peu1	10%	# (白)量詞
 脬	peu1	10%	# (白)
-跑	peu2		# (白)
+跑	peu2	10%	# (白)
+奅	peu3		# (白)
 泡	peu3	10%	# (白)起泡
 炮	peu3		# (白)
 皰	peu3		# (白)
@@ -5731,9 +5804,9 @@ min_phrase_weight: 100
 帛	pok3	10%	# (白)
 撲	pok3	10%	# (又)
 扑	pok3	10%	# (又)
-朴	pok3	10%	# (又)朴樹
 樸	pok3	10%	# (又)
-粕	pok3	10%	# (又)
+朴	pok3	10%	# (又)朴樹
+粕	pok3		
 醭	pok3	10%	# (又)
 肨	pong3		
 胖	pong3	10%	# (常)肥胖
@@ -5783,6 +5856,7 @@ min_phrase_weight: 100
 徘	pui4		
 裴	pui4		
 賠	pui4		
+錇	pui4		
 陪	pui4		
 倍	pui5		
 蓓	pui5		
@@ -5827,14 +5901,12 @@ min_phrase_weight: 100
 裟	saa1		
 鯊	saa1		
 啥	saa2		
-灑	saa2	10%	# (又)
-洒	saa2	10%	# (又)
 耍	saa2		
 嗄	saa3		# 嗄啞
 甩	saai2	5%	# (語)甩手
 舐	saai2		
-曬	saai3		
 晒	saai3		
+曬	saai3		
 𤖴	saak3		# 量詞，邊、塊
 芟	saam1		
 衫	saam1		
@@ -5901,8 +5973,8 @@ min_phrase_weight: 100
 郴	sam1		
 嬸	sam2		
 審	sam2		
-沈	sam2		# 姓
 瀋	sam2		
+沈	sam2		# 姓
 瞫	sam2		
 諗	sam2		# 諗知
 邥	sam2		
@@ -5924,12 +5996,12 @@ min_phrase_weight: 100
 呻	san3	10%	# (語)～下，呻吟
 瞬	san3		
 䢅	san4		
-唇	san4		
 脣	san4		
+唇	san4		
 娠	san4		
-徇	san4	10%	# (又)
+徇	san4		
 晨	san4		
-殉	san4	10%	# (又)
+殉	san4		
 淳	san4		
 神	san4		
 純	san4		
@@ -5948,15 +6020,14 @@ min_phrase_weight: 100
 蜃	san6	10%	# (又)
 順	san6		
 澀	sap1		# 羞澀
-濕	sap1		
 溼	sap1		
+濕	sap1		
 什	sap6		# 什錦，什物
 十	sap6		
-辻	sap6		
 拾	sap6		
+辻	sap6		
 失	sat1		
 室	sat1		
-率	sat1	10%	# (又)率領
 虱	sat1		
 蝨	sat1		
 實	sat6		
@@ -5989,7 +6060,6 @@ min_phrase_weight: 100
 社	se5		
 射	se6		
 麝	se6		
-勺	sek6	10%	# (又)
 石	sek6		
 碩	sek6		
 聲	seng1		# (白)
@@ -6006,8 +6076,8 @@ min_phrase_weight: 100
 司	si1		
 噝	si1		
 嘶	si1		
-屍	si1		
 尸	si1		
+屍	si1		
 師	si1		
 思	si1		
 恖	si1		
@@ -6017,8 +6087,8 @@ min_phrase_weight: 100
 楒	si1		
 澌	si1		
 獅	si1		
-私	si1		
 俬	si1		
+私	si1		
 緦	si1		
 罳	si1		
 螄	si1		
@@ -6047,7 +6117,7 @@ min_phrase_weight: 100
 侍	si6		
 俟	si6		# 俟機
 士	si6		
-峙	si6	10%	# (又)
+峙	si6		
 巳	si6		
 是	si6		
 氏	si6		# 氏族
@@ -6063,9 +6133,8 @@ min_phrase_weight: 100
 螫	sik1		
 識	sik1		
 軾	sik1		
-适	sik1		# 同適字
 適	sik1		
-釋	sik1	10%	# (又)
+适	sik1		# 同適字
 飾	sik1		
 骰	sik1		
 蝕	sik6		# 腐蝕
@@ -6089,19 +6158,18 @@ min_phrase_weight: 100
 擅	sin6		
 禪	sin6		# 禪讓
 繕	sin6		
-羡	sin6		
 膳	sin6		
 茜	sin6	10%	# (書)
 蒨	sin6		
-昇	sing1		
 升	sing1		
+昇	sing1		
 聲	sing1	10%	# (文)
 胜	sing1		# 同勝字
-聖	sing3		
 圣	sing3		
-胜	sing3		# 同勝字
+聖	sing3		
 勝	sing3		
-蟶	sing3	10%	# (又)
+胜	sing3		# 同勝字
+蟶	sing3	10%	# (習)
 丞	sing4		
 乘	sing4		# 乘坐
 城	sing4		
@@ -6197,11 +6265,11 @@ min_phrase_weight: 100
 遜	slan3		
 峋	slan4		
 巡	slan4	10%	# (又)
-徇	slan4		
+徇	slan4	10%	# (又)
 循	slan4	10%	# (又)
 恂	slan4		
 旬	slan4	10%	# (又)
-殉	slan4		
+殉	slan4	10%	# (又)
 洵	slan4		
 珣	slan4		
 荀	slan4		
@@ -6211,8 +6279,8 @@ min_phrase_weight: 100
 擤	slang3		
 趿	slap6		# 拖～～，拖着鞋走
 霅	slap6		# 落雨～～，下雨貌
-卹	slat1		
 恤	slat1		
+卹	slat1		
 悉	slat1		
 戌	slat1		
 摔	slat1		
@@ -6221,6 +6289,10 @@ min_phrase_weight: 100
 膝	slat1		
 蟀	slat1		
 蟋	slat1	10%	# (又)
+術	slat6	10%	# (又)
+朮	slat6	10%	# (又)
+秫	slat6	10%	# (又)
+述	slat6	10%	# (又)
 脩	slau1		
 修	slau1		
 廋	slau1		
@@ -6240,15 +6312,15 @@ min_phrase_weight: 100
 琇	slau3		
 秀	slau3		
 繡	slau3		
-鏽	slau3		
 銹	slau3		
+鏽	slau3		
 些	sle1		
 寫	sle2		
 瀉	sle2	5%	# (白)倒瀉，溢出
 卸	sle3		
 瀉	sle3		
 斜	sle4	10%	# (語)乜me4～，醉態
-惜	slek3	10%	# (白)疼愛
+惜	slek3	10%	# (白)儆geng6惜，疼愛
 錫	slek3		
 星	sleng1	10%	# (白)
 腥	sleng1		# (白)
@@ -6294,6 +6366,7 @@ min_phrase_weight: 100
 線	slin3		
 綫	slin3		
 羨	slin3		
+羡	slin3		
 腺	slin3		
 霰	slin3		
 惺	sling1		
@@ -6312,8 +6385,8 @@ min_phrase_weight: 100
 偰	slit3		
 屑	slit3		
 楔	slit3		
-泄	slit3		
 洩	slit3		
+泄	slit3		
 燮	slit3		
 紲	slit3		
 薛	slit3		
@@ -6380,14 +6453,15 @@ min_phrase_weight: 100
 繅	slu1		
 繰	slu1		# 同繅字
 臊	slu1		# 臊味
-蘇	slu1		
 囌	slu1		
+蘇	slu1		
 甦	slu1		
 酥	slu1		
 鬚	slu1		
 騷	slu1		
 嫂	slu2		
 傃	slu3		
+嗉	slu3	10%	# (書)
 埽	slu3		
 塑	slu3	10%	# (書)
 愫	slu3		
@@ -6395,16 +6469,19 @@ min_phrase_weight: 100
 溯	slu3	10%	# (書)
 漱	slu3		
 素	slu3		
+膆	slu3	10%	# (書)
 臊	slu3		# 害臊
 訴	slu3		
+綏	slui1		
 荽	slui1	10%	# (書)
 雖	slui1		
 嗉	slui3		
 歲	slui3		
 碎	slui3		
+祟	slui3	10%	# (又)
 膆	slui3		# 同嗉字
+邃	slui3	10%	# (又)
 瑞	slui6	10%	# (又)
-祟	slui6	10%	# (又)
 穗	slui6	10%	# (又)
 繐	slui6	10%	# (又)
 僳	sluk1		
@@ -6428,7 +6505,7 @@ min_phrase_weight: 100
 宋	slung3		
 送	slung3		
 糈	slyu1		
-綏	slyu1		
+綏	slyu1	10%	# (常)
 胥	slyu1		
 需	slyu1		
 須	slyu1		
@@ -6441,10 +6518,11 @@ min_phrase_weight: 100
 孫	slyun1		
 宣	slyun1		
 悛	slyun1		
+朘	slyun1	10%	# (又)減縮，剝削
 瑄	slyun1		
 蓀	slyun1		
-酸	slyun1		
 痠	slyun1		
+酸	slyun1		
 飧	slyun1		
 損	slyun2		
 榫	slyun2	10%	# (老派)
@@ -6486,6 +6564,10 @@ min_phrase_weight: 100
 燮	slyut3	10%	# (又)
 薛	slyut3	10%	# (習)
 雪	slyut3		
+術	slyut6	10%	# (老派)
+朮	slyut6	10%	# (老派)
+秫	slyut6	10%	# (老派)
+述	slyut6	10%	# (老派)
 梳	so1		
 疏	so1		# 疏忽
 蔬	so1		
@@ -6521,19 +6603,18 @@ min_phrase_weight: 100
 爽	song2		
 數	su2		# 數一數，動詞
 數	su3		# 數目，名詞
-綏	sui1	10%	# (書)
 衰	sui1		
 水	sui2		
 髓	sui2		
 帥	sui3		
 捝	sui3		# 擦拭
 挩	sui3		# 擦拭
-涗	sui3		
 涚	sui3		
+涗	sui3		
 稅	sui3		
 税	sui3		
-説	sui3		# 説服
 說	sui3		# 說服
+説	sui3		# 説服
 倕	sui4		
 垂	sui4		
 誰	sui4		
@@ -6544,8 +6625,8 @@ min_phrase_weight: 100
 璲	sui6		
 睡	sui6		
 祟	sui6		
-繐	sui6		
 穗	sui6		
+繐	sui6		
 穟	sui6		
 襚	sui6		
 遂	sui6		
@@ -6629,8 +6710,8 @@ min_phrase_weight: 100
 璇	syun4	10%	# (又)
 純	syun4	10%	# (老派)
 船	syun4		
-蓴	syun4	10%	# (老派)
 蒓	syun4	10%	# (老派)
+蓴	syun4	10%	# (老派)
 醇	syun4	10%	# (老派)
 鏇	syun4	10%	# (又)
 吮	syun5		
@@ -6638,13 +6719,8 @@ min_phrase_weight: 100
 雋	syun5		# 雋永
 舜	syun6	10%	# (老派)
 順	syun6	10%	# (老派)
-率	syut1	10%	# (又)率領
 説	syut3		# 説話
 說	syut3		# 說話
-術	syut6	10%	# (老派)
-朮	syut6	10%	# (老派)
-秫	syut6	10%	# (老派)
-述	syut6	10%	# (老派)
 他	taa1		
 她	taa1		
 它	taa1		
@@ -6679,7 +6755,7 @@ min_phrase_weight: 100
 忐	taan2		
 毯	taan2		
 疸	taan2		
-癱	taan2	5%	# (白)
+癱	taan2	5%	# (又)
 袒	taan2		
 嘆	taan3		
 歎	taan3		
@@ -6723,7 +6799,8 @@ min_phrase_weight: 100
 慝	tak1		
 探	tam3	10%	# (語)探落衫袋，放進衣袋
 𧨾	tam3		# 哄小孩
-氹	tam4	10%	# (語)壓；塌下；～～轉，團團轉
+坍	tam4	10%	# (語)壓、塌下
+𧽼	tam4		# ～～轉
 氹	tam5		# 水坑
 吞	tan1		
 焞	tan1		# 焞焞
@@ -6835,9 +6912,9 @@ min_phrase_weight: 100
 苔	toi1		# 舌苔
 儓	toi4		
 臺	toi4		
-台	toi4		
-檯	toi4		
 颱	toi4		
+檯	toi4		
+台	toi4		
 擡	toi4		
 抬	toi4		
 枱	toi4		
@@ -6845,8 +6922,8 @@ min_phrase_weight: 100
 薹	toi4		
 跆	toi4		
 侂	tok3		
-托	tok3		
 託	tok3		
+托	tok3		
 拓	tok3		# 拓展
 魄	tok3	10%	# (又)落魄，又作落拓
 劏	tong1		# 宰殺
@@ -6901,8 +6978,8 @@ min_phrase_weight: 100
 推	tui1		
 焞	tui1		# 盛貌
 腿	tui2		
-蛻	tui3		
 蜕	tui3		
+蛻	tui3		
 褪	tui3		# 褪色
 退	tui3		
 頽	tui4		
@@ -6922,8 +6999,8 @@ min_phrase_weight: 100
 侗	tung4		# 倥侗
 僮	tung4		# 書僮
 鼕	tung4	10%	# (又)
-衕	tung4		# 衚衕
 同	tung4		
+衕	tung4		# 衚衕
 垌	tung4		# 坰冢，湖北地名
 彤	tung4		
 桐	tung4		
@@ -6933,19 +7010,20 @@ min_phrase_weight: 100
 筒	tung4		
 銅	tung4		
 湍	tyun1		
+疃	tyun2		
 彖	tyun3		
-糰	tyun4		
 團	tyun4		
+糰	tyun4		
 斷	tyun5		# (白)折斷
 禿	tyut1	10%	# (又)
 挩	tyut3		# 解脫；遺漏
 捝	tyut3		# 解脫；遺漏
 梲	tyut3		# 梲杖
 棁	tyut3		# 棁杖
-脱	tyut3		
 脫	tyut3		
-熝	u1		# 用文火久煮，～白菜，又作爊字
-爊	u1		# 用文火久煮，～白菜，又作熝字
+脱	tyut3		
+熝	u1		# 煨熟，又作爊字
+爊	u1		# 煨熟，又作熝字
 鏖	u1		
 媼	u2		
 媪	u2		
@@ -6965,11 +7043,11 @@ min_phrase_weight: 100
 蕹	ung3		
 划	waa1		# 划船
 哇	waa1		
-嘩	waa1		# 同譁字
 譁	waa1		
+嘩	waa1		# 同譁字
 娃	waa1		
-窪	waa1		
 洼	waa1		
+窪	waa1		
 花	waa1	10%	# (白)
 蛙	waa1		
 娃	waa2	5%	# (白)阿娃，暱稱小孩
@@ -6989,8 +7067,8 @@ min_phrase_weight: 100
 塊	waai3	10%	# (白)
 快	waai3	10%	# (白)
 筷	waai3	10%	# (白)
-懷	waai4		
 怀	waai4		
+懷	waai4		
 槐	waai4		
 淮	waai4		
 坏	waai6		# 同壞字
@@ -7002,8 +7080,8 @@ min_phrase_weight: 100
 掝	waak6		
 畫	waak6		# 畫圖，動詞
 籰	waak6		
-穫	waak6		
 獲	waak6		
+穫	waak6		
 彎	waan1		
 灣	waan1		
 玩	waan2		# (白)
@@ -7017,8 +7095,8 @@ min_phrase_weight: 100
 郇	waan4		# 姓
 頑	waan4		
 䴉	waan4		
-輓	waan5		
 挽	waan5		
+輓	waan5		
 鯇	waan5	10%	# (文)
 宦	waan6		
 幻	waan6		
@@ -7032,7 +7110,6 @@ min_phrase_weight: 100
 穵	waat3	10%	# (文)
 滑	waat6	10%	# (文)
 猾	waat6	10%	# (文)
-黠	waat6	10%	# (又)
 威	wai1		
 揮	wai1		# (白)
 暉	wai1		# (白)
@@ -7054,29 +7131,27 @@ min_phrase_weight: 100
 瑋	wai2		
 痿	wai2		
 緯	wai2		
-葦	wai2		
 萎	wai2		
 虫	wai2		# 虺的本字
 虺	wai2		# 古書上說的一種毒蛇
 諉	wai2		
 韙	wai2		
-蒍	wai2		
 蔿	wai2		
+蒍	wai2		
 噦	wai3		# 噦噦
-喂	wai3		
 餵	wai3		
+喂	wai3		
 尉	wai3		# 尉遲，複姓
-慧	wai3		
+慧	wai3	10%	# (習)智慧
 慰	wai3		
 蝟	wai3	10%	# (又)
 畏	wai3		
 磑	wai3		# 磨子
 穢	wai3		
 蔚	wai3		# 蔚縣，地名
-諱	wai3		
 餧	wai3		# 同餵字
-爲	wai4		# 作爲
 為	wai4		# 作為
+爲	wai4		# 作爲
 唯	wai4		# 唯獨
 圍	wai4		
 圩	wai4		# 圩堤，築圩
@@ -7084,7 +7159,7 @@ min_phrase_weight: 100
 帷	wai4		
 惟	wai4		
 維	wai4		
-葦	wai4	10%	# (又)
+葦	wai4		
 違	wai4		
 遺	wai4		
 闈	wai4		
@@ -7096,17 +7171,17 @@ min_phrase_weight: 100
 衞	wai6		
 彗	wai6		
 惠	wai6		
-慧	wai6	10%	# (又)
-彙	wai6	10%	# (又)
+慧	wai6		
+彙	wai6	10%	# (書)
 渭	wai6		
 蝟	wai6		
 胃	wai6		
 蕙	wai6		
-諱	wai6	10%	# (又)
+諱	wai6		
 謂	wai6		
 掝	wak6	10%	# (語)揮動
-勛	wan1	10%	# (白)
-勳	wan1	10%	# (白)
+勛	wan1		# (白)
+勳	wan1		# (白)
 婚	wan1		# (白)
 昏	wan1		# (白)
 暈	wan1		# 暈車
@@ -7116,36 +7191,37 @@ min_phrase_weight: 100
 氳	wan1		
 温	wan1		
 溫	wan1		
-熅	wan1		# 無焰的火
 煴	wan1		# 無焰的火
-燻	wan1		# (白)
+熅	wan1		# 無焰的火
 熏	wan1		# (白)
+燻	wan1		# (白)
 瘟	wan1		
 縕	wan1		# 絪縕
 緼	wan1		# 絪緼
 葷	wan1		# (白)
-蒕	wan1		
 蒀	wan1		
+蒕	wan1		
 薰	wan1		# (白)
-轀	wan1		
+贇	wan1		
 輼	wan1		
+轀	wan1		
 醺	wan1		# (白)
-鰮	wan1		
 鰛	wan1		
+鰮	wan1		
 搵	wan2		# 找
 揾	wan2		# 找
 混	wan2	5%	# (白)
 穩	wan2		
 困	wan3	10%	# (白)關，囚禁
-慍	wan3		
 愠	wan3		
+慍	wan3		
 縕	wan3		# 亂麻；舊絮
 緼	wan3		# 亂麻；舊絮
 蘊	wan3	10%	# (又)
 藴	wan3	10%	# (又)
 訓	wan3	10%	# (白)
-醖	wan3	10%	# (又)
 醞	wan3	10%	# (又)
+醖	wan3	10%	# (又)
 雲	wan4		
 云	wan4		
 勻	wan4		
@@ -7162,13 +7238,14 @@ min_phrase_weight: 100
 尹	wan5		
 蘊	wan5		
 藴	wan5		
-醖	wan5		
 醞	wan5		
+醖	wan5		
 隕	wan5		
+圂	wan6		
 暈	wan6		# 日暈
 混	wan6		
-熅	wan6		# 同熨字
 煴	wan6		# 同熨字
+熅	wan6		# 同熨字
 熨	wan6		
 運	wan6		
 韻	wan6		
@@ -7181,6 +7258,7 @@ min_phrase_weight: 100
 屈	wat1		
 榲	wat1	10%	# (又)
 榅	wat1	10%	# (又)
+爩	wat1		
 窟	wat1	10%	# (白)
 胐	wat1	10%	# (白)
 腽	wat1		
@@ -7198,8 +7276,8 @@ min_phrase_weight: 100
 環	wen4		# (白)耳環
 還	wen4		# (白)還錢
 䴉	wen4	10%	# (白)
-挽	wen5	10%	# (白)
 輓	wen5	10%	# (白)
+挽	wen5	10%	# (白)
 鯇	wen5		# (白)
 挖	wet3		# (白)
 穵	wet3		# (白)同挖字
@@ -7259,8 +7337,8 @@ min_phrase_weight: 100
 嗚	wu1		
 圬	wu1		
 塢	wu1		
-汙	wu1		
 污	wu1		
+汙	wu1		
 洿	wu1		
 鎢	wu1		
 𠌥	wu1	5%	# (又)
@@ -7274,20 +7352,21 @@ min_phrase_weight: 100
 壺	wu4		
 弧	wu4		
 湖	wu4		
+煳	wu4		
 狐	wu4		
 瑚	wu4		
 瓠	wu4		# 瓠蘆，同葫蘆
-餬	wu4		
 糊	wu4		
-胡	wu4		
+餬	wu4		
 衚	wu4		
+胡	wu4		
 鬍	wu4		
 葫	wu4		
 蝴	wu4		
 互	wu6		
 冱	wu6		
-户	wu6		
 戶	wu6		
+户	wu6		
 扈	wu6		
 護	wu6		
 滬	wu6		
@@ -7295,8 +7374,8 @@ min_phrase_weight: 100
 偎	wui1		
 煨	wui1		
 猥	wui1	5%	# (又)
-迴	wui4		
 回	wui4		
+迴	wui4		
 徊	wui4		
 茴	wui4		
 蛔	wui4		
@@ -7309,7 +7388,7 @@ min_phrase_weight: 100
 薈	wui6		
 剜	wun2		
 婉	wun2	10%	# (又)
-宛	wun2		
+宛	wun2	10%	# (習)
 惋	wun2		
 碗	wun2		
 腕	wun2		
@@ -7408,7 +7487,6 @@ min_phrase_weight: 100
 㗱	zaap6	10%	# (又)
 什	zaap6	10%	# (又)什錦，什物
 雜	zaap6		
-煠	zaap6	10%	# (又)
 鍘	zaap6		# (訓)訓讀爲閘
 閘	zaap6		
 扎	zaat3		
@@ -7427,14 +7505,14 @@ min_phrase_weight: 100
 笊	zaau3	10%	# (文)
 罩	zaau3	10%	# (文)
 棹	zaau6		
-櫂	zaau6	10%	# (文)
+櫂	zaau6		
 劑	zai1		
 擠	zai1		# 排擠，擠迫
 仔	zai2		# 仔女
 囝	zai2		
 崽	zai2	10%	# (又)
 濟	zai2		# 濟濟一堂
-滓	zai2		
+滓	zai2	10%	# (又)
 䎺	zai3		
 制	zai3		
 製	zai3		
@@ -7455,22 +7533,21 @@ min_phrase_weight: 100
 砧	zam1		
 祲	zam1		
 箴	zam1		
-針	zam1		
 鍼	zam1		
+針	zam1		
 怎	zam2		
 枕	zam2		# 枕頭，名詞
 枕	zam3		# 動詞
-浸	zam3		# 浸泡
+浸	zam3		
 譖	zam3		
 朕	zam6		
-沉	zam6	10%	# (語)～水，溺水，又作浸字
-浸	zam6	10%	# (語)～水，溺水，又作沉字
+沉	zam6	10%	# (語)～水，溺水
 鴆	zam6		
-僎	zan1	10%	# (又)同遵字
+朘	zan1	10%	# (又)減縮，剝削
 榛	zan1		
 樼	zan1		
-樽	zan1		
 罇	zan1		
+樽	zan1		
 津	zan1		
 溱	zan1		# 溱頭河
 珍	zan1		
@@ -7492,7 +7569,6 @@ min_phrase_weight: 100
 峻	zan3		
 振	zan3		
 晉	zan3		
-朘	zan3	10%	# (又)減縮，剝削
 浚	zan3		# 疏通
 濬	zan3		# 疏通
 畯	zan3		
@@ -7506,8 +7582,8 @@ min_phrase_weight: 100
 震	zan3		
 餕	zan3		
 駿	zan3		
-儘	zan6		
 盡	zan6		
+儘	zan6		
 敶	zan6		
 燼	zan6		
 藎	zan6		
@@ -7548,15 +7624,16 @@ min_phrase_weight: 100
 姪	zat6		
 嫉	zat6		
 庢	zat6		# 盩庢，縣名
+朮	zat6	10%	# (又)
 疾	zat6		
 窒	zat6		
 蒺	zat6		
 蛭	zat6		
-週	zau1		
 周	zau1		
+週	zau1		
 啾	zau1		
 州	zau1		
-掫	zau1	10%	# (又)
+掫	zau1		
 揪	zau1		
 揫	zau1		
 洲	zau1		
@@ -7569,6 +7646,7 @@ min_phrase_weight: 100
 肘	zau2		
 走	zau2		
 酒	zau2		
+㥮	zau3		
 咒	zau3		
 奏	zau3		
 揍	zau3		
@@ -7628,7 +7706,7 @@ min_phrase_weight: 100
 笊	zeu3		# (白)
 罩	zeu3		# (白)
 棹	zeu6	10%	# (白)
-櫂	zeu6		# (白)
+櫂	zeu6	10%	# (白)
 㞢	zi1		# 古通作之
 之	zi1		
 茲	zi1		
@@ -7677,7 +7755,7 @@ min_phrase_weight: 100
 枳	zi2		
 梓	zi2		
 止	zi2		
-滓	zi2	10%	# (又)
+滓	zi2		
 祇	zi2		# 同只字
 祉	zi2		
 秭	zi2		
@@ -7688,13 +7766,13 @@ min_phrase_weight: 100
 趾	zi2		
 黹	zi2		
 剚	zi3		
-志	zi3		
 誌	zi3		
+志	zi3		
 恣	zi3		
 摯	zi3		
 智	zi3		
 痣	zi3		
-稚	zi3		
+稚	zi3	10%	# (習)
 置	zi3		
 至	zi3		
 緻	zi3		
@@ -7708,13 +7786,13 @@ min_phrase_weight: 100
 牸	zi6		
 痔	zi6		
 眥	zi6		
-稚	zi6	10%	# (又)
+稚	zi6		
 笥	zi6		
 耜	zi6		
 自	zi6		
 雉	zi6		
-即	zik1		
 卽	zik1		
+即	zik1		
 唧	zik1		
 擲	zik1	5%	# (又)
 漬	zik1		
@@ -7727,9 +7805,10 @@ min_phrase_weight: 100
 職	zik1		
 脊	zik1	5%	# (又)
 踖	zik1		
-跡	zik1		
 蹟	zik1		
+跡	zik1		
 鯽	zik1	10%	# (書)
+襀	zik1		
 隻	zik3	10%	# (又)
 炙	zik3	10%	# (又)
 瘠	zik3	10%	# (文)
@@ -7767,7 +7846,7 @@ min_phrase_weight: 100
 氊	zin1		
 湔	zin1		
 煎	zin1		
-牋	zin1	10%	# (書)
+牋	zin1		# 同箋字
 箋	zin1		# (書)
 剪	zin2		
 展	zin2		
@@ -7777,6 +7856,7 @@ min_phrase_weight: 100
 踐	zin2		
 輾	zin2		
 闡	zin2	10%	# (又)
+𦟌	zin2		# 腱子
 戰	zin3		
 濺	zin3		
 箭	zin3		
@@ -7823,7 +7903,7 @@ min_phrase_weight: 100
 靚	zing6		# 妝飾，打扮
 靖	zing6		
 靜	zing6		
-囁	zip3		# (書)
+囁	zip3		
 摺	zip3		# 摺疊，存摺
 接	zip3		
 楫	zip3		
@@ -7833,6 +7913,7 @@ min_phrase_weight: 100
 擳	zit1		# 擠；胳肢
 瀄	zit1		# 擠水射出
 哲	zit3		
+喆	zit3		
 悊	zit3		
 折	zit3		# 折斷
 櫛	zit3		
@@ -7874,7 +7955,7 @@ min_phrase_weight: 100
 勺	zoek3	10%	# (又)
 卓	zoek3		
 嚼	zoek3		
-斫	zoek3	10%	# (書)
+斫	zoek3		
 桌	zoek3		
 涿	zoek3	10%	# (又)
 灼	zoek3		
@@ -7923,8 +8004,8 @@ min_phrase_weight: 100
 嘬	zoet1	5%	# (語)吻
 哉	zoi1		
 栽	zoi1		
-灾	zoi1		
 災	zoi1		
+灾	zoi1		
 宰	zoi2		
 崽	zoi2		
 載	zoi2		# 年載
@@ -7975,12 +8056,11 @@ min_phrase_weight: 100
 藻	zu2		
 蚤	zu2		
 做	zu3		
-灶	zu3		
 竈	zu3		
+灶	zu3		
 皁	zu6		
 皂	zu6		
 祚	zu6		
-糙	zu6	10%	# (又)早糙米，早稻
 造	zu6		# 製造
 朘	zui1		# 赤子陰
 椎	zui1		# 椎骨
@@ -7990,10 +8070,10 @@ min_phrase_weight: 100
 觜	zui2		# 同嘴字
 惴	zui3		
 最	zui3		
-綴	zui3		
+綴	zui3	10%	# (又)
 醉	zui3		
 墜	zui6		
-綴	zui6	10%	# (又)
+綴	zui6		
 罪	zui6		
 贅	zui6		
 囑	zuk1		
@@ -8022,8 +8102,8 @@ min_phrase_weight: 100
 倧	zung1		
 宗	zung1		
 忠	zung1		
-棕	zung1		
 椶	zung1		
+棕	zung1		
 淙	zung1		
 潀	zung1		# 崖岸
 潨	zung1		# 崖岸
@@ -8040,18 +8120,18 @@ min_phrase_weight: 100
 塚	zung2		
 冢	zung2		
 總	zung2		
-种	zung2		# 同種字，種類
 種	zung2		# 種類
+种	zung2		# 同種字，種類
 腫	zung2		
 踵	zung2		
 䝋	zung3	10%	# (又)
 中	zung3		# 中計
-眾	zung3		
 衆	zung3		
+眾	zung3		
 种	zung3		# 同種字，種植
 種	zung3		# 種植
-糉	zung3		
 粽	zung3		
+糉	zung3		
 縱	zung3		# 放縱
 仲	zung6		
 訟	zung6		
@@ -8067,7 +8147,6 @@ min_phrase_weight: 100
 滋	zy1	10%	# (老派)
 粢	zy1	10%	# (老派)
 觜	zy1	10%	# (老派)二十八宿之一
-訾	zy1	10%	# (老派)姓
 貲	zy1	10%	# (老派)
 資	zy1	10%	# (老派)
 鎡	zy1	10%	# (老派)
@@ -8080,18 +8159,14 @@ min_phrase_weight: 100
 秭	zy2	10%	# (老派)
 紫	zy2	10%	# (老派)
 耔	zy2	10%	# (老派)
-訾	zy2	10%	# (老派)詆毁
 恣	zy3	10%	# (老派)
 字	zy6	10%	# (老派)
 寺	zy6	10%	# (老派)
 牸	zy6	10%	# (老派)
-眥	zy6	10%	# (老派)
-笥	zy6	10%	# (老派)
-耜	zy6	10%	# (老派)
 自	zy6	10%	# (老派)
 侏	zyu1		
-朱	zyu1		
 硃	zyu1		
+朱	zyu1		
 株	zyu1		
 狙	zyu1		
 豬	zyu1		
@@ -8109,8 +8184,8 @@ min_phrase_weight: 100
 拄	zyu2		
 沮	zyu2		
 渚	zyu2		
-煑	zyu2		# 同煮字
 煮	zyu2		
+煑	zyu2		# 同煮字
 鉏	zyu2		# 鉏鋙，同齟齬
 齟	zyu2		
 注	zyu3		
@@ -8129,13 +8204,13 @@ min_phrase_weight: 100
 芧	zyu6		# 古書上指橡實
 膞	zyun1		
 專	zyun1		
-僎	zyun1		# 同遵字
 尊	zyun1		
 朘	zyun1		# 減縮，剝削
 罇	zyun1	10%	# (老派)
 樽	zyun1	10%	# (老派)
 津	zyun1	10%	# (老派)
 磚	zyun1		
+脧	zyun1		# 減縮，剝削
 遵	zyun1		
 鑽	zyun1		# 鑽研，動詞
 鐫	zyun1		
@@ -62574,8 +62649,6 @@ min_phrase_weight: 100
 斬倉
 斬傷
 斬到一頸血
-斬下眼
-斬下眼就什麼
 斬料
 斬新
 斬斷
@@ -62583,7 +62656,6 @@ min_phrase_weight: 100
 斬殺
 斬犯
 斬獲
-斬眼
 斬竹灣
 斬纜
 斬而不奏
@@ -134410,6 +134482,7 @@ min_phrase_weight: 100
 𥄫住
 𥄫住佢
 䁪下眼
+䁪下眼就
 䁪眉䁪眼
 䁪眼
 䂿䂿趯
@@ -134497,6 +134570,7 @@ min_phrase_weight: 100
 嗶哩嗶哩
 彈幕
 網易雲音樂
+知網
 知乎
 觀察者網
 情非得已
@@ -134563,7 +134637,7 @@ WIFI	waai faai
 
 
 
-# 南寧本地詞彙表
+# 本地詞彙表
 愛迪達專賣店
 阿里媽媽
 阿倫故事酒吧
@@ -148422,6 +148496,14 @@ WIFI	waai faai
 南寧白話
 邕寧白話
 橫縣白話
+北海白話
+梧州白話
+欽州白話
+廉州白話
+玉林白話
+桂平白話
+龍州白話
+百色白話
 南寧平話
 亭子平話
 石埠平話
@@ -148433,14 +148515,6 @@ WIFI	waai faai
 邕州官話
 戲棚官話
 武鳴官話
-北海白話
-梧州白話
-欽州白話
-廉州白話
-玉林白話
-桂平白話
-龍州白話
-百色白話
 疍家話
 南寧疍家話
 南寧蜑家話
@@ -148533,3 +148607,40 @@ WIFI	waai faai
 陽朔啤酒魚
 漓泉
 漓泉啤酒
+
+
+# 地方詞彙
+亞啲
+阿啲
+嚕啲
+阿便
+亞便
+嚕便
+唓咧
+咿㕭
+敆伙
+敆份
+敆手
+敆檔
+敆計
+好敆
+敆口
+佮伙
+佮份
+佮手
+佮檔
+佮計
+好佮
+佮口
+御米
+玉米	juk6 mai5
+玉米	jyu6 mai5	# 本字御米
+儆惜	geng6 slek3
+撈籬	laau1 li1
+鬎鬁	laat3 li1
+瘌痢	laat3 li1
+癩痢	laat3 li1
+癩痢	laai3 li1
+獁騮	maa1 lau1
+
+

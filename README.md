@@ -26,101 +26,101 @@
 目前總共收錄40門語言/方言的74個方案（上古漢語和中古漢語各算一門語言）。**主要缺失閩北語、閩中語、邵將語、瓊雷話、平話、湘語、贛語、徽語、西南官話、蘭銀官話、膠遼官話**的輸入方案，如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@qq.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
 - 上古漢語
-    - 上古全拼 - `dkzp`
+    - 上古全拼 - ℞ `dkzp`
 - 中古漢語
-    - 中古全拼 - `zyenpheng`
-    - 中古三拼 - `triungkoxsampheng`
-    - 中古四拼 - `deuqguv4`
-    - 中古汉拼 - `dghp`
-    - 廣韻羅馬字 - `kuankhiunn`
-    - 爾切羅馬字 - `nieh_ched`
-    - 廣韻查詢 - `middle_chinese_lookup`
-    - 唐韻 - `Dangrvond`
-    - 廣韻段毄攴字法 - `kmg`
+    - 中古全拼 - ℞ `zyenpheng`
+    - 中古三拼 - ℞ `triungkoxsampheng`
+    - 中古四拼 - ℞ `deuqguv4`
+    - 中古汉拼 - ℞ `dghp`
+    - 廣韻羅馬字 - ℞ `kuankhiunn`
+    - 爾切羅馬字 - ℞ `nieh_ched`
+    - 廣韻查詢 - ℞ `middle_chinese_lookup`
+    - 唐韻 - ℞ `Dangrvond`
+    - 廣韻段毄攴字法 - ℞ `kmg`
 - 粵語
     - 粤拼
-        - 粵拼 - `jyutping`
-        - 耶魯粵語拼音 - `yale`
-        - 香港廣東話拼音 - `hkcantonese`
-    - 粵拼⁺ - `jyutping+`
-    - 粵語注音 - `zyujam`
-    - 袖珍粵拼 - `jyutping_compact`
-    - 耶鲁粤语拼音 - `yale`
-    - 梧州白話 - `NgZjau_JyutPing`
+        - 粵拼 - ℞ `jyutping`
+        - 耶魯粵語拼音 - ℞ `yale`
+        - 香港廣東話拼音 - ℞ `hkcantonese`
+    - 粵拼⁺ - ℞ `jyutping+`
+    - 粵語注音 - ℞ `zyujam`
+    - 袖珍粵拼 - ℞ `jyutping_compact`
+    - 耶鲁粤语拼音 - ℞ `yale`
+    - 梧州白話 - ℞ `NgZjau_JyutPing`
     - 南寧白話輸入方案
-        - 南寧白話 - `naamning_jyutping`
-        - 南寧白話(IPA) - `naamning_jyutping_IPA`
-    - 沟漏片藤县白话输入方案 - `jutjnyu_gaulaupin_dangjunbikwaa`
-    - 貴州韻 - `gvaizauvan`
+        - 南寧白話 - ℞ `naamning_jyutping`
+        - 南寧白話(IPA) - ℞ `naamning_jyutping_IPA`
+    - 沟漏片藤县白话输入方案 - ℞ `jutjnyu_gaulaupin_dangjunbikwaa`
+    - 貴州韻 - ℞ `gvaizauvan`
 - 閩東語
     - 平話字表 (閩東語‣福州話)
-        - 戚林八音 - `ciklinbekin`
-        - 福州話字典 - `dfd`
+        - 戚林八音 - ℞ `ciklinbekin`
+        - 福州話字典 - ℞ `dfd`
 - 莆仙語（興化語）
-    - 興化語莆田城關話 - `Pouleng`
-    - 興化語平話字 - `HinghuaBUC`
+    - 興化語莆田城關話 - ℞ `Pouleng`
+    - 興化語平話字 - ℞ `HinghuaBUC`
 - 閩南語
     - 泉漳閩南語輸入方案
-        - 廈腔閩南語 - `blg_ha`
-        - 臺灣閩南語 - `blg_tai`
-        - 漳腔閩南語 - `blg_tsiang`
-        - 泉腔閩南語 - `blg_tsuan`
-    - 閩南語廈台腔專用版 - `blg_etai`
-    - 閩倂輸入灋 - `mp`
+        - 廈腔閩南語 - ℞ `blg_ha`
+        - 臺灣閩南語 - ℞ `blg_tai`
+        - 漳腔閩南語 - ℞ `blg_tsiang`
+        - 泉腔閩南語 - ℞ `blg_tsuan`
+    - 閩南語廈台腔專用版 - ℞ `blg_etai`
+    - 閩倂輸入灋 - ℞ `mp`
     - 潮语拼音输入法
-        - 潮語拼音〔潮州〕 - `dieziu`
-        - 潮語拼音〔潮阳〕 - `dioion`
-        - 潮語拼音〔揭阳〕 - `gekion`
-        - 潮語拼音〔汕头〕 - `suantau`
-        - 潮語拼音〔澄海〕 - `tenghai`
-        - 潮語拼音〔饒平〕 - `riaupeng`
+        - 潮語拼音〔潮州〕 - ℞ `dieziu`
+        - 潮語拼音〔潮阳〕 - ℞ `dioion`
+        - 潮語拼音〔揭阳〕 - ℞ `gekion`
+        - 潮語拼音〔汕头〕 - ℞ `suantau`
+        - 潮語拼音〔澄海〕 - ℞ `tenghai`
+        - 潮語拼音〔饒平〕 - ℞ `riaupeng`
     - 潮汕话輸入方案
-        - 潮語 - `diege_j`
-        - 潮語（帶潮語形聲鍵盤） - `diege`
-        - 潮語（形聲鍵盤） - `diege_gb`
+        - 潮語 - ℞ `diege_j`
+        - 潮語（帶潮語形聲鍵盤） - ℞ `diege`
+        - 潮語（形聲鍵盤） - ℞ `diege_gb`
 - 客家話
-    - 客拼 - `hakka_pinyin`
+    - 客拼 - ℞ `hakka_pinyin`
 - 吳語
-    - 蘇州吳語 - `soutzoe`
+    - 蘇州吳語 - ℞ `soutzoe`
     - 上海吳語輸入方案 
-        - 上海吳語 - `wugniu_lopha`
-        - 上海新派 - `wugniu`
+        - 上海吳語 - ℞ `wugniu_lopha`
+        - 上海新派 - ℞ `wugniu`
     - 吳語注音輸入方案吳語學堂版
-        - 吳語（桐鄉） - `wugniu_donshian`
-        - 吳語（寧波） - `wugniu_gninpou`
-        - 吳語（海寧） - `wugniu_haegnin`
-        - 吳語（海鹽） - `wugniu_haeye`
-        - 吳語（永嘉） - `wugniu_ionko`
-        - 吳語（嘉善） - `wugniu_kazoe`
-        - 吳語（嘉興） - `wugniu_kashin`
-        - 吳語（松江） - `wugniu_sonkaon`
-        - 吳語（蘇州） - `wugniu_soutseu`
-        - 吳語（上海） - `wugniu_zaonhe`
-    - 標準吳語 - `pcngng`
+        - 吳語（桐鄉） - ℞ `wugniu_donshian`
+        - 吳語（寧波） - ℞ `wugniu_gninpou`
+        - 吳語（海寧） - ℞ `wugniu_haegnin`
+        - 吳語（海鹽） - ℞ `wugniu_haeye`
+        - 吳語（永嘉） - ℞ `wugniu_ionko`
+        - 吳語（嘉善） - ℞ `wugniu_kazoe`
+        - 吳語（嘉興） - ℞ `wugniu_kashin`
+        - 吳語（松江） - ℞ `wugniu_sonkaon`
+        - 吳語（蘇州） - ℞ `wugniu_soutseu`
+        - 吳語（上海） - ℞ `wugniu_zaonhe`
+    - 標準吳語 - ℞ `pcngng`
 - 晉語
-    - 晋拼解州片 - `haitrou`
+    - 晋拼解州片 - ℞ `haitrou`
 - 官話
     - 中原官話洛陽方言
-        - 洛陽羅馬字 - `lakyang`
-        - 洛陽註音 - `lakyang_chuim`
+        - 洛陽羅馬字 - ℞ `lakyang`
+        - 洛陽註音 - ℞ `lakyang_chuim`
     - 中原官話輸入方案
-        - 中州羅馬字 - `zhung`
-        - 中州打字速記法 - `zhung_stenotype`
-        - 中州注音法（四十二鍵） - `zhung_42`
-        - 中州羅馬字（並擊） - `zhung_combo`
-        - 中州注音法（轉寫） - `zhung_transcript`
-        - 中州注音法（並擊） - `zhung_combo_transcript`
+        - 中州羅馬字 - ℞ `zhung`
+        - 中州打字速記法 - ℞ `zhung_stenotype`
+        - 中州注音法（四十二鍵） - ℞ `zhung_42`
+        - 中州羅馬字（並擊） - ℞ `zhung_combo`
+        - 中州注音法（轉寫） - ℞ `zhung_transcript`
+        - 中州注音法（並擊） - ℞ `zhung_combo_transcript`
     - 棗莊話羅馬字輸入方案
-        - 嶧州話傳統羅馬字 - `yihdjoouhuah`
-        - 嶧州話羅馬字 - `yihjoouhuah_romatzyh`
-    - 南京官話拼音 - `langjin`
+        - 嶧州話傳統羅馬字 - ℞ `yihdjoouhuah`
+        - 嶧州話羅馬字 - ℞ `yihjoouhuah_romatzyh`
+    - 南京官話拼音 - ℞ `langjin`
 - 域外方音
-    - 옛한글・漢字 - `qyeyshanglr_hanja`
-    - 한글・漢字 - `hangyl_hanja`
-    - 한글 - `hangyl`
-    - poly日文 - `jap_poly`
-    - 古壮字拼音 - `sawndip`
-    - 輸入法𡨸漢喃 - `hannomPS`
+    - 옛한글・漢字 - ℞ `qyeyshanglr_hanja`
+    - 한글・漢字 - ℞ `hangyl_hanja`
+    - 한글 - ℞ `hangyl`
+    - poly日文 - ℞ `jap_poly`
+    - 古壮字拼音 - ℞ `sawndip`
+    - 輸入法𡨸漢喃 - ℞ `hannomPS`
 
 下載包內方案信息詳見[發佈](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases)頁面。
 
@@ -255,101 +255,101 @@ Steps are the similar under Linux, OS X and other versions of Windows operating 
 At the moment there are 74 schemas for 40 languages/dialects collected (old Chinese and middle Chinese are counted as one language respectively), and still **missing the schemas for Northern Min, Central Min, Shao-Jiang Min, Qiongleihua, Pinghua, Xiang, Gan, Huizhou, Lan–Yin Mandarin, Southwestern Mandarin**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@qq.com) or open a new issue to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
 
 - Old Chinese
-    - 上古全拼 - `dkzp`
+    - 上古全拼 - ℞ `dkzp`
 - Middle Chinese
-    - 中古全拼 - `zyenpheng`
-    - 中古三拼 - `triungkoxsampheng`
-    - 中古四拼 - `deuqguv4`
-    - 中古汉拼 - `dghp`
-    - 廣韻羅馬字 - `kuankhiunn`
-    - 爾切羅馬字 - `nieh_ched`
-    - 廣韻查詢 - `middle_chinese_lookup`
-    - 唐韻 - `Dangrvond`
-    - 廣韻段毄攴字法 - `kmg`
+    - 中古全拼 - ℞ `zyenpheng`
+    - 中古三拼 - ℞ `triungkoxsampheng`
+    - 中古四拼 - ℞ `deuqguv4`
+    - 中古汉拼 - ℞ `dghp`
+    - 廣韻羅馬字 - ℞ `kuankhiunn`
+    - 爾切羅馬字 - ℞ `nieh_ched`
+    - 廣韻查詢 - ℞ `middle_chinese_lookup`
+    - 唐韻 - ℞ `Dangrvond`
+    - 廣韻段毄攴字法 - ℞ `kmg`
 - Yue (Cantonese)
     - 粤拼
-        - 粵拼 - `jyutping`
-        - 耶魯粵語拼音 - `yale`
-        - 香港廣東話拼音 - `hkcantonese`
-    - 粵拼⁺ - `jyutping+`
-    - 粵語注音 - `zyujam`
-    - 袖珍粵拼 - `jyutping_compact`
-    - 耶鲁粤语拼音 - `yale`
-    - 梧州白話 - `NgZjau_JyutPing`
+        - 粵拼 - ℞ `jyutping`
+        - 耶魯粵語拼音 - ℞ `yale`
+        - 香港廣東話拼音 - ℞ `hkcantonese`
+    - 粵拼⁺ - ℞ `jyutping+`
+    - 粵語注音 - ℞ `zyujam`
+    - 袖珍粵拼 - ℞ `jyutping_compact`
+    - 耶鲁粤语拼音 - ℞ `yale`
+    - 梧州白話 - ℞ `NgZjau_JyutPing`
     - 南寧白話輸入方案
-        - 南寧白話 - `naamning_jyutping`
-        - 南寧白話(IPA) - `naamning_jyutping_IPA`
-    - 沟漏片藤县白话输入方案 - `jutjnyu_gaulaupin_dangjunbikwaa`
-    - 貴州韻 - `gvaizauvan`
+        - 南寧白話 - ℞ `naamning_jyutping`
+        - 南寧白話(IPA) - ℞ `naamning_jyutping_IPA`
+    - 沟漏片藤县白话输入方案 - ℞ `jutjnyu_gaulaupin_dangjunbikwaa`
+    - 貴州韻 - ℞ `gvaizauvan`
 - Eastern Min
     - 平話字表 (閩東語‣福州話)
-        - 戚林八音 - `ciklinbekin`
-        - 福州話字典 - `dfd`
+        - 戚林八音 - ℞ `ciklinbekin`
+        - 福州話字典 - ℞ `dfd`
 - Puxian Min
-    - 興化語莆田城關話 - `Pouleng`
-    - 興化語平話字 - `HinghuaBUC`
+    - 興化語莆田城關話 - ℞ `Pouleng`
+    - 興化語平話字 - ℞ `HinghuaBUC`
 - Southern Min (Hokkien)
     - 泉漳閩南語輸入方案
-        - 廈腔閩南語 - `blg_ha`
-        - 臺灣閩南語 - `blg_tai`
-        - 漳腔閩南語 - `blg_tsiang`
-        - 泉腔閩南語 - `blg_tsuan`
-    - 閩南語廈台腔專用版 - `blg_etai`
-    - 閩倂輸入灋 - `mp`
+        - 廈腔閩南語 - ℞ `blg_ha`
+        - 臺灣閩南語 - ℞ `blg_tai`
+        - 漳腔閩南語 - ℞ `blg_tsiang`
+        - 泉腔閩南語 - ℞ `blg_tsuan`
+    - 閩南語廈台腔專用版 - ℞ `blg_etai`
+    - 閩倂輸入灋 - ℞ `mp`
     - 潮语拼音输入法
-        - 潮語拼音〔潮州〕 - `dieziu`
-        - 潮語拼音〔潮阳〕 - `dioion`
-        - 潮語拼音〔揭阳〕 - `gekion`
-        - 潮語拼音〔汕头〕 - `suantau`
-        - 潮語拼音〔澄海〕 - `tenghai`
-        - 潮語拼音〔饒平〕 - `riaupeng`
+        - 潮語拼音〔潮州〕 - ℞ `dieziu`
+        - 潮語拼音〔潮阳〕 - ℞ `dioion`
+        - 潮語拼音〔揭阳〕 - ℞ `gekion`
+        - 潮語拼音〔汕头〕 - ℞ `suantau`
+        - 潮語拼音〔澄海〕 - ℞ `tenghai`
+        - 潮語拼音〔饒平〕 - ℞ `riaupeng`
     - 潮汕话輸入方案
-        - 潮語 - `diege_j`
-        - 潮語（帶潮語形聲鍵盤） - `diege`
-        - 潮語（形聲鍵盤） - `diege_gb`
+        - 潮語 - ℞ `diege_j`
+        - 潮語（帶潮語形聲鍵盤） - ℞ `diege`
+        - 潮語（形聲鍵盤） - ℞ `diege_gb`
 - Hakka
-    - 客拼 - `hakka_pinyin`
+    - 客拼 - ℞ `hakka_pinyin`
 - Wu (Goetian)
-    - 蘇州吳語 - `soutzoe`
+    - 蘇州吳語 - ℞`soutzoe`
     - 上海吳語輸入方案 
-        - 上海吳語 - `wugniu_lopha`
-        - 上海新派 - `wugniu`
+        - 上海吳語 - ℞ `wugniu_lopha`
+        - 上海新派 - ℞ `wugniu`
     - 吳語注音輸入方案吳語學堂版
-        - 吳語（桐鄉） - `wugniu_donshian`
-        - 吳語（寧波） - `wugniu_gninpou`
-        - 吳語（海寧） - `wugniu_haegnin`
-        - 吳語（海鹽） - `wugniu_haeye`
-        - 吳語（永嘉） - `wugniu_ionko`
-        - 吳語（嘉善） - `wugniu_kazoe`
-        - 吳語（嘉興） - `wugniu_kashin`
-        - 吳語（松江） - `wugniu_sonkaon`
-        - 吳語（蘇州） - `wugniu_soutseu`
-        - 吳語（上海） - `wugniu_zaonhe`
-    - 標準吳語 - `pcngng`
+        - 吳語（桐鄉） - ℞ `wugniu_donshian`
+        - 吳語（寧波） - ℞ `wugniu_gninpou`
+        - 吳語（海寧） - ℞ `wugniu_haegnin`
+        - 吳語（海鹽） - ℞ `wugniu_haeye`
+        - 吳語（永嘉） - ℞ `wugniu_ionko`
+        - 吳語（嘉善） - ℞ `wugniu_kazoe`
+        - 吳語（嘉興） - ℞ `wugniu_kashin`
+        - 吳語（松江） - ℞ `wugniu_sonkaon`
+        - 吳語（蘇州） - ℞ `wugniu_soutseu`
+        - 吳語（上海） - ℞ `wugniu_zaonhe`
+    - 標準吳語 - ℞ `pcngng`
 - Jin
-    - 晋拼解州片 - `haitrou`
+    - 晋拼解州片 - ℞ `haitrou`
 - Mandarin
     - 中原官話洛陽方言
-        - 洛陽羅馬字 - `lakyang`
-        - 洛陽註音 - `lakyang_chuim`
+        - 洛陽羅馬字 - ℞ `lakyang`
+        - 洛陽註音 - ℞ `lakyang_chuim`
     - 中原官話輸入方案
-        - 中州羅馬字 - `zhung`
-        - 中州打字速記法 - `zhung_stenotype`
-        - 中州注音法（四十二鍵） - `zhung_42`
-        - 中州羅馬字（並擊） - `zhung_combo`
-        - 中州注音法（轉寫） - `zhung_transcript`
-        - 中州注音法（並擊） - `zhung_combo_transcript`
+        - 中州羅馬字 - ℞ `zhung`
+        - 中州打字速記法 - ℞ `zhung_stenotype`
+        - 中州注音法（四十二鍵） - ℞ `zhung_42`
+        - 中州羅馬字（並擊） - ℞ `zhung_combo`
+        - 中州注音法（轉寫） - ℞ `zhung_transcript`
+        - 中州注音法（並擊） - ℞ `zhung_combo_transcript`
     - 棗莊話羅馬字輸入方案
-        - 嶧州話傳統羅馬字 - `yihdjoouhuah`
-        - 嶧州話羅馬字 - `yihjoouhuah_romatzyh`
-    - 南京官話拼音 - `langjin`
+        - 嶧州話傳統羅馬字 - ℞ `yihdjoouhuah`
+        - 嶧州話羅馬字 - ℞ `yihjoouhuah_romatzyh`
+    - 南京官話拼音 - ℞ `langjin`
 - Foreign Dialects
-    - 옛한글・漢字 - `qyeyshanglr_hanja`
-    - 한글・漢字 - `hangyl_hanja`
-    - 한글 - `hangyl`
-    - poly日文 - `jap_poly`
-    - 古壮字拼音 - `sawndip`
-    - 輸入法𡨸漢喃 - `hannomPS`
+    - 옛한글・漢字 - ℞ `qyeyshanglr_hanja`
+    - 한글・漢字 - ℞ `hangyl_hanja`
+    - 한글 - ℞ `hangyl`
+    - poly日文 - ℞ `jap_poly`
+    - 古壮字拼音 - ℞ `sawndip`
+    - 輸入法𡨸漢喃 - ℞ `hannomPS`
 
 For detailed information of the collected schemas in the download packege, please see the [release](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) page.
 
