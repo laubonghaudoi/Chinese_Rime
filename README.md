@@ -23,7 +23,7 @@
 
 ## 已收錄方案
 
-目前總共收錄40門語言/方言的74個方案（上古漢語和中古漢語各算一門語言）。**主要缺失閩北語、閩中語、邵將語、瓊雷話、平話、湘語、贛語、徽語、西南官話、蘭銀官話、膠遼官話**的輸入方案，如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@qq.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
+目前總共收錄46門語言/方言的80個方案（上古漢語和中古漢語各算一門語言）。**主要缺失閩北語、閩中語、邵將語、瓊雷話、平話、湘語、贛語、徽語、蘭銀官話、膠遼官話**的輸入方案，如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@qq.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
 - 上古漢語
     - 上古全拼 - ℞ `dkzp`
@@ -114,6 +114,13 @@
         - 嶧州話傳統羅馬字 - ℞ `yihdjoouhuah`
         - 嶧州話羅馬字 - ℞ `yihjoouhuah_romatzyh`
     - 南京官話拼音 - ℞ `langjin`
+    - 蜀拼
+        - 蜀拼通音 - ℞ `shupin_tongyin`
+        - 蜀拼-成都 - ℞ `shupin_cendu`
+        - 蜀拼-重慶 - ℞ `shupin_congqin`
+        - 蜀拼-貴陽 - ℞ `shupin_guiyang`
+        - 蜀拼-宜賓 - ℞ `shupin_libin`
+        - 蜀拼-自貢 - ℞ `shupin_zigong`
 - 域外方音
     - 옛한글・漢字 - ℞ `qyeyshanglr_hanja`
     - 한글・漢字 - ℞ `hangyl_hanja`
@@ -200,6 +207,7 @@
 - [LeiMaau](https://github.com/leimaau)
 - [lois.左](https://github.com/xunux)
 - [osfans](https://github.com/osfans)
+- [Papnas](https://github.com/Papnas)
 - [Patrick T.](https://github.com/Patricivs)
 - [Tenda Huang](https://github.com/Kahaani)
 - [tsauibusato](https://github.com/tsauibusato)
@@ -252,7 +260,7 @@ Steps are the similar under Linux, OS X and other versions of Windows operating 
 
 ## Collected Schemas
 
-At the moment there are 74 schemas for 40 languages/dialects collected (old Chinese and middle Chinese are counted as one language respectively), and still **missing the schemas for Northern Min, Central Min, Shao-Jiang Min, Qiongleihua, Pinghua, Xiang, Gan, Huizhou, Lan–Yin Mandarin, Southwestern Mandarin**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@qq.com) or open a new issue to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
+At the moment there are 80 schemas for 46 languages/dialects collected (old Chinese and middle Chinese are counted as one language respectively), and still **missing the schemas for Northern Min, Central Min, Shao-Jiang Min, Qiongleihua, Pinghua, Xiang, Gan, Huizhou, Lan–Yin Mandarin, Southwestern Mandarin**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@qq.com) or open a new issue to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
 
 - Old Chinese
     - 上古全拼 - ℞ `dkzp`
@@ -343,6 +351,13 @@ At the moment there are 74 schemas for 40 languages/dialects collected (old Chin
         - 嶧州話傳統羅馬字 - ℞ `yihdjoouhuah`
         - 嶧州話羅馬字 - ℞ `yihjoouhuah_romatzyh`
     - 南京官話拼音 - ℞ `langjin`
+    - 蜀拼
+        - 蜀拼通音 - ℞ `shupin_tongyin`
+        - 蜀拼-成都 - ℞ `shupin_cendu`
+        - 蜀拼-重慶 - ℞ `shupin_congqin`
+        - 蜀拼-貴陽 - ℞ `shupin_guiyang`
+        - 蜀拼-宜賓 - ℞ `shupin_libin`
+        - 蜀拼-自貢 - ℞ `shupin_zigong`
 - Foreign Dialects
     - 옛한글・漢字 - ℞ `qyeyshanglr_hanja`
     - 한글・漢字 - ℞ `hangyl_hanja`
@@ -430,6 +445,7 @@ For detailed information of the collected schemas in the download packege, pleas
 - [LeiMaau](https://github.com/leimaau)
 - [lois.左](https://github.com/xunux)
 - [osfans](https://github.com/osfans)
+- [Papnas](https://github.com/Papnas)
 - [Patrick T.](https://github.com/Patricivs)
 - [Tenda Huang](https://github.com/Kahaani)
 - [tsauibusato](https://github.com/tsauibusato)
