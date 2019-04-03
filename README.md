@@ -23,7 +23,7 @@
 
 ## 已收錄方案
 
-目前總共收錄46門語言/方言的80個方案（上古漢語和中古漢語各算一門語言）。**主要缺失閩北語、閩中語、邵將語、瓊雷話、平話、湘語、贛語、徽語、蘭銀官話、膠遼官話**的輸入方案，如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@qq.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
+目前總共收錄46門語言/方言的80個方案（上古漢語和中古漢語各计作一門語言）。**主要缺失閩北語、閩中語、邵將語、瓊雷話、平話、湘語、贛語、徽語、蘭銀官話、膠遼官話**的輸入方案，如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@qq.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
 - 上古漢語
     - 上古全拼 - ℞ `dkzp`
@@ -184,7 +184,9 @@
     - [复旦大学东亚语言数据中心](http://ccdc.fudan.edu.cn)
     - [家乡话](http://jiaxianghua.org)
     - [鄉音苑](http://phonemica.net/)
+    - [小學堂](http://xiaoxue.iis.sinica.edu.tw/)
     - [韻典網](https://ytenx.org/)
+    - [粵語審音配詞字庫](http://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/)
     - [古今文字集成](http://www.ccamc.co/index.php)
     - [篇韻データベース](http://suzukish.s252.xrea.com/search/)
 - 輸入法軟件
@@ -421,7 +423,9 @@ For detailed information of the collected schemas in the download packege, pleas
     - [复旦大学东亚语言数据中心](http://ccdc.fudan.edu.cn)
     - [家乡话](http://jiaxianghua.org)
     - [Phonemica](http://phonemica.net/)
+    - [小學堂](http://xiaoxue.iis.sinica.edu.tw/)
     - [韻典網](https://ytenx.org/)
+    - [粵語審音配詞字庫](http://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/)
     - [古今文字集成](http://www.ccamc.co/index.php)
     - [篇韻データベース](http://suzukish.s252.xrea.com/search/)
 - Input method software
