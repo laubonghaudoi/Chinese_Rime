@@ -200,6 +200,7 @@ translator:
     - xform/eo5/o5/ #啓用此行表示不分入聲戈歌
     - xform/5($|(◎.+$))/2$1/   #啓用此行表示入派陽平
     - xform/^ni/li/ #啓用此行表示ni, ni->li, li-
+    - xform/^nv/lv/
     - xform/^zyi/ji/    #zyi>ji
     - xform/^cyi/qi/    #cyi>qi
     - xform/^syi/xi/    #syi>xi
@@ -279,6 +280,7 @@ reverse_lookup:
     - xform/eo5/o5/ #啓用此行表示不分入聲戈歌
     - xform/5($|(◎.+$))/2$1/   #啓用此行表示入派陽平
     - xform/^ni/li/ #啓用此行表示ni, ni->li, li-
+    - xform/^nv/lv/
     - xform/^zyi/ji/    #zyi>ji
     - xform/^cyi/qi/    #cyi>qi
     - xform/^syi/xi/    #syi>xi

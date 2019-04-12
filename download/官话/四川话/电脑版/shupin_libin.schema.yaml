@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 schema:
-  schema_id: shupin_congqin
-  name: 蜀拼-重慶
+  schema_id: shupin_libin
+  name: 蜀拼-宜賓
   version: "0.99"
   author:
     - Ciphotis <Keepout2010@163.com>
@@ -14,7 +14,7 @@ schema:
   description: |
     「四川話通音」，以符號按鍵 - < \ / q 輸入五聲
   dependencies:
-    - luna_pinyin
+    - cangjie5
 
 switches:
   - name: ascii_mode
@@ -58,32 +58,32 @@ speller:
   initials: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
-
-#顯示釋意註釋
     - xform/◎.+$//
-
-#特字部分
+#雜項部分
+    - xform/([dtlzcs])un/$1en/	#啓用此行表示dtlzcs+un都併入en
     - xform/Ddi/le/	#的字讀音
-    - xform/Dqu4/qie4/	#去字讀音
+    - xform/Dqu4/jie5/	#去字讀音
 #    - xform/Dlu5/liu2/	#六字讀音
-#    - xform/C//
-
-#銳音un韻
-    - derive/([dtlzcs])un/$1en/ #啓用此行表示dtlzcs+un都併入en
 
 #通入部分
-#    - xform/^([jqx])u5$/$1io5/	#啓用此行表示通入讀io
-#    - xform/^([zcs])v5$/$1io5/	#啓用此行表示通入讀io
-#    - xform/^([zcs])u5$/$1io5/	#啓用此行表示通入讀io
-#    - xform/^yu5$/yo5/	#啓用此行表示通入讀io
-    - xform/^([jqx])u5$/$1vu5/	#啓用此行表示通入讀üu
-    - xform/^([zcs])v5$/$1vu5/	#啓用此行表示通入讀üu
-    - xform/^([zcs])u5$/$1vu5/	#啓用此行表示通入讀üu
-    - xform/^yu5$/yvu5/	#啓用此行表示通入讀üu
+    - xform/^([jqx])u5$/$1io5/	#啓用此行表示通入讀io
+    - xform/^([zcs])v5$/$1io5/	#啓用此行表示通入讀io
+    - xform/^([zcs])u5$/$1io5/	#啓用此行表示通入讀io
+    - xform/^yu5$/yo5/	#啓用此行表示通入讀io
+#    - xform/^([jqx])u5$/$1vu5/	#啓用此行表示通入讀üu
+#    - xform/^([zcs])v5$/$1vu5/	#啓用此行表示通入讀üu
+#    - xform/^([zcs])u5$/$1vu5/	#啓用此行表示通入讀üu
+#    - xform/^yu5$/yvu5/	#啓用此行表示通入讀üu
 #    - xform/^([zcs])u5$/$1v5/	#啓用此行表示通入讀ü
+#    - derive/^([qx])u5$/$1io5/  #成都特殊设定・屈蓄v/io两可
+#    - xform/^su5$/sv5/          #成都特殊设定・速俗v/io两可
+#    - derive/^sv5$/sio5/        #成都特殊设定・速俗v/io两可
+#    - derive/^zu5$/zv5/         #成都特殊设定・卒足u/v/io三可
+#    - derive/^zu5$/zio5/        #成都特殊设定・卒足u/v/io三可
+#    - derive/^yu5$/yo5/         #成都特殊设定・域欲yu/yo两可
 
 #入聲派向部分
-    - xform/5$/2/	#啓用此行表示入派陽平
+#    - xform/5$/2/	#啓用此行表示入派陽平
 #    - xform/5$/4/	#啓用此行表示入派去聲
 #    - xform/5$/1/	#啓用此行表示入派陰平
 
@@ -93,15 +93,17 @@ speller:
 
 #入聲部分（岷江適用）注意順序以及配合上方戈歌部分
 #    - xform/ie5/i5/	#啓用此行表示ieq>iq
-#    - xform/i5/ie5/	#啓用此行表示iq>ieq，注意和上行區分
+    - xform/i5/ie5/	#啓用此行表示iq>ieq，注意和上行區分
+    - xform/yie5/ye5/
 #    - xform/([gkh])?e5/eo5/	#啓用此行表示喉音eq>eoq
-#    - xform/ue5/o5/	#啓用此行表示ueq>oq
-#    - xform/ve5/o5/	#啓用此行表示üeq>oq
+    - xform/ue5/o5/	#啓用此行表示ueq>oq
+#    - xform/ve5/io5/	#啓用此行表示üeq>oq
 #    - xform/e5/a5/	#啓用此行表示eq>aq
-#    - xform/u5/o5/	#啓用此行表示uq>oq
+    - xform/u5/o5/	#啓用此行表示uq>oq
 
 #泥來部分
     - xform/^ni/li/	#啓用此行表示ni, ni->li, li-
+    - xform/^nv/lv/
 #    - xform/^ni/y/	#啓用此行表示ni->y-
 #    - xform/^ni([12345])$/yi$1/	#啓用此行表示ni>yi
 
@@ -117,14 +119,16 @@ speller:
     - xform/^sv/xu/	#sü>xu, sü->xu-
     - xform/^sv/xu/	#sü>xu, sü->xu-
 
-    - xform/^yv/yu/ #yü>yu, yü->yu-
-
-#平翹部分
-    - xform/^([zcs])h/$1/   #啓用此行表示無翹舌
+#平翘部分
+    - xform/^([zcs])h/$1/  #啓用此行表示無翹舌
 
 #h、f部分
     - xform/^hu([12345])$/fu$1/	#hu>fu
 #    - xform/^hu([a-z]+)/f$1/	#hu->f-
+
+    - xform/ie([1234])$/i$1/
+    - xform/ye([1234])$/yi$1/
+    - xform/^([zcsr])e([1234])$/$1ei$2/
 
     - xform/D//	#特字標記略去
     - derive/ngo([12345])/wo$1/	#「我」系列的略拼
@@ -143,7 +147,7 @@ speller:
 translator:
   dictionary: shupin
   enable_charset_filter: true
-  prism: shupin_congqin
+  prism: shupin_tongyin
   spelling_hints: 1  # 〜字以內候選標註完整帶調拼音
   preedit_format:
     - xform/◎.+$//
@@ -188,31 +192,37 @@ translator:
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
   comment_format:
-    #針對重慶音系
+    #宜賓音系
+    - xform/([dtlzcs])un/$1en/  #啓用此行表示dtlzcs+un都併入en
     - xform/Ddi/le/ #的字讀音
-    - xform/Dqu4/qie4/  #去字讀音
-    - derive/([dtlzcs])un/$1en/ #啓用此行表示dtlzcs+un都併入en
-    - xform/^([jqx])u5($|(◎.+$))/$1vu5$2/  #啓用此行表示通入讀üu
-    - xform/^([zcs])v5($|(◎.+$))/$1vu5$2/  #啓用此行表示通入讀üu
-    - xform/^([zcs])u5($|(◎.+$))/$1vu5$2/  #啓用此行表示通入讀üu
-    - xform/^yu5($|(◎.+$))/yvu5$1/ #啓用此行表示通入讀üu
-    - xform/eo([1234])$/o$1/    #啓用此行表示不分舒聲戈歌
+    - xform/Dqu4/jie5/  #去字讀音
+    - xform/^([jqx])u5$/$1io5/  #啓用此行表示通入讀io
+    - xform/^([zcs])v5$/$1io5/  #啓用此行表示通入讀io
+    - xform/^([zcs])u5$/$1io5/  #啓用此行表示通入讀io
+    - xform/^yu5$/yo5/  #啓用此行表示通入讀io
+    - xform/eo([1234])$/o$1/  #啓用此行表示不分舒聲戈歌
     - xform/eo5/o5/ #啓用此行表示不分入聲戈歌
-    - xform/5($|(◎.+$))/2$1/   #啓用此行表示入派陽平
+    - xform/i5/ie5/ #啓用此行表示iq>ieq，注意和上行區分
+    - xform/yie5/ye5/
+    - xform/ue5/o5/ #啓用此行表示ueq>oq
+    - xform/u5/o5/  #啓用此行表示uq>oq
     - xform/^ni/li/ #啓用此行表示ni, ni->li, li-
-    - xform/^zyi/ji/    #zyi>ji
-    - xform/^cyi/qi/    #cyi>qi
-    - xform/^syi/xi/    #syi>xi
-    - xform/^zi([a-z]+)/ji$1/   #zi->ji-
-    - xform/^ci([a-z]+)/qi$1/   #ci->qi-
-    - xform/^si([a-z]+)/xi$1/   #si->xi-
+    - xform/^nv/lv/
+    - xform/^zyi/ji/  #zyi>ji
+    - xform/^cyi/qi/  #cyi>qi
+    - xform/^syi/xi/  #syi>xi
+    - xform/^zi([a-z]+)/ji$1/ #zi->ji-
+    - xform/^ci([a-z]+)/qi$1/ #ci->qi-
+    - xform/^si([a-z]+)/xi$1/ #si->xi-
     - xform/^zv/ju/ #zü>ju, zü->ju-
     - xform/^cv/qu/ #cü>qu, cü->qu-
     - xform/^sv/xu/ #sü>xu, sü->xu-
     - xform/^sv/xu/ #sü>xu, sü->xu-
-    - xform/^yv/yu/
-    - xform/^([zcs])h/$1/   #啓用此行表示無翹舌
+    - xform/^([zcs])h/$1/  #啓用此行表示無翹舌
     - xform/^hu([12345])$/fu$1/ #hu>fu
+    - xform/ie([1234])$/i$1/
+    - xform/ye([1234])$/yi$1/
+    - xform/^([zcsr])e([1234])$/$1ei$2/
 
     - xform/^(.*)$/〔$1〕
     - xform 了 liào
@@ -267,31 +277,37 @@ reverse_lookup:
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
   comment_format:
-    #針對重慶音系
+    #宜賓音系
+    - xform/([dtlzcs])un/$1en/  #啓用此行表示dtlzcs+un都併入en
     - xform/Ddi/le/ #的字讀音
-    - xform/Dqu4/qie4/  #去字讀音
-    - derive/([dtlzcs])un/$1en/ #啓用此行表示dtlzcs+un都併入en
-    - xform/^([jqx])u5($|(◎.+$))/$1vu5$2/  #啓用此行表示通入讀üu
-    - xform/^([zcs])v5($|(◎.+$))/$1vu5$2/  #啓用此行表示通入讀üu
-    - xform/^([zcs])u5($|(◎.+$))/$1vu5$2/  #啓用此行表示通入讀üu
-    - xform/^yu5($|(◎.+$))/yvu5$1/ #啓用此行表示通入讀üu
-    - xform/eo([1234])$/o$1/    #啓用此行表示不分舒聲戈歌
+    - xform/Dqu4/jie5/  #去字讀音
+    - xform/^([jqx])u5$/$1io5/  #啓用此行表示通入讀io
+    - xform/^([zcs])v5$/$1io5/  #啓用此行表示通入讀io
+    - xform/^([zcs])u5$/$1io5/  #啓用此行表示通入讀io
+    - xform/^yu5$/yo5/  #啓用此行表示通入讀io
+    - xform/eo([1234])$/o$1/  #啓用此行表示不分舒聲戈歌
     - xform/eo5/o5/ #啓用此行表示不分入聲戈歌
-    - xform/5($|(◎.+$))/2$1/   #啓用此行表示入派陽平
+    - xform/i5/ie5/ #啓用此行表示iq>ieq，注意和上行區分
+    - xform/yie5/ye5/
+    - xform/ue5/o5/ #啓用此行表示ueq>oq
+    - xform/u5/o5/  #啓用此行表示uq>oq
     - xform/^ni/li/ #啓用此行表示ni, ni->li, li-
-    - xform/^zyi/ji/    #zyi>ji
-    - xform/^cyi/qi/    #cyi>qi
-    - xform/^syi/xi/    #syi>xi
-    - xform/^zi([a-z]+)/ji$1/   #zi->ji-
-    - xform/^ci([a-z]+)/qi$1/   #ci->qi-
-    - xform/^si([a-z]+)/xi$1/   #si->xi-
+    - xform/^nv/lv/
+    - xform/^zyi/ji/  #zyi>ji
+    - xform/^cyi/qi/  #cyi>qi
+    - xform/^syi/xi/  #syi>xi
+    - xform/^zi([a-z]+)/ji$1/ #zi->ji-
+    - xform/^ci([a-z]+)/qi$1/ #ci->qi-
+    - xform/^si([a-z]+)/xi$1/ #si->xi-
     - xform/^zv/ju/ #zü>ju, zü->ju-
     - xform/^cv/qu/ #cü>qu, cü->qu-
     - xform/^sv/xu/ #sü>xu, sü->xu-
     - xform/^sv/xu/ #sü>xu, sü->xu-
-    - xform/^yv/yu/
-    - xform/^([zcs])h/$1/   #啓用此行表示無翹舌
+    - xform/^([zcs])h/$1/  #啓用此行表示無翹舌
     - xform/^hu([12345])$/fu$1/ #hu>fu
+    - xform/ie([1234])$/i$1/
+    - xform/ye([1234])$/yi$1/
+    - xform/^([zcsr])e([1234])$/$1ei$2/
 
     - xform/^(.*)$/〔$1〕
     - xform ([aeiouv])(ng?|r)([1234q]) $1$3$2

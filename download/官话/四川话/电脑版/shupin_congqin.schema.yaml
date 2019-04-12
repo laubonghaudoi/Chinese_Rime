@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 schema:
-  schema_id: shupin_guiyang
-  name: 蜀拼-貴陽
+  schema_id: shupin_congqin
+  name: 蜀拼-重慶
   version: "0.99"
   author:
     - Ciphotis <Keepout2010@163.com>
@@ -188,7 +188,7 @@ translator:
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
   comment_format:
-    #針對貴陽音系
+    #針對重慶音系
     - xform/Ddi/le/ #的字讀音
     - xform/Dqu4/qie4/  #去字讀音
     - derive/([dtlzcs])un/$1en/ #啓用此行表示dtlzcs+un都併入en
@@ -200,6 +200,7 @@ translator:
     - xform/eo5/o5/ #啓用此行表示不分入聲戈歌
     - xform/5($|(◎.+$))/2$1/   #啓用此行表示入派陽平
     - xform/^ni/li/ #啓用此行表示ni, ni->li, li-
+    - xform/^nv/lv/
     - xform/^zyi/ji/    #zyi>ji
     - xform/^cyi/qi/    #cyi>qi
     - xform/^syi/xi/    #syi>xi
@@ -267,7 +268,7 @@ reverse_lookup:
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
   comment_format:
-    #針對貴陽音系
+    #針對重慶音系
     - xform/Ddi/le/ #的字讀音
     - xform/Dqu4/qie4/  #去字讀音
     - derive/([dtlzcs])un/$1en/ #啓用此行表示dtlzcs+un都併入en
@@ -279,6 +280,7 @@ reverse_lookup:
     - xform/eo5/o5/ #啓用此行表示不分入聲戈歌
     - xform/5($|(◎.+$))/2$1/   #啓用此行表示入派陽平
     - xform/^ni/li/ #啓用此行表示ni, ni->li, li-
+    - xform/^nv/lv/
     - xform/^zyi/ji/    #zyi>ji
     - xform/^cyi/qi/    #cyi>qi
     - xform/^syi/xi/    #syi>xi

@@ -103,6 +103,7 @@ speller:
 
 #泥來部分
     - xform/^ni/li/	#啓用此行表示ni, ni->li, li-
+    - xform/^nv/lv/
 #    - xform/^ni/y/	#啓用此行表示ni->y-
 #    - xform/^ni([12345])$/yi$1/	#啓用此行表示ni>yi
 
@@ -205,6 +206,8 @@ translator:
     - xform/yie5/ye5/
     - xform/ue5/o5/ #啓用此行表示ueq>oq
     - xform/u5/o5/  #啓用此行表示uq>oq
+    - xform/^ni/li/ #啓用此行表示ni, ni->li, li-
+    - xform/^nv/lv/
     - xform/^zyi/ji/  #zyi>ji
     - xform/^cyi/qi/  #cyi>qi
     - xform/^syi/xi/  #syi>xi
@@ -288,6 +291,8 @@ reverse_lookup:
     - xform/yie5/ye5/
     - xform/ue5/o5/ #啓用此行表示ueq>oq
     - xform/u5/o5/  #啓用此行表示uq>oq
+    - xform/^ni/li/ #啓用此行表示ni, ni->li, li-
+    - xform/^nv/lv/
     - xform/^zyi/ji/  #zyi>ji
     - xform/^cyi/qi/  #cyi>qi
     - xform/^syi/xi/  #syi>xi
@@ -303,7 +308,6 @@ reverse_lookup:
     - xform/ie([1234])$/i$1/
     - xform/ye([1234])$/yi$1/
     - xform/^([zcsr])e([1234])$/$1ei$2/
-
 
     - xform/^(.*)$/〔$1〕
     - xform ([aeiouv])(ng?|r)([1234q]) $1$3$2

@@ -8,14 +8,14 @@
 
 ---
 name: shupin	#名稱
-version: "2019.4.1"	#版本
+version: "2019.3.30"	#版本
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
-- tongyinceshi.mas	#四川方言詞典結束、音韻學術語、雜項（所有增補詞彙都放在這）
-- tongyinceshi.add	#批量收入的語言學術語、化學用語
-- tongyinceshi.kaomoji	#顏文字測試
-- tongyinceshi.chengyusinsyiq	#蜀地名
+#- tongyinceshi.mas	#四川方言詞典結束、音韻學術語、雜項（所有增補詞彙都放在這）
+#- tongyinceshi.add	#批量收入的語言學術語、化學用語
+#- tongyinceshi.kaomoji	#顏文字測試
+#- tongyinceshi.chengyusinsyiq	#蜀地名
 #- luna_pinyin.base
 #- luna_pinyin.hanyu
 #- luna_pinyin.poetry
@@ -1396,7 +1396,7 @@ import_tables:
 釣	diao4			
 銱	diao4			
 掉	diao4		#	2
-調	diao4	2	#	2
+調	diao4		#	2
 銚	diao4		#	3
 爹	die1			
 跌	die5			
@@ -1490,7 +1490,7 @@ import_tables:
 侗	dong4		#	2
 兜	dou1			
 篼	dou1			
-都	dou1	100000%		
+都	dou1	1000	
 陡	dou3			
 蚪	dou3			
 斗	dou3			
@@ -1505,7 +1505,7 @@ import_tables:
 𢭃	dou4			
 讀	dou4	2	#	2
 嘟	du1			
-都	du1			
+都	du1	500		
 闍	du1	2	#	2
 堵	du3			
 睹	du3			

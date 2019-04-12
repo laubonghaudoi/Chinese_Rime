@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 schema:
-  schema_id: shupin_guiyang
-  name: 蜀拼-貴陽
+  schema_id: shupin_congqin
+  name: 蜀拼-重慶
   version: "0.99"
   author:
     - Ciphotis <Keepout2010@163.com>
@@ -54,7 +54,7 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: 'zyxwvutsrqponmlkjihgfedcba-;/<,>\'
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba'
   initials: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
@@ -102,7 +102,6 @@ speller:
 
 #泥來部分
     - xform/^ni/li/	#啓用此行表示ni, ni->li, li-
-    - xform/^nv/lv/
 #    - xform/^ni/y/	#啓用此行表示ni->y-
 #    - xform/^ni([12345])$/yi$1/	#啓用此行表示ni>yi
 
@@ -189,7 +188,7 @@ translator:
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
   comment_format:
-    #針對貴陽音系
+    #針對重慶音系
     - xform/Ddi/le/ #的字讀音
     - xform/Dqu4/qie4/  #去字讀音
     - derive/([dtlzcs])un/$1en/ #啓用此行表示dtlzcs+un都併入en
@@ -269,7 +268,7 @@ reverse_lookup:
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
   comment_format:
-    #針對貴陽音系
+    #針對重慶音系
     - xform/Ddi/le/ #的字讀音
     - xform/Dqu4/qie4/  #去字讀音
     - derive/([dtlzcs])un/$1en/ #啓用此行表示dtlzcs+un都併入en
