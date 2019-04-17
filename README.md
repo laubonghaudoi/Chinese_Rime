@@ -23,7 +23,11 @@
 
 ## 已收錄方案
 
-目前總共收錄46門語言/方言的80個方案（上古漢語和中古漢語各计作一門語言）。**主要缺失閩北語、閩中語、邵將語、瓊雷話、平話、湘語、贛語、徽語、蘭銀官話、膠遼官話**的輸入方案，如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
+目前主要**缺失閩北語、閩中語、邵將語、瓊雷話、平話、湘語、贛語、徽語、蘭銀官話、膠遼官話**的輸入方案，如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
+
+以下爲方案總表和配方列表，目前總共收錄32個配方的81個方案。
+
+### 方案列表（共81個方案）
 
 <ul>
   <li>
@@ -308,7 +312,7 @@
   </li>
   <li>
     <details>
-      <summary>莆仙語（興化語）</summary>
+      <summary>莆仙語</summary>
       <ul>
         <li>
           興化工廠 ℞ <code>Yaryou/HinghuaFactory</code>
@@ -373,6 +377,137 @@
   </li>
 </ul>
 
+---
+
+### 配方列表（共32個配方）
+
+<ul>
+  <li>
+    <details>
+      <summary>中古漢語</summary>
+      <ul>
+        <li>
+          中古漢語（切韻音系）全拼及三拼 ℞
+          <code>biopolyhedron/rime-middle-chinese</code>
+        </li>
+        <li>爾切羅馬字 ℞ <code>rime-aca/rime-nieh-ched</code></li>
+        <li>廣韻段毄攴字灋 ℞ <code>rime-aca/rime-kmg</code></li>
+        <li>中古四拼 ℞ <code>inzoi/inzoi.github.io</code></li>
+        <li>唐韻（中古漢語）拼音方案 ℞ <code>rime-aca/rime-dangrvond</code></li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>中原官話</summary>
+      <ul>
+        <li>中原官話洛陽方言 ℞ <code>Patricivs/lakyang</code></li>
+        <li>中原官話輸入方案 ℞ <code>lotem/rime-zhung</code></li>
+        <li>棗莊話羅馬字輸入方案 ℞ <code>tsauibusato/yihdjoouhuah </code></li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>江淮官話</summary>
+      <ul>
+        <li>南京話拼音输入法 ℞ <code>uliloewi/lang2jin1</code></li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>西南官話</summary>
+      <ul>
+        <li>蜀拼 ℞ <code>Papnas/shupin</code></li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>吳語</summary>
+      <ul>
+        <li>上海吳語拼音輸入方案 ℞ <code>NGLI/rime-wugniu_zaonhe</code></li>
+        <li>蘇州吳語拼音輸入方案 ℞ <code>NGLI/rime-wugniu_soutseu</code></li>
+        <li>
+          寧波吳語注音輸入方案吳語學堂版 ℞
+          <code>NGLI/rime-wugniu_gninpou</code>
+        </li>
+        <li>
+          嘉興（五縣兩區）吳語拼音輸入方案 ℞
+          <code>NGLI/rime-wugniu_kashin</code>
+        </li>
+        <li>吳語·上海話 ℞ <code>rime/rime-wugniu</code></li>
+        <li>蘇州吳語 ℞ <code>rime/rime-soutzoe</code></li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>粵語</summary>
+      <ul>
+        <li>粵拼 ℞ <code>rime/rime-jyutping</code></li>
+        <li>粵拼⁺ ℞ <code>rime-aca/rime-jyutping-plus</code></li>
+        <li>粵語注音 ℞ <code>rime-aca/rime-zyujam</code></li>
+        <li>袖珍粵拼 ℞ <code>rime-aca/rime-jyutping-compact</code></li>
+        <li>南寧白話輸入方案 ℞ <code>leimaau/naamning_jyutping</code></li>
+        <li>
+          沟漏片藤县白话输入方案 ℞
+          <code>cryptogun/rime-jutjnyu_gaulaupin_dangjunbikwaa</code>
+        </li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>閩東語</summary>
+      <ul>
+        <li>平話字表 (閩東語‣福州話) ℞ <code>only3km/ciklinbekin</code></li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>閩南語</summary>
+      <ul>
+        <li>閩南語輸入方案 ℞ <code>a-thok/rime-hokkien</code></li>
+        <li>閩南語拼音輸入方案 ℞ <code>LimTo/etaiBLG</code></li>
+        <li>潮语拼音输入法 ℞ <code>kahaani/dieghv</code></li>
+        <li>潮汕话輸入方案 ℞ <code>femkerr/dieghe</code></li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>莆仙語</summary>
+      <ul>
+        <li>興化工廠 ℞ <code>Yaryou/HinghuaFactory</code></li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>客家話</summary>
+      <ul>
+        <li>崇正客語輸入法 ℞ <code>xunux/hakka-culture</code></li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>域外方音</summary>
+      <ul>
+        <li>한글 ℞ <code>rime-aca/rime-hangyl</code></li>
+        <li>
+          옛한글・漢字 ℞ <code>biopolyhedron/rime-qyeyshanglr-hanja</code>
+        </li>
+        <li>poly日文 ℞ <code>biopolyhedron/rime-jap-poly </code></li>
+      </ul>
+    </details>
+  </li>
+</ul>
+
+---
 
 下載包內方案信息詳見[發佈](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases)頁面。
 
@@ -486,13 +621,13 @@ This repo works as three parts:
 
 ## Tutorial
 
-### Detailed Introduction (Project Website)
+### Detailed introduction (Project Website)
 
 For detailed steps and explanations, check out this website (Chinese only):
 
 ### [**漢語方言拼音輸入**](https://laubonghaudoi.github.io/dialects/)
 
-### Short Introduction
+### Short introduction
 
 To deploy a certain schema to your Rime input method, simply copy the `.dict.yaml` and `.schema.yaml` to the user folder, then append the schema id in `default.yaml` and re-deploy.
 
@@ -511,7 +646,11 @@ Steps are the similar under Linux, OS X and other versions of Windows operating 
 
 ## Collected Schemas
 
-At the moment there are 80 schemas for 46 languages/dialects collected (old Chinese and middle Chinese are counted as one language respectively), and still **missing the schemas for Northern Min, Central Min, Shao-Jiang Min, Qiongleihua, Pinghua, Xiang, Gan, Huizhou, Lan–Yin Mandarin, Southwestern Mandarin**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or open a new issue to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
+At the moment we have collected 32 recipes of 81 schemas, and still **missing the schemas for Northern Min, Central Min, Shao-Jiang Min, Qiongleihua, Pinghua, Xiang, Gan, Huizhou, Lan–Yin Mandarin, Southwestern Mandarin**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or open a new issue to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
+
+Below are the lists of all collected schemas and recipes.
+
+### Full list of collected schemas
 
 <ul>
   <li>
@@ -860,6 +999,138 @@ At the moment there are 80 schemas for 46 languages/dialects collected (old Chin
     </details>
   </li>
 </ul>
+
+---
+
+### List of recipes
+
+<ul>
+  <li>
+    <details>
+      <summary>中古漢語</summary>
+      <ul>
+        <li>
+          中古漢語（切韻音系）全拼及三拼 ℞
+          <code>biopolyhedron/rime-middle-chinese</code>
+        </li>
+        <li>爾切羅馬字 ℞ <code>rime-aca/rime-nieh-ched</code></li>
+        <li>廣韻段毄攴字灋 ℞ <code>rime-aca/rime-kmg</code></li>
+        <li>中古四拼 ℞ <code>inzoi/inzoi.github.io</code></li>
+        <li>唐韻（中古漢語）拼音方案 ℞ <code>rime-aca/rime-dangrvond</code></li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>中原官話</summary>
+      <ul>
+        <li>中原官話洛陽方言 ℞ <code>Patricivs/lakyang</code></li>
+        <li>中原官話輸入方案 ℞ <code>lotem/rime-zhung</code></li>
+        <li>棗莊話羅馬字輸入方案 ℞ <code>tsauibusato/yihdjoouhuah </code></li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>江淮官話</summary>
+      <ul>
+        <li>南京話拼音输入法 ℞ <code>uliloewi/lang2jin1</code></li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>西南官話</summary>
+      <ul>
+        <li>蜀拼 ℞ <code>Papnas/shupin</code></li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>吳語</summary>
+      <ul>
+        <li>上海吳語拼音輸入方案 ℞ <code>NGLI/rime-wugniu_zaonhe</code></li>
+        <li>蘇州吳語拼音輸入方案 ℞ <code>NGLI/rime-wugniu_soutseu</code></li>
+        <li>
+          寧波吳語注音輸入方案吳語學堂版 ℞
+          <code>NGLI/rime-wugniu_gninpou</code>
+        </li>
+        <li>
+          嘉興（五縣兩區）吳語拼音輸入方案 ℞
+          <code>NGLI/rime-wugniu_kashin</code>
+        </li>
+        <li>吳語·上海話 ℞ <code>rime/rime-wugniu</code></li>
+        <li>蘇州吳語 ℞ <code>rime/rime-soutzoe</code></li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>粵語</summary>
+      <ul>
+        <li>粵拼 ℞ <code>rime/rime-jyutping</code></li>
+        <li>粵拼⁺ ℞ <code>rime-aca/rime-jyutping-plus</code></li>
+        <li>粵語注音 ℞ <code>rime-aca/rime-zyujam</code></li>
+        <li>袖珍粵拼 ℞ <code>rime-aca/rime-jyutping-compact</code></li>
+        <li>南寧白話輸入方案 ℞ <code>leimaau/naamning_jyutping</code></li>
+        <li>
+          沟漏片藤县白话输入方案 ℞
+          <code>cryptogun/rime-jutjnyu_gaulaupin_dangjunbikwaa</code>
+        </li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>閩東語</summary>
+      <ul>
+        <li>平話字表 (閩東語‣福州話) ℞ <code>only3km/ciklinbekin</code></li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>閩南語</summary>
+      <ul>
+        <li>閩南語輸入方案 ℞ <code>a-thok/rime-hokkien</code></li>
+        <li>閩南語拼音輸入方案 ℞ <code>LimTo/etaiBLG</code></li>
+        <li>潮语拼音输入法 ℞ <code>kahaani/dieghv</code></li>
+        <li>潮汕话輸入方案 ℞ <code>femkerr/dieghe</code></li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>莆仙語</summary>
+      <ul>
+        <li>興化工廠 ℞ <code>Yaryou/HinghuaFactory</code></li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>客家話</summary>
+      <ul>
+        <li>崇正客語輸入法 ℞ <code>xunux/hakka-culture</code></li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>域外方音</summary>
+      <ul>
+        <li>한글 ℞ <code>rime-aca/rime-hangyl</code></li>
+        <li>
+          옛한글・漢字 ℞ <code>biopolyhedron/rime-qyeyshanglr-hanja</code>
+        </li>
+        <li>poly日文 ℞ <code>biopolyhedron/rime-jap-poly </code></li>
+      </ul>
+    </details>
+  </li>
+</ul>
+
+---
 
 For detailed information of the collected schemas in the download packege, please see the [release](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) page.
 
