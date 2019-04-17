@@ -63,7 +63,7 @@
 	url = https://github.com/rime-aca/rime-jyutping-plus
 [submodule "sources/粵語/袖珍粵拼"]
 	path = sources/粵語/袖珍粵拼
-	url = https://github.com/rime-aca/rime-jyutping-compact
+	url = https://github.com/rime-aca/rime-jyutping-compact.git
 [submodule "sources/粵語/粵語注音"]
 	path = sources/粵語/粵語注音
 	url = https://github.com/rime-aca/rime-zyujam
@@ -91,3 +91,6 @@
 [submodule "sources/客家話/客拼"]
 	path = sources/客家話/客拼
 	url = https://github.com/xunux/hakka-culture.git
+[submodule "sources/中古漢語/唐韻"]
+	path = sources/中古漢語/唐韻
+	url = https://github.com/rime-aca/rime-dangrvond
