@@ -39,6 +39,7 @@
       <summary>中古漢語</summary>
       <ul>
         <li>
+          中古漢語（切韻音系）全拼及三拼 ℞
           <code>biopolyhedron/rime-middle-chinese</code>
           <ul>
             <li>中古全拼 <code>zyenpheng</code></li>
