@@ -76,7 +76,7 @@ speller:
 #    - xform/^([zcs])v5$/$1io5/	#啓用此行表示通入讀io
 #    - xform/^([zcs])u5$/$1io5/	#啓用此行表示通入讀io
 #    - xform/^yu5$/yo5/	#啓用此行表示通入讀io
-    - xform/^([jqx])u5$/$1vu5/	#啓用此行表示通入讀üu
+    - xform/^([jqx])u5$/$1uu5/	#啓用此行表示通入讀üu
     - xform/^([zcs])v5$/$1vu5/	#啓用此行表示通入讀üu
     - xform/^([zcs])u5$/$1vu5/	#啓用此行表示通入讀üu
     - xform/^yu5$/yvu5/	#啓用此行表示通入讀üu
@@ -193,7 +193,7 @@ translator:
     - xform/Ddi/le/ #的字讀音
     - xform/Dqu4/qie4/  #去字讀音
     - derive/([dtlzcs])un/$1en/ #啓用此行表示dtlzcs+un都併入en
-    - xform/^([jqx])u5($|(◎.+$))/$1vu5$2/  #啓用此行表示通入讀üu
+    - xform/^([jqx])u5($|(◎.+$))/$1uu5$2/  #啓用此行表示通入讀üu
     - xform/^([zcs])v5($|(◎.+$))/$1vu5$2/  #啓用此行表示通入讀üu
     - xform/^([zcs])u5($|(◎.+$))/$1vu5$2/  #啓用此行表示通入讀üu
     - xform/^yu5($|(◎.+$))/yvu5$1/ #啓用此行表示通入讀üu
@@ -273,7 +273,7 @@ reverse_lookup:
     - xform/Ddi/le/ #的字讀音
     - xform/Dqu4/qie4/  #去字讀音
     - derive/([dtlzcs])un/$1en/ #啓用此行表示dtlzcs+un都併入en
-    - xform/^([jqx])u5($|(◎.+$))/$1vu5$2/  #啓用此行表示通入讀üu
+    - xform/^([jqx])u5($|(◎.+$))/$1uu5$2/  #啓用此行表示通入讀üu
     - xform/^([zcs])v5($|(◎.+$))/$1vu5$2/  #啓用此行表示通入讀üu
     - xform/^([zcs])u5($|(◎.+$))/$1vu5$2/  #啓用此行表示通入讀üu
     - xform/^yu5($|(◎.+$))/yvu5$1/ #啓用此行表示通入讀üu
