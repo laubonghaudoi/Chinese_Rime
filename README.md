@@ -12,10 +12,12 @@
 
 本項目同作爲推廣漢語方言拼音輸入的支持項目，關於推廣漢語方言拼音的理念和宗旨詳情請閱讀[本文](https://laubonghaudoi.github.io/dialects/blog/mission.html)。
 
-本倉庫分爲三部分：
-1. `sources/`路徑下爲各個輸入方案的來源倉庫，以submodule的形式保存，方便方案作者實時更新自己的方案。由於部分方案不存在於GitHub，故此路徑下方案收錄不完整，
-2. `data/`路徑下爲已收錄所有方案文件，我會檢查`sources/`下各個方案的更新情況並將最新版本方案覆蓋至`data/`中。
-3. `download/`路徑用於存放各個語言的唯一權威版拼音，即爲[發佈頁面](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases)的下載整合包，方便用戶直接部署使用。
+本倉庫分为四个子文件夹：
+
+1. `sources/`路徑下爲各個輸入方案的來源倉庫，以子模块submodule的形式保存，方便方案作者實時更新自己的方案。由於部分方案不存在於GitHub，故此路徑下方案收錄不完整，
+2. `unmaintained/`路徑下爲从其他渠道收集得的方案文件，此类文件不存在于GitHub上，无人更新维护，不保证可用性。
+3. `download/`用於存放各個語言的唯一權威版拼音，即爲[發佈頁面](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases)的下載整合包，方便用戶直接部署使用。
+4. `resources/`下为关于各个方案的其他资源，如方案白皮书、教程等，方便使用者学习参考。
 
 ## 使用教程（项目网站）
 
@@ -25,7 +27,7 @@
 
 目前主要**缺失閩北語、閩中語、邵將語、瓊雷話、平話、湘語、贛語、徽語、蘭銀官話、膠遼官話**的輸入方案，如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
-以下爲方案總表和配方列表，目前總共收錄32個配方的81個方案。
+以下爲方案總表和配方列表。目前總共收錄32個配方的81個方案，其中配方以符號℞標識。
 
 ### 方案列表（共81個方案）
 
@@ -603,7 +605,7 @@
 
 **[中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#%E4%B8%AD%E5%B7%9E%E9%9F%BB%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)        [English](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#collection-of-rime-input-method-schemas-for-chinese-topolectsdialects)**
 
-## The Mission of this Project
+## The Mission of this project
 
 This repo collects the phonetic spelling schemas and character sets of [Rime input method](https://rime.im/) for Old Chinese, Middle Chinese and modern Chinese topolects/dialects. This project aims to:
 
@@ -613,11 +615,12 @@ This repo collects the phonetic spelling schemas and character sets of [Rime inp
 
 This project also supports the promotion project of non-Mandarin phonetic spelling input. For a complete statement of the mission and motivation of the promotion, please read [this page](https://laubonghaudoi.github.io/dialects/blog/mission.html) (Chinese only).
 
-This repo works as three parts:
+This repo has four sub-directories:
 
-1. Folders under the `sources/` directory are the source repos of some schemas, which are preserved as submodules so that the schema designers can keep their schemas up to date. Since not all schemas are open-sourced on GitHub, the collection under this directory is incomplete. 
-2. The `data/` directory is a complete collection, which contains schemas that I collected from all sources (including those on GitHub). I will check the version of schemas under `sources/` regularly and copy the newest version to `data/`. 
+1. Folders under the `sources/` directory are the source repos of some schemas, which are preserved as submodules so that the schema designers can maintain them. Since not all schemas are open-sourced on GitHub, the collection under this directory is incomplete. 
+2. The `unmaintained/` directory preserves schemas from other sources (not from GitHub). They are not maintained by anybody so the usabilities are not guaranteed.  
 3. The `download/` directory serves as the folder for the [released](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) packages. It contains only the selected schema for the prestige dialect of each language. Hence users can download, deploy and use these off-the-shelf schemas conveniently.
+4. The `resources/` directory stores materials about the collected schemas, such as tutorials, schema white papers, etc., as references and study materials for users.
 
 ## Tutorial
 
@@ -644,11 +647,11 @@ Then save and re-deploy, and press Ctrl+`. You will see the Archaic Chinese sche
 
 Steps are the similar under Linux, OS X and other versions of Windows operating systems.
 
-## Collected Schemas
+## Collected schemas
 
-At the moment we have collected 32 recipes of 81 schemas, and still **missing the schemas for Northern Min, Central Min, Shao-Jiang Min, Qiongleihua, Pinghua, Xiang, Gan, Huizhou, Lan–Yin Mandarin, Southwestern Mandarin**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or open a new issue to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
+At the moment we are still **missing the schemas for Northern Min, Central Min, Shao-Jiang Min, Qiongleihua, Pinghua, Xiang, Gan, Huizhou, Lan–Yin Mandarin, Southwestern Mandarin**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or open a new issue to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
 
-Below are the lists of all collected schemas and recipes.
+Up to now we have collected 32 recipes of 81 schemas. Below are the lists of all collected schemas and recipes, where recipes are marked with the symbol ℞.
 
 ### Full list of collected schemas
 
@@ -1007,7 +1010,7 @@ Below are the lists of all collected schemas and recipes.
 <ul>
   <li>
     <details>
-      <summary>中古漢語</summary>
+      <summary>Middle Chinese</summary>
       <ul>
         <li>
           中古漢語（切韻音系）全拼及三拼 ℞
@@ -1022,7 +1025,7 @@ Below are the lists of all collected schemas and recipes.
   </li>
   <li>
     <details>
-      <summary>中原官話</summary>
+      <summary>Central Plains Mandarin</summary>
       <ul>
         <li>中原官話洛陽方言 ℞ <code>Patricivs/lakyang</code></li>
         <li>中原官話輸入方案 ℞ <code>lotem/rime-zhung</code></li>
@@ -1032,7 +1035,7 @@ Below are the lists of all collected schemas and recipes.
   </li>
   <li>
     <details>
-      <summary>江淮官話</summary>
+      <summary>Lower Yangtze Mandarin</summary>
       <ul>
         <li>南京話拼音输入法 ℞ <code>uliloewi/lang2jin1</code></li>
       </ul>
@@ -1040,7 +1043,7 @@ Below are the lists of all collected schemas and recipes.
   </li>
   <li>
     <details>
-      <summary>西南官話</summary>
+      <summary>Southwestern Mandarin</summary>
       <ul>
         <li>蜀拼 ℞ <code>Papnas/shupin</code></li>
       </ul>
@@ -1048,7 +1051,7 @@ Below are the lists of all collected schemas and recipes.
   </li>
   <li>
     <details>
-      <summary>吳語</summary>
+      <summary>Wu (Goetian)</summary>
       <ul>
         <li>上海吳語拼音輸入方案 ℞ <code>NGLI/rime-wugniu_zaonhe</code></li>
         <li>蘇州吳語拼音輸入方案 ℞ <code>NGLI/rime-wugniu_soutseu</code></li>
@@ -1067,7 +1070,7 @@ Below are the lists of all collected schemas and recipes.
   </li>
   <li>
     <details>
-      <summary>粵語</summary>
+      <summary>Yue (Cantonese)</summary>
       <ul>
         <li>粵拼 ℞ <code>rime/rime-jyutping</code></li>
         <li>粵拼⁺ ℞ <code>rime-aca/rime-jyutping-plus</code></li>
@@ -1083,7 +1086,7 @@ Below are the lists of all collected schemas and recipes.
   </li>
   <li>
     <details>
-      <summary>閩東語</summary>
+      <summary>Eastern Min</summary>
       <ul>
         <li>平話字表 (閩東語‣福州話) ℞ <code>only3km/ciklinbekin</code></li>
       </ul>
@@ -1091,7 +1094,7 @@ Below are the lists of all collected schemas and recipes.
   </li>
   <li>
     <details>
-      <summary>閩南語</summary>
+      <summary>Southern Min</summary>
       <ul>
         <li>閩南語輸入方案 ℞ <code>a-thok/rime-hokkien</code></li>
         <li>閩南語拼音輸入方案 ℞ <code>LimTo/etaiBLG</code></li>
@@ -1102,7 +1105,7 @@ Below are the lists of all collected schemas and recipes.
   </li>
   <li>
     <details>
-      <summary>莆仙語</summary>
+      <summary>Pu-Xian Min</summary>
       <ul>
         <li>興化工廠 ℞ <code>Yaryou/HinghuaFactory</code></li>
       </ul>
@@ -1110,7 +1113,7 @@ Below are the lists of all collected schemas and recipes.
   </li>
   <li>
     <details>
-      <summary>客家話</summary>
+      <summary>Hakka</summary>
       <ul>
         <li>崇正客語輸入法 ℞ <code>xunux/hakka-culture</code></li>
       </ul>
@@ -1118,7 +1121,7 @@ Below are the lists of all collected schemas and recipes.
   </li>
   <li>
     <details>
-      <summary>域外方音</summary>
+      <summary>Foreign Dialects</summary>
       <ul>
         <li>한글 ℞ <code>rime-aca/rime-hangyl</code></li>
         <li>
@@ -1134,7 +1137,7 @@ Below are the lists of all collected schemas and recipes.
 
 For detailed information of the collected schemas in the download packege, please see the [release](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) page.
 
-## Incomplete List of Data Sources (non-GitHub submodules)
+## Incomplete list of sources of unmaintained schemas
 
 - Middle Chinese
     - [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
