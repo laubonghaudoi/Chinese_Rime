@@ -513,7 +513,7 @@
 
 下載包內方案信息詳見[發佈](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases)頁面。
 
-## 部分方案數據來源（非GitHub submodule）
+## 部分方案數據來源（非GitHub子模塊）
 
 - 中古漢語
     - [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
@@ -573,6 +573,7 @@
     - [粵語審音配詞字庫](http://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/)
     - [古今文字集成](http://www.ccamc.co/index.php)
     - [篇韻データベース](http://suzukish.s252.xrea.com/search/)
+    - [SinoPy](https://github.com/lingpy/sinopy)
 - 輸入法軟件
     - [Rime官網](http://rime.im/)
     - [Pime輸入法](https://github.com/EasyIME/PIME/releases)
@@ -653,7 +654,7 @@ At the moment we are still **missing the schemas for Northern Min, Central Min, 
 
 Up to now we have collected 32 recipes of 81 schemas. Below are the lists of all collected schemas and recipes, where recipes are marked with the symbol ℞.
 
-### Full list of collected schemas
+### Full list of collected schemas (81 schemas in total)
 
 <ul>
   <li>
@@ -1005,7 +1006,7 @@ Up to now we have collected 32 recipes of 81 schemas. Below are the lists of all
 
 ---
 
-### List of recipes
+### List of recipes (32 recipes in total)
 
 <ul>
   <li>
@@ -1197,6 +1198,7 @@ For detailed information of the collected schemas in the download packege, pleas
     - [粵語審音配詞字庫](http://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/)
     - [古今文字集成](http://www.ccamc.co/index.php)
     - [篇韻データベース](http://suzukish.s252.xrea.com/search/)
+    - [SinoPy](https://github.com/lingpy/sinopy)
 - Input method software
     - [Rime Official Website](http://rime.im/)
     - [Pime Input Method](https://github.com/EasyIME/PIME/releases)
