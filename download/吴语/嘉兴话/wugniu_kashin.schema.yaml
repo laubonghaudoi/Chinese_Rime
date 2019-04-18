@@ -3,8 +3,8 @@
 
 schema:
   schema_id: wugniu_kashin
-  name: 吳語-嘉興
-  version: "2019.03.09"
+  name: 吳語（嘉興）
+  version: "2019.03.22"
   author:
     - 字表作者：雪心居士˂sihsin@live.com˃
     - 字表作者：步履躊躇
@@ -26,6 +26,7 @@ switches:
   - name: full_shape
     states: [ 半角, 全角 ]
   - name: simplification
+    reset: 1
     states: [ 漢字, 汉字 ]
   - name: ascii_punct
     states: [ 。，, ．， ]

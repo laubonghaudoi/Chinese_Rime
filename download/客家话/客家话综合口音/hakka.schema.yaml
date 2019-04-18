@@ -48,11 +48,16 @@ engine:
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
+  algebra:
+    - derive/([123456])//         # 忽略声调
 
 translator:
   dictionary: hakka
   prism: hakka
   spelling_hints: 1
+  comment_format: &comment_rules
+    # 將聲調顯示成上標
+    - xlit/12345/¹²³⁴⁵/
 
 reverse_lookup:
   dictionary: luna_pinyin

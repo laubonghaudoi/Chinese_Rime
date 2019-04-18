@@ -3,8 +3,8 @@
 
 schema:
   schema_id: wugniu_donshian
-  name: 吳語-桐鄉
-  version: "2019.03.09"
+  name: 吳語（桐鄉）
+  version: "2019.03.22"
   author:
     - 字表作者：雪心居士˂sihsin@live.com˃
     - osfans <waxaca@163.com>
@@ -25,6 +25,7 @@ switches:
   - name: full_shape
     states: [ 半角, 全角 ]
   - name: simplification
+    reset: 1
     states: [ 漢字, 汉字 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
