@@ -7,27 +7,6 @@
 [submodule "sources/中古漢語/爾切羅馬字"]
 	path = sources/中古漢語/爾切羅馬字
 	url = https://github.com/rime-aca/rime-nieh-ched
-[submodule "sources/閩語/潮语拼音输入法"]
-	path = sources/閩語/潮语拼音输入法
-	url = https://github.com/Kahaani/dieghv.git
-[submodule "sources/閩語/平話字表 (閩東語 福州話)"]
-	path = sources/閩語/平話字表 (閩東語 福州話)
-	url = https://github.com/only3km/ciklinbekin.git
-[submodule "sources/閩語/潮汕话輸入方案"]
-	path = sources/閩語/潮汕话輸入方案
-	url = https://github.com/femkerr/dieghe.git
-[submodule "sources/閩語/閩南語輸入方案"]
-	path = sources/閩語/閩南語輸入方案
-	url = https://github.com/a-thok/rime-hokkien.git
-[submodule "sources/官話/棗莊話羅馬字輸入方案"]
-	path = sources/官話/棗莊話羅馬字輸入方案
-	url = https://github.com/tsauibusato/yihdjoouhuah.git
-[submodule "sources/官話/中原官話輸入方案"]
-	path = sources/官話/中原官話輸入方案
-	url = https://github.com/lotem/rime-zhung.git
-[submodule "sources/官話/中原官話洛陽方言"]
-	path = sources/官話/中原官話洛陽方言
-	url = https://github.com/Patricivs/lakyang.git
 [submodule "sources/粵語/沟漏片藤县白话输入方案"]
 	path = sources/粵語/沟漏片藤县白话输入方案
 	url = https://github.com/cryptogun/rime-jutjnyu_gaulaupin_dangjunbikwaa.git
@@ -52,12 +31,6 @@
 [submodule "sources/粵語/南寧白話輸入方案"]
 	path = sources/粵語/南寧白話輸入方案
 	url = https://github.com/leimaau/naamning_jyutping
-[submodule "sources/官話/南京官話拼音"]
-	path = sources/官話/南京官話拼音
-	url = https://github.com/uliloewi/lang2jin1.git
-[submodule "sources/閩語/興化語莆田城關話"]
-	path = sources/閩語/興化語莆田城關話
-	url = https://github.com/Yaryou/HinghuaFactory
 [submodule "sources/粵語/粵拼⁺"]
 	path = sources/粵語/粵拼⁺
 	url = https://github.com/rime-aca/rime-jyutping-plus
@@ -82,9 +55,6 @@
 [submodule "sources/吳語/吳語（寧波）"]
 	path = sources/吳語/吳語（寧波）
 	url = https://github.com/NGLI/rime-wugniu_gninpou.git
-[submodule "sources/官話/蜀拼"]
-	path = sources/官話/蜀拼
-	url = https://github.com/Papnas/shupin.git
 [submodule "sources/客家話/崇正客語輸入法"]
 	path = sources/客家話/崇正客語輸入法
 	url = https://github.com/syndict/hakka.git
@@ -94,3 +64,33 @@
 [submodule "sources/中古漢語/唐韻"]
 	path = sources/中古漢語/唐韻
 	url = https://github.com/rime-aca/rime-dangrvond
+[submodule "sources/中原官話/中原官話洛陽方言"]
+	path = sources/中原官話/中原官話洛陽方言
+	url = https://github.com/Patricivs/lakyang
+[submodule "sources/中原官話/中原官話輸入方案"]
+	path = sources/中原官話/中原官話輸入方案
+	url = https://github.com/lotem/rime-zhung
+[submodule "sources/西南官話/蜀拼"]
+	path = sources/西南官話/蜀拼
+	url = https://github.com/Papnas/shupin
+[submodule "sources/江淮官話/南京話拼音输入法"]
+	path = sources/江淮官話/南京話拼音输入法
+	url = https://github.com/uliloewi/lang2jin1
+[submodule "sources/中原官話/棗莊話羅馬字輸入方案"]
+	path = sources/中原官話/棗莊話羅馬字輸入方案
+	url = https://github.com/tsauibusato/yihdjoouhuah
+[submodule "sources/閩南語/閩南語輸入方案"]
+	path = sources/閩南語/閩南語輸入方案
+	url = https://github.com/a-thok/rime-hokkien
+[submodule "sources/閩南語/潮语拼音输入法"]
+	path = sources/閩南語/潮语拼音输入法
+	url = https://github.com/kahaani/dieghv
+[submodule "sources/閩南語/潮汕话輸入方案"]
+	path = sources/閩南語/潮汕话輸入方案
+	url = https://github.com/femkerr/dieghe
+[submodule "sources/閩東語/平話字表 (閩東語 福州話)"]
+	path = sources/閩東語/平話字表 (閩東語 福州話)
+	url = https://github.com/only3km/ciklinbekin
+[submodule "sources/莆仙語/興化工廠"]
+	path = sources/莆仙語/興化工廠
+	url = https://github.com/Yaryou/HinghuaFactory

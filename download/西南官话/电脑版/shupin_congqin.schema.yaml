@@ -1,0 +1,364 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: shupin_congqin
+  name: 蜀拼-重慶
+  version: "0.99"
+  author:
+    - Ciphotis <Keepout2010@163.com>
+    - 涼風Papnas <Amridica.Commonwealth@protonmail.com>
+    - 旷_野 <校對、詞彙增補>
+    - soenghaagong<校對、詞彙增補>
+    - holy19891004 <校對、詞彙增補>
+  description: |
+    「四川話通音」，以符號按鍵 - < \ / q 輸入五聲
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+#  - name: nippon
+#    states: [ 傳統, 日本 ]
+#    reset: 1
+  - name: simplification
+    states: [ 繁體, 简体 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+    - reverse_lookup_translator
+    - "table_translator@english"
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba-;/<,>\'
+  initials: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+
+#顯示釋意註釋
+    - xform/◎.+$//
+
+#特字部分
+    - xform/Ddi/le/	#的字讀音
+    - xform/Dqu4/qie4/	#去字讀音
+#    - xform/Dlu5/liu2/	#六字讀音
+#    - xform/C//
+
+#銳音un韻
+    - derive/([dtlzcs])un/$1en/ #啓用此行表示dtlzcs+un都併入en
+
+#通入部分
+#    - xform/^([jqx])u5$/$1io5/	#啓用此行表示通入讀io
+#    - xform/^([zcs])v5$/$1io5/	#啓用此行表示通入讀io
+#    - xform/^([zcs])u5$/$1io5/	#啓用此行表示通入讀io
+#    - xform/^yu5$/yo5/	#啓用此行表示通入讀io
+    - xform/^([jqx])u5$/$1uu5/	#啓用此行表示通入讀üu
+    - xform/^([zcs])v5$/$1vu5/	#啓用此行表示通入讀üu
+    - xform/^([zcs])u5$/$1vu5/	#啓用此行表示通入讀üu
+    - xform/^yu5$/yvu5/	#啓用此行表示通入讀üu
+#    - xform/^([zcs])u5$/$1v5/	#啓用此行表示通入讀ü
+
+#入聲派向部分
+    - xform/5$/2/	#啓用此行表示入派陽平
+#    - xform/5$/4/	#啓用此行表示入派去聲
+#    - xform/5$/1/	#啓用此行表示入派陰平
+
+#戈歌部分
+    - xform/eo([1234])$/o$1/	#啓用此行表示不分舒聲戈歌
+    - xform/eo5/o5/	#啓用此行表示不分入聲戈歌
+
+#入聲部分（岷江適用）注意順序以及配合上方戈歌部分
+#    - xform/ie5/i5/	#啓用此行表示ieq>iq
+#    - xform/i5/ie5/	#啓用此行表示iq>ieq，注意和上行區分
+#    - xform/([gkh])?e5/eo5/	#啓用此行表示喉音eq>eoq
+#    - xform/ue5/o5/	#啓用此行表示ueq>oq
+#    - xform/ve5/o5/	#啓用此行表示üeq>oq
+#    - xform/e5/a5/	#啓用此行表示eq>aq
+#    - xform/u5/o5/	#啓用此行表示uq>oq
+
+#泥來部分
+    - xform/^ni/li/	#啓用此行表示ni, ni->li, li-
+    - xform/^nv/lv/
+#    - xform/^ni/y/	#啓用此行表示ni->y-
+#    - xform/^ni([12345])$/yi$1/	#啓用此行表示ni>yi
+
+#尖團部分
+    - xform/^zyi/ji/	#zyi>ji
+    - xform/^cyi/qi/	#cyi>qi
+    - xform/^syi/xi/	#syi>xi
+    - xform/^zi([a-z]+)/ji$1/	#zi->ji-
+    - xform/^ci([a-z]+)/qi$1/	#ci->qi-
+    - xform/^si([a-z]+)/xi$1/	#si->xi-
+    - xform/^zv/ju/	#zü>ju, zü->ju-
+    - xform/^cv/qu/	#cü>qu, cü->qu-
+    - xform/^sv/xu/	#sü>xu, sü->xu-
+    - xform/^sv/xu/	#sü>xu, sü->xu-
+
+    - xform/^yv/yu/ #yü>yu, yü->yu-
+
+#平翹部分
+    - xform/^([zcs])h/$1/   #啓用此行表示無翹舌
+
+#h、f部分
+    - xform/^hu([12345])$/fu$1/	#hu>fu
+#    - xform/^hu([a-z]+)/f$1/	#hu->f-
+
+    - xform/D//	#特字標記略去
+    - derive/ngo([12345])/wo$1/	#「我」系列的略拼
+    - abbrev/^([a-z]).+$/$1/	#首字母簡拼
+    - derive/lve/lue/	#容許ve, ue在l後兩種拼寫
+    - derive/^([jqxy])u/$1v/	#容許在jqxy後的u也可用v輸入
+    - derive/([aeiou])ng/$1gn/	#誤拼容錯
+    - derive/([iu])a(o|ng?)/a$1$2/	#誤拼容錯
+    - derive/^([a-z]+)\d$/$1/	#可省略聲調輸入
+    - 'xlit 12345 -<\/q'	#把碼表的數字替換爲可輸入的符號
+    - 'derive/^(.*)-$/$1;/'	#-可以用;輸入
+    - 'derive/^(.*)<$/$1,/'	#<可以用,輸入
+    - 'derive/^(.*)\\$/$1>/'	#\可以用/輸入
+    - derive/^(.*)q$/$1/	#q可以略去
+
+translator:
+  dictionary: shupin
+  enable_charset_filter: true
+  prism: shupin_congqin
+  spelling_hints: 1  # 〜字以內候選標註完整帶調拼音
+  preedit_format:
+    - xform/◎.+$//
+    - 'xform io[-;] iō'
+    - 'xform io/ ió'
+    - 'xform io[<,] iô'
+    - 'xform io[>\\] iò'
+    - 'xform ioq iǒ'
+    - xform (u?|v?|i?)(eo|ui|iu|a|i|u|e|o|v)(i?|o?|u?|n?|ng?|r?)([-;/<,>\\q]) $1$2$4$3
+    - 'xform a[-;] ā'
+    - 'xform a/ á'
+    - 'xform a[<,] â'
+    - 'xform a[>\\] à'
+    - 'xform aq ǎ'
+    - 'xform e[-;] ē'
+    - 'xform e/ é'
+    - 'xform e[<,] ê'
+    - 'xform e[>\\] è'
+    - 'xform eq ě'
+    - 'xform o[-;] ō'
+    - 'xform o/ ó'
+    - 'xform o[<,] ô'
+    - 'xform o[>\\] ò'
+    - 'xform oq ǒ'
+    - 'xform i[-;] ī'
+    - 'xform i/ í'
+    - 'xform i[<,] î'
+    - 'xform i[>\\] ì'
+    - 'xform iq ǐ'
+    - 'xform u[-;] ū'
+    - 'xform u/ ú'
+    - 'xform u[<,] û'
+    - 'xform u[>\\] ù'
+    - 'xform uq ǔ'
+    - 'xform v[-;] ǖ'
+    - 'xform v/ ǘ'
+    - 'xform v[<,] ü̂'
+    - 'xform v[>\\] ǜ'
+    - 'xform vq ǚ'
+    - 'xform v ü'
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+  comment_format:
+    #針對重慶音系
+    - xform/Ddi/le/ #的字讀音
+    - xform/Dqu4/qie4/  #去字讀音
+    - derive/([dtlzcs])un/$1en/ #啓用此行表示dtlzcs+un都併入en
+    - xform/^([jqx])u5($|(◎.+$))/$1uu5$2/  #啓用此行表示通入讀üu
+    - xform/^([zcs])v5($|(◎.+$))/$1vu5$2/  #啓用此行表示通入讀üu
+    - xform/^([zcs])u5($|(◎.+$))/$1vu5$2/  #啓用此行表示通入讀üu
+    - xform/^yu5($|(◎.+$))/yvu5$1/ #啓用此行表示通入讀üu
+    - xform/eo([1234])$/o$1/    #啓用此行表示不分舒聲戈歌
+    - xform/eo5/o5/ #啓用此行表示不分入聲戈歌
+    - xform/5($|(◎.+$))/2$1/   #啓用此行表示入派陽平
+    - xform/^ni/li/ #啓用此行表示ni, ni->li, li-
+    - xform/^nv/lv/
+    - xform/^zyi/ji/    #zyi>ji
+    - xform/^cyi/qi/    #cyi>qi
+    - xform/^syi/xi/    #syi>xi
+    - xform/^zi([a-z]+)/ji$1/   #zi->ji-
+    - xform/^ci([a-z]+)/qi$1/   #ci->qi-
+    - xform/^si([a-z]+)/xi$1/   #si->xi-
+    - xform/^zv/ju/ #zü>ju, zü->ju-
+    - xform/^cv/qu/ #cü>qu, cü->qu-
+    - xform/^sv/xu/ #sü>xu, sü->xu-
+    - xform/^sv/xu/ #sü>xu, sü->xu-
+    - xform/^yv/yu/
+    - xform/^([zcs])h/$1/   #啓用此行表示無翹舌
+    - xform/^hu([12345])$/fu$1/ #hu>fu
+
+    - xform/^(.*)$/〔$1〕
+    - xform 了 liào
+    - xform io1 iō
+    - xform io4 ió
+    - xform io2 iô
+    - xform io3 iò
+    - xform io5 iǒ
+    - xform (u?|v?|i?)(eo|ui|iu|a|i|u|e|o|v)(i?|o?|u?|n?|ng?|r?)([1234q]) $1$2$4$3
+    - xform/([nljqxyzcs])v/$1ü/
+    - 'xform D '
+    - xform a1 ā
+    - xform a4 á
+    - xform a2 â
+    - xform a3 à
+    - xform a5 ǎ
+    - xform e1 ē
+    - xform e4 é
+    - xform e2 ê
+    - xform e3 è
+    - xform e5 ě
+    - xform o1 ō
+    - xform o4 ó
+    - xform o2 ô
+    - xform o3 ò
+    - xform o5 ǒ
+    - xform i1 ī
+    - xform i4 í
+    - xform i2 î
+    - xform i3 ì
+    - xform i5 ǐ
+    - xform u1 ū
+    - xform u4 ú
+    - xform u2 û
+    - xform u3 ù
+    - xform u5 ǔ
+    - xform ü1 ǖ
+    - xform ü4 ǘ
+    - xform ü2 ü̂
+    - xform ü3 ǜ
+    - xform ü5 ǚ
+    - xform/([a-z]+)/$1/
+    - xform/(◎.+)〕/〕$1/
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+  comment_format:
+    #針對重慶音系
+    - xform/Ddi/le/ #的字讀音
+    - xform/Dqu4/qie4/  #去字讀音
+    - derive/([dtlzcs])un/$1en/ #啓用此行表示dtlzcs+un都併入en
+    - xform/^([jqx])u5($|(◎.+$))/$1uu5$2/  #啓用此行表示通入讀üu
+    - xform/^([zcs])v5($|(◎.+$))/$1vu5$2/  #啓用此行表示通入讀üu
+    - xform/^([zcs])u5($|(◎.+$))/$1vu5$2/  #啓用此行表示通入讀üu
+    - xform/^yu5($|(◎.+$))/yvu5$1/ #啓用此行表示通入讀üu
+    - xform/eo([1234])$/o$1/    #啓用此行表示不分舒聲戈歌
+    - xform/eo5/o5/ #啓用此行表示不分入聲戈歌
+    - xform/5($|(◎.+$))/2$1/   #啓用此行表示入派陽平
+    - xform/^ni/li/ #啓用此行表示ni, ni->li, li-
+    - xform/^nv/lv/
+    - xform/^zyi/ji/    #zyi>ji
+    - xform/^cyi/qi/    #cyi>qi
+    - xform/^syi/xi/    #syi>xi
+    - xform/^zi([a-z]+)/ji$1/   #zi->ji-
+    - xform/^ci([a-z]+)/qi$1/   #ci->qi-
+    - xform/^si([a-z]+)/xi$1/   #si->xi-
+    - xform/^zv/ju/ #zü>ju, zü->ju-
+    - xform/^cv/qu/ #cü>qu, cü->qu-
+    - xform/^sv/xu/ #sü>xu, sü->xu-
+    - xform/^sv/xu/ #sü>xu, sü->xu-
+    - xform/^yv/yu/
+    - xform/^([zcs])h/$1/   #啓用此行表示無翹舌
+    - xform/^hu([12345])$/fu$1/ #hu>fu
+
+    - xform/^(.*)$/〔$1〕
+    - xform ([aeiouv])(ng?|r)([1234q]) $1$3$2
+    - xform ([aeo])([iuo])([1234q]) $1$3$2
+    - xform/([nljqxyzcs])v/$1ü/
+    - 'xform D '
+    - xform a1 ā
+    - xform a4 á
+    - xform a2 â
+    - xform a3 à
+    - xform a5 ǎ
+    - xform e1 ē
+    - xform e4 é
+    - xform e2 ê
+    - xform e3 è
+    - xform e5 ě
+    - xform o1 ō
+    - xform o4 ó
+    - xform o2 ô
+    - xform o3 ò
+    - xform o5 ǒ
+    - xform i1 ī
+    - xform i4 í
+    - xform i2 î
+    - xform i3 ì
+    - xform i5 ǐ
+    - xform u1 ū
+    - xform u4 ú
+    - xform u2 û
+    - xform u3 ù
+    - xform u5 ǔ
+    - xform ü1 ǖ
+    - xform ü4 ǘ
+    - xform ü2 ü̂
+    - xform ü3 ǜ
+    - xform ü5 ǚ
+    - xform/([a-z]+)/$1/
+    - xform/(◎.+)〕/〕$1/
+  
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+  bindings:
+    - { when: has_menu, accept: minus, send: minus }  # tone 1
+    - { when: paging, accept: minus, send: Page_Up }
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
+
+style:
+  font_face: "微软雅黑"
+  
+english:
+  dictionary: easy_en
+  enable_completion: true
+  enable_sentence: false
+  initial_quality: "-1"
+  spelling_hints: 9
+
+#simplifier:
+#  opencc_config: nippon.ini
+#  option_name: nippon
+#  tip: all

@@ -1,0 +1,119 @@
+# Rime schema
+# encoding: UTF-8 w/o BOM
+
+schema:
+  schema_id: langjin
+  name: 南京官話拼音
+  version: "2019.02.14"
+  author:
+    - 柳漫 <uli_loewi@hotmail.com>
+  description: |
+    南京官話輸入法
+    項目主頁 https://github.com/uliloewi/lang2jin1
+    拼音教程 https://uliloewi.github.io/LangJinPinIn/SUMMARY
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: half_shape
+    states: [ 全角, 半角 ]
+  - name: ascii_punct
+    states: [ ，。, ，． ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvüutsrqponmlkjihgfedcbäa
+  delimiter: " '"
+  algebra:
+    # 去掉聲調
+    - xform/[1-5]//
+    
+    # 針對南京新派的模糊音
+    - derive/si/xi/
+    - derive/zi/ji/
+    - derive/ci/qi/
+    - derive/sü/xv/
+    - derive/zü/jv/
+    - derive/cü/qv/
+    - derive/sh/s/
+    - derive/zh/z/
+    - derive/ch/c/
+    - derive/guä/guo/
+    - derive/kuä/kuo/
+    - derive/huä/huo/
+
+    # 漢語拼音習慣
+    - derive/j/ji/
+    - derive/q/qi/
+    - derive/x/xi/
+    - derive/zhr/zhi/
+    - derive/chr/chi/
+    - derive/shr/shi/
+
+    # 便捷鍵
+    - derive/ä/w/
+    - derive/ü/v/
+    - derive/ang/an/
+    - derive/ong/on/
+
+translator:
+  dictionary: langjin
+  spelling_hints: 5
+  preedit_format:
+    # 便捷鍵還原
+    - xform/v/ü/
+    - xform/w/ä/
+
+  comment_format: &comment_rules
+    # 將聲調顯示成上標
+    - xlit/12345/¹²³⁴⁵/
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔漢語拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+  comment_format: *comment_rules
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-zäü]*'?$"
