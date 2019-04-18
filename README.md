@@ -1,7 +1,7 @@
 # 中州韻輸入法漢語方言拼音方案全集
 
-![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)
-![Licence](https://img.shields.io/badge/Licence-Apache--2.0-blue.svg?style=flat-square)
+![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
+![licence](https://img.shields.io/badge/licence-Apache--2.0-blue.svg?style=flat)
 
 **[中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#%E4%B8%AD%E5%B7%9E%E9%9F%BB%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)        [English](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#collection-of-rime-input-method-schemas-for-chinese-topolectsdialects)**
 
@@ -31,6 +31,8 @@
 目前主要**缺失閩北語、閩中語、邵將語、瓊雷話、平話、湘語、贛語、徽語、蘭銀官話、膠遼官話**的輸入方案，如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
 以下爲方案總表和配方列表。目前總共收錄32個配方的81個方案，其中配方以符號℞標識。
+
+---
 
 ### 方案列表（共81個方案）
 
@@ -382,8 +384,6 @@
   </li>
 </ul>
 
----
-
 ### 配方列表（共32個配方）
 
 <ul>
@@ -537,52 +537,97 @@
 
 ## 資源
 
-- 語言學習資源（方案白皮書、教程、字典）
-    - 中古漢語
-        - [中古漢語拼音](https://zh.wikipedia.org/wiki/User:Polyhedron/%E4%B8%AD%E5%8F%A4%E6%BC%A2%E8%AA%9E%E6%8B%BC%E9%9F%B3)
-        - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
-        - [古音手鏡](http://www.guguolin.com/)
-    - 官話
-        - [南京話拼音教程](https://uliloewi.github.io/LangJinPinIn/SUMMARY)
-    - 吳語
-        - [吴语学堂](https://wugniu.com/)
-        - [吴语协会 通用吴语拼音](http://wu-chinese.com/romanization/)
-        - [吴语协会 吴音小字典](http://wu-chinese.com/minidict/)
-        - [吳語注音法](http://input.foruto.com/wu/method.html)
-        - [宁波话吴拼教程](https://shinzoqchiuq.github.io/gninpou-tutorial/)
-    - 粵語
-        - [南宁白话](https://leimaau.github.io/book/)
-        - [貴州韻](https://github.com/tengtengteng/gvaizauvan/wiki)
-    - 閩語
-        - [平話字表 (閩東語‣福州話)](https://only3km.github.io/ciklinbekin/)
-        - [福州话熟语大全](http://idioms.mindong.asia)
-        - [臺語萌典](https://www.moedict.tw/'%E7%99%BC%E7%A9%8E)
-        - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
-        - [潮语拼音教程](https://kahaani.github.io/gatian/index.html)
-        - [潮州音字典](http://www.czyzd.com/)
-        - [潮州·母语](https://www.mogher.com/)
-    - 客家話
-        - [薪典](http://syndict.com/)
-        - [客語萌典](https://www.moedict.tw/:%E7%99%BC%E8%8A%BD)
-        - [客語字典查尋](http://hakka.fhl.net/dict/index_hakka.html)
-- 語言學參考
-    - [中国语言资源保护工程 汉语方言用字规范](http://www.moe.gov.cn/s78/A19/A19_gggs/A19_sjhj/201704/W020170405307025943395.pdf)
-    - [中国语言资源保护工程采录展示平台](https://zhongguoyuyan.cn/)
-    - [复旦大学东亚语言数据中心](http://ccdc.fudan.edu.cn)
-    - [家乡话](http://jiaxianghua.org)
-    - [鄉音苑](http://phonemica.net/)
-    - [小學堂](http://xiaoxue.iis.sinica.edu.tw/)
-    - [韻典網](https://ytenx.org/)
-    - [粵語審音配詞字庫](http://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/)
-    - [古今文字集成](http://www.ccamc.co/index.php)
-    - [篇韻データベース](http://suzukish.s252.xrea.com/search/)
-    - [SinoPy](https://github.com/lingpy/sinopy)
-- 輸入法軟件
-    - [Rime官網](http://rime.im/)
-    - [Pime輸入法](https://github.com/EasyIME/PIME/releases)
-    - [iRime輸入法](https://itunes.apple.com/us/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E4%BA%94%E7%AC%94%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977?mt=8)
-    - [同文輸入法](https://play.google.com/store/apps/details?id=com.osfans.trime&hl=zh)
-    - [閩東語實驗室](https://github.com/MindongLab)
+<ul>
+  <li>
+    <details>
+      <summary>語言學習資源（方案白皮書、教程、字典）</summary>
+      <ul>
+        <li>
+          中古漢語
+          <ul>
+            <li><a href="https://zh.wikipedia.org/wiki/User:Polyhedron/%E4%B8%AD%E5%8F%A4%E6%BC%A2%E8%AA%9E%E6%8B%BC%E9%9F%B3">中古漢語拼音</a></li>
+            <li><a href="https://bkrs.info/taolun/attachment.php?aid=637">中古漢語基礎教程</a></li>
+            <li><a href="http://www.guguolin.com/">古音手鏡</a></li>
+          </ul>
+        </li>
+        <li>
+          官話
+          <ul>
+            <li><a href="https://uliloewi.github.io/LangJinPinIn/SUMMARY">南京話拼音教程</a></li>
+            <li><a href="https://zhuanlan.zhihu.com/p/34562639">四川话通用拼音</a></li>
+          </ul>
+        </li>
+        <li>
+          吳語
+          <ul>
+            <li><a href="https://wugniu.com/">吴语学堂</a></li>
+            <li><a href="http://wu-chinese.com/romanization/">吴语协会 通用吴语拼音</a></li>
+            <li><a href="http://wu-chinese.com/minidict/">吴语协会 吴音小字典</a></li>
+            <li><a href="http://input.foruto.com/wu/method.html">吳語注音法</a></li>
+            <li><a href="https://shinzoqchiuq.github.io/gninpou-tutorial/">宁波话吴拼教程</a></li>
+          </ul>
+        </li>
+        <li>
+          粵語
+          <ul>
+            <li><a href="https://leimaau.github.io/book/">南宁白话</a></li>
+            <li><a href="https://github.com/tengtengteng/gvaizauvan/wiki">貴州韻</a></li>
+          </ul>
+        </li>
+        <li>
+          閩語
+          <ul>
+            <li><a href="https://only3km.github.io/ciklinbekin/">平話字表 (閩東語‣福州話)</a></li>
+            <li><a href="http://idioms.mindong.asia">福州话熟语大全</a></li>
+            <li><a href="https://www.moedict.tw/'%E7%99%BC%E7%A9%8E">臺語萌典</a></li>
+            <li><a href="http://www.ntcu.edu.tw/tailo/educate.htm">臺灣閩南語羅馬字拼音方案使用手冊</a></li>
+            <li><a href="https://kahaani.github.io/gatian/index.html">潮语拼音教程</a></li>
+            <li><a href="http://www.czyzd.com/">潮州音字典</a></li>
+            <li><a href="https://www.mogher.com/">潮州·母语</a></li>
+          </ul>
+        </li>
+        <li>
+          客家話
+          <ul>
+            <li><a href="http://syndict.com/">薪典</a></li>
+            <li><a href="https://www.moedict.tw/:%E7%99%BC%E8%8A%BD">客語萌典</a></li>
+            <li><a href="http://hakka.fhl.net/dict/index_hakka.html">客語字典查尋</a></li>
+          </ul>
+        </li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>語言學參考</summary>
+      <ul>
+        <li><a href="http://www.moe.gov.cn/s78/A19/A19_gggs/A19_sjhj/201704/W020170405307025943395.pdf">中国语言资源保护工程 汉语方言用字规范</a></li>
+        <li><a href="https://zhongguoyuyan.cn/">中国语言资源保护工程采录展示平台</a></li>
+        <li><a href="http://ccdc.fudan.edu.cn">复旦大学东亚语言数据中心</a></li>
+        <li><a href="http://jiaxianghua.org">家乡话</a></li>
+        <li><a href="http://phonemica.net/">鄉音苑</a></li>
+        <li><a href="http://xiaoxue.iis.sinica.edu.tw/">小學堂</a></li>
+        <li><a href="https://ytenx.org/">韻典網</a></li>
+        <li><a href="http://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/">粵語審音配詞字庫</a></li>
+        <li><a href="http://www.ccamc.co/index.php">古今文字集成</a></li>
+        <li><a href="http://suzukish.s252.xrea.com/search/">篇韻データベース</a></li>
+        <li><a href="https://github.com/lingpy/sinopy">SinoPy</a></li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>技術相關</summary>
+      <ul>
+        <li><a href="http://rime.im/">中州韻官網</a></li>
+        <li><a href="https://github.com/EasyIME/PIME/releases">Pime輸入法</a></li>
+        <li><a href="https://itunes.apple.com/us/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E4%BA%94%E7%AC%94%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977?mt=8">iRime输入法</a></li>
+        <li><a href="https://play.google.com/store/apps/details?id=com.osfans.trime&hl=zh">同文輸入法</a></li>
+        <li><a href="https://github.com/MindongLab">閩東語實驗室</a></li>
+      </ul>
+    </details>
+  </li>
+</ul>
 
 ## 致謝（按筆畫-字母順序排列）
 
@@ -656,6 +701,8 @@ Steps are the similar under Linux, OS X and other versions of Windows operating 
 At the moment we are still **missing the schemas for Northern Min, Central Min, Shao-Jiang Min, Qiongleihua, Pinghua, Xiang, Gan, Huizhou, Lan–Yin Mandarin, Southwestern Mandarin**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or open a new issue to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
 
 Up to now we have collected 32 recipes of 81 schemas. Below are the lists of all collected schemas and recipes, where recipes are marked with the symbol ℞.
+
+---
 
 ### Full list of collected schemas (81 schemas in total)
 
@@ -1007,8 +1054,6 @@ Up to now we have collected 32 recipes of 81 schemas. Below are the lists of all
   </li>
 </ul>
 
----
-
 ### List of recipes (32 recipes in total)
 
 <ul>
@@ -1162,52 +1207,97 @@ For detailed information of the collected schemas in the download packege, pleas
 
 ## Resources
 
-- Language learning resources (schema white papers, tutorials, dictionaries, etc.)
-    - Middle Chinese
-        - [中古漢語拼音](https://zh.wikipedia.org/wiki/User:Polyhedron/%E4%B8%AD%E5%8F%A4%E6%BC%A2%E8%AA%9E%E6%8B%BC%E9%9F%B3)
-        - [中古漢語基礎教程](https://bkrs.info/taolun/attachment.php?aid=637)
-        - [古音手鏡](http://www.guguolin.com/)
-    - Yue (Cantonese)
-        - [南宁白话](https://leimaau.github.io/book/)
-        - [貴州韻](https://github.com/tengtengteng/gvaizauvan/wiki)
-    - Min (Hokkien)
-        - [平話字表 (閩東語‣福州話)](https://only3km.github.io/ciklinbekin/)
-        - [福州话熟语大全](http://idioms.mindong.asia)
-        - [臺語萌典](https://www.moedict.tw/'%E7%99%BC%E7%A9%8E)
-        - [臺灣閩南語羅馬字拼音方案使用手冊](http://www.ntcu.edu.tw/tailo/educate.htm)
-        - [潮语拼音教程](https://kahaani.github.io/gatian/index.html)
-        - [潮州音字典](http://www.czyzd.com/)
-        - [潮州·母语](https://www.mogher.com/)
-    - Hakka
-        - [薪典](http://syndict.com/)
-        - [客語萌典](https://www.moedict.tw/:%E7%99%BC%E8%8A%BD)
-        - [客語字典查尋](http://hakka.fhl.net/dict/index_hakka.html)
-    - Wu (Goetian)
-        - [吴语学堂](https://wugniu.com/)
-        - [吴语协会 通用吴语拼音](http://wu-chinese.com/romanization/)
-        - [吴语协会 吴音小字典](http://wu-chinese.com/minidict/)
-        - [吳語注音法](http://input.foruto.com/wu/method.html)
-        - [宁波话吴拼教程](https://shinzoqchiuq.github.io/gninpou-tutorial/)
-    - Mandarin
-        - [南京話拼音教程](https://uliloewi.github.io/LangJinPinIn/SUMMARY)
-- Linguistics references
-    - [中国语言资源保护工程 汉语方言用字规范](http://www.moe.gov.cn/s78/A19/A19_gggs/A19_sjhj/201704/W020170405307025943395.pdf)
-    - [中国语言资源保护工程采录展示平台](https://zhongguoyuyan.cn/)
-    - [复旦大学东亚语言数据中心](http://ccdc.fudan.edu.cn)
-    - [家乡话](http://jiaxianghua.org)
-    - [Phonemica](http://phonemica.net/)
-    - [小學堂](http://xiaoxue.iis.sinica.edu.tw/)
-    - [韻典網](https://ytenx.org/)
-    - [粵語審音配詞字庫](http://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/)
-    - [古今文字集成](http://www.ccamc.co/index.php)
-    - [篇韻データベース](http://suzukish.s252.xrea.com/search/)
-    - [SinoPy](https://github.com/lingpy/sinopy)
-- Input method software
-    - [Rime Official Website](http://rime.im/)
-    - [Pime Input Method](https://github.com/EasyIME/PIME/releases)
-    - [iRime Input Method](https://itunes.apple.com/us/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E4%BA%94%E7%AC%94%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977?mt=8)
-    - [Trime Input Method](https://play.google.com/store/apps/details?id=com.osfans.trime&hl=zh)
-    - [Mindong Lab](https://github.com/MindongLab)
+<ul>
+  <li>
+    <details>
+      <summary>Language learning resources (schema white papers, tutorials, dictionaries, etc.)</summary>
+      <ul>
+        <li>
+          中古漢語
+          <ul>
+            <li><a href="https://zh.wikipedia.org/wiki/User:Polyhedron/%E4%B8%AD%E5%8F%A4%E6%BC%A2%E8%AA%9E%E6%8B%BC%E9%9F%B3">中古漢語拼音</a></li>
+            <li><a href="https://bkrs.info/taolun/attachment.php?aid=637">中古漢語基礎教程</a></li>
+            <li><a href="http://www.guguolin.com/">古音手鏡</a></li>
+          </ul>
+        </li>
+        <li>
+          官話
+          <ul>
+            <li><a href="https://uliloewi.github.io/LangJinPinIn/SUMMARY">南京話拼音教程</a></li>
+            <li><a href="https://zhuanlan.zhihu.com/p/34562639">四川话通用拼音</a></li>
+          </ul>
+        </li>
+        <li>
+          吳語
+          <ul>
+            <li><a href="https://wugniu.com/">吴语学堂</a></li>
+            <li><a href="http://wu-chinese.com/romanization/">吴语协会 通用吴语拼音</a></li>
+            <li><a href="http://wu-chinese.com/minidict/">吴语协会 吴音小字典</a></li>
+            <li><a href="http://input.foruto.com/wu/method.html">吳語注音法</a></li>
+            <li><a href="https://shinzoqchiuq.github.io/gninpou-tutorial/">宁波话吴拼教程</a></li>
+          </ul>
+        </li>
+        <li>
+          粵語
+          <ul>
+            <li><a href="https://leimaau.github.io/book/">南宁白话</a></li>
+            <li><a href="https://github.com/tengtengteng/gvaizauvan/wiki">貴州韻</a></li>
+          </ul>
+        </li>
+        <li>
+          閩語
+          <ul>
+            <li><a href="https://only3km.github.io/ciklinbekin/">平話字表 (閩東語‣福州話)</a></li>
+            <li><a href="http://idioms.mindong.asia">福州话熟语大全</a></li>
+            <li><a href="https://www.moedict.tw/'%E7%99%BC%E7%A9%8E">臺語萌典</a></li>
+            <li><a href="http://www.ntcu.edu.tw/tailo/educate.htm">臺灣閩南語羅馬字拼音方案使用手冊</a></li>
+            <li><a href="https://kahaani.github.io/gatian/index.html">潮语拼音教程</a></li>
+            <li><a href="http://www.czyzd.com/">潮州音字典</a></li>
+            <li><a href="https://www.mogher.com/">潮州·母语</a></li>
+          </ul>
+        </li>
+        <li>
+          客家話
+          <ul>
+            <li><a href="http://syndict.com/">薪典</a></li>
+            <li><a href="https://www.moedict.tw/:%E7%99%BC%E8%8A%BD">客語萌典</a></li>
+            <li><a href="http://hakka.fhl.net/dict/index_hakka.html">客語字典查尋</a></li>
+          </ul>
+        </li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Linguistics references</summary>
+      <ul>
+        <li><a href="http://www.moe.gov.cn/s78/A19/A19_gggs/A19_sjhj/201704/W020170405307025943395.pdf">中国语言资源保护工程 汉语方言用字规范</a></li>
+        <li><a href="https://zhongguoyuyan.cn/">中国语言资源保护工程采录展示平台</a></li>
+        <li><a href="http://ccdc.fudan.edu.cn">复旦大学东亚语言数据中心</a></li>
+        <li><a href="http://jiaxianghua.org">家乡话</a></li>
+        <li><a href="http://phonemica.net/">鄉音苑</a></li>
+        <li><a href="http://xiaoxue.iis.sinica.edu.tw/">小學堂</a></li>
+        <li><a href="https://ytenx.org/">韻典網</a></li>
+        <li><a href="http://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/">粵語審音配詞字庫</a></li>
+        <li><a href="http://www.ccamc.co/index.php">古今文字集成</a></li>
+        <li><a href="http://suzukish.s252.xrea.com/search/">篇韻データベース</a></li>
+        <li><a href="https://github.com/lingpy/sinopy">SinoPy</a></li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Tech related</summary>
+      <ul>
+        <li><a href="http://rime.im/">中州韻官網</a></li>
+        <li><a href="https://github.com/EasyIME/PIME/releases">Pime輸入法</a></li>
+        <li><a href="https://itunes.apple.com/us/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E4%BA%94%E7%AC%94%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977?mt=8">iRime输入法</a></li>
+        <li><a href="https://play.google.com/store/apps/details?id=com.osfans.trime&hl=zh">同文輸入法</a></li>
+        <li><a href="https://github.com/MindongLab">閩東語實驗室</a></li>
+      </ul>
+    </details>
+  </li>
+</ul>
 
 ## Acknowledgements (In strokes and alphabetical order)
 
