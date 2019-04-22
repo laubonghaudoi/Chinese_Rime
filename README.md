@@ -3,7 +3,7 @@
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 ![licence](https://img.shields.io/badge/licence-Apache--2.0-blue.svg?style=flat)
 
-**[中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#%E4%B8%AD%E5%B7%9E%E9%9F%BB%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)        [English](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#collection-of-rime-input-method-schemas-for-chinese-topolectsdialects)**
+**[中文](https://github.com/laubonghaudoi/Chinese_Rime#%E4%B8%AD%E5%B7%9E%E9%9F%BB%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)        [English](https://github.com/laubonghaudoi/Chinese_Rime#collection-of-rime-input-method-schemas-for-chinese-topolectsdialects)**
 
 ## 項目宗旨
 
@@ -18,7 +18,7 @@
 本倉庫分为四个子文件夹：
 
 1. `sources/`路徑下爲各個輸入方案的來源倉庫，以子模块submodule的形式保存，方便方案作者實時更新自己的方案。由於部分方案不存在於GitHub，故此路徑下方案收錄不完整，
-2. `unmaintained/`路徑下爲从其他渠道收集得的方案文件，此类文件不存在于GitHub上，无人更新维护，不保证可用性。
+2. `unmaintained/`路徑下爲从其他渠道收集得的方案文件，此类方案未配方化（配方的介紹請參見[Rime 輸入方案又是啥](https://github.com/laubonghaudoi/Chinese_Rime#%E4%B8%AD%E5%B7%9E%E9%9F%BB%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)），无人更新维护，不保证可用性。
 3. `download/`用於存放各個語言的唯一權威版拼音，即爲[發佈頁面](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases)的下載整合包，方便用戶直接部署使用。
 4. `resources/`下为关于各个方案的其他资源，如方案白皮书、教程等，方便使用者学习参考。
 
@@ -659,7 +659,7 @@ This project also supports the promotion project of non-Mandarin phonetic spelli
 This repo has four sub-directories:
 
 1. Folders under the `sources/` directory are the source repos of some schemas, which are preserved as submodules so that the schema designers can maintain them. Since not all schemas are open-sourced on GitHub, the collection under this directory is incomplete. 
-2. The `unmaintained/` directory preserves schemas from other sources (not from GitHub). They are not maintained by anybody so the usabilities are not guaranteed.  
+2. The `unmaintained/` directory preserves schemas from other sources which are not recipes (for an introduction to schema recepies, please see [Rime 輸入方案又是啥](https://github.com/rime/home/wiki/RimeWithSchemata#rime-%E8%BC%B8%E5%85%A5%E6%96%B9%E6%A1%88%E5%8F%88%E6%98%AF%E5%95%A5)). They are not maintained by anybody so the usabilities are not guaranteed.  
 3. The `download/` directory serves as the folder for the [released](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) packages. It contains only the selected schema for the prestige dialect of each language. Hence users can download, deploy and use these off-the-shelf schemas conveniently.
 4. The `resources/` directory stores materials about the collected schemas, such as tutorials, schema white papers, etc., as references and study materials for users.
 
