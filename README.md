@@ -249,7 +249,7 @@
         </li>
         <li>
           沟漏片藤县白话输入方案 ℞
-          <code>cryptogun/rime-jutjnyu_gaulaupin_dangjunbikwaa</code>
+          <code>cryptogun/gaulau_jyutping</code>
           <ul>
             <li>
               粤语沟漏片藤县白话 - <code>jutjnyu_gaulaupin_dangjunbikwaa</code>
@@ -458,7 +458,7 @@
         <li>南寧白話輸入方案 ℞ <code>leimaau/naamning_jyutping</code></li>
         <li>
           沟漏片藤县白话输入方案 ℞
-          <code>cryptogun/rime-jutjnyu_gaulaupin_dangjunbikwaa</code>
+          <code>cryptogun/gaulau_jyutping</code>
         </li>
       </ul>
     </details>
@@ -516,7 +516,7 @@
 
 下載包內方案信息詳見[發佈](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases)頁面。
 
-## 部分方案數據來源（非GitHub子模塊）
+## 部分方案數據來源（非配方）
 
 - 中古漢語
     - [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
@@ -524,14 +524,6 @@
     - [廣韻段毄攴字法](https://bintray.com/rime-aca/Schemata/KMG)
 - 粵語
     - [貴州韻](https://zhuanlan.zhihu.com/p/31464937)
-- 閩語
-    - （均來自GitHub）
-- 客家話
-    - （均來自GitHub）
-- 吳語
-    - （均來自GitHub）
-- 官話
-    - （均來自GitHub）
 - 域外方音
     - [古壮字拼音](https://zhuanlan.zhihu.com/p/24138023)
 
@@ -919,7 +911,7 @@ Up to now we have collected 32 recipes of 81 schemas. Below are the lists of all
         </li>
         <li>
           沟漏片藤县白话输入方案 ℞
-          <code>cryptogun/rime-jutjnyu_gaulaupin_dangjunbikwaa</code>
+          <code>cryptogun/gaulau_jyutping</code>
           <ul>
             <li>
               粤语沟漏片藤县白话 - <code>jutjnyu_gaulaupin_dangjunbikwaa</code>
@@ -1128,7 +1120,7 @@ Up to now we have collected 32 recipes of 81 schemas. Below are the lists of all
         <li>南寧白話輸入方案 ℞ <code>leimaau/naamning_jyutping</code></li>
         <li>
           沟漏片藤县白话输入方案 ℞
-          <code>cryptogun/rime-jutjnyu_gaulaupin_dangjunbikwaa</code>
+          <code>cryptogun/gaulau_jyutping</code>
         </li>
       </ul>
     </details>
@@ -1186,7 +1178,7 @@ Up to now we have collected 32 recipes of 81 schemas. Below are the lists of all
 
 For detailed information of the collected schemas in the download packege, please see the [release](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) page.
 
-## Incomplete list of sources of unmaintained schemas
+## Incomplete list of sources of unmaintained schemas (non-recipes)
 
 - Middle Chinese
     - [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
@@ -1194,14 +1186,6 @@ For detailed information of the collected schemas in the download packege, pleas
     - [廣韻段毄攴字法](https://bintray.com/rime-aca/Schemata/KMG)
 - Yue (Cantonese)
     - [貴州韻](https://zhuanlan.zhihu.com/p/31464937)
-- Min (Hokkien)
-    - (All from GitHub)
-- Hakka
-    - (All from GitHub)
-- Wu (Goetian)
-    - (All from GitHub)
-- Mandarin
-    - (All from GitHub)
 - Foreign Dialects
     - [古壮字拼音](https://zhuanlan.zhihu.com/p/24138023)
 
