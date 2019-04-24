@@ -30,11 +30,11 @@
 
 目前主要**缺失閩北語、閩中語、邵將語、瓊雷話、平話、湘語、贛語、徽語、蘭銀官話、膠遼官話**的輸入方案，如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
-以下爲方案總表和配方列表。目前總共收錄32個配方的81個方案，其中配方以符號℞標識。
+以下爲方案總表和配方列表。目前總共收錄33個配方的83個方案，其中配方以符號℞標識。
 
 ---
 
-### 方案列表（共81個方案）
+### 方案列表（共83個方案）
 
 <ul>
   <li>
@@ -213,6 +213,20 @@
   </li>
   <li>
     <details>
+      <summary>甌語</summary>
+      <ul>
+        <li>
+          樂清話拼音輸入法 ℞ <code>lotem/rime-aoyu</code>
+          <ul>
+            <li>樂清柳東口音 - <code>ay_ncld</code></li>
+            <li>樂清柳西口音 - <code>ay_ncls</code></li>
+          </ul>
+        </li>
+      <ul>
+    </details>
+  </li>
+  <li>
+    <details>
       <summary>粵語</summary>
       <ul>
         <li>
@@ -384,7 +398,7 @@
   </li>
 </ul>
 
-### 配方列表（共32個配方）
+### 配方列表（共33個配方）
 
 <ul>
   <li>
@@ -445,6 +459,14 @@
         <li>吳語·上海話 ℞ <code>rime/rime-wugniu</code></li>
         <li>蘇州吳語 ℞ <code>rime/rime-soutzoe</code></li>
       </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>甌語</summary>
+      <ul>
+        <li>樂清話拼音輸入法 ℞ <code>lotem/rime-aoyu</code></li>
+      <ul>
     </details>
   </li>
   <li>
@@ -644,7 +666,7 @@
 
 # Collection of Rime Input Method Schemas for Chinese Topolects/Dialects
 
-**[中文](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#%E4%B8%AD%E5%B7%9E%E9%9F%BB%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)        [English](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema#collection-of-rime-input-method-schemas-for-chinese-topolectsdialects)**
+**[中文](https://github.com/laubonghaudoi/Chinese_Rime#%E4%B8%AD%E5%B7%9E%E9%9F%BB%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)        [English](https://github.com/laubonghaudoi/Chinese_Rime#collection-of-rime-input-method-schemas-for-chinese-topolectsdialects)**
 
 ## The Mission of this project
 
@@ -692,11 +714,11 @@ Steps are the similar under Linux, OS X and other versions of Windows operating 
 
 At the moment we are still **missing the schemas for Northern Min, Central Min, Shao-Jiang Min, Qiongleihua, Pinghua, Xiang, Gan, Huizhou, Lan–Yin Mandarin, Southwestern Mandarin**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or open a new issue to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
 
-Up to now we have collected 32 recipes of 81 schemas. Below are the lists of all collected schemas and recipes, where recipes are marked with the symbol ℞.
+Up to now we have collected 33 recipes of 83 schemas. Below are the lists of all collected schemas and recipes, where recipes are marked with the symbol ℞.
 
 ---
 
-### Full list of collected schemas (81 schemas in total)
+### Full list of collected schemas (83 schemas in total)
 
 <ul>
   <li>
@@ -875,6 +897,20 @@ Up to now we have collected 32 recipes of 81 schemas. Below are the lists of all
   </li>
   <li>
     <details>
+      <summary>Auish (Wenzhounese)</summary>
+      <ul>
+        <li>
+          樂清話拼音輸入法 ℞ <code>lotem/rime-aoyu</code>
+          <ul>
+            <li>樂清柳東口音 - <code>ay_ncld</code></li>
+            <li>樂清柳西口音 - <code>ay_ncls</code></li>
+          </ul>
+        </li>
+      <ul>
+    </details>
+  </li>
+  <li>
+    <details>
       <summary>Yue (Cantonese)</summary>
       <ul>
         <li>
@@ -1046,7 +1082,7 @@ Up to now we have collected 32 recipes of 81 schemas. Below are the lists of all
   </li>
 </ul>
 
-### List of recipes (32 recipes in total)
+### List of recipes (33 recipes in total)
 
 <ul>
   <li>
@@ -1107,6 +1143,14 @@ Up to now we have collected 32 recipes of 81 schemas. Below are the lists of all
         <li>吳語·上海話 ℞ <code>rime/rime-wugniu</code></li>
         <li>蘇州吳語 ℞ <code>rime/rime-soutzoe</code></li>
       </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Auish (Wenzhounese)</summary>
+      <ul>
+        <li>樂清話拼音輸入法 ℞ <code>lotem/rime-aoyu</code></li>
+      <ul>
     </details>
   </li>
   <li>
