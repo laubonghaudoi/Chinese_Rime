@@ -605,6 +605,8 @@
           <ul>
             <li><a href="http://syndict.com/">薪典</a></li>
             <li><a href="https://www.moedict.tw/:%E7%99%BC%E8%8A%BD">客語萌典</a></li>
+            <li><a href="https://depart.moe.edu.tw/ED2400/News.aspx?n=5EB26D97D6A29617&sms=8C59E176B3E3F56E">終身教育司-客家語</a></li>
+            <li><a href="https://hakka.dict.edu.tw/hakkadict/index.htm">臺灣客家語常用詞辭典</a></li>
             <li><a href="http://hakka.fhl.net/dict/index_hakka.html">客語字典查尋</a></li>
           </ul>
         </li>
@@ -1289,6 +1291,8 @@ For detailed information of the collected schemas in the download packege, pleas
           <ul>
             <li><a href="http://syndict.com/">薪典</a></li>
             <li><a href="https://www.moedict.tw/:%E7%99%BC%E8%8A%BD">客語萌典</a></li>
+            <li><a href="https://depart.moe.edu.tw/ED2400/News.aspx?n=5EB26D97D6A29617&sms=8C59E176B3E3F56E">終身教育司-客家語</a></li>
+            <li><a href="https://hakka.dict.edu.tw/hakkadict/index.htm">臺灣客家語常用詞辭典</a></li>
             <li><a href="http://hakka.fhl.net/dict/index_hakka.html">客語字典查尋</a></li>
           </ul>
         </li>
