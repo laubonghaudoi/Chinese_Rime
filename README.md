@@ -350,7 +350,7 @@
       <summary>客家話</summary>
       <ul>
         <li>
-          崇正客語輸入法 ℞ <code>xunux/hakka-culture</code>
+          崇正客語輸入法 ℞ <code>syndict/hakka</code>
           <ul>
             <li>客語 - <code>hakka</code></li>
             <li>客語-梅縣 - <code>hakka_meixian</code></li>
@@ -516,7 +516,7 @@
     <details>
       <summary>客家話</summary>
       <ul>
-        <li>崇正客語輸入法 ℞ <code>xunux/hakka-culture</code></li>
+        <li>崇正客語輸入法 ℞ <code>syndict/hakka</code></li>
       </ul>
     </details>
   </li>
@@ -977,7 +977,7 @@ Up to now we have collected 33 recipes of 83 schemas. Below are the lists of all
   </li>
   <li>
     <details>
-      <summary>Southern Min</summary>
+      <summary>Southern Min (Hokkien)</summary>
       <ul>
         <li>
           閩南語輸入方案 ℞ <code>a-thok/rime-hokkien</code>
@@ -1036,7 +1036,7 @@ Up to now we have collected 33 recipes of 83 schemas. Below are the lists of all
       <summary>Hakka</summary>
       <ul>
         <li>
-          崇正客語輸入法 ℞ <code>xunux/hakka-culture</code>
+          崇正客語輸入法 ℞ <code>syndict/hakka</code>
           <ul>
             <li>客語 - <code>hakka</code></li>
             <li>客語-梅縣 - <code>hakka_meixian</code></li>
@@ -1181,7 +1181,7 @@ Up to now we have collected 33 recipes of 83 schemas. Below are the lists of all
   </li>
   <li>
     <details>
-      <summary>Southern Min</summary>
+      <summary>Southern Min (Hokkien)</summary>
       <ul>
         <li>閩南語輸入方案 ℞ <code>a-thok/rime-hokkien</code></li>
         <li>閩南語拼音輸入方案 ℞ <code>LimTo/etaiBLG</code></li>
@@ -1202,7 +1202,7 @@ Up to now we have collected 33 recipes of 83 schemas. Below are the lists of all
     <details>
       <summary>Hakka</summary>
       <ul>
-        <li>崇正客語輸入法 ℞ <code>xunux/hakka-culture</code></li>
+        <li>崇正客語輸入法 ℞ <code>syndict/hakka</code></li>
       </ul>
     </details>
   </li>
