@@ -127,6 +127,7 @@
           南京話拼音输入法 ℞ <code>uliloewi/lang2jin1</code>
           <ul>
             <li>南京官話拼音 - <code>langjin</code></li>
+            <li>泰如拼音 - <code>taerv</code></li>
           </ul>
         </li>
       </ul>
@@ -364,6 +365,7 @@
     <details>
       <summary>晉語</summary>
       <ul>
+        <li>嘉樂泉話 - <code>jieny</code></li>
         <li>晋拼解州片 - <code>haitrou</code></li>
       </ul>
     </details>
@@ -568,6 +570,7 @@
           官話
           <ul>
             <li><a href="https://uliloewi.github.io/LangJinPinIn/SUMMARY">南京話拼音教程</a></li>
+            <li><a href="http://taerv.nguyoeh.com/">泰如方言</a></li>
             <li><a href="https://zhuanlan.zhihu.com/p/34562639">四川话通用拼音</a></li>
           </ul>
         </li>
@@ -814,6 +817,7 @@ Up to now we have collected 33 recipes of 83 schemas. Below are the lists of all
           南京話拼音输入法 ℞ <code>uliloewi/lang2jin1</code>
           <ul>
             <li>南京官話拼音 - <code>langjin</code></li>
+            <li>泰如拼音 - <code>taerv</code></li>
           </ul>
         </li>
       </ul>
@@ -1051,6 +1055,7 @@ Up to now we have collected 33 recipes of 83 schemas. Below are the lists of all
     <details>
       <summary>Jin</summary>
       <ul>
+        <li>嘉樂泉話 - <code>jieny</code></li>
         <li>晋拼解州片 - <code>haitrou</code></li>
       </ul>
     </details>
@@ -1255,6 +1260,7 @@ For detailed information of the collected schemas in the download packege, pleas
           官話
           <ul>
             <li><a href="https://uliloewi.github.io/LangJinPinIn/SUMMARY">南京話拼音教程</a></li>
+            <li><a href="http://taerv.nguyoeh.com/">泰如方言</a></li>
             <li><a href="https://zhuanlan.zhihu.com/p/34562639">四川话通用拼音</a></li>
           </ul>
         </li>
