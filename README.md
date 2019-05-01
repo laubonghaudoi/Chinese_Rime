@@ -127,9 +127,9 @@
           南京話拼音输入法 ℞ <code>uliloewi/lang2jin1</code>
           <ul>
             <li>南京官話拼音 - <code>langjin</code></li>
-            <li>泰如拼音 - <code>taerv</code></li>
           </ul>
         </li>
+        <li>泰如拼音 - <code>taerv</code></li>
       </ul>
     </details>
   </li>
@@ -546,8 +546,12 @@
     - [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
     - [廣韻羅馬字](https://gist.github.com/lotem/3950485)
     - [廣韻段毄攴字法](https://bintray.com/rime-aca/Schemata/KMG)
+- 江淮官話
+    - [泰如拼音](https://github.com/osfans/rime-tool/tree/master/data/y)
 - 粵語
     - [貴州韻](https://zhuanlan.zhihu.com/p/31464937)
+- 晉語
+    - [嘉樂泉話](https://github.com/osfans/rime-tool/tree/master/data/y)
 - 域外方音
     - [古壮字拼音](https://zhuanlan.zhihu.com/p/24138023)
 
@@ -817,9 +821,9 @@ Up to now we have collected 33 recipes of 83 schemas. Below are the lists of all
           南京話拼音输入法 ℞ <code>uliloewi/lang2jin1</code>
           <ul>
             <li>南京官話拼音 - <code>langjin</code></li>
-            <li>泰如拼音 - <code>taerv</code></li>
           </ul>
         </li>
+        <li>泰如拼音 - <code>taerv</code></li>
       </ul>
     </details>
   </li>
@@ -1236,8 +1240,12 @@ For detailed information of the collected schemas in the download packege, pleas
     - [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
     - [廣韻羅馬字](https://gist.github.com/lotem/3950485)
     - [廣韻段毄攴字法](https://bintray.com/rime-aca/Schemata/KMG)
+- Lower Yangtze Mandarin
+    - [泰如拼音](https://github.com/osfans/rime-tool/tree/master/data/y)
 - Yue (Cantonese)
     - [貴州韻](https://zhuanlan.zhihu.com/p/31464937)
+- Jin
+    - [嘉樂泉話](https://github.com/osfans/rime-tool/tree/master/data/y)
 - Foreign Dialects
     - [古壮字拼音](https://zhuanlan.zhihu.com/p/24138023)
 

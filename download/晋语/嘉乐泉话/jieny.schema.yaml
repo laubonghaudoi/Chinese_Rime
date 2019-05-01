@@ -1,0 +1,130 @@
+﻿# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: jieny
+  name: 嘉樂泉話
+  version: "0.13"
+  author:
+    - noazeioai
+    - 1066693321@qq.com
+  description: |
+      
+      
+           
+  dependencies:
+    - jieny
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    states: [ ，。, ，． ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - xform/hia/ha/
+    - xform/leui/leu/
+    - xform/eaq/eq/
+    - xform/aoqoe/aoq/
+    - xform/oeu/ou/
+    - xform/oueu/ou/
+    - xform/aoo/ao/
+    - xform/ti/qi/
+    - xform/aou/au/
+    - xform/(dz|t?s)yu/$1y/
+    - "abbrev/^([abcefhijklmpqsvwxyz]).+$/$1/"
+    - "abbrev/^(d|t|n|g)([aeiou]).+$/$1/"
+    - "abbrev/^(ng|gn|dz|ts|nz).+$/$1/"
+    - "abbrev/^(dg|tk|nng).+$/$1/"
+    - "derive/^(q|j|gn|x)i([ae])/$1$2/"
+    - "derive/^(q|j|gn|x)y(u)/$1$2/"
+    #- derive/(.*)aon/$1an/                        # 模糊前後an
+    #- derive/(.*)aoq/$1aq/                         # 模糊前後aq
+    #- derive/(.*)ien/$1in/                             # 模糊前後in
+    #- derive/(.*)ieq/$1iq/                             # 模糊前後iq
+    #- derive/(.*)au/ao/                               # 模糊“張” “章”
+    #- derive/(.*)yun/yon/                             # 模糊“允” “云”
+    #- derive/iei/i/
+    #- derive/aei/ai/
+
+translator:
+  dictionary: jieny
+  spelling_hints: 9
+  #preedit_format:
+  comment_format: 
+    - xform/hia/ha/
+    - xform/leui/leu/
+    - xform/eaq/eq/
+    - xform/aoqoe/aoq/
+    - xform/oeu/ou/
+    - xform/oueu/ou/
+    - xform/aoo/ao/
+    - xform/ti/qi/
+    - xform/aou/au/
+    - xform/(dz|t?s)yu/$1y/
+ 
+reverse_lookup:
+  dictionary: tsaojieq
+  prefix: "`"
+  suffix: "'"
+  tips: 〔倉頡〕
+  enable_charset_filter: true
+  preedit_format:
+    - "xlit|wdoibaeutyklmzjpcxfgsqhvnr|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - xform/hia/ha/
+    - xform/leui/leu/
+    - xform/eaq/eq/
+    - xform/aoqoe/aoq/
+    - xform/oeu/ou/
+    - xform/oueu/ou/
+    - xform/aoo/ao/
+    - xform/ti/qi/
+    - xform/aou/au/
+    - xform/(dz|t?s)yu/$1y/
+
+punctuator:
+  import_preset: symbol
+
+key_binder:
+  import_preset: symbol
+
+recognizer:
+  import_preset: symbol
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
+    email: "^[a-z][-_.0-9a-z]*@.*$"
+    url: "^(www[.]|https?:|ftp:|mailto:).*$"
+    punct: "/[0-9a-z].*$" 
