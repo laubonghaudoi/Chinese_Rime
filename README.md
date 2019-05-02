@@ -30,7 +30,7 @@
 
 目前總共收錄33個配方的85個方案，主要**缺失閩北語、閩中語、徽語、贛語、湘語**的輸入方案。如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
-目前學界對漢語方言分類歸類問題仍存爭議，常見的分類方式有傳統的七分法、《中國語言地圖集》的十分法和ISO國際標準的十三分法等。若使用傳統分法，則現代漢語族下分七大語支，官吳贛湘粵客閩。若採用《中國語言地圖集》之十分法，則晉語獨立於官話自成一支，徽語獨立於吳語自成一支，平話獨立於粵語成一支。若採用ISO標準的十三分法，則平話從屬於粵語，而閩語則細分爲閩北、閩南、閩東、閩中、莆仙五支，另外中古漢語和上古漢語各計作一門語言。
+目前學界對漢語方言分類歸類問題仍存爭議，常見的分類方式有傳統的七分法、《中國語言地圖集》的十分法和ISO國際標準的十三分法等。若使用傳統分法，則現代漢語族下分七大語支，官吳贛湘粵客閩。若採用《中國語言地圖集》之十分法，則晉語獨立於官話成一支，徽語獨立於吳語成一支，平話獨立於粵語成一支。若採用ISO標準的十三分法，則平話從屬於粵語，而閩語則細分爲閩北、閩南、閩東、閩中、莆仙五支，另外中古漢語和上古漢語各計作一門語言。
 
 爲提高本項目可讀性和後續可維護性，本項目採用ISO標準的十三分法。此標準僅作參考，非最佳標準。若對此分類方式有任何疑問或意見，歡迎新開一個issue發起討論。下表爲此標準下各語言所對應的ISO 639-3代碼：
 
@@ -724,6 +724,7 @@ Norman, J.L. (1988) Chinese. Cambridge University Press.
         <li>
           粵語
           <ul>
+            <li><a href="http://www.cantonese.asia/attachments/school/canchars.htm">粵語字打法大全（2007賀歲版）</a></li>
             <li><a href="https://leimaau.github.io/book/">南宁白话</a></li>
             <li><a href="https://github.com/tengtengteng/gvaizauvan/wiki">貴州韻</a></li>
           </ul>
@@ -839,7 +840,7 @@ It has been an unsettled issue in the academia on the taxonomy for Chinese langu
 
 Considering the readability and maintainability of this project, here we adopt the ISO taxonomy system. This is for reference only and by no means the gold standard. If you have any questions or opinions about this, feel free to open a new issue for discussion. The following table shows the ISO 639-3 codes for these languages.
 
-| Old Chinese | Middle Chinese | Mandarin | Jin | Wu | Hui | Gan | Xiang | Northern Min | Southern Min | Eastern Min | Central Min | Pu-Xian Min | Hakka | Yue |
+| Old Chinese | Middle Chinese | Mandarin | Jin | Wu | Huizhou | Gan | Xiang | Northern Min | Southern Min | Eastern Min | Central Min | Pu-Xian Min | Hakka | Yue |
 |----------|----------|------|------|------|------|------|------|--------|--------|--------|--------|--------|--------|------|
 | och      | ltc      | cmn  | cjy  | wuu  | czh  | gan  | hsn  | mnp    | nan    | cdo    | czo    | cpx    | hak    | yue  |
 
@@ -1511,6 +1512,7 @@ The Baxter-Sagart reconstruction of Old Chinese</a></li>
           <ul>
             <li><a href="https://leimaau.github.io/book/">南宁白话</a></li>
             <li><a href="https://github.com/tengtengteng/gvaizauvan/wiki">貴州韻</a></li>
+            <li><a href="http://www.cantonese.asia/attachments/school/canchars.htm">粵語字打法大全（2007賀歲版）</a></li>
           </ul>
         </li>
         <li>
