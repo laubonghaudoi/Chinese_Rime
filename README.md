@@ -688,6 +688,7 @@ Norman, J.L. (1988) Chinese. Cambridge University Press.
           吳語
           <ul>
             <li><a href="https://wugniu.com/">吴语学堂</a></li>
+            <li><a href="https://shinzoqchiuq.github.io/gninpou-tutorial/">宁波话吴拼教程</a></li>
             <li><a href="http://wu-chinese.com/romanization/">吴语协会 通用吴语拼音</a></li>
             <li><a href="http://wu-chinese.com/minidict/">吴语协会 吴音小字典</a></li>
             <li><a href="http://input.foruto.com/wu/method.html">吳語注音法</a></li>
@@ -758,6 +759,7 @@ Norman, J.L. (1988) Chinese. Cambridge University Press.
         <li><a href="https://github.com/EasyIME/PIME/releases">Pime輸入法</a></li>
         <li><a href="https://itunes.apple.com/us/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E4%BA%94%E7%AC%94%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977?mt=8">iRime输入法</a></li>
         <li><a href="https://play.google.com/store/apps/details?id=com.osfans.trime&hl=zh">同文輸入法</a></li>
+        <li><a href="https://ngli.github.io/rime-wugniu/">吴语学堂拼音输入方案合集</a></li>
         <li><a href="https://github.com/MindongLab">閩東語實驗室</a></li>
       </ul>
     </details>
@@ -1501,6 +1503,7 @@ The Baxter-Sagart reconstruction of Old Chinese</a></li>
           Wu (Goetian)
           <ul>
             <li><a href="https://wugniu.com/">吴语学堂</a></li>
+            <li><a href="https://shinzoqchiuq.github.io/gninpou-tutorial/">宁波话吴拼教程</a></li>
             <li><a href="http://wu-chinese.com/romanization/">吴语协会 通用吴语拼音</a></li>
             <li><a href="http://wu-chinese.com/minidict/">吴语协会 吴音小字典</a></li>
             <li><a href="http://input.foruto.com/wu/method.html">吳語注音法</a></li>
@@ -1571,6 +1574,7 @@ The Baxter-Sagart reconstruction of Old Chinese</a></li>
         <li><a href="https://github.com/EasyIME/PIME/releases">Pime輸入法</a></li>
         <li><a href="https://itunes.apple.com/us/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E4%BA%94%E7%AC%94%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977?mt=8">iRime输入法</a></li>
         <li><a href="https://play.google.com/store/apps/details?id=com.osfans.trime&hl=zh">同文輸入法</a></li>
+        <li><a href="https://ngli.github.io/rime-wugniu/">吴语学堂拼音输入方案合集</a></li>
         <li><a href="https://github.com/MindongLab">閩東語實驗室</a></li>
       </ul>
     </details>
