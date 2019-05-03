@@ -18,7 +18,7 @@
 本倉庫分为四个子文件夹：
 
 1. `sources/`路徑下爲各個輸入方案的來源倉庫，以子模块submodule的形式保存，方便方案作者實時更新自己的方案。由於部分方案不存在於GitHub，故此路徑下方案收錄不完整，
-2. `unmaintained/`路徑下爲从其他渠道收集得的方案文件，此类方案未配方化（配方的介紹請參見[Rime 輸入方案又是啥](https://github.com/laubonghaudoi/Chinese_Rime#%E4%B8%AD%E5%B7%9E%E9%9F%BB%E8%BC%B8%E5%85%A5%E6%B3%95%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E5%85%A8%E9%9B%86)），无人更新维护，不保证可用性。
+2. `unmaintained/`路徑下爲从其他渠道收集得的方案文件，此类方案未配方化（配方的介紹請參見[Rime 輸入方案又是啥](https://github.com/rime/home/wiki/RimeWithSchemata#rime-%E8%BC%B8%E5%85%A5%E6%96%B9%E6%A1%88%E5%8F%88%E6%98%AF%E5%95%A5)），无人更新维护，不保证可用性。
 3. `download/`用於存放各個語言的唯一權威版拼音，即爲[發佈頁面](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases)的下載整合包，方便用戶直接部署使用。
 4. `resources/`下为关于各个方案的其他资源，如方案白皮书、教程等，方便使用者学习参考。
 
@@ -725,6 +725,7 @@ Norman, J.L. (1988) Chinese. Cambridge University Press.
         <li>
           粵語
           <ul>
+            <li><a href="http://www.cantonese.asia/">粵語協會</a></li>
             <li><a href="http://www.cantonese.asia/attachments/school/canchars.htm">粵語字打法大全（2007賀歲版）</a></li>
             <li><a href="https://leimaau.github.io/book/">南宁白话</a></li>
             <li><a href="https://github.com/tengtengteng/gvaizauvan/wiki">貴州韻</a></li>
@@ -1511,21 +1512,6 @@ The Baxter-Sagart reconstruction of Old Chinese</a></li>
           </ul>
         </li>
         <li>
-          Yue (Cantonese)
-          <ul>
-            <li><a href="https://leimaau.github.io/book/">南宁白话</a></li>
-            <li><a href="https://github.com/tengtengteng/gvaizauvan/wiki">貴州韻</a></li>
-            <li><a href="http://www.cantonese.asia/attachments/school/canchars.htm">粵語字打法大全（2007賀歲版）</a></li>
-          </ul>
-        </li>
-        <li>
-          Eastern Min
-          <ul>
-            <li><a href="https://only3km.github.io/ciklinbekin/">平話字表 (閩東語‣福州話)</a></li>
-            <li><a href="http://idioms.mindong.asia">福州话熟语大全</a></li>
-          </ul>
-        </li>
-        <li>
           Southern Min (Hokkien, Teochew)
           <ul>
             <li><a href="https://www.moedict.tw/'%E7%99%BC%E7%A9%8E">臺語萌典</a></li>
@@ -1536,6 +1522,13 @@ The Baxter-Sagart reconstruction of Old Chinese</a></li>
           </ul>
         </li>
         <li>
+          Eastern Min
+          <ul>
+            <li><a href="https://only3km.github.io/ciklinbekin/">平話字表 (閩東語‣福州話)</a></li>
+            <li><a href="http://idioms.mindong.asia">福州话熟语大全</a></li>
+          </ul>
+        </li>
+        <li>
           Hakka
           <ul>
             <li><a href="http://syndict.com/">薪典</a></li>
@@ -1543,6 +1536,15 @@ The Baxter-Sagart reconstruction of Old Chinese</a></li>
             <li><a href="https://depart.moe.edu.tw/ED2400/News.aspx?n=5EB26D97D6A29617&sms=8C59E176B3E3F56E">終身教育司-客家語</a></li>
             <li><a href="https://hakka.dict.edu.tw/hakkadict/index.htm">臺灣客家語常用詞辭典</a></li>
             <li><a href="http://hakka.fhl.net/dict/index_hakka.html">客語字典查尋</a></li>
+          </ul>
+        </li>
+        <li>
+          Yue (Cantonese)
+          <ul>
+            <li><a href="http://www.cantonese.asia/">粵語協會</a></li>
+            <li><a href="http://www.cantonese.asia/attachments/school/canchars.htm">粵語字打法大全（2007賀歲版）</a></li>
+            <li><a href="https://leimaau.github.io/book/">南宁白话</a></li>
+            <li><a href="https://github.com/tengtengteng/gvaizauvan/wiki">貴州韻</a></li>
           </ul>
         </li>
       </ul>
