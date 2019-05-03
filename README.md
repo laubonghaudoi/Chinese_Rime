@@ -28,13 +28,21 @@
 
 ## 已收錄方案
 
-目前主要**缺失閩北語、閩中語、邵將語、瓊雷話、平話、湘語、贛語、徽語、蘭銀官話、膠遼官話**的輸入方案，如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
+目前總共收錄33個配方的85個方案，主要**缺失閩北語、閩中語、徽語、贛語、湘語**的輸入方案。如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
-以下爲方案總表和配方列表。目前總共收錄33個配方的83個方案，其中配方以符號℞標識。
+目前學界對漢語方言分類歸類問題仍存爭議，常見的分類方式有傳統的七分法、《中國語言地圖集》的十分法和ISO國際標準的十三分法等。若使用傳統分法，則現代漢語族下分七大語支，官吳贛湘粵客閩。若採用《中國語言地圖集》之十分法，則晉語獨立於官話自成一支，徽語獨立於吳語自成一支，平話獨立於粵語成一支。若採用ISO標準的十三分法，則平話從屬於粵語，而閩語則細分爲閩北、閩南、閩東、閩中、莆仙五支，另外中古漢語和上古漢語各計作一門語言。
+
+爲提高本項目可讀性和後續可維護性，本項目採用ISO標準的十三分法。此標準僅作參考，非最佳標準。若對此分類方式有任何疑問或意見，歡迎新開一個issue發起討論。下表爲此標準下各語言所對應的ISO 639-3代碼：
+
+| 上古漢語 | 中古漢語 | 官話 | 晉語 | 吳語 | 徽語 | 贛語 | 湘語 | 閩北語 | 閩南語 | 閩東語 | 閩中語 | 莆仙語 | 客家話 | 粵語 |
+|----------|----------|------|------|------|------|------|------|--------|--------|--------|--------|--------|--------|------|
+| och      | ltc      | cmn  | cjy  | wuu  | czh  | gan  | hsn  | mnp    | nan    | cdo    | czo    | cpx    | hak    | yue  |
+
+以下爲方案總表和配方列表。其中配方以符號℞標識。
 
 ---
 
-### 方案列表（共83個方案）
+### 方案列表（共85個方案）
 
 <ul>
   <li>
@@ -89,65 +97,91 @@
   </li>
   <li>
     <details>
-      <summary>中原官話</summary>
-      <ul>
+      <summary>官話</summary>
+        <ul>
         <li>
-          中原官話洛陽方言 ℞ <code>Patricivs/lakyang</code>
-          <ul>
-            <li>洛陽羅馬字 - <code>lakyang</code></li>
-            <li>洛陽註音 - <code>lakyang_chuim</code></li>
-          </ul>
+          <details>
+            <summary>中原官話</summary>
+            <ul>
+              <li>
+                中原官話洛陽方言 ℞ <code>Patricivs/lakyang</code>
+                <ul>
+                  <li>洛陽羅馬字 - <code>lakyang</code></li>
+                  <li>洛陽註音 - <code>lakyang_chuim</code></li>
+                </ul>
+              </li>
+              <li>
+                中原官話輸入方案 ℞ <code>lotem/rime-zhung</code>
+                <ul>
+                  <li>中州羅馬字 - <code>zhung</code></li>
+                  <li>中州打字速記法 - <code>zhung_stenotype</code></li>
+                  <li>中州注音法（四十二鍵） - <code>zhung_42</code></li>
+                  <li>中州羅馬字（並擊） - <code>zhung_combo</code></li>
+                  <li>中州注音法（轉寫） - <code>zhung_transcript</code></li>
+                  <li>中州注音法（並擊） - <code>zhung_combo_transcript</code></li>
+                </ul>
+              </li>
+              <li>
+                棗莊話羅馬字輸入方案 ℞ <code>tsauibusato/yihdjoouhuah </code>
+                <ul>
+                  <li>嶧州話傳統羅馬字 - <code>yihdjoouhuah</code></li>
+                  <li>嶧州話羅馬字 - <code>yihjoouhuah_romatzyh</code></li>
+                </ul>
+              </li>
+            </ul>
+          </details>
         </li>
         <li>
-          中原官話輸入方案 ℞ <code>lotem/rime-zhung</code>
-          <ul>
-            <li>中州羅馬字 - <code>zhung</code></li>
-            <li>中州打字速記法 - <code>zhung_stenotype</code></li>
-            <li>中州注音法（四十二鍵） - <code>zhung_42</code></li>
-            <li>中州羅馬字（並擊） - <code>zhung_combo</code></li>
-            <li>中州注音法（轉寫） - <code>zhung_transcript</code></li>
-            <li>中州注音法（並擊） - <code>zhung_combo_transcript</code></li>
-          </ul>
+          <details>
+            <summary>膠遼官話<b> - 暫缺</b></summary>
+          </details>
         </li>
         <li>
-          棗莊話羅馬字輸入方案 ℞ <code>tsauibusato/yihdjoouhuah </code>
-          <ul>
-            <li>嶧州話傳統羅馬字 - <code>yihdjoouhuah</code></li>
-            <li>嶧州話羅馬字 - <code>yihjoouhuah_romatzyh</code></li>
-          </ul>
+          <details>
+            <summary>蘭銀官話<b> - 暫缺</b></summary>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>江淮官話</summary>
+            <ul>
+              <li>
+                南京話拼音输入法 ℞ <code>uliloewi/lang2jin1</code>
+                <ul>
+                  <li>南京官話拼音 - <code>langjin</code></li>
+                </ul>
+              </li>
+              <li>泰如拼音 - <code>taerv</code></li>
+            </ul>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>西南官話</summary>
+            <ul>
+              <li>
+                蜀拼 ℞ <code>Papnas/shupin</code>
+                <ul>
+                  <li>蜀拼通音 - <code>shupin_tongyin</code></li>
+                  <li>蜀拼-成都 - <code>shupin_cendu</code></li>
+                  <li>蜀拼-重慶 - <code>shupin_congqin</code></li>
+                  <li>蜀拼-貴陽 - <code>shupin_guiyang</code></li>
+                  <li>蜀拼-宜賓 - <code>shupin_libin</code></li>
+                  <li>蜀拼-自貢 - <code>shupin_zigong</code></li>
+                </ul>
+              </li>
+            </ul>
+          </details>
         </li>
       </ul>
     </details>
   </li>
   <li>
     <details>
-      <summary>江淮官話</summary>
+      <summary>晉語</summary>
       <ul>
-        <li>
-          南京話拼音输入法 ℞ <code>uliloewi/lang2jin1</code>
-          <ul>
-            <li>南京官話拼音 - <code>langjin</code></li>
-          </ul>
-        </li>
-        <li>泰如拼音 - <code>taerv</code></li>
-      </ul>
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary>西南官話</summary>
-      <ul>
-        <li>
-          蜀拼 ℞ <code>Papnas/shupin</code>
-          <ul>
-            <li>蜀拼通音 - <code>shupin_tongyin</code></li>
-            <li>蜀拼-成都 - <code>shupin_cendu</code></li>
-            <li>蜀拼-重慶 - <code>shupin_congqin</code></li>
-            <li>蜀拼-貴陽 - <code>shupin_guiyang</code></li>
-            <li>蜀拼-宜賓 - <code>shupin_libin</code></li>
-            <li>蜀拼-自貢 - <code>shupin_zigong</code></li>
-          </ul>
-        </li>
+        <li>嘉樂泉話 - <code>jieny</code></li>
+        <li>晋拼解州片 - <code>haitrou</code></li>
       </ul>
     </details>
   </li>
@@ -208,14 +242,6 @@
             <li>蘇州吳語 - <code>soutzoe</code></li>
           </ul>
         </li>
-        <li>標準吳語 - <code>pcngng</code></li>
-      </ul>
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary>甌語</summary>
-      <ul>
         <li>
           樂清話拼音輸入法 ℞ <code>lotem/rime-aoyu</code>
           <ul>
@@ -223,7 +249,118 @@
             <li>樂清柳西口音 - <code>ay_ncls</code></li>
           </ul>
         </li>
+        <li>標準吳語 - <code>pcngng</code></li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>徽語<b> - 暫缺</b></summary>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>贛語<b> - 暫缺</b></summary>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>湘語<b> - 暫缺</b></summary>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>閩北語<b> - 暫缺</b></summary>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>閩南語</summary>
       <ul>
+        <li>
+          閩南語輸入方案 ℞ <code>a-thok/rime-hokkien</code>
+          <ul>
+            <li>廈腔閩南語 - <code>blg_ha</code></li>
+            <li>臺灣閩南語 - <code>blg_tai</code></li>
+            <li>漳腔閩南語 - <code>blg_tsiang</code></li>
+            <li>泉腔閩南語 - <code>blg_tsuan</code></li>
+          </ul>
+        </li>
+        <li>
+          閩南語拼音輸入方案 ℞ <code>LimTo/etaiBLG</code>
+          <ul>
+            <li>閩南語廈台腔專用版 - <code>blg_etai</code></li>
+          </ul>
+        </li>
+        <li>閩倂輸入灋 - <code>mp</code></li>
+        <li>
+          潮语拼音输入法 ℞ <code>kahaani/dieghv</code>
+          <ul>
+            <li>潮語拼音〔潮州〕 - <code>dieziu</code></li>
+            <li>潮語拼音〔潮阳〕 - <code>dioion</code></li>
+            <li>潮語拼音〔揭阳〕 - <code>gekion</code></li>
+            <li>潮語拼音〔汕头〕 - <code>suantau</code></li>
+            <li>潮語拼音〔澄海〕 - <code>tenghai</code></li>
+            <li>潮語拼音〔饒平〕 - <code>riaupeng</code></li>
+          </ul>
+        </li>
+        <li>
+          潮汕话輸入方案 ℞ <code>femkerr/dieghe</code>
+          <ul>
+            <li>潮語 - <code>diege_j</code></li>
+            <li>潮語（帶潮語形聲鍵盤） - <code>diege</code></li>
+            <li>潮語（形聲鍵盤） - <code>diege_gb</code></li>
+          </ul>
+        </li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>閩東語</summary>
+      <ul>
+        <li>
+          平話字表 (閩東語‣福州話) ℞ <code>only3km/ciklinbekin</code>
+          <ul>
+            <li>戚林八音 - <code>ciklinbekin</code></li>
+            <li>福州話字典 - <code>dfd</code></li>
+          </ul>
+        </li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>閩中語<b> - 暫缺</b></summary>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>莆仙語</summary>
+      <ul>
+        <li>
+          興化工廠 ℞ <code>Yaryou/HinghuaFactory</code>
+          <ul>
+            <li>興化語莆田城關話 - <code>Pouleng</code></li>
+            <li>興化語平話字 - <code>HinghuaBUC</code></li>
+          </ul>
+        </li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>客家話</summary>
+      <ul>
+        <li>
+          崇正客語輸入法 ℞ <code>syndict/hakka</code>
+          <ul>
+            <li>客語 - <code>hakka</code></li>
+            <li>客語-梅縣 - <code>hakka_meixian</code></li>
+          </ul>
+        </li>
+        <li>客拼 - <code>hakka_pinyin</code></li>
+      </ul>
     </details>
   </li>
   <li>
@@ -278,100 +415,6 @@
   </li>
   <li>
     <details>
-      <summary>閩東語</summary>
-      <ul>
-        <li>
-          平話字表 (閩東語‣福州話) ℞ <code>only3km/ciklinbekin</code>
-          <ul>
-            <li>戚林八音 - <code>ciklinbekin</code></li>
-            <li>福州話字典 - <code>dfd</code></li>
-          </ul>
-        </li>
-      </ul>
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary>閩南語</summary>
-      <ul>
-        <li>
-          閩南語輸入方案 ℞ <code>a-thok/rime-hokkien</code>
-          <ul>
-            <li>廈腔閩南語 - <code>blg_ha</code></li>
-            <li>臺灣閩南語 - <code>blg_tai</code></li>
-            <li>漳腔閩南語 - <code>blg_tsiang</code></li>
-            <li>泉腔閩南語 - <code>blg_tsuan</code></li>
-          </ul>
-        </li>
-        <li>
-          閩南語拼音輸入方案 ℞ <code>LimTo/etaiBLG</code>
-          <ul>
-            <li>閩南語廈台腔專用版 - <code>blg_etai</code></li>
-          </ul>
-        </li>
-        <li>閩倂輸入灋 - <code>mp</code></li>
-        <li>
-          潮语拼音输入法 ℞ <code>kahaani/dieghv</code>
-          <ul>
-            <li>潮語拼音〔潮州〕 - <code>dieziu</code></li>
-            <li>潮語拼音〔潮阳〕 - <code>dioion</code></li>
-            <li>潮語拼音〔揭阳〕 - <code>gekion</code></li>
-            <li>潮語拼音〔汕头〕 - <code>suantau</code></li>
-            <li>潮語拼音〔澄海〕 - <code>tenghai</code></li>
-            <li>潮語拼音〔饒平〕 - <code>riaupeng</code></li>
-          </ul>
-        </li>
-        <li>
-          潮汕话輸入方案 ℞ <code>femkerr/dieghe</code>
-          <ul>
-            <li>潮語 - <code>diege_j</code></li>
-            <li>潮語（帶潮語形聲鍵盤） - <code>diege</code></li>
-            <li>潮語（形聲鍵盤） - <code>diege_gb</code></li>
-          </ul>
-        </li>
-      </ul>
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary>莆仙語</summary>
-      <ul>
-        <li>
-          興化工廠 ℞ <code>Yaryou/HinghuaFactory</code>
-          <ul>
-            <li>興化語莆田城關話 - <code>Pouleng</code></li>
-            <li>興化語平話字 - <code>HinghuaBUC</code></li>
-          </ul>
-        </li>
-      </ul>
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary>客家話</summary>
-      <ul>
-        <li>
-          崇正客語輸入法 ℞ <code>syndict/hakka</code>
-          <ul>
-            <li>客語 - <code>hakka</code></li>
-            <li>客語-梅縣 - <code>hakka_meixian</code></li>
-          </ul>
-        </li>
-        <li>客拼 - <code>hakka_pinyin</code></li>
-      </ul>
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary>晉語</summary>
-      <ul>
-        <li>嘉樂泉話 - <code>jieny</code></li>
-        <li>晋拼解州片 - <code>haitrou</code></li>
-      </ul>
-    </details>
-  </li>
-  <li>
-    <details>
       <summary>域外方音</summary>
       <ul>
         <li>
@@ -405,6 +448,11 @@
 <ul>
   <li>
     <details>
+      <summary>上古漢語<b> - 暫缺</b></summary>
+    </details>
+  </li>
+  <li>
+    <details>
       <summary>中古漢語</summary>
       <ul>
         <li>
@@ -420,28 +468,60 @@
   </li>
   <li>
     <details>
-      <summary>中原官話</summary>
-      <ul>
-        <li>中原官話洛陽方言 ℞ <code>Patricivs/lakyang</code></li>
-        <li>中原官話輸入方案 ℞ <code>lotem/rime-zhung</code></li>
-        <li>棗莊話羅馬字輸入方案 ℞ <code>tsauibusato/yihdjoouhuah </code></li>
+      <summary>官話</summary>
+        <ul>
+        <li>
+          <details>
+            <summary>中原官話</summary>
+            <ul>
+              <li>
+                中原官話洛陽方言 ℞ <code>Patricivs/lakyang</code>
+              </li>
+              <li>
+                中原官話輸入方案 ℞ <code>lotem/rime-zhung</code>
+              </li>
+              <li>
+                棗莊話羅馬字輸入方案 ℞ <code>tsauibusato/yihdjoouhuah </code>
+              </li>
+            </ul>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>膠遼官話<b> - 暫缺</b></summary>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>蘭銀官話<b> - 暫缺</b></summary>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>江淮官話</summary>
+            <ul>
+              <li>
+                南京話拼音输入法 ℞ <code>uliloewi/lang2jin1</code>
+              </li>
+            </ul>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>西南官話</summary>
+            <ul>
+              <li>
+                蜀拼 ℞ <code>Papnas/shupin</code>
+              </li>
+            </ul>
+          </details>
+        </li>
       </ul>
     </details>
   </li>
   <li>
     <details>
-      <summary>江淮官話</summary>
-      <ul>
-        <li>南京話拼音输入法 ℞ <code>uliloewi/lang2jin1</code></li>
-      </ul>
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary>西南官話</summary>
-      <ul>
-        <li>蜀拼 ℞ <code>Papnas/shupin</code></li>
-      </ul>
+      <summary>晉語<b> - 暫缺</b></summary>
     </details>
   </li>
   <li>
@@ -460,30 +540,38 @@
         </li>
         <li>吳語·上海話 ℞ <code>rime/rime-wugniu</code></li>
         <li>蘇州吳語 ℞ <code>rime/rime-soutzoe</code></li>
+        <li>樂清話拼音輸入法 ℞ <code>lotem/rime-aoyu</code></li>
       </ul>
     </details>
   </li>
   <li>
     <details>
-      <summary>甌語</summary>
-      <ul>
-        <li>樂清話拼音輸入法 ℞ <code>lotem/rime-aoyu</code></li>
-      <ul>
+      <summary>徽語<b> - 暫缺</b></summary>
     </details>
   </li>
   <li>
     <details>
-      <summary>粵語</summary>
+      <summary>贛語<b> - 暫缺</b></summary>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>湘語<b> - 暫缺</b></summary>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>閩北語<b> - 暫缺</b></summary>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>閩南語</summary>
       <ul>
-        <li>粵拼 ℞ <code>rime/rime-jyutping</code></li>
-        <li>粵拼⁺ ℞ <code>rime-aca/rime-jyutping-plus</code></li>
-        <li>粵語注音 ℞ <code>rime-aca/rime-zyujam</code></li>
-        <li>袖珍粵拼 ℞ <code>rime-aca/rime-jyutping-compact</code></li>
-        <li>南寧白話輸入方案 ℞ <code>leimaau/naamning_jyutping</code></li>
-        <li>
-          沟漏片藤县白话输入方案 ℞
-          <code>cryptogun/gaulau_jyutping</code>
-        </li>
+        <li>閩南語輸入方案 ℞ <code>a-thok/rime-hokkien</code></li>
+        <li>閩南語拼音輸入方案 ℞ <code>LimTo/etaiBLG</code></li>
+        <li>潮语拼音输入法 ℞ <code>kahaani/dieghv</code></li>
+        <li>潮汕话輸入方案 ℞ <code>femkerr/dieghe</code></li>
       </ul>
     </details>
   </li>
@@ -497,13 +585,7 @@
   </li>
   <li>
     <details>
-      <summary>閩南語</summary>
-      <ul>
-        <li>閩南語輸入方案 ℞ <code>a-thok/rime-hokkien</code></li>
-        <li>閩南語拼音輸入方案 ℞ <code>LimTo/etaiBLG</code></li>
-        <li>潮语拼音输入法 ℞ <code>kahaani/dieghv</code></li>
-        <li>潮汕话輸入方案 ℞ <code>femkerr/dieghe</code></li>
-      </ul>
+      <summary>閩中語<b> - 暫缺</b></summary>
     </details>
   </li>
   <li>
@@ -524,6 +606,22 @@
   </li>
   <li>
     <details>
+      <summary>粵語</summary>
+      <ul>
+        <li>粵拼 ℞ <code>rime/rime-jyutping</code></li>
+        <li>粵拼⁺ ℞ <code>rime-aca/rime-jyutping-plus</code></li>
+        <li>粵語注音 ℞ <code>rime-aca/rime-zyujam</code></li>
+        <li>袖珍粵拼 ℞ <code>rime-aca/rime-jyutping-compact</code></li>
+        <li>南寧白話輸入方案 ℞ <code>leimaau/naamning_jyutping</code></li>
+        <li>
+          沟漏片藤县白话输入方案 ℞
+          <code>cryptogun/gaulau_jyutping</code>
+        </li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
       <summary>域外方音</summary>
       <ul>
         <li>한글 ℞ <code>rime-aca/rime-hangyl</code></li>
@@ -539,6 +637,14 @@
 ---
 
 下載包內方案信息詳見[發佈](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases)頁面。
+
+#### 參考資料
+
+Eberhard, David M., Gary F. Simons, and Charles D. Fennig (eds.). 2019. Ethnologue: Languages of the World. Twenty-second edition. Dallas, Texas: SIL International. Online version: http://www.ethnologue.com.
+
+Norman, J.L. (1988) Chinese. Cambridge University Press.
+
+中国社会科学院语言研究所, 中国社会科学院民族学与人类学研究所. 2012. 中国语言地图集（第2版）：汉语方言卷. 商务印书馆.
 
 ## 部分方案數據來源（非配方）
 
@@ -590,22 +696,20 @@
           </ul>
         </li>
         <li>
-          粵語
+          閩南語
           <ul>
-            <li><a href="https://leimaau.github.io/book/">南宁白话</a></li>
-            <li><a href="https://github.com/tengtengteng/gvaizauvan/wiki">貴州韻</a></li>
-          </ul>
-        </li>
-        <li>
-          閩語
-          <ul>
-            <li><a href="https://only3km.github.io/ciklinbekin/">平話字表 (閩東語‣福州話)</a></li>
-            <li><a href="http://idioms.mindong.asia">福州话熟语大全</a></li>
             <li><a href="https://www.moedict.tw/'%E7%99%BC%E7%A9%8E">臺語萌典</a></li>
             <li><a href="http://www.ntcu.edu.tw/tailo/educate.htm">臺灣閩南語羅馬字拼音方案使用手冊</a></li>
             <li><a href="https://kahaani.github.io/gatian/index.html">潮语拼音教程</a></li>
             <li><a href="http://www.czyzd.com/">潮州音字典</a></li>
             <li><a href="https://www.mogher.com/">潮州·母语</a></li>
+          </ul>
+        </li>
+        <li>
+          閩東語
+          <ul>
+            <li><a href="https://only3km.github.io/ciklinbekin/">平話字表 (閩東語‣福州話)</a></li>
+            <li><a href="http://idioms.mindong.asia">福州话熟语大全</a></li>
           </ul>
         </li>
         <li>
@@ -616,6 +720,13 @@
             <li><a href="https://depart.moe.edu.tw/ED2400/News.aspx?n=5EB26D97D6A29617&sms=8C59E176B3E3F56E">終身教育司-客家語</a></li>
             <li><a href="https://hakka.dict.edu.tw/hakkadict/index.htm">臺灣客家語常用詞辭典</a></li>
             <li><a href="http://hakka.fhl.net/dict/index_hakka.html">客語字典查尋</a></li>
+          </ul>
+        </li>
+        <li>
+          粵語
+          <ul>
+            <li><a href="https://leimaau.github.io/book/">南宁白话</a></li>
+            <li><a href="https://github.com/tengtengteng/gvaizauvan/wiki">貴州韻</a></li>
           </ul>
         </li>
       </ul>
@@ -724,13 +835,21 @@ Steps are the similar under Linux, OS X and other versions of Windows operating 
 
 ## Collected schemas
 
-At the moment we are still **missing the schemas for Northern Min, Central Min, Shao-Jiang Min, Qiongleihua, Pinghua, Xiang, Gan, Huizhou, Lan–Yin Mandarin, Southwestern Mandarin**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or open a new issue to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
+At the moment we are still **missing the schemas for Northern Min, Central Min,  Huizhou, Gan, Xiang**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or open a new issue to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
 
-Up to now we have collected 33 recipes of 83 schemas. Below are the lists of all collected schemas and recipes, where recipes are marked with the symbol ℞.
+It has been an unsettled issue in the academia on the taxonomy for Chinese languages.  For instance, the traditional way by Jerry Norman (1988) puts Chinese languages into seven groups: Mandarin, Wu, Gan, Xiang, Cantonese, Hakka, Min, while the *Language Atlas of China* classifies them into 10 groups, seperating Jin, Huizhou and Pinghua from Mandarin, Wu and Cantonese as independent languages. And the ISO standard keeps Pinghua within Cantonese while further divides Min into Northen, Southern, Eastern, Central and Pu-Xian branches.
+
+Considering the readability and maintainability of this project, here we adopt the ISO taxonomy system. This is for reference only and by no means the gold standard. If you have any questions or opinions about this, feel free to open a new issue for discussion. The following table shows the ISO 639-3 codes for these languages.
+
+| Old Chinese | Middle Chinese | Mandarin | Jin | Wu | Hui | Gan | Xiang | Northern Min | Southern Min | Eastern Min | Central Min | Pu-Xian Min | Hakka | Yue |
+|----------|----------|------|------|------|------|------|------|--------|--------|--------|--------|--------|--------|------|
+| och      | ltc      | cmn  | cjy  | wuu  | czh  | gan  | hsn  | mnp    | nan    | cdo    | czo    | cpx    | hak    | yue  |
+
+Up to now we have collected 33 recipes of 85 schemas. Below are the lists of all collected schemas and recipes, where recipes are marked with the symbol ℞.
 
 ---
 
-### Full list of collected schemas (83 schemas in total)
+### Full list of collected schemas (85 schemas in total)
 
 <ul>
   <li>
@@ -785,65 +904,91 @@ Up to now we have collected 33 recipes of 83 schemas. Below are the lists of all
   </li>
   <li>
     <details>
-      <summary>Central Plains Mandarin</summary>
-      <ul>
+      <summary>Mandarin</summary>
+        <ul>
         <li>
-          中原官話洛陽方言 ℞ <code>Patricivs/lakyang</code>
-          <ul>
-            <li>洛陽羅馬字 - <code>lakyang</code></li>
-            <li>洛陽註音 - <code>lakyang_chuim</code></li>
-          </ul>
+          <details>
+            <summary>Central Plains Mandarin</summary>
+            <ul>
+              <li>
+                中原官話洛陽方言 ℞ <code>Patricivs/lakyang</code>
+                <ul>
+                  <li>洛陽羅馬字 - <code>lakyang</code></li>
+                  <li>洛陽註音 - <code>lakyang_chuim</code></li>
+                </ul>
+              </li>
+              <li>
+                中原官話輸入方案 ℞ <code>lotem/rime-zhung</code>
+                <ul>
+                  <li>中州羅馬字 - <code>zhung</code></li>
+                  <li>中州打字速記法 - <code>zhung_stenotype</code></li>
+                  <li>中州注音法（四十二鍵） - <code>zhung_42</code></li>
+                  <li>中州羅馬字（並擊） - <code>zhung_combo</code></li>
+                  <li>中州注音法（轉寫） - <code>zhung_transcript</code></li>
+                  <li>中州注音法（並擊） - <code>zhung_combo_transcript</code></li>
+                </ul>
+              </li>
+              <li>
+                棗莊話羅馬字輸入方案 ℞ <code>tsauibusato/yihdjoouhuah </code>
+                <ul>
+                  <li>嶧州話傳統羅馬字 - <code>yihdjoouhuah</code></li>
+                  <li>嶧州話羅馬字 - <code>yihjoouhuah_romatzyh</code></li>
+                </ul>
+              </li>
+            </ul>
+          </details>
         </li>
         <li>
-          中原官話輸入方案 ℞ <code>lotem/rime-zhung</code>
-          <ul>
-            <li>中州羅馬字 - <code>zhung</code></li>
-            <li>中州打字速記法 - <code>zhung_stenotype</code></li>
-            <li>中州注音法（四十二鍵） - <code>zhung_42</code></li>
-            <li>中州羅馬字（並擊） - <code>zhung_combo</code></li>
-            <li>中州注音法（轉寫） - <code>zhung_transcript</code></li>
-            <li>中州注音法（並擊） - <code>zhung_combo_transcript</code></li>
-          </ul>
+          <details>
+            <summary>Jiaoliao Mandarin - <b>Not Available</b></summary>
+          </details>
         </li>
         <li>
-          棗莊話羅馬字輸入方案 ℞ <code>tsauibusato/yihdjoouhuah </code>
-          <ul>
-            <li>嶧州話傳統羅馬字 - <code>yihdjoouhuah</code></li>
-            <li>嶧州話羅馬字 - <code>yihjoouhuah_romatzyh</code></li>
-          </ul>
+          <details>
+            <summary>Lan-Yin Mandarin - <b>Not Available</b></summary>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>Jianghuai Mandarin - <b>Not Available</b></summary>
+            <ul>
+              <li>
+                南京話拼音输入法 ℞ <code>uliloewi/lang2jin1</code>
+                <ul>
+                  <li>南京官話拼音 - <code>langjin</code></li>
+                </ul>
+              </li>
+              <li>泰如拼音 - <code>taerv</code></li>
+            </ul>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>Southwestern Mandarin</summary>
+            <ul>
+              <li>
+                蜀拼 ℞ <code>Papnas/shupin</code>
+                <ul>
+                  <li>蜀拼通音 - <code>shupin_tongyin</code></li>
+                  <li>蜀拼-成都 - <code>shupin_cendu</code></li>
+                  <li>蜀拼-重慶 - <code>shupin_congqin</code></li>
+                  <li>蜀拼-貴陽 - <code>shupin_guiyang</code></li>
+                  <li>蜀拼-宜賓 - <code>shupin_libin</code></li>
+                  <li>蜀拼-自貢 - <code>shupin_zigong</code></li>
+                </ul>
+              </li>
+            </ul>
+          </details>
         </li>
       </ul>
     </details>
   </li>
   <li>
     <details>
-      <summary>Lower Yangtze Mandarin</summary>
+      <summary>Jin</summary>
       <ul>
-        <li>
-          南京話拼音输入法 ℞ <code>uliloewi/lang2jin1</code>
-          <ul>
-            <li>南京官話拼音 - <code>langjin</code></li>
-          </ul>
-        </li>
-        <li>泰如拼音 - <code>taerv</code></li>
-      </ul>
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary>Southwestern Mandarin</summary>
-      <ul>
-        <li>
-          蜀拼 ℞ <code>Papnas/shupin</code>
-          <ul>
-            <li>蜀拼通音 - <code>shupin_tongyin</code></li>
-            <li>蜀拼-成都 - <code>shupin_cendu</code></li>
-            <li>蜀拼-重慶 - <code>shupin_congqin</code></li>
-            <li>蜀拼-貴陽 - <code>shupin_guiyang</code></li>
-            <li>蜀拼-宜賓 - <code>shupin_libin</code></li>
-            <li>蜀拼-自貢 - <code>shupin_zigong</code></li>
-          </ul>
-        </li>
+        <li>嘉樂泉話 - <code>jieny</code></li>
+        <li>晋拼解州片 - <code>haitrou</code></li>
       </ul>
     </details>
   </li>
@@ -904,14 +1049,6 @@ Up to now we have collected 33 recipes of 83 schemas. Below are the lists of all
             <li>蘇州吳語 - <code>soutzoe</code></li>
           </ul>
         </li>
-        <li>標準吳語 - <code>pcngng</code></li>
-      </ul>
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary>Auish (Wenzhounese)</summary>
-      <ul>
         <li>
           樂清話拼音輸入法 ℞ <code>lotem/rime-aoyu</code>
           <ul>
@@ -919,7 +1056,118 @@ Up to now we have collected 33 recipes of 83 schemas. Below are the lists of all
             <li>樂清柳西口音 - <code>ay_ncls</code></li>
           </ul>
         </li>
+        <li>標準吳語 - <code>pcngng</code></li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Huizhou - <b>Not Available</b></summary>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Gan - <b>Not Available</b></summary>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Xiang - <b>Not Available</b></summary>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Northern Min - <b>Not Available</b></summary>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Southern Min (Hokkien, Teochew)</summary>
       <ul>
+        <li>
+          閩南語輸入方案 ℞ <code>a-thok/rime-hokkien</code>
+          <ul>
+            <li>廈腔閩南語 - <code>blg_ha</code></li>
+            <li>臺灣閩南語 - <code>blg_tai</code></li>
+            <li>漳腔閩南語 - <code>blg_tsiang</code></li>
+            <li>泉腔閩南語 - <code>blg_tsuan</code></li>
+          </ul>
+        </li>
+        <li>
+          閩南語拼音輸入方案 ℞ <code>LimTo/etaiBLG</code>
+          <ul>
+            <li>閩南語廈台腔專用版 - <code>blg_etai</code></li>
+          </ul>
+        </li>
+        <li>閩倂輸入灋 - <code>mp</code></li>
+        <li>
+          潮语拼音输入法 ℞ <code>kahaani/dieghv</code>
+          <ul>
+            <li>潮語拼音〔潮州〕 - <code>dieziu</code></li>
+            <li>潮語拼音〔潮阳〕 - <code>dioion</code></li>
+            <li>潮語拼音〔揭阳〕 - <code>gekion</code></li>
+            <li>潮語拼音〔汕头〕 - <code>suantau</code></li>
+            <li>潮語拼音〔澄海〕 - <code>tenghai</code></li>
+            <li>潮語拼音〔饒平〕 - <code>riaupeng</code></li>
+          </ul>
+        </li>
+        <li>
+          潮汕话輸入方案 ℞ <code>femkerr/dieghe</code>
+          <ul>
+            <li>潮語 - <code>diege_j</code></li>
+            <li>潮語（帶潮語形聲鍵盤） - <code>diege</code></li>
+            <li>潮語（形聲鍵盤） - <code>diege_gb</code></li>
+          </ul>
+        </li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Eastern Min</summary>
+      <ul>
+        <li>
+          平話字表 (閩東語‣福州話) ℞ <code>only3km/ciklinbekin</code>
+          <ul>
+            <li>戚林八音 - <code>ciklinbekin</code></li>
+            <li>福州話字典 - <code>dfd</code></li>
+          </ul>
+        </li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Central Min - <b>Not Available</b></summary>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Pu-Xian Min</summary>
+      <ul>
+        <li>
+          興化工廠 ℞ <code>Yaryou/HinghuaFactory</code>
+          <ul>
+            <li>興化語莆田城關話 - <code>Pouleng</code></li>
+            <li>興化語平話字 - <code>HinghuaBUC</code></li>
+          </ul>
+        </li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Hakka</summary>
+      <ul>
+        <li>
+          崇正客語輸入法 ℞ <code>syndict/hakka</code>
+          <ul>
+            <li>客語 - <code>hakka</code></li>
+            <li>客語-梅縣 - <code>hakka_meixian</code></li>
+          </ul>
+        </li>
+        <li>客拼 - <code>hakka_pinyin</code></li>
+      </ul>
     </details>
   </li>
   <li>
@@ -974,101 +1222,7 @@ Up to now we have collected 33 recipes of 83 schemas. Below are the lists of all
   </li>
   <li>
     <details>
-      <summary>Eastern Min</summary>
-      <ul>
-        <li>
-          平話字表 (閩東語‣福州話) ℞ <code>only3km/ciklinbekin</code>
-          <ul>
-            <li>戚林八音 - <code>ciklinbekin</code></li>
-            <li>福州話字典 - <code>dfd</code></li>
-          </ul>
-        </li>
-      </ul>
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary>Southern Min (Hokkien)</summary>
-      <ul>
-        <li>
-          閩南語輸入方案 ℞ <code>a-thok/rime-hokkien</code>
-          <ul>
-            <li>廈腔閩南語 - <code>blg_ha</code></li>
-            <li>臺灣閩南語 - <code>blg_tai</code></li>
-            <li>漳腔閩南語 - <code>blg_tsiang</code></li>
-            <li>泉腔閩南語 - <code>blg_tsuan</code></li>
-          </ul>
-        </li>
-        <li>
-          閩南語拼音輸入方案 ℞ <code>LimTo/etaiBLG</code>
-          <ul>
-            <li>閩南語廈台腔專用版 - <code>blg_etai</code></li>
-          </ul>
-        </li>
-        <li>閩倂輸入灋 - <code>mp</code></li>
-        <li>
-          潮语拼音输入法 ℞ <code>kahaani/dieghv</code>
-          <ul>
-            <li>潮語拼音〔潮州〕 - <code>dieziu</code></li>
-            <li>潮語拼音〔潮阳〕 - <code>dioion</code></li>
-            <li>潮語拼音〔揭阳〕 - <code>gekion</code></li>
-            <li>潮語拼音〔汕头〕 - <code>suantau</code></li>
-            <li>潮語拼音〔澄海〕 - <code>tenghai</code></li>
-            <li>潮語拼音〔饒平〕 - <code>riaupeng</code></li>
-          </ul>
-        </li>
-        <li>
-          潮汕话輸入方案 ℞ <code>femkerr/dieghe</code>
-          <ul>
-            <li>潮語 - <code>diege_j</code></li>
-            <li>潮語（帶潮語形聲鍵盤） - <code>diege</code></li>
-            <li>潮語（形聲鍵盤） - <code>diege_gb</code></li>
-          </ul>
-        </li>
-      </ul>
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary>Pu-Xian Min</summary>
-      <ul>
-        <li>
-          興化工廠 ℞ <code>Yaryou/HinghuaFactory</code>
-          <ul>
-            <li>興化語莆田城關話 - <code>Pouleng</code></li>
-            <li>興化語平話字 - <code>HinghuaBUC</code></li>
-          </ul>
-        </li>
-      </ul>
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary>Hakka</summary>
-      <ul>
-        <li>
-          崇正客語輸入法 ℞ <code>syndict/hakka</code>
-          <ul>
-            <li>客語 - <code>hakka</code></li>
-            <li>客語-梅縣 - <code>hakka_meixian</code></li>
-          </ul>
-        </li>
-        <li>客拼 - <code>hakka_pinyin</code></li>
-      </ul>
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary>Jin</summary>
-      <ul>
-        <li>嘉樂泉話 - <code>jieny</code></li>
-        <li>晋拼解州片 - <code>haitrou</code></li>
-      </ul>
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary>Foreign Dialects</summary>
+      <summary>Non-Sinitic Languages</summary>
       <ul>
         <li>
           한글 ℞ <code>rime-aca/rime-hangyl</code>
@@ -1101,6 +1255,11 @@ Up to now we have collected 33 recipes of 83 schemas. Below are the lists of all
 <ul>
   <li>
     <details>
+      <summary>Old Chinese - <b>Not Available</b></summary>
+    </details>
+  </li>
+  <li>
+    <details>
       <summary>Middle Chinese</summary>
       <ul>
         <li>
@@ -1116,28 +1275,60 @@ Up to now we have collected 33 recipes of 83 schemas. Below are the lists of all
   </li>
   <li>
     <details>
-      <summary>Central Plains Mandarin</summary>
-      <ul>
-        <li>中原官話洛陽方言 ℞ <code>Patricivs/lakyang</code></li>
-        <li>中原官話輸入方案 ℞ <code>lotem/rime-zhung</code></li>
-        <li>棗莊話羅馬字輸入方案 ℞ <code>tsauibusato/yihdjoouhuah </code></li>
+      <summary>Mandarin</summary>
+        <ul>
+        <li>
+          <details>
+            <summary>Central Plain Mandarin</summary>
+            <ul>
+              <li>
+                中原官話洛陽方言 ℞ <code>Patricivs/lakyang</code>
+              </li>
+              <li>
+                中原官話輸入方案 ℞ <code>lotem/rime-zhung</code>
+              </li>
+              <li>
+                棗莊話羅馬字輸入方案 ℞ <code>tsauibusato/yihdjoouhuah </code>
+              </li>
+            </ul>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>Jiaoliao Mandarin - <b>Not Available</b></summary>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>Lan-Yin Mandarin - <b>Not Available</b></summary>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>Lower Yangtze Mandarin</summary>
+            <ul>
+              <li>
+                南京話拼音输入法 ℞ <code>uliloewi/lang2jin1</code>
+              </li>
+            </ul>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>Southwestern Mandarin</summary>
+            <ul>
+              <li>
+                蜀拼 ℞ <code>Papnas/shupin</code>
+              </li>
+            </ul>
+          </details>
+        </li>
       </ul>
     </details>
   </li>
   <li>
     <details>
-      <summary>Lower Yangtze Mandarin</summary>
-      <ul>
-        <li>南京話拼音输入法 ℞ <code>uliloewi/lang2jin1</code></li>
-      </ul>
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary>Southwestern Mandarin</summary>
-      <ul>
-        <li>蜀拼 ℞ <code>Papnas/shupin</code></li>
-      </ul>
+      <summary>Jin - <b>Not Available</b></summary>
     </details>
   </li>
   <li>
@@ -1156,36 +1347,44 @@ Up to now we have collected 33 recipes of 83 schemas. Below are the lists of all
         </li>
         <li>吳語·上海話 ℞ <code>rime/rime-wugniu</code></li>
         <li>蘇州吳語 ℞ <code>rime/rime-soutzoe</code></li>
-      </ul>
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary>Auish (Wenzhounese)</summary>
-      <ul>
         <li>樂清話拼音輸入法 ℞ <code>lotem/rime-aoyu</code></li>
-      <ul>
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary>Yue (Cantonese)</summary>
-      <ul>
-        <li>粵拼 ℞ <code>rime/rime-jyutping</code></li>
-        <li>粵拼⁺ ℞ <code>rime-aca/rime-jyutping-plus</code></li>
-        <li>粵語注音 ℞ <code>rime-aca/rime-zyujam</code></li>
-        <li>袖珍粵拼 ℞ <code>rime-aca/rime-jyutping-compact</code></li>
-        <li>南寧白話輸入方案 ℞ <code>leimaau/naamning_jyutping</code></li>
-        <li>
-          沟漏片藤县白话输入方案 ℞
-          <code>cryptogun/gaulau_jyutping</code>
-        </li>
       </ul>
     </details>
   </li>
   <li>
     <details>
-      <summary>Eastern Min</summary>
+      <summary>Huizhou - <b>Not Available</b></summary>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Gan - <b>Not Available</b></summary>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Xiang - <b>Not Available</b></summary>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Northern Min - <b>Not Available</b></summary>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Southern Min (Hokkien, Teochew)</summary>
+      <ul>
+        <li>閩南語輸入方案 ℞ <code>a-thok/rime-hokkien</code></li>
+        <li>閩南語拼音輸入方案 ℞ <code>LimTo/etaiBLG</code></li>
+        <li>潮语拼音输入法 ℞ <code>kahaani/dieghv</code></li>
+        <li>潮汕话輸入方案 ℞ <code>femkerr/dieghe</code></li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Eastern Min - <b>Not Available</b></summary>
       <ul>
         <li>平話字表 (閩東語‣福州話) ℞ <code>only3km/ciklinbekin</code></li>
       </ul>
@@ -1193,13 +1392,7 @@ Up to now we have collected 33 recipes of 83 schemas. Below are the lists of all
   </li>
   <li>
     <details>
-      <summary>Southern Min (Hokkien)</summary>
-      <ul>
-        <li>閩南語輸入方案 ℞ <code>a-thok/rime-hokkien</code></li>
-        <li>閩南語拼音輸入方案 ℞ <code>LimTo/etaiBLG</code></li>
-        <li>潮语拼音输入法 ℞ <code>kahaani/dieghv</code></li>
-        <li>潮汕话輸入方案 ℞ <code>femkerr/dieghe</code></li>
-      </ul>
+      <summary>Central Min - <b>Not Available</b></summary>
     </details>
   </li>
   <li>
@@ -1220,7 +1413,23 @@ Up to now we have collected 33 recipes of 83 schemas. Below are the lists of all
   </li>
   <li>
     <details>
-      <summary>Foreign Dialects</summary>
+      <summary>Yue (Cantonese)</summary>
+      <ul>
+        <li>粵拼 ℞ <code>rime/rime-jyutping</code></li>
+        <li>粵拼⁺ ℞ <code>rime-aca/rime-jyutping-plus</code></li>
+        <li>粵語注音 ℞ <code>rime-aca/rime-zyujam</code></li>
+        <li>袖珍粵拼 ℞ <code>rime-aca/rime-jyutping-compact</code></li>
+        <li>南寧白話輸入方案 ℞ <code>leimaau/naamning_jyutping</code></li>
+        <li>
+          沟漏片藤县白话输入方案 ℞
+          <code>cryptogun/gaulau_jyutping</code>
+        </li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Non-Sinitic Languages</summary>
       <ul>
         <li>한글 ℞ <code>rime-aca/rime-hangyl</code></li>
         <li>
@@ -1235,6 +1444,14 @@ Up to now we have collected 33 recipes of 83 schemas. Below are the lists of all
 ---
 
 For detailed information of the collected schemas in the download packege, please see the [release](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) page.
+
+#### 參考資料
+
+Eberhard, David M., Gary F. Simons, and Charles D. Fennig (eds.). 2019. Ethnologue: Languages of the World. Twenty-second edition. Dallas, Texas: SIL International. Online version: http://www.ethnologue.com.
+
+Norman, J.L. (1988) Chinese. Cambridge University Press.
+
+中国社会科学院语言研究所, 中国社会科学院民族学与人类学研究所. 2012. 中国语言地图集（第2版）：汉语方言卷. 商務印書館.
 
 ## Incomplete list of sources of unmaintained schemas (non-recipes)
 
@@ -1259,7 +1476,14 @@ For detailed information of the collected schemas in the download packege, pleas
       <summary>Language learning resources (schema white papers, tutorials, dictionaries, etc.)</summary>
       <ul>
         <li>
-          中古漢語
+          Old Chinese
+          <ul>
+            <li><a href="http://ocbaxtersagart.lsait.lsa.umich.edu/"> 	
+The Baxter-Sagart reconstruction of Old Chinese</a></li>
+          </ul>
+        </li>
+        <li>
+          Middle Chinese
           <ul>
             <li><a href="https://zh.wikipedia.org/wiki/User:Polyhedron/%E4%B8%AD%E5%8F%A4%E6%BC%A2%E8%AA%9E%E6%8B%BC%E9%9F%B3">中古漢語拼音</a></li>
             <li><a href="https://bkrs.info/taolun/attachment.php?aid=637">中古漢語基礎教程</a></li>
@@ -1267,7 +1491,7 @@ For detailed information of the collected schemas in the download packege, pleas
           </ul>
         </li>
         <li>
-          官話
+          Mandarin
           <ul>
             <li><a href="https://uliloewi.github.io/LangJinPinIn/SUMMARY">南京話拼音教程</a></li>
             <li><a href="http://taerv.nguyoeh.com/">泰如方言</a></li>
@@ -1275,7 +1499,7 @@ For detailed information of the collected schemas in the download packege, pleas
           </ul>
         </li>
         <li>
-          吳語
+          Wu (Goetian)
           <ul>
             <li><a href="https://wugniu.com/">吴语学堂</a></li>
             <li><a href="https://shinzoqchiuq.github.io/gninpou-tutorial/">宁波话吴拼教程</a></li>
@@ -1286,17 +1510,22 @@ For detailed information of the collected schemas in the download packege, pleas
           </ul>
         </li>
         <li>
-          粵語
+          Yue (Cantonese)
           <ul>
             <li><a href="https://leimaau.github.io/book/">南宁白话</a></li>
             <li><a href="https://github.com/tengtengteng/gvaizauvan/wiki">貴州韻</a></li>
           </ul>
         </li>
         <li>
-          閩語
+          Eastern Min
           <ul>
             <li><a href="https://only3km.github.io/ciklinbekin/">平話字表 (閩東語‣福州話)</a></li>
             <li><a href="http://idioms.mindong.asia">福州话熟语大全</a></li>
+          </ul>
+        </li>
+        <li>
+          Southern Min (Hokkien, Teochew)
+          <ul>
             <li><a href="https://www.moedict.tw/'%E7%99%BC%E7%A9%8E">臺語萌典</a></li>
             <li><a href="http://www.ntcu.edu.tw/tailo/educate.htm">臺灣閩南語羅馬字拼音方案使用手冊</a></li>
             <li><a href="https://kahaani.github.io/gatian/index.html">潮语拼音教程</a></li>
@@ -1305,7 +1534,7 @@ For detailed information of the collected schemas in the download packege, pleas
           </ul>
         </li>
         <li>
-          客家話
+          Hakka
           <ul>
             <li><a href="http://syndict.com/">薪典</a></li>
             <li><a href="https://www.moedict.tw/:%E7%99%BC%E8%8A%BD">客語萌典</a></li>
