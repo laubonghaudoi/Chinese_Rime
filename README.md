@@ -42,7 +42,7 @@ This repo has four sub-directories:
 
 For detailed steps and explanations on how to type Chinese characters with these schemas, please visit this website (Chinese only):
 
-<center><a href="https://laubonghaudoi.github.io/dialects/"><h2><b>漢語方言拼音輸入</b></h2></a></center>
+<center><a href="https://laubonghaudoi.github.io/dialects/"><font size="10"><b>漢語方言拼音輸入</b></font></a></center>
 
 <h2>已收錄方案</br>Collected schemas</h2>
 
