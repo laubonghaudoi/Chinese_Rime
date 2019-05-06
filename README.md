@@ -4,7 +4,7 @@
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 ![licence](https://img.shields.io/badge/licence-Apache--2.0-blue.svg?style=flat)
 
-<h2>項目宗旨</br>The Mission of this project</h2>
+<h2>項目宗旨</br>The mission of this project</h2>
 
 本倉庫收集現代漢語各大方言及上古、中古漢語的[中州韻輸入法](https://rime.im/)拼音輸入方案和字庫。本項目的目標有三：
 
@@ -16,8 +16,8 @@
 
 This repo collects the phonetic spelling schemas and character sets of [Rime input method](https://rime.im/) for Old Chinese, Middle Chinese and modern Chinese languages & dialects. This project aims to:
 
-1. Provide useful phonetic spelling input schemas for all non-Mandarin Chinese topolects/dialects, preventing the predicament where non-Mandarin Chinese speakers are compelled to type in Mandarin. 
-2. Serve as a useful tool for Chinese topolect/dialect learners, as one can use phonetic spelling input to practice the standard pronunciation and orthography.
+1. Provide useful phonetic spelling input schemas for all non-Mandarin Chinese languages & dialects, solving the predicament where non-Mandarin Chinese speakers are compelled to type in Mandarin.
+2. Serve as a useful tool for Chinese language & dialect learners, as one can use phonetic spelling input to practice the standard pronunciation and orthography.
 3. Provide references for academic researches (Linguistics, Sinology, Anthropology, etc.).  
 
 This project also supports the promotion project of non-Mandarin phonetic spelling input. For a complete statement of the mission and motivation of the promotion, please read [this page](https://laubonghaudoi.github.io/dialects/blog/mission.html) (Chinese only).
@@ -46,7 +46,7 @@ For detailed steps and explanations on how to type Chinese characters with these
 
 <h2>已收錄方案</br>Collected schemas</h2>
 
-目前總共收錄33個配方的85個方案，主要**缺失閩北語、閩中語、徽語、贛語、湘語**的輸入方案。如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
+目前總共收錄33個配方的85個方案，**暫缺閩北語、閩中語、徽語、贛語、湘語**的輸入方案。如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
 Up to now we have collected 33 recipes of 85 schemas. We are still **missing the schemas for Northern Min, Central Min,  Huizhou, Gan, Xiang**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or open a new issue to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
 
@@ -713,80 +713,91 @@ For detailed information of the collected schemas in the download packege, pleas
 <h2>資源</br>Resources</h2>
 
 <ul>
-  <li>
-    <details>
-      <summary>語言學習資源（方案白皮書、教程、字典）</br>Language learning resources (schema white papers, tutorials, dictionaries, etc.)</summary>
-      <ul>
-        <li>
-          中古漢語 Middle Chinese
-          <ul>
-            <li><a href="https://zh.wikipedia.org/wiki/User:Polyhedron/%E4%B8%AD%E5%8F%A4%E6%BC%A2%E8%AA%9E%E6%8B%BC%E9%9F%B3">中古漢語拼音</a></li>
-            <li><a href="https://bkrs.info/taolun/attachment.php?aid=637">中古漢語基礎教程</a></li>
-            <li><a href="http://www.guguolin.com/">古音手鏡</a></li>
-          </ul>
-        </li>
-        <li>
-          官話 Mandarin
-          <ul>
-            <li><a href="https://uliloewi.github.io/LangJinPinIn/SUMMARY">南京話拼音教程</a></li>
-            <li><a href="http://taerv.nguyoeh.com/">泰如方言</a></li>
-            <li><a href="https://zhuanlan.zhihu.com/p/34562639">四川话通用拼音</a></li>
-          </ul>
-        </li>
-        <li>
-          吳語 Wu (Goetian)
-          <ul>
-            <li><a href="https://wugniu.com/">吴语学堂</a></li>
-            <li><a href="https://shinzoqchiuq.github.io/gninpou-tutorial/">宁波话吴拼教程</a></li>
-            <li><a href="http://wu-chinese.com/romanization/">吴语协会 通用吴语拼音</a></li>
-            <li><a href="http://wu-chinese.com/minidict/">吴语协会 吴音小字典</a></li>
-            <li><a href="http://input.foruto.com/wu/method.html">吳語注音法</a></li>
-            <li><a href="https://shinzoqchiuq.github.io/gninpou-tutorial/">宁波话吴拼教程</a></li>
-          </ul>
-        </li>
-        <li>
-          閩南語 Southern Min (Hokkien)
-          <ul>
-            <li><a href="https://www.moedict.tw/'%E7%99%BC%E7%A9%8E">臺語萌典</a></li>
-            <li><a href="http://www.ntcu.edu.tw/tailo/educate.htm">臺灣閩南語羅馬字拼音方案使用手冊</a></li>
-            <li><a href="https://www.ispeakmin.com/bbs/">海墘閩語論壇</a></li>
-            <li><a href="https://limkianhui.wordpress.com/">鹭水芗南－閩南語部落</a></li>
-            <li><a href="http://alt.reasoning.cs.ucla.edu/jinbo/dzl/">當代泉州音字彙</a></li>
-            <li><a href="https://kahaani.github.io/gatian/index.html">潮语拼音教程</a></li>
-            <li><a href="http://www.czyzd.com/">潮州音字典</a></li>
-            <li><a href="https://www.mogher.com/">潮州·母语</a></li>
-          </ul>
-        </li>
-        <li>
-          閩東語 Eastern Min
-          <ul>
-            <li><a href="https://only3km.github.io/ciklinbekin/">平話字表 (閩東語‣福州話)</a></li>
-            <li><a href="http://idioms.mindong.asia">福州话熟语大全</a></li>
-          </ul>
-        </li>
-        <li>
-          客家話 Hakka
-          <ul>
-            <li><a href="http://syndict.com/">薪典</a></li>
-            <li><a href="https://www.moedict.tw/:%E7%99%BC%E8%8A%BD">客語萌典</a></li>
-            <li><a href="https://depart.moe.edu.tw/ED2400/News.aspx?n=5EB26D97D6A29617&sms=8C59E176B3E3F56E">終身教育司-客家語</a></li>
-            <li><a href="https://hakka.dict.edu.tw/hakkadict/index.htm">臺灣客家語常用詞辭典</a></li>
-            <li><a href="http://hakka.fhl.net/dict/index_hakka.html">客語字典查尋</a></li>
-          </ul>
-        </li>
-        <li>
-          粵語 Yue (Cantonese)
-          <ul>
-            <li><a href="http://www.cantonese.asia/">粵語協會</a></li>
-            <li><a href="http://www.cantonese.asia/attachments/school/canchars.htm">粵語字打法大全（2007賀歲版）</a></li>
-            <li><a href="http://www.yueyu114.com/">粤语学习网·学广东话</a></li>
-            <li><a href="https://leimaau.github.io/book/">南宁白话</a></li>
-            <li><a href="https://github.com/tengtengteng/gvaizauvan/wiki">貴州韻</a></li>
-          </ul>
-        </li>
-      </ul>
-    </details>
-  </li>
+  <li>語言學習資源（方案白皮書、教程、字典）</br>Language learning resources (schema white papers, tutorials, dictionaries, etc.)</li>
+  <ul>
+    <li>
+      <details>
+        <summary>中古漢語 Middle Chinese</summary>
+        <ul>
+          <li><a href="https://zh.wikipedia.org/wiki/User:Polyhedron/%E4%B8%AD%E5%8F%A4%E6%BC%A2%E8%AA%9E%E6%8B%BC%E9%9F%B3">中古漢語拼音</a></li>
+          <li><a href="https://bkrs.info/taolun/attachment.php?aid=637">中古漢語基礎教程</a></li>
+          <li><a href="http://www.guguolin.com/">古音手鏡</a></li>
+        </ul>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary>官話 Mandarin</summary>
+        <ul>
+          <li><a href="https://uliloewi.github.io/LangJinPinIn/SUMMARY">南京話拼音教程</a></li>
+          <li><a href="http://taerv.nguyoeh.com/">泰如方言</a></li>
+          <li><a href="https://zhuanlan.zhihu.com/p/34562639">四川话通用拼音</a></li>
+        </ul>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary>吳語 Wu (Goetian)</summary>
+        <ul>
+          <li><a href="https://wugniu.com/">吴语学堂</a></li>
+          <li><a href="https://shinzoqchiuq.github.io/gninpou-tutorial/">宁波话吴拼教程</a></li>
+          <li><a href="http://wu-chinese.com/romanization/">吴语协会 通用吴语拼音</a></li>
+          <li><a href="http://wu-chinese.com/minidict/">吴语协会 吴音小字典</a></li>
+          <li><a href="http://input.foruto.com/wu/method.html">吳語注音法</a></li>
+          <li><a href="https://shinzoqchiuq.github.io/gninpou-tutorial/">宁波话吴拼教程</a></li>
+        </ul>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary>閩南語 Southern Min (Hokkien)</summary>
+        <ul>
+          <li><a href="https://www.moedict.tw/'%E7%99%BC%E7%A9%8E">臺語萌典</a></li>
+          <li><a href="http://www.ntcu.edu.tw/tailo/educate.htm">臺灣閩南語羅馬字拼音方案使用手冊</a></li>
+          <li><a href="https://www.ispeakmin.com/bbs/">海墘閩語論壇</a></li>
+          <li><a href="https://limkianhui.wordpress.com/">鹭水芗南－閩南語部落</a></li>
+          <li><a href="http://hiteo.pw/">潮州話正音正字促進會</a></li>
+          <li><a href="http://alt.reasoning.cs.ucla.edu/jinbo/dzl/">當代泉州音字彙</a></li>
+          <li><a href="https://kahaani.github.io/gatian/index.html">潮语拼音教程</a></li>
+          <li><a href="http://www.czyzd.com/">潮州音字典</a></li>
+          <li><a href="https://www.mogher.com/">潮州·母语</a></li>
+        </ul>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary>閩東語 Eastern Min</summary>
+        <ul>
+          <li><a href="https://only3km.github.io/ciklinbekin/">平話字表 (閩東語‣福州話)</a></li>
+          <li><a href="http://idioms.mindong.asia">福州话熟语大全</a></li>
+        </ul>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary>客家話 Hakka</summary>
+        <ul>
+          <li><a href="http://syndict.com/">薪典</a></li>
+          <li><a href="https://www.moedict.tw/:%E7%99%BC%E8%8A%BD">客語萌典</a></li>
+          <li><a href="https://depart.moe.edu.tw/ED2400/News.aspx?n=5EB26D97D6A29617&sms=8C59E176B3E3F56E">終身教育司-客家語</a></li>
+          <li><a href="https://hakka.dict.edu.tw/hakkadict/index.htm">臺灣客家語常用詞辭典</a></li>
+          <li><a href="http://hakka.fhl.net/dict/index_hakka.html">客語字典查尋</a></li>
+        </ul>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary>粵語 Yue (Cantonese)</summary>
+        <ul>
+          <li><a href="http://www.cantonese.asia/">粵語協會</a></li>
+          <li><a href="http://www.cantonese.asia/attachments/school/canchars.htm">粵語字打法大全（2007賀歲版）</a></li>
+          <li><a href="http://www.yueyu114.com/">粤语学习网·学广东话</a></li>
+          <li><a href="https://leimaau.github.io/book/">南宁白话</a></li>
+          <li><a href="https://github.com/tengtengteng/gvaizauvan/wiki">貴州韻</a></li>
+        </ul>
+      </details>
+    </li>
+  </ul>
   <li>
     <details>
       <summary>語言學參考 Linguistics references</summary>
