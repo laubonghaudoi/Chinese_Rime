@@ -166,6 +166,12 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         </li>
         <li>
           <details>
+            <summary>冀魯官話 Jiaoliao Mandarin</summary>
+            <b>暫缺 Missing</b>
+          </details>
+        </li>
+        <li>
+          <details>
             <summary>蘭銀官話 Lan-Yin Mandarin</summary>
             <b>暫缺 Missing</b>
           </details>
@@ -529,6 +535,12 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         </li>
         <li>
           <details>
+            <summary>冀魯官話 Jiaoliao Mandarin</summary>
+            <b>暫缺 Missing</b>
+          </details>
+        </li>
+        <li>
+          <details>
             <summary>蘭銀官話 Lan-Yin Mandarin</summary>
             <b>暫缺 Missing</b>
           </details>
@@ -609,7 +621,6 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   <li>
     <details>
       <summary>閩南語 Southern Min (Hokkien)</summary>
-      <b>暫缺 Missing</b>
       <ul>
         <li>閩南語輸入方案 ℞ <code>a-thok/rime-hokkien</code></li>
         <li>閩南語拼音輸入方案 ℞ <code>LimTo/etaiBLG</code></li>
