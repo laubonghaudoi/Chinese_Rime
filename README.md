@@ -31,7 +31,7 @@ This project also supports the promotion project of non-Mandarin phonetic spelli
 
 This repo has four sub-directories:
 
-1. Folders under the `sources/` directory are the source repos of some schemas which are preserved as submodules. Most of them are recipes (for an introduction to schema recipes, please see [Rime 輸入方案又是啥](https://github.com/rime/home/wiki/RimeWithSchemata#rime-%E8%BC%B8%E5%85%A5%E6%96%B9%E6%A1%88%E5%8F%88%E6%98%AF%E5%95%A5)) maintained by their authors, and can be installed and deployed by [plum](https://github.com/rime/plum).  Since not all schemas are open-sourced on GitHub, the collection under this directory is incomplete. 
+1. Folders under the `sources/` directory are the source repos of some schemas which are preserved as submodules. Most of them are recipes (for an introduction to schema recipes, please see [Rime 輸入方案又是啥](https://github.com/rime/home/wiki/RimeWithSchemata#rime-%E8%BC%B8%E5%85%A5%E6%96%B9%E6%A1%88%E5%8F%88%E6%98%AF%E5%95%A5)) maintained by their authors, and can be installed and deployed by [plum](https://github.com/rime/plum) directly.  Since not all schemas are open-sourced on GitHub, the collection under this directory is incomplete.
 2. The `unmaintained/` directory preserves schemas from other sources which are not recipes . They are not maintained by anybody so the usabilities are not guaranteed.  
 3. The `download/` directory serves as the folder for the [released](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) packages. It contains only the selected schema for the prestige dialect of each language. Hence users can download, deploy and use these off-the-shelf schemas conveniently.
 4. The `resources/` directory stores materials about the collected schemas, such as tutorials, schema white papers, etc. They serve as references and study materials for users.
@@ -161,19 +161,19 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         <li>
           <details>
             <summary>膠遼官話 Jiaoliao Mandarin</summary>
-            <b>暫缺 Missing</b>
+            <b>暫缺 Not available</b>
           </details>
         </li>
         <li>
           <details>
             <summary>冀魯官話 Jiaoliao Mandarin</summary>
-            <b>暫缺 Missing</b>
+            <b>暫缺 Not available</b>
           </details>
         </li>
         <li>
           <details>
             <summary>蘭銀官話 Lan-Yin Mandarin</summary>
-            <b>暫缺 Missing</b>
+            <b>暫缺 Not available</b>
           </details>
         </li>
         <li>
@@ -291,25 +291,25 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   <li>
     <details>
       <summary>徽語 Huizhou</summary>
-      <b>暫缺 Missing</b>
+      <b>暫缺 Not available</b>
     </details>
   </li>
   <li>
     <details>
       <summary>贛語 Gan</summary>
-      <b>暫缺 Missing</b>
+      <b>暫缺 Not available</b>
     </details>
   </li>
   <li>
     <details>
       <summary>湘語 Xiang</summary>
-      <b>暫缺 Missing</b>
+      <b>暫缺 Not available</b>
     </details>
   </li>
   <li>
     <details>
       <summary>閩北語 Northern Min</summary>
-      <b>暫缺 Missing</b>
+      <b>暫缺 Not available</b>
     </details>
   </li>
   <li>
@@ -371,7 +371,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   <li>
     <details>
       <summary>閩中語 Central Min</summary>
-      <b>暫缺 Missing</b>
+      <b>暫缺 Not available</b>
     </details>
   </li>
   <li>
@@ -489,7 +489,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   <li>
     <details>
       <summary>上古漢語 Old Chinese</summary>
-      <b>暫缺 Missing</b>
+      <b>暫缺 Not available</b>
     </details>
   </li>
   <li>
@@ -530,19 +530,19 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         <li>
           <details>
             <summary>膠遼官話 Jiaoliao Mandarin</summary>
-            <b>暫缺 Missing</b>
+            <b>暫缺 Not available</b>
           </details>
         </li>
         <li>
           <details>
             <summary>冀魯官話 Jiaoliao Mandarin</summary>
-            <b>暫缺 Missing</b>
+            <b>暫缺 Not available</b>
           </details>
         </li>
         <li>
           <details>
             <summary>蘭銀官話 Lan-Yin Mandarin</summary>
-            <b>暫缺 Missing</b>
+            <b>暫缺 Not available</b>
           </details>
         </li>
         <li>
@@ -571,7 +571,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   <li>
     <details>
       <summary>晉語 Jin</summary>
-      <b>暫缺 Missing</b>
+      <b>暫缺 Not available</b>
     </details>
   </li>
   <li>
@@ -597,25 +597,25 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   <li>
     <details>
       <summary>徽語 Hui</summary>
-      <b>暫缺 Missing</b>
+      <b>暫缺 Not available</b>
     </details>
   </li>
   <li>
     <details>
       <summary>贛語 Gan</summary>
-      <b>暫缺 Missing</b>
+      <b>暫缺 Not available</b>
     </details>
   </li>
   <li>
     <details>
       <summary>湘語 Xiang</summary>
-      <b>暫缺 Missing</b>
+      <b>暫缺 Not available</b>
     </details>
   </li>
   <li>
     <details>
       <summary>閩北語 Northern Min</summary>
-      <b>暫缺 Missing</b>
+      <b>暫缺 Not available</b>
     </details>
   </li>
   <li>
@@ -640,7 +640,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   <li>
     <details>
       <summary>閩中語 Central Min</summary>
-      <b>暫缺 Missing</b>
+      <b>暫缺 Not available</b>
     </details>
   </li>
   <li>
@@ -688,6 +688,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
     </details>
   </li>
 </ul>
+
 ---
 
 下載包內方案信息詳見[發佈](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases)頁面。
