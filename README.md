@@ -1,5 +1,5 @@
 <h1>中州韻輸入法漢語方言拼音方案全集 
-</br> Collection of Rime Input Method Schemas for Chinese Languages & Dialects</h1>
+</br> Collection of Rime Input Method Phonetic Spelling Schemas for Chinese Languages & Dialects</h1>
 
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 ![licence](https://img.shields.io/badge/licence-Apache--2.0-blue.svg?style=flat)
@@ -42,7 +42,7 @@ This repo has four sub-directories:
 
 For detailed steps and explanations on how to type Chinese characters with these schemas, please visit this website (Chinese only):
 
-<center><a href="https://laubonghaudoi.github.io/dialects/"><font size="10"><b>漢語方言拼音輸入</b></font></a></center>
+<center><a href="https://laubonghaudoi.github.io/dialects/"><font size="30"><b>漢語方言拼音輸入</b></font></a></center>
 
 <h2>已收錄方案</br>Collected schemas</h2>
 
@@ -69,7 +69,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共85個方案）</br>Full list of collected schemas (85 schemas in total)</h3>
+<h3>方案列表（共89個方案）</br>Full list of collected schemas (89 schemas in total)</h3>
 
 <ul>
   <li>
@@ -203,6 +203,15 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
                   <li>蜀拼-貴陽 - <code>shupin_guiyang</code></li>
                   <li>蜀拼-宜賓 - <code>shupin_libin</code></li>
                   <li>蜀拼-自貢 - <code>shupin_zigong</code></li>
+                </ul>
+              </li>
+              <li>
+                咵一咵湖北话 ℞ <code>yuxifongfei/hubehua</code>
+                <ul>
+                  <li>黃岡 - <code>huanggang</code></li>
+                  <li>黃岡（混胡符版） - <code>huanggangxiangzhen</code></li>
+                  <li>鄂城 - <code>ngocen</code></li>
+                  <li>武漢 - <code>wuhan</code></li>
                 </ul>
               </li>
             </ul>
@@ -483,7 +492,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
 </ul>
 
-<h3>配方列表（共33個配方）</br>List of recipes (33 recipes in total)</h3>
+<h3>配方列表（共34個配方）</br>List of recipes (34 recipes in total)</h3>
 
 <ul>
   <li>
@@ -562,6 +571,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
               <li>
                 蜀拼 ℞ <code>Papnas/shupin</code>
               </li>
+              <li>咵一咵湖北话 ℞ <code>yuxifongfei/hubehua</code></li>
             </ul>
           </details>
         </li>
@@ -732,6 +742,7 @@ For detailed information of the collected schemas in the download packege, pleas
           <li><a href="https://uliloewi.github.io/LangJinPinIn/SUMMARY">南京話拼音教程</a></li>
           <li><a href="http://taerv.nguyoeh.com/">泰如方言</a></li>
           <li><a href="https://zhuanlan.zhihu.com/p/34562639">四川话通用拼音</a></li>
+          <li><a href="https://github.com/yuxifongfei/hubehua/wiki">湖北话百科</a></li>
         </ul>
       </details>
     </li>
@@ -838,12 +849,14 @@ For detailed information of the collected schemas in the download packege, pleas
 - [佛振](https://github.com/lotem)
 - [芽油](https://github.com/Yaryou)
 - [滕謄](https://github.com/tengtengteng)
+- [羽随风飞](https://github.com/yuxifongfei)
 - [a-thok](https://github.com/a-thok)
 - [biopolyhedron](https://github.com/biopolyhedron)
 - [cryptogun](https://github.com/cryptogun)
 - [Electric Sheep](https://github.com/shinzoqchiuq)
 - [Hector Sioh](https://github.com/only3km)
 - [inzoi](https://github.com/inzoi)
+- [jimmy54](https://github.com/jimmy54)
 - [LeiMaau](https://github.com/leimaau)
 - [LimTo](https://github.com/LimTo)
 - [lois.左](https://github.com/xunux)
