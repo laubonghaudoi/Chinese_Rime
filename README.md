@@ -46,13 +46,13 @@ For detailed steps and explanations on how to type Chinese characters with these
 
 <h2>已收錄方案</br>Collected schemas</h2>
 
-目前總共收錄33個配方的85個方案，**暫缺閩北語、閩中語、徽語、贛語、湘語**的輸入方案。如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
+目前總共收錄34個配方的89個方案，**暫缺閩北語、閩中語、徽語、贛語、湘語**的輸入方案。如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
-Up to now we have collected 33 recipes of 85 schemas. We are still **missing the schemas for Northern Min, Central Min,  Huizhou, Gan, Xiang**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or open a new issue to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
+Up to now we have collected 34 recipes of 89 schemas. We are still **missing the schemas for Northern Min, Central Min,  Huizhou, Gan, Xiang**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or open a new issue to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
 
 目前學界對漢語方言分類歸類問題仍存較大分歧。常見的分類方式有傳統的七分法、《中國語言地圖集》的十分法和ISO國際標準的十三分法等。若使用傳統分法，則現代漢語族下分七大語支，官吳贛湘粵客閩。若採用《中國語言地圖集》之十分法，則晉語獨立於官話成一支，徽語獨立於吳語成一支，平話獨立於粵語成一支。若採用ISO標準的十三分法，則平話從屬於粵語，而閩語則細分爲閩北、閩南、閩東、閩中、莆仙五支，另外中古漢語和上古漢語各計作一門語言。
 
-It has been an unsettled issue in the academia on the taxonomy for Chinese languages.  For instance, the traditional way by Jerry Norman (1988) puts Chinese languages into seven groups: Mandarin, Wu, Gan, Xiang, Cantonese, Hakka, Min, while the *Language Atlas of China* classifies them into 10 groups, seperating Jin, Huizhou and Pinghua from Mandarin, Wu and Cantonese as independent languages. And the ISO standard keeps Pinghua within Cantonese while further divides Min into Northen, Southern, Eastern, Central and Pu-Xian branches.
+It has been an unsettled issue in the academia on the taxonomy for Chinese languages.  For instance, the traditional way (Jerry Norman 1988) puts Chinese languages into seven groups: Mandarin, Wu, Gan, Xiang, Cantonese, Hakka, Min, while the *Language Atlas of China* classifies them into 10 groups, seperating Jin, Huizhou and Pinghua from Mandarin, Wu and Cantonese as independent languages. And the ISO standard keeps Pinghua within Cantonese while further divides Min into Northen, Southern, Eastern, Central and Pu-Xian branches.
 
 爲提高本項目可讀性和後續可維護性，本項目採用ISO標準的十三分法。此標準僅作參考，非最佳標準。若對此分類方式有任何疑問或意見，歡迎新開一個issue發起討論。下表爲此標準下各語言所對應的ISO 639-3代碼：
 
