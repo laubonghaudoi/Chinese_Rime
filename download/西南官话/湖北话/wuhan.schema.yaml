@@ -79,6 +79,8 @@ speller:
     - derive/er/e/
     - derive/vi/vei/
     - derive/v/u/
+    - xform/lu/lv/
+    - xform/lvo/luo/
     - derive/ui/uei/
 #容錯（變體類型）
     - derive/([1234~])//#忽略声调
@@ -95,6 +97,7 @@ speller:
     - derive/un/ub/
     - derive/vn/vm/
     - derive/vn/vb/
+    - derive/en/wn/
 
 
 translator:
