@@ -54,6 +54,7 @@ speller:
   algebra:
     - xform/Kbei/bei/#關愛武漢猩猩，從我做起
     - xform/([zcs])h/$1/
+    - xform/mu/mong/
     - derive/re/nge/#熱惹兩字
     - xform/re/yve/
     - xform/yven/ngen/
@@ -62,7 +63,6 @@ speller:
     - xform/ngi/ri/
 #黃孝ei——i
     - derive/nei/ni/
-    - xform/nei/lei/
     - derive/ei/ij/
     - xform/bij1/bei1/
     - xform/fi/fei/
@@ -71,6 +71,7 @@ speller:
     - xform/cij/qi/
     - xform/wij/wei/
     - xform/ij/i/
+    - xform/nei/lei/
 #黃孝ei——i
 
 #容錯（變體類型）
@@ -87,6 +88,7 @@ speller:
     - xform/S/mei/#沒有
     - derive/vi/vei/
     - derive/v/u/
+    - xform/nu/nv/
     - derive/ui/uei/
     - xform/er/e/
 #容錯（變體類型）
@@ -103,13 +105,14 @@ speller:
     - derive/un/ub/
     - derive/vn/vm/
     - derive/vn/vb/
-
+    - derive/en/wn/
 
 translator:
   dictionary: huangxiao
   prism: ngocen
   spelling_hints: 5
   comment_format:
+    - xform/mu/mong/
     - xform/Kbei/bei/
     - xform/([zcs])h/$1/
     - xform/rv/yu/
@@ -139,6 +142,7 @@ reverse_lookup:
   suffix: "'"
   tips: 〔反查〕
   preedit_format:
+    - xform/mu/mong/
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/

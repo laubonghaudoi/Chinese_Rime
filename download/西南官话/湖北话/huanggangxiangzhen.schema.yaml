@@ -55,7 +55,6 @@ speller:
     - xform/Kbei/bei/#關愛武漢猩猩，從我做起
 #黃孝ei——i
     - derive/nei/ni/
-    - xform/nei/lei/
     - derive/ei/ij/
     - xform/bij1/bei1/
     - xform/sij/xi/
@@ -64,11 +63,12 @@ speller:
     - xform/wij/wei/
     - xform/ij/i/
     - xform/S/mei/#沒有
+    - xform/nei/lei/
 #黃孝ei——i
 
 #容錯（變體類型）
     - derive/re/rve/
-    - derive/rang/rvang/
+    - xform/rven/rvn/
     - derive/fong/hong/
     - derive/^hong/fong/
     - derive/^hu([12345])/fu/
@@ -94,6 +94,7 @@ speller:
     - derive/ou/eu/
     - derive/vi/vei/
     - derive/v/u/
+    - xform/nu/nv/
     - derive/ui/uei/
     - derive/er/e/
 #容錯（變體類型）
@@ -108,6 +109,7 @@ speller:
     - derive/in/im/
     - derive/in/ib/
     - derive/in/ing/
+    - derive/en/wn/
 
 
 translator:
