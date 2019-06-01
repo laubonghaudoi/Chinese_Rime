@@ -46,7 +46,7 @@ For detailed steps and explanations on how to type Chinese characters with these
 
 <h2>已收錄方案</br>Collected schemas</h2>
 
-目前總共收錄34個配方的89個方案，**暫缺閩北語、閩中語、徽語、贛語、湘語**的輸入方案。如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
+目前總共收錄34個配方的90個方案，**暫缺閩北語、閩中語、徽語、贛語、湘語**的輸入方案。如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
 Up to now we have collected 34 recipes of 89 schemas. We are still **missing the schemas for Northern Min, Central Min,  Huizhou, Gan, Xiang**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or open a new issue to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
 
@@ -69,7 +69,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共89個方案）</br>Full list of collected schemas (89 schemas in total)</h3>
+<h3>方案列表（共90個方案）</br>Full list of collected schemas (89 schemas in total)</h3>
 
 <ul>
   <li>
@@ -187,6 +187,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
                 </ul>
               </li>
               <li>泰如拼音 - <code>taerv</code></li>
+              <li>南通方言 - <code>ntw</code></li>
             </ul>
           </details>
         </li>
@@ -713,6 +714,7 @@ For detailed information of the collected schemas in the download packege, pleas
     - [廣韻段毄攴字法](https://bintray.com/rime-aca/Schemata/KMG)
 - 江淮官話
     - [泰如拼音](https://github.com/osfans/rime-tool/tree/master/data/y)
+    - [南通方言](http://nantonghua.net/archives/7770)
 - 粵語
     - [貴州韻](https://zhuanlan.zhihu.com/p/31464937)
 - 晉語
@@ -740,6 +742,7 @@ For detailed information of the collected schemas in the download packege, pleas
         <summary>官話 Mandarin</summary>
         <ul>
           <li><a href="https://uliloewi.github.io/LangJinPinIn/SUMMARY">南京話拼音教程</a></li>
+          <li><a href="http://nantonghua.net/">南通方言网</a></li>
           <li><a href="http://taerv.nguyoeh.com/">泰如方言</a></li>
           <li><a href="https://zhuanlan.zhihu.com/p/34562639">四川话通用拼音</a></li>
           <li><a href="https://github.com/yuxifongfei/hubehua/wiki">湖北话百科</a></li>
