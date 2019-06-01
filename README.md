@@ -69,7 +69,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共90個方案）</br>Full list of collected schemas (89 schemas in total)</h3>
+<h3>方案列表（共90個方案）</br>Full list of collected schemas (90 schemas in total)</h3>
 
 <ul>
   <li>
