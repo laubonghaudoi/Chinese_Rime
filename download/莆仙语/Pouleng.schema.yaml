@@ -1,15 +1,21 @@
 # Rime schema
 # encoding: UTF-8 w/o BOM
-
+# 參考書目：
+# 單字基於《莆田縣誌》同音字表 完工
+# 增補《莆田市志》 同音字表 完工
+# 詞彙《莆仙方言簡明詞彙》完工 校對中
+# 增補《莆田市誌》分類詞表 完工
+# 增補《莆仙方言大詞典》未面世 請期待
+# 本字不明的詞週邊若有寫法可暫時借用
 schema:
   schema_id: Pouleng
-  name: 興化語莆田城關話
-  version: "2019.2.25.2"
+  name: 興化語莆音
+  version: "2019.5.31.1"
   author:
     - 文本：芽油 <963737435@qq.com> 
-            叶子
     - 程序：子善
   description: 测试版 v0.1 词汇录入中
+               討論羣「莆仙興化閩語 643608959」
   dependencies:
     - luna_pinyin
 
@@ -63,22 +69,34 @@ speller:
     - derive/au/ao/
     - derive/ieng/ian/
     - derive/ieu/iao/
-    - derive/e/ei/
     - derive/^ieng/yan/
-    - derive/yor/yo/
-    - derive/yorng/yong/
-    - derive/uang/uong/
-    - derive/uah/uoh/
     - derive/yorng/iong/
+    
+    # 略縮輸入
+    - derive/yor/yo/
+    - derive/yor/io/
+    - derive/yorng/yong/
+    - derive/yorh/yoh/
+    - derive/yorng/ion/
+    - derive/orh/oq/
+    - derive/orng/om/
+    - derive/zyor/jo/
+    - derive/zyorng/jong/
+    - derive/zyorng/jon/
+    - derive/ung/ng/
     
     # 普通話拼音的零声母辅音
     - derive/^ia/ya/
     - derive/^i/yi/
     - derive/^iu/you/
     - derive/^y/yu/
-    - derive/^ie/ye/
     - derive/^yorng/yong/
     - derive/uang/wan/
+    - derive/^ue/wei/
+    - derive/^ui/wui/
+    - derive/^ua/wa/
+    - derive/^uai/wai/
+    - derive/^u/wu/
    
     
     # 鼻音韵尾简化
@@ -93,12 +111,6 @@ speller:
     - derive/uang/uan/
     
    
-    - derive/^ui/wei/
-    - derive/^ua/wa/
-    - derive/^uai/wai/
-    - derive/^u/wu/
-    - derive/^uo/wo/
-    - derive/^uei/ui/
     
     # 顎化
     - derive/zi/ji/
@@ -116,13 +128,10 @@ speller:
     #類普拼式與IPA式轉換
     - derive/z/ts/
     - derive/c/tsh/
-    
-    #仙遊腔韻母轉換
-    - derive/oeng/yeng/
-    - derive/oeh/yeh/
-    
+       
     
     #老派
+    - derive/ieu/iau/
     - derive/ieh/iah/
     - derive/ieng/iang/
   
@@ -132,6 +141,24 @@ speller:
     - derive/oh/erh/
     - derive/ue/uei/
     
+    #容错
+    - derive/ang/ag/
+    - derive/eng/eg/
+    - derive/oeng/oeg/
+    - derive/ieng/ieg/
+    - derive/ing/ig/
+    - derive/yng/yg/
+    - derive/yorng/yorg/
+    - derive/ang/am/
+    - derive/eng/em/
+    - derive/oeng/oem/
+    - derive/ieng/iem/
+    - derive/ing/im/
+    - derive/yng/ym/
+    - derive/yorng/yom/
+    
+    #其他口音
+    - derive/ue/uai/
     
 translator:
   dictionary: Pouleng
@@ -144,13 +171,13 @@ translator:
   comment_format: &comment_rules
 
     # 聲調上標
-    - xlit/01234567/⁰¹²³⁴⁵⁶⁷/
+    - xlit/012345678/⁰¹²³⁴⁵⁶⁷⁸/
 
 reverse_lookup:
   dictionary: luna_pinyin
   prefix: "`"
   suffix: "'"
-  tips: 〔普通话拼音反查〕
+  tips: 〔普通話拼音反查〕
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
