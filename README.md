@@ -725,6 +725,7 @@ For detailed information of the collected schemas in the download packege, pleas
 <h2>資源</br>Resources</h2>
 
 <ul>
+  <li><a href="https://share.weiyun.com/5BqauQb">方案相關文件（騰訊微雲）Schema-related files (Tencent cloud)</a></li>
   <li>語言學習資源（方案白皮書、教程、字典）</br>Language learning resources (schema white papers, tutorials, dictionaries, etc.)</li>
   <ul>
     <li>
