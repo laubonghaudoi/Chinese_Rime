@@ -22,19 +22,21 @@ This repo collects the phonetic spelling schemas and character sets of [Rime inp
 
 This project also supports the promotion project of non-Mandarin phonetic spelling input. For a complete statement of the mission and motivation of the promotion, please read [this page](https://laubonghaudoi.github.io/dialects/blog/mission.html) (Chinese only).
 
-本倉庫分为四个子文件夹：
+本倉庫分为三个子文件夹：
 
 1. `sources/`路徑下爲各個輸入方案的來源倉庫，以子模块submodule的形式保存。其中大部分爲配方（配方的介紹請參見[Rime 輸入方案又是啥](https://github.com/rime/home/wiki/RimeWithSchemata#rime-%E8%BC%B8%E5%85%A5%E6%96%B9%E6%A1%88%E5%8F%88%E6%98%AF%E5%95%A5)），由方案作者更新維護，可直接通過[plum](https://github.com/rime/plum)安裝部署。由於部分方案不存在於GitHub，故此路徑下方案收錄不完整，
 2. `unmaintained/`路徑下爲从其他渠道收集得的方案文件，此类方案未配方化，无人更新维护，不保证可用性。
 3. `download/`用於存放各個語言的唯一權威版拼音，即爲[發佈頁面](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases)的下載整合包，方便用戶直接部署使用。
-4. `resources/`下为关于各个方案的其他资源，如方案白皮书、教程等，方便使用者学习参考。
 
-This repo has four sub-directories:
+有關已收集方案的资源，如方案白皮书、教程等，請參見[方案相關文件（騰訊微雲）](https://github.com/laubonghaudoi/Chinese_Rime#%E8%B3%87%E6%BA%90resources)。
+
+This repo has three sub-directories:
 
 1. Folders under the `sources/` directory are the source repos of some schemas which are preserved as submodules. Most of them are recipes (for an introduction to schema recipes, please see [Rime 輸入方案又是啥](https://github.com/rime/home/wiki/RimeWithSchemata#rime-%E8%BC%B8%E5%85%A5%E6%96%B9%E6%A1%88%E5%8F%88%E6%98%AF%E5%95%A5)) maintained by their authors, and can be installed and deployed by [plum](https://github.com/rime/plum) directly.  Since not all schemas are open-sourced on GitHub, the collection under this directory is incomplete.
 2. The `unmaintained/` directory preserves schemas from other sources which are not recipes . They are not maintained by anybody so the usabilities are not guaranteed.  
 3. The `download/` directory serves as the folder for the [released](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) packages. It contains only the selected schema for the prestige dialect of each language. Hence users can download, deploy and use these off-the-shelf schemas conveniently.
-4. The `resources/` directory stores materials about the collected schemas, such as tutorials, schema white papers, etc. They serve as references and study materials for users.
+
+For related materials of the collected schemas, such as tutorials, schema white papers, etc., please see [Schema-related files (Tencent cloud)](https://github.com/laubonghaudoi/Chinese_Rime#%E8%B3%87%E6%BA%90resources)
 
 <h2>使用教程（項目網站）</br> Tutorial (Project website)</h2>
 
