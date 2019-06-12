@@ -8,6 +8,13 @@ import_tables:
 - hubehua
 ...
 
+老頭	lao3 tou2
+老頭	lao3 te
+房間	fang2 gan1
+房間	fang2 jian1
+間開	gan4 kai1
+細時候
+到處	dao4 qv4
 彈道	dan5 dao5
 夜櫻四重奏	ye5 yin1 si4 chong2 zou4
 八重子	ba6 chong2 zi3
@@ -230,10 +237,10 @@ import_tables:
 寂靜嶺重歸故里	ji4 jin5 lin3 chong2 gui1 gu4 li3
 夢幻戰爭重返夢鏡	mong5 huan5 zhan4 zen1 chong2 fan3 mong5 jin3
 奇異世界重返無盡的太空	qi2 yi4 shi4 gai4 chong2 fan3 wu2 jin5 di tai4 kong1
-榮譽勳章先頭部隊重返諾曼第	rvn2 rv5 xvn1 zhang1 xian1 tou2 bu5 dei5 chong2 fan2 lo6 man5 di5
-榮譽勳章先頭部隊重返諾曼第	yong2 rv5 xvn1 zhang1 xian1 tou2 bu5 dei5 chong2 fan2 lo6 man5 di5
-榮譽勳章先頭部隊重返諾曼第	rvn2 rv5 xvn1 zhang1 xian1 tou2 bu5 dei5 chong2 fan2 yo6 man5 di5
-榮譽勳章先頭部隊重返諾曼第	yong2 rv5 xvn1 zhang1 xian1 tou2 bu5 dei5 chong2 fan2 yo6 man5 di5
+榮譽勳章先頭部隊重返諾曼第	rvn2 rv5 xvn1 zhang1 xian1 tou2 bu5 dei4 chong2 fan2 lo6 man5 di5
+榮譽勳章先頭部隊重返諾曼第	yong2 rv5 xvn1 zhang1 xian1 tou2 bu5 dei4 chong2 fan2 lo6 man5 di5
+榮譽勳章先頭部隊重返諾曼第	rvn2 rv5 xvn1 zhang1 xian1 tou2 bu5 dei4 chong2 fan2 yo6 man5 di5
+榮譽勳章先頭部隊重返諾曼第	yong2 rv5 xvn1 zhang1 xian1 tou2 bu5 dei4 chong2 fan2 yo6 man5 di5
 榮譽勳章突出重圍	rvn2 rv5 xvn1 zhang1 tou6 qv6 chong2 wei2
 榮譽勳章突出重圍	yong2 rv5 xvn1 zhang1 tou6 qv6 chong2 wei2
 屍變重生	shi1 bian4 chong2 sen1
@@ -1211,7 +1218,7 @@ import_tables:
 你老人家	ni3 lao3 ren2 jia1
 你老人家	ni3 lao3 ren2 ga1
 澥	hai3
-浮	fou6
+浮	fou2
 叨	dao1
 仰	yang3
 緇	zi1
@@ -1990,6 +1997,8 @@ import_tables:
 徘	pai2
 迫	pe6
 白	be6
+粕	be6
+粕	pe6
 百	be6
 拜	bai4
 柏	be6
@@ -2451,9 +2460,9 @@ import_tables:
 蘼	mi3
 漞	mi2
 別	bie6
-彆	bie4
-憋	bie1
-鱉	bie1
+彆	bie6
+憋	bie6
+鱉	bie6
 癟	bie3
 蹩	bie6
 龞	bie6
@@ -2704,7 +2713,7 @@ import_tables:
 扶	fu2
 幅	fu6
 弗	fu6
-浮	fu6
+浮	fu2
 伏	fu6
 斧	fu3
 腐	fu3
@@ -3466,6 +3475,7 @@ import_tables:
 遨	ngao2
 驁	ngao2
 翶	ngao2
+聱	ngao2
 都	dou1
 斗	dou3
 鬥	dou4
@@ -4638,7 +4648,7 @@ import_tables:
 頽	tei2
 頹	tei2
 對	dei4
-隊	dei5
+隊	dei4
 堆	dei1
 兌	dei5
 懟	dei5
@@ -9313,22 +9323,27 @@ import_tables:
 敲門	kao1 men2
 敲開	kao1 kai1
 麼事	mo3 si	1000000
-爲什麼	wei5 shen5 mo3
-爲什麼	wei5 shi6 mo3
-爲甚麼	wei5 shen5 mo3
-什	shen5	2
-什麽	shen5 mo3	1000000
+麼鬼		10000
+麼屄
 麼樣	mo3 yang5	1000000
 麼樣	mo3 ang5		1000000
-麼嘛昝	mo3 ma3 za3
-幾嘛昝	ji3 ma3 za3
-幾嘛	ji3 ma3
-麽嘛昝	mo3 ma3 za3
+幾多		10000
+做麼事		10000
+為麼事		10000
+為甚麼		10000
+麼時候		10000
+麼嘛昝	mo3 ma3 za3	10000
+幾嘛昝	ji3 ma3 za3	10000
+幾嘛	ji3 ma3	10000
+麽嘛昝	mo3 ma3 za3	10000
+幾嘛昝	ji3 ma3 za3	10000
+幾滿	ji3 man3	10000
+下是	ha5 shi5	10000
 曉得	xiao3 de6
-那邊	lai5 bian1
-那嘛	la5 ma3
-那嘛昝	la5 ma3 za3
-冒得	mao5 de6
+那邊	lai5 bian1	10000
+那嘛	la5 ma3	10000
+那嘛昝	la5 ma3 za3	10000
+冒得	mao5 de6	10000
 沒	me4	2
 沒得	me4 de6
 苕豬		1000000
