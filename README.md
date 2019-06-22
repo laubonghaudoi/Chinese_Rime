@@ -807,6 +807,7 @@ For detailed information of the collected schemas in the download packege, pleas
       <details>
         <summary>粵語 Yue (Cantonese)</summary>
         <ul>
+          <li><a href="https://words.hk/">粵典</a></li>
           <li><a href="http://www.cantonese.asia/">粵語協會</a></li>
           <li><a href="http://www.cantonese.asia/attachments/school/canchars.htm">粵語字打法大全（2007賀歲版）</a></li>
           <li><a href="http://www.yueyu114.com/">粤语学习网·学广东话</a></li>
