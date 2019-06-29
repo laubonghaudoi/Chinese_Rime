@@ -56,8 +56,12 @@ speller:
   algebra:
     - abbrev/^([jqx]r).+$/$1/
     - abbrev/^([a-z]).+$/$1/
-    - derive/^niaq$/liaq/
-    - derive/([mlcbdpt])eng$/$1ing/
+    - derive/niaq$/liaq/
+    - derive/jreng$/zeng/
+    - derive/qreng$/ceng/
+    - derive/xreng$/seng/
+    - derive/([bpmdtl])eng$/$1ing/
+    - derive/([bpmjqx])ri$/$1i/
     - derive/([aeiou])g$/$1q/
     - derive/([aeiou])q$/$1g/
     
