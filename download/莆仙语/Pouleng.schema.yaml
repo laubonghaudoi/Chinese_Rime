@@ -9,8 +9,8 @@
 # 本字不明的詞週邊若有寫法可暫時借用
 schema:
   schema_id: Pouleng
-  name: 興化語莆音
-  version: "2019.5.31.1"
+  name: 興化韻莆音
+  version: "2019.6.26.1"
   author:
     - 文本：芽油 <963737435@qq.com> 
     - 程序：子善
@@ -95,7 +95,6 @@ speller:
     - derive/^ue/wei/
     - derive/^ui/wui/
     - derive/^ua/wa/
-    - derive/^uai/wai/
     - derive/^u/wu/
    
     
@@ -109,6 +108,7 @@ speller:
     - derive/ieng/ien/
     - derive/ung/un/
     - derive/uang/uan/
+    #
     
    
     

@@ -1,15 +1,14 @@
-﻿# Rime schema
+# Rime schema
 # encoding: utf-8
 
 schema:
   schema_id: wugniu_zaonhe
   name: 吳語（上海）
-  version: "0.15"
+  version: "0.20"
   author:
     - 字表作者：吳飛得 <fededemarco@gmail.com>
-    - osfans <waxaca@163.com>
-    - 雪心居士 ˂sihsin@live.com˃
-    - Electric Sheep ˂1613023143@qq.com˃
+    - 方案製作：雪心居士 ˂sihsin@live.com˃
+    - 方案製作：Electric Sheep ˂1613023143@qq.com˃
   description: |
     上海吳語注音輸入方案吳語學堂版
     https://www.wugniu.com/
@@ -25,6 +24,7 @@ switches:
   - name: full_shape
     states: [ 半角, 全角 ]
   - name: simplification
+    reset: 1
     states: [ 漢字, 汉字 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
@@ -58,12 +58,28 @@ engine:
     - reverse_lookup_filter@reverse_lookup # 反查濾鏡
 
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba
+  alphabet: abcdefghijklmnopqrstuvwxyz
   delimiter: " '"
   algebra:
-    - abbrev/^([bcdfghjklprstvwxyz]).+$/$1/       # 對齊標準行
-    - derive/^(c|ch|d?j|gn|x|y)i([aeou])/$1$2/     # 本行不要改動
-    #- derive/(.*)aon/$1an/                        # 模糊前後an
+    - xform/^([b-df-hj-np-tv-z])$/$1_/
+    ## 模糊前後an
+    #- derive/aon/an/
+
+    # 聲母簡拼
+    - abbrev/^([a-z]).+$/$1/
+    - abbrev/^([pmtnlszckg]h|[kg]n|ngh?|tsh?|dz).+$/$1/
+    # 容錯 au => ao
+    - derive/au/ao/
+    # 容錯 gn => n （無gni ni對立）
+    - derive/gni/ni/
+    # c組聲母後自動加i
+    - derive/^(c|j|gn|kn|[csz]h)i(?=[aoue])/$1/
+    # 容錯 介音、主元音順序調換
+    - derive/^(.+)([iu])([aeou])([euonqh])$/$1$3$2$4/
+    # 容錯 oe => eo
+    - derive/oe/eo/
+    # 容錯 ao => oa
+    - derive/ao/oa/
 
 # 主翻譯器 上海吳拼
 translator:

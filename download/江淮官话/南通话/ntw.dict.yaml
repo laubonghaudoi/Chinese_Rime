@@ -1,4 +1,4 @@
-d# Rime dictionary
+# Rime dictionary
 # encoding: utf-8
 # 南通话词典出自旅美学者敖小平博士，敖博士2018年出版的《南通方言考》是南通话研究的系统、深入、独到以及权威之作。
 # 本输入法拼音方案由本源斋主人水月先生设计，其特点是与《汉语拼音方案》保持同样的字母使用法则与音系归纳框架，方便学习者对比学习，易于掌握。
@@ -7,7 +7,7 @@ d# Rime dictionary
 name: ntw
 version: "2018.05.01"
 sort: by_weight
-use_preset_vocabulary: false
+use_preset_vocabulary: true
 max_phrase_length: 7
 min_phrase_weight: 100
 ...
