@@ -391,9 +391,9 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
       <summary>莆仙語 Pu-Xian Min</summary>
       <ul>
         <li>
-          興化工廠 ℞ <code>Yaryou/HinghuaFactory</code>
+          兴化韵莆仙话输入方案 ℞ <code>Yaryou/HinghuaFactory</code>
           <ul>
-            <li>興化語莆田城關話 - <code>Pouleng</code></li>
+            <li>興化韻莆音 - <code>Pouleng</code></li>
             <li>興化語平話字 - <code>HinghuaBUC</code></li>
           </ul>
         </li>
@@ -660,7 +660,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
     <details>
       <summary>莆仙語 Pu-Xian Min</summary>
       <ul>
-        <li>興化工廠 ℞ <code>Yaryou/HinghuaFactory</code></li>
+        <li>兴化韵莆仙话输入方案 ℞ <code>Yaryou/HinghuaFactory</code></li>
       </ul>
     </details>
   </li>
