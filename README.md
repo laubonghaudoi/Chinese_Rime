@@ -831,6 +831,7 @@ For detailed information of the collected schemas in the download packege, pleas
         <li><a href="http://xiaoxue.iis.sinica.edu.tw/">小學堂</a></li>
         <li><a href="https://ytenx.org/">韻典網</a></li>
         <li><a href="http://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/">粵語審音配詞字庫</a></li>
+        <li><a href="http://gisun.org/"></a>Gisun</li>
         <li><a href="http://www.ccamc.co/index.php">古今文字集成</a></li>
         <li><a href="http://suzukish.s252.xrea.com/search/">篇韻データベース</a></li>
         <li><a href="https://github.com/lingpy/sinopy">SinoPy</a></li>

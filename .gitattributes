@@ -1,4 +1,0 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-*.xls filter=lfs diff=lfs merge=lfs -text
-中国语言地图集.pdf filter=lfs diff=lfs merge=lfs -text
