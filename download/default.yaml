@@ -1,8 +1,12 @@
 __build_info:
-  rime_version: 1.3.2
+  rime_version: 1.4.0
   timestamps:
-    default: 1542026412
-    default.custom: 1544694201
+    default: 1548171029
+    default.custom: 1551020272
+    key_bindings: 1548171029
+    key_bindings.custom: 0
+    punctuation: 1548171029
+    punctuation.custom: 0
 ascii_composer:
   good_old_caps_lock: true
   switch_key:
@@ -12,8 +16,7 @@ ascii_composer:
     Eisu_toggle: clear
     Shift_L: inline_ascii
     Shift_R: commit_text
-config_version: 0.38.custom.3014582540
-customization: 3014582540
+config_version: 0.40
 key_binder:
   bindings:
     - {accept: "Control+p", send: Up, when: composing}
@@ -46,8 +49,6 @@ key_binder:
     - {accept: "Control+Shift+numbersign", toggle: full_shape, when: always}
     - {accept: "Control+Shift+dollar", toggle: simplification, when: always}
     - {accept: "Control+Shift+percent", toggle: extended_charset, when: always}
-    - {accept: "Shift+space", toggle: full_shape, when: always}
-    - {accept: "Control+period", toggle: ascii_punct, when: always}
 menu:
   page_size: 10
 punctuator:
@@ -124,7 +125,7 @@ recognizer:
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
 schema_list:
-  - schema: wugniu_soutseu
+  - schema: luna_pinyin
 switcher:
   abbreviate_options: true
   caption: "〔方案選單〕"
