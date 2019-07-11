@@ -1,0 +1,338 @@
+# Rime dictionary
+# encoding: utf-8
+#參考書目：興化語平話字《創世紀》Chong-sa-gi
+---
+name: HinghuaBUC
+version: "2019.2.25.1"
+use_preset_vocabulary: false
+sort: by_weight
+...
+
+#測試區----------------------------------------------------------------------
+#聲母
+b	b
+p	p
+m	m
+d	d
+t	t
+n	n
+l	l
+c	c
+ch	ch
+s	s
+g	g
+k	k
+ng	ng
+h	h
+#零聲母不輸入
+#聲化韻ng大寫帶聲調
+Ng	ng1
+Ńg	ng2
+Ng	ng3
+N̍g	ng4
+N̄g	ng5
+
+#韻母
+#a開頭
+#a韻
+a	a1
+á	a2
+â	a3
+a̍	a4
+ā	a5
+
+#ah韻iah
+ah	ah6
+a̍h	ah7
+ai	ai1
+ái	ai2
+âi	ai3
+a̍i	ai4
+āi	ai5
+ang	ang1
+áng	ang2
+âng	ang3
+a̍ng	ang4
+āng	ang5
+#auh韻
+a̍uh	auh
+#ann韻
+aⁿ	an1
+áⁿ	an2
+âⁿ	an3
+a̍ⁿ	an4
+āⁿ	an5
+#au韻
+au	au1
+áu	au2
+âu	au3
+a̍u	au4
+āu	au5
+
+#e韻
+a̤	aa1
+á̤	aa2
+â̤	aa3
+a̤̍	aa4
+ā̤	aa5
+#enn韻（現e韻）
+a̤ⁿ	aan1
+á̤ⁿ	aan2
+â̤ⁿ	aan3
+a̤̍ⁿ	aan4
+ā̤ⁿ	aan5
+
+#eh韻*（/e?/）
+a̤̍h	aah7
+
+#iau韻（現ieu韻）
+a̤u	aau1
+á̤u	aau2
+â̤u	aau3
+a̤̍u	aau4
+ā̤u	aau5
+#iaunn韻（現ieu韻）
+a̤uⁿ	aaun1
+á̤uⁿ	aaun2
+â̤uⁿ	aaun3
+a̤̍uⁿ	aaun4
+ā̤uⁿ	aaun5
+#ieuh/iauh韻
+a̤̍uh	aauh7
+
+#e開頭
+#ae韻 的/兮
+ē	e5
+
+#eh韻
+eh	eh6
+e̍h	eh7
+#eng韻
+eng	eng1
+éng	eng2
+êng	eng3
+e̍ng	eng4
+ēng	eng5
+#ee韻
+e̤	ee1
+é̤	ee2
+ê̤	ee3
+e̤̍	ee4
+ē̤	ee5
+#eenn韻（現ee韻）
+e̤ⁿ	een1
+é̤ⁿ	een2
+ê̤ⁿ	een3
+e̤̍ⁿ	een4
+ē̤ⁿ	een5
+
+#o韻
+eo	eo1
+eó	eo2
+eô	eo3
+eo̍	eo4
+eō	eo5
+#o韻
+eoh	eoh6
+eo̍h	eoh7
+#ong韻
+eong	eong1
+eóng	eong2
+eông	eong3
+eo̍ng	eong4
+eōng	eong5
+#oeh韻
+e̤̍h	eeh6
+e̤̍h	eeh7
+#oeng韻
+e̤ng	eeng1
+é̤ng	eeng2
+ê̤ng	eeng3
+e̤̍ng	eeng4
+ē̤ng	eeng5
+
+#i開頭
+#i韻
+i	i1
+í	i2
+î	i3
+i̍	i4
+ī	i5
+#ih韻
+ih	ih6
+i̍h	ih7
+#ing韻
+ing	ing1
+íng	ing2
+îng	ing3
+i̍ng	ing4
+īng	ing5
+#ia韻
+ia	ia1
+iá	ia2
+iâ	ia3
+ia̍	ia4
+iā	ia5
+#iah*韻（現ieh韻）
+iah	iah6
+ia̍h	iah7
+#iang*韻（現ieng韻）
+iang	iang1
+iáng	iang2
+iâng	iang3
+ia̍ng	iang4
+iāng	iang5
+
+#yor韻
+io̤	ioo1
+ió̤	ioo2
+iô̤	ioo3
+io̤̍	ioo4
+iō̤	ioo5
+#yornn韻（現yor韻）
+io̤ⁿ	ioon1
+ió̤ⁿ	ioon2
+iô̤ⁿ	ioon3
+io̤̍ⁿ	ioon4
+iō̤ⁿ	ioon5
+#今yorng韻
+io̤ng	ioong1
+ió̤ng	ioong2
+iô̤ng	ioong3
+io̤̍ng	ioong4
+iō̤ng	ioong5
+#iu韻
+iu	iu1
+iú	iu2
+iû	iu3
+iu̍	iu4
+iū	iu5
+#iunn*韻（現ieu韻）
+iuⁿ	iun1
+
+#o開頭
+
+#ou韻
+o	o1
+ó	o2
+ô	o3
+o̍	o4
+ō	o5
+
+#oi*韻（今ue/uei韻）
+oi	oi1
+ói	oi2
+ôi	oi3
+o̍i	oi4
+ōi	oi5
+#oinn*韻（今ue/uei韻）
+oiⁿ	oin1
+óiⁿ	oin2
+ôiⁿ	oin3
+o̍iⁿ	oin4
+ōiⁿ	oin5
+#oi韻（今ue/uei韻）
+o̍ih	oih7
+
+#or韻
+o̤	oo1
+ó̤	oo2
+ô̤	oo3
+o̤̍	oo4
+ō̤	oo5
+#orh韻
+o̤h	ooh6
+o̤̍h	ooh7
+#ornn韻
+o̤ⁿ	oon1
+ó̤ⁿ	oon2
+ôⁿ	oon3
+o̍ⁿ	oon3
+o̤̍ⁿ	oon5
+
+#orng韻
+o̤ng	oong1
+ó̤ng	oong2
+ô̤ng	oong3
+o̤̍ng	oong4
+ō̤ng	oong5
+
+#u開頭
+#u韻
+u	u1
+ú	u2
+û	u3
+u̍	u4
+ū	u5
+#uh韻（卜buh 就cuh）
+uh	uh6
+#ua韻
+ua	ua1
+uá	ua2
+uâ	ua3
+ua̍	ua4
+uā	ua5
+#uann韻
+uaⁿ	uan1
+uáⁿ	uan2
+uâⁿ	uan3
+ua̍ⁿ	uan4
+uāⁿ	uan5
+#uang韻
+uang	uang1
+uáng	uang2
+uâng	uang3
+ua̍ng	uang4
+uāng	uang5
+#ui韻
+ui	ui1
+úi	ui2
+ûi	ui3
+u̍i	ui4
+ūi	ui5
+
+#y韻
+ṳ	uu1
+ṳ́	uu2
+ṳ̂	uu3
+ṳ̍	uu4
+ṳ̄	uu5
+#yh韻
+ṳh	uuh6
+ṳ̍h	uuh7
+#yng韻
+ṳng	uung1
+ṳ́ng	uung2
+ṳ̂ng	uung3
+ṳ̍ng	uung4
+ṳ̄ng	uung5
+
+#ng*韻（今ng/ung韻）
+ng	ng1
+ńg	ng2
+n̂g	ng3
+ǹg	ng4
+n̄g	ng5
+
+#其他
+#鼻化 
+ⁿ	n
+#橫槓
+-	z
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

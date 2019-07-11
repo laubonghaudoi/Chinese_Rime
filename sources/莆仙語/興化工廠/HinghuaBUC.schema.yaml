@@ -1,0 +1,116 @@
+# Rime schema
+# encoding: UTF-8 w/o BOM
+
+schema:
+  schema_id: HinghuaBUC
+  name: 興化語平話字
+  version: "2019.2.25.1"
+  author:
+    - 文本：芽油 <963737435@qq.com> 
+    - 程序：子善
+  description: 测试版 v0.1 
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 汉字, 字母 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 繁體, 简体 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    # 忽略声调 及 {}
+    - xform/^\{?([a-z]+)([0-9]*)\}?$/$1/
+    # 以首字母爲多字母音節碼的縮寫 Radium學長寫
+    - abbrev/^([gkhlnmbpdtzcs]|ng)[aoeiuyr]+(ng|h|k)?$/$1/
+    
+    # ——————模糊音——————
+    # 普通話拼音
+    #- derive/原码/模糊音/
+    #- derive/^原码全词匹配/模糊音/
+   
+    
+    # 鼻音韵尾简化
+    - derive/ang/an/
+    - derive/ing/in/
+    - derive/uung/uun/
+    - derive/oeng/oen/
+    - derive/eng/en/
+    - derive/orng/orn/
+    - derive/ieng/ien/
+    - derive/ung/un/
+    - derive/uang/uan/
+    - derive/eeng/een/
+    - derive/uang/uan/
+    - derive/iang/ian/
+    - derive/ioong/ioon/
+    
+    
+    
+    
+    
+translator:
+  dictionary: HinghuaBUC
+  spelling_hints: 12
+  enable_sentence: true
+  enable_encoder: true
+  preedit_format:
+    # 便捷鍵還原
+    - xform/f/ng/
+  comment_format: &comment_rules
+
+    # 聲調上標
+    - xlit/01234567/⁰¹²³⁴⁵⁶⁷/
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔普通话拼音反查〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+  comment_format: *comment_rules
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
+    
