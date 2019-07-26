@@ -12,7 +12,7 @@
 2. 爲現代漢語方言、古漢語學習者提供實用便利的學習工具，通過拼音打字來練習正音和正字。
 3. 爲學術研究（語言學、漢學、人類學等）提供參考資料。
 
-本項目同作爲推廣漢語方言拼音輸入的支持項目，關於推廣漢語方言拼音的理念和宗旨詳情請閱讀[本文](https://laubonghaudoi.github.io/dialects/blog/mission.html)。
+本項目同作爲推廣漢語方言拼音輸入的支持項目，關於推廣漢語方言拼音的理念和宗旨詳情請閱讀[本文](https://laubonghaudoi.github.io/hanhngiox/blog/mission.html)。
 
 This repo collects the phonetic spelling schemas and character sets of [Rime input method](https://rime.im/) for Old Chinese, Middle Chinese and modern Chinese languages & dialects. This project aims to:
 
@@ -20,7 +20,7 @@ This repo collects the phonetic spelling schemas and character sets of [Rime inp
 2. Serve as a useful tool for Chinese language & dialect learners, as one can use phonetic spelling input to practice the standard pronunciation and orthography.
 3. Provide references for academic researches (Linguistics, Sinology, Anthropology, etc.).  
 
-This project also supports the promotion project of non-Mandarin phonetic spelling input. For a complete statement of the mission and motivation of the promotion, please read [this page](https://laubonghaudoi.github.io/dialects/blog/mission.html) (Chinese only).
+This project also supports the promotion project of non-Mandarin phonetic spelling input. For a complete statement of the mission and motivation of the promotion, please read [this page](https://laubonghaudoi.github.io/hanhngiox/blog/mission.html) (Chinese only).
 
 本倉庫分为三个子文件夹：
 
@@ -44,7 +44,7 @@ For related materials of the collected schemas, such as tutorials, schema white 
 
 For detailed steps and explanations on how to type Chinese characters with these schemas, please visit this website (Chinese only):
 
-<center><a href="https://laubonghaudoi.github.io/dialects/"><font size="30"><b>漢語方言拼音輸入</b></font></a></center>
+<center><a href="https://laubonghaudoi.github.io/hanhngiox/"><font size="30"><b>漢語方言拼音輸入</b></font></a></center>
 
 <h2>已收錄方案</br>Collected schemas</h2>
 
@@ -745,6 +745,7 @@ For detailed information of the collected schemas in the download packege, pleas
       <details>
         <summary>官話 Mandarin</summary>
         <ul>
+          <li><a href="https://github.com/HesperusArcher/zhung/blob/master/Introduction.md">《中州羅馬字》拼音方案簡介</a></li>
           <li><a href="https://uliloewi.github.io/LangJinPinIn/SUMMARY">南京話拼音教程</a></li>
           <li><a href="http://nantonghua.net/">南通方言网</a></li>
           <li><a href="http://taerv.nguyoeh.com/">泰如方言</a></li>
