@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_gninpou
   name: 吳語（寧波）
-  version: "0.2.9"
+  version: "0.2.10"
   author:
     - Electric Sheep ˂1613023143@qq.com˃
   description: |
@@ -61,7 +61,7 @@ speller:
   alphabet: abcdefghijklmnopqrstuvwxyz
   delimiter: " '"
   algebra:
-    - xform/^([b-df-hj-np-tv-z])$/$1_/
+    - xform/^([bcdfghjklpqstvwxyz])$/$1_/
     # 去掉聲調
     - xform/\d//
     # 還原城區音系

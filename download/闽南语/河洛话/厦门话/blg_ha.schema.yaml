@@ -4,12 +4,12 @@
 
 schema:
   schema_id: blg_ha
-  name: 廈腔閩南語
+  name: 閩南語廈門音
   version: "1.0"
   author:
     - 阿托 <a-thok@outlook.com>
   description: |
-    泉漳閩南語輸入方案
+    閩南語輸入方案
     採用「臺灣閩南語羅馬字拼音方案」
     http://www.ntcu.edu.tw/tailo/
 
@@ -54,9 +54,7 @@ speller:
   algebra:
     - abbrev/^([ptkbgmlsch]h?).+$/$1/ 
     - derive/^c/ts/
-    - derive/^i/y/
-    - derive/^u/w/
-    - derive/h(\d)/q$1/
+    - derive/uih/ueh/
     - derive/^j/l/
     - derive/6/7/
     - derive/Ia/io/
@@ -66,11 +64,14 @@ speller:
     - derive/IR/i/		#魚韻讀i特字
     - derive/ir/u/
     - derive/ur/u/
-    - derive/er(h?)(\d)/e$1$2/
+    - derive/er([^eptkmng]*)(h?)$/e$1$2/
+    - derive/Er/er/
     - derive/Er/e/
     - derive/ere/ue/
     - derive/uIn?n?/ng/
     - derive/iO/oo/
+    - derive/U/u/
+    - derive/uAinn/uainn/
     - derive/aInn/ing/
     - derive/^ngaI/ging/
     - derive/aI/ai/
@@ -165,3 +166,22 @@ recognizer:
   import_preset: default
   patterns:
     reverse_lookup: "`[a-z]*$"
+
+style:
+  display_tray_icon: false
+  font_face: "Microsoft Jhenghei"
+  font_point: 12
+  fullscreen: false
+  horizontal: true
+  inline_preedit: false
+  layout:
+    border_width: 3
+    candidate_spacing: 5
+    hilite_padding: 2
+    hilite_spacing: 4
+    margin_x: 12
+    margin_y: 6
+    min_height: 0
+    min_width: 160
+    round_corner: 4
+    spacing: 10

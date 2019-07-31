@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_zaonhe
   name: 吳語（上海）
-  version: "0.20"
+  version: "0.21"
   author:
     - 字表作者：吳飛得 <fededemarco@gmail.com>
     - 方案製作：雪心居士 ˂sihsin@live.com˃
@@ -61,7 +61,7 @@ speller:
   alphabet: abcdefghijklmnopqrstuvwxyz
   delimiter: " '"
   algebra:
-    - xform/^([b-df-hj-np-tv-z])$/$1_/
+    - xform/^([bcdfghjklpqstvwxyz])$/$1_/
     ## 模糊前後an
     #- derive/aon/an/
 

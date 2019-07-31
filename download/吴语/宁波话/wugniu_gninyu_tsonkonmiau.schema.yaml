@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_gninyu_tsonkonmiau
   name: 吳語（鄞縣鍾公廟）
-  version: "0.2.8"
+  version: "0.2.9"
   author:
     - Electric Sheep ˂1613023143@qq.com˃
   description: |
@@ -61,7 +61,7 @@ speller:
   alphabet: abcdefghijklmnopqrstuvwxyz
   delimiter: " '"
   algebra:
-    - xform/^([b-df-hj-np-tv-z])$/$1_/
+    - xform/^([bcdfghjklpqstvwxyz])$/$1_/
     # 生成鍾公廟音系
     - xform/WU|NU/ngu/
     - xform/nEI/nae/
