@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # -*- coding: utf-8 -*-
-cd ./sources
+# 更新各個submodule
+cd ../sources
 for file in ./*/*
 do
     cd "$file"
@@ -11,7 +12,9 @@ do
         git pull origin 棗莊話羅馬字輸入方案
     elif [ "$file" = "./閩東語/平話字表 (閩東語 福州話)" ];
     then
-        echo "$file"
+        git fetch --all
+        git reset --hard origin/gh-pages
+        git pull origin gh-pages
     else
         git fetch --all
         git reset --hard origin/master
