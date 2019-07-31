@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_donshian
   name: 吳語（桐鄉）
-  version: "2019.06.07"
+  version: "2019.07.13"
   author:
     - 字表作者：雪心居士˂sihsin@live.com˃
     - 方案製作：雪心居士 ˂sihsin@live.com˃
@@ -61,7 +61,7 @@ speller:
   alphabet: abcdefghijklmnopqrstuvwxyz
   delimiter: " '"
   algebra:
-    - xform/^([b-df-hj-np-tv-z])$/$1_/
+    - xform/^([bcdfghjklpqstvwxyz])$/$1_/
     # 去掉聲調
     - xform/\d//
 

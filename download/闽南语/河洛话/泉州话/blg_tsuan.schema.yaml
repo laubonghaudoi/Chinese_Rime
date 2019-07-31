@@ -4,12 +4,12 @@
 
 schema:
   schema_id: blg_tsuan
-  name: 泉腔閩南語
+  name: 閩南語泉州音
   version: "1.0"
   author:
     - 阿托 <a-thok@outlook.com>
   description: |
-    泉漳閩南語輸入方案
+    閩南語輸入方案
     採用「臺灣閩南語羅馬字拼音方案」
     http://www.ntcu.edu.tw/tailo/
 
@@ -54,9 +54,7 @@ speller:
   algebra:
     - abbrev/^([ptkbgmlsch]h?).+$/$1/ 
     - derive/^c/ts/
-    - derive/^i/y/
-    - derive/^u/w/
-    - derive/h(\d)/q$1/
+    - derive/uih/ueh/
     - derive/^j/l/
     - derive/Ia/io/
     - derive/ee/e/
@@ -67,22 +65,30 @@ speller:
     - derive/ere/ue/
     - derive/uIn?n?/ng/
     - derive/uainn/uinn/
+    - derive/uAinn/uinn/
     - derive/iO/io/
     - derive/(t?sh?)iO/$1o/
+    - derive/U/u/
     - derive/aI/ui/
     - derive/aI/ai/
     - derive/^mue/mui/
     - derive/ern(\d?\s?)/un$1/
     - derive/ern/irn/
-    - derive/ik/iak/		#市區,、海口
-    #- derive/erng/ng/		#市區,、海口
+    - derive/IR/ir/
+    - derive/oO/oo/
+    - derive/ik/iak/		#市區、海口
+    #- derive/erng/ng/		#市區、海口
     #- derive/7/3/		#陰陽去本調
-    #- derive/ir/i/		#海口腔#
-    #- derive/er(h?)(\d)/e$1$2/		#海口腔
+    #- derive/ir/i/		#海口腔
+    #- derive/er(h?)(.)/e$1$2/		#海口腔
     #- derive/6/1/		#海口腔
     #- derive/iO/er/		#永春
+    #- derive/aInn/ing/	#山內腔（永春、安溪…）
+    #- derive/naI/ling/	#山內腔
+    #- derive/ngaI/ging/	#山內腔
     #- derive/ia?m/em/	#惠安
     #- derive/ia?n/en/	#惠安
+    - derive/erm/im/	#「鑫」、「欣」讀做im韻
     - derive/^([a-z]+)\d$/$1/
     - 'xlit 12345678 [/\]90-;'
 
@@ -171,3 +177,22 @@ recognizer:
   import_preset: default
   patterns:
     reverse_lookup: "`[a-z]*$"
+
+style:
+  display_tray_icon: false
+  font_face: "Microsoft Jhenghei"
+  font_point: 12
+  fullscreen: false
+  horizontal: true
+  inline_preedit: false
+  layout:
+    border_width: 3
+    candidate_spacing: 5
+    hilite_padding: 2
+    hilite_spacing: 4
+    margin_x: 12
+    margin_y: 6
+    min_height: 0
+    min_width: 160
+    round_corner: 4
+    spacing: 10
