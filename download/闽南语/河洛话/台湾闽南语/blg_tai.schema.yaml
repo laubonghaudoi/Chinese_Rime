@@ -4,12 +4,12 @@
 
 schema:
   schema_id: blg_tai
-  name: 臺灣閩南語
+  name: 閩南語臺灣音
   version: "0.5"
   author:
     - 阿托 <a-thok@outlook.com>
   description: |
-    泉漳閩南語輸入方案
+    閩南語輸入方案
     採用「臺灣閩南語羅馬字拼音方案」
     http://www.ntcu.edu.tw/tailo/
 
@@ -52,11 +52,9 @@ speller:
   initials: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
-    - abbrev/^([ptkbgmlsch]h?).+$/$1/ 
+    - abbrev/^([ptkbgmlschj]h?).+$/$1/ 
     - derive/^c/ts/
-    - derive/^i/y/
-    - derive/^u/w/
-    - derive/h(\d)/q$1/
+    - derive/uih/ueh/
     #- derive/^j/l/	#偏泉腔，j濫l
     - derive/6/7/
     - derive/Ia/io/
@@ -64,25 +62,28 @@ speller:
     - derive/ee/e/
     #- derive/enn/inn/		#偏泉腔，enn濫inn
     #- derive/^([mn]g?)ee/$1i		#同上
+    - derive/IR/ir/
     - derive/ir/u/
     - derive/ir/i/
     - derive/ur/u/
-    - derive/er(h?)(\d)/ue$1$2/		#偏漳腔，過讀kue
-    #- derive/er(h?)(\d)/e$1$2/		#偏泉腔，過讀ke
+    - derive/er([^eptkmng]*)(h?)$/ue$1$2/		#偏漳腔，過讀kue
+    #- derive/er([^eptkmng]*)(h?)$/e$1$2/		#偏泉腔，過讀ke
     - derive/Er/e/
     - derive/Er/er/		#鹿港
     - derive/ere/e/		#偏漳腔，雞讀ke
     #- derive/ere/ue/		#偏泉腔，雞讀kue
     - derive/uIn?n?/ng/
-    - derive/^(k)uainn([357])/$1uan$2/
+    - derive/uAinn/uan/
     - derive/iO/oo/
     - derive/IO/io/		#侯韻文讀特字
+    - derive/U/u/
     - derive/aInn/ing/
     - derive/^ngaI/ging/
     - derive/aI/ai/
     - derive/^mue/mui/
     - derive/ern/in/
     - derive/ern(\d?\s?)/un$1/
+    - derive/ern/irn/
     - derive/erm/im/
     #- derive/^ji/gi/		#日母字讀g，比論字讀gi
     - derive/^([a-z]+)\d$/$1/
@@ -173,3 +174,22 @@ recognizer:
   import_preset: default
   patterns:
     reverse_lookup: "`[a-z]*$"
+
+style:
+  display_tray_icon: false
+  font_face: "Microsoft Jhenghei"
+  font_point: 12
+  fullscreen: false
+  horizontal: true
+  inline_preedit: false
+  layout:
+    border_width: 3
+    candidate_spacing: 5
+    hilite_padding: 2
+    hilite_spacing: 4
+    margin_x: 12
+    margin_y: 6
+    min_height: 0
+    min_width: 160
+    round_corner: 4
+    spacing: 10

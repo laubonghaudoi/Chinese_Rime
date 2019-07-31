@@ -10,11 +10,11 @@
 schema:
   schema_id: Pouleng
   name: 興化韻莆音
-  version: "2019.6.26.1"
+  version: "2019.7.25.1"
   author:
     - 文本：芽油 <963737435@qq.com> 
     - 程序：子善
-  description: 测试版 v0.1 词汇录入中
+  description: 測試版 v0.1詞彙錄入中
                討論羣「莆仙興化閩語 643608959」
   dependencies:
     - luna_pinyin
@@ -108,6 +108,7 @@ speller:
     - derive/ieng/ien/
     - derive/ung/un/
     - derive/uang/uan/
+    #
     #
     
    

@@ -4,12 +4,12 @@
 
 schema:
   schema_id: blg_tsiang
-  name: 漳腔閩南語
+  name: 閩南語漳州音
   version: "0.5"
   author:
     - 阿托 <a-thok@outlook.com>
   description: |
-    泉漳閩南語輸入方案
+    閩南語輸入方案
     採用「臺灣閩南語羅馬字拼音方案」
     http://www.ntcu.edu.tw/tailo/
 
@@ -52,21 +52,21 @@ speller:
   initials: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
-    - abbrev/^([ptkbgmlsch]h?).+$/$1/ 
+    - abbrev/^([ptkbgmlschj]h?).+$/$1/ 
     - derive/^c/ts/
-    - derive/^i/y/
-    - derive/^u/w/
-    - derive/h(\d)/q$1/
+    - derive/uih/ueh/
     - derive/6/7/
     - derive/Ia/ia/
+    - derive/IR/ir/
     - derive/ir/i/
     - derive/ur/u/
-    - derive/er(h?)(\d)/ue$1$2/
+    - derive/er([^eptkmng]*)(h?)$/ue$1$2/
     - derive/Er/e/
     - derive/ere/e/
-    - derive/uainn/uenn/
-    - derive/^(k)uainn([357])/$1uan$2/
+    - derive/uAinn/uan/
+    - derive/uainn/uenn/	#南靖
     - derive/iO/oo/
+    - derive/U/i/
     - derive/aInn/an/
     - derive/aInn/ing/
     - derive/^ngaI/gan/
@@ -78,9 +78,12 @@ speller:
     - derive/ern/in/
     - derive/ere/e/
     - derive/uI/ui/
-    - derive/ing/eng/		#漳南
+    - derive/khIRR/khir/
+    - derive/i(ng|k)/e$1/		#漳南
+    - derive/i(ng|k)/io$1/		#漳南
     - derive/oo/ou/		#漳南
-    - derive/^([ptkblghcjs])?e(\d)$/$1ei$2/		#漳南
+    - derive/^([^eur]*)e(\d?)$/$1ei$2/		#漳南
+    - derive/^([^eur]*)e(\d?)$/$1iei$2/		#漳浦
     - derive/^([a-z]+)\d$/$1/
     - 'xlit 12345678 [/\]90-;'
 
@@ -169,3 +172,22 @@ recognizer:
   import_preset: default
   patterns:
     reverse_lookup: "`[a-z]*$"
+
+style:
+  display_tray_icon: false
+  font_face: "Microsoft Jhenghei"
+  font_point: 12
+  fullscreen: false
+  horizontal: true
+  inline_preedit: false
+  layout:
+    border_width: 3
+    candidate_spacing: 5
+    hilite_padding: 2
+    hilite_spacing: 4
+    margin_x: 12
+    margin_y: 6
+    min_height: 0
+    min_width: 160
+    round_corner: 4
+    spacing: 10
