@@ -27,6 +27,7 @@ This project also supports the promotion project of non-Mandarin phonetic spelli
 1. `sources/`路徑下爲各個輸入方案的來源倉庫，以子模块submodule的形式保存。其中大部分爲配方（配方的介紹請參見[Rime 輸入方案又是啥](https://github.com/rime/home/wiki/RimeWithSchemata#rime-%E8%BC%B8%E5%85%A5%E6%96%B9%E6%A1%88%E5%8F%88%E6%98%AF%E5%95%A5)），由方案作者更新維護，可直接通過[plum](https://github.com/rime/plum)安裝部署。由於部分方案不存在於GitHub，故此路徑下方案收錄不完整，
 2. `unmaintained/`路徑下爲从其他渠道收集得的方案文件，此类方案未配方化，无人更新维护，不保证可用性。
 3. `download/`用於存放各個語言的唯一權威版拼音，即爲[發佈頁面](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases)的下載整合包，方便用戶直接部署使用。
+4. `script/`內包含更新收錄碼錶所需的代碼。使用方法請見[使用教程](https://github.com/laubonghaudoi/Chinese_Rime#%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E9%A0%85%E7%9B%AE%E7%B6%B2%E7%AB%99-tutorial-project-website)。
 
 有關已收集方案的资源，如方案白皮书、教程等，請參見[方案相關文件（騰訊微雲）](https://github.com/laubonghaudoi/Chinese_Rime#%E8%B3%87%E6%BA%90resources)。
 
@@ -35,6 +36,7 @@ This repo has three sub-directories:
 1. Folders under the `sources/` directory are the source repos of some schemas which are preserved as submodules. Most of them are recipes (for an introduction to schema recipes, please see [Rime 輸入方案又是啥](https://github.com/rime/home/wiki/RimeWithSchemata#rime-%E8%BC%B8%E5%85%A5%E6%96%B9%E6%A1%88%E5%8F%88%E6%98%AF%E5%95%A5)) maintained by their authors, and can be installed and deployed by [plum](https://github.com/rime/plum) directly.  Since not all schemas are open-sourced on GitHub, the collection under this directory is incomplete.
 2. The `unmaintained/` directory preserves schemas from other sources which are not recipes . They are not maintained by anybody so the usabilities are not guaranteed.  
 3. The `download/` directory serves as the folder for the [released](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) packages. It contains only the selected schema for the prestige dialect of each language. Hence users can download, deploy and use these off-the-shelf schemas conveniently.
+4. The `script/` folder contains scripts for automatically updating the schema files. Please see [Tutorial](https://github.com/laubonghaudoi/Chinese_Rime#%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E9%A0%85%E7%9B%AE%E7%B6%B2%E7%AB%99-tutorial-project-website) for instructions on how to use.
 
 For related materials of the collected schemas, such as tutorials, schema white papers, etc., please see [Schema-related files (Tencent cloud)](https://github.com/laubonghaudoi/Chinese_Rime#%E8%B3%87%E6%BA%90resources)
 
@@ -42,9 +44,13 @@ For related materials of the collected schemas, such as tutorials, schema white 
 
 關於如何使用方言拼音打字，請參考此網站：
 
-For detailed steps and explanations on how to type Chinese characters with these schemas, please visit this website (Chinese only):
+For detailed steps with explanations on how to type Chinese characters with these schemas, please visit this website (Chinese only):
 
-<center><a href="https://laubonghaudoi.github.io/hanhngiox/"><font size="30"><b>漢語方言拼音輸入</b></font></a></center>
+<center><a href="http://www.hanhngiox.net"><font size="30"><b>漢語方言拼音輸入</b></font></a></center>
+
+要更新子模塊，首先`cd`到`script/`下，然後運行`./update_submodules.sh`（你可能需要先`chmod +x update_submodules.sh`）来更新子模塊。運行`python update_download.py`来更新下載版碼表。
+
+To update the schema files in  the `download/` and `sources/` directories, first `cd` to `directory/`. Then run `./update_submodules.sh` (you probably need to `chmod +x update_submodules.sh` first) to update the submodules, and run `python update_download.py` to update the download package.
 
 <h2>已收錄方案</br>Collected schemas</h2>
 
