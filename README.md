@@ -24,7 +24,7 @@ This project also supports the promotion project of non-Mandarin phonetic spelli
 
 本倉庫分为三个子文件夹：
 
-1. `sources/`路徑下爲各個輸入方案的來源倉庫，以子模块submodule的形式保存。其中大部分爲配方（配方的介紹請參見[Rime 輸入方案又是啥](https://github.com/rime/home/wiki/RimeWithSchemata#rime-%E8%BC%B8%E5%85%A5%E6%96%B9%E6%A1%88%E5%8F%88%E6%98%AF%E5%95%A5)），由方案作者更新維護，可直接通過[plum](https://github.com/rime/plum)安裝部署。由於部分方案不存在於GitHub，故此路徑下方案收錄不完整，
+1. `sources/`路徑下爲各個輸入方案的來源倉庫，以子模塊submodule的形式保存。其中大部分爲配方（配方的介紹請參見[Rime 輸入方案又是啥](https://github.com/rime/home/wiki/RimeWithSchemata#rime-%E8%BC%B8%E5%85%A5%E6%96%B9%E6%A1%88%E5%8F%88%E6%98%AF%E5%95%A5)），由方案作者更新維護，可直接通過[plum](https://github.com/rime/plum)安裝部署。由於部分方案不存在於GitHub，故此路徑下方案收錄不完整，
 2. `unmaintained/`路徑下爲从其他渠道收集得的方案文件，此类方案未配方化，无人更新维护，不保证可用性。
 3. `download/`用於存放各個語言的唯一權威版拼音，即爲[發佈頁面](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases)的下載整合包，方便用戶直接部署使用。
 4. `script/`內包含更新收錄碼錶所需的代碼。使用方法請見[使用教程](https://github.com/laubonghaudoi/Chinese_Rime#%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E9%A0%85%E7%9B%AE%E7%B6%B2%E7%AB%99-tutorial-project-website)。
@@ -40,13 +40,17 @@ This repo has three sub-directories:
 
 For related materials of the collected schemas, such as tutorials, schema white papers, etc., please see [Schema-related files (Tencent cloud)](https://github.com/laubonghaudoi/Chinese_Rime#%E8%B3%87%E6%BA%90resources)
 
-<h2>使用教程（項目網站）</br> Tutorial (Project website)</h2>
+<h2>使用教程</br>Tutorial</h2>
+
+<h3>項目網站</br>Project website</h3>
 
 關於如何使用方言拼音打字，請參考此網站：
 
 For detailed steps with explanations on how to type Chinese characters with these schemas, please visit this website (Chinese only):
 
 <center><a href="http://www.hanhngiox.net"><font size="30"><b>漢語方言拼音輸入</b></font></a></center>
+
+<h3>更新碼錶</br>Schemas update</h3>
 
 要更新子模塊，首先`cd`到`script/`下，然後運行`./update_submodules.sh`（你可能需要先`chmod +x update_submodules.sh`）来更新子模塊。運行`python update_download.py`来更新下載版碼表。
 
