@@ -822,6 +822,8 @@ For detailed information of the collected schemas in the download packege, pleas
           <li><a href="http://ling.cuhk.edu.hk/jyutpingteaching/">Jyutping Teaching 粵拼教學</a></li>
           <li><a href="http://www.cantonese.asia/">粵語協會</a></li>
           <li><a href="http://www.cantonese.asia/attachments/school/canchars.htm">粵語字打法大全（2007賀歲版）</a></li>
+          <li><a href="http://www.cantonese.asia/portal.php?mod=view&aid=229">Jyutping（粵拼）詳細教程</a></li>
+          <li><a href="https://cantonesenotes.home.blog/">零二中文教學筆記</a></li>
           <li><a href="http://www.yueyu114.com/">粤语学习网·学广东话</a></li>
           <li><a href="https://cantolounge.com/">Cantolounge</a></li>
           <li><a href="https://leimaau.github.io/book/">南宁白话</a></li>
