@@ -466,6 +466,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
             </li>
           </ul>
         </li>
+        <li>粵語雙拼 - <code>jyutsoeng</code></li>
         <li>梧州白話 - <code>NgZjau_JyutPing</code></li>
         <li>貴州韻 - <code>gvaizauvan</code></li>
       </ul>

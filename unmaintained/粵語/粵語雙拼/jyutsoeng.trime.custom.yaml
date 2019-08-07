@@ -1,0 +1,174 @@
+patch:
+  "preset_keyboards/jyutsoeng1":
+    name: "粵語雙拼鍵盤（中文字版）"
+    author: William915
+    ascii_mode: 0
+    width: 10
+    height: 44
+    #key_text_size: 12
+    #key_long_text_size: 2
+    #symbol_text_size: 9
+    lock: true #切換程序時記憶鍵盤
+    keys:
+    - {click: '1', long_click: '!', label: ' 識 ', hint: '　ｄ'}
+    - {click: '2', long_click: '@', label: ' 福 ', hint: '　ｔ'}
+    - {click: '3', long_click: '#', label: ' 洩 ', hint: '　ｎ'}
+    - {click: '4', long_click: '$', label: ' 侄 ', hint: '　ｌ'}
+    - {click: '5', long_click: '%', label: ' 扎 ', hint: '　ｇ'}
+    - {click: '6', long_click: '^', label: '石　', hint: '　ｋ'}
+    - {click: '7', long_click: '&', label: ' 則 ', hint: '　ｈ'}
+    - {click: '8', long_click: '*', label: ' 責 ', hint: '　ｚ'}
+    - {click: '9', long_click: '(', label: '汁攝', hint: '　ｃ'}
+    - {click: '0', long_click: ')', label: '斟閃', hint: '　ｓ'}
+    - {click: 'q', long_click: '_', label: ' 消 ', hint: '　ｊ'}
+    - {click: 'w', long_click: '-', label: '四　', hint: ' ｗ '}
+    - {click: 'e', long_click: '+', label: '些　', hint: ' ｅ '}
+    - {click: 'r', long_click: '=', label: ' 擠 ', hint: ' gw '}
+    - {click: 't', long_click: '|', label: ' 風 ', hint: 'ｔ　'}
+    - {click: 'y', long_click: '\', label: '歡孫', hint: '©☈'}
+    - {click: 'u', long_click: '[', label: '夫書', hint: ' ｕ '}
+    - {click: 'i', long_click: ']', label: '思摔', hint: '　渴'}
+    - {click: 'o', long_click: '{', label: '可鋸', hint: ' ｏ '}
+    - {click: 'p', long_click: '}', label: ' 集 ', hint: ' ｐ '}
+    - {click: 'a', long_click: select_all, label: ' 渣 ', hint: ' ａ '}
+    - {click: 's', long_click: Home, label: '康　', hint: 'ｓ　'}
+    - {click: 'd', long_click: End, label: ' 齋 ', hint: 'ｄ　'}
+    - {click: 'f', long_click: Page_Up, label: ' 珍 ', hint: ' ｆ '}
+    - {click: 'g', long_click: Page_Down, label: ' 增 ', hint: 'ｇ　'}
+    - {click: 'h', long_click: Left, label: ' 掙 ', hint: 'ｈ　'}
+    - {click: 'j', long_click: Down, label: ' 讚 ', hint: 'ｊ　'}
+    - {click: 'k', long_click: Up, label: ' 升 ', hint: 'ｋ　'}
+    - {click: 'l', long_click: Right, label: '腥疆', hint: 'ｌ　'}
+    - {click: ';', long_click: ':', label: '開需', hint: ' ； '}
+    - {click: 'z', long_click: '`', label: ' 好 ', hint: 'ｚ　'}
+    - {click: 'x', long_click: cut, label: ' 周 ', hint: ' kw '}
+    - {click: 'c', long_click: copy, label: ' 嘲 ', hint: 'ｃ　'}
+    - {click: 'v', long_click: paste, label: ' 灰 ', hint: ' ng '}
+    - {click: 'b', long_click: '~', label: ' 先 ', hint: ' ｂ '}
+    - {click: 'n', long_click: Insert, label: '闊看', hint: 'ｎ　'}
+    - {click: 'm', long_click: Delete, label: ' 站 ', hint: ' ｍ '}
+    - {click: ',', long_click: '<'}
+    - {click: '.', long_click: '>'}
+    - {click: '/', long_click: '?', label: '學腳', hint: ' ／ '}
+    - {click: Shift_L}
+    - {click: Keyboard_symbols, long_click: Keyboard_number}
+    - {click: Mode_switch, long_click: Menu}
+    - {click: space, long_click: Tab, width: 30}
+    - {click: "'", has_menu: DeleteCandidate, long_click: '"'}
+    - {click: BackSpace, width: 15}
+    - {click: Return, long_click: CommitScriptText, width: 15}
+    #- {click: Return, long_click: CommitComment, width: 15}
+  "preset_keyboards/jyutsoeng2":
+    name: "粵語雙拼鍵盤（中文字版，左搭右）"
+    author: William915
+    ascii_mode: 0
+    width: 10
+    height: 44
+    #key_text_size: 12
+    #key_long_text_size: 2
+    #symbol_text_size: 9
+    lock: true #切換程序時記憶鍵盤
+    keys:
+    - {click: '1', long_click: '!', label: ' 識 ', hint: '　ｄ'}
+    - {click: '2', long_click: '@', label: ' 福 ', hint: '　ｔ'}
+    - {click: '3', long_click: '#', label: ' 洩 ', hint: '　ｎ'}
+    - {click: '4', long_click: '$', label: ' 侄 ', hint: '　ｌ'}
+    - {click: '5', long_click: '%', label: ' 扎 ', hint: '　ｇ'}
+    - {click: '6', long_click: '^', label: '　石', hint: '　ｋ'}
+    - {click: '7', long_click: '&', label: ' 則 ', hint: '　ｈ'}
+    - {click: '8', long_click: '*', label: ' 責 ', hint: '　ｚ'}
+    - {click: '9', long_click: '(', label: '攝汁', hint: '　ｃ'}
+    - {click: '0', long_click: ')', label: '閃斟', hint: '　ｓ'}
+    - {click: 'q', long_click: '_', label: ' 消 ', hint: '　ｊ'}
+    - {click: 'w', long_click: '-', label: '　四', hint: ' ｗ '}
+    - {click: 'e', long_click: '+', label: '　些', hint: ' ｅ '}
+    - {click: 'r', long_click: '=', label: ' 擠 ', hint: ' gw '}
+    - {click: 't', long_click: '|', label: ' 風 ', hint: 'ｔ　'}
+    - {click: 'y', long_click: '\', label: '孫歡', hint: '©☈'}
+    - {click: 'u', long_click: '[', label: '書夫', hint: ' ｕ '}
+    - {click: 'i', long_click: ']', label: '摔思', hint: '　渴'}
+    - {click: 'o', long_click: '{', label: '鋸可', hint: ' ｏ '}
+    - {click: 'p', long_click: '}', label: ' 集 ', hint: ' ｐ '}
+    - {click: 'a', long_click: select_all, label: ' 渣 ', hint: ' ａ '}
+    - {click: 's', long_click: Home, label: '　康', hint: 'ｓ　'}
+    - {click: 'd', long_click: End, label: ' 齋 ', hint: 'ｄ　'}
+    - {click: 'f', long_click: Page_Up, label: ' 珍 ', hint: ' ｆ '}
+    - {click: 'g', long_click: Page_Down, label: ' 增 ', hint: 'ｇ　'}
+    - {click: 'h', long_click: Left, label: ' 掙 ', hint: 'ｈ　'}
+    - {click: 'j', long_click: Down, label: ' 讚 ', hint: 'ｊ　'}
+    - {click: 'k', long_click: Up, label: ' 升 ', hint: 'ｋ　'}
+    - {click: 'l', long_click: Right, label: '疆腥', hint: 'ｌ　'}
+    - {click: ';', long_click: ':', label: '需開', hint: ' ； '}
+    - {click: 'z', long_click: '`', label: ' 好 ', hint: 'ｚ　'}
+    - {click: 'x', long_click: cut, label: ' 周 ', hint: ' kw '}
+    - {click: 'c', long_click: copy, label: ' 嘲 ', hint: 'ｃ　'}
+    - {click: 'v', long_click: paste, label: ' 灰 ', hint: ' ng '}
+    - {click: 'b', long_click: '~', label: ' 先 ', hint: ' ｂ '}
+    - {click: 'n', long_click: Insert, label: '看闊', hint: 'ｎ　'}
+    - {click: 'm', long_click: Delete, label: ' 站 ', hint: ' ｍ '}
+    - {click: ',', long_click: '<'}
+    - {click: '.', long_click: '>'}
+    - {click: '/', long_click: '?', label: '腳學', hint: ' ／ '}
+    - {click: Shift_L}
+    - {click: Keyboard_symbols, long_click: Keyboard_number}
+    - {click: Mode_switch, long_click: Menu}
+    - {click: space, long_click: Tab, width: 30}
+    - {click: "'", has_menu: DeleteCandidate, long_click: '"'}
+    - {click: BackSpace, width: 15}
+    - {click: Return, long_click: CommitScriptText, width: 15}
+    #- {click: Return, long_click: CommitComment, width: 15}
+  "preset_keyboards/jyutsoeng":
+    name: "粵語雙拼鍵盤"
+    author: William915
+    ascii_mode: 0
+    width: 10
+    height: 44
+    lock: true #切換程序時記憶鍵盤
+    keys:
+    - {click: '1', long_click: '!', label: 'ᵈ', hint: 'ik'}
+    - {click: '2', long_click: '@', label: 'ᵗ', hint: 'uk'}
+    - {click: '3', long_click: '#', label: 'ⁿ', hint: 'it'}
+    - {click: '4', long_click: '$', label: 'ˡ', hint: 'ɐt'}
+    - {click: '5', long_click: '%', label: 'ᵍ', hint: 'at'}
+    - {click: '6', long_click: '^', label: 'ᵏ', hint: 'ek'}
+    - {click: '7', long_click: '&', label: 'ʰ', hint: 'ɐk'}
+    - {click: '8', long_click: '*', label: 'ᶻ', hint: 'ak'}
+    - {click: '9', long_click: '(', label: 'ᶜ', hint: 'ɐp'}
+    - {click: '0', long_click: ')', label: 'ˢ', hint: 'ɐm'}
+    - {click: 'q', long_click: '_', label: 'ʲ', hint: 'iu'}
+    - {click: 'w', long_click: '-', hint: 'ei'}
+    - {click: 'e', long_click: '+', hint: 'œ'}
+    - {click: 'r', long_click: '=', label: 'gw', hint: 'ɐi'}
+    - {click: 't', long_click: '|', hint: 'uŋ'}
+    - {click: 'y', long_click: '\', hint: 'un'}
+    - {click: 'u', long_click: '['}
+    - {click: 'i', long_click: ']', hint: 'ot'}
+    - {click: 'o', long_click: '{', hint: 'œ'}
+    - {click: 'p', long_click: '}', hint: 'ap'}
+    - {click: 'a', long_click: select_all}
+    - {click: 's', long_click: Home, hint: 'oŋ'}
+    - {click: 'd', long_click: End, hint: 'ai'}
+    - {click: 'f', long_click: Page_Up, hint: 'ɐn'}
+    - {click: 'g', long_click: Page_Down, hint: 'ɐŋ'}
+    - {click: 'h', long_click: Left, hint: 'aŋ'}
+    - {click: 'j', long_click: Down, hint: 'an'}
+    - {click: 'k', long_click: Up, hint: 'iŋ'}
+    - {click: 'l', long_click: Right, hint: 'eŋ'}
+    - {click: ';', long_click: ':', hint: 'oi'}
+    - {click: 'z', long_click: '`', hint: 'ou'}
+    - {click: 'x', long_click: cut, label: 'kw', hint: 'ɐu'}
+    - {click: 'c', long_click: copy, hint: 'au'}
+    - {click: 'v', long_click: paste, label: 'ŋ', hint: 'ui'}
+    - {click: 'b', long_click: '~', hint: 'in'}
+    - {click: 'n', long_click: Insert, hint: 'ut'}
+    - {click: 'm', long_click: Delete, hint: 'am'}
+    - {click: ',', long_click: '<'}
+    - {click: '.', long_click: '>'}
+    - {click: '/', long_click: '?', hint: 'ok'}
+    - {click: Shift_L}
+    - {click: '{keyToSymbols}', long_click: keyToNumbers}
+    - {click: Mode_switch, long_click: Menu}
+    - {click: space, long_click: Tab, swipe_down: Escape, width: 30}
+    - {click: "'", has_menu: DeleteCandidate, long_click: '"'}
+    - {click: BackSpace, width: 15}
+    - {click: Return, long_click: CommitScriptText, width: 15}
