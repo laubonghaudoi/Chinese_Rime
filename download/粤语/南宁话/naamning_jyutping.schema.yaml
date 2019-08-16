@@ -93,7 +93,8 @@ speller:
     - derive/^(z|c|s)y$/$1z/      # 兼容 (zcs)y -> (zcs)z 傳教士方案
     - derive/^(z|c|s)y$/$1ii/     # 兼容 (zcs)y -> (zcs)ii 客家話方案
     - derive/a(m|p)$/o$1/         # 兼容 a(m|p) -> o(m|p) 其他邕潯片
-    - derive/aa(m)$/o$1/          # 兼容 aam -> om
+    - derive/aa(m)$/o$1/          # 兼容 aam -> om 其他邕潯片
+    - derive/^nj/j/               # 兼容 nj -> j 其他邕潯片 nj[ȵ]
     - derive/a([nt])$/eo$1/       # 模糊 a(nt) -> eo(nt)
     - derive/ui$/eoi/          	  # 模糊 ui -> eoi
     - derive/yu$/eoi/          	  # 模糊 yu -> eoi
@@ -166,7 +167,7 @@ translator:
 #    - xform/eoi/ɵY/	水sɵy（廣州）
 #    - xform/oei/ɵY/	容錯
 #    - xform/oe([ptk])/œː$1]/	約jœːk̚
-#    - xform/oe(ng)/œː$1/	容錯
+#    - xform/oe(ng)/œː$1/	良lœːŋ
 #    - xform/oe([t])/ɵ$1]/	容錯
 #    - xform/oe([n])/ɵ$1/	容錯
 #    - xform/oe/œː/	張tʃœːŋ
@@ -216,6 +217,7 @@ translator:
 #    - xform/T͡ʃIːIː/T͡sɿ/
 #    - xform/T͡ʃHIːIː/T͡sHɿ/
 #    - xform/ʃIːIː/sɿ/
+#    - xform/nj/ȵ/
 #    - "xlit|PmfTnNlKhHsʃjwWɐAEɛIɪɔOœɵUʊYː]|pmftnŋlkhʰsʃjwʷɐaeɛiɪɔoœɵuʊyː̚|"
   comment_format:
     - xform/\(.+?\)//    # 處理組詞拼音
