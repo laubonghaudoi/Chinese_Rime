@@ -104,17 +104,22 @@
   files:
     - ntw.dict.yaml
     - ntw.schema.yaml
-粤语/南宁话:
+粤语/南宁白话:
   source: 粵語/南寧白話輸入方案/
   files:
     - LICENSE
     - naamning_jyutping.dict.yaml
     - naamning_jyutping.schema.yaml
+粤语/南宁平话:
+  source: 粵語/南寧（亭子）平話輸入方案/
+  files:
+    - LICENSE
+    - naamning_bingwaa.dict.yaml
+    - naamning_bingwaa.schema.yaml
 粤语/广州话:
   source: 粵語/粤拼/
   files:
     - LICENSE
-    - hkcantonese.schema.yaml
     - jyutping.dict.yaml
     - jyutping.schema.yaml
 粤语/藤县话:

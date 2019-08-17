@@ -81,7 +81,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共90個方案）</br>Full list of collected schemas (90 schemas in total)</h3>
+<h3>方案列表（共92個方案）</br>Full list of collected schemas (90 schemas in total)</h3>
 
 <ul>
   <li>
@@ -462,6 +462,12 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
           </ul>
         </li>
         <li>
+          南寧（亭子）平話輸入方案 ℞ <code>leimaau/naamning_bingwaa</code>
+          <ul>
+            <li>南寧白話 - <code>naamning_bingwaa</code></li>
+          </ul>
+        </li>
+        <li>
           沟漏片藤县白话输入方案 ℞
           <code>cryptogun/gaulau_jyutping</code>
           <ul>
@@ -506,7 +512,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
 </ul>
 
-<h3>配方列表（共34個配方）</br>List of recipes (34 recipes in total)</h3>
+<h3>配方列表（共35個配方）</br>List of recipes (34 recipes in total)</h3>
 
 <ul>
   <li>
@@ -692,6 +698,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         <li>粵語注音 ℞ <code>rime-aca/rime-zyujam</code></li>
         <li>袖珍粵拼 ℞ <code>rime-aca/rime-jyutping-compact</code></li>
         <li>南寧白話輸入方案 ℞ <code>leimaau/naamning_jyutping</code></li>
+        <li>南寧（亭子）平話輸入方案 ℞ <code>leimaau/naamning_bingwaa</code></li>
         <li>
           沟漏片藤县白话输入方案 ℞
           <code>cryptogun/gaulau_jyutping</code>

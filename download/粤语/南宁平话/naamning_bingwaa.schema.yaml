@@ -1,0 +1,287 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: naamning_bingwaa
+  name: "南寧（亭子）平話"
+  version: "2019.08.15"
+  author:
+    - LeiMaau <leimaau@qq.com>
+  description: |
+    採用『香港語言學會粵語拼音方案』
+    聲調輸入 q平 v上 x去 （雙擊爲陽調）
+    提供多種字形轉換方案，可根據需要自行開啓，提示音轉爲IPA可在preedit_format處開啓
+    提供兩種反查方案，[`]用漢語拼音反查南寧平話，[x]用五筆畫反查南寧平話
+    PC上按Ctrl+Enter可將提示音上屏，按Ctrl+Shift+Enter可將候選項上屏
+    項目主頁 https://github.com/leimaau/naamning_bingwaa
+  dependencies:
+    - luna_pinyin
+    - stroke
+
+switches:
+#  - options: [zh_simp2, zh_simp, zh_trad, zh_hk, zh_tw, zh_jp]  # 多種字形轉換方案，根據需要自行開啓
+#    reset: 1
+#    states:
+#      - 字形 → 大陸〔繁體〕
+#      - 字形 → 大陸
+#      - 字形 → 傳統
+#      - 字形 → 香港
+#      - 字形 → 臺灣
+#      - 字形 → 日本
+#  - name: emoji_cn    # emoji根據需要自行開啓
+#    reset: 0
+#    states: [ 〇, 😊 ]
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: zh_simp  # 若開啓多字形此段可註釋
+    reset: 1
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - affix_segmentor@luna_pinyin
+    - affix_segmentor@stroke
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - script_translator@luna_pinyin
+    - table_translator@stroke
+  filters:
+    - simplifier@zh_simp
+#    - simplifier@zh_simp2  # 多字形濾鏡，根據需要自行開啓
+#    - simplifier@zh_trad
+#    - simplifier@zh_hk
+#    - simplifier@zh_tw
+#    - simplifier@zh_jp
+#    - simplifier@emoji_cn  # emoji濾鏡，根據需要自行開啓
+    - uniquifier
+    - reverse_lookup_filter@reverse_lookup
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - xform/\(.+?\)//             # 忽略釋義
+    - xform/「.+?」//             # 忽略釋義
+    - derive/([123456])//         # 忽略声调
+    - derive/^([aeiou])/q$1/      # 增加 q 表示喉塞
+    - xform/1/q/
+    - xform/4/qq/
+    - xform/2/v/
+    - xform/5/vv/
+    - xform/3/x/
+    - xform/6/xx/
+    - derive/^nj/j/               # 模糊 nj -> j
+    - derive/^sl/s/               # 模糊 sl -> s
+    - derive/^w/f/                # 模糊 f -> w
+    - derive/^(g|k)o/$1wo/        # 模糊 (gk)o -> (gk)wo
+    - derive/^(g|k)ik/$1wik/      # 模糊 (gk)ik -> (gk)wik
+    - derive/i$/ei/          	  # 模糊 i -> ei
+    - derive/u$/ou/          	  # 模糊 u -> ou
+    - derive/kok$/fok/            # 模糊 kok -> fok
+    - derive/hut$/fut/            # 模糊 hut -> fut
+    - derive/dik$/d/              # 快出「的」字
+    - derive/^jy?([aeiou])/y$1/   # 容錯 j -> y
+    - derive/^jyu/yu/             # 容錯 jyu -> yu
+    - derive/^jyu/ju/             # 容錯 jyu -> ju
+    - derive/aa/r/                # 容錯 aa -> r
+    - derive/aa$/a/               # 容錯 aa -> a
+    - derive/oe(ng|k)$/eo$1/      # 容錯 oe(ng|k) -> eo(ng|k)
+    - derive/i(ng|k)$/e$1/        # 容錯 i(ng|k) -> e(ng|k)
+    - derive/o(ng|k)$/u$1/        # 容錯 o(ng|k) -> u(ng|k)
+    - abbrev/^([a-z]).+$/$1/      # 首字母簡拼
+    - abbrev/^([gk]w).+$/$1/      # 聲母簡拼
+    - abbrev/^([s][l]).+$/$1/     # 聲母簡拼
+
+menu:
+  alternative_select_keys: "123456789"
+  page_size: 7  # 候選詞數
+
+translator:
+  dictionary: naamning_bingwaa
+  prism: naamning_bingwaa
+  spelling_hints: 5  # 標註拼音的字數，建議橫排顯示時設置爲1
+  preedit_format:    # 需要顯示IPA時這段要被替換掉
+    - xform/([aeioumngptk])qq/$1⁴/
+    - xform/([aeioumngptk])q/$1¹/
+    - xform/([aeioumngptk])vv/$1⁵/
+    - xform/([aeioumngptk])v/$1²/
+    - xform/([aeioumngptk])xx/$1⁶/
+    - xform/([aeioumngptk])x/$1³/
+#  preedit_format:   # 需要顯示IPA時preedit_format替換成這段
+#    - xform/(^|[ '])(m|ng)+$/$1$2̩$3/
+#    - xform/([ptk])xx/$1˨/
+#    - xform/([ptk])x/$1˥/
+#    - xform/([ptk])vv/$1˨˦/
+#    - xform/([ptk])v/$1˧/
+#    - xform/qq/˨˩/
+#    - xform/q/˥˧/
+#    - xform/vv/˨˦/
+#    - xform/v/˧˧/
+#    - xform/xx/˨˨/
+#    - xform/x/˥˥/
+#    - xform/sl/ɬ/
+#    - xform/([PTK])$/$1]$2/
+#    - xform/(^|[ '])(jy|[jy])u([t])/$1jYː$3]/
+#    - xform/([dtlgkhzcsj])yu([t])/$1Yː$2]/
+#    - xform/(^|[ '])(jy|[jy])u/$1jYː/
+#    - xform/yu/Yː/
+#    - xform/y([aeior])/j$1/
+#    - xform/(aa|r)([iu])/Aː\U$2/
+#    - xform/a([iu])/ɐ\U$1/
+#    - xform/(aa|r)([ptk])/Aː\U$2]/
+#    - xform/a([ptk])/ɐ\U$1]/
+#    - xform/(aa|r)/Aː/
+#    - xform/b/P/
+#    - xform/c/T͡ʃH/
+#    - xform/d/T/
+#    - xform/eu/ɛːU/
+#    - xform/oe([ptk])/œː$1]/
+#    - xform/oe(ng)/œː$1/
+#    - xform/oe/œː/
+#    - xform/ou/OU/
+#    - xform/ui/UːI/
+#    - xform/iu/IːU/
+#    - xform/i(ng)/eN/
+#    - xform/ik/eK]/
+#    - xform/i([pt])/Iː$1]/
+#    - xform/ia/Iɐ/
+#    - xform/a/ɐ/
+#    - xform/ei/EI/
+#    - xform/i/Iː/
+#    - xform/e/e/
+#    - xform/o([ptk])/o$1]/
+#    - xform/u([pt])/Uː$1]/
+#    - xform/o/o/
+#    - xform/u/Uː/
+#    - xform/ng/N/
+#    - xform/n/n/
+#    - xform/kw/KWH/
+#    - xform/gw/KW/
+#    - xform/g/K/
+#    - xform/(^|[ '])([ptk])/$1$2H/
+#    - xform/w/w/
+#    - xform/j/j/
+#    - xform/m/m/
+#    - xform/l/l/
+#    - xform/s/ʃ/
+#    - xform/z/T͡ʃ/
+#    - xform/em/ɛːm/
+#    - xform/en/ɛːn/
+#    - xform/ep/ɛːP]/
+#    - xform/et/ɛːT]/
+#    - xform/nj/ȵ/
+#    - "xlit|PmfTnNlKhHsʃjwWɐAEɛIɪɔOœɵUʊYː]|pmftnŋlkhʰsʃjwʷɐaeɛiɪɔoœɵuʊyː̚|"
+  comment_format:
+    - xform/\(.+?\)//    # 處理組詞拼音
+    - xform/「.+?」//    # 處理組詞拼音
+
+luna_pinyin:    # 拼音反查
+  tag: luna_pinyin
+  dictionary: luna_pinyin
+  enable_user_dict: false
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  closing_tips: 〔南寧平話〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+stroke:    # 五筆畫反查，h,s,p,n,z 代表橫、豎、撇、捺、折
+  tag: stroke
+  dictionary: stroke
+  enable_user_dict: false
+  prefix: "x"
+  suffix: "'"
+  tips: 〔筆畫〕
+  closing_tips: 〔南寧平話〕
+  preedit_format:
+    - xlit/hspnz/一丨丿丶乙/
+
+reverse_lookup:
+  tags:  [luna_pinyin, stroke]  # 需要打字時顯示釋義則註釋這行，建議豎排顯示時使用【很有用的功能，建議PC上使用！】
+  overwrite_comment: true
+  dictionary: naamning_bingwaa
+  comment_format:
+    - xform/ /\｜/
+    - xform/^/〔/
+    - xform/$/〕/
+    - xform/「/ /
+    - xform/」//
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+#  bindings:   # 使用小鶴同文主題時開啓
+#    - {accept: semicolon, send: 2, when: has_menu} # 分號次選
+#    - {accept: dollar, send: 2, when: composing}
+#    - {accept: Release+dollar, send: period, when: composing}
+#    - {accept: Release+period, send: period, when: composing}
+#    - {accept: bar, send: 2, when: composing}
+#    - {accept: Release+bar, send: comma, when: composing}
+#    - {accept: Release+comma, send: comma, when: composing}
+
+recognizer:
+  import_preset: default
+  patterns:
+    punct: "^/([0-9]0?|[a-z]+)$"
+    luna_pinyin: "`[a-z]*'?$"
+    stroke: "x[hspnz]*'?$"
+
+zh_simp:
+  option_name: zh_simp
+  opencc_config: t2s.json
+  tips: none
+
+#zh_simp2:  # 多字形根據需要自行開啓
+#  option_name: zh_simp2
+#  opencc_config: t2s.json
+#  tips: all
+
+#zh_trad:
+#  option_name: zh_trad
+#  opencc_config: s2t.json
+#  tips: all
+
+#zh_hk:
+#  option_name: zh_hk
+#  opencc_config: t2hk.json
+#  tips: all
+
+#zh_tw:
+#  option_name: zh_tw
+#  opencc_config: t2tw.json
+#  tips: all
+
+#zh_jp:
+#  option_name: zh_jp
+#  opencc_config: t2jp.json
+#  tips: all
+
+#emoji_cn:  # emoji根據需要自行開啓
+#  opencc_config: emoji.json
+#  option_name: emoji_cn
+#  tips: all
