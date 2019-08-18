@@ -464,7 +464,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         <li>
           南寧（亭子）平話輸入方案 ℞ <code>leimaau/naamning_bingwaa</code>
           <ul>
-            <li>南寧白話 - <code>naamning_bingwaa</code></li>
+            <li>南寧（亭子）平話 - <code>naamning_bingwaa</code></li>
           </ul>
         </li>
         <li>
