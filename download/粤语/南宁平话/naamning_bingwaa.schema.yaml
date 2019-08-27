@@ -10,10 +10,11 @@ schema:
   description: |
     採用『香港語言學會粵語拼音方案』
     聲調輸入 q平 v上 x去 （雙擊爲陽調）
-    提供多種字形轉換方案，可根據需要自行開啓，提示音轉爲IPA可在preedit_format處開啓
+    提供多種字形轉換和提示音轉爲IPA，可根據需要自行開啓
     提供兩種反查方案，[`]用漢語拼音反查南寧平話，[x]用五筆畫反查南寧平話
     PC上按Ctrl+Enter可將提示音上屏，按Ctrl+Shift+Enter可將候選項上屏
-    項目主頁 https://github.com/leimaau/naamning_bingwaa
+    註釋reverse_lookup/tags可顯示釋義，可根據需要自行開啓
+    項目主頁 https://github.com/leimaau/naamning_jyutping
   dependencies:
     - luna_pinyin
     - stroke
@@ -97,8 +98,6 @@ speller:
     - derive/^(g|k)ik/$1wik/      # 模糊 (gk)ik -> (gk)wik
     - derive/i$/ei/          	  # 模糊 i -> ei
     - derive/u$/ou/          	  # 模糊 u -> ou
-    - derive/kok$/fok/            # 模糊 kok -> fok
-    - derive/hut$/fut/            # 模糊 hut -> fut
     - derive/dik$/d/              # 快出「的」字
     - derive/^jy?([aeiou])/y$1/   # 容錯 j -> y
     - derive/^jyu/yu/             # 容錯 jyu -> yu
@@ -106,7 +105,7 @@ speller:
     - derive/aa/r/                # 容錯 aa -> r
     - derive/aa$/a/               # 容錯 aa -> a
     - derive/oe(ng|k)$/eo$1/      # 容錯 oe(ng|k) -> eo(ng|k)
-    - derive/i(ng|k)$/e$1/        # 容錯 i(ng|k) -> e(ng|k)
+    - derive/ia(ng|k)$/e$1/       # 容錯 ia(ng|k) -> e(ng|k)
     - derive/o(ng|k)$/u$1/        # 容錯 o(ng|k) -> u(ng|k)
     - abbrev/^([a-z]).+$/$1/      # 首字母簡拼
     - abbrev/^([gk]w).+$/$1/      # 聲母簡拼
@@ -143,7 +142,7 @@ translator:
 #    - xform/([PTK])$/$1]$2/
 #    - xform/(^|[ '])(jy|[jy])u([t])/$1jYː$3]/
 #    - xform/([dtlgkhzcsj])yu([t])/$1Yː$2]/
-#    - xform/(^|[ '])(jy|[jy])u/$1jYː/
+#    - xform/(^|[ '])(jy)u/$1jYː/
 #    - xform/yu/Yː/
 #    - xform/y([aeior])/j$1/
 #    - xform/(aa|r)([iu])/Aː\U$2/
@@ -164,11 +163,15 @@ translator:
 #    - xform/i(ng)/eN/
 #    - xform/ik/eK]/
 #    - xform/i([pt])/Iː$1]/
-#    - xform/ia/Iɐ/
 #    - xform/a/ɐ/
 #    - xform/ei/EI/
 #    - xform/i/Iː/
 #    - xform/e/e/
+#    - xform/ek/Iɐk]/
+#    - xform/eng/IɐN/
+#    - xform/Iːɐ/Iɐ/
+#    - xform/Iːɐk/Iɐk]/
+#    - xform/Iːɐng/IɐN/
 #    - xform/o([ptk])/o$1]/
 #    - xform/u([pt])/Uː$1]/
 #    - xform/o/o/

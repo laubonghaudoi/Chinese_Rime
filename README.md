@@ -46,17 +46,17 @@ For related materials of the collected schemas, such as tutorials, schema white 
 
 For detailed steps with explanations on how to type Chinese characters with these schemas, please visit this website (Chinese only):
 
-<center><a href="http://www.hanhngiox.net"><font size="30"><b>漢語方言拼音輸入</b></font></a></center>
+<center><a href="http://www.hanhngiox.net"><font size="30"><b>漢語方言拼音輸入 HanhNgiox.net</b></font></a></center>
 
 要更新子模塊，首先`cd`到`script/`下，然後運行`./update_submodules.sh`（你可能需要先`chmod +x update_submodules.sh`）来更新子模塊。運行`python update_download.py`来更新下載版碼表。
 
-To update the schema files in  the `download/` and `sources/` directories, first `cd` to `directory/`. Then run `./update_submodules.sh` (you probably need to `chmod +x update_submodules.sh` first) to update the submodules, and run `python update_download.py` to update the download package.
+To update the schema files in  the `download/` and `sources/` directories, first `cd` to `directory/`. Then run `./update_submodules.sh` (you might need to `chmod +x update_submodules.sh` first) to update the submodules, and run `python update_download.py` to update the download package.
 
 <h2>已收錄方案</br>Collected schemas</h2>
 
-目前總共收錄34個配方的90個方案，**暫缺閩北語、閩中語、徽語、贛語、湘語**的輸入方案。如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
+目前總共收錄34個配方的92個方案，**暫缺閩北語、閩中語、徽語、贛語、湘語**的輸入方案。如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
-Up to now we have collected 34 recipes of 90 schemas. We are still **missing the schemas for Northern Min, Central Min,  Huizhou, Gan, Xiang**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or open a new issue to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
+Up to now we have collected 34 recipes of 92 schemas. We are still **missing the schemas for Northern Min, Central Min,  Huizhou, Gan, Xiang**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or open a new issue to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
 
 目前學界對漢語方言分類歸類問題仍存較大分歧。常見的分類方式有傳統的七分法、《中國語言地圖集》的十分法和ISO國際標準的十三分法等。若使用傳統分法，則現代漢語族下分七大語支，官吳贛湘粵客閩。若採用《中國語言地圖集》之十分法，則晉語獨立於官話成一支，徽語獨立於吳語成一支，平話獨立於粵語成一支。若採用ISO標準的十三分法，則平話從屬於粵語，而閩語則細分爲閩北、閩南、閩東、閩中、莆仙五支，另外中古漢語和上古漢語各計作一門語言。
 
@@ -77,7 +77,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共92個方案）</br>Full list of collected schemas (90 schemas in total)</h3>
+<h3>方案列表（共92個方案）</br>Full list of collected schemas (92 schemas in total)</h3>
 
 <ul>
   <li>
@@ -452,14 +452,9 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
           </ul>
         </li>
         <li>
-          南寧白話輸入方案 ℞ <code>leimaau/naamning_jyutping</code>
+          南寧話輸入方案 ℞ <code>leimaau/naamning_jyutping</code>
           <ul>
             <li>南寧白話 - <code>naamning_jyutping</code></li>
-          </ul>
-        </li>
-        <li>
-          南寧（亭子）平話輸入方案 ℞ <code>leimaau/naamning_bingwaa</code>
-          <ul>
             <li>南寧（亭子）平話 - <code>naamning_bingwaa</code></li>
           </ul>
         </li>
@@ -508,7 +503,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
 </ul>
 
-<h3>配方列表（共35個配方）</br>List of recipes (34 recipes in total)</h3>
+<h3>配方列表（共34個配方）</br>List of recipes (34 recipes in total)</h3>
 
 <ul>
   <li>
@@ -693,8 +688,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         <li>粵拼⁺ ℞ <code>rime-aca/rime-jyutping-plus</code></li>
         <li>粵語注音 ℞ <code>rime-aca/rime-zyujam</code></li>
         <li>袖珍粵拼 ℞ <code>rime-aca/rime-jyutping-compact</code></li>
-        <li>南寧白話輸入方案 ℞ <code>leimaau/naamning_jyutping</code></li>
-        <li>南寧（亭子）平話輸入方案 ℞ <code>leimaau/naamning_bingwaa</code></li>
+        <li>南寧話輸入方案 ℞ <code>leimaau/naamning_jyutping</code></li>
         <li>
           沟漏片藤县白话输入方案 ℞
           <code>cryptogun/gaulau_jyutping</code>
