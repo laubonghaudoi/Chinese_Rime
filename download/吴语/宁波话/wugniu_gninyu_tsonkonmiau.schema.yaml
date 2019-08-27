@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_gninyu_tsonkonmiau
   name: 吳語（鄞縣鍾公廟）
-  version: "0.2.9"
+  version: "0.2.10"
   author:
     - Electric Sheep ˂1613023143@qq.com˃
   description: |
@@ -108,15 +108,16 @@ speller:
     - derive/ya(?=q|h)/yi/
 
     # 清鼻邊音
-    - derive/([mnl]|ng)h/$1/
+    - derive/([mnl])h/$1/
     - derive/kn/gn/
+    - derive/nk/ng/
     # 容錯 gn(ny) => n kn => nh
     - derive/(gn|ny)i/ni/
     - derive/kni/nhi/
     - derive/ny(?=[aoue])/ni/
     # 簡拼
     - abbrev/^([a-z]).+$/$1/
-    - abbrev/^([pmtnlszckg]h|[kg]n|ngh?|tsh?|dz).+$/$1/
+    - abbrev/^([pmtnlszckg]h|[kg]n|n[kg]|tsh?|dz).+$/$1/
     # 容錯 un => oe
     - derive/([pbmw]|ph)un/$1oe/
     - derive/^([kgh]|kh)?un/$1uoe/

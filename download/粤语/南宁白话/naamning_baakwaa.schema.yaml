@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 schema:
-  schema_id: naamning_jyutping
+  schema_id: naamning_baakwaa
   name: "南寧白話"
   version: "2019.06.01"
   author:
@@ -10,9 +10,10 @@ schema:
   description: |
     採用『香港語言學會粵語拼音方案』
     聲調輸入 q平 v上 x去 （雙擊爲陽調）
-    提供多種字形轉換方案，可根據需要自行開啓，提示音轉爲IPA可在preedit_format處開啓
+    提供多種字形轉換和提示音轉爲IPA，可根據需要自行開啓
     提供兩種反查方案，[`]用漢語拼音反查南寧白話，[x]用五筆畫反查南寧白話
     PC上按Ctrl+Enter可將提示音上屏，按Ctrl+Shift+Enter可將候選項上屏
+    註釋reverse_lookup/tags可顯示釋義，可根據需要自行開啓
     項目主頁 https://github.com/leimaau/naamning_jyutping
   dependencies:
     - luna_pinyin
@@ -125,8 +126,8 @@ menu:
   page_size: 7  # 候選詞數
 
 translator:
-  dictionary: naamning_jyutping
-  prism: naamning_jyutping
+  dictionary: naamning_baakwaa
+  prism: naamning_baakwaa
   spelling_hints: 5  # 標註拼音的字數，建議橫排顯示時設置爲1
   preedit_format:    # 需要顯示IPA時這段要被替換掉
     - xform/([aeioumngptk])qq/$1⁴/
@@ -152,7 +153,7 @@ translator:
 #    - xform/(^|[ '])(jy|[jy])u([t])/$1jYː$3]/	月jyːt̚
 #    - xform/([dtlgkhzcsj])yu([t])/$1Yː$2]/	奪tyːt̚
 #    - xform/(^|[ '])([jy])u([k])/$1jʊ$3]/	玉jʊk̚
-#    - xform/(^|[ '])(jy|[jy])u/$1jYː/	元jyːn
+#    - xform/(^|[ '])(jy)u/$1jYː/	元jyːn
 #    - xform/yu/Yː/	嫩nyːn
 #    - xform/y([aeior])/j$1/	一yat/jɐt̚/
 #    - xform/(aa|r)([iu])/Aː\U$2/	嗎maː
@@ -250,7 +251,7 @@ stroke:    # 五筆畫反查，h,s,p,n,z 代表橫、豎、撇、捺、折
 reverse_lookup:
   tags:  [luna_pinyin, stroke]  # 需要打字時顯示釋義則註釋這行，建議豎排顯示時使用【很有用的功能，建議PC上使用！】
   overwrite_comment: true
-  dictionary: naamning_jyutping
+  dictionary: naamning_baakwaa
   comment_format:
     - xform/ /\｜/
     - xform/^/〔/
