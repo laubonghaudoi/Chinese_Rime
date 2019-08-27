@@ -48,7 +48,7 @@ For related materials of the collected schemas, such as tutorials, schema white 
 
 For detailed steps with explanations on how to type Chinese characters with these schemas, please visit this website (Chinese only):
 
-<center><a href="http://www.hanhngiox.net"><font size="30"><b>漢語方言拼音輸入</b></font></a></center>
+<center><a href="http://www.hanhngiox.net"><font size="30"><b>漢語方言拼音輸入 HanhNgiox.net</b></font></a></center>
 
 <h3>更新碼錶</br>Schemas update</h3>
 
@@ -456,14 +456,9 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
           </ul>
         </li>
         <li>
-          南寧白話輸入方案 ℞ <code>leimaau/naamning_jyutping</code>
+          南寧話輸入方案 ℞ <code>leimaau/naamning_jyutping</code>
           <ul>
             <li>南寧白話 - <code>naamning_jyutping</code></li>
-          </ul>
-        </li>
-        <li>
-          南寧（亭子）平話輸入方案 ℞ <code>leimaau/naamning_bingwaa</code>
-          <ul>
             <li>南寧（亭子）平話 - <code>naamning_bingwaa</code></li>
           </ul>
         </li>
@@ -512,7 +507,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
 </ul>
 
-<h3>配方列表（共35個配方）</br>List of recipes (34 recipes in total)</h3>
+<h3>配方列表（共34個配方）</br>List of recipes (34 recipes in total)</h3>
 
 <ul>
   <li>
@@ -697,8 +692,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         <li>粵拼⁺ ℞ <code>rime-aca/rime-jyutping-plus</code></li>
         <li>粵語注音 ℞ <code>rime-aca/rime-zyujam</code></li>
         <li>袖珍粵拼 ℞ <code>rime-aca/rime-jyutping-compact</code></li>
-        <li>南寧白話輸入方案 ℞ <code>leimaau/naamning_jyutping</code></li>
-        <li>南寧（亭子）平話輸入方案 ℞ <code>leimaau/naamning_bingwaa</code></li>
+        <li>南寧話輸入方案 ℞ <code>leimaau/naamning_jyutping</code></li>
         <li>
           沟漏片藤县白话输入方案 ℞
           <code>cryptogun/gaulau_jyutping</code>
