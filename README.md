@@ -22,20 +22,20 @@ This repo collects the phonetic spelling schemas and character sets of [Rime inp
 
 This project also supports the promotion project of non-Mandarin phonetic spelling input. For a complete statement of the mission and motivation of the promotion, please read [this page](https://laubonghaudoi.github.io/hanhngiox/blog/mission.html) (Chinese only).
 
-本倉庫分为三个子文件夹：
+本倉庫分为四个子文件夹：
 
-1. `sources/`路徑下爲各個輸入方案的來源倉庫，以子模塊submodule的形式保存。其中大部分爲配方（配方的介紹請參見[Rime 輸入方案又是啥](https://github.com/rime/home/wiki/RimeWithSchemata#rime-%E8%BC%B8%E5%85%A5%E6%96%B9%E6%A1%88%E5%8F%88%E6%98%AF%E5%95%A5)），由方案作者更新維護，可直接通過[plum](https://github.com/rime/plum)安裝部署。由於部分方案不存在於GitHub，故此路徑下方案收錄不完整，
+1. `sources/`路徑下爲各個輸入方案的來源倉庫，以子模塊submodule的形式保存。其中大部分爲配方（配方的介紹請參見[Rime 輸入方案又是啥](https://github.com/rime/home/wiki/RimeWithSchemata#rime-%E8%BC%B8%E5%85%A5%E6%96%B9%E6%A1%88%E5%8F%88%E6%98%AF%E5%95%A5)），由方案作者更新維護，可直接通過[plum](https://github.com/rime/plum)安裝部署（關於如何安裝配方，請參照HanhNgiox.net上教程）。由於部分方案不存在於GitHub，故此路徑下方案收錄不完整，
 2. `unmaintained/`路徑下爲从其他渠道收集得的方案文件，此类方案未配方化，无人更新维护，不保证可用性。
 3. `download/`用於存放各個語言的唯一權威版拼音，即爲[發佈頁面](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases)的下載整合包，方便用戶直接部署使用。
 4. `script/`內包含更新收錄碼錶所需的代碼。使用方法請見[使用教程](https://github.com/laubonghaudoi/Chinese_Rime#%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E9%A0%85%E7%9B%AE%E7%B6%B2%E7%AB%99-tutorial-project-website)。
 
 有關已收集方案的资源，如方案白皮书、教程等，請參見[方案相關文件（騰訊微雲）](https://github.com/laubonghaudoi/Chinese_Rime#%E8%B3%87%E6%BA%90resources)。
 
-This repo has three sub-directories:
+This repo has four sub-directories:
 
-1. Folders under the `sources/` directory are the source repos of some schemas which are preserved as submodules. Most of them are recipes (for an introduction to schema recipes, please see [Rime 輸入方案又是啥](https://github.com/rime/home/wiki/RimeWithSchemata#rime-%E8%BC%B8%E5%85%A5%E6%96%B9%E6%A1%88%E5%8F%88%E6%98%AF%E5%95%A5)) maintained by their authors, and can be installed and deployed by [plum](https://github.com/rime/plum) directly.  Since not all schemas are open-sourced on GitHub, the collection under this directory is incomplete.
+1. Folders under `sources/` are the source repos of some schemas, preserved as submodules. Most of them are recipes (for an introduction to schema recipes, please see [Rime 輸入方案又是啥](https://github.com/rime/home/wiki/RimeWithSchemata#rime-%E8%BC%B8%E5%85%A5%E6%96%B9%E6%A1%88%E5%8F%88%E6%98%AF%E5%95%A5)) maintained by their authors, and can be installed and deployed by [plum](https://github.com/rime/plum) directly (please check out HanhNgiox.net on how to install recipes). Since not all schemas are maintained on GitHub, the collection in this directory is incomplete.
 2. The `unmaintained/` directory preserves schemas from other sources which are not recipes . They are not maintained by anybody so the usabilities are not guaranteed.  
-3. The `download/` directory serves as the folder for the [released](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) packages. It contains only the selected schema for the prestige dialect of each language. Hence users can download, deploy and use these off-the-shelf schemas conveniently.
+3. `download/` serves as the folder for the [released](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) packages. It contains only the selected schema for the prestige dialect of each language. Hence users can download, deploy and use these off-the-shelf schemas conveniently.
 4. The `script/` folder contains scripts for automatically updating the schema files. Please see [Tutorial](https://github.com/laubonghaudoi/Chinese_Rime#%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E9%A0%85%E7%9B%AE%E7%B6%B2%E7%AB%99-tutorial-project-website) for instructions on how to use.
 
 For related materials of the collected schemas, such as tutorials, schema white papers, etc., please see [Schema-related files (Tencent cloud)](https://github.com/laubonghaudoi/Chinese_Rime#%E8%B3%87%E6%BA%90resources)
@@ -68,10 +68,6 @@ To update the schema files in  the `download/` and `sources/` directories, first
 
 <h2>已收錄方案</br>Collected schemas</h2>
 
-目前總共收錄34個配方的92個方案，**暫缺閩北語、閩中語、徽語、贛語、湘語**的輸入方案。如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
-
-Up to now we have collected 34 recipes of 92 schemas. We are still **missing the schemas for Northern Min, Central Min,  Huizhou, Gan, Xiang**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or open a new issue to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
-
 目前學界對漢語方言分類歸類問題仍存較大分歧。常見的分類方式有傳統的七分法、《中國語言地圖集》的十分法和ISO國際標準的十三分法等。若使用傳統分法，則現代漢語族下分七大語支，官吳贛湘粵客閩。若採用《中國語言地圖集》之十分法，則晉語獨立於官話成一支，徽語獨立於吳語成一支，平話獨立於粵語成一支。若採用ISO標準的十三分法，則平話從屬於粵語，而閩語則細分爲閩北、閩南、閩東、閩中、莆仙五支，另外中古漢語和上古漢語各計作一門語言。
 
 It has been an unsettled issue in the academia on the taxonomy for Chinese languages.  For instance, the traditional way (Jerry Norman 1988) puts Chinese languages into seven groups: Mandarin, Wu, Gan, Xiang, Cantonese, Hakka, Min, while the *Language Atlas of China* classifies them into 10 groups, seperating Jin, Huizhou and Pinghua from Mandarin, Wu and Cantonese as independent languages. And the ISO standard keeps Pinghua within Cantonese while further divides Min into Northen, Southern, Eastern, Central and Pu-Xian branches.
@@ -85,13 +81,17 @@ Considering the readability and maintainability of this project, here we adopt t
 |----------|----------|------|------|------|------|------|------|--------|--------|--------|--------|--------|--------|------|
 | och      | ltc      | cmn  | cjy  | wuu  | czh  | gan  | hsn  | mnp    | nan    | cdo    | czo    | cpx    | hak    | yue  |
 
+目前**暫缺閩北語、閩中語、徽語、贛語、湘語**的輸入方案。如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
+
+Right now we are still **missing the schemas for Northern Min, Central Min,  Huizhou, Gan, Xiang**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or open a new issue to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
+
 以下爲方案總表和配方列表。其中配方以符號℞標識。
 
 Below are the lists of all collected schemas and recipes, where recipes are marked with the symbol ℞.
 
 ---
 
-<h3>方案列表（共92個方案）</br>Full list of collected schemas (92 schemas in total)</h3>
+<h3>方案列表（共95個方案）</br>Full list of collected schemas (95 schemas in total)</h3>
 
 <ul>
   <li>
@@ -505,9 +505,22 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
           </ul>
         </li>
         <li>
-          poly日文 ℞ <code>biopolyhedron/rime-jap-poly </code>
+          rime-hanja ℞ <code>sgalal/rime-hanja</code>
+          <ul>
+            <li>ハングル - <code>hangeul</code></li>
+            <li>韓語漢字音 - <code>hanja</code></li>
+          </ul>
+        </li>
+        <li>
+          poly日文 ℞ <code>biopolyhedron/rime-jap-poly</code>
           <ul>
             <li>poly日文 - <code>jap_poly</code></li>
+          </ul>
+        </li>
+        <li>
+          rime-kunyomi ℞ <code>sgalal/rime-kunyomi</code>
+          <ul>
+            <li>訓読み - <code>kunyomi</code></li>
           </ul>
         </li>
         <li>古壮字拼音 - <code>sawndip</code></li>
@@ -517,7 +530,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
 </ul>
 
-<h3>配方列表（共34個配方）</br>List of recipes (34 recipes in total)</h3>
+<h3>配方列表（共35個配方）</br>List of recipes (35 recipes in total)</h3>
 
 <ul>
   <li>
@@ -703,9 +716,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         <li>粵語注音 ℞ <code>rime-aca/rime-zyujam</code></li>
         <li>袖珍粵拼 ℞ <code>rime-aca/rime-jyutping-compact</code></li>
         <li>南寧話輸入方案 ℞ <code>leimaau/naamning_jyutping</code></li>
-        <li>
-          沟漏片藤县白话输入方案 ℞
-          <code>cryptogun/gaulau_jyutping</code>
+        <li>沟漏片藤县白话输入方案 ℞ <code>cryptogun/gaulau_jyutping</code>
         </li>
       </ul>
     </details>
@@ -715,10 +726,10 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
       <summary>域外方音 Non-Sinitic Languages</summary>
       <ul>
         <li>한글 ℞ <code>rime-aca/rime-hangyl</code></li>
-        <li>
-          옛한글・漢字 ℞ <code>biopolyhedron/rime-qyeyshanglr-hanja</code>
-        </li>
-        <li>poly日文 ℞ <code>biopolyhedron/rime-jap-poly </code></li>
+        <li>옛한글・漢字 ℞ <code>biopolyhedron/rime-qyeyshanglr-hanja</code></li>
+        <li>rime-hanja ℞ <code>sgalal/rime-hanja</code></li>
+        <li>poly日文 ℞ <code>biopolyhedron/rime-jap-poly</code></li>
+        <li>rime-kunyomi ℞ <code>sgalal/rime-kunyomi</code></li>
       </ul>
     </details>
   </li>
