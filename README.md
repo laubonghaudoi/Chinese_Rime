@@ -240,7 +240,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
   <li>
     <details>
-      <summary>吳語 Wu (Goetian)</summary>
+      <summary>吳語 Wu</summary>
       <ul>
         <li>
           吳語注音輸入方案吳語學堂版
@@ -259,8 +259,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
               </ul>
             </li>
             <li>
-              寧波吳語注音輸入方案吳語學堂版 ℞
-              <code>NGLI/rime-wugniu_gninpou</code>
+              寧波吳語拼音輸入方案 ℞ <code>NGLI/rime-wugniu_gninpou</code>
               <ul>
                 <li>吳語（寧波） - <code>wugniu_gninpou</code></li>
                 <li>
@@ -610,14 +609,11 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
   <li>
     <details>
-      <summary>吳語 Wu (Goetian)</summary>
+      <summary>吳語 Wu</summary>
       <ul>
         <li>上海吳語拼音輸入方案 ℞ <code>NGLI/rime-wugniu_zaonhe</code></li>
         <li>蘇州吳語拼音輸入方案 ℞ <code>NGLI/rime-wugniu_soutseu</code></li>
-        <li>
-          寧波吳語注音輸入方案吳語學堂版 ℞
-          <code>NGLI/rime-wugniu_gninpou</code>
-        </li>
+        <li>寧波吳語拼音輸入方案 ℞ <code>NGLI/rime-wugniu_gninpou</code></li>
         <li>
           嘉興（五縣兩區）吳語拼音輸入方案 ℞
           <code>NGLI/rime-wugniu_kashin</code>
@@ -775,10 +771,9 @@ For detailed information of the collected schemas in the download packege, pleas
     </li>
     <li>
       <details>
-        <summary>吳語 Wu (Goetian)</summary>
+        <summary>吳語 Wu</summary>
         <ul>
           <li><a href="https://wugniu.com/">吴语学堂</a></li>
-          <li><a href="https://shinzoqchiuq.github.io/gninpou-tutorial/">宁波话吴拼教程</a></li>
           <li><a href="http://wu-chinese.com/romanization/">吴语协会 通用吴语拼音</a></li>
           <li><a href="http://wu-chinese.com/minidict/">吴语协会 吴音小字典</a></li>
           <li><a href="http://input.foruto.com/wu/method.html">吳語注音法</a></li>
