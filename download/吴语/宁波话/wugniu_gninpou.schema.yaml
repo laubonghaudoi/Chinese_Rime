@@ -4,9 +4,9 @@
 schema:
   schema_id: wugniu_gninpou
   name: 吳語（寧波）
-  version: "0.2.11"
+  version: "0.3.2"
   author:
-    - Electric Sheep ˂1613023143@qq.com˃
+    - Electric Sheep <1613023143@qq.com>
   description: |
     寧波吳語拼音輸入方案
     採用學堂式吳語拼音
@@ -62,21 +62,28 @@ speller:
   delimiter: " '"
   algebra:
     - xform/^([bcdfghjklpqstvwxyz])$/$1_/
-    # 去掉聲調
-    - xform/\d//
     # 還原城區音系
     - xlit/AEIOUWNDZ/aeiouwndz/
 
-    ## 亂漏不分
-    - derive/loe/leu/
-    ## 研 又讀 黏
+    # 研 又讀 黏
     - derive/Gn/kn/
     - xform/Gn/gn/
+    # io韻消失
+    - erase/(^|c|j|gn|kn|[csz]h)(y|i)o$/
+
+    # 兼容吳語協會式拼音
+    - derive/q/h/
+    - derive/(i|y)au/$1o/
+    - derive/([gk])ni(?=[nqh]|\d|\b)/nyi/
+    - derive/([gk])ni(?=[aoue])/ny/
+    - derive/(?<=[szh])yu(?=[nqh])/oe/
+    - derive/er/r/
+
+    # 亂漏不分
+    - derive/loe/leu/
 
     # 新派
 
-    # io韻消失
-    - erase/(^|c|j|gn|kn|[csz]h)(y|i)u?o$/
     # 且采不分
     - derive/c(h)?ie$/ts$1e/
     - derive/jie$/dze/
@@ -139,10 +146,6 @@ translator:
   comment_format: &comment
     # 還原城區音系
     - xlit/AEIOUWGNDZ/aeiouwgndz/
-    - xform/4/6/
-
-    # 不顯示單字調
-    - xform/\d//
 
 # 副翻譯器1 朙月拼音
 luna_pinyin:

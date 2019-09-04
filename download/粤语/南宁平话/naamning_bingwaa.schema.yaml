@@ -126,7 +126,7 @@ translator:
     - xform/([aeioumngptk])v/$1²/
     - xform/([aeioumngptk])xx/$1⁶/
     - xform/([aeioumngptk])x/$1³/
-#  preedit_format:   # 需要顯示IPA時preedit_format替換成這段
+#  preedit_format:   # 需要顯示《廣西通誌·漢語方言誌》版IPA時preedit_format替換成這段
 #    - xform/(^|[ '])(m|ng)+$/$1$2̩$3/
 #    - xform/([ptk])xx/$1˨/
 #    - xform/([ptk])x/$1˥/
@@ -193,6 +193,74 @@ translator:
 #    - xform/ep/ɛːP]/
 #    - xform/et/ɛːT]/
 #    - xform/nj/ȵ/
+#    - "xlit|PmfTnNlKhHsʃjwWɐAEɛIɪɔOœɵUʊYː]|pmftnŋlkhʰsʃjwʷɐaeɛiɪɔoœɵuʊyː̚|"
+#  preedit_format:   # 需要顯示《南寧平話詞典》版IPA時preedit_format替換成這段
+#    - xform/(^|[ '])(m|ng)+$/$1$2̩$3/
+#    - xform/([ptk])xx/$1˨/
+#    - xform/([ptk])x/$1˥/
+#    - xform/([ptk])vv/$1˨˦/
+#    - xform/([ptk])v/$1˧/
+#    - xform/qq/˨˩/
+#    - xform/q/˥˧/
+#    - xform/vv/˨˦/
+#    - xform/v/˧˧/
+#    - xform/xx/˨˨/
+#    - xform/x/˥˥/
+#    - xform/sl/ɬ/
+#    - xform/([PTK])$/$1]$2/
+#    - xform/(^|[ '])(jy|[jy])u([t])/$1jYː$3]/
+#    - xform/([dtlgkhzcsj])yu([t])/$1Yː$2]/
+#    - xform/(^|[ '])(jy)u/$1jYː/
+#    - xform/yu/Yː/
+#    - xform/y([aeior])/j$1/
+#    - xform/(aa|r)([iu])/Aː\U$2/
+#    - xform/a([iu])/ə\U$1/
+#    - xform/(aa|r)([ptk])/Aː\U$2]/
+#    - xform/a([ptk])/ə\U$1]/
+#    - xform/(aa|r)/Aː/
+#    - xform/b/P/
+#    - xform/c/T͡sH/
+#    - xform/d/T/
+#    - xform/eu/eU/
+#    - xform/oe([ptk])/øː$1]/
+#    - xform/oe(ng)/øː$1/
+#    - xform/oe/øː/
+#    - xform/ou/OU/
+#    - xform/ui/UːI/
+#    - xform/iu/IːU/
+#    - xform/i(ng)/eN/
+#    - xform/ik/eK]/
+#    - xform/i([pt])/Iː$1]/
+#    - xform/a/ə/
+#    - xform/ei/EI/
+#    - xform/i/Iː/
+#    - xform/e/e/
+#    - xform/ek/Iɐk]/
+#    - xform/eng/IɐN/
+#    - xform/Iːə/Iɐ/
+#    - xform/Iːək/Iɐk]/
+#    - xform/Iːəng/IɐN/
+#    - xform/o([ptk])/o$1]/
+#    - xform/u([pt])/Uː$1]/
+#    - xform/o/o/
+#    - xform/u/Uː/
+#    - xform/ng/N/
+#    - xform/n/n/
+#    - xform/kw/KWH/
+#    - xform/gw/KW/
+#    - xform/g/K/
+#    - xform/(^|[ '])([ptk])/$1$2H/
+#    - xform/w/β/
+#    - xform/j/j/
+#    - xform/m/m/
+#    - xform/l/l/
+#    - xform/s/s/
+#    - xform/z/T͡s/
+#    - xform/em/em/
+#    - xform/en/en/
+#    - xform/ep/eP]/
+#    - xform/et/eT]/
+#    - xform/nj/ɲ/
 #    - "xlit|PmfTnNlKhHsʃjwWɐAEɛIɪɔOœɵUʊYː]|pmftnŋlkhʰsʃjwʷɐaeɛiɪɔoœɵuʊyː̚|"
   comment_format:
     - xform/\(.+?\)//    # 處理組詞拼音
