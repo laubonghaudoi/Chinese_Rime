@@ -1,0 +1,136 @@
+﻿# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: yihdjoouhuah
+  name: 嶧州話傳統羅馬字
+  version: "1.26"
+  author:
+    - 陬繹部鄉
+  description: |
+    分捲翹的嶧州話羅馬字輸入方案，基本表現中老年嶧州人（棗莊人）的口音，缺憾是沒能分開尖團音。
+  dependencies:
+    - stroke
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 漢字, 羅馬字 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 正體, 简体 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator@custom_phrase
+    - reverse_lookup_translator
+    - script_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - erase/^xx$/
+    - abbrev/^([a-z]).+$/$1/
+    - derive/([dtngkhs])ou$/$1o/
+    - derive/^djr$/tzw/
+    - derive/^tjr$/tsw/
+    - derive/^sr$/sw/
+    - derive/^sh([ao])$/f$1/
+    - derive/^shu$/fu/
+    - derive/^shuai$/fai/
+    - derive/^shuan$/fan/
+    - derive/^shuang$/fang/
+    - derive/^shuei$/fei/
+    - derive/^shuen$/fen/
+    - derive/^jru$/tzu/
+    - derive/^jr([ao])$/tzu$1/
+    - derive/^jru$/tzu/
+    - derive/^jrai$/tzuai/
+    - derive/^jran$/tzuan/
+    - derive/^jrang$/tzuang/
+    - derive/^jrei$/tzuei/
+    - derive/^jren$/tzuen/
+    - derive/^jrung$/tzung/
+    - derive/^chr([ao])$/tsu$1/
+    - derive/^chru$/tsu/
+    - derive/^chrai$/tsuai/
+    - derive/^chran$/tsuan/
+    - derive/^chrang$/tsuang/
+    - derive/^chrei$/tsuei/
+    - derive/^chren$/tsuen/
+    - derive/^chrung$/tsung/
+    #下面是按錯鍵糾正
+    - derive/ung$/on/
+    - derive/([aeiu])ng$/$1gn/
+    - derive/([aeiu])ng$/$1bg/
+    - derive/au$/oa/
+    - derive/au$/ao/
+    - derive/iou$/iu/
+    - derive/uen$/un/
+    - derive/uei$/ui/
+    - derive/eng$/wng/
+    - derive/([iu])a(o|ng?)$/a$1$2/
+    
+
+translator:
+  dictionary: yihdjoouhuah
+  preedit_format:
+    - xform/([jy])yu/$1v/
+    - xform/([shch])v/$1yu/
+    - xform/^shu$/fu/
+    - xform/^shu/f/
+
+
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
+
+reverse_lookup:
+  dictionary: stroke
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔筆畫〕
+  preedit_format:
+    - xlit/hspnz/一丨丿丶乙/
+  comment_format:
+    - xform/([nl])v/$1ü/
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    punct: "^/([0-9]0?|[a-z]+)$"
+    reverse_lookup: "`[a-z]*'?$"
