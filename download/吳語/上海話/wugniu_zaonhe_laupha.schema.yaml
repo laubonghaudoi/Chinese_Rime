@@ -1,0 +1,128 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: wugniu_zaonhe_laupha
+  name: 吳語（上海老派）
+  version: "0.1.0"
+  author:
+    - 字表作者：吳飛得 <fededemarco@gmail.com>
+    - 方案製作：Electric Sheep ˂1613023143@qq.com˃
+  description: |
+    老派上海吳語拼音輸入方案
+    https://www.wugniu.com/
+    https://github.com/NGLI/rime-wugniu_zaonhe/
+  dependencies:
+    - luna_pinyin
+    - stroke
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    reset: 1
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - affix_segmentor@luna_pinyin # 自定義tag luna_pinyin
+    - affix_segmentor@stroke      # 自定義tag stroke
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator             # 主翻譯器
+    - script_translator@luna_pinyin # 用於反查的luna_pinyin翻譯器
+    - table_translator@stroke       # 用於反查的stroke翻譯器
+  filters:
+    - simplifier
+    - uniquifier
+    - reverse_lookup_filter@reverse_lookup # 反查濾鏡
+
+speller:
+  alphabet: abcdefghijklmnopqrstuvwxyz
+  delimiter: " '"
+  algebra:
+    - xform/^([bcdfghjklpqstvwxyz])$/$1_/
+
+    # 聲母簡拼
+    - abbrev/^([a-z]).+$/$1/
+    - abbrev/^([pmtnlszckg]h|gn|ng|tsh?|dz).+$/$1/
+    # 容錯 au => ao
+    - derive/au/ao/
+    # c組聲母後自動加i
+    - derive/^(c|j|gn|[csz]h)i(?=[aoue])/$1/
+    # 容錯 介音、主元音順序調換
+    - derive/^(.+)([iu])([aeou])([euonqh])$/$1$3$2$4/
+    # 容錯 oe => eo
+    - derive/oe/eo/
+    # 容錯 ao => oa
+    - derive/ao/oa/
+
+# 主翻譯器 吳拼
+translator:
+  dictionary: wugniu_zaonhe_laupha # 調取詞典wugniu_zaonhe_laupha
+  prism: wugniu_zaonhe_laupha      # 根據拼寫運算生成棱鏡文件wugniu_zaonhe_laupha
+  spelling_hints: 5                # 標註拼音
+
+# 副翻譯器1 朙月拼音
+luna_pinyin:
+  tag: luna_pinyin
+  dictionary: luna_pinyin # 調取詞典luna_pinyin
+  enable_user_dict: false # 關閉用戶詞典
+  prefix: '`'             # 引導鍵「`」
+  suffix: "'"             # 結束鍵「'」
+  tips: 〔拼音〕          # 輸入前提示〔拼音〕
+  closing_tips: 〔吳語（上海老派）〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+# 副翻譯器2 五筆畫
+stroke:
+  tag: stroke
+  dictionary: stroke      # 調取詞典stroke
+  enable_user_dict: false # 關閉用戶詞典
+  prefix: 'x'             # 引導鍵「x」
+  suffix: "'"             # 結束鍵「'」
+  tips: 〔筆畫〕          # 輸入前提示〔筆畫〕
+  closing_tips: 〔吳語（上海老派）〕
+  preedit_format:
+    - xlit/hspnz/一丨丿丶乙/
+
+# 反查濾鏡
+reverse_lookup:
+  tags: [luna_pinyin, stroke]      # 掛在翻譯器luna_pinyin和stroke上
+  overwrite_comment: true          # 覆蓋其他提示
+  dictionary: wugniu_zaonhe_laupha # 反查所得爲吳拼
+
+punctuator:
+  import_preset: symbols # 句讀處理器，統一從外部導入
+
+key_binder:
+  import_preset: default # 快捷鍵，統一從外部導入
+
+recognizer:
+  import_preset: default # 特殊規則輸入碼，統一從外部導入
+  patterns:
+    punct: "^/([0-9]|10|[A-Za-z]+)$" # 按 / 輸入符號
+    luna_pinyin: "`[a-z]*'?$"        # 按 ` 使用拼音反查，按 ' 結束
+    stroke: "x[hspnz]*'?$"           # 按 x 使用筆畫反查，按 ' 結束
