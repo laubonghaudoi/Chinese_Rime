@@ -1,0 +1,147 @@
+﻿menu:
+  page_size: 7
+
+schema:
+  schema_id: wuhan
+  name: 武漢
+  version: "2019.5.1"
+  author:
+    - 知乎 羽隨風飛
+  description: |
+   https://www.zhihu.com/people/yu-sui-feng-fei-81
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 英文 ]
+  - name: full_shape
+    reset: 0
+    states: [ 半角, 全角 ]
+  - name: simplification
+    reset: 1
+    states: [ 繁體, 简体 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba-;/<,>\'
+  initials: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+#新派
+    - derive/ue/o/
+    - derive/Kbei/bi/
+    - xform/Kbei/bei/
+#新派
+
+#容錯（變體類型）
+    - derive/([gkhdtlnzcs])o/$1uo/# 模糊uo/o
+    - xform/nguo/ngo/# 模糊uo/o
+    - xform/([gkhdtlnzcs])uou/$1ou/# 模糊uo/o
+    - xform/([gkhdtlnzcs])uong/$1ong/# 模糊uo/o
+    - derive/zua/jva/
+    - derive/jva/zua/
+    - derive/qva/cua/
+    - derive/cua/qva/
+    - derive/sua/xva/
+    - derive/xva/sua/
+    - derive/zui/jvi/
+    - derive/cui/qvi/
+    - derive/sui/xvi/
+    - derive/rui/yvi/
+    - derive/ngo/wo/
+    - derive/wong/ngong/
+    - derive/^ng//
+    - derive/er/e/
+    - derive/vi/vei/
+    - derive/v/u/
+    - xform/lu/lv/
+    - xform/lvo/luo/
+    - derive/ui/uei/
+#容錯（變體類型）
+    - derive/([1234~])//#忽略声调
+
+
+#容錯（鍵盤類型）
+    - derive/ng/mg/
+    - derive/ng/bg/
+    - derive/en/em/
+    - derive/en/eb/
+    - derive/in/im/
+    - derive/in/ib/
+    - derive/un/um/
+    - derive/un/ub/
+    - derive/vn/vm/
+    - derive/vn/vb/
+    - derive/en/wn/
+
+
+translator:
+  dictionary: wuhan
+  spelling_hints: 5
+  comment_format:
+    - xform/Kbei/bei/
+    - xform/ngo/wo/
+    - xform/n3 ma/m3 ma/#容錯顯示“姆媽”
+    - xform/er/e/
+    - xform/lv/lü/
+    - xform/v/u/
+
+    - xlit/1234~0/¹²³⁴‾º/#上標音調
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔反查〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+  comment_format:
+    - xform/Kbei/bei/
+    - xform/ngo/wo/
+    - xform/n3 ma/m3 ma/#容錯顯示“姆媽”
+    - xform/er/e/
+    - xform/lv/lü/
+    - xform/v/u/
+
+    - xlit/1234~0/¹²³⁴‾º/#上標音調
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
+
+style:
+  font_face: "微软雅黑"

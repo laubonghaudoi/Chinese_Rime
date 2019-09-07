@@ -1,0 +1,116 @@
+# Rime schema
+# encoding: UTF-8 w/o BOM
+
+schema:
+  schema_id: gekion
+  name: 潮語拼音·揭陽
+  version: "2019.02.11"
+  author:
+    - 騰達 <dieghv@126.com>
+  description: |
+    潮語拼音輸入法
+    項目主頁 https://kahaani.github.io/dieghv
+    拼音教程 https://kahaani.github.io/gatian
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: half_shape
+    states: [ 全角, 半角 ]
+  - name: ascii_punct
+    states: [ ，。, ，． ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    # 去掉聲調
+    - xform/[1-8]//
+
+    # 兼容漢語拼音的拼寫習慣
+    - derive/au/ao/
+
+    # 顎化聲母
+    - derive/zi/ji/
+    - derive/ci/qi/
+    - derive/si/xi/
+
+    # 便捷鍵
+    - derive/ng/f/
+
+    # 允許省略音節尾的鼻化符號
+    - derive/^(.+)n$/$1/
+    # 允許省略音節尾的喉塞符號
+    - derive/^(.+)h$/$1/
+
+    # 首字母簡拼
+    - abbrev/^([a-z]).+$/$1/
+    # 聲母簡拼
+    - abbrev/^(bh).+$/$1/
+    - abbrev/^(gh).+$/$1/
+    - abbrev/^(ng).+$/$1/
+
+translator:
+  dictionary: gekion
+  spelling_hints: 5
+  preedit_format:
+    # 便捷鍵還原
+    - xform/f/ng/
+
+  comment_format: &comment_rules
+    # 將鼻化符號顯示成上標
+    - xform/n(\d|\>)/ⁿ$1/
+
+    # 將聲調顯示成上標
+    - xlit/12345678/¹²³⁴⁵⁶⁷⁸/
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔漢語拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+  comment_format: *comment_rules
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"

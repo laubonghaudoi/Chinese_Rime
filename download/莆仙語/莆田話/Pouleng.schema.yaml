@@ -1,0 +1,198 @@
+# Rime schema
+# encoding: UTF-8 w/o BOM
+# 參考書目：
+# 單字基於《莆田縣誌》同音字表 完工
+# 增補《莆田市志》 同音字表 完工
+# 詞彙《莆仙方言簡明詞彙》完工 校對中
+# 增補《莆田市誌》分類詞表 完工
+# 增補《莆仙方言大詞典》未面世 請期待
+# 本字不明的詞週邊若有寫法可暫時借用
+schema:
+  schema_id: Pouleng
+  name: 興化韻莆音
+  version: "2019.7.25.1"
+  author:
+    - 文本：芽油 <963737435@qq.com> 
+    - 程序：子善
+  description: 測試版 v0.1詞彙錄入中
+               討論羣「莆仙興化閩語 643608959」
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 汉字, 字母 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 繁體, 简体 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    # 忽略声调 及 {}
+    - xform/^\{?([a-z]+)([0-9]*)\}?$/$1/
+    # 以首字母爲多字母音節碼的縮寫 Radium學長寫
+    - abbrev/^([gkhlnmbpdtzcs]|ng)[aoeiuyr]+(ng|h|k)?$/$1/
+    
+    # ——————模糊音——————
+    # 普通話拼音
+    #- derive/原码/模糊音/
+    #- derive/^原码全词匹配/模糊音/
+    - derive/y/v/
+    - derive/au/ao/
+    - derive/ieng/ian/
+    - derive/ieu/iao/
+    - derive/^ieng/yan/
+    - derive/yorng/iong/
+    
+    # 略縮輸入
+    - derive/yor/yo/
+    - derive/yor/io/
+    - derive/yorng/yong/
+    - derive/yorh/yoh/
+    - derive/yorng/ion/
+    - derive/orh/oq/
+    - derive/orng/om/
+    - derive/zyor/jo/
+    - derive/zyorng/jong/
+    - derive/zyorng/jon/
+    - derive/ung/ng/
+    
+    # 普通話拼音的零声母辅音
+    - derive/^ia/ya/
+    - derive/^i/yi/
+    - derive/^iu/you/
+    - derive/^y/yu/
+    - derive/^yorng/yong/
+    - derive/uang/wan/
+    - derive/^ue/wei/
+    - derive/^ui/wui/
+    - derive/^ua/wa/
+    - derive/^u/wu/
+   
+    
+    # 鼻音韵尾简化
+    - derive/ang/an/
+    - derive/ing/in/
+    - derive/yng/yn/
+    - derive/ong/on/
+    - derive/eng/en/
+    - derive/orng/orn/
+    - derive/ieng/ien/
+    - derive/ung/un/
+    - derive/uang/uan/
+    #
+    #
+    
+   
+    
+    # 顎化
+    - derive/zi/ji/
+    - derive/ci/qi/
+    - derive/si/xi/
+    - derive/zy/ju/
+    - derive/cy/qu/
+    - derive/sy/xu/
+    
+    # 入聲
+    - derive/^(.+)[hk]$/$1/
+    - derive/^(.+)[hk]$/$1h/
+    - derive/^(.+)[hk]$/$1k/
+    
+    #類普拼式與IPA式轉換
+    - derive/z/ts/
+    - derive/c/tsh/
+       
+    
+    #老派
+    - derive/ieu/iau/
+    - derive/ieh/iah/
+    - derive/ieng/iang/
+  
+    #新派
+    - derive/o/er/
+    - derive/ong/erng/
+    - derive/oh/erh/
+    - derive/ue/uei/
+    
+    #容错
+    - derive/ang/ag/
+    - derive/eng/eg/
+    - derive/oeng/oeg/
+    - derive/ieng/ieg/
+    - derive/ing/ig/
+    - derive/yng/yg/
+    - derive/yorng/yorg/
+    - derive/ang/am/
+    - derive/eng/em/
+    - derive/oeng/oem/
+    - derive/ieng/iem/
+    - derive/ing/im/
+    - derive/yng/ym/
+    - derive/yorng/yom/
+    
+    #其他口音
+    - derive/ue/uai/
+    
+translator:
+  dictionary: Pouleng
+  spelling_hints: 12
+  enable_sentence: true
+  enable_encoder: true
+  preedit_format:
+    # 便捷鍵還原
+    - xform/f/ng/
+  comment_format: &comment_rules
+
+    # 聲調上標
+    - xlit/012345678/⁰¹²³⁴⁵⁶⁷⁸/
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔普通話拼音反查〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+  comment_format: *comment_rules
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
+    

@@ -1,0 +1,184 @@
+﻿menu:
+  page_size: 7
+
+schema:
+  schema_id: ngocen
+  name: 鄂城
+  version: "2019.5.15"
+  author:
+    - 知乎 羽隨風飛
+  description: |
+   https://www.zhihu.com/people/yu-sui-feng-fei-81
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 英文 ]
+  - name: full_shape
+    reset: 0
+    states: [ 半角, 全角 ]
+  - name: simplification
+    reset: 1
+    states: [ 繁體, 简体 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba-;/<,>\'
+  initials: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - xform/Kbei/bei/#關愛武漢猩猩，從我做起
+    - xform/([zcs])h/$1/
+    - xform/mu/mong/
+    - derive/re/nge/#熱惹兩字
+    - xform/re/yve/
+    - xform/yven/ngen/
+    - xform/rv/yv/
+    - xform/^r/ng/
+    - xform/ngi/ri/
+#黃孝ei——i
+    - derive/nei/ni/
+    - derive/ei/ij/
+    - xform/bij1/bei1/
+    - xform/fi/fei/
+    - xform/sij/xi/
+    - xform/zij/ji/
+    - xform/cij/qi/
+    - xform/wij/wei/
+    - xform/ij/i/
+    - xform/nei/lei/
+#黃孝ei——i
+
+#容錯（變體類型）
+    - derive/([gkhdtlnzcs])o/$1uo/# 模糊uo/o
+    - xform/nguo/ngo/# 模糊uo/o
+    - xform/([gkhdtlnzcs])uou/$1ou/# 模糊uo/o
+    - xform/([gkhdtlnzcs])uong/$1ong/# 模糊uo/o
+    - derive/e([1|2|3|4|5])/ei/
+    - derive/e6/ai/
+    - derive/wong/ngong/
+    - derive/^ng//
+    - derive/ko6/kue/
+    - derive/ou/eu/
+    - xform/S/mei/#沒有
+    - derive/vi/vei/
+    - derive/v/u/
+    - xform/nu/nv/
+    - derive/ui/uei/
+    - xform/er/e/
+#容錯（變體類型）
+    - derive/([123456~])//#忽略声调
+
+#容錯（鍵盤類型）
+    - derive/ng/mg/
+    - derive/ng/bg/
+    - derive/en/em/
+    - derive/en/eb/
+    - derive/in/im/
+    - derive/in/ib/
+    - derive/un/um/
+    - derive/un/ub/
+    - derive/vn/vm/
+    - derive/vn/vb/
+    - derive/en/wn/
+
+translator:
+  dictionary: huangxiao
+  prism: ngocen
+  spelling_hints: 5
+  comment_format:
+    - xform/mu/mong/
+    - xform/Kbei/bei/
+    - xform/([zcs])h/$1/
+    - xform/rv/yu/
+    - xform/^r/ng/
+    - xform/ngi/ri/
+    - xform/n3 ma/m3 ma/#容錯顯示“姆媽”
+#黃孝ei——i
+    - xform/ei/ij/
+    - xform/fi/fei/
+    - xform/bij1/bei1/
+    - xform/sij/xi/
+    - xform/zij/ji/
+    - xform/cij/qi/
+    - xform/wij/wei/
+    - xform/ij/i/
+#黃孝ei——i
+    - xform/S/mei/#沒有
+    - xform/er/e/
+    - xform/nv/nü/
+    - xform/v/u/
+
+    - xlit/123456~0/¹²³⁴⁵⁶‾º/#上標音調
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔反查〕
+  preedit_format:
+    - xform/mu/mong/
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+  comment_format:
+    - xform/Kbei/bei/
+    - xform/rv/yu/
+    - xform/^r/ng/
+    - xform/ngi/ri/
+    - xform/n3 ma/m3 ma/#容錯顯示“姆媽”
+#黃孝ei——i
+    - xform/ei/ij/
+    - xform/fi/fei/
+    - xform/bij1/bei1/
+    - xform/sij/xi/
+    - xform/zij/ji/
+    - xform/cij/qi/
+    - xform/wij/wei/
+    - xform/ij/i/
+#黃孝ei——i
+    - xform/S/mei/#沒有
+    - xform/er/e/
+    - xform/nv/nü/
+    - xform/v/u/
+
+    - xlit/123456~0/¹²³⁴⁵⁶‾º/#上標音調
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
+
+style:
+  font_face: "微软雅黑"

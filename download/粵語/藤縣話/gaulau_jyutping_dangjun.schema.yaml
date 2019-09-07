@@ -1,0 +1,108 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: gaulau_jyutping_dangjun
+  name: 勾漏粤拼藤县白话
+  version: "2.00"
+  author:
+    - safetychinese <safetychinese@gmail.com>
+  description: |
+    藤县白话 採用香港語言學會粵語拼音方案并修改。
+    https://www.lshk.org/jyutping
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    states: [ ，。, ，． ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - erase/^xx$/                 # 擦除未知拼音標識xx。
+    - abbrev/^([a-z]).+$/$1/      # 首字母簡拼。
+    - abbrev/^(ng).+$/$1/         # 聲母簡拼。
+    - abbrev/^(jn).+$/$1/         # 聲母簡拼。
+    - abbrev/^(th).+$/$1/         # 聲母簡拼。
+
+#    - derive/^k/kw/               # 模糊kw和k。
+#    - derive/^g/gw/               # 模糊gw和g。      取消模糊，因为“中位”-“zungwai”，‘w’消失。
+    - derive/^th/r/               # r=th 類似雙拼。
+    - derive/^jn/q/               # q=jn 類似雙拼。
+    - derive/^j/y/                # 容錯。
+    - erase/^yn.*$/               # 擦除無效聲母yn（<<<jn）。
+
+    - derive/oe$/oi/              # 兼容粵拼。
+    - derive/ut$/yut/             # ü。
+    - derive/un$/yun/             # ü。
+    - derive/en$/iaan/            # 相等。
+    - derive/eu$/iaau/            # 相等。
+
+    - derive/ai$/ei/              # 容錯。
+    - derive/ui$/eoi/             # 兼容粵拼。
+    - derive/an$/eon/             # 兼容粵拼。
+    - derive/eng$/oeng/           # 兼容粵拼。
+    - derive/at$/eot/             # 兼容粵拼。
+    - derive/ek$/oek/             # 兼容粵拼。
+    
+    - derive/aa$/a/               # aa結尾則可省略一個。
+    - derive/yu/v/                # ü。
+ 
+
+translator:
+  dictionary: gaulau_jyutping_dangjun
+  spelling_hints: 5
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"

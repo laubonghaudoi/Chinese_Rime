@@ -40,7 +40,27 @@ This repo has four sub-directories:
 
 For related materials of the collected schemas, such as tutorials, schema white papers, etc., please see [Schema-related files (Tencent cloud)](https://github.com/laubonghaudoi/Chinese_Rime#%E8%B3%87%E6%BA%90resources)
 
-<h2>使用教程（項目網站）</br> Tutorial (Project website)</h2>
+<h2>使用教程</br>Tutorial</h2>
+
+<h3>克隆此倉庫<br/>Clone this repo</h3>
+
+由於本倉庫體積過大，推薦運行以下命令來略過所有歷史記錄，僅克隆最新版的內容：
+
+Considering the huge size of this repo, it is recommmended to run the following commmand to skip all historical versions, cloning only the latest version of this repo:
+
+```bash
+git clone --depth=1 https://github.com/laubonghaudoi/Chinese_Rime.git
+```
+
+然後運行以下命令將全部子模塊內容克隆到本地：
+
+Then run the following command to clone all submodules into this repo:
+
+```bash
+git submodule update --init --recursive
+```
+
+<h3>項目網站</br>Project website</h3>
 
 關於如何使用方言拼音打字，請參考此網站：
 
@@ -50,7 +70,7 @@ For detailed steps with explanations on how to type Chinese characters with thes
 
 要更新子模塊，首先`cd`到`script/`下，然後運行`./update_submodules.sh`（你可能需要先`chmod +x update_submodules.sh`）来更新子模塊。運行`python update_download.py`来更新下載版碼表。
 
-To update the schema files in  the `download/` and `sources/` directories, first `cd` to `directory/`. Then run `./update_submodules.sh` (you might need to `chmod +x update_submodules.sh` first) to update the submodules, and run `python update_download.py` to update the download package.
+To update the schema files in  the `download/` and `sources/` directories, first make sure you have cloned all submodules to local, then `cd` to `directory/`. Then run `./update_submodules.sh` (you might need to `chmod +x update_submodules.sh` first) to update the submodules, and run `python update_download.py` to update the download package.
 
 <h2>已收錄方案</br>Collected schemas</h2>
 
@@ -824,6 +844,7 @@ For detailed information of the collected schemas in the download packege, pleas
         <ul>
           <li><a href="https://words.hk/">粵典</a></li>
           <li><a href="http://ling.cuhk.edu.hk/jyutpingteaching/">Jyutping Teaching 粵拼教學</a></li>
+          <li><a href="https://www.howtostudycantonese.com/">粤塾</a></li>
           <li><a href="http://www.cantonese.asia/">粵語協會</a></li>
           <li><a href="http://www.cantonese.asia/attachments/school/canchars.htm">粵語字打法大全（2007賀歲版）</a></li>
           <li><a href="http://www.cantonese.asia/portal.php?mod=view&aid=229">Jyutping（粵拼）詳細教程</a></li>

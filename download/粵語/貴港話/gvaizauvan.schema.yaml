@@ -1,0 +1,257 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: gvaizauvan
+  name: 貴州韻
+  version: "5.3"
+  author:
+    - 滕謄<daengz@foxmail.com>
+    - 知乎貴港QQ羣<469659042>
+  description: |
+    採用本人制定的貴縣話拼音方案:https://zhuanlan.zhihu.com/p/26380715
+    基本字庫來自黃格凡、黃勉興前輩的《貴港話同音字彙》：http://t.cn/RY6rhjW  
+    詞庫係本人蒐集整理:https://zhuanlan.zhihu.com/p/27090621
+    
+    2017.09.06：增加编码翻译。 2017.11.24：完成同音字表錄入工作，開始增補常用字和詞組。「貴拼」改稱「貴州韻（貴城音）」。
+    2017.11.29：編碼翻譯修改完成。
+    2017.12.01：編碼翻譯又做修改，哈哈。
+    
+  dependencies:
+    - luna_pinyin
+    - liangfen
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - affix_segmentor@pinyin
+    - affix_segmentor@pinyin_lookup
+    - affix_segmentor@liangfen_lookup
+    - affix_segmentor@reverse_lookup
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+
+  translators:
+    - punct_translator
+    - script_translator
+    - script_translator@pinyin
+    - script_translator@pinyin_lookup
+    - table_translator@liangfen_lookup
+    - reverse_lookup_translator
+
+  filters:
+    - simplifier
+    - uniquifier
+    - reverse_lookup_filter
+    - reverse_lookup_filter@pinyin_reverse_lookup
+    - reverse_lookup_filter@liangfen_reverse_lookup
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - erase/^xx$/
+    - abbrev/^([a-z]).+$/$1/      # 首字母簡拼
+    - abbrev/^(n[gj]).+$/$1/      # 聲母簡拼
+    - abbrev/^([gk]v).+$/$1/     # 聲母簡拼
+    - abbrev/^([zcs]j).+$/$1/    # 聲母簡拼
+    - abbrev/^(ng).+$/$1/
+    - abbrev/^(nj).+$/$1/
+    - derive/^jy?([aeiou])/y$1/   # 容錯 j -> y
+    - derive/^jyu/ju/                 # 容錯 jyu -> ju
+    - derive/^nj/ny/                 # 容錯 nj -> ny
+    - derive/^nj/jn/                # 容錯 nj -> jn
+    - derive/^nj/r/                # 容錯 nj -> r
+    - derive/^z/zj/               # 容錯 zj -> z
+    - derive/^c/cj/              # 容錯 cj -> c
+    - derive/^s/sj/             # 容錯 sj -> s
+    - derive/^sl/x/
+    - derive/^kv/q/
+    - derive/^gv/w/
+    - derive/^o(m|p|t)$/a$1/         # 模糊 om -> am，op -> ap
+    - derive/(g|k)v/$1u/      # 模糊 gv- -> gu-，kv- -> ku-
+    - derive/^e(p)$/i$1/         # 模糊 ep -> ip
+    - derive/^o/a/                       # 模糊 o -> a
+    - derive/(a.*)u$/$1o/            #普拼式
+    - derive/yu/v/                # 廣州式（普拼式） yu -> v
+    - derive/(.*)p$/$1b/          # 廣州式
+    - derive/(.*)t$/$1d/          # 廣州式
+    - derive/(.*)k$/$1g/          # 廣州式
+    - derive/^(g|k)w/$1u/         # 廣州式
+    
+    
+translator:
+  dictionary: gvaizauvan
+  spelling_hints: 5
+  preedit_format:
+    - 'xform/^([a-z]*)$/$1/'
+    #聲母部分
+    - xform/p/pʰ/
+    - xform/b/p/
+    - xform/t/tʰ/
+    - xform/d/t/
+    - xform/k/kʰ/
+    - xform/kʰv/kᵛʰ/
+    - xform/sl/ɬ/
+    - xform/x/ɬ/
+    - xform/r/ȵ/
+    - xform/nj/ȵ/
+    - xform/q/kᵛʰ/
+    - xform/w/kᵛ/
+    - xform/ng/ŋ/
+    - xform/g/k/
+    - xform/([k])v/kᵛ/
+    #韻母部分
+    - xform/([ppʰmvfttʰnlkkʰkᵛʰj])iakʰ/$1æk̚/
+    - xform/iakʰ/æk̚/
+    - xform/([aei])kʰ/$1k̚/
+    #- xform/akʰ/ɐk̚/
+    #- xform/ekʰ/ek̚/
+    - xform/z([auo])/ʦ$1/
+    #- xform/za/ʦa/
+    - xform/ca/ʦʰa/
+    #- xform/zo/ʦɔ/
+    - xform/co/ʦʰɔ/
+    #- xform/zu/ʦu/
+    - xform/cu/ʦʰu/
+    - xform/z/ʨ/
+    - xform/c/ʨʰ/
+    - xform/s/ɕ/
+    - xform/ɕo/sɔ/
+    - xform/ɕu/su/
+    - xform/si/ɕi/
+    - xform/a/ɐ/
+    - xform/o/ɔ/
+    - xform/ɔu/ou/
+    - xform/eɔi/œy/
+    - xform/ʨœy/ʦœy/
+    - xform/ʨʰœy/ʦʰœy/
+    - xform/ʨæk̚/ʦæk̚/
+    - xform/ʨʰæk̚/ʦʰæk̚/
+    - xform/eɔ/ø/
+    - xform/([uɔø])kʰ/$1k̚/
+    #- xform/ukʰ/uk̚/
+    #- xform/ɔkʰ/ɔk̚/
+    #- xform/økʰ/øk̚/
+    - xform/yu/y/
+    - xform/([s])e/ɕɛ/
+    - xform/um/əm/
+    - xform/eŋ/eŋ/
+    - xform/e([mn])/iɛ$1/
+    #- xform/em/iɛm/
+    #- xform/en/iɛn/
+    - xform/([ppʰmvfttʰnlkkʰkᵛʰj])e/$1ɛ/
+    #- xform/([p])e/pɛ/
+    - xform/([ʨʨʰɕ])e/$1ɛ/
+    #- xform/ʨe/ʨɛ/
+    #- xform/ʨʰe/ʨʰɛ/
+    #- xform/ɕe/ɕɛ/
+    - xform/([ɐɔuɛi])pʰ/$1p̚/
+    #- xform/ɐpʰ/ɐp̚/
+    #- xform/ɔpʰ/ɔp̚/
+    - xform/up̚/ǝp̚/
+    - xform/ɛp̚/ep̚/
+    #- xform/ipʰ/ip̚/
+    - xform/([ɐɔuyiv])tʰ/$1t̚/
+    #- xform/ɐtʰ/ɐt̚/
+    #- xform/utʰ/ut̚/
+    #- xform/ɔtʰ/ɔt̚/
+    #- xform/itʰ/it̚/
+    #- xform/ytʰ/yt̚/
+    #- xform/vtʰ/yt̚/
+    - xform/ɕɐ/sa/
+    
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
+  
+simplifier:
+  option_name: simplification
+  opencc_config: t2s.json
+  tags: [ abc ] #abc對應abc_segmentor
+  tips: none
+
+reverse_lookup:
+  tag: reverse_lookup
+  prefix: "`"
+  suffix: ";"
+  tips: "〔拼音〕"
+  closing_tips: "〔两分〕"
+  extra_tags:
+    - pinyin_lookup
+pinyin_lookup:
+  dictionary: luna_pinyin
+  prefix: ""
+  tag: pinyin_lookup
+  tips: "〔拼音〕"
+pinyin_reverse_lookup:
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+  dictionary: gvaizauvan
+  enable_sentences: true
+  overwrite_comment: true
+  tags:
+    - pinyin_lookup
+
+liangfen_lookup:
+  dictionary: liangfen
+  prefix: "~"
+  tag: liangfen_lookup
+  tips: "〔两分〕"
+liangfen_reverse_lookup:
+  preedit_format:
+    - "xlit|v|ü|"
+    - xform/iü/iv/
+    - xform/uü/uv/
+  comment_format:
+    - "xlit|v|ü|"
+    - xform/iü/iv/
+    - xform/uü/uv/
+  dictionary: gvaizauvan
+  overwrite_comment: true
+  tags:
+    - liangfen_lookup
+    
+menu:
+  page_size: 6
+  alternative_select_keys: "甲乙丙丁戊己"
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
+    liangfen_lookup: "^~[a-z]*'?$"
+    punct: "^/([0-9]0?|[a-z]+)$"
