@@ -52,6 +52,14 @@ Considering the huge size of this repo, it is recommmended to run the following 
 git clone --depth=1 https://github.com/laubonghaudoi/Chinese_Rime.git
 ```
 
+然後運行以下命令將全部子模塊內容克隆到本地：
+
+Then run the following command to clone all submodules into this repo:
+
+```bash
+git submodule update --init --recursive
+```
+
 <h3>項目網站</br>Project website</h3>
 
 關於如何使用方言拼音打字，請參考此網站：
@@ -62,9 +70,9 @@ For detailed steps with explanations on how to type Chinese characters with thes
 
 <h3>更新碼錶</br>Schemas update</h3>
 
-要更新子模塊，首先`cd`到`script/`下，然後運行`./update_submodules.sh`（你可能需要先`chmod +x update_submodules.sh`）来更新子模塊。運行`python update_download.py`来更新下載版碼表。
+要更新子模塊，首先確保子模塊中內容已經克隆到本地，然後`cd`到`script/`下，然後運行`./update_submodules.sh`（你可能需要先`chmod +x update_submodules.sh`）来更新子模塊。運行`python update_download.py`来更新下載版碼表。
 
-To update the schema files in  the `download/` and `sources/` directories, first `cd` to `directory/`. Then run `./update_submodules.sh` (you might need to `chmod +x update_submodules.sh` first) to update the submodules, and run `python update_download.py` to update the download package.
+To update the schema files in  the `download/` and `sources/` directories, first make sure you have cloned all submodules to local, then `cd` to `directory/`. Then run `./update_submodules.sh` (you might need to `chmod +x update_submodules.sh` first) to update the submodules, and run `python update_download.py` to update the download package.
 
 <h2>已收錄方案</br>Collected schemas</h2>
 

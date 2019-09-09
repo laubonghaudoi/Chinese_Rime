@@ -859,7 +859,7 @@ use_preset_vocabulary: true
 鐾	bei4
 鐾	bi4
 備	bei4
-備	bei4
+備	bi4
 被	bei4
 被	bi4
 鞁	bei4
@@ -1026,6 +1026,7 @@ use_preset_vocabulary: true
 啚	bi3
 娝	bi3
 痞	bi3
+痞	pi3
 痞	bi4
 痞	fu3
 比	bi3
@@ -1150,8 +1151,11 @@ use_preset_vocabulary: true
 彆	bi4
 𢏨	bi4
 俻	bei4
+俻	bi4
 𤰇	bei4
 𤰈	bei4
+𤰇	bi4
+𤰈	bi4
 糒	bi4
 犕	bi4
 絥	bi4
@@ -1867,6 +1871,7 @@ use_preset_vocabulary: true
 䴆	bu5
 䴆	pu5
 不	bu5
+不	bo5	1%
 不	fu1
 不	fu5
 㲫	bu5
@@ -4477,19 +4482,20 @@ use_preset_vocabulary: true
 淬	cuei4
 焠	cuei4
 䃀	cuei4
-逡	cuen1
-竣	cuen1
+逡	cüin1
+竣	cüin1
+皴	cüin1	1%
 皴	cuen1
-㕙	cuen1
+㕙	cüin1
 㕙	züin4
-墫	cuen1
-捘	cuen1
+墫	cüin1
+捘	cüin1
 捘	zuei4
 捘	zuen4
-竴	cuen1
-踆	cuen1
-𠣟	cuen1
-夋	cuen1
+竴	cüin1
+踆	cüin1
+𠣟	cüin1
+夋	cüin1
 村	cuen1
 存	cuen2
 蹲	cuen2
@@ -4587,6 +4593,7 @@ use_preset_vocabulary: true
 𥆊	cüän4
 鷷	cüin2
 鷷	zuen1
+鷷	züin1
 𪙉	cy1
 偨	cy1
 雌	cy1
@@ -8487,7 +8494,7 @@ use_preset_vocabulary: true
 崤	hao2
 崤	xao2
 𨚙	hao2
-𨚙	iao1
+𨚙	iao2
 𠢕	hao2
 蠔	hao2
 好	hao3
@@ -10422,7 +10429,7 @@ use_preset_vocabulary: true
 䳩	iao1
 邀	iao1
 邀	jao1
-鴞	iao1
+鴞	iao2
 妖	iao1
 祅	iao1
 枖	iao1
@@ -10709,9 +10716,10 @@ use_preset_vocabulary: true
 鄢	iän1
 鄢	iän3
 鄢	iän4
-漹	iän1
+漹	iän2
 漹	iän4
-䗡	iän1
+䗡	iän2
+焉	iän2
 淹	iän1
 淹	iän4
 崦	iän1
@@ -13731,9 +13739,6 @@ use_preset_vocabulary: true
 㑳	la5
 㑳	zou4
 㑳	zu1
-䎎	la5
-𣹵	la5
-𡷝	la5
 摺	la5
 摺	zhä5
 𦒆	la5
@@ -15799,6 +15804,9 @@ use_preset_vocabulary: true
 𣧍	lu5
 𤬷	lua5
 袦	lua5
+䎎	lua5
+𣹵	lua5
+𡷝	lua5
 濡	luang2
 濡	ru2
 鑾	luang2
@@ -16470,6 +16478,7 @@ use_preset_vocabulary: true
 枺	mei4
 妹	mei4
 眛	mei4
+袂	mei4
 瞢	men2
 瞢	men4
 夢	men2
@@ -16639,7 +16648,6 @@ use_preset_vocabulary: true
 蔝	mi3
 䱊	mi3
 謎	mi4
-袂	mi4
 蜜	mi5
 𧖅	mi5
 䤉	mi5
@@ -20797,14 +20805,9 @@ use_preset_vocabulary: true
 筍	suen3
 笋	suen3
 箰	suen3
-𠣬	suen3
 隼	suen3
 鵻	suen3
 鵻	zhuei1
-簨	suen3
-𥯗	suen3
-𣕍	suen3
-栒	suen3
 榫	suen3
 損	suen3
 䐣	suen3
@@ -20951,6 +20954,16 @@ use_preset_vocabulary: true
 𪀠	süin2
 㽦	süin2
 䖲	süin2
+筍	süin3	1%
+笋	süin3	1%
+箰	süin3	1%
+𠣬	süin3
+隼	süin3	1%
+鵻	süin3	1%
+簨	süin3
+𥯗	süin3
+𣕍	süin3
+栒	süin3
 峻	süin4
 峻	züin4
 𡺲	süin4
@@ -25197,7 +25210,7 @@ use_preset_vocabulary: true
 𣻛	zhuang1
 跧	zhuang1
 跧	zuang1
-跧	zuen1
+跧	züin1
 專	zhuang1
 嫥	zhuang1
 磚	zhuang1
@@ -25867,7 +25880,7 @@ use_preset_vocabulary: true
 儹	zuang3
 籫	zuang3
 僎	zuang4
-僎	zuen1
+僎	züin1
 𩔊	zuang4
 𩻝	zuang4
 𠨎	zuang4
@@ -25912,7 +25925,9 @@ use_preset_vocabulary: true
 晬	zuei4
 祽	zuei4
 遵	zuen1
+遵	züin1	1%
 嶟	zuen1
+嶟	züin1
 尊	zuen1
 樽	zuen1
 罇	zuen1
