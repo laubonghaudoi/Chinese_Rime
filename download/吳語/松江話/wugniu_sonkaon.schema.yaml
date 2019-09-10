@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_sonkaon
   name: 吳語（松江）
-  version: "2019.08.25"
+  version: "2019.09.10"
   author:
     - 字表作者：神死慟瞑 ˂411325365@qq.com˃
     - 方案製作：雪心居士 ˂sihsin@live.com˃
@@ -75,6 +75,10 @@ speller:
     - derive/ao/oa/
     # 容錯 ae => ea
     - derive/ae/ea/
+    # 容錯 y => ghi
+    - derive/yi|y(?=[aeou])/ghi/
+    # 容錯 w => ghu
+    - derive/wu|w(?=[aeo])/ghu/
 
 # 主翻譯器 松江吳拼
 translator:

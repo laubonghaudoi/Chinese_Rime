@@ -846,6 +846,7 @@ For detailed information of the collected schemas in the download packege, pleas
         <ul>
           <li><a href="https://words.hk/">粵典</a></li>
           <li><a href="http://ling.cuhk.edu.hk/jyutpingteaching/">Jyutping Teaching 粵拼教學</a></li>
+          <li><a href="https://www.howtostudycantonese.com/">粤塾</a></li>
           <li><a href="http://www.cantonese.asia/">粵語協會</a></li>
           <li><a href="http://www.cantonese.asia/attachments/school/canchars.htm">粵語字打法大全（2007賀歲版）</a></li>
           <li><a href="http://www.cantonese.asia/portal.php?mod=view&aid=229">Jyutping（粵拼）詳細教程</a></li>
