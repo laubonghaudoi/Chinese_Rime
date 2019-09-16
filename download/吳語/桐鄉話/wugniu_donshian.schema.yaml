@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_donshian
   name: 吳語（桐鄉）
-  version: "2019.09.10"
+  version: "2019.09.15"
   author:
     - 字表作者：雪心居士˂sihsin@live.com˃
     - 方案製作：雪心居士 ˂sihsin@live.com˃
@@ -65,18 +65,24 @@ speller:
     # 去掉聲調
     - xform/\d//
 
+    # 兼容吳語協會式拼音
+    - derive/q/h/
+    - derive/gni(?=[nqh]|\d|\b)/nyi/
+    - derive/gni(?=[aoue])/ny/
+    - derive/er/r/
+
     # 尖團不分
     - derive/ts(h?)i/c$1i/
     - derive/^(s|z)i/$1hi/
     # 打党不分
     - derive/aon/an/
     # 結菊不分
-    - derive/cioh/cih/
+    - derive/cio(q|h)/ci$1/
     # 飛灰不分
     - derive/^hu/f/
     - xform/^f$/fu/
     # 國角不分
-    - derive/^kueq/koq/
+    - derive/^kue(q|h)/ko$1/
     # 撮口音
     - derive/e$/oe/
 

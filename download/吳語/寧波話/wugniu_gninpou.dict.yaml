@@ -19,7 +19,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2019.09.10"
+version: "2019.09.15"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -103,6 +103,7 @@ use_preset_vocabulary: true
 胏	tsy
 訾	tsy
 徵	tsy	5%
+徴	tsy	5%
 飳	tsy	0%
 至	tsy
 致	tsy
@@ -232,6 +233,8 @@ use_preset_vocabulary: true
 賜	sy
 澌	sy
 四	sy
+亖	sy
+𦉭	sy
 泗	sy
 駟	sy
 肆	sy
@@ -687,6 +690,7 @@ use_preset_vocabulary: true
 㝥	mi
 𡬍	mi
 羋	mi
+芈	mi
 弭	mi
 乜	mi
 沔	mi
@@ -1250,6 +1254,7 @@ use_preset_vocabulary: true
 僉	chi
 簽	chi
 籤	chi
+籖	chi
 仟	chi
 阡	chi
 芊	chi
@@ -1491,6 +1496,7 @@ use_preset_vocabulary: true
 義	gni
 二	gni
 貳	gni
+弍	gni
 膩	gni
 睨	gni
 鶃	gni
@@ -4604,6 +4610,8 @@ use_preset_vocabulary: true
 三	sae
 𭆻	sae
 叁	sae
+叄	sae
+弎	sae
 參	sae	0%
 剼	sae
 彡	sae
@@ -6779,6 +6787,7 @@ use_preset_vocabulary: true
 唐	daon
 糖	daon
 餹	daon
+醣	daon
 塘	daon
 𠗶	daon
 溏	daon
@@ -7886,6 +7895,7 @@ use_preset_vocabulary: true
 癥	cin
 征	cin
 徵	cin
+徴	cin
 証	cin
 證	cin
 震	cin
@@ -8979,6 +8989,7 @@ use_preset_vocabulary: true
 雍	ion
 雝	ion
 八	paq
+丷	paq
 捌	paq
 䤢	paq
 百	paq
@@ -9345,6 +9356,7 @@ use_preset_vocabulary: true
 襍	dzaq	6%
 殺	saq
 剎	saq
+刹	saq
 脎	saq
 薩	saq
 煞	saq
@@ -10421,6 +10433,7 @@ use_preset_vocabulary: true
 裡	liq	0%
 接	ciq
 即	ciq
+卽	ciq
 節	ciq
 櫛	ciq
 鯽	ciq	0%
@@ -10804,6 +10817,7 @@ use_preset_vocabulary: true
 鎰	yiq
 覡	yiq
 一	iq
+弌	iq
 乙	iq
 釔	iq
 益	iq
@@ -10876,6 +10890,7 @@ use_preset_vocabulary: true
 恪	chiuq
 躩	chiuq
 慤	chiuq
+愨	chiuq
 䕮	chiuq
 確	chiuq
 榷	chiuq
@@ -11059,6 +11074,7 @@ use_preset_vocabulary: true
 邇	er
 二	er	6%
 貳	er	6%
+弍	er	6%
 𢄽	er
 樲	er
 咡	er
@@ -11083,6 +11099,7 @@ use_preset_vocabulary: true
 魚	ng
 吳	ng	0%
 五	ng
+𠄡	ng
 耳	ng
 午	ng	0%
 尾	ng
@@ -27949,6 +27966,7 @@ use_preset_vocabulary: true
 䞁䞁看	i i khe	418
 派派看	pha pha khe	418
 明朝	min jiau
+肚子	du tsy
 生活	sen waq
 下工夫	gho kon fu
 下本	gho pen	418

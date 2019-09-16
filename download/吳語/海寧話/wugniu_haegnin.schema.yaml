@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_haegnin
   name: 吳語（海寧）
-  version: "2019.09.10"
+  version: "2019.09.15"
   author:
     - 字表作者：陳熙元˂370327837@qq.com˃
     - 方案製作：雪心居士 ˂sihsin@live.com˃
@@ -62,6 +62,13 @@ speller:
   delimiter: " "
   algebra:
     - xform/^([bcdfghjklpqstvwxyz])$/$1_/
+
+    # 兼容吳語協會式拼音
+    - derive/q/h/
+    - derive/gni(?=[nqh]|\d|\b)/nyi/
+    - derive/gni(?=[aoue])/ny/
+    - derive/er/r/
+
     # 聲母簡拼
     - abbrev/^([a-z]).+$/$1/
     - abbrev/^([pmtnlszckg]h|gn|ng|tsh?|dz).+$/$1/
