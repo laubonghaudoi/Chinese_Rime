@@ -271,6 +271,9 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
               上海吳語拼音輸入方案 ℞ <code>NGLI/rime-wugniu_zaonhe</code>
               <ul>
                 <li>吳語（上海） - <code>wugniu_zaonhe</code></li>
+                <li>
+                  吳語（上海老派） - <code>wugniu_zaonhe_laupha</code>
+                </li>
                 <li>吳語（松江） - <code>wugniu_sonkaon</code></li>
               </ul>
             </li>

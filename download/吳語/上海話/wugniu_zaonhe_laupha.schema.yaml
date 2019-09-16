@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_zaonhe_laupha
   name: 吳語（上海老派）
-  version: "0.1.1"
+  version: "0.1.3"
   author:
     - 字表作者：吳飛得 <fededemarco@gmail.com>
     - 方案製作：Electric Sheep ˂1613023143@qq.com˃
@@ -61,6 +61,12 @@ speller:
   delimiter: " '"
   algebra:
     - xform/^([bcdfghjklpqstvwxyz])$/$1_/
+
+    # 兼容吳語協會式拼音
+    - derive/q/h/
+    - derive/gni(?=[nqh]|\d|\b)/nyi/
+    - derive/gni(?=[aoue])/ny/
+    - derive/er/r/
 
     # 聲母簡拼
     - abbrev/^([a-z]).+$/$1/

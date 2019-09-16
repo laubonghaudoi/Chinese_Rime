@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_kashin
   name: 吳語（嘉興）
-  version: "2019.09.10"
+  version: "2019.09.15"
   author:
     - 字表作者：雪心居士˂sihsin@live.com˃
     - 字表作者：步履躊躇
@@ -65,6 +65,12 @@ speller:
     - xform/^([bcdfghjklpqstvwxyz])$/$1_/
     # 去掉聲調
     - xform/\d//
+
+    # 兼容吳語協會式拼音
+    - derive/q/h/
+    - derive/gni(?=[nqh]|\d|\b)/nyi/
+    - derive/gni(?=[aoue])/ny/
+    - derive/er/r/
 
     # 打黨不分
     - derive/aon/an/

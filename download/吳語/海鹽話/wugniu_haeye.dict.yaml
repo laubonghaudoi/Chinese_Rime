@@ -1,14 +1,19 @@
-# Rime dictionary		
-# encoding: utf-8		
-#		
-#		
-		
----		
-name: wugniu_haeye	
-version: "2019.3.9"		
-sort: by_weight		
-use_preset_vocabulary: true		
-...		
+# Rime dictionary
+# encoding: utf-8
+#
+# wugniu_haeye - 吳語（海鹽）
+#
+# Author:
+#
+# - 雪心居士˂sihsin@live.com˃
+#
+
+---
+name: wugniu_haeye
+version: "2019.09.14"
+sort: by_weight
+use_preset_vocabulary: true
+...
 拇	m4
 畝	m4
 某	m4
@@ -137,6 +142,7 @@ use_preset_vocabulary: true
 螄	sy1
 獅	sy1
 私	sy1
+俬	sy1
 絲	sy1
 思	sy1
 司	sy1
@@ -160,6 +166,7 @@ use_preset_vocabulary: true
 𦞤	sy5
 試	sy5
 弑	sy5
+弒	sy5
 勢	sy5
 賜	sy5
 肆	sy5
@@ -220,6 +227,7 @@ use_preset_vocabulary: true
 臂	pi5
 閉	pi5
 秘	pi5
+祕	pi5
 泌	pi5
 庇	pi5
 蔽	pi5
@@ -298,6 +306,7 @@ use_preset_vocabulary: true
 低	ti1
 底	ti3
 抵	ti3
+牴	ti3
 蒂	ti5
 渧	ti5
 梯	thi1
@@ -345,7 +354,9 @@ use_preset_vocabulary: true
 籬	li2
 璃	li2
 黎	li2
+里	li4
 裡	li4
+裏	li4
 理	li4
 裏	li4
 淚	li4
@@ -369,6 +380,7 @@ use_preset_vocabulary: true
 畸	ci1
 羈	ci1
 饑	ci1
+飢	ci1
 肌	ci1
 基	ci1
 稽	ci1
@@ -398,12 +410,14 @@ use_preset_vocabulary: true
 棄	chi1
 妻	chi1
 淒	chi1
+悽	chi1
 傻	chi1
 溪	chi1
 起	chi3
 企	chi3
 豈	chi3
 啟	chi3
+啓	chi3
 砌	chi3
 器	chi5
 氣	chi5
@@ -445,6 +459,7 @@ use_preset_vocabulary: true
 婿	shi5
 絮	shi5
 系	shi5
+係	shi5
 移	yi2
 姨	yi2
 迆	yi2
@@ -519,6 +534,7 @@ use_preset_vocabulary: true
 慕	mu6
 麩	fu1
 夫	fu1
+伕	fu1
 俘	fu1
 敷	fu1
 孵	fu1
@@ -594,6 +610,7 @@ use_preset_vocabulary: true
 腡	lu2
 鱸	lu2
 鹵	lu4
+滷	lu4
 櫓	lu4
 魯	lu4
 虜	lu4
@@ -651,6 +668,7 @@ use_preset_vocabulary: true
 沽	ku1
 辜	ku1
 雇	ku1
+僱	ku1
 戈	ku1
 古	ku3
 鼓	ku3
@@ -684,8 +702,10 @@ use_preset_vocabulary: true
 滸	hu3
 貨	hu5
 胡	wu2
+鬍	wu2
 湖	wu2
 糊	wu2
+餬	wu2
 壺	wu2
 狐	wu2
 鵝	wu2
@@ -726,6 +746,7 @@ use_preset_vocabulary: true
 於	u1
 塢	u1
 汙	u1
+污	u1
 焐	u3
 惡	u5
 愚	gniu2
@@ -733,6 +754,7 @@ use_preset_vocabulary: true
 芯	gniu4
 鈕	gniu4
 語	gniu6
+御	gniu6
 禦	gniu6
 遇	gniu6
 寓	gniu6
@@ -792,6 +814,7 @@ use_preset_vocabulary: true
 去	chiu5
 廚	jiu2
 櫃	jiu2
+柜	jiu2
 騎	jiu2
 儲	jiu2
 除	jiu2
@@ -803,6 +826,7 @@ use_preset_vocabulary: true
 儒	jiu2
 衢	jiu2
 巨	jiu2
+鉅	jiu2
 孺	jiu2
 曙	jiu2
 跪	jiu4
@@ -816,6 +840,7 @@ use_preset_vocabulary: true
 署	jiu4
 樹	jiu6
 櫃	jiu6
+柜	jiu2
 遽	jiu6
 具	jiu6
 懼	jiu6
@@ -828,6 +853,7 @@ use_preset_vocabulary: true
 須	shiu1
 輸	shiu1
 須	shiu1
+鬚	shiu1
 需	shiu1
 籲	shiu1
 噓	shiu1
@@ -852,10 +878,11 @@ use_preset_vocabulary: true
 愉	yu2
 裕	yu2
 餘	yu2
-餘	yu2
+余	yu2
 譽	yu2
 與	yu2
 愈	yu2
+癒	yu2
 喻	yu2
 豫	yu2
 預	yu6
@@ -870,6 +897,7 @@ use_preset_vocabulary: true
 餧	iu5
 緯	iu5
 杯	pe1
+盃	pe1
 碑	pe1
 卑	pe1
 悲	pe1
@@ -925,7 +953,7 @@ use_preset_vocabulary: true
 浮	ve2
 負	ve4
 阜	ve4
-複	ve4
+復	ve4
 堆	te1
 兜	te1
 鬥	te3
@@ -1041,6 +1069,7 @@ use_preset_vocabulary: true
 摳	khe1
 口	khe3
 扣	khe5
+釦	khe5
 冠	khe5
 叩	khe5
 呴	he1
@@ -1052,11 +1081,11 @@ use_preset_vocabulary: true
 候	ghe2
 猴	ghe2
 後	ghe2
-後	ghe2
+后	ghe2
 藕	ghe4
 厚	ghe4
 後	ghe4
-後	ghe4
+后	ghe4
 偶	ghe4
 候	ghe6
 歐	e1
@@ -1104,6 +1133,7 @@ use_preset_vocabulary: true
 迴	we2
 危	we2
 梔	we2
+爲	we2
 為	we2
 帷	we2
 韋	we2
@@ -1130,6 +1160,7 @@ use_preset_vocabulary: true
 餧	ue1
 畏	ue1
 委	ue3
+僞	ue3
 偽	ue3
 尉	ue3
 慰	ue3
@@ -1139,8 +1170,10 @@ use_preset_vocabulary: true
 斑	pae1
 扳	pae1
 板	pae3
+闆	pae3
 版	pae3
 擺	pae3
+襬	pae3
 扮	pae5
 拜	pae5
 湃	pae5
@@ -1179,6 +1212,8 @@ use_preset_vocabulary: true
 返	fae3
 販	fae5
 㽹	fae5
+泛	fae5
+氾	fae5
 汎	fae5
 煩	vae2
 礬	vae2
@@ -1219,10 +1254,14 @@ use_preset_vocabulary: true
 彈	dae2
 擡	dae2
 抬	dae2
+臺	dae2
 檯	dae2
+颱	dae2
 苔	dae2
 痰	dae2
 壇	dae2
+罈	dae2
+苔	dae2
 薹	dae2
 談	dae2
 待	dae4
@@ -1274,12 +1313,15 @@ use_preset_vocabulary: true
 猜	tshae1
 差	tshae1
 采	tshae3
+採	tshae3
+彩	tshae3
 綵	tshae3
 睬	tshae3
 餐	tshae3
 粲	tshae3
 燦	tshae3
 鏟	tshae3
+剷	tshae3
 菜	tshae5
 懺	tshae5
 蔡	tshae5
@@ -1328,6 +1370,7 @@ use_preset_vocabulary: true
 該	kae1
 揀	kae3
 襇	kae3
+襉	kae3
 改	kae3
 堿	kae3
 減	kae3
@@ -1353,6 +1396,7 @@ use_preset_vocabulary: true
 喊	hae5
 莧	hae5
 閑	ghae2
+閒	ghae2
 顏	ghae2
 呆	ghae2
 鹹	ghae2
@@ -1433,6 +1477,7 @@ use_preset_vocabulary: true
 年	gnie2
 嚴	gnie2
 岩	gnie2
+巖	gnie2
 閻	gnie2
 儼	gnie2
 撚	gnie4
@@ -1443,11 +1488,13 @@ use_preset_vocabulary: true
 碾	gnie4
 硯	gnie6
 念	gnie6
+唸	gnie6
 連	lie2
 蓮	lie2
 鰱	lie2
 鐮	lie2
 簾	lie2
+帘	lie2
 聯	lie2
 漣	lie2
 憐	lie2
@@ -1459,6 +1506,7 @@ use_preset_vocabulary: true
 練	lie6
 楝	lie6
 煉	lie6
+鍊	lie6
 煎	cie1
 堅	cie1
 肩	cie1
@@ -1494,8 +1542,10 @@ use_preset_vocabulary: true
 屆	cie5
 借	cie5
 鑒	cie5
+鑑	cie5
 千	chie1
 牽	chie1
+籤	chie1
 簽	chie1
 槧	chie1
 遷	chie1
@@ -1561,6 +1611,7 @@ use_preset_vocabulary: true
 簷	ye2
 嫌	ye2
 弦	ye2
+絃	ye2
 蜒	ye2
 弦	ye2
 賢	ye2
@@ -1570,6 +1621,7 @@ use_preset_vocabulary: true
 沿	ye2
 言	ye2
 閑	ye2
+閒	ye2
 顏	ye2
 耶	ye2
 椰	ye2
@@ -1578,9 +1630,11 @@ use_preset_vocabulary: true
 現	ye6
 䀽	ye6
 煙	ie1
+菸	ie1
 胭	ie1
 閹	ie1
 醃	ie1
+腌	ie1
 焉	ie1
 淹	ie1
 俺	ie1
@@ -1777,15 +1831,17 @@ use_preset_vocabulary: true
 卦	kua5
 掛	kua5
 夸	khua1
+誇	khua1
 快	khua5
 跨	khua5
 歪	hua1
 花	hua1
-哗	hua1
+譁	hua1
+嘩	hua1
 化	hua5
 槐	wa2
 划	wa2
-华	wa2
+華	wa2
 瓦	wa4
 畫	wa6
 話	wa6
@@ -1859,6 +1915,7 @@ use_preset_vocabulary: true
 篡	tshoe5
 纂	tshoe5
 酸	soe1
+痠	soe1
 閂	soe1
 椹	soe3
 閃	soe3
@@ -1886,6 +1943,7 @@ use_preset_vocabulary: true
 麝	zoe6
 篆	zoe6
 乾	koe1
+干	koe1
 肝	koe1
 竿	koe1
 甘	koe1
@@ -1922,6 +1980,7 @@ use_preset_vocabulary: true
 鞍	oe1
 諳	oe3
 暗	oe5
+闇	oe5
 案	oe5
 諳	oe5
 官	kuoe1
@@ -1962,6 +2021,7 @@ use_preset_vocabulary: true
 涓	cioe1
 娟	cioe1
 卷	cioe3
+捲	cioe3
 絹	cioe5
 眷	cioe5
 卷	cioe5
@@ -2112,6 +2172,7 @@ use_preset_vocabulary: true
 韶	zau2
 饒	zau2
 皂	zau4
+皁	zau4
 造	zau4
 趙	zau4
 肇	zau4
@@ -2168,6 +2229,7 @@ use_preset_vocabulary: true
 飆	piau1
 彪	piau1
 表	piau3
+錶	piau3
 裱	piau3
 飄	phiau1
 瞟	phiau3
@@ -2289,6 +2351,7 @@ use_preset_vocabulary: true
 腰	iau1
 妖	iau1
 肴	iau1
+餚	iau1
 淆	iau1
 夭	iau1
 妖	iau1
@@ -2493,6 +2556,7 @@ use_preset_vocabulary: true
 能	len2
 棱	len2
 論	len2
+侖	len2
 崙	len2
 崘	len2
 倫	len2
@@ -2520,10 +2584,12 @@ use_preset_vocabulary: true
 貞	tsen1
 疹	tsen3
 准	tsen3
+準	tsen3
 枕	tsen3
 整	tsen3
 證	tsen3
 症	tsen3
+癥	tsen3
 診	tsen3
 正	tsen5
 鎮	tsen5
@@ -2557,6 +2623,7 @@ use_preset_vocabulary: true
 牲	sen1
 甥	sen1
 聲	sen1
+升	sen1
 昇	sen1
 陞	sen1
 森	sen1
@@ -2576,6 +2643,7 @@ use_preset_vocabulary: true
 辰	zen2
 晨	zen2
 唇	zen2
+脣	zen2
 蹲	zen2
 存	zen2
 成	zen2
@@ -2637,9 +2705,9 @@ use_preset_vocabulary: true
 冰	pin1
 彬	pin1
 斌	pin1
-宾	pin1
-槟	pin1
-膑	pin1
+賓	pin1
+檳	pin1
+臏	pin1
 餅	pin3
 丙	pin3
 秉	pin3
@@ -2662,6 +2730,7 @@ use_preset_vocabulary: true
 貧	bin2
 頻	bin2
 蘋	bin2
+苹	bin2
 評	bin2
 萍	bin2
 憑	bin2
@@ -2808,6 +2877,7 @@ use_preset_vocabulary: true
 覲	jin2
 近	jin4
 盡	jin4
+儘	jin4
 靜	jin4
 蕈	jin4
 靖	jin4
@@ -2855,6 +2925,7 @@ use_preset_vocabulary: true
 潁	yin2
 穎	yin2
 幸	yin2
+倖	yin2
 引	yin4
 蚓	yin4
 杏	yin4
@@ -2867,6 +2938,7 @@ use_preset_vocabulary: true
 音	in1
 陰	in1
 蔭	in1
+廕	in1
 英	in1
 鶯	in1
 嬰	in1
@@ -2897,6 +2969,7 @@ use_preset_vocabulary: true
 崑	khuen1
 崐	khuen1
 捆	khuen3
+困	khuen5
 睏	khuen5
 昏	huen1
 婚	huen1
@@ -2921,6 +2994,7 @@ use_preset_vocabulary: true
 浚	ciun5
 裙	jiun2
 群	jiun2
+羣	jiun2
 郡	jiun2
 薰	shiun1
 醺	shiun1
@@ -2929,6 +3003,7 @@ use_preset_vocabulary: true
 訓	shiun5
 旬	shiun5
 云	yun2
+雲	yun2
 耘	yun2
 允	iun1
 運	iun5
@@ -2993,6 +3068,7 @@ use_preset_vocabulary: true
 常	zan2
 裳	zan2
 嘗	zan2
+嚐	zan2
 丈	zan4
 杖	zan4
 剩	zan6
@@ -3013,7 +3089,7 @@ use_preset_vocabulary: true
 行	ghan2
 杏	ghan4
 硬	ghan6
-樱	an1
+櫻	an1
 雁	an5
 孃	gnian1
 娘	gnian2
@@ -3024,6 +3100,7 @@ use_preset_vocabulary: true
 量	lian2
 糧	lian2
 梁	lian2
+樑	lian2
 粱	lian2
 兩	lian4
 魎	lian4
@@ -3032,9 +3109,11 @@ use_preset_vocabulary: true
 諒	lian6
 姜	cian1
 僵	cian1
+殭	cian1
 漿	cian1
 疆	cian1
 韁	cian1
+繮	cian1
 姜	cian1
 將	cian1
 江	cian1
@@ -3154,7 +3233,9 @@ use_preset_vocabulary: true
 塘	daon2
 搪	daon2
 蕩	daon4
+盪	daon4
 蕩	daon6
+盪	daon6
 宕	daon6
 郎	laon2
 榔	laon2
@@ -3184,6 +3265,7 @@ use_preset_vocabulary: true
 喪	saon1
 爽	saon3
 床	zaon2
+牀	zaon2
 尚	zaon2
 徜	zaon2
 償	zaon2
@@ -3265,6 +3347,7 @@ use_preset_vocabulary: true
 酆	fon1
 封	fon1
 峰	fon1
+峯	fon1
 鋒	fon1
 烽	fon1
 諷	fon1
@@ -3322,6 +3405,7 @@ use_preset_vocabulary: true
 盅	tson1
 棕	tson1
 眾	tson1
+衆	tson1
 宗	tson1
 鐘	tson1
 鍾	tson1
@@ -3331,10 +3415,12 @@ use_preset_vocabulary: true
 總	tson3
 種	tson3
 粽	tson5
+糉	tson5
 中	tson5
 種	tson5
 趴	tson5
 塚	tson5
+冢	tson5
 囪	tshon1
 蔥	tshon1
 充	tshon1
@@ -3409,7 +3495,7 @@ use_preset_vocabulary: true
 瓊	jion2
 凶	shion1
 胸	shion1
-凶	shion1
+兇	shion1
 兄	shion1
 雄	yon2
 熊	yon2
@@ -3424,7 +3510,9 @@ use_preset_vocabulary: true
 熒	yon2
 勇	ion3
 湧	ion3
+涌	ion3
 踴	ion3
+踊	ion3
 甬	ion3
 擁	ion3
 永	ion3
@@ -3447,6 +3535,7 @@ use_preset_vocabulary: true
 麥	maq8
 脈	maq8
 發	faq7
+髮	faq7
 法	faq7
 罰	vaq8
 搭	taq7
@@ -3471,10 +3560,10 @@ use_preset_vocabulary: true
 臘	laq8
 蠟	laq8
 攔	laq8
-紮	tsaq7
+扎	tsaq7
 著	tsaq7
 窄	tsaq7
-只	tsaq7
+隻	tsaq7
 紮	tsaq7
 劄	tsaq7
 酌	tsaq7
@@ -3521,7 +3610,7 @@ use_preset_vocabulary: true
 瞎	haq7
 嚇	haq7
 喝	haq7
-𫜰	ghaq8
+齾	ghaq8
 額	ghaq8
 狹	ghaq8
 匣	ghaq8
@@ -3565,6 +3654,7 @@ use_preset_vocabulary: true
 轄	shiaq7
 嚇	shiaq7
 藥	yaq8
+葯	yaq8
 鑰	yaq8
 協	yaq8
 俠	yaq8
@@ -3587,6 +3677,7 @@ use_preset_vocabulary: true
 斡	uaq7
 撥	peq7
 缽	peq7
+鉢	peq7
 伯	peq7
 柏	peq7
 潑	pheq7
@@ -3635,6 +3726,7 @@ use_preset_vocabulary: true
 側	tseq7
 織	tseq7
 摺	tseq7
+折	tseq7
 質	tseq7
 桎	tseq7
 窒	tseq7
@@ -3651,6 +3743,7 @@ use_preset_vocabulary: true
 則	tseq7
 執	tseq7
 出	tsheq7
+齣	tsheq7
 撮	tsheq7
 吃	tsheq7
 叱	tsheq7
@@ -3671,8 +3764,10 @@ use_preset_vocabulary: true
 識	seq7
 塞	seq7
 濕	seq7
+溼	seq7
 十	seq7
 虱	seq7
+蝨	seq7
 失	seq7
 室	seq7
 率	seq7
@@ -3791,7 +3886,7 @@ use_preset_vocabulary: true
 入	gniq8
 暱	gniq8
 臬	gniq8
-𫜩	gniq8
+齧	gniq8
 涅	gniq8
 逆	gniq8
 匿	gniq8
@@ -3800,6 +3895,7 @@ use_preset_vocabulary: true
 業	gniq8
 鄴	gniq8
 栗	liq8
+慄	liq8
 捩	liq8
 靂	liq8
 瀝	liq8
@@ -3814,6 +3910,7 @@ use_preset_vocabulary: true
 烈	liq8
 冽	liq8
 曆	liq8
+歷	liq8
 礫	liq8
 笠	liq8
 卿	ciq7
@@ -3833,12 +3930,15 @@ use_preset_vocabulary: true
 桔	ciq7
 積	ciq7
 跡	ciq7
+蹟	ciq7
 戟	ciq7
 七	chiq7
 漆	chiq7
 切	chiq7
 乞	chiq7
 戚	chiq7
+慼	chiq7
+鏚	chiq7
 吃	chiq7
 喫	chiq7
 泣	chiq7
@@ -3852,6 +3952,7 @@ use_preset_vocabulary: true
 席	jiq8
 桀	jiq8
 傑	jiq8
+杰	jiq8
 絕	jiq8
 疾	jiq8
 竭	jiq8
@@ -3862,6 +3963,7 @@ use_preset_vocabulary: true
 夕	jiq8
 汐	jiq8
 席	jiq8
+蓆	jiq8
 寂	jiq8
 極	jiq8
 集	jiq8
@@ -3949,7 +4051,7 @@ use_preset_vocabulary: true
 服	voq8
 伏	voq8
 菔	voq8
-複	voq8
+復	voq8
 匐	voq8
 縛	voq8
 啄	toq7
@@ -3994,6 +4096,7 @@ use_preset_vocabulary: true
 斮	tsoq7
 竺	tsoq7
 築	tsoq7
+筑	tsoq7
 祝	tsoq7
 屬	tsoq7
 矚	tsoq7
@@ -4071,6 +4174,7 @@ use_preset_vocabulary: true
 鑊	ghoq8
 活	ghoq8
 核	ghoq8
+覈	ghoq8
 葫	ghoq8
 猢	ghoq8
 愕	ghoq8
@@ -4079,11 +4183,14 @@ use_preset_vocabulary: true
 噩	ghoq8
 萼	ghoq8
 獲	ghoq8
+穫	ghoq8
 蠖	ghoq8
 岳	ghoq8
+嶽	ghoq8
 獄	ghoq8
 屋	oq7
-恶	oq7
+惡	oq7
+噁	oq7
 沃	oq7
 渥	oq7
 握	oq7
@@ -4095,27 +4202,28 @@ use_preset_vocabulary: true
 橘	cioq7
 瘚	cioq7
 鞠	cioq7
-觉	cioq7
+覺	cioq7
 角	cioq7
 孓	cioq7
 厥	cioq7
-决	cioq7
-诀	cioq7
+決	cioq7
+訣	cioq7
 抉	cioq7
 攫	cioq7
 曲	chioq7
 缺	chioq7
 曲	chioq7
-确	chioq7
+確	chioq7
 榷	chioq7
-阙	chioq7
-阕	chioq7
+闕	chioq7
+闋	chioq7
 局	jioq8
 掘	jioq8
-轴	jioq8
+軸	jioq8
 逐	jioq8
 妯	jioq8
 局	jioq8
+侷	jioq8
 倔	jioq8
 崛	jioq8
 血	shioq7
@@ -4134,6 +4242,7 @@ use_preset_vocabulary: true
 煜	yoq8
 獄	yoq8
 欲	yoq8
+慾	yoq8
 岳	yoq8
 嶽	yoq8
 悅	yoq8
@@ -4145,10 +4254,10 @@ use_preset_vocabulary: true
 域	yoq8
 熨	ioq7
 鬱	ioq7
+郁	ioq7
 毓	ioq7
 育	ioq7
 鬻	ioq7
 聿	ioq7
 鷸	ioq7
 粵	ioq7
-	
