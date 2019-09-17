@@ -42,11 +42,19 @@ For related materials of the collected schemas, such as tutorials, schema white 
 
 <h2>使用教程</br>Tutorial</h2>
 
+<h3>項目網站</br>Project website</h3>
+
+關於如何使用方言拼音打字，請參考此網站：
+
+For detailed steps with explanations on how to type Chinese characters with these schemas, please visit this website (simplified Chinese only):
+
+<center><a href="http://www.hanhngiox.net"><font size="30"><b>漢語方言拼音輸入 HanhNgiox.net</b></font></a></center>
+
 <h3>克隆此倉庫<br/>Clone this repo</h3>
 
 由於本倉庫體積過大，推薦運行以下命令來略過所有歷史記錄，僅克隆最新版的內容：
 
-Considering the huge size of this repo, it is recommmended to run the following commmand to skip all historical versions, cloning only the latest version of this repo:
+Considering the huge size of this repo, it is recommended to run the following command to skip all historical versions, cloning only the latest version of this repo:
 
 ```bash
 git clone --depth=1 https://github.com/laubonghaudoi/Chinese_Rime.git
@@ -54,33 +62,36 @@ git clone --depth=1 https://github.com/laubonghaudoi/Chinese_Rime.git
 
 然後運行以下命令將全部子模塊內容克隆到本地：
 
-Then run the following command to clone all submodules into this repo:
+Then run the following command to clone all submodules into the repo:
 
 ```bash
 git submodule update --init --recursive
 ```
 
-<h3>項目網站</br>Project website</h3>
+<h3>更新碼錶</br>Update schemas</h3>
 
-關於如何使用方言拼音打字，請參考此網站：
+首先確保子模塊中內容已經克隆到本地，然後`cd`到`script/`下，運行以下命令來更新子模塊及下載包內方案文件：
 
-For detailed steps with explanations on how to type Chinese characters with these schemas, please visit this website (Chinese only):
+First make sure you have cloned all submodules to local, then `cd` to `script/` and run the following commands to update all submodules and schema files in the download package:
 
-<center><a href="http://www.hanhngiox.net"><font size="30"><b>漢語方言拼音輸入 HanhNgiox.net</b></font></a></center>
-
-要更新子模塊，首先`cd`到`script/`下，然後運行`./update_submodules.sh`（你可能需要先`chmod +x update_submodules.sh`）来更新子模塊。運行`python update_download.py`来更新下載版碼表。
-
-To update the schema files in  the `download/` and `sources/` directories, first make sure you have cloned all submodules to local, then `cd` to `directory/`. Then run `./update_submodules.sh` (you might need to `chmod +x update_submodules.sh` first) to update the submodules, and run `python update_download.py` to update the download package.
+```bash
+# Update all submodules
+chmod +x update_submodules.sh
+./update_submodules.sh
+# Update schema files in /download
+python update_download.py
+```
 
 <h2>已收錄方案</br>Collected schemas</h2>
 
-目前學界對漢語方言分類歸類問題仍存較大分歧。常見的分類方式有傳統的七分法、《中國語言地圖集》的十分法和ISO國際標準的十三分法等。若使用傳統分法，則現代漢語族下分七大語支，官吳贛湘粵客閩。若採用《中國語言地圖集》之十分法，則晉語獨立於官話成一支，徽語獨立於吳語成一支，平話獨立於粵語成一支。若採用ISO標準的十三分法，則平話從屬於粵語，而閩語則細分爲閩北、閩南、閩東、閩中、莆仙五支，另外中古漢語和上古漢語各計作一門語言。
+目前學界對漢語方言分類歸類問題仍存較大分歧。常見的分類方式有傳統的七分法、《中國語言地圖集》的十
+分法和ISO國際標準的十三分法等。若使用傳統分法，則現代漢語族下分七大語支，官吳贛湘粵客閩。若採用《中國語言地圖集》之十分法，則晉語獨立於官話成一支，徽語獨立於吳語成一支，平話獨立於粵語成一支。若採用ISO 693-3標準的十三分法，則平話從屬於粵語，而閩語則細分爲閩北、閩南、閩東、閩中、莆仙五支，另外中古漢語和上古漢語各計作一門語言。
 
-It has been an unsettled issue in the academia on the taxonomy for Chinese languages.  For instance, the traditional way (Jerry Norman 1988) puts Chinese languages into seven groups: Mandarin, Wu, Gan, Xiang, Cantonese, Hakka, Min, while the *Language Atlas of China* classifies them into 10 groups, seperating Jin, Huizhou and Pinghua from Mandarin, Wu and Cantonese as independent languages. And the ISO standard keeps Pinghua within Cantonese while further divides Min into Northen, Southern, Eastern, Central and Pu-Xian branches.
+The taxonomy for Chinese languages and dialects has been an unsettled issue in the academia. The traditional way (Jerry Norman 1988) puts Chinese languages into seven groups: Mandarin, Wu, Gan, Xiang, Cantonese, Hakka, Min, while the *Language Atlas of China* classifies them into 10 groups, seperating Jin, Huizhou and Pinghua from Mandarin, Wu and Cantonese as independent languages. And the ISO 693-3 standard keeps Pinghua within Cantonese while further divides Min into Northern, Southern, Eastern, Central and Pu-Xian branches.
 
 爲提高本項目可讀性和後續可維護性，本項目採用ISO標準的十三分法。此標準僅作參考，非最佳標準。若對此分類方式有任何疑問或意見，歡迎新開一個issue發起討論。下表爲此標準下各語言所對應的ISO 639-3代碼：
 
-Considering the readability and maintainability of this project, here we adopt the ISO taxonomy system. This is for reference only and by no means the gold standard. If you have any questions or opinions about this, feel free to open a new issue for discussion. The following table shows the ISO 639-3 codes for these languages.
+Considering the readability and maintainability of this project, here we adopt the ISO 693-3 system. This is for reference only and by no means the gold standard. If you have any questions or suggestions about this, feel free to open a new issue for discussion. The following table shows the ISO 639-3 codes for these languages.
 
 
 | 上古漢語 Old Chinese | 中古漢語 Middle Chinese | 官話 Mandarin | 晉語 Jin | 吳語 Wu | 徽語 Huizhou | 贛語 Gan | 湘語 Xiang | 閩北語 Northern Min | 閩南語 Southern Min | 閩東語 Eastern Min| 閩中語 Central Min| 莆仙語 Pu-Xian Min | 客家話 Hakka | 粵語 Yue|
@@ -89,7 +100,7 @@ Considering the readability and maintainability of this project, here we adopt t
 
 目前**暫缺閩北語、閩中語、徽語、贛語、湘語**的輸入方案。如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或新開一個issue以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
-Right now we are still **missing the schemas for Northern Min, Central Min,  Huizhou, Gan, Xiang**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or open a new issue to include it to the collection. Schemas for other Chinese languages are also highly welcomed.
+Right now we are still **missing the schemas for Northern Min, Central Min,  Huizhou, Gan, Xiang**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or open a new issue to add it to the collection. Schemas for other Chinese languages are also highly welcomed.
 
 以下爲方案總表和配方列表。其中配方以符號℞標識。
 
