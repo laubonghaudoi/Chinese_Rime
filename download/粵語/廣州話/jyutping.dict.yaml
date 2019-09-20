@@ -8,7 +8,7 @@
 
 ---
 name: jyutping
-version: "2018.04.17"
+version: "2019.09.22"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -33,13 +33,9 @@ min_phrase_weight: 100
 䳬	zim
 丫	aa
 亚	aa
-亚	ngaa
 亞	aa
-亞	ngaa
 厂	aa
 厂	hon
-厊	aa
-厊	ngaa
 呀	aa
 咓	aa
 哑	aa
@@ -49,21 +45,17 @@ min_phrase_weight: 100
 嗄	aa
 嗄	saa
 埡	aa
-埡	ngaa
 娅	aa
 婭	aa
 挜	aa
 掗	aa
-掗	ngaa
 椏	aa
-椏	ngaa
 氩	aa
 氬	aa
 痖	aa
 瘂	aa
 襾	aa
 襾	kaa
-那	aa
 那	naa
 那	no
 錏	aa
@@ -73,10 +65,7 @@ min_phrase_weight: 100
 阿	aa
 阿	aak
 阿	o
-雅	aa
-雅	ngaa
 鴉	aa
-鴉	ngaa
 鸦	aa
 𠮩	aa
 𠮩	liu
@@ -102,22 +91,14 @@ min_phrase_weight: 100
 唉	oi
 埃	aai
 埃	oi
-娭	aai
-娭	ngaai
-娭	oi
 欸	aai
 欸	ei
 欸	oi
-矮	aai
 矮	ai
-矮	ngai
 誒	aai
 誒	e
 誒	ei
 誒	oi
-譺	aai
-譺	jik
-譺	ngaai
 诶	aai
 诶	ei
 诶	oi
@@ -126,7 +107,6 @@ min_phrase_weight: 100
 餲	aat
 㧖	aak
 㧖	ak
-㧖	zim
 䝈	aak
 䝈	ak
 䠎	aak
@@ -141,18 +121,16 @@ min_phrase_weight: 100
 呃	ak	1000
 扼	aak
 扼	ak
+阨	aak
+阨	ak
 握	aak
 握	ak
 搹	aak
-搹	ngak
+搹	ak
 軛	aak
-軛	ngaak
 軶	aak
-軶	ngaak
 轭	aak
-轭	ngaak
 鈪	aak
-鈪	ngaak
 齷	aak
 齷	ak
 龌	aak
@@ -183,15 +161,9 @@ min_phrase_weight: 100
 䳺	an
 菡	aam
 菡	haam
-贋	aam
-贋	am
-贋	ngaam
-贋	ngam
-贋	ngan
+贋	ngaan
 晏	aan
-晏	ngaan	1000
 鴳	aan
-鴳	ngaan
 鷃	aan
 䓨	aang
 䞷	aang
@@ -205,19 +177,13 @@ min_phrase_weight: 100
 押	aap
 押	aat
 鴨	aap
-鴨	ngaap
 鸭	aap
-鸭	ngaap
 压	aat
-压	ngaat
 嚈	aat
 嚈	jip
 堨	aat
-堨	ngaat
-堨	ngoi
 堨	oi
 壓	aat
-壓	ngaat
 恝	aat
 恝	gaat
 戛	aat
@@ -230,7 +196,6 @@ min_phrase_weight: 100
 歹	daai
 猒	aat
 猒	jim
-猒	ngaat
 遏	aat
 遏	kit
 閼	aat
@@ -239,9 +204,7 @@ min_phrase_weight: 100
 阏	jin
 頞	aat
 齃	aat
-齃	ngaat
-詏	aau	1000
-詏	ngaau
+詏	aau
 㔚	aau
 㔚	haau
 㕭	aau
@@ -280,24 +243,19 @@ min_phrase_weight: 100
 抓	zaau
 抝	aau
 拗	aau
-拗	ngaau
 靿	aau
-靿	ngaau
 䅬	ai
 嫕	ai
 嫕	ji
 屭	ai
 屭	hei
 曀	ai
-曀	ngai
 縊	ai
 缢	ai
 翳	ai
 翳	ji
 豷	ai
-豷	ngai
 躷	ai
-躷	ngai
 㬬	ak
 㬬	geoi
 偓	ak
@@ -308,9 +266,6 @@ min_phrase_weight: 100
 搤	ak
 渥	ak
 腛	ak
-腛	ngak
-阨	ak
-阨	ngak
 餩	ak
 唵	am
 啽	am
@@ -328,26 +283,20 @@ min_phrase_weight: 100
 掩	am
 掩	jim
 揞	am
-揞	ngam
 晻	am
 暗	am
-暗	ngam
 盦	am
 腤	am
-腤	ngam
 菴	am
 諳	am
 谙	am
 闇	am
 韽	am
-韽	ngam
 鵪	am
 鹌	am
 黭	am
 黭	jim
 黯	am
-𡁏	am
-𡁏	ngam
 㜝	an
 䞁	an
 䞁	zan
@@ -371,8 +320,6 @@ min_phrase_weight: 100
 莺	ang
 鞥	ang
 鶯	ang
-噏	ap
-噏	ngap
 洽	ap
 洽	haap
 洽	hap
@@ -410,8 +357,7 @@ min_phrase_weight: 100
 䋁	au
 䋁	gaang
 䫜	au
-勾	au
-勾	gau
+勾	gau	3%
 勾	ngau
 区	au
 区	keoi
@@ -423,9 +369,7 @@ min_phrase_weight: 100
 敺	keoi
 櫙	au
 欧	au
-欧	ngau
 歐	au
-歐	ngau
 殴	au
 毆	au
 沤	au
@@ -436,15 +380,9 @@ min_phrase_weight: 100
 甌	au
 謳	au
 讴	au
-鉤	au
-鉤	gau
-鉤	ngau
 鏂	au
-鏂	ngau
 鷗	au
 鸥	au
-𩥋	au
-𩥋	ngau
 㞎	baa
 㞎	paa
 㳒	baa
@@ -1815,7 +1753,7 @@ min_phrase_weight: 100
 岔	caa
 差	caa
 差	caai	300%
-差	ci
+差	ci	3%
 扠	caa
 搽	caa
 杈	caa
@@ -2441,7 +2379,7 @@ min_phrase_weight: 100
 辴	can
 陈	can
 陳	can
-陳	zan
+陳	zan	0%
 齔	can
 龀	can
 㓌	cang
@@ -3648,7 +3586,7 @@ min_phrase_weight: 100
 初	co
 剉	co
 坐	co
-坐	zo
+坐	zo	3%
 媰	co
 媰	zau
 嵯	co
@@ -4577,7 +4515,7 @@ min_phrase_weight: 100
 匰	daan
 单	daan
 單	daan
-單	sin
+單	sin	3%
 弹	daan
 弹	taan
 彈	daan
@@ -7671,7 +7609,7 @@ min_phrase_weight: 100
 勼	gau
 勼	kau
 厩	gau
-句	gau
+句	gau	3%
 句	geoi
 咎	gau
 咎	gou
@@ -7740,9 +7678,11 @@ min_phrase_weight: 100
 購	kau
 购	gau
 遘	gau
-鈎	gau
+鈎	gau	3%
 鈎	ngau
-钩	gau
+鉤	gau	3%
+鉤	ngau
+钩	gau	3%
 钩	ngau
 阄	gau
 雊	gau
@@ -10032,7 +9972,7 @@ min_phrase_weight: 100
 硁	hang
 硜	hang
 肯	hang
-肯	hoi
+肯	hoi	0%
 胻	hang
 脝	hang
 茎	hang
@@ -10628,7 +10568,7 @@ min_phrase_weight: 100
 儗	ji
 凯	hoi
 凱	hoi
-凱	ngoi
+凱	ngoi	0%
 剀	hoi
 剴	hoi
 咍	hoi
@@ -11451,8 +11391,8 @@ min_phrase_weight: 100
 喏	je
 埜	je
 夜	je
-射	je
-射	jik
+射	je	0%
+射	jik	0%
 射	se
 惹	je
 捓	je
@@ -11527,7 +11467,7 @@ min_phrase_weight: 100
 亄	ji
 二	ji
 以	ji
-以	jyu
+以	jyu	0%
 仪	ji
 伊	ji
 佁	ji
@@ -11539,13 +11479,13 @@ min_phrase_weight: 100
 偯	ji
 儀	ji
 兒	ji
-兒	ngai
+兒	ngai	0%
 刵	ji
 劓	ji
 勚	ji
 匜	ji
 医	ji
-台	ji
+台	ji	0%
 台	toi
 吚	ji
 咡	ji
@@ -16940,7 +16880,9 @@ min_phrase_weight: 100
 枒	ngaa
 桠	ngaa
 牙	ngaa
+厊	ngaa
 犽	ngaa
+雅	ngaa
 瓦	ngaa
 疋	ngaa
 疋	pat
@@ -16966,6 +16908,8 @@ min_phrase_weight: 100
 䋙	zi
 䐖	ngaai
 䐖	zi
+譺	ngaai
+譺	jik
 䘽	ngaai
 䝘	ngaai
 䡾	ngaai
@@ -17017,6 +16961,7 @@ min_phrase_weight: 100
 鴈	ngaan
 硬	ngaang
 擪	ngaap
+擪	jip
 㐳	ngaat
 㞕	ngaat
 㞕	sit
@@ -17115,6 +17060,8 @@ min_phrase_weight: 100
 㚧	ngam
 㚧	zim
 扲	ngam
+𡁏	ngam
+𡁏	mung
 㘖	ngan
 䟴	ngan
 䟴	zaan
@@ -17136,6 +17083,8 @@ min_phrase_weight: 100
 㟁	ngang
 㟁	ngon
 䤝	ngang
+噏	ngap
+噏	kap
 砐	ngap
 兀	ngat
 卼	ngat
@@ -17164,6 +17113,7 @@ min_phrase_weight: 100
 蕅	ngau
 藕	ngau
 騳	ngau
+𩥋	ngau
 㓟	ngo
 㓟	pai
 㓟	pei
@@ -17203,15 +17153,6 @@ min_phrase_weight: 100
 㕌	ngoi
 㕌	zak
 外	ngoi
-外	oi
-愛	ngoi
-愛	oi
-氨	ngoi
-氨	on
-爱	ngoi
-爱	oi
-璦	ngoi
-璦	oi
 碍	ngoi
 礙	ngoi
 騃	ngoi
@@ -17227,19 +17168,11 @@ min_phrase_weight: 100
 䣞	ngok
 䫷	ngok
 咢	ngok
-噁	ngok
-噁	ok
 噩	ngok
 堮	ngok
 岳	ngok
 崿	ngok
 嶽	ngok
-恶	ngok
-恶	ok
-恶	wu
-惡	ngok
-惡	ok
-惡	wu
 愕	ngok
 櫮	ngok
 腭	ngok
@@ -17261,15 +17194,7 @@ min_phrase_weight: 100
 𩓥	ngok
 㸩	ngon
 䯃	ngon
-安	ngon
-安	on
 岸	ngon
-案	ngon
-案	on
-胺	ngon
-胺	on
-銨	ngon
-銨	on
 𩣑	ngon
 戇	ngong	1000
 戇	zong
@@ -17295,31 +17220,21 @@ min_phrase_weight: 100
 傲	ngou
 嗷	ngou
 奡	ngou
-嶴	ngou
-嶴	ou
 廒	ngou
 摮	ngou
-擙	ngou
-擙	ou
 敖	ngou
 滶	ngou
 熬	ngou
-爊	ngou
-爊	ou
 獒	ngou
 璈	ngou
 磝	ngou
 翱	ngou
 翺	ngou
 聱	ngou
-芺	ngou
-芺	ou
 螯	ngou
 謷	ngou
 遨	ngou
 鏊	ngou
-鏖	ngou
-鏖	ou
 隞	ngou
 驁	ngou
 骜	ngou
@@ -17329,13 +17244,6 @@ min_phrase_weight: 100
 鼇	ngou
 𢳆	ngou
 𦪈	ngou
-剭	nguk
-剭	uk
-屋	nguk
-屋	uk
-𡃵	ngung
-𢫨	ngung
-𢶜	ngung
 㥾	nik
 㲻	nik
 䁥	nik
@@ -17627,25 +17535,41 @@ min_phrase_weight: 100
 䨠	piu
 僾	oi
 哀	oi
+娭	oi
+娭	hei
 嗳	oi
 噯	oi
 壒	oi
 嫒	oi
 嬡	oi
+璦	oi
 暧	oi
 曖	oi
 毐	oi
 瑷	oi
 瞹	oi
 蔼	oi
+愛	oi
+爱	oi
 薆	oi
 藹	oi
 鑀	oi
 霭	oi
 靄	oi
 靉	oi
+噁	ok
+噁	wu
+恶	ok
+恶	wu
+惡	ok
+惡	wu
 垩	ok
 堊	ok
+安	on
+氨	on
+胺	on
+胺	aat
+案	on
 㫨	on
 䀂	on
 䅁	on
@@ -17657,6 +17581,7 @@ min_phrase_weight: 100
 盎	on
 盎	ong
 铵	on
+銨	on
 鞌	on
 鞍	on
 㼜	ong
@@ -17672,6 +17597,7 @@ min_phrase_weight: 100
 㟅	ou
 㟅	zoeng
 㤇	ou
+芺	ou
 㩠	ou
 㾮	ou
 㾮	wong
@@ -17688,13 +17614,20 @@ min_phrase_weight: 100
 媼	ou
 媼	wan
 岙	ou
+擙	ou
 懊	ou
 袄	ou
 襖	ou
 鏕	ou
 镺	ou
+嶴	ou
 𥜌	ou
 𩼈	ou
+爊	ou
+爊	ngou	3%
+爊	ngaau	3%
+鏖	ou
+鏖	ngou	6%
 䎬	paa
 䎱	paa
 帊	paa
@@ -21059,7 +20992,12 @@ min_phrase_weight: 100
 脫	tyut
 脱	tyut
 莌	tyut
+屋	uk
+剭	uk
 瓮	ung
+𡃵	ung
+𢫨	ung
+𢶜	ung
 齆	ung
 汙	waa	0%
 汙	wu
@@ -24454,6 +24392,7 @@ talk	tok
 van	wen
 可汗	hak hon
 什麼	sam mo
+
 # 粵語用詞
 亞爸	aa baa
 亞保亞勝	aa bou aa sing
@@ -24567,7 +24506,7 @@ IP	ai pi
 弊傢伙
 跛腳佬	bai goek lou
 弊喇
-閉翳	bai ngai
+閉翳	bai ai
 跛手	bai sau
 北便	bak bin
 北芪
@@ -24616,8 +24555,8 @@ IP	ai pi
 畀錢	bei cin
 畀錢我	bei cin ngo
 痺到死	bei dou sei
-畀翻
-畀翻錢	bei faan cin
+畀返
+畀返錢	bei faan cin
 畀非士
 比堅尼	bei gin nei
 鼻哥
@@ -24677,10 +24616,10 @@ BB機	bi bi gei
 逼巴士
 逼到鬼噉	bik dou gwai gam
 逼到埋身	bik dou maai san
-逼過嚟	bik gwo lei
+逼過嚟
 逼冚嗮
 逼入去
-逼嚟逼去	bik lei bik heoi
+逼嚟逼去
 辨別
 辯方
 邊個噶
@@ -24693,7 +24632,7 @@ BB機	bi bi gei
 辮仔	bin zai
 邊種
 乒乓波	bing bam bo
-咇出嚟	bit ceot lei
+咇出嚟
 標青	biu ceng
 標簽
 標汗
@@ -24733,7 +24672,7 @@ BB機	bi bi gei
 搏一鋪
 撲嘢	bok je
 犦落去	bok lok heoi
-犦落嚟	bok lok lei
+犦落嚟
 搏老命	bok lou meng
 搏亂
 搏命噉走	bok meng gam zau
@@ -24756,7 +24695,7 @@ BB機	bi bi gei
 綁纈	bong lit
 幫唔到	bong m dou
 幫唔到手	bong m dou sau
-幫我check吓呢班機仲有冇位	bong ngo cek haa ni baan gei zung jau mou wai
+幫我check吓呢班機仲有冇位	bong ngo cek haa nei baan gei zung jau mou wai
 磅水
 寶貝仔	bou bui zai
 煲茶
@@ -24794,14 +24733,14 @@ book位
 book酒店
 半親疏
 本地薑唔辣	bun dei goeng m laat
-搬翻
+搬返
 半肥瘦
 半公私
 半鹹淡	bun haam taam
 搬入
 本來
 本銀
-搬屋	bun nguk
+搬屋	bun uk
 半生熟	bun saang suk
 半世人
 半新舊
@@ -24982,7 +24921,7 @@ check吓啲貨	cek haa di fo
 出啖氣
 出得廳堂
 出碟
-出翻嚟	ceot faan lei
+出返嚟
 出街
 出街買嘢
 出街食
@@ -24995,8 +24934,8 @@ check吓啲貨	cek haa di fo
 出去行吓	ceot heoi haang haa
 出去蒲
 出煙
-出嚟	ceot lei
-出嚟行	ceot lei haang
+出嚟
+出嚟行
 出貓	ceot maau
 出膿
 出世紙
@@ -25027,7 +24966,7 @@ check吓啲貨	cek haa di fo
 慈善活動
 雌性動物
 似足	ci zuk
-撍出嚟	cim ceot lei
+撍出嚟
 僭建	cim gin
 簽牙
 簽注
@@ -25071,13 +25010,13 @@ cheap嘢
 初一流流
 坐月	co jyut
 坐企身	co kei san
-初嚟甫到	co lei bou dou
+初嚟甫到
 坐唔定	co m ding
 坐食山崩	co sik saan bang
 鋤書
 長春藤	coeng ceon tang
 暢錢	coeng cin
-搶翻	coeng faan
+搶返	coeng faan
 長氣	coeng hei
 長氣袋	coeng hei doi
 長吁短歎	coeng heoi dyun taan
@@ -25111,7 +25050,7 @@ cheap嘢
 躁火
 草秸
 嘈交
-嘈起上嚟	cou hei soeng lei
+嘈起上嚟
 嘈喧巴閉
 儲郵票	cou jau piu
 儲埋	cou maai
@@ -25161,7 +25100,7 @@ cheap嘢
 打出腳骨
 打千秋
 打錯電話	daa co din waa
-打大翻
+打大返
 打大交
 打低
 打突
@@ -25172,7 +25111,7 @@ cheap嘢
 打掂寫
 打倒掟
 打倒掟放	daa dou deng
-打翻電話
+打返電話
 打風
 打格仔	daa gaak zai
 打攪嗮
@@ -25212,7 +25151,7 @@ cheap嘢
 打橫寫	daa waang
 打橫放	daa waang
 打橫瞓
-打橫嚟	daa waang lei
+打橫嚟
 打橫睇
 打掣	daa zai
 打震
@@ -25316,8 +25255,7 @@ cheap嘢
 單對單	daan deoi daan
 疍家
 蛋捲
-但係
-單係	daan hai
+但係	daan hai
 撢去灰塵	daan heoi fui can
 撢人	daan jan
 單嘢	daan je
@@ -25360,7 +25298,7 @@ cheap嘢
 笪低
 笪落牀	daat lok cong
 笪落地	daat lok dei
-笪落嚟	daat lok lei
+笪落嚟
 笪生魚	daat saang jyu
 笪死	daat sei
 笪傷
@@ -25450,7 +25388,7 @@ cheap嘢
 等唔切	dang m cit
 等埋
 戥你難過	dang nei naan go
-等我嚟	dang ngo lei
+等我嚟
 等我睇吓	dang ngo tai haa
 燈暈
 凳仔	dang zai
@@ -25500,7 +25438,7 @@ cheap嘢
 糴糧食	dek loeng sik
 趯唔切	dek m cit
 掟煲
-釘翻粒紐	deng faan nap nau
+釘返粒紐	deng faan nap nau
 埞方
 掟球
 釘紐	deng nau
@@ -25511,11 +25449,11 @@ cheap嘢
 懟冧	deoi lam
 對唔住	deoi m zyu
 對埋
-對我嚟講	deoi ngo lei gong
+對我嚟講
 對鐘
 啲人	di jan
 啲朋友	di pang jau
-的起嚟	dik hei lei
+的起嚟
 的起心肝
 的而且確	dik ji ce kok
 的士佬
@@ -25565,7 +25503,7 @@ cheap嘢
 電話冇人聽	din waa mou jan teng
 頂得住	ding dak zyu
 定啲	ding di
-定啲嚟	ding di lei
+定啲嚟
 頂檔	ding dong
 頂夾	ding gaap
 丁咁多	ding gam do
@@ -25574,6 +25512,7 @@ cheap嘢
 定係	ding hai
 頂唔順	ding m seon
 頂唔住	ding m zyu
+頂硬上	ding ngaang soeng
 定嗮形	ding saai jing
 頂心杉	ding sam caam
 頂肚	ding tou
@@ -25581,14 +25520,14 @@ cheap嘢
 跌崩頭
 跌親
 跌低
-跌落地都要楋翻揸沙	dit dai laa faan zaa saa
+跌落地都要楋返揸沙	dit lok dei dou jiu laa faan zaa saa
 啲啲咁多	dit dit gam do
 啲咁多	dit gam do
 跌爛
 跌落地	dit lok dei
 跌落地下	dit lok dei haa
 跌落去	dit lok heoi
-跌落嚟	dit lok lei
+跌落嚟
 跌失
 跌咗
 吊吊揈	diu diu fing
@@ -25607,7 +25546,7 @@ cheap嘢
 剁肉	do juk
 多羅羅
 惰落	do lok
-惰落嚟	do lok lei
+惰落嚟
 多士爐
 多少少
 多謝嗮
@@ -25628,7 +25567,7 @@ cheap嘢
 當住
 當住佢講
 到埗
-倒出嚟	dou ceot lei
+倒出嚟
 都似
 賭檔
 度度	dou dou
@@ -25720,17 +25659,17 @@ AA制	ei ei zai
 飯缽
 飯鏟
 飯鏟頭
-翻抄
+返抄
 范疇
-翻草
+返草
 煩到死	faan dou sei
 翻風
 番梘	faan gaan
 番梘泡	faan gaan pou
 飯腳
 飯蓋	faan goi
-翻工
-翻公司
+返工
+返公司
 番鬼佬	faan gwai lou
 番鬼佬涼茶	faan gwai lou loeng caa
 番鬼妹	faan gwai mui
@@ -25739,26 +25678,26 @@ AA制	ei ei zai
 反骨無情
 反骨仔	faan gwat zai
 凡係
-翻去
-翻鄉下
-翻學
+返去
+返鄉下
+返學
 飯殼
 反應過渡
-翻企
+返企
 范例
-翻嚟	faan lei
-翻唔切	faan m cit
+返嚟
+返唔切	faan m cit
 反面唔認人	faan min m jing jan
-翻屋企	faan nguk kei
-翻嗮面
-翻生	faan saang
+返屋企	faan uk kei
+返嗮面
+返生	faan saang
 番薯糖	faan syu tong
-翻頭嫁
+返頭嫁
 飯枱
 飯湯	faan tong
 飯焦
 犯衆憎
-翻轉頭
+返轉頭
 法包
 發表偉論
 發花癲
@@ -25815,7 +25754,7 @@ AA制	ei ei zai
 瞓唔到	fan m dou
 瞓唔着	fan m zoek
 瞓唔着覺	fan m zoek gaau
-瞓晏覺	fan ngaan gaau
+瞓晏覺	fan aan gaau
 婚紗舖
 瞓衫
 分身家	fan san gaa
@@ -25896,7 +25835,8 @@ fax	fet si
 放入櫃桶
 放煙花
 放唔低	fong m dai
-放馬過嚟	fong maa gwo lei
+放馬過嚟
+方唔方便	fong m fong bin
 慌怕
 放怶
 慌失失
@@ -25991,7 +25931,7 @@ fax	fet si
 隔籬
 隔籬飯香
 隔籬鄰舍
-隔籬屋	gaak lei nguk
+隔籬屋	gaak lei uk
 革命知識份子	gaak ming zi sik fan zi
 隔渣
 格仔	gaak zai
@@ -26097,7 +26037,7 @@ fax	fet si
 雞蛋裏挑骨頭	gai daan leoi tiu gwat tau
 計掂	gai dim
 雞啄唔斷	gai doeng m tyun
-計翻條數	gai faan tiu sou
+計返條數	gai faan tiu sou
 雞噉腳	gai gam goek
 雞頸
 雞公
@@ -26121,14 +26061,14 @@ fax	fet si
 雞泡魚	gai pou jyu
 計嗮	gai saai
 雞腎
-雞手鴨腳	gai sau ngaap goek
+雞手鴨腳	gai sau aap goek
 計數機	gai sou gei
 計條數	gai tiu sou
 計仔	gai zai
 雞仔	gai zai
 雞胗
 計正	gai zeng
-咁遲先嚟	gam ci sin lei
+咁遲先嚟
 撳錢	gam cin
 咁串
 撳釘	gam deng
@@ -26165,7 +26105,7 @@ fax	fet si
 金鈪	gam ngaak
 咁啱
 咁啱嘅	gam ngaam ge
-咁晏	gam ngaan
+咁晏	gam aan
 今鋪
 金舖
 甘醇
@@ -26186,7 +26126,7 @@ fax	fet si
 跟尾狗
 近排	gan paai
 近住	gan zyu
-跟住落嚟	gan zyu lok lei
+跟住落嚟
 亘古以來	gang gu ji loi
 梗係	gang hai
 梗係啦	gang hai laa
@@ -26212,11 +26152,11 @@ fax	fet si
 趷起條尾	gat hei tiu mei
 拮肉	gat juk
 趷路	gat lou
-吉屋招租	gat nguk ziu zou
+吉屋招租	gat uk ziu zou
 吉身	gat san
 吉手
 舊底
-救翻
+救返
 九個字
 夠薑
 狗公
@@ -26346,24 +26286,25 @@ fax	fet si
 叫餸
 叫餸食飯	giu sung sik faan
 撬走	giu zau
-嗰便	go bin
+嗰邊	go bin
 個噃
 嗰次
 嗰單畸士	go daan kei si
 嗰啲	go di
 嗰啲嘢	go di je
 嗰度	go dou
+嗰道	go dou
 哥記
 嗰個
 嗰個係
 哥哥仔	go go zai
-嗰日
+嗰日	go jat
 嗰一晚
 個樣好得戚
 個囉
 嗰晚
 嗰排
-個心好翳	go sam hou ngai
+個心好翳	go sam hou ai
 個心十五十六
 嗰時
 嗰處	go syu
@@ -26374,7 +26315,8 @@ fax	fet si
 嗰陣
 嗰陣時
 嗰隻衰嘢	go zek seoi je
-嗰種
+個鐘	go zung
+嗰種	go zung
 腳板底
 腳板堂
 腳底按摩
@@ -26416,7 +26358,7 @@ fax	fet si
 講波
 講波佬
 港產片
-講出嚟	gong ceot lei
+講出嚟
 講錯嘢	gong co je
 工廠妹	gong cong mui
 講粗口
@@ -26428,7 +26370,7 @@ fax	fet si
 講到實牙實齒
 講到天花龍鳳
 講到話
-講翻轉頭
+講返轉頭
 講假
 講咁易咩	gong gam ji me
 講故
@@ -26436,7 +26378,7 @@ fax	fet si
 講吓笑啫	gong haa siu ze
 講口齒
 講起又講
-講起上嚟	gong hei soeng lei
+講起上嚟
 講開又講
 講好說話	gong hou syut waa
 講人事
@@ -26447,7 +26389,7 @@ fax	fet si
 講耶穌
 講爛口
 講漏嘴
-講嚟聽吓	gong lei teng haa
+講嚟聽吓
 鋼梁
 講落去	gong lok heoi
 港漫
@@ -26530,7 +26472,7 @@ fax	fet si
 公契	gung kai
 供樓
 公厘
-貢嚟貢去	gung lei gung heoi
+貢嚟貢去
 供旅客休息
 共勉之
 公平待遇	gung ping doi jyu
@@ -26621,7 +26563,7 @@ fax	fet si
 過幾日
 過骨
 過意得去
-過嚟	gwo lei
+過嚟
 過籠
 過時補水
 過樹榕
@@ -26695,8 +26637,8 @@ fax	fet si
 慳啲使	haan di sai
 慳電	haan din
 慳電膽	haan din daam
-慳翻
-慳翻啖氣	haan faan daam hei
+慳返
+慳返啖氣	haan faan daam hei
 慳雞	haan gai
 慳慳地喇	haan haan dei laa
 慳油	haan jau
@@ -26709,7 +26651,7 @@ fax	fet si
 行步路打倒褪	haang bou lou daa dou tan
 行出行入	haang ceot haang jap
 行出去	haang ceot heoi
-行出嚟	haang ceot lei
+行出嚟
 行得起	haang dak hei
 行得埋	haang dak maai
 行得正	haang dak zeng
@@ -26718,11 +26660,11 @@ fax	fet si
 行東行西	haang dung haang sai
 行花街	haang faa gaai
 行花市	haang faa si
-行翻去	haang faan heoi
+行返去	haang faan heoi
 行街	haang gaai
 行蠱惑	haang gu waak
 行公司	haang gung si
-行過嚟	haang gwo lei
+行過嚟
 行過籠	haang gwo lung
 行吓	haang haa
 行吓公司	haang haa gung si
@@ -26732,7 +26674,7 @@ fax	fet si
 行開咗	haang hoi zo
 行人路	haang jan lou
 行入去	haang jap heoi
-行入嚟	haang jap lei
+行入嚟
 行一步睇一步	haang jat bou tai jat bou
 行近路	haang kan lou
 坑渠
@@ -26741,7 +26683,7 @@ fax	fet si
 行唔開	haang m hoi
 行唔喐	haang m juk
 行唔埋	haang m maai
-行埋嚟	haang maai lei
+行埋嚟
 行萬里路	haang maan lei lou
 行山	haang saan
 行山徑	haang saan ging
@@ -26762,6 +26704,7 @@ fax	fet si
 係吖
 係呀
 係衙	hai aa
+喺邊	hai bin
 喺邊度	hai bin dou
 喺邊度	hoeng bin dou
 喺度	hai dou
@@ -26774,12 +26717,12 @@ fax	fet si
 係囉
 係路
 係唔係	hai m hai
-係咪
+係咪  hai mai
 係咪真嘅	hai mai zan ge
-係咩
+係咩	hai me
 係你先至好講呀
-喺屋企	hai nguk kei
-喺屋企	hoeng nguk kei
+喺屋企	hai uk kei
+喺屋企	hoeng uk kei
 喺嗮
 喺處	hai syu
 喺處	hoeng syu
@@ -26833,7 +26776,7 @@ fax	fet si
 鱟魚
 喉欖
 口立溼	hau lap sap
-後嚟	hau lei
+後嚟
 喉轆
 口唔對心	hau m deoi sam
 口碼
@@ -26861,9 +26804,9 @@ fax	fet si
 起雞皮
 起骨
 戲肉
-起嚟	hei lei
-起屋	hei nguk
-起上嚟	hei soeng lei
+起嚟
+起屋	hei uk
+起上嚟
 囍帖
 戲台	hei toi
 起鑊
@@ -26882,19 +26825,19 @@ fax	fet si
 墟墟冚冚
 墟日
 去馬
-去賣鹹鴨蛋	heoi maai haam ngaap daan
+去賣鹹鴨蛋	heoi maai haam aap daan
 去蒲
 去就去啦
 去咗
 去咗見周公	heoi zo gin zau gung
 去咗飲
-去咗賣鹹鴨蛋	heoi zo maai haam ngaap daan
+去咗賣鹹鴨蛋	heoi zo maai haam aap daan
 獻世
 焮親	hing can
 興趣盎然	hing ceoi ngong jin
 焮乾	hing gon
 焮烚烚	hing hap hap
-焮起嚟	hing hei lei
+焮起嚟
 焮熱	hing jit
 興味無窮
 荷包倒吊
@@ -26959,7 +26902,7 @@ fax	fet si
 好逼人
 好波
 好斜	hou ce
-好似	hou ci gam
+好似	hou ci
 好似係
 好彩數	hou coi sou
 薅草
@@ -26968,7 +26911,7 @@ fax	fet si
 好地地	hou dei dei
 好啲	hou di
 好多潺
-好翻
+好返
 好瞓
 好friend
 好計仔	hou gai zai
@@ -27033,8 +26976,8 @@ fax	fet si
 洶涌澎湃	hung jung paang paai
 洶湧澎湃	hung jung paang paai
 熊貓噉嘅眼	hung maau gam ge ngaan
-兇神惡	hung san ngok
-兇神惡殺	hung san ngok saat
+兇神惡	hung san ok
+兇神惡煞	hung san ok saat
 空手掉空臂	hung sau diu hung bei
 熊仔	hung zai
 壎篪相和
@@ -27051,7 +26994,7 @@ X光	ik si gwong
 飲大咗兩杯
 飲啖茶
 飲啖水
-飲翻杯喇
+飲返杯喇
 任揀唔嬲	jam gaan m nau
 衽金革	jam gam gaak
 飲管
@@ -27097,15 +27040,15 @@ X光	ik si gwong
 因住
 因住電親
 因住凍親
-入便	jap bin
+入邊	jap bin
 入錢	jap cin
 入得廚房	jap dak ceoi fong
 入伙
 入貨
 入去
 熠熠閃爍	jap jap sim soek
-入嚟	jap lei
-入嚟啦	jap lei laa
+入嚟
+入嚟啦
 入面
 翕眼
 入數	jap sou
@@ -27114,7 +27057,7 @@ X光	ik si gwong
 入蟄	jap zat
 一便	jat bin
 一般嘅	jat bun ge
-一般嚟講	jat bun lei gong
+一般嚟講
 一揪一掕	jat cau jat lang
 一次過
 一場兄弟	jat coeng hing dai
@@ -27238,7 +27181,7 @@ X光	ik si gwong
 有乜用	jau mat jung
 有乜噏乜	jau mat ngap mat
 有乜事幹	jau mat si gon
-有冇
+有冇	jau mou
 有冇攪錯	jau mou gaau co
 有冇聲氣	jau mou seng hei
 有挐褦	jau naa nang
@@ -27462,7 +27405,7 @@ X光	ik si gwong
 踴躍	jung joek
 鱅魚	jung jyu
 絨褸	jung lau
-用嚟	jung lei
+用嚟
 用力一搡
 容乜易	jung mat ji
 絨衫
@@ -27513,7 +27456,7 @@ X光	ik si gwong
 閱兵台	jyut bing toi
 越裔
 粵語殘片
-越嚟越	jyut lei jyut
+越嚟越
 越諗越火滾	jyut nam jyut fo gwan
 越食越開胃	jyut sik jyut hoi wai
 月台	jyut toi
@@ -27581,7 +27524,7 @@ X光	ik si gwong
 扱實隻蓋	kap sat zek goi
 cut短啲頭髮	kat dyun di tau fat
 咭數	kat sou
-cut咗呢個鏡頭	kat zo ni go ging tau
+cut咗呢個鏡頭	kat zo nei go ging tau
 求求其其	kau kau kei kei
 求其	kau kei
 溝女	kau neoi
@@ -27607,7 +27550,7 @@ cash	ke syu
 企領	kei leng
 企唔穩	kei m wan
 企唔住腳	kei m zyu goek
-企埋嚟	kei maai lei
+企埋嚟
 企歪啲	kei me di
 蜞乸
 畸士	kei si
@@ -27677,7 +27620,8 @@ quali	ko li
 纊埋	kwang maai
 纊住	kwang zyu
 擴音喇叭	kwok jam laa baa
-揦翻拃沙
+缺人手	kyut jan sau
+揦返拃沙
 啦啦林
 啦啦亂
 啦啦聲	laa laa seng
@@ -27748,7 +27692,7 @@ quali	ko li
 爛泥扶唔上壁	laan nai fu m soeng bek
 爛女	laan neoi
 爛牙
-讕惡爺	laan ngok je
+讕惡爺	laan ok je
 爛平爛賤	laan peng laan zin
 爛蒲
 爛衫
@@ -27845,14 +27789,14 @@ quali	ko li
 甩拖
 甩咗
 留低
-留翻
+留返
 嘍口
 漏口佬
-留喺屋企湊仔	lau hoeng nguk kei cau zai
+留喺屋企湊仔	lau hoeng uk kei cau zai
 流嘢
 樓契	lau kai
 褸裙	lau kwan
-流落嚟	lau lok lei
+流落嚟
 流嗮口水
 摟席	lau zek
 褸席	lau zek
@@ -27860,18 +27804,18 @@ quali	ko li
 咧氣	le he
 咧嗮氣	le saai he
 label	lei bou
-嚟遲	lei ci
-嚟遲咗	lei ci zo
-嚟得切	lei dak cit
-嚟得啱	lei dak ngaam
-嚟緊	lei gan
+嚟遲
+嚟遲咗
+嚟得切
+嚟得啱
+嚟緊
 利口唔利腹	lei hau m lei fuk
 離遠
-嚟唔得切	lei m dak cit
-嚟呢度	lei ni dou
-嚟神	lei san
+嚟唔得切
+嚟呢度
+嚟神
 脷苔
-嚟自	lei zi
+嚟自
 叻唔切	lek m cit
 叻女	lek neoi
 叻仔	lek zai
@@ -27904,7 +27848,7 @@ label	lei bou
 吝嗇
 噒諄	leon zeon
 論盡
-輪住嚟	leon zyu lei
+輪住嚟
 輪住值班
 律師行	leot si hong
 律師樓
@@ -27934,38 +27878,38 @@ label	lei bou
 囉噃
 攞籌
 攞車	lo ce
-擺出嚟	lo ceot lei
+擺出嚟
 攞出來	lo ceot lei
 攞錢	lo cin
 攞彩
 攞到
-攞翻
-攞翻公道
-攞翻去
-攞苦嚟辛	lo fu lei san
+攞返
+攞返公道
+攞返去
+攞苦嚟辛
 攞景	lo ging
 攞個籌掛號	lo go cau gwaa hou
-攞過嚟	lo gwo lei
+攞過嚟
 囉氣
 攞起
 羅漢齋	lo hon zaai
 囉柚	lo jau
 攞佢命	lo keoi meng
-攞嚟	lo lei
-攞嚟攪嘅	lo lei gaau ge
-攞嚟講	lo lei gong
-攞嚟講嘅啫	lo lei gong ge ze
-攞嚟衰	lo lei seoi
-攞嚟睇睇	lo lei tai tai
-攞嚟賤	lo lei zin
+攞嚟
+攞嚟攪嘅
+攞嚟講
+攞嚟講嘅啫
+攞嚟衰
+攞嚟睇睇
+攞嚟賤
 囉囉攣
-攞落嚟	lo lok lei
+攞落嚟
 囉攣
 攞唔定主意	lo m ding zyu ji
 攞命	lo meng
 攞便宜	lo pin ji
 攞嗮彩
-攞嗮翻去
+攞嗮返去
 螺絲批
 攞走
 攞獎
@@ -28001,7 +27945,7 @@ label	lei bou
 落雨溼溼	lok jyu sap sap
 落雨絲溼	lok jyu si sap
 落樓	lok lau
-落嚟	lok lei
+落嚟
 落力	lok lik
 落蚊帳	lok man zoeng
 落臉	lok min
@@ -28088,7 +28032,7 @@ label	lei bou
 碌士
 淥熟
 淥熟嗮
-轆咗落嚟	luk zo lok lei
+轆咗落嚟
 龍鳳鈪	lung fung ngaak
 窿路
 窿仔	lung zai
@@ -28106,7 +28050,7 @@ label	lei bou
 聯系
 攣曲
 亂立立	lyun lap lap
-亂嚟	lyun lei
+亂嚟
 亂龍
 聯袂飾演
 攣毛
@@ -28161,7 +28105,7 @@ label	lei bou
 唔夠瞓	m gau fan
 唔夠佢打	m gau keoi daa
 唔夠佢鬥	m gau keoi dau
-唔夠佢嚟	m gau keoi lei
+唔夠佢嚟
 唔夠佢爭	m gau keoi zaang
 唔夠quali	m gau ko li
 唔夠力	m gau lik
@@ -28199,7 +28143,7 @@ label	lei bou
 唔係啩	m hai gwaa
 唔係好合	m hai hou gaap
 唔係路	m hai lou
-唔喺屋企	m hai nguk kei
+唔喺屋企	m hai uk kei
 唔合法	m hap faat
 唔合理	m hap lei
 唔合適	m hap sik
@@ -28241,7 +28185,7 @@ label	lei bou
 唔啱傾	m ngaam king
 唔啱數	m ngaam sou
 唔啱咀形	m ngaam zeoi jing
-唔安樂	m ngon lok
+唔安樂	m on lok
 唔耐	m noi
 唔耐煩	m noi faan
 唔安全	m on cyun
@@ -28269,7 +28213,7 @@ label	lei bou
 唔聲	m seng
 唔衰得	m seoi dak
 唔需要	m seoi jiu
-唔衰攞嚟衰	m seoi lo lei seoi
+唔衰攞嚟衰
 唔信	m seon
 唔識	m sik
 唔識佢	m sik
@@ -28352,17 +28296,17 @@ label	lei bou
 賣埠	maai fau
 賣貨員	maai fo jyun
 賣告白	maai gou baak
-賣鹹鴨蛋	maai haam ngaap daan
+賣鹹鴨蛋	maai haam aap daan
 賣口乖
 埋去
 買嘢
 買燕梳
 買樓
-埋嚟	maai lei
+埋嚟
 買唔到飛	maai m dou fei
 埋尾
 埋岸
-買屋	maai nguk
+買屋	maai uk
 賣嗮
 買衫
 埋身	maai san
@@ -28378,7 +28322,7 @@ label	lei bou
 擘大個口得個窿
 擘大口
 擘大口得個窿
-擘大喉嚨嗌	maak daai hau lung ngaai
+擘大喉嚨嗌	maak daai hau lung aai
 擘大眼
 擘大眼講大話
 擘開個口
@@ -28590,6 +28534,7 @@ miss	mi si
 冇膽
 冇啖好食	mou daam hou sik
 唔好擔心	mou daam sam
+冇得	mou dak
 冇得頂	mou dak ding
 冇得瞓
 冇得揀
@@ -28772,7 +28717,7 @@ miss	mi si
 泥氹	nai tam
 腍啤啤	nam be be
 諗清諗楚	nam cing nam co
-諗翻	nam faan
+諗返	nam faan
 諗法	nam faat
 諗計	nam gai
 諗計仔	nam gai zai
@@ -28865,24 +28810,24 @@ miss	mi si
 挨憑	ngaai beng
 捱得苦
 捱更抵夜	ngaai gaang dai je
-嗌交	ngaai gaau
-嗌救命	ngaai gau meng
+嗌交	aai gaau
+嗌救命	aai gau meng
 捱飢抵冷
-嗌嘢	ngaai je
+嗌嘢	aai je
 捱夜
-嗌嘢食	ngaai je sik
+嗌嘢食	aai je sik
 崖鷹
 捱騾仔	ngaai leoi zai
 挨晚	ngaai maan
-嗌名	ngaai meng
+嗌名	aai meng
 捱眼瞓
 挨拼	ngaai peng
 挨拼椅	ngaai peng ji
 捱生捱死	ngaai saang ngaai sei
 捱世界
 捱肚餓
-嗌痛	ngaai tung
-嗌通街	ngaai tung gaai
+嗌痛	aai tung
+嗌通街	aai tung gaai
 捱齋	ngaai zaai
 呃錢	ngaak cin
 呃鬼	ngaak gwai
@@ -28895,11 +28840,11 @@ miss	mi si
 啱key	ngaam ki
 啱蹺	ngaam kiu
 啱唔啱	ngaam m ngaam
-啱啱
+啱啱	ngaam ngaam	
 巖巖巉巉
 啱啱要
 啱心水
-啱先
+啱先	ngaam sin
 啱聽	ngaam teng
 啱咀形
 眼白白
@@ -28915,7 +28860,7 @@ miss	mi si
 眼火爆
 眼火標
 眼闊頭窄	ngaan fut tou zaak
-晏覺	ngaan gaau
+晏覺	aan gaau
 眼鏡舖
 眼公仔	ngaan gung zai
 眼光光
@@ -28930,59 +28875,59 @@ miss	mi si
 眼核	ngaan wat
 眼斬斬
 眼仔碌碌	ngaan zai luk luk
-晏晝	ngaan zau
-晏晝飯	ngaan zau faan
+晏晝	aan zau
+晏晝飯	aan zau faan
 硬打硬
 硬頸
 硬角角	ngaang gok gok
 硬係
 眼淚水	ngaang leoi seoi
 硬嗮舦
-鴨春	ngaap ceon
+鴨春	aap ceon
 押高褲腳	ngaap gou fu goek
 押高衫袖	ngaap gou saam zau
 押後	ngaap hau
 押後處理	ngaap hau cyu lei
 押屎片	ngaap si pin
-鴨咀帽	ngaap zeoi mou
+鴨咀帽	aap zeoi mou
 餲堪堪	ngaat ham ham
-拗頸	ngaau geng
-拗撬	ngaau giu
+拗頸	aau geng
+拗撬	aau giu
 肴痕
 咬口
 咬口脣
-拗氣	ngaau hei
+拗氣	aau hei
 咬一啖
-拗腰	ngaau jiu
+拗腰	aau jiu
 咬佢唔入	ngaau keoi m zap
 咬唔入	ngaau m zap
 肴嗮頭
-拗手瓜	ngaau sau gwaa
-拗胡	ngaau wu
-拗胡婆	ngaau wu po
-矮躉	ngai dan
-矮凳仔	ngai dang zai
-矮凸凸	ngai dat dat
+拗手瓜	aau sau gwaa
+拗胡	aau wu
+拗胡婆	aau wu po
+矮躉	ai dan
+矮凳仔	ai dang zai
+矮凸凸	ai dat dat
 蟻竇
-翳焗	ngai guk
-矮瓜	ngai gwaa
-翳氣	ngai hei
+翳焗	ai guk
+矮瓜	ai gwaa
+翳氣	ai hei
 噅人
-翳熱	ngai jit
+翳熱	ai jit
 噅求
 蟻躝噉	ngai laan gam
 噅噅篩篩
-翳滯	ngai zai
+翳滯	ai zai
 僞造	ngai zou
 僞造品	ngai zou ban
 吟沉	ngam cam
 扲袋
-吟嚟吟去	ngam lei ngam heoi
-暗啞抵	ngam ngaa dai
+吟嚟吟去
+暗啞抵	am ngaa dai
 吟吟沉沉	ngam ngam cam cam
 扲雀仔竇	ngam zoek zai dau
-揞住	ngam zyu
-揞住嘴笑	ngam zyu zeoi siu
+揞住	am zyu
+揞住嘴笑	am zyu zeoi siu
 銀包
 銀雞
 奀妹
@@ -29024,7 +28969,7 @@ miss	mi si
 佢不嬲都唔食辣嘅	ngo bat nau dou m sik laat ge
 我不嬲喺	ngo bat nau hai
 我不嬲喺	ngo bat nau hoeng
-佢不嬲有信翻嚟	ngo bat nau jau seon faan lai
+佢不嬲有信返嚟	ngo bat nau jau seon faan lai
 我必犯人
 餓親
 我check過嗮喇	ngo cek gwo sai laa
@@ -29058,61 +29003,61 @@ miss	mi si
 外來妹	ngoi loi mui
 外母乸	ngoi mou naa
 外省佬	ngoi saang lou
-愛錫	ngoi sek
+愛錫	oi sek
 外洩	ngoi sit
 外太公	ngoi taai gung
 外太婆	ngoi taai po
-惡頂	ngok ding
+惡頂	ok ding
 捳高頭	ngok gou tau
-惡亨亨	ngok hang hang
-惡爺	ngok je
-惡爺頭	ngok je tau
+惡亨亨	ok hang hang
+惡爺	ok je
+惡爺頭	ok je tau
 鱷魚頭
-惡鯁	ngok kang
-惡死	ngok sei
-惡死能登	ngok sei nang dang
+惡鯁	ok kang
+惡死	ok sei
+惡死能登	ok sei nang dang
 捳頭	ngok tau
-惡作	ngok zok
-安樂茶飯	ngon lok caa faan
+惡作	ok zok
+安樂茶飯	on lok caa faan
 戇居	ngong geoi
 戇居居	ngong geoi geoi
 戇佬	ngong lou
 戇戇哋	ngong ngong dei
 戇喪	ngong song
-擙落嚟	ngou lok lei
-擙唔到	ngou m dou
-屋契	nguk kai
-屋企人	nguk kei jan
-屋租	nguk zou
-屋主婆	nguk zyu po
+擙落嚟
+擙唔到	ou m dou
+屋契	uk kai
+屋企人	uk kei jan
+屋租	uk zou
+屋主婆	uk zyu po
 壅肥	ngung fei
 甕缸	ngung gong
 搈人	ngung jan
 搈落	ngung lok
 搈門	ngung mun
 壅泥	ngung nai
-呢便	ni bin
-呢駁	ni bok
-呢啲	ni di
-呢啲嘢	ni di je
-呢度	ni dou
-呢幾年嚟	ni gei nin lei
-呢個係	ni go hai
-呢個嘢	ni go je
-呢個月	ni go jyut
-呢嘢	ni je
-呢輪	ni leon
-呢槓嘢	ni lung je
-呢味嘢	ni mei je
-呢排	ni paai
-呢排好唔掂	ni paai hou m dim
-呢鋪	ni pou
-呢處	ni syu
-呢勻	ni wan
-呢陣	ni zan
-呢陣時	ni zan si
-呢種	ni zung
-搦過嚟	nik gwo lei
+呢邊	nei bin
+呢駁	nei bok
+呢啲	nei di
+呢啲嘢	nei di je
+呢度	nei dou
+呢幾年嚟
+呢個係	nei go hai
+呢個嘢	nei go je
+呢個月	nei go jyut
+呢嘢	nei je
+呢輪	nei leon
+呢槓嘢	nei lung je
+呢味嘢	nei mei je
+呢排	nei paai
+呢排好唔掂	nei paai hou m dim
+呢鋪	nei pou
+呢處	nei syu
+呢勻	nei wan
+呢陣	nei zan
+呢陣時	nei zan si
+呢種	nei zung
+搦過嚟
 搦唔喐	nik m juk
 搦住
 唸口黃
@@ -29129,10 +29074,10 @@ miss	mi si
 檸茶	ning caa
 拎出	ning ceot
 拎出去	ning ceot heoi
-拎出嚟	ning ceot lei
-拎翻去	ning faan heoi
-拎翻屋企	ning faan nguk kei
-擰過身嚟	ning gwo san lei
+拎出嚟
+拎返去	ning faan heoi
+拎返屋企	ning faan uk kei
+擰過身嚟
 擰螺絲	ning lo si
 擰嗮頭	ning saai tau
 擰頭	ning tau
@@ -29242,7 +29187,7 @@ PTU	pi ti jiu
 婆乸
 撲飛
 撲過來	pok gwo loi
-撲嚟撲去	pok lei pok heoi
+撲嚟撲去
 撲料
 撲心撲命	pok sam pok meng
 蒲點
@@ -29368,7 +29313,7 @@ PTU	pi ti jiu
 生瘌痢	saang laat lei
 生埋腦筍	saang maai nou seon
 省牛王	saang ngau wong
-生安白造	saang ngon baak zou
+生安白造	saang on baak zou
 生壅	saang ngung
 生嗮	saang saai
 生嗮草	saang saai cou
@@ -29442,7 +29387,7 @@ PTU	pi ti jiu
 糝古月粉	sam gu jyut fan
 審核權	sam hat kyun
 心口針
-心好翳	sam hou ngai
+心好翳	sam hou ai
 心仪
 心裏	sam leoi
 滲蚊仔	sam man zai
@@ -29504,7 +29449,7 @@ PTU	pi ti jiu
 實地勘查	sat dei ham caa
 實係
 失禮嗮
-實嚟	sat lei
+實嚟
 實唔係	sat m hai
 失物招領處	sat mat ziu ling cyu
 蝨乸
@@ -29528,7 +29473,7 @@ PTU	pi ti jiu
 瘦到得棚骨
 瘦到飛起
 瘦到成條柴噉	sau dou sing tiu caai gam
-收翻
+收返
 收費咪錶	sau fai mi biu
 羞家
 收更	sau gaang
@@ -29581,8 +29526,8 @@ PTU	pi ti jiu
 手指纈	sau zi lit
 手指屘
 手指模
-手指拗出	sau zi ngaau ceot
-手指拗出唔拗入	sau zi ngaau ceot m ngaau jap
+手指拗出	sau zi aau ceot
+手指拗出唔拗入	sau zi aau ceot m aau jap
 瘦咗
 收租婆
 卸膊
@@ -29591,7 +29536,7 @@ PTU	pi ti jiu
 寫個服字
 蛇吓先	se haa sin
 蛇喱眼	se lei ngaan
-寫落嚟	se lok lei
+寫落嚟
 寫唔切	se m cit
 寫字枱
 蛇咗去隔籬	se zo heoi gaak lei
@@ -29634,7 +29579,7 @@ PTU	pi ti jiu
 死就死	sei zau sei
 四正	sei zeng
 死咗火	sei zo fo
-死咗又翻生	sei zo jau faan saang
+死咗又返生	sei zo jau faan saang
 石壆	sek bok
 石春	sek ceon
 錫一啖	sek jat daam
@@ -29650,7 +29595,7 @@ PTU	pi ti jiu
 聲喉	seng hau
 聲喉坼	seng hau caak
 聲喉沙	seng hau saa
-醒嚟	seng lei
+醒嚟
 聲沙	seng saa
 成世	seng sai
 成身	seng san
@@ -29659,7 +29604,7 @@ PTU	pi ti jiu
 成朝	seng ziu
 成朝早	seng ziu zou
 誰不知
-衰俾人睇	seoi bei jan tai
+衰畀人睇	seoi bei jan tai
 水豆腐
 衰到唔使恨	seoi dou m sai han
 衰公	seoi gung
@@ -29669,7 +29614,7 @@ PTU	pi ti jiu
 水喉
 水喉鐵
 水喉通
-衰起上嚟有頭有路	seoi hei soeng lei jau tau jau lou
+衰起上嚟有頭有路
 衰人	seoi jan
 水嘢
 衰嘢	seoi je
@@ -29783,7 +29728,7 @@ CIB	si ai bi
 識啲唔識啲	sik di m sik di
 食到嗒嗒聲	sik dou daap daap seng
 食飯	sik faan
-食翻餐勁嘅	sik faan caan ging ge
+食返餐勁嘅	sik faan caan ging ge
 食飯枱	sik faan toi
 熄機
 識講	sik gong
@@ -29814,8 +29759,8 @@ CIB	si ai bi
 食貓麪	sik maau min
 食懵咗	sik mung zo
 識諗	sik nam
-食晏	sik ngaan
-食晏仔	sik ngaan zai
+食晏	sik aan
+食晏仔	sik aan zai
 食姩	sik nin
 食檸檬	sik ning mung
 食腦	sik nou
@@ -29895,7 +29840,7 @@ CIB	si ai bi
 攝青鬼	sip ceng gwai
 攝高	sip gou
 攝入去	sip jap heoi
-攝入嚟	sip jap lei
+攝入嚟
 攝錄機	sip luk gei
 攝蚊帳	sip man zoeng
 攝牙罅	sip ngaa laa
@@ -29928,7 +29873,7 @@ CIB	si ai bi
 燒嘢食	siu je sik
 燒乳豬
 小囡
-燒鴨	siu ngaap
+燒鴨	siu aap
 燒鵝
 燒燶咗
 燒炮仗	siu paau zoeng
@@ -29995,7 +29940,7 @@ show吓quali喎	sou haa ko li wo
 騷擾嗮
 騷quali	sou ko li
 數唔切	sou m cit
-掃埋嚟	sou maai lei
+掃埋嚟
 鬚刨
 素食麪	sou sik min
 數還數	sou waan sou
@@ -30121,8 +30066,8 @@ title	taai tou
 睇吓先	tai haa sin
 睇戲
 睇起
-睇起嚟	tai hei lei
-睇起上嚟	tai hei soeng lei
+睇起嚟
+睇起上嚟
 睇開
 睇開啲	tai hoi di
 睇好
@@ -30131,11 +30076,11 @@ title	taai tou
 睇樣
 體育衫
 睇佢幾好
-睇嚟	tai lei
-睇嚟湊	tai lei cau
+睇嚟
+睇嚟湊
 睇落	tai lok
 睇老婆
-睇唔出嚟	tai m ceot lei
+睇唔出嚟
 睇唔清	tai m cing
 睇唔切	tai m cit
 睇唔到	tai m dou
@@ -30170,7 +30115,7 @@ title	taai tou
 睇勻
 睇鐘數	tai zung sou
 睇住佢頭
-睇住嚟	tai zyu lei
+睇住嚟
 嗿人	tam jan
 嗿人歡喜	tam jan fun hei
 嗿細蚊仔	tam sai man zai
@@ -30181,7 +30126,7 @@ title	taai tou
 褪過去
 褪後
 褪後啲	tan hau di
-揗嚟揗去	tan lei tan heoi
+揗嚟揗去
 吞唔落	tan m lok
 吞樸	tan pok
 揗嗮雞	tan saai gai
@@ -30278,7 +30223,7 @@ tissue	ti su
 跳起身	tiu hei san
 條人龍
 跳落去	tiu lok heoi
-跳落嚟	tiu lok lei
+跳落嚟
 眺望台	tiu mong toi
 跳皮
 跳蝨
@@ -30324,7 +30269,7 @@ tissue	ti su
 唐字
 唐裝衫
 劏豬
-劏豬噉嗌	tong zyu gam ngaai
+劏豬噉嗌	tong zyu gam aai
 肚赤	tou cek
 土墩	tou deon
 土佬
@@ -30342,8 +30287,8 @@ tissue	ti su
 痛腳
 桐油灰
 通譯者
-同屋共主	tung nguk gung zyu
-同屋主	tung nguk zyu
+同屋共主	tung uk gung zyu
+同屋主	tung uk zyu
 捅破	tung po
 同生死	tung sang sei
 痛錫	tung sek
@@ -30427,13 +30372,13 @@ tissue	ti su
 搵邊個
 勻巡
 搵出
-搵出嚟	wan ceot lei
+搵出嚟
 搵錢	wan cin
 搵丁	wan ding
 搵到
 温度	wan dou
 搵刀切	wan dou cit
-搵翻
+搵返
 搵飯食	wan faan sik
 混吉
 搵機會
@@ -30449,12 +30394,12 @@ tissue	ti su
 搵鹽醃	wan jim jip
 雲煙氤氳
 暈影	wan jing
-搵嚟攪嘅	wan lei gaau ge
-搵嚟辛苦	wan lei san fu
+搵嚟攪嘅
+搵嚟辛苦
 暈浪
 搵老襯
 搵唔到	wan m dou
-搵唔翻	wan m faan
+搵唔返	wan m faan
 搵乜嘢	wan mat je
 搵銀
 搵我出氣
@@ -30480,7 +30425,7 @@ tissue	ti su
 屈親隻腳
 屈親隻手
 屈得就屈
-屈喺屋企	wat hai nguk kei
+屈喺屋企	wat hai uk kei
 屈氣
 屈去後便	wat heoi hau bin
 屈佢食隻死貓	wat keoi sik zek sei maau
@@ -30663,7 +30608,7 @@ van仔	weng zai
 側側膊
 斟茶
 斟出
-斟出嚟	zam ceot lei
+斟出嚟
 枕長	zam coeng
 斟吓	zam haa
 枕肉
@@ -30712,18 +30657,18 @@ van仔	weng zai
 執碟
 執到
 汁都撈埋	zap dou lou maai
-執翻條命	zap faan tiu meng
+執返條命	zap faan tiu meng
 執吓張牀	zap haa zoeng cong
 執行李	zap hang lei
 執起
-執起嚟	zap hei lei
+執起嚟
 執人口水溦
 執贏	zap jeng
 執二攤
 執藥
 執笠
 執漏
-執屋	zap nguk
+執屋	zap uk
 執平嘢	zap peng je
 執山草藥
 執生	zap saang
@@ -30751,7 +30696,7 @@ van仔	weng zai
 姪仔	zat zai
 窒住
 走寶
-走出嚟	zau ceot lei
+走出嚟
 酒埕
 週詳
 走蛋
@@ -30770,12 +30715,12 @@ van仔	weng zai
 走雞
 就噉啦	zau gam laa
 就腳
-走過嚟	zau gwo lei
+走過嚟
 就吓佢	zau haa keoi
 就係
 就係講
 走入去
-走入嚟	zau jap lei
+走入嚟
 就有鬼
 就有鬼囉
 週遊世界
@@ -30784,13 +30729,13 @@ van仔	weng zai
 周期表	zau kei biu
 走甩
 走甩咗
-就嚟	zau lei
+就嚟
 週率	zau leot
 酒簾
 走唔切	zau m cit
 走唔起	zau m hei
 走唔甩	zau m lat
-走埋嚟	zau maai lei
+走埋嚟
 走難
 酒凹	zau nap
 周年慶
@@ -30841,7 +30786,7 @@ jacket	zek kek
 嘴喵喵
 追女仔	zeoi neoi zai
 最細
-聚酰亞胺	zeoi sin ngaa on
+聚酰亞胺	zeoi sin aa on
 追數	zeoi sou
 醉酒佬
 樽頸
@@ -30867,7 +30812,7 @@ jacket	zek kek
 知到
 指甲鉗
 自己友
-自己攞嚟衰	zi gei lo lei seoi
+自己攞嚟衰
 自己話事
 自由散漫
 自以爲是	zi ji wai si
@@ -30898,7 +30843,7 @@ jacket	zek kek
 值情唔記得咗	zik cing m gei dak zo
 值得嘅	zik dak ge
 即管
-即係
+即係	zik hai
 即係話
 積陰功
 即映即有
@@ -30922,13 +30867,13 @@ jacket	zek kek
 煎pan	zin pen
 薦枱腳
 整親
-整出嚟	zing ceot lei
+整出嚟
 剩低	zing dai
 整定	zing ding
-剩翻	zing faan
-整翻
-整翻幾味
-整翻好
+剩返	zing faan
+整返
+整返幾味
+整返好
 正貨	zing fo
 靜雞雞
 整古
@@ -30941,7 +30886,7 @@ jacket	zek kek
 靜英英
 整爛
 整爛咗
-靜落嚟	zing lok lei
+靜落嚟
 整亂
 整唔切	zing m cit
 靜宓	zing mat
@@ -31039,8 +30984,8 @@ jacket	zek kek
 掌上壓	zoeng soeng aat
 再加上
 載人宇宙飛船
-再嚟	zoi lei
-再嚟過	zoi lei gwo
+再嚟
+再嚟過
 作大
 作個故仔	zok go gu zai
 作殊死戰	zok syu sei zin
@@ -31061,7 +31006,7 @@ jacket	zek kek
 做錯嘢	zou co je
 做大戲
 做低
-早啲翻嚟	zou di faan lei
+早啲返嚟
 做電燈膽
 做到金睛火眼
 做到嘢
@@ -31084,7 +31029,7 @@ jacket	zek kek
 做埋老襯
 做乜	zou mat
 做咩
-做鴨	zou ngaap
+做鴨	zou aap
 早排
 做part-time	zou paak taai
 做散使	zou saan sai
@@ -31130,7 +31075,7 @@ jacket	zek kek
 衆擎易舉	zung king ji geoi
 中褸	zung lau
 舂落去	zung lok heoi
-舂落嚟	zung lok lei
+舂落嚟
 仲唔落雨就弊咯	zung m lok jyu zau bai lok
 鍾唔鍾意	zung m zung ji
 中文堂
@@ -31159,7 +31104,7 @@ jacket	zek kek
 註冊
 主從關係	zyu cung gwaan hai
 豬竇
-煮到埋嚟先食	zyu dou maai lei sin sik
+煮到埋嚟先食
 煮飯仔	zyu faan zai
 煮咖啡	zyu gaa fe
 豬膏
@@ -31189,11 +31134,365 @@ jacket	zek kek
 轉右
 轉軚
 轉頭見	zyun tau gin
-轉頭嚟過	zyun tau lei gwo
+轉頭嚟過
 專同
 轉左
 絕對溼度	zyut deoi sap dou
 short short哋	sot sot dei
+
+# 用戶詞彙
+
+畀人	bei jan
+畀佢	bei keoi
+畀你	bei nei
+畀咗	bei zo
+邊道	bin dou
+邊度	bin dou
+邊個	bin go
+邊有	bin jau
+變成咗	bin sing zo
+出咗	ceot zo
+尋日	cam jat
+黐線	ci sin
+抵死	dai sei
+得唔得	dak m dak
+等我	dang ngo
+等住	dang zyu
+突然間	dat jin gaan
+對佢	deoi keoi
+點解又	dim gaai jau
+點解要	dim gaai jiu
+點解決	dim gaai kyut
+點解你	dim gaai nei
+點解話	dim gaai waa
+點解會	dim gaai wui
+點搞	dim gaau
+定係話	ding hai waa
+都得	dou dak
+都覺	dou gok
+都覺得	dou gok dak
+都喺道	dou hai dou
+都係噉	dou hai gam
+都係咁	dou hai gam
+都係有	dou hai jau
+都係要	dou hai jiu
+都好	dou hou
+都唔係	dou m hai
+都唔會	dou m wui
+都冇	dou mou
+到時	dou si
+都算係	dou syun hai
+都話	dou waa
+都知	dou zi
+讀緊	duk gan
+返去	faan heoi
+返來	faan loi
+反正就係	faan zing zau hai
+發畀我	faat bei ngo
+瞓覺	fan gaau
+復咗	fuk zo
+家陣	gaa zan
+搞錯咗	gaau co zo
+搞掂嗮	gaau dim saai
+搞到你	gaau dou nei
+搞緊	gaau gan
+搞嘅	gaau ge
+搞落去	gaau lok heoi
+搞唔掂	gaau m dim
+計咗下	gai zo haa
+今次	gam ci
+咁大	gam daai
+咁多	gam do
+咁多人	gam do jan
+咁多時間	gam do si gaan
+咁快	gam faai
+咁簡單	gam gaan daan
+噉嘅	gam ge
+噉嘅人	gam ge jan
+今個星期	gam go sing kei
+感覺點	gam gok dim
+噉講	gam gong
+咁鬼	gam gwai
+咁好	gam hou
+噉又係	gam jau hai
+咁樣	gam joeng
+噉咪	gam mai
+噉你	gam nei
+噉我	gam ngo
+咁耐	gam noi
+噉就	gam zau
+噉就得喇	gam zau dak laa
+噉就好	gam zau hou
+咁早	gam zou
+根本唔係	gan bun m hai
+跟住	gan zyu
+究竟係	gau ging hai
+夠唔夠	gau m gau
+嘅人	ge jan
+嘅嘢	ge je
+嘅咩	ge me
+幾歹	gei daai
+幾廿	gei jaa
+記唔記得	gei m gei dak
+嗰啲人	go di jan
+嗰篇	go pin
+嗰陣	go zan
+個陣	go zan
+覺唔覺得	gok m gok dak
+趕唔上	gon m soeng
+講得點	gong dak dim
+講返	gong faan
+講返轉頭	gong faan zyun tau
+講來話長	gong loi waa coeng
+講實話	gong sat waa
+講咗咩	gong zo me
+鬼咁	gwai gam
+鬼佬	gwai lou
+鬼死咁	gwai sei gam
+過咗	gwo zo
+係點	hai dim
+喺道	hai dou
+係個	hai go
+係覺得	hai gok dak
+係喺	hai hai
+係用	hai jung
+係了	hai la
+喺唔喺	hai m hai
+係想	hai soeng
+係喎	hai wo
+係會	hai wui
+肯定係	hang ding hai
+可以講係	ho ji gong hai
+可以係	ho ji hai
+可唔可以	ho m ho ji
+可能係	ho nang hai
+向佢	hoeng keoi
+開咗	hoi zo
+學得識	hok dak sik
+學緊	hok gan
+學唔到	hok m dou
+好冇	hou mou
+好似有	hou ci jau
+好似我	hou ci ngo
+好多嘢	hou do je
+好嘅	hou ge
+好鬼	hou gwai
+好鬼煩	hou gwai faan
+好鬼死	hou gwai sei
+好耐以前	hou noi ji cin
+好犀利	hou sai lei
+一啲嘢	jat di je
+一係	jat hai
+一樣嘢	jat joeng je
+一唔係	jat m hai
+一睇	jat tai
+一陣	jat zan
+有啲	jau di
+有啲嘢	jau di je
+有乜	jau mat
+有咩	jau me
+有冇可能	jau mou ho nang
+意思係	ji si hai
+然後呢	jin hau ne
+認真睇	jing zan tai
+要佢	jiu keoi
+如果係	jyu gwo hai
+如果唔係	jyu gwo m hai
+完全係	jyun cyun hai
+完全唔同	jyun cyun m tung
+其實都	kei sat dou
+其實係	kei sat hai
+其他嘢	kei taa je
+佢都	keoi dou
+佢都話	keoi dou waa
+佢又	keoi jau
+佢而家	keoi ji gaa
+佢要	keoi jiu
+佢話	keoi waa
+佢就係	keoi zau hai
+傾下偈	king haa gai
+傾咗	king zo
+唔畀	m bei
+唔該嗮你	m goi saai nei
+唔覺得	m gok dak
+唔講	m gong
+唔關	m gwaan
+唔喺	m hai
+唔係	m hai
+唔係好	m hai hou
+唔係話	m hai waa
+唔好	m hou
+唔一定係	m jat ding hai
+唔識做	m sik zou
+唔爽	m song
+唔知	m zi
+唔知點解	m zi dim gaai
+唔知佢	m zi keoi
+猛咁	maang gam
+問題係	man tai hai
+問咗	man zo
+乜嘢	mat je
+乜名	me meng
+咩時候	me si hau
+咩回事	me wui si
+未到	mei dou
+美國佬	mei gwok lou
+未聽過	mei teng gwo
+明明係	ming ming hai
+冇啊	mou aa
+冇咩	mou me
+冇嗮	mou saai
+無所謂	mou so wai
+諗辦法	nam baan faat
+諗清楚	nam cing co
+諗緊	nam gan
+諗過	nam gwo
+諗起	nam hei
+諗明	nam ming
+諗咗下	nam zo haa
+呢班	nei baan
+呢本	nei bun
+呢本書	nei bun syu
+呢層	nei cang
+呢啲	nei di
+呢啲人	nei di jan
+呢啲事	nei di si
+呢點	nei dim
+呢道	nei dou
+呢道	nei dou
+呢方面	nei fong min
+呢件事	nei gin si
+呢個	nei go
+呢個人	nei go jan
+呢個問題	nei go man tai
+呢個時候	nei go si hau
+呢個就係	nei go zau hai
+呢項	nei hong
+呢一點	nei jat dim
+呢樣嘢	nei joeng je
+呢門	nei mun
+呢門課	nei mun fo
+呢篇	nei pin
+呢篇嘢	nei pin je
+呢篇文章	nei pin man zoeng
+呢條	nei tiu
+呢套	nei tou
+呢將	nei zoeng
+呢種人	nei zung jan
+你點知	nei dim zi
+你都係	nei dou hai
+你有冇	nei jau mou
+你而家	nei ji gaa
+你意思係	nei ji si hai
+你唔知	nei m zi
+你試下	nei si haa
+你先	nei sin
+你睇	nei tai
+你睇下	nei tai haa
+你話	nei waa
+你知啩	nei zi gwaa
+啱好	ngaam hou
+啱啱好	ngaam ngaam hou
+啱啱先	ngaam ngaam sin
+我本身	ngo bun san
+我哋係	ngo dei hai
+我都	ngo dou
+我都覺	ngo dou gok
+我都係	ngo dou hai
+我都要	ngo dou jiu
+我都唔係	ngo dou m hai
+我都唔知	ngo dou m zi
+我都話	ngo dou waa
+我發覺	ngo faat gok
+我家陣	ngo gaa zan
+我見到	ngo gin dou
+我個	ngo go
+我喺	ngo hai
+我係	ngo hai
+我好似	ngo hou ci
+我老竇	ngo lou dau
+我唔係	ngo m hai
+我想問下	ngo soeng man haa
+我話	ngo waa
+我真係	ngo zan hai
+我就係	ngo zau hai
+我剩係	ngo zing hai
+我仲	ngo zung
+嘥嗮	saai saai
+寫成噉	se sing gam
+成日	seng jat
+食完飯	sik jyun faan
+識唔識	sik m sik
+先係	sin hai
+傻閪	so hai
+所以我就係話	so ji ngo zau hai waa
+所以先	so ji sin
+所以就係	so ji zau hai
+想問下	soeng man haa
+想做咩	soeng zou me
+算係	syun hai
+算唔算	syun m syun
+說明咗	syut ming zo
+睇情況	tai cing fong
+睇重	tai cung
+睇得出來	tai dak ceot loi
+睇得到	tai dak dou
+睇得上	tai dak soeng
+睇到	tai dou
+睇個樣	tai go joeng
+睇過	tai gwo
+睇下	tai haa
+睇下	tai haa
+睇完	tai jyun
+睇佢	tai keoi
+睇落去	tai lok heoi
+睇唔出	tai m ceot
+睇明	tai ming
+睇你	tai nei
+聽講	teng gong
+聽唔出	teng m ceot
+同佢哋	tung keoi dei
+同佢講	tung keoi gong
+屋企	uk kei
+話佢	waa keoi
+或者講	waak ze gong
+搵得到	wan dak dou
+搵老婆	wan lou po
+搵唔搵到	wan m wan dou
+搵死	wan sei
+搵食艱難	wan sik gaan naan
+搵咗	wan zo
+會唔會係	wui m wui hai
+真係	zan hai
+就得	zau dak
+就得啦	zau dak laa
+就咁多	zau gam do
+就係	zau hai
+就係個	zau hai go
+就係要	zau hai jiu
+就係我	zau hai ngo
+就算係	zau syun hai
+最尾	zeoi mei
+自己嘅	zi gei ge
+剩低	zing dai
+剩得	zing dak
+淨係	zing hai
+剩識	zing sik
+照噉講	ziu gam gong
+早啲	zou di
+做嘅	zou ge
+做乜	zou mat
+做乜嘢	zou mat je
+做咩	zou me
+做咗	zou zo
+仲有	zung jau
+仲有個	zung jau go
+仲要	zung jiu
+仲會	zung wui
+主要係	zyu jiu hai
+
+# 開放粵語字典
+
 㗎喇
 一啖
 一喺
@@ -31238,8 +31537,8 @@ short short哋	sot sot dei
 係羅
 保齡
 信瓜
-俾咗
-俾我
+畀咗
+畀我
 停手
 偷笑
 傢俬
@@ -31769,7 +32068,6 @@ short short哋	sot sot dei
 鷯哥
 鹹濕
 麥芽
-黐線
 點呀
 點樣
 點行
@@ -32257,7 +32555,7 @@ short short哋	sot sot dei
 算係吖
 算撚數
 篤背脊
-精神翻
+精神返
 糴佢走
 紅噹噹
 紅當當
@@ -32478,7 +32776,7 @@ short short哋	sot sot dei
 你唔出聲
 你唔去衙
 你唔好理
-你唔翻去
+你唔返去
 你唔驚啊
 你啞咗呀
 你喺度嗎
@@ -32657,7 +32955,7 @@ short short哋	sot sot dei
 出日頭喇
 分期越長
 刮佢出嚟
-剩翻兩個
+剩返兩個
 勒哈費爾
 勸吓佢呀
 十年咁耐
@@ -32859,7 +33157,7 @@ short short哋	sot sot dei
 外便好焮
 多年冇見
 夜晚好靜
-夜晚翻學
+夜晚返學
 夠慳皮咯
 夠曬鐘嘞
 夠鐘數喇
@@ -33024,7 +33322,7 @@ short short哋	sot sot dei
 我好鍾意
 我對筷子
 我就埋數
-我就慳翻
+我就慳返
 我幾好呀
 我想買褸
 我應承你
@@ -33041,8 +33339,8 @@ short short哋	sot sot dei
 我爭佢錢
 我睇錯你
 我知點做
-我翻去先
-我翻差館
+我返去先
+我返差館
 我要扯嘞
 我要瞓嘞
 我記得喇
@@ -33094,7 +33392,7 @@ short short哋	sot sot dei
 撞晒大板
 撥吓個爐
 撩是鬥非
-撻翻嚟嘅
+撻返嚟嘅
 擏住擏住
 擔張椅嚟
 擰杯茶我
@@ -33120,7 +33418,7 @@ short short哋	sot sot dei
 新張期內
 斷柄鋤頭
 日頭做嘢
-日頭翻工
+日頭返工
 早啲瞓吖
 易話爲嘅
 易請難送
@@ -33319,7 +33617,7 @@ short short哋	sot sot dei
 線步好密
 縮頭烏龜
 缸瓦咋啩
-翻五日工
+返五日工
 老公撥扇
 老婆擔遮
 老鼠噉眼
@@ -33654,7 +33952,7 @@ short short哋	sot sot dei
 你搵邊個呀
 你擔高個頭
 你攞嗮彩啦
-你攞嗮翻去
+你攞嗮返去
 你攪邊科啊
 你明唔明呀
 你明就係啦
@@ -33675,8 +33973,8 @@ short short哋	sot sot dei
 你知唔知道
 你累死我噶
 你緊佢唔緊
-你翻到嚟啦
-你翻去先吖
+你返到嚟啦
+你返去先吖
 你而家至嚟
 你聽埋先呀
 你聽我講先
@@ -33777,7 +34075,7 @@ short short哋	sot sot dei
 佢硬係要去
 佢究竟想點
 佢笑咗好耐
-佢翻嚟一下
+佢返嚟一下
 佢聲線幾好
 佢行開嗰陣
 佢要噉成半
@@ -33842,7 +34140,7 @@ short short哋	sot sot dei
 入便有埞坐
 入唔到決賽
 全部係公司
-全部翻嗮嚟
+全部返嗮嚟
 兩隻腳好淵
 其實冇嘢到
 冇乜好拗嘅
@@ -33906,7 +34204,7 @@ short short哋	sot sot dei
 又冇乜識認
 又幾叻嗰喎
 又斟茶又盛
-又話翻大陸
+又話返大陸
 口多多做乜
 另位係侄女
 叫人點拎呢
@@ -34077,7 +34375,7 @@ short short哋	sot sot dei
 唔好阻住我
 唔得詐奸噶
 唔怕人骨痺
-唔戴翻頂帽
+唔戴返頂帽
 唔搏點得呀
 唔曬得被咯
 唔會唔見啦
@@ -34132,7 +34430,7 @@ short short哋	sot sot dei
 喺地下破柴
 喺度蝦細佬
 喺度蝦細路
-喺翻屋企嘅
+喺返屋企嘅
 嗰件放出邊
 嗰個嘢好爛
 嗰個杯好焫
@@ -34228,7 +34526,7 @@ short short哋	sot sot dei
 好彩死唔去
 好心你化啦
 好收檔咯噃
-好翻學囉噃
+好返學囉噃
 好耐冇打牌
 好耐冇見嘞
 好靚嘅生油
@@ -34291,17 +34589,17 @@ short short哋	sot sot dei
 張紙嚡熠熠
 得一日時間
 得咁滯未呀
-得翻少學位
+得返少學位
 得閒上嚟坐
 得閒飲茶吖
 快啲回水吖
-快啲執翻啦
+快啲執返啦
 快啲得唔得
 快啲換咗佢
 快啲擗咗佢
 快啲畀我睇
-快啲翻嚟呀
-快掛翻正佢
+快啲返嚟呀
+快掛返正佢
 想收告票呀
 想要啲咩嘢
 愛唔愛得嗮
@@ -34348,7 +34646,7 @@ short short哋	sot sot dei
 我哋兩份噶
 我哋到嗮啦
 我哋嘅價錢
-我哋翻嚟啦
+我哋返嚟啦
 我哋自己去
 我哋點解要
 我唔係盲噶
@@ -34394,13 +34692,13 @@ short short哋	sot sot dei
 我租呢間屋
 我約咗兩點
 我細個嗰陣
-我翻去再睇
+我返去再睇
 我聽日扯咯
 我聽日放假
 我聽電話先
 我要去蛇口
 我要大個嘅
-我要翻工呀
+我要返工呀
 我要諗吓先
 我話佢唔錯
 我話過你知
@@ -34462,7 +34760,7 @@ short short哋	sot sot dei
 整到佢冇修
 整幾味小菜
 斬一斤燒肉
-早啲翻咯噃
+早啲返咯噃
 早就鬆咗咯
 早知冇乞丐
 星期日迆吓
@@ -34608,7 +34906,7 @@ short short哋	sot sot dei
 眼瞓到鬼噉
 着多件杉啦
 着大褸啱啲
-着翻件衫吖
+着返件衫吖
 睇乜嘢書呀
 睇乜鬼嘢吖
 睇乜鬼戲吖
@@ -34631,7 +34929,7 @@ short short哋	sot sot dei
 穩軟的來蝦
 突然間覺得
 竈君跌落鑊
-笠翻件衫啦
+笠返件衫啦
 筆尖屈彎咗
 等佢慢慢講
 等咗一大輪
@@ -34656,8 +34954,8 @@ short short哋	sot sot dei
 經濟不景氣
 總共八千蚊
 羊肉鬼咁臊
-翻屋企再睇
-翻差館至講
+返屋企再睇
+返差館至講
 老舉埋年結
 考慮成點呀
 考試就聽衰
@@ -34670,7 +34968,7 @@ short short哋	sot sot dei
 而家好晏喇
 而家就好咯
 而家幾精神
-而家翻工啦
+而家返工啦
 而家落緊雨
 而家讀完書
 而家話唔埋
@@ -34702,7 +35000,7 @@ short short哋	sot sot dei
 行行出狀元
 行都行唔喐
 裏便開緊會
-褸翻件衫啦
+褸返件衫啦
 要一個拼盤
 要實事求是
 要快啲畀我
@@ -34737,7 +35035,7 @@ short short哋	sot sot dei
 講咗幾句嘢
 講咗都嘥氣
 講極都冇用
-講翻正經呀
+講返正經呀
 講親呢件事
 講起又講吖
 識啲普通話
@@ -34880,7 +35178,7 @@ short short哋	sot sot dei
 一路睇一路笑
 一路行一路講
 三幾蚊雞之嘛
-三點前翻唔切
+三點前返唔切
 上堂做啲咩嘢
 上堂唔好傾偈
 下一個係邊個
@@ -35003,7 +35301,7 @@ short short哋	sot sot dei
 你唔使呃我呀
 你唔使嗿我啦
 你唔使嘥氣嘞
-你唔使嚟翻工
+你唔使嚟返工
 你唔使詐型喇
 你唔好反面噃
 你唔好同佢行
@@ -35027,7 +35325,7 @@ short short哋	sot sot dei
 你忙緊乜嘢呀
 你快啲同我扯
 你想同佢行呀
-你想搦翻去呀
+你想搦返去呀
 你想要嗰隻貨
 你想買啲咩呀
 你想點樣都得
@@ -35085,9 +35383,9 @@ short short哋	sot sot dei
 你點會喺度噶
 你點解唔理我
 佢一個屈尾十
-佢一定會翻嚟
+佢一定會返嚟
 佢一時睇唔開
-佢一翻到屋企
+佢一返到屋企
 佢乜都賴嗮我
 佢今日放假嘅
 佢仲做係看更
@@ -35158,7 +35456,7 @@ short short哋	sot sot dei
 佢專同我拗頸
 佢就成日鬧人
 佢就肯去嘅嘞
-佢已經好翻嗮
+佢已經好返嗮
 佢幾時都有理
 佢後尾點樣啫
 佢恃自己大力
@@ -35274,7 +35572,7 @@ short short哋	sot sot dei
 做散工都可以
 偶然成功之嘛
 先嗰排唔見你
-先排翻學去咗
+先排返學去咗
 先生都嚟咗嘑
 免至老婆掛念
 入冬生魚詐死
@@ -35289,10 +35587,10 @@ short short哋	sot sot dei
 冇心就算吧啦
 再攞三支啤酒
 再要半隻燒鴨
-冚翻埋個盒蓋
+冚返埋個盒蓋
 凍冰冰又落雨
 凍到面青青噉
-凍就着翻件衫
+凍就着返件衫
 出便好危險喎
 出咗乜嘢事呀
 刀用得耐就蝕
@@ -35308,14 +35606,14 @@ short short哋	sot sot dei
 千祈唔好縮沙
 卒之完成任務
 原來我冇估錯
-去嗰便睇吓喇
+去嗰邊睇吓喇
 去撳機咪得囉
 去香港嘅機位
 參觀吓你間屋
 又係新嘅一日
 又唔記得帶嚟
 又嘥咗一部車
-又搵翻把梳嘞
+又搵返把梳嘞
 又要供書教學
 只要勤力做嘢
 叫佢打個電話
@@ -35517,7 +35815,7 @@ short short哋	sot sot dei
 唔知係咪真噶
 唔知去咗邊度
 唔知發生咩事
-唔翻工點得呀
+唔返工點得呀
 唔聽真係後悔
 唔肯聽人勸噶
 唔至於掟煲啩
@@ -35603,7 +35901,7 @@ short short哋	sot sot dei
 埋便嗰個姓李
 執到乾乾淨淨
 多謝大家畀面
-夜夜都冇翻嚟
+夜夜都冇返嚟
 夜麻麻唔好噉
 夠鐘放工囉噃
 大咗仲懶咗添
@@ -35632,7 +35930,7 @@ short short哋	sot sot dei
 好彩佢走甩咗
 好彩佢遇到我
 好得佢嚟幫手
-好快脆就翻嚟
+好快脆就返嚟
 好梗都推唔開
 好犀利喎呀你
 好食都有限啦
@@ -35743,8 +36041,8 @@ short short哋	sot sot dei
 我唔阻你哋啦
 我嚟呢度開會
 我四圍都搵過
-我好快翻嚟呀
-我好翻好多喇
+我好快返嚟呀
+我好返好多喇
 我實唔睬佢格
 我寫咗成頁紙
 我就倚憑你啦
@@ -35788,8 +36086,8 @@ short short哋	sot sot dei
 我睇都話唔實
 我等咗你好耐
 我約咗朋友去
-我翻到嚟咁耐
-我翻去諗吓先
+我返到嚟咁耐
+我返去諗吓先
 我而家唔得閒
 我聽乜誰講過
 我聽到呢件事
@@ -35827,7 +36125,7 @@ short short哋	sot sot dei
 扽到杯都響嗮
 把聲唔係幾好
 抽水機好有用
-拉曬翻差館先
+拉曬返差館先
 拍得好有心機
 拎乜嘢嚟起鑊
 拎住一個皮喼
@@ -35859,13 +36157,13 @@ short short哋	sot sot dei
 攪到我揗嗮雞
 攬住枕頭瞓覺
 收吓把口好喇
-收翻埋你支槍
+收返埋你支槍
 教咗幾十年書
-整翻好隻手錶
+整返好隻手錶
 敵機舂咗落嚟
 數還數路還路
 旅行團散檔咯
-日日逼車翻工
+日日逼車返工
 時間好逼噶啦
 晚晚都咁夜瞓
 晨早流流起身
@@ -35904,7 +36202,7 @@ short short哋	sot sot dei
 正一攞苦嚟辛
 正一衰人嚟嘅
 正一衰仔嚟噶
-正話要去翻工
+正話要去返工
 殯儀館大減價
 殺人都有之呀
 氣溫爭一兩度
@@ -35920,7 +36218,7 @@ short short哋	sot sot dei
 滾攪嗮你哋添
 滾水淥甩咗皮
 漏咗一句台詞
-漯翻啲核出嚟
+漯返啲核出嚟
 漿糊煮得太削
 潑到人成身水
 激到佢死咁滯
@@ -35949,7 +36247,7 @@ short short哋	sot sot dei
 生得真係醜樣
 用信用卡簽帳
 用紗紙做燈籠
-由上海翻嚟啦
+由上海返嚟啦
 畀人打咗荷包
 畀人鬧咗一餐
 畀你睇吓吖嗱
@@ -35960,10 +36258,10 @@ short short哋	sot sot dei
 畀咁少過人哋
 畀層樓佢揸手
 畀張紙我寫低
-畀我哋捉翻嚟
+畀我哋捉返嚟
 畀次機會佢吖
 畀針拮親手指
-番嚟講我聽喇
+返嚟講我聽喇
 番薯跌落風爐
 當時我失嗮魂
 病到佢削笪笪
@@ -35979,7 +36277,7 @@ short short哋	sot sot dei
 真係吹佢唔脹
 真係咩人都有
 真係唔好意思
-真係唔想翻工
+真係唔想返工
 真係唔話得咯
 真係夠嗮輪盡
 真係失禮死人
@@ -36022,7 +36320,7 @@ short short哋	sot sot dei
 細個超鍾意睇
 緣份只係一啲
 總經理放大假
-翻鄉下個幾日
+返鄉下個幾日
 翻風兼夾落雨
 老公潑扇淒涼
 老婆擔遮陰功
@@ -36127,12 +36425,12 @@ short short哋	sot sot dei
 都唔知係咪真
 都唔知咩嚟嘅
 都未用過就抌
-都算攞翻個彩
+都算攞返個彩
 都話唔開會咯
 酸辣湯幾開胃
 醉酒佬數街燈
 鋤極都鋤唔入
-錫翻啖當補數
+錫返啖當補數
 鍾意唔係食囉
 鎖埋度門佢啦
 門口寫到字嘅
@@ -36193,7 +36491,7 @@ short short哋	sot sot dei
 一個人掗兩個位
 一個屈尾十走咗
 一個月幾多家用
-一個月度就翻嚟
+一個月度就返嚟
 一個麪包兩份食
 一出門就落大雨
 一啲啲就夠個囉
@@ -36220,7 +36518,7 @@ short short哋	sot sot dei
 下次唔再走堂了
 不如我哋嗌嘢啦
 不過唱歌好好聽
-之後就訓唔翻喇
+之後就訓唔返喇
 乜你企到咁迆噶
 乜你咁冇記性噶
 乜你咁講時嘜噶
@@ -36281,7 +36579,7 @@ short short哋	sot sot dei
 你哋去嗰處做乜
 你哋唔好亂噉估
 你哋喺度攪攪震
-你哋幾時先翻學
+你哋幾時先返學
 你哋無謂再嘈啦
 你唔使做都得啦
 你唔使再勸我啦
@@ -36331,9 +36629,9 @@ short short哋	sot sot dei
 你真係頭大冇腦
 你睇吓滿唔滿意
 你睇張枱幾多塵
-你翻到嚟香港呀
-你翻到屋企未呀
-你翻唔翻嚟食飯
+你返到嚟香港呀
+你返到屋企未呀
+你返唔返嚟食飯
 你老婆出得廳堂
 你聽唔聽得到呀
 你肉緊都冇用呀
@@ -36346,7 +36644,7 @@ short short哋	sot sot dei
 你識打乜嘢波呀
 你趕時間走先啦
 你跟手做埋佢啦
-你車我翻屋企吖
+你車我返屋企吖
 你連句多謝都冇
 你邊度唔舒服呀
 你都幾識嘆個噃
@@ -36359,7 +36657,7 @@ short short哋	sot sot dei
 你點鬥得過佢喎
 佢一個人坐喺度
 佢一味喺度畫畫
-佢不溜有信翻嚟
+佢不溜有信返嚟
 佢仔女都出咗身
 佢以前做過臥底
 佢仲係好夜先瞓
@@ -36383,7 +36681,7 @@ short short哋	sot sot dei
 佢呃咗我好多錢
 佢呢幾日好肉緊
 佢呢排精神唔好
-佢咁耐仲唔翻嚟
+佢咁耐仲唔返嚟
 佢咁鬧個老公法
 佢哋一個講英文
 佢哋以前有仇口
@@ -36393,7 +36691,7 @@ short short哋	sot sot dei
 佢哋到西貢醫肚
 佢哋啲嘢貴咗啲
 佢啱啱執咗個女
-佢啱啱翻咗香港
+佢啱啱返咗香港
 佢喺地盤做管工
 佢喺度無理取鬧
 佢嘅作風咁鬼馬
@@ -36413,7 +36711,7 @@ short short哋	sot sot dei
 佢專戥嚟探你噶
 佢就嚟四十歲咯
 佢幫我扠咗一半
-佢幾時翻冇譜噶
+佢幾時返冇譜噶
 佢得兩個仔噶咋
 佢惹咗一身癩渣
 佢成日同人頂頸
@@ -36425,7 +36723,7 @@ short short哋	sot sot dei
 佢日日都唉唉聲
 佢是必唔高興咯
 佢時不時嚟探我
-佢最後贏翻一棵
+佢最後贏返一棵
 佢最近點解咁耷
 佢會唔會嬲我呢
 佢梗係要養我格
@@ -36434,13 +36732,13 @@ short short哋	sot sot dei
 佢生過兩個仔女
 佢畀人打咗一餐
 佢真係大個仔啦
-佢睇落好翻好多
+佢睇落好返好多
 佢知唔知醜噶啫
 佢等咗你好耐喇
 佢粒聲唔出走咗
 佢經常捱更抵夜
 佢經歷咗咁多嘢
-佢老頂搵佢翻嚟
+佢老頂搵佢返嚟
 佢而家好唔開心
 佢而家就風流囉
 佢聽日就要還錢
@@ -36530,14 +36828,14 @@ short short哋	sot sot dei
 到其時你就知死
 到嗰陣你就知喇
 剩得呢個仲未爛
-剩翻地理未考完
+剩返地理未考完
 勻勻都係佢第一
 十五蚊就有交易
 十劃都未有一撇
 十月芥菜起曬心
 十月蔗頭甜到尾
 卒之到咗香港啦
-卒之翻到屋企啦
+卒之返到屋企啦
 南無佬跌落糞坑
 即係倒自己米啫
 原來係驚畀人笑
@@ -36725,7 +37023,7 @@ short short哋	sot sot dei
 唔知又出乜術咯
 唔知幾多林沈嘢
 唔知過唔過得骨
-唔翻屋企食飯喇
+唔返屋企食飯喇
 唔考牌點揸車呀
 唔聽你支死人笛
 唔覺意倒瀉盆水
@@ -36824,7 +37122,7 @@ short short哋	sot sot dei
 好似好恐怖咁喎
 好似控制唔到噉
 好似有啲唔係路
-好在後來兜翻住
+好在後來兜返住
 好在我唔會噉咯
 好在畀我發現咗
 好多大公司請佢
@@ -36832,7 +37130,7 @@ short short哋	sot sot dei
 好彩佢幫我執生
 好快就要揭盅喇
 好衰唔衰輸清光
-好難搵得翻嗰噃
+好難搵得返嗰噃
 如果佢喺你嗰度
 如果存定期嘅話
 媽咪至關心我哋
@@ -36874,7 +37172,7 @@ short short哋	sot sot dei
 幫咗佢仲畀佢鬧
 年齡係屬於私隱
 幾多嘢都冇落剩
-幾時生翻個啤啤
+幾時生返個啤啤
 度住五百蚊嚟先
 廣州話同埋英文
 廥就休息吓先啦
@@ -36950,7 +37248,7 @@ short short哋	sot sot dei
 我好似唔識得你
 我實告到佢甩褲
 我就打蛇隨棍上
-我幫你整翻好喇
+我幫你整返好喇
 我情願自己試下
 我想電個新髮型
 我慌怕你趕唔切
@@ -36996,7 +37294,7 @@ short short哋	sot sot dei
 我麻煩你一件事
 我點可以唔理呀
 或者聽日就到啦
-截架的士翻屋企
+截架的士返屋企
 戴咗頂紅色嘅帽
 房租都幾乸脷吓
 所以個個自己剪
@@ -37035,7 +37333,7 @@ short short哋	sot sot dei
 攪到我爭啲黐線
 整到呢度咁污糟
 整得靚啲唔好咩
-斬一蚊叉燒翻嚟
+斬一蚊叉燒返嚟
 斬吓眼唔見咗佢
 斬吓眼就唔見人
 新處長上任之後
@@ -37188,7 +37486,7 @@ short short哋	sot sot dei
 紙紮下巴口輕輕
 累埋我畀波士鬧
 細個嗰陣時學過
-終於翻到屋企啦
+終於返到屋企啦
 綁成一孖一孖噉
 網上消息流定堅
 練到隻手就嚟斷
@@ -37203,13 +37501,13 @@ short short哋	sot sot dei
 而家周圍去撲水
 而家唔同舊底咯
 而家啲人噉噶咩
-而家得翻我喺房
+而家得返我喺房
 而家淨得個壺身
 而家真係好夜嘞
 而家都仲未整完
 而家點都瞓唔着
 耐唔中都有去吓
-聽日又要翻學啦
+聽日又要返學啦
 聽日磅水都唔遲
 聽講你手藝唔錯
 聽講佢去咗北京
@@ -37227,12 +37525,12 @@ short short哋	sot sot dei
 萬零蚊唔係好貴
 落咗一場過雲雨
 落街同我買啲嘢
-落車後行翻轉頭
+落車後行返轉頭
 蒙古皇帝打太子
 薯仔煲糖水心淡
 行行吓就蕩失路
 行路仲冇咁嬲啦
-衫袖長翻啲先啱
+衫袖長返啲先啱
 衰鬼鐘累我遲到
 裏頭係乜東東呀
 要唔要識得英語
@@ -37275,7 +37573,7 @@ short short哋	sot sot dei
 趕唔切搭校車啦
 趷高腳跳芭蕾舞
 跌到佢腳都損嗮
-跟住又坐車翻去
+跟住又坐車返去
 踩凹咗個乒乓波
 身邊有兩位好友
 車一過就好大塵
@@ -37284,7 +37582,7 @@ short short哋	sot sot dei
 近排我好唔得閒
 通屋都係佢啲書
 通通都係陳皮嘢
-連屋企都好少翻
+連屋企都好少返
 連工資都冇添噶
 連自己都攪唔掂
 遊戲機有乜好玩
@@ -37402,7 +37700,7 @@ short short哋	sot sot dei
 今次真係大出血喇
 今次老細都得罪埋
 以後多啲出嚟飲茶
-仲唔快啲搵翻份工
+仲唔快啲搵返份工
 仲唔知道我係邊個
 仲要自欺欺人落去
 件事一啲線索都冇
@@ -37413,7 +37711,7 @@ short short哋	sot sot dei
 住七樓上落唔方便
 你一個人搦得埋咩
 你亞爸喺唔喺度呀
-你今日唔使翻工呀
+你今日唔使返工呀
 你今次又食檸檬呀
 你今次實一身蟻嘞
 你仲有乜嘢意見呀
@@ -37449,7 +37747,7 @@ short short哋	sot sot dei
 你唔怕人哋話你衙
 你唔通係牛皮燈籠
 你啲書放得咁立亂
-你喺處等住我翻嚟
+你喺處等住我返嚟
 你嘅服務態度咁好
 你噉做唔係幾盞噃
 你噉做都係混吉啫
@@ -37473,7 +37771,7 @@ short short哋	sot sot dei
 你抹乾淨個地下啦
 你挐佢同值一個班
 你搵到地方搬未呀
-你攞乜嘢賠翻畀我
+你攞乜嘢賠返畀我
 你是但畀啲就得嘞
 你最好都係慳儉啲
 你會唔會有興趣呀
@@ -37489,7 +37787,7 @@ short short哋	sot sot dei
 你眼超超噉想點呀
 你睇你肥屍大隻噉
 你睇佢個樣幾得敕
-你睇吓嗰便個師奶
+你睇吓嗰邊個師奶
 你而家去迆一陣先
 你要邊一種款式呢
 你覺得佢份人點呀
@@ -37534,7 +37832,7 @@ short short哋	sot sot dei
 佢呢種人睬佢都傻
 佢周時都關心大家
 佢周身的肌肉好實
-佢哋兩個又好翻咯
+佢哋兩個又好返咯
 佢哋全部都係義工
 佢哋兩個個樣好似
 佢哋兩個好行得埋
@@ -37559,7 +37857,7 @@ short short哋	sot sot dei
 佢最叻就係托老闆
 佢有三十歲咁滯咯
 佢望咗佢爸爸一眼
-佢正話去踢波翻嚟
+佢正話去踢波返嚟
 佢淨係肉緊啲錢啫
 佢淨係識講唔識做
 佢生成係咁面青青
@@ -37606,7 +37904,7 @@ short short哋	sot sot dei
 個蘋果又甜又爽脆
 個衰仔做乜仲唔嚟
 個賊即刻擰轉頭走
-個鐘跌爛咗整唔翻
+個鐘跌爛咗整唔返
 倒掛臘鴨油嘴滑舌
 做乜嘢總有啲嘰趷
 做人咪咁硬頸至得
@@ -37621,7 +37919,7 @@ short short哋	sot sot dei
 光棍佬遇着冇皮柴
 兩三毫子食一餐飯
 八仙過海各有千秋
-公司交翻畀佢打理
+公司交返畀佢打理
 公園嘅草地唔畀戮
 其實戒煙容乜易啫
 冇咗班打工仔幫襯
@@ -37645,7 +37943,7 @@ short short哋	sot sot dei
 只貓擔走咗一條魚
 叫佢等耐啲都唔制
 叫佢負責我唔放膽
-可以着成噉翻工噶
+可以着成噉返工噶
 可唔可以幫我問佢
 各位點可以唔撐呀
 同佢調換咗第個喼
@@ -37818,7 +38116,7 @@ short short哋	sot sot dei
 嗌到聲沙都冇人應
 嗰件事畀佢一插手
 嗰件大褸賣幾多蚊
-嗰便邊個打緊交呀
+嗰邊邊個打緊交呀
 嗰個啤啤仔肥嘟嘟
 嗰個肥佬肥揗揗噉
 嗰埲牆畀風吹冧咗
@@ -37897,7 +38195,7 @@ short short哋	sot sot dei
 屎坑石頭又臭又硬
 屎忽窟生瘡無眼睇
 山上轆咗嚿石落嚟
-帶嗮佢哋翻去落案
+帶嗮佢哋返去落案
 幅畫畫得花哩胡碌
 年晚煎堆人有我有
 床底破柴撞曬大板
@@ -37911,7 +38209,7 @@ short short哋	sot sot dei
 從來唔會借錢畀人
 情願行路唔願坐車
 慢下手唔見咗點算
-應該嘆翻吓世界嘞
+應該嘆返吓世界嘞
 成份卷得一題識答
 成個會場倒瀉籮蟹
 成日係咁頻頻撲撲
@@ -37958,7 +38256,7 @@ short short哋	sot sot dei
 我怕買得多過頭啦
 我想揾個人代我去
 我想約你聽音樂會
-我想話請假翻屋企
+我想話請假返屋企
 我成晚都冇瞓過呀
 我打籃球好水噶咋
 我教咗你十年英文
@@ -38011,7 +38309,7 @@ short short哋	sot sot dei
 搵咗好耐都搵唔到
 搵唔到着數蝕晒底
 搵啲竹枝嚟做棉簽
-搵翻小學張畢業相
+搵返小學張畢業相
 搵頂帽笠住個頭殼
 撒路溪錢吸引死人
 攝鐵吸住好多釘仔
@@ -38048,7 +38346,7 @@ short short哋	sot sot dei
 架收音機成日跳台
 架車行到半路壞咗
 梗係由你孭飛噶啦
-條羣短翻啲先好睇
+條裙短返啲先好睇
 條走廊畀人塞到實
 棚尾拉箱暗中走人
 棺材鋪拜神想人死
@@ -38077,7 +38375,7 @@ short short哋	sot sot dei
 牛皮燈籠點極唔明
 玩到冇嗮心機讀書
 玩呢啲遊戲真係爽
-玩埋呢兩日先翻去
+玩埋呢兩日先返去
 琴晚瞓得好唔好呀
 琴晚開夜開到通頂
 用手指頭督咗佢吓
@@ -38112,7 +38410,7 @@ short short哋	sot sot dei
 着起呢套軍服幾醒
 睇佢個樣都幾叻仔
 睇佢打扮得咁難睇
-睇佢死死氣噉翻嚟
+睇佢死死氣噉返嚟
 睇佢肯唔肯幫你咯
 睇佢講話窒口窒舌
 睇佢走到身水身汗
@@ -38146,7 +38444,7 @@ short short哋	sot sot dei
 而家同朋友食緊飯
 而家外便落好大雨
 而家少人着唐裝嘞
-而家得翻我喺屋企
+而家得返我喺屋企
 而家想戒就艱難喇
 而家畀公司雪藏咗
 而家識得用錢搵錢
@@ -38195,7 +38493,7 @@ short short哋	sot sot dei
 逢親星期日都休息
 連續企咗五個鐘頭
 連隨就要行第二步
-過三個字我就翻嚟
+過三個字我就返嚟
 過雲雨一陣間就停
 邊個夠膽死就嚟搶
 邊個要你啲爛鬼嘢
@@ -38221,7 +38519,7 @@ short short哋	sot sot dei
 除褲放屁多此一舉
 陳年中草藥發爛渣
 隨得大家自由出入
-隻狗佢買翻嚟幾日
+隻狗佢買返嚟幾日
 隻白鴿就變走咗嘞
 隻貓擔走咗一條魚
 難度就梗係有噶啦
@@ -38259,7 +38557,7 @@ short short哋	sot sot dei
 一盒餅乾有成五十件
 一笪落牀就瞓着咗囉
 一見佢衰樣我就眼冤
-一陣放工翻屋企先睇
+一陣放工返屋企先睇
 一陣間佢唔認賬點算
 三個鼻哥窿多一口氣
 不過唔記得咗係咩片
@@ -38277,7 +38575,7 @@ short short哋	sot sot dei
 人哋都冇辦法休息喇
 人老咗做嘢係論盡啲
 今年嘅預算咳咗好多
-今日翻學圖書館閂咗
+今日返學圖書館閂咗
 今日點解見唔到你嘅
 今晚捱眼瞓都做唔完
 今次個賊實走唔甩嘞
@@ -38421,7 +38719,7 @@ short short哋	sot sot dei
 佢話落畀佢個仔噶喇
 佢講嘅說話骨痺到死
 佢部機器擦到擸擸炩
-佢開完會直頭翻屋企
+佢開完會直頭返屋企
 佢頭先話賺咗筆大錢
 個個都冇嗮佢哋辦法
 個個都學你噉就好啦
@@ -38445,7 +38743,7 @@ short short哋	sot sot dei
 冇毛雞打交啖啖到肉
 冇証據你咬佢唔入嘅
 再唔出門就趕唔切啦
-出去行幾圈至翻嚟喇
+出去行幾圈至返嚟喇
 出盡八寶先至勸到佢
 前便有一棟綠色大樓
 包你成績會越嚟越好
@@ -38608,7 +38906,7 @@ short short哋	sot sot dei
 將條鐵線屈成一個圈
 小規模生產太爲皮喇
 小道消息最化學噶喇
-就即刻叫佢個仔翻嚟
+就即刻叫佢個仔返嚟
 就咁空手掉空臂去咩
 就擰轉頭睇吓乜嘢事
 就第一時間打開電視
@@ -38631,7 +38929,7 @@ short short哋	sot sot dei
 慢下手打起身嚟都似
 慢下手攪出個大頭佛
 戇居居噉企喺度做乜
-成一點鐘仲唔翻屋企
+成一點鐘仲唔返屋企
 成件事畀佢哋搇實嗮
 成個世界都變緊噶喇
 成日蝦霸人哋太曳咯
@@ -38666,7 +38964,7 @@ short short哋	sot sot dei
 我唔覺意撞跌咗個杯
 我唔記得你係邊個吖
 我噅媽咪畀我去露營
-我孭住細佬行翻屋企
+我孭住細佬行返屋企
 我屋企隔籬係生果檔
 我幾時值班都冇研究
 我想買啲唔使燙嘅衫
@@ -38674,7 +38972,7 @@ short short哋	sot sot dei
 我扯嗮火去搵佢波士
 我搵唔到鍾意嘅女仔
 我擝咗好多條白頭髮
-我整翻好部電視機喇
+我整返好部電視機喇
 我有啲嘢想同你斟吓
 我朋友同我搵咗份工
 我梗係有我嘅理由噶
@@ -38717,11 +39015,11 @@ short short哋	sot sot dei
 攞條棍犦嗮啲李落嚟
 攪到大家都冇啖好食
 放喺夾萬就最穩陣啦
-放學咁耐都未翻屋企
-日日翻工都要逼巴士
+放學咁耐都未返屋企
+日日返工都要逼巴士
 昧落游水池底搵眼鏡
 晨早流流就話食雪糕
-晨早流流翻嚟就鬧人
+晨早流流返嚟就鬧人
 會有乜嘢知心朋友吖
 有乜嘢事請你講低吖
 有乜差遲就唔妥噶喇
@@ -38792,7 +39090,7 @@ short short哋	sot sot dei
 細單位嘅樓盤最搶手
 細路仔用匙羹食飯多
 細路哥好驚行雷閃電
-翻一次工就嘥好多錢
+返一次工就嘥好多錢
 老闆邊度有咁好死吖
 考唔合格你就聽鬧喇
 聽人話食橙會惹痰噶
@@ -38812,13 +39110,13 @@ short short哋	sot sot dei
 談判專家都攪佢唔惦
 請問票係幾錢一張呀
 識啲唔識啲點得嘅唧
-買包沙蟲翻去餵金魚
+買包沙蟲返去餵金魚
 買啲生果點心做手信
 買張碌架牀慳地方啲
 賣魚佬沖涼冇曬腥氣
 走法律罅都冇咁易嘅
 越秀山嘅風景真正斗
-跌落地都要楋翻摣沙
+跌落地都要楋返摣沙
 跪地喂豬母睇錢份上
 跪地餵豬母睇錢份上
 車行嘅天橋唔畀人行
@@ -38829,7 +39127,7 @@ short short哋	sot sot dei
 邊個咁衰潑水出街呀
 邊個詐奸就唔同佢玩
 邊個鼠咗我隻遊戲碟
-邊度有錢攞翻屋企吖
+邊度有錢攞返屋企吖
 都十二點咯仲嘈嘈閉
 都未開始就想褪舦喎
 門口啲人企到密質質
@@ -38842,7 +39140,7 @@ short short哋	sot sot dei
 雞食放光草心知肚明
 雞食放光蟲心知肚明
 電視台通知我去試鏡
-順便幫家姐釘翻粒紐
+順便幫家姐釘返粒紐
 預咗要捱更抵夜㗎啦
 頭先佢喺台上畀人瘀
 頭先有隻雀飛咗入嚟
@@ -38899,7 +39197,7 @@ short short哋	sot sot dei
 介唔介意阻你少少時間
 以前嘅嘢唔好擺喺心度
 以前有過拗撬都要合作
-仲要晨早流流起身翻工
+仲要晨早流流起身返工
 件衫押入條褲度整齊啲
 估唔到佢唱呢首歌咁得
 你今日嘅日程安排係噉
@@ -38914,9 +39212,9 @@ short short哋	sot sot dei
 你做埋呢啲嘢畀人哋鬧
 你兩個字後再打嚟好嘛
 你去咨詢臺攞張申請表
-你又試咁夜至翻屋企囉
+你又試咁夜至返屋企囉
 你呢種做法我好啱心水
-你哋一個禮拜翻幾日工
+你哋一個禮拜返幾日工
 你哋仲入唔入呢種貨呀
 你哋呢度有冇加大號噶
 你哋嘅營業時間係幾時
@@ -38932,18 +39230,18 @@ short short哋	sot sot dei
 你好似淨係睇咗第一句
 你將呢份合同打嗮之後
 你幾時肯做我老婆仔呀
-你想剪翻個乜嘢髮型呀
+你想剪返個乜嘢髮型呀
 你掛到幅畫歪歪斜斜嘅
 你支唔支持呢個方案呀
 你有冇乜嘢體育愛好呀
 你有冇留意海水嘅顏色
-你有咩事翻入嚟先講吖
+你有咩事返入嚟先講吖
 你有幾多料大家心照啦
 你有打電話畀主任吖嗎
 你班埋師兄弟嚟攪乜嘢
 你病咗都唔得閒去探你
 你的書疊咁高因住冧呀
-你要先打個電話翻屋企
+你要先打個電話返屋企
 你解釋得我聽到一頭暈
 你講極我都仲係懵閉閉
 你講過乜嘢我都唔記得
@@ -39000,7 +39298,7 @@ short short哋	sot sot dei
 做採購員成日頻頻撲撲
 先生講書要畀心機聽吖
 入便係唔係會碎嘅嘢呀
-入醫院就好似翻屋企噉
+入醫院就好似返屋企噉
 兩個人唔知密斟啲乜嘢
 兩個人搵錢三個人食飯
 公司啲祕密點會畀人知
@@ -39010,7 +39308,7 @@ short short哋	sot sot dei
 冇咁大隻蛤乸隨街跳嘅
 出汗到件衫都溼淰淰咯
 前面呢執頭髮遮住隻眼
-去藥材舖執兩劑藥翻嚟
+去藥材舖執兩劑藥返嚟
 又做埋嗮啲冇肉食嘅嘢
 口花花嘅人唔一定有料
 台下個個都聽到眼溼溼
@@ -39089,8 +39387,8 @@ short short哋	sot sot dei
 唔通幾千蚊你都照買咩
 問咗幾次都得唔到答案
 啱有啲成績咁墟冚做乜
-啲嘢又殘又舊都要留翻
-啲嘢覺得鍾意拎翻去先
+啲嘢又殘又舊都要留返
+啲嘢覺得鍾意拎返去先
 啲紙寫墨水筆會化水嘅
 啲舊嘢都唔會有人吼喇
 喺紙度寫收信人嘅地址
@@ -39104,7 +39402,7 @@ short short哋	sot sot dei
 噉樣就睇落更加後生喇
 因住咁上下時間就得啦
 多啲運動肌肉先唔會削
-多得你幫我搵翻個手袋
+多得你幫我搵返個手袋
 大家都似你噉樣就好咯
 大家都好聲好氣噉討論
 天時熱個個都想去游水
@@ -39128,7 +39426,7 @@ short short哋	sot sot dei
 幾時得閒出嚟飲兩杯呀
 幾時請我哋去品嚐吓呀
 幾時都要帶眼識人至好
-得閒仲係鍾意飲翻兩杯
+得閒仲係鍾意飲返兩杯
 想三四日就築好條基圍
 戇居居企喺度做乜嘢呀
 成日思疑人哋係唔啱嘅
@@ -39141,11 +39439,11 @@ short short哋	sot sot dei
 我冇心機睇咁長嘅文章
 我半年都戒咗幾百次啦
 我可唔可以喺呢度埋單
-我同你買咗本書翻嚟喇
+我同你買咗本書返嚟喇
 我同呢件畸士冇乜挐褦
 我同老婆等佢家姐放工
 我哋仲要一個鐵板牛肉
-我哋係唔係簽翻個合同
+我哋係唔係簽返個合同
 我哋兩個都咁高咁大喇
 我哋呢度冇人叫呢個名
 我哋廠頭頭得十幾個人
@@ -39180,7 +39478,7 @@ short short哋	sot sot dei
 撒谷種要撒得好勻巡噶
 攞個啤酒樽兜頭犦落去
 攞張枱布嚟摟住個茶几
-放工實唔會即刻翻屋企
+放工實唔會即刻返屋企
 教練成日踎喺場外吼路
 整個公仔畀細路仔玩吓
 日日捱夜成個人落曬形
@@ -39248,7 +39546,7 @@ short short哋	sot sot dei
 背後講人哋會乞人憎噶
 舊社會窮人要捱飢抵餓
 落雨溼凹凹喐都唔想喐
-衫袖要攞翻梘省多幾吓
+衫袖要攞返梘省多幾吓
 衰鬼學生今日又唔嚟嘞
 西片多數都有中文字幕
 要上位梗係容易好多啦
@@ -39265,7 +39563,7 @@ short short哋	sot sot dei
 講話時口水溦飛嗮出嚟
 講起搵工就真係扯嗮火
 警方搇賭行動十分成功
-買嘢嘅錢一定要畀翻你
+買嘢嘅錢一定要畀返你
 賺畀人話公司冇料到啫
 趁手幫我倒埋啲垃圾吖
 越嚟越多人知道呢單嘢
@@ -39293,7 +39591,7 @@ short short哋	sot sot dei
 點解好似有朕怪味噉嘅
 點解我嘅信用咭唔用得
 點解睇咗好耐都唔明噶
-一個人一揪一掕噉拎翻嚟
+一個人一揪一掕噉拎返嚟
 一多啲嘢做佢就揗雞噶嘞
 一張票可以褦兩個細蚊仔
 一落班佢就急急腳去醫院
@@ -39375,7 +39673,7 @@ short short哋	sot sot dei
 係咪淨係得我哋可以知先
 係朋友使乜講埋呢啲嘢噶
 個仔放假就陪我哋去遊埠
-個衰仔咁晏仲唔翻嚟屋企
+個衰仔咁晏仲唔返嚟屋企
 倒一桶水落去就夠有突咯
 借問聲返程機票喺邊度訂
 做呢啲事你唔怕畀人唱咩
@@ -39386,7 +39684,7 @@ short short哋	sot sot dei
 出咗問題你自己去執生啦
 出嚟做嘢要識得埋堆至得
 初初佢嚟嗰陣時乜都唔會
-剩翻啲手尾我攪掂得噶喇
+剩返啲手尾我攪掂得噶喇
 可以話日日做到金睛火眼
 可唔可以使用屋主嘅電話
 台上個歌星人又靚歌又靚
@@ -39453,8 +39751,8 @@ short short哋	sot sot dei
 幅相裏便嗰個咪就係我囉
 幫我交份文件畀陳經理吖
 幫朋友我一向都好落力噶
-平平哋買翻個玩吓都好喎
-年卅晚人人都翻屋企團年
+平平哋買返個玩吓都好喎
+年卅晚人人都返屋企團年
 年卅晚我帶你去行花街啦
 張梯企過頭好難擒上去噶
 想早啲走就啦啦聲做嘢喇
@@ -39536,7 +39834,7 @@ short short哋	sot sot dei
 講實幾時完成就幾時完成
 讀小學嗰陣我好中意畫畫
 贏唔贏都係打五五波嘅咋
-贏翻一場都算係執翻身彩
+贏返一場都算係執返身彩
 都係唔好搵啲咁嘅嘢攪啦
 都唔夠個舖位半年嘅使費
 都要搵人做吓盲公竹先得
@@ -39563,7 +39861,7 @@ short short哋	sot sot dei
 今晚嘅演唱會佢唱得好落力
 他特登請個外來師傅來起屋
 份禮物一定係男朋友送噶啦
-估唔到會喺度撞翻嗰個衰人
+估唔到會喺度撞返嗰個衰人
 但而家旅遊業面對內憂外患
 你一嚟就攪到我啲嘢亂嗮龍
 你亞媽病咗你都唔去探吓佢
@@ -39593,7 +39891,7 @@ short short哋	sot sot dei
 佢喺度做都係騎牛搵馬噶啫
 佢嘅真面目卒之畀人識穿嗮
 佢太太攞埋雞湯嚟片場探班
-佢差唔多日日都翻屋企食飯
+佢差唔多日日都返屋企食飯
 佢擊敗咗同組嘅對手而入圍
 佢焮起嚟一氣唱咗十幾隻歌
 佢爸爸做大壽開咗五十圍酒
@@ -39612,7 +39910,7 @@ short short哋	sot sot dei
 再攞兩個枕頭畀我得唔得呀
 出名嘅球隊都有好多擁躉噶
 到時候我哋就喺山度過一晚
-剩翻幾份雜誌都畀佢擸嗮咯
+剩返幾份雜誌都畀佢擸嗮咯
 原來你哋兩個夾埋嚟玩我嘅
 可唔可以借錢畀我打個電話
 呢件事爛尾係因爲經費唔夠
@@ -39691,7 +39989,7 @@ short short哋	sot sot dei
 紅毛泥畀雨揜過就變質噶喇
 細個嗰陣屋企窮冇機會讀書
 老編將我篇文章改淨千零字
-而家仲有大把人踩單車翻工
+而家仲有大把人踩單車返工
 而家唔興着呢啲花哩碌嘅裙
 聽暇惹起啲林沈事就論盡囉
 聽講廣州有好多新嘅遊樂場
@@ -39763,7 +40061,7 @@ short short哋	sot sot dei
 我最鍾意嘅呢件衫燒穿咗個窿
 我決定打電話畀以前同行陳生
 我篇文佢擸咗一眼就話我唔得
-我而家只係希望可以再見翻佢
+我而家只係希望可以再見返佢
 我都唔記得幾耐未整過嘢食喇
 我需要你將呢個包裹囉去郵局
 我點會亂食呢啲冇寫名嘅藥丸
@@ -39790,12 +40088,12 @@ short short哋	sot sot dei
 今日港紙同美金嘅兌換率係幾多
 你今日有冇睇過公司嘅股票價格
 你咁做因住畀人話你性別歧視呀
-你唔做我保你第二日唔使再翻工
+你唔做我保你第二日唔使再返工
 佢偷咗嘢仲大模斯樣噉行出門口
 佢啲半鹹淡普通話笑到人哋肚赤
 佢將成副身家都投資到呢間工廠
 佢慣咗做夜遊神晚晚兩三點至瞓
-佢晚晚玩到半夜一兩點至翻屋企
+佢晚晚玩到半夜一兩點至返屋企
 佢用件衫摟住個頭唔想畀人睇到
 係人都知呢度熱天成日落雨嘅啦
 做得嘢嗰幾個都被佢個部門擸嗮
@@ -39808,7 +40106,7 @@ short short哋	sot sot dei
 呢啲瓷器係江西景德鎮嘅正斗貨
 呢條天橋日日都有人喺度派單張
 呢部奧斯卡獲獎影片真係冇得彈
-唔記得多句嘴叫佢今晚翻嚟食飯
+唔記得多句嘴叫佢今晚返嚟食飯
 唔該訂三張廿一號去上海嘅機票
 噉你點解唔搵多幾個人幫你手呀
 大家聽到比賽結果即刻冇嗮表情
@@ -39848,11 +40146,11 @@ short short哋	sot sot dei
 其實佢哋嘅部門一路都有好多問題
 十幾度使乜又頸巾又手套咁大陣仗
 原來電視上便講嘢嗰個人係市長喎
-去旅行梗要買翻啲特產翻去做手信
+去旅行梗要買返啲特產返去做手信
 呢件事畀班記者知道就唔得掂噶啦
 呢度成條街嘅攤檔都係賣女人嘢嘅
 呢首歌幾個星期都穩坐流行榜首位
-啲爛銅爛鐵佢執埋好多翻嚟當係寶
+啲爛銅爛鐵佢執埋好多返嚟當係寶
 喺朋友噶朋友噶微博度見到呢張圖
 夜晚一個人出街要小心畀人劏死牛
 我哋去樹蔭底下嗰個大排檔開煲啦
@@ -39875,7 +40173,7 @@ short short哋	sot sot dei
 再畀五萬蚊落去呢個工程仲未埋得尾
 可唔可以請你將呢張發票攞去會計部
 唔該同我將十蚊紙暢開一蚊張嘅散紙
-啱先翻屋企途中竟然撞到小學嘅同學
+啱先返屋企途中竟然撞到小學嘅同學
 女仔之家做嘢唔好咁冇釐搭霎先得噶
 我哋唔會打完齋唔要和尚咁冇腰骨嘅
 我哋最好將呢件行李擺喺行李架上便

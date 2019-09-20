@@ -27,7 +27,7 @@ This project also supports the promotion project of non-Mandarin phonetic spelli
 1. `sources/`路徑下爲各個輸入方案的來源倉庫，以子模块submodule的形式保存。其中大部分爲配方（配方的介紹請參見[Rime 輸入方案又是啥](https://github.com/rime/home/wiki/RimeWithSchemata#rime-%E8%BC%B8%E5%85%A5%E6%96%B9%E6%A1%88%E5%8F%88%E6%98%AF%E5%95%A5)），由方案作者更新維護，可直接通過[plum](https://github.com/rime/plum)安裝部署。由於部分方案不存在於GitHub，故此路徑下方案收錄不完整，
 2. `unmaintained/`路徑下爲从其他渠道收集得的方案文件，此类方案未配方化，无人更新维护，不保证可用性。
 3. `download/`用於存放各個語言的唯一權威版拼音，即爲[發佈頁面](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases)的下載整合包，方便用戶直接部署使用。
-4. `script/`內包含更新收錄碼錶所需的代碼。使用方法請見[使用教程](https://github.com/laubonghaudoi/Chinese_Rime#%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E9%A0%85%E7%9B%AE%E7%B6%B2%E7%AB%99-tutorial-project-website)。
+4. `script/`內包含更新收錄碼表所需的代碼。使用方法請見[使用教程](https://github.com/laubonghaudoi/Chinese_Rime#%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E9%A0%85%E7%9B%AE%E7%B6%B2%E7%AB%99-tutorial-project-website)。
 
 有關已收集方案的资源，如方案白皮书、教程等，請參見[方案相關文件（騰訊微雲）](https://github.com/laubonghaudoi/Chinese_Rime#%E8%B3%87%E6%BA%90resources)。
 
@@ -68,7 +68,7 @@ Then run the following command to clone all submodules into the repo:
 git submodule update --init --recursive
 ```
 
-<h3>更新碼錶</br>Update schemas</h3>
+<h3>更新碼表</br>Update schemas</h3>
 
 首先確保子模塊中內容已經克隆到本地，然後`cd`到`script/`下，運行以下命令來更新子模塊及下載包內方案文件：
 
@@ -108,7 +108,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共95個方案）</br>Full list of collected schemas (95 schemas in total)</h3>
+<h3>方案列表（共96個方案）</br>Full list of collected schemas (96 schemas in total)</h3>
 
 <ul>
   <li>
@@ -274,6 +274,12 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
       <summary>吳語 Wu</summary>
       <ul>
         <li>
+          吳語協會式上海話輸入法 ℞ <code>edward-martyr/rime-yahwe_zaonhe</code>
+          <ul>
+            <li>吳協式上海言話 - <code>yahwe_zaonhe</code></li>
+          </ul>
+        </li>
+        <li>
           吳語注音輸入方案吳語學堂版
           <ul>
             <li>
@@ -365,7 +371,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
   <li>
     <details>
-      <summary>閩南語 Southern Min (Hokkien)</summary>
+      <summary>閩南語 Southern Min (Hokkien, Amoy, Taiwanese, Teochew)</summary>
       <ul>
         <li>
           閩南語輸入方案 ℞ <code>a-thok/rime-hokkien</code>
@@ -487,7 +493,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         <li>
           南寧話輸入方案 ℞ <code>leimaau/naamning_jyutping</code>
           <ul>
-            <li>南寧白話 - <code>naamning_jyutping</code></li>
+            <li>南寧白話 - <code>naamning_baakwaa</code></li>
             <li>南寧（亭子）平話 - <code>naamning_bingwaa</code></li>
           </ul>
         </li>
@@ -549,7 +555,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
 </ul>
 
-<h3>配方列表（共35個配方）</br>List of recipes (35 recipes in total)</h3>
+<h3>配方列表（共36個配方）</br>List of recipes (36 recipes in total)</h3>
 
 <ul>
   <li>
@@ -645,13 +651,11 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
     <details>
       <summary>吳語 Wu</summary>
       <ul>
+        <li>吳語協會式上海話輸入法 ℞ <code>edward-martyr/rime-yahwe_zaonhe</code></li>
         <li>上海吳語拼音輸入方案 ℞ <code>NGLI/rime-wugniu_zaonhe</code></li>
         <li>蘇州吳語拼音輸入方案 ℞ <code>NGLI/rime-wugniu_soutseu</code></li>
         <li>寧波吳語拼音輸入方案 ℞ <code>NGLI/rime-wugniu_gninpou</code></li>
-        <li>
-          嘉興（五縣兩區）吳語拼音輸入方案 ℞
-          <code>NGLI/rime-wugniu_kashin</code>
-        </li>
+        <li>嘉興（五縣兩區）吳語拼音輸入方案 ℞ <code>NGLI/rime-wugniu_kashin</code></li>
         <li>吳語·上海話 ℞ <code>rime/rime-wugniu</code></li>
         <li>蘇州吳語 ℞ <code>rime/rime-soutzoe</code></li>
         <li>樂清話拼音輸入法 ℞ <code>lotem/rime-aoyu</code></li>
@@ -776,7 +780,11 @@ For detailed information of the collected schemas in the download packege, pleas
 <h2>資源</br>Resources</h2>
 
 <ul>
-  <li><a href="https://share.weiyun.com/5BqauQb">方案相關文件（騰訊微雲）Schema-related files (Tencent cloud)</a></li>
+  <li>方案相關文件 Schema-related files</li>
+  <ul>
+    <li><a href="https://share.weiyun.com/5BqauQb">騰訊微雲 Tencent cloud</a></li>
+    <li><a href="https://www.dropbox.com/sh/im1uku3eqnti4dm/AACsUoKdRmmp338tqEgkIDtJa?dl=0">Dropbox</a></li>
+  </ul>
   <li><a href="http://share.sinolect.com/">藏书阁</a></li>
   <li>語言學習資源（方案白皮書、教程、字典）</br>Language learning resources (schema white papers, tutorials, dictionaries, etc.)</li>
   <ul>
@@ -859,6 +867,7 @@ For detailed information of the collected schemas in the download packege, pleas
           <li><a href="https://words.hk/">粵典</a></li>
           <li><a href="http://ling.cuhk.edu.hk/jyutpingteaching/">Jyutping Teaching 粵拼教學</a></li>
           <li><a href="https://www.howtostudycantonese.com/">粤塾</a></li>
+          <li><a href="http://cccanto.org/#">CC-Canto</li>
           <li><a href="http://www.cantonese.asia/">粵語協會</a></li>
           <li><a href="http://www.cantonese.asia/attachments/school/canchars.htm">粵語字打法大全（2007賀歲版）</a></li>
           <li><a href="http://www.cantonese.asia/portal.php?mod=view&aid=229">Jyutping（粵拼）詳細教程</a></li>
@@ -886,7 +895,7 @@ For detailed information of the collected schemas in the download packege, pleas
         <li><a href="https://ytenx.org/">韻典網</a></li>
         <li><a href="http://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/">粵語審音配詞字庫</a></li>
         <li><a href="https://jyut.net/">粵音資料集叢</a></li>
-        <li><a href="https://fung1974.jyut.net/">粵語同音字典</a></li>
+        <li><a href="http://corpus.eduhk.hk/JPwordlist/index.php">香港語言學學會粵拼詞表</a></li>
         <li><a href="http://gisun.org/">Gisun</a></li>
         <li><a href="http://www.ccamc.co/index.php">古今文字集成</a></li>
         <li><a href="http://suzukish.s252.xrea.com/search/">篇韻データベース</a></li>
