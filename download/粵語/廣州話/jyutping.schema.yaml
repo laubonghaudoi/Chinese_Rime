@@ -65,10 +65,17 @@ speller:
     - abbrev/^([a-z]).+$/$1/     # 首字母簡拼
     - derive/^z/dz/              # 教院式
     - derive/^c/ts/              # 教院式
-    - abbrev/^(ng).+$/$1/        # 聲母簡拼
-    - abbrev/^([gk]w).+$/$1/     # 聲母簡拼
     - abbrev/^(dz).+$/$1/        # 聲母簡拼
     - abbrev/^(ts).+$/$1/        # 聲母簡拼
+    # 取消下兩行註釋，支持疑影不分
+    #- derive/^ng([aeiou])/$1/
+    #- derive/^([aeiou])/ng$1/
+    # 取消下行註釋，支持 n- 併入 l- ，如「你」讀若「理」
+    #- derive/^n/l/
+    # 取消下行註釋，支持 gw-、kw- 併入 g-、k- ，如「國」讀若「各」、「廓」讀若「確」
+    #- derive/^(g|k)w/$1/
+    # 取消下行註釋，支持獨立鼻音韻 ng 併入 m，如「吳」讀若「唔」
+    #- derive/^ng$/m/
 
 translator:
   dictionary: jyutping

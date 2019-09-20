@@ -27,7 +27,7 @@ This project also supports the promotion project of non-Mandarin phonetic spelli
 1. `sources/`路徑下爲各個輸入方案的來源倉庫，以子模塊submodule的形式保存。其中大部分爲配方（配方的介紹請參見[Rime 輸入方案又是啥](https://github.com/rime/home/wiki/RimeWithSchemata#rime-%E8%BC%B8%E5%85%A5%E6%96%B9%E6%A1%88%E5%8F%88%E6%98%AF%E5%95%A5)），由方案作者更新維護，可直接通過[plum](https://github.com/rime/plum)安裝部署（關於如何安裝配方，請參照HanhNgiox.net上教程）。由於部分方案不存在於GitHub，故此路徑下方案收錄不完整，
 2. `unmaintained/`路徑下爲从其他渠道收集得的方案文件，此类方案未配方化，无人更新维护，不保证可用性。
 3. `download/`用於存放各個語言的唯一權威版拼音，即爲[發佈頁面](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases)的下載整合包，方便用戶直接部署使用。
-4. `script/`內包含更新收錄碼錶所需的代碼。使用方法請見[使用教程](https://github.com/laubonghaudoi/Chinese_Rime#%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E9%A0%85%E7%9B%AE%E7%B6%B2%E7%AB%99-tutorial-project-website)。
+4. `script/`內包含更新收錄碼表所需的代碼。使用方法請見[使用教程](https://github.com/laubonghaudoi/Chinese_Rime#%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E9%A0%85%E7%9B%AE%E7%B6%B2%E7%AB%99-tutorial-project-website)。
 
 有關已收集方案的资源，如方案白皮书、教程等，請參見[方案相關文件（騰訊微雲）](https://github.com/laubonghaudoi/Chinese_Rime#%E8%B3%87%E6%BA%90resources)。
 
@@ -68,7 +68,7 @@ Then run the following command to clone all submodules into the repo:
 git submodule update --init --recursive
 ```
 
-<h3>更新碼錶</br>Update schemas</h3>
+<h3>更新碼表</br>Update schemas</h3>
 
 首先確保子模塊中內容已經克隆到本地，然後`cd`到`script/`下，運行以下命令來更新子模塊及下載包內方案文件：
 
