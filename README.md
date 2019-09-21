@@ -859,6 +859,7 @@ For detailed information of the collected schemas in the download packege, pleas
           <li><a href="https://words.hk/">粵典</a></li>
           <li><a href="http://ling.cuhk.edu.hk/jyutpingteaching/">Jyutping Teaching 粵拼教學</a></li>
           <li><a href="https://www.howtostudycantonese.com/">粤塾</a></li>
+          <li><a href="http://cccanto.org/#">CC-Canto</li>
           <li><a href="http://www.cantonese.asia/">粵語協會</a></li>
           <li><a href="http://www.cantonese.asia/attachments/school/canchars.htm">粵語字打法大全（2007賀歲版）</a></li>
           <li><a href="http://www.cantonese.asia/portal.php?mod=view&aid=229">Jyutping（粵拼）詳細教程</a></li>
@@ -886,7 +887,7 @@ For detailed information of the collected schemas in the download packege, pleas
         <li><a href="https://ytenx.org/">韻典網</a></li>
         <li><a href="http://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/">粵語審音配詞字庫</a></li>
         <li><a href="https://jyut.net/">粵音資料集叢</a></li>
-        <li><a href="https://fung1974.jyut.net/">粵語同音字典</a></li>
+        <li><a href="http://corpus.eduhk.hk/JPwordlist/index.php">香港語言學學會粵拼詞表</a></li>
         <li><a href="http://gisun.org/">Gisun</a></li>
         <li><a href="http://www.ccamc.co/index.php">古今文字集成</a></li>
         <li><a href="http://suzukish.s252.xrea.com/search/">篇韻データベース</a></li>
