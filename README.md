@@ -365,7 +365,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
   <li>
     <details>
-      <summary>閩南語 Southern Min (Hokkien)</summary>
+      <summary>閩南語 Southern Min (Hokkien, Amoy, Taiwanese, Teochew)</summary>
       <ul>
         <li>
           閩南語輸入方案 ℞ <code>a-thok/rime-hokkien</code>
@@ -776,7 +776,11 @@ For detailed information of the collected schemas in the download packege, pleas
 <h2>資源</br>Resources</h2>
 
 <ul>
-  <li><a href="https://share.weiyun.com/5BqauQb">方案相關文件（騰訊微雲）Schema-related files (Tencent cloud)</a></li>
+  <li>方案相關文件 Schema-related files</li>
+  <ul>
+    <li><a href="https://share.weiyun.com/5BqauQb">騰訊微雲 Tencent cloud</a></li>
+    <li><a href="https://www.dropbox.com/sh/im1uku3eqnti4dm/AACsUoKdRmmp338tqEgkIDtJa?dl=0">Dropbox</a></li>
+  </ul>
   <li><a href="http://share.sinolect.com/">藏书阁</a></li>
   <li>語言學習資源（方案白皮書、教程、字典）</br>Language learning resources (schema white papers, tutorials, dictionaries, etc.)</li>
   <ul>

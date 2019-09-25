@@ -8,7 +8,7 @@
 
 ---
 name: jyutping
-version: "2018.04.17"
+version: "2019.09.22"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -33,13 +33,9 @@ min_phrase_weight: 100
 䳬	zim
 丫	aa
 亚	aa
-亚	ngaa
 亞	aa
-亞	ngaa
 厂	aa
 厂	hon
-厊	aa
-厊	ngaa
 呀	aa
 咓	aa
 哑	aa
@@ -49,21 +45,17 @@ min_phrase_weight: 100
 嗄	aa
 嗄	saa
 埡	aa
-埡	ngaa
 娅	aa
 婭	aa
 挜	aa
 掗	aa
-掗	ngaa
 椏	aa
-椏	ngaa
 氩	aa
 氬	aa
 痖	aa
 瘂	aa
 襾	aa
 襾	kaa
-那	aa
 那	naa
 那	no
 錏	aa
@@ -73,10 +65,7 @@ min_phrase_weight: 100
 阿	aa
 阿	aak
 阿	o
-雅	aa
-雅	ngaa
 鴉	aa
-鴉	ngaa
 鸦	aa
 𠮩	aa
 𠮩	liu
@@ -102,22 +91,14 @@ min_phrase_weight: 100
 唉	oi
 埃	aai
 埃	oi
-娭	aai
-娭	ngaai
-娭	oi
 欸	aai
 欸	ei
 欸	oi
-矮	aai
 矮	ai
-矮	ngai
 誒	aai
 誒	e
 誒	ei
 誒	oi
-譺	aai
-譺	jik
-譺	ngaai
 诶	aai
 诶	ei
 诶	oi
@@ -126,7 +107,6 @@ min_phrase_weight: 100
 餲	aat
 㧖	aak
 㧖	ak
-㧖	zim
 䝈	aak
 䝈	ak
 䠎	aak
@@ -141,18 +121,16 @@ min_phrase_weight: 100
 呃	ak	1000
 扼	aak
 扼	ak
+阨	aak
+阨	ak
 握	aak
 握	ak
 搹	aak
-搹	ngak
+搹	ak
 軛	aak
-軛	ngaak
 軶	aak
-軶	ngaak
 轭	aak
-轭	ngaak
 鈪	aak
-鈪	ngaak
 齷	aak
 齷	ak
 龌	aak
@@ -183,15 +161,9 @@ min_phrase_weight: 100
 䳺	an
 菡	aam
 菡	haam
-贋	aam
-贋	am
-贋	ngaam
-贋	ngam
-贋	ngan
+贋	ngaan
 晏	aan
-晏	ngaan	1000
 鴳	aan
-鴳	ngaan
 鷃	aan
 䓨	aang
 䞷	aang
@@ -205,19 +177,13 @@ min_phrase_weight: 100
 押	aap
 押	aat
 鴨	aap
-鴨	ngaap
 鸭	aap
-鸭	ngaap
 压	aat
-压	ngaat
 嚈	aat
 嚈	jip
 堨	aat
-堨	ngaat
-堨	ngoi
 堨	oi
 壓	aat
-壓	ngaat
 恝	aat
 恝	gaat
 戛	aat
@@ -230,7 +196,6 @@ min_phrase_weight: 100
 歹	daai
 猒	aat
 猒	jim
-猒	ngaat
 遏	aat
 遏	kit
 閼	aat
@@ -239,9 +204,7 @@ min_phrase_weight: 100
 阏	jin
 頞	aat
 齃	aat
-齃	ngaat
-詏	aau	1000
-詏	ngaau
+詏	aau
 㔚	aau
 㔚	haau
 㕭	aau
@@ -280,24 +243,19 @@ min_phrase_weight: 100
 抓	zaau
 抝	aau
 拗	aau
-拗	ngaau
 靿	aau
-靿	ngaau
 䅬	ai
 嫕	ai
 嫕	ji
 屭	ai
 屭	hei
 曀	ai
-曀	ngai
 縊	ai
 缢	ai
 翳	ai
 翳	ji
 豷	ai
-豷	ngai
 躷	ai
-躷	ngai
 㬬	ak
 㬬	geoi
 偓	ak
@@ -308,9 +266,6 @@ min_phrase_weight: 100
 搤	ak
 渥	ak
 腛	ak
-腛	ngak
-阨	ak
-阨	ngak
 餩	ak
 唵	am
 啽	am
@@ -328,26 +283,20 @@ min_phrase_weight: 100
 掩	am
 掩	jim
 揞	am
-揞	ngam
 晻	am
 暗	am
-暗	ngam
 盦	am
 腤	am
-腤	ngam
 菴	am
 諳	am
 谙	am
 闇	am
 韽	am
-韽	ngam
 鵪	am
 鹌	am
 黭	am
 黭	jim
 黯	am
-𡁏	am
-𡁏	ngam
 㜝	an
 䞁	an
 䞁	zan
@@ -371,8 +320,6 @@ min_phrase_weight: 100
 莺	ang
 鞥	ang
 鶯	ang
-噏	ap
-噏	ngap
 洽	ap
 洽	haap
 洽	hap
@@ -410,8 +357,7 @@ min_phrase_weight: 100
 䋁	au
 䋁	gaang
 䫜	au
-勾	au
-勾	gau
+勾	gau 3%
 勾	ngau
 区	au
 区	keoi
@@ -423,9 +369,7 @@ min_phrase_weight: 100
 敺	keoi
 櫙	au
 欧	au
-欧	ngau
 歐	au
-歐	ngau
 殴	au
 毆	au
 沤	au
@@ -436,15 +380,9 @@ min_phrase_weight: 100
 甌	au
 謳	au
 讴	au
-鉤	au
-鉤	gau
-鉤	ngau
 鏂	au
-鏂	ngau
 鷗	au
 鸥	au
-𩥋	au
-𩥋	ngau
 㞎	baa
 㞎	paa
 㳒	baa
@@ -1815,7 +1753,7 @@ min_phrase_weight: 100
 岔	caa
 差	caa
 差	caai	300%
-差	ci
+差	ci  3%
 扠	caa
 搽	caa
 杈	caa
@@ -7671,7 +7609,7 @@ min_phrase_weight: 100
 勼	gau
 勼	kau
 厩	gau
-句	gau
+句	gau 3%
 句	geoi
 咎	gau
 咎	gou
@@ -7740,9 +7678,11 @@ min_phrase_weight: 100
 購	kau
 购	gau
 遘	gau
-鈎	gau
+鈎	gau 3%
 鈎	ngau
-钩	gau
+鉤	gau 3%
+鉤	ngau
+钩	gau 3%
 钩	ngau
 阄	gau
 雊	gau
@@ -16940,7 +16880,9 @@ min_phrase_weight: 100
 枒	ngaa
 桠	ngaa
 牙	ngaa
+厊	ngaa
 犽	ngaa
+雅	ngaa
 瓦	ngaa
 疋	ngaa
 疋	pat
@@ -16966,6 +16908,8 @@ min_phrase_weight: 100
 䋙	zi
 䐖	ngaai
 䐖	zi
+譺	ngaai
+譺	jik
 䘽	ngaai
 䝘	ngaai
 䡾	ngaai
@@ -17017,6 +16961,7 @@ min_phrase_weight: 100
 鴈	ngaan
 硬	ngaang
 擪	ngaap
+擪	jip
 㐳	ngaat
 㞕	ngaat
 㞕	sit
@@ -17115,6 +17060,8 @@ min_phrase_weight: 100
 㚧	ngam
 㚧	zim
 扲	ngam
+𡁏	ngam
+𡁏	mung
 㘖	ngan
 䟴	ngan
 䟴	zaan
@@ -17136,6 +17083,8 @@ min_phrase_weight: 100
 㟁	ngang
 㟁	ngon
 䤝	ngang
+噏	ngap
+噏	kap
 砐	ngap
 兀	ngat
 卼	ngat
@@ -17164,6 +17113,7 @@ min_phrase_weight: 100
 蕅	ngau
 藕	ngau
 騳	ngau
+𩥋	ngau
 㓟	ngo
 㓟	pai
 㓟	pei
@@ -17203,15 +17153,6 @@ min_phrase_weight: 100
 㕌	ngoi
 㕌	zak
 外	ngoi
-外	oi
-愛	ngoi
-愛	oi
-氨	ngoi
-氨	on
-爱	ngoi
-爱	oi
-璦	ngoi
-璦	oi
 碍	ngoi
 礙	ngoi
 騃	ngoi
@@ -17227,19 +17168,11 @@ min_phrase_weight: 100
 䣞	ngok
 䫷	ngok
 咢	ngok
-噁	ngok
-噁	ok
 噩	ngok
 堮	ngok
 岳	ngok
 崿	ngok
 嶽	ngok
-恶	ngok
-恶	ok
-恶	wu
-惡	ngok
-惡	ok
-惡	wu
 愕	ngok
 櫮	ngok
 腭	ngok
@@ -17261,15 +17194,7 @@ min_phrase_weight: 100
 𩓥	ngok
 㸩	ngon
 䯃	ngon
-安	ngon
-安	on
 岸	ngon
-案	ngon
-案	on
-胺	ngon
-胺	on
-銨	ngon
-銨	on
 𩣑	ngon
 戇	ngong	1000
 戇	zong
@@ -17295,31 +17220,21 @@ min_phrase_weight: 100
 傲	ngou
 嗷	ngou
 奡	ngou
-嶴	ngou
-嶴	ou
 廒	ngou
 摮	ngou
-擙	ngou
-擙	ou
 敖	ngou
 滶	ngou
 熬	ngou
-爊	ngou
-爊	ou
 獒	ngou
 璈	ngou
 磝	ngou
 翱	ngou
 翺	ngou
 聱	ngou
-芺	ngou
-芺	ou
 螯	ngou
 謷	ngou
 遨	ngou
 鏊	ngou
-鏖	ngou
-鏖	ou
 隞	ngou
 驁	ngou
 骜	ngou
@@ -17329,13 +17244,6 @@ min_phrase_weight: 100
 鼇	ngou
 𢳆	ngou
 𦪈	ngou
-剭	nguk
-剭	uk
-屋	nguk
-屋	uk
-𡃵	ngung
-𢫨	ngung
-𢶜	ngung
 㥾	nik
 㲻	nik
 䁥	nik
@@ -17627,25 +17535,41 @@ min_phrase_weight: 100
 䨠	piu
 僾	oi
 哀	oi
+娭	oi
+娭	hei
 嗳	oi
 噯	oi
 壒	oi
 嫒	oi
 嬡	oi
+璦	oi
 暧	oi
 曖	oi
 毐	oi
 瑷	oi
 瞹	oi
 蔼	oi
+愛	oi
+爱	oi
 薆	oi
 藹	oi
 鑀	oi
 霭	oi
 靄	oi
 靉	oi
+噁	ok
+噁	wu
+恶	ok
+恶	wu
+惡	ok
+惡	wu
 垩	ok
 堊	ok
+安	on
+氨	on
+胺	on
+胺	aat
+案	on
 㫨	on
 䀂	on
 䅁	on
@@ -17657,6 +17581,7 @@ min_phrase_weight: 100
 盎	on
 盎	ong
 铵	on
+銨	on
 鞌	on
 鞍	on
 㼜	ong
@@ -17672,6 +17597,7 @@ min_phrase_weight: 100
 㟅	ou
 㟅	zoeng
 㤇	ou
+芺	ou
 㩠	ou
 㾮	ou
 㾮	wong
@@ -17688,13 +17614,20 @@ min_phrase_weight: 100
 媼	ou
 媼	wan
 岙	ou
+擙	ou
 懊	ou
 袄	ou
 襖	ou
 鏕	ou
 镺	ou
+嶴	ou
 𥜌	ou
 𩼈	ou
+爊	ou
+爊	ngou	3%
+爊	ngaau	3%
+鏖	ou
+鏖	ngou	6%
 䎬	paa
 䎱	paa
 帊	paa
@@ -21059,7 +20992,12 @@ min_phrase_weight: 100
 脫	tyut
 脱	tyut
 莌	tyut
+屋	uk
+剭	uk
 瓮	ung
+𡃵	ung
+𢫨	ung
+𢶜	ung
 齆	ung
 汙	waa	0%
 汙	wu
@@ -24567,7 +24505,7 @@ IP	ai pi
 弊傢伙
 跛腳佬	bai goek lou
 弊喇
-閉翳	bai ngai
+閉翳	bai ai
 跛手	bai sau
 北便	bak bin
 北芪
@@ -24801,7 +24739,7 @@ book酒店
 搬入
 本來
 本銀
-搬屋	bun nguk
+搬屋	bun uk
 半生熟	bun saang suk
 半世人
 半新舊
@@ -25749,7 +25687,7 @@ AA制	ei ei zai
 翻嚟	faan lei
 翻唔切	faan m cit
 反面唔認人	faan min m jing jan
-翻屋企	faan nguk kei
+翻屋企	faan uk kei
 翻嗮面
 翻生	faan saang
 番薯糖	faan syu tong
@@ -25815,7 +25753,7 @@ AA制	ei ei zai
 瞓唔到	fan m dou
 瞓唔着	fan m zoek
 瞓唔着覺	fan m zoek gaau
-瞓晏覺	fan ngaan gaau
+瞓晏覺	fan aan gaau
 婚紗舖
 瞓衫
 分身家	fan san gaa
@@ -25991,7 +25929,7 @@ fax	fet si
 隔籬
 隔籬飯香
 隔籬鄰舍
-隔籬屋	gaak lei nguk
+隔籬屋	gaak lei uk
 革命知識份子	gaak ming zi sik fan zi
 隔渣
 格仔	gaak zai
@@ -26121,7 +26059,7 @@ fax	fet si
 雞泡魚	gai pou jyu
 計嗮	gai saai
 雞腎
-雞手鴨腳	gai sau ngaap goek
+雞手鴨腳	gai sau aap goek
 計數機	gai sou gei
 計條數	gai tiu sou
 計仔	gai zai
@@ -26165,7 +26103,7 @@ fax	fet si
 金鈪	gam ngaak
 咁啱
 咁啱嘅	gam ngaam ge
-咁晏	gam ngaan
+咁晏	gam aan
 今鋪
 金舖
 甘醇
@@ -26212,7 +26150,7 @@ fax	fet si
 趷起條尾	gat hei tiu mei
 拮肉	gat juk
 趷路	gat lou
-吉屋招租	gat nguk ziu zou
+吉屋招租	gat uk ziu zou
 吉身	gat san
 吉手
 舊底
@@ -26346,7 +26284,7 @@ fax	fet si
 叫餸
 叫餸食飯	giu sung sik faan
 撬走	giu zau
-嗰便	go bin
+嗰邊	go bin
 個噃
 嗰次
 嗰單畸士	go daan kei si
@@ -26363,7 +26301,7 @@ fax	fet si
 個囉
 嗰晚
 嗰排
-個心好翳	go sam hou ngai
+個心好翳	go sam hou ai
 個心十五十六
 嗰時
 嗰處	go syu
@@ -26778,8 +26716,8 @@ fax	fet si
 係咪真嘅	hai mai zan ge
 係咩
 係你先至好講呀
-喺屋企	hai nguk kei
-喺屋企	hoeng nguk kei
+喺屋企	hai uk kei
+喺屋企	hoeng uk kei
 喺嗮
 喺處	hai syu
 喺處	hoeng syu
@@ -26862,7 +26800,7 @@ fax	fet si
 起骨
 戲肉
 起嚟	hei lei
-起屋	hei nguk
+起屋	hei uk
 起上嚟	hei soeng lei
 囍帖
 戲台	hei toi
@@ -26882,13 +26820,13 @@ fax	fet si
 墟墟冚冚
 墟日
 去馬
-去賣鹹鴨蛋	heoi maai haam ngaap daan
+去賣鹹鴨蛋	heoi maai haam aap daan
 去蒲
 去就去啦
 去咗
 去咗見周公	heoi zo gin zau gung
 去咗飲
-去咗賣鹹鴨蛋	heoi zo maai haam ngaap daan
+去咗賣鹹鴨蛋	heoi zo maai haam aap daan
 獻世
 焮親	hing can
 興趣盎然	hing ceoi ngong jin
@@ -27033,8 +26971,8 @@ fax	fet si
 洶涌澎湃	hung jung paang paai
 洶湧澎湃	hung jung paang paai
 熊貓噉嘅眼	hung maau gam ge ngaan
-兇神惡	hung san ngok
-兇神惡殺	hung san ngok saat
+兇神惡	hung san ok
+兇神惡煞	hung san ok saat
 空手掉空臂	hung sau diu hung bei
 熊仔	hung zai
 壎篪相和
@@ -27748,7 +27686,7 @@ quali	ko li
 爛泥扶唔上壁	laan nai fu m soeng bek
 爛女	laan neoi
 爛牙
-讕惡爺	laan ngok je
+讕惡爺	laan ok je
 爛平爛賤	laan peng laan zin
 爛蒲
 爛衫
@@ -27848,7 +27786,7 @@ quali	ko li
 留翻
 嘍口
 漏口佬
-留喺屋企湊仔	lau hoeng nguk kei cau zai
+留喺屋企湊仔	lau hoeng uk kei cau zai
 流嘢
 樓契	lau kai
 褸裙	lau kwan
@@ -28199,7 +28137,7 @@ label	lei bou
 唔係啩	m hai gwaa
 唔係好合	m hai hou gaap
 唔係路	m hai lou
-唔喺屋企	m hai nguk kei
+唔喺屋企	m hai uk kei
 唔合法	m hap faat
 唔合理	m hap lei
 唔合適	m hap sik
@@ -28241,7 +28179,7 @@ label	lei bou
 唔啱傾	m ngaam king
 唔啱數	m ngaam sou
 唔啱咀形	m ngaam zeoi jing
-唔安樂	m ngon lok
+唔安樂	m on lok
 唔耐	m noi
 唔耐煩	m noi faan
 唔安全	m on cyun
@@ -28352,7 +28290,7 @@ label	lei bou
 賣埠	maai fau
 賣貨員	maai fo jyun
 賣告白	maai gou baak
-賣鹹鴨蛋	maai haam ngaap daan
+賣鹹鴨蛋	maai haam aap daan
 賣口乖
 埋去
 買嘢
@@ -28362,7 +28300,7 @@ label	lei bou
 買唔到飛	maai m dou fei
 埋尾
 埋岸
-買屋	maai nguk
+買屋	maai uk
 賣嗮
 買衫
 埋身	maai san
@@ -28378,7 +28316,7 @@ label	lei bou
 擘大個口得個窿
 擘大口
 擘大口得個窿
-擘大喉嚨嗌	maak daai hau lung ngaai
+擘大喉嚨嗌	maak daai hau lung aai
 擘大眼
 擘大眼講大話
 擘開個口
@@ -28865,24 +28803,24 @@ miss	mi si
 挨憑	ngaai beng
 捱得苦
 捱更抵夜	ngaai gaang dai je
-嗌交	ngaai gaau
-嗌救命	ngaai gau meng
+嗌交	aai gaau
+嗌救命	aai gau meng
 捱飢抵冷
-嗌嘢	ngaai je
+嗌嘢	aai je
 捱夜
-嗌嘢食	ngaai je sik
+嗌嘢食	aai je sik
 崖鷹
 捱騾仔	ngaai leoi zai
 挨晚	ngaai maan
-嗌名	ngaai meng
+嗌名	aai meng
 捱眼瞓
 挨拼	ngaai peng
 挨拼椅	ngaai peng ji
 捱生捱死	ngaai saang ngaai sei
 捱世界
 捱肚餓
-嗌痛	ngaai tung
-嗌通街	ngaai tung gaai
+嗌痛	aai tung
+嗌通街	aai tung gaai
 捱齋	ngaai zaai
 呃錢	ngaak cin
 呃鬼	ngaak gwai
@@ -28915,7 +28853,7 @@ miss	mi si
 眼火爆
 眼火標
 眼闊頭窄	ngaan fut tou zaak
-晏覺	ngaan gaau
+晏覺	aan gaau
 眼鏡舖
 眼公仔	ngaan gung zai
 眼光光
@@ -28930,59 +28868,59 @@ miss	mi si
 眼核	ngaan wat
 眼斬斬
 眼仔碌碌	ngaan zai luk luk
-晏晝	ngaan zau
-晏晝飯	ngaan zau faan
+晏晝	aan zau
+晏晝飯	aan zau faan
 硬打硬
 硬頸
 硬角角	ngaang gok gok
 硬係
 眼淚水	ngaang leoi seoi
 硬嗮舦
-鴨春	ngaap ceon
+鴨春	aap ceon
 押高褲腳	ngaap gou fu goek
 押高衫袖	ngaap gou saam zau
 押後	ngaap hau
 押後處理	ngaap hau cyu lei
 押屎片	ngaap si pin
-鴨咀帽	ngaap zeoi mou
+鴨咀帽	aap zeoi mou
 餲堪堪	ngaat ham ham
-拗頸	ngaau geng
-拗撬	ngaau giu
+拗頸	aau geng
+拗撬	aau giu
 肴痕
 咬口
 咬口脣
-拗氣	ngaau hei
+拗氣	aau hei
 咬一啖
-拗腰	ngaau jiu
+拗腰	aau jiu
 咬佢唔入	ngaau keoi m zap
 咬唔入	ngaau m zap
 肴嗮頭
-拗手瓜	ngaau sau gwaa
-拗胡	ngaau wu
-拗胡婆	ngaau wu po
-矮躉	ngai dan
-矮凳仔	ngai dang zai
-矮凸凸	ngai dat dat
+拗手瓜	aau sau gwaa
+拗胡	aau wu
+拗胡婆	aau wu po
+矮躉	ai dan
+矮凳仔	ai dang zai
+矮凸凸	ai dat dat
 蟻竇
-翳焗	ngai guk
-矮瓜	ngai gwaa
-翳氣	ngai hei
+翳焗	ai guk
+矮瓜	ai gwaa
+翳氣	ai hei
 噅人
-翳熱	ngai jit
+翳熱	ai jit
 噅求
 蟻躝噉	ngai laan gam
 噅噅篩篩
-翳滯	ngai zai
+翳滯	ai zai
 僞造	ngai zou
 僞造品	ngai zou ban
 吟沉	ngam cam
 扲袋
 吟嚟吟去	ngam lei ngam heoi
-暗啞抵	ngam ngaa dai
+暗啞抵	am ngaa dai
 吟吟沉沉	ngam ngam cam cam
 扲雀仔竇	ngam zoek zai dau
-揞住	ngam zyu
-揞住嘴笑	ngam zyu zeoi siu
+揞住	am zyu
+揞住嘴笑	am zyu zeoi siu
 銀包
 銀雞
 奀妹
@@ -29058,40 +28996,40 @@ miss	mi si
 外來妹	ngoi loi mui
 外母乸	ngoi mou naa
 外省佬	ngoi saang lou
-愛錫	ngoi sek
+愛錫	oi sek
 外洩	ngoi sit
 外太公	ngoi taai gung
 外太婆	ngoi taai po
-惡頂	ngok ding
+惡頂	ok ding
 捳高頭	ngok gou tau
-惡亨亨	ngok hang hang
-惡爺	ngok je
-惡爺頭	ngok je tau
+惡亨亨	ok hang hang
+惡爺	ok je
+惡爺頭	ok je tau
 鱷魚頭
-惡鯁	ngok kang
-惡死	ngok sei
-惡死能登	ngok sei nang dang
+惡鯁	ok kang
+惡死	ok sei
+惡死能登	ok sei nang dang
 捳頭	ngok tau
-惡作	ngok zok
-安樂茶飯	ngon lok caa faan
+惡作	ok zok
+安樂茶飯	on lok caa faan
 戇居	ngong geoi
 戇居居	ngong geoi geoi
 戇佬	ngong lou
 戇戇哋	ngong ngong dei
 戇喪	ngong song
-擙落嚟	ngou lok lei
-擙唔到	ngou m dou
-屋契	nguk kai
-屋企人	nguk kei jan
-屋租	nguk zou
-屋主婆	nguk zyu po
+擙落嚟	ou lok lei
+擙唔到	ou m dou
+屋契	uk kai
+屋企人	uk kei jan
+屋租	uk zou
+屋主婆	uk zyu po
 壅肥	ngung fei
 甕缸	ngung gong
 搈人	ngung jan
 搈落	ngung lok
 搈門	ngung mun
 壅泥	ngung nai
-呢便	ni bin
+呢邊	ni bin
 呢駁	ni bok
 呢啲	ni di
 呢啲嘢	ni di je
@@ -29131,7 +29069,7 @@ miss	mi si
 拎出去	ning ceot heoi
 拎出嚟	ning ceot lei
 拎翻去	ning faan heoi
-拎翻屋企	ning faan nguk kei
+拎翻屋企	ning faan uk kei
 擰過身嚟	ning gwo san lei
 擰螺絲	ning lo si
 擰嗮頭	ning saai tau
@@ -29368,7 +29306,7 @@ PTU	pi ti jiu
 生瘌痢	saang laat lei
 生埋腦筍	saang maai nou seon
 省牛王	saang ngau wong
-生安白造	saang ngon baak zou
+生安白造	saang on baak zou
 生壅	saang ngung
 生嗮	saang saai
 生嗮草	saang saai cou
@@ -29442,7 +29380,7 @@ PTU	pi ti jiu
 糝古月粉	sam gu jyut fan
 審核權	sam hat kyun
 心口針
-心好翳	sam hou ngai
+心好翳	sam hou ai
 心仪
 心裏	sam leoi
 滲蚊仔	sam man zai
@@ -29581,8 +29519,8 @@ PTU	pi ti jiu
 手指纈	sau zi lit
 手指屘
 手指模
-手指拗出	sau zi ngaau ceot
-手指拗出唔拗入	sau zi ngaau ceot m ngaau jap
+手指拗出	sau zi aau ceot
+手指拗出唔拗入	sau zi aau ceot m aau jap
 瘦咗
 收租婆
 卸膊
@@ -29814,8 +29752,8 @@ CIB	si ai bi
 食貓麪	sik maau min
 食懵咗	sik mung zo
 識諗	sik nam
-食晏	sik ngaan
-食晏仔	sik ngaan zai
+食晏	sik aan
+食晏仔	sik aan zai
 食姩	sik nin
 食檸檬	sik ning mung
 食腦	sik nou
@@ -29928,7 +29866,7 @@ CIB	si ai bi
 燒嘢食	siu je sik
 燒乳豬
 小囡
-燒鴨	siu ngaap
+燒鴨	siu aap
 燒鵝
 燒燶咗
 燒炮仗	siu paau zoeng
@@ -30324,7 +30262,7 @@ tissue	ti su
 唐字
 唐裝衫
 劏豬
-劏豬噉嗌	tong zyu gam ngaai
+劏豬噉嗌	tong zyu gam aai
 肚赤	tou cek
 土墩	tou deon
 土佬
@@ -30342,8 +30280,8 @@ tissue	ti su
 痛腳
 桐油灰
 通譯者
-同屋共主	tung nguk gung zyu
-同屋主	tung nguk zyu
+同屋共主	tung uk gung zyu
+同屋主	tung uk zyu
 捅破	tung po
 同生死	tung sang sei
 痛錫	tung sek
@@ -30480,7 +30418,7 @@ tissue	ti su
 屈親隻腳
 屈親隻手
 屈得就屈
-屈喺屋企	wat hai nguk kei
+屈喺屋企	wat hai uk kei
 屈氣
 屈去後便	wat heoi hau bin
 屈佢食隻死貓	wat keoi sik zek sei maau
@@ -30723,7 +30661,7 @@ van仔	weng zai
 執藥
 執笠
 執漏
-執屋	zap nguk
+執屋	zap uk
 執平嘢	zap peng je
 執山草藥
 執生	zap saang
@@ -30841,7 +30779,7 @@ jacket	zek kek
 嘴喵喵
 追女仔	zeoi neoi zai
 最細
-聚酰亞胺	zeoi sin ngaa on
+聚酰亞胺	zeoi sin aa on
 追數	zeoi sou
 醉酒佬
 樽頸
@@ -31084,7 +31022,7 @@ jacket	zek kek
 做埋老襯
 做乜	zou mat
 做咩
-做鴨	zou ngaap
+做鴨	zou aap
 早排
 做part-time	zou paak taai
 做散使	zou saan sai
@@ -35308,7 +35246,7 @@ short short哋	sot sot dei
 千祈唔好縮沙
 卒之完成任務
 原來我冇估錯
-去嗰便睇吓喇
+去嗰邊睇吓喇
 去撳機咪得囉
 去香港嘅機位
 參觀吓你間屋
@@ -37489,7 +37427,7 @@ short short哋	sot sot dei
 你眼超超噉想點呀
 你睇你肥屍大隻噉
 你睇佢個樣幾得敕
-你睇吓嗰便個師奶
+你睇吓嗰邊個師奶
 你而家去迆一陣先
 你要邊一種款式呢
 你覺得佢份人點呀
@@ -37818,7 +37756,7 @@ short short哋	sot sot dei
 嗌到聲沙都冇人應
 嗰件事畀佢一插手
 嗰件大褸賣幾多蚊
-嗰便邊個打緊交呀
+嗰邊邊個打緊交呀
 嗰個啤啤仔肥嘟嘟
 嗰個肥佬肥揗揗噉
 嗰埲牆畀風吹冧咗
