@@ -487,7 +487,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         <li>
           南寧話輸入方案 ℞ <code>leimaau/naamning_jyutping</code>
           <ul>
-            <li>南寧白話 - <code>naamning_jyutping</code></li>
+            <li>南寧白話 - <code>naamning_baakwaa</code></li>
             <li>南寧（亭子）平話 - <code>naamning_bingwaa</code></li>
           </ul>
         </li>
