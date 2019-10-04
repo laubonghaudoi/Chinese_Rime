@@ -94,8 +94,8 @@ speller:
     - derive/^nj/j/               # 模糊 nj -> j
     - derive/^sl/s/               # 模糊 sl -> s
     - derive/^w/f/                # 模糊 f -> w
-    - derive/^(g|k)o/$1wo/        # 模糊 (gk)o -> (gk)wo
-    - derive/^(g|k)ik/$1wik/      # 模糊 (gk)ik -> (gk)wik
+    - derive/^(g|k)wo/$1o/        # 模糊 (gk)wo -> (gk)o
+    - derive/^(g|k)wik/$1ik/      # 模糊 (gk)wik -> (gk)ik
     - derive/i$/ei/          	  # 模糊 i -> ei
     - derive/u$/ou/          	  # 模糊 u -> ou
     - derive/dik$/d/              # 快出「的」字
