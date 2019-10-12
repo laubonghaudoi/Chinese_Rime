@@ -4,9 +4,11 @@
 schema:
   schema_id: jyutping
   name: 粵拼
-  version: "0.14"
+  version: "0.15"
   author:
     - 佛振 <chen.sst@gmail.com>
+    - LeiMaau <leimaau@qq.com>
+    - 劉邦後代 <laubonghaudoi@icloud.com>
   description: |
     採用香港語言學會粵語拼音方案
     https://www.lshk.org/jyutping
@@ -14,6 +16,8 @@ schema:
     碼表源自 scim-table-zh
   dependencies:
     - luna_pinyin
+    - stroke
+    - cangjie5
 
 switches:
   - name: ascii_mode
@@ -39,16 +43,22 @@ engine:
   segmentors:
     - ascii_segmentor
     - matcher
+    - affix_segmentor@luna_pinyin
+    - affix_segmentor@stroke
+    - affix_segmentor@cangjie5
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
     - script_translator
-    - reverse_lookup_translator
+    - script_translator@luna_pinyin
+    - table_translator@stroke
+    - table_translator@cangjie5
   filters:
     - simplifier
     - uniquifier
+    - reverse_lookup_filter@reverse_lookup
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
@@ -67,13 +77,17 @@ speller:
     - derive/^c/ts/              # 教院式
     - abbrev/^(dz).+$/$1/        # 聲母簡拼
     - abbrev/^(ts).+$/$1/        # 聲母簡拼
+
     # 取消下兩行註釋，支持疑影不分
     #- derive/^ng([aeiou])/$1/
     #- derive/^([aeiou])/ng$1/
+
     # 取消下行註釋，支持 n- 併入 l- ，如「你」讀若「理」
     #- derive/^n/l/
+
     # 取消下行註釋，支持 gw-、kw- 併入 g-、k- ，如「國」讀若「各」、「廓」讀若「確」
     #- derive/^(g|k)w/$1/
+
     # 取消下行註釋，支持獨立鼻音韻 ng 併入 m，如「吳」讀若「唔」
     #- derive/^ng$/m/
 
@@ -81,15 +95,48 @@ translator:
   dictionary: jyutping
   spelling_hints: 5
 
-reverse_lookup:
+luna_pinyin:
+  tag: luna_pinyin
   dictionary: luna_pinyin
+  enable_user_dict: false
   prefix: "`"
-  suffix: "'"
+  suffix: ";"
   tips: 〔拼音〕
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
+
+stroke:
+  tag: stroke
+  dictionary: stroke
+  enable_user_dict: false
+  prefix: "x"
+  suffix: ";"
+  tips: 〔筆畫〕
+  preedit_format:
+    - xlit/hspnz/一丨丿丶乙/
+    
+cangjie5:
+  tag: cangjie5
+  dictionary: cangjie5
+  enable_user_dict: false
+  prefix: "v"
+  suffix: ";"
+  tips: 〔倉頡五代〕
+  preedit_format:
+    - 'xform/^([a-z]*)$/$1\t（\U$1\E）/'
+    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
+  disable_user_dict_for_patterns:
+    - "^z.*$"
+    - "^yyy.*$"
+
+reverse_lookup:
+  tags:  [luna_pinyin, stroke, cangjie5]
+  overwrite_comment: false
+  dictionary: jyutping
 
 punctuator:
   import_preset: default
@@ -100,4 +147,7 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    reverse_lookup: "`[a-z]*'?$"
+    punct: "^/([0-9]0?|[a-z]+)$"
+    luna_pinyin: "`[a-z]*'?$"
+    stroke: "x[hspnz]*'?$"
+    cangjie5: "v[a-z]*'?$"
