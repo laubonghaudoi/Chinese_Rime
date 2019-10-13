@@ -1,5 +1,5 @@
-<h1>中州韻輸入法漢語方言拼音方案全集 
-<br/> Collection of Rime Input Method Phonetic Spelling Schemas for Chinese Languages & Dialects</h1>
+<h1>中州韻輸入法漢語方言拼音方案全集
+<br/>Collection of Rime Input Method Phonetic Spelling Schemas for Chinese Languages & Dialects</h1>
 
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 ![licence](https://img.shields.io/badge/licence-Apache--2.0-blue.svg?style=flat)
@@ -19,7 +19,7 @@ This repository collects the phonetic spelling schemas and character sets of [Ri
 
 1. Provide useful phonetic spelling input schemas for all non-Mandarin Chinese languages & dialects, solving the predicament where non-Mandarin Chinese speakers are compelled to type in Mandarin.
 2. Serve as a useful tool for Chinese language & dialect learners, as one can use phonetic spelling input to practice the standard pronunciation and orthography.
-3. Provide references for academic researches (Linguistics, Sinology, Anthropology, etc.).  
+3. Provide references for academic researches (Linguistics, Sinology, Anthropology, etc.).
 
 This project also supports the promotion project of non-Mandarin phonetic spelling input. For a complete statement of the mission and motivation of the promotion, please read [this page](https://laubonghaudoi.github.io/hanhngiox/blog/mission.html) (Chinese only).
 
@@ -35,7 +35,7 @@ This project also supports the promotion project of non-Mandarin phonetic spelli
 This repository has four sub-directories:
 
 1. Folders under `sources/` are the source repositories of some schemas, preserved as submodules. Most of them are recipes (for an introduction to schema recipes, please see [Rime 輸入方案又是啥](https://github.com/rime/home/wiki/RimeWithSchemata#rime-%E8%BC%B8%E5%85%A5%E6%96%B9%E6%A1%88%E5%8F%88%E6%98%AF%E5%95%A5)) maintained by their authors, and can be installed and deployed by [plum](https://github.com/rime/plum) directly (please check out HanhNgiox.net on how to install recipes). Since not all schemas are maintained on GitHub, the collection in this directory is incomplete.
-2. The `unmaintained/` directory preserves schemas from other sources which are not recipes. They are not maintained by anybody so the usabilities are not guaranteed.  
+2. The `unmaintained/` directory preserves schemas from other sources which are not recipes. They are not maintained by anybody so the usabilities are not guaranteed.
 3. `download/` serves as the folder for the [released](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) packages. It contains only the selected schema for the prestige dialect of each language. Hence users can download, deploy and use these off-the-shelf schemas conveniently.
 4. The `script/` folder contains scripts for automatically updating the schema files. Please see [Tutorial](https://github.com/laubonghaudoi/Chinese_Rime#%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E9%A0%85%E7%9B%AE%E7%B6%B2%E7%AB%99-tutorial-project-website) for instructions on how to use.
 
