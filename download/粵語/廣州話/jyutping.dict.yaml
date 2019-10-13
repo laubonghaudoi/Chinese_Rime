@@ -8,7 +8,7 @@
 
 ---
 name: jyutping
-version: "2019.09.22"
+version: "2019.10.13"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -11407,7 +11407,7 @@ min_phrase_weight: 100
 玡	je
 琊	je
 耶	je
-若	je
+若	je	0%
 若	joek
 野	je
 影	jeng
@@ -11519,7 +11519,7 @@ min_phrase_weight: 100
 扆	ji
 拟	ji
 擬	ji
-施	ji
+施	ji	0%
 施	si
 旖	ji
 易	ji
@@ -19425,7 +19425,7 @@ min_phrase_weight: 100
 仙	sin
 倩	sin
 僊	sin
-先	sin
+先	sin	100
 冼	sin
 善	sin
 墠	sin
@@ -22725,7 +22725,7 @@ min_phrase_weight: 100
 鷓	ze
 鹧	ze
 𡂪	ze
-只	zek
+只	zek	0%
 只	zi
 呮	zek
 唧	zek
@@ -25480,7 +25480,7 @@ cheap嘢
 點話點好
 點會
 點止
-點知
+點知	dim zi
 點做
 電親
 電燈杉	din dang caam
@@ -26717,7 +26717,7 @@ fax	fet si
 係囉
 係路
 係唔係	hai m hai
-係咪  hai mai
+係咪	hai mai
 係咪真嘅	hai mai zan ge
 係咩	hai me
 係你先至好講呀
@@ -27245,7 +27245,7 @@ X光	ik si gwong
 依度	ji dou
 易到極	ji dou gik
 意粉
-而家
+而家	ji gaa
 二甲醚
 依個
 以攻爲守	ji gung wai sau
@@ -29814,7 +29814,7 @@ CIB	si ai bi
 羡慕
 線衫
 鮮甜
-先至
+先至	sin zi
 先至唔會	sin zi m wui
 跣咗一跤
 跣咗一腳
@@ -30315,8 +30315,8 @@ tissue	ti su
 話落	waa lok
 話唔定	waa m ding
 話唔埋	waa m maai
-話你知
-話我知	waa nei zi
+話你知	waa nei zi
+話我知	waa ngo zi
 話嗮
 話聲	waa seng
 話事
@@ -31214,6 +31214,8 @@ short short哋	sot sot dei
 噉講	gam gong
 咁鬼	gam gwai
 咁好	gam hou
+噉都	gam dou
+噉又	gam jau
 噉又係	gam jau hai
 咁樣	gam joeng
 噉咪	gam mai
@@ -31232,6 +31234,7 @@ short short哋	sot sot dei
 嘅嘢	ge je
 嘅咩	ge me
 幾歹	gei daai
+幾得意	gei dak ji
 幾廿	gei jaa
 記唔記得	gei m gei dak
 嗰啲人	go di jan
@@ -31305,6 +31308,7 @@ short short哋	sot sot dei
 其他嘢	kei taa je
 佢都	keoi dou
 佢都話	keoi dou waa
+佢係	keoi hai
 佢又	keoi jau
 佢而家	keoi ji gaa
 佢要	keoi jiu
@@ -31424,6 +31428,7 @@ short short哋	sot sot dei
 食完飯	sik jyun faan
 識唔識	sik m sik
 先係	sin hai
+先要	sin jiu
 傻閪	so hai
 所以我就係話	so ji ngo zau hai waa
 所以先	so ji sin
@@ -31472,6 +31477,7 @@ short short哋	sot sot dei
 就係要	zau hai jiu
 就係我	zau hai ngo
 就算係	zau syun hai
+就知	zau zi
 最尾	zeoi mei
 自己嘅	zi gei ge
 剩低	zing dai
