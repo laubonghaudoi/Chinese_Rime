@@ -15,7 +15,7 @@
 
 本項目同作爲推廣漢語方言拼音輸入的支持項目，關於推廣漢語方言拼音的理念和宗旨詳情請閱讀 [本文](https://laubonghaudoi.github.io/hanhngiox/blog/mission.html)。
 
-This repo collects the phonetic spelling schemas and character sets of [Rime input method](https://rime.im/) for Old Chinese, Middle Chinese and modern Chinese languages & dialects. This project aims to:
+This repository collects the phonetic spelling schemas and character sets of [Rime input method](https://rime.im/) for Old Chinese, Middle Chinese and modern Chinese languages & dialects. This project aims to:
 
 1. Provide useful phonetic spelling input schemas for all non-Mandarin Chinese languages & dialects, solving the predicament where non-Mandarin Chinese speakers are compelled to type in Mandarin.
 2. Serve as a useful tool for Chinese language & dialect learners, as one can use phonetic spelling input to practice the standard pronunciation and orthography.
@@ -32,10 +32,10 @@ This project also supports the promotion project of non-Mandarin phonetic spelli
 
 有關已收集方案的资源，如方案白皮书、教程等，請參見 [方案相關文件（騰訊微雲）](https://github.com/laubonghaudoi/Chinese_Rime#%E8%B3%87%E6%BA%90resources)。
 
-This repo has four sub-directories:
+This repository has four sub-directories:
 
-1. Folders under `sources/` are the source repos of some schemas, preserved as submodules. Most of them are recipes (for an introduction to schema recipes, please see [Rime 輸入方案又是啥](https://github.com/rime/home/wiki/RimeWithSchemata#rime-%E8%BC%B8%E5%85%A5%E6%96%B9%E6%A1%88%E5%8F%88%E6%98%AF%E5%95%A5)) maintained by their authors, and can be installed and deployed by [plum](https://github.com/rime/plum) directly (please check out HanhNgiox.net on how to install recipes). Since not all schemas are maintained on GitHub, the collection in this directory is incomplete.
-2. The `unmaintained/` directory preserves schemas from other sources which are not recipes . They are not maintained by anybody so the usabilities are not guaranteed.  
+1. Folders under `sources/` are the source repositories of some schemas, preserved as submodules. Most of them are recipes (for an introduction to schema recipes, please see [Rime 輸入方案又是啥](https://github.com/rime/home/wiki/RimeWithSchemata#rime-%E8%BC%B8%E5%85%A5%E6%96%B9%E6%A1%88%E5%8F%88%E6%98%AF%E5%95%A5)) maintained by their authors, and can be installed and deployed by [plum](https://github.com/rime/plum) directly (please check out HanhNgiox.net on how to install recipes). Since not all schemas are maintained on GitHub, the collection in this directory is incomplete.
+2. The `unmaintained/` directory preserves schemas from other sources which are not recipes. They are not maintained by anybody so the usabilities are not guaranteed.  
 3. `download/` serves as the folder for the [released](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) packages. It contains only the selected schema for the prestige dialect of each language. Hence users can download, deploy and use these off-the-shelf schemas conveniently.
 4. The `script/` folder contains scripts for automatically updating the schema files. Please see [Tutorial](https://github.com/laubonghaudoi/Chinese_Rime#%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E9%A0%85%E7%9B%AE%E7%B6%B2%E7%AB%99-tutorial-project-website) for instructions on how to use.
 
@@ -54,11 +54,11 @@ For detailed steps with explanations on how to type Chinese characters with thes
 <center><a href="http://www.hanhngiox.net"><font size="30"><b>漢語方言拼音輸入 HanhNgiox.net</b></font></a></center>
 
 <h3>克隆此倉庫
-<br/>Clone this repo</h3>
+<br/>Clone this repository</h3>
 
 由於本倉庫體積過大，推薦運行以下命令來略過所有歷史記錄，僅克隆最新版的內容：
 
-Considering the huge size of this repo, it is recommended to run the following command to skip all historical versions, cloning only the latest version of this repo:
+Considering the huge size of this repository, it is recommended to run the following command to skip all historical versions, cloning only the latest version of this repository:
 
 ```bash
 git clone --depth=1 https://github.com/laubonghaudoi/Chinese_Rime.git
@@ -66,7 +66,7 @@ git clone --depth=1 https://github.com/laubonghaudoi/Chinese_Rime.git
 
 然後運行以下命令將全部子模塊內容克隆到本地：
 
-Then run the following command to clone all submodules into the repo:
+Then run the following command to clone all submodules into the repository:
 
 ```bash
 git submodule update --init --recursive
@@ -93,22 +93,21 @@ python update_download.py
 目前學界對漢語方言分類歸類問題仍存較大分歧。常見的分類方式有傳統的七分法、《中國語言地圖集》的十
 分法和 ISO 國際標準的十三分法等。若使用傳統分法，則現代漢語族下分七大語支，官吳贛湘粵客閩。若採用《中國語言地圖集》之十分法，則晉語獨立於官話成一支，徽語獨立於吳語成一支，平話獨立於粵語成一支。若採用 ISO 693-3 標準的十三分法，則平話從屬於粵語，而閩語則細分爲閩北、閩南、閩東、閩中、莆仙五支，另外中古漢語和上古漢語各計作一門語言。
 
-The taxonomy for Chinese languages and dialects has been an unsettled issue in the academia. The traditional way (Jerry Norman 1988) puts Chinese languages into seven groups: Mandarin, Wu, Gan, Xiang, Cantonese, Hakka, Min, while the *Language Atlas of China* classifies them into 10 groups, seperating Jin, Huizhou and Pinghua from Mandarin, Wu and Cantonese as independent languages. And the ISO 693-3 standard keeps Pinghua within Cantonese while further divides Min into Northern, Southern, Eastern, Central and Pu-Xian branches.
+The taxonomy for Chinese languages and dialects has been an unsettled issue in academia. The traditional way (Jerry Norman 1988) puts Chinese languages into seven groups: Mandarin, Wu, Gan, Xiang, Cantonese, Hakka, Min, while the *Language Atlas of China* classifies them into 10 groups, separating Jin, Huizhou and Pinghua from Mandarin, Wu and Cantonese as independent languages. And the ISO 693-3 standard keeps Pinghua within Cantonese while further divides Min into Northern, Southern, Eastern, Central and Pu-Xian branches.
 
 爲提高本項目可讀性和後續可維護性，本項目採用 ISO 標準的十三分法。此標準僅作參考，非最佳標準。若對此分類方式有任何疑問或意見，歡迎新開一個 issue 發起討論。下表爲此標準下各語言所對應的 ISO 639-3 代碼：
 
 Considering the readability and maintainability of this project, here we adopt the ISO 693-3 system. This is for reference only and by no means the gold standard. If you have any questions or suggestions about this, feel free to open a new issue for discussion. The following table shows the ISO 639-3 codes for these languages.
 
-
 | 上古漢語 Old Chinese | 中古漢語 Middle Chinese | 官話 Mandarin | 晉語 Jin | 吳語 Wu | 徽語 Huizhou | 贛語 Gan | 湘語 Xiang | 閩北語 Northern Min | 閩南語 Southern Min | 閩東語 Eastern Min| 閩中語 Central Min| 莆仙語 Pu-Xian Min | 客家話 Hakka | 粵語 Yue|
 |----------|----------|------|------|------|------|------|------|--------|--------|--------|--------|--------|--------|------|
 | och      | ltc      | cmn  | cjy  | wuu  | czh  | gan  | hsn  | mnp    | nan    | cdo    | czo    | cpx    | hak    | yue  |
 
-目前 **暫缺閩北語、閩中語、徽語、贛語、湘語** 的輸入方案。如有作者已編寫以上語言的輸入方案，請 [聯系我](mailto:laubonghaudoi@icloud.com)或新開一個 issue 以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
+目前 **暫缺閩北語、閩中語、徽語、贛語、湘語** 的輸入方案。如有作者已編寫以上語言的輸入方案，請 [聯系我](mailto:laubonghaudoi@icloud.com) 或新開一個 issue 以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
 Right now we are still **missing the schemas for Northern Min, Central Min,  Huizhou, Gan, Xiang**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or open a new issue to add it to the collection. Schemas for other Chinese languages are also highly welcomed.
 
-以下爲方案總表和配方列表。其中配方以符號℞標識。
+以下爲方案總表和配方列表。其中配方以符號 ℞ 標識。
 
 Below are the lists of all collected schemas and recipes, where recipes are marked with the symbol ℞.
 
@@ -767,7 +766,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 下載包內方案信息詳見 [發佈](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) 頁面。
 
-For detailed information of the collected schemas in the download packege, please see the [release](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) page.
+For detailed information of the collected schemas in the download package, please see the [release](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) page.
 
 <h2>部分方案數據來源（非配方）
 <br/>Incomplete list of sources of unmaintained schemas (non-recipes)</h2>
@@ -949,6 +948,7 @@ For detailed information of the collected schemas in the download packege, pleas
 - [osfans](https://github.com/osfans)
 - [Papnas](https://github.com/Papnas)
 - [Patrick T.](https://github.com/Patricivs)
+- [sgal](https://github.com/sgalal)
 - [syndict](https://github.com/syndict)
 - [Tenda Huang](https://github.com/Kahaani)
 - [tsauibusato](https://github.com/tsauibusato)
