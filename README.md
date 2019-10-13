@@ -795,8 +795,7 @@ For detailed information of the collected schemas in the download package, pleas
     <li><a href="https://www.dropbox.com/sh/im1uku3eqnti4dm/AACsUoKdRmmp338tqEgkIDtJa?dl=0">Dropbox</a></li>
   </ul>
   <li><a href="http://share.sinolect.com/">藏书阁</a></li>
-  <li>語言學習資源（方案白皮書、教程、字典）
-<br/>Language learning resources (schema white papers, tutorials, dictionaries, etc.)</li>
+  <li>語言學習資源（方案白皮書、教程、字典）<br/>Language learning resources (schema white papers, tutorials, dictionaries, etc.)</li>
   <ul>
     <li>
       <details>
