@@ -4,20 +4,21 @@
 schema:
   schema_id: naamning_bingwaa
   name: "南寧（亭子）平話"
-  version: "2019.08.15"
+  version: "2019.10.21"
   author:
     - LeiMaau <leimaau@qq.com>
   description: |
     採用『香港語言學會粵語拼音方案』
     聲調輸入 q平 v上 x去 （雙擊爲陽調）
     提供多種字形轉換和提示音轉爲IPA，可根據需要自行開啓
-    提供兩種反查方案，[`]用漢語拼音反查南寧平話，[x]用五筆畫反查南寧平話
+    提供三種反查方案，[`]用漢語拼音反查，[x]用五筆畫反查，[v]用倉頡五代反查
     PC上按Ctrl+Enter可將提示音上屏，按Ctrl+Shift+Enter可將候選項上屏
     註釋reverse_lookup/tags可顯示釋義，可根據需要自行開啓
     項目主頁 https://github.com/leimaau/naamning_jyutping
   dependencies:
     - luna_pinyin
     - stroke
+    - cangjie5
 
 switches:
 #  - options: [zh_simp2, zh_simp, zh_trad, zh_hk, zh_tw, zh_jp]  # 多種字形轉換方案，根據需要自行開啓
@@ -58,6 +59,7 @@ engine:
     - matcher
     - affix_segmentor@luna_pinyin
     - affix_segmentor@stroke
+    - affix_segmentor@cangjie5
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
@@ -66,6 +68,7 @@ engine:
     - script_translator
     - script_translator@luna_pinyin
     - table_translator@stroke
+    - table_translator@cangjie5
   filters:
     - simplifier@zh_simp
 #    - simplifier@zh_simp2  # 多字形濾鏡，根據需要自行開啓
@@ -108,7 +111,7 @@ speller:
     - derive/ia(ng|k)$/e$1/       # 容錯 ia(ng|k) -> e(ng|k)
     - derive/o(ng|k)$/u$1/        # 容錯 o(ng|k) -> u(ng|k)
     - abbrev/^([a-z]).+$/$1/      # 首字母簡拼
-    - abbrev/^([gk]w).+$/$1/      # 聲母簡拼
+    - abbrev/^(gw|kw|ng).+$/$1/   # 聲母簡拼
     - abbrev/^([s][l]).+$/$1/     # 聲母簡拼
 
 menu:
@@ -271,9 +274,8 @@ luna_pinyin:    # 拼音反查
   dictionary: luna_pinyin
   enable_user_dict: false
   prefix: "`"
-  suffix: "'"
+  suffix: ";"
   tips: 〔拼音〕
-  closing_tips: 〔南寧平話〕
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
@@ -284,14 +286,29 @@ stroke:    # 五筆畫反查，h,s,p,n,z 代表橫、豎、撇、捺、折
   dictionary: stroke
   enable_user_dict: false
   prefix: "x"
-  suffix: "'"
+  suffix: ";"
   tips: 〔筆畫〕
-  closing_tips: 〔南寧平話〕
   preedit_format:
     - xlit/hspnz/一丨丿丶乙/
 
+cangjie5:    # 倉頡五代反查
+  tag: cangjie5
+  dictionary: cangjie5
+  enable_user_dict: false
+  prefix: "v"
+  suffix: ";"
+  tips: 〔倉頡五代〕
+  preedit_format:
+    - 'xform/^([a-z]*)$/$1\t（\U$1\E）/'
+    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
+  disable_user_dict_for_patterns:
+    - "^z.*$"
+    - "^yyy.*$"
+
 reverse_lookup:
-  tags:  [luna_pinyin, stroke]  # 需要打字時顯示釋義則註釋這行，建議豎排顯示時使用【很有用的功能，建議PC上使用！】
+  tags:  [luna_pinyin, stroke, cangjie5]  # 需要打字時顯示釋義則註釋這行，建議豎排顯示時使用【很有用的功能，建議PC上使用！】
   overwrite_comment: true
   dictionary: naamning_bingwaa
   comment_format:
@@ -321,6 +338,7 @@ recognizer:
     punct: "^/([0-9]0?|[a-z]+)$"
     luna_pinyin: "`[a-z]*'?$"
     stroke: "x[hspnz]*'?$"
+    cangjie5: "v[a-z]*'?$"
 
 zh_simp:
   option_name: zh_simp

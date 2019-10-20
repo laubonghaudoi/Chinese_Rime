@@ -19,7 +19,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2019.10.04"
+version: "2019.10.22"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -822,8 +822,8 @@ use_preset_vocabulary: true
 𩑾	ti
 鍉	ti
 掂	ti
-點	ti	0%
-㸃	ti	0%
+點	ti
+㸃	ti
 顛	ti
 滇	ti
 巔	ti
@@ -844,8 +844,6 @@ use_preset_vocabulary: true
 碘	ti
 𥮏	ti
 玷	ti
-點	ti
-㸃	ti
 墊	ti	5%
 踮	ti
 帝	ti
@@ -899,7 +897,6 @@ use_preset_vocabulary: true
 褅	thi
 髢	thi
 殢	thi
-添	thi	5%
 䪆	thi
 堤	di
 隄	di
@@ -994,7 +991,7 @@ use_preset_vocabulary: true
 蘺	li
 醨	li
 罹	li
-麗	li	1%
+麗	li
 驪	li
 鸝	li
 鱺	li
@@ -1085,7 +1082,6 @@ use_preset_vocabulary: true
 莉	li
 唎	li
 猁	li
-麗	li
 儷	li
 戾	li
 唳	li
@@ -1200,7 +1196,7 @@ use_preset_vocabulary: true
 鐗	ci
 鐧	ci
 菅	ci
-間	ci	10%
+間	ci
 覸	ci
 肩	ci
 艱	ci
@@ -1208,7 +1204,7 @@ use_preset_vocabulary: true
 靬	ci
 䥛	ci
 擠	ci
-濟	ci	1%
+濟	ci
 癠	ci
 姊	ci
 姉	ci
@@ -1252,7 +1248,6 @@ use_preset_vocabulary: true
 漈	ci
 𣥼	ci
 霽	ci
-濟	ci
 劑	ci
 穧	ci
 寘	ci
@@ -1298,7 +1293,6 @@ use_preset_vocabulary: true
 筧	ci
 劍	ci
 劒	ci
-間	ci
 鑒	ci
 鑑	ci
 鍳	ci
@@ -1429,7 +1423,7 @@ use_preset_vocabulary: true
 畸	ji
 錡	ji
 祈	ji
-其	ji	59071
+其	ji	667965
 期	ji
 棋	ji
 棊	ji
@@ -1513,7 +1507,6 @@ use_preset_vocabulary: true
 苧	ji
 芧	ji
 惎	ji
-其	ji	608894
 渠	ji	304447
 厩	ji
 廐	ji
@@ -1704,7 +1697,6 @@ use_preset_vocabulary: true
 跣	shi
 銑	shi
 冼	shi
-鮮	shi	5%
 尠	shi
 尟	shi
 蘚	shi
@@ -1984,7 +1976,6 @@ use_preset_vocabulary: true
 弇	i
 揜	i
 媕	i
-衣	i	5%
 意	i
 薏	i
 癔	i
@@ -2050,7 +2041,6 @@ use_preset_vocabulary: true
 捕	bu
 哺	bu
 蒲	bu
-脯	bu	5%
 逋	bu
 晡	bu
 䝵	bu
@@ -2316,7 +2306,6 @@ use_preset_vocabulary: true
 耡	dzu
 鉏	dzu
 助	dzu
-助	dzu	5%
 阼	dzu
 胙	dzu
 祚	dzu
@@ -2961,7 +2950,7 @@ use_preset_vocabulary: true
 ⿸尸查	dza
 ⿸尸咋	dza
 撒	dza	1%
-射	dza	6%
+射	dza
 𠑞	dza
 ⿱寨	dza
 耍	sa
@@ -3097,9 +3086,8 @@ use_preset_vocabulary: true
 弶	jia	1%
 寫	shia
 㕐	shia
-瀉	shia	0%
-䥱	shia
 瀉	shia
+䥱	shia
 𧓺	shia
 卸	shia
 傻	shia	0%
@@ -3297,7 +3285,6 @@ use_preset_vocabulary: true
 擣	tau
 禱	tau
 倒	tau
-刀	tau	5%
 到	tau
 滔	thau
 韜	thau
@@ -3665,8 +3652,8 @@ use_preset_vocabulary: true
 罵	mo
 傌	mo
 嬤	mho
-朵	to	5%
-朶	to	5%
+朵	to
+朶	to
 挆	to
 挅	to
 䒳	to
@@ -3682,8 +3669,6 @@ use_preset_vocabulary: true
 垜	to
 埵	to
 打	to	0%
-朵	to
-朶	to
 跺	tho
 跥	tho
 湯	tho	0%
@@ -3746,7 +3731,6 @@ use_preset_vocabulary: true
 撦	tsho
 岔	tsho
 瘥	tsho
-差	tsho	0%
 詫	tsho
 咤	tsho
 查	dzo
@@ -3908,7 +3892,6 @@ use_preset_vocabulary: true
 渺	miau
 淼	miau
 藐	miau
-苗	miau	5%
 瞄	miau
 廟	miau
 妙	miau
@@ -4268,7 +4251,6 @@ use_preset_vocabulary: true
 煆	huo
 化	huo
 華	huo	5%
-花	huo	0%
 華	wo
 鏵	wo
 驊	wo
@@ -4608,7 +4590,6 @@ use_preset_vocabulary: true
 扮	pae
 𢲔	pae
 𢴬	pae
-畈	pae	5%
 攀	phae
 眅	phae
 帕	phae	5%
@@ -4929,7 +4910,7 @@ use_preset_vocabulary: true
 姦	kae
 監	kae
 間	kae
-鑑	kae	1%
+鑑	kae	5%
 階	kae	0%
 堦	kae	0%
 减	kae
@@ -4944,7 +4925,6 @@ use_preset_vocabulary: true
 橄	kae
 諫	kae	5%
 鑒	kae	5%
-鑑	kae	5%
 鍳	kae	5%
 緘	kae
 椷	kae
@@ -5241,7 +5221,6 @@ use_preset_vocabulary: true
 擅	zoe
 鄯	zoe
 嬗	zoe
-旋	zoe	5%
 鏇	zoe
 舟	cieu
 侜	cieu
@@ -5491,7 +5470,6 @@ use_preset_vocabulary: true
 蚴	ieu
 懮	ieu
 幼	ieu
-幽	ieu	5%
 婆	boe	0%
 耑	toe
 端	toe
@@ -5741,7 +5719,6 @@ use_preset_vocabulary: true
 𢺢	lei
 攂	lei
 洡	lei
-累	lei	5%
 追	tsei
 隹	tsei
 錐	tsei
@@ -5796,11 +5773,10 @@ use_preset_vocabulary: true
 夊	sei
 睢	sei
 濉	sei
-碎	sei	1%
+碎	sei
 水	sei	6%
 毨	sei	5%
 嶲	sei
-碎	sei
 誶	sei
 萃	sei
 稅	sei
@@ -5993,9 +5969,8 @@ use_preset_vocabulary: true
 暌	khuei
 𩏣	khuei
 奎	khuei
-塊	khuei	5%
-磈	khuei
 塊	khuei
+磈	khuei
 ⿰米鬼	khuei
 喟	khuei
 逵	guei
@@ -6216,7 +6191,6 @@ use_preset_vocabulary: true
 仫	mou
 多	tou
 哆	tou
-多	tou	5%
 拖	thou
 拕	thou
 唾	thou
@@ -6416,8 +6390,6 @@ use_preset_vocabulary: true
 訶	hou
 𧬱	hou
 貨	hou
-火	hou	0%
-夥	hou	0%
 河	ghou
 何	ghou
 荷	ghou
@@ -6436,7 +6408,6 @@ use_preset_vocabulary: true
 紅	ghou	0%
 禍	ghou
 旤	ghou
-荷	ghou	0%
 賀	ghou
 阿	ou	5%
 娿	ou
@@ -6453,7 +6424,6 @@ use_preset_vocabulary: true
 婐	ou
 咼	ou
 屙	ou
-倭	ou	0%
 惡	ou	5%
 污	ou	5%
 汙	ou	5%
@@ -6533,12 +6503,11 @@ use_preset_vocabulary: true
 媮	theu
 婾	theu
 斢	theu
-透	theu	1%
+透	theu
 㪗	theu
 敨	theu
 紏	theu
 䚵	theu
-透	theu
 頭	deu
 投	deu
 骰	deu
@@ -6640,7 +6609,6 @@ use_preset_vocabulary: true
 愁	zeu
 驟	zeu
 䠫	zeu
-愁	zeu	0%
 勾	keu
 鈎	keu
 鉤	keu
@@ -6795,8 +6763,6 @@ use_preset_vocabulary: true
 撐	tshan
 牚	tshan
 𣛟	tshan
-撑	tshan	5%
-撐	tshan	5%
 鋥	dzan
 䂻	dzan
 瞠	dzan
@@ -6875,7 +6841,6 @@ use_preset_vocabulary: true
 奬	cian
 獎	cian
 長	cian
-張	cian	5%
 漲	cian
 槳	cian
 䒂	cian
@@ -6892,7 +6857,7 @@ use_preset_vocabulary: true
 家	cian	0%
 槍	chian
 鎗	chian
-嗆	chian	0%
+嗆	chian
 瑲	chian
 倀	chian
 蹌	chian
@@ -6918,7 +6883,6 @@ use_preset_vocabulary: true
 鏹	chian
 悵	chian
 暢	chian
-嗆	chian
 熗	chian
 ⿰鹵倉	chian
 愴	chian
@@ -7702,7 +7666,6 @@ use_preset_vocabulary: true
 烹	phen	5%
 澎	phen
 皏	phen
-噴	phen	0%
 盆	ben
 湓	ben
 㖹	ben
@@ -7816,7 +7779,6 @@ use_preset_vocabulary: true
 凳	ten
 櫈	ten
 燉	ten
-敦	ten	5%
 撉	ten
 澄	ten
 𩞬	ten
@@ -7986,7 +7948,6 @@ use_preset_vocabulary: true
 罧	sen
 䚮	zen
 層	zen
-層	zen	5%
 根	ken
 跟	ken
 耕	ken	6%
@@ -8000,7 +7961,6 @@ use_preset_vocabulary: true
 鯁	ken	6%
 㾘	ken
 綆	ken
-更	ken	6%
 茛	ken
 鏗	khen
 硜	khen
@@ -8023,7 +7983,6 @@ use_preset_vocabulary: true
 脪	hen
 浫	hen
 臖	hen
-狠	hen	5%
 衡	ghen
 蘅	ghen
 恒	ghen
@@ -8431,7 +8390,6 @@ use_preset_vocabulary: true
 侵	chin
 寢	chin
 秤	chin
-親	chin	5%
 㵾	chin
 沁	chin
 唚	chin
@@ -9529,7 +9487,6 @@ use_preset_vocabulary: true
 慂	ion
 𧗴	ion
 埇	ion
-擁	ion	5%
 塎	ion
 𦨤	ion
 雍	ion
@@ -20989,7 +20946,7 @@ use_preset_vocabulary: true
 大一眼	dou iq ngae	55
 大眼	dou ngae
 大兒子	dou ng tsy
-儂個	nou goq	578
+儂個	nou goq
 糯米	nou mi
 腡底	lou ti	55
 腡頂	lou tin	55
@@ -23711,7 +23668,7 @@ use_preset_vocabulary: true
 耳朵洞眼	ng to don ngae	55
 耳朵洞眼	gni to don ngae	55
 俉倷個	ng naq goq	55
-俉個	ng goq	55
+俉個	ng goq
 俉儂個	ng nou goq	55
 
 # 《阿拉宁波话(修订版)》 其他寫法
@@ -24106,7 +24063,7 @@ use_preset_vocabulary: true
 修行個	shieu ghan ghoq	55
 兌糖個	dei daon ghoq	55
 多少個	tou shiau ghoq
-儂個	nou ghoq	578
+儂個	nou ghoq
 做瓦筒個	tsou ngo don ghoq	55
 個把個	kou po ghoq	55
 走江湖個	tseu kaon wu ghoq	55
@@ -24130,10 +24087,10 @@ use_preset_vocabulary: true
 十多個	zyuq tou ghoq
 十個	zyuq ghoq
 俉倷個	ng naq ghoq	578
-俉個	ng ghoq	578
+俉個	ng ghoq
 俉儂個	ng nou ghoq	55
 爾倷個	ng naq ghoq	578
-爾個	ng ghoq	578
+爾個	ng ghoq
 爾儂個	ng nou ghoq	55
 牽扯阿姆	chi tsha a m	55
 燒火阿姆	shiau hou a m	55
@@ -24205,7 +24162,7 @@ use_preset_vocabulary: true
 䂻爾肚裏勿得	dzan ng du li vaq taq
 䂻爾肚裏弗得	dzan ng du li vaq taq
 爾倷個	ng naq goq	55
-爾個	ng goq	578
+爾個	ng goq
 爾儂個	ng nou goq	55
 眼睛𥈊𥈊	ngae cin saq saq	55
 眼睛一𥈊	ngae cin iq saq	55
@@ -24234,7 +24191,6 @@ use_preset_vocabulary: true
 滰肉間	jian gnioq kae	55
 滰一水	jian iq syu	55
 痢疾⿸尸咋	li jiq dza	55
-⿸尸咋	dza	55
 ⿸尸咋屁蟲	dza phi dzon	55
 ⿸尸咋尿撲	dza syu phoq	55
 ⿸尸咋屙撲	dza ou phoq	55
@@ -24243,11 +24199,9 @@ use_preset_vocabulary: true
 撒尿撲	dza syu phoq	55
 撒屙撲	dza ou phoq	55
 痢疾射	li jiq dza	55
-射	dza	418
 射屁蟲	dza phi dzon	55
 射尿撲	dza syu phoq	55
 射屙撲	dza ou phoq	55
-𠑞	dza	55
 𠑞屁蟲	dza phi dzon	55
 𠑞尿撲	dza syu phoq	55
 𠑞屙撲	dza ou phoq	55
@@ -34484,8 +34438,6 @@ VCD	vi shi di
 爾以爲	ng yi wei
 爾作	ng tsoq
 爾來	ng le
-爾個	ng goq
-爾個	ng ghoq
 爾做	ng tsou
 爾到	ng tau
 爾剋制	ng khaq tsyu
@@ -34590,8 +34542,6 @@ VCD	vi shi di
 俉以爲	ng yi wei
 俉作	ng tsoq
 俉來	ng le
-俉個	ng goq
-俉個	ng ghoq
 俉做	ng tsou
 俉到	ng tau
 俉剋制	ng khaq tsyu
@@ -34697,8 +34647,6 @@ VCD	vi shi di
 儂以爲	nou yi wei
 儂作	nou tsoq
 儂來	nou le
-儂個	nou goq
-儂個	nou ghoq
 儂做	nou tsou
 儂到	nou tau
 儂剋制	nou khaq tsyu

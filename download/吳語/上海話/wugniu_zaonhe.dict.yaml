@@ -9,7 +9,7 @@
 
 ---
 name: wugniu_zaonhe
-version: "2019.09.08"
+version: "2019.10.22"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -314,7 +314,7 @@ use_preset_vocabulary: true
 咪	mi
 眯	mi
 𡬍	mi
-秘	mi
+秘	mi	5%
 勉	mi
 謎	mi
 迷	mi
@@ -845,7 +845,7 @@ use_preset_vocabulary: true
 鹽	yi
 簷	yi
 閻	yi
-顏	yi
+顏	yi	5%
 延	yi
 筵	yi
 蜒	yi
@@ -1106,15 +1106,15 @@ use_preset_vocabulary: true
 潞	lu
 鷺	lu
 驢	lu
-如	lu
-茹	lu
-儒	lu
-蠕	lu
-濡	lu
-乳	lu
-孺	lu
+如	lu	5%
+茹	lu	5%
+儒	lu	5%
+蠕	lu	5%
+濡	lu	5%
+乳	lu	5%
+孺	lu	5%
 卵	lu
-汝	lu
+汝	lu	5%
 租	tsu
 左	tsu
 佐	tsu
@@ -1298,14 +1298,14 @@ use_preset_vocabulary: true
 鎢	u
 污	u
 誣	u
-五	u
-伍	u
+五	u	5%
+伍	u	5%
 捂	u
 焐	u
 塢	u
 唩	u
 污	u
-午	u
+午	u	5%
 涴	u
 驢	liu
 閭	liu
@@ -1399,7 +1399,7 @@ use_preset_vocabulary: true
 敘	zhiu
 緒	zhiu
 聚	zhiu
-魚	yu
+魚	yu	5%
 漁	yu
 於	yu
 餘	yu
@@ -1643,9 +1643,9 @@ use_preset_vocabulary: true
 瑕	shia
 暇	shia
 遐	shia
-下	shia
-廈	shia
-夏	shia
+下	shia	5%
+廈	shia	5%
+夏	shia	5%
 寫	shia
 瀉	shia
 卸	shia
@@ -3219,9 +3219,9 @@ use_preset_vocabulary: true
 歲	soe
 祟	soe
 邃	soe
-水	soe
+水	soe	5%
 稅	soe
-說	soe
+說	soe	5%
 銳	soe
 扇	soe
 搧	soe
@@ -3434,7 +3434,7 @@ use_preset_vocabulary: true
 玄	yoe
 眩	yoe
 泫	yoe
-元	yoe
+元	yoe	5%
 縣	yoe
 懸	yoe
 冤	ioe
@@ -3892,7 +3892,7 @@ use_preset_vocabulary: true
 徨	waon
 亡	waon
 王	waon
-網	waon
+網	waon	5%
 妄	waon
 忘	waon
 望	waon
@@ -3995,7 +3995,7 @@ use_preset_vocabulary: true
 掄	len
 楞	len
 扔	len
-刃	len
+刃	len	5%
 侖	len
 崙	len
 輪	len

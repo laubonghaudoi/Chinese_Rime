@@ -792,7 +792,7 @@ For detailed information of the collected schemas in the download package, pleas
   <li>方案相關文件 Schema-related files</li>
   <ul>
     <li><a href="https://share.weiyun.com/5BqauQb">騰訊微雲 Tencent cloud</a></li>
-    <li><a href="https://www.dropbox.com/sh/im1uku3eqnti4dm/AACsUoKdRmmp338tqEgkIDtJa?dl=0">Dropbox</a></li>
+    <li><a href="https://www.dropbox.com/sh/l5vxgdd05gp9oz4/AADz7xWYfZ5bAYmO4pElsqQDa?dl=0">Dropbox</a></li>
   </ul>
   <li><a href="http://share.sinolect.com/">藏书阁</a></li>
   <li>語言學習資源（方案白皮書、教程、字典）<br/>Language learning resources (schema white papers, tutorials, dictionaries, etc.)</li>
@@ -876,6 +876,7 @@ For detailed information of the collected schemas in the download package, pleas
           <li><a href="https://words.hk/">粵典</a></li>
           <li><a href="http://ling.cuhk.edu.hk/jyutpingteaching/">Jyutping Teaching 粵拼教學</a></li>
           <li><a href="https://www.howtostudycantonese.com/">粤塾</a></li>
+          <li><a href="https://www.jyutdict.org/">泛粵大典</a></li>
           <li><a href="http://cccanto.org/#">CC-Canto</li>
           <li><a href="http://www.cantonese.sheik.co.uk/">Learn Cantonese</a></li>
           <li><a href="http://www.cantonese.asia/">粵語協會</a></li>
