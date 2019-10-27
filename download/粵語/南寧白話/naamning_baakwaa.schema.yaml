@@ -4,7 +4,7 @@
 schema:
   schema_id: naamning_baakwaa
   name: "南寧白話"
-  version: "2019.10.21"
+  version: "2019.10.23"
   author:
     - LeiMaau <leimaau@qq.com>
   description: |
@@ -121,6 +121,7 @@ speller:
     - derive/eo([int])$/oe$1/     # 容錯 eo(int) -> oe(int)
     - derive/eoi$/eoy/            # 教院式 eoi -> eoy
     - abbrev/^([a-z]).+$/$1/      # 首字母簡拼
+    - abbrev/^([a-z]{2}).+$/$1/   # 首2字母簡拼
     - abbrev/^(gw|kw|ng).+$/$1/   # 聲母簡拼
     - abbrev/^([s][l]).+$/$1/     # 聲母簡拼
 
@@ -133,12 +134,12 @@ translator:
   prism: naamning_baakwaa
   spelling_hints: 5  # 標註拼音的字數，建議橫排顯示時設置爲1
   preedit_format:    # 需要顯示IPA時這段要被替換掉
-    - xform/([aeioumngptk])qq/$1⁴/
-    - xform/([aeioumngptk])q/$1¹/
-    - xform/([aeioumngptk])vv/$1⁵/
-    - xform/([aeioumngptk])v/$1²/
-    - xform/([aeioumngptk])xx/$1⁶/
-    - xform/([aeioumngptk])x/$1³/
+    - xform/([yaeioumngptk])qq/$1⁴/
+    - xform/([yaeioumngptk])q/$1¹/
+    - xform/([yaeioumngptk])vv/$1⁵/
+    - xform/([yaeioumngptk])v/$1²/
+    - xform/([yaeioumngptk])xx/$1⁶/
+    - xform/([yaeioumngptk])x/$1³/
 #  preedit_format:   # 需要顯示IPA時preedit_format替換成這段
 #    - xform/(^|[ '])(m|ng)+$/$1$2̩$3/	唔m̩ 五ŋ̩
 #    - xform/([ptk])xx/$1˨/	熱jiːt̚˨
