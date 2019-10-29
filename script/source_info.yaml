@@ -75,12 +75,14 @@
     - hubehua.dict.yaml
     - ngocen.schema.yaml
 吳語/上海話:
-  source: 吳語/吳語（上海）/
+  source: 吳語/吳語協會式上海話輸入法/
   files:
-    - wugniu_zaonhe.dict.yaml
-    - wugniu_zaonhe.schema.yaml
-    - wugniu_zaonhe_laupha.dict.yaml
-    - wugniu_zaonhe_laupha.schema.yaml
+    - yahwe_zaonhe.dict.yaml
+    - yahwe_zaonhe.schema.yaml
+    - luna_pinyin.hanyu.dict.yaml
+    - luna_pinyin.net.dict.yaml
+    - luna_pinyin.poetry.dict.yaml
+    - LICENSE
 吳語/樂清話:
   source: 吳語/樂清話拼音輸入法/
   files:

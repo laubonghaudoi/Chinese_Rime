@@ -1,0 +1,145 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: yahwe_zaonhe
+  name: 吳協式上海言話
+  version: "2019.08.17"
+  author:
+    - 埃爾德路 ‹edwardmartyr@outlook.com›
+  description: |
+    上海言話
+    拼寫方案採用吳語協會式
+    http://wu-chinese.com/romanization/
+    http://wu-chinese.com/minidict/
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: extended_charset
+    reset: 1
+    states: [ 通用, 增廣 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+#    - derive/^tsi/ji/                             # 去除井號以啓用偏新派口音；嗰墶個設置不一定全，可以再加。
+#    - derive/^tshi/chi/
+#    - derive/^([sz])i/$1hi/
+#    - derive/^dzi/ji/
+#    - derive/(.*)ah/$1eh/
+#    - derive/(.*)eh/$1ah/
+#    - derive/(.*)ioh/$1iuih/
+#    - derive/(.*)ioh/$1iuih/
+#    - derive/(.*)ae/$1e/                          # 模糊“蘭”“雷”
+#    - derive/(.*)ie/$1i/                          # 模糊“煙”“衣”
+
+    - abbrev/^([a-z]).+$/$1/
+    - abbrev/^([kptgcs]h).+$/$1/
+    - abbrev/^(ts|ng|dz|ny).+$/$1/
+    - abbrev/^(tsh).+$/$1/
+
+    - derive/(.*)u/$1ou/
+    - derive/^zaon/laon/                          # 地上、衣裳
+    - derive/^zi(?=a)/y/                          # 謝謝 zia ya; 好像 hau yan
+    - derive/(.*)aoh/$1ah/                        # 多數中派模糊前後ah
+
+    - derive/^ny([aeou])/ni$1/                    # 簡寫以及更多易錯模糊
+    - derive/^nyi/ni/
+    - derive/^nyh([aeou])/ni$1/
+    - derive/^nyhi/ni/
+    - derive/^nyh/ny/
+    - derive/nyih/nyh/
+    - derive/^([mnl])h/$1/
+    - derive/au$/ao/
+    - derive/^tsh/tt/
+    - derive/^sh/x/
+    - derive/^ch/q/
+    - derive/([aoei])h$/$1$1/
+    - derive/uih$/uu/
+    - derive/([sz])y/$1$1/
+    - derive/^tshy/ttt/
+    - derive/uih$/uh/
+    - derive/^ng/gg/
+    - derive/^gh/hh/
+
+    - derive/^([scmn]h)in/$1n/
+    - derive/^([cjymnqx])in/$1n/
+    - derive/^([sc]h)iau/$1o/
+    - derive/^([cj])iau/$1o/
+    - derive/(y)au/$1o/
+    - derive/([bpsztdhuwvklg])en/$1n/                # 更多簡寫
+
+    - derive/^(c|ch|j|ny|sh|x|q)i([aeou])/$1$2/
+    - derive/^(ts|z|dz|s|l)i(eu)/$1$2/
+    - derive/^(.*)([zsth])yu/$1$2y/               # 上海話模糊“書”“詩”
+    - derive/(.*)aon/$1an/                        # 多數中派模糊前後an
+    - derive/(.*)an/$1aon/
+
+translator:
+  dictionary: yahwe_zaonhe
+  comment_format:
+    - xform/([nlm])h/'$1/
+    - xform/(ny)h/'$1/
+  prism: yahwe_zaonhe
+  spelling_hints: 6
+
+reverse_lookup:
+  tags: [luna_pinyin]
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+  comment_format:
+    - xform/([nlm])h/'$1/
+    - xform/(ny)h/'$1/
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
+    punct: '^/([0-9]0?|[A-Za-z]+)$'
