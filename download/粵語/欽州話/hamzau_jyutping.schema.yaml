@@ -1,0 +1,174 @@
+﻿# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: hamzau_jyutping
+  name: 欽拼
+  version: "7.31"
+  author:
+    - Dr.Khuy
+  description: |
+    基于香港語言學會粵語拼音方案
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 番文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 深筆, 简体 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+  - name: zh_hk                
+    states: [ 臺, 港]             
+    reset: 1                      #默认开启
+  - name: emoji_cn                #Emoji开关
+    states: [ 〇, 😊]             #显示在状态栏的图标
+    reset: 0                      #默认关闭
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+    - simplifier@zh_hk         
+    - simplifier@emoji_cn         #Emoji滤镜
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba23456789 #手機九宮 電腦毋要使
+  delimiter: " '"
+  algebra:
+    - xform/([1234])//           # 忽略声调
+    - derive/ng/q/                # 容錯 ng -> q
+    #- derive/^ng/gn/              # 容錯 ng -> gn
+    #- derive/^nj/jn/              # 容錯 nj -> jn
+    - derive/^nj/r/               # 容錯 nj -> r
+    #- derive/^sl/ls/              # 容錯 sl -> ls
+    #- derive/^sl/th/              # 容错 sl -> th
+    #- derive/^sl/lh/              # 容错 sl -> lh
+    - derive/^sl/x/               # 容错 sl -> x
+    #- derive/oe/eo/               # 容錯 oe -> eo
+    - derive/oe/v/                # 容錯 oe -> v
+    #- derive/[^o]e/ie/           # 容錯 e  -> ie
+    - derive/au/ou/               # 容錯 au -> ou
+    - derive/aa$/a/               # 容錯 aa -> a
+    - abbrev/^([a-z]).+$/$1/      # 首字母簡拼
+    - abbrev/^(n[gj]).+$/$1/      # 聲母簡拼
+    - abbrev/^([gk]w).+$/$1/      # 聲母簡拼
+    - abbrev/^(sl).+$/$1/         # 聲母簡拼
+    #- abbrev/^(l[sh]).+$/$1/      # 聲母簡拼
+    - derive/^(.*)$/\U$1/
+    - derive/([abc])/2/	 #手機九宮 電腦毋要使
+    - derive/([def])/3/	 #手機九宮 電腦毋要使
+    - derive/([ghi])/4/	 #手機九宮 電腦毋要使
+    - derive/([jkl])/5/	 #手機九宮 電腦毋要使
+    - derive/([mno])/6/	 #手機九宮 電腦毋要使
+    - derive/([pqrs])/7/	 #手機九宮 電腦毋要使
+    - derive/([tuv])/8/	 #手機九宮 電腦毋要使
+    - derive/([wxyz])/9/	 #手機九宮 電腦毋要使
+
+translator:
+  dictionary: hamzau_jyutping
+  spelling_hints: 5
+  #comment_format: 
+    #- 'xform ([aeiou])(ng)([1234]) $1$3$2'
+    #- 'xform ([aeiou])([iumnptk])([1234]) $1$3$2'
+    #- 'xform ([ao])([ae])([1234]) $1$3$2'
+    #- 'xform ([n])([g])([1234]) $1$3$2'
+    #- 'xform 1 '
+    #- 'xform n3 ṉ'
+    #- 'xform n4 ǹ'
+    #- 'xform n6 ṇ'
+    #- 'xform n5 ñ'
+    #- 'xform n2 n͗'
+    #- 'xform m3 m'
+    #- 'xform m4 ṁ'
+    #- 'xform m6 ṃ'
+    #- 'xform m5 m̃'
+    #- 'xform m2 m͗'
+    #- 'xform a3 ā'
+    #- 'xform a4 à'
+    #- 'xform a6 ạ'
+    #- 'xform a5 ã'
+    #- 'xform a2 ả'
+    #- 'xform i3 ī'
+    #- 'xform i4 ì'
+    #- 'xform i6 ị'
+    #- 'xform i5 ĩ'
+    #- 'xform i2 ỉ'
+    #- 'xform u3 ū'
+    #- 'xform u4 ù'
+    #- 'xform u6 ụ'
+    #- 'xform u5 ũ'
+    #- 'xform u2 ủ'
+    #- 'xform e3 ē'
+    #- 'xform e4 è'
+    #- 'xform e6 ẹ'
+    #- 'xform e5 ẽ'
+    #- 'xform e2 ẻ'
+    #- 'xform o3 ō'
+    #- 'xform o4 ò'
+    #- 'xform o6 ọ'
+    #- 'xform o5 õ'
+    #- 'xform o2 ỏ'
+    #- 'xform y3 ȳ'
+    #- 'xform y4 ỳ'
+    #- 'xform y6 ỵ'
+    #- 'xform y5 ỹ'
+    #- 'xform y2 ỷ'
+
+zh_hk:
+  option_name: zh_hk
+  opencc_config: t2hk.json
+
+#Emoji滤镜配置
+emoji_cn:
+  opencc_config: emoji.json       #Emoji词典配置文件
+  option_name: emoji_cn           #与状态栏开关的名称一致
+  tips: all                       #开启注释
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+  bindings: 
+    
+  - { when: has_menu, accept: "#", toggle: emoji_cn }
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
+    punct: '^/([0-9]0?|[a-z]+)$'
