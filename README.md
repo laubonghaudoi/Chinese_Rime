@@ -1,8 +1,8 @@
 <h1>中州韻輸入法漢語方言拼音方案全集
 <br/>Collection of Rime Input Method Phonetic Spelling Schemas for Chinese Languages & Dialects</h1>
 
-![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
-![licence](https://img.shields.io/badge/licence-Apache--2.0-blue.svg?style=flat)
+![contributions welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen?style=for-the-badge&logo=contributions)
+![licence](https://img.shields.io/badge/License-Apache--2.0-blue?style=for-the-badge&logo=contributions)
 
 <h2>項目宗旨
 <br/>The mission of this project</h2>
