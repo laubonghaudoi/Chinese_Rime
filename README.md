@@ -90,22 +90,21 @@ python update_download.py
 <h2>已收錄方案
 <br/>Collected schemas</h2>
 
-目前學界對漢語方言分類歸類問題仍存較大分歧。常見的分類方式有傳統的七分法、《中國語言地圖集》的十
-分法和 ISO 國際標準的十三分法等。若使用傳統分法，則現代漢語族下分七大語支，官吳贛湘粵客閩。若採用《中國語言地圖集》之十分法，則晉語獨立於官話成一支，徽語獨立於吳語成一支，平話獨立於粵語成一支。若採用 ISO 693-3 標準的十三分法，則平話從屬於粵語，而閩語則細分爲閩北、閩南、閩東、閩中、莆仙五支，另外中古漢語和上古漢語各計作一門語言。
+目前學界對漢語方言分類歸類問題仍存較大分歧。常見的分類方式有傳統的七分法、《中國語言地圖集》的十分法和 ISO 國際標準的十三分法等。若使用傳統分法，則現代漢語族下分七大語支，官吳贛湘粵客閩。若採用《中國語言地圖集》之十分法，則晉語獨立於官話成一支，徽語獨立於吳語成一支，平話獨立於粵語成一支。若採用 ISO 693-3 標準的十三分法，則平話從屬於粵語，而閩語則細分爲閩北、閩南、閩東、閩中、莆仙五支，另外中古漢語和上古漢語各計作一門語言。
 
 The taxonomy for Chinese languages and dialects has been an unsettled issue in academia. The traditional way (Jerry Norman 1988) puts Chinese languages into seven groups: Mandarin, Wu, Gan, Xiang, Cantonese, Hakka, Min, while the *Language Atlas of China* classifies them into 10 groups, separating Jin, Huizhou and Pinghua from Mandarin, Wu and Cantonese as independent languages. And the ISO 693-3 standard keeps Pinghua within Cantonese while further divides Min into Northern, Southern, Eastern, Central and Pu-Xian branches.
 
-爲提高本項目可讀性和後續可維護性，本項目採用 ISO 標準的十三分法。此標準僅作參考，非最佳標準。若對此分類方式有任何疑問或意見，歡迎新開一個 issue 發起討論。下表爲此標準下各語言所對應的 ISO 639-3 代碼：
+爲提高本項目可讀性和後續可維護性，本項目採用 ISO 693-3 標準的十三分法。此標準僅作參考，非最佳標準。若對此分類方式有任何疑問或意見，歡迎[新開一個 issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) 發起討論。下表爲此標準下各語言所對應的 ISO 639-3 代碼：
 
-Considering the readability and maintainability of this project, here we adopt the ISO 693-3 system. This is for reference only and by no means the gold standard. If you have any questions or suggestions about this, feel free to open a new issue for discussion. The following table shows the ISO 639-3 codes for these languages.
+Considering the readability and maintainability of this project, here we adopt the ISO 693-3 system. This is for reference only and by no means the gold standard. If you have any questions or suggestions about this, feel free to [open a new issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) for discussions. The following table shows the ISO 639-3 codes for these languages.
 
 | 上古漢語 Old Chinese | 中古漢語 Middle Chinese | 官話 Mandarin | 晉語 Jin | 吳語 Wu | 徽語 Huizhou | 贛語 Gan | 湘語 Xiang | 閩北語 Northern Min | 閩南語 Southern Min | 閩東語 Eastern Min| 閩中語 Central Min| 莆仙語 Pu-Xian Min | 客家話 Hakka | 粵語 Yue|
 |----------|----------|------|------|------|------|------|------|--------|--------|--------|--------|--------|--------|------|
 | och      | ltc      | cmn  | cjy  | wuu  | czh  | gan  | hsn  | mnp    | nan    | cdo    | czo    | cpx    | hak    | yue  |
 
-目前 **暫缺閩北語、閩中語、徽語、贛語、湘語** 的輸入方案。如有作者已編寫以上語言的輸入方案，請 [聯系我](mailto:laubonghaudoi@icloud.com) 或新開一個 issue 以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
+目前 **暫缺閩北語、閩中語、徽語、贛語、湘語** 的輸入方案。如有作者已編寫以上語言的輸入方案，請 [聯系我](mailto:laubonghaudoi@icloud.com) 或[新開一個 issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) 以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
-Right now we are still **missing the schemas for Northern Min, Central Min,  Huizhou, Gan, Xiang**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or open a new issue to add it to the collection. Schemas for other Chinese languages are also highly welcomed.
+Right now we are still **missing the schemas for Northern Min, Central Min,  Huizhou, Gan, Xiang**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or [open a new issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) to add it to the collection. Schemas for other Chinese languages are also highly welcomed.
 
 以下爲方案總表和配方列表。其中配方以符號 ℞ 標識。
 
