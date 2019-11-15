@@ -30,7 +30,7 @@ This project also supports the promotion project of non-Mandarin phonetic spelli
 3. `download/` 用於存放各個語言的唯一權威版拼音，即爲 [發佈頁面](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) 的下載整合包，方便用戶直接部署使用。
 4. `script/` 內包含更新收錄碼表所需的代碼。使用方法請見 [使用教程](https://github.com/laubonghaudoi/Chinese_Rime#%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E9%A0%85%E7%9B%AE%E7%B6%B2%E7%AB%99-tutorial-project-website)。
 
-有關已收集方案的资源，如方案白皮书、教程等，請參見 [方案相關文件（騰訊微雲）](https://github.com/laubonghaudoi/Chinese_Rime#%E8%B3%87%E6%BA%90resources)。
+有關已收集方案的资源，如方案白皮书、教程等，請參見 [方案相關文件（騰訊微雲 & Dropbox）](https://github.com/laubonghaudoi/Chinese_Rime#%E8%B3%87%E6%BA%90resources)。
 
 This repository has four sub-directories:
 
@@ -39,7 +39,7 @@ This repository has four sub-directories:
 3. `download/` serves as the folder for the [released](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) packages. It contains only the selected schema for the prestige dialect of each language. Hence users can download, deploy and use these off-the-shelf schemas conveniently.
 4. The `script/` folder contains scripts for automatically updating the schema files. Please see [Tutorial](https://github.com/laubonghaudoi/Chinese_Rime#%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E9%A0%85%E7%9B%AE%E7%B6%B2%E7%AB%99-tutorial-project-website) for instructions on how to use.
 
-For related materials of the collected schemas, such as tutorials, schema white papers, etc., please see [Schema-related files (Tencent cloud)](https://github.com/laubonghaudoi/Chinese_Rime#%E8%B3%87%E6%BA%90resources)
+For related materials of the collected schemas, such as tutorials, schema white papers, etc., please see [Schema-related files (Tencent cloud & Dropbox)](https://github.com/laubonghaudoi/Chinese_Rime#%E8%B3%87%E6%BA%90resources)
 
 <h2>使用教程
 <br/>Tutorial</h2>
@@ -92,11 +92,11 @@ python update_download.py
 
 目前學界對漢語方言分類歸類問題仍存較大分歧。常見的分類方式有傳統的七分法、《中國語言地圖集》的十分法和 ISO 國際標準的十三分法等。若使用傳統分法，則現代漢語族下分七大語支，官吳贛湘粵客閩。若採用《中國語言地圖集》之十分法，則晉語獨立於官話成一支，徽語獨立於吳語成一支，平話獨立於粵語成一支。若採用 ISO 693-3 標準的十三分法，則平話從屬於粵語，而閩語則細分爲閩北、閩南、閩東、閩中、莆仙五支，另外中古漢語和上古漢語各計作一門語言。
 
-The taxonomy for Chinese languages and dialects has been an unsettled issue in academia. The traditional way (Jerry Norman 1988) puts Chinese languages into seven groups: Mandarin, Wu, Gan, Xiang, Cantonese, Hakka, Min, while the *Language Atlas of China* classifies them into 10 groups, separating Jin, Huizhou and Pinghua from Mandarin, Wu and Cantonese as independent languages. And the ISO 693-3 standard keeps Pinghua within Cantonese while further divides Min into Northern, Southern, Eastern, Central and Pu-Xian branches.
+The taxonomy for Chinese languages and dialects has been an unsettled issue in the academia. The traditional way (Jerry Norman 1988) puts Chinese languages into seven groups: Mandarin, Wu, Gan, Xiang, Cantonese, Hakka, Min, while the *Language Atlas of China* classifies them into 10 groups, separating Jin, Huizhou and Pinghua from Mandarin, Wu and Cantonese as independent languages. And the ISO 693-3 standard keeps Pinghua within Cantonese and further divides Min into Northern, Southern, Eastern, Central and Pu-Xian branches.
 
 爲提高本項目可讀性和後續可維護性，本項目採用 ISO 693-3 標準的十三分法。此標準僅作參考，非最佳標準。若對此分類方式有任何疑問或意見，歡迎[新開一個 issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) 發起討論。下表爲此標準下各語言所對應的 ISO 639-3 代碼：
 
-Considering the readability and maintainability of this project, here we adopt the ISO 693-3 system. This is for reference only and by no means the gold standard. If you have any questions or suggestions about this, feel free to [open a new issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) for discussions. The following table shows the ISO 639-3 codes for these languages.
+To improve the readability and maintainability of this project, here we adopt the ISO 693-3 system. This is for reference only and by no means the gold standard. If you have any questions or suggestions about this, feel free to [open a new issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) for discussions. The following table shows the ISO 639-3 codes for these languages.
 
 | 上古漢語 Old Chinese | 中古漢語 Middle Chinese | 官話 Mandarin | 晉語 Jin | 吳語 Wu | 徽語 Huizhou | 贛語 Gan | 湘語 Xiang | 閩北語 Northern Min | 閩南語 Southern Min | 閩東語 Eastern Min| 閩中語 Central Min| 莆仙語 Pu-Xian Min | 客家話 Hakka | 粵語 Yue|
 |----------|----------|------|------|------|------|------|------|--------|--------|--------|--------|--------|--------|------|
@@ -210,7 +210,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         </li>
         <li>
           <details>
-            <summary>冀魯官話 Jiaoliao Mandarin</summary>
+            <summary>冀魯官話 Jilu Mandarin</summary>
             <b>暫缺 Not available</b>
           </details>
         </li>
@@ -619,7 +619,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         </li>
         <li>
           <details>
-            <summary>冀魯官話 Jiaoliao Mandarin</summary>
+            <summary>冀魯官話 Jilu Mandarin</summary>
             <b>暫缺 Not available</b>
           </details>
         </li>
@@ -913,6 +913,7 @@ For detailed information of the collected schemas in the download package, pleas
         <li><a href="http://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/">粵語審音配詞字庫</a></li>
         <li><a href="https://jyut.net/">粵音資料集叢</a></li>
         <li><a href="http://corpus.eduhk.hk/JPwordlist/index.php">香港語言學學會粵拼詞表</a></li>
+        <li><a href="http://cantoneseplus.com/">Cantonese +</li>
         <li><a href="http://gisun.org/">Gisun</a></li>
         <li><a href="http://www.ccamc.co/index.php">古今文字集成</a></li>
         <li><a href="http://suzukish.s252.xrea.com/search/">篇韻データベース</a></li>
