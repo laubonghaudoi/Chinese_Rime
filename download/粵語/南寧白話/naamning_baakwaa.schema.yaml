@@ -4,7 +4,7 @@
 schema:
   schema_id: naamning_baakwaa
   name: "南寧白話"
-  version: "2019.10.23"
+  version: "2019.11.06"
   author:
     - LeiMaau <leimaau@qq.com>
   description: |
@@ -96,9 +96,9 @@ speller:
     - xform/6/xx/
     - derive/^(z|c|s)y$/$1z/      # 兼容 (zcs)y -> (zcs)z 傳教士方案
     - derive/^(z|c|s)y$/$1ii/     # 兼容 (zcs)y -> (zcs)ii 客家話方案
-    - derive/a(m|p)$/o$1/         # 兼容 a(m|p) -> o(m|p) 其他邕潯片
-    - derive/aa(m)$/o$1/          # 兼容 aam -> om 其他邕潯片
-    - derive/^j/nj/               # 兼容 j -> nj 其他邕潯片 nj[ȵ]
+#    - derive/a(m|p)$/o$1/         # 兼容 a(m|p) -> o(m|p) 其他邕潯片
+#    - derive/aa(m)$/o$1/          # 兼容 aam -> om 其他邕潯片
+#    - derive/^j/nj/               # 兼容 j -> nj 其他邕潯片 nj[ȵ]
     - derive/a([nt])$/eo$1/       # 模糊 a(nt) -> eo(nt)
     - derive/ui$/eoi/          	  # 模糊 ui -> eoi
     - derive/yu$/eoi/          	  # 模糊 yu -> eoi
@@ -146,6 +146,7 @@ translator:
 #    - xform/([ptk])x/$1˧/	咽jiːt̚˧
 #    - xform/([ptk])q/$1˥/	一jɐt̚
 #    - xform/qq/˨˩/	而jiː˨˩
+#    - xform/(^|[ '])q/$1ʔ/
 #    - xform/q/˥˥/	倚jiː˥˥
 #    - xform/vv/˨˦/	以jiː˨˦
 #    - xform/v/˧˥/	倚jiː˧˥

@@ -4,7 +4,7 @@
 schema:
   schema_id: naamning_bingwaa
   name: "南寧（亭子）平話"
-  version: "2019.10.25"
+  version: "2019.11.06"
   author:
     - LeiMaau <leimaau@qq.com>
   description: |
@@ -137,6 +137,7 @@ translator:
 #    - xform/([ptk])vv/$1˨˦/
 #    - xform/([ptk])v/$1˧/
 #    - xform/qq/˨˩/
+#    - xform/(^|[ '])q/$1ʔ/
 #    - xform/q/˥˧/
 #    - xform/vv/˨˦/
 #    - xform/v/˧˧/
@@ -205,6 +206,7 @@ translator:
 #    - xform/([ptk])vv/$1˨˦/
 #    - xform/([ptk])v/$1˧/
 #    - xform/qq/˨˩/
+#    - xform/(^|[ '])q/$1ʔ/
 #    - xform/q/˥˧/
 #    - xform/vv/˨˦/
 #    - xform/v/˧˧/
