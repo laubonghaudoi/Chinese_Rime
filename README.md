@@ -92,7 +92,7 @@ python update_download.py
 
 目前學界對漢語方言分類歸類問題仍存較大分歧。常見的分類方式有傳統的七分法、《中國語言地圖集》的十分法和 ISO 國際標準的十三分法等。若使用傳統分法，則現代漢語族下分七大語支，官吳贛湘粵客閩。若採用《中國語言地圖集》之十分法，則晉語獨立於官話成一支，徽語獨立於吳語成一支，平話獨立於粵語成一支。若採用 ISO 693-3 標準的十三分法，則平話從屬於粵語，而閩語則細分爲閩北、閩南、閩東、閩中、莆仙五支，另外中古漢語和上古漢語各計作一門語言。
 
-The taxonomy for Chinese languages and dialects has been an unsettled issue in the academia. The traditional way (Jerry Norman 1988) puts Chinese languages into seven groups: Mandarin, Wu, Gan, Xiang, Cantonese, Hakka, Min, while the *Language Atlas of China* classifies them into 10 groups, separating Jin, Huizhou and Pinghua from Mandarin, Wu and Cantonese as independent languages. And the ISO 693-3 standard keeps Pinghua within Cantonese and further divides Min into Northern, Southern, Eastern, Central and Pu-Xian branches.
+The classification for Chinese languages and dialects has been an unsettled issue in the academia. The traditional way (Jerry Norman 1988) puts Chinese languages into seven groups: Mandarin, Wu, Gan, Xiang, Cantonese, Hakka, Min. The *Language Atlas of China* classifies them into 10 groups, separating Jin, Huizhou and Pinghua from Mandarin, Wu and Cantonese as independent languages. The ISO 693-3 standard keeps Pinghua within Cantonese and further divides Min into Northern, Southern, Eastern, Central and Pu-Xian branches.
 
 爲提高本項目可讀性和後續可維護性，本項目採用 ISO 693-3 標準的十三分法。此標準僅作參考，非最佳標準。若對此分類方式有任何疑問或意見，歡迎[新開一個 issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) 發起討論。下表爲此標準下各語言所對應的 ISO 639-3 代碼：
 
@@ -112,8 +112,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共 97 個方案）
-<br/>Full list of collected schemas (97 schemas in total)</h3>
+<h3>方案列表（共 99 個方案）
+<br/>Full list of collected schemas (99 schemas in total)</h3>
 
 <ul>
   <li>
@@ -427,6 +427,13 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
             <li>福州話字典 - <code>dfd</code></li>
           </ul>
         </li>
+        <li>
+          福州話羅馬字 ℞ <code>DDFShanyu/Huk-ciu-ua-Lo-ma-ci</code>
+          <ul>
+            <li>福州話教會羅馬字 - <code>GauHuoiLMC</code></li>
+            <li>福州話八音羅馬字 - <code>BekIngLMC</code></li>
+          </ul>
+        </li>
       </ul>
     </details>
   </li>
@@ -566,8 +573,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
 </ul>
 
-<h3>配方列表（共 37 個配方）
-<br/>List of recipes (37 recipes in total)</h3>
+<h3>配方列表（共 38 個配方）
+<br/>List of recipes (38 recipes in total)</h3>
 
 <ul>
   <li>
@@ -714,6 +721,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
       <summary>閩東語 Eastern Min</summary>
       <ul>
         <li>平話字表 (閩東語‣福州話) ℞ <code>only3km/ciklinbekin</code></li>
+        <li>福州話羅馬字 ℞ <code>DDFShanyu/Huk-ciu-ua-Lo-ma-ci</code></li>
       </ul>
     </details>
   </li>
