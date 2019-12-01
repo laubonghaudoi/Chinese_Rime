@@ -5,7 +5,7 @@
 #
 # Author:
 #
-# - Electric Sheep <1613023143@qq.com>
+# - Electric Sheep <shinzoqchiuq@outlook.com>
 #
 # 使用以下項目：
 #
@@ -19,7 +19,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2019.11.19"
+version: "2019.12.01"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -58,6 +58,7 @@ use_preset_vocabulary: true
 梔	tsy
 孜	tsy
 窒	tsy
+膣	tsy
 氏	tsy	0%
 胝	tsy
 祗	tsy
@@ -395,6 +396,7 @@ use_preset_vocabulary: true
 笞	tshyu
 魑	tshyu
 黐	tshyu
+螭	tshyu
 蚩	tshyu
 嗤	tshyu
 𠷣	tshyu
@@ -434,6 +436,7 @@ use_preset_vocabulary: true
 篨	dzyu
 蜍	dzyu
 滁	dzyu
+蒢	dzyu
 錘	dzyu
 捶	dzyu
 搥	dzyu
@@ -636,6 +639,7 @@ use_preset_vocabulary: true
 片	phi
 䏒	phi
 騙	phi
+騗	phi
 皮	bi
 鈹	bi
 琵	bi
@@ -747,6 +751,7 @@ use_preset_vocabulary: true
 湎	mi
 緬	mi
 靦	mi
+腼	mi
 澠	mi
 冕	mi
 未	mi
@@ -792,6 +797,7 @@ use_preset_vocabulary: true
 鐨	fi
 廢	fi
 癈	fi
+廃	fi
 䉬	fi
 痱	fi
 疿	fi
@@ -850,6 +856,7 @@ use_preset_vocabulary: true
 碘	ti
 𥮏	ti
 玷	ti
+奌	ti
 墊	ti	5%
 踮	ti
 帝	ti
@@ -881,6 +888,7 @@ use_preset_vocabulary: true
 㮇	thi
 栝	thi
 體	thi
+軆	thi
 挮	thi
 忝	thi
 舔	thi
@@ -891,6 +899,7 @@ use_preset_vocabulary: true
 𧌎	thi
 捵	thi
 靦	thi
+腼	thi
 餂	thi
 㐁	thi
 剃	thi
@@ -1221,6 +1230,7 @@ use_preset_vocabulary: true
 雞	ci
 鷄	ci
 鶏	ci
+鳮	ci
 幾	ci
 蟣	ci
 己	ci
@@ -1231,6 +1241,7 @@ use_preset_vocabulary: true
 剪	ci
 㨵	ci
 譾	ci
+揃	ci
 展	ci
 搌	ci
 輾	ci
@@ -1326,6 +1337,7 @@ use_preset_vocabulary: true
 蹊	chi
 鸂	chi
 崎	chi
+攲	chi
 䀘	chi
 豈	chi
 弃	chi
@@ -1398,7 +1410,6 @@ use_preset_vocabulary: true
 愒	chi
 亟	chi	0%
 蟿	chi
-掎	chi
 茜	chi
 塹	chi
 蒨	chi
@@ -1556,7 +1567,6 @@ use_preset_vocabulary: true
 猊	gni
 鯢	gni
 沂	gni
-藝	gni
 囈	gni
 閻	gni
 嚴	gni
@@ -1599,11 +1609,14 @@ use_preset_vocabulary: true
 齞	gni
 癮	gni
 黏	gni	0%
+藝	gni
+蓺	gni
 襼	gni
 義	gni
 二	gni
 貳	gni
 弍	gni
+弐	gni
 膩	gni
 睨	gni
 鶃	gni
@@ -1677,6 +1690,7 @@ use_preset_vocabulary: true
 膻	shi
 羶	shi
 羴	shi
+埏	shi
 憸	shi
 銛	shi
 韱	shi
@@ -1702,6 +1716,7 @@ use_preset_vocabulary: true
 洒	shi
 喜	shi
 蟢	shi
+囍	shi
 𨭎	shi
 手	shi	0%
 洗	shi
@@ -1862,6 +1877,7 @@ use_preset_vocabulary: true
 鋋	yi
 唌	yi
 䀽	yi
+埏	yi
 鹽	yi
 塩	yi
 賢	yi
@@ -1975,6 +1991,7 @@ use_preset_vocabulary: true
 椅	i
 猗	i
 倚	i
+掎	i
 旖	i
 扆	i
 以	i	5%
@@ -2226,6 +2243,7 @@ use_preset_vocabulary: true
 孥	nu
 駑	nu
 吾	NU
+峿	nu
 梧	nu
 鼯	nu
 齬	nu
@@ -2240,6 +2258,7 @@ use_preset_vocabulary: true
 怒	nu
 悞	nu
 娛	nu
+娯	nu
 捂	nu
 晤	nu
 寤	nu
@@ -2356,6 +2375,7 @@ use_preset_vocabulary: true
 呱	ku
 罛	ku
 笟	ku
+箛	ku
 辜	ku
 菇	ku
 菰	ku
@@ -2433,6 +2453,7 @@ use_preset_vocabulary: true
 吴	wu
 呉	wu
 蜈	WU	10%
+峿	wu
 鼯	wu
 齬	wu
 娪	wu
@@ -2472,6 +2493,7 @@ use_preset_vocabulary: true
 頀	wu
 悞	wu	10%
 娛	wu	10%
+娯	wu	10%
 捂	wu	10%
 梧	wu	10%
 晤	wu	10%
@@ -2636,6 +2658,7 @@ use_preset_vocabulary: true
 勌	jiu
 虞	gniu
 娛	gniu
+娯	gniu
 鋙	gniu
 禺	gniu
 隅	gniu
@@ -2656,6 +2679,7 @@ use_preset_vocabulary: true
 嫄	gniu
 塬	gniu
 螈	gniu
+羱	gniu
 元	gniu
 芫	gniu
 阮	gniu
@@ -2720,6 +2744,8 @@ use_preset_vocabulary: true
 栩	shiu
 詡	shiu
 烜	shiu
+𣈶	shiu
+暅	shiu
 毀	shiu	5%
 毁	shiu	5%
 㧦	shiu
@@ -2730,7 +2756,7 @@ use_preset_vocabulary: true
 𩋢	shiu
 煦	shiu
 漁	yu
-魚	yu	6%
+魚	yu	1%
 余	yu
 餘	yu
 狳	yu
@@ -2781,6 +2807,7 @@ use_preset_vocabulary: true
 圓	yu
 円	yu
 員	yu
+貟	yu
 玄	yu
 舷	yu
 丸	yu	5%
@@ -2838,6 +2865,7 @@ use_preset_vocabulary: true
 䩒	iu
 衣	iu	0%
 鴛	iu
+鵷	iu
 冤	iu
 寃	iu
 眢	iu
@@ -2937,6 +2965,7 @@ use_preset_vocabulary: true
 鎿	na
 淖	na
 艿	na
+南	na	0%
 奶	na
 嬭	na
 疓	na
@@ -3008,6 +3037,7 @@ use_preset_vocabulary: true
 解	ka
 介	ka
 界	ka
+堺	ka
 芥	ka
 疥	ka
 尬	ka
@@ -3108,6 +3138,7 @@ use_preset_vocabulary: true
 架	cia	6%
 㗎	cia
 佉	chia
+呿	chia
 笡	chia
 趄	chia	0%
 且	chia
@@ -3695,6 +3726,7 @@ use_preset_vocabulary: true
 駡	mo
 罵	mo
 傌	mo
+禡	mo
 嬤	mho
 朵	to
 朶	to
@@ -3894,6 +3926,7 @@ use_preset_vocabulary: true
 飆	piau
 飈	piau
 颮	piau
+驫	piau
 鑣	piau
 鏢	piau
 瀌	piau
@@ -4137,6 +4170,7 @@ use_preset_vocabulary: true
 饒	gniau
 蟯	gniau
 蕘	gniau
+垚	gniau
 堯	gniau
 嬈	gniau
 繞	gniau
@@ -4219,6 +4253,7 @@ use_preset_vocabulary: true
 鷂	yau
 徭	yau
 瑤	yau
+鰩	yau
 窑	yau
 窯	yau
 窰	yau
@@ -4341,7 +4376,8 @@ use_preset_vocabulary: true
 駕	cio	0%
 架	cio	0%
 㗎	cio	0%
-佉	chio
+佉	chio	0%
+呿	chio	0%
 襾	shio	0%
 罅	shio	0%
 𥕕	shio	0%
@@ -4711,6 +4747,7 @@ use_preset_vocabulary: true
 晩	vae
 範	vae
 范	vae
+笵	vae
 飯	vae
 萬	vae
 万	vae
@@ -5019,6 +5056,7 @@ use_preset_vocabulary: true
 岩	ngae
 巖	ngae
 喦	ngae
+嵒	ngae
 碞	ngae
 巗	ngae
 癌	ngae
@@ -5046,9 +5084,12 @@ use_preset_vocabulary: true
 𩿼	ae
 𪀌	ae
 晏	ae
+鴳	ae
+鷃	ae
 揞	ae	5%
 關	kuae
 関	kuae
+闗	kuae
 鰥	kuae
 𩻴	kuae
 瘝	kuae
@@ -5151,6 +5192,7 @@ use_preset_vocabulary: true
 篅	tsoe
 𩤚	tsoe
 纂	tsoe
+朘	tsoe
 篹	tsoe
 纘	tsoe
 籫	tsoe
@@ -5235,6 +5277,7 @@ use_preset_vocabulary: true
 𥶷	soe
 陝	soe
 算	soe
+筭	soe
 蒜	soe
 渲	soe
 喧	soe
@@ -5380,6 +5423,7 @@ use_preset_vocabulary: true
 觩	jieu
 脙	jieu
 裘	jieu
+賕	jieu
 虬	jieu
 虯	jieu
 仇	jieu
@@ -5632,6 +5676,7 @@ use_preset_vocabulary: true
 誖	bei
 備	bei
 俻	bei
+鞴	bei
 背	bei
 苝	bei
 佩	bei
@@ -5746,9 +5791,10 @@ use_preset_vocabulary: true
 𤿏	nei
 婻	nEI
 雷	lei
+靁	lei
 𡀂	lei
 檑	lei
-了	lei
+畾	lei
 鐳	lei
 𧒜	lei
 累	lei
@@ -5759,6 +5805,7 @@ use_preset_vocabulary: true
 漯	lei
 罍	lei
 羸	lei
+了	lei
 儡	lei
 蕾	lei
 癗	lei
@@ -5878,6 +5925,7 @@ use_preset_vocabulary: true
 蠶	zEI
 鏨	zEI
 𨅔	zei
+惢	zei
 蕊	zei
 蕋	zei
 橤	zei
@@ -6087,6 +6135,7 @@ use_preset_vocabulary: true
 昏	huei	0%
 昬	huei	0%
 睢	huei
+倠	huei
 悔	huei
 毀	huei
 毁	huei
@@ -6105,6 +6154,7 @@ use_preset_vocabulary: true
 囘	wei
 𡇌	wei
 迴	wei
+逥	wei
 廻	wei
 廽	wei
 𢌞	wei
@@ -6129,10 +6179,7 @@ use_preset_vocabulary: true
 桅	wei
 烠	wei
 慧	wei
-惠	wei
-恵	wei
 蕙	wei
-蟪	wei
 慰	wei
 彙	wei
 巍	wei
@@ -6150,6 +6197,7 @@ use_preset_vocabulary: true
 葦	wei
 瑋	wei
 煒	wei
+暐	wei
 衛	wei
 衞	wei
 韙	wei
@@ -6161,6 +6209,7 @@ use_preset_vocabulary: true
 痏	wei
 頠	wei
 硊	wei
+隗	wei
 彗	wei
 胃	wei
 猬	wei
@@ -6176,6 +6225,9 @@ use_preset_vocabulary: true
 僞	wei
 偽	wei
 魏	wei
+惠	wei
+恵	wei
+蟪	wei
 威	uei
 葳	uei
 畏	uei
@@ -6330,8 +6382,8 @@ use_preset_vocabulary: true
 瘰	lou
 虜	lou
 擄	lou
-卵	lou
-𤓲	lou
+卵	lou	6%
+𤓲	lou	6%
 攎	lou
 邏	lou
 𨇽	lou
@@ -6378,6 +6430,7 @@ use_preset_vocabulary: true
 瑣	sou
 獕	sou
 嗩	sou
+惢	sou
 嗦	sou
 唆	sou
 痤	zou
@@ -6400,6 +6453,7 @@ use_preset_vocabulary: true
 粿	kou
 裹	kou
 錁	kou
+餜	kou
 管	kou	0%
 過	kou
 個	kou	6%
@@ -6444,6 +6498,7 @@ use_preset_vocabulary: true
 譌	ngou
 吪	ngou
 鈋	ngou
+囮	ngou
 㛂	ngou
 臥	ngou
 餓	ngou
@@ -6544,6 +6599,7 @@ use_preset_vocabulary: true
 不	feu	0%
 否	feu
 缶	feu
+缹	feu
 負	veu
 浮	veu
 蜉	veu
@@ -6578,6 +6634,7 @@ use_preset_vocabulary: true
 敨	theu
 紏	theu
 䚵	theu
+黈	theu
 頭	deu
 投	deu
 骰	deu
@@ -6697,15 +6754,17 @@ use_preset_vocabulary: true
 耉	keu
 笱	keu
 岣	keu
+冓	keu
 遘	keu
 傋	keu
 覯	keu
-䝭	keu
 姤	keu
 詬	keu
 彀	keu
 夠	keu
 够	keu
+雊	keu
+䝭	keu
 口	kheu
 摳	kheu
 叩	kheu
@@ -6790,6 +6849,7 @@ use_preset_vocabulary: true
 𦗭	ban
 彭	ban
 𥕱	ban
+嘭	ban
 朋	ban
 鵬	ban
 趽	ban
@@ -7057,7 +7117,9 @@ use_preset_vocabulary: true
 佯	yan
 徉	yan
 𦭵	yan
+蛘	yan
 瘍	yan
+昜	yan
 陽	yan
 楊	yan
 揚	yan
@@ -7108,11 +7170,13 @@ use_preset_vocabulary: true
 泵	paon
 邦	paon
 幫	paon
+幇	paon
+幚	paon
+鞤	paon
 梆	paon
 𨢐	paon
 𧤞	paon
 垹	paon
-鞤	paon
 綁	paon
 榜	paon
 牓	paon
@@ -7204,6 +7268,7 @@ use_preset_vocabulary: true
 鐺	taon
 簹	taon
 蟷	taon
+儅	taon
 黨	taon
 党	taon
 讜	taon
@@ -7677,6 +7742,7 @@ use_preset_vocabulary: true
 灌	kun
 罐	kun
 鑵	kun
+毌	kun
 貫	kun
 寬	khun
 寛	khun
@@ -7855,7 +7921,7 @@ use_preset_vocabulary: true
 等	ten
 戥	ten
 躉	ten
-頂	ten
+頂	ten	5%
 盹	ten
 頓	ten
 訰	ten
@@ -7901,6 +7967,7 @@ use_preset_vocabulary: true
 能	nen
 寧	nen	5%
 寗	nen	5%
+寜	nen	5%
 寕	nen	5%
 嫩	nen
 嫰	nen
@@ -7983,6 +8050,7 @@ use_preset_vocabulary: true
 櫬	tshen
 嚫	tshen
 𧭼	tshen
+儭	tshen
 讖	tshen
 存	dzen
 曾	dzen
@@ -8045,6 +8113,8 @@ use_preset_vocabulary: true
 㾘	ken
 綆	ken
 茛	ken
+𣈶	ken
+暅	ken
 鏗	khen
 硜	khen
 誙	khen
@@ -8227,6 +8297,8 @@ use_preset_vocabulary: true
 聴	thin
 聼	thin
 廳	thin
+廰	thin
+庁	thin
 桯	thin
 烴	thin
 挺	thin
@@ -8446,6 +8518,7 @@ use_preset_vocabulary: true
 靳	cin
 蟶	chin
 檉	chin
+赬	chin
 稱	chin
 偁	chin
 郴	chin
@@ -8458,6 +8531,7 @@ use_preset_vocabulary: true
 氰	chin
 鯖	chin
 鶄	chin
+圊	chin
 駸	chin
 頳	chin
 䞓	chin
@@ -8595,6 +8669,7 @@ use_preset_vocabulary: true
 寧	gnin
 甯	gnin
 寗	gnin
+寜	gnin
 寕	gnin
 薴	gnin
 吟	gnin
@@ -8714,6 +8789,7 @@ use_preset_vocabulary: true
 噚	zhin
 蕁	zhin
 鱘	zhin
+蟳	zhin
 堘	zhin
 塍	zhin
 葚	zhin
@@ -8811,6 +8887,7 @@ use_preset_vocabulary: true
 縈	in
 英	in
 瑛	in
+霙	in
 殷	in
 慇	in
 因	in
@@ -8898,6 +8975,7 @@ use_preset_vocabulary: true
 㨡	wen
 㮯	wen
 混	wen
+圂	wen
 溷	wen
 慁	wen
 𦞢	wen
@@ -8908,6 +8986,8 @@ use_preset_vocabulary: true
 薀	uen
 塭	uen
 轀	uen
+輼	uen
+豱	uen
 穩	uen
 穏	uen
 渾	uen	0%
@@ -8972,6 +9052,7 @@ use_preset_vocabulary: true
 韵	yun
 鄆	yun
 運	yun
+貟	yun
 暈	yun
 孕	yun
 蘊	iun
@@ -8983,6 +9064,7 @@ use_preset_vocabulary: true
 𥠺	iun
 蝹	iun
 馧	iun
+贇	iun
 惲	iun
 韞	iun
 醞	iun
@@ -9184,6 +9266,7 @@ use_preset_vocabulary: true
 錬	ton
 𩣳	ton
 鶇	ton
+涷	ton
 端	ton	0%
 懂	ton
 董	ton
@@ -9307,6 +9390,7 @@ use_preset_vocabulary: true
 総	tson
 𨍈	tson
 傯	tson
+惣	tson
 蓯	tson
 腫	tson
 種	tson
@@ -9336,6 +9420,7 @@ use_preset_vocabulary: true
 囪	tshon
 囱	tshon
 聰	tshon
+聡	tshon
 從	tshon	5%
 従	tshon	5%
 鏦	tshon
@@ -9392,6 +9477,7 @@ use_preset_vocabulary: true
 淞	son
 忪	son
 蜙	son
+崧	son
 𪁿	son
 嵩	son
 叔	son	5%
@@ -9685,6 +9771,7 @@ use_preset_vocabulary: true
 襪	maq
 韈	maq
 韤	maq
+袜	maq
 陌	maq
 沒	maq
 歿	maq
@@ -9932,6 +10019,7 @@ use_preset_vocabulary: true
 側	tsaq	5%
 鍘	tsaq	5%
 𢯩	tsaq
+夨	tsaq
 仄	tsaq
 昃	tsaq
 卒	tsaq
@@ -10105,6 +10193,7 @@ use_preset_vocabulary: true
 掐	khaq
 甲	khaq	0%
 胛	khaq	0%
+曱	khaq
 克	khaq
 剋	khaq
 尅	khaq
@@ -10289,6 +10378,7 @@ use_preset_vocabulary: true
 楉	zhiaq
 弱	zhiaq
 蒻	zhiaq
+叒	zhiaq
 葯	yaq
 藥	yaq
 薬	yaq
@@ -10407,8 +10497,9 @@ use_preset_vocabulary: true
 髆	poq
 襮	poq
 撥	poq	5%
-樸	phoq
 撲	phoq
+扑	phoq
+樸	phoq
 朴	phoq
 仆	phoq
 釙	phoq
@@ -10655,6 +10746,7 @@ use_preset_vocabulary: true
 遭	tsoq	0%
 促	tshoq
 趗	tshoq
+甴	tshoq
 戳	tshoq
 蹙	tshoq
 顣	tshoq
@@ -10747,6 +10839,7 @@ use_preset_vocabulary: true
 𤸴	soq
 𧛻	soq
 倏	soq
+儵	soq
 式	soq	0%
 什	soq	0%
 啥	soq	263257
@@ -10783,7 +10876,10 @@ use_preset_vocabulary: true
 杓	zoq
 芍	zoq
 國	koq
+国	koq
 囯	koq
+圀	koq
+圐	koq
 幗	koq
 膕	koq
 蟈	koq
@@ -11075,6 +11171,7 @@ use_preset_vocabulary: true
 笛	diq
 迪	diq
 廸	diq
+頔	diq
 狄	diq
 荻	diq
 覿	diq
@@ -11096,6 +11193,7 @@ use_preset_vocabulary: true
 律	liq
 𢯰	liq
 𧊐	liq
+葎	liq
 栗	liq
 慄	liq
 凓	liq
@@ -11106,6 +11204,7 @@ use_preset_vocabulary: true
 𨫏	liq
 捩	liq
 曆	liq
+暦	liq
 厤	liq
 歷	liq
 歴	liq
@@ -11198,6 +11297,7 @@ use_preset_vocabulary: true
 褶	ciq
 慴	ciq
 晢	ciq
+讋	ciq
 質	ciq
 鑕	ciq
 櫍	ciq
@@ -11533,6 +11633,7 @@ use_preset_vocabulary: true
 㑊	yiq
 奕	yiq
 弈	yiq
+燚	yiq
 逸	yiq
 驛	yiq
 譯	yiq
@@ -11773,6 +11874,7 @@ use_preset_vocabulary: true
 𩋁	tsyuq
 䮕	tsyuq
 錣	tsyuq
+叕	tsyuq
 齣	tshyuq
 出	tshyuq
 黜	tshyuq
@@ -11847,6 +11949,7 @@ use_preset_vocabulary: true
 二	er	6%
 貳	er	6%
 弍	er	6%
+弐	er	6%
 𢄽	er
 樲	er
 咡	er
@@ -26199,10 +26302,8 @@ use_preset_vocabulary: true
 撳門鈴
 扚韭菜
 擤鼻頭	shin baq deu
-找褲腳
-找袖頭子
 折衣裳
-龍頭折轉
+龍頭折轉	lon deu tsoq tsoe
 腳骨𢺴出
 拗花
 拗烏筍
@@ -28791,6 +28892,10 @@ use_preset_vocabulary: true
 搭渠	tiq ji
 搭其	tiq ji
 急口令	ciq kheu lin
+短袖頭子	toe zhieu deu tsy
+長袖頭子	jian zhieu deu tsy
+短袖子	toe zhieu tsy
+長袖子	jian zhieu tsy
 一百廿
 倭豆鹹肉糯米飯
 糯米飯
@@ -29111,7 +29216,6 @@ VCD	vi shi di
 一集	iq jiq
 一霎間	iq saq ci
 一面之交	iq mi tsy ciau
-一頂	iq tin
 一頭撞煞	iq deu dzaon saq
 一頭霧水	iq deu vu syu
 一頭霧水	iq deu Wu syu
@@ -30572,7 +30676,7 @@ VCD	vi shi di
 中國文學藝術界聯合會	tson koq ven yuq gni zyuq ka li ghaq wei
 中國日報	tson koq zyuq pau
 中國最大	tson koq tsei da
-中國頂大	tson koq tin da
+中國頂大	tson koq tin dou
 中國未來	tson koq vi le
 中國殘疾人聯合會	tson koq dzae jiq gnin li ghaq wei
 中國法學會	tson koq faq yuq wei
@@ -30731,7 +30835,6 @@ VCD	vi shi di
 丹尼爾克雷格	tae gni er khaq lei kaq
 丹尼爾雷德克里夫	tae gni er lei taq khaq li fu
 丹瑞大將	tae zei da cian
-丹頂鶴	tae tin ngoq
 丹魄	tae phaq
 丹麥人	tae maq gnin
 主人	tsyu gnin
@@ -31149,7 +31252,7 @@ VCD	vi shi di
 垃圾亂揞	laq saq loe an
 垃圾亂揞	laq saq loe khan
 亂交	loe ciau
-亂來亂去	loe le loe chiu
+亂來亂去	loe le loe chi
 亂倒垃圾	loe tau la shi
 垃圾亂倒	la shi loe tau
 亂倒垃圾	loe tau laq saq
@@ -31207,7 +31310,6 @@ VCD	vi shi di
 事假	zy ko
 事務長	zy vu cian
 事務長	zy Wu cian
-事危累卵	zy wei lei loe
 事業家	zy gniq cia
 兩〇	lian lin
 兩〇〇九	lian lin lin cieu
@@ -31698,7 +31800,6 @@ VCD	vi shi di
 兩零零	lian lin lin
 兩面角	lian mi koq
 兩頁	lian yiq
-兩頂	lian ten
 二項式	gni ghaon shiq
 二項式係數	gni ghaon shiq shi su
 二項式定理	gni ghaon shiq din li
@@ -31820,8 +31921,6 @@ VCD	vi shi di
 五間	ng kae
 五陰世間	ng in syu ci
 五集	ng jiq
-五雷轟頂	ng lei hon tin
-五頂	ng tin
 五顏六色	ng ngae loq saq
 五馬分屍	ng mo fen sy
 五鬼	ng kuei
@@ -32923,8 +33022,6 @@ VCD	vi shi di
 以爾	yi ng
 以儂	yi nou
 以假亂真	yi cia loe cin
-以卵投石	yi loe deu zaq
-以卵擊石	yi loe ciq zaq
 以和爲貴	yi ghou wei kuei
 以埃	yi e
 以天下爲己任	yi thi gho wei ci zyun
@@ -34057,8 +34154,8 @@ VCD	vi shi di
 修身齊家	shieu shin ji cia
 修道人	shieu dau gnin
 修長	shieu jian
-俯下去	fu gho chiu
-俯落去	fu loq chiu
+俯下去	fu gho chi
+俯落去	fu loq chi
 俯仰之間	fu gnian tsy ci
 俯伏	fu voq
 俯拾皆是	fu zyuq cie zy
@@ -34901,7 +34998,6 @@ VCD	vi shi di
 僞學者	wei yuq tse
 僞朝	wei jiau
 僞科學	wei khou yuq
-僞頂	wei ten
 僧人	sen gnin
 僧加羅語	sen cia lou gniu
 僱人	ku gnin
@@ -35735,13 +35831,10 @@ VCD	vi shi di
 再進去	tse cin chi
 再過去	tse kou chi
 再降	tse ciaon
-再頂	tse tin
 冑甲	jieu ciaq
 冒上去	mau zaon chi
 冒了	mau lei
 冒了	mau laq
-冒名頂替	mau min tin thi
-冒名頂替者	mau min tin thi tse
 冒大不韙	mau da paq wei
 冒天下之大不韙	mau thi gho tsy da paq wei
 冒牌	mau ba
@@ -35757,7 +35850,6 @@ VCD	vi shi di
 冒勒危險	mau laq wei shi
 冒勒生命危險	mau laq sen min wei shi
 冒險家	mau shi cia
-冒頂	mau tin
 冗長	dzon jian
 冗長度	dzon jian du
 冗雜	dzon dzaq
@@ -35824,9 +35916,6 @@ VCD	vi shi di
 凌雜米鹽	lin dzaq mi yi
 凍死	ton shi
 凍膠	ton ciau
-凍頂	ton tin
-凍頂烏龍	ton tin u lon
-凍頂烏龍茶	ton tin u lon dzo
 凝結水	gnin ciq syu
 凝膠	gnin ciau
 凝膠體	gnin ciau thi
@@ -35961,7 +36050,6 @@ VCD	vi shi di
 出資人	tshyuq tsy gnin
 出軌行爲	tshyuq kuei ghan wei
 出錘	tshyuq zei
-出頂	tshyuq tin
 出頭之日	tshyuq deu tsy zyuq
 出頭日子	tshyuq deu gniq tsy
 出頭鳥	tshyuq deu gniau
@@ -36548,8 +36636,8 @@ VCD	vi shi di
 初等教育	tshu ten ciau yuq
 初級中學	tshu ciq tson ghoq
 初級小學	tshu ciq shiau ghoq
-判下去	phun gho chiu
-判落去	phun loq chiu
+判下去	phun gho chi
+判落去	phun loq chi
 判分	phun fen
 判死罪	phun shi zei
 判若兩人	phun zhiaq lian gnin
@@ -36695,7 +36783,6 @@ VCD	vi shi di
 到職人員	tau ciq zyun yu
 到該	tau kiq
 到達大廳	tau daq da thin
-到頂	tau tin
 制伏	tsyu voq
 制水閥	tsyu syu vaq
 制禮作樂	tsyu li tsoq yuq
@@ -36970,7 +37057,7 @@ VCD	vi shi di
 加上去	ko zaon chi
 加下	ko gho
 加下來	ko gho le
-加下去	ko gho chiu
+加下去	ko gho chi
 加落	ko loq
 加落來	ko loq le
 加落去	ko loq chi
@@ -37414,3 +37501,835 @@ VCD	vi shi di
 務工人員	Wu kon zyun yu
 務農人家	vu non gnin ko
 務農人家	Wu non gnin ko
+勝仗	shin cian
+勝任	shin zyun
+勝任愉快	shin zyun yu khua
+勝任能力	shin zyun nen liq
+勝利在望	shin li dze vaon
+勝敗乃兵家常事	shin ba nae pin cia dzaon zy
+勝朝	shin jiau
+勝樂金剛	shin loq cin kaon
+勝殘去殺	shin dzae chiu saq
+勝率	shin liq
+勝負乃兵家常事	shin veu nae pin cia dzaon zy
+勝造七級浮屠	shin zau chiq ciq vu du
+勝過一個諸葛亮	shin kou iq goq tsyu kaq lian
+勝過一個諸葛亮	shin kou iq ghoq tsyu kaq lian
+勞動人民	lau don zyun min
+勞動密集型	lau don miq jiq yin
+勞動工分	lau don kon fen
+勞動教養	lau don ciau ian
+勞動日	lau don gniq
+勞動時間	lau don zy ci
+勞動爭議	lau don tsen gni
+勞動生產力	lau don sen tshae liq
+勞動生產率	lau don sen tshae liq
+勞埃德	lau e taq
+勞拉	lau lha
+勞拉西泮	lau lha shi phun
+勞教	lau ciau
+勞教所	lau ciau so
+勞燕分飛	lau i fen fi
+勞爾	lau er
+募集	mou jiq
+募集資金	mou jiq tsy cin
+勢力並行	syu liq bin yin
+勢力範圍	syu liq vae wei
+勢同水火	syu don syu hou
+勢在必行	syu dze piq yin
+勢降	syu ghaon
+勤儉持家	jin ji dzy cia
+勤儉持家	jin ji ji cia
+勤儉起家	jin ji chi cia
+勤儉辦學	jin ji bae yuq
+勤學	jin yuq
+勤學苦練	jin yuq khu li
+勤工儉學	jin kon ji yuq
+勤工助學	jin kon dzu yuq
+勤謹	jin cin
+勤雜	jin dzaq
+勵行	li yin
+勸世歌	chiu syu kou
+勸出去	chiu tshyuq chi
+勸和	chiu ghou
+勸回去	chiu wei chi
+勸學	chiu yuq
+勸學篇	chiu yuq phi
+勸教	chiu ciau
+勸架	chiu ko
+勸解	chiu ka
+勸解	chiu cia
+勸諫	chiu ci
+勸降	chiu ghaon
+勾了	keu laq
+勾人	keu gnin
+勾來勾去	keu le keu chi
+勾去	keu chi
+勾肩搭背	keu ci taq pei
+勾過去	keu kou chi
+勾魂攝魄	keu wen shiq phaq
+勾魂蕩魄	keu wen daon phaq
+勿忘國恥	vaq vaon koq tshyu
+勿忘我	vaq vaon ngo
+勿忘草	vaq vaon tshau
+包上去	pau zaon chi
+包下去	pau gho chi
+包落去	pau loq chi
+包乾	pau kI
+包乾制	pau kI tsyu
+包二奶	pau er na
+包去	pau chi
+包含着	pau ghEI dzoq
+包含着	pau ghEI zyuq
+包圍	pau wei
+包圍住	pau wei dzyu
+包圍圈	pau wei chiu
+包圍着	pau wei dzoq
+包圍着	pau wei zyuq
+包圍起來	pau wei chi le
+包庇	pau pi
+包機去	pau ci chi
+包爾	pau er
+包着	pau dzoq
+包着	pau zyuq
+包紮着	pau tsaq dzoq
+包紮着	pau tsaq zyuq
+包船去	pau ZOE chi
+包被	pau bi
+包裝材料	pau tsaon dze liau
+包車去	pau tsho chi
+包間	pau kae
+匆促之間	tshon tshoq tsy ci
+匆促間	tshon tshoq ci
+匆忙之間	tshon maon tsy ci
+匆忙間	tshon maon ci
+匈奴人	shion nu gnin
+匈牙利人	shion ngo li gnin
+匈牙利大平原	shion ngo li da bin gniu
+匍伏	bu voq
+匏繫	bau shi
+匐伏	boq voq
+化了	huo laq
+化了	huo lei
+化妝水	huo tsaon syu
+化學	huo yuq
+化學作用	huo yuq tsoq yon
+化學信息素	huo yuq shin shiq su
+化學元素	huo yuq gniu su
+化學公司	huo yuq kon sy
+化學分析	huo yuq fen shiq
+化學劑	huo yuq ci
+化學劑量計	huo yuq ci lian ci
+化學反應	huo yuq fae in
+化學反應速度	huo yuq fae in soq du
+化學合成	huo yuq ghaq jin
+化學品	huo yuq phin
+化學家	huo yuq cia
+化學工廠	huo yuq kon chian
+化學工業	huo yuq kon gniq
+化學工程	huo yuq kon jin
+化學師	huo yuq sy
+化學平衡	huo yuq bin ghen
+化學式	huo yuq shiq
+化學彈藥	huo yuq dae yaq
+化學性	huo yuq shin
+化學性質	huo yuq shin ciq
+化學成分	huo yuq jin ven
+化學戰	huo yuq ci
+化學戰劑	huo yuq ci ci
+化學戰爭	huo yuq ci tsen
+化學戰	huo yuq tsoe
+化學戰劑	huo yuq tsoe ci
+化學戰爭	huo yuq tsoe tsen
+化學方程	huo yuq faon jin
+化學方程式	huo yuq faon jin shiq
+化學武器	huo yuq Wu chi
+化學武器儲備	huo yuq Wu chi zyu bei
+化學武器防護	huo yuq Wu chi vaon wu
+化學比色法	huo yuq pi saq faq
+化學治療	huo yuq dzyu liau
+化學激光器	huo yuq ciq kuaon chi
+化學物	huo yuq vaq
+化學物質	huo yuq vaq ciq
+化學當量	huo yuq taon lian
+化學系	huo yuq shi
+化學纖維	huo yuq shi vi
+化學肥料	huo yuq vi liau
+化學能	huo yuq nen
+化學變化	huo yuq pi huo
+化學鍵	huo yuq ji
+化學電池	huo yuq di ji
+化學需氧量	huo yuq syu yan lian
+化日	huo gniq
+化痰止咳	huo dae tsy khaq
+化解	huo cia
+化隆回族自治縣	huo lon wei dzoq zy dzyu yu
+化驗單	huo nE tae
+北二高	poq gni kau
+北京中醫藥大學	poq cin tson i yaq da ghoq
+北京人	poq cin gnin
+北京人民大會堂	poq cin zyun min da wei daon
+北京國家游泳中心	poq cin koq cia yeu ion tson shin
+北京國家體育場	poq cin koq cia thi yuq jian
+北京大學	poq cin da ghoq
+北京工人體育場	poq cin kon gnin thi yuq jian
+北京工業大學	poq cin kon gniq da ghoq
+北京師範大學	poq cin sy vae da ghoq
+北京教育學院	poq cin ciau yuq yuq yu
+北京教育學院	poq cin ciau yuq ghoq yu
+北京日報	poq cin zyuq pau
+北京時間	poq cin zy ci
+北京林業大學	poq cin lin gniq da ghoq
+北京烤鴨	poq cin khau aq
+北京猿人	poq cin yu gnin
+北京理工大學	poq cin li kon da ghoq
+北京產權交易所	poq cin tshae jiu ciau yiq so
+北京科技大學	poq cin khou ji da ghoq
+北京航空航天大學	poq cin ghaon khon ghaon thi da ghoq
+北京語言大學	poq cin gniu yi da ghoq
+北京車展	poq cin tsho tsoe
+北京銀行	poq cin gnin ghaon
+北京鴨	poq cin ae
+北人	poq gnin
+北伐戰爭	poq vaq ci tsen
+北伐戰爭	poq vaq tsoe tsen
+北大	poq da
+北大荒	poq da huaon
+北大西洋	poq da shi yan
+北大西洋公約組織	poq da shi yan kon iaq tsu ciq
+北大青鳥	poq da chin gniau
+北宋四大部書	poq son sy da bu syu
+北川羌族自治縣	poq tshoe chian dzoq zy dzyu yu
+北市人	poq zy gnin
+北師大	poq sy da
+北平人	poq bin gnin
+北從	poq dzon
+北愛爾蘭	poq e er lae
+北戴河	poq te ghou
+北戴河區	poq te ghou chiu
+北方人	poq faon gnin
+北方民族大學	poq faon min dzoq da ghoq
+北朝	poq jiau
+北朝鮮	poq jiau shi
+北杜味拿河	poq du vi na ghou
+北歐國家	poq eu koq cia
+北洋大學	poq yan da ghoq
+北洋武備學堂	poq yan Wu bei ghoq daon
+北洋水師	poq yan syu sy
+北海道人	poq he dau gnin
+北港人	poq kaon gnin
+北縣人	poq yu gnin
+北藝大	poq gni da
+北赤道洋流	poq chiq dau yan lieu
+北鎮滿族自治縣	poq tsyun mun dzoq zy dzyu yu
+北非國家	poq fi koq cia
+匝加利亞	tsaq cia li ia
+匠人	zhian gnin
+匡時濟世	khuaon zy ci syu
+匪人	fi gnin
+匪懈	fi ye
+匯出行	wei tshyuq ghaon
+匯差	wei tsha
+匯業財經集團	wei gniq dze cin jiq doe
+匯業銀行	wei gniq gnin ghaon
+匯款人	wei khun gnin
+匯款單	wei khun tae
+匯水	wei syu
+匯率	wei liq
+匯率制	wei liq tsyu
+匯率差額	wei liq tsha ngaq
+匯豐銀行	wei fon gnin ghaon
+匯集點	wei jiq ti
+匹夫懷璧	phiq fu wae piq
+匹茲堡	phiq tsy pau
+匿於	gniq yu
+區分	chiu fen
+區分出	chiu fen tshyuq
+區分大小寫	chiu fen dou shiau shia
+區分法	chiu fen faq
+區域範圍	chiu yuq vae wei
+區域間	chiu yuq ci
+區長	chiu cian
+區間	chiu ci
+區間車	chiu ci tsho
+十一人	zyuq iq gnin
+十一個	zyuq iq goq
+十一個	zyuq iq ghoq
+十一個月	zyuq iq kou yuq
+十一分	zyuq iq fen
+十一日	zyuq iq gniq
+十一歲	zyuq iq syu
+十七人	zyuq chiq gnin
+十七個	zyuq chiq goq
+十七個	zyuq chiq ghoq
+十七個月	zyuq chiq kou yuq
+十七分	zyuq chiq fen
+十七大	zyuq chiq da
+十七日	zyuq chiq gniq
+十七歲	zyuq chiq syu
+十三人	zyuq sae gnin
+十三個	zyuq sae goq
+十三個	zyuq sae ghoq
+十三個月	zyuq sae kou yuq
+十三分	zyuq sae fen
+十三太保	zyuq sae tha pau
+十三日	zyuq sae gniq
+十三歲	zyuq sae syu
+十三轍	zyuq sae ciq
+十世	zyuq shi
+十世紀	zyuq syu ci
+十九世紀	zyuq cieu syu ci
+十九人	zyuq cieu gnin
+十九個	zyuq cieu goq
+十九個	zyuq cieu ghoq
+十九個月	zyuq cieu kou yuq
+十九分	zyuq cieu fen
+十九日	zyuq cieu gniq
+十九歲	zyuq cieu syu
+十二	zyuq gni
+十二人	zyuq gni gnin
+十二個	zyuq gni goq
+十二個	zyuq gni ghoq
+十二個	zyuq gni kou
+十二元	zyuq gni gniu
+十二分	zyuq gni fen
+十二分之一	zyuq gni fen tsy iq
+十二因緣	zyuq gni in yu
+十二地支	zyuq gni di tsy
+十二塊	zyuq gni khuei
+十二天	zyuq gni thi
+十二宮	zyuq gni kon
+十二平均律	zyuq gni bin ciun liq
+十二年	zyuq gni gni
+十二律	zyuq gni liq
+十二指腸	zyuq gni tsy jian
+十二指腸蟲	zyuq gni tsy jian dzon
+十二支	zyuq gni tsy
+十二支	zyuq gni tsyu
+十二日	zyuq gni gniq
+十二星座	zyuq gni shin zou
+十二時辰	zyuq gni zy zyun
+十二月份	zyuq gni yuq ven
+十二木表法	zyuq gni moq piau faq
+十二條	zyuq gni diau
+十二樓	zyuq gni leu
+十二歲	zyuq gni syu
+十二生肖	zyuq gni sen shiau
+十二碼	zyuq gni mo
+十二碼球	zyuq gni mo jieu
+十二經	zyuq gni cin
+十二經脈	zyuq gni cin maq
+十二萬	zyuq gni vae
+十二萬分	zyuq gni vae fen
+十二處	zyuq gni tshyu
+十二號	zyuq gni ghau
+十二角形	zyuq gni koq yin
+十二邊形	zyuq gni pi yin
+十二面體	zyuq gni mi thi
+十二點	zyuq gni ti
+十五人	zyuq ng gnin
+十五個	zyuq ng goq
+十五個	zyuq ng ghoq
+十五個月	zyuq ng kou yuq
+十五個吊桶打水	zyuq ng kou tiau don tan syu
+十五分	zyuq ng fen
+十五日	zyuq ng gniq
+十五歲	zyuq ng syu
+十人	zyuq gnin
+十人份	zyuq gnin ven
+十來個	zyuq le goq
+十來個	zyuq le ghoq
+十來分	zyuq le fen
+十個人	zyuq goq zyun
+十個人	zyuq ghoq zyun
+十個指頭有長短	zyuq goq tsy deu yeu jian toe
+十個指頭有長短	zyuq ghoq tsy deu yeu jian toe
+十傳百	zyuq dzOE paq
+十克拉	zyuq khaq lha
+十全老人	zyuq dzoe lau gnin
+十八人	zyuq paq gnin
+十八個	zyuq paq goq
+十八個	zyuq paq ghoq
+十八個月	zyuq paq kou yuq
+十八分	zyuq paq fen
+十八日	zyuq paq gniq
+十八歲	zyuq paq syu
+十公分	zyuq kon fen
+十六人	zyuq loq gnin
+十六個	zyuq loq goq
+十六個	zyuq loq ghoq
+十六個月	zyuq loq kou yuq
+十六分	zyuq loq fen
+十六分音符	zyuq loq fen in vu
+十六大	zyuq loq da
+十六日	zyuq loq gniq
+十六歲	zyuq loq syu
+十分	zyuq fen
+十分之一	zyuq fen tsy iq
+十分乾	zyuq fen kI
+交關燥	ciau kuae sau
+十分寮	zyuq fen liau
+十分肯定	zyuq fen khen din
+十分重要	zyuq fen dzon iau
+十分鐘	zyuq fen tson
+十加侖	zyuq cia len
+十四人	zyuq sy gnin
+十四個	zyuq sy goq
+十四個	zyuq sy ghoq
+十四個月	zyuq sy kou yuq
+十四分	zyuq sy fen
+十四大	zyuq sy da
+十四日	zyuq sy gniq
+十四歲	zyuq sy syu
+十四行詩	zyuq sy ghaon sy
+十多人	zyuq tou gnin
+十多兩人	zyuq tou lian gnin
+十多分	zyuq tou fen
+十多兩分	zyuq tou lian fen
+十多歲	zyuq tou syu
+十多兩歲	zyuq tou lian syu
+十大	zyuq da
+十大塊	zyuq da khuei
+十大建設	zyuq da ci shiq
+十大類	zyuq da lei
+十妹	zyuq mei
+十姊妹	zyuq ci mei
+十字架	zyuq zy cia
+十字架刑	zyuq zy cia yin
+十家	zyuq ko
+十幾二十	zyuq ci er zyuq
+十幾人	zyuq ci gnin
+十幾個	zyuq ci goq
+十幾個	zyuq ci ghoq
+十多兩個	zyuq tou lian goq
+十多兩個	zyuq tou lian ghoq
+十多兩月	zyuq tou lian yuq
+十幾分	zyuq ci fen
+十幾歲	zyuq ci syu
+十拿九穩	zyuq na cieu uen
+十日	zyuq gniq
+十日份	zyuq gniq ven
+十日談	zyuq gniq dae
+十月十日	zyuq yuq zyuq gniq
+十月十號	zyuq yuq zyuq ghau
+十杯水	zyuq pei syu
+十歲	zyuq syu
+十歲時	zyuq syu zy
+十歲辰光	zyuq syu zyun kuaon
+十甲	zyuq ciaq
+十萬人	zyuq vae gnin
+十萬個	zyuq vae goq
+十萬個	zyuq vae ghoq
+十萬分	zyuq vae fen
+十行	zyuq ghaon
+十行字	zyuq ghaon zy
+十行紙	zyuq ghaon tsy
+十里長亭	zyuq li jian din
+十里長亭無客走	zyuq li jian din vu khaq tseu
+十里長亭無客走	zyuq li jian din Wu khaq tseu
+十間	zyuq kae
+十集	zyuq jiq
+十面埋伏	zyuq mi ma voq
+千了百當	chi liau paq taon
+千人	chi gnin
+千人所指	chi gnin so tsy
+千伏	chi voq
+千個	chi goq
+千個	chi ghoq
+千刀萬剮	chi tau vae kua
+千分	chi fen
+千分之	chi fen tsy
+千分之一	chi fen tsy iq
+千分之三	chi fen tsy sae
+千分之二	chi fen tsy gni
+千分尺	chi fen tshaq
+千分數	chi fen su
+千分號	chi fen ghau
+千分表	chi fen piau
+千分點	chi fen ti
+千古傳誦	chi ku dzOE dzon
+千古未聞	chi ku vi ven
+千古流傳	chi ku lieu dzOE
+千古罪人	chi ku zei gnin
+千夫長	chi fu cian
+千家	chi cia
+千家姓	chi cia shin
+千家詩	chi cia sy
+千山萬水	chi sae vae syu
+千態萬狀	chi the vae dzaon
+千日	chi gniq
+千日紅	chi gniq ghon
+千日菊	chi gniq ciuq
+千日酒	chi gniq cieu
+千歲	chi syu
+千歲一時	chi syu iq zy
+千牛	chi ngeu
+千牛刀	chi ngeu tau
+千狀萬態	chi dzaon vae the
+千狀萬端	chi dzaon vae toe
+千生萬死	chi sen vae sy
+千生萬死	chi san vae shi
+千畝	chi meu
+千秋大業	chi chieu da gniq
+千秋萬世	chi chieu vae syu
+千秋萬歲	chi chieu vae syu
+千萬分之一	chi vae fen tsy iq
+千變萬狀	chi pi vae dzaon
+千赫茲	chi haq tsy
+千軍易得	chi ciun yi taq
+千軍易得一將難求	chi ciun yi taq iq cian nae jieu
+千里之行	chi li tsy yin
+千里之行始於足下	chi li tsy yin sy yu tsoq gho
+千里搭長棚	chi li taq jian ban
+千金之家	chi cin tsy cia
+千錘百煉	chi zei paq li
+千錘百鍊	chi zei paq li
+千面人	chi mi gnin
+千鳥	chi gniau
+升上去	shin zaon chi
+升了	shin laq
+升任	shin zyun
+升任爲	shin zyun wei
+升來升去	shin le shin chi
+升回去	shin wei chi
+升學	shin ghoq
+升學主義	shin ghoq tsyu gni
+升學壓力	shin ghoq aq liq
+升學率	shin ghoq liq
+升學班	shin ghoq pae
+升學考試	shin ghoq khau sy
+升水	shin syu
+升降	shin ciaon
+升降梯	shin ciaon thi
+升降機	shin ciaon ci
+升降舵	shin ciaon dou
+升降記號	shin ciaon ci ghau
+午覺	wu ciau
+晝覺	cieu kau
+午間	wu ci
+午飯時間	wu vae zy ci
+午餐時間	wu tshae zy ci
+晝飯辰光	cieu vae zyun kuaon
+半世	pun shi
+半世紀	pun syu ci
+半乾	pun kI
+半個世紀	pun goq syu ci
+半個小時	pun goq shiau zy
+半個世紀	pun ghoq syu ci
+半個小時	pun ghoq shiau zy
+半個月	pun kou yuq
+半分	pun fen
+半分鐘	pun fen tson
+半半拉拉	pun pun lha lha
+半夜敲門心不驚	pun ya khau men shin paq cin
+半大	pun da
+半大不小	pun da paq shiau
+半家	pun cia
+半徑大小	pun cin dou shiau
+半徑範圍	pun cin vae wei
+半拉	pun lha
+半拉子	pun lha tsy
+半於	pun yu
+半日制	pun gniq tsyu
+半日制學校	pun gniq tsyu ghoq yau
+半日工作	pun gniq kon tsoq
+半架	pun ko
+半歲	pun syu
+半死	pun shi
+半死不活	pun shi paq waq
+半無產階級	pun vu tshae ka ciq
+半無產階級	pun Wu tshae ka ciq
+半無產階級	pun vu tshae cie ciq
+半無產階級	pun Wu tshae cie ciq
+半生	pun san
+半生不熟	pun san paq zoq
+半甲	pun ciaq
+半真半假	pun cin pun ko
+半睡眠狀態	pun zei mi dzaon the
+半自動	pun zy don
+半自動化	pun zy don huo
+半自耕農	pun zy kan non
+半路出家	pun lu tshyuq cia
+半路殺出個程咬金	pun lu saq tshyuq goq jin ngau cin
+半路殺出個程咬金	pun lu saq tshyuq ghoq jin ngau cin
+半長軸	pun jian jiuq
+半間不界	pun ci paq ka
+半集	pun jiq
+半面之交	pun mi tsy ciau
+卑爾根	pei er ken
+卒歲	tsaq sei
+卓柏卡布拉	tsoq paq kha pu lha
+卓爾不羣	tsoq er paq jiun
+卓著	tsoq tsyu
+協助人	yaq dzu gnin
+協和	yaq ghou
+協和醫院	yaq ghou i yu
+協方差	yaq faon tsha
+協會會長	yaq wei wei cian
+協洽	yaq chiaq
+協調世界時	yaq diau syu ka zy
+協調人	yaq diau gnin
+協辦人	yaq bae gnin
+協防	yaq vaon
+南丁格爾	nEI tin kaq er
+南二中	nEI gni tson
+南京人	nEI cin gnin
+南京大學	nEI cin da ghoq
+南京大屠殺	nEI cin da du saq
+南京大屠殺事件	nEI cin da du saq zy ji
+南京師範大學	nEI cin sy vae da ghoq
+南京理工大學	nEI cin li kon da ghoq
+南京農業大學	nEI cin non gniq da ghoq
+南京郵電大學	nEI cin yeu di da ghoq
+南人	nEI gnin
+南北戰爭	nEI poq ci tsen
+南北戰爭	nEI poq tsoe tsen
+南北朝	nEI poq jiau
+南北議和	nEI poq gni ghou
+南北長	nEI poq jian
+南去	nEI chi
+南和	nEI ghou
+南和縣	nEI ghou yu
+南喬治亞島和南桑威奇	nEI jiau dzyu ia tau ghou nEI saon uei ji
+南大	nEI da
+南宋人	nEI son gnin
+南山人壽	nEI sae zyun zhieu
+南投人	nEI deu gnin
+南斯拉夫	nEI sy lha fu
+南方人	nEI faon gnin
+南方大港	nEI faon da kaon
+南朝	nEI jiau
+南朝宋	nEI jiau son
+南朝梁	nEI jiau lian
+南朝陳	nEI jiau jin
+南朝鮮	nEI jiau shi
+南朝齊	nEI jiau ji
+南極大陸	nEI jiq da loq
+南樂	nEI loq
+南樂縣	nEI loq yu
+南歐國家	nEI eu koq cia
+南水北調	nEI syu poq diau
+南洋國家	nEI yan koq cia
+南洋理工大學	nEI yan li kon da ghoq
+南海學園	nEI he yuq yu
+南海縣人	nEI he yu gnin
+南湖大山	nEI wu da sae
+南澗彝族自治縣	nEI ci yi dzoq zy dzyu yu
+南澳大利亞州	nEI au da li ia cieu
+南無	na mo
+南無阿彌陀佛	na mo o mi dou vaq
+南美國家	nEI mei koq cia
+南自	nEI zy
+南臺科技大學	nEI de khou ji da ghoq
+南蠻	nEI mae
+南行	nEI yin
+南轅北轍	nEI yu poq ciq
+南長	nEI jian
+南長區	nEI jian chiu
+南門二	nEI men er
+南開大學	nEI khe da ghoq
+南非共和國	nEI fi gon ghou koq
+南非國家	nEI fi koq cia
+南魚座	nEI ng zou
+博世	poq syu
+博士生	poq zy san
+博大	poq da
+博大精深	poq da cin shin
+博學	poq yuq
+博學多才	poq yuq tou dze
+博學多聞	poq yuq tou ven
+博帕爾	poq phaq er
+博採衆家之長	poq tshe tson cia tsy jian
+博採衆長	poq tshe tson jian
+博斯普魯斯海峽	poq sy phu lu sy he yaq
+博樂	poq loq
+博樂市	poq loq zy
+博洽	poq chiaq
+博爾塔拉蒙古自治州	poq er thaq lha mon ku zy dzyu cieu
+博爾德	poq er taq
+博爾赫斯	poq er haq sy
+博爾頓	poq er ten
+博物學家	poq vaq yuq cia
+博物洽聞	poq vaq chiaq ven
+博識洽聞	poq shiq chiaq ven
+卜人	poq gnin
+卜學亮	poq yuq lian
+卜日	poq gniq
+卜易	poq yi
+占人	ci gnin
+占夢	ci mon
+占星學	ci shin yuq
+占星家	ci shin cia
+卡介苗	kha cia miau
+卡內基梅隆大學	kha nei ci mei lon da ghoq
+卡吧	kha pa
+卡啦	kha lha
+卡塔爾	kha thaq er
+卡布其諾咖啡	kha pu ji noq kha fi
+卡布瑞拉	kha pu zei lha
+卡布雷拉	kha pu lei lha
+卡拉	kha lha
+卡拉什尼科夫	kha lha zyuq gni khou fu
+卡拉奇	kha lha ji
+卡拉姆昌德	kha lha m tshaon taq
+卡拉季奇	kha lha ci ji
+卡拉布里亞	kha lha pu li ia
+卡拉揚	kha lha yan
+卡拉膠	kha lha ciau
+卡拉馬佐夫兄弟	kha lha ma tsou fu shion di
+卡昂	kha ngaon
+卡桑德拉	kha saon taq lha
+卡樂星	kha loq shin
+卡死	kha sy
+卡煞	kha saq
+卡煞死	kha saq shi
+卡波耶拉	kha pou ia lha
+卡洛娜	kha loq na
+卡爾	kha er
+卡爾加里	kha er cia li
+卡爾巴拉	kha er pa lha
+卡爾德	kha er taq
+卡爾德龍	kha er taq lon
+卡爾扎伊	kha er tsaq i
+卡爾文	kha er ven
+卡爾斯魯厄	kha er sy lu aq
+卡爾頓	kha er ten
+卡爾馬克思	kha er ma khaq sy
+卡片櫃	kha phi guei
+卡特彼勒公司	kha daq pei laq kon sy
+卡特爾	kha daq er
+卡特里娜	kha daq li na
+卡納維拉爾角	kha naq vi lha er koq
+卡納維爾角	kha naq vi er koq
+卡美拉	kha mei lha
+卡薩布蘭加	kha saq pu lae cia
+卡西米爾效應	kha shi mi er yau in
+卡西莫夫	kha shi moq fu
+卡迪拉克	kha diq lha khaq
+卡通世界	kha thon syu ka
+卯足了勁	mau tsoq liau jin
+印上去	in zaon chi
+印下去	in gho chi
+印落去	in loq chi
+印人	in gnin
+印來印去	in le in chi
+印光大師	in kuaon da sy
+印出去	in tshyuq chi
+印刷人	in syuq gnin
+印加	in cia
+印加帝國	in cia ti koq
+印地安人	in di EI gnin
+印地安納大學	in di EI naq da ghoq
+印尼人	in gni gnin
+印度人	in du gnin
+印度人民黨	in du zyun min taon
+印度國大黨	in du koq da taon
+印度大平原	in du da bin gniu
+印度教	in du ciau
+印度教徒	in du ciau du
+印度音樂	in du in yuq
+印度鬼椒	in du kuei ciau
+印歐人	in eu gnin
+印江土家族苗族自治縣	in kaon thu cia dzoq miau dzoq zy dzyu yu
+印着	in dzoq
+印着	in zyuq
+印勒	in laq
+印第安人	in di EI gnin
+印行	in ghaon
+印過去	in kou chi
+印鼻	in biq
+危地馬拉	wei di ma lha
+危地馬拉人	wei di ma lha zyun
+危如朝露	wei zyu ciau lu
+危機四伏	wei ci sy voq
+危若朝露	wei zhiaq ciau lu
+危若朝露	wei zoq ciau lu
+危重病人	wei dzon bin gnin
+即日	ciq zyuq
+即日起	ciq zyuq chi
+即期外匯交易	ciq ji nga wei ciau yiq
+即溶咖啡	ciq yon kha fi
+即行	ciq yin
+卵泡	loe phau
+卵生	loe san
+卵生	lou san
+卷懷	ciu wae
+卷甲	ciu ciaq
+卷耳	ciu er
+卷阿	ciu ou
+卸下去	shia gho chi
+卸落去	shia loq chi
+卸了	shia laq
+卸任	shia gnin
+卸去	shia chi
+卸磨殺驢	shia mou saq li
+卸進去	shia cin chi
+卸過去	shia kou chi
+卻也	chiaq gha
+卻回去	chiaq wei chi
+卻沒	chiaq maq
+卻沒有	chiaq maq yeu
+卻沒能	chiaq maq nen
+卻嘸沒	chiaq mhiq
+卻被	chiaq bei
+卻還	chiaq wa
+卿大夫	chin da fu
+厄爾尼諾	aq er gni noq
+厄爾尼諾現象	aq er gni noq yi zhian
+厄爾布魯士	aq er pu lu zy
+厄瓜多爾	aq kuo tou er
+厚彼薄此	gheu pei boq tshy
+厚望	gheu vaon
+厚此薄彼	gheu tshy boq pei
+厚死薄生	gheu sy boq sen
+厚生	gheu sen
+厚生勞動省	gheu sen lau don san
+厚生相	gheu sen shian
+厚生省	gheu sen san
+厚着	gheu dzoq
+厚着	gheu zyuq
+厚着臉皮	gheu dzoq li bi
+厚着臉皮	gheu zyuq li bi
+厚顏	gheu yi
+厚顏無恥	gheu yi vu tshyu
+厚顏無恥	gheu yi Wu tshyu
+厚黑學	gheu haq yuq
+原人	gniu gnin
+原南斯拉夫	gniu nEI sy lha fu
+原告人	gniu kau gnin
+原味	gniu vi
+原單	gniu tae
+原單位	gniu tae wei
+原因分析	gniu in fen shiq
+原始人	gniu sy gnin
+原始佛教	gniu sy vaq ciau
+原子學	gniu tsy yuq
+原子科學家	gniu tsy khou yuq cia
+原從	gniu dzon
+原於	gniu yu
+原材料	gniu dze liau
+原核生物	gniu ghaq sen vaq
+原核生物界	gniu ghaq sen vaq ka
+原核細胞型微生物	gniu ghaq shi pau yin vi sen vaq
+原水	gniu syu
+原汁原味	gniu ciq gniu vi
+原狀	gniu dzaon
+原班人馬	gniu pae zyun mo
+原生	gniu sen
+原生動物	gniu sen don vaq
+原生態	gniu sen the
+原生暈	gniu sen yun
+原生生物	gniu sen sen vaq
+原生質	gniu sen ciq
+原發性進行性失語	gniu faq shin cin yin shin syuq gniu
+原自	gniu zy
+原著	gniu tsyu
+原著者	gniu tsyu tse
+原被告	gniu bei kau
+原鄉人	gniu shian gnin
+原電池	gniu di ji
+厭世	i syu
+厲娜	li na
+厲行	li yin
+厲行節約	li yin ciq iaq
+厲鬼	li kuei

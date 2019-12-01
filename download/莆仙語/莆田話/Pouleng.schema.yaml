@@ -9,8 +9,8 @@
 # 本字不明的詞週邊若有寫法可暫時借用
 schema:
   schema_id: Pouleng
-  name: 興化韻莆音
-  version: "2019.7.25.1"
+  name: 莆仙話拼音-莆田
+  version: "2019.11.22.1"
   author:
     - 文本：芽油 <963737435@qq.com> 
     - 程序：子善
@@ -66,6 +66,7 @@ speller:
     #- derive/原码/模糊音/
     #- derive/^原码全词匹配/模糊音/
     - derive/y/v/
+    - derive/oe/ee/
     - derive/au/ao/
     - derive/ieng/ian/
     - derive/ieu/iao/
