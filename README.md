@@ -866,6 +866,7 @@ For detailed information of the collected schemas in the download package, pleas
       <details>
         <summary>閩東語 Eastern Min</summary>
         <ul>
+          <li><a href="https://www.zingzeu.org/">真鸟囝福州话输入法</a></li>
           <li><a href="https://only3km.github.io/ciklinbekin/">平話字表 (閩東語‣福州話)</a></li>
           <li><a href="http://idioms.mindong.asia">福州话熟语大全</a></li>
         </ul>
