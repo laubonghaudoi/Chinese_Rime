@@ -5,12 +5,15 @@
 #
 # Author - LeiMaau <leimaau@qq.com>
 #
+# 【符號說明】
+# (白)白讀；(文)文讀；(老派)老派音；(習)習讀；(常)常讀；(又)又讀；(罕)罕讀；(訓)訓讀；(舊)舊讀；(語)口語音；(書)書面音；(外)外來語音譯；(名)名詞；(動)動詞；(量)量詞
+#
 # 【參考文獻】
 # 1997年覃遠雄等《南寧平話詞典》 | 記音質量： ★★★★☆  四颗星
-# 1998年廣西地方誌編纂委員會《廣西通誌（漢語方言誌）》 | 記音質量： ★★★★☆  四颗星
-# 2000年李連進《平話音韻研究》 |  記音質量： ★★☆☆☆  两颗星
+# 1998年廣西地方誌編纂委員會《廣西通誌（漢語方言誌）》 | 記音質量： ★★★☆☆  三颗星
+# 2000年李連進《平話音韻研究》 |  記音質量： ★★★☆☆  三颗星
 # 2009年陳海倫、林亦《粵語平話土話方音字彙》 |  記音質量： ★★★☆☆  三颗星
-# 2016年余瑾《廣西平話研究》
+# 2016年余瑾《廣西平話研究》 | 記音質量： ★★★★☆  四颗星
 #
 #「基礎字音表」常用字取自上述文獻並經過審音，生僻字依中古音並結合文獻與實際推導
 #「本地詞彙表」收錄上述文獻已有的分類詞表並增補新詞
@@ -662,7 +665,7 @@ import_tables:
 諧	haai4
 駭	haai6
 械	gaai3
-挨	ngaai4
+挨	aai1
 擺	baai2
 派	paai3
 簰	baai4
@@ -712,8 +715,8 @@ import_tables:
 製	zi3
 世	si3
 勢	si3
-誓	sai6
-逝	sai6
+誓	si3
+逝	si3
 藝	ngai6
 刈	ngai6
 蓖	bi1
@@ -833,7 +836,7 @@ import_tables:
 茴	wai4
 匯	wai6
 潰	kwai3
-煨	wai1
+煨	wui1
 蛻	tui3
 兌	dui6
 最	zui3
@@ -886,7 +889,7 @@ import_tables:
 俾	pi2
 臂	bi3
 披	pi1
-譬	pi2
+譬	bi2
 皮	bi4
 疲	bi4
 脾	bi4
@@ -945,7 +948,7 @@ import_tables:
 奇	gi4
 騎	gi4
 岐	gi4
-徛	ki5
+徛	gi5
 技	gi6
 妓	gi6
 宜	ni4
@@ -961,7 +964,7 @@ import_tables:
 移	ji4
 易	ji6
 悲	bai1
-鄙	pi2
+鄙	bi2
 比	bi2
 秕	bi2
 秘	bi3
@@ -1172,7 +1175,7 @@ import_tables:
 毀	wai2
 燬	wai2
 譭	wai2
-萎	wai2
+萎	wai1
 委	wai2
 餵	wai3
 喂	wai3
@@ -1243,7 +1246,7 @@ import_tables:
 違	wai4
 偉	wai2
 葦	wai2
-緯	wai2
+緯	wai6
 胃	wai6
 謂	wai6
 蝟	wai6
@@ -1383,6 +1386,7 @@ import_tables:
 潲	saau3
 交	gaau1
 膠	gaau1
+教	gaau1
 郊	gaau1
 絞	gaau2
 狡	gaau2
@@ -1865,7 +1869,7 @@ import_tables:
 沾	zim1
 粘	nim1
 瞻	zim1
-占	zim3
+占	zim1
 佔	zim3
 摺	zip2
 褶	zip2
@@ -2243,7 +2247,7 @@ import_tables:
 拽	jit2
 犍	gin3
 建	gin3
-揭	git2
+揭	kit2
 鍵	gin6
 健	gin6
 腱	gin6
@@ -2395,8 +2399,8 @@ import_tables:
 闊	hut2
 玩	wun6
 歡	hun1
-喚	waan6
-煥	waan6
+喚	waan3
+煥	waan3
 豁	hut2
 桓	jyun4
 完	jyun4
@@ -2602,7 +2606,7 @@ import_tables:
 榛	zan1
 臻	zan1
 襯	can3
-瑟	slak2
+瑟	slat2
 蝨	sat2
 真	zan1
 診	zan2
@@ -2657,8 +2661,8 @@ import_tables:
 欣	han1
 殷	an1
 隱	an2
-奔	ban2
-錛	ban2
+奔	ban1
+錛	ban1
 本	bun2
 逩	ban3
 不	bat2
@@ -2897,7 +2901,7 @@ import_tables:
 桑	slaang1
 喪	slaang1
 磉	slaang2
-嗓	slaang2
+嗓	slaang1
 搡	slaang2
 喪	slaang3
 索	slaak2
@@ -2997,7 +3001,7 @@ import_tables:
 裝	zaang1
 壯	zaang3
 瘡	caang1
-闖	caang3
+闖	caang2
 創	caang3
 牀	saang4
 床	saang4
@@ -3055,8 +3059,8 @@ import_tables:
 強	giang4
 強	kiang2
 仰	ngiang5
-虐	njak24
-瘧	njak24
+虐	njak5
+瘧	njak5
 香	hiang1
 鄉	hiang1
 享	hiang2
@@ -3391,7 +3395,7 @@ import_tables:
 病	bing6
 鳴	ming4
 明	ming4
-盟	ming4
+盟	mang4
 皿	man5
 命	ming6
 京	ging1
@@ -3415,7 +3419,7 @@ import_tables:
 逆	nik5
 英	ing1
 影	ing2
-映	ing2
+映	ing3
 餅	bing2
 併	bing3
 并	bing3
@@ -3527,7 +3531,7 @@ import_tables:
 廷	ding4
 蜓	ding4
 挺	ting2
-艇	ding5
+艇	ting5
 錠	ding6
 定	ding6
 狄	dik6
@@ -3559,7 +3563,7 @@ import_tables:
 經	ging1
 徑	ging3
 激	gik2
-擊	gik2
+擊	kik2
 磬	hing3
 吃	hik2
 馨	hing1
@@ -3582,6 +3586,7 @@ import_tables:
 泳	wing5
 詠	wing5
 傾	king1
+傾	king2
 頃	king2
 苘	king2
 檾	king2
@@ -3611,7 +3616,7 @@ import_tables:
 董	doeng2
 懂	doeng2
 凍	doeng3
-棟	doeng6
+棟	doeng3
 通	toeng1
 熥	toeng1
 捅	toeng2
@@ -3630,11 +3635,11 @@ import_tables:
 讀	doek6
 牘	doek6
 犢	doek6
-齉	noeng6
+齈	noeng6
 籠	loeng4
 聾	loeng4
 攏	loeng2
-弄	noeng6
+弄	loeng6
 鹿	loek5
 祿	loek5
 鬃	zoeng1
@@ -3665,12 +3670,14 @@ import_tables:
 空	hoeng1
 孔	koeng2
 控	koeng3
+空	hoeng3
 哭	hoek2
 烘	hoeng1
 哄	hoeng2
 紅	hoeng4
 洪	hoeng4
 鴻	hoeng4
+虹	hoeng4
 汞	goeng2
 哄	hoeng6
 鬨	hoeng6
@@ -3688,12 +3695,12 @@ import_tables:
 膿	noeng4
 儂	noeng4
 宗	zoeng1
-綜	zoeng1
+綜	zoeng3
 䝋	zoeng3
 鬆	sloeng1
 宋	sloeng3
 酷	koek2
-沃	joek2
+沃	oek2
 風	foeng1
 瘋	foeng1
 楓	foeng1
@@ -3710,7 +3717,7 @@ import_tables:
 伏	foek6
 服	foek6
 栿	foek6
-夢	moeng6
+夢	mong6
 目	moek5
 穆	moek5
 牧	moek5
@@ -3740,7 +3747,7 @@ import_tables:
 充	coeng1
 銃	coeng3
 叔	soek2
-淑	soek2
+淑	soek6
 熟	soek6
 絨	joeng4
 戎	joeng4
@@ -3756,7 +3763,6 @@ import_tables:
 嗅	hoeng3
 蓄	coek2
 郁	joek2
-郁	wat2
 鬱	wat2
 熊	joeng4
 雄	joeng4
@@ -3775,20 +3781,19 @@ import_tables:
 俸	foeng6
 濃	noeng4
 龍	loeng4
-隴	loeng5
-壟	loeng5
-壠	loeng5
+隴	loeng2
+壟	loeng2
+壠	loeng2
 錄	loek5
 綠	loek5
 縱	zoeng3
 蹤	zoeng1
-縱	zoeng6
 足	zoek2
 從	zoeng4
 促	coek2
 慫	sloeng2
 粟	sloek2
-松	zoeng4
+松	sloeng1
 誦	zoeng6
 頌	zoeng6
 訟	zoeng6
@@ -3817,8 +3822,8 @@ import_tables:
 茸	joeng4
 宂	joeng5
 冗	joeng5
-辱	njoek6
-褥	njoek6
+辱	njoek5
+褥	njoek5
 恭	goeng1
 供	goeng1
 拱	goeng2
@@ -3847,35 +3852,9 @@ import_tables:
 湧	joeng5
 甬	joeng5
 用	joeng6
-浴	njoek6
-欲	njoek6
-慾	njoek6
-吳	ngu4
-蜈	ngu4
-吾	ngu4
-梧	ngu4
-五	ngu5
-伍	ngu5
-午	ngu5
-誤	ngu6
-悟	ngu6
-貸	taai3
-爾	oe5
-而	oe4
-勾	ngau1
-鈎	ngau1
-鉤	ngau1
-壓	aap3
-泣	lap3
-泣	nap3
-割	get2
-割	gaat2
-葛	get2
-葛	gaat2
-玩	waan6
-桓	waan4
-褪	tan3
-重	zoeng5
+浴	njoek5
+欲	njoek5
+慾	njoek5
 
 
 # 英文讀音
@@ -3923,93 +3902,6 @@ import_tables:
 #8	baat2
 #9	gau2
 
-
-# 多音字標註
-
-#啊嘛	aa1 maa3
-#可汗	hak1 hon4
-#汗國	hon4 gok3
-#成吉思汗	sing4 gat1 si1 hon4
-#蝕底	sit6 dai2
-#蝕本	sit6 bun2
-#鋤大弟	co4 daai6 di2
-#仿佛	fong2 fat1
-#酒吧	zau2 baa1
-#吧檯	baa1 toi4
-#亂哄哄	lyun6 hung1 hung1
-#喇嘛	laa1 maa4
-#嗆着	coeng1 zoek6
-#嘀嗒	dik1 daap1
-#奄奄一息	jim1 jim1 jat1 slik1
-#幾乎	gi1 wu4
-#暈車	wan1 ce1
-#燕山	jin1 saan1
-#燕京	jin1 ging1
-#燕國	jin1 gok3
-#玫瑰	mui4 gwai3
-#看守	hon1 sau2
-#看護	hon1 wu6
-#看牛	hon1 ngau4
-#看門	hon1 mun4
-#縱橫	zung1 waang4
-#舖位	pu3 wai6
-#舖面	pu3 min6
-#店舖	dim3 pu3
-#鋪位	pu3 wai6
-#鋪面	pu3 min6
-#店鋪	dim3 pu3
-#舌苔	sit6 toi1
-#菲菲	fi1 fi1
-#芳菲	fong1 fi1
-#螞螂	maa1 long4
-#要求	jiu1 kau4
-#要挾	jiu1 hip3
-#酊劑	ding1 zai1
-#碘酊	din2 ding1
-#碘酊	dim2 ding1
-#鑽研	zyun1 jin4
-#正月	zing1 jyut6
-#勝任	sing1 jam6
-#漂白	piu3 baak6
-#漂亮	piu3 loeng6
-#漂染	piu3 jim5
-#漂洗	piu3 slai2
-#女紅	nyu5 gung1
-#沮誦	zyu1 zung6
-#沮水	zyu1 sui2
-#沮洳	zyu3 jyu6
-#沮澤	zyu3 zaak6
-#奇偶	gi1 ngau5
-#奇數	gi1 su3
-#斤兩	gan1 loeng2
-#標識	biu1 zi3
-#博聞強識	bok3 man4 koeng4 zi3
-#人質	jan4 zi3
-#使者	si3 ze2
-#使命	si3 ming6
-#大使	daai6 si3
-#出使	cyut1 si3
-#使館	si3 gun2
-#大使館	daai6 si3 gun2
-#心廣體胖	slam1 gong2 tai2 pun4
-#予取予求	jyu4 cyu2 jyu4 kau4
-#哪吒	naa4 zaa1
-#成數	cing4 su3
-#幾成	gi2 cing4
-#穿着	cyun1 zoek3
-#着衫	zoek3 saam1
-#衣着	ji1 zoek3
-#着衣	zoek3 ji1
-#穿著	cyun1 zoek3
-#著衫	zoek3 saam1
-#衣著	ji1 zoek3
-#著衣	zoek3 ji1
-#钂鈀	pong2 paa4
-#龜茲	kau1 ci4
-#龜茲	gau1 ci4
-#龜茲	kau1 cy4
-#龜茲	gau1 cy4
-#龜裂	gwan1 lit6
 
 # 含西文的詞彙
 
@@ -4108,6 +4000,94 @@ B站	bzaam6	100
 B站	bi zaam6	100
 A站	azaam6	100
 A站	ei zaam6	100
+
+
+# 多音字標註
+
+#啊嘛	aa1 maa3
+#可汗	hak1 hon4
+#汗國	hon4 gok3
+#成吉思汗	sing4 gat1 si1 hon4
+#蝕底	sit6 dai2
+#蝕本	sit6 bun2
+#鋤大弟	co4 daai6 di2
+#仿佛	fong2 fat1
+#酒吧	zau2 baa1
+#吧檯	baa1 toi4
+#亂哄哄	lyun6 hung1 hung1
+#喇嘛	laa1 maa4
+#嗆着	coeng1 zoek6
+#嘀嗒	dik1 daap1
+#奄奄一息	jim1 jim1 jat1 slik1
+#幾乎	gi1 wu4
+#暈車	wan1 ce1
+#燕山	jin1 saan1
+#燕京	jin1 ging1
+#燕國	jin1 gok3
+#玫瑰	mui4 gwai3
+#看守	hon1 sau2
+#看護	hon1 wu6
+#看牛	hon1 ngau4
+#看門	hon1 mun4
+#縱橫	zung1 waang4
+#舖位	pu3 wai6
+#舖面	pu3 min6
+#店舖	dim3 pu3
+#鋪位	pu3 wai6
+#鋪面	pu3 min6
+#店鋪	dim3 pu3
+#舌苔	sit6 toi1
+#菲菲	fi1 fi1
+#芳菲	fong1 fi1
+#螞螂	maa1 long4
+#要求	jiu1 kau4
+#要挾	jiu1 hip3
+#酊劑	ding1 zai1
+#碘酊	din2 ding1
+#碘酊	dim2 ding1
+#鑽研	zyun1 jin4
+#正月	zing1 jyut6
+#勝任	sing1 jam6
+#漂白	piu3 baak6
+#漂亮	piu3 loeng6
+#漂染	piu3 jim5
+#漂洗	piu3 slai2
+#女紅	nyu5 gung1
+#沮誦	zyu1 zung6
+#沮水	zyu1 sui2
+#沮洳	zyu3 jyu6
+#沮澤	zyu3 zaak6
+#奇偶	gi1 ngau5
+#奇數	gi1 su3
+#斤兩	gan1 loeng2
+#標識	biu1 zi3
+#博聞強識	bok3 man4 koeng4 zi3
+#人質	jan4 zi3
+#使者	si3 ze2
+#使命	si3 ming6
+#大使	daai6 si3
+#出使	cyut1 si3
+#使館	si3 gun2
+#大使館	daai6 si3 gun2
+#心廣體胖	slam1 gong2 tai2 pun4
+#予取予求	jyu4 cyu2 jyu4 kau4
+#哪吒	naa4 zaa1
+#成數	cing4 su3
+#幾成	gi2 cing4
+#穿着	cyun1 zoek3
+#着衫	zoek3 saam1
+#衣着	ji1 zoek3
+#着衣	zoek3 ji1
+#穿著	cyun1 zoek3
+#著衫	zoek3 saam1
+#衣著	ji1 zoek3
+#著衣	zoek3 ji1
+#钂鈀	pong2 paa4
+#龜茲	kau1 ci4
+#龜茲	gau1 ci4
+#龜茲	kau1 cy4
+#龜茲	gau1 cy4
+#龜裂	gwan1 lit6
 
 
 # 本地詞彙表
@@ -4215,3 +4195,7 @@ A站	ei zaam6	100
 #儱偅	lung3 cung3
 #儱儱偅偅	lung3 lung3 cung3 cung3
 飲酒醉
+要冇是
+要唔是
+要冇然
+要唔然
