@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_donshian
   name: 吳語（桐鄉）
-  version: "2019.12.01"
+  version: "2019.12.10"
   author:
     - 字表作者：雪心居士 <sihsin@live.com>
     - 方案製作：雪心居士 <sihsin@live.com>
@@ -62,8 +62,6 @@ speller:
   delimiter: " '"
   algebra:
     - xform/^([bcdfghjklpqstvwxyz])$/$1_/
-    # 去掉聲調
-    - xform/\d//
 
     # 兼容吳語協會式拼音
     - derive/q/h/
@@ -112,16 +110,6 @@ translator:
   dictionary: wugniu_donshian # 調取詞典wugniu_donshian
   prism: wugniu_donshian      # 根據拼寫運算生成棱鏡文件wugniu_donshian
   spelling_hints: 5           # 標註拼音
-  comment_format:
-    # 不顯示單字調
-    - xform/\d//
-
-    ## 多字不顯示聲調
-    #- xform/(\d.+)\d/$1/
-    #- xform/\d(.+?)(?=\b)/$1/
-
-    ## 聲調上標
-    #- xlit/12345678/¹²³⁴⁵⁶⁷⁸/
 
 # 副翻譯器1 朙月拼音
 luna_pinyin:
