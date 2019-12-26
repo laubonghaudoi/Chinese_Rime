@@ -818,6 +818,7 @@ For detailed information of the collected schemas in the download package, pleas
           <li><a href="https://zh.wikipedia.org/wiki/User:Polyhedron/%E4%B8%AD%E5%8F%A4%E6%BC%A2%E8%AA%9E%E6%8B%BC%E9%9F%B3">中古漢語拼音</a></li>
           <li><a href="https://bkrs.info/taolun/attachment.php?aid=637">中古漢語基礎教程</a></li>
           <li><a href="http://www.guguolin.com/">古音手鏡</a></li>
+          <li><a href="https://inzoi.github.io/dg.html">中古四拼与汉字相互转换</a></li>
         </ul>
       </details>
     </li>
