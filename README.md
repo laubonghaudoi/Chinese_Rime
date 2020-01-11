@@ -939,6 +939,7 @@ For detailed information of the collected schemas in the download package, pleas
         <li><a href="https://github.com/EasyIME/PIME/releases">Pime輸入法</a></li>
         <li><a href="https://itunes.apple.com/us/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E4%BA%94%E7%AC%94%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977?mt=8">iRime输入法</a></li>
         <li><a href="https://play.google.com/store/apps/details?id=com.osfans.trime&hl=zh">同文輸入法</a></li>
+        <li><a href="https://github.com/racklin/moedict-desktop">萌典桌面版</a></li>
         <li><a href="https://ngli.github.io/rime-wugniu/">吴语学堂拼音输入方案合集</a></li>
         <li><a href="https://github.com/MindongLab">閩東語實驗室</a></li>
       </ul>

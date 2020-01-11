@@ -57,16 +57,19 @@ speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
-#    - derive/^tsi/ji/                             # 去除井號以啓用偏新派口音；嗰墶個設置不一定全，可以再加。
-#    - derive/^tshi/chi/
-#    - derive/^([sz])i/$1hi/
-#    - derive/^dzi/ji/
-#    - derive/(.*)ah/$1eh/
-#    - derive/(.*)eh/$1ah/
-#    - derive/(.*)ioh/$1iuih/
-#    - derive/(.*)ioh/$1iuih/
-#    - derive/(.*)ae/$1e/                          # 模糊“蘭”“雷”
-#    - derive/(.*)ie/$1i/                          # 模糊“煙”“衣”
+  #  - derive/^tsi/ji/                             # 去除井號以啓用偏新派口音；嗰墶個設置不一定全，可以再加。
+  #  - derive/^tshi/chi/
+  #  - derive/^([sz])i/$1hi/
+  #  - derive/^dzi/ji/
+  #  - derive/(.*)ah/$1eh/
+  #  - derive/(.*)eh/$1ah/
+  #  - derive/(.*)ioh/$1iuih/
+  #  - derive/(.*)ioh/$1iuih/
+  #  - derive/(.*)ae/$1e/                          # 模糊“蘭”“雷”
+  #  - derive/(.*)ie/$1i/                          # 模糊“煙”“衣”
+    - derive/^(.*)([zsth])yu/$1$2y/               # 上海話模糊“書”“詩”
+    - derive/(.*)aon/$1an/                        # 多數中派模糊前後an
+    - derive/(.*)an/$1aon/
 
     - abbrev/^([a-z]).+$/$1/
     - abbrev/^([kptgcs]h).+$/$1/
@@ -75,46 +78,43 @@ speller:
 
     - derive/(.*)u/$1ou/
     - derive/^zaon/laon/                          # 地上、衣裳
-    - derive/^zi(?=a)/y/                          # 謝謝 zia ya; 好像 hau yan
-    - derive/(.*)aoh/$1ah/                        # 多數中派模糊前後ah
+  #  - derive/^zi(?=a)/y/                          # 謝謝 zia ya; 好像 hau yan
+    - derive/(.*)aeh/$1ah/                        # 多數中派模糊前後ah
 
     - derive/^ny([aeou])/ni$1/                    # 簡寫以及更多易錯模糊
     - derive/^nyi/ni/
-    - derive/^nyh([aeou])/ni$1/
-    - derive/^nyhi/ni/
-    - derive/^nyh/ny/
-    - derive/nyih/nyh/
-    - derive/^([mnl])h/$1/
-    - derive/au$/ao/
-    - derive/^tsh/tt/
+    - derive/^nyh([aeou])/nhi$1/
+    - derive/^nyhi/nhi/
+    # - derive/^nyh/ny/
+    # - derive/^([mnl])h/$1/
+    # - derive/au$/ao/
+    # - derive/^tsh/tt/
     - derive/^sh/x/
     - derive/^ch/q/
-    - derive/([aoei])h$/$1$1/
-    - derive/uih$/uu/
-    - derive/([sz])y/$1$1/
-    - derive/^tshy/ttt/
+    # - derive/([aoei])h$/$1$1/
+    # - derive/uih$/uu/
     - derive/uih$/uh/
-    - derive/^ng/gg/
-    - derive/^gh/hh/
+    # - derive/([sz])y/$1$1/
+    # - derive/^tshy/ttt/
+    # - derive/^ng/gg/
+    # - derive/^gh/hh/
 
-    - derive/^([scmn]h)in/$1n/
-    - derive/^([cjymnqx])in/$1n/
-    - derive/^([sc]h)iau/$1o/
-    - derive/^([cj])iau/$1o/
-    - derive/(y)au/$1o/
-    - derive/([bpsztdhuwvklg])en/$1n/                # 更多簡寫
+    # - derive/^([scmn]h)in/$1n/
+    # - derive/^([cjymnqx])in/$1n/
+    # - derive/^([sc]h)iau/$1o/
+    # - derive/^([cj])iau/$1o/
+    # - derive/(y)au/$1o/
+    # - derive/([bpsztdhuwvklg])en/$1n/                # 更多簡寫
 
     - derive/^(c|ch|j|ny|sh|x|q)i([aeou])/$1$2/
-    - derive/^(ts|z|dz|s|l)i(eu)/$1$2/
-    - derive/^(.*)([zsth])yu/$1$2y/               # 上海話模糊“書”“詩”
-    - derive/(.*)aon/$1an/                        # 多數中派模糊前後an
-    - derive/(.*)an/$1aon/
+    # - derive/^(ts|z|dz|s|l)i(eu)/$1$2/               # 蘇州
 
 translator:
   dictionary: yahwe_zaonhe
   comment_format:
     - xform/([nlm])h/'$1/
     - xform/(ny)h/'$1/
+    # - xform/gh/ɦ/
   prism: yahwe_zaonhe
   spelling_hints: 6
 

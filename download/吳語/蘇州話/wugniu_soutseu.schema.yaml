@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_soutseu
   name: 吳語（蘇州）
-  version: "2019.12.01"
+  version: "2019.12.28"
   author:
     - 字表作者：予安 <181065229@qq.com>
     - 方案製作：雪心居士 <sihsin@live.com>
@@ -106,7 +106,7 @@ luna_pinyin:
   enable_user_dict: false # 關閉用戶詞典
   prefix: '`'             # 引導鍵「`」
   suffix: "'"             # 結束鍵「'」
-  tips: 〔拼音〕          # 輸入前提示〔拼音〕
+  tips: 〔反查〕          # 輸入前提示〔反查〕
   closing_tips: 〔吳語（蘇州）〕
   preedit_format:
     - xform/([nl])v/$1ü/
@@ -118,9 +118,9 @@ stroke:
   tag: stroke
   dictionary: stroke      # 調取詞典stroke
   enable_user_dict: false # 關閉用戶詞典
-  prefix: 'x'             # 引導鍵「x」
+  prefix: '`'             # 引導鍵「`」
   suffix: "'"             # 結束鍵「'」
-  tips: 〔筆畫〕          # 輸入前提示〔筆畫〕
+  tips: 〔反查〕          # 輸入前提示〔反查〕
   closing_tips: 〔吳語（蘇州）〕
   preedit_format:
     - xlit/hspnz/一丨丿丶乙/
@@ -142,5 +142,5 @@ recognizer:
   import_preset: default # 特殊規則輸入碼，統一從外部導入
   patterns:
     punct: "^/([0-9]|10|[A-Za-z]+)$" # 按 / 輸入符號
-    luna_pinyin: "`[a-z]*'?$"        # 按 ` 使用拼音反查，按 ' 結束
-    stroke: "x[hspnz]*'?$"           # 按 x 使用筆畫反查，按 ' 結束
+    luna_pinyin: "`[hspnz]*[aeiouv][a-z]*'?$|`[a-gi-moqrt-y][a-z]*'?$"
+    stroke: "`[hspnz]+'?$"

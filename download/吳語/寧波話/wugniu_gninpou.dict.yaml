@@ -9,17 +9,16 @@
 #
 # 使用以下項目：
 #
-# - 寧波方言資料整理
+# - 寧波方言資料整理 (CC BY 4.0)
 #   https://github.com/shinzoqchiuq/gninpou-dialect
-# - 寧波話字表
+# - 寧波話字表 (Apache 2.0)
 #   https://github.com/shinzoqchiuq/gninpou-dictionary
-# - 寧波話【八股文】
+# - 寧波話【八股文】 (LGPLv3)
 #   https://github.com/shinzoqchiuq/gninpou-essay
-#
 
 ---
 name: wugniu_gninpou
-version: "2019.12.18"
+version: "2020.01.04"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -1827,6 +1826,7 @@ use_preset_vocabulary: true
 看	khI
 堪	khI	1%
 墈	khI
+幹	khI	0%
 携	yi
 攜	yi
 擕	yi
@@ -3885,6 +3885,7 @@ use_preset_vocabulary: true
 抲	kho
 㰤	kho
 咖	go	0%
+茶	go	0%
 牙	ngo
 芽	ngo
 衙	ngo
@@ -4454,6 +4455,7 @@ use_preset_vocabulary: true
 岱	de
 黛	de
 䒫	de
+來	ne	0%
 耐	ne
 廿	nE
 念	nE
@@ -4783,6 +4785,7 @@ use_preset_vocabulary: true
 疸	tae
 撣	tae
 亶	tae
+打	tae	0%
 笪	tae
 帶	tae	5%
 帯	tae	5%
@@ -5081,6 +5084,7 @@ use_preset_vocabulary: true
 銜	ghae
 啣	ghae
 衘	ghae
+言	ghae	0%
 餡	ghae
 限	ghae
 陷	ghae
@@ -6504,6 +6508,7 @@ use_preset_vocabulary: true
 吪	ngou
 鈋	ngou
 囮	ngou
+和	ngou	0%
 㛂	ngou
 臥	ngou
 餓	ngou
@@ -8322,6 +8327,7 @@ use_preset_vocabulary: true
 婷	din
 𦝞	din
 # 成	din	0%
+凌	din	0%
 梃	din
 鋌	din
 珽	din
@@ -8615,6 +8621,7 @@ use_preset_vocabulary: true
 螓	jin
 嗪	jin
 辰	jin	0%
+凌	jin	0%
 琴	jin
 琹	jin
 芩	jin
@@ -9797,6 +9804,7 @@ use_preset_vocabulary: true
 𥿉	maq
 秣	maq
 枚	maq	5%
+貌	maq	0%
 沒	mhaq
 發	faq
 発	faq
@@ -16327,7 +16335,6 @@ use_preset_vocabulary: true
 半中大	pun tson dou	55
 小結結	shiau ciq ciq	55
 小羅嗦	shiau lou sou	55
-小羅嗦	shiau lhou sou	55
 小格楞敦	shiau kaq len ten	55
 米米大	mhi mhi dou	55
 蝨末鬼	saq maq ciu	55
@@ -24025,7 +24032,7 @@ use_preset_vocabulary: true
 打弗煞	tan vaq saq	55
 老弗大	lau vaq dou	55
 老弗大草	lau vaq dou tshau	55
-噦氣弗轉	iuq chi vaq tsOE	55
+噦氣弗轉	iuq chi vaq tsoe	55
 𧼱弗着	biq vaq dzoq	55
 𧼱弗着	biq vaq zyuq	55
 氣弗過	chi vaq kou	55
@@ -24040,7 +24047,7 @@ use_preset_vocabulary: true
 老弗出	lau vaq tshyuq	55
 做鬼弗大	tsou ciu vaq dou	55
 弗對	vaq tei	55
-賊弗貪	zaq vaq thEI	55
+賊弗貪	zaq vaq thei	55
 賊弗偷	zaq vaq theu	55
 做人弗來	tsou gnin vaq le	55
 毛羽弗動	mau yu vaq don	55
@@ -24053,7 +24060,7 @@ use_preset_vocabulary: true
 阿伯阿姆弗認得	aq paq an m vaq gnin taq
 阿爹阿孃弗認得	aq tia aq gnian vaq gnin taq
 先弗先	shi vaq shi	55
-弗然	vaq zOE	55
+弗然	vaq zoe	55
 弗然	vaq gni	55
 弗打記頭	vaq tan ci deu	55
 打弗記頭	tan vaq ci deu	55
@@ -24399,7 +24406,7 @@ use_preset_vocabulary: true
 牙涴	ngo ou	55
 爛薄涴	lae baq ou	55
 爛薄稀涴	lae baq shi ou	55
-蠶涴	zei ou	55
+蠶涴	zEI ou	55
 涴注蒼蠅	ou tsyu tshaon in	55
 涴道頭	ou dau deu	55
 涴榨貓	ou tso mae	55
@@ -24506,7 +24513,6 @@ use_preset_vocabulary: true
 嚼弗動	zhiaq vaq don	55
 嚼弗落	zhiaq vaq loq	55
 肉弗𤿏	gnioq vaq nei	55
-噦氣弗轉	iuq chi vaq tsoe	55
 稻大肚了	dau dou du lei	55
 告吵儂了	kau tshau nou lei	55
 要儂𢜭力了	iau nou jiaq liq lei
@@ -24553,7 +24559,7 @@ use_preset_vocabulary: true
 白無常	baq vu dzaon	55
 黑無常	haq vu dzaon	55
 㸆麩	khau fu	55
-大頭魚鯗㸆肉	dou deu ng shian khau tshon	55
+大頭魚鯗㸆肉	dou deu ng shian khau gnioq	55
 河鯽魚㸆蔥	ghou ci ng khau tshon	55
 剝皮大㸆	poq bi dou khau	55
 
@@ -28487,8 +28493,8 @@ use_preset_vocabulary: true
 話渠一頓	wo ji iq ten
 皇帝老官打渠跔	waon ti lau kun tan ji geu
 皇帝老官打渠𧺤	waon ti lau kun tan ji geu
-䂻進渠肚裏勿得	dzan ji du li vaq taq
-䂻進渠肚裏弗得	dzan ji du li vaq taq
+䂻進渠肚裏勿得	dzan cin ji du li vaq taq
+䂻進渠肚裏弗得	dzan cin ji du li vaq taq
 渠要怏	ji iau aon
 田要種渠骨敦	di iau tson ji kuaq ten
 字宅宅寫渠快	zy dzaq dzaq shia ji khua
