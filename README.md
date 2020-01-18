@@ -853,6 +853,7 @@ For detailed information of the collected schemas in the download package, pleas
         <ul>
           <li><a href="https://www.moedict.tw/'%E7%99%BC%E7%A9%8E">臺語萌典</a></li>
           <li><a href="http://www.ntcu.edu.tw/tailo/educate.htm">臺灣閩南語羅馬字拼音方案使用手冊</a></li>
+          <li><a href="https://blgjts.moe.edu.tw/tmt108/index.php">閩南語語言能力認證考試</a></li>
           <li><a href="https://www.ispeakmin.com/bbs/">海墘閩語論壇</a></li>
           <li><a href="https://limkianhui.wordpress.com/">鹭水芗南－閩南語部落</a></li>
           <li><a href="http://hiteo.pw/">潮州話正音正字促進會</a></li>
