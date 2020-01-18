@@ -4,11 +4,11 @@
 schema:
   schema_id: wugniu_sonkaon
   name: 吳語（松江）
-  version: "2019.12.28"
+  version: "2020.01.12"
   author:
-    - 字表作者：神死慟瞑 <411325365@qq.com>
-    - 方案製作：雪心居士 <sihsin@live.com>
-    - 方案製作：Electric Sheep <shinzoqchiuq@outlook.com>
+    - 神死慟瞑 <411325365@qq.com> (dict)
+    - 雪心居士 <sihsin@live.com> (schema)
+    - Electric Sheep <shinzoqchiuq@outlook.com> (schema)
   description: |
     松江吳語注音輸入方案吳語學堂版
     https://www.wugniu.com/
@@ -69,6 +69,20 @@ speller:
     - derive/gni(?=[aoue])/ny/
     - derive/er/r/
 
+    # 尖團不分
+    - derive/ts(h?)i/c$1i/
+    - derive/^(s|z)i/$1hi/
+    # 割鴿不分
+    - derive/oe(?=q|h)/e/
+    # 革鴿不分
+    - derive/eo(?=q|h)/e/
+    # 力立不分
+    - derive/ie(?=q|h)/i/
+    - derive/ye(?=q|h)/yi/
+    # 握屋不分
+    - derive/u?ao(?=q|h)/o/
+    - derive/iao(?=q|h)/io/
+
     # 聲母簡拼
     - abbrev/^([a-z]).+$/$1/
     - abbrev/^([pmtnlszckg]h|gn|ng|tsh?|dz).+$/$1/
@@ -82,9 +96,9 @@ speller:
     - derive/ao/oa/
     # 容錯 ae => ea
     - derive/ae/ea/
-    # 容錯 y => ghi
+    # 容錯 y- => ghi-
     - derive/yi|y(?=[aeou])/ghi/
-    # 容錯 w => ghu
+    # 容錯 w- => ghu-
     - derive/wu|w(?=[aeo])/ghu/
 
 # 主翻譯器 松江吳拼

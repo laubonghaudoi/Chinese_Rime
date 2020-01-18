@@ -843,7 +843,7 @@ For detailed information of the collected schemas in the download package, pleas
           <li><a href="http://wu-chinese.com/romanization/">吴语协会 通用吴语拼音</a></li>
           <li><a href="http://wu-chinese.com/minidict/">吴语协会 吴音小字典</a></li>
           <li><a href="http://input.foruto.com/wu/method.html">吳語注音法</a></li>
-          <li><a href="https://shinzoqchiuq.github.io/gninpou-tutorial/">宁波话吴拼教程</a></li>
+          <li><a href="https://ionkaon.github.io/phin-in-tutorial/">宁波话吴拼教程</a></li>
         </ul>
       </details>
     </li>

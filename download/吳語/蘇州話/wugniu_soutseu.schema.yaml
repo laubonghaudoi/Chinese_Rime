@@ -4,11 +4,11 @@
 schema:
   schema_id: wugniu_soutseu
   name: 吳語（蘇州）
-  version: "2019.12.28"
+  version: "2020.01.12"
   author:
-    - 字表作者：予安 <181065229@qq.com>
-    - 方案製作：雪心居士 <sihsin@live.com>
-    - 方案製作：Electric Sheep <shinzoqchiuq@outlook.com>
+    - 予安 <181065229@qq.com> (dict)
+    - 雪心居士 <sihsin@live.com> (schema)
+    - Electric Sheep <shinzoqchiuq@outlook.com> (schema)
   description: |
     蘇州吳語注音輸入方案吳語學堂版
     https://www.wugniu.com/
@@ -70,6 +70,20 @@ speller:
     - derive/gni(?=[aoue])/ny/
     - derive/er/r/
 
+    # 尖團不分
+    - derive/ts(h?)i/c$1i/
+    - derive/^(s|z)i/$1hi/
+    # 干官不分
+    - derive/uoe/oe/
+    # 求拳不分
+    - derive/(?<=[yi])eu/oe/
+    # 打黨不分
+    - derive/aon/an/
+    # 襪麥不分
+    - derive/ae(?=q|h)/a/
+    # 司書不分
+    - derive/(?<=[szh])yu/y/
+
     # 簡拼
     - abbrev/^([a-z]).+$/$1/
     - abbrev/^([pmtnlszckg]h|gn|ng|tsh?|dz).+$/$1/
@@ -85,9 +99,9 @@ speller:
     - derive/ao/oa/
     # 容錯 ae => ea
     - derive/ae/ea/
-    # 容錯 y => ghi
+    # 容錯 y- => ghi-
     - derive/yi|y(?=[aeou])/ghi/
-    # 容錯 w => ghu
+    # 容錯 w- => ghu-
     - derive/wu|w(?=[aeo])/ghu/
 
 # 主翻譯器 蘇州吳拼
