@@ -9,16 +9,16 @@
 #
 # 使用以下項目：
 #
-# - 寧波方言資料整理 (CC BY 4.0)
-#   https://github.com/shinzoqchiuq/gninpou-dialect
-# - 寧波話字表 (Apache 2.0)
-#   https://github.com/shinzoqchiuq/gninpou-dictionary
+# - 甬江小片方言資料整理 (CC BY 4.0)
+#   https://github.com/ionkaon/data
+# - 甬江話字表 (Apache 2.0)
+#   https://github.com/ionkaon/dictionary
 # - 寧波話【八股文】 (LGPLv3)
-#   https://github.com/shinzoqchiuq/gninpou-essay
+#   https://github.com/ionkaon/gninpou-essay
 
 ---
 name: wugniu_gninpou
-version: "2020.01.19"
+version: "2020.01.30"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -407,7 +407,7 @@ use_preset_vocabulary: true
 𩶅	tshyu
 絺	tshyu
 眵	tshyu
-哆	tshyu
+哆	tshyu	5%
 攄	tshyu
 處	tshyu
 鼠	tshyu
@@ -585,6 +585,7 @@ use_preset_vocabulary: true
 箄	pi
 吡	pi
 芘	pi
+彼	pi	5%
 扁	pi
 匾	pi
 鯿	pi
@@ -1151,6 +1152,8 @@ use_preset_vocabulary: true
 姿	ci	0%
 枝	ci	0%
 几	ci
+机	ci
+幾	ci
 譏	ci
 肌	ci
 機	ci
@@ -1230,7 +1233,6 @@ use_preset_vocabulary: true
 鷄	ci
 鶏	ci
 鳮	ci
-幾	ci
 蟣	ci
 己	ci
 𠮯	ci
@@ -1394,6 +1396,7 @@ use_preset_vocabulary: true
 𥉻	chi
 覷	chi	0%
 䀙	chi
+砌	chi
 契	chi
 碶	chi
 氣	chi
@@ -1436,7 +1439,6 @@ use_preset_vocabulary: true
 畤	ji
 前	ji	0%
 奇	ji
-崎	ji
 琦	ji
 騎	ji
 敧	ji
@@ -1542,6 +1544,7 @@ use_preset_vocabulary: true
 𠲹	ji
 跽	ji
 𢺵	ji
+崎	ji
 健	ji
 踺	ji
 荐	ji
@@ -1892,6 +1895,7 @@ use_preset_vocabulary: true
 訁	yi
 炎	yi
 沿	yi
+鉛	yi	0%
 阽	yi
 雁	yi
 鴈	yi
@@ -1909,9 +1913,9 @@ use_preset_vocabulary: true
 鳶	yi
 演	yi
 縯	yi
+豔	yi
 艷	yi
 豓	yi
-豔	yi
 涯	yi
 崖	yi
 冶	yi
@@ -1992,6 +1996,7 @@ use_preset_vocabulary: true
 腌	i
 醃	i
 懨	i
+燕	i
 椅	i
 猗	i
 倚	i
@@ -2031,7 +2036,6 @@ use_preset_vocabulary: true
 宴	i
 讌	i
 醼	i
-燕	i
 鷰	i
 咽	i
 嚥	i
@@ -2071,6 +2075,7 @@ use_preset_vocabulary: true
 鯆	bu
 䩉	bu
 莆	bu
+荸	bu	5%
 部	bu
 篰	bu
 蔀	bu
@@ -2218,7 +2223,7 @@ use_preset_vocabulary: true
 兎	thu
 菟	thu
 堍	thu
-唾	thu
+唾	thu	5%
 芏	thu
 徒	du
 屠	du
@@ -2305,7 +2310,7 @@ use_preset_vocabulary: true
 艣	lu
 樐	lu
 氌	lu
-賂	lu
+賂	lu	5%
 輅	lu
 路	lu
 潞	lu
@@ -2712,7 +2717,7 @@ use_preset_vocabulary: true
 輭	gniu
 語	gniu
 馭	gniu	1%
-芋	gniu	5%
+芋	gniu	1%
 靴	shiu
 鞾	shiu
 虛	shiu
@@ -2899,6 +2904,7 @@ use_preset_vocabulary: true
 襬	pa
 把	pa	5%
 拜	pa
+垻	pa
 爸	pa
 伯	pa	0%
 派	pha
@@ -3006,7 +3012,7 @@ use_preset_vocabulary: true
 釵	tsha
 扠	tsha
 攃	tsha
-插	tsha	0%
+# 插	tsha	0%
 扯	tsha	0%
 撦	tsha	0%
 蔡	tsha
@@ -3062,13 +3068,13 @@ use_preset_vocabulary: true
 嘠	ga
 茄	ga
 懈	ga
-解	ga
+解	ga	1%
 𨮂	ga
 捱	nga
 外	nga
 𤘅	nga
 伢	nga
-雁	nga
+雁	nga	5%
 鴈	nga
 𩂢	nga
 𤘅	nka
@@ -3083,7 +3089,7 @@ use_preset_vocabulary: true
 鞋	gha
 合	gha	0%
 鞵	gha
-還	gha
+還	gha	10%
 啊	gha
 也	gha
 捱	a
@@ -3442,7 +3448,7 @@ use_preset_vocabulary: true
 栳	lau
 咾	lau
 銠	lau
-潦	lau
+潦	lau	5%
 嘮	lau
 嫪	lau
 撈	lhau
@@ -3466,6 +3472,7 @@ use_preset_vocabulary: true
 竈	tsau
 灶	tsau
 罩	tsau
+躁	tsau
 抄	tshau
 鈔	tshau
 操	tshau
@@ -3663,9 +3670,9 @@ use_preset_vocabulary: true
 㑃	au
 媼	au
 襖	au
+懊	au
 奧	au
 澳	au
-懊	au
 燠	au
 墺	au
 𩼈	au
@@ -3692,7 +3699,6 @@ use_preset_vocabulary: true
 膀	po	0%
 霸	po
 壩	po
-垻	po
 𩨜	po
 灞	po
 𩈆	pho
@@ -3722,10 +3728,12 @@ use_preset_vocabulary: true
 蟆	mo
 蟇	mo
 媽	mo	0%
+嬤	mo
 馬	mo
 碼	mo
 螞	mo
 瑪	mo
+嗎	mo
 鰢	mo
 獁	mo
 駡	mo
@@ -3757,8 +3765,8 @@ use_preset_vocabulary: true
 朶	do	0%
 哚	do	5%
 大	do	0%
-唾	do
-哪	no
+唾	do	5%
+哪	no	5%
 囡	no	0%
 拿	no
 挐	no
@@ -3849,7 +3857,7 @@ use_preset_vocabulary: true
 𧋊	so
 硰	so
 賒	so
-稍	so
+稍	so	10%
 蓑	so
 簑	so
 啥	so	73981
@@ -3875,7 +3883,7 @@ use_preset_vocabulary: true
 傢	ko
 𠺢	ko
 加	ko
-嘉	ko
+嘉	ko	5%
 枷	ko
 架	ko
 假	ko
@@ -3896,6 +3904,7 @@ use_preset_vocabulary: true
 邷	ngo
 砑	ngo
 啞	nko	0%
+霞	gho	0%
 厦	gho
 廈	gho
 下	gho
@@ -3903,6 +3912,7 @@ use_preset_vocabulary: true
 嗄	gho
 ⿰飠夏	gho
 夏	gho
+暇	gho	1%
 丫	o
 吖	o
 椏	o
@@ -4136,7 +4146,7 @@ use_preset_vocabulary: true
 鍬	chiau
 鍫	chiau
 帩	chiau
-鞘	chiau	5%
+鞘	chiau	1%
 敲	chiau	6%
 橇	chiau
 磽	chiau
@@ -4290,6 +4300,7 @@ use_preset_vocabulary: true
 斆	yau
 斅	yau
 燿	yau
+要	iau
 腰	iau
 闄	iau
 葽	iau
@@ -4305,7 +4316,6 @@ use_preset_vocabulary: true
 窅	iau
 窈	iau
 鷕	iau
-要	iau
 瓜	kuo
 胍	kuo
 媧	kuo
@@ -5200,8 +5210,8 @@ use_preset_vocabulary: true
 顓	tsoe
 篅	tsoe
 𩤚	tsoe
-纂	tsoe
 朘	tsoe
+纂	tsoe
 篹	tsoe
 纘	tsoe
 籫	tsoe
@@ -5343,6 +5353,7 @@ use_preset_vocabulary: true
 州	cieu
 洲	cieu
 揪	cieu
+啾	cieu
 盩	cieu
 肘	cieu
 鳩	cieu
@@ -5636,7 +5647,7 @@ use_preset_vocabulary: true
 陂	pei
 貝	pei
 唄	pei
-彼	pei	5%
+彼	pei
 俾	pei
 髀	pei
 背	pei
@@ -6072,7 +6083,7 @@ use_preset_vocabulary: true
 桂	kuei
 癐	kuei
 鄶	kuei
-逵	kuei
+逵	kuei	5%
 貴	kuei
 憒	kuei
 鱖	kuei
@@ -6145,6 +6156,7 @@ use_preset_vocabulary: true
 昬	huei	0%
 睢	huei
 倠	huei
+詼	huei
 悔	huei
 毀	huei
 毁	huei
@@ -6197,6 +6209,7 @@ use_preset_vocabulary: true
 𨴓	wei
 磑	wei
 槐	wei
+喂	wei	0%
 洧	wei
 鮪	wei
 韋	wei
@@ -6456,6 +6469,7 @@ use_preset_vocabulary: true
 堝	kou
 蝸	kou
 柯	kou	1%
+過	kou
 果	kou
 菓	kou
 蜾	kou
@@ -6464,7 +6478,6 @@ use_preset_vocabulary: true
 錁	kou
 餜	kou
 管	kou	0%
-過	kou
 個	kou	6%
 箇	kou	6%
 个	kou	6%
@@ -6814,7 +6827,6 @@ use_preset_vocabulary: true
 瘊	gheu
 睺	gheu
 骺	gheu
-魟	ghon
 厚	gheu
 後	gheu
 后	gheu
@@ -6899,7 +6911,7 @@ use_preset_vocabulary: true
 睜	tsan
 撑	tsan	5%
 撐	tsan	5%
-掙	tsan
+掙	tsan	5%
 㬹	tsan
 撑	tshan
 撐	tshan
@@ -7074,7 +7086,7 @@ use_preset_vocabulary: true
 譲	gnian
 𥽬	gnian
 亮	gnian	0%
-樣	gnian	0%
+樣	gnian	1%
 様	gnian	0%
 商	shian	5%
 相	shian
@@ -7235,7 +7247,7 @@ use_preset_vocabulary: true
 蟒	maon
 漭	maon
 網	maon
-夢	maon
+夢	maon	5%
 忘	maon
 妄	maon
 望	maon
@@ -7326,7 +7338,7 @@ use_preset_vocabulary: true
 鏜	daon
 膛	daon
 摚	daon
-蕩	daon
+蕩	daon	90888
 盪	daon
 碭	daon
 𥸈	daon
@@ -7429,9 +7441,9 @@ use_preset_vocabulary: true
 牕	tshaon
 窓	tshaon
 窻	tshaon
+創	tshaon
 惝	tshaon
 闖	tshaon
-創	tshaon
 剏	tshaon
 剙	tshaon
 賶	tshaon
@@ -7795,7 +7807,7 @@ use_preset_vocabulary: true
 鋎	wun
 𧚁	wun
 緩	wun
-援	wun	0%
+援	wun	5%
 換	wun
 逭	wun
 漶	wun
@@ -7810,7 +7822,7 @@ use_preset_vocabulary: true
 盌	un
 琬	un
 踠	un
-涴	un
+涴	un	0%
 皖	un
 莞	un
 烏	un	1%
@@ -8119,12 +8131,14 @@ use_preset_vocabulary: true
 哽	ken
 亙	ken
 亘	ken
+庚	ken	5%
 賡	ken
 鶊	ken
 耿	ken	6%
 鯁	ken	6%
 㾘	ken
 綆	ken
+梗	ken	5%
 茛	ken
 𣈶	ken
 暅	ken
@@ -8132,6 +8146,7 @@ use_preset_vocabulary: true
 硜	khen
 誙	khen
 㰢	khen
+坑	khen	0%
 肯	khen
 肎	khen
 啃	khen
@@ -8212,7 +8227,7 @@ use_preset_vocabulary: true
 砰	phin
 品	phin
 聘	phin
-併	phin	5%
+併	phin	1%
 娉	phin
 平	bin
 評	bin
@@ -8431,12 +8446,6 @@ use_preset_vocabulary: true
 佂	cin
 砧	cin
 碪	cin
-珍	cin
-珎	cin
-診	cin
-真	cin
-眞	cin
-禛	cin
 甄	cin
 薽	cin
 精	cin
@@ -8450,6 +8459,12 @@ use_preset_vocabulary: true
 晶	cin
 旌	cin
 搢	cin
+珍	cin
+珎	cin
+診	cin
+真	cin
+眞	cin
+禛	cin
 金	cin
 釒	cin
 今	cin
@@ -8481,6 +8496,12 @@ use_preset_vocabulary: true
 𤇏	cin
 巹	cin
 姫	cin
+寖	cin
+井	cin
+肼	cin
+盡	cin	0%
+儘	cin	0%
+堇	cin
 疹	cin
 胗	cin
 畛	cin
@@ -8488,12 +8509,6 @@ use_preset_vocabulary: true
 袗	cin
 紾	cin
 抮	cin
-寖	cin
-井	cin
-肼	cin
-盡	cin	0%
-儘	cin	0%
-堇	cin
 儆	cin
 警	cin
 緊	cin
@@ -8581,7 +8596,7 @@ use_preset_vocabulary: true
 卿	chin
 岑	jin
 忱	jin
-沈	jin
+沈	jin	5%
 沉	jin
 霃	jin
 𩂸	jin
@@ -8709,6 +8724,7 @@ use_preset_vocabulary: true
 姙	gnin
 賃	gnin
 佞	gnin
+仍	gnin
 擰	gnin
 齗	gnin
 認	gnin
@@ -8763,6 +8779,7 @@ use_preset_vocabulary: true
 昕	shin
 忻	shin
 歆	shin
+興	shin
 審	shin
 嬸	shin
 瀋	shin
@@ -8789,7 +8806,6 @@ use_preset_vocabulary: true
 姓	shin
 信	shin
 囟	shin
-興	shin
 盛	zhin
 繩	zhin
 澠	zhin
@@ -8975,6 +8991,7 @@ use_preset_vocabulary: true
 睏	khuen
 𦄐	khuen
 壼	khuen
+潰	guen	1%
 滾	guen	0%
 滚	guen	0%
 昏	huen
@@ -9236,7 +9253,7 @@ use_preset_vocabulary: true
 獴	mon
 瞢	mon
 懵	mon
-夢	mon	6%
+夢	mon
 風	fon
 楓	fon
 瘋	fon
@@ -9465,7 +9482,7 @@ use_preset_vocabulary: true
 従	dzon
 叢	dzon
 崇	dzon
-戎	dzon
+戎	dzon	10%
 𥬪	dzon
 茙	dzon
 駥	dzon
@@ -9562,6 +9579,7 @@ use_preset_vocabulary: true
 紅	ghon
 洪	ghon
 虹	ghon
+魟	ghon
 宏	ghon
 紘	ghon
 㢬	ghon
@@ -9620,6 +9638,7 @@ use_preset_vocabulary: true
 蛩	jion
 煢	jion
 睘	jion
+戎	gnion
 絨	gnion
 羢	gnion
 毧	gnion
@@ -9706,7 +9725,7 @@ use_preset_vocabulary: true
 柏	paq
 栢	paq
 伯	paq
-泊	paq	0%
+# 泊	paq	0%
 袹	paq
 𦯉	paq
 掰	paq
@@ -9736,6 +9755,7 @@ use_preset_vocabulary: true
 珀	phaq
 泊	phaq
 舶	phaq
+迫	phaq	1%
 蘗	phaq
 𤖼	phaq
 擘	phaq
@@ -9920,6 +9940,7 @@ use_preset_vocabulary: true
 鋱	thaq
 忑	thaq
 慝	thaq
+拓	thaq	5%
 突	thaq	5%
 搭	thaq	5%
 踏	daq
@@ -9948,7 +9969,7 @@ use_preset_vocabulary: true
 捺	naq
 𤷈	naq
 䖧	naq
-哪	naq
+哪	naq	5%
 吶	naq
 鈉	naq
 納	naq
@@ -9977,8 +9998,8 @@ use_preset_vocabulary: true
 擸	laq
 爉	laq
 ⿰舟巤	laq
-攔	laq	0%
 迾	laq
+攔	laq	0%
 勒	laq	45114
 了	laq
 嘞	laq
@@ -10207,6 +10228,7 @@ use_preset_vocabulary: true
 瞌	khaq
 搕	khaq
 溘	khaq
+嗑	khaq
 掐	khaq
 甲	khaq	0%
 胛	khaq	0%
@@ -10455,6 +10477,7 @@ use_preset_vocabulary: true
 矻	khuaq
 環	guaq	0%
 搰	guaq
+刮	guaq	0%
 忽	huaq
 惚	huaq
 笏	huaq
@@ -10574,6 +10597,7 @@ use_preset_vocabulary: true
 模	moq	0%
 鏌	moq
 瘼	moq
+膜	moq	5%
 目	moq
 苜	moq
 鉬	moq
@@ -10589,6 +10613,7 @@ use_preset_vocabulary: true
 楘	moq
 麻	moq	0%
 摩	moq	0%
+麼	moq
 福	foq
 幅	foq
 蝠	foq
@@ -10777,7 +10802,7 @@ use_preset_vocabulary: true
 䃚	tshoq
 嗾	tshoq
 閦	tshoq
-撮	tshoq
+撮	tshoq	10%
 矠	tshoq
 臅	tshoq
 𠭴	tshoq
@@ -10941,7 +10966,7 @@ use_preset_vocabulary: true
 酷	khoq
 牿	khoq
 殼	khoq
-個	goq	1607642
+個	goq	3215286
 箇	goq
 个	goq
 擱	goq
@@ -11014,7 +11039,7 @@ use_preset_vocabulary: true
 㬦	ghoq
 彠	ghoq
 矱	ghoq
-個	ghoq	3215286
+個	ghoq	1607642
 箇	ghoq
 个	ghoq
 屋	oq
@@ -11385,6 +11410,7 @@ use_preset_vocabulary: true
 䜉	chiq
 㯃	chiq
 赤	chiq
+尺	chiq	0%
 斥	chiq
 戚	chiq
 慼	chiq
@@ -11685,6 +11711,7 @@ use_preset_vocabulary: true
 益	iq
 縊	iq
 溢	iq
+隘	iq
 壹	iq
 噎	iq
 揖	iq
@@ -20958,7 +20985,7 @@ use_preset_vocabulary: true
 卵脬皮	loe phau bi	55
 亂草字	loe tshau zy	55
 亂話到地	loe wo tau di	55
-亂夢	loe maon	55
+亂夢	loe maon	578
 亂七八糟	loe chiq paq tsau
 揹大刀	pei dou tau	55
 褙襞	pei paq	55
@@ -28898,6 +28925,12 @@ use_preset_vocabulary: true
 翬翟	huei diq
 要塞	iau se
 句讀	ciu deu
+虛與委蛇	shiu yu uei yi
+鉛山	yi sae
+通通樣樣	thon thon gnian gnian
+統統樣樣	thon thon gnian gnian
+像模像樣	zhian moq zhian yan
+拓碑	thaq pei
 倭豆鹹肉糯米飯
 糯米飯
 倭豆飯
@@ -29079,13 +29112,8 @@ VCD	vi shi di
 一回生	iq wei san
 一回生兩回熟	iq wei san lian wei zoq
 一報還一報	iq pau wae iq pau
-一場夢	iq jian mon
-一場春夢	iq jian tshyun mon
 一夕之間	iq zhiq tsy ci
 一夜之間	iq ya tsy ci
-一夜無夢	iq ya Wu mon
-一夜無夢	iq ya vu mon
-一夢漫言	iq mon mae yi
 一夥人	iq hou gnin
 一日一個樣	iq gniq iq goq yan
 一夫當關萬夫莫敵	iq fu taon kuae vae fu moq diq
@@ -29161,7 +29189,6 @@ VCD	vi shi di
 一神教	iq zyun ciau
 一票人	iq phiau gnin
 一笑了之	iq shiau liau tsy
-一簾幽夢	iq li ieu mon
 一籌莫展	iq jieu moq ci
 一籌莫展	iq jieu moq tsoe
 一線希望	iq shi shi vaon
@@ -30807,7 +30834,6 @@ VCD	vi shi di
 之兩	tsy lian
 之交	tsy ciau
 之分	tsy fen
-之夢	tsy mon
 之大	tsy da
 之家	tsy cia
 之日	tsy zyuq
@@ -32966,7 +32992,6 @@ VCD	vi shi di
 仰面朝天	gnian mi jiau thi
 仲介	dzon ka
 仲介公司	dzon ka kon sy
-仲夏夜之夢	dzon gho ya tsy mon
 仲家	dzon ko
 仲裁人	dzon ze gnin
 任一個	zyun iq goq
@@ -33322,7 +33347,6 @@ VCD	vi shi di
 作假賬	tsoq ko cian
 作古人	tsoq ku gnin
 作品集	tsoq phin jiq
-作夢	tsoq mon
 作夢也沒想到	tsoq mon gha maq shian tau
 作家	tsoq cia
 作息時間	tsoq shiq zy ci
@@ -33380,6 +33404,7 @@ VCD	vi shi di
 你忒	ng thou
 你好	ng hau
 你好啊	ng hau gha
+你好啊	ng hau a
 你好𠲎	ng hau va
 倷阿姆	naq a m
 倷阿姆	naq an m
@@ -33491,6 +33516,7 @@ VCD	vi shi di
 爾忒	ng thou
 爾好	ng hau
 爾好啊	ng hau gha
+爾好啊	ng hau a
 爾好𠲎	ng hau va
 爾將	ng cian
 爾對	ng tei
@@ -33595,6 +33621,7 @@ VCD	vi shi di
 俉忒	ng thou
 俉好	ng hau
 俉好啊	ng hau gha
+俉好啊	ng hau a
 俉好𠲎	ng hau va
 俉將	ng cian
 俉對	ng tei
@@ -33700,6 +33727,7 @@ VCD	vi shi di
 儂忒	nou thou
 儂好	nou hau
 儂好啊	nou hau gha
+儂好啊	nou hau a
 儂好𠲎	nou hau va
 儂將	nou cian
 儂對	nou tei
@@ -34410,7 +34438,6 @@ VCD	vi shi di
 做個	tsou ghoq
 做假	tsou ko
 做假賬	tsou ko cian
-做夢	tsou mon
 做大	tsou dou
 做大做強	tsou dou tsou jian
 做女人	tsou gniu gnin
@@ -35095,7 +35122,6 @@ VCD	vi shi di
 克莉絲汀娜	khaq li sy thin na
 克萊兒	khaq le er
 克蕾兒	khaq lei er
-克虜伯	khaq lou paq
 克里奧爾語	khaq li au er gniu
 克里姆林	khaq li m lin
 克里姆林宮	khaq li m lin kon
@@ -35105,7 +35131,6 @@ VCD	vi shi di
 克里斯汀貝爾	khaq li sy thin pei er
 克里絲蒂娃	khaq li sy ti ua
 克隆人	khaq lon gnin
-克雷伯氏菌屬	khaq lei paq zy chiun dzoq
 克魯茲	khaq lu tsy
 兌換率	dei wun liq
 免不了	mi paq liau
@@ -35182,7 +35207,6 @@ VCD	vi shi di
 入國問俗	zyuq koq men dzoq
 入圍	zyuq wei
 入境問俗	zyuq cin men dzoq
-入夢	zyuq mon
 入學校	zyuq ghoq yau
 入學率	zyuq yuq liq
 入射波	zyuq zhiq pou
@@ -35408,7 +35432,6 @@ VCD	vi shi di
 公交車	kon ciau tsho
 公人	kon gnin
 公休日	kon shieu gniq
-公侯伯子男	kon gheu paq tsy nEI
 公保大樓	kon pau da leu
 公共交通	kon gon ciau thon
 公共假期	kon gon ko ji
@@ -36243,6 +36266,13 @@ VCD	vi shi di
 分裝	fen tsaon
 分裝機	fen tsaon ci
 分角器	fen koq chi
+分解	fen ka
+分解代謝	fen ka de zhia
+分解作用	fen ka tsoq yon
+分解力	fen ka liq
+分解成	fen ka jin
+分解掉	fen ka diau
+分解爲	fen ka wei
 分解	fen cia
 分解代謝	fen cia de zhia
 分解作用	fen cia tsoq yon
@@ -36519,8 +36549,7 @@ VCD	vi shi di
 利人	li gnin
 利人利己	li gnin li ci
 利他行爲	li tha ghan wei
-利伯曼	li pan mae
-利伯維爾	li pan vi er
+利伯維爾	li paq vi er
 利勒哈默爾	li laq ha maq er
 利大於弊	li da yu bi
 利害關係人	li ghe kuae shi gnin
@@ -36785,7 +36814,6 @@ VCD	vi shi di
 劈哩啪啦	phiq lhi phaq lha
 劈材	phiq ze
 劈里啪啦	phiq li phaq lha
-劉伯溫	lieu paq uen
 劉先生	lieu shi san
 劉嘉玲	lieu cia lin
 劉嘉發	lieu cia faq
@@ -37047,6 +37075,7 @@ VCD	vi shi di
 加油	ko yeu
 加油吧	ko yeu pa
 加油啊	ko yeu gha
+加油啊	ko yeu a
 加油團	ko yeu doe
 加油工	ko yeu kon
 加油戰	ko yeu ci
@@ -37911,7 +37940,6 @@ VCD	vi shi di
 卜日	poq gniq
 卜易	poq yi
 占人	ci gnin
-占夢	ci mon
 占星學	ci shin yuq
 占星家	ci shin cia
 卡介苗	kha cia miau
@@ -38119,6 +38147,7 @@ VCD	vi shi di
 去哪	chi nha
 去哪裏	chi nha li
 去啊	chi gha
+去啊	chi a
 去問	chi men
 去嗎	chi ma
 去𠲎	chi va
@@ -39045,7 +39074,6 @@ VCD	vi shi di
 同參	don tshae
 同命鳥	don min gniau
 同埋	don mAE
-同夢	don mon
 同學們	don ghoq men
 同學家	don ghoq ko
 同學屋落	don ghoq oq loq
@@ -39076,7 +39104,6 @@ VCD	vi shi di
 同比增長	don pi tsen cian
 同濟大學	don ci da ghoq
 同濟醫科大學	don ci i khou da ghoq
-同牀異夢	don zaon yi mon
 同班同學	don pae don ghoq
 同生	don sen
 同生共死	don sen gon sy
@@ -39341,7 +39368,6 @@ VCD	vi shi di
 周圍性眩暈	cieu wei shin yu yun
 周圍環境	cieu wei wae cin
 周圍神經	cieu wei zyun cin
-周夢瑤	cieu mon yau
 周大福	cieu da foq
 周家	cieu ko
 週年視差	cieu gni zy tsho
@@ -39512,3 +39538,3762 @@ VCD	vi shi di
 品行不良	phin yin paq lian
 品行優良	phin yin ieu lian
 品行好	phin yin hau
+哄亂	ghon loe
+哄了	hon laq
+哄人	hon gnin
+哄來哄去	ghon le ghon chi
+哄傳	ghon dzOE
+哄傳一時	ghon dzOE iq zy
+哄動一時	ghon don iq zy
+哄勸	hon chiu
+哄哄	hon hon
+哄弄	hon lon
+哄得	hon taq
+哄搶	ghon chian
+哄擡	ghon de
+哄擡物價	ghon de vaq ko
+哄瞞	hon mun
+哄誘	hon yeu
+哄賺	hon dzae
+哄走	hon tseu
+哄逗	hon deu
+哄騙	hon phi
+哆啦	tou lha
+哇哇大叫	ua ua da ciau
+哇哇大哭	ua ua da khoq
+哇哈哈哈	ua ha ha ha
+哇啦	ua lha
+哈代	ha de
+哈伯	ha paq
+哈伯太空望遠鏡	ha paq tha khon vaon yu cin
+哈伯瑪斯	ha paq mo sy
+哈佛	ha vaq
+哈佛大學	ha vaq da ghoq
+哈克	ha khaq
+哈克貝利芬歷險記	ha khaq pei li fen liq shi ci
+哈利	ha li
+哈利伯頓	ha li paq ten
+哈利法克斯	ha li faq khaq sy
+哈利波特	ha li pou daq
+哈利發	ha li faq
+哈努卡	ha nu kha
+哈努卡節	ha nu kha ciq
+哈勃	ha baq
+哈博羅內	ha poq lou nei
+哈卡	ha kha
+哈卡里	ha kha li
+哈叭狗	ha pa keu
+哈吉	ha ciq
+哈哈	ha ha
+哈哈哈	ha ha ha
+哈哈哈哈	ha ha ha ha
+哈哈大笑	ha ha da shiau
+哈哈笑	ha ha shiau
+哈哈鏡	ha ha cin
+哈喇	ha la
+哈喇子	ha la tsy
+哈嘍	ha leu
+哈囉	ha lou
+哈士奇	ha zy ji
+哈奴曼	ha nu mae
+哈姆雷特	ha m lei daq
+哈季奇	ha ci ji
+哈密	ha miq
+哈密地區	ha miq di chiu
+哈密市	ha miq zy
+哈密瓜	ha miq kuo
+哈尼	ha gni
+哈尼族	ha gni dzoq
+哈工大	ha kon da
+哈巴	ha pa
+哈巴河	ha pa ghou
+哈巴河縣	ha pa ghou yu
+哈巴狗	ha pa keu
+哈巴羅夫斯克	ha pa lou fu sy khaq
+哈巴谷書	ha pa koq syu
+哈巴雪山	ha pa syuq sae
+哈市	ha zy
+哈布斯堡	ha pu sy pau
+哈德門	ha taq men
+哈恩	ha en
+哈拉	ha lha
+哈拉爾五世	ha lha er ng syu
+哈拉雷	ha lha lei
+哈摩辣	ha mou laq
+哈日	ha zyuq
+哈日族	ha zyuq dzoq
+哈普西科德	ha phu shi khou taq
+哈根達斯	ha ken daq sy
+哈桑	ha saon
+哈梅內伊	ha mei nei i
+哈欠	ha chi
+哈氣	ha chi
+哈爾	ha er
+哈爾斯塔	ha er sy thaq
+哈爾濱	ha er pin
+哈爾濱工業大學	ha er pin kon gniq da ghoq
+哈爾濱市	ha er pin zy
+哈爾濱港	ha er pin kaon
+哈爾登	ha er ten
+哈特	ha daq
+哈特福德	ha daq foq taq
+哈特謝普蘇	ha daq zhia phu su
+哈珀	ha phaq
+哈瓦那	ha ngo nha
+哈米吉多頓	ha mi ciq tou ten
+哈米爾卡	ha mi er kha
+哈維	ha vi
+哈羅	ha lou
+哈羅德	ha lou taq
+哈腰	ha iau
+哈莉貝瑞	ha li pei zei
+哈萊姆	ha le m
+哈薩克	ha saq khaq
+哈薩克人	ha saq khaq gnin
+哈薩克共和國	ha saq khaq gon ghou koq
+哈薩克文	ha saq khaq ven
+哈薩克斯坦	ha saq khaq sy thae
+哈薩克族	ha saq khaq dzoq
+哈薩克語	ha saq khaq gniu
+哈蘇	ha su
+哈蜜瓜	ha miq kuo
+哈西納	ha shi naq
+哈該書	ha ke syu
+哈豐角	ha fon koq
+哈貝爾	ha pei er
+哈跟達斯	ha ken daq sy
+哈迪	ha diq
+哈迷	ha mi
+哈達	ha daq
+哈里	ha li
+哈里伯頓	ha li paq ten
+哈里斯	ha li sy
+哈里斯堡	ha li sy pau
+哈里爾	ha li er
+哈里發	ha li faq
+哈里發帝國	ha li faq ti koq
+哈里路亞	ha li lu ia
+哈里遜	ha li sen
+哈里遜福特	ha li sen foq daq
+哈里里	ha li li
+哈雷	ha lei
+哈雷彗星	ha lei wei shin
+哈靈根	ha lin ken
+哈韓	ha ghEI
+哈飛	ha fi
+哈馬斯	ha ma sy
+哈馬爾	ha ma er
+哎呀	ghEI ia
+哎呀	EI ia
+哎呀一聲	ghEI ia iq shin
+哎呀一聲	EI ia iq shin
+哎呀呀	ghEI ia ia
+哎呀呀	EI ia ia
+哎呦	ghEI ieu
+哎呦	EI ieu
+哥倫比亞大學	kou len pi ia da ghoq
+哥吉拉	kou ciq lha
+哥大	kou da
+哥德人	kou taq gnin
+哥斯大黎加	kou sy da li cia
+哥斯拉	kou sy lha
+哥斯達黎加	kou sy daq li cia
+哥本哈根	kou pen ha ken
+哥特人	kou daq gnin
+哥薩克人	kou saq khaq gnin
+哩哩啦啦	lhi lhi lha lha
+哩哩囉囉	lhi lhi lhou lhou
+哩哩羅羅	lhi lhi lou lou
+哩嚕	lhi lu
+哩溜歪斜	lhi lieu hua zhia
+哪一個	nha iq goq
+哪些人	nha shiq gnin
+哪個	nha goq
+哪個人	nha goq gnin
+哪個國家	nha goq koq cia
+哪個地方	nha goq di faon
+哪個好	nha goq hau
+哪個月	nha goq yuq
+哪去	nha chi
+哪吒	no tso
+哪幾個	nha ci goq
+哪種人	nha tson gnin
+哪羣人	nha jiun gnin
+哪行	nha ghaon
+哪行	nha yin
+哪裏人	nha li gnin
+哪裏去	nha li chi
+哪間	nha kae
+哪集	nha jiq
+哭了	khoq laq
+哭了	khoq lei
+哭來哭去	khoq le khoq chi
+哭個	khoq goq
+哭個夠	khoq goq keu
+哭個痛快	khoq goq thon khua
+哭去	khoq chi
+哭吧	khoq pa
+哭喪着臉	khoq saon dzoq li
+哭天抹淚	khoq thi maq lei
+哭着	khoq dzoq
+哭着	khoq zyuq
+哭聲震天	khoq shin cin thi
+哭鼻子	khoq biq tsy
+哮喘	shiau tshoe
+哮喘病	shiau tshoe bin
+哮鳴	hau min
+哲人	ciq zyun
+哲人其萎	ciq zyun ji uei
+哲人石	ciq zyun zaq
+哲學	ciq yuq
+哲學上	ciq yuq zaon
+哲學博士學位	ciq yuq poq zy yuq wei
+哲學史	ciq yuq sy
+哲學家	ciq yuq cia
+哲學思想	ciq yuq sy shian
+哲學範疇	ciq yuq vae jieu
+哲學系	ciq yuq shi
+哼了	han laq
+哼個	han goq
+哼哈二將	han ha er cian
+哼着	han dzoq
+哼着	han zyuq
+哽着	ken dzoq
+哽着	ken zyuq
+唏哩嘩啦	shi li hua la
+唐人	daon gnin
+唐人街	daon gnin ka
+唐代人	daon de gnin
+唐初四大家	daon tshu sy da cia
+唐古拉	daon ku lha
+唐古拉山	daon ku lha sae
+唐古拉山脈	daon ku lha sae maq
+唐古拉峯	daon ku lha fon
+唐太宗	daon tha tson
+唐太宗李衛公問對	daon tha tson li wei kon ven tei
+唐宋八大家	daon son paq da cia
+唐家	daon cia
+唐家山	daon cia sae
+唐家璇	daon cia zoe
+唐山大兄	daon sae da shion
+唐山大地震	daon sae da di tsyun
+唐朝	daon jiau
+唐朝人	daon jiau gnin
+唐氏兒	daon zy er
+唐老鴨	daon lau aq
+唐賽兒	daon se er
+唧咕	ciq ku
+唧唧咕咕	ciq ciq ku ku
+唬人	fu gnin
+售票大廳	jieu phiau da thin
+唯你	vi gni
+唯你是問	vi gni zy ven
+唯命是從	vi min zy dzon
+唯生產力論	vi sen tshae liq len
+唱了	tshaon laq
+唱來唱去	tshaon le tshaon chi
+唱個	tshaon goq
+唱回去	tshaon wei chi
+唱着	tshaon dzoq
+唱着	tshaon zyuq
+唸了	nE laq
+唸了一聲	nE laq iq shin
+唸吧	nE pa
+唸着	nE dzoq
+唸着	nE zyuq
+唸勒	nE laq
+唾手可得	thou shieu khou taq
+唾棄	thou chi
+唾沫	thou maq
+唾液	thou yiq
+唾液腺	thou yiq shi
+唾罵	thou mo
+唾腺	thou shi
+唾面	thou mi
+唾面自乾	thou mi zy kI
+唾餘	thou yu
+啃來啃去	khen le khen chi
+啃去	khen chi
+啃着	khen dzoq
+啃着	khen zyuq
+啃勒	khen laq
+啃過去	khen kou chi
+啄食	tsoq zhiq
+商人	saon gnin
+商人資本	saon gnin tsy pen
+商人銀行	saon gnin gnin ghaon
+商務人士	saon vu zyun zy
+商務人士	saon Wu zyun zy
+商務旅行	saon vu li yin
+商務旅行	saon Wu li yin
+商務部長	saon vu bu cian
+商務部長	saon Wu bu cian
+商品交易會	saon phin ciau yiq wei
+商品率	saon phin liq
+商品生產	saon phin sen tshae
+商學	saon yuq
+商學系	saon yuq shi
+商學院	saon yuq yu
+商工職業學校	saon kon ciq gniq ghoq yau
+商朝	saon jiau
+商朝人	saon jiau gnin
+商業專科學校	saon gniq tsoe khou ghoq yau
+商業職業學校	saon gniq ciq gniq ghoq yau
+商業行爲	saon gniq ghan wei
+商業銀行	saon gniq gnin ghaon
+商水	saon syu
+商水縣	saon syu yu
+商科集團	saon khou jiq doe
+商行	saon ghaon
+商賈	saon ku
+問一下	men iq gho
+問一記	men iq ci
+問上	men zaon
+問上問下	men zaon men gho
+問世	ven syu
+問了	men laq
+問事	men zy
+問人	men gnin
+問他	men tha
+問住	men dzyu
+問你	men gni
+問儂	men nou
+問你	men ng
+問俉	men ng
+問爾	men ng
+問來	men le
+問來問去	men le men chi
+問供	men kon
+問俗	men dzoq
+問個	men goq
+問個問題	men goq ven di
+問倒	men tau
+問候	men gheu
+問出	men tshyuq
+問到	men tau
+問卜	men poq
+問及	men jiq
+問句	ven ciu
+問名	ven min
+問問	men men
+問問看	men men khI
+問好	ven hau
+問安	ven EI
+問得	men taq
+問心	men shin
+問心有愧	men shin yeu khuei
+問心無愧	men shin vu khuei
+問心無愧	men shin Wu khuei
+問我	men ngo
+問政	men cin
+問政於民	men cin yu min
+問斬	ven tsae
+問朝	men jiau
+問東問西	men ton men shi
+問津	ven cin
+問當	ven taon
+問的	men tiq
+問答	ven taq
+問答式	ven taq shiq
+問答法	ven taq faq
+問答題	ven taq di
+問自己	men zy ci
+問自家	men zhi ko
+問舍求田	ven so jieu di
+問荊	ven cin
+問號	ven ghau
+問訊	ven shin
+問診	ven cin
+問詢	ven syun
+問話	ven wo
+問責	ven tsaq
+問責性	ven tsaq shin
+問起	men chi
+問起來	men chi le
+問路	ven lu
+問過	men kou
+問道	ven dau
+問道於盲	ven dau yu maon
+問長問短	men jian men toe
+問長道短	men jian dau toe
+問難	ven nae
+問題	ven di
+問題人物	ven di zyun vaq
+問題兒童	ven di er don
+問題學生	ven di ghoq san
+問題家庭	ven di cia din
+問題少年	ven di shiau gni
+問題是	ven di zy
+問題解決	ven di ka ciuq
+問題解決	ven di cia ciuq
+問題重重	ven di dzon dzon
+問鼎	ven tin
+問鼎中原	ven tin tson gniu
+問鼎輕重	ven tin chin dzon
+啓人疑竇	chi zyun gni deu
+啓明學校	chi min ghoq yau
+啓發式教育	chi faq shiq ciau yuq
+啓聰學校	chi tshon ghoq yau
+啓蒙哲學	chi mon ciq yuq
+啜泣	tsyuq chiq
+啜飲	tsyuq in
+啞吧	o po
+啞巴虧	o po khuei
+啥子	so tsy
+啥時候	so zy gheu
+啥樣	so yan
+啦啦	lha lha
+啦啦啦	lha lha lha
+啦啦隊	lha lha dei
+啦啦隊員	lha lha dei yu
+啦啦隊長	lha lha dei cian
+啪啦	phaq lha
+啼笑皆非	di shiau cie fi
+喀什米爾	khaq zyuq mi er
+喀吧	khaq pa
+喀啦喀啦	khaq lha khaq lha
+喀布爾	khaq pu er
+喀布爾河	khaq pu er ghou
+喀拉喀托火山	khaq lha khaq thoq hou sae
+喀拉崑崙山	khaq lha khuen len sae
+喀拉拉邦	khaq lha lha paon
+喀拉汗國	khaq lha ghEI koq
+喀拉汗王朝	khaq lha ghEI waon jiau
+喀拉蚩	khaq lha tshyu
+喀斯特水	khaq sy daq syu
+喂了一聲	wei laq iq shin
+喂着	iu dzoq
+喂着	iu zyuq
+喂勒	iu laq
+喃喃自語	nEI nEI zy gniu
+善了	zoe laq
+善人	zoe gnin
+善加	zoe ko
+善心人士	zoe shin zyun zy
+善忘	zoe vaon
+善惡不分	zoe oq paq fen
+善惡勿分	zoe oq vaq fen
+善惡弗分	zoe oq vaq fen
+善罷干休	zoe ba kI shieu
+善罷甘休	zoe ba kI shieu
+善自保重	zoe zy pau dzon
+善自珍攝	zoe zy cin shiq
+善行	zoe yin
+善解人意	zoe cia zyun i
+喇叭水仙	la pa syu shi
+喇嘛教	la ma ciau
+喇嘛教徒	la ma ciau du
+喉乾舌燥	gheu kI zhiq sau
+喉頭發乾	gheu deu faq kI
+喊上去	hae zaon chi
+喊下去	hae gho chi
+喊落去	hae loq chi
+喊了	hae laq
+喊來喊去	hae le hae chi
+喊出去	hae tshyuq chi
+喊回去	hae wei chi
+喊着	hae dzoq
+喊着	hae zyuq
+喊勒	hae laq
+喊進去	hae cin chi
+喘息未定	tshoe shiq vi din
+喘着	tshoe dzoq
+喘着	tshoe zyuq
+喘勒	tshoe laq
+喚來喚去	hun le hun chi
+喜上眉梢	shi zaon mei sau
+喜不自勝	shi paq zy shin
+喜不自禁	shi paq zy cin
+喜人	shi zyun
+喜出望外	shi tshyuq vaon nga
+喜形於色	shi yin yu saq
+喜從何來	shi dzon ghou le
+喜從天降	shi dzon thi ciaon
+喜怒不形於色	shi nu paq yin yu saq
+喜怒哀樂	shi nu e loq
+喜怒無常	shi nu vu dzaon
+喜愛着	shi e dzoq
+喜愛着	shi e zyuq
+喜憂參半	shi ieu tshae pun
+喜歡你	shi hun gni
+歡喜你	hun shi gni
+歡喜儂	hun shi nou
+歡喜你	hun shi ng
+歡喜俉	hun shi ng
+歡喜爾	hun shi ng
+喜歡吵架	shi hun tshau cia
+歡喜吵架	hun shi tshau cia
+歡喜造孽	hun shi zau gniq
+喜歡着	shi hun dzoq
+喜歡着	shi hun zyuq
+喜歡自己	shi hun zy ci
+歡喜自家	hun shi zhi ko
+喜瑪拉雅	shi ma lha ia
+喜眉笑眼	shi mei shiau ngae
+喜笑顏開	shi shiau yi khe
+喜聞樂見	shi ven loq ci
+喜訊傳來	shi shin dzOE le
+喜馬拉雅	shi ma lha ia
+喜馬拉雅山	shi ma lha ia sae
+喜馬拉雅山脈	shi ma lha ia sae maq
+喝下去	haq gho chi
+喝落去	haq loq chi
+喝乾	haq kI
+喝了	haq laq
+喝交杯	haq ciau pei
+喝來喝去	haq le haq chi
+喝個	haq goq
+喝口水	haq kheu syu
+喝咖啡	haq kha fi
+喝問	haq ven
+喝墨水	haq moq syu
+喝多了	haq tou lei
+喝奶	haq na
+喝斥	haq chiq
+喝水	haq syu
+喝牛奶	haq ngeu na
+喝着	haq dzoq
+喝着	haq zyuq
+喝勒	haq laq
+喝進去	haq cin chi
+喝醉了	haq tsei lei
+喧譁	soe huo
+喧譁聲	soe huo shin
+喧譁與騷動	soe huo yu sau don
+喪假	saon cia
+喪家	saon cia
+喪家之犬	saon cia tsy chiu
+喪家狗	saon cia keu
+喪氣鬼	saon chi ciu
+喪生	saon sen
+喪魂失魄	saon wen syuq phaq
+喪魂落魄	saon wen loq phaq
+喬治一世	jiau dzyu iq syu
+喬治城大學	jiau dzyu jin da ghoq
+喬治奧威爾	jiau dzyu au uei er
+喬治華盛頓	jiau dzyu wo zhin ten
+單于	zoe yu
+單人	tae gnin
+單人房	tae gnin vaon
+單人牀	tae gnin zaon
+單人舞	tae gnin Wu
+單人間	tae gnin kae
+單位負責人	tae wei veu tsaq gnin
+單個	tae goq
+單傳	tae dzoe
+單元頻率	tae gniu bin liq
+單名數	tae min su
+單向行駛	tae shian yin sy
+單張	tae jian
+單張匯票	tae jian wei phiau
+單從	tae dzon
+單循環	tae zyun wae
+單循環賽制	tae zyun wae se tsyu
+單房差	tae vaon tsho
+單數	tae su
+單數形	tae su yin
+單槓	tae kaon
+單線行駛	tae shi yin sy
+單縣	zoe yu
+單行	tae yin
+單行本	tae yin pen
+單行法	tae yin faq
+單行線	tae yin shi
+單行道	tae yin dau
+單間	tae ci
+嗅覺	shieu ciuq
+嗅覺作用	shieu ciuq tsoq yon
+嗆了	chian laq
+嗆鼻	chian biq
+嗎哪	ma nha
+嗔斥	tshen chiq
+嗔着	tshen dzoq
+嗔着	tshen zyuq
+嗚啦	u la
+嗣歲	dzy sei
+嗤之以鼻	tshy tsy yi biq
+嗤笑	tshy shiau
+嗩吶	sou naq
+嗯啊	nk gha
+嗯啊	nk a
+嗯嗯	nk nk
+嘀咕	tiq ku
+嘀嘀咕咕	tiq tiq ku ku
+嘆了	thae laq
+嘈雜	dzau dzaq
+嘈雜聲	dzau dzaq shin
+嘉仁	cia zyun
+嘉南大圳	cia nEI da tsyun
+嘉南藥理科技大學	cia nEI yaq li khou ji da ghoq
+嘉應大學	cia in da ghoq
+嘉義人	cia gni gnin
+嘉言懿行	cia yi yi yin
+嘍囉	leu lou
+嘎啦	ga lha
+嘎拉哈	ga lha ha
+嘔鴉	eu ia
+嘗試錯誤學習	zaon sy tshou nu ghoq zyuq
+嘗試錯誤學習	zaon sy tshou nu ghoq zhiq
+嘟着嘴	tu dzoq tsyu
+嘟着嘴	tu zyuq tsyu
+嘩啦	hua lha
+嘩啦一聲	hua lha iq shin
+嘩啦啦	hua lha lha
+嘩啦聲	hua lha shin
+嘩喇	hua la
+嘩喇喇	hua la la
+嘩嘩	hua hua
+嘩嘩啦	hua hua lha
+嘩嘩啦啦	hua hua lha lha
+嘩嘩的	hua hua tiq
+嘩地	hua di
+嘩的	hua tiq
+嘩的一聲	hua tiq iq shin
+嘮叨	lau tau
+嘮嗑	lau khaq
+嘮嘮	lau lau
+嘮嘮叨叨	lau lau tau tau
+嘮扯	lau tsho
+嘰哩咕嚕	ci lhi ku lu
+嘰嘰咕咕	ci ci ku ku
+嘰裏呱啦	ci li kua lha
+嘰裏咕嚕	ci li ku lu
+嘻哈	shi ha
+嘻嘻哈哈	shi shi ha ha
+噎着	iq dzoq
+噎着	iq zyuq
+噓寒問暖	shiu ghEI ven noe
+噗嗤	phoq tshy
+噗嗤一聲	phoq tshy iq shin
+噙齒戴髮	jin tshy ta faq
+噢噢	au au
+器宇軒昂	chi yu shi ngaon
+器材	chi dze
+器材店	chi dze ti
+器材行	chi dze ghaon
+器樂	chi yuq
+噩耗傳來	ngoq hau dzOE le
+噩魚	ngoq ng
+噪雜	tshau dzaq
+噴上去	phen zaon chi
+噴下去	phen gho chi
+噴落去	phen loq chi
+噴出去	phen tshyuq chi
+噴噴水	phen phen syu
+噴水	phen syu
+噴水壺	phen syu wu
+噴水孔	phen syu khon
+噴水池	phen syu dzy
+噴水池	phen syu ji
+噴濺	phen ci
+噴灑着	phen sa dzoq
+噴灑着	phen sa zyuq
+噴着	phen dzoq
+噴着	phen zyuq
+噴鼻息	phen biq shiq
+嚇不了	haq paq liau
+嚇了	haq laq
+嚇了一跳	haq laq iq thiau
+嚇人	haq gnin
+嚇來嚇去	haq le haq chi
+嚇壞	haq wa
+嚇死	haq sy
+嚇死人	haq sy gnin
+嚇煞	haq saq
+嚇煞死	haq saq shi
+嚇煞人	haq saq gnin
+嚇着	haq dzoq
+嚇着	haq zyuq
+嚎啕大哭	ghau dau da khoq
+嚐了	zaon laq
+嚐來嚐去	zaon le zaon chi
+嚐個	zaon goq
+嚥下去	i gho chi
+嚥落去	i loq chi
+嚥不了	i paq liau
+嚥了	i laq
+嚥唾	i thu
+嚥着	i dzoq
+嚥着	i zyuq
+嚴加	gni cia
+嚴加戒備	gni cia ka bei
+嚴加管教	gni cia kun ciau
+嚴加防範	gni cia vaon vae
+嚴家淦	gni cia kI
+嚴斥	gni chiq
+嚴於	gni yu
+嚴於律己	gni yu liq ci
+嚴格執行	gni kaq ciq yin
+嚴謹	gni cin
+嚴謹性	gni cin shin
+嚴重問題	gni dzon ven di
+嚴重破壞	gni dzon phou wa
+嚷出去	gnian tshyuq chi
+嚷着	gnian dzoq
+嚷着	gnian zyuq
+嚼不了	zhiaq paq liau
+嚼舌自盡	zhiaq zhiq zy jin
+囂浮	shiau vu
+囂雜	shiau dzaq
+囉哩囉唆	lhou lhi lhou sou
+囉嗦	lhou sou
+囉嘍	lou leu
+囉囉唆唆	lhou lhou sou sou
+囉囉嗦嗦	lhou lhou sou sou
+囉囌	lhou su
+囚繫	jieu shi
+四一二	sy iq er
+四一二事變	sy iq er zy pi
+四一二反革命政變	sy iq er fae kaq min cin pi
+四世	sy syu
+四世同堂	sy syu don daon
+四世紀	sy syu ci
+四人	sy gnin
+四人份	sy gnin ven
+四人幫	sy gnin paon
+四仁	sy zyun
+四伏	sy voq
+四個人	sy goq gnin
+四個堅持	sy goq ci dzy
+四個字	sy goq zy
+四個月	sy goq yuq
+四個現代化	sy goq yi de huo
+四億人	sy i gnin
+四分	sy fen
+四分之	sy fen tsy
+四分之一	sy fen tsy iq
+四分之三	sy fen tsy sae
+四分之二	sy fen tsy er
+四分五裂	sy fen ng liq
+四分曆	sy fen liq
+四分法	sy fen faq
+四分衛	sy fen wei
+四分鐘	sy fen tson
+四分音符	sy fen in vu
+四十二章經	sy zyuq er tsaon cin
+四十歲	sy zyuq syu
+四千人	sy chi gnin
+四千個	sy chi goq
+四周圍	sy cieu wei
+四國銀行	sy koq gnin ghaon
+四國銀行團	sy koq gnin ghaon doe
+四大	sy da
+四大佛教名山	sy da vaq ciau min sae
+四大名著	sy da min tsyu
+四大塊	sy da khuei
+四大天王	sy da thi waon
+四大家族	sy da cia dzoq
+四大洲	sy da cieu
+四大片	sy da phi
+四大發明	sy da faq min
+四大皆空	sy da cie khon
+四大盆地	sy da ben di
+四大石窟	sy da zaq khoq
+四大美女	sy da mei gniu
+四大菩薩	sy da bu saq
+四大金剛	sy da cin kaon
+四川人	sy tshoe gnin
+四川大地震	sy tshoe da di tsyun
+四川大學	sy tshoe da ghoq
+四川師範大學	sy tshoe sy vae da ghoq
+四川師範學院	sy tshoe sy vae yuq yu
+四川日報	sy tshoe zyuq pau
+四川省	sy tshoe san
+四年制的大學	sy gni tsyu tiq da ghoq
+四年生	sy gni sen
+四度空間	sy du khon ci
+四房二廳	sy vaon gni thin
+四房兩廳	sy vaon lian thin
+四日市	sy zyuq zy
+四日市市	sy zyuq zy zy
+四更	sy kan
+四望	sy vaon
+四櫃	sy guei
+四歲	sy syu
+四歲時	sy syu zy
+四氫大麻酚	sy chin da mo fen
+四氯甲烷	sy loq ciaq wun
+四海一家	sy he iq cia
+四海之內皆兄弟	sy he tsy nei cie shion di
+四海爲家	sy he wei cia
+四海皆準	sy he cie tsyun
+四溢	sy iq
+四濺	sy ci
+四百人	sy paq gnin
+四百個	sy paq goq
+四眼魚	sy ngae ng
+四維空間	sy vi khon ci
+四腳朝天	sy ciaq jiau thi
+四萬人	sy vae gnin
+四萬個	sy vae goq
+四處張望	sy tshyu cian vaon
+四號電池	sy ghau di ji
+四行	sy ghaon
+四集	sy jiq
+四體不勤五穀不分	sy thi paq jin ng koq paq fen
+回不了	wei paq liau
+回不去	wei paq chi
+回了	wei laq
+回交	wei ciau
+回人	wei gnin
+回來吧	wei le pa
+回個	wei goq
+回傳	wei dzOE
+回到家	wei tau cia
+回去	wei chi
+回味	wei vi
+回報率	wei pau liq
+回孃家	wei gnian cia
+回家	wei cia
+回家吃自己	wei cia chioq zy ci
+回家樂	wei cia loq
+回家路	wei cia lu
+回家路上	wei cia lu zaon
+回家途中	wei cia du tson
+回家過年	wei cia kou gni
+回得去	wei taq chi
+回收率	wei shieu liq
+回教	wei ciau
+回教世界	wei ciau syu ka
+回教人	wei ciau gnin
+回教信徒	wei ciau shin du
+回教國	wei ciau koq
+回教帝國	wei ciau ti koq
+回教徒	wei ciau du
+回教聖戰	wei ciau shin ci
+回教聖戰	wei ciau shin tsoe
+回教開齋節	wei ciau khe tsa ciq
+回教黨	wei ciau taon
+回旋加速	wei zoe ko soq
+回族人	wei dzoq gnin
+回易	wei yiq
+回望	wei vaon
+回朝	wei jiau
+回潮率	wei jiau liq
+回狀	wei dzaon
+回生乏術	wei sen vaq zyuq
+回生起死	wei sen chi sy
+回着	wei dzoq
+回着	wei zyuq
+回答問題	wei taq ven di
+回老家	wei lau cia
+回背	wei pei
+回覆日期	wei foq zyuq ji
+回還	wei wae
+回防	wei vaon
+回頭率	wei deu liq
+回顧過去	wei ku kou chiu
+因人	in zyun
+因人成事	in zyun jin zy
+因人而異	in zyun er yi
+因公請假	in kon chin ko
+因小失大	in shiau syuq da
+因式分解	in shiq fen ka
+因式分解	in shiq fen cia
+因故未來	in ku mi le
+因數分解	in su fen ka
+因數分解	in su fen cia
+因於	in yu
+因日	in zyuq
+因日而異	in zyuq er yi
+因材	in dze
+因材施教	in dze sy ciau
+因病未來	in bin vi le
+因病請假	in bin chin ko
+因紐特人	in gnieu daq gnin
+因素分析	in su fen shiq
+囡仔	noe tsy
+困了	khuen laq
+困人	khuen gnin
+困圍	khuen wei
+困學	khuen yuq
+困惑不解	khuen ghoq paq ka
+困惑不解	khuen ghoq paq cia
+困於	khuen yu
+困死	khuen sy
+困知勉行	khuen tsyu mi yin
+困難在於	khuen nae dze yu
+固定利率	ku din li liq
+固定匯率	ku din wei liq
+固於	ku yu
+固有頻率	ku yeu bin liq
+囿於	yeu yu
+囿於一時	yeu yu iq zy
+囿於成見	yeu yu jin ci
+圈內人	chiu nei gnin
+圈外人	chiu nga gnin
+圈椅	chiu i
+圈狀物	chiu dzaon vaq
+圈裏人	chiu li gnin
+圉人	gniu gnin
+國一生	koq iq san
+國三生	koq sae san
+國中生	koq tson san
+國事訪問	koq zy faon ven
+國二	koq gni
+國二下	koq gni gho
+國二生	koq gni san
+國交	koq ciau
+國內戰爭	koq nei ci tsen
+國內戰爭	koq nei tsoe tsen
+國內最大	koq nei tsei da
+國內生產	koq nei sen tshae
+國內生產總值	koq nei sen tshae tson jiq
+國內著名	koq nei tsyu min
+國內貿易	koq nei meu yiq
+國分	koq fen
+國務部長	koq vu bu cian
+國務部長	koq Wu bu cian
+國務長官	koq vu cian kun
+國務長官	koq Wu cian kun
+國勢日衰	koq syu zyuq se
+國史大綱	koq sy da kaon
+國外貿易	koq nga meu yiq
+國大	koq da
+國大代表	koq da de piau
+國大黨	koq da taon
+國學	koq yuq
+國學常識	koq yuq dzaon shiq
+國學社	koq yuq dzo
+國定假日	koq din cia zyuq
+國定紀念日	koq din ci nE zyuq
+國家	koq cia
+國家一級	koq cia iq ciq
+國家一級保護	koq cia iq ciq pau wu
+國家主席	koq cia tsyu zhiq
+國家主權	koq cia tsyu jiu
+國家主義	koq cia tsyu gni
+國家代碼	koq cia de mo
+國家元首	koq cia gniu shieu
+國家公務員	koq cia kon vu yu
+國家公務員	koq cia kon Wu yu
+國家公園	koq cia kon yu
+國家利益	koq cia li iq
+國家制度	koq cia tsyu du
+國家化	koq cia huo
+國家圖書館	koq cia du syu kun
+國家地理	koq cia di li
+國家地震局	koq cia di tsyun jiuq
+國家基金	koq cia ci cin
+國家報	koq cia pau
+國家外匯管理局	koq cia nga wei kun li jiuq
+國家大事	koq cia da zy
+國家安全	koq cia EI dzoe
+國家安全局	koq cia EI dzoe jiuq
+國家安全會議	koq cia EI dzoe wei gni
+國家安全部	koq cia EI dzoe bu
+國家專利	koq cia tsoe li
+國家局	koq cia jiuq
+國家廣播電影電視總局	koq cia kuaon pou di in di zy tson jiuq
+國家形式	koq cia yin shiq
+國家性	koq cia shin
+國家戰略	koq cia ci liaq
+國家戰略	koq cia tsoe liaq
+國家所有制	koq cia so yeu tsyu
+國家政權	koq cia cin jiu
+國家政策	koq cia cin tshaq
+國家教委	koq cia ciau uei
+國家教育部	koq cia ciau yuq bu
+國家文物委員會	koq cia ven vaq uei yu wei
+國家文物局	koq cia ven vaq jiuq
+國家文物鑑定委員會	koq cia ven vaq ci din uei yu wei
+國家旅遊局	koq cia li yeu jiuq
+國家旅遊度假區	koq cia li yeu du cia chiu
+國家杯	koq cia pei
+國家棟梁	koq cia ton lian
+國家標準	koq cia piau tsyun
+國家標準中文交換碼	koq cia piau tsyun tson ven ciau wun mo
+國家標準化管理委員會	koq cia piau tsyun huo kun li uei yu wei
+國家標準碼	koq cia piau tsyun mo
+國家機器	koq cia ci chi
+國家機密	koq cia ci miq
+國家機構	koq cia ci keu
+國家機關	koq cia ci kuae
+國家權力	koq cia jiu liq
+國家權力機關	koq cia jiu liq ci kuae
+國家歌劇院	koq cia kou jiq yu
+國家民委	koq cia min uei
+國家氣象局	koq cia chi zhian jiuq
+國家法	koq cia faq
+國家法律	koq cia faq liq
+國家海洋局	koq cia he yan jiuq
+國家測繪局	koq cia tshaq wei jiuq
+國家漢辦	koq cia he bae
+國家火山公園	koq cia hou sae kon yu
+國家物價局	koq cia vaq ko jiuq
+國家環保總局	koq cia wae pau tson jiuq
+國家發展	koq cia faq ci
+國家發展	koq cia faq tsoe
+國家發展和改革委員會	koq cia faq ci wu ke kaq uei yu wei
+國家發展和改革委員會	koq cia faq tsoe wu ke kaq uei yu wei
+國家發展改革委	koq cia faq ci ke kaq uei
+國家發展改革委	koq cia faq tsoe ke kaq uei
+國家發展計劃委員會	koq cia faq ci ci waq uei yu wei
+國家發展計劃委員會	koq cia faq tsoe ci waq uei yu wei
+國家社會主義	koq cia dzo wei tsyu gni
+國家科學委員會	koq cia khou yuq uei yu wei
+國家稅	koq cia sei
+國家稅務局	koq cia sei vu jiuq
+國家稅務局	koq cia sei Wu jiuq
+國家積累	koq cia ciq lei
+國家級	koq cia ciq
+國家統一	koq cia thon iq
+國家統計局	koq cia thon ci jiuq
+國家經濟	koq cia cin ci
+國家經濟貿易委員會	koq cia cin ci meu yiq uei yu wei
+國家考試	koq cia khau sy
+國家至上	koq cia tsy zaon
+國家與革命	koq cia yu kaq min
+國家興亡	koq cia shin vaon
+國家航天局	koq cia ghaon thi jiuq
+國家航空公司	koq cia ghaon khon kon sy
+國家行政學院	koq cia yin cin yuq yu
+國家行政機關	koq cia yin cin ci kuae
+國家裁判	koq cia ze phun
+國家規定	koq cia kuei din
+國家規範	koq cia kuei vae
+國家計劃委員會	koq cia ci waq uei yu wei
+國家計委	koq cia ci uei
+國家語委	koq cia gniu uei
+國家財政	koq cia dze cin
+國家資本	koq cia tsy pen
+國家資本主義	koq cia tsy pen tsyu gni
+國家賠償	koq cia bei dzaon
+國家賠償	koq cia bei saon
+國家賠償法	koq cia bei dzaon faq
+國家賠償法	koq cia bei saon faq
+國家軍品貿易局	koq cia ciun phin meu yiq jiuq
+國家醫藥管理局	koq cia i yaq kun li jiuq
+國家重點	koq cia dzon ti
+國家重點學科	koq cia dzon ti yuq khou
+國家重點實驗室	koq cia dzon ti zyuq nE syuq
+國家銀行	koq cia gnin ghaon
+國家開發銀行	koq cia khe faq gnin ghaon
+國家隊	koq cia dei
+國家電力監管委員會	koq cia di liq kae kun uei yu wei
+國家電網公司	koq cia di maon kon sy
+國家預算	koq cia yu soe
+國家體委	koq cia thi uei
+國家體育總局	koq cia thi yuq tson jiuq
+國家黨	koq cia taon
+國慶大典	koq chin da ti
+國慶日	koq chin zyuq
+國教	koq ciau
+國教派	koq ciau pha
+國於	koq yu
+國會大廈	koq wei da gho
+國會議長	koq wei gni cian
+國有銀行	koq yeu gnin ghaon
+國朝	koq jiau
+國樂	koq yuq
+國樂團	koq yuq doe
+國樂家	koq yuq cia
+國樂社	koq yuq dzo
+國民中學	koq min tson ghoq
+國民外交	koq min nga ciau
+國民大會	koq min da wei
+國民大會代表	koq min da wei de piau
+國民學校	koq min ghoq yau
+國民小學	koq min shiau ghoq
+國民教育	koq min ciau yuq
+國民生活須知	koq min sen waq syu tsyu
+國民生產毛額	koq min sen tshae mau ngaq
+國民生產總值	koq min sen tshae tson jiq
+國民身分	koq min shin ven
+國民身分證	koq min shin ven cin
+國泰人壽	koq tha zyun zhieu
+國產品牌	koq tshae phin ba
+國畫家	koq wo cia
+國破家亡	koq phou cia vaon
+國立中央大學	koq liq tson ian da ghoq
+國立大學	koq liq da ghoq
+國立教育廣播電臺	koq liq ciau yuq kuaon pou di de
+國立臺北科技大學	koq liq de poq khou ji da ghoq
+國立首爾大學	koq liq shieu er da ghoq
+國策顧問	koq tshaq ku ven
+國華人壽	koq wo zyun zhieu
+國計民生	koq ci min sen
+國語日報	koq gniu zyuq pau
+國防	koq vaon
+國防利益	koq vaon li iq
+國防力量	koq vaon liq lian
+國防大學	koq vaon da ghoq
+國防委員	koq vaon uei yu
+國防委員會	koq vaon uei yu wei
+國防工業	koq vaon kon gniq
+國防役	koq vaon yuq
+國防教育	koq vaon ciau yuq
+國防現代化	koq vaon yi de huo
+國防生	koq vaon san
+國防科工委	koq vaon khou kon uei
+國防科技	koq vaon khou ji
+國防科技工業委員會	koq vaon khou ji kon gniq uei yu wei
+國防管理	koq vaon kun li
+國防管理學院	koq vaon kun li yuq yu
+國防語言學院	koq vaon gniu yi yuq yu
+國防論	koq vaon len
+國防費	koq vaon fi
+國防軍	koq vaon ciun
+國防部	koq vaon bu
+國防部長	koq vaon bu cian
+國防醫學	koq vaon i yuq
+國防醫學院	koq vaon i yuq yu
+國防預算	koq vaon yu soe
+國防體制	koq vaon thi tsyu
+國際事務	koq ci zy vu
+國際事務	koq ci zy Wu
+國際交流	koq ci ciau lieu
+國際人權標準	koq ci zyun jiu piau tsyun
+國際先進水平	koq ci shi cin sei bin
+國際兒童節	koq ci er don ciq
+國際公認	koq ci kon zyun
+國際分工體制	koq ci fen kon thi tsyu
+國際品牌	koq ci phin ba
+國際外交	koq ci nga ciau
+國際大循環	koq ci da zyun wae
+國際大赦	koq ci da so
+國際學舍	koq ci yuq so
+國際換日線	koq ci wun zyuq shi
+國際數學聯盟	koq ci su yuq li men
+國際文傳通訊社	koq ci ven dzOE thon shin dzo
+國際文教	koq ci ven ciau
+國際日期變更線	koq ci zyuq ji pi ken shi
+國際櫃	koq ci guei
+國際民間組織	koq ci min ci tsu ciq
+國際水準	koq ci sei tsyun
+國際清算銀行	koq ci chin soe gnin ghaon
+國際牌	koq ci ba
+國際競爭	koq ci jin tsen
+國際米蘭足球俱樂部	koq ci mi lae tsoq jieu jiu loq bu
+國際著名	koq ci tsyu min
+國際貿易	koq ci meu yiq
+國際關係學院	koq ci kuae shi yuq yu
+國難方殷	koq nae faon in
+國難日	koq nae zyuq
+圍上去	wei zaon chi
+圍上去	yu zaon chi
+圍下去	wei gho chi
+圍落去	wei loq chi
+圍了	wei laq
+圍了	yu laq
+圍事	wei zy
+圍住	wei dzyu
+圍兜	wei teu
+圍兜兜	wei teu teu
+圍剿	wei jiau
+圍包	wei pau
+圍嘴	wei tsyu
+圍困	wei khuen
+圍困在	wei khuen dze
+圍在	wei dze
+圍坐	wei zou
+圍坐在	wei zou dze
+圍坐着	wei zou dzoq
+圍坐着	wei zou zyuq
+圍坐的	wei zou tiq
+圍城	wei jin
+圍城打援	wei jin tan yu
+圍堰	wei i
+圍場	wei jian
+圍場滿族蒙古族自治縣	wei jian mun dzoq mon ku dzoq zy dzyu yu
+圍場縣	wei jian yu
+圍堵	wei tu
+圍墾	wei khen
+圍子	wei tsy
+圍屏	wei bin
+圍巖	wei ngae
+圍得	wei taq
+圍成	wei jin
+圍捕	wei bu
+圍擊	wei ciq
+圍擒	wei jin
+圍攏	wei lon
+圍攏過來	wei lon kou le
+圍攻	wei kon
+圍桌	wei tsoq
+圍棋賽	wei ji se
+圍標	wei piau
+圍欄	wei lae
+圍殲	wei ci
+圍毆	wei eu
+圍爐	wei lu
+圍的	wei tiq
+圍看	wei khI
+圍着	wei dzoq
+圍着	wei zyuq
+圍籬	wei li
+圍繞	wei gniau
+圍繞在	wei gniau dze
+圍繞着	wei gniau dzoq
+圍繞着	wei gniau zyuq
+圍繞勒	wei gniau laq
+圍聚	wei zyu
+圍脖	wei baq
+圍裙帶	wei jiun ta
+圍視	wei zy
+圍觀	wei kun
+圍觀者	wei kun tse
+圍護	wei wu
+圍起	wei chi
+圍起來	wei chi le
+圍追	wei tsei
+圍追堵截	wei tsei tu jiq
+圍過來	wei kou le
+圍過去	wei kou chi
+圍靠	wei khau
+圍靠在	wei khau dze
+圍魏救趙	wei wei cieu jiau
+園藝學	yu gni yuq
+園藝家	yu gni cia
+園長	yu cian
+圓了	yu laq
+圓周率	yu cieu liq
+圓板狀	yu pae dzaon
+圓柱狀	yu dzyu dzaon
+圓溜溜	yu lieu lieu
+圓睜	yu tsen
+圓筒狀	yu don dzaon
+圓覺經	yu ciuq cin
+圓錐狀	yu tsei dzaon
+圓面大耳	yu mi da er
+圖像用戶介面	du zhian yon wu cia mi
+圖利他人	du li tha zyun
+圖拉	du lha
+圖文並茂	du ven bin mau
+圖書館學	du syu kun yuq
+圖爾	du er
+圖爾庫	du er khu
+圖盧茲	du lu tsy
+圖解	du cia
+圖解法	du cia faq
+圖解說明	du cia syuq min
+圖阿雷格	du a lei kaq
+圖集	du jiq
+團圍	doe wei
+團圓日	doe yu zyuq
+團團圍住	doe doe wei dzyu
+團日	doe zyuq
+團牌	doe ba
+團狀	doe dzaon
+團行	doe yin
+團長	doe cian
+團體行	doe thi yin
+團體行動	doe thi yin don
+團魚	doe ng
+土人	thu gnin
+土參	thu sen
+土味十足	thu vi zyuq tsoq
+土地銀行	thu di gnin ghaon
+土壤微生	thu gnian vi sen
+土壤微生物	thu gnian vi sen vaq
+土壤水	thu gnian syu
+土壤膠體	thu gnian ciau thi
+土家族	thu cia dzoq
+土專家	thu tsoe cia
+土崩瓦解	thu pon ngo ka
+土崩瓦解	thu pon ngo cia
+土庫曼人	thu khu mae gnin
+土拉弗氏菌	thu lha faq zy chiun
+土拉河	thu lha ghou
+土曜日	thu yau zyuq
+土木工程學系	thu moq kon jin yuq shi
+土法生產	thu faq sen tshae
+土爾其斯坦	thu er ji sy thae
+土牛	thu ngeu
+土牛木馬	thu ngeu moq mo
+土生	thu sen
+土生土長	thu sen thu cian
+土穀祠	thu koq dzy
+土耳其	thu er ji
+土耳其人	thu er ji gnin
+土耳其旋轉烤肉	thu er ji zoe tsoe khau gnioq
+土耳其浴	thu er ji yuq
+土耳其語	thu er ji gniu
+土耳其進行曲	thu er ji cin yin chiuq
+土著	thu tsyu
+土著人	thu tsyu gnin
+土衛二	thu wei gni
+在一定範圍內	dze iq din vae wei nei
+在世	dze syu
+在世界上	dze syu ka zaon
+在世界範圍內	dze syu ka vae wei nei
+在乎	dze fu
+在乎你	dze fu gni
+在你身邊	dze gni shin pi
+在你面前	dze gni mi zhi
+在傳輸過程中	dze dzOE syu kou jin tson
+在全國範圍	dze dzoe koq vae wei
+在全國範圍內	dze dzoe koq vae wei nei
+在全省範圍內	dze dzoe san vae wei nei
+在兩個	dze lian goq
+在哪	dze nha
+在大多數情況下	dze da tou su jin huaon gho
+在天願做比翼鳥	dze thi gniu tsou pi yiq gniau
+在學	dze ghoq
+在學生	dze ghoq san
+在家	dze cia
+在家人	dze cia gnin
+在家修	dze cia shieu
+在家出家	dze cia tshyuq cia
+在家千日好出門一時難	dze cia chi zyuq hau tshyuq men iq zy nae
+在家千日好出門一時難	dze cia chi gniq hau tshyuq men iq zy nae
+在家靠父母出外靠朋友	dze cia khau vu meu tshyuq nga khau ban yeu
+在教	dze ciau
+在於	dze yu
+在日常生活中	dze zyuq dzaon sen waq tson
+在望	dze vaon
+在朝	dze jiau
+在未來	dze vi le
+在校學生	dze yau ghoq san
+在校生	dze yau san
+在水裏	dze syu li
+在營休假	dze yin shieu cia
+在生	dze sen
+在生活中	dze sen waq tson
+在範圍內	dze vae wei nei
+在網吧	dze maon pa
+在線人數	dze shi gnin su
+在職人員	dze ciq zyun yu
+在訴訟期間	dze su dzon ji ci
+在這期間	dze tsyuq ji ci
+在酒吧	dze cieu pa
+地下核爆炸	di gho ghaq bau tso
+地下水	di gho syu
+地下水位	di gho syu wei
+地下水面	di gho syu mi
+地主分子	di tsyu ven tsy
+地主家庭	di tsyu cia din
+地久天長	di cieu thi jian
+地利人和	di li zyun ghou
+地勤人員	di jin zyun yu
+地區差價	di chiu tsho ko
+地圖集	di du jiq
+地址解析協議	di tsy ka shiq yaq gni
+地址解析協議	di tsy cia shiq yaq gni
+地大物博	di da vaq poq
+地大物豐	di da vaq fon
+地學	di yuq
+地層學	di zen yuq
+地峽	di yaq
+地幹吧	di kI pa
+地廣人稀	di kuaon zyun shi
+地拉那	di lha nha
+地政事務所	di cin zy vu so
+地方分權	di faon fen jiu
+地方自治	di faon zy dzyu
+地毯式轟炸	di thae shiq hon tso
+地球上的生物	di jieu zaon tiq sen vaq
+地球人	di jieu gnin
+地球化學	di jieu huo yuq
+地球大氣	di jieu da chi
+地球日	di jieu zyuq
+地球物理學	di jieu vaq li yuq
+地球科學	di jieu khou yuq
+地理學	di li yuq
+地理學家	di li yuq cia
+地產大亨	di tshae da han
+地畝	di meu
+地窖	di ciau
+地窖子	di ciau tsy
+地緣政治學	di yu cin dzyu yuq
+地老天荒不了情	di lau thi huaon paq liau jin
+地表水	di piau syu
+地被	di bei
+地裏鬼	di li ciu
+地質學	di ciq yuq
+地質學家	di ciq yuq cia
+地震	di tsyun
+地震中	di tsyun tson
+地震儀	di tsyun gni
+地震區	di tsyun chiu
+地震學	di tsyun yuq
+地震學家	di tsyun yuq cia
+地震局	di tsyun jiuq
+地震帶	di tsyun ta
+地震波	di tsyun pou
+地震活動帶	di tsyun waq don ta
+地震烈度	di tsyun liq du
+地震預報	di tsyun yu pau
+地靈人傑	di lin zyun jiq
+地面核爆炸	di mi ghaq bau tso
+地面水	di mi syu
+均分	ciun fen
+均日照	ciun zyuq ciau
+均未	ciun vi
+均被	ciun bei
+坊間	faon ci
+坌集	ben jiq
+坎兒井	khae er cin
+坎培拉	khae bei lha
+坎大哈	khae da ha
+坎大哈省	khae da ha san
+坎帕拉	khae phaq lha
+坎德拉	khae taq lha
+坎特伯雷大主教	khae daq paq lei da tsyu ciau
+坎貝爾	khae pei er
+坎貝爾侏儒倉鼠	khae pei er tsyu zyu tshaon tshyu
+坐上去	zou zaon chi
+坐下去	zou gho chi
+坐落去	zou loq chi
+坐了	zou laq
+坐大	zou da
+坐懷不亂	zou wa paq loe
+坐椅	zou i
+坐着	zou dzoq
+坐着	zou zyuq
+坐的	zou tiq
+坐船去	zou ZOE chi
+坐言起行	zou yi chi ghan
+坐車去	zou tsho chi
+坐領乾薪	zou lin kI shin
+坑人	khan gnin
+坦博拉	thae poq lha
+坦率	thae saq
+坦白從寬	thae baq dzon khun
+坦胸露背	thae shion lu pei
+垂下去	zei gho chi
+垂落去	zei loq chi
+垂了	zei laq
+垂了下來	zei laq gho le
+垂了下去	zei laq gho chi
+垂問	zei ven
+垂懸分詞	zei yu fen dzy
+垂教	zei ciau
+垂於	zei yu
+垂於將來	zei yu cian le
+垂死	zei sy
+垂死掙扎	zei sy tsen tsaq
+垂死者	zei sy tse
+垂涎	zei yi
+垂涎三尺	zei yi sae tshaq
+垂涎欲滴	zei yi yuq tiq
+垂淚	zei lei
+垂直和短距起落飛機	zei jiq ghou toe jiu chi loq fi ci
+垂直平分	zei jiq bin fen
+垂直平分線	zei jiq bin fen shi
+垂直於	zei jiq yu
+垂着	zei dzoq
+垂着	zei zyuq
+垂勒	zei laq
+垂的	zei tiq
+垂着頭	zei dzoq deu
+垂着頭	zei zyuq deu
+垂勒頭	zei laq deu
+頭垂的	deu zei tiq
+垂範百世	zei vae paq syu
+垃圾回收	la shi wei shieu
+垃圾堆	la shi tei
+垃圾場	la shi jian
+垃圾工	la shi kon
+垃圾桶	la shi don
+垃圾筒	la shi don
+垃圾箱	la shi shian
+垃圾股	la shi ku
+垃圾處理	la shi tshyu li
+垃圾蟲	la shi dzon
+垃圾車	la shi tsho
+垃圾郵件	la shi yeu ji
+垃圾電郵	la shi di yeu
+垃圾回收	laq saq wei shieu
+垃圾堆	laq saq tei
+垃圾場	laq saq jian
+垃圾工	laq saq kon
+垃圾桶	laq saq don
+垃圾筒	laq saq don
+垃圾箱	laq saq shian
+垃圾股	laq saq ku
+垃圾處理	laq saq tshyu li
+垃圾蟲	laq saq dzon
+垃圾車	laq saq tsho
+垃圾郵件	laq saq yeu ji
+垃圾電郵	laq saq di yeu
+型材	yin dze
+型狀	yin dzaon
+型糖尿病	yin daon gniau bin
+垛口	to kheu
+垛堞	to diaq
+垛子	to tsy
+垮下	khua gho
+垮下來	khua gho le
+垮落來	khua loq le
+垮下去	khua gho chi
+垮落去	khua loq chi
+垮了	khua laq
+垮向	khua shian
+垮在	khua dze
+垮塌	khua thaq
+垮得	khua taq
+垮成	khua jin
+垮掉	khua diau
+垮臺	khua de
+埃克托	e khaq thoq
+埃利斯島	e li sy tau
+埃博拉病毒	e poq lha bin doq
+埃及	e jiq
+埃及人	e jiq gnin
+埃及古文	e jiq ku ven
+埃及古物學	e jiq ku vaq yuq
+埃及古物學者	e jiq ku vaq yuq tse
+埃及文	e jiq ven
+埃及曆	e jiq liq
+埃及歷史	e jiq liq sy
+埃及豔后	e jiq yi gheu
+埃及館	e jiq kun
+埃因霍溫	e in hoq uen
+埃塔	e thaq
+埃塞俄比亞	e saq ngou pi ia
+埃塞俄比亞語	e saq ngou pi ia gniu
+埃夫伯里	e fu paq li
+埃奧羅斯	e au lou sy
+埃居	e ciu
+埃布羅	e pu lou
+埃布羅河	e pu lou ghou
+埃弗頓	e faq ten
+埃德加	e taq cia
+埃德加愛倫坡	e taq cia e len phou
+埃德加斯諾	e taq cia sy noq
+埃德蒙頓	e taq mon ten
+埃拉特	e lha daq
+埃敘	e zyu
+埃文	e ven
+埃文斯	e ven sy
+埃文河畔斯特拉特福	e ven ghou bun sy daq lha daq foq
+埃斯庫多	e sy khu tou
+埃斯庫羅斯	e sy khu lou sy
+埃斯特哈齊	e sy daq ha ji
+埃斯特朗	e sy daq laon
+埃森	e sen
+埃森哲	e sen ciq
+埃森納赫	e sen naq haq
+埃涅阿斯	e gniaq a sy
+埃涅阿斯紀	e gniaq a sy ci
+埃爾	e er
+埃爾南德斯	e er nEI taq sy
+埃爾多安	e er tou EI
+埃爾帕索	e er phaq soq
+埃爾朗根	e er laon ken
+埃爾朗根綱領	e er laon ken kaon lin
+埃爾福特	e er foq daq
+埃爾維斯普雷斯利	e er vi sy phu lei sy li
+埃爾金	e er cin
+埃爾金大理石	e er cin da li zaq
+埃特納火山	e daq naq hou sae
+埃琳娜	e lin na
+埃米爾	e mi er
+埃菲爾鐵塔	e fi er thiq thaq
+埃託奧	e thoq au
+埃迪卡拉	e diq kha lha
+埃迪卡拉紀	e diq kha lha ci
+埃里克森	e li khaq sen
+埃里溫	e li uen
+埋下去	ma gho chi
+埋下去	mAE gho chi
+埋落去	ma loq chi
+埋落去	mAE loq chi
+埋了	ma laq
+埋了	mAE laq
+埋伏	mAE voq
+埋名	mAE min
+埋單	ma tae
+埋天怨地	ma thi iu di
+埋怨起來	ma iu chi le
+埋沒人才	ma maq zyun dze
+埋沒人才	mAE maq zyun dze
+城市交通	jin zy ciau thon
+城市國家	jin zy koq cia
+城市生活	jin zy sen waq
+城步苗族自治縣	jin bu miau dzoq zy dzyu yu
+城鄉差距	jin shian tsha jiu
+城鎮化水平	jin tsyun huo sei bin
+城防	jin vaon
+城防工事	jin vaon kon zy
+域名交易	yuq min ciau yiq
+域名解析	yuq min ka shiq
+域名解析	yuq min cia shiq
+執教	ciq ciau
+執法人員	ciq faq zyun yu
+執牛耳	ciq gnieu er
+執牛耳	ciq ngeu er
+執着	ciq dzoq
+執着性	ciq dzoq shin
+執筆人	ciq piq gnin
+執行	ciq yin
+執行主席	ciq yin tsyu zhiq
+執行人	ciq yin gnin
+執行力	ciq yin liq
+執行官	ciq yin kun
+執行情況	ciq yin jin huaon
+執行指揮官	ciq yin tsy huei kun
+執行者	ciq yin tse
+執行董事	ciq yin ton zy
+執行起來	ciq yin chi le
+執行過程	ciq yin kou jin
+執行長	ciq yin cian
+執行面	ciq yin mi
+培訓學校	bei shiun ghoq yau
+培訓教材	bei shiun ciau dze
+培養人才	bei ian zyun dze
+培養學生	bei ian ghoq san
+基加利	ci cia li
+基因學	ci in yuq
+基層人員	ci zen zyun yu
+基層人民	ci zen zyun min
+基層人民法院	ci zen zyun min faq yu
+基層單位	ci zen tae wei
+基布茲	ci pu tsy
+基拉韋厄	ci lha wei aq
+基於	ci yu
+基本利率	ci pen li liq
+基本單位	ci pen tae wei
+基本學科	ci pen yuq khou
+基本教育	ci pen ciau yuq
+基本生產	ci pen sen tshae
+基本矛盾	ci pen mau den
+基本覈算單位	ci pen ghaq soe tae wei
+基桑加尼	ci saon cia gni
+基準利率	ci tsyun li liq
+基準日	ci tsyun zyuq
+基爾	ci er
+基爾庫克	ci er khu khaq
+基督學院	ci toq yuq yu
+基督教	ci toq ciau
+基督教徒	ci toq ciau du
+基督教會	ci toq ciau wei
+基督教民主聯盟	ci toq ciau min tsyu li men
+基督教派	ci toq ciau pha
+基督教科學派	ci toq ciau khou yuq pha
+基督新教	ci toq shin ciau
+基礎問題	ci tshu ven di
+基礎教育	ci tshu ciau yuq
+基礎科學	ci tshu khou yuq
+基礎速率	ci tshu soq liq
+基里巴斯共和國	ci li po sy gon ghou koq
+基隆人	ci lon gnin
+堂伯叔	daon paq soq
+堂妹	daon mei
+堂姐妹	daon cia mei
+堅守自盜	ci shieu zy dau
+堅持	ci dzy
+堅持下去	ci dzy gho chi
+堅持落去	ci dzy loq chi
+堅持不下	ci dzy paq gho
+堅持不懈	ci dzy paq ye
+堅持不懈	ci dzy paq ya
+堅持不渝	ci dzy paq yu
+堅持到底	ci dzy tau ti
+堅持己見	ci dzy ci ci
+堅持着	ci dzy dzoq
+堅持着	ci dzy zyuq
+堅持勒	ci dzy laq
+堅持走	ci dzy tseu
+堅甲利兵	ci ciaq li pin
+堆上去	tei zaon chi
+堆了	tei laq
+堆來堆去	tei le tei chi
+堆着	tei dzoq
+堆着	tei zyuq
+堆的	tei tiq
+堆過去	tei kou chi
+堤圍	di wei
+堤拉米蘇	di lha mi su
+堤防	di vaon
+堪培拉	khae bei lha
+堪察加	khae tshaq cia
+堪察加半島	khae tshaq cia pun tau
+堪爲表率	khae wei piau saq
+堪輿家	khae yu cia
+堯天舜日	gniau thi syun zyuq
+報上去	pau zaon chi
+報價單	pau ko tae
+報償	pau dzaon
+報出去	pau tshyuq chi
+報分	pau fen
+報分數	pau fen su
+報刊雜誌	pau khae dzaq tsy
+報名人數	pau min gnin su
+報名參加	pau min tshae ko
+報名單	pau min tae
+報名時間	pau min zy ci
+報告文學	pau kau ven yuq
+報單	pau tae
+報架	pau ko
+報業集團	pau gniq jiq doe
+報稅單	pau sei tae
+報章雜誌	pau tsaon dzaq tsy
+報紙雜誌	pau tsy dzaq tsy
+報考人	pau khau gnin
+報酬率	pau jieu liq
+報錄人	pau loq gnin
+報關單	pau kuae tae
+報關行	pau kuae ghaon
+場地自行車	jian di zy yin tsho
+場長	jian cian
+場麪人	jian mi gnin
+堵上	tu zaon
+堵住	tu dzyu
+堵到	tu tau
+堵口	tu kheu
+堵嘴	tu tsyu
+堵在	tu dze
+堵塞	tu saq
+堵塞費	tu saq fi
+堵心	tu shin
+堵截	tu jiq
+堵擊	tu ciq
+堵死	tu sy
+堵着	tu dzoq
+堵着	tu zyuq
+堵勒	tu laq
+堵起	tu chi
+堵起來	tu chi le
+堵車	tu tsho
+堵門	tu men
+塊狀	khuei dzaon
+塌下去	thaq gho chi
+塌落去	thaq loq chi
+塌架	thaq ko
+塌鼻	thaq biq
+塌鼻子	thaq biq tsy
+塑膠	soq ciau
+塑膠套	soq ciau thau
+塑膠工業	soq ciau kon gniq
+塑膠布	soq ciau pu
+塑膠杯	soq ciau pei
+塑膠板	soq ciau pae
+塑膠片	soq ciau phi
+塑膠球	soq ciau jieu
+塑膠瓶	soq ciau bin
+塑膠管	soq ciau kun
+塑膠紙	soq ciau tsy
+塑膠袋	soq ciau de
+塑膠製	soq ciau tsyu
+塑膠跑道	soq ciau bau dau
+塑膠體	soq ciau thi
+塔什庫爾干自治縣	thaq zyuq khu er kI zy dzyu yu
+塔什庫爾干鄉	thaq zyuq khu er kI shian
+塔克拉瑪干	thaq khaq lha ma kI
+塔克拉瑪干沙漠	thaq khaq lha ma kI so moq
+塔克拉馬干	thaq khaq lha ma kI
+塔加路族語	thaq cia lu dzoq gniu
+塔吉克人	thaq ciq khaq gnin
+塔吉克共和國	thaq ciq khaq gon ghou koq
+塔塔兒	thaq thaq er
+塔塔兒人	thaq thaq er zyun
+塔塔爾	thaq thaq er
+塔塔爾族	thaq thaq er dzoq
+塔娜蘇甘	thaq na su kI
+塔拉瓦	thaq lha ngo
+塔爾寺	thaq er zy
+塔爾巴哈臺	thaq er po ha de
+塔瑪爾	thaq ma er
+塗了	du laq
+塗來塗去	du le du chi
+塗去	du chi
+塗家	du cia
+塗炭生靈	du thae sen lin
+塗着	du dzoq
+塗着	du zyuq
+塗的	du tiq
+塗膠	du ciau
+塗過去	du kou chi
+塗鴉	du ia
+塗鴉區	du ia chiu
+塗鴨	du aq
+塞內加爾	se nei cia er
+塞拉利昂	se lha li ngaon
+塞爾	se er
+塞爾南	se er nEI
+塞爾提克	se er di khaq
+塞爾提克隊	se er di khaq dei
+塞爾特	se er daq
+塞爾特語	se er daq gniu
+塞爾維亞	se er vi ia
+塞爾維亞克羅地亞語	se er vi ia khaq lou di ia gniu
+塞爾維亞和黑山	se er vi ia ghou haq sae
+塞爾維亞民主黨	se er vi ia min tsyu taon
+塞爾維亞語	se er vi ia gniu
+塞爾蒂克	se er ti khaq
+塞爾蒂克隊	se er ti khaq dei
+塞瓦斯托波爾	se ngo sy thoq pou er
+塞耳	se er
+塞舌爾	se zhiq er
+塞舌爾羣島	se zhiq er jiun tau
+塞進去	saq cin chi
+填上去	di zaon chi
+填了	di laq
+填來填去	di le di chi
+填個	di goq
+填堵	di tu
+填着	di dzoq
+填着	di zyuq
+填過去	di kou chi
+填鴨	di aq
+填鴨式	di aq shiq
+塵世	jin syu
+塵埃	jin e
+塵埃落定	jin e loq din
+墊上去	di zaon chi
+墊下去	di gho chi
+墊落去	di loq chi
+墊了	di laq
+墊個	di goq
+墊出去	di tshyuq chi
+墊着	di dzoq
+墊着	di zyuq
+墊背	di pei
+墊過去	di kou chi
+墜下	dzei gho
+墜下來	dzei gho le
+墜下去	dzei gho chi
+墜落去	dzei loq chi
+墜入	dzei zyuq
+墜入愛河	dzei zyuq e ghou
+墜地	dzei di
+墜子	dzei tsy
+墜樓	dzei leu
+墜機	dzei ci
+墜機身亡	dzei ci shin vaon
+墜毀	dzei huei
+墜海	dzei he
+墜落	dzei loq
+墜落在	dzei loq dze
+墜馬	dzei mo
+墜體	dzei thi
+增加	tsen ko
+增加值	tsen ko jiq
+增加兩倍	tsen ko lian bei
+增加到	tsen ko tau
+增加法	tsen ko faq
+增加率	tsen ko liq
+增加量	tsen ko lian
+增大	tsen da
+增殖率	tsen jiq liq
+增生	tsen sen
+增長	tsen cian
+增長到	tsen cian tau
+增長天	tsen cian thi
+增長幅度	tsen cian foq du
+增長方式	tsen cian faon shiq
+增長率	tsen cian liq
+增長速度	tsen cian soq du
+增長點	tsen cian ti
+增防	tsen vaon
+墨家	moq cia
+墨斗魚	moq teu ng
+墨水匣	moq sei ghaq
+墨水瓶	moq syu bin
+墨水瓶架	moq sei bin ko
+墨江哈尼族自治縣	moq kaon ha gni dzoq zy dzyu yu
+墨沈	moq shin
+墨爾本	moq er pen
+墨西哥人	moq shi kou gnin
+墨西拿	moq shi na
+墨西拿海峽	moq shi na he yaq
+墨跡未乾	moq ciq mi kI
+墨魚	moq ng
+墨鴉	moq o
+墨鴨	moq aq
+墾丁國家公園	khen tin koq cia kon yu
+壁壘分明	piq lei fen min
+壁架	piq ko
+壁櫃	piq guei
+壓下去	aq gho chi
+壓落去	aq loq chi
+壓出去	aq tshyuq chi
+壓力大	aq liq dou
+壓力降	aq liq ciaon
+壓回去	aq wei chi
+壓埋	aq mAE
+壓壞	aq wa
+壓寨夫人	aq za fu gnin
+壓抑着	aq iq dzoq
+壓抑着	aq iq zyuq
+壓抑勒	aq iq laq
+壓歲	aq syu
+壓歲錢	aq syu ji
+壓死	aq sy
+壓煞	aq saq
+壓煞死	aq saq shi
+壓着	aq dzoq
+壓着	aq zyuq
+壓縮餅乾	aq soq pin kI
+壓進去	aq cin chi
+壘上有人	lei zaon yeu gnin
+壘上無人	lei zaon vu gnin
+壘上無人	lei zaon Wu gnin
+壞主意	ua tsyu i
+壞了	wa lei
+壞了	wa laq
+壞掉了	wa diau lei
+壞了性命	wa laq shin min
+壞事	ua zy
+壞事體	ua zy thi
+壞人	ua gnin
+壞人壞事	ua gnin ua zy
+壞傢伙	ua cia hou
+壞分子	ua fen tsy
+壞女人	ua gniu gnin
+壞帳	ua cian
+壞得	ua taq
+壞心	ua shin
+壞心眼	ua shin ngae
+壞心腸	ua shin jian
+壞惡	ua oq
+壞掉	wa diau
+壞於	wa yu
+壞東西	ua ton shi
+壞死	wa sy
+壞水	wa syu
+壞球	ua jieu
+壞男人	ua nEI gnin
+壞疽	wa tsyu
+壞的	wa tiq
+壞個	ua goq
+壞個	ua ghoq
+壞種	ua tson
+壞習慣	ua zhiq kuae
+壞脾氣	ua bi chi
+壞良心	ua lian shin
+壞血病	wa shiuq bin
+壞血酸	wa shiuq soe
+壞話	ua wo
+壟斷行業	lon doe ghaon gniq
+壟斷集團	lon doe jiq doe
+壟畝	lon meu
+士人	zy zyun
+士別三日	zy biq sae zyuq
+士別多日	zy biq tou zyuq
+士力架	zy liq cia
+士大夫	zy da fu
+士學位	zy yuq wei
+士官長	zy kun cian
+士爲知己者死	zy wei tsyu ci tse sy
+壯圍	tsaon wei
+壯圍鄉	tsaon wei shian
+壯大	tsaon da
+壯大聲勢	tsaon da shin syu
+壯年人	tsaon gni gnin
+壯志未酬	tsaon tsy vi jieu
+壯志未酬身先死	tsaon tsy vi jieu shin shi sy
+壯懷	tsaon wa
+壯懷激烈	tsaon wa ciq liq
+壯烈成仁	tsaon liq jin zyun
+壯烈犧牲	tsaon liq shi sen
+壯盛	tsaon zhin
+壹個人	iq goq gnin
+壺狀	wu dzaon
+壽險責任準備金	zhieu shi tsaq zyun tsyun bei cin
+夏令時間	gho lin zy ci
+夏令衛生	gho lin wei sen
+夏娃	gho ua
+夏敬渠	gho cin jiu
+夏日	gho zyuq
+夏日裏	gho zyuq li
+夏朝	gho jiau
+夏爾巴人	gho er pa gnin
+夏王朝	gho waon jiau
+夏禹治水	gho yu dzyu syu
+夏禹治水	gho gniu dzyu syu
+夏蟲朝菌	gho dzon ciau chiun
+夏長	gho jian
+夔峽	guei yaq
+外交	nga ciau
+外交事務	nga ciau zy vu
+外交事務	nga ciau zy Wu
+外交代表	nga ciau de piau
+外交使節	nga ciau sy ciq
+外交史	nga ciau sy
+外交團	nga ciau doe
+外交大臣	nga ciau da jin
+外交學	nga ciau yuq
+外交學院	nga ciau yuq yu
+外交官	nga ciau kun
+外交家	nga ciau cia
+外交庇護	nga ciau pi wu
+外交手腕	nga ciau shieu un
+外交政策	nga ciau cin tshaq
+外交特權	nga ciau daq jiu
+外交界	nga ciau ka
+外交系	nga ciau shi
+外交辭令	nga ciau dzy lin
+外交途徑	nga ciau du cin
+外交部	nga ciau bu
+外交部長	nga ciau bu cian
+外交關係	nga ciau kuae shi
+外交關係理事會	nga ciau kuae shi li zy wei
+外交風波	nga ciau fon pou
+外人	nga gnin
+外來人	nga le gnin
+外來人口	nga le zyun kheu
+外來人員	nga le zyun yu
+外側裂周圍	nga tshaq liq cieu wei
+外傳	nga dzoe
+外出訪問	nga tshyuq faon ven
+外分泌	nga fen pi
+外分泌腺	nga fen pi shi
+外加	nga ko
+外加劑	nga ko ci
+外加附件	nga ko vu ji
+外務省	nga vu san
+外務省	nga Wu san
+外勤人員	nga jin zyun yu
+外匯交易	nga wei ciau yiq
+外匯兌換率	nga wei dei wun liq
+外匯匯率	nga wei wei liq
+外匯銀行	nga wei gnin ghaon
+外合裏差	nga ghaq li tsho
+外國專家	nga koq tsoe cia
+外國文學	nga koq ven yuq
+外圍	nga wei
+外圍地區	nga wei di chiu
+外圍設備	nga wei shiq bei
+外圍賽	nga wei se
+外太空	nga tha khon
+外奶奶	nga na na
+外學	nga yuq
+外家	nga cia
+外宿學生	nga soq ghoq san
+外寄生	nga ci sen
+外層空間	nga zen khon ci
+外強中乾	nga jian tson kI
+外後日	nga gheu gniq
+外教	nga ciau
+外族人	nga dzoq gnin
+外星人	nga shin gnin
+外星生命	nga shin sen min
+外架	nga ko
+外校學生	nga yau ghoq san
+外水	nga syu
+外溢	nga iq
+外生	nga sen
+外生殖器	nga sen jiq chi
+外甥	nga san
+外甥女	nga san gniu
+外甥女婿	nga san gniu shi
+外甥媳婦	nga san shiq vu
+外省	nga san
+外省人	nga san gnin
+外科學	nga khou yuq
+外科學系	nga khou yuq shi
+外科醫生	nga khou i san
+外籍人士	nga zhiq zyun zy
+外籍華人	nga zhiq wo gnin
+外耳	nga er
+外耳道	nga er dau
+外行人	nga ghaon gnin
+外行話	nga ghaon wo
+外資銀行	nga tsy gnin ghaon
+外賈	nga ku
+外邦人	nga paon gnin
+外鄉人	nga shian gnin
+外長	nga cian
+外防	nga vaon
+外高加索	nga kau cia soq
+夙夜匪懈	soq ya fi ye
+夙夜匪懈	soq ya fi ya
+夙日	soq zyuq
+夙願以償	soq gniu yi dzaon
+多了	tou laq
+多交	tou kau
+多人	tou gnin
+多人聊天系統	tou gnin liau thi shi thon
+多任務	tou zyun vu
+多任務	tou zyun Wu
+多伊爾	tou i er
+多佛爾	tou vaq er
+多個	tou goq
+多元入學	tou gniu zyuq yuq
+多分	tou fen
+多加	tou ko
+多去	tou chi
+多吧	tou pa
+多哈	tou ha
+多哈回合	tou ha wei ghaq
+多問	tou men
+多喝水	tou haq syu
+多大	tou dou
+多大點事	tou dou ti zy
+多媒體雜誌	tou mei thi dzaq tsy
+多孔材料	tou khon dze liau
+多學科	tou yuq khou
+多家	tou cia
+多寶魚	tou pau ng
+多少人	tou shiau gnin
+多少分	tou shiau fen
+多少時間	tou shiau zy ci
+多層大廈	tou zen da gho
+多層材	tou zen dze
+多年未見	tou gni vi ci
+多年生	tou gni sen
+多年生植物	tou gni sen jiq vaq
+多快好省	tou khua hau san
+多拉	tou lha
+多教	tou ciau
+多數人	tou su gnin
+多於	tou yu
+多日	tou zyuq
+多日不見	tou zyuq paq ci
+多日未見	tou zyuq vi ci
+多日賽	tou zyuq se
+多明尼加	tou min gni cia
+多明尼加共和國	tou min gni cia gon ghou koq
+多未	tou vi
+多歲	tou syu
+多民族國家	tou min dzoq koq cia
+多水分	tou syu fen
+多渠道	tou jiu dau
+多爾	tou er
+多產作家	tou tshae tsoq cia
+多神教	tou zyun ciau
+多米尼加	tou mi gni cia
+多米尼加共和國	tou mi gni cia gon ghou koq
+多米尼加聯邦	tou mi gni cia li paon
+多米諾骨牌	tou mi noq kuaq ba
+多細胞生物	tou shi pau sen vaq
+多虧	tou khuei
+多虧是	tou khuei zy
+虧煞是	chiu saq zy
+多行	tou ghaon
+多行	tou yin
+多行不義	tou yin paq gni
+多行不義必自斃	tou yin paq gni piq zy bi
+多見於	tou ci yu
+多財善賈	tou dze zoe ku
+多邊貿易	tou pi meu yiq
+多邊貿易談判	tou pi meu yiq dae phun
+多那太羅	tou nha tha lou
+多重人格	tou dzon zyun kaq
+多錢善賈	tou ji zoe ku
+多長	tou jian
+多長時間	tou jian zy ci
+多防	tou vaon
+夜以繼日	ya yi ci zyuq
+夜大	ya da
+夜大學	ya da ghoq
+夜大生	ya da san
+夜尿症	ya gniau cin
+夜幕降臨	ya mou ciaon lin
+夜未央	ya vi ian
+夜柔吠陀	ya zhieu fi dou
+夜校生	ya yau san
+夜歸人	ya kuei gnin
+夜涼如水	ya lian zyu syu
+夜深人靜	ya shin zyun zhin
+夜生活	ya sen waq
+夜行	ya yin
+夜行人	ya yin gnin
+夜行性	ya yin shin
+夜行晝伏	ya yin cieu voq
+夜行衣	ya yin i
+夜行軍	ya yin ciun
+夜貓	ya mau
+夜貓子	ya mau tsy
+夜貓族	ya mau dzoq
+夜郎自大	ya laon zy da
+夜長	ya jian
+夜長夢多	ya jian maon tou
+夜間	ya ci
+夜間班	ya ci pae
+夜間部	ya ci bu
+夜闌人靜	ya lae zyun zhin
+夜靜更深	ya zhin kan shin
+夜鳥	ya gniau
+夠不着	keu paq dzoq
+夠不着	keu paq zyuq
+夠勿着	keu vaq dzoq
+夠勿着	keu vaq zyuq
+夠弗着	keu vaq dzoq
+夠弗着	keu vaq zyuq
+夠了	keu lei
+夠交情	keu ciau jin
+夠味	keu vi
+夠大	keu dou
+夠學	keu ghoq
+夠得着	keu taq dzoq
+夠得着	keu taq zyuq
+夠勒着	keu laq dzoq
+夠勒着	keu laq zyuq
+夢中人	mon tson gnin
+夢中情人	mon tson jin zyun
+夢裏向個	mon li shian goq
+夢裏向個	mon li shian ghoq
+夢寐難忘	mon mei nae vaon
+夢想家	mon shian cia
+夢有五不占	mon yeu ng paq ci
+夢繫	mon shi
+夢行症	mon yin cin
+夥人	hou gnin
+夥耕	hou kan
+大一	da iq
+大一些	dou iq shiq
+大一統	da iq thon
+大一統誌	da iq thon tsy
+大丈夫	da jian fu
+大丈夫志在四方	da jian fu tsy dze sy faon
+大丈夫能屈能伸	da jian fu nen chiuq nen shin
+大三	da sae
+大三元	dou sae gniu
+大三和絃	dou sae ghou yi
+大不	da paq
+大不一樣	da paq iq yan
+大不了	da paq liau
+大不列顛	da paq liq ti
+大不如前	da paq zyu zhi
+大不敬	da paq cin
+大不里士	da paq li zy
+大不韙	da paq wei
+大世界	da syu ka
+大世紀	da syu ci
+大中	da tson
+大中型	da tson yin
+大中型企業	da tson yin chi gniq
+大中城市	da tson jin zy
+大中專	da tson tsoe
+大中小	dou tson shiau
+大串	dou tshoe
+大主教	da tsyu ciau
+大久保	da cieu pau
+大久保利通	da cieu pau li thon
+大乘	da jin
+大乘佛教	da jin vaq ciau
+大亂	da loe
+大事	da zy
+大事不妙	da zy paq miau
+大事化小	da zy huo shiau
+大事化小小事化了	da zy huo shiau shiau zy huo liau
+大事宣傳	da zy soe dzOE
+大事記	da zy ci
+大事鋪張	da zy phu cian
+大二	da gni
+大五	da ng
+大五碼	da ng mo
+大五金	da ng cin
+大些	da shiq
+大亞灣	da ia uae
+大人物	dou zyun vaq
+大人藥	dou gnin yaq
+大仁	da zyun
+大仁科技大學	da zyun khou ji da ghoq
+大仙	da shi
+大仲馬	da dzon ma
+大件	da ji
+大任	da zyun
+大企業	dou chi gniq
+大伯	dou paq
+大伯子	dou paq tsy
+大伯母	dou paq meu
+大伯父	dou paq vu
+大位	dou wei
+大佐	da tsou
+大余	da yu
+大余縣	da yu yu
+大作	da tsoq
+大使	da sy
+大使級	da sy ciq
+大使館	da sy kun
+大來歷	da le liq
+大便乾燥	da bi kI sau
+大便祕結	da bi pi ciq
+大俠	da yaq
+大修	da shieu
+大修理	da shieu li
+大修理基金	da shieu li ci cin
+大修道院	da shieu dau yu
+大個	da kou
+大個	dou goq
+大個	dou ghoq
+大個子	da kou tsy
+大借款	dou cia khun
+大倫敦地區	da len ten di chiu
+大偉	da wei
+大做文章	da tsou ven tsaon
+大傢伙	dou cia hou
+大傷	dou saon
+大傷元氣	da saon gniu chi
+大傷腦筋	da saon nau cin
+大傻	dou sa
+大傻瓜	dou sa kuo
+大價錢	dou ko ji
+大元	da gniu
+大元大一統誌	da gniu da iq thon tsy
+大元帥	da gniu se
+大兄	dou shion
+大先知書	da shi tsyu syu
+大內	da nei
+大內鄉	da nei shian
+大全	da dzoe
+大公	da kon
+大公司	dou kon sy
+大公國	da kon koq
+大公報	da kon pau
+大公無私	da kon vu sy
+大公無私	da kon Wu sy
+大公館	da kon kun
+大兵	da pin
+大兵團	da pin doe
+大兵日記	da pin zyuq ci
+大典	da ti
+大冶	da ye
+大冶市	da ye zy
+大凡	da vae
+大凶	da shion
+大出	dou tshyuq
+大出喪	dou tshyuq saon
+大出意料之外	dou tshyuq i liau tsy nga
+大出手	dou tshyuq shieu
+大出血	dou tshyuq shiuq
+大出鋒頭	da tshyuq fon deu
+大出風頭	da tshyuq fon deu
+大刀	dou tau
+大刀會	dou tau wei
+大刀闊斧	dou tau khuaq fu
+大分子	da fen tsy
+大分界嶺	da fen ka lin
+大分界嶺	da fen cia lin
+大分縣	da fen yu
+大刑	da yin
+大別	da biq
+大別山	da biq sae
+大別山脈	da biq sae maq
+大利拉	da li lha
+大利麪	da li mi
+大到	dou tau
+大前天	dou zhi thi
+大前提	da zhi di
+大剪刀	dou ci tau
+大副	da fu
+大劇院	da jiq yu
+大劍	da ci
+大劑量	da ci lian
+大力	da liq
+大力加強	da liq cia jian
+大力士	da liq zy
+大力推進	da liq thei cin
+大力支持	da liq tsy dzy
+大力發展	da liq faq ci
+大力發展	da liq faq tsoe
+大力神	da liq zyun
+大力開展	da liq khe ci
+大力開展	da liq khe tsoe
+大功	da kon
+大功告成	da kon kau jin
+大功率	da kon liq
+大加那利島	da cia nha li tau
+大勇	da ion
+大勇若怯	da ion zhiaq chiq
+大勇若怯	da ion zoq chiq
+大動	da don
+大動作	dou don tsoq
+大動干戈	da don kI kou
+大動脈	da don maq
+大勝	da shin
+大勢	da syu
+大勢已去	da syu yi chiu
+大勢已定	da syu yi din
+大勢所趨	da syu so tshyu
+大勢至菩薩	da syu tsy bu saq
+大包	dou pau
+大包乾	da pau kI
+大包大攬	da pau da lae
+大化	da huo
+大化瑤族自治縣	da huo yau dzoq zy dzyu yu
+大化縣	da huo yu
+大化革新	da huo kaq shin
+大區	da chiu
+大千	da chi
+大千世界	da chi syu ka
+大半	dou pun
+大半個	dou pun goq
+大半天	dou pun thi
+大半日	dou pun gniq
+大半年	dou pun gni
+大半生	dou pun sen
+大卡	da kha
+大卷	dou ciu
+大叔	da soq
+大受	da zhieu
+大受歡迎	da zhieu hun gnin
+大口	da kheu
+大口徑	dou kheu cin
+大叫	da ciau
+大可	da khou
+大可不必	da khou paq piq
+大可以	da khou yi
+大司馬	da sy mo
+大合唱	da ghaq tshaon
+大吉	da ciq
+大吉大利	da ciq da li
+大同	da don
+大同世界	da don syu ka
+大同主義	da don tsyu gni
+大同之世	da don tsy syu
+大同區	da don chiu
+大同大學	da don da ghoq
+大同小異	da don shiau yi
+大同市	da don zy
+大同教	da don ciau
+大同書	da don syu
+大同煤礦	da don mei khuaon
+大同盆地	da don ben di
+大同盟	da don men
+大同社會	da don dzo wei
+大同縣	da don yu
+大同路	da don lu
+大同鄉	da don shian
+大名	da min
+大名府	da min fu
+大名縣	da min yu
+大名鼎鼎	da min tin tin
+大吏	da li
+大吐苦水	da thu khu syu
+大君	da ciun
+大吞噬細胞	da then zy shi pau
+大吵	da tshau
+大吵一架	da tshau iq cia
+大吵大鬧	da tshau da nau
+大吹	da tshei
+大吹	da tshyu
+大吹大擂	da tshei da lei
+大吹大擂	da tshyu da lei
+大吼	da heu
+大呂	da li
+大周后	da cieu gheu
+大呼	da fu
+大呼小叫	da fu shiau ciau
+大呼拉爾	da fu lha er
+大命	da min
+大和	da ghou
+大咬一口	da ngau iq kheu
+大咸	da yi
+大品牌	dou phin ba
+大哉問	da tse ven
+大員	da yu
+大哥	dou kou
+大哥哥	dou kou kou
+大哥大	da kou da
+大哭	da khoq
+大唐	da daon
+大唐帝國	da daon ti koq
+大唐狄公案	da daon diq kon EI
+大唐西域記	da daon shi yuq ci
+大唐電信	da daon di shin
+大唱	da tshaon
+大商人	dou saon gnin
+大商場	dou saon jian
+大問題	dou ven di
+大喇叭	dou la pa
+大喊	da hae
+大喊大叫	da hae da ciau
+大喜	da shi
+大喜事	da shi zy
+大喜過望	da shi kou vaon
+大喝	da haq
+大喝一口	da haq iq kheu
+大喝一聲	da haq iq shin
+大單于	da zoe yu
+大單于	dou zoe yu
+大嗓	da saon
+大嘆	da thae
+大嘴	dou tsyu
+大器	da chi
+大器晚成	da chi vae jin
+大嚷	dou gnian
+大嚼	dou zhiaq
+大四	da sy
+大四喜	da sy shi
+大回	da wei
+大回朝	da wei jiau
+大圈	dou chiu
+大國	da koq
+大國家	dou koq cia
+大國沙文主義	da koq so ven tsyu gni
+大園	da yu
+大園鄉	da yu shian
+大圓圈	da yu chiu
+大圓圈	dou yu chiu
+大圓鏡智	da yu cin tsyu
+大圖	da du
+大團	dou doe
+大團圓	da doe yu
+大團結	da doe ciq
+大土	da thu
+大地	da di
+大地主	da di tsyu
+大地之歌	da di tsy kou
+大地回春	da di wei tshyun
+大地圖	da di du
+大地春回	da di tshyun wei
+大地測量學	da di tshaq lian yuq
+大地線	da di shi
+大地震	da di tsyun
+大坑	da khan
+大型	da yin
+大型企業	da yin chi gniq
+大型強子對撞機	da yin jian tsy tei dzaon ci
+大型活動	da yin waq don
+大型計算機	da yin ci soe ci
+大型超市	da yin chiau zy
+大型鐘	da yin tson
+大型鐘錶	da yin tson piau
+大型鐘面	da yin tson mi
+大城	dou jin
+大城市	dou jin zy
+大城縣	da jin yu
+大城鄉	da jin shian
+大埔	da phu
+大埔縣	da phu yu
+大埔鄉	da phu shian
+大堂	da daon
+大堂哥	dou daon kou
+大堂妹	dou daon mei
+大堂姊	dou daon ci
+大堂弟	dou daon di
+大堆	dou tei
+大堆頭	dou tei deu
+大堡礁	da pau ciau
+大堤	da di
+大場	dou jian
+大場面	dou jian mi
+大塊	dou khuei
+大塊朵頤	da khuei to yi
+大增	da tsen
+大壞蛋	dou ua dae
+大壩	da po
+大士	da zy
+大壽	da zhieu
+大夏	da gho
+大多	da tou
+大多在	da tou dze
+大多數	da tou su
+大多數人	da tou su gnin
+大多是	da tou zy
+大多會	da tou wei
+大多有	da tou yeu
+大多能	da tou nen
+大夜班	dou ya pae
+大夥	da hou
+大夥人	da hou gnin
+大大地	da da di
+大大大小	dou dou dou shiau
+大大小小	dou dou shiau shiau
+大大提高	da da di kau
+大大方方	da da faon faon
+大大的	da da tiq
+大天后宮	da thi gheu kon
+大天白日	dou thi baq gniq
+大夫	da fu
+大夫松	da fu son
+大失所望	da syuq so vaon
+大奶	dou na
+大奸	dou kae
+大奸似忠	dou kae zy tson
+大好人	dou hau gnin
+大好時光	da hau zy kuaon
+大好時機	da hau zy ci
+大好機會	da hau ci wei
+大妹	da mei
+大妹夫	da mei fu
+大姆指	da m tsy
+大姆指頭	da m tsy deu
+大姐姐	dou cia cia
+大姑	dou ku
+大姑丈	dou ku jian
+大姑娘坐花轎	dou ku gnian zou huo jiau
+大姑媽	dou ku mha
+大姑子	dou ku tsy
+大姓	dou shin
+大姚	da yau
+大姚縣	da yau yu
+大姨	dou yi
+大姨媽	dou yi mha
+大姨子	dou yi tsy
+大威德	da uei taq
+大威德明王	da uei taq min waon
+大威德金剛	da uei taq cin kaon
+大娘	dou gnian
+大娘子	dou gnian tsy
+大婚	da huen
+大媽	da mha
+大嫂	da sau
+大嬸	da shin
+大嬸婆	da shin bou
+大字報	da zy pau
+大孩子	dou ghe tsy
+大學	da ghoq
+大學同學	da ghoq don ghoq
+大學四年	da ghoq sy gni
+大學城	da ghoq jin
+大學士	da yuq zy
+大學教授	da ghoq ciau zhieu
+大學教育	da ghoq ciau yuq
+大學時代	da ghoq zy de
+大學本科	da ghoq pen khou
+大學校園	da ghoq yau yu
+大學校長	da ghoq yau cian
+大學校院	da ghoq yau yu
+大學生	da ghoq san
+大學生活	da ghoq sen waq
+大學畢業	da ghoq piq gniq
+大學老師	da ghoq lau sy
+大學英語	da ghoq in gniu
+大學裏	da ghoq li
+大學部	da ghoq bu
+大學部	da yuq bu
+大學院校	da ghoq yu yau
+大學預科	da ghoq yu khou
+大宅	dou dzaq
+大宇	da yu
+大安	da EI
+大安區	da EI chiu
+大安國中	da EI koq tson
+大安市	da EI zy
+大安溪	da EI chi
+大安的列斯	da EI tiq liq sy
+大安的列斯羣島	da EI tiq liq sy jiun tau
+大安鄉	da EI shian
+大宋	da son
+大官人	dou kun gnin
+大定	da din
+大客戶	dou khaq wu
+大客車	dou khaq tsho
+大宴	da i
+大宴賓客	da i pin khaq
+大家一起	do ko iq chi
+大家一淘	do ko iq dau
+大家分享	do ko fen shian
+大家好	do ko hau
+大家庭	da cia din
+大家樂	da cia loq
+大家看	da cia khI
+大家看	do ko khI
+大家看看	da cia khI khI
+大家看看	do ko khI khI
+大家談	da cia dae
+大家談	do ko dae
+大家都來	do ko tu le
+大家都是	do ko tu zy
+大家閨秀	da cia kuei shieu
+大家風範	da cia fon vae
+大富	da fu
+大富大貴	da fu da kuei
+大富翁	da fu on
+大寧	da gnin
+大寧縣	da gnin yu
+大寨	da za
+大寫	dou shia
+大寫字母	dou shia zy meu
+大寫鎖定	dou shia sou din
+大寮	da liau
+大寮鄉	da liau shian
+大寶	da pau
+大寺院	dou zy yu
+大將	da cian
+大將之風	da cian tsy fon
+大專	da tsoe
+大專同學	da tsoe don ghoq
+大專學生	da tsoe ghoq san
+大專杯	da tsoe pei
+大專生	da tsoe san
+大專院校	da tsoe yu yau
+大尉	da uei
+大對決	da tei ciuq
+大小	dou shiau
+大小三度	dou shiau sae du
+大小不一	dou shiau paq iq
+大小便	da shiau bi
+大小姐	dou shiau cia
+大小寫	dou shiau shia
+大小通吃	dou shiau thon chioq
+大少爺	dou shiau ya
+大少爺	dou sau ya
+大局	da jiuq
+大屋	dou oq
+大屏	da bin
+大屏幕	da bin mou
+大展	da ci
+大展	da tsoe
+大展宏圖	da ci ghon du
+大展宏圖	da tsoe ghon du
+大展身手	da ci shin shieu
+大展身手	da tsoe shin shieu
+大展鴻圖	da ci ghon du
+大展鴻圖	da tsoe ghon du
+大屠殺	da du saq
+大屠殺事件	da du saq zy ji
+大屯	da den
+大屯山	da den sae
+大屯火山	da den hou sae
+大山	da sae
+大山貓	dou sae mau
+大峽谷	da yaq koq
+大嶼山	da yu sae
+大巖桐	da ngae don
+大川	da tshoe
+大工業	da kon gniq
+大巧若拙	da chiau zhiaq tsyuq
+大巧若拙	da chiau zoq tsyuq
+大差	dou tsho
+大差差	dou tsho tsho
+大巴	da pa
+大巴山	da pa sae
+大巷	da ghaon
+大市	da zy
+大市場	dou zy jian
+大布	dou pu
+大帝	da ti
+大帥	da se
+大師	da sy
+大師傅	da sy fu
+大師兄	da sy shion
+大師父	da sy vu
+大師級	da sy ciq
+大師賽	da sy se
+大帳	dou cian
+大帽子	dou mau tsy
+大幅	da foq
+大幅增長	da foq tsen cian
+大幅度	da foq du
+大幕	da mou
+大平	da bin
+大幸	da yin
+大幹	da kI
+大幹一場	da kI iq jian
+大幹一票	da kI iq phiau
+大幹特幹	da kI daq kI
+大店	dou ti
+大度包容	da du pau yon
+大度路	da du lu
+大座	da zou
+大庭廣衆	da din kuaon tson
+大庸	da yon
+大庾	da yu
+大庾嶺	da yu lin
+大庾縣	da yu yu
+大廈	da gho
+大廈將傾	da gho cian chin
+大廈棟梁	da gho ton lian
+大廉價	dou li ko
+大廚	da dzyu
+大廟	da miau
+大廠	da chian
+大廠回族自治縣	da chian wei dzoq zy dzyu yu
+大廠縣	da chian yu
+大廳	da thin
+大建	da ci
+大弟	da di
+大張	da cian
+大張撻伐	da cian thaq vaq
+大張旗鼓	da cian ji ku
+大張聲勢	da cian shin syu
+大後天	dou gheu thi
+大後方	dou gheu faon
+大德	da taq
+大徹大悟	da chiq da nu
+大徹大悟	da chiq da wu
+大忌	da ji
+大志	da tsy
+大忙	dou maon
+大忙人	dou maon gnin
+大快人心	da khua zyun shin
+大快朵頤	da khua to yi
+大怒	da nu
+大恩	da en
+大恩大德	da en da taq
+大悅	da yuq
+大悟	da nu
+大悟	da wu
+大悟縣	da nu yu
+大悟縣	da wu yu
+大患	da wae
+大悲	da pei
+大悲咒	da pei cieu
+大惑不解	da ghoq paq ka
+大惑不解	da ghoq paq cia
+大惡	da oq
+大意	da i
+大意失荊州	da i syuq cin cieu
+大愚	da gniu
+大愛	da e
+大愛臺	da e de
+大慈大悲	da dzy da pei
+大慈恩寺	da dzy en zy
+大慶	da chin
+大慶市	da chin zy
+大憲章	da shi tsaon
+大成	da jin
+大成殿	da jin di
+大我	dou ngo
+大戟科	da ciq khou
+大截	da jiq
+大戰	da ci
+大戰	da tsoe
+大戰略	da ci liaq
+大戰略	da tsoe liaq
+大戲	da shi
+大戶	da wu
+大戶人家	da wu gnin ko
+大戶型	dou wu yin
+大手	dou shieu
+大手大腳	dou shieu dou ciaq
+大手筆	dou shieu piq
+大才	da dze
+大才小用	da dze shiau yon
+大打	da tan
+大打出手	da tan tshyuq shieu
+大打折扣	da tan ciq kheu
+大批	dou phi
+大批涌到	dou phi ion tau
+大批的	dou phi tiq
+大批個	dou phi goq
+大批個	dou phi ghoq
+大批量	dou phi lian
+大把	da po
+大投資家	da deu tsy cia
+大抵	da ti
+大拍賣	dou phaq ma
+大括弧	dou kuaq wu
+大括號	dou kuaq ghau
+大拿	da na
+大振	da tsyun
+大捷	da jiq
+大掃	da sau
+大掃除	da sau dzyu
+大排場	dou ba jian
+大排檔	dou ba taon
+大排行	dou ba ghaon
+大排長龍	da ba jian lon
+大提琴	da di jin
+大提琴手	da di jin shieu
+大搖大擺	da yau da pa
+大搞	da gau
+大撫臺	da vu de
+大操大辦	da tshau da bae
+大擺	dou pa
+大改	dou ke
+大放光明	da faon kuaon min
+大放厥詞	da faon ciuq dzy
+大放厥辭	da faon ciuq dzy
+大放悲聲	da faon pei shin
+大放異彩	da faon yi tshe
+大放異采	da faon yi tshe
+大政	da cin
+大政方針	da cin faon cin
+大敗	dou ba
+大教堂	dou ciau daon
+大敵	da diq
+大敵當前	da diq taon zhi
+大數	da su
+大數學家	dou su yuq cia
+大數目	da su moq
+大文蛤	dou ven kaq
+大文豪	da ven ghau
+大斗	dou teu
+大斗小秤	dou teu shiau chin
+大料	da liau
+大新	da shin
+大新縣	da shin yu
+大方向	dou faon shian
+大方縣	da faon yu
+大於	da yu
+大族	dou dzoq
+大旗	da ji
+大日如來	da zyuq zyu le
+大旨	da tsy
+大旱	da ghEI
+大旱望雲霓	da ghEI vaon yun gni
+大旱雲霓	da ghEI yun gni
+大明	da min
+大明大擺	da min da pa
+大明星	dou min shin
+大明曆	da min liq
+大明歷史	da min liq sy
+大易	da yi
+大易輸入法	da yi syu zyuq faq
+大昭寺	da ciau zy
+大是不同	da zy paq don
+大是大非	da zy da fi
+大時代	da zy de
+大智	da tsyu
+大智大愚	da tsyu da gniu
+大智如愚	da tsyu zyu gniu
+大智慧	da tsyu wei
+大智若愚	da tsyu zhiaq gniu
+大智若愚	da tsyu zoq gniu
+大曆	da liq
+大曆十才子	da liq zyuq dze tsy
+大曲道	da chiuq dau
+大書	da syu
+大書特書	da syu daq syu
+大曼陀羅	dou mae dou lou
+大會	da wei
+大會堂	da wei daon
+大會操	da wei tshau
+大會舞	da wei Wu
+大月	da yuq
+大月支	da yuq tsy
+大月氏	da yuq tsy
+大有	da yeu
+大有人在	da yeu zyun dze
+大有作爲	da yeu tsoq wei
+大有分別	da yeu fen biq
+大有可爲	da yeu khou wei
+大有可觀	da yeu khou kun
+大有巴士	da yeu pa zy
+大有希望	da yeu shi vaon
+大有文章	da yeu ven tsaon
+大有斬獲	da yeu tsae ghoq
+大有爲	da yeu wei
+大有裨益	da yeu bi iq
+大未必佳	da vi piq cia
+大本	da pen
+大本	dou pen
+大本涅槃經	da pen gniaq bun cin
+大本涅槃經	dou pen gniaq bun cin
+大本營	da pen yin
+大本鐘	da pen tson
+大材小用	da dze shiau yon
+大村	da tshen
+大村鄉	da tshen shian
+大杯	dou pei
+大東	da ton
+大東亞共榮圈	da ton ia gon yon chiu
+大東北	da ton poq
+大東區	da ton chiu
+大板	da pae
+大板根	da pae ken
+大板車	da pae tsho
+大林	da lin
+大林鎮	da lin tsyun
+大枝	dou tsy
+大柱	dou dzyu
+大柱子	dou dzyu tsy
+大柴旦	da za tae
+大柴旦行政區	da za tae yin cin chiu
+大柴旦行政委員會	da za tae yin cin uei yu wei
+大柴旦鎮	da za tae tsyun
+大校	da yau
+大案	da EI
+大案要案	da EI iau EI
+大桶	da don
+大梁	da lian
+大棒	da baon
+大棗	da tsau
+大棚	da ban
+大棵	dou khou
+大楊樹	dou yan zyu
+大業	da gniq
+大業千秋	da gniq chi chieu
+大業路	da gniq lu
+大概	da ke
+大概其	da ke ji
+大概是	da ke zy
+大概會	da ke wei
+大概有	da ke yeu
+大槍	dou chian
+大樁	dou tsaon
+大樑	dou lian
+大樓	da leu
+大樓住戶	da leu dzyu wu
+大樓監控系統	da leu kae khon shi thon
+大模大樣	dou moq dou yan
+大模大樣	da moq da yan
+大樹菠蘿	da zyu pou lou
+大樹鄉	da zyu shian
+大橋	da jiau
+大檢查	dou ci dzo
+大權	da jiu
+大權在握	da jiu dze oq
+大權旁落	da jiu baon loq
+大權獨攬	da jiu doq lae
+大欲	da yuq
+大正	da cin
+大步	da bu
+大步流星	da bu lieu shin
+大步走	da bu tseu
+大武	da Wu
+大武口	da Wu kheu
+大武口區	da Wu kheu chiu
+大武山	da Wu sae
+大武崙	da Wu len
+大武鄉	da Wu shian
+大歷史	da liq sy
+大段	da doe
+大殺風景	da saq fon cin
+大殿	da di
+大比	da pi
+大比拼	da pi phin
+大比目魚	da pi moq ng
+大毛	da mau
+大氅	da chian
+大民主	da min tsyu
+大民族主義	da min dzoq tsyu gni
+大氣候	da chi gheu
+大氣圈	da chi chiu
+大氣團	da chi doe
+大氣壓	da chi aq
+大氣壓力	da chi aq liq
+大氣壓強	da chi aq jian
+大氣層	da chi zen
+大氣層核試驗	da chi zen ghaq sy nE
+大氣折射	da chi ciq zhiq
+大氣污染	da chi u gni
+大氣環流	da chi wae lieu
+大氣磅礴	da chi paon boq
+大氣系	da chi shi
+大氧吧	da yan pa
+大水沖倒龍王廟	da syu tshon tau lon waon miau
+大汗	da ghEI
+大汗淋漓	da ghEI lin li
+大江	da kaon
+大江健三郎	da kaon ji sae laon
+大江南北	da kaon nEI poq
+大江東去	da kaon ton chiu
+大江網	da kaon maon
+大沖	da tshon
+大河	da ghou
+大河文化	da ghou ven huo
+大河網	da ghou maon
+大油	da yeu
+大治	da dzyu
+大沽	da ku
+大沽口炮臺	da ku kheu phau de
+大沽炮臺	da ku phau de
+大法	da faq
+大法官	da faq kun
+大法師	da faq sy
+大法弟子	da faq di tsy
+大洋	da yan
+大洋中脊	da yan tson ciq
+大洋型地殼	da yan yin di khoq
+大洋洲	da yan cieu
+大洞	da don
+大洞受苦	da don zhieu khu
+大洞吃苦	da don chioq khu
+大洞難補	da don nae pu
+大洪水	da ghon syu
+大洲	da cieu
+大流	da lieu
+大流士	da lieu zy
+大浦洞	da phu don
+大浦洞二	da phu don gni
+大浦洞二號	da phu don gni ghau
+大浪	da laon
+大浪淘沙	da laon dau so
+大海	da he
+大海撈針	da he lhau cin
+大海洋	da he yan
+大海溝	da he keu
+大清	da chin
+大清一統志	da chin iq thon tsy
+大清帝國	da chin ti koq
+大清早	da chin tsau
+大減價	da kae ko
+大渡口	da du kheu
+大渡口區	da du kheu chiu
+大渡河	da du ghou
+大港	da kaon
+大港區	da kaon chiu
+大湄公河次區域	da mei kon ghou tshy chiu yuq
+大湄公河次區域合作	da mei kon ghou tshy chiu yuq ghaq tsoq
+大湖	da wu
+大湖區	da wu chiu
+大湖山莊	da wu sae tsaon
+大湖鄉	da wu shian
+大溪	da chi
+大溪地	da chi di
+大溪港	da chi kaon
+大溪豆幹	da chi deu kI
+大溪鎮	da chi tsyun
+大滅絕	da miq dzyuq
+大滷麪	da lu mi
+大滿貫	da mun kun
+大漆	da chiq
+大漠	da moq
+大漢	da he
+大漢技術學院	da he ji zyuq yuq yu
+大漢族	da he dzoq
+大漢族主義	da he dzoq tsyu gni
+大漢民族	da he min dzoq
+大漲	dou cian
+大漲大跌	dou cian dou tiq
+大漲小回	dou cian shiau wei
+大潤發	da zyun faq
+大潮	da jiau
+大澤鄉起義	da dzaq shian chi gni
+大火	da hou
+大灰狼	da huei laon
+大災	da tse
+大災難	da tse nae
+大炒	da tshau
+大炮打蚊子	da phau tan ven tsy
+大烏蘇里島	dou u su li tau
+大烏鴉	dou u ia
+大無畏	da vu uei
+大無畏	da Wu uei
+大無畏精神	da vu uei cin zyun
+大無畏精神	da Wu uei cin zyun
+大煙	da i
+大煞風景	da saq fon cin
+大熊	da yon
+大熊座	da yon zou
+大熊星座	da yon shin zou
+大熊貓	da yon mau
+大熔爐	da yon lu
+大熱	da gniq
+大熱天	da gniq thi
+大燈	da ten
+大爆冷門	da pau lan men
+大爆炸	da bau tso
+大爲	da wei
+大父	da vu
+大爺	da ya
+大牀	dou zaon
+大片	da phi
+大牌	da ba
+大牌	dou ba
+大牛	da gnieu
+大牢	da lau
+大特寫	dou daq shia
+大犬座	da chiu zou
+大狗	da keu
+大猩猩	da shin shin
+大獄	da yuq
+大獎	dou cian
+大獎賽	dou cian se
+大獲	da ghoq
+大獲全勝	da ghoq dzoe shin
+大率	da liq
+大王	da waon
+大王爺	dou waon ya
+大玩	da wae
+大玩特玩	da wae daq wae
+大班	dou pae
+大班制	dou pae tsyu
+大理	da li
+大理寺	da li zy
+大理岩	da li ngae
+大理州	da li cieu
+大理市	da li zy
+大理白族自治州	da li baq dzoq zy dzyu cieu
+大理石	da li zaq
+大理院	da li yu
+大環	da wae
+大環境	dou wae cin
+大瓶	dou bin
+大瓶的	dou bin tiq
+大瓶頭	dou bin deu
+大田	da di
+大田作物	da di tsoq vaq
+大田市	da di zy
+大田廣域市	da di kuaon yuq zy
+大田縣	da di yu
+大甲	da ciaq
+大甲溪	da ciaq chi
+大甲鎮	da ciaq tsyun
+大男人	dou nEI gnin
+大男人主義	da nEI gnin tsyu gni
+大男子主義	da nEI tsy tsyu gni
+大男子主義者	da nEI tsy tsyu gni tse
+大男孩	da nEI ghe
+大略	da liaq
+大略在	da liaq dze
+大略是	da liaq zy
+大略有	da liaq yeu
+大異其趣	da yi ji tshyu
+大當	da taon
+大疊	dou diaq
+大病	da bin
+大病初癒	da bin tshu yu
+大症	da cin
+大瘡	da tshaon
+大發	da faq
+大發利市	da faq li zy
+大發展	da faq ci
+大發展	da faq tsoe
+大發慈悲	da faq dzy pei
+大發牢騷	da faq lau sau
+大發神威	da faq zyun uei
+大發脾氣	da faq bi chi
+大發雷霆	da faq lei din
+大白天	dou baq thi
+大白菜	dou baq tshe
+大白雲	dou baq yun
+大白鯊	da baq so
+大白鼠	da baq tshyu
+大百科全書	dou paq khou dzoe syu
+大盒	dou ghaq
+大盜	da dau
+大盤	da bun
+大盤商	da bun saon
+大盤子	da bun tsy
+大盤股	da bun ku
+大目乾連	da moq ji li
+大相徑庭	da shian cin din
+大相逕庭	da shian cin din
+大省	dou san
+大眼睛	dou ngae cin
+大眼瞪小眼	dou ngae ten shiau ngae
+大眼角	dou ngae koq
+大石橋	da zaq jiau
+大石橋市	da zaq jiau zy
+大石頭	dou zaq deu
+大破	da phou
+大碗	da un
+大碟	dou diaq
+大礙	da nge
+大社	da dzo
+大社鄉	da dzo shian
+大神	da zyun
+大祥	da jian
+大祥區	da jian chiu
+大票個	da phiau goq
+大票個	da phiau ghoq
+大票個	dou phiau goq
+大票個	dou phiau ghoq
+大祭司	da ci sy
+大禍	da ghou
+大禍臨頭	da ghou lin deu
+大福	da foq
+大禮	da li
+大禮包	da li pau
+大禮堂	da li daon
+大禹治水	da yu dzyu syu
+大禹治水	da gniu dzyu syu
+大秋	da chieu
+大秋作物	da chieu tsoq vaq
+大秦	da jin
+大窪	da ua
+大窪縣	da ua yu
+大竈	da tsau
+大竹	da tsoq
+大竹溪	da tsoq chi
+大竹縣	da tsoq yu
+大笑	da shiau
+大笑一場	da shiau iq jian
+大笑一聲	da shiau iq shin
+大笑金剛	da shiau cin kaon
+大笑金剛明王	da shiau cin kaon min waon
+大笨鐘	da ben tson
+大筆	da piq
+大筆一揮	da piq iq huei
+大筆頭	dou piq deu
+大箐山	da cin sae
+大管	dou kun
+大箱	dou shian
+大範圍	da vae wei
+大篆	da DZOE
+大篇	da phi
+大篇幅	da phi foq
+大篷車	da bon tsho
+大精彩	da cin tshe
+大糞	da fen
+大系	da shi
+大紀元	da ci gniu
+大紀元時報	da ci gniu zy pau
+大約是	da iaq zy
+大約有	da iaq yeu
+大紅人	da ghon gnin
+大紅大紫	da ghon da tsy
+大紅大綠	da ghon da loq
+大紅花	da ghon huo
+大紅袍	da ghon bau
+大紅鼻子	da ghon biq tsy
+大紫荊勳章	da tsy cin shiun tsaon
+大結局	da ciq jiuq
+大絕滅	da dzyuq miq
+大統	da thon
+大綱	da kaon
+大總統	da tson thon
+大纛	da dau
+大缸	da kaon
+大罐	da kun
+大罵	da mo
+大罷工	da ba kon
+大羅	da lou
+大羅神仙	da lou zyun shi
+大美女	da mei gniu
+大羣	da jiun
+大羣人馬	da jiun zyun mo
+大義	da gni
+大義凜然	da gni lin zoe
+大義滅親	da gni miq chin
+大義覺迷錄	da gni ciuq mi loq
+大老	da lau
+大老婆	dou lau bou
+大老官	dou lau kun
+大老爺	dou lau ya
+大老粗	da lau tshu
+大老級	da lau ciq
+大老遠	da lau yu
+大老闆	dou lau pae
+大考大玩	da khau da wae
+大而化之	da er huo tsy
+大而無當	da er vu taon
+大而無當	da er Wu taon
+大耳朵	dou gni to
+大耳朵	dou ng to
+大聖	da shin
+大聯盟	da li men
+大聲	da shin
+大聲喊叫	da shin hae ciau
+大聲嚷嚷	da shin gnian gnian
+大聲疾呼	da shin jiq fu
+大聲說話	da shin syuq wo
+大肆	da sy
+大肆宣揚	da sy soe yan
+大肆搜捕	da sy seu bu
+大肆攻擊	da sy kon ciq
+大肆鼓	da sy ku
+大肉	dou gnioq
+大肚溪	da du chi
+大肚鄉	da du shian
+大肚魚	da du ng
+大肚魚	dou du ng
+大胃王	da wei waon
+大胖	dou phaon
+大腕	da un
+大腦	da nau
+大腦死亡	da nau sy vaon
+大腦比喻	da nau pi yu
+大腦皮層	da nau bi zen
+大腦皮質	da nau bi ciq
+大腳	dou ciaq
+大腳婆娘	dou ciaq bou gnian
+大腹便便	da foq bi bi
+大腿	dou thei
+大腿肉	dou thei gnioq
+大腿骨	dou thei kuaq
+大膽	da tae
+大臉	da li
+大臣	da jin
+大自然	da zy zoe
+大致	da tsy
+大致上	da tsy zaon
+大致說來	da tsy syuq le
+大舅	da jieu
+大舅媽	da jieu mha
+大舅子	da jieu tsy
+大興	da shin
+大興區	da shin chiu
+大興問罪之師	da shin ven zei tsy sy
+大興土木	da shin thu moq
+大興安嶺	da shin EI lin
+大興安嶺地區	da shin EI lin di chiu
+大興安嶺山脈	da shin EI lin sae maq
+大興水利	da shin syu li
+大舉	da ciu
+大舉進攻	da ciu cin kon
+大舉進犯	da ciu cin vae
+大舞臺	da Wu de
+大航海	da ghaon he
+大般涅槃經	da pae gniaq bun cin
+大船	dou ZOE
+大艘	dou seu
+大花	dou huo
+大花曼陀羅	dou huo mae dou lou
+大花面	dou huo mi
+大英	da in
+大英博物館	da in poq vaq kun
+大英國協	da in koq yaq
+大英帝國	da in ti koq
+大英百科全書	da in paq khou dzoe syu
+大英縣	da in yu
+大英聯合王國	da in li ghaq waon koq
+大茴香	dou wei shian
+大茴香子	dou wei shian tsy
+大草原	da tshau gniu
+大荒	da huaon
+大荔	da li
+大荔縣	da li yu
+大華	da wo
+大華中學	da wo tson yuq
+大華技術學院	da wo ji zyuq yuq yu
+大華晚報	da wo vae pau
+大菱鮃	da lin bin
+大落	da loq
+大葉合歡	da yiq ghaq hun
+大葉大學	da yiq da ghoq
+大葉性肺炎	da yiq shin fi yi
+大葉楊	da yiq yan
+大蓋	da ke
+大蔥	da tshon
+大蕭條	da shiau diau
+大藏經	da dzaon cin
+大藥房	da yaq vaon
+大蘇打	da su tan
+大處	dou tshyu
+大處着眼	dou tshyu dzoq ngae
+大處着眼	dou tshyu zyuq ngae
+大處落墨	dou tshyu loq moq
+大號	da ghau
+大虧	dou khuei
+大蛇	da dzo
+大蛇丸	da dzo wun
+大蝦	dou huo
+大融爐	da yon lu
+大蟲	da dzon
+大蟲不吃伏肉	da dzon paq chioq voq gnioq
+大蟲吃小蟲	dou dzon chioq shiau dzon
+大衆	da tson
+大衆傳播	da tson dzOE pou
+大衆化	da tson huo
+大衆捷運	da tson jiq yun
+大衆捷運系統	da tson jiq yun shi thon
+大衆文化	da tson ven huo
+大衆汽車	da tson chi tsho
+大衆語	da tson gniu
+大行	da yin
+大行其道	da yin ji dau
+大行政區	dou yin cin chiu
+大行政區	da yin cin chiu
+大行星	da ghan shin
+大衍曆	da yi liq
+大街	dou ka
+大街小巷	dou ka shiau ghaon
+大衛	da wei
+大衛王	da wei waon
+大衛艾登堡	da wei nge ten pau
+大衣	da i
+大表	dou piau
+大表哥	dou piau kou
+大表妹	dou piau mei
+大表姊	dou piau ci
+大表弟	dou piau di
+大袋	dou de
+大袋子	dou de tsy
+大袋的	dou de tiq
+大袋個	dou de goq
+大袋個	dou de ghoq
+大裂谷	da liq koq
+大補	da pu
+大製作	da tsyu tsoq
+大褂	da kuo
+大西	da shi
+大西北	da shi poq
+大西國	da shi koq
+大西庇阿	da shi pi a
+大西洋	da shi yan
+大西洋中脊	da shi yan tson ciq
+大西洋國	da shi yan koq
+大西洋城	da shi yan jin
+大西洋洋中脊	da shi yan yan tson ciq
+大規模	da kuei mou
+大規模殺傷性武器	da kuei mou saq saon shin Wu chi
+大規模集成電路	da kuei mou jiq jin di lu
+大覺	da ciau
+大觀	da kun
+大觀區	da kun chiu
+大觀園	da kun yu
+大言	da yi
+大言不慚	da yi paq dzae
+大計	da ci
+大討論	dou thau len
+大詞典	da dzy ti
+大話西遊	da wo shi yeu
+大話骰	da wo deu
+大誇	da khua
+大誥	da kau
+大課	da khou
+大調	da diau
+大談	da dae
+大談特談	da dae daq dae
+大謬	da miau
+大謬不然	da miau paq zoe
+大譁	da hua
+大變	da pi
+大讚	da tsae
+大谷	da koq
+大豆	da deu
+大豆油	da deu yeu
+大豐	da fon
+大豐市	da fon zy
+大豐收	da fon shieu
+大豐簋	da fon kuei
+大象	da zhian
+大豬	dou tsyu
+大貓	da mau
+大貨車	dou hou tsho
+大費周折	da fi cieu ciq
+大費周章	da fi cieu tsaon
+大資產階級	da tsy tshae ka ciq
+大資產階級	da tsy tshae cie ciq
+大賠	da bei
+大賢	da yi
+大賤賣	dou ji ma
+大賭	da tu
+大賺	da dzae
+大賺一票	da dzae iq phiau
+大賽	da se
+大贏	da yin
+大贏家	da yin cia
+大赤色	da chiq saq
+大赦	da so
+大赦國際	da so koq ci
+大起來	dou chi le
+大起大落	da chi da loq
+大趨勢	da tshyu syu
+大足	da tsoq
+大足縣	da tsoq yu
+大跌	da tiq
+大跌市	da tiq zy
+大跨一步	da khua iq bu
+大路貨	da lu hou
+大跳	da thiau
+大踏步	da daq bu
+大躍進	da yaq cin
+大車	dou tsho
+大軍	da ciun
+大軍進犯	da ciun cin vae
+大軸子	da jiuq tsy
+大輪金剛	da len cin kaon
+大輪金剛明王	da len cin kaon min waon
+大輸	da syu
+大轉	dou tsoe
+大轉彎	dou tsoe uae
+大轟大嗡	da hon da on
+大辟	da phiq
+大辦	da bae
+大辯論	da bi len
+大農場	dou non jian
+大逃亡	da dau vaon
+大逆	da gniq
+大逆不道	da gniq paq dau
+大通	da thon
+大通區	da thon chiu
+大通回族土族自治縣	da thon wei dzoq thu dzoq zy dzyu yu
+大通師範學堂	da thon sy vae ghoq daon
+大通縣	da thon yu
+大連	da li
+大連人	da li gnin
+大連實德	da li zyuq taq
+大連市	da li zy
+大連港	da li kaon
+大連理工大學	da li li kon da ghoq
+大週摺	da cieu ciq
+大運	da yun
+大運河	da yun ghou
+大過	da kou
+大道理	da dau li
+大選	da soe
+大選舉	da soe ciu
+大邑	da iq
+大邑縣	da iq yu
+大邱	da chieu
+大邱市	da chieu zy
+大邱廣域市	da chieu kuaon yuq zy
+大郅	da ciq
+大部	da bu
+大部份	da bu ven
+大部分	da bu ven
+大部分地區	da bu ven di chiu
+大部隊	da bu dei
+大都	da tu
+大都市	da tu zy
+大都市地區	da tu zy di chiu
+大都是	da tu zy
+大都會	da tu wei
+大酒店	da cieu ti
+大醇小疵	da zyun shiau tshy
+大醉	da tsei
+大醜	da chieu
+大采	da tshe
+大里	da li
+大里市	da li zy
+大里溪	da li chi
+大野	da ya
+大量	da lian
+大量生產	da lian sen tshae
+大金	da cin
+大釜	da fu
+大鈔	da tshau
+大鉗	da ji
+大銀幕	da gnin mou
+大錘	da zei
+大錢	da ji
+大錯	da tshou
+大錯特錯	da tshou daq tshou
+大鍊鋼鐵	da li kaon thiq
+大鍋	da kou
+大鍋飯	da kou vae
+大鍵琴	da ji jin
+大鎔爐	da yon lu
+大鐘	da tson
+大鑒	da ci
+大長今	da jian cin
+大門不出二門不邁	da men paq tshyuq er men paq mae
+大門外	dou men nga
+大開	da khe
+大開倒車	da khe tau tsho
+大開方便之門	da khe faon bi tsy men
+大開殺戒	da khe saq ka
+大開眼界	da khe ngae ka
+大開齋	da khe tsa
+大間	dou kae
+大閨女	da kuei gniu
+大關	da kuae
+大關縣	da kuae yu
+大阪	da pae
+大阪府	da pae fu
+大阮	da gniu
+大阿姨	dou aq yi
+大限	da ghae
+大限到來	da ghae tau le
+大限已至	da ghae yi tsy
+大限臨頭	da ghae lin deu
+大院	da yu
+大院君	da yu ciun
+大陪審團	da bei shin doe
+大陰脣	da in zyun
+大陸	da loq
+大陸人	da loq gnin
+大陸冷氣團	da loq lan chi doe
+大陸同胞	da loq don pau
+大陸團	da loq doe
+大陸地區	da loq di chiu
+大陸坡	da loq phou
+大陸型	da loq yin
+大陸塊	da loq khuei
+大陸妹	da loq mei
+大陸委員會	da loq uei yu wei
+大陸性	da loq shin
+大陸性氣候	da loq shin chi gheu
+大陸性氣團	da loq shin chi doe
+大陸政策	da loq cin tshaq
+大陸板塊	da loq pae khuei
+大陸架	da loq cia
+大陸棚	da loq ban
+大陸氣團	da loq chi doe
+大陸法系	da loq faq shi
+大陸漂移	da loq phiau yi
+大陸話	da loq wo
+大陸貨	da loq hou
+大隊	da dei
+大隊人馬	da dei zyun mo
+大隊接力	da dei ciq liq
+大隊長	da dei cian
+大險	da shi
+大隻	dou tsaq
+大雁	da yi
+大雁塔	da yi thaq
+大雄	da yon
+大雄寶殿	da yon pau di
+大雅	da ia
+大雅之堂	da ia tsy daon
+大雅鄉	da ia shian
+大集合	da jiq ghaq
+大集團	da jiq doe
+大集體	da jiq thi
+大雜燴	da dzaq wei
+大雜院	da dzaq yu
+大難	da nae
+大難不死	da nae paq sy
+大難不死必有後福	da nae paq sy piq yeu gheu foq
+大難臨頭	da nae lin deu
+大雨	dou yu
+大雨傾盆	dou yu chin ben
+大雨如注	dou yu zyu tsyu
+大雪紛飛	da syuq fen fi
+大震	da tsyun
+大霧	da vu
+大霧	da Wu
+大霸尖山	da po ci sae
+大霹靂	da phiq liq
+大青	da chin
+大青山	da chin sae
+大靜脈	dou zhin maq
+大面積	da mi ciq
+大革命	da kaq min
+大韓帝國	da ghEI ti koq
+大韓民國	da ghEI min koq
+大音階	da in ka
+大音階	da in cie
+大響	da shian
+大頂	da tin
+大項目	dou ghaon moq
+大順	da zyun
+大頭在後頭	dou deu dze gheu deu
+大頭照	dou deu ciau
+大頭症	dou deu cin
+大頭目	dou deu moq
+大頭貼	dou deu thiaq
+大頭釘	dou deu tin
+大頭針	dou deu cin
+大頭鬼	dou deu kuei
+大顆	dou khou
+大題	da di
+大題小作	da di shiau tsoq
+大額	da ngaq
+大顎	da ngoq
+大願地藏菩薩	da gniu di dzaon bu saq
+大類	da lei
+大顯	da shi
+大顯神威	da shi zyun uei
+大顯神通	da shi zyun thon
+大顯身手	da shi shin shieu
+大風	da fon
+大風大浪	da fon da laon
+大風後	da fon gheu
+大風歌	da fon kou
+大風雨	da fon yu
+大風雪	da fon syuq
+大飛	da fi
+大食帝國	da zhiq ti koq
+大飯店	da vae ti
+大飽口福	da pau kheu foq
+大飽眼福	da pau ngae foq
+大餐	da tshae
+大馬	dou mo
+大馬	da ma
+大馬哈魚	da ma ha ng
+大馬士革	da ma zy kaq
+大馬士革李	da ma zy kaq li
+大駕	da cia
+大駕光臨	da cia kuaon lin
+大駭	da ghe
+大驚	da cin
+大驚一場	da cin iq jian
+大驚失色	da cin syuq saq
+大驚小怪	da cin shiau kua
+大體	da thi
+大體上	da thi zaon
+大鬍子	da wu tsy
+大鬧	da nau
+大鬧一場	da nau iq jian
+大鬧天宮	da nau thi kon
+大魚	dou ng
+大魚吃小魚	dou ng chioq shiau ng
+大魚大肉	dou ng da gnioq
+大鯢	da gni
+大鱷	da ngoq
+大鳥	da gniau
+大鳴大放	da min da faon
+大鴇	da pau
+大鵬	da ban
+大鵬金翅鳥	da ban cin tshy gniau
+大鵬鳥	da ban gniau
+大鹽	da yi
+大鹿	da loq
+大麥克	da maq khaq
+大麥克指數	da maq khaq tsy su
+大麥地	dou maq di
+大麴	da chiuq
+大麴酒	da chiuq cieu
+大麻	da mo
+大麻哈魚	da mo ha ng
+大麻子	da mo tsy
+大麻煙	da mo i
+大麻里	da mo li
+大黃	da waon
+大黃蜂	da waon fon
+大黑松	dou haq son
+大黨	da taon
+大鼓	da ku
+大鼠	da tshyu
+大齋	da tsa
+大齋期	da tsa ji
+大齋節	da tsa ciq
+大齡	da lin
+大龍	da lon
+大龍峒	da lon don
+大龍街	da lon ka
+大龍郵票	da lon yeu phiau
