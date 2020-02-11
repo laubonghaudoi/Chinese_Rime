@@ -4,11 +4,10 @@
 schema:
   schema_id: wugniu_haeye
   name: 吳語（海鹽）
-  version: "2019.12.28"
+  version: "2020.02.10"
   author:
-    - 字表作者：雪心居士 <sihsin@live.com>
-    - 方案製作：雪心居士 <sihsin@live.com>
-    - 方案製作：Electric Sheep <shinzoqchiuq@outlook.com>
+    - 雪心居士 <sihsin@live.com> (dict, schema)
+    - Electric Sheep <shinzoqchiuq@outlook.com> (schema)
   description: |
     吳語注音輸入方案-海鹽
     https://www.wugniu.com/
@@ -75,8 +74,8 @@ speller:
     - derive/ts(h?)i/c$1i/
     - derive/^(s|z)i/$1hi/
     # 飛灰不分
-    - derive/^hu/f/
-    - xform/^f(\d)/fu$1/
+    - derive/^hu$/fu/
+    - derive/^hu(.+)$/f$1/
     # 撮口音
     - derive/e$/oe/
 
@@ -95,9 +94,9 @@ speller:
     - derive/ao/oa/
     # 容錯 ae => ea
     - derive/ae/ea/
-    # 容錯 y => ghi
+    # 容錯 y- => ghi-
     - derive/yi|y(?=[aeou])/ghi/
-    # 容錯 w => ghu
+    # 容錯 w- => ghu-
     - derive/wu|w(?=[aeo])/ghu/
 
 

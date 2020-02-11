@@ -4,11 +4,11 @@
 schema:
   schema_id: wugniu_haegnin
   name: 吳語（海寧）
-  version: "2019.12.28"
+  version: "2020.02.10"
   author:
-    - 字表作者：陳熙元 <370327837@qq.com>
-    - 方案製作：雪心居士 <sihsin@live.com>
-    - 方案製作：Electric Sheep <shinzoqchiuq@outlook.com>
+    - 陳熙元 <370327837@qq.com> (dict)
+    - 雪心居士 <sihsin@live.com> (schema)
+    - Electric Sheep <shinzoqchiuq@outlook.com> (schema)
   description: |
     海寧吳語注音輸入方案吳語學堂版
     https://www.wugniu.com/
@@ -86,9 +86,9 @@ speller:
     - derive/ao/oa/
     # 容錯 ae => ea
     - derive/ae/ea/
-    # 容錯 y => ghi
+    # 容錯 y- => ghi-
     - derive/yi|y(?=[aeou])/ghi/
-    # 容錯 w => ghu
+    # 容錯 w- => ghu-
     - derive/wu|w(?=[aeo])/ghu/
 
 

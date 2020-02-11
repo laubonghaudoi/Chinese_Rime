@@ -4,11 +4,10 @@
 schema:
   schema_id: wugniu_donshian
   name: 吳語（桐鄉）
-  version: "2019.12.28"
+  version: "2020.02.10"
   author:
-    - 字表作者：雪心居士 <sihsin@live.com>
-    - 方案製作：雪心居士 <sihsin@live.com>
-    - 方案製作：Electric Sheep <shinzoqchiuq@outlook.com>
+    - 雪心居士 <sihsin@live.com> (dict, schema)
+    - Electric Sheep <shinzoqchiuq@outlook.com> (schema)
   description: |
     吳語注音輸入方案-桐鄉
     https://www.wugniu.com/
@@ -72,15 +71,15 @@ speller:
     # 尖團不分
     - derive/ts(h?)i/c$1i/
     - derive/^(s|z)i/$1hi/
-    # 打党不分
+    # 打黨不分
     - derive/aon/an/
     # 結菊不分
-    - derive/cio(q|h)/ci$1/
+    - derive/cio(?=q|h)/ci/
     # 飛灰不分
     - derive/^hu/f/
     - xform/^f$/fu/
     # 國角不分
-    - derive/^kue(q|h)/ko$1/
+    - derive/kue(?=q|h)/ko/
     # 撮口音
     - derive/e$/oe/
 

@@ -4,11 +4,10 @@
 schema:
   schema_id: wugniu_kazoe
   name: 吳語（嘉善）
-  version: "2019.12.28"
+  version: "2020.02.10"
   author:
-    - 字表作者：雪心居士 <sihsin@live.com>
-    - 方案製作：雪心居士 <sihsin@live.com>
-    - 方案製作：Electric Sheep <shinzoqchiuq@outlook.com>
+    - 雪心居士 <sihsin@live.com> (dict, schema)
+    - Electric Sheep <shinzoqchiuq@outlook.com> (schema)
   description: |
     吳語注音輸入方案-嘉善
     https://www.wugniu.com/
@@ -87,9 +86,9 @@ speller:
     - derive/oe/eo/
     # 容錯 ao => oa
     - derive/ao/oa/
-    # 容錯 y => ghi
+    # 容錯 y- => ghi-
     - derive/yi|y(?=[aeou])/ghi/
-    # 容錯 w => ghu
+    # 容錯 w- => ghu-
     - derive/wu|w(?=[aeo])/ghu/
 
 
