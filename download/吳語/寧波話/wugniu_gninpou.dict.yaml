@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.02.08"
+version: "2020.02.25"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -621,6 +621,7 @@ use_preset_vocabulary: true
 偏	phi
 篇	phi
 甂	phi
+蝙	phi	20%
 否	phi	0%
 庀	phi
 圮	phi
@@ -2550,8 +2551,8 @@ use_preset_vocabulary: true
 莒	ciu
 車	ciu	5%
 硨	ciu
-龜	ciu
-亀	ciu
+龜	ciu	1%
+亀	ciu	1%
 琚	ciu
 裾	ciu
 椐	ciu
@@ -3067,7 +3068,7 @@ use_preset_vocabulary: true
 嘎	ga
 嘠	ga
 茄	ga
-懈	ga
+懈	ga	0%
 解	ga	1%
 𨮂	ga
 捱	nga
@@ -4662,7 +4663,7 @@ use_preset_vocabulary: true
 冶	ye	5%
 娾	ye
 械	ye
-懈	ye	5%
+懈	ye	10%
 邂	ye
 䉏	ye
 廨	ye
@@ -4966,6 +4967,7 @@ use_preset_vocabulary: true
 暫	dzae
 站	dzae
 賺	dzae
+𧸖	dzae
 綻	dzae
 棧	dzae
 㻵	dzae
@@ -6046,8 +6048,8 @@ use_preset_vocabulary: true
 鮭	kuei
 硅	kuei
 邽	kuei
-龜	kuei	6%
-亀	kuei	6%
+龜	kuei
+亀	kuei
 歸	kuei
 帰	kuei
 巋	kuei
@@ -7062,7 +7064,7 @@ use_preset_vocabulary: true
 象	jian	0%
 丈	jian
 杖	jian
-張	jian	5%
+張	jian	1%
 滰	jian
 ⿰氵丈	jian
 犟	jian
@@ -11713,6 +11715,7 @@ use_preset_vocabulary: true
 壹	iq
 噎	iq
 揖	iq
+咽	iq	5%
 邑	iq
 唈	iq
 挹	iq
@@ -17541,7 +17544,7 @@ use_preset_vocabulary: true
 屯頭	den deu
 聚隊	zyu dei	578
 屯隊	den dei	55
-大家	doq ko
+大家	doq ko	578
 躉注	ten tsyu	578
 侅煞	khI saq	55
 侅煞	khe saq	55
@@ -20006,7 +20009,7 @@ use_preset_vocabulary: true
 螞蟥	mo waon
 螞蟻	mo gni
 朵辮子	to bi tsy	55
-大家	do ko
+大家	do ko	68020
 拿周	no cieu	55
 拿穩	no uen
 鷓鴣	tso ku
@@ -24738,8 +24741,6 @@ use_preset_vocabulary: true
 甘溪潭	kI chi dei
 蔣家潭	cian ko dei
 潛龍漕
-馬衙漕	mo ngae zau
-柳汀
 花汀邵
 張家瀛	cian ko yin
 貫橋頭
@@ -24758,8 +24759,6 @@ use_preset_vocabulary: true
 三江口
 大河沿	dou ghou yi
 上河沿
-江北岸
-範江岸
 任家橫
 童家橫	don ko wan
 櫟斜
@@ -25791,15 +25790,24 @@ use_preset_vocabulary: true
 一幢箱子
 一幢碗
 一幢書
-一張紙頭
-兩張紙頭
-三張紙頭
-一張眠牀
-兩張眠牀
-三張眠牀
-一張桌凳
-兩張桌凳
-三張桌凳
+一張紙頭	iq jian tsy deu
+兩張紙頭	lian jian tsy deu
+三張紙頭	sae jian tsy deu
+一張眠牀	iq jian mi zaon
+兩張眠牀	lian jian mi zaon
+三張眠牀	sae jian mi zaon
+一張桌凳	iq jian a ten
+兩張桌凳	lian jian a ten
+三張桌凳	sae jian a ten
+一張紙頭	iq cian tsy deu
+兩張紙頭	lian cian tsy deu
+三張紙頭	sae cian tsy deu
+一張眠牀	iq cian mi zaon
+兩張眠牀	lian cian mi zaon
+三張眠牀	sae cian mi zaon
+一張桌凳	iq cian a ten
+兩張桌凳	lian cian a ten
+三張桌凳	sae cian a ten
 一潮鵝
 一潮蜂
 手一搖
@@ -25941,12 +25949,18 @@ use_preset_vocabulary: true
 該幢箱子
 該幢碗
 該幢書
-該張紙頭
-該兩張紙頭
-該張眠牀
-該兩張眠牀
-該張桌凳
-該兩張桌凳
+該張紙頭	kiq jian tsy deu
+該兩張紙頭	kiq lian jian tsy deu
+該張眠牀	kiq jian mi zaon
+該兩張眠牀	kiq lian jian mi zaon
+該張桌凳	kiq jian tsoq ten
+該兩張桌凳	kiq lian jian tsoq ten
+該張紙頭	kiq cian tsy deu
+該兩張紙頭	kiq lian cian tsy deu
+該張眠牀	kiq cian mi zaon
+該兩張眠牀	kiq lian cian mi zaon
+該張桌凳	kiq cian tsoq ten
+該兩張桌凳	kiq lian cian tsoq ten
 該一繃繃子
 該一畈田
 該一餅豆腐
@@ -26036,9 +26050,12 @@ use_preset_vocabulary: true
 該一幢箱子
 該一幢碗
 該一幢書
-該一張紙頭
-該一張眠牀
-該一張桌凳
+該一張紙頭	kiq iq jian tsy deu
+該一張眠牀	kiq iq jian mi zaon
+該一張桌凳	kiq iq jian tsoq ten
+該一張紙頭	kiq iq cian tsy deu
+該一張眠牀	kiq iq cian mi zaon
+該一張桌凳	kiq iq cian tsoq ten
 看戲文
 戲文假	shi ven ko
 情節真
@@ -26565,6 +26582,7 @@ use_preset_vocabulary: true
 黃狗遊河	waon kI yeu ghou
 黃狗遊河	waon keu yeu ghou
 出張嘴巴	tshyuq jian tsyu po
+出張嘴巴	tshyuq cian tsyu po
 六月六
 黃狗貓⿰氵丈肉	wu kI mae jian gnioq
 黃狗貓⿰氵丈肉	waon kI mae jian gnioq
@@ -27766,24 +27784,40 @@ use_preset_vocabulary: true
 別烏蕩
 別烏態
 別烏頭
-寧波市	gnin pou zy
+廠裏
+廠裏人	chian li gnin
+單位裏
+單位裏人	tae wei li gnin
+寧波市
 寧波	gnin pou
 寧波	gnin poq
+寧波府
+甬山
 明州
+明州府
+鄮縣
+句章	keu tsaon
+句章縣	keu tsaon yu
+慶元府
+慶元宣慰司
+慶元路
+慶元總管府
 海曙區
 海曙
 南門街道
 南站
 火車南站
 汽車南站
-寧波站	gnin pou dzae
-寧波火車站	gnin pou hou tsho dzae
+寧波站
+寧波火車站
 三市
 三市立交橋	sae zy liq ciau jiau
+南塘
 南塘老街
 尹江岸
 南苑飯店
 澄浪	jin laon
+馬園
 馬園路
 郎官巷
 柳汀街
@@ -27793,13 +27827,22 @@ use_preset_vocabulary: true
 效實中學	yau zyuq tson ghoq
 五中	ng tson
 婦兒醫院	vu er i yu
+寧波市婦女兒童醫院	gnin pou zy vu gniu er don i yu
 南郊公園
 南郊水廠	nEI ciau syu chian
 市委黨校
+全祖望墓	dzoe tsu vaon mou
+全祖望	dzoe tsu vaon
 祖關山路
+祖關山
+祖關河
+甬水橋	ion syu jiau
 甬水橋路	ion syu jiau lu
+董孝子
+董孝子廟
 江廈街道
 江廈
+江廈街
 江廈公園
 東門口
 天一廣場
@@ -27815,13 +27858,14 @@ use_preset_vocabulary: true
 東渡路
 東渡門
 解放南路	ka faon nEI lu
+民光電影院
 石碶街道
 石碶
 輕紡城
 機場路
 櫟社
 櫟社機場
-寧波櫟社國際機場	gnin pou liq dzo koq ci ci jian
+寧波櫟社國際機場
 西門街道
 西門口
 中山西路
@@ -27840,6 +27884,33 @@ use_preset_vocabulary: true
 西塘河
 柳西河
 月湖街道
+月湖公園
+月湖十洲
+竹嶼
+月島
+菊花洲
+花嶼
+竹洲
+柳汀
+芳草洲
+煙嶼
+雪汀
+芙蓉洲
+湖心寺
+月湖橋
+賀祕監祠	ghou pi kae dzy
+關帝廟
+水則碑	syu tsaq pei
+煙嶼樓
+佛教居士林
+居士林
+銀臺第
+高麗使館
+馬衙漕	mo ngae zau
+馬衙街	mo ngae ka
+偃月街
+廣濟街
+廣濟
 倉橋街
 縣學街	yu ghoq ka
 鎮明
@@ -27853,9 +27924,13 @@ use_preset_vocabulary: true
 寧波二中	gnin pou gni tson
 二中	gni tson
 第一醫院
+一院
 青少年宮
 少年宮
-範宅
+范宅
+靈應廟
+天勝
+天勝照相館
 鼓樓街道
 鼓樓
 解放北路	ka faon poq lu
@@ -27875,9 +27950,22 @@ use_preset_vocabulary: true
 永豐路
 永豐門
 蒼水街	tshaon syu ka
+張蒼水	cian tshaon syu
+蒼水	tshaon syu
+張蒼水故居	cian tshaon syu ku ciu
+吴宅
+錢業會館
+廣仁街	kuaon zyun ka
+唐塔
+天寧寺
+天寧寺唐塔
+白衣寺
+寧波影都
+永豐庫
 白雲街道
 白雲莊
 環城西路
+聯豐
 聯豐路
 寶善路
 藍天路
@@ -27885,46 +27973,62 @@ use_preset_vocabulary: true
 南雅新村
 段塘街道
 段塘
+寧波電視臺
+電視中心
 麗園北路
 麗園南路
 鄞奉路
 新典路
+新典橋
+啓文
+啓文橋
 南苑街
+糧豐
 糧豐路
+糧豐村
 環城南路
 啓運路
 客運中心
 南塘河
 雲霞路
+恆春街
 氣象路
-望春街道
-望春
-望春橋
+藕池
+看經寺
+看經路
+丁家	tin ko
+望春街道	vaon tshyun ka dau
+望春	vaon tshyun
+望春橋	vaon tshyun jiau
 澤民廟
 天一家園	thi iq cia yu
 青林灣
-望童北路
+望童	vaon don
+望童北路	vaon don poq lu
 徐家漕	zhi ko zau
 關愛小區
-寧波市中醫院	gnin pou zy tson i yu
+寧波市中醫院
 高橋鎮
 高橋
 通途西路
 梁祝
 梁祝公園
 梁祝文化公園
-大紅鷹學院	da ghon in ghoq yu
-寧波財經學院	gnin pou dze cin ghoq yu
+八方集團	paq faon jiq doe
+大紅鷹學院	da ghon in yuq yu
+寧波財經學院	gnin pou dze cin yuq yu
 橫街鎮
 橫街
-集士港鎮	zyuq zy kaon tsyun
-集士港	zyuq zy kaon
+集士港鎮
+集士港
 奧特萊斯
 廣德湖
 十三洞橋
 古林鎮
 古林
 黃古林
+禮嘉橋
+禮嘉橋村
 洞橋鎮
 洞橋
 鄞江鎮
@@ -27936,6 +28040,7 @@ use_preset_vocabulary: true
 龍觀
 江北區
 江北
+江北岸
 中馬街道
 中馬路
 老外灘
@@ -27943,11 +28048,14 @@ use_preset_vocabulary: true
 槐樹路
 桃渡路
 大慶南路	da chin nEI lu
-寧波美術館	gnin pou mei zyuq kun
-天主堂
+寧波美術館
 來福士廣場
 西草馬路
 新馬路
+寧波耶穌聖心堂
+江北天主堂
+江北天主教堂
+江北岸天主堂
 白沙街道
 日湖	zyuq wu
 日湖公園	zyuq wu kon yu
@@ -27956,22 +28064,25 @@ use_preset_vocabulary: true
 孔浦
 汽車北站
 寧波大學	gnin pou da ghoq
-寧波工程學院	gnin pou kon jin ghoq yu
-寧波幫博物館	gnin pou paon poq vaq kun
+寧波工程學院	gnin pou kon jin yuq yu
+寧波幫博物館
 三官堂
 路林
 文教街道	ven ciau ka dau
-寧波大劇院	gnin pou da jiq yu
+寧波大劇院
 大閘路	dou zaq lu
 姚江公園
+永豐
 永豐北路
 育才路
+惠貞
 惠貞書院
-寧波四中	gnin pou sy tson
+寧波四中
 四中
 環城北路
 高塘
-範江岸路
+范江岸
+范江岸路
 新三江口
 北岸琴森
 甬江街道
@@ -27996,11 +28107,13 @@ use_preset_vocabulary: true
 奧體中心
 慈城鎮
 慈城
+慈谿縣
 慈谿
 慈湖
 慈湖中學	dzy wu tson ghoq
 北侖區
 北侖
+濱海區
 泰山路
 泰山西路
 江南中路
@@ -28039,28 +28152,35 @@ use_preset_vocabulary: true
 白峯街道
 白峯
 鎮海區
+鎮海縣
 鎮海
 鎮海中學	tsyun he tson ghoq
+鎮寧
 鎮寧西路
 鎮寧東路
+雄鎮
 雄鎮路
 鎮海大道	tsyun he da dau
+蛟川
 蛟川書院
+龍賽
 龍賽中學	lon se tson ghoq
 鄭氏十七房
 慈海北路
 九龍大道	cieu lon da dau
-寧波植物園	gnin pou jiq vaq yu
+寧波植物園
 莊市
 康寧醫院
 清水浦	chin syu phu
 中官路
 招寶山街道
+鎮海煉化
 蛟川街道
-蛟川
 駱駝街道
 貴駟街道	ciu sy ka dau
+貴駟街道	kuei sy ka dau
 貴駟	ciu sy
+貴駟	kuei sy
 澥浦鎮
 澥浦
 蟹浦
@@ -28078,6 +28198,7 @@ use_preset_vocabulary: true
 鍾公廟
 長豐村	jian fon tshen
 長豐	jian fon
+長豐工業園	jian fon kon gniq yu
 廣德湖路
 廣德湖北路
 寧南北路
@@ -28095,6 +28216,7 @@ use_preset_vocabulary: true
 中河街道
 飛虹新村
 永達路
+宋詔橋	son theu jiau
 宋詔橋	son thei jiau
 飛虹立交橋	fi ghon liq ciau jiau
 鄞州汽車總站
@@ -28110,7 +28232,7 @@ use_preset_vocabulary: true
 寧南南路
 天童南路
 錢湖南路
-寧波博物館	gnin pou poq vaq kun
+寧波博物館
 鄞州公園
 明州醫院
 鄞州大道	gnin cieu da dau
@@ -28118,10 +28240,10 @@ use_preset_vocabulary: true
 南部商務區	nEI bu saon vu chiu
 萬里學院	vae li ghoq yu
 寧波經貿學校	gnin pou cin meu ghoq yau
-寧波理工學院	gnin poq li kon ghoq yu
+寧波理工學院	gnin poq li kon yuq yu
 寧波中學	gnin pou tson ghoq
-寧波一中	gnin pou iq tson
-一中	iq tson
+寧波一中
+一中
 諾丁漢大學	noq tin he da ghoq
 諾丁漢
 羅蒙環球城
@@ -28133,9 +28255,10 @@ use_preset_vocabulary: true
 百丈東路
 七塔寺
 箕漕街
-波特曼	pou daq mae
+波特曼
 江東北路
 江東南路
+彩虹牌坊
 彩虹北路
 彩虹南路
 甬港北路
@@ -28149,14 +28272,18 @@ use_preset_vocabulary: true
 大河路	da ghou lu
 新江廈
 慶安會館
+浙海常關
+浙海常關舊址
 姚隘路
 甬江大道	ion kaon da dau
 驚駕路
 曙光路
 寧波書城	gnin pou syu jin
+張斌
 張斌橋
 兩號橋市場
 一一三醫院
+九〇六醫院
 寧波東海醫院	gnin pou ton he i yu
 後塘河
 明樓街道
@@ -28164,12 +28291,14 @@ use_preset_vocabulary: true
 曙光北路
 曙光中學	zyu kuaon tson ghoq
 民安小區
-和豐創意廣場	ghou fon tshaon i kuaon jian
+和豐紗廠
+和豐創意廣場
 朝暉路	ciau huei lu
 徐戎新村
 白鶴街道
 白鶴
 白鶴新村
+白鶻橋	baq kuaq jiau
 新河路
 王隘路	waon ka lu
 前塘河
@@ -28177,6 +28306,7 @@ use_preset_vocabulary: true
 李惠利中學	li wei li tson ghoq
 李惠利
 興寧路
+粉末冶金廠	fen maq yi cin chian
 東柳街道
 東柳
 寧波三中	gnin pou sae tson
@@ -28230,19 +28360,22 @@ use_preset_vocabulary: true
 東錢湖鎮
 東錢湖
 雅戈爾動物園	ia kaq er don vaq yu
-雅戈爾	ia kaq er
 雅戈爾動物園	ia kou er don vaq yu
-雅戈爾	ia kou er
 莫枝	moq tsy
-東吳鎮
-東吳
+東吳鎮	ton ng tsyun
+東吳鎮	ton wu tsyun
+東吳	ton ng
+東吳	ton wu
+天童
+天童寺
 五鄉鎮
 五鄉
 五鄉東路
 五鄉中路
 五鄉西路
 五鄉中學	ng shian tson ghoq
-育王
+育王	gnioq waon
+阿育王	aq gnioq waon
 寶幢
 邱隘鎮	chieu ka tsyun
 邱隘	chieu ka
@@ -28254,6 +28387,8 @@ use_preset_vocabulary: true
 姜山
 姜山中學	cian sae tson ghoq
 奉化區
+奉化市
+奉化縣
 奉化
 奉化中學	von huo tson ghoq
 奉化實驗中學	von huo zyuq nE tson ghoq
@@ -28273,10 +28408,15 @@ use_preset_vocabulary: true
 溪口
 溪口中學	chi kheu tson ghoq
 蔣氏故里
+蔣氏故居
+蔣氏
+玉泰鹽鋪	gnioq tha yi phu
+妙高臺
+妙高峯
+天柱峯
 雪竇寺
 千丈巖
 亭下湖
-妙高臺
 巖頭村
 尚田鎮
 尚田
@@ -28289,6 +28429,7 @@ use_preset_vocabulary: true
 松嶴鎮
 松嶴
 餘姚市
+餘姚縣
 餘姚
 大隱鎮	da in tsyun
 大隱	da in
@@ -28306,6 +28447,7 @@ use_preset_vocabulary: true
 四明山鎮
 四明山
 慈溪市
+慈溪縣
 慈溪
 龍山鎮
 掌起鎮
@@ -28315,107 +28457,178 @@ use_preset_vocabulary: true
 寧海縣
 寧海
 躍龍街道
+躍龍
 桃源街道
+桃源
 梅林街道
 橋頭胡街道
+橋頭胡
 長街鎮	jian ka tsyun
 長街	jian ka
 力洋鎮
+力洋
 一市鎮
+一市
 岔路鎮
+岔路
 前童鎮
 前童
 桑洲鎮
+桑洲
 黃壇鎮
 黃壇
 大佳何鎮
+大佳何
 強蛟鎮
+強蛟
 西店鎮
 西店
 深甽鎮
+深甽
 胡陳鄉
+胡陳
 茶院鄉
+茶院
 越溪鄉
-象山縣
-象山
+越溪
+象山縣	jian sae yu
+象山縣	zhian sae yu
+象山	jian sae
+象山	zhian sae
 丹城
 丹東街道
+丹東
 丹西街道
+丹西
 爵溪街道
+爵溪
 石浦鎮
 石浦
 西周鎮
+西周
 賢庠鎮
+賢庠
 牆頭鎮
+牆頭
 塗茨鎮
-大徐鎮
+塗茨
+大徐鎮	da zhi tsyun
+大徐	da zhi
 泗洲頭鎮
+泗洲頭
 定塘鎮
+定塘
 新橋鎮
+新橋
 鶴浦鎮
+鶴浦
 黃避嶴鄉
+黃避嶴
 茅洋鄉
+茅洋
 東陳鄉
+東陳
 高塘島鄉
 高塘島
 曉塘鄉
+曉塘
 舟山市
 舟山
+甬東
+翁山縣
+翁山
+昌國縣
+昌國州
+昌國
 定海區
+定海縣
 定海
 昌國街道
 環南街道
+環南
 城東街道
+城東
 鹽倉街道
+鹽倉
 臨城街道
+臨城
 岑港街道
+岑港
 馬嶴街道
+馬嶴
 雙橋街道
+雙橋
 小沙街道
+小沙
 千島街道
+千島
 金塘鎮
 金塘島
+金塘
 白泉鎮
+白泉
 干覽鎮
+干覽
 普陀區
+普陀縣
 普陀
 沈家門街道	shin ko men ka dau
 沈家門	shin ko men
 東港街道
+東港
 朱家尖街道	tsyu ko ci ka dau
 朱家尖	tsyu ko ci
 普陀山機場
-展茅街道	ci mau ka dau
+展茅街道
+展茅
 六橫鎮
 六橫島
+六橫
 蝦峙鎮	huo ji tsyun
 蝦峙島	huo ji tau
+蝦峙	huo ji
 桃花鎮
 桃花島
 東極鎮
 東極島
+東極
 普陀山鎮
 普陀山
 岱山縣
 岱山
 岱山島
 高亭鎮
+高亭
 東沙鎮
+東沙
 岱東鎮
+岱東
 岱西鎮
+岱西
 長塗鎮	jian du tsyun
+長塗	jian du
 衢山鎮
 衢山島
+衢山
 秀山鄉
 秀山島
+秀山
 嵊泗縣
+嵊泗
 菜園鎮
+菜園
 嵊山鎮
+嵊山
 洋山鎮
+洋山
 五龍鄉
+五龍
 黃龍鄉
+黃龍
 枸杞鄉
+枸杞
 花鳥鄉	huo gniau shian
+花鳥	huo gniau
 繞城高速
 杭甬高速
 甬台溫高速
@@ -28425,6 +28638,7 @@ use_preset_vocabulary: true
 穿山疏港高速
 金塘大橋	cin daon da jiau
 象山港大橋	jian sae kaon da jiau
+象山港大橋	zhian sae kaon da jiau
 杭州灣跨海大橋	ghaon cieu uae khua he da jiau
 奉化江
 江廈橋
@@ -28804,7 +29018,6 @@ use_preset_vocabulary: true
 依賴	i lae
 頭銜	deu ngae
 薄荷	bou hou
-象山	jian sae
 半個	phun kou
 凌𠗶	din daon
 凌𠗶	jin daon
@@ -28816,6 +29029,115 @@ use_preset_vocabulary: true
 放映	faon ian
 傴背	on pei
 塑子	su tsy
+一張	iq jian
+一張張	iq jian jian
+兩張	lian jian
+三張	sae jian
+四張	sy jian
+五張	ng jian
+六張	loq jian
+七張	chiq jian
+八張	paq jian
+九張	cieu jian
+十張	zyuq jian
+一百張	iq paq jian
+兩百張	lian paq jian
+半張	pun jian
+單張	tae jian
+單張頭	tae jian deu
+多張	tou jian
+一張照片	iq jian ciau phi
+兩張照片	lian jian ciau phi
+該張照片	kiq jian ciau phi
+該一張照片	kiq iq jian ciau phi
+該兩張照片	kiq lian jian ciau phi
+做張	tsou jian
+各張	koq jian
+幾張	ci jian
+多少張	tou shiau jian
+整張	cin jian
+整張頭	cin jian deu
+每張	mei jian
+每一張	mei iq jian
+該張	kiq jian
+該一張	kiq iq jian
+該兩張	kiq lian jian
+蕩張	daon jian
+一張	iq cian
+一張張	iq cian cian
+兩張	lian cian
+三張	sae cian
+四張	sy cian
+五張	ng cian
+六張	loq cian
+七張	chiq cian
+八張	paq cian
+九張	cieu cian
+十張	zyuq cian
+一百張	iq paq cian
+兩百張	lian paq cian
+半張	pun cian
+單張	tae cian
+單張頭	tae cian deu
+多張	tou cian
+一張照片	iq cian ciau phi
+兩張照片	lian cian ciau phi
+該張照片	kiq cian ciau phi
+該一張照片	kiq iq cian ciau phi
+該兩張照片	kiq lian cian ciau phi
+做張	tsou cian
+各張	koq cian
+幾張	ci cian
+多少張	tou shiau cian
+整張	cin cian
+整張頭	cin cian deu
+每張	mei cian
+每一張	mei iq cian
+該張	kiq cian
+該一張	kiq iq cian
+該兩張	kiq lian cian
+蕩張	daon cian
+柯橋	kou jiau
+柯橋	khou jiau
+柯橋區	kou jiau chiu
+柯橋區	khou jiau chiu
+放映	faon in
+鴨梨	aq li
+參差	tshen tshy
+墨翟	moq diq
+翟子悲	diq tsy pei
+翬翟	huei diq
+要塞	iau se
+句讀	ciu deu
+虛與委蛇	shiu yu uei yi
+鉛山	yi sae
+通通樣樣	thon thon gnian gnian
+統統樣樣	thon thon gnian gnian
+像模像樣	zhian moq zhian yan
+拓碑	thaq pei
+虧煞	tshu saq
+蝙蝠老鼠	phi foq lau tsy
+蝙蝠	phi foq
+蝙蝠老鼠開會𡀂	phi foq lau tsy khe wei lei
+蝙蝠老鼠開會了	phi foq lau tsy khe wei lei
+大家	da cia	55
+乾咽	kI iq
+人物闐咽	zyun vaq di iq
+凝咽	gnin iq
+哽咽	ken iq
+哽哽咽咽	ken ken iq iq
+啞咽	o iq
+嗚咽	u iq
+嗚嗚咽咽	u u iq iq
+填咽	di iq
+幽咽	ieu iq
+悲咽	pei iq
+抽咽	chieu iq
+氣咽聲絲	chi iq shin sy
+淒咽	chi iq
+聲絲氣咽	shin sy chi iq
+闐咽	di iq
+龜茲	chieu dzy
 奧魚	au ng
 肉肉	knion knion
 襖襖
@@ -28908,24 +29230,6 @@ use_preset_vocabulary: true
 下工夫	gho kon fu
 下本	gho pen
 養生	ian sen
-柯橋	kou jiau
-柯橋	khou jiau
-柯橋區	kou jiau chiu
-柯橋區	khou jiau chiu
-放映	faon in
-鴨梨	aq li
-參差	tshen tshy
-墨翟	moq diq
-翟子悲	diq tsy pei
-翬翟	huei diq
-要塞	iau se
-句讀	ciu deu
-虛與委蛇	shiu yu uei yi
-鉛山	yi sae
-通通樣樣	thon thon gnian gnian
-統統樣樣	thon thon gnian gnian
-像模像樣	zhian moq zhian yan
-拓碑	thaq pei
 倭豆鹹肉糯米飯
 糯米飯
 倭豆飯
@@ -28951,12 +29255,49 @@ use_preset_vocabulary: true
 醬豆腐㸆肉
 麪結
 麪結麪
-倉橋麪結店
 快速麪	khua soq mi
-興寧橋燒雞
 片片鴨	phi phi ae
+慈城年糕
+倉橋麪結店
+興寧橋燒雞
 缸鴨狗	kaon aq keu
+樓茂記	leu meu ci
 趙大有	jiau da yeu
+壽全齋
+東福園
+馮存仁堂	von dzen zyun daon
+一言堂
+四明大藥房	sy min da yaq vaon
+狀元樓
+昇陽泰
+金鐘
+金鐘醬油
+玫瑰米醋
+三江
+三江超市
+恆一廣場
+老三進
+黃古林草蓆
+陸銀華
+陸氏傷科
+雅戈爾	ia kaq er
+雅戈爾	ia kou er
+奧克斯	kau khaq sy
+銀億
+杉杉
+廣博
+方太
+羅蒙
+公牛	kon ngeu
+得力
+得力辦公
+得力文具
+舜宇
+雙鹿
+雙鹿電池
+太平鳥
+博洋
+博洋家紡	poq yan cia faon
 撥我	paq ngo
 撥我	poq ngo
 撥儂	paq nou
@@ -29863,9 +30204,6 @@ VCD	vi shi di
 不愧不怍	paq khuei paq dzoq
 不愧是	paq khuei zy
 不愧爲	paq khuei wei
-不懈	paq ye
-不懈努力	paq ye nu liq
-不懈怠	paq ye de
 不應該	paq in ke
 勿應該	vaq in ke
 弗應該	vaq in ke
@@ -30296,8 +30634,6 @@ VCD	vi shi di
 勿飽和脂肪酸	vaq pau ghou tsy faon soe
 弗飽和	vaq pau ghou
 弗飽和脂肪酸	vaq pau ghou tsy faon soe
-不龜手藥	paq kuei shieu yaq
-不龜藥	paq kuei yaq
 丑日	chieu gniq
 且聽下回分解	chie thin gho wei fen ka
 且聽下回分解	chie thin gho wei fen cia
@@ -30791,10 +31127,8 @@ VCD	vi shi di
 主從	tsyu dzon
 主打品牌	tsyu tan phin ba
 主抓	tsyu tsa
-主持	tsyu dzy
+主持人	tsyu ji gnin
 主持人	tsyu dzy gnin
-主持會議	tsyu dzy wei gni
-主持正義	tsyu dzy cin gni
 主教	tsyu ciau
 主教團	tsyu ciau doe
 主教練	tsyu ciau li
@@ -30884,7 +31218,6 @@ VCD	vi shi di
 九大	cieu da
 九大行星	cieu da yin shin
 九官鳥	cieu kun gniau
-九尾龜	cieu vi kuei
 九嶷山	cieu gni sae
 九日	cieu gniq
 九歲	cieu syu
@@ -33977,18 +34310,17 @@ VCD	vi shi di
 保家	pau cia
 保家衛國	pau cia wei koq
 保密防諜	pau miq vaon diaq
-保持	pau dzy
-保持一致	pau dzy iq tsy
-保持剋制	pau dzy khaq tsyu
-保持原貌	pau dzy gniu mau
-保持在	pau dzy dze
+保持來	pau ji le
 保持來	pau dzy le
+保持勒	pau ji laq
 保持勒	pau dzy laq
-保持有	pau dzy yeu
+保持着	pau ji dzoq
+保持着	pau ji zyuq
 保持着	pau dzy dzoq
 保持着	pau dzy zyuq
+保持聯繫	pau ji li shi
 保持聯繫	pau dzy li shi
-保持警惕	pau dzy cin thiq
+保持身材	pau ji shin dze
 保持身材	pau dzy shin dze
 保教	pau ciau
 保爾	pau er
@@ -34887,7 +35219,9 @@ VCD	vi shi di
 僱人	ku gnin
 僱個	ku goq
 僱個	ku ghoq
-僵持	cian dzy
+僵持不下	cian ji paq gho
+僵持勿落	cian ji vaq loq
+僵持弗落	cian ji vaq loq
 僵持不下	cian dzy paq gho
 僵持勿落	cian dzy vaq loq
 僵持弗落	cian dzy vaq loq
@@ -35528,8 +35862,6 @@ VCD	vi shi di
 六萬個	loq vae goq
 六親不認	loq chin paq gnin
 六集	loq jiq
-六龜	loq kuei
-六龜鄉	loq kuei shian
 共分	gon fen
 共去	gon chi
 共同感覺	gon don kI ciuq
@@ -35580,7 +35912,6 @@ VCD	vi shi di
 冉冉上昇	zoe zoe zaon shin
 冉有	zoe yeu
 冉有僕	zoe yeu boq
-冊府元龜	tshaq fu gniu kuei
 再上去	tse zaon chi
 再下去	tse gho chi
 再落去	tse loq chi
@@ -35712,6 +36043,7 @@ VCD	vi shi di
 冰消瓦解	pin shiau ngo cia
 冰窖	pin ciau
 冶金學	ye cin yuq
+冶金學	yi cin yuq
 冷不防	lan paq vaon
 冷了	lan lei
 冷了	lan laq
@@ -37067,6 +37399,10 @@ VCD	vi shi di
 加沙	ko so
 加沙	cia so
 加沙地帶	cia so di ta
+加油	cia yeu
+加油吧	cia yeu pa
+加油啊	cia yeu gha
+加油啊	cia yeu a
 加油	ko yeu
 加油吧	ko yeu pa
 加油啊	ko yeu gha
@@ -37536,7 +37872,6 @@ VCD	vi shi di
 匠人	zhian gnin
 匡時濟世	khuaon zy ci syu
 匪人	fi gnin
-匪懈	fi ye
 匯出行	wei tshyuq ghaon
 匯差	wei tsha
 匯業財經集團	wei gniq dze cin jiq doe
@@ -38645,7 +38980,6 @@ VCD	vi shi di
 只怕有心人	ciq pho yeu shin gnin
 只想去	ciq shian chi
 只戴	ciq ta
-只支持	ciq tsy dzy
 只教	ciq kau
 只於	ciq yu
 只是個	ciq zy goq
@@ -40079,7 +40413,6 @@ VCD	vi shi di
 單元頻率	tae gniu bin liq
 單名數	tae min su
 單向行駛	tae shian yin sy
-單張	tae jian
 單張匯票	tae jian wei phiau
 單從	tae dzon
 單循環	tae zyun wae
@@ -40249,6 +40582,7 @@ VCD	vi shi di
 四仁	sy zyun
 四伏	sy voq
 四個人	sy goq gnin
+四個堅持	sy goq ci ji
 四個堅持	sy goq ci dzy
 四個字	sy goq zy
 四個月	sy goq yuq
@@ -40754,7 +41088,6 @@ VCD	vi shi di
 圖像用戶介面	du zhian yon wu cia mi
 圖利他人	du li tha zyun
 圖拉	du lha
-圖文並茂	du ven bin mau
 圖書館學	du syu kun yuq
 圖爾	du er
 圖爾庫	du er khu
@@ -41168,19 +41501,16 @@ VCD	vi shi di
 堂妹	daon mei
 堂姐妹	daon cia mei
 堅守自盜	ci shieu zy dau
-堅持	ci dzy
+堅持下去	ci ji gho chi
 堅持下去	ci dzy gho chi
+堅持落去	ci ji loq chi
 堅持落去	ci dzy loq chi
-堅持不下	ci dzy paq gho
-堅持不懈	ci dzy paq ye
-堅持不懈	ci dzy paq ya
-堅持不渝	ci dzy paq yu
-堅持到底	ci dzy tau ti
-堅持己見	ci dzy ci ci
+堅持着	ci ji dzoq
+堅持着	ci ji zyuq
 堅持着	ci dzy dzoq
 堅持着	ci dzy zyuq
+堅持勒	ci ji laq
 堅持勒	ci dzy laq
-堅持走	ci dzy tseu
 堅甲利兵	ci ciaq li pin
 堆上去	tei zaon chi
 堆了	tei laq
@@ -41584,8 +41914,6 @@ VCD	vi shi di
 外長	nga cian
 外防	nga vaon
 外高加索	nga kau cia soq
-夙夜匪懈	soq ya fi ye
-夙夜匪懈	soq ya fi ya
 夙日	soq zyuq
 夙願以償	soq gniu yi dzaon
 多了	tou laq
@@ -41830,6 +42158,8 @@ VCD	vi shi di
 大典	da ti
 大冶	da ye
 大冶市	da ye zy
+大冶	da yi
+大冶市	da yi zy
 大凡	da vae
 大凶	da shion
 大出	dou tshyuq
@@ -41864,7 +42194,6 @@ VCD	vi shi di
 大力加強	da liq cia jian
 大力士	da liq zy
 大力推進	da liq thei cin
-大力支持	da liq tsy dzy
 大力發展	da liq faq ci
 大力發展	da liq faq tsoe
 大力神	da liq zyun
