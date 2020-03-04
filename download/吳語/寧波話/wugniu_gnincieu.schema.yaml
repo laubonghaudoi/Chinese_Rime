@@ -2,15 +2,14 @@
 # encoding: utf-8
 
 schema:
-  schema_id: wugniu_gninyu_tsonkonmiau
-  name: 吳語（鄞縣鍾公廟）
-  version: "0.3.6"
+  schema_id: wugniu_gnincieu
+  name: 吳語（鄞州）
+  version: "0.3.8"
   author:
     - Electric Sheep <shinzoqchiuq@outlook.com>
   description: |
-    鄞縣鍾公廟吳語拼音輸入方案
     採用學堂式吳語拼音
-    鍾公廟口音，音系基於《鄞县方言同音字汇》
+    鍾公廟、首南附近口音
     https://www.wugniu.com/
     https://github.com/NGLI/rime-wugniu_gninpou/
   dependencies:
@@ -148,7 +147,7 @@ speller:
 # 主翻譯器 鍾公廟吳拼
 translator:
   dictionary: wugniu_gninpou       # 調取詞典wugniu_gninpou
-  prism: wugniu_gninyu_tsonkonmiau # 根據拼寫運算生成棱鏡文件wugniu_gninyu_tsonkonmiau
+  prism: wugniu_gnincieu # 根據拼寫運算生成棱鏡文件wugniu_gnincieu
   spelling_hints: 5                # 標註拼音
   comment_format: &comment
     # 生成鍾公廟音系
@@ -160,17 +159,14 @@ translator:
     - xform/W/v/
     - xform/Gn/kn/
     - xform/N/w/
-    - xform/(^y|i)u(?=n)/$1o/
-    - derive/([pb]|ph)un/$1oe/
-    - xform/mun/moe/
+    - xform/(\by|i)u(?=n)/$1o/
+    - xform/([pbm]|ph)un/$1oe/
     - xform/uo/o/
     - xform/wo/gho/
-    - derive/tshOE/chieu/
-    - derive/dzOE/jieu/
-    - xform/(tsh|dz)OE/$1oe/
-    - xform/DZOE/jieu/
-    - xform/ZOE/zhieu/
-    - erase/(^|c|j|gn|kn|[csz]h)(y|i)o$/
+    - xform/OE/oe/
+    - xform/DZoe/jieu/
+    - xform/Zoe/zhieu/
+    - xform/(\b|c|j|gn|kn|[csz]h)(y|i)o\b//
 
 # 副翻譯器1 朙月拼音
 luna_pinyin:

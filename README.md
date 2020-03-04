@@ -285,7 +285,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
           </ul>
         </li>
         <li>
-          吳語注音輸入方案吳語學堂版
+          吴语学堂拼音输入方案
           <ul>
             <li>
               上海吳語拼音輸入方案 ℞ <code>NGLI/rime-wugniu_zaonhe</code>
@@ -307,9 +307,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
               寧波吳語拼音輸入方案 ℞ <code>NGLI/rime-wugniu_gninpou</code>
               <ul>
                 <li>吳語（寧波） - <code>wugniu_gninpou</code></li>
-                <li>
-                  吳語（鄞縣鍾公廟） - <code>wugniu_gninyu_tsonkonmiau</code>
-                </li>
+                <li>吳語（鄞州） - <code>wugniu_gnincieu</code></li>
               </ul>
             </li>
             <li>
