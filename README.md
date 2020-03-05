@@ -7,13 +7,13 @@
 <h2>項目宗旨
 <br/>The mission of this project</h2>
 
-本倉庫收集現代漢語各大方言及上古、中古漢語的 [中州韻輸入法](https://rime.im/) 拼音輸入方案和字庫。本項目的目標有三：
+本倉庫收集現代漢語各大方言及上古、中古漢語的[中州韻輸入法](https://rime.im/)拼音輸入方案和字庫。本項目的目標有三：
 
 1. 爲漢語非普通話使用者提供實用的拼音輸入方案，解決被迫使用普通話輸入法的困難。
 2. 爲現代漢語方言、古漢語學習者提供實用便利的學習工具，通過拼音打字來練習正音和正字。
 3. 爲學術研究（語言學、漢學、人類學等）提供參考資料。
 
-本項目同作爲推廣漢語方言拼音輸入的支持項目，關於推廣漢語方言拼音的理念和宗旨詳情請閱讀 [本文](https://laubonghaudoi.github.io/hanhngiox/blog/mission.html)。
+本項目同時作爲推廣漢語方言拼音輸入的支持項目，項目主頁請見 [HanhNigox.net](https://hanhngiox.net/)。
 
 This repository collects the phonetic spelling schemas and character sets of [Rime input method](https://rime.im/) for Old Chinese, Middle Chinese and modern Chinese languages & dialects. This project aims to:
 
@@ -21,7 +21,7 @@ This repository collects the phonetic spelling schemas and character sets of [Ri
 2. Serve as a useful tool for Chinese language & dialect learners, as one can use phonetic spelling input to practice the standard pronunciation and orthography.
 3. Provide references for academic researches (Linguistics, Sinology, Anthropology, etc.).
 
-This project also supports the promotion project of non-Mandarin phonetic spelling input. For a complete statement of the mission and motivation of the promotion, please read [this page](https://laubonghaudoi.github.io/hanhngiox/blog/mission.html) (Chinese only).
+This project also supports the promotion project of non-Mandarin phonetic spelling input. The main page of this project is here [HanhNigox.net](https://hanhngiox.net/) (Chinese only).
 
 本倉庫分为四个子文件夹：
 
@@ -90,21 +90,21 @@ python update_download.py
 <h2>已收錄方案
 <br/>Collected schemas</h2>
 
-目前學界對漢語方言分類歸類問題仍存較大分歧。常見的分類方式有傳統的七分法、《中國語言地圖集》的十分法和 ISO 國際標準的十三分法等。若使用傳統分法，則現代漢語族下分七大語支，官吳贛湘粵客閩。若採用《中國語言地圖集》之十分法，則晉語獨立於官話成一支，徽語獨立於吳語成一支，平話獨立於粵語成一支。若採用 ISO 693-3 標準的十三分法，則平話從屬於粵語，而閩語則細分爲閩北、閩南、閩東、閩中、莆仙五支，另外中古漢語和上古漢語各計作一門語言。
+目前學界對漢語方言分類歸類問題仍存較大分歧。常見的分類方式有傳統的七分法、《中國語言地圖集》的十分法和 ISO 國際標準的十六分法等。若使用傳統分法，則現代漢語族下分七大語支，官吳贛湘粵客閩。若採用《中國語言地圖集》之十分法，則晉語獨立於官話成一支，徽語獨立於吳語成一支，平話獨立於粵語成一支。若採用 ISO 693-3 標準的十六分法，則平話再分爲南北兩部，閩語再細分爲閩北、閩南、閩東、閩中、莆仙五支，另外文言文也計作一門語言。
 
-The classification for Chinese languages and dialects has been an unsettled issue in the academia. The traditional way (Jerry Norman 1988) puts Chinese languages into seven groups: Mandarin, Wu, Gan, Xiang, Cantonese, Hakka, Min. The *Language Atlas of China* classifies them into 10 groups, separating Jin, Huizhou and Pinghua from Mandarin, Wu and Cantonese as independent languages. The ISO 693-3 standard keeps Pinghua within Cantonese and further divides Min into Northern, Southern, Eastern, Central and Pu-Xian branches.
+The classification for Chinese languages and dialects has been an unsettled issue in the academia. The traditional way (Jerry Norman 1988) puts Chinese languages into seven groups: Mandarin, Wu, Gan, Xiang, Cantonese, Hakka, Min. The _Language Atlas of China_ classifies them into 10 groups, separating Jin, Huizhou and Ping from Mandarin, Wu and Cantonese as independent languages. The ISO 693-3 standard further separates Ping into Northern and Southern divisions and divides Min into Northern, Southern, Eastern, Central and Pu-Xian branches.
 
-爲提高本項目可讀性和後續可維護性，本項目採用 ISO 693-3 標準的十三分法。此標準僅作參考，非最佳標準。若對此分類方式有任何疑問或意見，歡迎[新開一個 issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) 發起討論。下表爲此標準下各語言所對應的 ISO 639-3 代碼：
+爲提高本項目可讀性和後續可維護性，本項目採用 ISO 693-3 標準的十六分法。此標準僅作參考，非最佳標準。若對此分類方式有任何疑問或意見，歡迎[新開一個 issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) 發起討論。下表爲此標準下各語言所對應的 ISO 639-3 代碼：
 
 To improve the readability and maintainability of this project, here we adopt the ISO 693-3 system. This is for reference only and by no means the gold standard. If you have any questions or suggestions about this, feel free to [open a new issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) for discussions. The following table shows the ISO 639-3 codes for these languages.
 
-| 上古漢語 Old Chinese | 中古漢語 Middle Chinese | 官話 Mandarin | 晉語 Jin | 吳語 Wu | 徽語 Huizhou | 贛語 Gan | 湘語 Xiang | 閩北語 Northern Min | 閩南語 Southern Min | 閩東語 Eastern Min| 閩中語 Central Min| 莆仙語 Pu-Xian Min | 客家話 Hakka | 粵語 Yue|
-|----------|----------|------|------|------|------|------|------|--------|--------|--------|--------|--------|--------|------|
-| och      | ltc      | cmn  | cjy  | wuu  | czh  | gan  | hsn  | mnp    | nan    | cdo    | czo    | cpx    | hak    | yue  |
+| 閩東語 Min Dong Chinese | 晉語 Jinyu Chinese | 官話 Mandarin Chinese | 莆仙語 Pu-Xian Chinese | 徽語 Huizhou Chinese | 閩中語 Min Zhong Chinese | 贛語 Gan Chinese | 客家話 Hakka Chinese | 湘語 Xiang Chinese | 文言文 Literary Chinese | 閩北語 Min Bei Chinese | 閩南語 Min Nan Chinese | 吳語 Wu Chinese | 粵語 Yue Chinese | 北部平話 Northern Ping Chinese | 南部平話 Southern Ping Chinese |
+| ----------------------- | ------------------ | --------------------- | ---------------------- | -------------------- | ------------------------ | ---------------- | -------------------- | ------------------ | ----------------------- | ---------------------- | ---------------------- | --------------- | ---------------- | ------------------------------ | ------------------------------ |
+| cdo                     | cjy                | cmn                   | cpx                    | czh                  | czo                      | gan              | hak                  | hsn                | lzh                     | mnp                    | nan                    | wuu             | yue              | cnp                            | csp                            |
 
-目前 **暫缺閩北語、閩中語、徽語、贛語、湘語** 的輸入方案。如有作者已編寫以上語言的輸入方案，請 [聯系我](mailto:laubonghaudoi@icloud.com) 或[新開一個 issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) 以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
+目前 **暫缺閩北語、閩中語、徽語、贛語、湘語、北部平話、南部平話** 的輸入方案。如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或[新開一個 issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) 以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
-Right now we are still **missing the schemas for Northern Min, Central Min,  Huizhou, Gan, Xiang**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or [open a new issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) to add it to the collection. Schemas for other Chinese languages are also highly welcomed.
+Right now we are still **missing the schemas for Northern Min, Central Min, Huizhou, Gan, Xiang, Northern and Southern Ping**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or [open a new issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) to add it to the collection. Schemas for other Chinese languages are also highly welcomed.
 
 以下爲方案總表和配方列表。其中配方以符號 ℞ 標識。
 
@@ -530,6 +530,18 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
   <li>
     <details>
+      <summary>北部平話 Northern Ping</summary>
+      <b>暫缺 Not available</b>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>南部平話 Southern Ping</summary>
+      <b>暫缺 Not available</b>
+    </details>
+  </li>
+  <li>
+    <details>
       <summary>域外方音 Non-Sinitic Languages</summary>
       <ul>
         <li>
@@ -762,6 +774,18 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
   <li>
     <details>
+      <summary>北部平話 Northern Ping</summary>
+      <b>暫缺 Not available</b>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>南部平話 Southern Ping</summary>
+      <b>暫缺 Not available</b>
+    </details>
+  </li>
+  <li>
+    <details>
       <summary>域外方音 Non-Sinitic Languages</summary>
       <ul>
         <li>한글 ℞ <code>rime-aca/rime-hangyl</code></li>
@@ -784,18 +808,18 @@ For detailed information of the collected schemas in the download package, pleas
 <br/>Incomplete list of sources of unmaintained schemas (non-recipes)</h2>
 
 - 中古漢語
-    - [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
-    - [廣韻羅馬字](https://gist.github.com/lotem/3950485)
-    - [廣韻段毄攴字法](https://bintray.com/rime-aca/Schemata/KMG)
+  - [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
+  - [廣韻羅馬字](https://gist.github.com/lotem/3950485)
+  - [廣韻段毄攴字法](https://bintray.com/rime-aca/Schemata/KMG)
 - 江淮官話
-    - [泰如拼音](https://github.com/osfans/rime-tool/tree/master/data/y)
-    - [南通方言](http://nantonghua.net/archives/7770)
+  - [泰如拼音](https://github.com/osfans/rime-tool/tree/master/data/y)
+  - [南通方言](http://nantonghua.net/archives/7770)
 - 粵語
-    - [貴州韻](https://zhuanlan.zhihu.com/p/31464937)
+  - [貴州韻](https://zhuanlan.zhihu.com/p/31464937)
 - 晉語
-    - [嘉樂泉話](https://github.com/osfans/rime-tool/tree/master/data/y)
+  - [嘉樂泉話](https://github.com/osfans/rime-tool/tree/master/data/y)
 - 域外方音
-    - [古壮字拼音](https://zhuanlan.zhihu.com/p/24138023)
+  - [古壮字拼音](https://zhuanlan.zhihu.com/p/24138023)
 
 <h2>資源
 <br/>Resources</h2>
@@ -979,4 +1003,4 @@ Eberhard, David M., Gary F. Simons, and Charles D. Fennig (eds.). 2019. Ethnolog
 
 Norman, J.L. (1988) Chinese. Cambridge University Press.
 
-中国社会科学院语言研究所, 中国社会科学院民族学与人类学研究所. 2012. 中国语言地图集（第2版）：汉语方言卷. 商务印书馆.
+中国社会科学院语言研究所, 中国社会科学院民族学与人类学研究所. 2012. 中国语言地图集（第 2 版）：汉语方言卷. 商务印书馆.
