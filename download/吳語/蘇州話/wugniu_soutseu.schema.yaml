@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_soutseu
   name: 吳語（蘇州）
-  version: "2020.01.12"
+  version: "2020.03.15"
   author:
     - 予安 <181065229@qq.com> (dict)
     - 雪心居士 <sihsin@live.com> (schema)
@@ -75,6 +75,7 @@ speller:
     - derive/^(s|z)i/$1hi/
     # 干官不分
     - derive/uoe/oe/
+    - derive/woe/ghoe/
     # 求拳不分
     - derive/(?<=[yi])eu/oe/
     # 打黨不分

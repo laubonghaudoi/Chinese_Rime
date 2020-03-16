@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_gnincieu
   name: 吳語（鄞州）
-  version: "0.3.8"
+  version: "0.3.9"
   author:
     - Electric Sheep <shinzoqchiuq@outlook.com>
   description: |
@@ -61,7 +61,7 @@ speller:
   delimiter: " '"
   algebra:
     - xform/^([bcdfghjklpqstvwxyz])$/$1_/
-    # 生成鍾公廟音系
+    # 生成鄞州音系
     - xform/WU|NU/ngu/
     - xform/nEI/nae/
     - xform/EI|AE/e/
@@ -144,13 +144,13 @@ speller:
     # 容錯 w- => ghu-
     - derive/wu|w(?=[aeo])/ghu/
 
-# 主翻譯器 鍾公廟吳拼
+# 主翻譯器 鄞州吳拼
 translator:
-  dictionary: wugniu_gninpou       # 調取詞典wugniu_gninpou
-  prism: wugniu_gnincieu # 根據拼寫運算生成棱鏡文件wugniu_gnincieu
-  spelling_hints: 5                # 標註拼音
+  dictionary: wugniu_gninpou # 調取詞典wugniu_gninpou
+  prism: wugniu_gnincieu     # 根據拼寫運算生成棱鏡文件wugniu_gnincieu
+  spelling_hints: 5          # 標註拼音
   comment_format: &comment
-    # 生成鍾公廟音系
+    # 生成鄞州音系
     - xform/WU|NU/ngu/
     - xform/nEI/nae/
     - xform/EI|AE/e/
@@ -176,7 +176,7 @@ luna_pinyin:
   prefix: '`'             # 引導鍵「`」
   suffix: "'"             # 結束鍵「'」
   tips: 〔反查〕          # 輸入前提示〔反查〕
-  closing_tips: 〔吳語（鄞縣鍾公廟）〕
+  closing_tips: 〔吳語（鄞州）〕
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
@@ -190,7 +190,7 @@ stroke:
   prefix: '`'             # 引導鍵「`」
   suffix: "'"             # 結束鍵「'」
   tips: 〔反查〕          # 輸入前提示〔反查〕
-  closing_tips: 〔吳語（鄞縣鍾公廟）〕
+  closing_tips: 〔吳語（鄞州）〕
   preedit_format:
     - xlit/hspnz/一丨丿丶乙/
 

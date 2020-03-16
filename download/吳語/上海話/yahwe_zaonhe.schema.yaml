@@ -4,7 +4,7 @@
 schema:
   schema_id: yahwe_zaonhe
   name: 吳協式上海言話
-  version: "2019.08.17"
+  version: "2020.03.15"
   author:
     - 埃爾德路 ‹edwardmartyr@outlook.com›
   description: |
@@ -54,46 +54,42 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba
+  alphabet: ";zyxwvutsrqponmlkjihgfedcba"
   delimiter: " '"
   algebra:
-  #  - derive/^tsi/ji/                             # 去除井號以啓用偏新派口音；嗰墶個設置不一定全，可以再加。
-  #  - derive/^tshi/chi/
-  #  - derive/^([sz])i/$1hi/
-  #  - derive/^dzi/ji/
-  #  - derive/(.*)ah/$1eh/
-  #  - derive/(.*)eh/$1ah/
-  #  - derive/(.*)ioh/$1iuih/
-  #  - derive/(.*)ioh/$1iuih/
-  #  - derive/(.*)ae/$1e/                          # 模糊“蘭”“雷”
-  #  - derive/(.*)ie/$1i/                          # 模糊“煙”“衣”
-    - derive/^(.*)([zsth])yu/$1$2y/               # 上海話模糊“書”“詩”
-    - derive/(.*)aon/$1an/                        # 多數中派模糊前後an
-    - derive/(.*)an/$1aon/
-
+    - xform/'/;/
     - abbrev/^([a-z]).+$/$1/
     - abbrev/^([kptgcs]h).+$/$1/
     - abbrev/^(ts|ng|dz|ny).+$/$1/
     - abbrev/^(tsh).+$/$1/
+    # - derive/^tsi/ji/                             # 去除井號以啓用偏新派口音；嗰墶個設置不一定全，可以再加。
+    # - derive/^tshi/chi/
+    # - derive/^([sz])i/$1hi/
+    # - derive/^dzi/ji/
+    # - derive/(.*)ah/$1eh/
+    # - derive/(.*)eh/$1ah/
+    # - derive/(.*)ioh/$1iuih/
+    # - derive/(.*)ioh/$1iuih/
+    # - derive/(.*)ae/$1e/                          # 模糊“蘭”“雷”
+    # - derive/(.*)ie/$1i/                          # 模糊“煙”“衣”
+    - derive/^(.*)([zsth])yu/$1$2y/               # 上海話模糊“書”“詩”
+    - derive/(.*)aon/$1an/                        # 多數中派模糊前後an
+    - derive/(.*)an/$1aon/
 
-    - derive/(.*)u/$1ou/
-    - derive/^zaon/laon/                          # 地上、衣裳
-  #  - derive/^zi(?=a)/y/                          # 謝謝 zia ya; 好像 hau yan
+    # - derive/^zaon/laon/                          # 地上、衣裳
+    # - derive/^zi(?=a)/y/                          # 謝謝 zia ya; 好像 hau yan
     - derive/(.*)aeh/$1ah/                        # 多數中派模糊前後ah
 
-    - derive/^ny([aeou])/ni$1/                    # 簡寫以及更多易錯模糊
-    - derive/^nyi/ni/
-    - derive/^nyh([aeou])/nhi$1/
-    - derive/^nyhi/nhi/
-    # - derive/^nyh/ny/
-    # - derive/^([mnl])h/$1/
+    - derive/ny([aeou])/ni$1/                    # 簡寫以及更多易錯模糊
+    - derive/nyi/ni/
     # - derive/au$/ao/
     # - derive/^tsh/tt/
     - derive/^sh/x/
     - derive/^ch/q/
     # - derive/([aoei])h$/$1$1/
     # - derive/uih$/uu/
-    - derive/uih$/uh/
+    # - derive/uih$/uh/
+    - derive/ui/u/
     # - derive/([sz])y/$1$1/
     # - derive/^tshy/ttt/
     # - derive/^ng/gg/
@@ -111,10 +107,8 @@ speller:
 
 translator:
   dictionary: yahwe_zaonhe
-  comment_format:
-    - xform/([nlm])h/'$1/
-    - xform/(ny)h/'$1/
-    # - xform/gh/ɦ/
+  # comment_format:
+  #   - xform/gh/ɦ/
   prism: yahwe_zaonhe
   spelling_hints: 6
 
@@ -133,7 +127,11 @@ reverse_lookup:
     - xform/(ny)h/'$1/
 
 punctuator:
-  import_preset: symbols
+  import_preset: default
+  full_shape: 
+    ':' : [ ：, ； ]
+  half_shape: 
+    ':' : [ ：, ； ]
 
 key_binder:
   import_preset: default
