@@ -102,9 +102,9 @@ To improve the readability and maintainability of this project, here we adopt th
 | ----------------------- | ------------------ | --------------------- | ---------------------- | -------------------- | ------------------------ | ---------------- | -------------------- | ------------------ | ----------------------- | ---------------------- | ---------------------- | --------------- | ---------------- | ------------------------------ | ------------------------------ |
 | cdo                     | cjy                | cmn                   | cpx                    | czh                  | czo                      | gan              | hak                  | hsn                | lzh                     | mnp                    | nan                    | wuu             | yue              | cnp                            | csp                            |
 
-目前 **暫缺閩北語、閩中語、徽語、贛語、湘語、北部平話、南部平話** 的輸入方案。如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或[新開一個 issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) 以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
+目前 **暫缺閩北語、閩中語、徽語、贛語、湘語、北部平話** 的輸入方案。如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或[新開一個 issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) 以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
-Right now we are still **missing the schemas for Northern Min, Central Min, Huizhou, Gan, Xiang, Northern and Southern Ping**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or [open a new issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) to add it to the collection. Schemas for other Chinese languages are also highly welcomed.
+Right now we are still **missing the schemas for Northern Min, Central Min, Huizhou, Gan, Xiang, Northern Ping**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or [open a new issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) to add it to the collection. Schemas for other Chinese languages are also highly welcomed.
 
 以下爲方案總表和配方列表。其中配方以符號 ℞ 標識。
 
@@ -504,7 +504,6 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
           南寧話輸入方案 ℞ <code>leimaau/naamning_jyutping</code>
           <ul>
             <li>南寧白話 - <code>naamning_baakwaa</code></li>
-            <li>南寧（亭子）平話 - <code>naamning_bingwaa</code></li>
           </ul>
         </li>
         <li>
@@ -537,7 +536,14 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   <li>
     <details>
       <summary>南部平話 Southern Ping</summary>
-      <b>暫缺 Not available</b>
+      <ul>
+        <li>
+          南寧話輸入方案 ℞ <code>leimaau/naamning_jyutping</code>
+          <ul>
+            <li>南寧（亭子）平話 - <code>naamning_bingwaa</code></li>
+          </ul>
+        </li>
+      </ul>
     </details>
   </li>
   <li>
@@ -781,7 +787,9 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   <li>
     <details>
       <summary>南部平話 Southern Ping</summary>
-      <b>暫缺 Not available</b>
+      <ul>
+        <li>南寧話輸入方案 ℞ <code>leimaau/naamning_jyutping</code></li>
+      </ul>
     </details>
   </li>
   <li>
@@ -839,7 +847,7 @@ For detailed information of the collected schemas in the download package, pleas
         <ul>
           <li><a href="https://zh.wikipedia.org/wiki/User:Polyhedron/%E4%B8%AD%E5%8F%A4%E6%BC%A2%E8%AA%9E%E6%8B%BC%E9%9F%B3">中古漢語拼音</a></li>
           <li><a href="https://bkrs.info/taolun/attachment.php?aid=637">中古漢語基礎教程</a></li>
-          <li><a href="http://www.guguolin.com/">古音手鏡</a></li>
+          <li><a href="http://www.guguolin.com/">古音小鏡</a></li>
           <li><a href="https://inzoi.github.io/dg.html">中古四拼与汉字相互转换</a></li>
         </ul>
       </details>

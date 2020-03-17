@@ -147,14 +147,6 @@
     - naamning_baakwaa.schema.yaml
     - naamning_jyutping.phrase.dict.yaml
     - naamning_jyutping.city.dict.yaml
-粵語/南寧平話:
-  source: 粵語/南寧話輸入方案/
-  files:
-    - LICENSE
-    - naamning_bingwaa.dict.yaml
-    - naamning_bingwaa.schema.yaml
-    - naamning_jyutping.phrase.dict.yaml
-    - naamning_jyutping.city.dict.yaml
 粵語/廣州話:
   source: 粵語/粤拼/
   files:
@@ -174,6 +166,14 @@
     - LICENSE
     - hamzau_jyutping.dict.yaml
     - hamzau_jyutping.schema.yaml
+南部平話/南寧平話:
+  source: 粵語/南寧話輸入方案/
+  files:
+    - LICENSE
+    - naamning_bingwaa.dict.yaml
+    - naamning_bingwaa.schema.yaml
+    - naamning_jyutping.phrase.dict.yaml
+    - naamning_jyutping.city.dict.yaml
 莆仙語/莆田話:
   source: 莆仙語/兴化韵莆仙话输入方案/
   files:
