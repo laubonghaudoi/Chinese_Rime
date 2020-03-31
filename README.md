@@ -13,7 +13,7 @@
 2. 爲現代漢語方言、古漢語學習者提供實用便利的學習工具，通過拼音打字來練習正音和正字。
 3. 爲學術研究（語言學、漢學、人類學等）提供參考資料。
 
-本項目同時作爲推廣漢語方言拼音輸入的支持項目，項目主頁請見 [HanhNigox.net](https://hanhngiox.net/)。
+本項目同時作爲推廣漢語方言拼音輸入的支持項目，項目主頁請見 [HanhNgiox.net](https://hanhngiox.net/)。
 
 This repository collects the phonetic spelling schemas and character sets of [Rime input method](https://rime.im/) for Old Chinese, Middle Chinese and modern Chinese languages & dialects. This project aims to:
 
@@ -21,7 +21,7 @@ This repository collects the phonetic spelling schemas and character sets of [Ri
 2. Serve as a useful tool for Chinese language & dialect learners, as one can use phonetic spelling input to practice the standard pronunciation and orthography.
 3. Provide references for academic researches (Linguistics, Sinology, Anthropology, etc.).
 
-This project also supports the promotion project of non-Mandarin phonetic spelling input. The main page of this project is here [HanhNigox.net](https://hanhngiox.net/) (Chinese only).
+This project also supports the promotion project of non-Mandarin phonetic spelling input. The main page of this project is here [HanhNgiox.net](https://hanhngiox.net/) (Chinese only).
 
 本倉庫分为四个子文件夹：
 
