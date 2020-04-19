@@ -4239,6 +4239,7 @@ min_phrase_weight: 100
 佪	we
 俵	piau
 俶	tshoh
+俶	thih
 俸	von
 俸外
 俺	ae
@@ -9646,7 +9647,7 @@ min_phrase_weight: 100
 喬奇紗
 喬石	jiau zah
 單	tae	100%
-單	zoe	0
+單	zoe	0%
 單一	tae ih
 單于	zoe yu
 單人	tae nyin
@@ -15301,7 +15302,8 @@ min_phrase_weight: 100
 幺二三角落	iau nyi sae koh loh
 幺二角甪	iau nyi koh loh
 幺二角落	iau nyi koh loh
-幻	uae
+幻	uae	100%
+幻	wae	1%
 幻化	uae ho
 幻夢	uae maon
 幻成
@@ -22935,7 +22937,8 @@ min_phrase_weight: 100
 栝	thie	100%
 栟	pen
 栟	pin
-校	kau	0%
+校	kau	1%
+校	ciau	0%
 校	yau	100%
 校中	yau tson
 校內	yau ne
@@ -22948,7 +22951,7 @@ min_phrase_weight: 100
 校名	yau min
 校園	yau yoe
 校址	yau tsy
-校場	yau zan
+校場	kau zan
 校外	yau nga
 校官	yau kuoe
 校容	yau yon
@@ -22959,10 +22962,10 @@ min_phrase_weight: 100
 校方	yau faon
 校旗	yau ji
 校服	yau voh
-校核	yau gheh
+校核	ciau gheh
 校樣	yau yan
 校歌	yau ku
-校準	yau tsen
+校準	kau tsen
 校監	yau kae
 校紀	yau ci
 校編	yau pie
@@ -22970,7 +22973,7 @@ min_phrase_weight: 100
 校花	yau ho
 校董	yau ton
 校規	yau kue
-校訂	yau tin
+校訂	kau tin
 校訓	yau shiuin
 校註	yau tsyu
 校警	yau cin
@@ -22985,7 +22988,7 @@ min_phrase_weight: 100
 校隊	yau de
 校際	yau tsi
 校風	yau fon
-校驗	yau nyie
+校驗	ciau nyie
 校點	yau tie
 校對	kau te
 栩	shiu
@@ -38083,7 +38086,7 @@ min_phrase_weight: 100
 調整	diau tsen
 調料	diau liau
 調查	diau zo
-調校	diau yau
+調校	diau ciau
 調槍花	diau tshian ho
 調款	diau khuoe
 調治	diau zy
@@ -47529,8 +47532,8 @@ min_phrase_weight: 100
 霞	gho
 邂	gha
 冊那	tsheh na
-頡	kaeh	%100
-頡	yih	%0
+頡	kaeh	100%
+頡	yih	0%
 國	koh
 刊	khoe
 黛	de
@@ -47661,6 +47664,8 @@ Rime 中州韻輸入法	rime
 矆睒	hoh sie
 霍睒	hoh sie
 𣍐	ve
+𫧃	ve
+𠊉	ve
 儚	mon
 儚	man
 儚儚	mon mon
@@ -47761,9 +47766,6 @@ Rime 中州韻輸入法	rime
 𨘲	we
 𨘢	pie
 邉	pie
-
-# more phrases from luna and terra
-
 當世冠
 捂蓋子
 驗看
@@ -48967,7 +48969,7 @@ Rime 中州韻輸入法	rime
 氣吐眉揚
 太僕寺旗
 月杪
-比校
+比校	pi ciau
 瞅不見
 發喪
 希思羅
@@ -50038,7 +50040,6 @@ Rime 中州韻輸入法	rime
 沒地
 爲情造文
 屑涕
-name: luna_pinyin_ziam_tuan
 星飛電掣
 泥水工
 列觀
@@ -50360,7 +50361,6 @@ name: luna_pinyin_ziam_tuan
 遊騎
 沒興
 少林
-# license:
 黴菌
 荒淫無度
 急人之難
@@ -55963,7 +55963,6 @@ name: luna_pinyin_ziam_tuan
 花多實少
 嗟來食
 喜從天降
-# Luna Pinyin - 明月拼音
 即興
 涎沫
 日就月將
@@ -57130,7 +57129,6 @@ name: luna_pinyin_ziam_tuan
 兵強將勇
 蟲子
 音樂學
-version: "2018.10.22"
 悛悛
 親嘴
 發達地區
@@ -57844,7 +57842,6 @@ version: "2018.10.22"
 稍息
 捉迷藏
 進行通信
-#   http://android.git.kernel.org/?p=platform/packages/inputmethods/PinyinIME.git
 一拍兩散
 洿沬
 歸着
@@ -60895,7 +60892,6 @@ version: "2018.10.22"
 呈露
 括弧
 病在膏肓
-#   http://www.moedict.tw/
 天地一沙鷗
 家有患難
 怡堂燕雀
@@ -61465,7 +61461,6 @@ version: "2018.10.22"
 阿毗曇
 靡愬
 怛怛
-# * Chewing - 新酷音
 通天徹地
 餜子
 攢蹙
@@ -64198,7 +64193,6 @@ version: "2018.10.22"
 背叉
 高山重嶂
 橫塘
-#以下爲詞組
 質量關
 打哨子
 漫漫長夜
@@ -64218,7 +64212,6 @@ version: "2018.10.22"
 攢茶
 八卦教
 喋囁
-version: "2015.02.08"
 徘徊歧路
 傳名
 譽爲
@@ -65836,7 +65829,6 @@ version: "2015.02.08"
 蕃蕪
 分文不破
 啼啼哭哭
-# * opencc - 開放中文轉換
 洲際飛彈
 攀庭檻
 萬乘之尊
@@ -67144,7 +67136,6 @@ version: "2015.02.08"
 礙難從命
 蒙哄
 廣場恐懼
-# published by MDBG
 鎗手
 扑撻
 針芥相投
@@ -69978,7 +69969,6 @@ version: "2015.02.08"
 恥辱
 捕影繫風
 宜春地區
-# * CC-CEDICT
 失落的一代
 分茶
 悲歌當哭
@@ -71337,7 +71327,6 @@ version: "2015.02.08"
 少有
 番木鱉
 強力膠
-#   - 碼表最小化處理
 十惡
 邋遢本
 僮手指千
@@ -72203,7 +72192,6 @@ version: "2015.02.08"
 計數法
 情理難容
 倒掛金鉤
-# creative commons attribution-share alike 3.0
 溜邊兒
 戴頂子
 賠累
@@ -72363,7 +72351,6 @@ version: "2015.02.08"
 上當
 切結
 比權量力
-min_phrase_weight: 100
 反革命宣傳煽動罪
 幾個月
 弄瓦
@@ -72791,7 +72778,6 @@ min_phrase_weight: 100
 剪着
 較短量長
 歌調
-# referenced works:
 逋客
 興雲布雨
 死心搭地
@@ -73422,7 +73408,6 @@ min_phrase_weight: 100
 安全速度
 優婆塞
 乾象
-#   - 標註「一、不」在詞語中的連讀變調
 補給船
 國際清算銀行
 楮鏹
@@ -74429,7 +74414,6 @@ min_phrase_weight: 100
 鴟得腐鼠
 不着邊際
 藉寇兵
-# http://cc-cedict.org/wiki/
 倒休
 高擧遠蹈
 萬能曲尺
@@ -74884,7 +74868,6 @@ min_phrase_weight: 100
 數列
 橫隔
 目怔口呆
-# * 萌典
 薪儲之費
 鐵馬橫行
 白曉燕
@@ -76031,7 +76014,6 @@ min_phrase_weight: 100
 離心泵
 拉纜子擺渡
 沒頭當
-# * 三拼簡繁詞庫 0.9
 攔擊
 戢身
 諒得過
@@ -79060,7 +79042,6 @@ min_phrase_weight: 100
 弔腰撒跨
 朝氣勃勃
 活靶子
-# community maintained free chinese-english dictionary.
 敢做敢當
 長城卡
 聚落保存
@@ -82216,7 +82197,6 @@ min_phrase_weight: 100
 乾顙
 扶牆摸壁
 朝東暮西
-# * Android open source project
 乾量
 奢易儉難
 匹耦
@@ -83583,7 +83563,6 @@ min_phrase_weight: 100
 嘩衆取寵
 撂荒
 模範生
-#   http://www.pkucn.com/viewthread.php?tid=245448
 叉魚
 驀忽
 朔吹
@@ -85327,7 +85306,6 @@ min_phrase_weight: 100
 特種考試
 阿伯丁
 覬覦之心
-# CC-CEDICT
 怵怵忐忐
 瑯琊
 瞬息萬變
@@ -88845,7 +88823,6 @@ min_phrase_weight: 100
 老頭兒
 參薯
 陸家嘴
-#   http://cc-cedict.org/
 痛殺殺
 長至
 盡付闕如
@@ -89242,7 +89219,6 @@ min_phrase_weight: 100
 班行
 莫臥兒王朝
 花裏胡哨
-#   Rime Developers <rime-devel@googlegroups.com>
 生死與奪
 窈娜
 老乾
@@ -90580,7 +90556,6 @@ min_phrase_weight: 100
 謠言惑衆
 披露
 勾銷
-# * 2012-02-28  佛振 <chen.sst@gmail.com>
 發擺子
 說諢話
 謇謇
@@ -91098,7 +91073,6 @@ min_phrase_weight: 100
 汛地
 嬤嬤爹
 踊躍
-name: terra_pinyin
 考校
 密切相連
 背影兒
@@ -91513,7 +91487,6 @@ name: terra_pinyin
 中央研究院
 翻看
 輻狀花冠
-#   http://code.google.com/p/opencc/
 幽冥地府
 傳法
 愛爾蘭共和軍
@@ -91788,7 +91761,6 @@ name: terra_pinyin
 麗都
 輸將
 百戰不殆
-#   - 標註多音字
 伊拉克共和國
 黃土不露天
 室內樂
@@ -94851,7 +94823,6 @@ name: terra_pinyin
 八都魯
 鎗機
 一分貨
-# 雪齋：區分尖團，通攝脣音韻母改爲ong
 體度
 隱惡揚善
 法蘭西共和國
@@ -95910,7 +95881,6 @@ name: terra_pinyin
 撂了
 朋儕
 巴塞爾
-# Terra Pinyin - 地球拼音
 要隘
 苤藍
 混名
@@ -95919,7 +95889,6 @@ name: terra_pinyin
 佣鈿
 子母相權
 孱弱
-#   http://chewing.csie.net/
 卬卬
 累加
 甘露醇
@@ -96707,7 +96676,6 @@ name: terra_pinyin
 年輕有爲
 蘇姆蓋特
 瞧瞧
-# http://creativecommons.org/licenses/by-sa/3.0/
 泥船渡河
 鼓腹含哺
 淑教流徽
@@ -97661,7 +97629,6 @@ name: terra_pinyin
 翠屏山
 任囂
 講盤子
-max_phrase_length: 7
 男性厭惡
 反其道而行之
 漁陽摻撾
@@ -98063,11 +98030,6 @@ max_phrase_length: 7
 童蒙訓
 紅泥月亮
 不結果
-
-
-# wugniu_sonkaon.dict
-# zytsu
-
 連草字
 雜佮亂拌
 香玄紗
@@ -111521,8 +111483,6 @@ max_phrase_length: 7
 外國芋艿
 長力塊
 滿月朝
-
-# 單字 ah/aoh 待檢查
 蚖	nyoe
 䘸	tsaeh
 巁	li
@@ -125003,8 +124963,6 @@ max_phrase_length: 7
 𠞈	taeh
 𩷏	yin
 㭔	lu
-
-# e/ae 未合校部分
 𢻃	zy
 𠈈	sy
 𨌗	khue
