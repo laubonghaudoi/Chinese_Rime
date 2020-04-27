@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.04.19"
+version: "2020.04.27"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -2018,6 +2018,7 @@ use_preset_vocabulary: true
 椅	i
 猗	i
 倚	i
+𠋣	i
 掎	i
 旖	i
 扆	i
@@ -2817,6 +2818,7 @@ use_preset_vocabulary: true
 盂	yu
 于	yu
 於	yu
+扵	yu
 予	yu
 妤	yu
 雩	yu
@@ -3902,7 +3904,7 @@ use_preset_vocabulary: true
 涻	so
 赦	so
 厙	so
-廈	so	1%
+廈	so	6%
 佘	zo
 婼	zo
 惹	zo
@@ -8887,6 +8889,7 @@ use_preset_vocabulary: true
 贏	yin
 嬴	yin
 瀛	yin
+籯	yin
 行	yin
 烆	yin
 形	yin
@@ -11004,7 +11007,7 @@ use_preset_vocabulary: true
 確	khoq
 确	khoq
 𤿩	khoq
-窟	khoq	5%
+窟	khoq	10%
 窖	khoq
 嚳	khoq
 酷	khoq
@@ -12552,6 +12555,7 @@ use_preset_vocabulary: true
 亿	i
 忆	i
 阉	i
+𬥺	i
 厌	i
 餍	i
 厣	i
@@ -13606,6 +13610,7 @@ use_preset_vocabulary: true
 嵝	leu
 偻	leu
 瘘	leu
+𫦉	lheu
 搂	lheu
 镂	lheu
 䁖	lheu
@@ -13635,6 +13640,7 @@ use_preset_vocabulary: true
 诟	keu
 𫎧	keu
 抠	kheu
+𬣚	kheu
 鲎	heu
 欧	eu
 瓯	eu
@@ -34006,7 +34012,7 @@ use_preset_vocabulary: true
 舜宇
 雙鹿
 雙鹿電池
-太平鳥
+太平鳥	tha bin gniau
 博洋
 博洋家紡	poq yan cia faon
 撥我	paq ngo
@@ -34216,6 +34222,13 @@ use_preset_vocabulary: true
 虎擘
 腳髈
 圍身	yu shin
+手巾布		55
+敲𥣘
+搭錯
+胡嚨胖
+胡嚨介胖	wu lon ka phaon
+介胖	ka phaon
+胖胡嚨
 〇兩	lin lian
 一九九兩	iq cieu cieu lian
 一兩三	iq lian sae
@@ -35942,7 +35955,7 @@ use_preset_vocabulary: true
 大小通喫	dou shiau thon chioq
 大批個	dou phi goq
 大批個	dou phi ghoq
-大洞喫苦	da don chioq khu
+大洞喫苦	dou don chioq khu
 大瓶頭	dou bin deu
 大票個	da phiau goq
 大票個	da phiau ghoq
@@ -37348,6 +37361,8 @@ use_preset_vocabulary: true
 魚圓粗麪	ng yu tshu mi
 鳥弗生蛋	tiau vaq san dae
 鳥勿生蛋	tiau vaq san dae
+鳥弗生蛋	gniau vaq san dae
+鳥勿生蛋	gniau vaq san dae
 黏落去	kni loq chi
 黏的	kni tiq
 黑白弗分	haq baq vaq fen
@@ -38261,6 +38276,7 @@ VCD	vi shi di
 世貿中心	syu meu tson shin
 世貿中心大樓	syu meu tson shin da leu
 世貿大廈	syu meu da gho
+世貿大廈	syu meu da so
 世貿大樓	syu meu da leu
 世貿組織	syu meu tsu ciq
 世路	syu lu
@@ -38601,7 +38617,6 @@ VCD	vi shi di
 九命怪貓	cieu min kua mae
 九大	cieu da
 九大行星	cieu da yin shin
-九官鳥	cieu kun gniau
 九嶷山	cieu gni sae
 九日	cieu gniq
 九歲	cieu syu
@@ -38615,7 +38630,6 @@ VCD	vi shi di
 九萬人	cieu vae gnin
 九萬個	cieu vae goq
 九集	cieu jiq
-九頭鳥	cieu deu gniau
 乞人	chiq gnin
 乞伏	chiq voq
 乞降	chiq ghaon
@@ -39333,7 +39347,6 @@ VCD	vi shi di
 五百個	ng paq goq
 五穀不分	ng koq paq fen
 五穀雜糧	ng koq dzaq lian
-五色鳥	ng saq gniau
 五花大綁	ng huo da paon
 五萬人	ng vae gnin
 五萬個	ng vae goq
@@ -39346,6 +39359,7 @@ VCD	vi shi di
 五行字	ng ghaon zy
 五行生剋	ng yin sen khaq
 五角大廈	ng koq da gho
+五角大廈	ng koq da so
 五角大樓	ng koq da leu
 五角大樓官員	ng koq da leu kun yu
 五金行	ng cin ghaon
@@ -42336,7 +42350,6 @@ VCD	vi shi di
 出發日	tshyuq faq gniq
 出租人	tshyuq tsu gnin
 出租率	tshyuq tsu liq
-出籠鳥	tshyuq lon gniau
 出紅差	tshyuq ghon tsha
 出自	tshyuq zy
 出自孃胎	tshyuq zy gnian the
@@ -42353,7 +42366,6 @@ VCD	vi shi di
 出錘	tshyuq zei
 出頭之日	tshyuq deu tsy zyuq
 出頭日子	tshyuq deu gniq tsy
-出頭鳥	tshyuq deu gniau
 出鬼入神	tshyuq kuei zyuq zyun
 函人	ghEI gnin
 函授學校	ghEI zhieu ghoq yau
@@ -45079,7 +45091,6 @@ VCD	vi shi di
 名門貴族	min men kuei dzoq
 名間	min ci
 名間鄉	min ci shian
-名鳥	min gniau
 后羿射日	gheu gni zhiq zyuq
 吐了	thu laq
 吐了	thu lei
@@ -45996,6 +46007,7 @@ VCD	vi shi di
 四大皆空	sy da cie khon
 四大盆地	sy da ben di
 四大石窟	sy da zaq khoq
+四大石窟	sy da zaq khuaq
 四大美女	sy da mei gniu
 四大菩薩	sy da bu saq
 四大金剛	sy da cin kaon
@@ -46268,6 +46280,7 @@ VCD	vi shi di
 國教派	koq ciau pha
 國於	koq yu
 國會大廈	koq wei da gho
+國會大廈	koq wei da so
 國會議長	koq wei gni cian
 國有銀行	koq yeu gnin ghaon
 國朝	koq jiau
@@ -47103,6 +47116,7 @@ VCD	vi shi di
 多少分	tou shiau fen
 多少時間	tou shiau zy ci
 多層大廈	tou zen da gho
+多層大廈	tou zen da so
 多年生	tou gni sen
 多年生植物	tou gni sen jiq vaq
 多拉	tou lha
@@ -47165,7 +47179,6 @@ VCD	vi shi di
 夜間部	ya ci bu
 夜闌人靜	ya lae zyun zhin
 夜靜更深	ya zhin kan shin
-夜鳥	ya gniau
 夠了	keu lei
 夠交情	keu ciau jin
 夠味	keu vi
@@ -47207,34 +47220,31 @@ VCD	vi shi di
 大中小	dou tson shiau
 大串	dou tshoe
 大主教	da tsyu ciau
+大主教	dou tsyu ciau
 大久保	da cieu pau
 大久保利通	da cieu pau li thon
 大乘	da jin
 大乘佛教	da jin vaq ciau
 大亂	da loe
-大事	da zy
-大事不妙	da zy paq miau
-大事化小	da zy huo shiau
 大事化小小事化了	da zy huo shiau shiau zy huo liau
+大事化小小事化了	dou zy huo shiau shiau zy huo liau
 大事宣傳	da zy soe dzOE
+大事宣傳	dou zy soe dzOE
 大事記	da zy ci
-大事鋪張	da zy phu cian
 大二	da gni
 大五	da ng
 大五碼	da ng mo
-大五金	da ng cin
-大些	da shiq
+大些	dou shiq
 大亞灣	da ia uae
 大人物	dou zyun vaq
+大人物	dou gnin vaq
 大人藥	dou gnin yaq
 大仁	da zyun
 大仁科技大學	da zyun khou ji da ghoq
 大仙	da shi
 大仲馬	da dzon ma
 大仲馬	da dzon mo
-大件	da ji
 大任	da zyun
-大企業	dou chi gniq
 大伯	dou paq
 大伯子	dou paq tsy
 大伯母	dou paq meu
@@ -47247,24 +47257,20 @@ VCD	vi shi di
 大使	da sy
 大使級	da sy ciq
 大使館	da sy kun
-大來歷	da le liq
+大來歷	dou le liq
 大便乾燥	da bi kI sau
 大便祕結	da bi pi ciq
 大俠	da yaq
-大修	da shieu
-大修理	da shieu li
-大修理基金	da shieu li ci cin
-大修道院	da shieu dau yu
+大修道院	dou shieu dau yu
 大個	da kou
+大個	dou kou
 大個	dou goq
 大個	dou ghoq
 大個子	da kou tsy
+大個子	dou kou tsy
 大借款	dou cia khun
-大倫敦地區	da len ten di chiu
 大偉	da wei
-大做文章	da tsou ven tsaon
 大傢伙	dou cia hou
-大傷	dou saon
 大傷元氣	da saon gniu chi
 大傷腦筋	da saon nau cin
 大傻	dou sa
@@ -47273,7 +47279,6 @@ VCD	vi shi di
 大元	da gniu
 大元大一統誌	da gniu da iq thon tsy
 大元帥	da gniu se
-大兄	dou shion
 大先知書	da shi tsyu syu
 大內	da nei
 大內鄉	da nei shian
@@ -47284,7 +47289,6 @@ VCD	vi shi di
 大公報	da kon pau
 大公無私	da kon vu sy
 大公無私	da kon Wu sy
-大公館	da kon kun
 大兵	da pin
 大兵團	da pin doe
 大兵日記	da pin zyuq ci
@@ -47295,19 +47299,11 @@ VCD	vi shi di
 大冶市	da yi zy
 大凡	da vae
 大凶	da shion
-大出	dou tshyuq
 大出喪	dou tshyuq saon
-大出意料之外	dou tshyuq i liau tsy nga
 大出手	dou tshyuq shieu
-大出血	dou tshyuq shiuq
-大出鋒頭	da tshyuq fon deu
-大出風頭	da tshyuq fon deu
 大刀	dou tau
 大刀會	dou tau wei
 大刀闊斧	dou tau khuaq fu
-大分子	da fen tsy
-大分界嶺	da fen ka lin
-大分界嶺	da fen cia lin
 大分縣	da fen yu
 大刑	da yin
 大別	da biq
@@ -47317,12 +47313,9 @@ VCD	vi shi di
 大利麪	da li mi
 大到	dou tau
 大前天	dou zhi thi
-大前提	da zhi di
 大剪刀	dou ci tau
 大副	da fu
 大劇院	da jiq yu
-大劍	da ci
-大劑量	da ci lian
 大力	da liq
 大力加強	da liq cia jian
 大力士	da liq zy
@@ -47332,17 +47325,13 @@ VCD	vi shi di
 大力神	da liq zyun
 大力開展	da liq khe ci
 大力開展	da liq khe tsoe
-大功	da kon
 大功告成	da kon kau jin
-大功率	da kon liq
-大加那利島	da cia nha li tau
 大勇	da ion
 大勇若怯	da ion zhiaq chiq
 大勇若怯	da ion zoq chiq
 大動	da don
 大動作	dou don tsoq
 大動干戈	da don kI kou
-大動脈	da don maq
 大勝	da shin
 大勢	da syu
 大勢已去	da syu yi chiu
@@ -47350,6 +47339,7 @@ VCD	vi shi di
 大勢所趨	da syu so tshyu
 大勢至菩薩	da syu tsy bu saq
 大包	dou pau
+大包乾	dou pau kI
 大包乾	da pau kI
 大包大攬	da pau da lae
 大化	da huo
@@ -47357,6 +47347,7 @@ VCD	vi shi di
 大化縣	da huo yu
 大化革新	da huo kaq shin
 大區	da chiu
+大區	dou chiu
 大千	da chi
 大千世界	da chi syu ka
 大半	dou pun
@@ -47369,13 +47360,11 @@ VCD	vi shi di
 大叔	da soq
 大受	da zhieu
 大受歡迎	da zhieu hun gnin
-大口	da kheu
+大口	dou kheu
 大口徑	dou kheu cin
-大叫	da ciau
 大可	da khou
 大可不必	da khou paq piq
 大可以	da khou yi
-大司馬	da sy mo
 大合唱	da ghaq tshaon
 大吉	da ciq
 大吉大利	da ciq da li
@@ -47403,7 +47392,6 @@ VCD	vi shi di
 大吏	da li
 大吐苦水	da thu khu syu
 大君	da ciun
-大吞噬細胞	da then zy shi pau
 大吵	da tshau
 大吵一架	da tshau iq cia
 大吵大鬧	da tshau da nau
@@ -47417,17 +47405,13 @@ VCD	vi shi di
 大呼	da fu
 大呼小叫	da fu shiau ciau
 大呼拉爾	da fu lha er
-大命	da min
 大和	da ghou
-大咬一口	da ngau iq kheu
+大咬一口	dou ngau iq kheu
 大咸	da yi
 大品牌	dou phin ba
-大哉問	da tse ven
-大員	da yu
 大哥	dou kou
 大哥哥	dou kou kou
 大哥大	da kou da
-大哭	da khoq
 大唐	da daon
 大唐帝國	da daon ti koq
 大唐狄公案	da daon diq kon EI
@@ -47440,27 +47424,21 @@ VCD	vi shi di
 大喇叭	dou la pa
 大喊	da hae
 大喊大叫	da hae da ciau
-大喜	da shi
-大喜事	da shi zy
+大喜事	dou shi zy
 大喜過望	da shi kou vaon
 大喝	da haq
 大喝一口	da haq iq kheu
 大喝一聲	da haq iq shin
 大單于	da zoe yu
 大單于	dou zoe yu
-大嗓	da saon
-大嘆	da thae
 大嘴	dou tsyu
 大器	da chi
 大器晚成	da chi vae jin
-大嚷	dou gnian
 大嚼	dou zhiaq
 大四	da sy
-大四喜	da sy shi
 大回	da wei
 大回朝	da wei jiau
 大圈	dou chiu
-大國	da koq
 大國家	dou koq cia
 大國沙文主義	da koq so ven tsyu gni
 大園	da yu
@@ -47468,21 +47446,13 @@ VCD	vi shi di
 大圓圈	da yu chiu
 大圓圈	dou yu chiu
 大圓鏡智	da yu cin tsyu
-大圖	da du
-大團	dou doe
-大團圓	da doe yu
-大團結	da doe ciq
-大土	da thu
 大地	da di
-大地主	da di tsyu
 大地之歌	da di tsy kou
 大地回春	da di wei tshyun
-大地圖	da di du
 大地春回	da di tshyun wei
 大地測量學	da di tshaq lian yuq
 大地線	da di shi
 大地震	da di tsyun
-大坑	da khan
 大型	da yin
 大型企業	da yin chi gniq
 大型強子對撞機	da yin jian tsy tei dzaon ci
@@ -47507,7 +47477,6 @@ VCD	vi shi di
 大堆	dou tei
 大堆頭	dou tei deu
 大堡礁	da pau ciau
-大堤	da di
 大場	dou jian
 大場面	dou jian mi
 大塊	dou khuei
@@ -47527,15 +47496,14 @@ VCD	vi shi di
 大多有	da tou yeu
 大多能	da tou nen
 大夜班	dou ya pae
-大夥	da hou
 大夥人	da hou gnin
+大夥人	dou hou gnin
 大大地	da da di
 大大大小	dou dou dou shiau
 大大小小	dou dou shiau shiau
 大大提高	da da di kau
 大大方方	da da faon faon
 大大的	da da tiq
-大天后宮	da thi gheu kon
 大天白日	dou thi baq gniq
 大夫	da fu
 大夫松	da fu son
@@ -47549,30 +47517,19 @@ VCD	vi shi di
 大好機會	da hau ci wei
 大妹	dou mei
 大妹夫	dou mei fu
-大姆指	da m tsy
-大姆指頭	da m tsy deu
+大姆指	dou m tsy
+大姆指頭	dou m tsy deu
 大姐姐	dou cia cia
-大姑	dou ku
-大姑丈	dou ku jian
 大姑娘坐花轎	dou ku gnian zou huo jiau
-大姑媽	dou ku mha
-大姑子	dou ku tsy
 大姓	dou shin
 大姚	da yau
 大姚縣	da yau yu
-大姨	dou yi
-大姨媽	dou yi mha
-大姨子	dou yi tsy
 大威德	da uei taq
 大威德明王	da uei taq min waon
 大威德金剛	da uei taq cin kaon
-大娘	dou gnian
 大娘子	dou gnian tsy
 大婚	da huen
 大媽	da mha
-大嫂	da sau
-大嬸	da shin
-大嬸婆	da shin bou
 大字報	da zy pau
 大孩子	dou ghe tsy
 大學	da ghoq
@@ -47604,12 +47561,9 @@ VCD	vi shi di
 大安國中	da EI koq tson
 大安市	da EI zy
 大安溪	da EI chi
-大安的列斯	da EI tiq liq sy
-大安的列斯羣島	da EI tiq liq sy jiun tau
 大安鄉	da EI shian
 大宋	da son
 大官人	dou kun gnin
-大定	da din
 大客戶	dou khaq wu
 大客車	dou khaq tsho
 大宴	da i
@@ -47634,16 +47588,12 @@ VCD	vi shi di
 大富翁	da fu on
 大寧	da gnin
 大寧縣	da gnin yu
-大寨	da za
 大寫	dou shia
 大寫字母	dou shia zy meu
 大寫鎖定	dou shia sou din
 大寮	da liau
 大寮鄉	da liau shian
-大寶	da pau
 大寺院	dou zy yu
-大將	da cian
-大將之風	da cian tsy fon
 大專	da tsoe
 大專同學	da tsoe don ghoq
 大專學生	da tsoe ghoq san
@@ -47651,7 +47601,6 @@ VCD	vi shi di
 大專生	da tsoe san
 大專院校	da tsoe yu yau
 大尉	da uei
-大對決	da tei ciuq
 大小	dou shiau
 大小三度	dou shiau sae du
 大小不一	dou shiau paq iq
@@ -47662,8 +47611,6 @@ VCD	vi shi di
 大少爺	dou sau ya
 大局	da jiuq
 大屋	dou oq
-大屏	da bin
-大屏幕	da bin mou
 大展	da ci
 大展	da tsoe
 大展宏圖	da ci ghon du
@@ -47677,12 +47624,8 @@ VCD	vi shi di
 大屯	da den
 大屯山	da den sae
 大屯火山	da den hou sae
-大山	da sae
 大山貓	dou sae mau
-大峽谷	da yaq koq
-大峽谷	da ciaq koq
 大嶼山	da yu sae
-大巖桐	da ngae don
 大川	da tshoe
 大工業	da kon gniq
 大巧若拙	da chiau zhiaq tsyuq
@@ -47692,14 +47635,13 @@ VCD	vi shi di
 大差差	dou tsho tsho
 大巴	da pa
 大巴山	da pa sae
+大巴山	da po sae
 大巷	da ghaon
-大市	da zy
 大市場	dou zy jian
 大布	dou pu
 大帝	da ti
 大帥	da se
 大師	da sy
-大師傅	da sy fu
 大師兄	da sy shion
 大師父	da sy vu
 大師級	da sy ciq
@@ -47719,19 +47661,20 @@ VCD	vi shi di
 大店	dou ti
 大度包容	da du pau yon
 大度路	da du lu
-大座	da zou
 大庭廣衆	da din kuaon tson
 大庸	da yon
 大庾	da yu
 大庾嶺	da yu lin
 大庾縣	da yu yu
 大廈	da gho
+大廈	da so
 大廈將傾	da gho cian chin
+大廈將傾	da so cian chin
 大廈棟梁	da gho ton lian
+大廈棟梁	da so ton lian
 大廉價	dou li ko
 大廚	da dzyu
 大廟	da miau
-大廠	da chian
 大廠回族自治縣	da chian wei dzoq zy dzyu yu
 大廠縣	da chian yu
 大廳	da thin
@@ -47743,7 +47686,6 @@ VCD	vi shi di
 大張聲勢	da cian shin syu
 大後天	dou gheu thi
 大後方	dou gheu faon
-大德	da taq
 大徹大悟	da chiq da nu
 大徹大悟	da chiq da wu
 大忌	da ji
@@ -47790,16 +47732,10 @@ VCD	vi shi di
 大手	dou shieu
 大手大腳	dou shieu dou ciaq
 大手筆	dou shieu piq
-大才	da dze
-大才小用	da dze shiau yon
-大打	da tan
-大打出手	da tan tshyuq shieu
-大打折扣	da tan ciq kheu
 大批	dou phi
 大批涌到	dou phi ion tau
 大批的	dou phi tiq
 大批量	dou phi lian
-大把	da po
 大投資家	da deu tsy cia
 大抵	da ti
 大拍賣	dou phaq ma
@@ -47832,6 +47768,7 @@ VCD	vi shi di
 大政方針	da cin faon cin
 大敗	dou ba
 大教堂	dou ciau daon
+大教堂	da ciau daon
 大敵	da diq
 大敵當前	da diq taon zhi
 大數學家	da su yuq cia
@@ -47863,7 +47800,6 @@ VCD	vi shi di
 大昭寺	da ciau zy
 大是不同	da zy paq don
 大是大非	da zy da fi
-大時代	da zy de
 大智	da tsyu
 大智大愚	da tsyu da gniu
 大智如愚	da tsyu zyu gniu
@@ -47895,13 +47831,10 @@ VCD	vi shi di
 大有斬獲	da yeu tsae ghoq
 大有爲	da yeu wei
 大有裨益	da yeu bi iq
-大本	da pen
-大本	dou pen
 大本涅槃經	da pen gniaq bun cin
 大本涅槃經	dou pen gniaq bun cin
 大本營	da pen yin
 大本鐘	da pen tson
-大村	da tshen
 大村鄉	da tshen shian
 大杯	dou pei
 大東	da ton
@@ -47916,17 +47849,12 @@ VCD	vi shi di
 大枝	dou tsy
 大柱	dou dzyu
 大柱子	dou dzyu tsy
-大柴旦	da za tae
+大柴旦行政區	dou za tae yin cin chiu
 大柴旦行政區	da za tae yin cin chiu
+大柴旦行政委員會	dou za tae yin cin uei yu wei
 大柴旦行政委員會	da za tae yin cin uei yu wei
-大柴旦鎮	da za tae tsyun
 大校	da yau
-大案	da EI
-大案要案	da EI iau EI
-大桶	da don
 大梁	da lian
-大棒	da baon
-大棗	da tsau
 大棚	da ban
 大棵	dou khou
 大楊樹	dou yan zyu
@@ -47948,7 +47876,6 @@ VCD	vi shi di
 大模大樣	da moq da yan
 大樹菠蘿	da zyu pou lou
 大樹鄉	da zyu shian
-大橋	da jiau
 大檢查	dou ci dzo
 大權	da jiu
 大權在握	da jiu dze oq
@@ -47956,7 +47883,6 @@ VCD	vi shi di
 大權獨攬	da jiu doq lae
 大欲	da yuq
 大正	da cin
-大步	da bu
 大步流星	da bu lieu shin
 大步走	da bu tseu
 大武	da Wu
@@ -47966,16 +47892,9 @@ VCD	vi shi di
 大武崙	da Wu len
 大武鄉	da Wu shian
 大歷史	da liq sy
-大段	da doe
 大殺風景	da saq fon cin
 大殿	da di
-大比	da pi
 大比拼	da pi phin
-大比目魚	da pi moq ng
-大毛	da mau
-大氅	da chian
-大民主	da min tsyu
-大民族主義	da min dzoq tsyu gni
 大氣候	da chi gheu
 大氣圈	da chi chiu
 大氣團	da chi doe
@@ -47989,36 +47908,22 @@ VCD	vi shi di
 大氣環流	da chi wae lieu
 大氣磅礴	da chi paon boq
 大氣系	da chi shi
-大氧吧	da yan pa
-大水沖倒龍王廟	da syu tshon tau lon waon miau
+大水沖倒龍王廟	dou syu tshon tau lon waon miau
 大汗	da ghEI
 大汗淋漓	da ghEI lin li
-大江	da kaon
 大江健三郎	da kaon ji sae laon
 大江南北	da kaon nEI poq
 大江東去	da kaon ton chiu
 大江網	da kaon maon
 大沖	da tshon
-大河	da ghou
-大河文化	da ghou ven huo
-大河網	da ghou maon
-大油	da yeu
 大治	da dzyu
 大沽	da ku
 大沽口炮臺	da ku kheu phau de
 大沽炮臺	da ku phau de
-大法	da faq
-大法官	da faq kun
-大法師	da faq sy
-大法弟子	da faq di tsy
 大洋	da yan
 大洋中脊	da yan tson ciq
 大洋型地殼	da yan yin di khoq
 大洋洲	da yan cieu
-大洞	da don
-大洞受苦	da don zhieu khu
-大洞難補	da don nae pu
-大洪水	da ghon syu
 大洲	da cieu
 大流	da lieu
 大流士	da lieu zy
@@ -48055,7 +47960,6 @@ VCD	vi shi di
 大滅絕	da miq dzyuq
 大滷麪	da lu mi
 大滿貫	da mun kun
-大漆	da chiq
 大漠	da moq
 大漢	da he
 大漢技術學院	da he ji zyuq yuq yu
@@ -48066,13 +47970,10 @@ VCD	vi shi di
 大漲大跌	dou cian dou tiq
 大漲小回	dou cian shiau wei
 大潤發	da zyun faq
-大潮	da jiau
 大澤鄉起義	da dzaq shian chi gni
-大火	da hou
 大灰狼	da huei laon
-大災	da tse
-大災難	da tse nae
-大炒	da tshau
+大災	dou tse
+大災難	dou tse nae
 大炮打蚊子	da phau tan ven tsy
 大烏蘇里島	dou u su li tau
 大烏鴉	dou u ia
@@ -48086,15 +47987,10 @@ VCD	vi shi di
 大熊座	da yon zou
 大熊星座	da yon shin zou
 大熊貓	da yon mau
-大熔爐	da yon lu
-大熱	da gniq
-大熱天	da gniq thi
-大燈	da ten
 大爆冷門	da pau lan men
 大爆炸	da bau tso
 大爲	da wei
 大父	da vu
-大爺	da ya
 大牀	dou zaon
 大片	da phi
 大牌	da ba
@@ -48104,14 +48000,12 @@ VCD	vi shi di
 大牢	da lau
 大特寫	dou daq shia
 大犬座	da chiu zou
-大狗	da keu
 大猩猩	da shin shin
 大獄	da yuq
-大獎	dou cian
-大獎賽	dou cian se
 大獲	da ghoq
 大獲全勝	da ghoq dzoe shin
-大率	da liq
+大率	da saq
+大率	dou saq
 大王	da waon
 大王爺	dou waon ya
 大玩	da wae
@@ -48126,8 +48020,6 @@ VCD	vi shi di
 大理白族自治州	da li baq dzoq zy dzyu cieu
 大理石	da li zaq
 大理院	da li yu
-大環	da wae
-大環境	dou wae cin
 大瓶	dou bin
 大瓶的	dou bin tiq
 大田	da di
@@ -48140,9 +48032,11 @@ VCD	vi shi di
 大甲鎮	da ciaq tsyun
 大男人	dou nEI gnin
 大男人主義	da nEI gnin tsyu gni
+大男人主義	dou nEI gnin tsyu gni
 大男子主義	da nEI tsy tsyu gni
+大男子主義	dou nEI tsy tsyu gni
 大男子主義者	da nEI tsy tsyu gni tse
-大男孩	da nEI ghe
+大男子主義者	dou nEI tsy tsyu gni tse
 大略	da liaq
 大略在	da liaq dze
 大略是	da liaq zy
@@ -48150,14 +48044,8 @@ VCD	vi shi di
 大異其趣	da yi ji tshyu
 大當	da taon
 大疊	dou diaq
-大病	da bin
-大病初癒	da bin tshu yu
-大症	da cin
-大瘡	da tshaon
 大發	da faq
 大發利市	da faq li zy
-大發展	da faq ci
-大發展	da faq tsoe
 大發慈悲	da faq dzy pei
 大發牢騷	da faq lau sau
 大發神威	da faq zyun uei
@@ -48166,9 +48054,6 @@ VCD	vi shi di
 大白天	dou baq thi
 大白菜	dou baq tshe
 大白雲	dou baq yun
-大白鯊	da baq so
-大白鼠	da baq tshyu
-大百科全書	dou paq khou dzoe syu
 大盒	dou ghaq
 大盜	da dau
 大盤	da bun
@@ -48182,11 +48067,9 @@ VCD	vi shi di
 大眼睛	dou ngae cin
 大眼瞪小眼	dou ngae ten shiau ngae
 大眼角	dou ngae koq
-大石橋	da zaq jiau
 大石橋市	da zaq jiau zy
 大石頭	dou zaq deu
 大破	da phou
-大碗	da un
 大碟	dou diaq
 大礙	da nge
 大社	da dzo
@@ -48218,16 +48101,11 @@ VCD	vi shi di
 大笑金剛	da shiau cin kaon
 大笑金剛明王	da shiau cin kaon min waon
 大笨鐘	da ben tson
-大筆	da piq
 大筆一揮	da piq iq huei
 大箐山	da cin sae
 大管	dou kun
 大箱	dou shian
-大範圍	da vae wei
 大篆	da DZOE
-大篇	da phi
-大篇幅	da phi foq
-大篷車	da bon tsho
 大精彩	da cin tshe
 大糞	da fen
 大系	da shi
@@ -48236,9 +48114,9 @@ VCD	vi shi di
 大約是	da iaq zy
 大約有	da iaq yeu
 大紅人	da ghon gnin
+大紅人	dou ghon gnin
 大紅大紫	da ghon da tsy
 大紅大綠	da ghon da loq
-大紅花	da ghon huo
 大紅袍	da ghon bau
 大紅鼻子	da ghon biq tsy
 大紫荊勳章	da tsy cin shiun tsaon
@@ -48248,31 +48126,21 @@ VCD	vi shi di
 大綱	da kaon
 大總統	da tson thon
 大纛	da dau
-大缸	da kaon
-大罐	da kun
 大罵	da mo
 大罷工	da ba kon
 大羅	da lou
 大羅神仙	da lou zyun shi
-大美女	da mei gniu
-大羣	da jiun
 大羣人馬	da jiun zyun mo
+大羣人馬	dou jiun zyun mo
 大義	da gni
 大義凜然	da gni lin zoe
 大義滅親	da gni miq chin
 大義覺迷錄	da gni ciuq mi loq
-大老	da lau
 大老婆	dou lau bou
 大老官	dou lau kun
 大老爺	dou lau ya
-大老粗	da lau tshu
-大老級	da lau ciq
-大老遠	da lau yu
 大老闆	dou lau pae
 大考大玩	da khau da wae
-大而化之	da er huo tsy
-大而無當	da er vu taon
-大而無當	da er Wu taon
 大耳朵	dou gni to
 大耳朵	dou ng to
 大聖	da shin
@@ -48305,7 +48173,6 @@ VCD	vi shi di
 大腿肉	dou thei gnioq
 大腿骨	dou thei kuaq
 大膽	da tae
-大臉	da li
 大臣	da jin
 大自然	da zy zoe
 大致	da tsy
@@ -48322,7 +48189,6 @@ VCD	vi shi di
 大舉	da ciu
 大舉進攻	da ciu cin kon
 大舉進犯	da ciu cin vae
-大舞臺	da Wu de
 大航海	da ghaon he
 大般涅槃經	da pae gniaq bun cin
 大船	dou ZOE
@@ -48357,18 +48223,13 @@ VCD	vi shi di
 大蔥	da tshon
 大蕭條	da shiau diau
 大藏經	da dzaon cin
-大藥房	da yaq vaon
 大蘇打	da su tan
 大處	dou tshyu
 大處着眼	dou tshyu dzoq ngae
 大處着眼	dou tshyu zyuq ngae
 大處落墨	dou tshyu loq moq
-大號	da ghau
-大蛇	da dzo
 大蛇丸	da dzo wun
 大蝦	dou huo
-大融爐	da yon lu
-大蟲	da dzon
 大衆	da tson
 大衆傳播	da tson dzOE pou
 大衆化	da tson huo
@@ -48382,6 +48243,7 @@ VCD	vi shi di
 大行政區	dou yin cin chiu
 大行政區	da yin cin chiu
 大行星	da ghan shin
+大行星	dou ghan shin
 大衍曆	da yi liq
 大街	dou ka
 大街小巷	dou ka shiau ghaon
@@ -48410,10 +48272,8 @@ VCD	vi shi di
 大西洋國	da shi yan koq
 大西洋城	da shi yan jin
 大西洋洋中脊	da shi yan yan tson ciq
-大規模	da kuei mou
-大規模殺傷性武器	da kuei mou saq saon shin Wu chi
-大規模集成電路	da kuei mou jiq jin di lu
 大覺	da ciau
+大覺	dou kau
 大觀	da kun
 大觀區	da kun chiu
 大觀園	da kun yu
@@ -48421,12 +48281,10 @@ VCD	vi shi di
 大言不慚	da yi paq dzae
 大計	da ci
 大討論	dou thau len
-大詞典	da dzy ti
 大話西遊	da wo shi yeu
 大話骰	da wo deu
 大誇	da khua
 大誥	da kau
-大課	da khou
 大調	da diau
 大談	da dae
 大談特談	da dae daq dae
@@ -48445,26 +48303,17 @@ VCD	vi shi di
 大象	da zhian
 大豬	dou tsyu
 大貓	da mau
+大貓	dou mae
 大貨車	dou hou tsho
 大費周折	da fi cieu ciq
 大費周章	da fi cieu tsaon
-大資產階級	da tsy tshae ka ciq
-大資產階級	da tsy tshae cie ciq
-大賠	da bei
 大賢	da yi
 大賤賣	dou zhi ma
-大賭	da tu
-大賺	da dzae
-大賺一票	da dzae iq phiau
 大賽	da se
-大贏	da yin
-大贏家	da yin cia
-大赤色	da chiq saq
 大赦	da so
 大赦國際	da so koq ci
 大起來	dou chi le
 大起大落	da chi da loq
-大趨勢	da tshyu syu
 大足	da tsoq
 大足縣	da tsoq yu
 大跌	da tiq
@@ -48477,7 +48326,6 @@ VCD	vi shi di
 大車	dou tsho
 大軍	da ciun
 大軍進犯	da ciun cin vae
-大軸子	da jiuq tsy
 大輪金剛	da len cin kaon
 大輪金剛明王	da len cin kaon min waon
 大輸	da syu
@@ -48502,11 +48350,9 @@ VCD	vi shi di
 大連市	da li zy
 大連港	da li kaon
 大連理工大學	da li li kon da ghoq
-大週摺	da cieu ciq
 大運	da yun
 大運河	da yun ghou
 大過	da kou
-大道理	da dau li
 大選	da soe
 大選舉	da soe ciu
 大邑	da iq
@@ -48527,33 +48373,23 @@ VCD	vi shi di
 大都會	da tu wei
 大酒店	da cieu ti
 大醇小疵	da zyun shiau tshy
-大醉	da tsei
-大醜	da chieu
-大采	da tshe
 大里	da li
 大里市	da li zy
 大里溪	da li chi
-大野	da ya
 大量	da lian
 大量生產	da lian sen tshae
-大金	da cin
-大釜	da fu
-大鈔	da tshau
-大鉗	da ji
-大銀幕	da gnin mou
 大錘	da zei
-大錢	da ji
+大錘	dou zei
 大錯	da tshou
 大錯特錯	da tshou daq tshou
 大鍊鋼鐵	da li kaon thiq
 大鍋	da kou
 大鍋飯	da kou vae
 大鍵琴	da ji jin
-大鎔爐	da yon lu
 大鐘	da tson
 大鑒	da ci
 大長今	da jian cin
-大門不出二門不邁	da men paq tshyuq er men paq mae
+大門不出二門不邁	dou men paq tshyuq er men paq mae
 大門外	dou men nga
 大開	da khe
 大開倒車	da khe tau tsho
@@ -48575,8 +48411,6 @@ VCD	vi shi di
 大限臨頭	da ghae lin deu
 大院	da yu
 大院君	da yu ciun
-大陪審團	da bei shin doe
-大陰脣	da in zyun
 大陸	da loq
 大陸人	da loq gnin
 大陸冷氣團	da loq lan chi doe
@@ -48601,9 +48435,6 @@ VCD	vi shi di
 大陸漂移	da loq phiau yi
 大陸話	da loq wo
 大陸貨	da loq hou
-大隊	da dei
-大隊人馬	da dei zyun mo
-大隊接力	da dei ciq liq
 大隊長	da dei cian
 大險	da shi
 大隻	dou tsaq
@@ -48641,7 +48472,6 @@ VCD	vi shi di
 大韓民國	da ghEI min koq
 大音階	da in ka
 大音階	da in cie
-大響	da shian
 大頂	da tin
 大項目	dou ghaon moq
 大順	da zyun
@@ -48656,7 +48486,6 @@ VCD	vi shi di
 大顆	dou khou
 大題	da di
 大題小作	da di shiau tsoq
-大額	da ngaq
 大顎	da ngoq
 大願地藏菩薩	da gniu di dzaon bu saq
 大類	da lei
@@ -48664,15 +48493,10 @@ VCD	vi shi di
 大顯神威	da shi zyun uei
 大顯神通	da shi zyun thon
 大顯身手	da shi shin shieu
-大風	da fon
 大風大浪	da fon da laon
-大風後	da fon gheu
 大風歌	da fon kou
-大風雨	da fon yu
-大風雪	da fon syuq
 大飛	da fi
 大食帝國	da zhiq ti koq
-大飯店	da vae ti
 大飽口福	da pau kheu foq
 大飽眼福	da pau ngae foq
 大餐	da tshae
@@ -48701,19 +48525,17 @@ VCD	vi shi di
 大魚大肉	dou ng da gnioq
 大鯢	da gni
 大鱷	da ngoq
-大鳥	da gniau
+大鳥	dou tiau
 大鳴大放	da min da faon
 大鴇	da pau
 大鵬	da ban
 大鵬金翅鳥	da ban cin tshy gniau
+大鵬金翅鳥	da ban cin tshy tiau
 大鵬鳥	da ban gniau
-大鹽	da yi
-大鹿	da loq
+大鵬鳥	da ban tiau
 大麥克	da maq khaq
 大麥克指數	da maq khaq tsy su
 大麥地	dou maq di
-大麴	da chiuq
-大麴酒	da chiuq cieu
 大麻	da mo
 大麻哈魚	da mo ha ng
 大麻子	da mo tsy
@@ -48722,9 +48544,6 @@ VCD	vi shi di
 大黃	da waon
 大黃蜂	da waon fon
 大黑松	dou haq son
-大黨	da taon
-大鼓	da ku
-大鼠	da tshyu
 大齋	da tsa
 大齋期	da tsa ji
 大齋節	da tsa ciq
@@ -50522,9 +50341,7 @@ VCD	vi shi di
 小題大作	shiau di da tsoq
 小題大做	shiau di da tsou
 小鬼頭	shiau ciu deu
-小鳥	shiau gniau
-小鳥依人	shiau gniau i zyun
-小鳥蛋	shiau gniau dae
+小鳥依人	shiau gniau i gnin
 小鴨子	shiau aq tsy
 少不了	shiau paq liau
 少不更事	shiau paq ken zy
@@ -51180,6 +50997,7 @@ VCD	vi shi di
 帖木兒大汗	thiaq moq er da ghEI
 帝國主義分子	ti koq tsyu gni ven tsy
 帝國大廈	ti koq da gho
+帝國大廈	ti koq da so
 帝國理工學院	ti koq li kon yuq yu
 帥呆了	se te laq
 帥呆了	se te lei
@@ -51367,7 +51185,6 @@ VCD	vi shi di
 幼發拉底河谷	ieu faq lha ti ghou koq
 幼稚教育	ieu dzy ciau yuq
 幼稚教育	ieu ji ciau yuq
-幼鳥	ieu gniau
 幽人	ieu gnin
 幾世	ci syu
 幾世紀	ci syu ci
@@ -51523,6 +51340,7 @@ VCD	vi shi di
 廣州日報	kuaon cieu zyuq pau
 廣州美術學院	kuaon cieu mei zyuq yuq yu
 廣廈萬間	kuaon gho vae ci
+廣廈萬間	kuaon so vae ci
 廣東人	kuaon ton gnin
 廣東海洋大學	kuaon ton he yan da ghoq
 廣東科學技術職業學院	kuaon ton khou yuq ji zyuq ciq gniq yuq yu
@@ -52330,7 +52148,6 @@ VCD	vi shi di
 愛國衛生運動	e koq wei sen yun don
 愛奴人	e nu gnin
 愛家	e cia
-愛屋及鳥	e oq jiq gniau
 愛彌兒	e mi er
 愛彼錶	e pi piau
 愛德華茲	e taq wo tsy
@@ -52392,7 +52209,6 @@ VCD	vi shi di
 慈眉善目	dzy mei zoe moq
 慈眉善眼	dzy mei zoe ngae
 慈福行動	dzy foq yin don
-慈鳥	dzy gniau
 態疊加	the diaq cia
 慌了	huaon laq
 慌了	huaon lei
@@ -52865,7 +52681,6 @@ VCD	vi shi di
 打高爾夫	tan kau er fu
 打高爾夫球	tan kau er fu jieu
 打鬼	tan kuei
-打鳥	tan gniau
 打鴨子上架	tan aq tsy zaon ko
 托利黨人	thoq li taon gnin
 托勒爾	thoq laq er
@@ -54002,6 +53817,7 @@ VCD	vi shi di
 摩加迪沙	mou cia diq so
 摩卡咖啡	mou kha kha fi
 摩天大廈	mou thi da gho
+摩天大廈	mou thi da so
 摩天大樓	mou thi da leu
 摩尼教	mou gni ciau
 摩托羅拉	mou thoq lou lha
@@ -57336,6 +57152,7 @@ VCD	vi shi di
 機器貓	ci chi mae
 機器貓	ci chi mau
 機場大廈	ci jian da gho
+機場大廈	ci jian da so
 機尾	ci vi
 機智問答	ci tsyu ven taq
 機械人	ci ye gnin
@@ -57854,7 +57671,6 @@ VCD	vi shi di
 母女間	meu gniu ci
 母子間	meu tsy ci
 母教	meu ciau
-母鳥	meu gniau
 母鴨	meu ae
 每一個	mei iq goq
 每一個人	mei iq goq gnin
@@ -58994,7 +58810,6 @@ VCD	vi shi di
 海關人員	he kuae zyun yu
 海鬼	he kuei
 海鮮大餐	he shi da tshae
-海鳥	he gniau
 浸沒	cin maq
 浸禮教	cin li ciau
 浹背	ciaq pei
@@ -61646,7 +61461,6 @@ VCD	vi shi di
 白面鼯鼠	baq mi wu tshyu
 白髮人	baq faq gnin
 白髮齊眉	baq faq ji mei
-白鳥	baq gniau
 白鼻子	baq biq tsy
 百世	paq syu
 百了	paq liau
@@ -62055,6 +61869,7 @@ VCD	vi shi di
 看走了眼	khI tseu laq ngae
 看門人	khI men gnin
 看鳥人	khI gniau gnin
+看鳥人	khI tiau gnin
 真不愧是	cin paq khuei zy
 真不該	cin paq ke
 真人	cin gnin
@@ -63356,6 +63171,7 @@ VCD	vi shi di
 紐約人	gnieu iaq gnin
 紐約大學	gnieu iaq da ghoq
 紐約帝國大廈	gnieu iaq ti koq da gho
+紐約帝國大廈	gnieu iaq ti koq da so
 紐約證券交易所	gnieu iaq cin chiu ciau yiq so
 紐芬蘭與拉布拉多	gnieu fen lae yu lha pu lha tou
 紐西蘭人	gnieu shi lae gnin
@@ -64039,7 +63855,6 @@ VCD	vi shi di
 習題集	zhiq di jiq
 翔集	jian jiq
 翠生生	tshei sen sen
-翠鳥	tshei gniau
 翰林學士	ghEI lin yuq zy
 翹了	chiau laq
 翹尾巴	chiau mi po
@@ -66099,6 +65914,7 @@ VCD	vi shi di
 莫須	moq syu
 莫須有	moq syu yeu
 莫高窟	moq kau khoq
+莫高窟	moq kau khuaq
 菅直人	ci jiq zyun
 菊芋	ciuq yu
 菌狀	chiun dzaon
@@ -66190,11 +66006,10 @@ VCD	vi shi di
 萬夫莫敵	vae fu moq diq
 萬夫莫當	vae fu moq taon
 萬夫莫開	vae fu moq khe
-萬家	vae cia
 萬家樂	vae cia loq
-萬家燈火	vae cia ten hou
 萬家生佛	vae cia sen vaq
-萬家香	vae cia shian
+萬家樂	vae ko loq
+萬家生佛	vae ko sen vaq
 萬智牌	vae tsyu ba
 萬望	vae vaon
 萬歲	vae sei
@@ -66620,7 +66435,6 @@ VCD	vi shi di
 蟄伏	jiq voq
 蟠尾絲蟲	bun vi sy dzon
 蟲膠	dzon ciau
-蟲鳥叫聲	dzon gniau ciau shin
 蟶乾	chin kI
 蟹狀星雲	ha dzaon shin yun
 蟹行	ha yin
@@ -68792,6 +68606,7 @@ VCD	vi shi di
 賺個飽	dzae goq pau
 賺大錢	dzae da ji
 購物大廈	keu vaq da gho
+購物大廈	keu vaq da so
 購自	keu zy
 賽拉圖	se lha du
 賽爾	se er
@@ -68906,7 +68721,6 @@ VCD	vi shi di
 趕任務	kI zyun Wu
 趕時間	kI zy ci
 趕集	kI jiq
-趕鳥	kI gniau
 趕鴨子	kI aq tsy
 趕鴨子上架	kI aq tsy zaon ko
 趙人	jiau gnin
@@ -69152,7 +68966,6 @@ VCD	vi shi di
 軍民一家	ciun min iq cia
 軍火交易	ciun hou ciau yiq
 軍職人員	ciun ciq zyun yu
-軍艦鳥	ciun khae gniau
 軍訓教官	ciun shiun ciau kun
 軍醫大學	ciun i da ghoq
 軍長	ciun cian
@@ -69371,7 +69184,6 @@ VCD	vi shi di
 迷你裙	mi gni jiun
 迷你車	mi gni tsho
 迷死	mi sy
-迷鳥	mi gniau
 迸淚	pin lei
 迸濺	pin ci
 追了	tsei laq
@@ -70710,8 +70522,6 @@ VCD	vi shi di
 野雞大學	ya ci da ghoq
 野顛茄	ya ti jie
 野顛茄	ya ti jia
-野鳥	ya gniau
-野鳥羣	ya gniau jiun
 量了	lian laq
 量力而行	lian liq er yin
 量大	lian dou
@@ -72476,7 +72286,6 @@ VCD	vi shi di
 雙鴨山	saon aq sae
 雙鴨山市	saon aq sae zy
 雙龍大裂谷	saon lon da liq koq
-雛鳥	dzu gniau
 雜七雜八	zaq chiq zaq paq
 雜亂	dzaq loe
 雜事	dzaq zy
@@ -72675,7 +72484,6 @@ VCD	vi shi di
 雷雨交加	lei yu ciau cia
 雷電交加	lei di ciau cia
 雷鬼	lei kuei
-雷鳥	lei gniau
 電位差	di wei tsha
 電信行業	di shin ghaon gniq
 電傳	di dzOE
@@ -72793,7 +72601,6 @@ VCD	vi shi di
 青衫淚	chin sae lei
 青貯窖	chin dzyu ciau
 青馬大橋	chin mo da jiau
-青鳥	chin gniau
 青龍滿族自治縣	chin lon mun dzoq zy dzyu yu
 靖州苗族侗族自治縣	zhin cieu miau dzoq don dzoq zy dzyu yu
 靖康傳信錄	zhin khaon dzOE shin loq
@@ -73036,7 +72843,6 @@ VCD	vi shi di
 頭雁	deu yi
 頭面人物	deu mi zyun vaq
 頭髮鬍子一把抓	deu faq wu tsy iq po tsa
-頰白鳥	kaq baq gniau
 頸長	cin jian
 頹壞	dei ua
 頹顏	dei yi
@@ -73572,6 +73378,7 @@ VCD	vi shi di
 高校招生	kau yau ciau san
 高棉人	kau mi gnin
 高樓大廈	kau leu da gho
+高樓大廈	kau leu da so
 高水平	kau sei bin
 高水平	kau syu bin
 高水準	kau sei tsyun
@@ -73828,12 +73635,11 @@ VCD	vi shi di
 鱗甲	lin ciaq
 鱗集	lin jiq
 鳥不生蛋	tiau paq san dae
+鳥不生蛋	gniau paq san dae
 鳥人	gniau gnin
 鳥人	tiau gnin
 鳥嘌呤	gniau phiau lin
-鳥嘴	gniau tsyu
 鳥園	gniau yu
-鳥屋	gniau oq
 鳥巢	gniau dzau
 鳥店	gniau ti
 鳥松	gniau son
@@ -73852,8 +73658,6 @@ VCD	vi shi di
 鳥瞰	gniau khae
 鳥瞰圖	gniau khae du
 鳥禽	gniau jin
-鳥窩	gniau ou
-鳥窩式	gniau ou shiq
 鳥篆	gniau DZOE
 鳥籠	gniau lon
 鳥糞	gniau fen
@@ -73882,7 +73686,6 @@ VCD	vi shi di
 鳳梨乾	von li kI
 鳴人	min zyun
 鳴雁	min yi
-鳴鳥	min gniau
 鴉片戰爭	a phi ci tsen
 鴉片戰爭	a phi tsoe tsen
 鴉片煙	a phi i
@@ -73927,7 +73730,6 @@ VCD	vi shi di
 鵝行鴨步	ngou yin aq bu
 鵝鑾鼻	ngou loe biq
 鵝鸞鼻	ngou loe biq
-鵬鳥	ban gniau
 鵰心雁爪	tiau shin yi tsau
 鶯鳥	in gniau
 鶴佬人	ngoq lau gnin
@@ -74037,7 +73839,6 @@ VCD	vi shi di
 黃鐘大呂	waon tson da li
 黃長燁	waon jian yiq
 黃髮兒齒	waon faq er tshy
-黃鳥	waon gniau
 黎明時分	li min zy fen
 黎曼幾何學	li mae ci ghou yuq
 黎曼空間	li mae khon ci
