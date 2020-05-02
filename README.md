@@ -112,8 +112,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共 99 個方案）
-<br/>Full list of collected schemas (99 schemas in total)</h3>
+<h3>方案列表（共 102 個方案）
+<br/>Full list of collected schemas (102 schemas in total)</h3>
 
 <ul>
   <li>
@@ -322,6 +322,14 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
               </ul>
             </li>
             <li>吳語（永嘉） - <code>wugniu_ionko</code></li>
+          </ul>
+        </li>
+        <li>
+          上海話輸入方案（錢拼、滬二、法吳） ℞ <code>shinzoqchiuq/rime-shanghainese</code>
+          <ul>
+            <li>上海中派（錢拼） - <code>shanghe_xhipin</code></li>
+            <li>上海中派（滬二） - <code>zanghe_wrunri</code></li>
+            <li>上海中派（法吳） - <code>zaonhe_faqwu</code></li>
           </ul>
         </li>
         <li>
@@ -589,8 +597,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
 </ul>
 
-<h3>配方列表（共 38 個配方）
-<br/>List of recipes (38 recipes in total)</h3>
+<h3>配方列表（共 39 個配方）
+<br/>List of recipes (39 recipes in total)</h3>
 
 <ul>
   <li>
@@ -691,6 +699,9 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         <li>蘇州吳語拼音輸入方案 ℞ <code>NGLI/rime-wugniu_soutseu</code></li>
         <li>寧波吳語拼音輸入方案 ℞ <code>NGLI/rime-wugniu_gninpou</code></li>
         <li>嘉興（五縣兩區）吳語拼音輸入方案 ℞ <code>NGLI/rime-wugniu_kashin</code></li>
+        <li>
+          上海話輸入方案（錢拼、滬二、法吳） ℞ <code>shinzoqchiuq/rime-shanghainese</code>
+        </li>
         <li>吳語·上海話 ℞ <code>rime/rime-wugniu</code></li>
         <li>蘇州吳語 ℞ <code>rime/rime-soutzoe</code></li>
         <li>樂清話拼音輸入法 ℞ <code>lotem/rime-aoyu</code></li>
