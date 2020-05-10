@@ -4,7 +4,7 @@
 schema:
   schema_id: naamning_bingwaa
   name: "南寧(亭子)平話"
-  version: "2019.12.26"
+  version: "2020.05.09"
   author:
     - LeiMaau <leimaau@qq.com>
   description: |
@@ -22,11 +22,12 @@ schema:
     - wubi86
 
 switches:
-#  - options: [zh_simp2, zh_simp, zh_trad, zh_hk, zh_tw, zh_jp]  # 多種字形轉換方案，根據需要自行開啓
+#  - options: [zh_simp2, zh_simp, noop, zh_trad, zh_hk, zh_tw, zh_jp]  # 多種字形轉換方案，根據需要自行開啓
 #    reset: 1
 #    states:
 #      - 字形 → 大陸〔繁體〕
 #      - 字形 → 大陸
+#      - 字形 → 傳統〔不轉換〕
 #      - 字形 → 傳統
 #      - 字形 → 香港
 #      - 字形 → 臺灣
@@ -99,6 +100,7 @@ speller:
     - xform/6/xx/                 # 陽去
     - derive/^nj/j/               # 模糊 nj -> j
     - derive/^sl/s/               # 模糊 sl -> s
+    - derive/^ngia(ng|k)/njia(ng|k)/        # 模糊 ngia(ng|k) -> njia(ng|k)
     - derive/^(g|k)wo/$1o/        # 模糊 (gk)wo -> (gk)o
     - derive/^(g|k)wik/$1ik/      # 模糊 (gk)wik -> (gk)ik
     - derive/i$/ei/          	  # 模糊 i -> ei
@@ -133,7 +135,8 @@ translator:
     - xform/([aeioumngptk])xx/$1⁶/
     - xform/([aeioumngptk])x/$1³/
 #  preedit_format:   # 需要顯示《廣西通誌·漢語方言誌》版IPA時preedit_format替換成這段
-#    - xform/(^|[ '])(m|ng)+$/$1$2̩$3/
+#    - xform/(^|[ '])(m)+$/$1$2̩/
+#    - xform/(^|[ '])(ng)+$/$1$2̍/
 #    - xform/([ptk])xx/$1˨/
 #    - xform/([ptk])x/$1˥/
 #    - xform/([ptk])vv/$1˨˦/
@@ -142,9 +145,9 @@ translator:
 #    - xform/(^|[ '])q/$1ʔ/
 #    - xform/q/˥˧/
 #    - xform/vv/˨˦/
-#    - xform/v/˧˧/
-#    - xform/xx/˨˨/
-#    - xform/x/˥˥/
+#    - xform/v/˧/
+#    - xform/xx/˨/
+#    - xform/x/˥/
 #    - xform/sl/ɬ/
 #    - xform/([PTK])$/$1]$2/
 #    - xform/(^|[ '])(jy|[jy])u([t])/$1jYː$3]/
@@ -204,7 +207,8 @@ translator:
 #    - xform/nj/ȵ/
 #    - "xlit|PmfTnNlKhHsʃjwWɐAEɛIɪɔOœɵUʊYː]|pmftnŋlkhʰsʃjwʷɐaeɛiɪɔoœɵuʊyː̚|"
 #  preedit_format:   # 需要顯示《南寧平話詞典》版IPA時preedit_format替換成這段
-#    - xform/(^|[ '])(m|ng)+$/$1$2̩$3/
+#    - xform/(^|[ '])(m)+$/$1$2̩/
+#    - xform/(^|[ '])(ng)+$/$1$2̍/
 #    - xform/([ptk])xx/$1˨/
 #    - xform/([ptk])x/$1˥/
 #    - xform/([ptk])vv/$1˨˦/
@@ -213,9 +217,9 @@ translator:
 #    - xform/(^|[ '])q/$1ʔ/
 #    - xform/q/˥˧/
 #    - xform/vv/˨˦/
-#    - xform/v/˧˧/
-#    - xform/xx/˨˨/
-#    - xform/x/˥˥/
+#    - xform/v/˧/
+#    - xform/xx/˨/
+#    - xform/x/˥/
 #    - xform/sl/ɬ/
 #    - xform/([PTK])$/$1]$2/
 #    - xform/(^|[ '])(jy|[jy])u([t])/$1jYː$3]/
@@ -347,7 +351,7 @@ recognizer:
   import_preset: default
   patterns:
     punct: "^/([0-9]0?|[a-z]+)$"
-    luna_pinyin: "`[a-z]*'?$"
+    luna_pinyin: "`[a-z']*'?$"
     stroke: "x[hspnz]*'?$"
     cangjie5: "v[a-z]*'?$"
     wubi86: "r[a-z]*'?$"

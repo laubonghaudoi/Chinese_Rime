@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.04.27"
+version: "2020.05.10"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -1951,6 +1951,7 @@ use_preset_vocabulary: true
 哯	yi
 衍	yi
 琰	yi
+剡	yi
 扊	yi
 鱔	yi	0%
 鱓	yi	0%
@@ -3322,6 +3323,7 @@ use_preset_vocabulary: true
 炮	phau
 砲	phau
 礮	phau
+跑	phau	0%
 炮	bau	0%
 炰	bau
 袍	bau
@@ -5377,6 +5379,7 @@ use_preset_vocabulary: true
 冄	zoe
 苒	zoe
 珃	zoe
+剡	zoe
 遄	zoe
 膳	zoe
 饍	zoe
@@ -6965,6 +6968,7 @@ use_preset_vocabulary: true
 鋥	dzan
 䂻	dzan	55
 瞠	dzan
+盛	dzan	1%
 生	san
 甥	san
 牲	san
@@ -8563,6 +8567,7 @@ use_preset_vocabulary: true
 緊	cin
 景	cin
 憬	cin
+璟	cin
 錦	cin
 頸	cin
 政	cin
@@ -20533,7 +20538,7 @@ use_preset_vocabulary: true
 阿講	aq kaon	55
 阿講	oq kaon	55
 枉爲	uaon wei	55
-門門賬	men men cian	55
+門門賬	men men cian	578
 門分賬	men fen cian	55
 單怕	tae pho	55
 獨怕	doq pho	55
@@ -27112,7 +27117,7 @@ use_preset_vocabulary: true
 謳儂𢜭力𡀂	eu ng jiaq liq lei
 謳俉𢜭力𡀂	eu ng jiaq liq lei
 謳爾𢜭力𡀂	eu ng jiaq liq lei
-泡春	phau tshyun	55
+跑春	phau tshyun	55
 
 # 江蘇教育版《寧波方言詞典》 其他寫法
 
@@ -27431,7 +27436,7 @@ use_preset_vocabulary: true
 楊家𡍲	yan ko taq
 西鄉十八𡍲	shi shian zyuq paq taq
 灣頭西底
-盛墊	zhin ti
+盛墊	dzan ti
 七里墊	chiq li ti
 鄔隘	u ka
 姚隘	yau ka
@@ -27513,7 +27518,7 @@ use_preset_vocabulary: true
 三江口
 大河沿	dou ghou yi
 上河沿
-任家橫
+任家橫	zyun ko wan
 童家橫	don ko wan
 櫟斜
 牆裏
@@ -29292,7 +29297,7 @@ use_preset_vocabulary: true
 種大稻	tson dou dau
 勿會寫字多蘸筆
 勿會走路多磕跌
-小人泡衝頭磕開	shiau gnin phau tshon deu khaq khe
+小人跑春頭磕開	shiau gnin phau tshyun deu khaq khe
 外婆屋裏去勿來	nga bou oq li chi vaq le
 江東送娘美女式
 花花包袱兩肩吸
@@ -29816,7 +29821,7 @@ use_preset_vocabulary: true
 強癩頭
 小人洋皮皮	shiau gnin yan bi bi
 大人勿歡喜	dou gnin vaq hun shi
-大人泡衝落棺材	dou gnin phau tshon loq kun ze
+大人跑春落棺材	dou gnin phau tshyun loq kun ze
 嗲聲嗲氣
 生頭熟人客	san deu zoq gnin khaq
 裝勒勿認得	tsaon laq vaq gnin taq
@@ -31398,7 +31403,7 @@ use_preset_vocabulary: true
 和豐紗廠
 和豐創意廣場
 朝暉路	ciau huei lu
-徐戎新村
+徐戎新村	zhi gnion shin tshen
 白鶴街道
 白鶴
 白鶴新村
@@ -31454,7 +31459,7 @@ use_preset_vocabulary: true
 福慶北路
 福慶南路
 新城第一實驗學校	shin jin di iq zyuq nE ghoq yau
-盛莫路	zhin moq lu
+盛莫路	dzan moq lu
 民安東路
 興寧東路
 新明街道
@@ -31822,6 +31827,7 @@ use_preset_vocabulary: true
 像模像樣	zhian moq zhian yan
 拓碑	thaq pei
 虧煞	tshu saq
+虧煞	khuei saq
 虧煞是	chiu saq zy
 虧煞是	tshu saq zy
 蝙蝠老鼠	phi foq lau tsy
@@ -31922,6 +31928,11 @@ use_preset_vocabulary: true
 遊說集團	yeu sei jiq doe
 說士	sei zy
 說客	sei khaq
+眼烏珠	ngae u ciu
+穀眼烏珠	koq ngae u ciu
+眼烏珠翻白	ngae u ciu fae baq
+眼烏珠碧綠	ngae u ciu piq loq
+眼烏珠䀨瞎	ngae u ciu kuaq haq
 明朝	min jiau
 肚子	du tsy
 生活	sen waq
@@ -33976,6 +33987,7 @@ use_preset_vocabulary: true
 冬米
 凍米
 倉橋麪結店
+興寧橋烤雞
 興寧橋燒雞
 缸鴨狗	kaon aq keu
 樓茂記	leu meu ci
@@ -34229,6 +34241,26 @@ use_preset_vocabulary: true
 胡嚨介胖	wu lon ka phaon
 介胖	ka phaon
 胖胡嚨
+馬燈調
+跑馬燈	phau mo ten
+一埭
+两埭
+两三埭
+三埭
+三四埭
+一埭埭
+該埭	kiq da
+該一埭	kiq iq da
+該两埭	kiq lian da
+蕩埭
+蕩兩埭
+一埭金
+两埭银
+三埭弗笑是儇人	sae da vaq shiau zy huae gnin
+三埭勿笑是儇人	sae da vaq shiau zy huae gnin
+儇人	huae gnin
+儇囡	huae nhoe
+居民會		4000
 〇兩	lin lian
 一九九兩	iq cieu cieu lian
 一兩三	iq lian sae
@@ -37392,6 +37424,2972 @@ X光片	e khaq sy kuaon phi
 4S店	sy e sy ti
 DVD	di vi di
 VCD	vi shi di
+
+# 其他地名
+
+一品空間大廈	iq phin khon ci da gho
+一品空間大廈	iq phin khon ci da so
+一品華庭
+一市港水庫
+一橫河
+丁家塘水庫	tin ko daon syu khu
+丁香苑
+七塘江
+七夫山
+七甲江
+七甲路
+七裏墊新村	chiq li ti shin tshen
+丈梅水庫
+三七房
+三八江
+三北公寓
+三北名都
+三十弓江
+三塘江
+三家村水庫	sae ko tshen syu khu
+三市橋
+三房
+三房甲江
+三方大廈	sae faon da gho
+三方大廈	sae faon da so
+三星橋水庫
+三村
+三橋江
+三橫河
+三民路
+三江口新村
+三甲南路
+三竈江
+三竈潭路
+三聖殿水庫
+三聯河
+上上城
+上何
+上凌
+上半山
+上古山
+上品院
+上坪坎
+上塘
+上山村
+上張
+上快船江
+上房小區
+上木坑
+上李家	zaon li ko
+上東商務中心
+上林華庭
+上橫
+上水碶
+上沈舊宅河
+上河塘
+上泥橋江
+上游河
+上畈
+上臺嶴水庫
+上茅灣
+上荷花橋
+上菱新村
+上車門
+上邵
+上邵河
+上郁
+上馮新村
+下凌
+下勵
+下半山
+下古山
+下嚴
+下塘
+下山坑
+下張
+下張河
+下木坑
+下沈港
+下王
+下茅灣
+下荷花橋
+下莊水庫
+下莊溪
+下菱新村
+下萬齡
+下董
+下車任	gho tsho zyun
+下陳江
+世南家園	syu nEI cia yu
+世紀名苑	syu ci min iu
+世紀家園	syu ci cia yu
+世紀花園	syu ci huo yu
+中保大廈	tson pau da gho
+中保大廈	tson pau da so
+中信銀行大廈	tson shin gnin ghaon da gho
+中信銀行大廈	tson shin gnin ghaon da so
+中凱華庭
+中堡溪
+中大河
+中央岸
+中央花園
+中宅水庫
+中寧大廈	tson gnin da gho
+中寧大廈	tson gnin da so
+中山名都
+中山小區
+中山東苑
+中山河
+中山路
+中後河
+中心村
+中心河
+中慈大廈	tson dzy da gho
+中慈大廈	tson dzy da so
+中機路
+中橫河
+中江
+中河家園	tson ghou cia yu
+中河茗苑
+中河麗園
+中洲錦苑
+中營巷
+中興一路
+中興大廈	tson shin da gho
+中興大廈	tson shin da so
+中興小區
+中萬齡
+中農信國際商廈	tson non shin koq ci saon gho
+中農信國際商廈	tson non shin koq ci saon so
+中邁商務樓
+中青文化廣場
+丹井巷
+丹南路
+丹峯小區
+丹峯東路
+丹桂苑
+丹陽小區
+丹靜公寓
+丹鳳小區
+丹鳳新村
+九五商務大廈	cieu ng saon Wu da gho
+九五商務大廈	cieu ng saon Wu da so
+九五商務大廈	cieu ng saon vu da gho
+九五商務大廈	cieu ng saon vu da so
+九五花園
+九塘江
+九峯小區
+九峯水庫
+九峯西路
+九嶴水庫
+九彎弄
+九房
+九曲河
+九架屋弄	cieu ko oq lon
+九甲江
+九甲路
+九頃水庫
+九鼎家園	cieu tin cia yu
+九龍家苑	cieu lon cia iu
+九龍江
+二四房
+二塘江
+二橫河
+二水廠路
+二竈江
+二竈灣
+二輕大廈	er chin da gho
+二輕大廈	er chin da so
+二輕大廈	gni chin da gho
+二輕大廈	gni chin da so
+五塊巷
+五塘橫江
+五塘橫河
+五婆湖水庫
+五家池弄	ng ko dzy lon
+五家池弄	ng ko ji lon
+五嶴溪
+五市溪
+五愛江
+五星新村
+五星河
+五星路
+五環山大樓	ng wae sae da leu
+五百嶴水庫
+五礦路
+五竈灣
+五臺山路
+井亭
+井岡山路
+井頭弄
+京華茗苑
+亭下水庫
+亭溪
+人和巷	zyun ghou ghaon
+人和街	zyun ghou ka
+人民北路	zyun min poq lu
+人民大道	zyun min da dau
+仁湖路
+仙台路
+仙境路
+仙峯環閤中心
+仙房西路
+仙潭路
+仙荷家園	shi ghou cia yu
+任家	zyun ko
+伏龍新村	voq lon shin tshen
+佈政新村
+佑聖巷
+何家	ghou ko
+余家新河	yu ko shin ghou
+余家甲路	yu ko ciaq lu
+余家路江	yu ko lu kaon
+佳匯景苑
+佳家苑	cia cia iu
+供電路
+侯家	gheu ko
+保慶路
+保豐路
+俞家	yu ko
+俞車利漕
+信拓路
+信泰路
+信開路
+倉基巷
+倉嶴水庫
+倉門
+倒流水庫
+倪家	gni ko
+倪家堰橋	gni ko i jiau
+倪家堰路	gni ko i lu
+倪家浦	gni ko phu
+倪王
+假山巷	ko sae ghaon
+假山新村	ko sae shin tshen
+健康路
+傅中灣
+傅家	fu ko
+備碶跟路
+元吉巷
+光信路
+光明路
+光溪
+光華路
+光輝路
+八塘路
+八方錦苑
+八柱橋南路
+八甲弄
+八角樓巷
+公路橫河
+六塘江
+六塘江路
+六甲江
+六竈江
+共青路
+冬青路
+冶山路
+冷水坑水庫
+凌江名庭
+凌波路
+凌漕路
+凌雲路
+划船巷
+利民水庫
+前井頭路
+前境路
+前大河	zhi da ghou
+前孫橋
+前岸
+前張
+前應東區
+前應西區
+前應路
+前方
+前方新村
+前方路
+前東漕
+前柳漕
+前河
+前河北路
+前河南路
+前河路
+前溪湖水庫
+前王
+前王河
+前王港
+前王畈
+前百丈
+前聞江岸
+前董
+前蔥園路
+前虞
+前豐街
+前進路
+前陳
+前陶家漕	zhi dau ko zau
+剡江	zoe kaon
+剡源	zoe gniu
+創富路
+創新大廈	tshaon shin da gho
+創新大廈	tshaon shin da so
+創新路
+創業一路
+創業三路
+創業二路
+創業五路
+創業六路
+創業四路
+創業大廈	tshaon gniq da gho
+創業大廈	tshaon gniq da so
+創業大道	tshaon gniq da dau
+創業橋
+創業路
+創苑路
+劉家嶴水庫	lieu ko au syu khu
+劉家弄	lieu ko lon
+劍南家園溫馨苑	ci nEI cia yu uen shin iu
+劍南家園芳香苑	ci nEI cia yu faon shian iu
+劍寺路
+劍山支路
+劍山路
+劍蘭苑
+劍蘭路
+力洋水庫
+力洋溪
+勝地名苑
+勝山塘江
+勝山大道	shin sae da dau
+勝豐佳苑
+勝豐東苑
+勝豐河
+勞家埭江	lau ko da kaon
+勤勇
+勤建路
+勤豐新村
+勵家弄小區	li ko lon shiau chiu
+勵家路	li ko lu
+勵江岸
+包家	pau ko
+包家地巷	pau ko di ghaon
+包家路	pau ko lu
+化桃
+化龍莊
+北一環路
+北三環東路
+北二環中路
+北二環東路
+北二環西路
+北二環路
+北侖新村
+北園路
+北大河	poq da ghou
+北大街	poq dou ka
+北山
+北川路
+北斗北路
+北斗南路
+北斗星辰
+北斗路
+北星路
+北村
+北柳街
+北極星村
+北極星路
+北橫河
+北河沿路
+北海路
+北溪路
+北濱江路
+北環東路
+北環西路
+北環路
+北興路
+北蘭江東路
+北辰雅苑
+北郊河
+北電小區
+北面洋水庫
+匡堰大道	khuaon i da dau
+匡興路
+匯嘉新園
+匯景新苑
+匯源小區
+匯翠花園
+匯金大廈	wei cin da gho
+匯金大廈	wei cin da so
+匯頭
+匯龍浦
+十七房路
+十八灣河
+十字北街
+十字南街
+十字東街
+千畝嶴水庫
+半坑
+半夜江路
+半山
+半山堰江
+半島華府
+半掘浦
+半江河
+南二環中路
+南二環東路
+南余河
+南勝苑
+南北河
+南園新村
+南園路
+南坑
+南坑水庫
+南城沿路
+南城邊街
+南堡河
+南大步巷	nEI da bu ghaon
+南大河
+南大街	nEI dou ka
+南大路	nEI da lu
+南山北路
+南山新村
+南岸秀庭
+南嶴
+南嶴水庫
+南新路
+南方塘水庫
+南村
+南東安路
+南橫江
+南橫河
+南河沿路
+南洋路
+南洪小區
+南海路
+南湖路
+南溪家園	nEI chi cia yu
+南演武街
+南濱江路
+南環路
+南白河路
+南盤水庫
+南站西路
+南苑上都
+南蘭江東路
+南蘭江西路
+南裕小區
+南鎮安街
+南門
+南門大街	nEI men dou ka
+南雅街
+南雷南路
+南雷裏
+厲江岸
+友誼水庫
+古城路
+古塘華苑
+古塘西路
+古塘麗景
+古窯浦
+古講堂巷
+叫天港
+史家巷	sy ko ghaon
+史家弄	sy ko lon
+史家弄水庫	sy ko lon syu khu
+史家新村	sy ko shin tshen
+史家灣	sy ko uae
+合一
+合生國際城	ghaq sen koq ci jin
+合興路
+吉慶河
+吉慶街
+吉慶路
+吉祥嶴水庫
+吉祥新村
+吉祥路
+同大裏
+同德路
+同心橋
+同心苑
+同心路
+同方傑座
+同春小區
+同濟路
+同谷路
+名仕南苑
+名仕嘉景苑
+名仕花園
+名匯大廈	min wei da gho
+名匯大廈	min wei da so
+名江新都
+名邦商務大廈	min paon saon Wu da gho
+名邦商務大廈	min paon saon vu da gho
+名都公寓
+名門莊園
+向南河
+向家弄水庫	shian ko lon syu khu
+向陽路
+君子街
+君悅國際花園
+君悅花園
+君瀾上府
+君豪中心
+吳家	ng ko
+吳家	wu ko
+吳家塘路	ng ko daon lu
+吳家塘路	wu ko daon lu
+吳家漕	ng ko zau
+吳家漕	wu ko zau
+吳家莊	ng ko tsaon
+吳家莊	wu ko tsaon
+吳家鬥	ng ko teu
+吳家鬥	wu ko teu
+吳山北路
+吳山南路
+吳嶴	ng au
+吳嶴	wu au
+吳江岸蘇家小區	ng kaon nge su ko shiau chiu
+吳江岸蘇家小區	wu kaon nge su ko shiau chiu
+吳澤浦	ng dzaq phu
+吳澤浦	wu dzaq phu
+周余三漕
+周公宅
+周公宅水庫
+周坑嶴水庫
+周塘東街
+周塘西街
+周塘西路
+周家嶴	cieu ko au
+周家路新江	cieu ko lu shin kaon
+周家路江	cieu ko lu kaon
+周家路灣	cieu ko lu uae
+周宿渡路
+周林港
+周江岸
+周江岸路
+呼童街
+和園
+和平小區
+和德路
+和泰雅苑
+和潤公寓
+和諧橋
+咸寧路
+唐家路	daon ko lu
+唐虞路
+商務大廈	saon Wu da so
+商務大廈	saon vu da gho
+商會大廈	saon wei da gho
+商會大廈	saon wei da so
+商檢路
+商貿大廈	saon meu da gho
+商貿大廈	saon meu da so
+商貿路
+商都大廈	saon tu da gho
+商都大廈	saon tu da so
+啓文河
+啓文路
+啓新路
+啓明南路
+啓明星座
+啓明星辰
+啓明路
+單家	zoe ko
+嘉和名苑
+嘉怡花園
+嘉悅生活廣場	cia yuq sen waq kuaon jian
+嘉悅購物廣場
+嘉盛銀座	cia zhin gnin zou
+嘉裏商務大廈	cia li saon Wu da gho
+嘉裏商務大廈	cia li saon Wu da so
+嘉裏商務大廈	cia li saon vu da gho
+嘉裏商務大廈	cia li saon vu da so
+嘉裏商務樓
+嘉都苑
+嚴家	gni ko
+四塘橫江
+四塘橫河
+四塘江
+四塘江路
+四季東城
+四季桂花園
+四季華庭
+四方家園	sy faon cia yu
+四方小區
+四明公寓
+四明城市廣場
+四明山路
+四明東路
+四明橋水庫
+四明湖水庫
+四明路
+四竈浦
+四竈浦水庫
+回江南路
+國慶河
+國泰巷
+國稅大廈	koq sei da gho
+國稅大廈	koq sei da so
+國豐街
+國貿大廈	koq meu da gho
+國貿大廈	koq meu da so
+國貿新花園
+國貿花園
+國醫街
+國際大廈	koq ci da gho
+國際大廈	koq ci da so
+國際發展大廈	koq ci faq ci da gho
+國際發展大廈	koq ci faq ci da so
+國際發展大廈	koq ci faq tsoe da gho
+國際發展大廈	koq ci faq tsoe da so
+園丁橋
+園丁社區
+園丁街
+園丁路
+園中路
+園區排澇河
+園西路
+圖書館路
+團圈支路
+土地巷
+土地弄
+坎勝路
+坎墩東街
+坦坑路
+城下路
+城南三區
+城南東路
+城市廣場
+城市星光苑
+城市桃源小區
+城投大廈	jin deu da gho
+城投大廈	jin deu da so
+城東公寓
+城東新村
+城東路
+城河東路
+城河西路
+城灣水庫
+城西路
+堰頭邵河
+報恩河
+場前路
+塔前河
+塔山花園
+塔水路
+塔裏坑水庫
+塘嶴水庫
+塘民橋
+塘灣人家	daon uae zyun cia
+塘盛路	daon dzan lu
+塘西中路
+塘西新村
+塘西路
+墊橋路江
+壓賽河
+壩頭東路
+壩頭西路
+壩頭路
+夏家	gho ko
+夏家橋	gho ko jiau
+夏家河	gho ko ghou
+夏虞河
+外塘路
+外子貢河
+外廠
+外新屋路
+外洋新村
+外洋路
+外湖
+外潛龍街
+外灘
+外灘花園
+外環東路
+外環西路
+外環路
+外鍾路
+外馬路
+大井路
+大來街	da le ka
+大別山路	da biq sae lu
+大化水庫
+大古塘江
+大吉巷	da ciq ghaon
+大善寺港
+大坑水庫	dou khan syu khu
+大埠丘水庫
+大塘港
+大塘港水庫
+大嵐鎮	da lae tsyun
+大嵩江
+大嶴
+大嶴水庫	da au syu khu
+大嶴路
+大巖嶴水庫
+大廟弄
+大慶北路	da chin poq lu
+大成東路	da jin ton lu
+大成花園	da jin huo yu
+大成路	da jin lu
+大戴街	dou te ka
+大教場路
+大斜橋水庫	dou zhia jiau syu khu
+大旺橋路
+大昌路
+大明河	da min ghou
+大書院巷
+大朱家新村	da tsyu ko shin tshen
+大朱家新村	dou tsyu ko shin tshen
+大朱家河	da tsyu ko ghou
+大朱家河	dou tsyu ko ghou
+大梁街	da lian ka
+大橋	da jiau
+大橋	dou jiau
+大橋街	dou jiau ka
+大步街	da bu ka
+大池墩水庫
+大汪路
+大河	da ghou
+大河巷	da ghou ghaon
+大河新村	da ghou shin tshen
+大河橋路	da ghou jiau lu
+大泉坑水庫
+大洋橋
+大浦河北路	da phu ghou poq lu
+大涇浦
+大港一路	da kaon iq lu
+大港中路
+大港二路
+大港五路	da kaon ng lu
+大港公寓
+大港六路	da kaon loq lu
+大港新村	da kaon shin tshen
+大湖頭水庫
+大滄北路	da tshaon poq lu
+大漕
+大灣水庫
+大烏巖水庫	da u ngae syu khu
+大皎
+大石門水庫
+大茅嶴水庫
+大莊
+大街東路	dou ka ton lu
+大街路	dou ka lu
+大西門外
+大西門路
+大觀璟園
+大路門江
+大路頭江	dou lu deu kaon
+大通中路	da thon tson lu
+大通北路	da thon poq lu
+大通東路	da thon ton lu
+大通河	da thon ghou
+大通花園
+大通西路	da thon shi lu
+大通路	da thon lu
+大闊頭	dou khuaq deu
+大雙嶴水庫
+大雷溪	da lei chi
+大高子水庫
+大黃橋南路
+大黃橋路	da waon jiau lu
+天之星
+天之海大廈	thi tsy he da gho
+天九街
+天井嶴
+天元大廈	thi gniu da gho
+天元大廈	thi gniu da so
+天元大道	thi gniu da dau
+天勝佳苑
+天台山路
+天合財匯中心
+天和家園	thi ghou cia yu
+天壽西路
+天壽路
+天安路
+天官和庭
+天寧大廈	thi gnin da gho
+天寧大廈	thi gnin da so
+天寧路
+天山路
+天峯路
+天平路
+天怡嘉苑
+天成家園	thi jin cia yu
+天敘路
+天景佳苑
+天欣家園	thi shin cia yu
+天欣巷
+天沁家園	thi chin cia yu
+天潤商座
+天潭路
+天琴大廈	thi jin da gho
+天琴大廈	thi jin da so
+天童莊
+天興公寓
+天興嘉園
+天興路
+天賜佳園
+天賜家園	thi sy cia yu
+天鑫家園	thi shin cia yu
+天閤家園	thi koq cia yu
+天雷坑
+天順公寓
+天順路
+天高巷
+天鵝灣
+天龍山路
+太古新街
+太字地路
+太守名府
+太平洋時代中心
+太河公寓
+太河南路
+太河路
+太湖路
+太行山路	tha ghaon sae lu
+太陽園
+太陽殿路
+夾溪
+奉中社區
+奉先橋
+奉南新一村
+奉南路
+奧力孚公寓
+如意金水灣
+妙峯山路
+姆嶺
+始平路
+姓胡塘路
+姚家河	yau ko ghou
+姚家浦	yau ko phu
+姚嶴水庫
+姚嶺水庫
+姚江上上城
+姚江新都大廈	yau kaon shin tu da gho
+姚江新都大廈	yau kaon shin tu da so
+姚江東路
+姚江花園
+姚江路
+姚童河
+姚豐南路
+姚豐橋
+姜家	cian ko
+姜村
+姜湖水庫
+姜湖路
+威海路
+威爾路	uei er lu
+嫩江路
+子孫巷
+子陵新村
+子陵路
+孔家	khon ko
+孔家潭	khon ko dae
+孔家金苑	khon ko cin iu
+孔浦支路
+孔浦路
+字巖下
+孝聞巷
+孟家	man ko
+孟家埭	man ko da
+季景路
+孫塘南路
+孫塘新村
+孫塘路
+孫家	sen ko
+孫家河	sen ko ghou
+孫家漕	sen ko zau
+孫家麗園	sen ko li yu
+孫方南路
+孫祠巷
+學府苑	yuq fu iu
+學府茗苑	yuq fu min iu
+學府路	yuq fu lu
+學苑東路	yuq iu ton lu
+它山堰路
+宅前張河
+安信商住樓
+安居橋
+安山路
+安平路
+安康橋
+安泰街
+宋家	son ko
+宋家弄	son ko lon
+宏泰廣場
+宏潤花園
+宏興公寓
+官倉港
+官橋浦
+官田弄水庫
+官莊河
+定向河
+定山路
+定橋
+宜家鬥	gni ko teu
+宜青苑
+富士花園
+富巷新村
+富春花園
+富茂大廈	fu meu da gho
+富茂大廈	fu meu da so
+富豪家園	fu ghau cia yu
+實驗公寓
+寧南立交橋	gnin nEI liq ciau jiau
+寧大花園	gnin da huo yu
+寧徐路
+寧東家園	gnin ton cia yu
+寧沁家園	gnin chin cia yu
+寧沁路
+寧波中遠物流大廈	gnin poq tson yu vaq lieu da gho
+寧波中遠物流大廈	gnin poq tson yu vaq lieu da so
+寧波中遠物流大廈	gnin pou tson yu vaq lieu da gho
+寧波中遠物流大廈	gnin pou tson yu vaq lieu da so
+寧波幫康城陽光大廈	gnin poq paon khaon jin yan kuaon da gho
+寧波幫康城陽光大廈	gnin poq paon khaon jin yan kuaon da so
+寧波幫康城陽光大廈	gnin pou paon khaon jin yan kuaon da gho
+寧波幫康城陽光大廈	gnin pou paon khaon jin yan kuaon da so
+寧波書城文化廣場	gnin poq syu jin ven huo kuaon jian
+寧波書城文化廣場	gnin pou syu jin ven huo kuaon jian
+寧燕大樓	gnin i da leu
+寧福路
+寧穿路
+寧興大廈	gnin shin da gho
+寧興大廈	gnin shin da so
+寧興財富廣場
+寧豐中路
+寧豐橋
+寧都華庭
+寧靜家園	gnin zhin cia yu
+寧馨園
+寨基水庫
+寶丰
+寶劍河
+寶慶河
+寺前王水庫
+小三房
+小團浦
+小城花園
+小塘花園
+小寺林
+小山
+小山新村
+小嶴
+小嶴水庫
+小嶺頭水庫
+小庵
+小橋江
+小橫坑水庫
+小洋橋
+小洞嶴水庫
+小浹江
+小涇浦
+小湖橋新村
+小溪嶴水庫
+小烏巖水庫
+小百丈水庫
+小路下水庫
+小駱花園
+尚南華庭
+尚海財富大廈	zaon he dze fu da gho
+尚海財富大廈	zaon he dze fu da so
+尚源佳苑
+居敬橋
+山下
+山下瀋河
+山後新村
+山水人家	sae syu zyun cia
+山海華庭
+山登水庫
+山西新村
+山西河
+峙嶺山莊	ji lin sae tsaon
+峙龍塘水庫	ji lon daon syu khu
+峻壁溪
+峽口水庫
+崇和莊
+崔嶴
+崔陳江路
+嵐山水庫
+嶴底水庫
+嶴漲水庫
+嶴裏水庫
+嶺下水庫
+巖下
+巖家塘	ngae ko daon
+巖山弄水庫
+巖庵水庫
+巖河
+巖頭江
+工人新村	kon gnin shin tshen
+常洪橋
+平安大廈	bin EI da gho
+平安大廈	bin EI da so
+平潭水庫
+平石水庫
+年泥墩
+幸安公寓
+幸福家園	yin foq cia yu
+幸福水庫
+幸福河
+幸福路
+庵角路
+廟前
+廟前周
+廟前頭
+廟後
+廟跟
+廟跟河
+廟邊黃
+廠堂街
+廣博大廈	kuaon poq da gho
+廣博大廈	kuaon poq da so
+廣安橋
+廣平小區
+廣濟公寓
+廣電大廈	kuaon di da gho
+廣電大廈	kuaon di da so
+建塘江
+建塘江水庫
+建嶴
+建嶴水庫
+建興橋
+建設
+建設水庫
+張夏
+張家園	cian ko yu
+張家墊	cian ko ti
+張家山水庫	cian ko sae syu khu
+張家漕	cian ko zau
+張家潭	cian ko dae
+張山江
+張嶴水庫
+張村
+張江岸
+張華山
+張陸河
+彌勒大道	mi laq da dau
+彩江大廈	tshe kaon da gho
+彩江大廈	tshe kaon da so
+彩虹家園	tshe ghon cia yu
+彩虹新村
+彭橋直江
+彭王浦
+後二房支路
+後二房路
+後俞
+後周
+後周漕
+後塘路
+後大河
+後大河橋
+後大街	gheu dou ka
+後姜河
+後小路
+後山下
+後嶴弄水庫
+後平畈路
+後弄
+後張
+後新屋
+後新屋弄
+後方新村
+後楊嶴水庫
+後橫塘河
+後橫橋
+後橫江路
+後殷
+後河巷
+後洋池弄
+後浦街
+後湖崗水庫
+後漕
+後漕路
+後漕頭河
+後潘橋
+後營巷
+後王
+後王港
+後田垟巷
+後田洋顧路
+後百丈
+後石橋小區
+後聞江岸
+後茅山水庫
+後莫家巷	gheu moq ko ghaon
+後袁河
+後路田水庫
+後閘橋江
+後陳
+後陶家漕	gheu dau ko zau
+後隆
+後馬路
+後馮家路	gheu von ko lu
+徐家	zhi ko
+徐家橋	zhi ko jiau
+徐家河	zhi ko ghou
+徐家浦	zhi ko phu
+徐家竈路	zhi ko tsau lu
+徐江岸河
+得發花園
+德馨園
+德馨家園	taq shin cia yu
+忠烈路
+快船江
+思娘嶴水庫
+怡和大廈	yi ghou da gho
+怡和大廈	yi ghou da so
+怡峯家園	yi fon cia yu
+怡江華庭
+怡陽公寓
+恆富大廈	ghen fu da gho
+恆富大廈	ghen fu da so
+恆泰大廈	ghen tha da gho
+恆泰大廈	ghen tha da so
+恆陽小區
+恆隆中心
+悅來市江
+悅榕山莊
+悅盛橋	yuq zhin jiau
+悅龍灣
+惠金佳園
+愛國江
+愛嶺
+愛民南路
+慈江
+慈湖人家	dzy wu zyun cia
+慈湖逸墅
+慈溪山莊
+慈溪財富中心
+慈百苑
+慈覺寺水庫	dzy ciuq zy syu khu
+慈都家園	dzy tu cia yu
+慈鎮運河
+慶安
+憲卿第公寓
+應嘉麗園
+應家	in ko
+應家新河	in ko shin ghou
+應家河	in ko ghou
+應家老河	in ko lau ghou
+懸慈
+戎家橋	gnion ko jiau
+戚家	chiq ko
+戚家山別墅區	chiq ko sae biq zyu chiu
+戚隘河	chiq ka ghou
+戴家	te ko
+打網嶴
+振瀛路
+振興橋
+排澇河
+掘船灣
+提香公寓
+支浦河
+文化路
+文匯新村
+文山路
+文峯小區
+文昌住宅區
+文景苑
+文臺河
+文萃新村
+文鼎星苑
+新世紀花園	shin syu ci huo yu
+新二江
+新京大廈	shin cin da gho
+新京大廈	shin cin da so
+新佳苑
+新城中心
+新城大廈	shin jin da gho
+新城大廈	shin jin da so
+新城家園	shin jin cia yu
+新城市花園
+新塘家園	shin daon cia yu
+新塘橫江
+新夏家	shin gho ko
+新天地
+新宅
+新屋
+新峯小區
+新嶺嶴水庫
+新庵江
+新恆公寓
+新新家園	shin shin cia yu
+新星河
+新星龍灣商務樓
+新時代
+新時代大廈	shin zy de da gho
+新村
+新村路
+新橫河
+新民水庫
+新江
+新河
+新河明珠
+新河橋
+新泓口河
+新洲銀座
+新浦
+新海景花園
+新涼亭水庫
+新港商務廣場
+新潘新村
+新潮路
+新芝河
+新莊
+新華園
+新華橋
+新豐河
+新豔公寓
+新路嶴水庫
+新都匯商務中心
+新都明珠苑
+新都美地
+新都花園
+新靈峯公寓
+新馬河
+方家堰河	faon ko i ghou
+方家嶴水庫	faon ko au syu khu
+方家新村	faon ko shin tshen
+方家橋	faon ko jiau
+方家橋新村	faon ko jiau shin tshen
+方家浦	faon ko phu
+方家漕	faon ko zau
+施家	sy ko
+施山河
+施村
+日月山水	zyuq yuq sae syu
+日月星苑	zyuq yuq shin iu
+日湖花園	zyuq wu huo yu
+日顯路
+日麗東路	zyuq li ton lu
+昌樂路	tshaon loq lu
+昌興橋
+明一河
+明仕麗庭
+明倫
+明南小區
+明州花園
+明德橋
+明海商業廣場
+明港公寓
+明珠商貿大廈	min tsyu saon meu da gho
+明珠商貿大廈	min tsyu saon meu da so
+星光家園	shin kuaon cia yu
+星城半島
+星星港灣
+星林橋
+星河晨光
+星河花園
+星海嘉苑
+星辰公寓
+星陽新村
+春園小區
+春城花園
+春暉
+春暉佳苑
+春曉華園
+春曉鎮
+春秋名都
+時代大廈	zy de da gho
+時代大廈	zy de da so
+時代新居
+時代華庭
+時代華都
+晚稻田水庫
+景和家園	cin ghou cia yu
+景怡園
+景江岸
+景泰家園	cin tha cia yu
+景第公寓
+景芳園
+景觀花苑
+晶華名園
+晶都苑
+書香園
+書香曉苑
+書香苑
+曹家	dzau ko
+曹村
+曹隘橋	dzau ka jiau
+曹隘河	dzau ka ghou
+最良新村
+最良江
+月亮苑
+月來嶴
+月湖盛園	yuq wu zhin yu
+月湖銀座
+望江家園	vaon kaon cia yu
+望江花園
+望江苑
+望海路
+朝暉新城	ciau huei shin jin
+朝暉橋	ciau huei jiau
+朝陽新村	jiau yan shin tshen
+朱家峯	tsyu ko fon
+朱家橋	tsyu ko jiau
+朱家河	tsyu ko ghou
+朱家沿河	tsyu ko yi ghou
+朱家浦	tsyu ko phu
+朱家莊	tsyu ko tsaon
+朱湯
+朱郁
+朱雀新村
+朵柱嶺水庫
+杉杉金融貿易大廈	sae sae cin yon meu yiq da gho
+杉杉金融貿易大廈	sae sae cin yon meu yiq da so
+李四嶴
+李家弄	li ko lon
+李家河	li ko ghou
+李家洋	li ko yan
+李家漕	li ko zau
+李嶴
+李馮河
+杏村
+杜村
+東一
+東二路
+東五竈北路
+東五竈南路
+東來國際大廈	ton le koq ci da gho
+東周
+東園新村
+東坑裏水庫
+東城名苑
+東城峯匯大廈	ton jin fon wei da gho
+東城峯匯大廈	ton jin fon wei da so
+東城河
+東城華園
+東塘河
+東外灘公寓
+東大河	ton da ghou
+東寅商座
+東山河
+東山頭
+東嶴江
+東嶴溪
+東方名庭
+東方名苑
+東方商務中心
+東方明珠城
+東方明珠小區
+東方灣邸
+東方花園
+東方苑
+東方閣
+東昇
+東昇河
+東昌路
+東明河
+東村
+東柳坊
+東柳坊河
+東樓
+東橫河
+東江
+東江家園	ton kaon cia yu
+東沙新村
+東沙港
+東河
+東河花園
+東泰家園	ton tha cia yu
+東海明園
+東海明珠公寓
+東海曙光大廈	ton he zyu kuaon da gho
+東海曙光大廈	ton he zyu kuaon da so
+東海花園
+東港新村
+東湖馨園
+東源華府
+東溪
+東潤銘座
+東瑞大廈	ton zei da gho
+東瑞大廈	ton zei da so
+東環北路
+東相苑
+東碶路
+東臺公寓
+東興小區
+東航大廈	ton ghaon da gho
+東航大廈	ton ghaon da so
+東苑路
+東裕新村
+東西嶴
+東谷湖水庫
+東路橋
+東郊
+東郡名苑
+東郡尚都
+東都佳苑
+東都華庭
+東門橋
+東陳河
+東雅
+東體育場路
+東鶯新村
+松溪
+板橋路江
+林善嶴水庫
+林家浦	lin ko phu
+柏坑水庫
+柏樹花園
+柔石
+柞灣
+柳岸晨韻
+柳汀新村
+柳汀星座
+柳西新村
+柴家	za ko
+柴家港	za ko kaon
+柴溪
+校東小區
+格林生活廣場	kaq lin sen waq kuaon jian
+桂冠公寓
+桂家	kuei ko
+桂花園
+桃園小區
+桃山弄水庫
+桃渡
+桑園新村
+桓村
+梁家	lian ko
+梁弄鎮
+梁橋
+梁輝水庫
+梅墟路
+梅山大河	mei sae da ghou
+梅嶴
+梅嶺
+梅景路
+梅梁橋
+梅樹孔
+梅樹小區
+梅湖
+梅湖水庫
+梅湖路
+梅溪水庫
+梅盛苑	mei zhin iu
+梅蘭江
+梨園殿水庫
+森林水庫
+楊家弄	yan ko lon
+楊家河	yan ko ghou
+楊家漕	yan ko zau
+楊巷江
+楊村
+楊柳江
+楊梅嶺水庫
+楊湖村
+楓丹馨園
+楓園
+楓樹弄
+楓灣家園	fon uae cia yu
+楓灣河
+榆柳塘江
+榧樹潭水庫
+榮合公館
+榮安佳境
+榮安和院
+榮安大廈	yon EI da gho
+榮安大廈	yon EI da so
+榮安府
+榮欣苑
+樂和家園	loq ghou cia yu
+樂家	loq ko
+樂家	ngoq ko
+樊嶴水庫
+樊嶴港
+樓下陳
+樓家公鐵立交橋	leu ko kon thiq liq ciau jiau
+樓家支路	leu ko tsy lu
+樓家河	leu ko ghou
+樓盆河
+樟星
+樟村
+樟樹下
+樟漕路
+樟興路
+樟韻人家
+樹橋
+樹橋頭
+橋頭王
+機電路
+橡樹灣小區
+橫北洞橋河
+橫坑水庫
+橫坑溪
+橫坑裏水庫
+橫山
+橫山橋
+橫山水庫
+橫嶴水庫
+橫嶺水庫
+橫江
+橫河
+橫河埭路
+橫河街
+橫港
+櫟斜水庫
+欣欣家園	shin shin cia yu
+歐景苑
+正學公寓	cin yuq kon gniu
+正學路	cin yuq lu
+正明新二村
+正明新村
+步梯巖水庫
+武嶺水庫
+武嶺花園
+武羣橫路
+段塘中路
+毓秀路
+毛夾嶴
+毛家	mau ko
+毛家坪水庫	mau ko bin syu khu
+毛嶼港水庫
+民主路
+民惠東路
+民惠西路
+民豐街
+氣象北路
+氣象南路
+水倉頭
+水口水庫
+水家	syu ko
+水岸花園
+水岸藍庭
+水岸鑫城
+水岸香榭
+水景苑
+水晶大廈	syu cin da gho
+水晶大廈	syu cin da so
+水木清華
+水流橋水庫
+水茂華園
+水華家園	syu wo cia yu
+水雲浦
+水韻江南
+永佳苑
+永傅路
+永安路
+永新景園
+永泰花園
+永紅家園	ion ghon cia yu
+永茂路
+永豐家苑	ion fon cia iu
+永豐庫遺址
+汀香苑
+江余橋
+江北大河	kaon poq da ghou
+江南人家	kaon nEI zyun cia
+江南大河	kaon nEI da ghou
+江南景苑
+江南綠洲
+江南逸庭
+江城世家	kaon jin syu ko
+江家	kaon ko
+江廈銀座	kaon gho gnin zou
+江星公寓
+江東四明山河
+江東明皇大樓	kaon ton min waon da leu
+江東東明河
+江東海明
+江東海明河
+江東海運大樓	kaon ton he yun da leu
+江東西柳
+江東青城大樓	kaon ton chin jin da leu
+江東青山
+江沿
+江濱
+江都名苑
+汪家	uaon ko
+汪家橋河	uaon ko jiau ghou
+汪家河	uaon ko ghou
+汪楊
+汶溪
+汽貿大道	chi meu da dau
+沁春橋
+沁水麗庭
+沈家河	shin ko ghou
+沙堰
+沙村
+沙港
+沙港茗苑
+沙羅坊
+沙黃江
+河東
+河東岸
+河灘浦河
+河肚港
+河風麗庭
+油車江
+油車浦
+沿區路
+沿山大河	yi sae da ghou
+沿江東路
+沿江西路
+沿海新村
+沿西河
+泉溪
+泗洲頭溪
+泥牛塘江
+泰和馨苑
+泰安大廈	tha EI da gho
+泰安大廈	tha EI da so
+泰富廣場
+泰河康園
+泰清山水庫
+洋市中心河
+洋浦
+洞口廟水庫
+洞山
+洞橋新家園	don jiau shin cia yu
+洞橋明苑
+洞橋頭
+洪塘橋
+洪家新河	ghon ko shin ghou
+洪家河	ghon ko ghou
+洪山廟水庫
+洪盛橋	ghon zhin jiau
+洪祥橋
+洪都花園
+流水巖水庫
+浜子港
+浦發大廈	phu faq da gho
+浦發大廈	phu faq da so
+浮中
+海信花園
+海光大廈	he kuaon da gho
+海光大廈	he kuaon da so
+海城花園
+海城路
+海天二村
+海天園
+海富路
+海寧街
+海山名座
+海川橋
+海川路
+海悅花苑
+海星路
+海景東苑
+海景花園
+海景豪庭
+海洋家園	he yan cia yu
+海港花園
+海濱花園
+海濱路
+海琴園
+海田大廈	he di da gho
+海田大廈	he di da so
+海納名苑
+海衛家園	he wei cia yu
+海韻園
+海風莊園
+海鴻園
+涼亭弄
+淞浦
+淡水泓
+淡水湖水庫
+淡港
+淡溪
+淹浦
+淺水灣小區
+清川佳園
+清林閒庭
+清水河
+清水灣小區
+清沁家園	chin chin cia yu
+清河小區
+清泉山莊
+清泉新村
+清泉花園
+清泰公寓
+清涼寺水庫
+清灣橋
+清芷園
+港城嘉苑
+港都茗宅
+港隆時代廣場
+港頭村
+湖塘橫江
+湖塘江
+湖塘河
+湖山人家	wu sae zyun cia
+湖心河
+湖景花園
+湖泊河
+湖裏陳
+湗橋頭
+湯家	thaon ko
+源中路
+溪下
+溪下村
+溪口一村
+溪口三村
+溪口二村
+溪口水庫
+溪岸家苑	chi nge cia iu
+溪東
+溪沿溪
+溫州銀行大廈	uen cieu gnin ghaon da gho
+溫州銀行大廈	uen cieu gnin ghaon da so
+滄海名苑
+滄海實業大廈	tshaon he zyuq gniq da gho
+滄海實業大廈	tshaon he zyuq gniq da so
+滑塔巖水庫
+滴水墩水庫
+滸山江
+漁浦
+漁浦巷
+演武
+漕港
+漲浦景苑
+潘家	phun ko
+潘家墊	phun ko ti
+潛龍新村
+潤和園
+潮塘江
+潺子浦
+潺浦河
+濠河
+濱江家苑	pin kaon cia iu
+濱江小區
+濱江新村
+濱江花苑
+濱江路
+濱海五路
+濱海錦苑
+瀛洲小區
+灣頭中心河
+火炬大廈	hou jiu da gho
+火炬大廈	hou jiu da so
+烏山小區
+烏石弄水庫
+烏竹園水庫
+燕山水庫
+營口
+營門路
+爛蛇弄水庫
+牆裏小區
+牛山水庫
+牛背脊	ngeu pei ciq
+牛郎河
+牛頭嶴水庫
+牟山江
+牡丹公寓
+牡丹小區
+狀元嶴水庫	dzaon gniu au syu khu
+玉帶溪
+王兩漕
+王天路
+王夾嶴
+王夾嶴水庫
+王家埭	waon ko da
+王家弄	waon ko lon
+王家弄河	waon ko lon ghou
+王家新村	waon ko shin tshen
+王家村	waon ko tshen
+王家橋	waon ko jiau
+王家橫河	waon ko wan ghou
+王家漕	waon ko zau
+王家潭	waon ko dae
+王家麓水庫	waon ko loq syu khu
+王嶴
+王相公水庫
+王隘新村	waon ka shin tshen
+玫瑰花園
+玲瓏小區
+珍寶公寓
+珠山寺水庫
+珠峯路
+珠江路
+珠溪
+珠溪水庫
+瑞園
+瑞巖寺水庫
+瑞麗家園	zei li cia yu
+瑤琳小區
+璟月灣
+環城路
+環湖路
+環球中心
+環球經貿大廈	wae jieu cin meu da gho
+環球經貿大廈	wae jieu cin meu da so
+環鎮北路
+瓦窯橋
+瓶壺中苑
+瓶壺北苑
+瓶壺南苑
+甬城和庭
+甬新河
+甬旺路
+甬江南路
+甬江路
+甬興新村
+甬興西路
+田中央
+田屋
+田廠
+田洋
+田洋裏水庫
+田洋顧弄
+田畈路
+田胡路
+田顧河
+甲村
+申坎頭水庫	syun khae deu syu khu
+甸張港
+畈坑水庫
+畈嶴水庫
+畈裏塘橋
+界塘路
+畢家河	piq ko ghou
+畢家碶路	piq ko chi lu
+發展大廈	faq ci da gho
+發展大廈	faq ci da so
+發展大廈	faq tsoe da gho
+發展大廈	faq tsoe da so
+白楊路
+白水路
+白沙路
+白河一路
+白河小區
+白河路
+白溪
+白溪水庫
+白石村
+白石頭路
+白羅浦
+白衣巷
+白金灣小區
+白雲
+白雲公寓
+白雲北路
+白雲小區
+白雲山莊
+白雲街
+白鷺園
+百丈南路
+百丈崗水庫
+百丈江
+百丈花園
+百合家苑	paq ghaq cia iu
+百寧街
+百梁北路
+百梁橋
+百步階
+百興街
+百花路
+百郎橋
+皇冠公寓
+皇冠大廈	waon kun da gho
+皇冠花園
+皇山新村
+皎口水庫
+盈港大廈	yin kaon da gho
+盈港大廈	yin kaon da so
+益民街
+盛世又一村	zhin syu yeu iq tshen
+盛世嘉苑	zhin syu cia iu
+盛世天城	zhin syu thi jin
+盛世華城	zhin syu wo jin
+盛世酈都	zhin syu li tu
+盛家	dzan ko
+盛家河	dzan ko ghou
+盛霞路	dzan ya lu
+盤棋山路
+盧一
+直塘江
+直塘路
+直江
+直江路
+直河
+直落河
+直落泓
+相嶴水庫
+瞻虹路
+石井坑水庫
+石佛堂水庫
+石倉嶴
+石塘
+石塘下河
+石壁山水庫
+石子洞橋
+石板巷
+石柱嶴水庫
+石橋
+石橋頭路
+石道地
+石門水庫
+石門溪
+石馬塘
+石馬水庫
+石鼓門水庫
+碧水和城
+碧水家園	piq syu cia yu
+碧水蓮晴
+碶頭
+碾子頭
+磻溪
+社田
+祕圖山公寓
+祖廟水庫
+祝家匯	tsoq ko wei
+祝家橋	tsoq ko jiau
+祥和嘉苑
+福民
+福泉公寓
+福海花園
+秀東尚座
+秀水家苑	shieu syu cia iu
+秀水華庭
+科園北路
+科技路
+科苑路
+科貿中心
+秦山水庫
+秦渡路
+程家	jin ko
+穆家	moq ko
+穆家巷	moq ko ghaon
+穆家橋	moq ko jiau
+穆家河	moq ko ghou
+穴湖水庫
+空相寺
+窯頭
+立方寓
+章聖寺水庫
+童一
+童家	don ko
+童家嶴水庫	don ko au syu khu
+童家新村	don ko shin tshen
+童家河	don ko ghou
+童家漕	don ko zau
+童心路
+童方路
+童村
+童王小區
+童王河
+童西河
+竹園新村
+竹林溪
+竹泉路
+竹溪園
+竺家坑水庫	tsoq ko khan syu khu
+第七路
+筍行弄
+筱牆巷
+筲箕斗
+箭港
+箭路頭
+糧站路
+糧豐小區
+糧豐街
+糯稻頭水庫
+紅山水庫
+紅旗河
+紅星小區
+紅景佳苑
+紅梅新村
+紅楓路
+紅泉水庫
+紅牆外弄
+紡織東路
+紡織西路
+紡織路
+紫城路
+紫微嶴水庫
+紫汀花園
+紫溪
+紫薇新村
+紫金名座
+紫鵑新村
+細嶺
+經一路
+經七路
+經三路
+經五中路
+經五北路
+經五路
+經八路
+經六路
+經四路
+經堂
+綠園一路
+綠園三路
+綠園二路
+綠園大廈	loq yu da gho
+綠園大廈	loq yu da so
+綠島
+綠梅新村
+綠都路
+締景灣公寓
+緯一路
+緯三路
+緯六路
+緯四路
+縣前街
+縣後巷
+縣江
+繁佳公寓
+繁景小區
+繁景花園
+繁裕新村
+繞池路
+羅家河	lou ko ghou
+羅家漕	lou ko zau
+羅鳴南路
+羊山巷
+羊府路
+羊行街
+美墅
+美好家園	mei hau cia yu
+美邦商務樓
+羣誼路
+羣豐路
+義嶴坑水庫
+義門路
+翁家	on ko
+翁家浦	on ko phu
+翠屏路
+翠柏東巷
+翠柏河
+翠湖苑
+翠湖香堤
+翡翠灣
+翰香苑
+翻石渡
+耀華家園	yau wo cia yu
+耀馬橋
+老周港
+老夏家	lau gho cia
+老實巷
+老屋橋弄
+老街北路
+老街南路
+聚興路
+聚邦路
+聚金家園	zyu cin cia yu
+聞濤苑
+聯升一路
+聯合大廈	li ghaq da gho
+聯合大廈	li ghaq da so
+聯合路
+聯盛商業廣場	li zhin saon gniq kuaon jian
+聯興家園	li shin cia yu
+聯虹路
+聯通家園	li thon cia yu
+職田王
+肖家	shiau ko
+肖家巷	shiau ko ghaon
+胡公巖小區
+胡夾嶴水庫
+胡家	wu ko
+胡家新河	wu ko shin ghou
+胡陳港水庫
+脈雲路
+臨周江
+臨山海塗水庫
+臨江小區
+臨江西苑
+臨海路
+興化山水庫
+興和路
+興圃巷
+興園巷
+興安路
+興宋路
+興寧中路
+興寧南路
+興島南路
+興工三路
+興工二路
+興工路
+興巨路
+興市路
+興建花園
+興建路
+興慈一路
+興慈七路
+興慈三路
+興慈五路
+興慈八路
+興慈六路
+興慈四路
+興房路
+興東路
+興柴路
+興梅橋
+興業一路
+興業三路
+興業中路
+興業二路
+興業五路
+興業六路
+興業南路
+興業四路
+興業大廈	shin gniq da gho
+興業大廈	shin gniq da so
+興業大道	shin gniq da dau
+興業路
+興橋三路
+興橋五路
+興橋路
+興江一路
+興江三路
+興江二路
+興江五路
+興浦街
+興海路
+興港路
+興甬橋
+興甬路
+興盛路	shin zhin lu
+興莊路
+興裕新村
+興誠路
+興賢路
+興農大廈	shin non da gho
+興農大廈	shin non da so
+興鎮三路
+興電路
+舍輞水庫
+舒周
+舒家灘	syu ko thae
+舜北小區
+舜南新村
+舜江名苑
+舜雁商寓
+舟宿雲庭
+船底坑水庫
+芙蓉家園	vu yon cia yu
+芝山
+芝蘭堰路
+芝蘭新城
+花園新村
+花塘西路
+花峙新村	huo ji shin tshen
+花峙新苑	huo ji shin iu
+花池巷
+花牆門
+花莊跟
+花香維也納	huo shian vi ye naq
+苔嶴水庫
+苕溪
+英雄水庫
+英雄河
+茂生路	meu sen lu
+茅家小區	mau ko shiau chiu
+茅家小河	mau ko shiau ghou
+茅家河	mau ko ghou
+茅嶺墩水庫
+茅洋水庫
+茅草漕
+茅鑊
+茗山路
+茗西小區
+茗雅苑
+茜苑新村
+茶培水庫
+茶山水庫
+茶院溪
+荷池新村
+荷池路
+荷花家園	ghou huo cia yu
+荷花新村
+荷花池頭
+莊下
+莊前
+莊嶴水庫
+莊橋河
+莊洪路
+莊黃泓
+莘橋
+莘香雅苑
+莫家嶴水庫	moq ko au syu khu
+莫干山路	moq kI sae lu
+菜場北路
+菜市巷
+華中街
+華勝北路
+華勝南路
+華勝路
+華嘉橋
+華嚴巷
+華嚴街
+華城花園
+華太家園	wo tha cia yu
+華家江路	wo ko kaon lu
+華山新村
+華山水庫
+華山路
+華峙水庫	wo ji syu khu
+華峙河	wo ji ghou
+華峯公寓
+華巖寺水庫
+華庭公寓
+華新路
+華晨雅苑
+華業街
+華樓街
+華泰劍橋
+華泰街
+華海路
+華潤五彩城
+華繡巷
+華興路
+華裕路
+華豐星城
+華豐花園
+華豐莊園
+華豔新村
+華都公寓
+華錦巷
+華頂山路
+華鵬路
+菱池街
+萬和公寓
+萬國新村
+萬弓塘河
+萬景公寓
+萬江華庭
+萬科城
+萬竹溪
+萬興公寓
+萬象路
+萬豪中心
+萬達公寓
+葉家	yiq ko
+葉家小區	yiq ko shiau chiu
+葉家山下	yiq ko sae gho
+葉家浦	yiq ko phu
+葉涇浦
+葛家灣	kaq ko uae
+葛水
+董家	ton ko
+董家小區	ton ko shiau chiu
+董家橋	ton ko jiau
+蒲門水庫
+蓀湖水庫
+蓀湖水庫河
+蓀湖路
+蓬苑路
+蓬萊中街
+蓬萊小區
+蓬萊裏
+蓬萊路
+蓮塘路
+蓮橋第
+蓮橋街
+蔚斗新村
+蔡家	tsha ko
+蔡家巷	tsha ko ghaon
+蔡家河	tsha ko ghou
+蔡郎橋
+蔣家江	cian ko kaon
+蕙江路
+蕭皋西路
+薈博雅苑
+薛家新家園	shiq ko shin cia yu
+薛家河	shiq ko ghou
+薪橋北路
+薪橋南路
+藍天公寓
+藍西橋
+藍青路
+藍馨橋
+藕池新村
+藕纜橋路
+蘆江北路
+蘆江小區
+蘆花橋
+蘇家河	su ko ghou
+蘇家畈河	su ko pae ghou
+蘭亭路
+蘭墅公寓
+虎嶼
+虞家	gniu ko
+虞家路	gniu ko lu
+虞波北園
+虞波大廈	gniu pou da gho
+虞波江
+虞波江路
+虞波花園
+虞波西園
+虹南路
+虹橋小區
+虹橋路
+蛟門江路
+蛟門浦
+蜀山路
+蝶緣路
+蟠龍
+蟠龍北路
+蟠龍新村
+蟹山水庫
+蟹鉗口水庫
+衆安家園	tson EI cia yu
+衛山景苑
+衛星水庫
+袁家	yu ko
+袁家漕頭	yu ko zau deu
+裏仁橋路
+裏仁花園
+裏坑水庫
+裏夏新村
+裏嶴水庫
+裏廠
+裏杜湖水庫
+裏湖
+裏湖水庫
+裏溪巷
+裏漕
+裏灣水庫
+裏考坑水庫
+裏龍江
+裘家浦	jieu ko phu
+裘市新橋
+裘樹嶴
+西一路
+西丹路
+西倉溪
+西北街
+西唐
+西城春天
+西城楓景
+西城河
+西大河	shi da ghou
+西大街西路	shi dou ka shi lu
+西嶴水庫
+西後巷
+西房路
+西村
+西林水庫
+西江
+西江村
+西河
+西河巷
+西河潭水庫
+西洋港
+西港
+西湖花園
+西溪
+西溪水庫
+西澤水庫
+西灣路
+西王
+西王埭
+西王漕
+西直江北路
+西直路
+西社壇巷
+西街
+西谷湖水庫
+西郊路
+西長營弄	shi jian yin lon
+西門外路
+西門水庫
+西門遊園
+西雅
+親親家園	chin chin cia yu
+覺渡大河	ciuq du da ghou
+觀海衛路
+觀蜃路
+角洞嶴水庫
+解放東街	ka faon ton ka
+解放河	ka faon ghou
+解放路	ka faon lu
+許家	shiu ko
+許家橋	shiu ko jiau
+詠歸路
+誠信路
+諸灣二路
+譚家嶺東路	dae ko lin ton lu
+譚家嶺西路	dae ko lin shi lu
+讓裏
+豐南公寓
+豐山公寓
+豐成路
+豐柏街
+豐樂苑	fon loq iu
+豐樂路	fon loq lu
+豐河
+豐澤灣公寓
+豐澤華庭
+豐登路
+豐盛路	fon zhin lu
+豐茂苑
+豐華名都
+豐頤家園	fon yi cia yu
+豪都花園
+貝家邊	pei ko pi
+貢海路
+費家巷	vi ko ghaon
+費市家苑	vi zy cia iu
+費源路
+貼水橋
+貿城中路
+貿盛路	meu zhin lu
+賀丞
+賀丞新村
+賀丞路
+賀墅江
+賓果公寓
+賢江大道	yi kaon da dau
+賣柴嶴水庫
+賣面橋
+赤坎水庫
+走馬街廣場
+越溪梅園
+趙家浦	jiau ko phu
+路東泓
+路西泓
+躍進塘路
+躍進江
+躍龍山
+躍龍路
+車嶴港水庫
+車廄水庫
+車河路
+車站路
+車轎街
+軍江
+轎辰大廈	jiau zyun da gho
+轎辰大廈	jiau zyun da so
+農墾路
+農技弄
+農興路
+農行大廈	non ghaon da gho
+農行大廈	non ghaon da so
+迎春水岸
+迎春路
+迎霞北路
+迎鳳巷
+迪興大廈	diq shin da gho
+迪興大廈	diq shin da so
+通和路
+通泰路
+通達小區
+通達路
+進港西路
+遊涇江
+達蓬北路
+達蓬南路
+遠望道頭弄	yu vaon dau deu lon
+遮坑
+邁南橋
+邊家	pi ko
+邱家	chieu ko
+邵中路
+邵家	zhiau ko
+邵家弄	zhiau ko lon
+邵家河	zhiau ko ghou
+邵嶴水庫
+邵江岸
+郁家	iuq ko
+郁家墳頭	iuq ko ven deu
+郎官巷東弄
+郎家坪水庫	laon ko bin syu khu
+郟家埭	ciaq ko da
+郭塘河
+郭家	koq ko
+郭家港	koq ko kaon
+郭衙巷
+郵電公寓
+郵電巷
+郵電新村
+都市仁和中心
+都市森林
+都市麗灣
+都會經典公寓
+鄒家河	tseu ko ghou
+鄔家弄	u ko lon
+鄔隘河	u ka ghou
+鄞南佳苑
+鄭夾嶴水庫
+鄭家	jin ko
+鄭家浦	jin ko phu
+醫藥大樓	i yaq da leu
+金一路
+金二路
+金億文園
+金元路
+金光大廈	cin kuaon da gho
+金光大廈	cin kuaon da so
+金匯大廈	cin wei da gho
+金匯大廈	cin wei da so
+金南路
+金地小區
+金城小區
+金域華府
+金堂路
+金壺中苑
+金壺南苑
+金夾嶴水庫
+金家	cin ko
+金山
+金山一路
+金山南區
+金山名苑
+金山新村
+金山路
+金峨
+金峯路
+金川路
+金工路
+金帶巷
+金府華庭
+金庭茗苑
+金慈路
+金旦花園
+金昌路
+金星花園
+金東北苑
+金東南苑
+金桂名苑
+金桂路
+金棉小區
+金橋一路
+金橋小區
+金水路
+金江花園
+金海嘉園
+金海岸花園
+金海灣
+金海路
+金港大廈	cin kaon da gho
+金港大廈	cin kaon da so
+金港花苑
+金港華庭
+金湖世家	cin wu syu cia
+金源路
+金溪
+金溪路
+金灣華庭
+金田苑
+金盛路	cin dzan lu
+金石引河
+金穗公寓
+金聲路
+金興路
+金色廣場
+金色蘭庭
+金英路
+金菊路
+金華河
+金葛巷
+金虹路
+金誠路
+金谷中路
+金谷南路
+金豐紫園
+金豐陽光
+金輝東路
+金輝西路
+金輝路
+金輪北路
+金輪南路
+金通路
+金達路
+金邑水岸
+金邑華庭
+金都嘉園
+金都大廈	cin tu da gho
+金都大廈	cin tu da so
+金鐘小區
+金鐘路
+金隆家園	cin lon cia yu
+金雞路
+金騰路
+金鷹路
+金黃商廈	cin waon saon gho
+金黃商廈	cin waon saon so
+銀天大廈	gnin thi da gho
+銀天大廈	gnin thi da so
+銀山
+銀峯路
+銀星苑
+銀桂苑
+銀河大廈	gnin ghou da gho
+銀河大廈	gnin ghou da so
+銀河灣
+銀河路
+銀潤豪景商務廣場
+銀珠明園
+銀翔路
+銀菊路
+銀豐水庫
+銀都佳園
+銀都苑
+銀鳳曉月
+錢塘江中路
+錢塘江路
+錢湖人家	ji wu zyun cia
+錢湖悅府
+錢湖景苑
+錢湖麗園
+錢豐巷
+錢隆山莊
+錦寓路
+錦屏北路
+錦屏南路
+錦江花園
+錦港佳園
+錦港府
+錦湖華庭
+錦繡千丈
+錦繡名苑
+錦繡曙光
+錦繡福興
+錦繡花苑
+錦繡街
+錦苑東巷
+錦苑社區
+錦苑西巷
+錦誠明都
+錦霞路
+鍾公廟路
+鍾家弄	tson ko lon
+鍾家沙	tson ko so
+鎮南大道	tsyun nEI da dau
+鎮南橫路
+鎮南路
+鎮大路	tsyun da lu
+鎮安新村
+鎮安街
+鎮定橋北路
+鎮定橋南路
+鎮小路
+鎮東北路
+鎮東南路
+鎮東路
+鎮西北路
+鎮西新村
+鎮遠路
+鎮龍浦
+鐵錨街
+鑑湖路
+鑫瑞路
+鑫隆花園
+長城路	jian jin lu
+長塘河	jian daon ghou
+長壽南路	jian zhieu nEI lu
+長壽東路	jian zhieu ton lu
+長壽路	jian zhieu lu
+長安新村	jian EI shin tshen
+長島花園	jian tau huo yu
+長嶴弄水庫	jian au lon syu khu
+長嶺水庫	jian lin syu khu
+長嶺路	jian lin lu
+長慶路	jian chin lu
+長應河	jian in ghou
+長新新村	jian shin shin tshen
+長曙橋	jian zyu jiau
+長汀路	jian thin lu
+長池支路	jian dzy tsy lu
+長池支路	jian ji tsy lu
+長溪水庫	jian chi syu khu
+長漕	jian zau
+長漕河	jian zau ghou
+長潭	jian dae
+長生橋弄	jian sen jiau lon
+長生路	jian sen lu
+長畈嶺水庫	jian pae lin syu khu
+長興東路	jian shin ton lu
+長興路	jian shin lu
+長豐河	jian fon ghou
+長陽東路	jian yan ton lu
+長陽路	jian yan lu
+長駱路	jian loq lu
+開豐大廈	khe fon da gho
+開豐大廈	khe fon da so
+閩江路
+闊墩頭
+關外路
+關山路
+阮家	gniu ko
+降渚溪
+陳倪路
+陳婆嶴
+陳婆渡小區
+陳家墊	jin ko ti
+陳家山頭	jin ko sae deu
+陳家嶴	jin ko au
+陳家巷	jin ko ghaon
+陳家水庫	jin ko syu khu
+陳家河	jin ko ghou
+陳家路	jin ko lu
+陳家路江	jin ko lu kaon
+陳家路江水庫	jin ko lu kaon syu khu
+陳華浦新村
+陳託橋
+陳鑑橋
+陶家	dau ko
+陶家路江	dau ko lu kaon
+陶然軒
+陸中灣
+陸嘉家園	loq cia cia yu
+陸埠水庫
+陸家	loq ko
+陸家堰	loq ko i
+陸家橫河	loq ko wan ghou
+陸家江	loq ko kaon
+陸家河	loq ko ghou
+陽光公寓
+陽光南路
+陽光嘉園
+陽光天地小區
+陽光水岸
+陽光清晨花苑
+陽光花園
+陽光茗都
+陽明公寓
+陽明山莊
+陽明東路
+陽明花園
+陽明西路
+隆興家園	lon shin cia yu
+隆興路
+隆順花園
+隔嶺塘水庫
+隔溪張水庫
+隧道北路
+隱學山莊	in yuq sae tsaon
+雁村
+雁蕩山路
+雄鎮家園	yon tsyun cia yu
+雅仕公寓
+雅戈爾大道	ia kaq er da dau
+雅戈爾大道	ia kou er da dau
+雅林溪
+雅渡新村
+雅源北路
+雅源南路
+集發路
+集興路
+雍和苑
+雍景苑
+雙和家苑	saon ghou cia iu
+雙嶺水庫
+雙東路
+雙楊河
+雙橋河
+雙橋苑
+雙橋路
+雙河路
+雙閘門水庫
+雪嶴
+雪松路
+雪竇山路
+雲山浦
+雲彩路
+雲杉路
+雲臺山路
+雲西庵水庫
+雲輝路
+雲騰路
+雲鷺灣
+雷公巷
+霓虹路
+霞景水岸
+霞浦南路
+霞浦西路
+霞浦路
+霞西新村
+靈峯公寓
+靈峯山路
+靈峯水庫
+靈峯浦
+青少年宮北路
+青少年宮路
+青山港
+青年才郡
+青年路
+青林嘉園
+青林河
+青林渡路
+青林灣街
+青滕花園
+青灣水庫
+青石巷
+青草巷
+青草灣
+靖南大街	zhin nEI dou ka
+靖海路
+靜海路
+靶場路
+韓家	ghEI ko
+韓家路	ghEI ko lu
+響嶺路
+順德華庭
+順德路
+順達路
+順隆路
+頓嶴
+領豪鑫座
+顏公河
+顏家	yi ko
+風格城事
+風華路
+飛虹海苑
+飛鳳山
+飛龍家苑	fi lon cia iu
+食品街
+養所路
+餘姚萬達廣場
+首南東路
+首善路
+香山港
+香山路
+香格國際廣場
+香格大廈	shian kaq da gho
+香格大廈	shian kaq da so
+香榭家園	shian zhia cia yu
+香榭雅苑
+香榭麗舍
+香樟路
+香河灣
+香洲曉築
+香頌園
+香頌灣花園
+馨園路
+馬中灣
+馬園新村
+馬家河	mo ko ghou
+馬家路	mo ko lu
+馬崗水庫
+馬崗河
+馬嶴水庫
+馬渚中河
+馬潭南路
+馬王
+馮家	von ko
+馮家漕	von ko zau
+駐嶺水庫
+驚駕名庭
+體育場路
+高坎頭水庫
+高塘路
+高峯家園	kau fon cia yu
+高德公寓
+高望新苑
+高橋江
+高河塘路
+高灣水庫
+高牆門
+高王路
+高田王街
+高背浦	kau pei phu
+高豐家園	kau fon cia yu
+高車頭路
+高鳳新村
+高鳳路
+鬆嶴鎮
+鬥底洪港
+鬱金香中心
+魏家	wei ko
+魏家浦	wei ko phu
+魚豐弄
+鮑家	bau ko
+鮑家匯	bau ko wei
+鮑家耷小區	bau ko taq shiau chiu
+鳧溪
+鳳元路
+鳳凰新村
+鳳山新村
+鳳山路
+鳳嶺
+鳳怡新村
+鳳洋一路
+鳳洋三路
+鳳洋二路
+鳳洋新村
+鳳翔路
+鳳起路
+鳳鳴路
+鳴山小區
+鳴山路江
+鴛鴦北路
+鴻景灣小區
+鴻翔錦園
+鴻都大廈	ghon tu da gho
+鴻都大廈	ghon tu da so
+鴻順家園	ghon zyun cia yu
+鷹山路
+鹹塘街
+鹹祥河
+鹹祥鎮
+鹿窠
+麗中橋
+麗北橋
+麗園尚都
+麗園馨都
+麗安橋
+麗新橋
+麗景小區
+麗景英郡
+麗江新都
+麗莊西苑
+麗莊路
+麗都苑
+麟寓路
+麥德龍路
+麻車
+黃古林路
+黃壇水庫
+黃夾嶴水庫
+黃家橋	waon ko jiau
+黃家河	waon ko ghou
+黃家浦	waon ko phu
+黃家莊	waon ko tsaon
+黃尖浦
+黃山公寓
+黃山東路
+黃山綠苑
+黃山豪庭
+黃岩頭
+黃明水庫
+黃梔花巷
+黃沙水庫
+黃河路
+黃泥弄
+黃海路
+黃賢溪
+黃通嶴水庫
+黃金嶴水庫
+黃隘	waon ka
+黃龍坑水庫
+黃龍橋
+黃龍港河
+黃龍潭
+黎山後
+鼎新街
+鼎泰路
+鼓樓東路
+鼓樓西路
+鼓韻花苑
+龍城路
+龍山浦
+龍樾灣
+龍泉井路
+龍泉東路
+龍泉西路
+龍洋路
+龍津尚都
+龍潭山路
+龍潭水庫
+龍澤名園
+龍灣新村
+龍灣銀都
+龍燈牆巷
+龍王橋路
+龍瑞路
+龍翔路
+龍舌浦
+龍角山路
+龍角巖水庫
+龍鎮大道	lon tsyun da dau
+龍門路
+龍鼎商業廣場
+龔家	kon ko
+龔家弄	kon ko lon
+龔家河	kon ko ghou
+龔家潭路	kon ko dae lu
 
 # 寧波話【八股文】
 

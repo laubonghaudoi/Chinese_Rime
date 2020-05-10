@@ -4,7 +4,7 @@
 schema:
   schema_id: naamning_baakwaa
   name: "南寧白話"
-  version: "2019.12.26"
+  version: "2020.05.09"
   author:
     - LeiMaau <leimaau@qq.com>
   description: |
@@ -22,11 +22,12 @@ schema:
     - wubi86
 
 switches:
-#  - options: [zh_simp2, zh_simp, zh_trad, zh_hk, zh_tw, zh_jp]  # 多種字形轉換方案，根據需要自行開啓
+#  - options: [zh_simp2, zh_simp, noop, zh_trad, zh_hk, zh_tw, zh_jp]  # 多種字形轉換方案，根據需要自行開啓
 #    reset: 1
 #    states:
 #      - 字形 → 大陸〔繁體〕
 #      - 字形 → 大陸
+#      - 字形 → 傳統〔不轉換〕
 #      - 字形 → 傳統
 #      - 字形 → 香港
 #      - 字形 → 臺灣
@@ -144,17 +145,18 @@ translator:
     - xform/([yaeioumngptk])xx/$1⁶/
     - xform/([yaeioumngptk])x/$1³/
 #  preedit_format:   # 需要顯示IPA時preedit_format替換成這段
-#    - xform/(^|[ '])(m|ng)+$/$1$2̩$3/	唔m̩ 五ŋ̩
+#    - xform/(^|[ '])(m)+$/$1$2̩/    唔m̩
+#    - xform/(^|[ '])(ng)+$/$1$2̍/  五ŋ̍
 #    - xform/([ptk])xx/$1˨/	熱jiːt̚˨
 #    - xform/([ptk])x/$1˧/	咽jiːt̚˧
 #    - xform/([ptk])q/$1˥/	一jɐt̚
 #    - xform/qq/˨˩/
 #    - xform/(^|[ '])q/$1ʔ/
-#    - xform/q/˥˥/
+#    - xform/q/˥/
 #    - xform/vv/˨˦/
 #    - xform/v/˧˥/
-#    - xform/xx/˨˨/
-#    - xform/x/˧˧/
+#    - xform/xx/˨/
+#    - xform/x/˧/
 #    - xform/sl/ɬ/
 #    - xform/([PTK])$/$1]$2/	入jɐp̚
 #    - xform/(^|[ '])([jy])u(ng)/$1jʊŋ/	用jʊŋ
@@ -301,7 +303,7 @@ recognizer:
   import_preset: default
   patterns:
     punct: "^/([0-9]0?|[a-z]+)$"
-    luna_pinyin: "`[a-z]*'?$"
+    luna_pinyin: "`[a-z']*'?$"
     stroke: "x[hspnz]*'?$"
     cangjie5: "v[a-z]*'?$"
     wubi86: "r[a-z]*'?$"
