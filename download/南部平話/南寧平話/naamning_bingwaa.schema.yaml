@@ -90,6 +90,7 @@ speller:
     - derive/^ngia(ng|k)/njia(ng|k)/        # 模糊 ngia(ng|k) -> njia(ng|k)
     - derive/^(g|k)wo/$1o/        # 模糊 (gk)wo -> (gk)o
     - derive/^(g|k)wik/$1ik/      # 模糊 (gk)wik -> (gk)ik
+    - derive/^kwaak/kaak/         # 模糊 kwaak -> kaak
     - derive/i$/ei/          	  # 模糊 i -> ei
     - derive/u$/ou/          	  # 模糊 u -> ou
     - derive/dik$/d/              # 快出「的」字

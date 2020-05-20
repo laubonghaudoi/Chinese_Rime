@@ -177,6 +177,7 @@ translator:
     - 'xform i[<,] î'
     - 'xform i[>\\] ì'
     - 'xform iq ǐ'
+    - xform/([jqxy])v/$1u/ # jqxy 后的 ü 变 u 需要在给 u 标声调之前
     - 'xform u[-;] ū'
     - 'xform u/ ú'
     - 'xform u[<,] û'
@@ -190,7 +191,6 @@ translator:
     - 'xform v ü'
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
-    - xform/([jqxy])v/$1u/
   comment_format:
     #宜賓音系
     - xform/([dtlzcs])un/$1en/  #啓用此行表示dtlzcs+un都併入en

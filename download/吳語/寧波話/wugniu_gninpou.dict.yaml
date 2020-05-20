@@ -21,12 +21,12 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.05.13"
+version: "2020.05.20"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
-- wugniu_gninpou.phrase
-- wugniu_gninpou.essay
+  - wugniu_gninpou.phrase
+  - wugniu_gninpou.essay
 ...
 
 支	tsy
@@ -3077,6 +3077,7 @@ import_tables:
 堦	ka
 街	ka
 咖	ka
+鮫	ka	0%
 解	ka
 介	ka
 界	ka
@@ -12804,6 +12805,7 @@ import_tables:
 虿	tsha
 晒	sa
 阶	ka
+鲛	ka	0%
 𨱕	ga
 还	gha
 锕	a
@@ -25148,7 +25150,7 @@ import_tables:
 京戲	cin shi
 砧板	cin pae
 針頭	cin deu
-針鬆	cin son	55
+針松	cin son	55
 針腳	cin ciaq
 經用	cin yon	55
 蒸籠	cin lon
