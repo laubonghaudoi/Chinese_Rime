@@ -6,8 +6,8 @@
 # Author - LeiMaau <leimaau@qq.com>
 #
 # 【符號說明】
-# 心母字（清齒齦邊擦音）sl[ɬ]，效咸山攝二等字 -eu[-ɛu]、-em[-ɛm]/-ep[-ɛp]、-en[-ɛn]/-et[-ɛt]
-# 老派口音的師韻字（止開三精莊組字）zy[tsɿ]、cy[tsʰɿ]、sy[sɿ]，老派口音的津韻字（臻合三舌齒音字、部份臻開三字）-yun[-yn]/-yut[-yt]
+# 心母字讀 sl[ɬ]（清齒齦邊擦音），效咸山攝二等字讀 -eu[-ɛu]、-em[-ɛm]/-ep[-ɛp]、-en[-ɛn]/-et[-ɛt]
+# 老派的師韻（止開三精莊組）字讀 zy[tsɿ]、cy[tsʰɿ]、sy[sɿ]，津韻（臻合三舌齒音、部份臻開三）字讀 -yun[-yn]/-yut[-yt]
 # 恢復見組果宕曾攝一等合口介音 (g|k)o(k|ng)->(gw|kw)o(k|ng)，恢復見組梗攝入聲合口介音 (g|k)ik->(gw|kw)ik，梗攝舒聲開合不混 (gw|kw)ing
 # (白)白讀；(文)文讀；(老派)老派音；(習)習讀；(常)常讀；(又)又讀；(罕)罕讀；(訓)訓讀；(舊)舊讀；(語)口語音；(書)書面音；(外)外來語音譯；(名)名詞；(動)動詞；(量)量詞
 #
@@ -27,7 +27,7 @@
 
 ---
 name: naamning_baakwaa
-version: "2020.05.16"
+version: "2020.05.27"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -293,7 +293,7 @@ import_tables:
 鈈	bat1	
 𢳂	bat1「舀」	
 弼	bat6	
-婄	(語)bau6「瘻婄，不整潔，臃腫」	10%
+䏽	bau6「瘻～，不整潔，臃腫」	
 啤	be1	
 屄	(白)be1「女陰」	
 㞎	be2「㞎be4～，屎」	
@@ -962,6 +962,7 @@ import_tables:
 豕	ci2	
 鉹	ci2	
 齒	ci2	
+伺	ci3「伺候，伺機」	
 佽	ci3	
 儩	ci3	
 刺	ci3「魚刺」	
@@ -973,12 +974,14 @@ import_tables:
 朿	ci3	
 次	ci3	
 熾	ci3	
+笥	ci3	
 絘	ci3	
 翅	ci3	
 翨	ci3	
 胵	(語)ci3「芙胵，家禽的內臟」	10%
 莿	ci3	
 蛓	ci3	
+覗	ci3	
 賜	ci3	
 跮	ci3	
 饎	ci3	
@@ -1023,11 +1026,8 @@ import_tables:
 汜	ci5	
 洍	ci5	
 鈶	ci5「耒端；矛屬」	
-伺	ci6「伺候，伺機」	
 嗣	ci6	
-寺	ci6	
-笥	ci6	
-覗	ci6	
+寺	(又)ci6	10%
 飤	ci6「同飼字」	
 飼	ci6	
 㡿	cik1	
@@ -1409,6 +1409,7 @@ import_tables:
 蠀	(老派)cy1	10%
 佌	(老派)cy2	10%
 此	(老派)cy2	10%
+伺	(老派)cy3	10%
 佽	(老派)cy3	10%
 儩	(老派)cy3	10%
 刺	(老派)cy3	10%
@@ -1417,9 +1418,11 @@ import_tables:
 庛	(老派)cy3	10%
 朿	(老派)cy3	10%
 次	(老派)cy3	10%
+笥	(老派)cy3	10%
 絘	(老派)cy3	10%
 莿	(老派)cy3	10%
 蛓	(老派)cy3	10%
+覗	(老派)cy3	10%
 賜	(老派)cy3	10%
 慈	(老派)cy4	10%
 柌	(老派)cy4	10%
@@ -1443,11 +1446,8 @@ import_tables:
 汜	(老派)cy5	10%
 洍	(老派)cy5	10%
 鈶	(老派)cy5	10%
-伺	(老派)cy6	10%
 嗣	(老派)cy6	10%
 寺	(又)cy6	10%
-笥	(老派)cy6	10%
-覗	(老派)cy6	10%
 飤	(老派)cy6	10%
 飼	(老派)cy6	10%
 芻	cyu1	
@@ -2198,7 +2198,7 @@ import_tables:
 憤	fan5	
 份	fan6	
 分	fan6「本分」	
-奮	(又)fan6	10%
+奮	(常)fan6	
 忿	(又)fan6「忿氣，服氣」	10%
 揈	fang3「甩」	
 㧾	fat1「舀」	
@@ -4331,6 +4331,7 @@ import_tables:
 祐	jau6	
 釉	jau6	
 鼬	jau6	
+倻	je4	
 揶	je4	
 椰	je4	
 爺	je4	
@@ -4694,6 +4695,7 @@ import_tables:
 鰩	jiu4	
 舀	jiu5	
 曜	jiu6	
+燿	jiu6	
 耀	jiu6	
 鷂	jiu6	
 喲	jo1	
@@ -5823,8 +5825,8 @@ import_tables:
 摟	lau1「邀請；挑逗；搜刮；披；（蒼蠅等）趴」	
 蔞	(白)lau1「假蔞」	5%
 褸	lau1「大衣；披」	
-騮	(語)lau1「獁騮(獁𤠑)lau1「獁騮(獁𤠑)，猴子」	5%
-𤠑	(語)lau1「獁𤠑，猴子」	5%
+騮	(語)lau1「獁騮/𧳽，猴子」	5%
+𧳽	(語)lau1「獁𧳽，猴子」	5%
 摟	lau2「摟抱」	
 僂	lau4「佝僂」	
 劉	lau4	
@@ -5849,9 +5851,9 @@ import_tables:
 鏐	lau4	
 飀	lau4	
 餾	lau4	
-騮	lau4「黑鬃黑尾巴的紅馬」	
+騮	lau4「驊騮」	
 髏	(書)lau4	10%
-𤠑	lau4	
+𧳽	lau4	
 柳	lau5	
 珋	lau5	
 簍	lau5	
@@ -6231,7 +6233,7 @@ import_tables:
 髏	(習)lu1	
 黸	lu1「鍋底灰」	
 佬	lu2	
-嚕	(又)lu3	10%
+嚕	(又)lu3「那」	10%
 勞	lu4	
 盧	lu4	
 嘮	lu4	
@@ -6465,7 +6467,7 @@ import_tables:
 媽	maa1	
 嬤	maa1	
 孖	(訓)maa1「孿生，連帶」	
-獁	(語)maa1「獁騮(獁𤠑)maa1「獁騮(獁𤠑)，猴子」	5%
+獁	(語)maa1「獁𧳽，猴子」	5%
 螞	maa1「螞螂，蜻蜓」	5%
 𢳀	maa1「觸碰；攀附」	
 嘛	maa3「助詞」	
@@ -8260,6 +8262,7 @@ import_tables:
 侍	si6	
 俟	si6「俟機」	
 士	si6	
+峙	si6	
 徥	si6	
 忯	si6「恃也」	
 戺	si6	
@@ -10053,7 +10056,6 @@ import_tables:
 蹔	zaam6	
 㜺	zaan2「～鬼，有趣」	
 儹	(又)zaan2	10%
-攢	(又)zaan2	10%
 棧	(白)zaan2「客棧」	
 琖	zaan2	
 盞	zaan2	
@@ -10513,8 +10515,7 @@ import_tables:
 傂	zi6	
 兕	zi6	
 字	zi6	
-寺	(又)zi6	10%
-峙	zi6	
+寺	zi6	
 巳	zi6	
 庤	zi6	
 廌	zi6	
@@ -10938,6 +10939,7 @@ import_tables:
 騣	zung1「同鬃字」	
 鬃	zung1	
 鬷	zung1	
+傯	zung2	
 冢	zung2	
 塚	zung2	
 總	zung2	
@@ -11296,6 +11298,837 @@ A站	ei zaam6	100
 
 # 多音字標註
 
+等下	dang2 haa5
+一下	jat1 haa5
+二下	ji6 haa5
+三下	slaam1 haa5
+四下	sli3 haa5
+五下	ng5 haa5
+六下	luk6 haa5
+七下	cat1 haa5
+八下	bet3 haa5
+八下	baat3 haa5
+九下	gau2 haa5
+十下	sap6 haa5
+百下	baak3 haa5
+千下	cin1 haa5
+萬下	maan6 haa5
+上山	soeng5 saan1
+上街	soeng5 gaai1
+上書	soeng5 syu1
+上課	soeng5 fo3
+上課	soeng5 ko3
+上堂	soeng5 tong4
+上聲	soeng5 seng1
+上去	soeng5 hyu3
+上班	soeng5 baan1
+上年紀	soeng5 nin4 gi2
+爬上	paa4 soeng5
+考上	haau2 soeng5
+送上	slung3 soeng5
+迎頭趕上	jing4 tau4 gon2 soeng5
+上午	soeng6 ng5
+上司	soeng6 si1
+上司	soeng6 sy1
+上旬	soeng6 can4
+上旬	soeng6 slan4
+上旬	soeng6 slyun4
+上蒼	soeng6 cong1
+上聯	soeng6 lin4
+上聯	soeng6 lyun4
+上層	soeng6 cang4
+上款	soeng6 fun2
+上下	soeng6 haa6
+上行下效	soeng6 hang4 haa6 haau6
+上層	soeng6 cang4
+後來居上	hau6 loi4 gyu1 soeng6
+中土	zung1 tu2
+中心	zung1 slam1
+中天	zung1 tin1
+中介	zung1 gaai3
+中允	zung1 wan5
+中古	zung1 gu2
+中央	zung1 joeng1
+中州	zung1 zau1
+中旬	zung1 can4
+中旬	zung1 slan4
+中旬	zung1 slyun4
+中波	zung1 bo1
+中性	zung1 sling3
+中和	zung1 wo4
+中表	zung1 biu2
+中衰	zung1 sui1
+中秋	zung1 cau1
+中流	zung1 lau4
+中原	zung1 jyun4
+中堅	zung1 gin1
+中堂	zung1 tong4
+中游	zung1 jau4
+中華	zung1 waa4
+中葉	zung1 jip6
+中間	zung1 gen1
+中間	zung1 gaan1
+中道	zung1 du6
+中輟	zung1 zyut3
+中樞	zung1 syu1
+中鋒	zung1 fung1
+中層	zung1 cang4
+中興	zung1 hing1
+中斷	zung1 dyun6
+中斷	zung1 tyun5
+適中	sik1 zung1
+當中	dong1 zoeng1
+中世紀	zung1 sai3 gi2
+中流砥柱	zung1 lau4 dai2 cyu5
+中流擊楫	zung1 lau4 gik1 zip3
+中飽私囊	zung1 baau2 sy1 nong4
+中飽私囊	zung1 baau2 si1 nong4
+中毒	zung3 duk6
+中計	zung3 gai3
+正中下懷	zing3 zung3 haa6 waai4
+中獎	zung3 zoeng2
+射中	se6 zung3
+中狀元	zung3 zong6 jyun4
+中邪	zung3 ce4
+中肯	zung3 hang2
+中風	zung3 fung1
+中理	zung3 li5
+中彩	zung3 coi2
+中暑	zung3 syu2
+中傷	zung3 soeng1
+中標	zung3 biu1
+中選	zung3 slyun2
+中的	zung3 dik1
+一矢中的	jat1 ci2 zung3 dik1
+千乘	cin1 sing6
+千乘之國	cin1 sing6 zi1 gwok3
+上乘	soeng6 sing6
+下乘	haa6 sing6
+史乘	si2 sing6
+史乘	sai2 sing6
+大乘	daai6 sing6
+小乘	sliu2 sing6
+萬乘	maan6 sing6
+萬乘之國	maan6 sing6 zi1 gwok3
+乾坤	kin4 kwan1
+乾隆	kin4 lung4
+乾顧	kin4 gu3
+乾斷	kin4 dyun3
+乾道	kin4 du6
+乾元	kin4 jyun4
+乾造	kin4 zu6
+乾宅	kin4 zaak6
+乾曜	kin4 jiu6
+乾溼	gon1 sap1
+乾濕	gon1 sap1
+乾果	gon1 gwo2
+乾杯	gon1 bui1
+乾枯	gon1 ku1
+乾枯	gon1 fu1
+乾笑	gon1 sliu3
+乾脆	gon1 cui3
+乾涸	gon1 kok3
+乾淨	gon1 zeng6
+乾爽	gon1 song2
+乾燥	gon1 cu3
+外強中乾	ngoi6 koeng4 zung1 gon1
+予智	jyu4 zi3
+予聖	jyu4 sing3
+予一人	jyu4 jat1 jan4
+予小子	jyu4 sliu2 zy2
+予小子	jyu4 sliu2 zi2
+予取予求	jyu4 cyu2 jyu4 kau4
+于飛	jyu4 fi1
+于歸	jyu4 gwai1
+于闐	jyu4 tin4
+亟待	gik1 doi6
+亟亟	gik1 gik1
+需款甚亟	slyu1 fun2 sam6 gik1
+亟請	ki3 cing2
+亟經	ki3 ging1
+亟來問訊	ki3 loi4 man6 slan3
+亟來問訊	ki3 loi4 man6 slyun3
+什麼	sam6 mo1
+什錦	zaap6 gam2
+什物	zaap6 mat6
+仆頓	fu6 dan6
+前仆後繼	cin4 fu6 hau6 gai3
+仆倒	puk1 du2
+仆低	puk1 dai1
+仆街	puk1 gaai1
+仆住	puk1 zyu6
+仆開	puk1 hoi1
+仆喺	puk1 hai2
+仆轉	puk1 zyun3
+姓仇	sling3 kau4
+仔肩	zy1 gin1
+仔肩	zi1 gin1
+仔雞	zy2 gai1
+仔雞	zi2 gai1
+仔豬	zy2 zyu1
+仔豬	zi2 zyu1
+仔細	zy2 slai3
+仔細	zi2 slai3
+仔密	zy2 mat6
+仔密	zi2 mat6
+仔孫	zy2 slyun1
+仔孫	zi2 slyun1
+男仔	naam4 zai2
+女仔	nyu5 zai2
+仔女	zai2 nyu5
+豬仔	zyu1 zai2
+雞仔	gai1 zai2 
+靚仔	leng3 zai2
+肥仔	fi4 zai2
+打工仔	daa2 gung1 zai2
+打仗	daa2 zoeng3
+勝仗	sing3 zoeng3
+敗仗	baai6 zoeng3
+雪仗	slyut3 zoeng3
+陣仗	zan6 zoeng3
+幹仗	gon3 zoeng3
+對仗	dui3 zoeng3
+儀仗	ji4 zoeng6
+倚仗	ji2 zoeng6
+仗恃	zoeng6 ci5
+依仗	ji1 zoeng6
+仗義疏財	zoeng6 ji6 so1 coi4
+仗劍而立	zoeng6 gim3 ji4 lap6
+仗義執言	zoeng6 ji6 zap1 jin4
+仗勢欺人	zoeng6 sai3 hi1 jan4
+器仗	hi3 zoeng6
+姓任	sling3 jam4
+任劍輝	jam4 gim3 wai1
+任劍輝	jam4 gim3 fai1
+任賢齊	jam4 jin4 cai4
+仿佛	fong2 fat1
+伽藍	ke4 laam4
+伽南香	ke4 naam4 hoeng1
+伽利略	gaa1 li6 loek6
+伽倻琴	gaa1 je4 kam4
+伽馬	gaa1 maa5
+伽馬射線	gaa1 maa5 se6 slin3
+佃作	tin4 zok3
+使者	si3 ze2
+使命	si3 ming6
+使館	si3 gun2
+使節	si3 zit3
+大使	daai6 si3
+公使	gung1 si3
+出使	cyut1 si3
+節度使	zit3 du6 si3
+布政使	bu3 zing3 si3
+按察使	on3 caat3 si3
+不斬來使	bat1 zaam2 loi4 si3
+使用	sai2 jung6
+供給	gung1 kap1
+供應	gung1 jing3
+供不起	gung1 bat1 hi2
+供銷	gung1 sliu1
+供電	gung1 din6
+供水	gung1 sui2
+供暖	gung1 nyun5
+供油	gung1 jau4
+供不應求	gung1 bat1 jing3 kau4
+供大於求	gung1 daai6 jyu1 kau4
+供求	gung1 kau4
+僅供參考	gan2 gung1 caam1 haau2
+供房	gung1 fong4
+供樓	gung1 lau4
+供屋	gung1 uk1
+供人	gung1 jan4
+供款	gung1 fun2
+口供	hau2 gung1
+供詞	gung1 cy4
+供詞	gung1 ci4
+供狀	gung1 zong6
+供認	gung1 jing6
+供稱	gung1 cing1
+供出	gung1 cyut1
+招供	ziu1 gung1
+供品	gung3 pan2
+供養	gung3 joeng5
+供奉	gung3 fung6
+供神	gung3 san4
+上供	soeng5 gung3
+供佛	gung3 fat6
+供祖宗	gung3 zu2 zung1
+供桌	gung3 zoek3
+供臺	gung3 toi4
+供檯	gung3 toi4
+供事	gung3 sy6
+供事	gung3 si6
+供職	gung3 zik1
+順便	syun6 bin2
+順便	san6 bin2
+隨便	cui4 bin2
+便利	bin6 li6
+方便	fong1 bin6
+便條	bin6 tiu4
+便捷	bin6 zit6
+便飯	bin6 faan6
+便當	bin6 dong3
+便衣	bin6 ji1
+便服	bin6 fuk6
+便溺	bin6 nik6
+便秘	bin6 bi3
+隨便	cui4 bin6
+簡便	gaan2 bin6
+不便	bat1 bin6
+便於	bin6 jyu1
+便車	bin6 ce1
+小便	sliu2 bin6
+便是	bin6 si6
+即便	zik1 bin6
+便宴	bin6 jin3
+便道	bin6 du6
+便宜	pin4 ni4
+便給	pin4 kap1
+便旋	pin4 slyun4
+便佞	pin4 ning6
+便便	pin4 pin4
+大腹便便	daai6 fuk1 pin4 pin4
+口舌便給	hau2 sit6 pin4 kap1
+万俟	mak6 ki4
+倥侗	hung1 tung4
+倥傯	hung2 zung2
+侗族	dung6 zuk6
+倒塌	du2 taap3
+倒水	du2 sui2
+倒茶	du2 caa4
+倒垃圾	du2 laap6 slaap3
+打倒	daa2 du2
+倒戈	du2 gwo1
+倒閉	du2 bai3
+倒臺	du2 toi4
+倒胃口	du2 wai6 hau2
+跌倒	dit3 du2
+顛倒	din1 du2
+倒手	du2 sau2
+倒班	du2 baan1
+倒替	du2 tai3
+倒出	du2 cyut1
+倒坍	du2 taan1
+倒嗓子	du2 slong1 zy2
+倒嗓子	du2 slong1 zi2
+倒楣	du2 mi4
+倒霉	du2 mui4
+倒掛	du3 gwaa3
+倒掟	du3 deng3
+倒敘	du3 zyu6
+倒敍	du3 zyu6
+倒退	du3 tui3
+倒貼	du3 tip3
+倒置	du3 zi3
+倒懸	du3 jyun4
+倒吊	du3 diu3
+倒褪	du3 tan3
+倒影	du3 jing2
+倒映	du3 jing2
+倒數	du3 su2
+倒車	du3 ce1
+反倒	faan2 du3
+倒行逆施	du3 hang4 nik6 si1
+倒果為因	du3 gwo2 wai4 jan1
+倒持泰阿	du3 ci4 taai3 o1
+倒打一耙	du3 daa2 jat1 paa4
+牛扒	ngau4 paa2
+一打	jat1 daa1
+爲虎作倀	wai6 fu2 zok3 coeng1
+為虎作倀	wai6 fu2 zok3 coeng1
+倀倀	coeng1 coeng1
+倀鬼	coeng1 gwai2
+倡優	coeng1 jau1
+提倡	tai4 coeng1
+倡議	coeng1 ji5
+倡導	coeng1 du6
+首倡	sau2 coeng1
+假充	gaa2 cung1
+假扮	gaa2 baan6
+假冒	gaa2 mu6
+假冒	gaa2 maau6
+假托	gaa2 tok3
+假託	gaa2 tok3
+假借	gaa2 ze3
+假設	gaa2 cit3
+假象	gaa2 zoeng6
+假想敵	gaa2 sloeng2 dik6
+假面具	gaa2 min6 gyu6
+假惺惺	gaa2 sling1 sling1
+假道學	gaa2 du6 hok6
+假手於人	gaa2 sau2 jyu1 jan4
+假公濟私	gaa2 gung1 zai3 sy1
+假公濟私	gaa2 gung1 zai3 si1
+真假	zan1 gaa2
+假如	gaa2 jyu4
+假使	gaa2 si2
+假使	gaa2 sai2
+假貨	gaa2 fo3
+假想	gaa2 sloeng2
+假定	gaa2 ding6
+假說	gaa2 syut3
+狐假虎威	wu4 gaa2 fu2 wai1
+假名	gaa2 ming4
+假若	gaa2 joek6
+假山	gaa2 saan1
+假釋	gaa2 slik1
+冒頓	mak6 duk6
+假期	kaa3 ki4
+放假	fong3 kaa3
+渡假	du6 kaa3
+寒假	hon4 kaa3
+暑假	syu2 kaa3
+休假	jau1 kaa3
+請假	ceng2 kaa3
+度假	du6 kaa3
+假日	kaa3 jat6
+依傍	ji1 bong6
+依山傍水	ji1 saan1 bong6 sui2
+傍人籬壁	bong6 jan4 li4 bik1
+傍人門戶	bong6 jan4 mun4 wu6
+傍大款	bong6 daai6 fun2
+傍晚	pong4 maan5
+傍晌	pong4 hoeng2
+傍午	pong4 ng5
+傀儡	kwai2 lui5
+傀儡皇帝	kwai2 lui5 wong4 dai3
+傀儡政權	kwai2 lui5 zing3 kyun4
+傀奇	gwai1 ki4
+傀偉	gwai1 wai5
+傀然	gwai1 jin4
+傀異	gwai1 ji6
+傀然獨立	gwai1 jin4 duk6 lap6
+傳記	zyun6 gi3
+小傳	sliu2 zyun6
+水滸傳	sui2 fu2 zyun6
+傳詰	zyun6 kit3
+傳略	zyun6 loek6
+自傳	zy6 zyun6
+自傳	zi6 zyun6
+經傳	ging1 zyun6
+詩經毛傳	si1 ging1 mu4 zyun6
+外傳	ngoi6 zyun6
+名不見經傳	ming4 bat1 gin3 ging1 zyun6
+射雕英雄傳	se6 diu1 jing1 hung4 zyun6
+傳奇	zyun6 ki4
+雕刻	diu1 hak1
+雕刻	tiu1 hak1
+傳奇	cyun4 ki4
+傳達	cyun4 daat6
+流傳	lau4 cyun4
+傳人	cyun4 jan4
+傳世	cyun4 sai3
+傳言	cyun4 jin4
+傳染	cyun4 jim5
+傳神	cyun4 san4
+傳教	cyun4 gaau3
+傳授	cyun4 sau6
+傳媒	cyun4 mui4
+傳統	cyun4 tung2
+傳說	cyun4 syut3
+傳誦	cyun4 zung6
+傳頌	cyun4 zung6
+傳播	cyun4 bo3
+傳宗接代	cyun4 zung1 zip3 doi6
+宣傳	slyun1 cyun4
+言傳身教	jin4 cyun4 san1 gaau3
+名不虛傳	ming4 bat1 hyu1 cyun4
+傳情	cyun4 cing4
+傳下來	cyun4 haa6 loi4
+相傳	sloeng1 cyun4
+傳呼	cyun4 fu1
+傳訊	cyun4 slyun3
+傳訊	cyun4 slan3
+傳承	cyun4 sing4
+傳熱	cyun4 jit6
+傳電	cyun4 din6
+傳導	cyun4 du6
+傳聞	cyun4 man4
+傳票	cyun4 piu3
+傳送	cyun4 slung3
+傳真	cyun4 zan1
+傳遞	cyun4 dai6
+傳銷	cyun4 sliu1
+傳令	cyun4 ling6
+傳信	cyun4 slyun3
+傳信	cyun4 slan3
+傳來	cyun4 loi4
+傳唱	cyun4 coeng3
+傳回	cyun4 wui4
+傳家	cyun4 gaa1
+傳聲	cyun4 seng1
+傳話	cyun4 waa6
+傳動	cyun4 dung6
+傳出	cyun4 cyut1
+不教胡馬度陰山	bat1 gaau1 wu4 maa5 du6 jam1 saan1
+敢教日月換新天	gaam2 gaau1 jat6 jyut6 wun6 slan1 tin1
+教書	gaau3 syu1
+教書	geu3 syu1
+僮僕	tung4 puk6
+書僮	syu1 tung4
+家僮	gaa1 tung4
+三尺僮	slaam1 cek3 tung4
+僮族	zong6 zuk6
+斤兩	gan1 loeng2
+一兩	jat1 loeng2
+二兩	ji6 loeng2
+三兩	slaam1 loeng2
+四兩	sli3 loeng2
+五兩	ng5 loeng2
+六兩	luk6 loeng2
+七兩	cat1 loeng2
+八兩	baat3 loeng2
+八兩	bet3 loeng2
+九兩	gau2 loeng2
+十兩	sap6 loeng2
+百兩	baak3 loeng2
+千兩	cin1 loeng2
+萬兩	maan6 loeng2
+半兩	bun3 loeng2
+公兩	gung1 loeng2
+市兩	si5 loeng2
+英兩	jing1 loeng2
+銀兩	ngan4 loeng2
+冠軍	gun3 gwan1
+冠禮	gun3 lai5
+弱冠	joek6 gun3
+未冠	mi6 gun3
+勇冠三軍	jung5 gun3 slaam1 gwan1
+冠山戴粒	gun3 saan1 daai3 nap1
+奪冠	dyut6 gun3
+冠以	gun3 ji5
+冠上	gun3 soeng6
+冠絕	gun3 zyut6
+冠名	gun3 meng4
+冠詞	gun3 cy4
+冠詞	gun3 ci4
+衣冠	ji1 gun1
+冠冕	gun1 min5
+冠蓋	gun1 goi3
+冠心病	gun1 slam1 beng6
+王冠	wong4 gun1
+花冠	faa1 gun1
+雞冠	gai1 gun1
+樹冠	syu6 gun1
+冠脈	gun1 mak6
+冠縣	gun1 jyun6
+冠狀	gun1 zong6
+冠狀病毒	gun1 zong6 beng6 duk6
+一切	jat1 cai3
+本分	bun2 fan6
+分外	fan6 ngoi6
+分量	fan6 loeng6
+名分	ming4 fan6
+成分	sing4 fan6
+身分	san1 fan6
+過分	gwo3 fan6
+部分	bu6 fan6
+水分	sui2 fan6
+二分之	ji6 fan6 zi1
+三分之	slaam1 fan6 zi1
+四分之	sli3 fan6 zi1
+五分之	ng5 fan6 zi1
+六分之	luk6 fan6 zi1
+七分之	cat1 fan6 zi1
+八分之	baat3 fan6 zi1
+八分之	bet3 fan6 zi1
+九分之	gau2 fan6 zi1
+十分之	sap6 fan6 zi1
+百分之	baak3 fan6 zi1
+千分之	cin1 fan6 zi1
+萬分之	maan6 fan6 zi1
+糖分	tong4 fan6
+安分	on1 fan6
+情分	cing4 fan6
+分內	fan6 nui6
+分開	fan1 hoi1
+區分	kyu1 fan1
+分隔	fan1 gaak3
+分寸	fan1 cyun3
+分心	fan1 slam1
+分功	fan1 gung1
+分工	fan1 gung1
+分手	fan1 sau2
+分化	fan1 faa3
+分別	fan1 bit6
+分身	fan1 san1
+分析	fan1 slik1
+分歧	fan1 ki4
+分明	fan1 ming4
+分居	fan1 gyu1
+分封	fan1 fung1
+分紅	fan1 hung4
+分配	fan1 pui3
+分娩	fan1 min5
+分野	fan1 je5
+分裂	fan1 lit6
+分解	fan1 gaai2
+分號	fan1 hu6
+分贓	fan1 zong1
+分庭抗體	fan1 ting4 kong3 tai2
+分崩離析	fan1 bang1 li4 slik1
+分道揚鑣	fan1 du6 joeng4 biu1
+積分	zik1 fan1
+分離	fan1 li4
+分成	fan1 sing4
+分門別類	fan1 mun4 bit6 lui6
+分割	fan1 got3
+分校	fan1 haau6
+分店	fan1 dim3
+不分	bat1 fan1
+分發	fan1 faat3
+通分	tung1 fan1
+約分	joek3 fan1
+分數	fan1 su3
+瓜分	gwaa1 fan1
+分給	fan1 kap1
+分佈	fan1 bu3
+分擔	fan1 daam1
+分曉	fan1 hiu2
+分泌	fan1 bi3
+分散	fan1 slaan3
+分水嶺	fan1 sui2 leng5
+分享	fan1 hoeng2
+成日	seng4 jat6
+成街	seng4 gaai1
+成地	seng4 di6
+成頭	seng4 tau4
+成百	seng4 baak3
+冇成	mu5 seng4
+成唔成	seng4 m4 seng4
+成個	seng4 go3
+成身	seng4 san1
+成世	seng4 sai3
+成嚿	seng4 gau6
+成朝早	seng4 ziu1 zu2
+成村	seng4 cyun1
+成棚	seng4 paang4
+成條街	seng4 tiu4 gaai1
+成晚	seng4 maan5
+成碌木	seng4 luk1 muk6
+成隻	seng4 zek3
+成班	seng4 baan1
+離氣	le4 he3
+剌謬	laat6 mau6
+乖剌	gwaai1 laat6
+邕寧縣	jung1 ning4 jyun2
+橫縣	waang4 jyun2
+幹勁	gon3 ging3
+勝利	sing3 li6
+勝負	sing3 fu6
+勝敗	sing3 baai6
+戰勝	zin3 sing3
+名勝	ming4 sing3
+名勝古蹟	ming4 sing3 gu2 zik1
+勝券	sing3 hyun3
+勝券	sing3 gyun3
+勝券在握	sing3 hyun3 zoi6 ak1
+勝券在握	sing3 gyun3 zoi6 ak1
+邪不勝正	ce4 bat1 sing3 zing3
+反敗為勝	faan2 baai6 wai4 sing3
+優勝劣敗	jau1 sing3 lyut3 baai6
+取勝	cyu2 sing3
+以弱勝強	ji5 joek6 sing3 koeng4
+勝於	sing3 jyu1
+勝地	sing3 di6
+勝境	sing3 ging2
+勝似	sing3 cy5
+勝似	sing3 ci5
+方勝	fong1 sing3
+玉勝	juk6 sing3
+勝算	sing3 slyun3
+勝跡	sing3 zik1
+勝狀	sing3 zong6
+勝景	sing3 ging2
+娶老婆	cu2 lu5 po4
+娶老婆	cyu2 lu5 po4
+娶心抱	cu2 slam1 pu5
+娶心抱	cyu2 slam1 pu5
+勝任	sing1 jam6
+不勝枚舉	bat1 sing1 mui4 gyu2
+高處不勝寒	gu1 cyu3 bat1 sing1 hon4
+防不勝防	fong4 bat1 sing1 fong4
+數不勝數	su2 bat1 sing1 su2
+美不勝收	mi5 bat1 sing1 sau1
+力不能勝	lik6 bat1 nang4 sing1
+不勝其煩	bat1 sing1 ki4 faan4
+不可勝數	bat1 ho2 sing1 su2
+不勝感激	bat1 sing1 gaam2 gik1
+匙羹	ci4 gang1
+湯匙	tong1 ci4
+茶匙	caa4 ci4
+羹匙	gang1 ci4
+飯匙	faan6 ci4
+灰匙	fui1 ci4
+鎖匙	slo2 si4
+鑰匙	joek6 si4
+匙扣	si4 kau3
+車匙	ce1 si4
+配匙	pui3 si4
+門匙	mun4 si4
+撞匙	zong6 si4
+失匙夾萬	sat1 si4 gaap3 maan6
+夾萬	gaap3 maan6
+姓區	sling3 au1
+參商	sam1 soeng1
+人參	jan4 sam1
+黨參	dong2 sam1
+海參	hoi2 sam1
+高麗參	gu1 lai6 sam1
+梅花參	mui4 faa1 sam1
+月沒參橫	jyut6 mut6 sam1 waang4
+曾參	zang1 sam1
+曾參殺人	zang1 sam1 saat3 jan4
+參差	cam1 cy1
+參差	cam1 ci1
+參錯	cam1 cok3
+嘮叨	lu4 du1
+嘮嘮叨叨	lu4 lu4 du1 du1
+叨嘮	du1 lu4
+叨咕	du1 gu1
+叨登	du1 dang1
+叨蹬	du1 dang1
+叨叨	du1 du1
+絮絮叨叨	slyu3 slyu3 du1 du1
+叨叨絮絮	du1 du1 slyu3 slyu3
+叨念	du1 nim6
+叨光	tu1 gwong1
+叨擾	tu1 jiu2
+叨教	tu1 gaau3
+叨竊	tu1 cit3
+叨竊非據	tu1 cit3 fi1 gyu3
+喇叭	laa1 baa1
+喇嘛	laa1 maa4
+哈喇	haa1 laat3
+吃飯	hek3 faan6
+口吃	hau2 gat1
+吃吃而笑	hat1 hat1 ji4 sliu3
+笑吃吃	sliu3 hat1 hat1
+叱吒	cik1 caak1
+哪吒	naa4 zaa1
+木吒	muk6 zaa1
+引吭高歌	jan5 hong4 gu1 go1
+吭聲	hang1 seng1
+不吭聲	bat1 hang1 seng1
+一聲不吭	jat1 seng1 bat1 hang1
+否極泰來	pi2 gik6 taai3 loi4
+臧否	zong1 pi2
+天地否	tin1 di6 pi2
+陟罰臧否	zik1 faat6 zong1 pi2
+否泰	pi2 taai3
+酒吧	zau2 baa1
+吧檯	baa1 toi4
+吧女	baa1 nyu5
+網吧	mong5 baa1
+水吧	sui2 baa1
+清吧	cing1 baa1
+吧托	baa1 tok3
+吧廳	baa1 teng1
+基吧	gi1 baa1
+水吧	sui2 baa1
+迪吧	dik6 baa1
+泡吧	paau3 baa1
+落吧	lok6 baa1
+吧主	baa1 zyu2
+貼吧	tip3 baa1
+爆吧	baau3 baa1
+吧嗒	baa1 daap1
+吧喳	baa1 zaa1
+吧唧	baa1 zik1
+算吧啦	slyun3 baa1 laa1
+了吧	liu5 baa6
+有吧	jau5 baa6
+好吧	hu2 baa6
+沒有吧	mut6 jau5 baa6
+呆子	daai1 zy2
+呆子	daai1 zi2
+書呆子	syu1 daai1 zy2
+書呆子	syu1 daai1 zi2
+獃子	daai1 zy2
+獃子	daai1 zi2
+書獃子	syu1 daai1 zy2
+書獃子	syu1 daai1 zi2
+呆板	ngoi4 baan2
+獃板	ngoi4 baan2
+咖啡	kaa1 fi1
+咖啡因	kaa1 fi1 jan1
+咖啡色	kaa1 fi1 sik1
+咖喱	gaa3 li1
+呢絨	ni4 jung4
+呢喃	ni4 naam4
+細呢呢	slai3 ni1 ni1
+呱呱叫	gwaa1 gwaa1 giu3
+頂呱呱	ding2 gwaa1 gwaa1
+呱呱大哭	gu1 gu1 daai6 huk1
+呱呱墜地	gu1 gu1 zui6 di6
+笑咪咪	sliu3 mi1 mi1
+貓咪	meu1 mi1
+貓咪	maau1 mi1
+亂哄哄	lyun6 hung1 hung1
+哄騙	hung2 pin3
+吞咽	tan1 jin3
+咽氣	jin3 hi3
+咽苦吐甜	jin3 fu2 tu3 tim4
+狼吞虎咽	long4 tan1 fu2 jin3
+細嚼慢咽	slai3 zoek3 maan6 jin3
+咽喉	jin1 hau4
+鼻咽	bi6 jin1
+鼻咽癌	bi6 jin1 ngaam4
+哽咽	gang2 jit3
+咽泣	jit3 jap1
+嗚咽	wu1 jit3
+悲咽	bi1 jit3
+填咽	tin4 jit3
+咯血	lok3 hyut3
+咯痰	lok3 taam4
+咯魚翅	lok3 jyu4 ci3
+咯咯笑	gok3 gok3 sliu3
+咯崩	gok3 bang1
+咯噔	gok3 dang1
+咯噠	gok3 daat6
+咯吱	gok3 zi1
+咯當	gok3 dong1
+咯咯而笑	gok3 gok3 ji4 sliu3
+咯咯響	gok3 gok3 hoeng2
+吡咯	bi2 lok6
+吡啶	bi2 ding6
+哼唱	hang1 coeng3
+哼歌	hang1 go1
+哼哈	hang1 haa1
+哼唧	hang1 zik1
+哼聲	hang1 seng1
+哼哧	hang1 ci1
+哼唷	hang1 jo1
+哼哈二將	hang1 haa1 ji6 zoeng3
+哼哼唧唧	hang1 hang1 zik1 zik1
+哩啦	li1 laa1
+哩哩啦啦	li1 li1 laa1 laa1
+嗶哩嗶哩	bat1 li1 bat1 li1
+哩哩囉囉	li1 li1 lo1 lo1
+花哩碌	faa1 li1 luk1
+花碌碌	faa1 luk1 luk1
+花哩碌碌	faa1 li1 luk1 luk1
+花哩花碌	faa1 li1 faa1 luk1
+花哩胡碌	faa1 li1 wu4 luk1
+唉聲嘆氣	aai1 seng1 taan3 hi3
+唉聲歎氣	aai1 seng1 taan3 hi3
+哦松	ngo4 cung4
+吟哦	jam4 ngo4
+吟沉	ngam4 cam4
+啞啞	ak1 ak1
+啞然	ak1 jin4
+啞然而笑	ak1 jin4 ji4 sliu3
+啞然失笑	ak1 jin4 sat1 sliu3
+鴉聲啞啞	aa1 seng1 ak1 ak1
+咿啞	ji1 aa1
+
+
+
+
+老大	lu5 daai6
+老大	lu5 daai2	5%
+亞大	aa3 daai2
+阿大	aa3 daai2
 啊嘛	aa1 maa3
 可汗	hak1 hon4
 汗國	hon4 gok3
@@ -11374,12 +12207,14 @@ A站	ei zaam6	100
 著衫	zoek3 saam1
 衣著	ji1 zoek3
 著衣	zoek3 ji1
-钂鈀	pong2 paa4
+钂鈀	tong2 paa4
 龜茲	kau1 ci4
 龜茲	gau1 ci4
 龜茲	kau1 cy4
 龜茲	gau1 cy4
 龜裂	gwan1 lit6
+玉米	juk6 mai5
+玉米	jyu6 mai5
 
 
 # 本地詞彙表
@@ -11391,8 +12226,8 @@ A站	ei zaam6	100
 亞便
 嚕便
 唓咧
-咿㕭
-咿呦
+咿㕭	ji1 jaau1
+咿呦	ji1 jaau1
 黑頸
 敆伙	gap3 fo2
 敆份	gap3 fan6
@@ -11409,8 +12244,6 @@ A站	ei zaam6	100
 好佮	hu2 gap3
 佮口	gap3 hau2
 御米	jyu6 mai5
-玉米	juk6 mai5
-玉米	jyu6 mai5	# 本字御米
 儆惜	geng6 slek3
 撈籬	laau1 li1
 鬎鬁	laat3 li1
