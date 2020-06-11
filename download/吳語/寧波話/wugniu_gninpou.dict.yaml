@@ -21,7 +21,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.06.04"
+version: "2020.06.11"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -170,6 +170,8 @@ import_tables:
 杘	tsy
 駤	tsy
 騺	tsy
+寘	tsy
+忮	tsy
 嗤	tshy
 差	tshy	1%
 鈭	tshy
@@ -1636,7 +1638,6 @@ import_tables:
 霽	ci
 劑	ci
 穧	ci
-寘	ci
 稷	ci
 季	ci
 悸	ci
@@ -1787,6 +1788,7 @@ import_tables:
 婍	chi
 綮	chi
 跂	chi
+𢺵	chi
 淺	chi
 蕆	chi
 諂	chi
@@ -1983,7 +1985,6 @@ import_tables:
 寋	ji
 鑳	ji
 滯	ji
-忮	ji
 嚌	ji
 彘	ji
 苧	ji
@@ -2003,7 +2004,6 @@ import_tables:
 梞	ji
 誋	ji
 鵋	ji
-𢺵	ji
 崎	ji
 垍	ji
 臮	ji
@@ -2055,7 +2055,7 @@ import_tables:
 捻	gni
 鮎	gni
 妍	gni
-研	GNi
+研	gni
 姸	gni
 揅	gni
 硏	gni
@@ -2144,6 +2144,7 @@ s	迡	gni
 驗	gni	5%
 騐	gni	5%
 趼	kni
+研	kni
 黏	kni
 粘	kni
 拈	kni
@@ -5984,7 +5985,7 @@ s	迡	gni
 馤	e
 案	e	0%
 皆	cie
-階	cie	5%
+階	cie	10%
 堦	cie	5%
 偕	cie	0%
 喈	cie
@@ -6629,7 +6630,6 @@ s	迡	gni
 綰	uae
 捾	uae
 贃	uae
-頑	uae	0%
 丢	tieu
 丟	tieu
 銩	tieu
@@ -8219,7 +8219,7 @@ s	迡	gni
 垛	dou
 肚	dou	0%
 大	dou
-捼	nou
+捼	nou	20
 挼	nou
 儺	nou
 挪	nou	6%
@@ -8874,6 +8874,7 @@ s	迡	gni
 虻	man	0%
 蝱	man	0%
 孟	man
+厖	man	1%
 𩜠	mhan
 𩛎	mhan
 飯	mhan	0%
@@ -13281,6 +13282,7 @@ s	迡	gni
 嵑	khaq
 峇	khaq
 𦊪	khaq
+可	khaq	0%
 軋	gaq	5000
 釓	gaq
 搿	gaq
@@ -17007,7 +17009,6 @@ s	迡	gni
 湾	uae
 绾	uae
 𧹗	uae
-顽	uae
 铥	tieu
 馏	lieu
 镏	lieu
@@ -18524,7 +18525,6 @@ s	迡	gni
 恶	oq
 𫫇	oq
 𪶮	oq
-吃	chioq	0%
 钰	gnioq
 笔	piq
 滗	piq
@@ -18611,7 +18611,6 @@ s	迡	gni
 辄	chiq
 𫛶	chiq
 讫	chiq
-吃	chiq	0%
 锲	chiq
 绤	chiq
 掷	jiq
@@ -19604,8 +19603,6 @@ s	迡	gni
 討債鬼	thau tsa ciu
 衆生	tson san
 沙鍋	so kou
-茶籮	dzo lou	55
-脫底茶籮	thaq ti dzo lou	55
 蛇籮	dzo lou	55
 敗家精	ba ko cin	55
 敗子	ba tsy
@@ -19733,8 +19730,6 @@ s	迡	gni
 柴油桶	za yeu don	55
 大阿福	dou aq foq	55
 瘦骨材	seu kuaq ze	55
-𢺵頭鵝	ji deu ngou	55
-𢺵頭	ji deu	55
 笡頭	chia deu	55
 黑炭	haq thae
 黃頭貓	waon deu mae	55
@@ -19983,7 +19978,6 @@ s	迡	gni
 小胡嚨	shiau u lon	55
 假胡嚨	ko wu lon	578
 假胡嚨	ko u lon	55
-飯鍬骨	vae chiau kuaq	55
 肩胛頭	ci kaq deu	55
 肩胛頭	ci khaq deu	55
 肩胛	ci kaq	2815
@@ -20177,7 +20171,6 @@ s	迡	gni
 講口	kaon kheu
 死話	shi wo	55
 亂話	loe wo	418
-忮話	ji wo	55
 脹話	cian wo	55
 誏話	lhaon wo	418
 ⿰忄態話	the wo	55
@@ -20794,7 +20787,7 @@ s	迡	gni
 吊紅	tiau ghon	55
 底紅	ti ghon	55
 金孟	cin man	55
-金龐	cin baon	55
+金厖	cin man	55
 胓㠮	phan phon	55
 木蓮	moq li	55
 金鈴子	cin lin tsy
@@ -21425,7 +21418,6 @@ s	迡	gni
 銅勺	don zoq	55
 銅瓢	don biau	55
 銅千	don chi	55
-飯鍬	vae chiau	55
 飯𣖄	vae chiau	55
 飯瓢	vae biau
 薄刀	boq tau	578
@@ -21582,6 +21574,7 @@ s	迡	gni
 長環糞箕	jian guae fen ci	55
 板籮	pae lou	55
 夾籮	kaq lou	55
+茶籮	dzo lou	55
 簟簍	di leu	55
 打稻機	tan dau ci	55
 稻桶	dau don	55
@@ -21692,7 +21685,6 @@ s	迡	gni
 羯狗娘	ciq keu gnian	55
 偎竈貓	uei tsau mhau	55
 騸雞	shi ci	55
-線雞	shi ci	55
 趕騷雄雞	kI sau yon ci	55
 個個郎	goq goq laon	55
 雞娘	ci gnian	55
@@ -22131,8 +22123,7 @@ s	迡	gni
 泥鏽	li shieu	55
 塳塵	bon jin	55
 邋颯	laq saq	55
-漬子	ciq tsy	55
-漬足	ciq tsoq	55
+漬子	ciq tsy	418
 炭蒲帽	thae bu mau	55
 響動	shian don
 響米花	shian mi huo	55
@@ -22989,7 +22980,6 @@ s	迡	gni
 黃央央	waon ian ian	55
 面刺刺	mi tshy tshy	55
 肉割割	gnioq kaq kaq	55
-殟煞	uaq saq	55
 怏勃勃	aon baq baq	55
 怏躁躁	aon tshau tshau	55
 怏勃幾糟	aon baq ci tsau	55
@@ -23170,9 +23160,6 @@ s	迡	gni
 笡擺笡	chia pa chia	418
 笡格愣敦	chia kaq len ten	55
 歪笡	hua chia	55
-𢺵笡	ji chia	55
-𢺵歪	ji hua	55
-歪七𢺵八	hua chiq ji paq	55
 歪嘴辟得	hua tsyu phiq taq	55
 蹊蹺	chi chiau
 墝埆	chiau koq	55
@@ -23448,8 +23435,6 @@ s	迡	gni
 嗯嗯支支	en en tsy tsy	55
 嗯嗯切切	en en chiq chiq	55
 縋嗯頭	dzyu en deu	55
-忮頓頓	ji ten ten	55
-屙忮出	ou ji tshyuq	55
 候自	gheu zhi	578
 艮古古	gen ku ku	55
 獨頭	doq deu	55
@@ -23804,8 +23789,6 @@ s	迡	gni
 硬結結	ngan ciq ciq	55
 硬剝剝	ngan poq poq	55
 硬的剝落	ngan tiq poq loq	55
-硬拗𢺵	ngan au ji	55
-硬絞𢺵	ngan gau ji	55
 硬碰硬	ngan phan ngan
 藤韌	den gnin	55
 韌結結	gnin ciq ciq	55
@@ -24021,7 +24004,7 @@ s	迡	gni
 墨漆斯暗	moq tshaq sy EI	55
 漆暗墨朧	tshaq EI moq lon	55
 漆暗卜朧	tshaq EI boq lon	55
-暗黢黢	EI tshyuq tshyuq	55
+暗黢黢	EI tshyuq tshyuq	578
 暗洞洞	EI don don	55
 暗寸寸	EI tshen tshen	55
 暗笛卜朧	EI diq boq lon	55
@@ -24648,7 +24631,6 @@ s	迡	gni
 講斤頭	kaon cin deu	55
 講閒話	kaon ghae wo	578
 講說話	kaon syuq wo	55
-講忮話	kaon ji wo	55
 講空話	kaon khon wo	55
 講故事	kaon ku zy
 尋吼勢	zhin heu syu	55
@@ -25181,9 +25163,6 @@ s	迡	gni
 子蟹	tsy ha	55
 子蝦	tsy huo	55
 子孫	tsy sen
-指掐	tsy khaq	55
-指掐深	tsy khaq shin	55
-指掐縫道	tsy khaq von dau	55
 紙行	tsy ghaon
 紙襞箱	tsy paq shian	55
 紙箱店	tsy shian ti	55
@@ -25513,9 +25492,6 @@ s	迡	gni
 天牌	thi ba	55
 天靉攏來	thi a lon le	55
 天皰瘡	thi phau tshaon	55
-天價	thi ko
-天價冷	thi ko lan	55
-天價熱	thi ko gniq	55
 天花	thi huo
 出天花	tshyuq thi huo	55
 天菜蕻	thi tshe hon	55
@@ -25788,7 +25764,7 @@ s	迡	gni
 耳朵彎	gni to uae	55
 耳朵彎	ng to uae	55
 染坊	gni faon
-研船	GNi ZOE	55
+研船	gni ZOE	55
 硯墨爿	gni moq bae	55
 碾子	gni tsy
 膩腥不剌	gni shin paq laq	578
@@ -25853,8 +25829,6 @@ s	迡	gni
 看護	khI wu
 看翻	khI fae	55
 看頭	khI deu
-看牛頑	khI ngeu uae	55
-看牛小頑	khI ngeu shiau uae	55
 看相先生	khI shian shi san	55
 看樣子	khI yan tsy
 看風使船	khI fon sy ZOE	55
@@ -26277,7 +26251,6 @@ s	迡	gni
 外婆暈	nga bou yun	55
 外鵝	nga ngou	55
 外頭人	nga deu gnin	55
-外甥頑	nga san uae	418
 外行	nga ghaon
 外勤	nga jin
 外公	nga kon
@@ -26364,7 +26337,6 @@ s	迡	gni
 保出來	pau tshyuq le	55
 寶蓋頭	pau ke deu	55
 報喪	pau saon
-爆冬米胖	pau ton mi phaon	55
 拋錨	phau mau
 泡泡糖	phau phau daon
 泡茶	phau dzo
@@ -26811,7 +26783,6 @@ s	迡	gni
 下弄上	gho lon zaon	55
 下作	gho tsoq
 夏至	gho tsy
-夏天價	gho thi ko	55
 丫頭	o deu
 丫頭屄	o deu pi	55
 丫鵲	o chiaq	55
@@ -26960,8 +26931,6 @@ s	迡	gni
 小開	shiau khe
 小產	shiau tshae
 小鴨	shiau ae
-小頑	shiau uae	55
-小頑頭	shiau uae deu	55
 小囡	shiau noe	55
 小輩	shiau pei
 小寒	shiau ghEI
@@ -27239,7 +27208,6 @@ s	迡	gni
 飯師父	vae sy vu	55
 飯店	vae ti
 飯盂	vae yu	55
-飯翹骨	vae chiau kuaq	55
 飯單襟	vae tae cin	55
 飯糝	vae sei	55
 飯米糝	vae mi sei	55
@@ -27538,7 +27506,6 @@ s	迡	gni
 救護車	cieu wu tsho
 抽筋	chieu cin
 抽腳筋	chieu ciaq cin	55
-秋天價	chieu thi ko	418
 秋收	chieu shieu
 秋分	chieu fen
 臭花娘子	shieu huo gnian tsy	55
@@ -27571,7 +27538,6 @@ s	迡	gni
 修行個	shieu ghan goq	55
 手指末頭	shieu tsy maq deu	55
 手指末頭縫蕩	shieu tsy maq deu von daon	55
-手指掐	shieu tsy khaq	55
 手天爿	shieu thi bae	55
 手提琴	shieu di jin	55
 手鍊	shieu li
@@ -27609,8 +27575,6 @@ s	迡	gni
 油爆蝦	yeu pau huo	55
 油麥麥	yeu maq maq	55
 油車	yeu tsho
-油雕	yeu tiau	55
-油雕甏	yeu tiau ban	55
 油菜	yeu tshe
 油果	yeu kou	55
 油棗	yeu tsau	55
@@ -27723,7 +27687,6 @@ s	迡	gni
 兌糖個	dei daon goq	418
 隊夥家	dei hou ko	55
 男家	nEI ko
-男小頑	nEI shiau uae	418
 男𡢿	nEI gnion	55
 男人客	nEI gnin khaq	55
 南溪溫泉	nEI chi uen DZOE	55
@@ -27782,7 +27745,6 @@ s	迡	gni
 暗弄慫	EI lon son	55
 暗笛薄龍	EI diq boq lon	55
 暗鐵撲龍	EI thiq phoq lon	55
-暗出出	EI tshyuq tshyuq	578
 桂皮	kuei bi
 桂圓	kuei yu
 桂圓肉	kuei yu gnioq	55
@@ -28234,7 +28196,6 @@ s	迡	gni
 宕長	dan jian	55
 冷水	lan syu
 冷麪	lan mi
-冷天價	lan thi ko	55
 冷開水	lan khe syu	55
 冷茶壺	lan dzo wu	55
 冷水壺	lan syu wu	55
@@ -28585,7 +28546,6 @@ s	迡	gni
 當店	taon ti	55
 當鋪	taon phu
 當票	taon phiau
-擋頑	taon uae	55
 淌白	thaon baq	55
 湯麪	thaon mi
 湯碗	thaon un
@@ -28626,7 +28586,6 @@ s	迡	gni
 廊檐	laon yi
 榔頭	laon deu
 浪頭	laon deu
-浪食	laon zhiq	55
 㫰衣裳	laon i zaon	55
 妝粉	tsaon fen	55
 莊家	tsaon ko
@@ -29192,9 +29151,7 @@ s	迡	gni
 聲響	shin shian
 信紙	shin tsy
 興致	shin tsy
-晴天價	zhin thi ko	578
 尋開心	zhin khe shin
-尋風涼	zhin fon lian	55
 尋着	zhin zyuq	55
 甚多莫少	zhin tou moq shiau	55
 淨更半夜	zhin ken pun ya	418
@@ -29206,7 +29163,6 @@ s	迡	gni
 引子	yin tsy
 引魂幡	yin wen fae	55
 陰司鬼	in sy ciu	55
-陰靉天價	in a thi ko	55
 陰天	in thi
 陰壽	in zhieu
 陰配	in phei	55
@@ -29259,7 +29215,6 @@ s	迡	gni
 溫吞水	uen then syu	55
 瘟牲	uen sen	55
 薀藻	uen tsau	55
-穩篤落主	uen toq loq tsyu	55
 裙子	jiun tsy
 裙褲	jiun khu
 裙帶麪	jiun ta mi	55
@@ -29273,7 +29228,6 @@ s	迡	gni
 準定	tsyun din
 鎮紙	tsyun tsy
 鎮裏	tsyun li
-春天價	tshyun thi ko	418
 春天	tshyun thi
 春暴頭	tshyun pau deu	55
 春假	tshyun ko
@@ -29302,7 +29256,6 @@ s	迡	gni
 蓬蒿菜	bon hau tshe	55
 塳灰	bon huei	55
 懵懂	mon ton
-風指掐	fon tsy khaq	55
 風水先生	fon syu shi san
 風乾栗子	fon kI liq tsy	55
 風衣	fon i
@@ -29319,11 +29272,6 @@ s	迡	gni
 鋒快	fon khua	55
 縫蕩	von daon	578
 冬至	ton tsy
-冬米胖	ton mi phaon	418
-冬米大胖	ton mi da phaon	418
-冬米大王	ton mi da waon	418
-冬米糖	ton mi daon	55
-冬天價	ton thi ko	418
 冬菇	ton ku
 冬瓜	ton kuo
 冬青樹	ton chin zyu
@@ -29580,8 +29528,6 @@ s	迡	gni
 鼻頭靈光	baq deu lin kuaon	55
 鼻頭紅	baq deu ghon	418
 鼻頭紅血	baq deu ghon shiuq	578
-末都囡	maq tu noe	55
-末都兒子	maq tu ng tsy	55
 末腳名	maq ciaq min	55
 沒克沒克	maq khaq maq khaq	55
 茉莉花	maq li huo
@@ -29646,7 +29592,6 @@ s	迡	gni
 搭搭漿	taq taq cian	55
 搭積木	taq ciq moq	55
 溚溚渧	taq taq ti	578
-𢱕𢱕動	taq taq don	55
 禿頂	thaq tin
 脫皮	thaq bi
 脫底蛇籮	thaq ti dzo lou	55
@@ -29746,7 +29691,6 @@ s	迡	gni
 煞辣清爽	saq laq chin saon	55
 煞辣斯清爽	saq laq sy chin saon	55
 煞性健	saq shin ji	55
-煞納	saq naq	55
 煞煞格格	saq saq kaq kaq	55
 煞煞縛縛	saq saq bou bou	55
 嗇比比	saq pi pi	55
@@ -29777,7 +29721,6 @@ s	迡	gni
 夾生飯	kaq san vae
 夾生米飯	kaq san mi vae	55
 夾心餅乾	kaq shin pin kI
-疙裏疙得	kaq li kaq taq	55
 格步階	kaq bu kae	55
 格貌介	kaq mau ka	50000
 格相貌	kaq shian mau	55
@@ -30026,8 +29969,6 @@ s	迡	gni
 篤坦	toq thae	55
 篤篤定定	toq toq din din	55
 篤鋒頭	toq fon deu	55
-篤落	toq loq	418
-篤落𡀂	toq loq lei	55
 獨眼龍	doq ngae lon
 獨門心思	doq men shin sy	55
 讀書	doq syu
@@ -30056,7 +29997,6 @@ s	迡	gni
 落地頭	loq di deu	55
 落露水	loq lu syu	55
 落雨	loq yu
-落雨天價	loq yu thi ko	578
 落家房子	loq ko vaon tsy	55
 落潮	loq jiau
 落課	loq khou	55
@@ -30305,7 +30245,6 @@ s	迡	gni
 栗子肉	liq tsy gnioq	55
 癧子頸	liq tsy cin	55
 汁水湯	ciq syu thaon	55
-跡浞	ciq tsoq	55
 急鼓鼓	ciq ku ku	55
 急驚風	ciq cin fon
 脊柱骨	ciq dzyu kuaq	55
@@ -30380,7 +30319,6 @@ s	迡	gni
 熱水袋	gniq syu de
 熱水瓶	gniq syu bin
 熱面孔貼冷屁股	gniq mi khon thiaq lan phi ku	55
-熱天價	gniq thi ko	578
 熱炒盆	gniq tshau ben	55
 熱黃梅	gniq waon mei	55
 熱門貨	gniq men hou

@@ -17,7 +17,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.06.04"
+version: "2020.06.11"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -88,7 +88,6 @@ use_preset_vocabulary: true
 涴泥脾氣	ou gni bi chi	55
 涴賴脾氣	ou la bi chi	55
 涴臭	ou chieu	55
-涴忮出	ou ji tshyuq	55
 涴背出	ou bei tshyuq	55
 涴懶出	ou lae tshyuq	55
 涴衲一樣	ou naq iq yan	55
@@ -413,6 +412,8 @@ use_preset_vocabulary: true
 謳俉𢜭力𡀂	eu ng jiaq liq lei
 謳爾𢜭力𡀂	eu ng jiaq liq lei
 跑春	phau tshyun	55
+飯𣖄骨	vae chiau kuaq	55
+漬浞	ciq tsoq	55
 
 # 江蘇教育版《寧波方言詞典》 其他寫法
 
@@ -608,7 +609,6 @@ use_preset_vocabulary: true
 要俉着力了	iau ng jiaq liq lei
 將煞了	cian saq lei	55
 脹煞了	cian saq lei	55
-篤落了	toq loq lei	55
 跔掉	geu diau	55
 𠞭眼	lheu ngae	55
 𠞭耳朵	lheu ng to	55
@@ -646,6 +646,9 @@ use_preset_vocabulary: true
 剝皮大㸆	poq bi dou khau	55
 寧波灘簧	gnin pou thae waon	55
 雌雞胡嚨	tshy ci u lon
+跌落了	toq loq lei	55
+跌落𡀂	toq loq lei	55
+指甲深	tsy khaq shin	55
 
 # 其他詞彙
 
@@ -2172,7 +2175,7 @@ use_preset_vocabulary: true
 死蟹還會吹白	shi ha wa wei tshyu baq
 炭蒲帽越戴	thae bu mau yuq ta
 走路越快
-頭𢺵𢺵
+頭纏纏
 腳蹁蹁
 丫臉犯落勿認人	o li vae loq vaq gnin gnin
 眼睛眯牢
@@ -5252,6 +5255,9 @@ use_preset_vocabulary: true
 佝僂	keu leu
 佝僂病	keu leu bin
 万俟	moq ji
+扁舟	phi cieu
+可汗	khaq ghEI
+天可汗	thi khaq ghEI
 # 多音義詞彙
 明朝	min jiau
 肚子	du tsy
@@ -7350,8 +7356,9 @@ use_preset_vocabulary: true
 片片鴨	phi phi ae
 慈城年糕
 米仁	mi zyun
-冬米
 凍米
+鹹烤蝦
+鹹㸆蝦
 # 商業
 倉橋麪結店
 興寧橋烤雞
@@ -7679,6 +7686,28 @@ use_preset_vocabulary: true
 喳喳叫叫	jia jia ciau ciau
 喳喳哭哭	jia jia khoq khoq
 單巧	tae chiau	55
+爆凍米胖	pau ton mi phaon
+夏利車
+貨的
+撮攏爿	tshaq lon bae
+捼癆槽	ou lau zau
+釘子	tin tsy
+拄牢	tsyu lau
+纏頭鵝	ji deu ngou	55
+纏頭	ji deu
+纏笡	ji chia	55
+纏歪	ji hua	55
+歪七纏八	hua chiq ji paq	55
+硬拗纏	ngan au ji	55
+硬絞纏	ngan gau ji	55
+纏頓頓	ji ten ten	55
+涴纏出	ou ji tshyuq	55
+屙纏出	ou ji tshyuq	55
+纏話	ji wo	55
+指甲鉗	tsy khaq ji	522
+啥東西	soq ton shi
+啥東西	so ton shi
+啥東西	sou ton shi
 # 八股文拆分詞彙
 〇兩	lin lian
 一九九兩	iq cieu cieu lian
@@ -10547,6 +10576,7 @@ use_preset_vocabulary: true
 輪落去	len loq chi
 轉落去	tsoe loq chi
 轉趁	tsoe chin
+轉嫁撥	tsoe cia paq
 轟落去	hon loq chi
 迷煞	mi saq
 迷勒	mi laq
@@ -12707,8 +12737,10 @@ VCD	vi shi di
 寧波石油大廈	gnin poq zaq yeu da so
 寧波石油大廈	gnin pou zaq yeu da gho
 寧波石油大廈	gnin pou zaq yeu da so
-寧波研發園	gnin poq GNi faq yu
-寧波研發園	gnin pou GNi faq yu
+寧波研發園	gnin poq gni faq yu
+寧波研發園	gnin pou gni faq yu
+寧波研發園	gnin poq kni faq yu
+寧波研發園	gnin pou kni faq yu
 寧波第七醫院	gnin poq di chiq i yu
 寧波第七醫院	gnin pou di chiq i yu
 寧波第五醫院	gnin poq di ng i yu

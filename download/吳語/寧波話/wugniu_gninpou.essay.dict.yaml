@@ -12,7 +12,7 @@
 
 ---
 name: wugniu_gninpou.essay
-version: "2020.06.04"
+version: "2020.06.11"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -420,6 +420,7 @@ use_preset_vocabulary: true
 下個	gho goq
 下個星期	gho goq shin ji
 下傳	gho dzOE
+下層階級	gho zen cie ciq
 下崗工人	gho kaon kon gnin
 下得了	gho taq liau
 下拉	gho lha
@@ -937,6 +938,8 @@ use_preset_vocabulary: true
 並行程序	bin yin jin zyu
 並行計算	bin yin ci soe
 並被	bin bei
+中上階級	tson zaon cie ciq
+中下階級	tson gho cie ciq
 中不溜	tson paq lieu
 中世	tson syu
 中世紀	tson syu ci
@@ -1044,6 +1047,7 @@ use_preset_vocabulary: true
 中小學	tson shiau ghoq
 中小學校	tson shiau ghoq yau
 中小學生	tson shiau ghoq san
+中層階級	tson zen cie ciq
 中山大學	tson sae da ghoq
 中山狼傳	tson sae laon dzOE
 中山醫學大學	tson sae i yuq da ghoq
@@ -1078,6 +1082,7 @@ use_preset_vocabulary: true
 中波長	tson pou jian
 中生	tson sen
 中生代	tson sen de
+中產階級	tson tshae cie ciq
 中秋快樂	tson chieu khua loq
 中立國家	tson liq koq cia
 中等專業學校	tson ten tsoe gniq ghoq yau
@@ -3468,7 +3473,8 @@ use_preset_vocabulary: true
 個核	goq ghaq
 個案	kou EI
 個案分析	kou EI fen shiq
-個案研究	kou EI GNi cieu
+個案研究	kou EI gni cieu
+個案研究	kou EI kni cieu
 個案紀錄	kou EI ci loq
 個樣	ghoq yan
 個樣	goq yan
@@ -5249,7 +5255,8 @@ use_preset_vocabulary: true
 分析心理學	fen shiq shin li yuq
 分析方法	fen shiq faon faq
 分析法	fen shiq faq
-分析研究	fen shiq GNi cieu
+分析研究	fen shiq gni cieu
+分析研究	fen shiq kni cieu
 分析處理	fen shiq tshyu li
 分析語	fen shiq gniu
 分枝	fen tsy
@@ -5711,6 +5718,7 @@ use_preset_vocabulary: true
 剛背	kaon pei
 剛被	kaon bei
 剛鋸	kaon ciu
+剝削階級	poq shiaq cie ciq
 剝去	poq chiu
 剝啄	poq tsoq
 剩了	jin laq
@@ -6278,7 +6286,9 @@ use_preset_vocabulary: true
 勞動爭議	lau don tsen gni
 勞動生產力	lau don sen tshae liq
 勞動生產率	lau don sen tshae liq
+勞動階級	lau don cie ciq
 勞埃德	lau e taq
+勞工階級	lau kon cie ciq
 勞拉	lau lha
 勞拉西泮	lau lha shi phun
 勞教	lau ciau
@@ -6698,9 +6708,7 @@ use_preset_vocabulary: true
 半死	pun shi
 半死不活	pun shi paq waq
 半無產階級	pun Wu tshae cie ciq
-半無產階級	pun Wu tshae ka ciq
 半無產階級	pun vu tshae cie ciq
-半無產階級	pun vu tshae ka ciq
 半生	pun san
 半生不熟	pun san paq zoq
 半真半假	pun cin pun ko
@@ -7481,7 +7489,8 @@ use_preset_vocabulary: true
 可行	khou yin
 可行之道	khou yin tsy dau
 可行性	khou yin shin
-可行性研究	khou yin shin GNi cieu
+可行性研究	khou yin shin gni cieu
+可行性研究	khou yin shin kni cieu
 可被	khou bei
 可貴	khou kuei
 可貴性	khou kuei shin
@@ -9163,6 +9172,7 @@ use_preset_vocabulary: true
 地下核爆炸	di gho ghaq bau tso
 地主分子	di tsyu ven tsy
 地主家庭	di tsyu cia din
+地主階級	di tsyu cie ciq
 地久天長	di cieu thi jian
 地利人和	di li zyun ghou
 地勤人員	di jin zyun yu
@@ -9608,6 +9618,7 @@ use_preset_vocabulary: true
 壞血酸	wa shiuq soe
 壞話	ua wo
 壟斷行業	lon doe ghaon gniq
+壟斷資產階級	lon doe tsy tshae cie ciq
 壟斷集團	lon doe jiq doe
 壟畝	lon meu
 士人	zy zyun
@@ -10368,7 +10379,7 @@ use_preset_vocabulary: true
 大手大腳	dou shieu dou ciaq
 大手筆	dou shieu piq
 大批	dou phi
-大批涌到	dou phi ion tau
+大批湧到	dou phi ion tau
 大批的	dou phi tiq
 大批量	dou phi lian
 大投資家	da deu tsy cia
@@ -10942,6 +10953,8 @@ use_preset_vocabulary: true
 大貨車	dou hou tsho
 大費周折	da fi cieu ciq
 大費周章	da fi cieu tsaon
+大資產階級	da tsy tshae cie ciq
+大資產階級	dou tsy tshae cie ciq
 大賢	da yi
 大賤賣	dou zhi ma
 大賽	da se
@@ -11750,8 +11763,12 @@ use_preset_vocabulary: true
 嫁作人婦	ko tsoq zyun vu
 嫁個	ko goq
 嫁個老公	ko goq lau kon
+嫁接	cia ciq
+嫁接法	cia ciq faq
 嫁於	ko yu
 嫁給你	ko ciq gni
+嫁衣	cia i
+嫁衣	ko i
 嫂夫人	sau fu gnin
 嫋娜	gniau nou
 嫋娜纖巧	gniau nou shi chiau
@@ -12074,8 +12091,10 @@ use_preset_vocabulary: true
 學術獎	yuq zyuq cian
 學術界	yuq zyuq ka
 學術界人士	yuq zyuq ka zyun zy
-學術研究	yuq zyuq GNi cieu
-學術研討會	yuq zyuq GNi thau wei
+學術研究	yuq zyuq gni cieu
+學術研究	yuq zyuq kni cieu
+學術研討會	yuq zyuq gni thau wei
+學術研討會	yuq zyuq kni thau wei
 學術科	yuq zyuq khou
 學術組	yuq zyuq tsu
 學術網路	yuq zyuq maon lu
@@ -12244,6 +12263,7 @@ use_preset_vocabulary: true
 宗教自由	tson ciau zy yeu
 官人	kun gnin
 官僚習氣	kun liau zhiq chi
+官僚資產階級	kun liau tsy tshae cie ciq
 官大	kun dou
 官大學問大	kun dou yuq ven dou
 官學	kun yuq
@@ -12967,6 +12987,7 @@ use_preset_vocabulary: true
 小說集	shiau syuq jiq
 小貓	shiau mae
 小貓	shiau mau
+小資產階級	shiau tsy tshae cie ciq
 小超人	shiau chiau gnin
 小部分	shiau bu ven
 小間	shiau kae
@@ -13262,7 +13283,6 @@ use_preset_vocabulary: true
 工人日報	kon gnin zyuq pau
 工人運動	kon gnin yun don
 工人階級	kon gnin cie ciq
-工人階級	kon gnin ka ciq
 工人黨	kon gnin taon
 工作人員	kon tsoq zyun yu
 工作任務	kon tsoq zyun vu
@@ -13277,6 +13297,7 @@ use_preset_vocabulary: true
 工商行政管理	kon saon yin cin kun li
 工商行政管理局	kon saon yin cin kun li jiuq
 工商銀行	kon saon gnin ghaon
+工商階級	kon saon cie ciq
 工大	kon da
 工學	kon yuq
 工學院	kon yuq yu
@@ -13290,9 +13311,7 @@ use_preset_vocabulary: true
 工業大學	kon gniq da ghoq
 工業學校	kon gniq ghoq yau
 工業無產階級	kon gniq Wu tshae cie ciq
-工業無產階級	kon gniq Wu tshae ka ciq
 工業無產階級	kon gniq vu tshae cie ciq
-工業無產階級	kon gniq vu tshae ka ciq
 工業生產	kon gniq sen tshae
 工科大學	kon khou da ghoq
 工科學生	kon khou ghoq san
@@ -16995,10 +17014,14 @@ use_preset_vocabulary: true
 教益	ciau iq
 教着	kau dzoq
 教着	kau zyuq
-教研	ciau GNi
-教研員	ciau GNi yu
-教研室	ciau GNi syuq
-教研組	ciau GNi tsu
+教研	ciau gni
+教研	ciau kni
+教研員	ciau gni yu
+教研員	ciau kni yu
+教研室	ciau gni syuq
+教研室	ciau kni syuq
+教研組	ciau gni tsu
+教研組	ciau kni tsu
 教科文	ciau khou ven
 教科文組織	ciau khou ven tsu ciq
 教科書	ciau khou syu
@@ -17677,7 +17700,8 @@ use_preset_vocabulary: true
 日本共產黨	zyuq pen gon tshae taon
 日本刀	zyuq pen tau
 日本化	zyuq pen huo
-日本原子能研究所	zyuq pen gniu tsy nen GNi cieu so
+日本原子能研究所	zyuq pen gniu tsy nen gni cieu so
+日本原子能研究所	zyuq pen gniu tsy nen kni cieu so
 日本史	zyuq pen sy
 日本國	zyuq pen koq
 日本國誌	zyuq pen koq tsy
@@ -18196,6 +18220,7 @@ use_preset_vocabulary: true
 智能機器人	tsyu nen ci chi gnin
 智自在	tsyu zy dze
 智謀過人	tsyu meu kou gnin
+智識階級	tsyu shiq cie ciq
 智障人士	tsyu tsaon zyun zy
 晾乾	lian kI
 晾衣架	lian i ko
@@ -18242,6 +18267,7 @@ use_preset_vocabulary: true
 暮雨朝雲	mou yu ciau yun
 暴屍於市	boq sy yu zy
 暴死	bau sy
+暴虎馮河	bau fu bin ghou
 暴行	bau yin
 暴露文學	bau lu ven yuq
 暹羅人	shi lou gnin
@@ -18629,6 +18655,7 @@ use_preset_vocabulary: true
 月墜花折	yuq dzei huo ciq
 月尾	yuq vi
 月曜日	yuq yau zyuq
+月氏	yuq tsy
 月氏人	yuq tsy gnin
 月眉	yuq mei
 月落參橫	yuq loq sen wan
@@ -18724,6 +18751,7 @@ use_preset_vocabulary: true
 有生之年	yeu sen tsy gni
 有生以來	yeu sen yi le
 有生力量	yeu sen liq lian
+有產階級	yeu tshae cie ciq
 有異味	yeu yi vi
 有的人	yeu tiq gnin
 有眉目	yeu mei moq
@@ -18742,6 +18770,7 @@ use_preset_vocabulary: true
 有行無市	yeu ghaon vu zy
 有負衆望	yeu veu tson vaon
 有責任	yeu tsaq zyun
+有車階級	yeu tsho cie ciq
 有較大	yeu ciau da
 有進去	yeu cin chi
 有錢了	yeu ji laq
@@ -20438,6 +20467,7 @@ use_preset_vocabulary: true
 民族解放	min dzoq ka faon
 民族解放運動	min dzoq cia faon yun don
 民族解放運動	min dzoq ka faon yun don
+民族資產階級	min dzoq tsy tshae cie ciq
 民族雜居地區	min dzoq dzaq ciu di chiu
 民族音樂	min dzoq in yuq
 民望	min vaon
@@ -21516,7 +21546,7 @@ use_preset_vocabulary: true
 淚人	lei zyun
 淚光	lei kuaon
 淚出痛腸	lei tshyuq thon jian
-淚如泉涌	lei zyu DZOE ion
+淚如泉湧	lei zyu DZOE ion
 淚如雨下	lei zyu yu gho
 淚容滿面	lei yon mun mi
 淚汪汪	lei uaon uaon
@@ -22248,6 +22278,14 @@ use_preset_vocabulary: true
 無生命	vu sen min
 無生物	Wu sen vaq
 無生物	vu sen vaq
+無產階級	Wu tshae cie ciq
+無產階級	vu tshae cie ciq
+無產階級專政	Wu tshae cie ciq tsoe cin
+無產階級專政	vu tshae cie ciq tsoe cin
+無產階級民主	Wu tshae cie ciq min tsyu
+無產階級民主	vu tshae cie ciq min tsyu
+無產階級革命	Wu tshae cie ciq kaq min
+無產階級革命	vu tshae cie ciq kaq min
 無病自灸	Wu bin zy cieu
 無病自灸	vu bin zy cieu
 無痛分娩	Wu thon fen mi
@@ -22771,6 +22809,7 @@ use_preset_vocabulary: true
 特易購	daq yi keu
 特松加	daq son cia
 特權分子	daq jiu ven tsy
+特權階級	daq jiu cie ciq
 特殊教育	daq zyu ciau yuq
 特爾	daq er
 特種行業	daq tson ghaon gniq
@@ -23674,7 +23713,8 @@ use_preset_vocabulary: true
 產兒	tshae er
 產出率	tshae tshyuq liq
 產學合作	tshae yuq ghaq tsoq
-產學研	tshae yuq GNi
+產學研	tshae yuq gni
+產學研	tshae yuq kni
 產業工人	tshae gniq kon gnin
 產業集羣	tshae gniq jiq jiun
 產狀	tshae dzaon
@@ -24116,6 +24156,8 @@ use_preset_vocabulary: true
 白面無鬚	baq mi vu syu
 白面鼯鼠	baq mi nu tshyu
 白面鼯鼠	baq mi wu tshyu
+白領階級	baq lin cie ciq
+白領階級犯罪	baq lin cie ciq vae zei
 白髮人	baq faq gnin
 白髮齊眉	baq faq ji mei
 白鼻子	baq biq tsy
@@ -24719,6 +24761,7 @@ use_preset_vocabulary: true
 知識分子	tsyu shiq ven tsy
 知識更新	tsyu shiq ken shin
 知識範圍	tsyu shiq vae wei
+知識階級	tsyu shiq cie ciq
 知足常樂	tsyu tsoq dzaon loq
 知道了	tsyu dau lei
 知道自己	tsyu dau zy ci
@@ -24782,11 +24825,16 @@ use_preset_vocabulary: true
 砍壞	khae ua
 砍大山	khae da sae
 砍死	khae sy
-研發人員	GNi faq zyun yu
-研究人員	GNi cieu zyun yu
-研究現狀	GNi cieu yi dzaon
-研究生	GNi cieu san
-研究生院	GNi cieu san yu
+研發人員	gni faq zyun yu
+研發人員	kni faq zyun yu
+研究人員	gni cieu zyun yu
+研究人員	kni cieu zyun yu
+研究現狀	gni cieu yi dzaon
+研究現狀	kni cieu yi dzaon
+研究生	gni cieu san
+研究生	kni cieu san
+研究生院	gni cieu san yu
+研究生院	kni cieu san yu
 砥節礪行	ti ciq li yin
 破了	phou lei
 破了臉	phou laq li
@@ -24933,6 +24981,7 @@ use_preset_vocabulary: true
 社會行動	dzo wei yin don
 社會語言學	dzo wei gniu yi yuq
 社會責任	dzo wei tsaq zyun
+社會階級	dzo wei cie ciq
 社運人士	dzo yun zyun zy
 社長	dzo cian
 祈望	ji vaon
@@ -24964,7 +25013,8 @@ use_preset_vocabulary: true
 神學士	zyun yuq zy
 神學家	zyun yuq cia
 神學生	zyun yuq san
-神學研究所	zyun yuq GNi cieu so
+神學研究所	zyun yuq gni cieu so
+神學研究所	zyun yuq kni cieu so
 神學院	zyun yuq yu
 神家園	zyun cia yu
 神州大陸	zyun cieu da loq
@@ -25124,7 +25174,8 @@ use_preset_vocabulary: true
 科學界	khou yuq ka
 科學的交流	khou yuq tiq ciau lieu
 科學知識	khou yuq tsyu shiq
-科學研究	khou yuq GNi cieu
+科學研究	khou yuq gni cieu
+科學研究	khou yuq kni cieu
 科學社會主義	khou yuq dzo wei tsyu gni
 科學種田	khou yuq tson di
 科學管理	khou yuq kun li
@@ -25155,7 +25206,8 @@ use_preset_vocabulary: true
 科爾沁左翼中	khou er chin tsou yiq tson
 科爾沁左翼中旗	khou er chin tsou yiq tson ji
 科爾沁左翼後旗	khou er chin tsou yiq gheu ji
-科研人員	khou GNi zyun yu
+科研人員	khou gni zyun yu
+科研人員	khou kni zyun yu
 科羅娜	khou lou na
 科羅拉多	khou lou lha tou
 科羅拉多大峽谷	khou lou lha tou da ciaq koq
@@ -26022,6 +26074,7 @@ use_preset_vocabulary: true
 統一招生	thon iq ciau san
 統一教	thon iq ciau
 統假設	thon ko shiq
+統治階級	thon dzyu cie ciq
 統率	thon liq
 統計分析	thon ci fen shiq
 統計學	thon ci yuq
@@ -27318,7 +27371,8 @@ use_preset_vocabulary: true
 自主招生	zy tsyu ciau san
 自主旅遊	zy tsyu li yeu
 自主權	zy tsyu jiu
-自主研發	zy tsyu GNi faq
+自主研發	zy tsyu gni faq
+自主研發	zy tsyu kni faq
 自主神經	zy tsyu zyun cin
 自主系統	zy tsyu shi thon
 自主遊	zy tsyu yeu
@@ -28878,7 +28932,7 @@ use_preset_vocabulary: true
 薩非王朝	saq fi waon jiau
 薪傳	shin dzOE
 薪水階級	shin syu cie ciq
-薪水階級	shin syu ka ciq
+薪水階級	shin syu cie ciq
 薪火相傳	shin hou shian dzOE
 薪盡火傳	shin jin hou dzOE
 藉代	cia de
@@ -28913,6 +28967,7 @@ use_preset_vocabulary: true
 藍牙耳機	lae ngo er ci
 藍田猿人	lae di yu gnin
 藍耳病	lae er bin
+藍領階級	lae lin cie ciq
 藍顏知己	lae yi tsyu ci
 藏人	dzaon gnin
 藏傳佛教	dzaon dzOE vaq ciau
@@ -29611,7 +29666,6 @@ use_preset_vocabulary: true
 被剝削	bei poq shiaq
 被剝削者	bei poq shiaq tse
 被剝削階級	bei poq shiaq cie ciq
-被剝削階級	bei poq shiaq ka ciq
 被加數	bei ko su
 被動	bei don
 被動免疫	bei don mi yuq
@@ -29634,7 +29688,6 @@ use_preset_vocabulary: true
 被壓迫	bei aq paq
 被壓迫民族	bei aq paq min dzoq
 被壓迫階級	bei aq paq cie ciq
-被壓迫階級	bei aq paq ka ciq
 被套	bi thau
 被子	bei tsy
 被子植物	bei tsy jiq vaq
@@ -29684,7 +29737,6 @@ use_preset_vocabulary: true
 被絮	bi syu
 被統治者	bei thon dzyu tse
 被統治階級	bei thon dzyu cie ciq
-被統治階級	bei thon dzyu ka ciq
 被綁	bei paon
 被罩	bei tsau
 被罪	phi zei
@@ -30271,6 +30323,8 @@ use_preset_vocabulary: true
 設計大賽	shiq ci da se
 設計家	shiq ci cia
 許多人	shiu tou gnin
+許嫁	he ko
+許嫁	shiu ko
 許願牌	shiu gniu ba
 訴訟代理人	su dzon de li gnin
 訶斥	hou chiq
@@ -30629,7 +30683,8 @@ use_preset_vocabulary: true
 調查問卷	diau dzo ven ciu
 調查範圍	diau dzo vae wei
 調皮鬼	diau bi kuei
-調研人員	diau GNi zyun yu
+調研人員	diau gni zyun yu
+調研人員	diau kni zyun yu
 調集	diau jiq
 諄諄教導	tsyun tsyun ciau dau
 諄諄教誨	tsyun tsyun ciau huei
@@ -30803,7 +30858,8 @@ use_preset_vocabulary: true
 護耳	wu er
 讀了	doq laq
 讀大學	doq da ghoq
-讀研究生	doq GNi cieu sen
+讀研究生	doq gni cieu san
+讀研究生	doq kni cieu san
 讀萬卷書行萬里路	doq vae ciu syu yin vae li lu
 變不了	pi paq liau
 變了	pi laq
@@ -31131,6 +31187,8 @@ use_preset_vocabulary: true
 買櫝還珠	ma doq wae tsyu
 買的	ma tiq
 買賣人	ma ma gnin
+買辦資產階級	ma bae tsy tshae cie ciq
+買辦階級	ma bae cie ciq
 貸了	de laq
 貸了	the laq
 貸個	de goq
@@ -31214,8 +31272,14 @@ use_preset_vocabulary: true
 資本主義國家	tsy pen tsyu gni koq cia
 資本家	tsy pen cia
 資生堂	tsy sen daon
+資產階級	tsy tshae cie ciq
+資產階級右派	tsy tshae cie ciq yeu pha
+資產階級專政	tsy tshae cie ciq tsoe cin
+資產階級權利	tsy tshae cie ciq jiu li
+資產階級民主	tsy tshae cie ciq min tsyu
+資產階級法權	tsy tshae cie ciq faq jiu
 資產階級自由化	tsy tshae cie ciq zy yeu huo
-資產階級自由化	tsy tshae ka ciq zy yeu huo
+資產階級革命	tsy tshae cie ciq kaq min
 資訊學會	tsy shin yuq wei
 資訊學系	tsy shin yuq shi
 賈人	ku gnin
@@ -31372,6 +31436,7 @@ use_preset_vocabulary: true
 超自然	chiau zy zoe
 超速行駛	chiau soq yin sy
 超長	chiau jian
+超階級	chiau cie ciq
 超音速飛行	chiau in soq fi yin
 超額認	chiau ngaq zyun
 超額認購	chiau ngaq zyun keu
@@ -31720,6 +31785,9 @@ use_preset_vocabulary: true
 轉口貿易	tsoe kheu meu yiq
 轉向架	tsoe shian ko
 轉售他人	tsoe jieu tha gnin
+轉嫁	tsoe cia
+轉嫁到	tsoe cia tau
+轉嫁給	tsoe cia ciq
 轉學生	tsoe ghoq san
 轉差	tsoe tsha
 轉差率	tsoe tsha liq
@@ -31810,6 +31878,7 @@ use_preset_vocabulary: true
 農業銀行	non gniq gnin ghaon
 農業集體化	non gniq jiq thi huo
 農民銀行	non min gnin ghaon
+農民階級	non min cie ciq
 農渠	non jiu
 農耕	non kan
 農耕機	non kan ci
@@ -31835,7 +31904,7 @@ use_preset_vocabulary: true
 返還占有	fae wae ci yeu
 迥若兩人	cion zhiaq lian gnin
 迥若兩人	cion zoq lian gnin
-迦陵頻伽	jia lin bin jia
+迦陵頻伽	cia lin bin jia
 迪士尼樂園	diq zy gni loq yu
 迪慶藏族自治州	diq chin dzaon dzoq zy dzyu cieu
 迪戈加西亞島	diq kou cia shi ia tau
@@ -32109,7 +32178,8 @@ use_preset_vocabulary: true
 進行比較	cin yin pi ciau
 進行着	cin yin dzoq
 進行着	cin yin zyuq
-進行研究	cin yin GNi cieu
+進行研究	cin yin gni cieu
+進行研究	cin yin kni cieu
 進行編程	cin yin pi jin
 進行調整	cin yin diau cin
 進行調查	cin yin diau dzo
@@ -33458,6 +33528,8 @@ use_preset_vocabulary: true
 鐵石人	thiq zaq gnin
 鐵路局長	thiq lu jiuq cian
 鐵錘	thiq zei
+鐺底焦飯	tshan ti ciau vae
+鐺頭	tshan deu
 鑄下大錯	tsyu gho da tshou
 鑄人	tsyu gnin
 鑄成大錯	tsyu jin da tshou
@@ -33843,6 +33915,7 @@ use_preset_vocabulary: true
 長鞭	jian pi
 長音	jian in
 長音程	jian in jin
+長音階	jian in cie
 長音階	jian in ka
 長項	jian ghaon
 長順	jian zyun
@@ -34691,23 +34764,29 @@ use_preset_vocabulary: true
 隋代人	zei de gnin
 隋朝	zei jiau
 隋朝人	zei jiau gnin
+階乘	cie jin
 階乘	ka jin
+階級	cie ciq
 階級分化	cie ciq fen huo
-階級分化	ka ciq fen huo
 階級分析	cie ciq fen shiq
-階級分析	ka ciq fen shiq
+階級化	cie ciq huo
+階級友愛	cie ciq yeu e
+階級式	cie ciq shiq
+階級性	cie ciq shin
+階級意識	cie ciq i shiq
 階級成分	cie ciq jin ven
-階級成分	ka ciq jin ven
+階級敵人	cie ciq diq gnin
+階級本質	cie ciq pen ciq
 階級矛盾	cie ciq mau den
-階級矛盾	ka ciq mau den
+階級矛盾	cie ciq mau den
+階級社會	cie ciq dzo wei
+階級立場	cie ciq liq jian
 階級覺悟	cie ciq ciuq nu
 階級覺悟	cie ciq ciuq wu
-階級覺悟	ka ciq ciuq nu
-階級覺悟	ka ciq ciuq wu
+階級觀點	cie ciq kun ti
+階級路線	cie ciq lu shi
 階級鬥爭	cie ciq teu tsen
-階級鬥爭	ka ciq teu tsen
 階級鬥爭熄滅論	cie ciq teu tsen shiq miq len
-階級鬥爭熄滅論	ka ciq teu tsen shiq miq len
 隔三差五	kaq sae tsha ng
 隔世	kaq syu
 隔了	kaq laq
@@ -35385,6 +35464,7 @@ use_preset_vocabulary: true
 革命發展階段論	kaq min faq ci cie doe len
 革命發展階段論	kaq min faq ci ka doe len
 革命發展階段論	kaq min faq tsoe cie doe len
+革命發展階段論	kaq min faq tsoe ka doe len
 革命知識分子	kaq min tsyu shiq fen tsy
 革命軍人	kaq min ciun gnin
 革命黨人	kaq min taon gnin
@@ -35686,6 +35766,7 @@ use_preset_vocabulary: true
 餅乾店	pin kI ti
 餅乾盒	pin kI ghaq
 餅狀圖	pin dzaon du
+餅鐺	pin tshan
 養了	ian laq
 養人	ian gnin
 養兒防老	ian er baon lau
@@ -36586,6 +36667,7 @@ use_preset_vocabulary: true
 鼎盛時期	tin zhin zy ji
 鼎盛期	tin zhin ji
 鼎足三分	tin tsoq sae fen
+鼎鐺玉石	tin tshan gnioq zaq
 鼎鼎大名	tin tin da min
 鼓勵學生	ku li ghoq san
 鼓吹	ku tshei

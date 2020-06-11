@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_gnincieu
   name: 吳語（鄞州）
-  version: "0.3.9"
+  version: "0.4.0"
   author:
     - Electric Sheep <shinzoqchiuq@outlook.com>
   description: |
@@ -68,7 +68,6 @@ speller:
     - xform/nE/gnie/
     - xform/I/e/
     - xform/W/v/
-    - xform/Gn/kn/
     - xform/N/w/
     - xform/(^y|i)u(?=n)/$1o/
     - derive/([pb]|ph)un/$1oe/
@@ -157,7 +156,6 @@ translator:
     - xform/nE/gnie/
     - xform/I/e/
     - xform/W/v/
-    - xform/Gn/kn/
     - xform/N/w/
     - xform/(\by|i)u(?=n)/$1o/
     - xform/([pbm]|ph)un/$1oe/

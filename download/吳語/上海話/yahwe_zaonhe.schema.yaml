@@ -55,6 +55,7 @@ engine:
 
 speller:
   alphabet: ";zyxwvutsrqponmlkjihgfedcba"
+  # alphabet: ";zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA"
   delimiter: " '"
   algebra:
     - xform/'/;/
@@ -69,7 +70,7 @@ speller:
     # - derive/ah/eh/
     # - derive/eh/ah/
     # - derive/ioh/iuih/
-    # - derive/ioh/iuih/
+    # - derive/iuih/ioh/
     # - derive/ae/e/ # 模糊“蘭”“雷”
     # - derive/ie/i/ # 模糊“煙”“衣”
     - derive/([zsht])yu/$1y/ # 上海話模糊“書”“詩”
