@@ -230,7 +230,12 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
                   <li>南京官話拼音 - <code>langjin</code></li>
                 </ul>
               </li>
-              <li>泰如拼音 - <code>taerv</code></li>
+              <li>
+                泰如拼音輸入法 ℞ <code>osfans/rime-taerv</code>
+                <ul>
+                  <li>泰如拼音 - <code>taerv</code></li>
+                </ul>
+              </li>
               <li>南通方言 - <code>ntw</code></li>
             </ul>
           </details>
@@ -597,8 +602,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
 </ul>
 
-<h3>配方列表（共 39 個配方）
-<br/>List of recipes (39 recipes in total)</h3>
+<h3>配方列表（共 40 個配方）
+<br/>List of recipes (40 recipes in total)</h3>
 
 <ul>
   <li>
@@ -666,6 +671,9 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
             <ul>
               <li>
                 南京話拼音输入法 ℞ <code>uliloewi/lang2jin1</code>
+              </li>
+              <li>
+                泰如拼音輸入法 ℞ <code>osfans/rime-taerv</code>
               </li>
             </ul>
           </details>
