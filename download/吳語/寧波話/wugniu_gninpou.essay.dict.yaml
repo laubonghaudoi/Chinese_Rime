@@ -12,7 +12,7 @@
 
 ---
 name: wugniu_gninpou.essay
-version: "2020.06.11"
+version: "2020.06.19"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -56,6 +56,7 @@ use_preset_vocabulary: true
 一億人	iq i gnin
 一償宿願	iq dzaon soq gniu
 一出生	iq tshyuq san
+一刀兩斷	iq tau lian doe
 一分	iq fen
 一分一秒	iq fen iq miau
 一分子	iq ven tsy
@@ -102,6 +103,7 @@ use_preset_vocabulary: true
 一撮	iq tshoq
 一改故轍	iq ke ku ciq
 一新耳目	iq shin er moq
+一斷	iq doe
 一日份	iq gniq ven
 一日遊	iq gniq yeu
 一時之間	iq zy tsy ci
@@ -140,6 +142,7 @@ use_preset_vocabulary: true
 一神教	iq zyun ciau
 一票人	iq phiau gnin
 一笑了之	iq shiau liau tsy
+一筆勾斷	iq piq keu doe
 一籌莫展	iq jieu moq ci
 一籌莫展	iq jieu moq tsoe
 一線希望	iq shi shi vaon
@@ -220,6 +223,7 @@ use_preset_vocabulary: true
 七大洲	chiq da cieu
 七層架構	chiq zen cia keu
 七扭八歪	chiq gnieu paq hua
+七斷八續	chiq doe paq dzoq
 七日	chiq gniq
 七歲	chiq syu
 七百人	chiq paq gnin
@@ -238,6 +242,7 @@ use_preset_vocabulary: true
 三世紀	sae syu ci
 三人	sae gnin
 三人份	sae gnin ven
+三人同心其利斷金	sae gnin don shin ji li doe cin
 三人成虎	sae gnin jin fu
 三人行	sae zyun yin
 三人行必有我師	sae zyun yin piq yeu ngo sy
@@ -426,6 +431,8 @@ use_preset_vocabulary: true
 下拉	gho lha
 下拉框	gho lha khuaon
 下拉菜單	gho lha tshe tae
+下斷	gho doe
+下斷語	gho toe gniu
 下朝	gho jiau
 下架	gho ko
 下流人士	gho lieu zyun zy
@@ -452,7 +459,6 @@ use_preset_vocabulary: true
 不了了之	paq liau liau tsy
 不了情	paq liau jin
 不了漢	paq liau he
-不亦樂乎	paq yiq loq vu
 不亦樂乎	paq yiq loq wu
 不人道	paq zyun dau
 不信任	paq shin zyun
@@ -572,10 +578,23 @@ use_preset_vocabulary: true
 不敢自專	paq kI zy tsoe
 不敢越雷池一步	paq kI yuq lei dzy iq bu
 不敢越雷池一步	paq kI yuq lei ji iq bu
+不斷	paq doe
+不斷創新	paq doe tshaon shin
 不斷加強	paq doe cia jian
+不斷地	paq doe di
 不斷增加	paq doe tsen ko
-不斷擴大	paq doe khoq dou
+不斷增強	paq doe tsen jian
+不斷完善	paq doe wun zoe
+不斷提高	paq doe di kau
+不斷擴大	paq doe khoq da
 不斷更新	paq doe ken shin
+不斷發展	paq doe faq ci
+不斷發展	paq doe faq tsoe
+不斷的	paq doe tiq
+不斷電系統	paq doe di shi thon
+不斷革命	paq doe kaq min
+不斷革命論	paq doe kaq min len
+不斷頭	paq doe deu
 不日	paq zyuq
 不早了	paq tsau lei
 不明確	paq min chiuq
@@ -1059,6 +1078,8 @@ use_preset_vocabulary: true
 中性人	tson shin gnin
 中文標準交換碼	tson ven piau tsyun ciau wun mo
 中新世	tson shin syu
+中斷	tson doe
+中斷點	tson doe ti
 中日	tson zyuq
 中日戰爭	tson zyuq ci tsen
 中日戰爭	tson zyuq tsoe tsen
@@ -1188,8 +1209,6 @@ use_preset_vocabulary: true
 久慕盛名	cieu mou zhin min
 久負盛名	cieu veu zhin min
 久長	cieu jian
-之乎者也	tsy vu tse ya
-之乎者也	tsy vu tse ye
 之乎者也	tsy wu tse ya
 之乎者也	tsy wu tse ye
 之交	tsy ciau
@@ -1570,6 +1589,7 @@ use_preset_vocabulary: true
 二二得四	gni gni taq sy
 二二拍子	gni gni phaq tsy
 二五一十	gni ng iq zyuq
+二人同心其利斷金	gni gnin don shin ji li doe cin
 二代	gni de
 二任	gni gnin
 二伯	gni paq
@@ -1768,7 +1788,6 @@ use_preset_vocabulary: true
 于韋斯屈萊	yu wei sy chiuq le
 于飛	yu fi
 于飛之樂	yu fi tsy loq
-云乎	yun vu
 云乎	yun wu
 云爾	yun er
 互交	wu ciau
@@ -2687,8 +2706,8 @@ use_preset_vocabulary: true
 今歲	cin sei
 介之推	cia tsy thei
 介之推	ka tsy thei
-介乎	cia fu
-介乎	ka fu
+介乎	cia wu
+介乎	ka wu
 介紹人	ka zhiau gnin
 介面	cia mi
 介面	ka mi
@@ -3518,6 +3537,7 @@ use_preset_vocabulary: true
 倒伏	tau voq
 倒拉	tau lha
 倒數第二	tau su di gni
+倒斷	tau toe
 倒楣鬼	tau mei ciu
 倒背	tau bei
 倒背如流	tau bei zyu lieu
@@ -3651,6 +3671,8 @@ use_preset_vocabulary: true
 假裝會	cia tsaon wei
 假裝有	cia tsaon yeu
 假裝能	cia tsaon nen
+假言判斷	cia yi phun toe
+假言判斷	ko yi phun toe
 假託	cia thoq
 假話	ko wo
 假說	cia syuq
@@ -4053,6 +4075,7 @@ use_preset_vocabulary: true
 傾家	chin cia
 傾家蕩產	chin cia daon tshae
 傾盆大雨	chin ben da yu
+傾移斷層	chin yi doe zen
 傾耳	chin er
 傾耳注目	chin er tsyu moq
 傾耳而聽	chin er er thin
@@ -4078,6 +4101,7 @@ use_preset_vocabulary: true
 僵持不下	cian dzy paq gho
 僵持不下	cian ji paq gho
 僵死	cian sy
+價值判斷	ko jiq phun toe
 價格戰	ko kaq ci
 價格戰	ko kaq tsoe
 價格波動	ko kaq pou don
@@ -4107,7 +4131,7 @@ use_preset_vocabulary: true
 償願	dzaon gniu
 優先認股權	ieu shi gnin ku jiu
 優化大師	ieu huo da sy
-優柔寡斷	ieu zhieu kua doe
+優柔寡斷	ieu zhieu kua toe
 優生	ieu san
 優生優育	ieu san ieu yuq
 優生學	ieu san yuq
@@ -4170,6 +4194,7 @@ use_preset_vocabulary: true
 先小人後君子	shi shiau zyun gheu ciun tsy
 先憂後樂	shi ieu gheu loq
 先戴	shi ta
+先斷	shi doe
 先決問題	shi ciuq ven di
 先王之樂	shi waon tsy yuq
 先生們	shi sen men
@@ -4337,6 +4362,7 @@ use_preset_vocabulary: true
 兜率天	teu saq thi
 兜率天宮	teu saq thi kon
 兜生意	teu san i
+兜肚斷了帶子	teu du doe laq ta tsy
 兢兢	cin cin
 兢兢業業	cin cin gniq gniq
 入世	zyuq syu
@@ -4697,6 +4723,9 @@ use_preset_vocabulary: true
 公教	kon ciau
 公教人員	kon ciau zyun yu
 公文旅行	kon ven li yin
+公斷	kon toe
+公斷人	kon toe gnin
+公斷法院	kon toe faq yu
 公正不阿	kon cin paq ou
 公海自由	kon he zy yeu
 公爵夫人	kon ciaq fu gnin
@@ -4787,6 +4816,7 @@ use_preset_vocabulary: true
 其他品牌	ji tha phin ba
 其他國家	ji tha koq cia
 其他行業	ji tha ghaon gniq
+其利斷金	ji li doe cin
 其它問題	ji tha ven di
 其樂不窮	ji loq paq jion
 其樂無窮	ji loq Wu jion
@@ -5518,6 +5548,7 @@ use_preset_vocabulary: true
 切分音	chiq fen in
 切去	chiq chiu
 切實可行	chiq zyuq khou yin
+切斷	chiq doe
 切望	chiq vaon
 切爾西	chiq er shi
 切爾諾貝利	chiq er noq pei li
@@ -5569,6 +5600,14 @@ use_preset_vocabulary: true
 初級中學	tshu ciq tson ghoq
 初級小學	tshu ciq shiau ghoq
 判分	phun fen
+判斷	phun toe
+判斷出	phun toe tshyuq
+判斷力	phun toe liq
+判斷句	phun toe ciu
+判斷是非	phun toe zy fi
+判斷能力	phun toe nen liq
+判斷詞	phun toe dzy
+判斷題	phun toe di
 判死罪	phun shi zei
 判若兩人	phun zhiaq lian gnin
 判若兩人	phun zoq lian gnin
@@ -5670,6 +5709,7 @@ use_preset_vocabulary: true
 削了	shiaq laq
 削了	shiaq lei
 削去	shiaq chiu
+削斷	shiaq doe
 剋制不了	khaq tsyu paq liau
 前一段時間	zhi iq doe zy ci
 前世	zhi shi
@@ -5707,6 +5747,7 @@ use_preset_vocabulary: true
 剔了	thiq laq
 剔了	thiq lei
 剔去	thiq chiu
+剖斷	phou doe
 剖腹生產	phou foq sen tshae
 剖腹自殺	phou foq zy saq
 剛乾	kaon kI
@@ -5729,6 +5770,7 @@ use_preset_vocabulary: true
 剪個	ci ghoq
 剪個	ci goq
 剪去	ci chiu
+剪斷	ci doe
 副主教	fu tsyu ciau
 副交感神經	fu ciau kI zyun cin
 副團長	fu doe cian
@@ -5756,6 +5798,8 @@ use_preset_vocabulary: true
 割了	kaq laq
 割去	kaq chiu
 割席絕交	kaq zhiq dzyuq ciau
+割恩斷義	kaq en doe gni
+割斷	kaq doe
 割腕自殺	kaq un zy saq
 創世	tshaon syu
 創世紀	tshaon syu ci
@@ -5771,6 +5815,8 @@ use_preset_vocabulary: true
 創立人	tshaon liq gnin
 創辦人	tshaon bae gnin
 創造學	tshaon zau yuq
+剷斷	tshae doe
+剿斷	jiau doe
 劃一不二	waq iq paq er
 劃了	waq laq
 劃分	waq fen
@@ -5812,7 +5858,7 @@ use_preset_vocabulary: true
 力學波	liq yuq pou
 力敵萬人	liq diq vae gnin
 力行	liq yin
-力行近乎仁	liq yin jin fu zyun
+力行近乎仁	liq yin jin wu zyun
 力透紙背	liq theu tsy pei
 功不可沒	kon paq khou maq
 功到自然成	kon tau zy zoe jin
@@ -6319,6 +6365,7 @@ use_preset_vocabulary: true
 勸降	chiu ghaon
 勾了	keu laq
 勾人	keu gnin
+勾斷	keu doe
 勾肩搭背	keu ci taq pei
 勾魂攝魄	keu wen shiq phaq
 勾魂蕩魄	keu wen daon phaq
@@ -6338,6 +6385,7 @@ use_preset_vocabulary: true
 包爾	pau er
 包被	pau bi
 包間	pau kae
+包黑臉斷案子	pau haq li toe EI tsy
 匆促之間	tshon tshoq tsy ci
 匆促間	tshon tshoq ci
 匆忙之間	tshon maon tsy ci
@@ -6810,6 +6858,7 @@ use_preset_vocabulary: true
 卜日	poq gniq
 卜易	poq yi
 占人	ci gnin
+占斷	ci toe
 占星學	ci shin yuq
 占星家	ci shin cia
 卡介苗	kha cia miau
@@ -7222,6 +7271,8 @@ use_preset_vocabulary: true
 反向而行	fae shian er yin
 反圍剿	fae wei jiau
 反圍攻	fae wei kon
+反壟斷	fae lon doe
+反壟斷法	fae lon doe faq
 反射率	fae zhiq liq
 反差	fae tsha
 反應時間	fae in zy ci
@@ -7352,6 +7403,7 @@ use_preset_vocabulary: true
 句型分析	ciu yin fen shiq
 句型練習	ciu yin li zhiq
 句子成分	ciu tsy jin ven
+句斷	ciu doe
 句法分析	ciu faq fen shiq
 另一個	lin iq goq
 另一個人	lin iq goq gnin
@@ -7566,8 +7618,8 @@ use_preset_vocabulary: true
 各集	koq jiq
 各顯所長	koq shi so jian
 合久必分	ghaq cieu piq fen
-合乎	ghaq fu
-合乎邏輯	ghaq fu lou chiq
+合乎	ghaq wu
+合乎邏輯	ghaq wu lou chiq
 合二爲一	ghaq er wei iq
 合作學	ghaq tsoq yuq
 合作無間	ghaq tsoq Wu ci
@@ -7662,6 +7714,7 @@ use_preset_vocabulary: true
 同學錄	don ghoq loq
 同居人	don ciu gnin
 同年同月同日	don gni don yuq don zyuq
+同心斷金	don shin doe cin
 同志酒吧	don tsy cieu pa
 同性戀酒吧	don shin li cieu pa
 同性相斥	don shin shian chiq
@@ -7801,6 +7854,7 @@ use_preset_vocabulary: true
 吸取教訓	shiq tshyu ciau shiun
 吸引不了	shiq yin paq liau
 吸引人	shiq yin gnin
+吸斷	shiq doe
 吸毒成癮	shiq doq jin in
 吸水率	shiq syu liq
 吸的	shiq tiq
@@ -8001,6 +8055,7 @@ use_preset_vocabulary: true
 咬了	ngau laq
 咬了一口	ngau laq iq kheu
 咬人	ngau gnin
+咬斷鐵	ngau doe thiq
 咬耳朵	ngau gni to
 咬耳朵	ngau ng to
 咬舌自盡	ngau zhiq zy jin
@@ -8351,6 +8406,8 @@ use_preset_vocabulary: true
 問政	men cin
 問政於民	men cin yu min
 問斬	ven tsae
+問斷	men toe
+問斷	ven toe
 問朝	men jiau
 問東問西	men ton men shi
 問津	ven cin
@@ -8473,6 +8530,8 @@ use_preset_vocabulary: true
 喝問	haq ven
 喝多了	haq tou lei
 喝斥	haq chiq
+喝神斷鬼	haq zyun toe ciu
+喝神斷鬼	haq zyun toe kuei
 喝醉了	haq tsei lei
 喧譁	soe huo
 喧譁聲	soe huo shin
@@ -8485,6 +8544,8 @@ use_preset_vocabulary: true
 喪生	saon sen
 喪魂失魄	saon wen syuq phaq
 喪魂落魄	saon wen loq phaq
+喫人一個蛋恩情無法斷	chioq gnin iq goq dae en jin Wu faq doe
+喫人一個蛋恩情無法斷	chioq gnin iq goq dae en jin vu faq doe
 喬治一世	jiau dzyu iq syu
 喬治城大學	jiau dzyu jin da ghoq
 喬治奧威爾	jiau dzyu au uei er
@@ -8557,6 +8618,7 @@ use_preset_vocabulary: true
 嘮嘮叨叨	lau lau tau tau
 嘮扯	lau tsho
 嘰哩咕嚕	ci lhi ku lu
+嘰喳不斷	ci dzo paq doe
 嘰嘰咕咕	ci ci ku ku
 嘰裏呱啦	ci li kua lha
 嘰裏咕嚕	ci li ku lu
@@ -8672,6 +8734,7 @@ use_preset_vocabulary: true
 四更	sy kan
 四望	sy vaon
 四櫃	sy guei
+四正斷	sy cin toe
 四歲	sy syu
 四歲時	sy syu zy
 四氫大麻酚	sy chin da mo fen
@@ -9116,6 +9179,7 @@ use_preset_vocabulary: true
 土庫曼人	thu khu mae gnin
 土拉弗氏菌	thu lha faq zy chiun
 土拉河	thu lha ghou
+土斷	thu doe
 土曜日	thu yau zyuq
 土木工程學系	thu moq kon jin yuq shi
 土法生產	thu faq sen tshae
@@ -9227,6 +9291,7 @@ use_preset_vocabulary: true
 坎貝爾侏儒倉鼠	khae pei er tsyu zyu tshaon tshyu
 坐了	zou laq
 坐大	zou da
+坐斷	zou doe
 坐椅	zou i
 坐的	zou tiq
 坐言起行	zou yi chi ghan
@@ -9617,7 +9682,18 @@ use_preset_vocabulary: true
 壞血病	wa shiuq bin
 壞血酸	wa shiuq soe
 壞話	ua wo
+壟斷	lon doe
+壟斷價格	lon doe ko kaq
+壟斷利潤	lon doe li zyun
+壟斷市場	lon doe zy jian
+壟斷性	lon doe shin
+壟斷獨登	lon doe doq ten
+壟斷組織	lon doe tsu ciq
 壟斷行業	lon doe ghaon gniq
+壟斷販賣	lon doe fae ma
+壟斷資本	lon doe tsy pen
+壟斷資本主義	lon doe tsy pen tsyu gni
+壟斷資產	lon doe tsy tshae
 壟斷資產階級	lon doe tsy tshae cie ciq
 壟斷集團	lon doe jiq doe
 壟畝	lon meu
@@ -9631,6 +9707,7 @@ use_preset_vocabulary: true
 士爲知己者死	zy wei tsyu ci tse sy
 壯圍	tsaon wei
 壯圍鄉	tsaon wei shian
+壯士斷腕	tsaon zy doe un
 壯大	tsaon da
 壯大聲勢	tsaon da shin syu
 壯年人	tsaon gni gnin
@@ -9791,6 +9868,7 @@ use_preset_vocabulary: true
 多行不義	tou yin paq gni
 多行不義必自斃	tou yin paq gni piq zy bi
 多見於	tou ci yu
+多謀善斷	tou meu zoe toe
 多財善賈	tou dze zoe ku
 多邊貿易	tou pi meu yiq
 多邊貿易談判	tou pi meu yiq dae phun
@@ -9833,6 +9911,10 @@ use_preset_vocabulary: true
 夢中情人	mon tson jin zyun
 夢寐難忘	mon mei nae vaon
 夢想家	mon shian cia
+夢斷	mon doe
+夢斷魂勞	mon doe wen lau
+夢斷魂消	mon doe wen shiau
+夢斷黃粱	mon doe waon lian
 夢有五不占	mon yeu ng paq ci
 夢行症	mon yin cin
 夥人	hou gnin
@@ -11352,6 +11434,7 @@ use_preset_vocabulary: true
 夾人	kaq gnin
 夾個	kaq goq
 夾山國家森林公園	kaq sae koq cia sen lin kon yu
+夾斷	kaq doe
 夾着尾巴	kaq dzoq mi po
 夾着尾巴	kaq zyuq mi po
 夾被	kaq bi
@@ -11511,7 +11594,7 @@ use_preset_vocabulary: true
 好學	hau yuq
 好學不倦	hau yuq paq jiu
 好學生	hau ghoq san
-好學近乎知	hau yuq jin fu tsyu
+好學近乎知	hau yuq jin wu tsyu
 好容易	hau yon yi
 好心人	hau shin gnin
 好心沒好報	hau shin mhaq hau pau
@@ -11543,6 +11626,9 @@ use_preset_vocabulary: true
 好睏啊	hau khuen gha
 好自爲之	hau zy wei tsy
 好覺	hau kau
+好謀善斷	hau meu zoe toe
+好謀無斷	hau meu Wu toe
+好謀無斷	hau meu vu toe
 好貴	hau ciu
 好長	hau jian
 好驢	hau li
@@ -11583,6 +11669,7 @@ use_preset_vocabulary: true
 妄人	vaon gnin
 妄加	maon ko
 妄加	vaon ko
+妄斷	vaon toe
 妄生穿鑿	maon san tshOE zoq
 妄生穿鑿	vaon san tshOE zoq
 妄自	maon zy
@@ -11809,6 +11896,8 @@ use_preset_vocabulary: true
 孔雀王朝	khon chiaq waon jiau
 字元集	zy gniu jiq
 字尾	zy vi
+字彙判斷任務	zy wei phun toe zyun Wu
+字彙判斷任務	zy wei phun toe zyun vu
 字符集	zy vu jiq
 字裏行間	zy li ghaon ci
 字集	zy jiq
@@ -11835,6 +11924,7 @@ use_preset_vocabulary: true
 孟德爾松	man taq er son
 孟德爾頌	man taq er dzon
 孟村回族自治縣	man tshen wei dzoq zy dzyu yu
+孟母斷織	man meu doe ciq
 季世	ci syu
 季莫申科	ci moq shin khou
 季莫申科	ci moq syun khou
@@ -12271,6 +12361,8 @@ use_preset_vocabulary: true
 官家	kun cia
 官差	kun tsha
 官房長官	kun vaon cian kun
+官斷	kun doe
+官斷十條路	kun doe zyuq diau lu
 官方人士	kun faon zyun zy
 官架子	kun cia tsy
 官癮	kun in
@@ -12280,6 +12372,7 @@ use_preset_vocabulary: true
 定分	din fen
 定座率	din zou liq
 定性分析	din shin fen shiq
+定斷	din toe
 定於	din yu
 定於一尊	din yu iq tsen
 定日	din zyuq
@@ -12551,6 +12644,7 @@ use_preset_vocabulary: true
 家鴿	cia kaq
 家鼠	cia tshyu
 家齊	cia ji
+宸斷	zyun toe
 容容易易	yon yon yi yi
 容易	yon yi
 容易引起	yon yi yin chi
@@ -12656,6 +12750,8 @@ use_preset_vocabulary: true
 察覺到	tshaq ciuq tau
 寡人	kua zyun
 寡人之疾	kua zyun tsy jiq
+寡斷	kua toe
+寡頭壟斷	kua deu lon doe
 寢食難忘	chin zhiq nae vaon
 實分析	zyuq fen shiq
 實到人數	zyuq tau gnin su
@@ -12709,6 +12805,7 @@ use_preset_vocabulary: true
 審問權	shin ven jiu
 審問者	shin ven tse
 審慎行事	shin zyun yin zy
+審斷	shin toe
 審稿人	shin kau gnin
 審計人員	shin ci zyun yu
 審計範圍	shin ci vae wei
@@ -12743,6 +12840,7 @@ use_preset_vocabulary: true
 寶貴	pau kuei
 寶貴意見	pau kuei i ci
 寶鋼集團	pau kaon jiq doe
+寸斷	tshen toe
 寸有所長	tshen yeu so jian
 寸步難行	tshen bu nae yin
 寸草不生	tshen tshau paq sen
@@ -12792,6 +12890,8 @@ use_preset_vocabulary: true
 專家門診	tsoe cia men cin
 專差	tsoe tsha
 專教	tsoe kau
+專斷	tsoe toe
+專斷獨行	tsoe toe doq yin
 專業人員	tsoe gniq zyun yu
 專業人士	tsoe gniq zyun zy
 專業人才	tsoe gniq zyun dze
@@ -13763,6 +13863,7 @@ use_preset_vocabulary: true
 平生大事	bin sen da zy
 平生無大志	bin sen Wu da tsy
 平生無大志	bin sen vu da tsy
+平移斷層	bin yi doe zen
 平行	bin yin
 平行作業	bin yin tsoq gniq
 平行公設	bin yin kon shiq
@@ -13982,6 +14083,7 @@ use_preset_vocabulary: true
 廢了	fi lei
 廢人	fi gnin
 廢品率	fi phin liq
+廢學如斷織	fi yuq zyu doe ciq
 廣交	kuaon ciau
 廣交會	kuaon ciau wei
 廣傳	kuaon dzOE
@@ -14045,6 +14147,7 @@ use_preset_vocabulary: true
 弄個	lon goq
 弄壞	lon ua
 弄壞了	lon ua lei
+弄斷	lon doe
 弄死	lon sy
 弄潮兒	lon jiau er
 弄神弄鬼	lon zyun lon kuei
@@ -14465,6 +14568,7 @@ use_preset_vocabulary: true
 心理醫生	shin li i san
 心生	shin sen
 心生不滿	shin sen paq mun
+心疼肝斷	shin den kI doe
 心眼大	shin ngae dou
 心細膽大	shin shi tae da
 心細膽大	shin shi tae dou
@@ -14499,8 +14603,8 @@ use_preset_vocabulary: true
 志沖斗牛	tsy tshon teu gnieu
 志沖斗牛	tsy tshon teu ngeu
 志行	tsy yin
-忘乎	maon fu
-忘乎所以	vaon fu so yi
+忘乎	maon wu
+忘乎所以	vaon wu so yi
 忘了	maon laq
 忘其所以	vaon ji so yi
 忘年	vaon gni
@@ -14533,6 +14637,7 @@ use_preset_vocabulary: true
 快了	khua lei
 快停了	khua din lei
 快傳	khua dzOE
+快刀斷亂麻	khua tau doe loe mo
 快啊	khua a
 快啊	khua gha
 快好了	khua hau lei
@@ -14580,6 +14685,7 @@ use_preset_vocabulary: true
 怕得罪人	pho taq zei gnin
 怕死	pho shi
 怕死鬼	pho shi kuei
+怕見斷井索	pho ci doe cin soq
 怕鬼	pho kuei
 思想交流	sy shian ciau lieu
 思想家	sy shian cia
@@ -14659,7 +14765,11 @@ use_preset_vocabulary: true
 恩克巴雅爾	en khaq po ia er
 恩威並行	en uei bin yin
 恩怨分明	en iu fen min
+恩情無法斷	en jin Wu faq doe
+恩情無法斷	en jin vu faq doe
 恩愛有加	en e yeu cia
+恩斷意絕	en doe i dzyuq
+恩斷義絕	en doe gni dzyuq
 恩施土家族苗族自治州	en sy thu cia dzoq miau dzoq zy dzyu cieu
 恩格爾	en kaq er
 恩格爾係數	en kaq er shi su
@@ -14775,6 +14885,7 @@ use_preset_vocabulary: true
 愁眉苦眼	zeu mei khu ngae
 愁眉苦臉	zeu mei khu li
 愁眉鎖眼	zeu mei sou ngae
+愁腸寸斷	zeu jian tshen doe
 愁顏	zeu yi
 意中人	i tson gnin
 意出望外	i tshyuq vaon nga
@@ -14789,6 +14900,7 @@ use_preset_vocabulary: true
 意大利麪	i da li mi
 意式濃縮咖啡	i shiq gnion soq kha fi
 意志消沈	i tsy shiau jin
+意斷恩絕	i doe en dzyuq
 意樂	i loq
 意見分歧	i ci fen ji
 愚人	gniu zyun
@@ -14879,6 +14991,7 @@ use_preset_vocabulary: true
 慌忙之間	huaon maon tsy ci
 慎思篤行	zyun sy toq yin
 慎行	zyun yin
+慎謀能斷	zyun meu nen toe
 慘無人道	tshae Wu zyun dau
 慘無人道	tshae vu zyun dau
 慘無天日	tshae Wu thi zyuq
@@ -14938,6 +15051,7 @@ use_preset_vocabulary: true
 應屆畢業生	in ka piq gniq san
 應急狀態	in ciq dzaon the
 應收帳款週轉率	in shieu cian khun cieu tsoe liq
+應機立斷	in ci liq toe
 應用力學	in yon liq yuq
 應用科學	in yon khou yuq
 應用程式介面	in yon jin shiq cia mi
@@ -14981,6 +15095,7 @@ use_preset_vocabulary: true
 懷集縣	wa jiq yu
 懷集縣	wae jiq yu
 懸壺濟世	yu wu ci syu
+懸斷	yu toe
 懸樑自盡	yu lian zy jin
 懸賞分	yu saon fen
 懾人	shiq gnin
@@ -15142,6 +15257,8 @@ use_preset_vocabulary: true
 戚家軍	chiq cia ciun
 戟狀	ciq dzaon
 截尾	jiq vi
+截斷	jiq doe
+截斷衆流	jiq doe tson lieu
 截止日期	jiq tsy zyuq ji
 截止時間	jiq tsy zy ci
 截止頻率	jiq tsy bin liq
@@ -15224,6 +15341,7 @@ use_preset_vocabulary: true
 戴高樂	te kau loq
 戶長	wu cian
 房交會	vaon ciau wei
+房謀杜斷	vaon meu du toe
 房貸銀行	vaon de gnin ghaon
 房貸銀行	vaon the gnin ghaon
 房間裏	vaon kae li
@@ -15274,7 +15392,7 @@ use_preset_vocabulary: true
 才貫二酉	dze kun er yeu
 才高行厚	dze kau ghan gheu
 才高行潔	dze kau ghan ciq
-扎乎	tsaq fu
+扎乎	tsaq wu
 扎了	tsaq laq
 扎伊爾	tsaq i er
 扎掙	tsaq tsen
@@ -15318,6 +15436,7 @@ use_preset_vocabulary: true
 打攪	tan ciau
 打攪到	tan ciau tau
 打敗仗	tan ba cian
+打斷	tan doe
 打更	tan kan
 打架	tan cia
 打死	tan sy
@@ -15409,6 +15528,7 @@ use_preset_vocabulary: true
 扭捏	gnieu gniaq
 扭捏作態	gnieu gniaq tsoq the
 扭擺	gnieu pa
+扭斷	gnieu doe
 扭斷	gnieu doe
 扭曲	gnieu chiuq
 扭矩	gnieu ciu
@@ -15508,6 +15628,7 @@ use_preset_vocabulary: true
 把你	po gni
 把你幹	po gni kI
 把個	po goq
+把斷	po doe
 抓上	tsa zaon
 抓上來	tsa zaon le
 抓上去	tsa zaon chi
@@ -15606,6 +15727,7 @@ use_preset_vocabulary: true
 投降	deu ghaon
 投降主義	deu ghaon tsyu gni
 投降書	deu ghaon syu
+投鞭斷流	deu pi doe lieu
 抖了	teu laq
 抖了起來	teu laq chi le
 抗了	khaon laq
@@ -15625,11 +15747,13 @@ use_preset_vocabulary: true
 抗爭	khaon tsen
 抗生素	khaon sen su
 抗美援朝	khaon mei yu jiau
+折不斷	ciq paq doe
 折價率	ciq ko liq
 折射式望遠鏡	ciq zhiq shiq vaon yu cin
 折射率	ciq zhiq liq
 折扣率	ciq kheu liq
 折損率	ciq sen liq
+折斷	ciq doe
 折現率	ciq yi liq
 折算率	ciq soe liq
 折舊率	ciq jieu liq
@@ -15664,6 +15788,7 @@ use_preset_vocabulary: true
 抽長	chieu cian
 拆了	tshaq laq
 拆分	tshaq fen
+拆斷	tshaq doe
 拆遷人	tshaq chi gnin
 拆遷範圍	tshaq chi vae wei
 拇印	meu in
@@ -15672,6 +15797,7 @@ use_preset_vocabulary: true
 拇指	meu tsy
 拇指甲	meu tsy khaq
 拇趾	meu tsy
+拈斷	kni doe
 拉丁	lha tin
 拉丁人	lha tin gnin
 拉丁化	lha tin huo
@@ -15820,6 +15946,7 @@ use_preset_vocabulary: true
 拉斯穆森	lha sy moq sen
 拉斯維加斯	lha sy vi cia sy
 拉斷	lha doe
+拉斷	lha doe
 拉昇	lha shin
 拉普拉斯	lha phu lha sy
 拉普蘭	lha phu lae
@@ -15900,7 +16027,7 @@ use_preset_vocabulary: true
 拉車	lha tsho
 拉辛	lha shin
 拉近	lha jin
-拉近乎	lha jin fu
+拉近乎	lha jin wu
 拉進	lha cin
 拉進來	lha cin le
 拉進去	lha cin chi
@@ -15956,6 +16083,7 @@ use_preset_vocabulary: true
 拔了	baq laq
 拔了蘿蔔地皮寬	baq laq lou boq di bi khun
 拔個	baq goq
+拔刀斷席	baq tau doe zhiq
 拔地參天	baq di tshae thi
 拔苗助長	baq miau dzu cian
 拖乾淨	thou kI zhin
@@ -15976,6 +16104,7 @@ use_preset_vocabulary: true
 拖時間	thou zy ci
 拖沓	thou thaq
 拖長	thou jian
+拗斷	au doe
 拘傳	ciu dzOE
 拘拿	ciu na
 拙行	tsyuq yin
@@ -16205,6 +16334,7 @@ use_preset_vocabulary: true
 捷報頻傳	jiq pau bin dzOE
 捷爾任斯克	jiq er zyun sy khaq
 捷爾梅茲	jiq er mei tsy
+捻斷	gni doe
 捻神捻鬼	gni zyun gni kuei
 掀了	shi laq
 掀了開來	shi laq khe le
@@ -16236,6 +16366,7 @@ use_preset_vocabulary: true
 掌門人	tsaon men gnin
 掏耳朵	dau gni to
 掏耳朵	dau ng to
+掐斷	khaq doe
 掐架	khaq cia
 掐死	khaq sy
 掐頭去尾	khaq deu chiu vi
@@ -16259,6 +16390,7 @@ use_preset_vocabulary: true
 掛冠而去	kuo kun er chiu
 掛墜盒	kuo dzei ghaq
 掛招牌	kuo ciau ba
+掛斷	kuo doe
 掛杯架	kuo pei ko
 掛架	kuo ko
 掛牌	kuo ba
@@ -16303,6 +16435,7 @@ use_preset_vocabulary: true
 接種率	ciq tson liq
 接管人	ciq kun gnin
 接線生	ciq shi san
+接連不斷	ciq li paq doe
 接頭接耳	ciq deu ciq er
 控制不了	khon tsyu paq liau
 控制範圍	khon tsyu vae wei
@@ -16323,6 +16456,9 @@ use_preset_vocabulary: true
 推敲	thei chiau
 推斥	thei chiq
 推斥力	thei chiq liq
+推斷	thei toe
+推斷出	thei toe tshyuq
+推斷力	thei toe liq
 推背圖	thei pei du
 推行	thei yin
 掩人耳目	i zyun er moq
@@ -16460,6 +16596,7 @@ use_preset_vocabulary: true
 搶了	chian laq
 搶人	chian gnin
 搶救人質	chian cieu zyun tsy
+搶斷	chian doe
 搶時間	chian zy ci
 搶生意	chian san i
 搶風航行	chian fon ghaon yin
@@ -16467,6 +16604,7 @@ use_preset_vocabulary: true
 摔了一跤	saq laq iq kau
 摔交	saq ciau
 摔壞	saq ua
+摔斷	saq doe
 摔斷了	saq doe laq
 摔斷了腿	saq doe laq thei
 摔死	saq sy
@@ -16543,12 +16681,14 @@ use_preset_vocabulary: true
 撕了	sy laq
 撕去	sy chiu
 撕壞	sy ua
+撚斷	kni doe
 撞了	dzaon laq
 撞了	dzaon lei
 撞人	dzaon gnin
 撞個滿懷	dzaon goq mun wa
 撞個滿懷	dzaon goq mun wae
 撞壞	dzaon ua
+撞斷	dzaon doe
 撞死	dzaon sy
 撤櫃	chiq guei
 撥交	paq ciau
@@ -16590,6 +16730,7 @@ use_preset_vocabulary: true
 擁戴	ion te
 擁被而起	ion bi er chi
 擄人勒贖	lou gnin laq dzoq
+擅斷	zoe toe
 擅自	zoe zy
 擅自作主	zoe zy tsoq tsyu
 擅自決定	zoe zy ciuq din
@@ -16626,6 +16767,7 @@ use_preset_vocabulary: true
 擠了	ci laq
 擠人	ci gnin
 擠咕	ci ku
+擠斷	ci doe
 擠死	ci sy
 擠眉弄眼	ci mei lon ngae
 擡的	de tiq
@@ -16639,6 +16781,7 @@ use_preset_vocabulary: true
 擬人	gni zyun
 擬人化	gni zyun huo
 擬人法	gni zyun faq
+擰斷	gnin doe
 擱不下	goq paq gho
 擱不下	koq paq gho
 擱不住	goq paq dzyu
@@ -16682,11 +16825,14 @@ use_preset_vocabulary: true
 攀登架	phae ten ko
 攀附權貴	phae vu jiu kuei
 攀高結貴	phae kau ciq kuei
+攔前斷後	lae zhi doe gheu
 攔櫃	lae guei
+攔腰截斷	lae iau jiq doe
 攙假	tshae ko
 攙雜	tshae dzaq
 攙雜在	tshae dzaq dze
 攛哄	tshoe hon
+攛斷	tshoe doe
 攜家帶口	yi cia ta kheu
 攜家帶眷	yi cia ta ciu
 攝去	shiq chiu
@@ -16806,6 +16952,7 @@ use_preset_vocabulary: true
 放寒假	faon ghEI ko
 放射學	faon zhiq yuq
 放射狀	faon zhiq dzaon
+放斷鷂	faon doe yau
 放暑假	faon syu ko
 放爆竹	faon pau tsoq
 放的	faon tiq
@@ -16850,6 +16997,7 @@ use_preset_vocabulary: true
 故步自封	ku bu zy fon
 故習	ku zhiq
 故障率	ku tsaon liq
+故障診斷	ku tsaon cin toe
 效忠國家	yau tson koq cia
 效死	yau sy
 效率	yau liq
@@ -17323,6 +17471,7 @@ use_preset_vocabulary: true
 文藝學	ven gni yuq
 文藻外語學院	ven tsau nga gniu yuq yu
 文責自負	ven tsaq zy veu
+文身斷髮	ven shin doe faq
 文選集	ven soe jiq
 文集	ven jiq
 斑頭雁	pae deu yi
@@ -17355,6 +17504,9 @@ use_preset_vocabulary: true
 斟酌斟酌	tsen ciaq tsen ciaq
 斟酌決定權	tsen ciaq ciuq din jiu
 斟酒	tsen cieu
+斫斷	tsoq doe
+斬斷	tsae doe
+斬斷情絲	tsae doe jin sy
 斯世	sy syu
 斯人	sy zyun
 斯圖加特	sy du cia daq
@@ -17481,17 +17633,202 @@ use_preset_vocabulary: true
 新集團	shin jiq doe
 新鮮人	shin shi gnin
 新鮮味	shin shi mi
+斷七	doe chiq
 斷不了	doe paq liau
+斷不了	doe paq liau
+斷乎	doe wu
+斷乎不可	doe wu paq khou
+斷乳	doe zyu
 斷了	doe laq
+斷事	toe zy
+斷事如神	toe zy zyu zyun
+斷井頹垣	doe cin dei yu
 斷交	doe ciau
+斷交	doe ciau
+斷仇谷	doe jieu koq
+斷代	doe de
+斷代史	doe de sy
+斷去	doe chi
 斷去	doe chiu
+斷去	doe chiu
+斷口	doe kheu
+斷句	doe ciu
+斷喝	doe haq
+斷垣殘壁	doe yu dzae piq
+斷壁	doe piq
+斷壁殘垣	doe piq dzae yu
+斷壁頹垣	doe piq dei yu
+斷壟	doe lon
+斷奶	doe na
+斷奶期	doe na ji
+斷子嗣	doe tsy dzy
+斷子絕孫	doe tsy dzyuq sen
+斷定	toe din
+斷定是	toe din zy
+斷尾雄雞	doe mi yon ci
+斷尾雄雞	doe vi yon ci
+斷屠	doe du
+斷層	doe zen
+斷層掃描	doe zen sau miau
+斷層線	doe zen shi
+斷崖	doe ya
+斷崖	doe yi
+斷崖式	doe ya shiq
+斷崖式	doe yi shiq
+斷崖絕壁	doe ya dzyuq piq
+斷崖絕壁	doe yi dzyuq piq
+斷席	doe zhiq
+斷幅殘紙	doe foq dzae tsy
+斷弦	doe yi
+斷後	doe gheu
+斷後路	doe gheu lu
+斷得	doe taq
+斷念	doe nE
+斷怪除妖	doe kua dzyu iau
+斷想	doe shian
+斷成	doe jin
+斷成兩截	doe jin lian jiq
+斷手	doe shieu
+斷手斷腳	doe shieu doe ciaq
+斷捨離	doe so li
+斷掌	doe tsaon
+斷斷	doe doe
+斷斷不可	doe doe paq khou
+斷斷續續	doe doe dzoq dzoq
+斷根	doe ken
+斷根絕種	doe ken dzyuq tson
+斷案	doe EI
+斷案如神	doe EI zyu zyun
+斷梗流萍	doe kan lieu bin
+斷梗飄萍	doe kan phiau bin
+斷梗飄蓬	doe kan phiau bon
+斷梗飛蓬	doe kan fi bon
+斷橋	doe jiau
+斷檔	doe taon
+斷氣	doe chi
+斷水	doe syu
+斷決如流	toe ciuq zyu lieu
+斷治	toe dzyu
+斷流	doe lieu
+斷港絕潢	doe kaon dzyuq waon
+斷滅	doe miq
+斷滅論	doe miq len
+斷火	doe hou
+斷炊	doe tshei
+斷無	doe Wu
+斷無	doe vu
+斷無此事	doe Wu tshy zy
+斷無此事	doe vu tshy zy
+斷無此理	doe Wu tshy li
+斷無此理	doe vu tshy li
+斷然	toe zoe
+斷然處置	toe zoe tshyu tsyu
+斷煙	doe i
+斷爛朝報	doe lae jiau pau
+斷片	doe phi
+斷獄	doe yuq
+斷球	doe jieu
+斷瓦殘垣	doe ngo dzae yu
+斷的	doe tiq
+斷碼	doe mo
+斷種	doe tson
+斷章取義	doe tsaon tshyu gni
+斷章截句	doe tsaon jiq ciu
+斷章摘句	doe tsaon tsaq ciu
+斷篇殘簡	doe phi dzae ci
+斷簡殘篇	doe ci dzae phi
+斷簡殘編	doe ci dzae pi
+斷糧	doe lian
+斷紙余墨	doe tsy yu moq
+斷紙餘墨	doe tsy yu moq
+斷絃	doe yi
+斷結	doe ciq
+斷絕	doe dzyuq
+斷絕來往	doe dzyuq le uaon
+斷絕往來	doe dzyuq uaon le
 斷絕邦交	doe dzyuq paon ciau
+斷絕邦交	doe dzyuq paon ciau
+斷絕關係	doe dzyuq kuae shi
+斷網	doe maon
+斷線	doe shi
+斷線風箏	doe shi fon tsen
+斷線鷂子	doe shi yau tsy
+斷編殘簡	doe pi dzae ci
+斷織	doe ciq
+斷續	doe dzoq
+斷肢	doe tsy
+斷背	doe pei
 斷背	doe pei
 斷背山	doe pei sae
+斷背山	doe pei sae
+斷脰決腹	doe deu ciuq foq
+斷腳	doe ciaq
+斷腸	doe jian
 斷腸人	doe jian gnin
+斷腸人	doe jian gnin
+斷腸花	doe jian huo
+斷腸草	doe jian tshau
+斷腿	doe thei
+斷臂	doe pi
+斷臂說書	doe pi syuq syu
+斷落	doe loq
+斷虀畫粥	doe ci wo tsoq
 斷行	doe ghaon
+斷袖	doe zhieu
+斷袖之寵	doe zhieu tsy tshon
+斷袖之癖	doe zhieu tsy phiq
+斷袖分桃	doe zhieu fen dau
+斷裂	doe liq
+斷裂帶	doe liq ta
+斷裂強度	doe liq jian du
+斷裂模數	doe liq mou su
+斷言	toe yi
+斷訊	doe shin
+斷詞	toe dzy
+斷語	toe gniu
+斷貨	doe hou
+斷路	doe lu
+斷路器	doe lu chi
+斷送	doe son
+斷送老頭皮	doe son lau deu bi
+斷過	doe kou
+斷遣	doe chi
+斷配	doe phei
+斷酒	doe cieu
+斷金	doe cin
+斷金亭子	doe cin din tsy
+斷釵重合	doe tsha dzon ghaq
+斷長續短	doe jian dzoq toe
+斷長補短	doe jian pu toe
+斷開	doe khe
+斷除	doe dzyu
+斷雁孤鴻	doe yi ku ghon
+斷難從命	doe nae dzon min
+斷雨殘雲	doe yu dzae yun
+斷電	doe di
+斷非	toe fi
+斷面	doe mi
+斷面圖	doe mi du
+斷頓	doe ten
+斷頭	doe deu
+斷頭將軍	doe deu cian ciun
 斷頭率	doe deu liq
+斷頭率	doe deu liq
+斷頭臺	doe deu de
+斷頭話	doe deu wo
+斷頭路	doe deu lu
+斷頭食	doe deu zhiq
+斷食	doe zhiq
+斷首捐軀	doe shieu ciu chiu
+斷髮	doe faq
+斷髮文身	doe faq ven shin
+斷魂	doe wen
+斷魂椒	doe wen ciau
+斷鶴續鳧	doe ngoq dzoq Wu
+斷黑	doe haq
+斷點	doe ti
 斷點續傳	doe ti dzoq dzOE
+斷點續傳	doe ti dzoq dzoe
 方人	faon gnin
 方外之人	faon nga tsy gnin
 方家	faon cia
@@ -17910,6 +18247,8 @@ use_preset_vocabulary: true
 明尼蘇達大學	min gni su daq da ghoq
 明尼阿波利斯	min gni a pou li sy
 明教	min ciau
+明斷	min toe
+明斷是非	min toe zy fi
 明日	min zyuq
 明日之星	min zyuq tsy shin
 明日黃花	min zyuq waon huo
@@ -18116,6 +18455,7 @@ use_preset_vocabulary: true
 時好時壞	zy hau zy ua
 時尚雜誌	zy zaon dzaq tsy
 時差	zy tsha
+時斷時續	zy doe zy dzoq
 時日	zy zyuq
 時日無多	zy zyuq Wu tou
 時日無多	zy zyuq vu tou
@@ -18720,6 +19060,7 @@ use_preset_vocabulary: true
 有情人	yeu jin gnin
 有情人終成眷屬	yeu jin gnin tson jin ciu dzoq
 有感覺	yeu kI ciuq
+有撇斷	yeu phiq toe
 有效功率	yeu yau kon liq
 有效成分	yeu yau jin ven
 有效期間	yeu yau ji ci
@@ -18839,6 +19180,7 @@ use_preset_vocabulary: true
 望幸	vaon yin
 望彌撒	vaon mi saq
 望文生義	vaon ven sen gni
+望斷	vaon doe
 望斷	vaon doe
 望族	vaon dzoq
 望日	vaon zyuq
@@ -19081,7 +19423,7 @@ use_preset_vocabulary: true
 末末了	maq maq liau
 末行	maq ghaon
 本世紀	pen syu ci
-本乎	pen fu
+本乎	pen wu
 本人	pen gnin
 本人的觀點	pen gnin tiq kun ti
 本任	pen zyun
@@ -19180,6 +19522,7 @@ use_preset_vocabulary: true
 村裏長	tshen li cian
 村長	tshen cian
 杓子	zoq tsy
+杖斷	jian toe
 杜傑爾	du jiq er
 杜塞爾多夫	du se er tou fu
 杜家	du ko
@@ -19267,6 +19610,7 @@ use_preset_vocabulary: true
 板橋中學	pae jiau tson ghoq
 板狀	pae dzaon
 板鴨	pae aq
+枉斷	uaon toe
 枉死	uaon sy
 枉死鬼	uaon sy kuei
 枉自	uaon zy
@@ -19290,9 +19634,11 @@ use_preset_vocabulary: true
 果乾	kou kI
 果仁	kou gnin
 果子乾	kou tsy kI
+果斷	kou toe
 果洛藏族自治州	kou loq dzaon dzoq zy dzyu cieu
 果脯	kou phu
 果膠	kou ciau
+枝幹斷折	tsy kI doe ciq
 枝節問題	tsy ciq ven di
 枝節橫生	tsy ciq wan san
 枝繁葉茂	tsy vae yiq mau
@@ -19376,6 +19722,9 @@ use_preset_vocabulary: true
 某行	mou ghaon
 染指垂涎	gni tsy zei yi
 染風習俗	gni fon zhiq dzoq
+柔懦寡斷	zhieu nou kua toe
+柔腸寸斷	zhieu jian tshen doe
+柔茹寡斷	zhieu zyu kua toe
 柜柳	guei lieu
 查克拉	dzo khaq lha
 查分	dzo fen
@@ -19812,6 +20161,7 @@ use_preset_vocabulary: true
 樸學	phoq yuq
 樹大招風	zyu dou ciau fon
 樹大根深	zyu dou ken shin
+樹幹斷	zyu kI doe
 樹德家商	zyu taq cia saon
 樹德科技大學	zyu taq khou ji da ghoq
 樹狀	zyu dzaon
@@ -19832,6 +20182,7 @@ use_preset_vocabulary: true
 機場大廈	ci jian da gho
 機場大廈	ci jian da so
 機尾	ci vi
+機斷	ci toe
 機智問答	ci tsyu ven taq
 機械人	ci ye gnin
 機械學	ci ye yuq
@@ -19858,6 +20209,11 @@ use_preset_vocabulary: true
 橫了心	wan laq shin
 橫挑鼻子	wan thiau biq tsy
 橫挑鼻子豎挑眼	wan thiau biq tsy zyu thiau ngae
+橫斷	wan doe
+橫斷山脈	wan doe sae maq
+橫斷步道	wan doe bu dau
+橫斷物	wan doe vaq
+橫斷面	wan doe mi
 橫濱人	wan pin gnin
 橫生	wan san
 橫生枝節	wan san tsy ciq
@@ -20007,6 +20363,7 @@ use_preset_vocabulary: true
 正應該	cin in ke
 正教	cin ciau
 正教真詮	cin ciau cin tshoe
+正斷層	cin doe zen
 正月初二	cin yuq tshu gni
 正正確確	cin cin chiuq chiuq
 正派人	cin pha gnin
@@ -20036,6 +20393,10 @@ use_preset_vocabulary: true
 正邪相爭	cin zhia shian tsen
 正長石	cin jian zaq
 正集團	cin jiq doe
+正電子斷層	cin di tsy doe zen
+正電子照射斷層攝影	cin di tsy ciau zhiq doe zen shiq in
+正電子發射斷層照相術	cin di tsy faq zhiq doe zen ciau shian zyuq
+正電子發射計算機斷層	cin di tsy faq zhiq ci soe ci doe zen
 正面人物	cin mi zyun vaq
 正顏厲色	cin ngae li saq
 正顏厲色	cin yi li saq
@@ -20062,6 +20423,7 @@ use_preset_vocabulary: true
 武大	Wu da
 武大郎	Wu da laon
 武學	Wu yuq
+武斷	Wu toe
 武林外傳	Wu lin nga dzoe
 武漢人	Wu he gnin
 武漢大學	Wu he da ghoq
@@ -20306,9 +20668,13 @@ use_preset_vocabulary: true
 殊死戰	zyu sy ci
 殊死戰	zyu sy tsoe
 殊死搏鬥	zyu sy poq teu
+殘垣斷壁	dzae yu doe piq
 殘生	dzae sen
 殘疾人	dzae jiq gnin
 殘疾兒	dzae jiq er
+殘章斷簡	dzae tsaon doe ci
+殘篇斷簡	dzae phi doe ci
+殘編斷簡	dzae pi doe ci
 殞沒	yun maq
 段時間	doe zy ci
 段落分明	doe loq fen min
@@ -20330,6 +20696,7 @@ use_preset_vocabulary: true
 殺人罪	saq gnin zei
 殺人者死	saq gnin tse sy
 殺人越貨	saq gnin yuq hou
+殺伐決斷	saq vaq ciuq toe
 殺出重圍	saq tshyuq dzon wei
 殺彘教子	saq dzy ciau tsy
 殺彘教子	saq ji ciau tsy
@@ -20559,6 +20926,7 @@ use_preset_vocabulary: true
 水彩畫家	syu tshe wo cia
 水彩顏料	syu tshe ngae liau
 水手長	syu shieu cian
+水斷陸絕	syu doe loq dzyuq
 水曜日	syu yau zyuq
 水準	sei tsyun
 水準	syu tsyun
@@ -20651,6 +21019,10 @@ use_preset_vocabulary: true
 決一死戰	ciuq iq sy tsoe
 決了	ciuq laq
 決定簇	ciuq din tshoq
+決斷	ciuq toe
+決斷力	ciuq toe liq
+決斷如流	ciuq toe zyu lieu
+決獄斷刑	ciuq yuq toe yin
 決而不行	ciuq er paq yin
 汽車之家	chi tsho tsy cia
 汽車品牌	chi tsho phin ba
@@ -21056,6 +21428,7 @@ use_preset_vocabulary: true
 沒點	mhaq ti
 沖人	tshon gnin
 沖壞	tshon ua
+沖斷	tshon doe
 沖虛真人	tshon shiu cin gnin
 沖鼻	tshon biq
 沙家浜	so cia pan
@@ -21268,6 +21641,7 @@ use_preset_vocabulary: true
 洗冤集錄	shi iu jiq loq
 洗去	shi chiu
 洗手間	shi shieu kae
+洗斷	shi doe
 洗滌間	shi diq kae
 洗澡間	shi tsau kae
 洗牌	shi ba
@@ -21308,6 +21682,7 @@ use_preset_vocabulary: true
 活動範圍	waq don vae wei
 活化分析	waq huo fen shiq
 活學活用	waq yuq waq yon
+活斷層	waq doe zen
 活死人	waq sy gnin
 活潑生動	waq phaq sen don
 活生生	waq sen sen
@@ -21414,6 +21789,7 @@ use_preset_vocabulary: true
 浮華	vu wo
 浮華不實	vu wo paq zyuq
 浮華世界	vu wo syu ka
+浮萍斷梗	veu bin doe kan
 浮誇	vu khua
 浮誇風	vu khua fon
 浮豔	vu yi
@@ -21539,9 +21915,11 @@ use_preset_vocabulary: true
 淆雜	yau dzaq
 淌淚	thaon lei
 淌眼淚	thaon ngae li
+淒斷	chi doe
 淘氣鬼	dau chi kuei
 淚下沾襟	lei gho ci cin
 淚乾	lei kI
+淚乾腸斷	lei kI jian doe
 淚乾腸斷	lei kI jian doe
 淚人	lei zyun
 淚光	lei kuaon
@@ -21628,6 +22006,8 @@ use_preset_vocabulary: true
 清原滿族自治縣	chin gniu mun dzoq zy dzyu yu
 清史列傳	chin sy liq dzoe
 清大	chin da
+清官難斷家務事	chin kun nae doe cia Wu zy
+清官難斷家務事	chin kun nae doe cia vu zy
 清平世界	chin bin syu ka
 清平樂	chin bin yuq
 清教	chin ciau
@@ -21718,6 +22098,7 @@ use_preset_vocabulary: true
 湯加	thaon cia
 湯加羣島	thaon cia jiun tau
 湯加里羅	thaon cia li lou
+源源不斷	gniu gniu paq doe
 源自	gniu zy
 源自於	gniu zy yu
 源賴朝	gniu la jiau
@@ -21775,6 +22156,7 @@ use_preset_vocabulary: true
 溜開	lhieu khe
 溜鬚	lhieu su
 溜鬚拍馬	lhieu su phaq mo
+溝中斷	keu tson doe
 溝渠	keu jiu
 溪尾	chi vi
 溫家寶	uen cia pau
@@ -21819,6 +22201,7 @@ use_preset_vocabulary: true
 滔天大禍	thau thi da ghou
 滔天大罪	thau thi da zei
 滔天罪行	thau thi zei yin
+滔滔不斷	thau thau paq doe
 滕家	den ko
 滕家鎮	den ko tsyun
 滯礙難行	dzy nge nae yin
@@ -21855,11 +22238,13 @@ use_preset_vocabulary: true
 漂了	phiau laq
 漂亮女人	phiau lian gniu gnin
 漂行	phiau yin
+漂零蓬斷	phiau lin bon doe
 漆了	chiq laq
 漏了	leu laq
 漏了眼	leu laq ngae
 漏杓	leu zoq
 漏行	leu yin
+漏電斷路器	leu di doe lu chi
 漓漓拉拉	li li lha lha
 演個	yi goq
 演出人	yi tshyuq gnin
@@ -22021,6 +22406,7 @@ use_preset_vocabulary: true
 炸成	tso jin
 炸掉	tso diau
 炸斷	tso doe
+炸斷	tso doe
 炸死	tso sy
 炸毀	tso huei
 炸油條	zaq yeu diau
@@ -22146,6 +22532,8 @@ use_preset_vocabulary: true
 無休無止	vu shieu vu tsy
 無依無靠	Wu i Wu khau
 無依無靠	vu i vu khau
+無倒斷	Wu tau doe
+無倒斷	vu tau doe
 無倚無靠	Wu i Wu khau
 無倚無靠	vu i vu khau
 無偏無黨	Wu phi Wu taon
@@ -22266,6 +22654,8 @@ use_preset_vocabulary: true
 無法訪問	vu faq faon ven
 無淚	Wu lei
 無淚	vu lei
+無熔絲斷路器	Wu yon sy doe lu chi
+無熔絲斷路器	vu yon sy doe lu chi
 無爭議	Wu tsen gni
 無爭議	vu tsen gni
 無牌	Wu ba
@@ -22416,13 +22806,15 @@ use_preset_vocabulary: true
 熊貓	yon mau
 熊貓眼	yon mau ngae
 熊貓館	yon mau kun
+熔斷	yon doe
+熔斷器	yon doe chi
 熟了	zoq lei
 熟人	zoq gnin
 熟人熟事	zoq gnin zoq zy
 熟橡膠	zoq zhian ciau
 熟能生巧	zoq nen sen chiau
 熬日子	ngau gniq tsy
-熱乎	gniq fu
+熱乎	gniq wu
 熱乎乎	gniq fu fu
 熱乾麪	gniq kI mi
 熱交換	gniq ciau wun
@@ -22703,6 +23095,7 @@ use_preset_vocabulary: true
 片刻間	phi khaq ci
 片尾	phi vi
 片尾曲	phi vi chiuq
+片斷	phi doe
 片狀	phi dzaon
 片長	phi jian
 版本學	pae pen yuq
@@ -22773,6 +23166,7 @@ use_preset_vocabulary: true
 物理學	vaq li yuq
 物理學家	vaq li yuq cia
 物理家	vaq li cia
+物理診斷	vaq li cin toe
 物腐蟲生	vaq vu dzon san
 物色人才	vaq saq zyun dze
 物色人選	vaq saq zyun soe
@@ -22922,6 +23316,7 @@ use_preset_vocabulary: true
 猶太教堂	yeu tha ciau daon
 猶自	yeu zy
 猿人	yu gnin
+猿腸寸斷	yu jian tshen doe
 獅子大開口	sy tsy da khe kheu
 獅子鼻	sy tsy biq
 獅尾狒	sy vi vi
@@ -22938,8 +23333,11 @@ use_preset_vocabulary: true
 獨挑大樑	doq thiau da lian
 獨掌大權	doq tsaon da jiu
 獨攬大權	doq lae da jiu
-獨斷專行	doq doe tsoe yin
+獨斷	doq toe
+獨斷專行	doq toe tsoe yin
+獨斷專行	doq toe tsoe yin
 獨斷獨行	doq doe doq yin
+獨斷獨行	doq toe doq yin
 獨生	doq san
 獨生女	doq san gniu
 獨生子	doq san tsy
@@ -22955,6 +23353,7 @@ use_preset_vocabulary: true
 獨行	doq yin
 獨行俠	doq yin yaq
 獨行其是	doq yin ji zy
+獨行獨斷	doq yin doq doe
 獨覺	doq ciuq
 獨身生活	doq shin sen waq
 獨間	doq kae
@@ -23019,6 +23418,7 @@ use_preset_vocabulary: true
 玉屏侗族自治縣	gnioq bin don dzoq zy dzyu yu
 玉樹藏族自治州	gnioq zyu dzaon dzoq zy dzyu cieu
 玉皇大帝	gnioq waon da ti
+玉簫聲斷	gnioq shiau shin doe
 玉顏	gnioq yi
 玉龍納西族自治縣	gnioq lon naq shi dzoq zy dzyu yu
 王世	waon syu
@@ -23139,6 +23539,8 @@ use_preset_vocabulary: true
 理過去	li kou chi
 琉球人	lieu jieu gnin
 琳娜	lin na
+琴斷朱弦	jin doe tsyu yi
+琴斷朱絃	jin doe tsyu yi
 琴架	jin ko
 琴錘	jin zei
 琴鳥	jin gniau
@@ -23946,9 +24348,12 @@ use_preset_vocabulary: true
 當家花旦	taon ko huo tae
 當差	taon tsha
 當差的	taon tsha tiq
+當斷不斷	taon doe paq doe
+當斷不斷反受其亂	taon doe paq doe fae zhieu ji loe
 當日	taon zyuq
 當朝	taon jiau
 當朝宰相	taon jiau tse shian
+當機立斷	taon ci liq toe
 當歸鴨	taon kuei aq
 當班人員	taon pae zyun yu
 當真假	taon cin ko
@@ -24023,7 +24428,6 @@ use_preset_vocabulary: true
 登機手續櫃檯	ten ci shieu dzoq guei de
 登機牌	ten ci ba
 登高望遠	ten kau vaon yu
-發乎情止乎禮義	faq fu jin tsy fu li gni
 發乎情止乎禮義	faq wu jin tsy wu li gni
 發乾	faq kI
 發了	faq laq
@@ -24398,6 +24802,11 @@ use_preset_vocabulary: true
 目光呆滯	moq kuaon te ji
 目光遠大	moq kuaon yu da
 目前還不清楚	moq zhi wa paq chin tshu
+目斷	moq toe
+目斷飛鴻	moq doe fi ghon
+目斷魂消	moq doe wen shiau
+目斷魂銷	moq doe wen shiau
+目斷鱗鴻	moq doe lin ghon
 目標任務	moq piau zyun Wu
 目標任務	moq piau zyun vu
 目標責任制	moq piau tsaq zyun tsyu
@@ -24621,6 +25030,7 @@ use_preset_vocabulary: true
 眼睜睜	ngae tsen tsen
 眼科學	ngae khou yuq
 眼科醫生	ngae khou i sen
+眼穿腸斷	ngae tshOE jian doe
 眼觀六路耳聽八方	ngae kun loq lu er thin paq faon
 眼觀鼻鼻觀心	ngae kun biq biq kun shin
 眼鏡架	ngae cin ko
@@ -24824,6 +25234,7 @@ use_preset_vocabulary: true
 砍人	khae gnin
 砍壞	khae ua
 砍大山	khae da sae
+砍斷	khae doe
 砍死	khae sy
 研發人員	gni faq zyun yu
 研發人員	kni faq zyun yu
@@ -24839,6 +25250,7 @@ use_preset_vocabulary: true
 破了	phou lei
 破了臉	phou laq li
 破口大罵	phou kheu da mo
+破土斷木	phou thu doe moq
 破壞	phou wa
 破壞力	phou wa liq
 破壞性	phou wa shin
@@ -24873,8 +25285,6 @@ use_preset_vocabulary: true
 碰一鼻子灰	ban iq biq tsy huei
 碰了	ban laq
 碰壞	ban ua
-確乎	chiuq fu
-確乎	chiuq vu
 確乎	chiuq wu
 確係	chiuq shi
 確保	chiuq pau
@@ -24925,6 +25335,7 @@ use_preset_vocabulary: true
 碼率	mo liq
 碼長城	mo jian jin
 碼頭工人	mo deu kon gnin
+碾斷	gni doe
 磁學	dzy yuq
 磁放大器	dzy faon da chi
 磊落大方	lei loq da faon
@@ -24934,6 +25345,7 @@ use_preset_vocabulary: true
 磨人	mou gnin
 磨去	mou chiu
 磨損率	mou sen liq
+磨斷	mou doe
 磨時間	mou zy ci
 礦物學	khuaon vaq yuq
 礦長	khuaon cian
@@ -25057,6 +25469,7 @@ use_preset_vocabulary: true
 祭祖大典	ci tsu da ti
 祭神大典	ci zyun da ti
 祿勸彝族苗族自治縣	loq chiu yi dzoq miau dzoq zy dzyu yu
+禁斷	cin doe
 禁止令行	cin tsy lin yin
 禁止通行	cin tsy thon yin
 禁治產人	cin dzyu tshae gnin
@@ -25196,6 +25609,7 @@ use_preset_vocabulary: true
 科教片	khou ciau phi
 科教組	khou ciau tsu
 科教興國	khou ciau shin koq
+科斷	khou doe
 科爾	khou er
 科爾多瓦	khou er tou ngo
 科爾尼洛夫	khou er gni loq fu
@@ -25382,6 +25796,7 @@ use_preset_vocabulary: true
 立交	liq ciau
 立交橋	liq ciau jiau
 立大功	liq da kon
+立斷	liq doe
 立方公分	liq faon kon fen
 立櫃	liq guei
 立狀	liq dzaon
@@ -25398,6 +25813,7 @@ use_preset_vocabulary: true
 竟自	cin zy
 竟被	cin bei
 章學誠	tsaon yuq jin
+章決句斷	tsaon ciuq ciu toe
 童生	don san
 童顏	don yi
 童顏鶴髮	don yi ngoq faq
@@ -25558,6 +25974,7 @@ use_preset_vocabulary: true
 筆墨生涯	piq moq sen ya
 筆墨生涯	piq moq sen yi
 筆底生花	piq ti sen huo
+筆斷意連	piq doe i li
 筆耕	piq kan
 等了	ten laq
 等人	ten gnin
@@ -25708,6 +26125,7 @@ use_preset_vocabulary: true
 簡單商品生產	ci tae saon phin sen tshae
 簡單生產	ci tae sen tshae
 簡截了當	ci jiq liau taon
+簡斷	ci toe
 簡易	ci yi
 簡易師範	ci yi sy vae
 簡易法	ci yi faq
@@ -25840,6 +26258,7 @@ use_preset_vocabulary: true
 紅日	ghon zyuq
 紅日當午	ghon zyuq taon wu
 紅河哈尼族彝族自治州	ghon ghou ha gni dzoq yi dzoq zy dzyu cieu
+紅消香斷	ghon shiau shian doe
 紅淚	ghon lei
 紅熊貓	ghon yon mau
 紅牌	ghon ba
@@ -25963,6 +26382,7 @@ use_preset_vocabulary: true
 細胞學說	shi pau yuq syuq
 細胞狀	shi pau dzaon
 細胞生物學	shi pau sen vaq yuq
+細胞診斷法	shi pau cin toe faq
 細胞骨架	shi pau kuaq ko
 細菌學	shi chiun yuq
 細行	shi yin
@@ -25981,6 +26401,7 @@ use_preset_vocabulary: true
 終身不忘	tson shin paq vaon
 終身大事	tson shin da zy
 終身教育	tson shin ciau yuq
+絃斷	yi doe
 絃樂	yi yuq
 絃樂器	yi yuq chi
 絃樂四重奏	yi yuq sy dzon tseu
@@ -26003,6 +26424,7 @@ use_preset_vocabulary: true
 結伴而行	ciq bun er yin
 結婚紀念日	ciq huen ci nE zyuq
 結尾	ciq vi
+結斷	ciq toe
 結晶學	ciq cin yuq
 結晶狀	ciq cin dzaon
 結構學	ciq keu yuq
@@ -26043,6 +26465,7 @@ use_preset_vocabulary: true
 絞包針	ciau pau cin
 絞扭	ciau gnieu
 絞斷	ciau doe
+絞斷	gau doe
 絞架	ciau cia
 絞死	ciau sy
 絞殺	ciau saq
@@ -26199,10 +26622,12 @@ use_preset_vocabulary: true
 網羅人材	maon lou zyun dze
 網路咖啡	maon lu kha fi
 網路架構	maon lu cia keu
+網路診斷	maon lu cin toe
 網路雜誌	maon lu dzaq tsy
 綵牌樓	tshe ba leu
 綵筆生花	tshe piq sen huo
 綸巾	kuae cin
+綿綿不斷	mi mi paq doe
 綿長	mi jian
 緊了	cin laq
 緊張狀態	cin cian dzaon the
@@ -26220,6 +26645,7 @@ use_preset_vocabulary: true
 緊迫釘人	cin paq tin gnin
 緊集	cin jiq
 線人	shi gnin
+線斷風箏	shi doe fon tsen
 線狀	shi dzaon
 線鋸	shi ciu
 線長	shi jian
@@ -26254,6 +26680,7 @@ use_preset_vocabulary: true
 縮放自如	soq faon zy zyu
 縮頭烏龜	soq deu u ciu
 縮頭縮尾	soq deu soq mi
+縱斷面	tson doe mi
 縱橫交佈	tson wan ciau pu
 縱橫交錯	tson wan ciau tshou
 縱橫家	tson wan cia
@@ -26315,6 +26742,7 @@ use_preset_vocabulary: true
 繞道而行	gniau dau er yin
 繡學號	shieu yuq ghau
 繩鋸木斷	zhin ciu moq doe
+繩鋸木斷	zhin ciu moq doe
 繪架座	wei ko zou
 繫上	ci zaon
 繫上	shi zaon
@@ -26338,10 +26766,12 @@ use_preset_vocabulary: true
 繼任者	ci zyun tse
 繼往聖之絕學	ci uaon shin tsy dzyuq yuq
 繼承人	ci jin gnin
+繼續不斷	ci dzoq paq doe
 繼續教育	ci dzoq ciau yuq
 續任	dzoq zyun
 續假	dzoq ko
 續傳	dzoq dzoe
+續斷	dzoq doe
 續集	dzoq jiq
 纏夾二先生	ji kaq gni shi san
 纔乾透	dze kI theu
@@ -26508,6 +26938,7 @@ use_preset_vocabulary: true
 義妖傳	gni iau dzoe
 義學	gni yuq
 義守大學	gni shieu da ghoq
+義斷恩絕	gni doe en dzyuq
 義渠	gni jiu
 義甲	gni ciaq
 義行	gni yin
@@ -26871,6 +27302,8 @@ use_preset_vocabulary: true
 聖哈辛托	shin ha shin thoq
 聖塔蒙尼加	shin thaq mon gni cia
 聖大非	shin da fi
+聖安地列斯斷層	shin EI di liq sy doe zen
+聖安德列斯斷層	shin EI taq liq sy doe zen
 聖弗蘭西斯科	shin faq lae shi sy khou
 聖彼得	shin pi taq
 聖彼得堡	shin pi taq pau
@@ -26925,6 +27358,7 @@ use_preset_vocabulary: true
 聯絡時間	li loq zy ci
 聯繫人	li shi gnin
 聯繫匯率	li shi wei liq
+聯言判斷	li yi phun toe
 聯邦大樓	li paon da leu
 聯集	li jiq
 聰了	tshon liau
@@ -26983,6 +27417,7 @@ use_preset_vocabulary: true
 聽其言觀其行	thin ji yi kun ji yin
 聽力理解	thin liq li ka
 聽差	thin tsha
+聽斷	thin toe
 聽的	thin tiq
 聽膩了	thin gni lei
 聽見了	thin ci lei
@@ -27005,6 +27440,7 @@ use_preset_vocabulary: true
 肛交	kaon ciau
 肛瘻	kaon leu
 肝腫大	kI tson da
+肝腸寸斷	kI jian tshen doe
 股分	ku ven
 股市行情	ku zy ghaon jin
 股本金比率	ku pen cin pi liq
@@ -27252,6 +27688,7 @@ use_preset_vocabulary: true
 腳背	ciaq pei
 腳行	ciaq yin
 腳趾甲	ciaq tsy khaq
+腸斷	jian doe
 腸間膜	jian ci mou
 腹背	foq pei
 腹背受敵	foq pei zhieu diq
@@ -27333,6 +27770,7 @@ use_preset_vocabulary: true
 臀位分娩	den wei fen mi
 臀圍	den wei
 臂膀	pi paon
+臆斷	i toe
 臉大	li da
 臉盆架	li ben ko
 臘味	laq vi
@@ -28974,6 +29412,8 @@ use_preset_vocabulary: true
 藏族人	dzaon dzoq gnin
 藏貓貓	dzaon mau mau
 藏鏡人	dzaon cin gnin
+藕斷	ngeu doe
+藕斷絲連	ngeu doe sy li
 藝壓當行	gni aq taon ghaon
 藝術學院	gni zyuq yuq yu
 藝術家	gni zyuq cia
@@ -29071,6 +29511,7 @@ use_preset_vocabulary: true
 處了	tshyu laq
 處分	tshyu ven
 處分法	tshyu ven faq
+處斷	tshyu toe
 處死	tshyu sy
 處死刑	tshyu sy yin
 處理問題	tshyu li ven di
@@ -29429,6 +29870,7 @@ use_preset_vocabulary: true
 行樹	yin zyu
 行檢	yin ci
 行權	yin jiu
+行權立斷	yin jiu liq toe
 行止	yin tsy
 行波管	yin pou kun
 行淫	yin yin
@@ -29612,6 +30054,7 @@ use_preset_vocabulary: true
 衝你	tshon gni
 衝你	tshon ng
 衝出重圍	tshon tshyuq dzon wei
+衝斷層	tshon doe zen
 衝自己	tshon zy ci
 衣不解帶	i paq ka ta
 衣分	i ven
@@ -29704,6 +30147,7 @@ use_preset_vocabulary: true
 被愛	bei e
 被我	bei ngo
 被打	bei tan
+被打斷	bei tan doe
 被扣	bei kheu
 被抓	bei tsa
 被拐	bei kua
@@ -29787,6 +30231,7 @@ use_preset_vocabulary: true
 被髮纓冠	phi faq in kun
 被黑	bei haq
 裁判長	ze phun cian
+裁斷	ze doe
 裂了	liq laq
 裂腦人	liq nau gnin
 裂變炸彈	liq pi tso dae
@@ -30225,6 +30670,7 @@ use_preset_vocabulary: true
 言行若一	yi yin zhiaq iq
 言行若一	yi yin zoq iq
 言行錄	yi yin loq
+言語道斷	yi gniu dau doe
 言談之間	yi dae tsy ci
 言談間	yi dae ci
 言論自由	yi len zy yeu
@@ -30241,6 +30687,7 @@ use_preset_vocabulary: true
 計生	ci sen
 計生委	ci sen uei
 計生工作	ci sen kon tsoq
+計算機斷層	ci soe ci doe zen
 計算機科學	ci soe ci khou yuq
 計算機科學家	ci soe ci khou yuq cia
 計算機集成制造	ci soe ci jiq jin tsyu zau
@@ -30250,6 +30697,7 @@ use_preset_vocabulary: true
 計量地理學	ci lian di li yuq
 計量經濟學	ci lian cin ci yuq
 訊問	shin ven
+訊斷	shin toe
 訊框傳送	shin khuaon dzOE son
 討了	thau laq
 討人	thau gnin
@@ -30328,6 +30776,13 @@ use_preset_vocabulary: true
 許願牌	shiu gniu ba
 訴訟代理人	su dzon de li gnin
 訶斥	hou chiq
+診斷	cin toe
+診斷出	cin toe tshyuq
+診斷出來	cin toe tshyuq le
+診斷功能	cin toe kon nen
+診斷器	cin toe chi
+診斷書	cin toe syu
+診斷試劑	cin toe sy ci
 註冊人	tsyu tshaq gnin
 註冊日期	tsyu tshaq zyuq ji
 註生娘娘	tsyu san gnian gnian
@@ -30340,6 +30795,8 @@ use_preset_vocabulary: true
 評價分類	bin ko fen lei
 評分	bin fen
 評分標準	bin fen piau tsyun
+評斷	bin toe
+評斷是非	bin toe zy fi
 評獎人	bin cian gnin
 評論家	bin len cia
 評選人	bin soe gnin
@@ -30347,8 +30804,13 @@ use_preset_vocabulary: true
 詞人墨客	dzy gnin moq khaq
 詞尾	dzy vi
 詞彙分解	dzy wei fen ka
-詞彙判斷任務	dzy wei phun doe zyun Wu
-詞彙判斷任務	dzy wei phun doe zyun vu
+詞彙判斷	dzy wei phun toe
+詞彙判斷任務	dzy wei phun toe zyun Wu
+詞彙判斷任務	dzy wei phun toe zyun Wu
+詞彙判斷任務	dzy wei phun toe zyun vu
+詞彙判斷任務	dzy wei phun toe zyun vu
+詞彙判斷作業	dzy wei phun toe tsoq gniq
+詞彙判斷法	dzy wei phun toe faq
 詞彙學	dzy wei yuq
 詞牌	dzy ba
 詞長效應	dzy jian yau in
@@ -30727,6 +31189,7 @@ use_preset_vocabulary: true
 論交	len ciau
 論功行賞	len kon yin saon
 論文集	len ven jiq
+論斷	len toe
 論爭	len tsen
 論理學	len li yuq
 論長道短	len jian dau toe
@@ -30817,6 +31280,7 @@ use_preset_vocabulary: true
 證據確鑿	cin ciu chiuq zoq
 識大體	shiq da thi
 識字率	shiq zy liq
+識文斷字	shiq ven toe zy
 譚人鳳	dae zyun von
 譜分析	pu fen shiq
 譜學	pu yuq
@@ -31184,6 +31648,7 @@ use_preset_vocabulary: true
 買回家	ma wei cia
 買大彩	ma dou tshe
 買家	ma ko
+買斷	ma doe
 買櫝還珠	ma doq wae tsyu
 買的	ma tiq
 買賣人	ma ma gnin
@@ -31313,6 +31778,7 @@ use_preset_vocabulary: true
 賣光了	ma kuaon lei
 賣出去	ma tshyuq chi
 賣家	ma ko
+賣斷	ma doe
 賣的	ma tiq
 賣藥人	ma yaq gnin
 賤人	zhi gnin
@@ -31388,6 +31854,8 @@ use_preset_vocabulary: true
 走了風聲	tseu laq fon shin
 走人	tseu gnin
 走向世界	tseu shian syu ka
+走向斷層	tseu shian doe zen
+走向滑動斷層	tseu shian waq don doe zen
 走吧	tseu pa
 走味	tseu vi
 走孃家	tseu gnian ko
@@ -31413,7 +31881,7 @@ use_preset_vocabulary: true
 趁早行動	chin tsau yin don
 趁機行事	chin ci yin zy
 超世之才	chiau syu tsy dze
-超乎	chiau fu
+超乎	chiau wu
 超人	chiau gnin
 超人一等	chiau gnin iq ten
 超人裝	chiau gnin tsaon
@@ -31433,6 +31901,7 @@ use_preset_vocabulary: true
 超級大國	chiau ciq da koq
 超級女生	chiau ciq gniu san
 超維空間	chiau vi khon ci
+超聲診斷	chiau shin cin doe
 超自然	chiau zy zoe
 超速行駛	chiau soq yin sy
 超長	chiau jian
@@ -31471,6 +31940,7 @@ use_preset_vocabulary: true
 足以自豪	tsoq yi zy ghau
 足歲	tsoq syu
 足球大賽	tsoq jieu da se
+足謀寡斷	tsoq meu kua toe
 趾甲	tsy ciaq
 趾甲	tsy khaq
 跌了	tiq laq
@@ -31479,6 +31949,7 @@ use_preset_vocabulary: true
 跌宕	tiq daon
 跌宕昭彰	tiq daon ciau tsaon
 跌宕起伏	tiq daon chi voq
+跌斷	tiq doe
 跌死	tiq sy
 跌自	tiq zy
 跑不了	bau paq liau
@@ -31579,6 +32050,7 @@ use_preset_vocabulary: true
 路加福音	lu cia foq in
 路南彝族自治縣	lu nEI yi dzoq zy dzyu yu
 路德教派	lu taq ciau pha
+路斷人稀	lu doe zyun shi
 路易	lu yi
 路易士	lu yi zy
 路易威登	lu yi uei ten
@@ -31792,6 +32264,7 @@ use_preset_vocabulary: true
 轉差	tsoe tsha
 轉差率	tsoe tsha liq
 轉念之間	tsoe nE tsy ci
+轉換斷層	tsoe wun doe zen
 轉日回天	tsoe zyuq wei thi
 轉業軍人	tsoe gniq ciun gnin
 轉生	tsoe sen
@@ -31911,6 +32384,7 @@ use_preset_vocabulary: true
 迪斯尼樂園	diq sy gni loq yu
 迪斯科吧	diq sy khou pa
 迴旋加速器	wei zoe ko soq chi
+迴腸寸斷	wei jian tshen doe
 迴避學習	wei bi ghoq zhiq
 迴避學習	wei bi ghoq zyuq
 迷了	mi laq
@@ -31981,6 +32455,7 @@ use_preset_vocabulary: true
 逃避責任	dau bi tsaq zyun
 逆向行駛	gniq shian yin sy
 逆差	gniq tsha
+逆斷層	gniq doe zen
 逆水行舟	gniq syu yin cieu
 逆流而行	gniq lieu er yin
 逆耳	gniq er
@@ -32138,9 +32613,12 @@ use_preset_vocabulary: true
 連山壯族瑤族自治縣	li sae tsaon dzoq yau dzoq zy dzyu yu
 連帶處分	li ta tshyu ven
 連帶責任	li ta tsaq zyun
+連接不斷	li ciq paq doe
 連日	li zyuq
 連日來	li zyuq le
 連生	li san
+連綿不斷	li mi paq doe
+連續不斷	li dzoq paq doe
 連續生產	li dzoq sen tshae
 連續集	li dzoq jiq
 連選連任	li soe li zyun
@@ -32187,6 +32665,7 @@ use_preset_vocabulary: true
 進諫	cin ci
 進退自如	cin thei zy zyu
 進餐時間	cin tshae zy ci
+逸塵斷鞅	yiq jin doe ian
 逸宕	yiq daon
 逸樂	yiq loq
 逸趣橫生	yiq tshyu wan san
@@ -32284,6 +32763,7 @@ use_preset_vocabulary: true
 道德教育	dau taq ciau yuq
 道教	dau ciau
 道教徒	dau ciau du
+道斷	dau doe
 道格拉斯	dau kaq lha sy
 道爾頓	dau er ten
 道爾頓制	dau er ten tsyu
@@ -32371,6 +32851,7 @@ use_preset_vocabulary: true
 遮人	tso gnin
 遮人耳目	tso gnin er moq
 遮天蔽日	tso thi bi zyuq
+遮斷	tso doe
 遮架	tso ko
 遯世	den syu
 遲了	dzy laq
@@ -32405,6 +32886,7 @@ use_preset_vocabulary: true
 選舉產生	soe ciu tshae sen
 選舉罷免	soe ciu ba mi
 選舉罷免法	soe ciu ba mi faq
+選言判斷	soe yi phun toe
 選讀生	soe doq san
 選賢任能	soe yi zyun nen
 選集	soe jiq
@@ -32997,7 +33479,6 @@ use_preset_vocabulary: true
 邦交正常化	paon ciau cin dzaon huo
 邦家	paon cia
 邪世	zhia syu
-邪乎	ya fu
 邪乎	ya wu
 邪呼	ya fu
 邪妄	zhia vaon
@@ -33405,6 +33886,7 @@ use_preset_vocabulary: true
 鋸工	ciu kon
 鋸掉	ciu diau
 鋸斷	ciu doe
+鋸斷	ciu doe
 鋸木	ciu moq
 鋸木屑	ciu moq shiq
 鋸木廠	ciu moq chian
@@ -33513,6 +33995,8 @@ use_preset_vocabulary: true
 鐮狀	li dzaon
 鐮狀細胞血症	li dzaon shi pau shiuq cin
 鐵了心	thiq laq shin
+鐵口直斷	thiq kheu jiq toe
+鐵嘴直斷	thiq tsyu jiq toe
 鐵板大鼓	thiq pae da ku
 鐵板茄子	thiq pae jia tsy
 鐵架	thiq ko
@@ -34062,6 +34546,9 @@ use_preset_vocabulary: true
 間接選舉	ci ciq soe ciu
 間數	ci su
 間斷	ci doe
+間斷	ci doe
+間斷不繼	ci doe paq ci
+間斷性	ci doe shin
 間斷性	ci doe shin
 間期	ci ji
 間歇	ci shiq
@@ -34123,7 +34610,7 @@ use_preset_vocabulary: true
 闖下大禍	tshaon gho da ghou
 闖世界	tshaon syu ka
 關不了	kuae paq liau
-關乎	kuae fu
+關乎	kuae wu
 關了	kuae laq
 關人	kuae gnin
 關係人	kuae shi gnin
@@ -34190,6 +34677,7 @@ use_preset_vocabulary: true
 防防	baon baon
 防防	vaon vaon
 阻擋不了	tsu taon paq liau
+阻斷	tsu doe
 阻止不了	tsu tsy paq liau
 阻礙交通	tsu nge ciau thon
 阿不來提阿不都熱西提	a paq le di a paq tu gniq shi di
@@ -34793,12 +35281,15 @@ use_preset_vocabulary: true
 隔代遺傳	kaq de yi dzOE
 隔壁家	kaq piq ko
 隔壁有耳	kaq piq yeu er
+隔斷	kaq doe
+隔斷板	kaq doe pae
 隔日	kaq gniq
 隔水相望	kaq syu shian vaon
 隔河相望	kaq ghou shian vaon
 隔湖相望	kaq wu shian vaon
 隔溪相望	kaq chi shian vaon
 隔牆有耳	kaq zhian yeu er
+隔皮斷貨	kaq bi doe hou
 隔行	kaq ghaon
 隔行如隔山	kaq ghaon zyu kaq sae
 隔行掃描	kaq ghaon sau miau
@@ -34820,6 +35311,7 @@ use_preset_vocabulary: true
 隱去	in chiu
 隱沒	in maq
 隱生宙	in sen jieu
+隴斷	lon doe
 隻貓	tsaq mae
 隻身一人	tsaq shin iq gnin
 雁杳魚沈	yi yau ng jin
@@ -34828,7 +35320,10 @@ use_preset_vocabulary: true
 雄圖大業	yon du da gniq
 雄大	yon da
 雄才大略	yon dze da liaq
+雄斷	yon doe
 雄辯家	yon bi cia
+雄雞斷尾	yon ci doe mi
+雄雞斷尾	yon ci doe vi
 雅典娜	ia ti na
 雅加達	ia cia daq
 雅加達人	ia cia daq gnin
@@ -35276,6 +35771,7 @@ use_preset_vocabulary: true
 電磁學	di dzy yuq
 電纜調制解調器	di lae diau tsyu ka diau chi
 電腦教室	di nau ciau syuq
+電腦斷層掃描	di nau doe zen sau miau
 電視大學	di zy da ghoq
 電視影集	di zy in jiq
 電視櫃	di zy guei
@@ -35399,6 +35895,7 @@ use_preset_vocabulary: true
 非我莫屬	fi ngo moq dzoq
 非拉丁字符	fi lha tin zy vu
 非教不可	fi kau paq khou
+非斷不可	fi doe paq khou
 非核國家	fi ghaq koq cia
 非核武器國家	fi ghaq Wu chi koq cia
 非歐幾何學	fi eu ci ghou yuq
@@ -35488,6 +35985,7 @@ use_preset_vocabulary: true
 韓村樂	ghEI tshen loq
 韓詩外傳	ghEI sy nga dzOE
 音分	in fen
+音容淒斷	in yon chi doe
 音樂	in yuq
 音樂之聲	in yuq tsy shin
 音樂人	in yuq gnin
@@ -35554,6 +36052,7 @@ use_preset_vocabulary: true
 頎長	ji jian
 預備役軍人	yu bei yuq ciun gnin
 預分	yu fen
+預斷	yu toe
 預行	yu yin
 預言家	yu yi cia
 預謀殺人	yu meu saq gnin
@@ -35592,6 +36091,7 @@ use_preset_vocabulary: true
 頭面人物	deu mi zyun vaq
 頭髮鬍子一把抓	deu faq wu tsy iq po tsa
 頸長	cin jian
+頹垣斷壁	dei yu doe piq
 頹壞	dei ua
 頹顏	dei yi
 頻傳	bin dzOE
@@ -35686,7 +36186,9 @@ use_preset_vocabulary: true
 風土人情	fon thu zyun jin
 風塵中人	fon jin tson gnin
 風大	fon dou
+風波不斷	fon pou paq doe
 風流人物	fon lieu zyun vaq
+風箏斷了線	fon tsen doe liau shi
 風行	fon ghan
 風行	fon yin
 風行一時	fon ghan iq zy
@@ -35703,6 +36205,7 @@ use_preset_vocabulary: true
 颳大風	kuaq dou fon
 飄灑自如	phiau sa zy zyu
 飄然出世	phiau zoe tshyuq syu
+飄蓬斷梗	phiau bon doe kan
 飛也似	fi ya zy
 飛了	fi laq
 飛了	fi lei
@@ -35818,6 +36321,7 @@ use_preset_vocabulary: true
 餘糧收集	yu lian shieu jiq
 餘糧收集制	yu lian shieu jiq tsyu
 餘集	yu jiq
+餘震不斷	yu tsyun paq doe
 餞行	ji yin
 館長	kun cian
 餵了	iu laq
@@ -35884,6 +36388,7 @@ use_preset_vocabulary: true
 香港貿易發展局	shian kaon meu yiq faq ci jiuq
 香港貿易發展局	shian kaon meu yiq faq tsoe jiuq
 香港銀行公會	shian kaon gnin ghaon kon wei
+香火不斷	shian hou paq doe
 香火很盛	shian hou hen zhin
 香蕉人	shian ciau gnin
 香醇美味	shian zyun mei vi
@@ -36500,6 +37005,7 @@ use_preset_vocabulary: true
 鸚鵡螺	in Wu lou
 鸛鳥	kun gniau
 鸞翔鳳集	loe jian von jiq
+鸞膠續斷	loe ciau dzoq doe
 鹵人	lu gnin
 鹹味	ghae mi
 鹹菜乾	ghae tshe kI
@@ -36751,6 +37257,7 @@ use_preset_vocabulary: true
 齒狀	tshy dzaon
 齒狀物	tshy dzaon vaq
 齒輪傳動	tshy len dzOE don
+齧斷	gniq doe
 龍勝各族自治縣	lon shin koq dzoq zy dzyu yu
 龍心大悅	lon shin da yuq
 龍涎	lon yi
@@ -36765,6 +37272,8 @@ use_preset_vocabulary: true
 龍行虎步	lon yin fu bu
 龍袍加身	lon bau ko shin
 龍貓	lon mau
+龍門山斷層	lon men sae doe zen
+龍門斷層	lon men doe zen
 龍門架	lon men ko
 龍頭老大	lon deu lau da
 龍顏	lon yi
