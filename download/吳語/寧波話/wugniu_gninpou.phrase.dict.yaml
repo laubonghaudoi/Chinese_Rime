@@ -17,7 +17,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.06.22"
+version: "2020.07.05"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -414,6 +414,8 @@ use_preset_vocabulary: true
 跑春	phau tshyun	55
 飯𣖄骨	vae chiau kuaq	55
 漬浞	ciq tsoq	55
+遲早點	dzy tsau ti
+遲了百遲	dzy liau paq dzy
 
 # 江蘇教育版《寧波方言詞典》 其他寫法
 
@@ -649,6 +651,9 @@ use_preset_vocabulary: true
 跌落了	toq loq lei	55
 跌落𡀂	toq loq lei	55
 指甲深	tsy khaq shin	55
+池塘	dzy daon
+大池	dou dzy
+遲發人	dzy faq gnin
 
 # 其他詞彙
 
@@ -714,7 +719,7 @@ use_preset_vocabulary: true
 跌落金釵埠頭下	tiq loq cin tsho bu deu gho
 跌落金釵埠頭下	toq loq cin tsho bu deu gho
 航船埠頭軋出人	ghaon ZOE bu deu gaq tshyuq gnin
-河埠頭⿰氵丈衣裳	ghou bu deu jian i zaon
+河埠頭滰衣裳	ghou bu deu jian i zaon
 河埠頭講阿婆	ghou bu deu kaon aq bou
 唸經堂講新婦
 小白河頭
@@ -804,6 +809,7 @@ use_preset_vocabulary: true
 張家瀛	cian ko yin
 貫橋頭
 大池頭	dou ji deu
+大池頭	dou dzy deu
 聖旨亭跟
 汪家宅跟	uaon ko dzaq ken
 崔衙前
@@ -963,7 +969,6 @@ use_preset_vocabulary: true
 爛䏘多花頭
 做賴三
 叫花子勿留過夜食
-煩撮佬	vae tshaq lau
 萬打萬
 老呆大	lau nge dou
 丁相公寫一字
@@ -2616,9 +2621,9 @@ use_preset_vocabulary: true
 出張嘴巴	tshyuq jian tsyu po
 出張嘴巴	tshyuq cian tsyu po
 六月六
-黃狗貓⿰氵丈肉	wu kI mae jian gnioq
-黃狗貓⿰氵丈肉	waon kI mae jian gnioq
-黃狗貓⿰氵丈肉	waon keu mae jian gnioq
+黃狗貓滰肉	wu kI mae jian gnioq
+黃狗貓滰肉	waon kI mae jian gnioq
+黃狗貓滰肉	waon keu mae jian gnioq
 阿婆嘔我做人客	aq bou eu ngo tsou gnin khaq
 老公嘔我拗腰骨
 喫飯打先鋒
@@ -4164,6 +4169,7 @@ use_preset_vocabulary: true
 謳渠倒痰瓶	eu ji tau dae bin
 謳渠一聲	eu ji iq shin
 謳渠淘淘米	eu ji dau dau mi
+煩赤佬	vae tshaq lau
 # 地名
 寧波市	gnin pou zy
 寧波市	gnin poq zy
@@ -5304,7 +5310,6 @@ use_preset_vocabulary: true
 射哚哚尿	dza to to syu
 𠑞哚哚尿	dza to to syu
 手手
-⿰氵丈手手	jian shieu shieu
 滰手手
 嘎嘎鴨	ga ga ae
 嘵嘵豬	gniau gniau tsyu
@@ -5710,6 +5715,8 @@ use_preset_vocabulary: true
 簡余晏	ci yu i
 茶遲飯晏	dzo ji vae i
 茶遲飯晏	dzo ji vae ae
+茶遲飯晏	dzo dzy vae i
+茶遲飯晏	dzo dzy vae ae
 言笑晏晏	yi shiau i i
 # 忖
 忖一忖
@@ -7398,7 +7405,8 @@ use_preset_vocabulary: true
 得力文具
 舜宇
 雙鹿
-雙鹿電池
+雙鹿電池	saon loq di ji
+雙鹿電池	saon loq di dzy
 太平鳥	tha bin gniau
 博洋
 博洋家紡	poq yan cia faon
@@ -7742,6 +7750,10 @@ use_preset_vocabulary: true
 拆家棚	tshaq ko ban
 家棚精	ko ban cin
 延晏	yi ae
+嵌餡子
+嵌牢
+嵌進
+嵌的
 # 八股文拆分詞彙
 〇兩	lin lian
 一九九兩	iq cieu cieu lian
@@ -8420,6 +8432,7 @@ use_preset_vocabulary: true
 兩號人物	lian ghau zyun vaq
 兩號機	lian ghau ci
 兩號電池	lian ghau di ji
+兩號電池	lian ghau di dzy
 兩街	lian ka
 二話勿講	gni wo vaq kaon
 二話弗講	gni wo vaq kaon
@@ -12337,7 +12350,8 @@ VCD	vi shi di
 大橋敬老院	dou jiau cin lau yu
 大橋街	dou jiau ka
 大步街	da bu ka
-大池墩水庫
+大池墩水庫	dou ji ten syu khu
+大池墩水庫	dou dzy ten syu khu
 大汪路
 大河	da ghou
 大河南路	da ghou nEI lu
@@ -13850,6 +13864,7 @@ VCD	vi shi di
 東海花園
 東海菜市場
 東海蓄電池公司	ton he shiuq di ji kon sy
+東海蓄電池公司	ton he shiuq di dzy kon sy
 東海集團	ton he jiq doe
 東港新村
 東湖花園

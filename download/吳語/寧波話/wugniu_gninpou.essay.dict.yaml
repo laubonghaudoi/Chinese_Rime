@@ -12,7 +12,7 @@
 
 ---
 name: wugniu_gninpou.essay
-version: "2020.06.19"
+version: "2020.07.04"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -155,6 +155,7 @@ use_preset_vocabulary: true
 一般貿易	iq pae meu yiq
 一萬人	iq vae gnin
 一萬個	iq vae goq
+一號電池	iq ghau di dzy
 一號電池	iq ghau di ji
 一行	iq ghaon
 一行	iq yin
@@ -228,6 +229,7 @@ use_preset_vocabulary: true
 七歲	chiq syu
 七百人	chiq paq gnin
 七級浮屠	chiq ciq vu du
+七號電池	chiq ghau di dzy
 七號電池	chiq ghau di ji
 七行	chiq ghaon
 七行詩	chiq ghaon sy
@@ -341,6 +343,7 @@ use_preset_vocabulary: true
 三萬人	sae vae gnin
 三萬個	sae vae goq
 三萬兩千	sae vae lian chi
+三號電池	sae ghau di dzy
 三號電池	sae ghau di ji
 三行	sae ghaon
 三角學	sae koq yuq
@@ -836,6 +839,7 @@ use_preset_vocabulary: true
 世界文化遺產	syu ka ven huo yi tshae
 世界文化遺產地	syu ka ven huo yi tshae di
 世界新專	syu ka shin tsoe
+世界新聞傳播學院	syu ka shin ven dzOE pou ghoq yu
 世界新聞傳播學院	syu ka shin ven dzOE pou yuq yu
 世界新聞專科學校	syu ka shin ven tsoe khou ghoq yau
 世界新聞職業學校	syu ka shin ven ciq gniq ghoq yau
@@ -1019,7 +1023,6 @@ use_preset_vocabulary: true
 中國教育	tson koq ciau yuq
 中國教育網	tson koq ciau yuq maon
 中國文化大學	tson koq ven huo da ghoq
-中國文化學院	tson koq ven huo yuq yu
 中國文學	tson koq ven yuq
 中國文學藝術界聯合會	tson koq ven yuq gni zyuq ka li ghaq wei
 中國日報	tson koq zyuq pau
@@ -1048,7 +1051,6 @@ use_preset_vocabulary: true
 中央大學	tson ian da ghoq
 中央宣傳部	tson ian soe dzOE bu
 中央專制集權	tson ian tsoe tsyu jiq jiu
-中央戲劇學院	tson ian shi jiq yuq yu
 中央日報	tson ian zyuq pau
 中央民族大學	tson ian min dzoq da ghoq
 中央警官學校	tson ian cin kun ghoq yau
@@ -1515,6 +1517,7 @@ use_preset_vocabulary: true
 乾雲蔽日	kI yun bi zyuq
 乾雷	kI lei
 乾電	kI di
+乾電池	kI di dzy
 乾電池	kI di ji
 乾霍亂	kI hoq loe
 乾颱	kI de
@@ -1860,6 +1863,7 @@ use_preset_vocabulary: true
 五萬人	ng vae gnin
 五萬個	ng vae goq
 五蘊熾盛苦	ng iun tsy zhin khu
+五號電池	ng ghau di dzy
 五號電池	ng ghau di ji
 五行	ng ghaon
 五行	ng yin
@@ -3579,8 +3583,6 @@ use_preset_vocabulary: true
 倫敦大學亞非學院	len ten da ghoq ia fi yuq yu
 倫敦大學學院	len ten da ghoq ghoq yu
 倫敦大學學院	len ten da ghoq yuq yu
-倫敦帝國理工學院	len ten ti koq li kon ghoq yu
-倫敦帝國理工學院	len ten ti koq li kon yuq yu
 倭人	ou gnin
 倭馬亞王朝	ou ma ia waon jiau
 倭馬亞王朝	ou mo ia waon jiau
@@ -4211,7 +4213,6 @@ use_preset_vocabulary: true
 先進國家	shi cin koq cia
 先進生產者	shi cin sen tshae tse
 先進集體	shi cin jiq thi
-先馳得點	shi dzy taq ti
 光了	kuaon laq
 光了	kuaon lei
 光了了	kuaon liau liau
@@ -4257,6 +4258,7 @@ use_preset_vocabulary: true
 光豔動人	kuaon yi don gnin
 光電二極	kuaon di er jiq
 光電二極管	kuaon di er jiq kun
+光電池	kuaon di dzy
 光電池	kuaon di ji
 克什米爾	khaq zyuq mi er
 克倫威爾	khaq len uei er
@@ -6442,6 +6444,7 @@ use_preset_vocabulary: true
 化學能	huo yuq nen
 化學變化	huo yuq pi huo
 化學鍵	huo yuq ji
+化學電池	huo yuq di dzy
 化學電池	huo yuq di ji
 化學需氧量	huo yuq syu yan lian
 化日	huo gniq
@@ -7003,6 +7006,7 @@ use_preset_vocabulary: true
 原自	gniu zy
 原被告	gniu bei kau
 原鄉人	gniu shian gnin
+原電池	gniu di dzy
 原電池	gniu di ji
 厭世	i syu
 厲娜	li na
@@ -7940,7 +7944,6 @@ use_preset_vocabulary: true
 周大福	cieu da foq
 周家	cieu ko
 周易	cieu yi
-周星馳	cieu shin dzy
 周朝	cieu ciau
 周樹人	cieu zyu zyun
 周率	cieu liq
@@ -8723,7 +8726,6 @@ use_preset_vocabulary: true
 四川人	sy tshoe gnin
 四川大學	sy tshoe da ghoq
 四川師範大學	sy tshoe sy vae da ghoq
-四川師範學院	sy tshoe sy vae yuq yu
 四川日報	sy tshoe zyuq pau
 四年制的大學	sy gni tsyu tiq da ghoq
 四年生	sy gni sen
@@ -8750,6 +8752,7 @@ use_preset_vocabulary: true
 四萬人	sy vae gnin
 四萬個	sy vae goq
 四處張望	sy tshyu cian vaon
+四號電池	sy ghau di dzy
 四號電池	sy ghau di ji
 四行	sy ghaon
 四集	sy jiq
@@ -8955,6 +8958,7 @@ use_preset_vocabulary: true
 國家興亡	koq cia shin vaon
 國家航天局	koq cia ghaon thi jiuq
 國家航空公司	koq cia ghaon khon kon sy
+國家行政學院	koq cia yin cin ghoq yu
 國家行政學院	koq cia yin cin yuq yu
 國家行政機關	koq cia yin cin ci kuae
 國家裁判	koq cia ze phun
@@ -9029,10 +9033,6 @@ use_preset_vocabulary: true
 國防教育	koq vaon ciau yuq
 國防生	koq baon san
 國防生	koq vaon san
-國防管理學院	koq baon kun li yuq yu
-國防管理學院	koq vaon kun li yuq yu
-國防語言學院	koq baon gniu yi yuq yu
-國防語言學院	koq vaon gniu yi yuq yu
 國防部長	koq baon bu cian
 國防部長	koq vaon bu cian
 國防醫學	koq baon i yuq
@@ -9066,7 +9066,6 @@ use_preset_vocabulary: true
 國際競爭	koq ci jin tsen
 國際米蘭足球俱樂部	koq ci mi lae tsoq jieu jiu loq bu
 國際貿易	koq ci meu yiq
-國際關係學院	koq ci kuae shi yuq yu
 國難日	koq nae zyuq
 圍下去	wei gho chi
 圍了	wei laq
@@ -9473,7 +9472,6 @@ use_preset_vocabulary: true
 基準日	ci tsyun zyuq
 基爾	ci er
 基爾庫克	ci er khu khaq
-基督學院	ci toq yuq yu
 基督教	ci toq ciau
 基督教徒	ci toq ciau du
 基督教會	ci toq ciau wei
@@ -9737,6 +9735,7 @@ use_preset_vocabulary: true
 外交團	nga ciau doe
 外交大臣	nga ciau da jin
 外交學	nga ciau yuq
+外交學院	nga ciau ghoq yu
 外交學院	nga ciau yuq yu
 外交官	nga ciau kun
 外交家	nga ciau cia
@@ -10690,6 +10689,7 @@ use_preset_vocabulary: true
 大滿貫	da mun kun
 大漠	da moq
 大漢	da he
+大漢技術學院	da he ji zyuq ghoq yu
 大漢技術學院	da he ji zyuq yuq yu
 大漢族	da he dzoq
 大漢族主義	da he dzoq tsyu gni
@@ -10939,6 +10939,7 @@ use_preset_vocabulary: true
 大荔縣	da li yu
 大華	da wo
 大華中學	da wo tson ghoq
+大華技術學院	da wo ji zyuq ghoq yu
 大華技術學院	da wo ji zyuq yuq yu
 大華晚報	da wo vae pau
 大菱鮃	da lin bin
@@ -11372,7 +11373,6 @@ use_preset_vocabulary: true
 天體力學	thi thi liq yuq
 天體物理學	thi thi vaq li yuq
 天體物理學家	thi thi vaq li yuq cia
-太原師範學院	tha gniu sy vae yuq yu
 太古洋行	tha ku yan ghaon
 太子舍人	tha tsy so zyun
 太學	tha yuq
@@ -11393,8 +11393,11 @@ use_preset_vocabulary: true
 太阿倒持	tha ou tau dzy
 太阿倒持	tha ou tau ji
 太陽照在桑乾河上	tha yan ciau dze saon kI ghou zaon
+太陽能電池	tha yan nen di dzy
 太陽能電池	tha yan nen di ji
+太陽電池	tha yan di dzy
 太陽電池	tha yan di ji
+太陽電池板	tha yan di dzy pae
 太陽電池板	tha yan di ji pae
 夫人	fu gnin
 夫妻之間	fu chi tsy ci
@@ -11887,7 +11890,6 @@ use_preset_vocabulary: true
 子集	tsy jiq
 子集合	tsy jiq ghaq
 孑遺生物	ciq yi sen vaq
-孔子學院	khon tsy yuq yu
 孔子家語	khon tsy cia gniu
 孔孟學會	khon man yuq wei
 孔尚任	khon zaon zyun
@@ -12208,9 +12210,7 @@ use_preset_vocabulary: true
 學長制	yuq cian tsyu
 學門	yuq men
 學閥	yuq vaq
-學院	yuq yu
-學院派	yuq yu pha
-學院路	yuq yu lu
+學院院長	ghoq yu yu cian
 學院院長	yuq yu yu cian
 學雜費	yuq dzaq fi
 學雷鋒	ghoq lei fon
@@ -12277,12 +12277,9 @@ use_preset_vocabulary: true
 安徒生童話	EI du sen don wo
 安得拉邦	EI taq lha paon
 安德生	EI taq sen
-安徽中醫學院	EI huei tson i yuq yu
 安徽人	EI huei gnin
 安徽大學	EI huei da ghoq
-安徽工程科技學院	EI huei kon jin khou ji yuq yu
 安徽師範大學	EI huei sy vae da ghoq
-安徽建築工業學院	EI huei ci tsoq kon gniq yuq yu
 安心吧	EI shin pa
 安息吧	EI shiq pa
 安息日	EI shiq zyuq
@@ -12780,6 +12777,7 @@ use_preset_vocabulary: true
 實踐家專	zyuq dzae cia tsoe
 實踐家政	zyuq dzae cia cin
 實踐家政專科學校	zyuq dzae cia cin tsoe khou ghoq yau
+實踐設計管理學院	zyuq dzae shiq ci kun li ghoq yu
 實踐設計管理學院	zyuq dzae shiq ci kun li yuq yu
 實際問題	zyuq ci ven di
 實際範圍	zyuq ci vae wei
@@ -13282,7 +13280,6 @@ use_preset_vocabulary: true
 屈膝投降	chiuq shiq deu ghaon
 屋架	oq ko
 屎尿	sy gniau
-屏東師範學院	bin ton sy vae yuq yu
 屏東教育大學	bin ton ciau yuq da ghoq
 屏邊苗族自治縣	bin pi miau dzoq zy dzyu yu
 展示櫃	ci zy guei
@@ -13403,7 +13400,6 @@ use_preset_vocabulary: true
 工學院	kon yuq yu
 工廠自動化	kon chian zy don huo
 工廠衛生	kon chian wei sen
-工技學院	kon ji yuq yu
 工業七國集團	kon gniq chiq koq jiq doe
 工業化國家	kon gniq huo koq cia
 工業化學	kon gniq huo yuq
@@ -13418,7 +13414,6 @@ use_preset_vocabulary: true
 工程力學	kon jin liq yuq
 工程圖學	kon jin du yuq
 工程學系	kon jin yuq shi
-工程學院	kon jin yuq yu
 工程師學	kon jin sy yuq
 工程技術人員	kon jin ji zyuq zyun yu
 工程浩大	kon jin ghau da
@@ -13760,7 +13755,6 @@ use_preset_vocabulary: true
 帝國主義分子	ti koq tsyu gni ven tsy
 帝國大廈	ti koq da gho
 帝國大廈	ti koq da so
-帝國理工學院	ti koq li kon yuq yu
 帥呆了	se te laq
 帥呆了	se te lei
 師大	sy da
@@ -13773,7 +13767,6 @@ use_preset_vocabulary: true
 師生盃	sy san pei
 師範大學	sy vae da ghoq
 師範學校	sy vae ghoq yau
-師範學院	sy vae yuq yu
 師範教育	sy vae ciau yuq
 師範生	sy vae san
 師長	sy cian
@@ -14102,18 +14095,15 @@ use_preset_vocabulary: true
 廣州中醫藥大學	kuaon cieu tson i yaq da ghoq
 廣州人	kuaon cieu gnin
 廣州日報	kuaon cieu zyuq pau
-廣州美術學院	kuaon cieu mei zyuq yuq yu
 廣廈萬間	kuaon gho vae ci
 廣廈萬間	kuaon so vae ci
 廣東人	kuaon ton gnin
 廣東海洋大學	kuaon ton he yan da ghoq
+廣東科學技術職業學院	kuaon ton khou yuq ji zyuq ciq gniq ghoq yu
 廣東科學技術職業學院	kuaon ton khou yuq ji zyuq ciq gniq yuq yu
-廣東藥學院	kuaon ton yaq yuq yu
-廣東醫學院	kuaon ton i yuq yu
 廣西人	kuaon shi gnin
 廣西壯族自治區	kuaon shi tsaon dzoq zy dzyu chiu
 廣西師範大學	kuaon shi sy vae da ghoq
-廣西師範學院	kuaon shi sy vae yuq yu
 廣西自治區	kuaon shi zy dzyu chiu
 廳長	thin cian
 延平中學	yi bin tson ghoq
@@ -15371,6 +15361,7 @@ use_preset_vocabulary: true
 手拉葫蘆	shieu lha wu lu
 手拿	shieu no
 手指甲	shieu tsy khaq
+手機電池	shieu ci di dzy
 手機電池	shieu ci di ji
 手無縛雞之力	shieu Wu bou ci tsy liq
 手無縛雞之力	shieu vu bou ci tsy liq
@@ -15501,6 +15492,7 @@ use_preset_vocabulary: true
 扣啊	kheu a
 扣啊	kheu gha
 扣問	kheu men
+扣式電池	kheu shiq di dzy
 扣式電池	kheu shiq di ji
 扣牌	kheu ba
 扣率	kheu liq
@@ -15610,7 +15602,6 @@ use_preset_vocabulary: true
 技術參數	ji zyuq tshae su
 技術問題	ji zyuq ven di
 技術學校	ji zyuq ghoq yau
-技術學院	ji zyuq yuq yu
 技術密集型	ji zyuq miq jiq yin
 技術專科學校	ji zyuq tsoe khou ghoq yau
 技術工人	ji zyuq kon gnin
@@ -16966,6 +16957,7 @@ use_preset_vocabulary: true
 放長線	faon jian shi
 放長線釣大魚	faon jian shi tiau dou ng
 政大	cin da
+政府大學院	cin fu da ghoq yu
 政府大學院	cin fu da yuq yu
 政戰學校	cin ci ghoq yau
 政戰學校	cin tsoe ghoq yau
@@ -17207,6 +17199,7 @@ use_preset_vocabulary: true
 教育孩子	ciau yuq ghe tsy
 教育學	ciau yuq yuq
 教育學員	ciau yuq yuq yu
+教育學院	ciau yuq ghoq yu
 教育學院	ciau yuq yuq yu
 教育家	ciau yuq cia
 教育局	ciau yuq jiuq
@@ -17462,14 +17455,12 @@ use_preset_vocabulary: true
 文法學	ven faq yuq
 文法學家	ven faq yuq cia
 文獻學	ven shi yuq
-文理學院	ven li yuq yu
 文盲率	ven maon liq
 文科學士	ven khou yuq zy
 文科學生	ven khou ghoq san
 文章家	ven tsaon cia
 文職人員	ven ciq zyun yu
 文藝學	ven gni yuq
-文藻外語學院	ven tsau nga gniu yuq yu
 文責自負	ven tsaq zy veu
 文身斷髮	ven shin doe faq
 文選集	ven soe jiq
@@ -17604,7 +17595,6 @@ use_preset_vocabulary: true
 新疆自治區	shin cian zy dzyu chiu
 新科狀元	shin khou dzaon gniu
 新竹人	shin tsoq gnin
-新竹師範學院	shin tsoq sy vae yuq yu
 新竹教育大學	shin tsoq ciau yuq da ghoq
 新罕布什爾	shin he pu zyuq er
 新罕布什爾州	shin he pu zyuq er cieu
@@ -18849,7 +18839,6 @@ use_preset_vocabulary: true
 曼哈頓島	mae ha ten tau
 曼尼托巴省	mae gni thoq pa san
 曼德拉	mae taq lha
-曼荷蓮女子學院	mae ghou li gniu tsy yuq yu
 曼蘇爾	mae su er
 曼谷人	mae koq gnin
 曼達爾	mae daq er
@@ -19537,7 +19526,6 @@ use_preset_vocabulary: true
 束狀	soq dzaon
 束身修行	soq shin shieu yin
 束身自修	soq shin zy shieu
-杭州師範學院	ghaon cieu sy vae yuq yu
 杯乾	pei kI
 杯了	pei liau
 杯狀	pei dzaon
@@ -20024,6 +20012,7 @@ use_preset_vocabulary: true
 樂山	loq sae
 樂山地區	loq sae di chiu
 樂山市	loq sae zy
+樂山師範學院	loq sae sy vae ghoq yu
 樂山師範學院	loq sae sy vae yuq yu
 樂工	yuq kon
 樂師	yuq sy
@@ -20824,7 +20813,6 @@ use_preset_vocabulary: true
 民族大義	min dzoq da gni
 民族大遷徙	min dzoq da chi shi
 民族學	min dzoq yuq
-民族學院	min dzoq yuq yu
 民族樂器	min dzoq yuq chi
 民族矛盾	min dzoq mau den
 民族自決	min dzoq zy ciuq
@@ -21492,7 +21480,6 @@ use_preset_vocabulary: true
 泄了	shiq laq
 泄沓	shiq thaq
 泄泄沓沓	shiq shiq thaq thaq
-泉州師範學院	DZOE cieu sy vae yuq yu
 泊松分佈	phaq son fen pu
 泌尿	pi gniau
 泌尿器	pi gniau chi
@@ -21510,7 +21497,6 @@ use_preset_vocabulary: true
 法制宣傳	faq tsyu soe dzOE
 法制教育	faq tsyu ciau yuq
 法制日報	faq tsyu zyuq pau
-法商學院	faq saon yuq yu
 法國人	faq koq gnin
 法國大革命	faq koq da kaq min
 法國長棍	faq koq jian kuen
@@ -21654,7 +21640,6 @@ use_preset_vocabulary: true
 洛希爾	loq shi er
 洛希爾銀行	loq shi er gnin ghaon
 洛陽伽藍記	loq yan jia lae ci
-洛陽師範學院	loq yan sy vae yuq yu
 洛陽紙貴	loq yan tsy kuei
 津津有味	cin cin yeu vi
 津津樂道	cin cin loq dau
@@ -21821,7 +21806,6 @@ use_preset_vocabulary: true
 海北藏族自治州	he poq dzaon dzoq zy dzyu cieu
 海南大學	he nEI da ghoq
 海南師範大學	he nEI sy vae da ghoq
-海南師範學院	he nEI sy vae yuq yu
 海南藏族自治州	he nEI dzaon dzoq zy dzyu cieu
 海參威	he sen uei
 海味	he vi
@@ -21842,7 +21826,6 @@ use_preset_vocabulary: true
 海拉爾區	he lha er chiu
 海日	he zyuq
 海洋學	he yan yuq
-海洋學院	he yan yuq yu
 海洋溫差發電	he yan uen tsha faq di
 海洋生態系	he yan sen the shi
 海洋生物	he yan sen vaq
@@ -21954,7 +21937,6 @@ use_preset_vocabulary: true
 淫樂	yin loq
 淫行	yin yin
 淫鬼	yin kuei
-淮陰師範學院	wae in sy vae yuq yu
 深交	shin ciau
 深交所	shin ciau so
 深仇大恨	shin jieu da ghen
@@ -22082,16 +22064,13 @@ use_preset_vocabulary: true
 湖人	wu zyun
 湖人隊	wu zyun dei
 湖北人	wu poq gnin
-湖北師範學院	wu poq sy vae yuq yu
 湖南人	wu nEI gnin
 湖南大學	wu nEI da ghoq
 湖南師範大學	wu nEI sy vae da ghoq
 湖大	wu da
-湖州師範學院	wu cieu sy vae yuq yu
 湖沼學	wu ciau yuq
 湘夫人	shian fu gnin
 湘西土家族苗族自治州	shian shi thu cia dzoq miau dzoq zy dzyu cieu
-湛江師範學院	dzae kaon sy vae yuq yu
 湮沒	i maq
 湮沒無聞	i maq Wu ven
 湮沒無聞	i maq vu ven
@@ -22161,7 +22140,6 @@ use_preset_vocabulary: true
 溪尾	chi vi
 溫家寶	uen cia pau
 溫州人	uen cieu gnin
-溫州師範學院	uen cieu sy vae yuq yu
 溫差	uen tsha
 溫差值	uen tsha jiq
 溫布爾登	uen pu er ten
@@ -22279,7 +22257,6 @@ use_preset_vocabulary: true
 漲紅了臉	cian ghon laq li
 漲落起伏	cian loq chi voq
 漲過了頭	cian kou laq deu
-漳州師範學院	tsaon cieu sy vae yuq yu
 漸新世	ji shin syu
 漸行	ji yin
 漸行漸遠	ji yin ji yu
@@ -22758,7 +22735,6 @@ use_preset_vocabulary: true
 煙癮又犯了	i in yi vae lei
 煙硝味	i shiau mi
 煙臭味	i chieu mi
-煙臺師範學院	i de sy vae yuq yu
 煙花爆竹	i huo pau tsoq
 煙視媚行	i zy mei yin
 煙霏霧集	i fi Wu jiq
@@ -22845,6 +22821,7 @@ use_preset_vocabulary: true
 熱鬧哄哄	gniq nau hon hon
 熱點問題	gniq ti ven di
 熾盛	tsy zhin
+燃料電池	zoe liau di dzy
 燃料電池	zoe liau di ji
 燃爆	zoe bau
 燃眉	zoe mei
@@ -23525,7 +23502,6 @@ use_preset_vocabulary: true
 理學碩士學位	li yuq zoq zy yuq wei
 理學院	li yuq yu
 理工大學	li kon da ghoq
-理工學院	li kon yuq yu
 理性認識	li shin zyun shiq
 理科大學	li khou da ghoq
 理科學士	li khou yuq zy
@@ -24651,6 +24627,7 @@ use_preset_vocabulary: true
 皇家	waon cia
 皇家加勒比海遊輪公司	waon cia cia laq pi he yeu len kon sy
 皇家學會	waon cia yuq wei
+皇家學院	waon cia ghoq yu
 皇家學院	waon cia yuq yu
 皇家海軍	waon cia he ciun
 皇家香港警察	waon cia shian kaon cin tshaq
@@ -25731,7 +25708,6 @@ use_preset_vocabulary: true
 空谷傳聲	khon koq dzOE shin
 空谷傳響	khon koq dzOE shian
 空軍機械學校	khon ciun ci ye ghoq yau
-空軍航空技術學院	khon ciun ghaon khon ji zyuq yuq yu
 空軍軍官學校	khon ciun ciun kun ghoq yau
 空間	khon ci
 空間局	khon ci jiuq
@@ -26063,7 +26039,6 @@ use_preset_vocabulary: true
 管理人員	kun li zyun yu
 管理人才	kun li zyun dze
 管理學	kun li yuq
-管理學院	kun li yuq yu
 管理水平	kun li sei bin
 管理水平	kun li syu bin
 管絃樂	kun yi yuq
@@ -26529,7 +26504,6 @@ use_preset_vocabulary: true
 經濟學	cin ci yuq
 經濟學家	cin ci yuq cia
 經濟學者	cin ci yuq tse
-經濟學院	cin ci yuq yu
 經濟專科學校	cin ci tsoe khou ghoq yau
 經濟成分	cin ci jin ven
 經濟日報	cin ci zyuq pau
@@ -26909,7 +26883,6 @@ use_preset_vocabulary: true
 美眉	mei mei
 美籍華人	mei zhiq wo gnin
 美術大師	mei zyuq da sy
-美術學院	mei zyuq yuq yu
 美術家	mei zyuq cia
 美觀大方	mei kun da faon
 美語教學	mei gniu ciau yuq
@@ -27314,7 +27287,6 @@ use_preset_vocabulary: true
 聖朝	shin jiau
 聖母教堂	shin meu ciau daon
 聖皮埃爾和密克隆	shin bi e er ghou miq khaq lon
-聖約翰學院	shin iaq ghEI yuq yu
 聖索非亞大教堂	shin soq fi ia da ciau daon
 聖經外傳	shin cin nga dzoe
 聖經賢傳	shin cin yi dzoe
@@ -27394,7 +27366,6 @@ use_preset_vocabulary: true
 職棒大賽	ciq baon da se
 職業中學	ciq gniq tson ghoq
 職業學校	ciq gniq ghoq yau
-職業學院	ciq gniq yuq yu
 職業技術教育	ciq gniq ji zyuq ciau yuq
 職業教育	ciq gniq ciau yuq
 職業水準	ciq gniq sei tsyun
@@ -27566,6 +27537,7 @@ use_preset_vocabulary: true
 背逆	pei gniq
 背運	pei yun
 背道而馳	pei dau er dzy
+背道而馳	pei dau er ji
 背部	pei bu
 背闊肌	pei khuaq ci
 背離	pei li
@@ -27783,8 +27755,6 @@ use_preset_vocabulary: true
 臨問	lin ven
 臨夏回族自治州	lin gho wei dzoq zy dzyu cieu
 臨朝	lin jiau
-臨沂師範學院	lin gni sy vae yuq yu
-臨沂師範學院	lin yi sy vae yuq yu
 臨牀症狀	lin zaon cin dzaon
 臨牀醫學	lin zaon i yuq
 臨界狀態	lin ka dzaon the
@@ -28546,11 +28516,9 @@ use_preset_vocabulary: true
 致死案	tsy sy EI
 致死率	tsy sy liq
 致死量	tsy sy lian
-致理技術學院	tsy li ji zyuq yuq yu
 致遠任重	tsy yu zyun dzon
 臺中人	de tson gnin
 臺中市人	de tson zy gnin
-臺中師範學院	de tson sy vae yuq yu
 臺中教育大學	de tson ciau yuq da ghoq
 臺兒莊	de er tsaon
 臺兒莊區	de er tsaon chiu
@@ -28558,17 +28526,13 @@ use_preset_vocabulary: true
 臺北大學	de poq da ghoq
 臺北工業專科學校	de poq kon gniq tsoe khou ghoq yau
 臺北市立教育大學	de poq zy liq ciau yuq da ghoq
-臺北市立體育學院	de poq zy liq thi yuq yuq yu
 臺北市長	de poq zy cian
-臺北師範學院	de poq sy vae yuq yu
 臺北科技大學	de poq khou ji da ghoq
 臺北縣長	de poq yu cian
 臺北醫學大學	de poq i yuq da ghoq
 臺北醫學院	de poq i yuq yu
 臺南人	de nEI gnin
 臺南大學	de nEI da ghoq
-臺南女子技術學院	de nEI gniu tsy ji zyuq yuq yu
-臺南師範學院	de nEI sy vae yuq yu
 臺南科技大學	de nEI khou ji da ghoq
 臺大	de da
 臺大學生	de da ghoq san
@@ -28578,7 +28542,6 @@ use_preset_vocabulary: true
 臺日	de zyuq
 臺東人	de ton gnin
 臺東大學	de ton da ghoq
-臺東師範學院	de ton sy vae yuq yu
 臺東縣長	de ton yu cian
 臺灣世界展望會	de uae syu ka ci vaon wei
 臺灣世界展望會	de uae syu ka tsoe vaon wei
@@ -28587,13 +28550,11 @@ use_preset_vocabulary: true
 臺灣問題	de uae ven di
 臺灣大學	de uae da ghoq
 臺灣學術網路	de uae yuq zyuq maon lu
-臺灣工業技術學院	de uae kon gniq ji zyuq yuq yu
 臺灣師範大學	de uae sy vae da ghoq
 臺灣日	de uae zyuq
 臺灣日日新報	de uae zyuq zyuq shin pau
 臺灣民主自治同盟	de uae min tsyu zy dzyu don men
 臺灣海洋大學	de uae he yan da ghoq
-臺灣海洋學院	de uae he yan yuq yu
 臺灣省	de uae san
 臺灣省政府	de uae san cin fu
 臺灣省政府教育廳	de uae san cin fu ciau yuq thin
@@ -28804,7 +28765,6 @@ use_preset_vocabulary: true
 花花世界	huo huo syu ka
 花芽分化	huo ngo fen huo
 花蓮人	huo li gnin
-花蓮師範學院	huo li sy vae yuq yu
 花蓮教育大學	huo li ciau yuq da ghoq
 花車遊行	huo tsho yeu yin
 花邊人物	huo pi zyun vaq
@@ -29284,6 +29244,7 @@ use_preset_vocabulary: true
 蒼耳	tshaon er
 蒼顏	tshaon yi
 蓄長髮	shiuq jian faq
+蓄電池	shiuq di dzy
 蓄電池	shiuq di ji
 蓋世	ke syu
 蓋世之才	ke syu tsy dze
@@ -29415,7 +29376,6 @@ use_preset_vocabulary: true
 藕斷	ngeu doe
 藕斷絲連	ngeu doe sy li
 藝壓當行	gni aq taon ghaon
-藝術學院	gni zyuq yuq yu
 藝術家	gni zyuq cia
 藝術專科學校	gni zyuq tsoe khou ghoq yau
 藝高人膽大	gni kau gnin tae da
@@ -29476,7 +29436,6 @@ use_preset_vocabulary: true
 蘇門長嘯	su men jian shiau
 蘇非教派	su fi ciau pha
 蘇黎世	su li syu
-蘇黎世聯邦理工學院	su li syu li paon li kon yuq yu
 蘊藉	iun cia
 蘋果乾	bin kou kI
 蘚苔	shi de
@@ -31583,7 +31542,6 @@ use_preset_vocabulary: true
 貴州師範大學	kuei cieu sy vae da ghoq
 貴州日報	kuei cieu zyuq pau
 貴州省	kuei cieu san
-貴州財經學院	kuei cieu dze cin yuq yu
 貴幸	kuei yin
 貴幹	kuei kI
 貴庚	kuei kan
@@ -31820,7 +31778,6 @@ use_preset_vocabulary: true
 贖罪日	dzoq zei zyuq
 贖罪日戰爭	dzoq zei zyuq ci tsen
 贖罪日戰爭	dzoq zei zyuq tsoe tsen
-贛南師範學院	kI nEI sy vae yuq yu
 赤口日	chiq kheu zyuq
 赤小豆	chiq shiau deu
 赤小豆	tshaq shiau deu
@@ -32149,7 +32106,6 @@ use_preset_vocabulary: true
 軌道空間站	kuei dau khon ci dzae
 軍事學	ciun zy yuq
 軍事學校	ciun zy ghoq yau
-軍事學院	ciun zy yuq yu
 軍事家	ciun zy cia
 軍事演習	ciun zy yi zhiq
 軍事科學	ciun zy khou yuq
@@ -32175,7 +32131,6 @@ use_preset_vocabulary: true
 軍長	ciun cian
 軒轅教	shi yu ciau
 軟交換	gniu ciau wun
-軟件學院	gniu ji yuq yu
 軟件開發人員	gniu ji khe faq zyun yu
 軟任務	gniu zyun Wu
 軟任務	gniu zyun vu
@@ -32602,7 +32557,6 @@ use_preset_vocabulary: true
 逢人說項	von gnin syuq ghaon
 逢甲	von ciaq
 逢甲大學	von ciaq da ghoq
-逢甲學院	von ciaq yuq yu
 連了	li laq
 連人	li gnin
 連任	li zyun
@@ -32799,7 +32753,6 @@ use_preset_vocabulary: true
 達爾文港	daq er ven kaon
 達爾福爾	daq er foq er
 達爾罕茂明安聯合旗	daq er he mau min EI li ghaq ji
-達特茅斯學院	daq daq mau sy yuq yu
 達生	daq sen
 達累斯薩拉姆	daq lei sy saq lha m
 達累斯薩拉姆	daq lei sy saq lha meu
@@ -32829,7 +32782,6 @@ use_preset_vocabulary: true
 遠望	yu vaon
 遠未解決	yu vi ka ciuq
 遠東國家	yu ton koq cia
-遠東技術學院	yu ton ji zyuq yuq yu
 遠東科技大學	yu ton khou ji da ghoq
 遠水不解近渴	yu syu paq ka jin khaq
 遠水救不了近火	yu syu cieu paq liau jin hou
@@ -33612,8 +33564,6 @@ use_preset_vocabulary: true
 醒世姻緣	shin syu in yu
 醒世恆言	shin syu ghen yi
 醒世箴言	shin syu tsen yi
-醒吾技術學院	shin NU ji zyuq yuq yu
-醒吾技術學院	shin WU ji zyuq yuq yu
 醒覺	shin kau
 醜人	chieu gnin
 醜人多作怪	chieu gnin tou tsoq kua
@@ -33689,7 +33639,6 @@ use_preset_vocabulary: true
 重建家園	dzon ci cia yu
 重慶大學	dzon chin da ghoq
 重慶師範大學	dzon chin sy vae da ghoq
-重慶科技學院	dzon chin khou ji yuq yu
 重整家園	dzon cin cia yu
 重新做人	dzon shin tsou gnin
 重新加熱	dzon shin ko gniq
@@ -33806,6 +33755,7 @@ use_preset_vocabulary: true
 釣個	tiau goq
 釣去	tiau chi
 鈍學累功	den yuq lei kon
+鉛酸蓄電池	khae soe shiuq di dzy
 鉛酸蓄電池	khae soe shiuq di ji
 鉛錘	khae zei
 鉤了	keu laq
@@ -33850,7 +33800,6 @@ use_preset_vocabulary: true
 銘傳商專	min dzOE saon tsoe
 銘傳大學	min dzOE da ghoq
 銘傳女子商業專科學校	min dzOE gniu tsy saon gniq tsoe khou ghoq yau
-銘傳管理學院	min dzOE kun li yuq yu
 銘牌	min ba
 銜尾相隨	ghae vi shian zei
 銜尾蛇	ghae vi dzo
@@ -33871,7 +33820,9 @@ use_preset_vocabulary: true
 鋪家	phu cia
 鋪的	phu tiq
 鋪行	phu ghaon
+鋰離子電池	li li tsy di dzy
 鋰離子電池	li li tsy di ji
+鋰電池	li di dzy
 鋰電池	li di ji
 鋸下	ciu gho
 鋸下來	ciu gho le
@@ -33917,7 +33868,6 @@ use_preset_vocabulary: true
 鋼琴家	kaon jin cia
 鋼絲鋸	kaon sy ciu
 鋼鋸	kaon ciu
-鋼鐵學院	kaon thiq yuq yu
 鋼鐵行業	kaon thiq ghaon gniq
 鋼鐵長城	kaon thiq jian jin
 錄了	loq laq
@@ -34159,7 +34109,6 @@ use_preset_vocabulary: true
 長春	jian tshyun
 長春人	jian tshyun gnin
 長春市	jian tshyun zy
-長春師範學院	jian tshyun sy vae yuq yu
 長時期	jian zy ji
 長時間	jian zy ci
 長曆	jian liq
@@ -34628,8 +34577,6 @@ use_preset_vocabulary: true
 關雲長	kuae yun jian
 阜新蒙古族自治縣	veu shin mon ku dzoq zy dzyu yu
 阜新蒙古族自治縣	vu shin mon ku dzoq zy dzyu yu
-阜陽師範學院	veu yan sy vae yuq yu
-阜陽師範學院	vu yan sy vae yuq yu
 防不勝防	baon paq shin baon
 防不勝防	vaon paq shin vaon
 防了	baon laq
@@ -35484,8 +35431,6 @@ use_preset_vocabulary: true
 集體防護	jiq thi baon wu
 集體防護	jiq thi vaon wu
 集體領導	jiq thi lin dau
-雉尾	dzy vi
-雉尾	ji vi
 雌伏	tshy voq
 雌雄同體人	tshy yon don thi gnin
 雌雄莫辨	tshy yon moq bi
@@ -35758,14 +35703,17 @@ use_preset_vocabulary: true
 電工學	di kon yuq
 電影人	di in gnin
 電影分級制	di in fen ciq tsyu
-電影學院	di in yuq yu
 電影集團	di in jiq doe
 電教	di ciau
 電料行	di liau ghaon
 電梯間	di thi kae
+電池	di dzy
 電池	di ji
+電池廠	di dzy chian
 電池廠	di ji chian
+電池板	di dzy pae
 電池板	di ji pae
+電池組	di dzy tsu
 電池組	di ji tsu
 電燈架	di ten ko
 電磁學	di dzy yuq
@@ -35850,7 +35798,6 @@ use_preset_vocabulary: true
 靜力學	zhin liq yuq
 靜坐罷工	zhin zou ba kon
 靜宜大學	zhin gni da ghoq
-靜宜女子文理學院	zhin gni gniu tsy ven li yuq yu
 靜樂	zhin loq
 靜樂縣	zhin loq yu
 靜電學	zhin di yuq
@@ -35978,7 +35925,6 @@ use_preset_vocabulary: true
 韓人	ghEI gnin
 韓國人	ghEI koq gnin
 韓國銀行	ghEI koq gnin ghaon
-韓山師範學院	ghEI sae sy vae yuq yu
 韓德爾	ghEI taq er
 韓日	ghEI zyuq
 韓朝	ghEI jiau
@@ -35994,6 +35940,7 @@ use_preset_vocabulary: true
 音樂史	in yuq sy
 音樂團	in yuq doe
 音樂學	in yuq yuq
+音樂學院	in yuq ghoq yu
 音樂學院	in yuq yuq yu
 音樂家	in yuq cia
 音樂廳	in yuq thin
@@ -36381,7 +36328,6 @@ use_preset_vocabulary: true
 香港人	shian kaon gnin
 香港大學	shian kaon da ghoq
 香港浸會大學	shian kaon cin wei da ghoq
-香港浸會學院	shian kaon cin wei yuq yu
 香港特別行政區	shian kaon daq biq yin cin chiu
 香港理工大學	shian kaon li kon da ghoq
 香港科技大學	shian kaon khou ji da ghoq
@@ -36573,7 +36519,6 @@ use_preset_vocabulary: true
 髒死	tsaon sy
 體壇人士	thi dae zyun zy
 體積百分比	thi ciq paq fen pi
-體育學院	thi yuq yuq yu
 體育專科學校	thi yuq tsoe khou ghoq yau
 體臭味	thi chieu mi
 體認	thi zyun
@@ -36675,6 +36620,7 @@ use_preset_vocabulary: true
 高雄師範大學	kau yon sy vae da ghoq
 高雄應用科技大學	kau yon in yon khou ji da ghoq
 高雄海洋科技大學	kau yon he yan khou ji da ghoq
+高雄科學技術學院	kau yon khou yuq ji zyuq ghoq yu
 高雄科學技術學院	kau yon khou yuq ji zyuq yuq yu
 高雄縣長	kau yon yu cian
 高雄醫學大學	kau yon i yuq da ghoq
@@ -37012,7 +36958,6 @@ use_preset_vocabulary: true
 鹹鴨蛋	ghae aq dae
 鹽分	yi ven
 鹽味	yi mi
-鹽城師範學院	yi jin sy vae yuq yu
 鹿兒島	loq er tau
 鹿死誰手	loq sy zei shieu
 麗人行	li gnin yin
@@ -37046,7 +36991,6 @@ use_preset_vocabulary: true
 麻痹不了	mo bi paq liau
 麻痹大意	mo bi da i
 麻省	mo san
-麻省理工學院	mo san li kon yuq yu
 麻醉學	mo tsei yuq
 麻醉學者	mo tsei yuq tse
 麻醉狀態	mo tsei dzaon the
@@ -37066,7 +37010,6 @@ use_preset_vocabulary: true
 黃埔軍官學校	waon phu ciun kun ghoq yau
 黃大仙	waon da shi
 黃家駒	waon cia ciu
-黃岡師範學院	waon kaon sy vae yuq yu
 黃教	waon ciau
 黃河大合唱	waon ghou da ghaq tshaon
 黃澄澄	waon ten ten

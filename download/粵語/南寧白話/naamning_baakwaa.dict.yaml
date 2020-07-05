@@ -28,7 +28,7 @@
 
 ---
 name: naamning_baakwaa
-version: "2020.06.25"
+version: "2020.06.30"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -88,7 +88,6 @@ import_tables:
 詏	(文)aau3	
 靿	aau3	
 矮	(白)ai1	5%
-欸	(又)ai2	10%
 矮	ai2	
 㜇	(語)ai3「心情煩悶，又作翳字」	10%
 曀	ai3	
@@ -300,7 +299,7 @@ import_tables:
 啤	be1	
 屄	(白)be1「女陰」	
 㞎	be2「㞎be4～，屎」	
-㞎	be4「～㞎be2」	
+㞎	be4「～㞎be2，屎」	
 疤	(語)be4「麻～，麻子」	10%
 唄	be6「語氣詞」	
 噼	(語)bek1「噼啪baak1筒，唧水筒」	10%
@@ -2052,7 +2051,6 @@ import_tables:
 侗	dung6「侗族」	
 働	dung6	
 動	dung6	
-衕	dung6「腹瀉」	
 垌	dung6「田垌；儒垌，廣東地名」	
 恫	dung6「恫嚇」	
 慟	dung6	
@@ -2248,9 +2246,9 @@ import_tables:
 埠	fau6「商埠」	
 阜	fau6	
 啡	(又)fe1	10%
-㹃	(語)fe2「褦le2㹃，同褦襶」	5%
 啡	(外)fe2「鈔票，英語fare」	5%
 㹃	(又)fe3	10%
+㹃	(語)fe5「褦le5㹃，同褦襶」	10%
 番	(白)fen1	20%
 翻	(白)fen1	20%
 𢝵	(語)fet1「～～，哨子；風～，時髦」	10%
@@ -5883,11 +5881,10 @@ import_tables:
 陋	lau6	
 咧	le1「大大咧咧；唓咧，話多，本字啁嘐（嘐啁）」	
 哩	le1「助詞」	
-褦	(又)le2「褦㹃fe2，同褦襶」	5%
 罅	(白)le3	20%
 离	(語)le4「離氣he3，不修邊幅」	10%
 離	(語)le4「離氣he3，不修邊幅」	10%
-褦	(習)le5「褦襶」	
+褦	(習)le5「褦襶；褦㹃fe5，同褦襶」	
 叻	lek1「能幹」	
 壢	(白)lek6	
 癧	(白)lek6「淋巴結」	
@@ -7361,7 +7358,7 @@ import_tables:
 昂	ngong4	
 仰	(白)ngong5「仰頭」	20%
 昂	(又)ngong5	10%
-戇	(訓)ngong6「戇居」	
+戇	(訓)ngong6「戇居，傻」	
 㟼	ngu4	
 嗷	ngu4	
 嶅	ngu4	
@@ -11374,6 +11371,7 @@ A站	ei zaam6	100
 上層	soeng6 cang4
 上款	soeng6 fun2
 上下	soeng6 haa6
+地上	di6 soeng6
 上行下效	soeng6 hang4 haa6 haau6
 後來居上	hau6 loi4 gyu1 soeng6
 中土	zung1 tu2
@@ -13030,6 +13028,7 @@ A站	ei zaam6	100
 散體	slaan2 tai2
 懶散	laan5 slaan2
 散兵游勇	slaan2 bing1 jau4 jung5
+散兵遊勇	slaan2 bing1 jau4 jung5
 一盤散沙	jat1 pun4 slaan2 saa1
 投閒置散	tau4 haan4 zi3 slaan2
 投閑置散	tau4 haan4 zi3 slaan2
@@ -13526,6 +13525,7 @@ A站	ei zaam6	100
 漂着	piu1 zoek6
 漂移	piu1 ji4
 漂游	piu1 jau4
+漂遊	piu1 jau4
 潦草	liu4 cu2
 潦倒	liu4 du2
 潦水	lu5 sui2
@@ -16235,6 +16235,7 @@ A站	ei zaam6	100
 鐵騎	tit3 gi3
 坐騎	co5 gi3
 遊騎	jau4 gi3
+游騎	jau4 gi3
 輕騎兵	heng1 ke4 bing1
 鐵騎士	tit3 ke4 sy6
 鐵騎士	tit3 ke4 si6
@@ -16316,21 +16317,27 @@ A站	ei zaam6	100
 玉米	juk6 mai5
 玉米	jyu6 mai5
 御米	jyu6 mai5
+床檔	cong4 dong3
+炕床	kong3 cong4
+床鋪	cong4 pu1
+鋪床單	pu1 cong4 daan1
+鋪床	pu1 cong4
+鏜床	tong4 cong4
 
 
 
 # 本地詞彙表
 
-亞啲
-阿啲
-嚕啲
-阿便
-亞便
-嚕便
+亞啲	aa3 di1
+阿啲	aa3 di1
+嚕啲	lu1 di1
+阿便	aa3 bin6
+亞便	aa3 bin6
+嚕便	lu1 bin6
 唓咧	ce1 le1
 咿㕭	ji1 jaau1
 咿呦	ji1 jaau1
-黑頸
+黑頸	hak1 geng2
 敆伙	gap3 fo2
 敆份	gap3 fan6
 敆手	gap3 sau2
@@ -16350,7 +16357,6 @@ A站	ei zaam6	100
 鬎鬁	laat3 li1
 瘌痢	laat3 li1
 癩痢	laat3 li1
-癩痢	laai3 li1
 獁騮	maa1 lau1
 紮馬	zaap3 maa5
 紮馬步	zaap3 maa5 bu6
@@ -16360,7 +16366,7 @@ A站	ei zaam6	100
 阿孃	aa3 noeng1
 譅氣	saap3 hi3
 屈氣	wat1 hi3
-慍氣	wat1 hi3	# 又作殟氣
+慍氣	wat1 hi3
 離氣	le4 he3
 褦襶	le5 de2
 褦㹃	le5 fe5
@@ -16373,7 +16379,7 @@ A站	ei zaam6	100
 𧚔裙	tung2 kwan4
 㤿憸	jim1 zim1
 腌臢	jim1 zim1
-癡戆戆	ci1 ngang1 ngang1
+癡戇戇	ci1 ngang1 ngang1
 翹翹	keu4 keu1
 死翹翹	sli2 keu4 keu1
 等下	dang2 haa5
@@ -16434,3 +16440,4 @@ A站	ei zaam6	100
 奇離柺
 差伙
 底挺
+麻疤	maa4 be4
