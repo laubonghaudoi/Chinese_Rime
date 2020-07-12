@@ -17,7 +17,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.07.05"
+version: "2020.07.12"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -55,7 +55,6 @@ use_preset_vocabulary: true
 涴䨣	ou phoq	55
 賴涴皮	la ou bi	55
 跟屁涴蟲	ken phi ou dzon	55
-⿸尸咋涴樸	dza ou phoq	55
 眼涴	ngae ou	418
 耳朵涴	gni to ou	418
 鼻頭涴	baq deu ou	418
@@ -75,12 +74,7 @@ use_preset_vocabulary: true
 狼基涴樸	laon ci ou phoq	55
 涴蛋分	ou dae fen	418
 涴講	ou kaon	55
-⿸尸咋涴	dza ou	55
-⿸尸咋涴出	dza ou tshyuq	55
-涴⿸尸咋出	ou dza tshyuq	55
 揩涴屁眼	kae ou phi ngae	55
-⿸尸咋爛涴	dza lae ou	55
-⿸尸咋爛薄涴	dza lae boq ou	55
 涴賴	ou la	55
 涴塞煞	ou saq saq	418
 涴塞飽	ou saq pau	55
@@ -309,20 +303,6 @@ use_preset_vocabulary: true
 多𥈊眼	tou saq ngae	418
 眼𥈊毛	ngae saq mau	55
 雞𥈊覺	ci saq kau	55
-⿸尸查屙樸	dza ou phoq	55
-⿸尸查涴樸	dza ou phoq	55
-⿸尸查尿樸	dza syu phoq	55
-尿⿸尸查	syu dza	55
-⿸尸查涴	dza ou	55
-⿸尸查屁	dza phi	55
-屙⿸尸查出	ou dza tshyuq	55
-⿸尸查涴出	dza ou tshyuq	55
-涴⿸尸查出	ou dza tshyuq	55
-⿸尸查尿出	dza syu tshyuq	55
-尿⿸尸查出	syu dza tshyuq	55
-⿸尸查爛薄屙	dza lae boq ou	55
-⿸尸查爛涴	dza lae ou	55
-⿸尸查爛薄涴	dza lae boq ou	55
 撒屙樸	dza ou phoq	55
 撒涴樸	dza ou phoq	55
 撒尿樸	dza syu phoq	55
@@ -400,22 +380,32 @@ use_preset_vocabulary: true
 謳儂着力了	eu nou jiaq liq lei
 謳俉着力了	eu ng jiaq liq lei
 謳爾着力了	eu ng jiaq liq lei
-謳儂𢜭力了	eu nou jiaq liq lei
-謳俉𢜭力了	eu ng jiaq liq lei
-謳爾𢜭力了	eu ng jiaq liq lei
 謳儂疙瘩𡀂	eu nou kaq taq lei
 謳俉疙瘩𡀂	eu ng kaq taq lei
 謳儂着力𡀂	eu nou jiaq liq lei
 謳俉着力𡀂	eu ng jiaq liq lei
 謳爾着力𡀂	eu ng jiaq liq lei
-謳儂𢜭力𡀂	eu nou jiaq liq lei
-謳俉𢜭力𡀂	eu ng jiaq liq lei
-謳爾𢜭力𡀂	eu ng jiaq liq lei
 跑春	phau tshyun	55
 飯𣖄骨	vae chiau kuaq	55
 漬浞	ciq tsoq	55
 遲早點	dzy tsau ti
 遲了百遲	dzy liau paq dzy
+邊頭邊尾	pi deu pi mi	55
+角頭角尾	koq deu koq mi	55
+搞賺	gau dzae	55
+搞軋	gau gaq	55
+搞腦子	gau nau tsy	55
+搞嘴搞得	gau tsyu gau taq	55
+奧搞	au gau	55
+奧裏奧搞	au li au gau	55
+喫搞勢	chioq gau syu	55
+壓弗煞	aq vaq saq	55
+壓勿煞	aq vaq saq	55
+結襞	ciq paq	55
+膚殼𥀬	fu khoq i	55
+小娃屄	shiau uae pi	55
+腐滯滯	vu ji ji	55
+腐滯刮剌	vu ji kuaq laq	55
 
 # 江蘇教育版《寧波方言詞典》 其他寫法
 
@@ -481,8 +471,6 @@ use_preset_vocabulary: true
 啥幹	sou khI	1000
 啥幹	so khI	1000
 豬涴	tsyu ou	55
-⿸尸查涴撲	dza ou phoq	55
-⿸尸咋涴撲	dza ou phoq	55
 撒涴撲	dza ou phoq	55
 射涴撲	dza ou phoq	55
 𠑞涴撲	dza ou phoq	55
@@ -510,10 +498,6 @@ use_preset_vocabulary: true
 睬爾老白眼	tshe ng lau baq ngae
 睬爾瞎子老白眼	tshe ng haq tsy lau baq ngae
 睬爾阿白哥	tshe ng aq baq kou
-嘔爾𢜭力𡀂	eu ng jiaq liq lei
-要爾𢜭力𡀂	iau ng jiaq liq lei
-嘔爾𢜭力了	eu ng jiaq liq lei
-要爾𢜭力了	iau ng jiaq liq lei
 嘔爾着力𡀂	eu ng jiaq liq lei
 要爾着力𡀂	iau ng jiaq liq lei
 䂻爾肚裏勿得	dzan ng du li vaq taq
@@ -547,10 +531,6 @@ use_preset_vocabulary: true
 滰腳布	jian ciaq pu	578
 滰肉間	jian gnioq kae	55
 滰一水	jian iq syu	55
-痢疾⿸尸咋	li jiq dza	55
-⿸尸咋屁蟲	dza phi dzon	55
-⿸尸咋尿撲	dza syu phoq	55
-⿸尸咋屙撲	dza ou phoq	55
 痢疾撒	li jiq dza	55
 撒屁蟲	dza phi dzon	55
 撒尿撲	dza syu phoq	55
@@ -576,7 +556,6 @@ use_preset_vocabulary: true
 對弗住	tei vaq dzyu	55
 對弗起	tei vaq chi	55
 推扳弗起	thei pae vaq chi	55
-打弗殺	tan vaq saq	55
 䂻渠肚裏弗得	dzan ji du li vaq taq
 䂻儂肚裏弗得	dzan nou du li vaq taq
 䂻俉肚裏弗得	dzan ng du li vaq taq
@@ -600,13 +579,9 @@ use_preset_vocabulary: true
 肉弗𤿏	gnioq vaq nei	55
 稻大肚了	dau dou du lei	55
 告吵儂了	kau tshau nou lei	55
-要儂𢜭力了	iau nou jiaq liq lei
 飯僵脯了	vae cian bu lei	55
 雷打着了	lei tan zyuq lei	55
 屙榨貓壓牢了	ou tso mae aq lau lei
-嘔儂𢜭力了	eu nou jiaq liq lei
-嘔俉𢜭力了	eu ng jiaq liq lei
-要俉𢜭力了	iau ng jiaq liq lei
 嘔俉着力了	eu ng jiaq liq lei
 要俉着力了	iau ng jiaq liq lei
 將煞了	cian saq lei	55
@@ -654,6 +629,17 @@ use_preset_vocabulary: true
 池塘	dzy daon
 大池	dou dzy
 遲發人	dzy faq gnin
+滑滯滯	waq ji ji
+腐滯涾剌	vu ji daq laq
+碗頭碗尾	un deu un mi
+寋叉	ge tsho	55
+寋鈸	ge baq	55
+寋尺板	ge tshaq pae	55
+搞七八	gau chiq paq	55
+疄頭頂	lin deu ten	55
+擱頂	koq ten	55
+屋頭頂	oq deu ten	55
+發奤	faq phoq	55
 
 # 其他詞彙
 
@@ -886,7 +872,6 @@ use_preset_vocabulary: true
 一生世𣍐忘記	iq san shi vei maon ci
 一梗扁擔一梗龍
 一生一世喫勿窮	iq san iq shi chioq vaq jion
-⿸尸咋屁賴賴	dza phi la la
 下世做蟹	gho shi tsou ha
 小來怕剃頭
 老來怕看牛	lau le pho khI ngeu
@@ -1063,7 +1048,6 @@ use_preset_vocabulary: true
 蛤蚆撩菜秧
 胡嚨痛
 胡嚨鯁牢	wu lon gan lau
-⿸尸咋屙胡嚨癢	dza ou wu lon yan
 胡嚨哭啞
 肩胛頭當棧房
 胸脘頭痛
@@ -1086,7 +1070,6 @@ use_preset_vocabulary: true
 胴肛脫出	don kon thaq tshyuq
 屙急造茅坑
 尿急勒候頭頸	syu ciq laq gheu deu cin
-尿屙屋裏⿸尸咋	syu ou oq li dza
 卵袋踢破	loe de thiq phou
 卵袋黃奔勒青腫	loe de waon pen laq chin tson
 阿大打鐵	aq dou tan thiq
@@ -2139,14 +2122,12 @@ use_preset_vocabulary: true
 姆媽落家做裁縫	mh mha loq ko tsou ze von
 姐姐裁紙做燈籠
 和家瘟	ghou ko uen
-一人⿸尸咋尿出	iq gnin dza syu tshyuq
 和家勿得安	ghou ko vaq taq EI
 小苦喫勒候頭頸
 拍照相
 照相簿
 討虛頭
 堆頭大	tei deu dou
-⿸尸咋屙估堆頭	dza ou ku tei deu
 七七敲	chiq chiq khau
 八八念
 一盞煙燈照空房
@@ -2452,7 +2433,7 @@ use_preset_vocabulary: true
 棒頭摜落來
 紙包㪗開
 被頭㪗開	bi deu theu khe
-⿰扌囂鑊蓋	shiau ghoq ke
+𢳚鑊蓋	shiau ghoq ke
 眼藥瓶塞仔
 繃蜻蜓
 份份開
@@ -2544,7 +2525,7 @@ use_preset_vocabulary: true
 跍勒喫飯
 兩娘拼條褲
 一個穿來一個跍	iq ghoq tshOE le iq ghoq gu
-⿰鬧勿煞草子	nau vaq saq tshau tsy
+踔勿煞草子	nau vaq saq tshau tsy
 壓勿煞婊子
 踏腳踏車
 踏縫衣機
@@ -2636,10 +2617,6 @@ use_preset_vocabulary: true
 只好起早
 勿好落夜
 貪小失大	thei shiau syuq dou
-一⿸尸咋尿	iq dza syu
-一⿸尸咋屙	iq dza ou
-捏勒卵子勿⿸尸咋尿	gniaq laq loe tsy vaq dza syu
-⿸尸咋屁賴	dza phi la
 做沙蟹
 娘嬉䏘
 喫飯看煙囪
@@ -2986,8 +2963,6 @@ use_preset_vocabulary: true
 穩篤六株過日腳	uen toq loq tsyu kou gniq ciaq
 矮子會長	a tsy wei jian
 寬寬心
-𢜭力勿賺鈿
-賺鈿勿𢜭力
 嚇勒刮刮抖
 凍勒刮刮抖
 飯喫勒悶飽
@@ -3011,7 +2986,6 @@ use_preset_vocabulary: true
 味道老口	mi dau lau kheu
 欠大	chi dou
 欠好看
-⿸尸咋屙壅伸草	dza ou ion shin tshau
 有力伸頭髮	yeu liq shin deu faq
 嘸力伸指甲	mh liq shin tsy khaq
 人交關長	gnin ciau kuae jian
@@ -3027,7 +3001,6 @@ use_preset_vocabulary: true
 馬路造勒骨直
 路梯筆篤
 神綻力足
-⿸尸咋屙筆篤	dza ou piq toq
 精神筆篤
 沙頭筆篤
 秧種七根八根
@@ -3307,7 +3280,6 @@ use_preset_vocabulary: true
 哚哚哭
 雨落勒哚哚響
 阿毛娘	aq mau gnian
-⿸尸咋尿哚哚響	dza syu do do shian
 訰訰𧮙
 咖咖𧮙人	go go zoq gnin
 睏勒咖咖響	khuen laq go go shian
@@ -3818,14 +3790,10 @@ use_preset_vocabulary: true
 對落是涴缸
 眼涴結嗝
 挖鼻頭涴	uaq baq deu ou
-⿸尸咋涴胡嚨癢	dza ou wu lon yan
-⿸尸查涴胡嚨癢	dza ou wu lon yan
 撒涴胡嚨癢	dza ou wu lon yan
 射涴胡嚨癢	dza ou wu lon yan
 𠑞涴胡嚨癢	dza ou wu lon yan
 涴急造茅坑
-尿涴屋裏⿸尸咋	syu ou oq li dza
-尿涴屋裏⿸尸查	syu ou oq li dza
 尿涴屋裏撒	syu ou oq li dza
 尿涴屋裏射	syu ou oq li dza
 尿涴屋裏𠑞	syu ou oq li dza
@@ -3833,8 +3801,6 @@ use_preset_vocabulary: true
 涴掃帚成筋	ou sau cieu jin cin
 涴掃帚成精	ou sau cieu jin cin
 邱隘鹹齏涴缸做
-⿸尸咋涴估堆頭	dza ou ku tei deu
-⿸尸查涴估堆頭	dza ou ku tei deu
 撒涴估堆頭	dza ou ku tei deu
 射涴估堆頭	dza ou ku tei deu
 𠑞涴估堆頭	dza ou ku tei deu
@@ -3843,20 +3809,14 @@ use_preset_vocabulary: true
 鏤耳朵涴	lheu gni to ou
 鏤耳朵涴	lheu ng to ou
 涴缸越㧕越臭
-一⿸尸咋涴	iq dza ou
-一⿸尸查涴	iq dza ou
 一撒涴	iq dza ou
 一射涴	iq dza ou
 一𠑞涴	iq dza ou
 涴急喪命	ou ciq saon min
 鼻頭涴結嗝	baq deu ou ciq kaq
-⿸尸咋涴壅伸草	dza ou ion shin tshau
-⿸尸查涴壅伸草	dza ou ion shin tshau
 撒涴壅伸草	dza ou ion shin tshau
 射涴壅伸草	dza ou ion shin tshau
 𠑞涴壅伸草	dza ou ion shin tshau
-⿸尸咋涴筆篤	dza ou piq toq
-⿸尸查涴筆篤	dza ou piq toq
 撒涴筆篤	dza ou piq toq
 射涴筆篤	dza ou piq toq
 𠑞涴筆篤	dza ou piq toq
@@ -3870,7 +3830,6 @@ use_preset_vocabulary: true
 嘔渠一聲	eu ji iq shin
 話渠一頓	wo ji iq ten
 皇帝老官打渠跔	waon ti lau kun tan ji geu
-皇帝老官打渠𧺤	waon ti lau kun tan ji geu
 䂻進渠肚裏勿得	dzan cin ji du li vaq taq
 䂻進渠肚裏弗得	dzan cin ji du li vaq taq
 渠要怏	ji iau aon
@@ -3883,18 +3842,6 @@ use_preset_vocabulary: true
 莫去睬渠	mhau chi tshe ji
 莫去睬渠	mau chi tshe ji
 巴掌喫渠腐𤒻𤒻	po tsaon chioq ji vu daq daq
-⿸尸查屁賴賴	dza phi la la
-⿸尸查屙胡嚨癢	dza ou wu lon yan
-尿屙屋裏⿸尸查	syu ou oq li dza
-一人⿸尸查尿出	iq gnin dza syu tshyuq
-⿸尸查屙估堆頭	dza ou ku tei deu
-一⿸尸查尿	iq dza syu
-一⿸尸查屙	iq dza ou
-捏勒卵子勿⿸尸查尿	gniaq laq loe tsy vaq dza syu
-⿸尸查屁賴	dza phi la
-⿸尸查屙壅伸草	dza ou ion shin tshau
-⿸尸查屙筆篤	dza ou piq toq
-⿸尸查尿哚哚響	dza syu do do shian
 撒屁賴賴	dza phi la la
 撒屙胡嚨癢	dza ou wu lon yan
 尿屙屋裏撒	syu ou oq li dza
@@ -4019,7 +3966,7 @@ use_preset_vocabulary: true
 弗是碰就是別	vaq zy ban jieu zy biq
 嫖賭弗論錢	biau tu vaq len ji
 弗鞔鼓中心	vaq mun ku tson shin
-⿰鬧弗煞草子	nau vaq saq tshau tsy
+踔弗煞草子	nau vaq saq tshau tsy
 壓弗煞婊子	aq vaq saq piau tsy
 有力弗好盡撐	yeu liq vaq hau jin tshan
 有勢弗可盡行	yeu syu vaq khou jin ghan
@@ -4029,8 +3976,6 @@ use_preset_vocabulary: true
 䂻進其肚裏弗得	dzan cin ji du li vaq taq
 賬軋弗平	cian gaq vaq bin
 弗好落夜	vaq hau loq ya
-捏勒卵子弗⿸尸咋尿	gniaq laq loe tsy vaq dza syu
-捏勒卵子弗⿸尸查尿	gniaq laq loe tsy vaq dza syu
 捏勒卵子弗撒尿	gniaq laq loe tsy vaq dza syu
 捏勒卵子弗射尿	gniaq laq loe tsy vaq dza syu
 捏勒卵子弗𠑞尿	gniaq laq loe tsy vaq dza syu
@@ -4054,9 +3999,7 @@ use_preset_vocabulary: true
 動雷弗做梅	don lei vaq tsou mei
 做梅弗動雷	tsou mei vaq don lei
 弗是怕老婆	vaq zy pho lau bou
-𢜭力弗賺鈿	jiaq liq vaq dzae di
 着力弗賺鈿	jiaq liq vaq dzae di
-賺鈿弗𢜭力	dzae di vaq jiaq liq
 賺鈿弗着力	dzae di vaq jiaq liq
 上樑弗正	zaon lian vaq cin
 人弄人弄弗煞	gnin lon gnin lon vaq saq
@@ -4134,10 +4077,6 @@ use_preset_vocabulary: true
 言話勿能煞潑	ghae wo vaq nen saq phaq
 言話勿可扎	ghae wo vaq khou tsaq
 講言話慢他他	kaon ghae wo mae than than
-腳𧺤攏
-頭𧺤進
-𧺤指末頭
-皇帝老官打其𧺤
 鏤洞眼
 鏤番薯
 鏤耳朵屙	lheu gni to ou
@@ -5264,6 +5203,10 @@ use_preset_vocabulary: true
 扁舟	phi cieu
 可汗	khaq ghEI
 天可汗	thi khaq ghEI
+會稽	kuei ci
+會稽山	kuei ci sae
+綢繆	jieu meu
+未雨綢繆	vi yu jieu meu
 # 多音義詞彙
 明朝	min jiau
 肚子	du tsy
@@ -5286,26 +5229,18 @@ use_preset_vocabulary: true
 喫飯飯	chioq mhan mhan
 喫𩜠𩜠	chioq mhan mhan
 唔唔	nk nk
-⿸尸查唔唔	dza nk nk
-⿸尸咋唔唔	dza nk nk
 撒唔唔	dza nk nk
 射唔唔	dza nk nk
 𠑞唔唔	dza nk nk
 㕶㕶	nk nk
-⿸尸查㕶㕶	dza nk nk
-⿸尸咋㕶㕶	dza nk nk
 撒㕶㕶	dza nk nk
 射㕶㕶	dza nk nk
 𠑞㕶㕶	dza nk nk
 尿尿	syu syu
-⿸尸查尿尿	dza syu syu
-⿸尸咋尿尿	dza syu syu
 撒尿尿	dza syu syu
 射尿尿	dza syu syu
 𠑞尿尿	dza syu syu
 哚哚尿	to to syu
-⿸尸查哚哚尿	dza to to syu
-⿸尸咋哚哚尿	dza to to syu
 撒哚哚尿	dza to to syu
 射哚哚尿	dza to to syu
 𠑞哚哚尿	dza to to syu
@@ -5320,8 +5255,10 @@ use_preset_vocabulary: true
 棚棚船
 𠺢𠺢雞	ko ko ci
 𠺢𠺢嗡	ko ko on
-喵嗚貓
-娘胡貓
+喵嗚貓	knian u mae	55
+喵嗚貓	gnian u mae
+喵呣貓	knian mh mae	55
+喵呣貓	gnian mh mae
 阿旺牛
 阿嗯奶	aq ng ne
 # 量詞張
@@ -5646,7 +5583,6 @@ use_preset_vocabulary: true
 交關簡單	ciau kuae ci tae
 交關紅	ciau kuae ghon
 交關着力	ciau kuae jiaq liq
-交關𢜭力	ciau kuae jiaq liq
 交關細	ciau kuae shi
 交關緊	ciau kuae cin
 交關美	ciau kuae mei
@@ -7334,6 +7270,47 @@ use_preset_vocabulary: true
 解牀	ga zaon
 解琴	ga jin
 解解	ga ga
+# 穿
+穿衣裳
+穿褲
+穿褲子
+穿襯衫
+穿羊絨衫
+穿羊毛衫
+穿兩用衫
+穿棉襖
+穿羽絨衫
+穿棉毛衫
+穿棉毛褲
+穿背心
+穿背單
+穿裙
+穿連衫裙
+穿罩衫
+穿襪
+穿鞋
+穿鞋爿
+# 量詞支、枝
+一支	iq tsyu
+兩支	lian tsyu
+一枝筆	iq tsyu piq
+一支筆	iq tsyu piq
+一支菸	iq tsyu i
+一支香菸	iq tsyu shian i
+該支	kiq tsyu
+該支	kiq tsy
+該枝筆	kiq tsyu piq
+該支筆	kiq tsyu piq
+該支菸	kiq tsyu i
+該支香菸	kiq tsyu shian i
+喫一支	chioq iq tsyu
+喫支	chioq tsyu
+香菸喫支	shian i chioq tsyu
+喫支香菸	chioq tsyu shian i
+借枝筆	cia tsyu piq
+筆借枝	piq cia tsyu
+借支筆	cia tsyu piq
+筆借支	piq cia tsyu
 # 食物
 倭豆鹹肉糯米飯
 糯米飯
@@ -7659,8 +7636,6 @@ use_preset_vocabulary: true
 㰵弗出	tsyuq vaq tshyuq
 㰵勿出
 𠑞藥
-⿸尸查藥	dza yaq
-⿸尸咋藥	dza yaq
 撒藥	dza yaq
 射藥	dza yaq
 鵪鶉鳥	EI zyun tiau
@@ -7754,6 +7729,23 @@ use_preset_vocabulary: true
 嵌牢
 嵌進
 嵌的
+搵醬油
+搵醋
+搵米醋
+搵糖
+搵白糖
+搵墨
+搵筆
+搵搵其
+搵眼的
+𢳚開
+𢳚開來
+羽絨衫
+羊絨衫
+𤖼腳大	phaq ciaq da
+側過來	tsaq kou le
+側轉來	tsaq tsoe le
+自羯自	zhi ciq zhi
 # 八股文拆分詞彙
 〇兩	lin lian
 一九九兩	iq cieu cieu lian
@@ -14455,7 +14447,7 @@ VCD	vi shi di
 沿溪村
 沿西河
 泉溪
-泊水塘
+泊水塘	boq syu daon
 泗洲頭溪
 泗港小區
 泗港社區
@@ -14657,7 +14649,7 @@ VCD	vi shi di
 湖心河
 湖景花園
 湖東菜場
-湖泊河
+湖泊河	wu phaq ghou
 湖清墊
 湖芳村
 湖裏陳
