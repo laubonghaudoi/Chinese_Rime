@@ -112,7 +112,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共 102 個方案）
+<h3>方案列表（共 103 個方案）
 <br/>Full list of collected schemas (102 schemas in total)</h3>
 
 <ul>
@@ -480,6 +480,12 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
           </ul>
         </li>
         <li>客拼 - <code>hakka_pinyin</code></li>
+        <li>
+          大埔客家語拼音輸入方案 ℞ <code> huangjunxin/Rime-Hakka-TaibuShang </code>
+          <ul>
+            <li>大埔聲 - <code>tai4bu1shang1</code></li>
+          </ul>
+        </li>
       </ul>
     </details>
   </li>
@@ -602,7 +608,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
 </ul>
 
-<h3>配方列表（共 40 個配方）
+<h3>配方列表（共 41 個配方）
 <br/>List of recipes (40 recipes in total)</h3>
 
 <ul>
@@ -779,6 +785,9 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
       <summary>客家話 Hakka</summary>
       <ul>
         <li>崇正客語輸入法 ℞ <code>syndict/hakka</code></li>
+      </ul>
+      <ul>
+        <li>大埔客家語拼音輸入方案  ℞ <code> huangjunxin/Rime-Hakka-TaibuShang </code></li>
       </ul>
     </details>
   </li>
