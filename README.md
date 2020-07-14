@@ -847,9 +847,6 @@ For detailed information of the collected schemas in the download package, pleas
   - [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
   - [廣韻羅馬字](https://gist.github.com/lotem/3950485)
   - [廣韻段毄攴字法](https://bintray.com/rime-aca/Schemata/KMG)
-- 江淮官話
-  - [泰如拼音](https://github.com/osfans/rime-tool/tree/master/data/y)
-  - [南通方言](http://nantonghua.net/archives/7770)
 - 粵語
   - [貴州韻](https://zhuanlan.zhihu.com/p/31464937)
 - 晉語
