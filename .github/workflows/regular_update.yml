@@ -1,0 +1,37 @@
+name: Regular update
+on:
+  schedule:
+    - cron: '25 9 * * 0'
+jobs:
+  regular_update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x' 
+          architecture: 'x64'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install PyYaml
+      - name: update
+        run: |
+          git config --global pull.rebase true
+          cd ./script
+          chmod +x ./update_submodules.sh
+          ./update_submodules.sh
+          chmod +x ./update_download.py
+          ./update_download.py
+          cd ../
+      - name: commit
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Regular update"
+            git push origin master
+          fi
