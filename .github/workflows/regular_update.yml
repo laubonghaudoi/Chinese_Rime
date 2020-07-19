@@ -1,7 +1,7 @@
 name: Regular update
 on:
   schedule:
-    - cron: '25 9 * * 0'
+    - cron: '30 10 * * 0'
 jobs:
   regular_update:
     runs-on: ubuntu-latest
@@ -17,12 +17,16 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install PyYaml
-      - name: update
+      - name: Update submodules
         run: |
-          git config --global pull.rebase true
+          git submodule update --init --recursive
           cd ./script
           chmod +x ./update_submodules.sh
           ./update_submodules.sh
+          cd ../
+      - name: Update downloads
+        run: |
+          cd ./script
           chmod +x ./update_download.py
           ./update_download.py
           cd ../
