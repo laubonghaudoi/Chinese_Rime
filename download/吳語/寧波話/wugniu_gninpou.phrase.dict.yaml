@@ -17,7 +17,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.07.12"
+version: "2020.07.18"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -406,6 +406,11 @@ use_preset_vocabulary: true
 小娃屄	shiau uae pi	55
 腐滯滯	vu ji ji	55
 腐滯刮剌	vu ji kuaq laq	55
+鏾雞	shi ci	55
+縩孔籃	cia khon lae	55
+縩孔籃	cian khon lae	55
+拖帉	thou fon	799
+屈死	chiuq shi	55
 
 # 江蘇教育版《寧波方言詞典》 其他寫法
 
@@ -640,6 +645,8 @@ use_preset_vocabulary: true
 擱頂	koq ten	55
 屋頭頂	oq deu ten	55
 發奤	faq phoq	55
+拖帉布	thou fon pu	55
+拖帉柄	thou fon pin	55
 
 # 其他詞彙
 
@@ -1459,8 +1466,6 @@ use_preset_vocabulary: true
 擱幾大座	koq ci dou zou
 踏鐵車
 九月廿七風
-懶婦掏家空	lae vu dau cia khon
-懶婦掏家空	lae vu dau cian khon
 嘔其倒痰瓶
 依路抲蜻蜓
 便桶擔
@@ -4109,6 +4114,8 @@ use_preset_vocabulary: true
 謳渠一聲	eu ji iq shin
 謳渠淘淘米	eu ji dau dau mi
 煩赤佬	vae tshaq lau
+懶婦掏縩空	lae vu dau cia khon
+懶婦掏縩空	lae vu dau cian khon
 # 地名
 寧波市	gnin pou zy
 寧波市	gnin poq zy
@@ -5207,6 +5214,12 @@ use_preset_vocabulary: true
 會稽山	kuei ci sae
 綢繆	jieu meu
 未雨綢繆	vi yu jieu meu
+豬肚	tsyu tu
+羊肚	yan tu
+魚肚	ng tu
+炮羊肚	bau yan tu
+爆肚	pau tu
+羊肚蕈	yan tu jin
 # 多音義詞彙
 明朝	min jiau
 肚子	du tsy
@@ -7746,6 +7759,16 @@ use_preset_vocabulary: true
 側過來	tsaq kou le
 側轉來	tsaq tsoe le
 自羯自	zhi ciq zhi
+爽性		1500
+縩孔	cia khon	55
+縩孔	cian khon	55
+啥會	soq wei	55
+啥會	so wei	55
+啥有	soq yeu	55
+啥有	so yeu	55
+燕山夜話
+落帽風
+抲落帽風
 # 八股文拆分詞彙
 〇兩	lin lian
 一九九兩	iq cieu cieu lian
@@ -10891,6 +10914,7 @@ use_preset_vocabulary: true
 點落去	ti loq chi
 點弗着	ti vaq jiaq
 點勿着	ti vaq jiaq
+炸肉圓	zaq gnioq yu
 # 帶字母的詞彙
 K	khe
 k	khe

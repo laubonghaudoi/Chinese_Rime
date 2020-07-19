@@ -21,7 +21,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.07.12"
+version: "2020.07.18"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -2322,6 +2322,7 @@ s	迡	gni
 搧	shi
 煽	shi
 騸	shi
+鏾	shi
 謆	shi
 傓	shi
 霰	shi
@@ -3729,7 +3730,6 @@ s	迡	gni
 貟	yu
 玄	yu
 舷	yu
-丸	yu	5%
 懸	yu
 袁	yu
 轅	yu
@@ -4108,6 +4108,7 @@ s	迡	gni
 斝	cia
 藉	cia
 借	cia
+縩	cia
 嫁	cia	5%
 介	cia	5%
 玠	cia
@@ -5053,6 +5054,7 @@ s	迡	gni
 鵶	o
 下	o	5%
 搲	o	578
+攨	o
 哦	o
 阿	o	0%
 堊	o	5%
@@ -5645,7 +5647,7 @@ s	迡	gni
 窳	uo
 畖	uo
 搲	uo	5%
-攨	uo
+攨	uo	5%
 家	cio	0%
 傢	cio	0%
 稼	cio	0%
@@ -6447,7 +6449,7 @@ s	迡	gni
 攕	sae
 檆	sae
 邖	sae
-鏾	sae
+鏾	sae	0%
 霰	sae
 滻	sae
 糤	sae
@@ -7405,6 +7407,7 @@ s	迡	gni
 煺	thei
 藬	thei
 貪	thei
+胎	thei	0%
 腿	thei
 骽	thei
 嗿	thei
@@ -9032,9 +9035,9 @@ s	迡	gni
 痮	cian
 𥇔	cian
 醬	cian
+縩	cian
 仗	cian
 借	cian	0%
-家	cian	0%
 槍	chian
 鎗	chian
 嗆	chian
@@ -11687,6 +11690,7 @@ s	迡	gni
 鮶	ciun
 桊	ciun
 棬	ciun
+牶	ciun
 呁	ciun
 捃	ciun
 攈	ciun
@@ -12006,10 +12010,10 @@ s	迡	gni
 犎	fon
 崶	fon
 篈	fon
-紛	fon	0%
+帉	fon
+𢁥	fon
 諷	fon
 蠭	fon
-畚	fon	0%
 偑	fon
 檒	fon
 猦	fon
@@ -13092,7 +13096,7 @@ s	迡	gni
 側	tshaq
 惻	tshaq
 𡍫	tshaq
-撮	tshaq
+撮	tshaq	2500
 猝	tshaq
 策	tshaq
 鏼	tshaq
@@ -13634,7 +13638,7 @@ s	迡	gni
 傄	huaq
 眓	huaq
 劃	waq
-畫	waq	0%
+畫	waq	1%
 划	waq
 嫿	waq
 㗲	waq
@@ -13743,7 +13747,7 @@ s	迡	gni
 箔	boq
 暴	boq	1%
 瀑	boq
-曝	boq
+曝	boq	5%
 㩧	boq
 僕	boq
 鏷	boq
@@ -13977,7 +13981,7 @@ s	迡	gni
 穱	tsoq
 作	tsoq
 筰	tsoq
-撮	tsoq	0%
+撮	tsoq	10
 糳	tsoq
 傶	tsoq
 喌	tsoq
@@ -14038,7 +14042,7 @@ s	迡	gni
 嗾	tshoq
 瘯	tshoq
 閦	tshoq
-撮	tshoq	10%
+撮	tshoq	1000
 矠	tshoq
 剒	tshoq
 逪	tshoq
@@ -14740,6 +14744,8 @@ s	迡	gni
 厔	ciq
 陟	ciq
 騭	ciq
+𨽥	ciq
+隲	ciq
 轍	ciq
 折	ciq
 哲	ciq
@@ -15708,7 +15714,7 @@ s	迡	gni
 𠄡	ng
 耳	ng
 午	ng	0%
-尾	ng
+尾	ng	1%
 爾	ng	243244
 尒	ng
 尓	ng
@@ -16173,6 +16179,7 @@ s	迡	gni
 纤	shi
 线	shi
 骟	shi
+𫔌	shi
 𫍸	shi
 宪	shi
 齐	zhi
@@ -16526,7 +16533,6 @@ s	迡	gni
 鸨	pau
 报	pau
 抛	phau
-炮	bau
 铇	bau
 龅	bau
 鲍	bau
@@ -18102,7 +18108,6 @@ s	迡	gni
 砜	fon
 沣	fon
 锋	fon
-纷	fon
 讽	fon
 㐽	fon
 赗	fon
@@ -18589,6 +18594,7 @@ s	迡	gni
 职	ciq
 鹡	ciq
 骘	ciq
+𱀑	ciq
 辙	ciq
 詟	ciq
 质	ciq
@@ -19586,8 +19592,6 @@ s	迡	gni
 天裏菩薩	thi li bu saq
 瘟孫	uen sen	55
 瘟生	uen sen	55
-曲死	chiuq shi	55
-阿曲死	aq chiuq shi	55
 牛坯	ngeu phei	55
 牛頭	ngeu deu
 老鬼	lau ciu
@@ -20822,7 +20826,6 @@ s	迡	gni
 豆豉醬	deu zyu cian
 豆板醬	deu pae cian	418
 雙缸醬	saon kaon cian	55
-辣貨醬	laq hou cian	55
 芋艿蓊	n na on	418
 芋艿蓊癟	n na on piq	55
 筍麩鹹齏	syun fu ghae ci	55
@@ -20913,7 +20916,6 @@ s	迡	gni
 苔生片	de sen phi	55
 豆酥糖	deu su daon	55
 油饡子	yeu tsae tsy	55
-油饊子	yeu tsae tsy	55
 油繩	yeu zhin	55
 年糕片	gni kau phi	55
 年糕乾	gni kau kI	55
@@ -21236,8 +21238,6 @@ s	迡	gni
 坐車	zou tshoe
 鐵車	thiq tsho	55
 縫衣機	von i ci
-家空籃	cia khon lae	55
-家空籃	cian khon lae	55
 藤盤	den bun	55
 粉線袋	fen shi de	55
 絎針	ghaon cin	55
@@ -21273,7 +21273,6 @@ s	迡	gni
 排刷	ba syuq	55
 板刷	pae syuq
 肥皂粉	bi zau fen
-拖紛	thou fon	55
 屙掃帚	ou sau cieu	55
 玍掃帚	tsyu sau cieu	55
 侏掃帚	tsyu sau cieu	55
@@ -24306,7 +24305,6 @@ s	迡	gni
 萬生萬世	vae san vae shi	55
 隨俉咋	zei ng dza	55
 隨便咋	zei bi dza	55
-總歸子	tson kuei tsy	55
 真可	cin khou
 真個	cin kou
 真真	cin cin
@@ -25483,7 +25481,6 @@ s	迡	gni
 地頭蛇	di deu dzo
 地溝	di keu
 地狗	di keu	55
-地樣	di yan	578
 地樣裏	di yan li	55
 地壤裏	di gnian li	55
 地樣下頭	di gnian gho deu	55
@@ -25600,7 +25597,6 @@ s	迡	gni
 牽磨	chi mou	55
 牽牛鼻頭	chi ngeu baq deu	55
 牽礱	chi lon	55
-溪翹	chi chiau	55
 溪口鎮	chi kheu tsyun
 溪坑水	chi khan syu	55
 遷就	chi jieu
@@ -26346,7 +26342,6 @@ s	迡	gni
 老早百地	lau tsau paq di	418
 價格	ko kaq
 老話頭	lau wo deu	55
-老小無欺	lau shiau Wu chi	55
 老K牌	lau khe ba	55
 老闆	lau pae
 老闆娘	lau pae gnian
@@ -26696,7 +26691,6 @@ s	迡	gni
 夏至	gho tsy
 丫頭	o deu
 丫頭屄	o deu pi	55
-丫鵲	o chiaq	55
 搲船	o ZOE	55
 搲龍船	o lon ZOE	55
 𦫪掉	o diau	55
@@ -27279,7 +27273,6 @@ s	迡	gni
 杉木	sae moq
 舢板	sae pae
 散腳	sae ciaq	55
-賽可	se khou	55
 饞唾水	zae do syu	418
 饞脫	zae thaq	55
 奸刁	kae tiau
@@ -27717,9 +27710,6 @@ s	迡	gni
 多肉	tou gnioq	55
 拖鞋	thou gha
 拖下飯	thou gho vae	55
-拖畚	thou fon	55
-拖畚布	thou fon pu	55
-拖畚柄	thou fon pin	55
 駝背	dou pei
 大指末頭	dou tsy maq deu	55
 大櫥	dou dzyu	55
@@ -28164,7 +28154,6 @@ s	迡	gni
 硬糖	ngan daon
 硬上	ngan zaon	55
 硬襯	ngan tshen	55
-硬竟	ngan cin	55
 硬襞紙	ngan paq tsy	55
 硬結刮剌	ngan ciq kuaq laq	55
 行李	ghan li
@@ -29744,7 +29733,6 @@ s	迡	gni
 藥房	yaq vaon
 藥行	yaq ghaon
 藥丸	yaq wun
-藥丸	yaq yu
 藥粉	yaq fen
 藥戥子	yaq ten tsy	55
 藥芹	yaq jin	55
@@ -30092,7 +30080,6 @@ s	迡	gni
 的的薄	tiq tiq boq	55
 菲菲薄	fi fi boq	55
 踢土旁	thiq thu baon	55
-鐵絲揢蘿	thiq sy khaq lou	55
 鐵樹	thiq zyu
 鐵路	thiq lu
 鐵耙	thiq bo	55

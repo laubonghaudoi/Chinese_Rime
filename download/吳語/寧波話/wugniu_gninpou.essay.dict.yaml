@@ -12,7 +12,7 @@
 
 ---
 name: wugniu_gninpou.essay
-version: "2020.07.11"
+version: "2020.07.18"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -131,6 +131,7 @@ use_preset_vocabulary: true
 一生	iq sen
 一生中	iq sen tson
 一生受用不盡	iq sen zhieu yon paq jin
+一畫	iq waq
 一百人	iq paq gnin
 一百個	iq paq goq
 一百分	iq paq fen
@@ -142,7 +143,10 @@ use_preset_vocabulary: true
 一神教	iq zyun ciau
 一票人	iq phiau gnin
 一笑了之	iq shiau liau tsy
+一筆一畫	iq piq iq waq
 一筆勾斷	iq piq keu doe
+一筆畫	iq piq waq
+一筆畫	iq piq wo
 一籌莫展	iq jieu moq ci
 一籌莫展	iq jieu moq tsoe
 一線希望	iq shi shi vaon
@@ -410,6 +414,8 @@ use_preset_vocabulary: true
 上片時間	zaon phi zy ci
 上牌	zaon ba
 上班時間	zaon pae zy ci
+上畫	zaon waq
+上畫	zaon wo
 上癮	zaon in
 上百人	zaon paq gnin
 上籃得分	zaon lae taq fen
@@ -440,6 +446,7 @@ use_preset_vocabulary: true
 下架	gho ko
 下流人士	gho lieu zyun zy
 下班時間	gho pae zy ci
+下畫線	gho waq shi
 下自	gho zy
 下自成蹊	gho zy jin chi
 下行	gho yin
@@ -1859,6 +1866,7 @@ use_preset_vocabulary: true
 五百個	ng paq goq
 五穀不分	ng koq paq fen
 五穀雜糧	ng koq dzaq lian
+五筆畫	ng piq waq
 五花大綁	ng huo da paon
 五萬人	ng vae gnin
 五萬個	ng vae goq
@@ -1890,6 +1898,7 @@ use_preset_vocabulary: true
 亞力山大帝	ia liq sae da ti
 亞哈斯	ia ha sy
 亞太國家	ia tha koq cia
+亞太營運中心計畫	ia tha yin yun tson shin ci waq
 亞拉巴馬	ia lha pa ma
 亞拉巴馬	ia lha pa mo
 亞拉巴馬州	ia lha pa ma cieu
@@ -5711,6 +5720,11 @@ use_preset_vocabulary: true
 刻了	khaq laq
 刻個	khaq ghoq
 刻個	khaq goq
+刻畫	khaq waq
+刻畫來	khaq waq le
+刻畫入微	khaq waq zyuq vi
+刻畫無鹽	khaq waq Wu yi
+刻畫無鹽	khaq waq vu yi
 刻苦學習	khaq khu ghoq zhiq
 刻苦學習	khaq khu ghoq zyuq
 剃了	thi laq
@@ -6302,6 +6316,7 @@ use_preset_vocabulary: true
 動人心魄	don gnin shin phaq
 動力學	don liq yuq
 動員大會	don yu da wei
+動員計畫	don yu ci waq
 動如參商	don zyu sen saon
 動態更新	don the ken shin
 動態範圍	don the vae wei
@@ -6530,7 +6545,9 @@ use_preset_vocabulary: true
 區分大小寫	chiu fen dou shiau shia
 區分法	chiu fen faq
 區域範圍	chiu yuq vae wei
+區域計畫	chiu yuq ci waq
 區域間	chiu yuq ci
+區畫	chiu waq
 區長	chiu cian
 區間	chiu ci
 區間車	chiu ci tsho
@@ -6776,6 +6793,7 @@ use_preset_vocabulary: true
 半自耕農	pun zy kan non
 半路出家	pun lu tshyuq cia
 半路殺出個程咬金	pun lu saq tshyuq goq jin ngau cin
+半途自畫	pun du zy waq
 半長軸	pun jian jiuq
 半間不界	pun ci paq ka
 半集	pun jiq
@@ -8998,6 +9016,7 @@ use_preset_vocabulary: true
 國家體委	koq cia thi uei
 國家體育總局	koq cia thi yuq tson jiuq
 國家黨	koq cia taon
+國建六年計畫	koq ci loq gni ci waq
 國慶大典	koq chin da ti
 國慶日	koq chin zyuq
 國教	koq ciau
@@ -11404,6 +11423,7 @@ use_preset_vocabulary: true
 太阿倒持	tha ou tau dzy
 太阿倒持	tha ou tau ji
 太陽照在桑乾河上	tha yan ciau dze saon kI ghou zaon
+太陽神計畫	tha yan zyun ci waq
 太陽能電池	tha yan nen di dzy
 太陽能電池	tha yan nen di ji
 太陽電池	tha yan di dzy
@@ -12096,6 +12116,7 @@ use_preset_vocabulary: true
 學甲	yuq ciaq
 學甲鎮	yuq ciaq tsyun
 學界	yuq ka
+學畫	ghoq wo
 學疏才淺	yuq su dze chi
 學的	ghoq tiq
 學監	yuq kae
@@ -12284,6 +12305,7 @@ use_preset_vocabulary: true
 安家落戶	EI cia loq wu
 安家費	EI cia fi
 安居樂業	EI ciu loq gniq
+安康計畫	EI khaon ci waq
 安徒生	EI du sen
 安徒生童話	EI du sen don wo
 安得拉邦	EI taq lha paon
@@ -12538,6 +12560,8 @@ use_preset_vocabulary: true
 家庭經濟	cia din cin ci
 家庭號	cia din ghau
 家庭計劃	cia din ci waq
+家庭計畫	cia din ci waq
+家庭計畫推廣中心	cia din ci waq thei kuaon tson shin
 家廟	cia miau
 家弟	cia di
 家徒四壁	cia du sy piq
@@ -12773,6 +12797,7 @@ use_preset_vocabulary: true
 實數集	zyuq su jiq
 實時加工	zyuq zy cia kon
 實業家	zyuq gniq cia
+實業計畫	zyuq gniq ci waq
 實歲	zyuq syu
 實物交易	zyuq vaq ciau yiq
 實物教學	zyuq vaq ciau yuq
@@ -13055,6 +13080,7 @@ use_preset_vocabulary: true
 小差	shiau tsha
 小康之家	shiau khaon tsy cia
 小康家庭	shiau khaon cia din
+小康計畫	shiau khaon ci waq
 小後生	shiau gheu san
 小懲大誡	shiau jin dou cie
 小戶人家	shiau wu gnin ko
@@ -15298,6 +15324,8 @@ use_preset_vocabulary: true
 戰爭罪行	tsoe tsen zei yin
 戰略家	ci liaq cia
 戰略家	tsoe liaq cia
+戰略計畫	ci liaq ci waq
+戰略計畫	tsoe liaq ci waq
 戰鬥人員	ci teu zyun yu
 戰鬥人員	tsoe teu zyun yu
 戰鬥行爲	ci teu yin wei
@@ -16228,11 +16256,13 @@ use_preset_vocabulary: true
 持續時間	ji dzoq zy ci
 指了	tsy laq
 指令集	tsy lin jiq
+指天畫地	tsy thi waq di
 指天誓日	tsy thi zy zyuq
 指定人	tsy din gnin
 指導人	tsy dau gnin
 指導學生	tsy dau ghoq san
 指導教授	tsy dau ciau zhieu
+指手畫腳	tsy shieu waq ciaq
 指揮家	tsy huei cia
 指教	tsy ciau
 指斥	tsy chiq
@@ -16241,6 +16271,7 @@ use_preset_vocabulary: true
 指日可數	tsy zyuq khou su
 指日高升	tsy zyuq kau shin
 指望	tsy vaon
+指東畫西	tsy ton waq shi
 指甲刀	tsy khaq tau
 指甲剪	tsy khaq ci
 指甲油	tsy khaq yeu
@@ -16785,6 +16816,7 @@ use_preset_vocabulary: true
 擔架擡	tae ko de
 擔架牀	tae ko zaon
 擔架隊	tae ko dei
+擘畫	phaq waq
 據傳	ciu dzOE
 據傳說	ciu dzOE syuq
 擠了	ci laq
@@ -17263,6 +17295,7 @@ use_preset_vocabulary: true
 教育背景	ciau yuq pei cin
 教育處	ciau yuq tshyu
 教育行政	ciau yuq yin cin
+教育計畫	ciau yuq ci waq
 教育費	ciau yuq fi
 教育資源	ciau yuq tsy gniu
 教育質量	ciau yuq ciq lian
@@ -18380,6 +18413,8 @@ use_preset_vocabulary: true
 星命家	shin min cia
 星家	shin cia
 星島日報	shin tau zyuq pau
+星戰計畫	shin ci ci waq
+星戰計畫	shin tsoe ci waq
 星月交輝	shin yuq ciau huei
 星期二	shin ji gni
 星期假日	shin ji cia zyuq
@@ -18867,6 +18902,7 @@ use_preset_vocabulary: true
 曹參	dzau tshae
 曼儂	mae non
 曼哈坦	mae ha thae
+曼哈坦計畫	mae ha thae ci waq
 曼哈頓	mae ha ten
 曼哈頓區	mae ha ten chiu
 曼哈頓島	mae ha ten tau
@@ -20101,8 +20137,8 @@ use_preset_vocabulary: true
 樂池	yuq dzy
 樂池	yuq ji
 樂浪郡	loq laon jiun
-樂清	loq chin
-樂清市	loq chin zy
+樂清	yuq chin
+樂清市	yuq chin zy
 樂滋滋	loq tsy tsy
 樂理	yuq li
 樂的	loq tiq
@@ -20299,6 +20335,7 @@ use_preset_vocabulary: true
 欠錢未還	chi ji vi wae
 次一個	tshy iq kou
 次大陸	tshy da loq
+次微米計畫	tshy vi mi ci waq
 次日	tshy zyuq
 次生	tshy sen
 次生林	tshy sen lin
@@ -20344,6 +20381,7 @@ use_preset_vocabulary: true
 歐洲人	eu cieu gnin
 歐洲國家	eu cieu koq cia
 歐洲大陸	eu cieu da loq
+歐洲復興計畫	eu cieu foq shin ci waq
 歐洲自由貿易聯盟	eu cieu zy yeu meu yiq li men
 歐米伽	eu mi jia
 歐羅巴人種	eu lou po gnin tson
@@ -20428,6 +20466,7 @@ use_preset_vocabulary: true
 正面人物	cin mi zyun vaq
 正顏厲色	cin ngae li saq
 正顏厲色	cin yi li saq
+正點背畫	cin ti pei waq
 此伏彼起	tshy voq pei chi
 此伏彼起	tshy voq pi chi
 此問題	tshy ven di
@@ -20790,12 +20829,14 @@ use_preset_vocabulary: true
 比大小	pi dou shiau
 比學趕幫超	pi yuq kI paon chiau
 比我大	pi ngo dou
+比手畫腳	pi shieu waq ciaq
 比比皆是	pi pi cie zy
 比爾	pi er
 比爾	pi ng
 比爾博	pi er poq
 比爾蓋茨	pi er ke dzy
 比率	pi liq
+比畫	pi waq
 比翼鳥	pi yiq gniau
 比色分析	pi saq fen shiq
 比較分析	pi ciau fen shiq
@@ -21626,6 +21667,7 @@ use_preset_vocabulary: true
 波狀	pou dzaon
 波狀熱	pou dzaon gniq
 波狀雲	pou dzaon yun
+波磔點畫	pou ciq ti waq
 波粒二象性	pou liq er zhian shin
 波義耳	pou gni er
 波義耳定律	pou gni er din liq
@@ -22459,7 +22501,6 @@ use_preset_vocabulary: true
 炸糕	zaq kau
 炸肉	zaq gnioq
 炸肉丸	zaq gnioq wun
-炸肉丸	zaq gnioq yu
 炸肉塊	zaq gnioq khuei
 炸薯條	zaq zyu diau
 炸薯片	zaq zyu phi
@@ -22740,6 +22781,8 @@ use_preset_vocabulary: true
 無絲分裂	vu sy fen liq
 無緣無故	Wu yu Wu ku
 無緣無故	vu yu vu ku
+無缺點計畫	Wu chiuq ti ci waq
+無缺點計畫	vu chiuq ti ci waq
 無聲無息	Wu shin Wu shiq
 無聲無息	vu shin vu shiq
 無聲無臭	Wu shin Wu chieu
@@ -23181,7 +23224,6 @@ use_preset_vocabulary: true
 牛耳	gnieu er
 牛耳	ngeu er
 牛肉丸	ngeu gnioq wun
-牛肉丸	ngeu gnioq yu
 牛肉拉麪	ngeu gnioq lha mi
 牛背	ngeu pei
 牛背上	ngeu pei zaon
@@ -24017,6 +24059,7 @@ use_preset_vocabulary: true
 生產要素	sen tshae iau su
 生產規模	sen tshae kuei mou
 生產計劃	sen tshae ci waq
+生產計畫	sen tshae ci waq
 生產設備	sen tshae shiq bei
 生產設施	sen tshae shiq sy
 生產責任制	sen tshae tsaq zyun tsyu
@@ -24274,6 +24317,7 @@ use_preset_vocabulary: true
 男管家	nEI kun cia
 男耕女織	nEI kan gniu ciq
 界分別觀	ka fen biq kun
+界畫	ka waq
 畏死	uei sy
 畏罪自殺	uei zei zy saq
 畏首畏尾	uei shieu uei vi
@@ -24322,17 +24366,35 @@ use_preset_vocabulary: true
 番茄花園	fae ga huo yu
 番鬼	fae kuei
 番鴨	fae aq
+畫一	waq iq
+畫中人	wo tson gnin
 畫了	wo laq
 畫人	wo gnin
+畫來畫去	waq le waq chi
+畫來畫去	wo le wo chi
 畫分	waq fen
 畫分爲	waq fen wei
 畫去	waq chi
+畫地成圖	waq di jin du
+畫地成圖	wo di jin du
+畫地爲牢	waq di wei lau
+畫地爲牢	wo di wei lau
+畫地爲獄	waq di wei yuq
+畫地爲獄	wo di wei yuq
+畫地而趨	waq di er tshyu
+畫地而趨	wo di er tshyu
+畫地自限	waq di zy ghae
 畫地自限	wo di zy ghae
 畫家	wo cia
+畫拉	waq laq
+畫時	waq zy
+畫時代	waq zy de
 畫架	wo ko
 畫的	wo tiq
 畫眉	wo mei
 畫眉鳥	wo mei gniau
+畫策	waq tshaq
+畫策設謀	waq tshaq shiq meu
 畫荻教子	wo diq ciau tsy
 畫行	wo ghaon
 畫評家	wo bin cia
@@ -25315,9 +25377,9 @@ use_preset_vocabulary: true
 硬任務	ngan zyun vu
 硬生生	ngan san san
 硬盤空間	ngan bun khon ci
-碇泊	din boq
-碇泊區	din boq chiu
-碇泊費	din boq fi
+碇泊	tin boq
+碇泊區	tin boq chiu
+碇泊費	tin boq fi
 碎了	sei lei
 碑學	pei yuq
 碗櫃	un guei
@@ -26020,6 +26082,9 @@ use_preset_vocabulary: true
 筆墨生涯	piq moq sen yi
 筆底生花	piq ti sen huo
 筆斷意連	piq doe i li
+筆畫	piq waq
+筆畫數	piq waq su
+筆畫檢字法	piq waq ci zy faq
 筆耕	piq kan
 等了	ten laq
 等人	ten gnin
@@ -26045,6 +26110,7 @@ use_preset_vocabulary: true
 答非所問	taq fi so ven
 策劃人	tshaq waq gnin
 策問	tshaq ven
+策畫	tshaq waq
 箇中	kou tson
 箇中三昧	kou tson sae mei
 箇中人	kou tson gnin
@@ -26185,6 +26251,7 @@ use_preset_vocabulary: true
 籃狀	lae dzaon
 籃球架	lae jieu ko
 籌度	jieu doq
+籌畫	jieu waq
 籌集	jieu jiq
 籌集資金	jieu jiq tsy cin
 籍沒	zhiq maq
@@ -26581,6 +26648,7 @@ use_preset_vocabulary: true
 經濟狀況	cin ci dzaon huaon
 經濟生活	cin ci sen waq
 經濟補償	cin ci pu dzaon
+經濟計畫	cin ci ci waq
 經濟貿易	cin ci meu yiq
 經濟運行	cin ci yun yin
 經濟部長	cin ci bu cian
@@ -27747,6 +27815,7 @@ use_preset_vocabulary: true
 膀臂	paon pi
 膂力過人	li liq kou gnin
 膏狀	kau dzaon
+膚如刻畫	fu zyu khaq waq
 膜狀	mou dzaon
 膝行	shiq ghaon
 膠乳	ciau zyu
@@ -29825,7 +29894,7 @@ use_preset_vocabulary: true
 行政區劃	yin cin chiu waq
 行政區劃圖	yin cin chiu waq du
 行政區域	yin cin chiu yuq
-行政區畫	yin cin chiu wo
+行政區畫	yin cin chiu waq
 行政命令	yin cin min lin
 行政員	yin cin yu
 行政執法	yin cin ciq faq
@@ -30448,6 +30517,8 @@ use_preset_vocabulary: true
 規定範圍	kuei din vae wei
 規模最大	kuei mou tsei da
 規率	kuei liq
+規畫	kuei waq
+規畫出	kuei waq tshyuq
 規範學	kuei vae yuq
 規範行爲	kuei vae yin wei
 規行矩步	kuei ghan ciu bu
@@ -30725,6 +30796,9 @@ use_preset_vocabulary: true
 計生	ci sen
 計生委	ci sen uei
 計生工作	ci sen kon tsoq
+計畫	ci waq
+計畫生育	ci waq sen yuq
+計畫經濟	ci waq cin ci
 計算機斷層	ci soe ci doe zen
 計算機科學	ci soe ci khou yuq
 計算機科學家	ci soe ci khou yuq cia
@@ -32220,8 +32294,11 @@ use_preset_vocabulary: true
 軟耳朵	gniu ng to
 軸功率	jiuq kon liq
 軸率	jiuq liq
+較如畫一	ciau zyu waq iq
 較差	ciau tsha
 較易	ciau yi
+較若畫一	ciau zhiaq wo iq
+較若畫一	ciau zoq wo iq
 較長	ciau jian
 載人	tse zyun
 載人航天	tse zyun ghaon thi
@@ -33544,6 +33621,7 @@ use_preset_vocabulary: true
 都安瑤族自治縣	tu EI yau dzoq zy dzyu yu
 都市人口	tu zy gnin kheu
 都市傳奇	tu zy dzOE ji
+都市計畫	tu zy ci waq
 都應該	tu in ke
 都拉斯	tu lha sy
 都拿	tu na
@@ -36492,6 +36570,7 @@ use_preset_vocabulary: true
 馬架	mo ko
 馬歇爾	mo shiq er
 馬歇爾計劃	mo shiq er ci waq
+馬歇爾計畫	mo shiq er ci waq
 馬泊六	mo boq loq
 馬爾	mo er
 馬爾他	mo er tha
@@ -36862,11 +36941,8 @@ use_preset_vocabulary: true
 魔鬼身材	mou kuei shin dze
 魔鬼連	mou kuei li
 魚丸	ng wun
-魚丸	ng yu
 魚丸湯	ng wun thaon
-魚丸湯	ng yu thaon
 魚丸粗麪	ng wun tshu mi
-魚丸粗麪	ng yu tshu mi
 魚乾	ng kI
 魚介	ng ka
 魚場	ng jian
