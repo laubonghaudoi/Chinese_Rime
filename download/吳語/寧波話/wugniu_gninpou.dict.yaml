@@ -21,7 +21,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.07.18"
+version: "2020.07.25"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -5025,6 +5025,7 @@ s	迡	gni
 嫁	ko
 價	ko
 抲	kho	8000
+揢	kho	0%
 㰤	kho
 咖	go	0%
 茶	go	0%
@@ -5053,8 +5054,6 @@ s	迡	gni
 鴉	o
 鵶	o
 下	o	5%
-搲	o	578
-攨	o
 哦	o
 阿	o	0%
 堊	o	5%
@@ -5646,8 +5645,8 @@ s	迡	gni
 蝸	uo
 窳	uo
 畖	uo
-搲	uo	5%
-攨	uo	5%
+搲	uo	578
+攨	uo
 家	cio	0%
 傢	cio	0%
 稼	cio	0%
@@ -20059,8 +20058,8 @@ s	迡	gni
 腳後跟	ciaq gheu ken
 腳橋	ciaq jiau	55
 腳筋	ciaq cin	578
-腳指末頭	ciaq tsy maq deu	55
-腳指末頭	ciaq ciq maq deu	55
+腳指末頭	ciaq tsy maq deu	418
+腳指末頭	ciaq ciq maq deu	418
 腳末頭	ciaq maq deu	418
 腳指甲	ciaq tsy khaq
 腳指甲	ciaq ciq khaq
@@ -26691,8 +26690,6 @@ s	迡	gni
 夏至	gho tsy
 丫頭	o deu
 丫頭屄	o deu pi	55
-搲船	o ZOE	55
-搲龍船	o lon ZOE	55
 𦫪掉	o diau	55
 表弟新婦	piau di shin vu	55
 表姊妹	piau ci mei
@@ -29711,12 +29708,9 @@ s	迡	gni
 腳銬	ciaq khau	55
 腳絞仔	ciaq gau tsy	55
 腳紗頭	ciaq so deu	55
-腳搲船	ciaq o ZOE	55
 腳頭	ciaq deu	55
 腳印	ciaq in
 腳魄	ciaq phaq	55
-腳甲末頭	ciaq ciaq maq deu	418
-腳甲掐	ciaq ciaq khaq	55
 腳骨抖抖	ciaq kuaq teu teu	55
 腳鐲	ciaq jiuq
 鰙鰨	gniaq thaq	55

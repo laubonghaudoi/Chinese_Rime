@@ -17,7 +17,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.07.18"
+version: "2020.07.21"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -647,6 +647,10 @@ use_preset_vocabulary: true
 發奤	faq phoq	55
 拖帉布	thou fon pu	55
 拖帉柄	thou fon pin	55
+搲船	uo ZOE	55
+搲龍船	uo lon ZOE	55
+腳指末頭	ciaq ciaq maq deu
+腳指甲	ciaq ciaq khaq
 
 # 其他詞彙
 
@@ -4135,6 +4139,7 @@ use_preset_vocabulary: true
 慶元總管府
 老三區
 海曙區
+海曙區人	he zyu chiu gnin
 海曙
 南門街道
 南站
@@ -4195,6 +4200,7 @@ use_preset_vocabulary: true
 解放南路	ka faon nEI lu
 民光電影院
 石碶街道
+石碶人	zaq chi gnin
 石碶
 輕紡城
 機場路
@@ -4310,6 +4316,7 @@ use_preset_vocabulary: true
 寧興小區
 南雅新村
 段塘街道
+段塘人	doe daon gnin
 段塘
 寧波電視臺	gnin pou di zy de
 寧波電視臺	gnin poq di zy de
@@ -4348,6 +4355,7 @@ use_preset_vocabulary: true
 關愛小區
 寧波市中醫院
 高橋鎮
+高橋人	kau jiau gnin
 高橋
 通途西路
 梁祝
@@ -4358,27 +4366,35 @@ use_preset_vocabulary: true
 寧波財經學院	gnin pou dze cin yuq yu
 寧波財經學院	gnin poq dze cin yuq yu
 橫街鎮
+橫街人	wan ka gnin
 橫街
-集士港鎮
-集士港
+集士港鎮	zyuq zy kaon tsyun
+集士港人	zyuq zy kaon gnin
+集士港	zyuq zy kaon
 奧特萊斯
 廣德湖
 十三洞橋
 古林鎮
+古林人	ku lin gnin
 古林
 黃古林
 禮嘉橋
 禮嘉橋村
 洞橋鎮
+洞橋人	don jiau gnin
 洞橋
 鄞江鎮
+鄞江人	gnin kaon gnin
 鄞江
 鄞江中學	gnin kaon tson ghoq
 章水鎮	tsaon syu tsyun
+章水人	tsaon syu gnin
 章水	tsaon syu
 龍觀鄉
+龍觀人	lon kun gnin
 龍觀
 江北區
+江北人	kaon poq gnin
 江北
 江北岸
 中馬街道
@@ -4438,6 +4454,7 @@ use_preset_vocabulary: true
 倪家堰	gni ko i
 壓賽堰
 莊橋街道
+莊橋人	tsaon jiau gnin
 莊橋
 莊橋機場
 莊橋站
@@ -4446,18 +4463,22 @@ use_preset_vocabulary: true
 康莊南路
 江北大道	kaon poq da dau
 洪塘街道
+洪塘人	ghon daon gnin
 洪塘
 機場北路
 廣元路
 西洪村
 奧體中心
 慈城鎮
+慈城人	dzy jin gnin
 慈城
 慈谿縣
+慈谿人	dzy chi gnin
 慈谿
 慈湖
 慈湖中學	dzy wu tson ghoq
 北侖區
+北侖人	poq len gnin
 北侖
 濱海區
 泰山路
@@ -4474,30 +4495,41 @@ use_preset_vocabulary: true
 長江路	jian kaon lu
 北侖中學	poq len tson ghoq
 大榭街道	da zhia ka dau
+大榭人	da zhia gnin
 大榭	da zhia
 大榭島	da zhia tau
 新碶街道
+新碶人	shin chi gnin
 新碶
 小港街道
+小港人	shiau kaon gnin
 小港
 大碶街道	da chi ka dau
+大碶人	da chi gnin
 大碶	da chi
 霞浦街道	gho phu ka dau
+霞浦人	gho phu gnin
 霞浦	gho phu
 柴橋街道
+柴橋人	za jiau gnin
 柴橋
 戚家山街道	chiq ko sae ka dau
 戚家山	chiq ko sae
 春曉街道
+春曉人	tshyun shiau gnin
 春曉
 梅山街道
+梅山人	mei sae gnin
 梅山
 梅山島
 郭巨街道
+郭巨人	koq jiu gnin
 郭巨
 白峯街道
+白峯人	baq fon gnin
 白峯
 鎮海區
+鎮海人	tsyun he gnin
 鎮海縣
 鎮海
 鎮海中學	tsyun he tson ghoq
@@ -4516,6 +4548,7 @@ use_preset_vocabulary: true
 寧波植物園	gnin pou jiq vaq yu
 寧波植物園	gnin poq jiq vaq yu
 莊市
+莊市人	tsaon zy gnin
 康寧醫院
 清水浦	chin syu phu
 中官路
@@ -4523,26 +4556,37 @@ use_preset_vocabulary: true
 鎮海煉化
 虎蹲山	fu dzen sae
 蛟川街道
+蛟川人	ciau tshoe gnin
 蛟川
 駱駝街道
+駱駝人	loq dou gnin
 貴駟街道	ciu sy ka dau
+貴駟人	ciu sy gnin
 貴駟街道	kuei sy ka dau
+貴駟人	kuei sy gnin
 貴駟	ciu sy
 貴駟	kuei sy
 澥浦鎮
+澥浦人	ha phu gnin
 澥浦
 蟹浦
 九龍湖鎮
+九龍湖人	cieu lon wu gnin
 九龍湖
 鄞州區
+鄞州人	gnin cieu gnin
 鄞縣
+鄞縣人	gnin yu gnin
 鄞州
 江東區
+江東人	kaon ton gnin
 江東
 下應街道
+下應人	gho in gnin
 下應
 鄞州中學	gnin cieu tson ghoq
 鍾公廟街道
+鍾公廟人	tson kon miau gnin
 鍾公廟
 長豐村	jian fon tshen
 長豐	jian fon
@@ -4560,6 +4604,7 @@ use_preset_vocabulary: true
 堇山西路
 鄞州高級中學	gnin cieu kau ciq tson ghoq
 梅墟街道
+梅墟人	mei shiu gnin
 梅墟
 中河街道
 飛虹新村
@@ -4600,6 +4645,7 @@ use_preset_vocabulary: true
 諾丁漢
 羅蒙環球城
 潘火街道
+潘火人	phun hou gnin
 潘火
 百丈街道
 百丈
@@ -4711,23 +4757,31 @@ use_preset_vocabulary: true
 新明街道
 院士路
 瞻岐鎮
+瞻岐人	ci ji gnin
 瞻岐
 咸祥鎮
+咸祥人	yi jian gnin
 咸祥
+咸祥河
 塘溪鎮
+塘溪人	daon chi gnin
 塘溪
 東錢湖鎮
 東錢湖
 雅戈爾動物園	ia kaq er don vaq yu
 雅戈爾動物園	ia kou er don vaq yu
 莫枝	moq tsy
+莫枝人	moq tsy gnin
 東吳鎮	ton ng tsyun
+東吳人	ton ng gnin
 東吳鎮	ton wu tsyun
+東吳人	ton wu gnin
 東吳	ton ng
 東吳	ton wu
 天童
 天童寺
 五鄉鎮
+五鄉人	ng shian gnin
 五鄉
 五鄉東路
 五鄉中路
@@ -4737,31 +4791,42 @@ use_preset_vocabulary: true
 阿育王	aq gnioq waon
 寶幢
 邱隘鎮	chieu ka tsyun
+邱隘人	chieu ka gnin
 邱隘	chieu ka
 雲龍鎮
+雲龍人	yun lon gnin
 雲龍
 橫溪鎮
+橫溪人	wan chi gnin
 橫溪
 姜山鎮
+姜山人	cian sae gnin
 姜山
 姜山中學	cian sae tson ghoq
 奉化區
+奉化人	von huo gnin
 奉化市
 奉化縣
 奉化
 奉化中學	von huo tson ghoq
 奉化實驗中學	von huo zyuq nE tson ghoq
 方橋街道
+方橋人	faon jiau gnin
 方橋
 錦屏街道
+錦屏人	cin bin gnin
 錦屏
 嶽林街道
+嶽林人	ngoq lin gnin
 嶽林
 江口街道
+江口人	kaon kheu gnin
 江口
 西塢街道
+西塢人	shi u gnin
 西塢
 蕭王廟街道
+蕭王廟人	shiau waon miau gnin
 蕭王廟
 滕頭村
 溪口
@@ -4778,121 +4843,177 @@ use_preset_vocabulary: true
 亭下湖
 巖頭村
 尚田鎮
+尚田人	zaon di gnin
 尚田
 蓴湖鎮
+蓴湖人	zyun wu gnin
 蓴湖
 裘村鎮
+裘村人	jieu tshen gnin
 裘村
 大堰鎮	da i tsyun
+大堰人	da i gnin
 大堰	da i
 松嶴鎮
+松嶴人	son au gnin
 松嶴
 餘姚市
+餘姚人	yu yau gnin
 餘姚縣
 餘姚
 大隱鎮	da in tsyun
+大隱人	da in gnin
 大隱	da in
 天下玉苑
 河姆渡鎮	ghou m du tsyun
+河姆渡人	ghou m du gnin
 河姆渡鎮	ghou meu du tsyun
+河姆渡人	ghou meu du gnin
 河姆渡	ghou m du
 河姆渡	ghou meu du
 三七市鎮
+三七市人	sae chiq zy gnin
 田螺山
+田螺山人	di lou sae gnin
 丈亭鎮
+丈亭人	jian din gnin
 丈亭
 陸埠鎮
+陸埠人	loq bu gnin
 陸埠
 四明山鎮
+四明山人	sy min sae gnin
 四明山
 慈溪市
+慈溪人	dzy chi gnin
 慈溪縣
 慈溪
 龍山鎮
+龍山人	lon sae gnin
 掌起鎮
+掌起人	tsaon chi gnin
 掌起
 觀海衛鎮
+觀海衛人	kun he wei gnin
 觀海衛
 寧海縣
+寧海人	nin he gnin
 寧海
 躍龍街道
+躍龍人	yaq lon gnin
 躍龍
 桃源街道
+桃源人	dau gniu gnin
 桃源
 梅林街道
+梅林人	mei lin gnin
 梅林
 橋頭胡街道
+橋頭胡人	jiau deu wu gnin
 橋頭胡
 長街鎮	jian ka tsyun
+長街人	jian ka gnin
 長街	jian ka
 力洋鎮
+力洋人	liq yan gnin
 力洋
 一市鎮
+一市人	iq zy gnin
 一市
 岔路鎮
+岔路人	tsho lu gnin
 岔路
 前童鎮
+前童人	zhi don gnin
 前童
 桑洲鎮
+桑洲人	saon cieu gnin
 桑洲
 黃壇鎮
+黃壇人	waon dae gnin
 黃壇
 大佳何鎮
+大佳何人	da cia ghou gnin
+大佳何人	dou cia ghou gnin
 大佳何
 強蛟鎮
+強蛟人	jian ciau gnin
 強蛟
 西店鎮
+西店人	shi ti gnin
 西店
 深甽鎮
+深甽人	shin tsyun gnin
 深甽
 胡陳鄉
+胡陳人	wu jin gnin
 胡陳
 茶院鄉
+茶院人	dzo yu gnin
 茶院
 越溪鄉
+越溪人	yuq chi gnin
 越溪
 象山縣	jian sae yu
 象山縣	zhian sae yu
 象山	jian sae
 象山	zhian sae
 丹城
+丹城人	tae jin gnin
 丹東街道
 丹東
 丹西街道
 丹西
 爵溪街道
+爵溪人	ciaq chi gnin
 爵溪
 石浦鎮
+石浦人	zaq phu gnin
 石浦
 西周鎮
+西周人	shi cieu gnin
 西周
 賢庠鎮
+賢庠人	yi jian gnin
 賢庠
 牆頭鎮
+牆頭人	zhian deu gnin
 牆頭
 塗茨鎮
+塗茨人	du dzy gnin
 塗茨
 大徐鎮	da zhi tsyun
+大徐人	da zhi gnin
 大徐	da zhi
 泗洲頭鎮
+泗洲頭人	sy cieu deu gnin
 泗洲頭
 定塘鎮
+定塘人	din daon gnin
 定塘
 新橋鎮
+新橋人	shin jiau gnin
 新橋
 鶴浦鎮
+鶴浦人	ngoq phu gnin
 鶴浦
 黃避嶴鄉
+黃避嶴人	waon bi au gnin
 黃避嶴
 茅洋鄉
+茅洋人	mau yan gnin
 茅洋
 東陳鄉
+東陳人	ton jin gnin
 東陳
 高塘島鄉
 高塘島
+高塘人	kau daon gnin
 曉塘鄉
+曉塘人	shiau daon gnin
 曉塘
 舟山市
+舟山人	cieu sae gnin
 舟山
 甬東
 翁山縣
@@ -4901,6 +5022,7 @@ use_preset_vocabulary: true
 昌國州
 昌國
 定海區
+定海人	din he gnin
 定海縣
 定海
 昌國街道
@@ -4913,81 +5035,115 @@ use_preset_vocabulary: true
 臨城街道
 臨城
 岑港街道	dzen kaon ka dau
+岑港人	dzen kaon gnin
 岑港	dzen kaon
 馬嶴街道
+馬嶴人	mo au gnin
 馬嶴
 雙橋街道
+雙橋人	saon jiau gnin
 雙橋
 小沙街道
+小沙人	shiau so gnin
 小沙
 千島街道
+千島人	chi tau gnin
 千島
 金塘鎮
+金塘人	cin daon gnin
 金塘島
 金塘
 白泉鎮
+白泉人	baq dzOE gnin
 白泉
 干覽鎮
+干覽人	kI lae gnin
 干覽
 普陀區
+普陀人	phu dou gnin
 普陀縣
 普陀
 沈家門街道	shin ko men ka dau
+沈家門人	shin ko men gnin
 沈家門	shin ko men
 東港街道
+東港人	ton kaon gnin
 東港
 朱家尖街道	tsyu ko ci ka dau
+朱家尖街道	tsyu ko ci gnin
 朱家尖	tsyu ko ci
 普陀山機場
 展茅街道
+展茅人	ci mau gnin
 展茅
 六橫鎮
+六橫人	loq wan gnin
 六橫島
 六橫
 蝦峙鎮
+蝦峙人	huo ji gnin
 蝦峙島
 蝦峙
 桃花鎮
 桃花島
+桃花島人	dau huo tau gnin
 東極鎮
+東極人	ton jiq gnin
 東極島
 東極
 普陀山鎮
+普陀山人	phu dou sae gnin
 普陀山
 岱山縣
+岱山人	de sae gnin
 岱山
 岱山島
 高亭鎮
+高亭人	kau din gnin
 高亭
 東沙鎮
+東沙人	ton so gnin
 東沙
 岱東鎮
+岱東人	de ton gnin
 岱東
 岱西鎮
+岱西人	de shi gnin
 岱西
 長塗鎮	jian du tsyun
+長塗人	jian du gnin
 長塗	jian du
 衢山鎮
+衢山人	ghen sae gnin
 衢山島
 衢山
 秀山鄉
+秀山人	shieu sae gnin
 秀山島
 秀山
 嵊泗縣
+嵊泗人	jin sy gnin
 嵊泗
 菜園鎮
+菜園人	tshe yu gnin
 菜園
 嵊山鎮
+嵊山人	jin sae gnin
 嵊山
 洋山鎮
+洋山人	yan sae gnin
 洋山
 五龍鄉
+五龍人	ng lon gnin
 五龍
 黃龍鄉
+黃龍人	waon lon gnin
 黃龍
 枸杞鄉
+枸杞鄉人	keu chi shian gnin
 枸杞
 花鳥鄉	huo gniau shian
+花鳥鄉人	huo gniau shian gnin
 花鳥	huo gniau
 繞城高速
 杭甬高速
@@ -5059,7 +5215,9 @@ use_preset_vocabulary: true
 柯橋	kou jiau
 柯橋	khou jiau
 柯橋區	kou jiau chiu
+柯橋人	kou jiau gnin
 柯橋區	khou jiau chiu
+柯橋人	khou jiau gnin
 放映	faon in
 鴨梨	aq li
 參差	tshen tshy
@@ -7769,6 +7927,13 @@ use_preset_vocabulary: true
 燕山夜話
 落帽風
 抲落帽風
+造六國大反	zau loq koq dou fae
+薄褲
+厚褲
+薄衣裳
+厚衣裳
+𢪂𢪂其
+頭𢪂𢪂
 # 八股文拆分詞彙
 〇兩	lin lian
 一九九兩	iq cieu cieu lian
@@ -11126,6 +11291,7 @@ VCD	vi shi di
 下應路
 下應農貿市場
 下應鎮
+下應人	gho in gnin
 下應鎮政府
 下木坑
 下木橋
@@ -11266,6 +11432,8 @@ VCD	vi shi di
 久聯公司
 乍山
 乍浦鄉
+乍浦人	dzo phu gnin
+乍浦人	tso phu gnin
 九五商務大廈	cieu ng saon Wu da gho
 九五商務大廈	cieu ng saon Wu da so
 九五商務大廈	cieu ng saon vu da gho
@@ -11419,6 +11587,7 @@ VCD	vi shi di
 低坪村
 低塘職校
 低塘街道
+低塘人	ti daon gnin
 低塘衛生院	ti daon wei sen yu
 低塘鎮
 佑聖巷
@@ -11872,6 +12041,7 @@ VCD	vi shi di
 古塘綠苑
 古塘華苑
 古塘街道
+古塘人	ku daon gnin
 古塘西路
 古塘麗景
 古庵
@@ -12179,6 +12349,7 @@ VCD	vi shi di
 坎墩東街
 坎墩老街
 坎墩街道
+坎墩人	khae ten gnin
 坎墩農貿市場
 坎墩醫院
 坎東
@@ -12320,6 +12491,7 @@ VCD	vi shi di
 大山村
 大嵐	da lae
 大嵐鎮	da lae tsyun
+大嵐人	da lae gnin
 大嵩東城
 大嵩江
 大嵩菜場
@@ -12696,6 +12868,7 @@ VCD	vi shi di
 宗漢環衛所
 宗漢菜市
 宗漢街道
+宗漢人	tson he gnin
 宗興停車場
 官倉港
 官園
@@ -13319,6 +13492,9 @@ VCD	vi shi di
 慈溪交通運輸局	dzy chi ciau thon yun syu jiuq
 慈溪人民醫院	dzy chi zyun min i yu
 慈溪周巷鎮
+周巷鎮
+慈溪周巷人	dzy chi cieu ghaon gnin
+周巷人	cieu ghaon gnin
 慈溪國土局
 慈溪大酒店	dzy chi da cieu ti
 慈溪天元
@@ -13328,10 +13504,19 @@ VCD	vi shi di
 慈溪實驗小學	dzy chi zyuq nE shiau ghoq
 慈溪山莊
 慈溪崇壽鎮
+崇壽鎮
+慈溪崇壽人	dzy chi dzon zhieu gnin
+崇壽人	dzon zhieu gnin
 慈溪市殘聯
 慈溪橫河鎮
+橫河鎮
+慈溪橫河人	dzy chi wan ghou gnin
+橫河人	wan ghou gnin
 慈溪消防大隊	dzy chi shiau vaon da dei
 慈溪滸山街道
+滸山街道
+慈溪滸山人	dzy chi fu sae gnin
+滸山人	fu sae gnin
 慈溪職高
 慈溪財富中心
 慈溪醫藥
@@ -13647,6 +13832,7 @@ VCD	vi shi di
 春曉路
 春曉車站
 春曉鎮
+春曉人	tshyun shiau gnin
 春曉鎮政府
 春江花城
 春江花月
@@ -13942,6 +14128,7 @@ VCD	vi shi di
 東鷹花園
 松下村
 松嶴鎮
+松嶴人	son au gnin
 松溪
 松竹新村
 松花江中學	son huo kaon tson ghoq
@@ -14029,6 +14216,7 @@ VCD	vi shi di
 梁弄敬老院
 梁弄菜場
 梁弄鎮
+梁弄人	lian lon gnin
 梁弄鎮政府
 梁橋
 梁橋路口
@@ -15588,6 +15776,7 @@ VCD	vi shi di
 范家	vae ko
 范家丘	vae ko chieu
 范市
+范市人	vae zy gnin
 茅家	mau ko
 茅家小區	mau ko shiau chiu
 茅家小河	mau ko shiau ghou
@@ -16908,6 +17097,7 @@ VCD	vi shi di
 餘姚市政府
 餘姚市檢察院
 餘姚梁弄鎮
+餘姚梁弄人	yu yau lian lon gnin
 餘姚汽車北站
 餘姚汽車南站
 餘姚汽車東站
@@ -17095,8 +17285,6 @@ VCD	vi shi di
 鵝頸村
 鷹山路
 鹹塘街
-鹹祥河
-鹹祥鎮
 鹿山
 鹿窠
 麗中橋

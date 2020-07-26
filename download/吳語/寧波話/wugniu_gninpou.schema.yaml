@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_gninpou
   name: 吳語（寧波）
-  version: "0.4.0"
+  version: "0.4.2"
   author:
     - Electric Sheep <shinzoqchiuq@outlook.com>
   description: |
@@ -75,6 +75,9 @@ speller:
     - derive/(?<=[szh])yu(?=[nqh])/oe/
     - derive/er/r/
 
+    # 胡符不分
+    - derive/wu$/vu/
+    - derive/vu$/wu/
     # 亂漏不分
     - derive/loe/leu/
 
