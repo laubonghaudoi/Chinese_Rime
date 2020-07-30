@@ -1,0 +1,120 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: hoisiang
+  name: 台城
+  version: "0.01"
+  author:
+    - 鄧國復 <daenggwokfook@gmail.com>
+  description: |
+    聲母SR用鍵盤x，NG用鍵盤r
+    韻母ng用鍵盤j
+    參考資料來源：http://www.stephen-li.com/TaishaneseVocabulary/Taishanese.html
+    http://xiaoxue.iis.sinica.edu.tw/ccr/
+  dependencies:
+    - cangjie5
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    states: [ ，。, ，． ]
+  - name: simplification
+    states: [ 傳統, 大陸 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba[]\,./'
+  initials: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - xform/SR/x/               # 聲母SR改用鍵盤x
+    - xform/NG/r/           # 聲母NG改用鍵盤r
+    - 'xlit|ZYXWVUTSRQPONMLKJIHGFEDCBA|zyxwvutsrqponmlkjihgfedcba|'
+    - derive/^e//
+    - derive/^yi/y/
+    - abbrev/^([a-z]).+$/$1/
+    - xform/ng/j/           # 韻母ng改用鍵盤j
+    - abbrev/^([a-z]).+$/$1/           # 簡拼
+    - derive/^([a-z]+)[0-9]$/$1/  #省略聲調
+    - derive/^([a-z]+)\d$/$1/
+    - derive/1/[/
+    - derive/2/,/
+    - derive/4/./
+    - derive/5///
+    - derive/6/\/
+    - derive/7/[/
+    - derive/8/]/
+    - derive/9/\/
+
+translator:
+  dictionary: hoisiang
+  spelling_hints: 7
+  preedit_format:
+    - 'xform r NG'
+    - 'xform x SR'
+    - 'xform j ng'
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  import_preset: default
+  full_shape:
+    "1" : 壹
+    "2" : 貳
+    "3" : 參
+    "4" : 肆
+    "5" : 伍
+    "6" : 陸
+    "7" : 柒
+    "8" : 捌
+    "9" : 玖
+    "0" : 零
+
+key_binder:
+  import_preset: default
+  bindings:
+    - { when: has_menu, accept: period, send: period }  # tone 4
+    - { when: paging, accept: period, send: Page_Up }
+    - { when: has_menu, accept: comma, send: comma }  # tone 2
+    - { when: paging, accept: comma, send: Page_Up }
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"

@@ -112,8 +112,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共 104 個方案）
-<br/>Full list of collected schemas (104 schemas in total)</h3>
+<h3>方案列表（共 107 個方案）
+<br/>Full list of collected schemas (107 schemas in total)</h3>
 
 <ul>
   <li>
@@ -487,6 +487,13 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
             <li>大埔聲 - <code>tai4bu1shang1</code></li>
           </ul>
         </li>
+        <li>
+          Asian-Languages
+          <code>DaengGWokFook/Asian-Languages</code>
+          <ul>
+            <li>客語粵台梅惠片梅縣音 - <code>moi-eian</code></li>
+          </ul>
+        </li>
       </ul>
     </details>
   </li>
@@ -539,6 +546,14 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
             <li>
               粤语沟漏片藤县白话 - <code>jutjnyu_gaulaupin_dangjunbikwaa</code>
             </li>
+          </ul>
+        </li>
+        <li>
+          Asian-Languages
+          <code>DaengGWokFook/Asian-Languages</code>
+          <ul>
+            <li>台城 - <code>hoisiang</code></li>
+            <li>新寧台山話　斗山兼沖蔞口音 - <code>SRenNing_EauSanCungLau</code></li>
           </ul>
         </li>
         <li>粵語雙拼 - <code>jyutsoeng</code></li>
