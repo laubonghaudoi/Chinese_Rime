@@ -1,0 +1,82 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: hangtseinese
+  name: 杭語
+  version: "0.1"
+  author:
+    - 山清江澤 <saeziae@gmail.com>
+  description: 
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - abbrev/^([a-z]).+$/$1/     # 首字母簡拼
+    - abbrev/^(ng).+$/$1/        # 聲母簡拼
+    - abbrev/^([ptkgc]h).+$/$1/     # 聲母簡拼
+    - abbrev/^(dz).+$/$1/        # 聲母簡拼
+    - abbrev/^(ts).+$/$1/        # 聲母簡拼
+    - abbrev/^(tsh).+$/$1/        # 聲母簡拼
+translator:
+  dictionary: hangtseinese
+  spelling_hints: 5
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"

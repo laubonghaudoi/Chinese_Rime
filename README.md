@@ -112,8 +112,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共 107 個方案）
-<br/>Full list of collected schemas (107 schemas in total)</h3>
+<h3>方案列表（共 109 個方案）
+<br/>Full list of collected schemas (109 schemas in total)</h3>
 
 <ul>
   <li>
@@ -356,6 +356,18 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
           <ul>
             <li>樂清柳東口音 - <code>ay_ncld</code></li>
             <li>樂清柳西口音 - <code>ay_ncls</code></li>
+          </ul>
+        </li>
+        <li>
+          吳語杭州話輸入法 ℞ <code>saeziae/hangzhou_wu</code>
+          <ul>
+            <li>杭語 - <code>hangtseinese</code></li>
+          </ul>
+        </li>
+        <li>
+          吴語拼音 ℞ <code>saeziae/nguphing</code>
+          <ul>
+            <li>吴語拼音 - <code>nguphing</code></li>
           </ul>
         </li>
         <li>標準吳語 - <code>pcngng</code></li>
@@ -718,6 +730,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         <li>吳語·上海話 ℞ <code>rime/rime-wugniu</code></li>
         <li>蘇州吳語 ℞ <code>rime/rime-soutzoe</code></li>
         <li>樂清話拼音輸入法 ℞ <code>lotem/rime-aoyu</code></li>
+        <li>吳語杭州話輸入法 ℞ <code>saeziae/hangzhou_wu</code></li>
+        <li>標準吳語 ℞ <code>saeziae/nguphing</code></li>
       </ul>
     </details>
   </li>
