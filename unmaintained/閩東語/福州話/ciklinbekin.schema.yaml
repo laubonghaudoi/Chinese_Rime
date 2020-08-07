@@ -1,0 +1,263 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: ciklinbekin
+  name: 戚林八音
+  version: 0.1
+  author:
+    - 大黑 <only3km@gmail.com>
+  description: |
+    戚林八音校注 2001
+    使 融•嵐 不變韻地區讀音 標記韻母
+    與擬音差別: 杯韻 擬音ue 今音•馮擬音uoi
+  dependencies:
+    - ciklinbekin
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, Latin ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+  - name: simplification
+    states: [ 傳統, 简化 ]
+  - name: extended_charset
+    states: [ 常用, 增廣 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - script_translator
+    - table_translator
+  filters:
+    - simplifier
+    - uniquifier
+    - cjk_minifier
+    - reverse_lookup_filter
+    - reverse_lookup_filter@clbi
+
+speller:
+  algebra:
+    # 無需輸入聲調
+    - xform/^([a-z]+)([\d\*]+)$/$1/
+
+    # 擬音 杯盃 ue=uoi
+    - derive/uoi$/ue/
+
+    # 韻母合併 ui=uoi 杯盃→輝龜
+    - derive/uoi$/ui/
+    # 韻母合併 iu=ieu 燒嬌→秋周 • [話] iau
+    - derive/ieu$/iu/
+    - derive/ieu$/iau/
+    # 韻母合併 ua=uai 歪乖→花瓜 • ui=uai 輝龜
+    - derive/uai$/ua/
+    - derive/uai$/ui/
+    # 漳泉亂 舌齒音聲母+香•橋韻→光•過韻
+    # - derive/^([dtnlzc])io/$1uo/
+
+    # 香姜 yøŋ 古田
+    # - derive/iong$/yoeng/
+    # - derive/iok$/yoek/
+    # 燈庚 eiŋ 古田 福州
+    # - derive/eng$/eing/
+    # - derive/ek$/eik/
+    # 釭綱 ouŋ 古田 福州
+    # - derive/ong$/oung/
+    # - derive/ok$/ouk/
+    # 東江 øyŋ 古田 福州
+    # - derive/oeng$/oeyng/
+    # - derive/oek$/oeyk/
+    # 橋嬝 yø 古田
+    # - derive/io$/yoe/
+    # - derive/ioh$/yoeh/
+    # 催 øy 福州
+    # - derive/oi$/oey/
+
+    # 今音 ie=ia=ya 𤬣桸
+    - derive/ya$/ie/
+    - derive/ya$/ia/
+    # 實音 lng→ng•ing 伓
+    - derive/^lng$/ng/
+    - derive/^lng$/ing/
+
+    # 入聲合併 h=k
+    - derive/k$/h/
+    - derive/h$/k/
+
+    # 鼻邊音模糊 l=n
+    - derive/^[nl](.*)$/l$1/
+    - derive/^[nl](.*)$/n$1/
+    # 鼻音模糊 ?n=?ng
+    - derive/([aeiouy])ng$/$1n/
+    # 入聲模糊 ?h=? ?k=?
+    - derive/^(.+)h$/$1/
+    - derive/^(.+)k$/$1/
+
+    # 兼容 平話字 ch→c
+    - derive/^c/ch/
+    # 兼容 f→h
+    - derive/^h/f/
+    # 兼容 x→h
+    - derive/^h/x/
+    # 兼容 oy=oi
+    - derive/oi$/oy/
+    # 兼容 v=y
+    - derive/y/v/
+    # 兼容 y?=i?
+    - derive/^i([aeou])/y$1/
+    # 兼容 yi=i yu=y yo=io
+    - derive/^i$/yi/
+    - derive/^y/yu/
+    - derive/io/yo/
+    # 兼容 j?=i?
+    - derive/^i([aeou])/j$1/
+    # 兼容 ji=i
+    - derive/^i$/ji/
+    # 兼容 ju=y
+    - derive/^y/ju/
+    # 兼容 w?=u?
+    - derive/^u([aeio])/w$1/
+    # 兼容 wu=u
+    - derive/^u$/wu/
+    # 容錯 oe=eo
+    - derive/oe/eo/
+
+    # 以首字母爲多字母音節碼的縮寫
+    - abbrev/^([a-z]).+$/$1/
+    # 以ng爲首的音節的縮寫
+    - abbrev/^(ng).+$/$1/
+    
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+
+clbi:
+  #tags:  # any
+  dictionary: ciklinbekin
+  enable_charset_filter: true
+  overwrite_comment: true
+  comment_format:
+    # 合併同聲不同調 以·間隔
+    - xform/\b([a-z]+)([\d\*]+)\ \1([\d\*]+)\ \1([\d\*]+)\ \1([\d\*]+)\ \1([\d\*]+)\ \1([\d\*]+)/\1\2·\3·\4·\5·\6·\7/
+    - xform/\b([a-z]+)([\d\*]+)\ \1([\d\*]+)\ \1([\d\*]+)\ \1([\d\*]+)\ \1([\d\*]+)/\1\2·\3·\4·\5·\6/
+    - xform/\b([a-z]+)([\d\*]+)\ \1([\d\*]+)\ \1([\d\*]+)\ \1([\d\*]+)/\1\2·\3·\4·\5/
+    - xform/\b([a-z]+)([\d\*]+)\ \1([\d\*]+)\ \1([\d\*]+)/\1\2·\3·\4/
+    - xform/\b([a-z]+)([\d\*]+)\ \1([\d\*]+)/\1\2·\3/
+    # 將聲調顯示成上標
+    - xlit/12345678/¹²³⁴⁵⁶⁷⁸/
+
+translator:
+  dictionary: ciklinbekin
+  enable_charset_filter: true
+  enable_sentence: true
+  enable_encoder: true
+  spelling_hints: 12
+  comment_format:
+    # 將聲調顯示成上標
+    - xlit/12345678/¹²³⁴⁵⁶⁷⁸/
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  enable_charset_filter: true
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+  comment_format:
+    # 合併同聲不同調
+    - xform/\b([a-z]+)([\d\*]+)\ \1([\d\*]+)\ \1([\d\*]+)\ \1([\d\*]+)\ \1([\d\*]+)\ \1([\d\*]+)/\1\2\3\4\5\6\7/
+    - xform/\b([a-z]+)([\d\*]+)\ \1([\d\*]+)\ \1([\d\*]+)\ \1([\d\*]+)\ \1([\d\*]+)/\1\2\3\4\5\6/
+    - xform/\b([a-z]+)([\d\*]+)\ \1([\d\*]+)\ \1([\d\*]+)\ \1([\d\*]+)/\1\2\3\4\5/
+    - xform/\b([a-z]+)([\d\*]+)\ \1([\d\*]+)\ \1([\d\*]+)/\1\2\3\4/
+    - xform/\b([a-z]+)([\d\*]+)\ \1([\d\*]+)/\1\2\3/
+    # 聲母
+    - xform/(^|[ '])ng([·\d]+)$/伓$1/
+    - xform/(^|[ '])l/$1柳/
+    - xform/(^|[ '])b/$1邊/
+    - xform/(^|[ '])g/$1求/
+    - xform/(^|[ '])k/$1氣/
+    - xform/(^|[ '])d/$1低/
+    - xform/(^|[ '])p/$1波/
+    - xform/(^|[ '])t/$1他/
+    - xform/(^|[ '])z/$1曾/
+    - xform/(^|[ '])ng/$1語/
+    - xform/(^|[ '])n/$1日/
+    - xform/(^|[ '])s/$1時/
+    - xform/(^|[ '])m/$1蒙/
+    - xform/(^|[ '])c/$1出/
+    - xform/(^|[ '])h/$1非/
+    - xform/(^|[ '])([aeiouy])/$1鶯$2/
+    # 韻母
+    - xform/ua(ng|k)([·\d]+)($|[ '])/歡$2/
+    - xform/uo(ng|k)([·\d]+)($|[ '])/光$2/
+    - xform/oe(ng|k)([·\d]+)($|[ '])/東$2/
+    - xform/io(ng|k)([·\d]+)($|[ '])/香$2/
+    - xform/ia(ng|k)([·\d]+)($|[ '])/聲$2/
+    - xform/ie(ng|k)([·\d]+)($|[ '])/天$2/
+    - xform/y(ng|k)([·\d]+)($|[ '])/銀$2/
+    - xform/u(ng|k)([·\d]+)($|[ '])/春$2/
+    - xform/i(ng|k)([·\d]+)($|[ '])/賓$2/
+    - xform/o(ng|k)([·\d]+)($|[ '])/釭$2/
+    - xform/a(ng|k)([·\d]+)($|[ '])/山$2/
+    - xform/e(ng|k)([·\d]+)($|[ '])/燈$2/
+    - xform/ieuh?([·\d]+)($|[ '])/燒$1/
+    - xform/uaih?([·\d]+)($|[ '])/歪$1/
+    - xform/uah?([·\d]+)($|[ '])/花$1/
+    - xform/iuh?([·\d]+)($|[ '])/秋$1/
+    - xform/aih?([·\d]+)($|[ '])/開$1/
+    - xform/uoih?([·\d]+)($|[ '])/杯$1/
+    - xform/uih?([·\d]+)($|[ '])/輝$1/
+    - xform/auh?([·\d]+)($|[ '])/郊$1/
+    - xform/uoh?([·\d]+)($|[ '])/過$1/
+    - xform/ioh?([·\d]+)($|[ '])/橋$1/
+    - xform/ieh?([·\d]+)($|[ '])/雞$1/
+    - xform/oih?([·\d]+)($|[ '])/催$1/
+    - xform/oeh?([·\d]+)($|[ '])/初$1/
+    - xform/iah?([·\d]+)($|[ '])/奇$1/
+    - xform/euh?([·\d]+)($|[ '])/溝$1/
+    - xform/yah?([·\d]+)($|[ '])/𤬢$1/
+    - xform/yh?([·\d]+)($|[ '])/須$1/
+    - xform/ah?([·\d]+)($|[ '])/嘉$1/
+    - xform/oh?([·\d]+)($|[ '])/歌$1/
+    - xform/uh?([·\d]+)($|[ '])/孤$1/
+    - xform/ih?([·\d]+)($|[ '])/之$1/
+    - xform/eh?([·\d]+)($|[ '])/西$1/
+    # 將聲調顯示成(漢字)
+    - xlit/12345678/㈠㈡㈢㈣㈤㈥㈦㈧/
+  prefix: "`"
+  suffix: "'"
+  tips: 〔國語〕
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
+    email: "^[a-z][-_.0-9a-z]*@.*$"
+    uppercase: "^[A-Z][-_+.'0-9A-Za-z]*$"
+    url: "^(www[.]|https?:|ftp:|mailto:).*$"
+    punct: "^/([A-Z|a-z]*|[0-9]|10)$"

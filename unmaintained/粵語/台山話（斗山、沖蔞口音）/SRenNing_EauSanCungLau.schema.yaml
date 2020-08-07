@@ -1,0 +1,506 @@
+﻿# 百粵系　四邑語　新寧台山話　斗山兼沖蔞口音
+# Rime dictionary
+# encoding: utf-8
+# SRenNing_EauSanCungLau - 新寧台山話　斗山兼沖蔞口音
+
+schema:
+  schema_id: SRenNing_EauSanCungLau
+  name: 新寧台山話　斗山兼沖蔞口音
+  version: "2020.05.31"
+  author:
+    - 鄧國復<daenggwokfook@gmail.com>
+  description: |
+    測試版
+  dependencies:
+    - cangjie5
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 唐文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    states: [ ，。, ，． ]
+  - name: simplification
+    states: [ 有理字, 冇理字 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba[]\,./'
+  initials: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - abbrev/^([a-z]).+$/$1/
+    - derive/B/b/
+    - derive/P/p/
+    - derive/M/m/
+    - derive/F/f/
+    - derive/T/t/
+    - derive/D/d/
+    - derive/N/n/
+    - derive/K/k/
+    - derive/G/g/
+    - xform/NG/r/ #簡用r作ᵑg聲母
+    - xform/SR/x/ #簡用x作ɬ聲母
+    - derive/Z/z/
+    - derive/C/c/
+    - derive/S/s/
+    - derive/E// #可以省略
+    - derive/E/e/
+    - derive/H/h/
+    - derive/Y/y/
+    - derive/W/w/
+    - derive/L/l/
+
+    - abbrev/^([a-z]).+$/$1/ #首字簡拼
+    - xform/iea/q/#簡用q作iea韻母
+    - xform/ng/j/ #簡用j作ŋ韻母
+    - derive/uo/o/ #可以簡用
+    - xform/uo/v/ #簡用v作uo韻母
+    #- derive/33/1/ #陰平、陰去、下陰入
+    #- derive/22/2/ #陽平
+    #- derive/55/3/ #陰上、上陰入
+    #- derive/21/4/ #陽上、下陽入
+    #- derive/31/6/ #陽去、上陽入
+    - derive/^([a-z]+)[0-9]$/$1/  #可略聲調
+    - derive/^([a-z]+)\d$/$1/
+    - 'xlit 135246 []\,./'
+
+translator:
+  dictionary: SRenNing_EauSanCungLau
+  spelling_hints: 6
+  preedit_format:
+    - 'xlit|bfdlghzcsyw|BFDLGHZCSYW|'
+    - 'xform q iea'
+    - 'xform x SR'
+    - 'xform r NG'
+    - 'xform j ng'
+    - 'xform ^e E'
+    - 'xform ^n N'
+    - 'xform ^m M'
+    - 'xform ^M$ m'
+    - 'xform ^p P'
+    - 'xform ^t T'
+    - 'xform ^k K'
+    - 'xform mo Mo'
+    - 'xform me Me'
+    - 'xform mi Mi'
+    - 'xform mu Mu'
+    - 'xform ma Ma'
+    - 'xform no No'
+    - 'xform ne Ne'
+    - 'xform ni Ni'
+    - 'xform nu Nu'
+    - 'xform na Na'
+    - 'xform eo Eo'
+    - 'xform ee Ee'
+    - 'xform ei Ei'
+    - 'xform eu Eu'
+    - 'xform ea Ea'
+    - 'xform iEa iea'
+    - 'xlit|[]\,./|136245|'
+    - 'xform p1 p7'
+    - 'xform p3 p8'
+    - 'xform p6 p9'
+    - 'xform t1 t7'
+    - 'xform t3 t8'
+    - 'xform t6 t9'
+    - 'xform k1 k7'
+    - 'xform k3 k8'
+    - 'xform k6 k9'
+    - 'xform ([aoeiuvæœnm])(p|t|k|)([7890]) $1$3$2'
+    - 'xform ([aoeiuvæœ])([iunptcmy])([7890]) $1$3$2'
+    - 'xform ([aoeiuvæœn])(i|u|m|n|g|ƞ)([123456]) $1$3$2'
+    - 'xform ([aoeiuvæœ])([iunptcmy])([123456]) $1$3$2'
+    - 'xform a1 ā'
+    - 'xform a2 a̱'
+    - 'xform a3 á'
+    - 'xform a4 a̗'
+    - 'xform a5 à'
+    - 'xform a6 a̖'
+    - 'xform a7 ȧ'
+    - 'xform a8 ạ'
+    - 'xform a9 ä'
+    - 'xform a0 a̤'
+    - 'xform o1 ō'
+    - 'xform o2 o'
+    - 'xform o3 ó'
+    - 'xform o4 ọ'
+    - 'xform o5 ő'
+    - 'xform o6 ǒ'
+    - 'xform o7 õ'
+    - 'xform o8 ò'
+    - 'xform o9 ô'
+    - 'xform e1 ē'
+    - 'xform e2 e'
+    - 'xform e3 é'
+    - 'xform e4 ẹ'
+    - 'xform e5 e̋'
+    - 'xform e6 ě'
+    - 'xform e7 ẽ'
+    - 'xform e8 è'
+    - 'xform e9 ê'
+    - 'xform i1 ī'
+    - 'xform i2 ı'
+    - 'xform i3 í'
+    - 'xform i4 ị'
+    - 'xform i5 i̋'
+    - 'xform i6 ǐ'
+    - 'xform i7 ĩ'
+    - 'xform i8 ì'
+    - 'xform i9 î'
+    - 'xform u1 ū'
+    - 'xform u2 u'
+    - 'xform u3 ú'
+    - 'xform u4 ụ'
+    - 'xform u5 ű'
+    - 'xform u6 ǔ'
+    - 'xform u7 ũ'
+    - 'xform u8 ù'
+    - 'xform u9 û'
+    - 'xform m1 m̄'
+    - 'xform m2 m'
+    - 'xform m3 ḿ'
+    - 'xform m4 ṃ'
+    - 'xform m5 m̋'
+    - 'xform m6 m̌'
+    - 'xform n1 n̄'
+    - 'xform n2 n'
+    - 'xform n3 ń'
+    - 'xform n4 ṇ'
+    - 'xform n5 n̋'
+    - 'xform n6 ň'
+    - 'xform ƞ1 n̄g'
+    - 'xform ƞ2 ng'
+    - 'xform ƞ3 ńg'
+    - 'xform ƞ4 ṇg'
+    - 'xform ƞ5 n̋g'
+    - 'xform ƞ6 ňg'
+  comment_format:
+    - 'xform ^ng NG'
+    - 'xform NG1 n̄g'
+    - 'xform NG2 ng'
+    - 'xform NG3 ńg'
+    - 'xform NG4 ṇg'
+    - 'xform NG5 n̋g'
+    - 'xform NG6 ňg'
+    - 'xform nga NGa'
+    - 'xform ngo NGo'
+    - 'xform nge NGe'
+    - 'xform ngi NGi'
+    - 'xform ngu NGu'
+    - 'xform ngv NGv'
+    - 'xform ng ƞ'
+    - 'xform paa Paa'
+    - 'xform po Po'
+    - 'xform pe Pe'
+    - 'xform pi Pi'
+    - 'xform pu Pu'
+    - 'xform pa Pæ'
+    - 'xform pq Pœ'
+    - 'xform maa Maa'
+    - 'xform mo Mo'
+    - 'xform me Me'
+    - 'xform mi Mi'
+    - 'xform mu Mu'
+    - 'xform ma Mæ'
+    - 'xform taa Taa'
+    - 'xform to To'
+    - 'xform te Te'
+    - 'xform ti Ti'
+    - 'xform tu Tu'
+    - 'xform ta Tæ'
+    - 'xform toe Tœ'
+    - 'xform teo Tœ'
+    - 'xform tyu Tv'
+    - 'xform naa Naa'
+    - 'xform no No'
+    - 'xform ne Ne'
+    - 'xform ni Ni'
+    - 'xform nu Nu'
+    - 'xform nyu Nv'
+    - 'xform na Næ'
+    - 'xform noe Nœ'
+    - 'xform neo Nœ'
+    - 'xform kaa Kaa'
+    - 'xform ko Ko'
+    - 'xform ke Ke'
+    - 'xform ki Ki'
+    - 'xform ku Ku'
+    - 'xform ka Kæ'
+    - 'xform koe Kœ'
+    - 'xform keo Kœ'
+    - 'xform kyu Kv'
+    - 'xform gaa Gaa'
+    - 'xform go Go'
+    - 'xform ge Ge'
+    - 'xform gi Gi'
+    - 'xform gu Gu'
+    - 'xform ga Gæ'
+    - 'xform goe Gœ'
+    - 'xform geo Gœ'
+    - 'xform gyu Gv'
+    - 'xform gw GW'
+    - 'xform kw KW'
+    - 'xform j y'
+    - 'xform yu v'
+    - 'xform p1 p7'
+    - 'xform p3 p8'
+    - 'xform p6 p9'
+    - 'xform t1 t7'
+    - 'xform t3 t8'
+    - 'xform t6 t9'
+    - 'xform k1 k7'
+    - 'xform k3 k8'
+    - 'xform k6 k9'
+    - 'xlit|bfdlhzcsyw|BFDLHZCSYW|'
+    - 'xform ([aoeiuvæœnm])(p|t|k|)([789]) $1$3$2'
+    - 'xform ([aoeiuvæœ])([iunptcmy])([789]) $1$3$2'
+    - 'xform ([aoeiuvæœn])(i|u|m|n|ƞ|g)([123456]) $1$3$2'
+    - 'xform ([aoeiuvæœ])([iunptcmy])([123456]) $1$3$2'
+    - 'xform a1 ā'
+    - 'xform a2 a'
+    - 'xform a3 á'
+    - 'xform a4 ạ'
+    - 'xform a5 a̋'
+    - 'xform a6 ǎ'
+    - 'xform a7 ã'
+    - 'xform a8 à'
+    - 'xform a9 â'
+    - 'xform o1 ō'
+    - 'xform o2 o'
+    - 'xform o3 ó'
+    - 'xform o4 ọ'
+    - 'xform o5 ő'
+    - 'xform o6 ǒ'
+    - 'xform o7 õ'
+    - 'xform o8 ò'
+    - 'xform o9 ô'
+    - 'xform e1 ē'
+    - 'xform e2 e'
+    - 'xform e3 é'
+    - 'xform e4 ẹ'
+    - 'xform e5 e̋'
+    - 'xform e6 ě'
+    - 'xform e7 ẽ'
+    - 'xform e8 è'
+    - 'xform e9 ê'
+    - 'xform i1 ī'
+    - 'xform i2 ı'
+    - 'xform i3 í'
+    - 'xform i4 ị'
+    - 'xform i5 i̋'
+    - 'xform i6 ǐ'
+    - 'xform i7 ĩ'
+    - 'xform i8 ì'
+    - 'xform i9 î'
+    - 'xform u1 ū'
+    - 'xform u2 u'
+    - 'xform u3 ú'
+    - 'xform u4 ụ'
+    - 'xform u5 ű'
+    - 'xform u6 ǔ'
+    - 'xform u7 ũ'
+    - 'xform u8 ù'
+    - 'xform u9 û'
+    - 'xform m1 m̄'
+    - 'xform m2 m'
+    - 'xform m3 ḿ'
+    - 'xform m4 ṃ'
+    - 'xform m5 m̋'
+    - 'xform m6 m̌'
+
+reverse_lookup:
+  dictionary: cangjie5
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔倉頡〕
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - 'xform ^ng NG'
+    - 'xform ng ƞ'
+    - 'xform NG1 n̄g'
+    - 'xform NG2 ng'
+    - 'xform NG3 ńg'
+    - 'xform NG4 ṇg'
+    - 'xform NG5 n̋g'
+    - 'xform NG6 ňg'
+    - 'xform paa Paa'
+    - 'xform po Po'
+    - 'xform pe Pe'
+    - 'xform pi Pi'
+    - 'xform pu Pu'
+    - 'xform pa Pæ'
+    - 'xform pq Pœ'
+    - 'xform maa Maa'
+    - 'xform mo Mo'
+    - 'xform me Me'
+    - 'xform mi Mi'
+    - 'xform mu Mu'
+    - 'xform ma Mæ'
+    - 'xform taa Taa'
+    - 'xform to To'
+    - 'xform te Te'
+    - 'xform ti Ti'
+    - 'xform tu Tu'
+    - 'xform ta Tæ'
+    - 'xform toe Tœ'
+    - 'xform teo Tœ'
+    - 'xform tyu Tv'
+    - 'xform naa Naa'
+    - 'xform no No'
+    - 'xform ne Ne'
+    - 'xform ni Ni'
+    - 'xform nu Nu'
+    - 'xform nyu Nv'
+    - 'xform na Næ'
+    - 'xform noe Nœ'
+    - 'xform neo Nœ'
+    - 'xform kaa Kaa'
+    - 'xform ko Ko'
+    - 'xform ke Ke'
+    - 'xform ki Ki'
+    - 'xform ku Ku'
+    - 'xform ka Kæ'
+    - 'xform koe Kœ'
+    - 'xform keo Kœ'
+    - 'xform kyu Kv'
+    - 'xform gaa Gaa'
+    - 'xform go Go'
+    - 'xform ge Ge'
+    - 'xform gi Gi'
+    - 'xform gu Gu'
+    - 'xform ga Gæ'
+    - 'xform goe Gœ'
+    - 'xform geo Gœ'
+    - 'xform gyu Gv'
+    - 'xform gw GW'
+    - 'xform kw KW'
+    - 'xform j y'
+    - 'xform yu v'
+    - 'xform p1 p7'
+    - 'xform p3 p8'
+    - 'xform p6 p9'
+    - 'xform t1 t7'
+    - 'xform t3 t8'
+    - 'xform t6 t9'
+    - 'xform k1 k7'
+    - 'xform k3 k8'
+    - 'xform k6 k9'
+    - 'xlit|bfdlhzcsyw|BFDLHZCSYW|'
+    - 'xform ([aoeiuvæœnm])(p|t|k|)([789]) $1$3$2'
+    - 'xform ([aoeiuvæœ])([iunptcmy])([789]) $1$3$2'
+    - 'xform ([aoeiuvæœn])(i|u|m|n|ƞ|g)([123456]) $1$3$2'
+    - 'xform ([aoeiuvæœ])([iunptcmy])([123456]) $1$3$2'
+    - 'xform oe œ'
+    - 'xform eo œ'
+    - 'xform a1 ā'
+    - 'xform a2 a'
+    - 'xform a3 á'
+    - 'xform a4 ạ'
+    - 'xform a5 a̋'
+    - 'xform a6 ǎ'
+    - 'xform a7 ã'
+    - 'xform a8 à'
+    - 'xform a9 â'
+    - 'xform o1 ō'
+    - 'xform o2 o'
+    - 'xform o3 ó'
+    - 'xform o4 ọ'
+    - 'xform o5 ő'
+    - 'xform o6 ǒ'
+    - 'xform o7 õ'
+    - 'xform o8 ò'
+    - 'xform o9 ô'
+    - 'xform e1 ē'
+    - 'xform e2 e'
+    - 'xform e3 é'
+    - 'xform e4 ẹ'
+    - 'xform e5 e̋'
+    - 'xform e6 ě'
+    - 'xform e7 ẽ'
+    - 'xform e8 è'
+    - 'xform e9 ê'
+    - 'xform i1 ī'
+    - 'xform i2 ı'
+    - 'xform i3 í'
+    - 'xform i4 ị'
+    - 'xform i5 i̋'
+    - 'xform i6 ǐ'
+    - 'xform i7 ĩ'
+    - 'xform i8 ì'
+    - 'xform i9 î'
+    - 'xform u1 ū'
+    - 'xform u2 u'
+    - 'xform u3 ú'
+    - 'xform u4 ụ'
+    - 'xform u5 ű'
+    - 'xform u6 ǔ'
+    - 'xform u7 ũ'
+    - 'xform u8 ù'
+    - 'xform u9 û'
+    - 'xform m1 m̄'
+    - 'xform m2 m'
+    - 'xform m3 ḿ'
+    - 'xform m4 ṃ'
+    - 'xform m5 m̋'
+    - 'xform m6 m̌'
+    - 'xform ƞ1 n̄g'
+    - 'xform ƞ2 ng'
+    - 'xform ƞ3 ńg'
+    - 'xform ƞ4 ṇg'
+    - 'xform ƞ5 n̋g'
+    - 'xform ƞ6 ňg'
+
+punctuator:
+  import_preset: default
+  full_shape:
+    "1" : 壹
+    "2" : 貳
+    "3" : 參
+    "4" : 肆
+    "5" : 伍
+    "6" : 陸
+    "7" : 柒
+    "8" : 捌
+    "9" : 玖
+    "0" : 零
+
+key_binder:
+  import_preset: default
+  bindings:
+    - { when: has_menu, accept: period, send: period }  # tone 4
+    - { when: paging, accept: period, send: Page_Up }
+    - { when: has_menu, accept: comma, send: comma }  # tone 2
+    - { when: paging, accept: comma, send: Page_Up }
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"

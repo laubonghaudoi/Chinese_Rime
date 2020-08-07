@@ -25,7 +25,7 @@ This project also supports the promotion project of non-Mandarin phonetic spelli
 
 本倉庫分为四个子文件夹：
 
-1. `sources/` 路徑下爲各個輸入方案的來源倉庫，以子模塊 submodule 的形式保存。其中大部分爲配方（配方的介紹請參見 [Rime 輸入方案又是啥](https://github.com/rime/home/wiki/RimeWithSchemata#rime-%E8%BC%B8%E5%85%A5%E6%96%B9%E6%A1%88%E5%8F%88%E6%98%AF%E5%95%A5)），由方案作者更新維護，可直接通過 [plum](https://github.com/rime/plum) 安裝部署（關於如何安裝配方，請參照 HanhNgiox.net 上教程）。由於部分方案不存在於 GitHub，故此路徑下方案收錄不完整，
+1. `sources/` 路徑下爲各個輸入方案的來源倉庫，以子模塊 submodule 的形式保存。各輸入法倉庫均爲配方（配方的介紹請參見 [Rime 輸入方案又是啥](https://github.com/rime/home/wiki/RimeWithSchemata#rime-%E8%BC%B8%E5%85%A5%E6%96%B9%E6%A1%88%E5%8F%88%E6%98%AF%E5%95%A5)），由方案作者更新維護，可直接通過 [plum](https://github.com/rime/plum) 安裝部署（關於如何安裝配方，請參照 HanhNgiox.net 上教程）。由於部分方案不存在於 GitHub，故此路徑下方案收錄不完整，
 2. `unmaintained/` 路徑下爲从其他渠道收集得的方案文件，此类方案未配方化，无人更新维护，不保证可用性。
 3. `download/` 用於存放各個語言的唯一權威版拼音，即爲 [發佈頁面](https://github.com/laubonghaudoi/Chinese_dialect_Rime_schema/releases) 的下載整合包，方便用戶直接部署使用。
 4. `script/` 內包含更新收錄碼表所需的代碼。使用方法請見 [使用教程](https://github.com/laubonghaudoi/Chinese_Rime#%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E9%A0%85%E7%9B%AE%E7%B6%B2%E7%AB%99-tutorial-project-website)。
@@ -432,13 +432,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
     <details>
       <summary>閩東語 Eastern Min</summary>
       <ul>
-        <li>
-          平話字表 (閩東語‣福州話) ℞ <code>only3km/ciklinbekin</code>
-          <ul>
-            <li>戚林八音 - <code>ciklinbekin</code></li>
-            <li>福州話字典 - <code>dfd</code></li>
-          </ul>
-        </li>
+        <li>戚林八音 - <code>ciklinbekin</code></li>
+        <li>福州話字典 - <code>dfd</code></li>
         <li>
           福州話羅馬字 ℞ <code>DDFShanyu/Huk-ciu-ua-Lo-ma-ci</code>
           <ul>
@@ -487,13 +482,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
             <li>大埔聲 - <code>tai4bu1shang1</code></li>
           </ul>
         </li>
-        <li>
-          Asian-Languages
-          <code>DaengGWokFook/Asian-Languages</code>
-          <ul>
-            <li>客語粵台梅惠片梅縣音 - <code>moi-eian</code></li>
-          </ul>
-        </li>
+        <li>客語粵台梅惠片梅縣音 - <code>moi-eian</code></li>
       </ul>
     </details>
   </li>
@@ -548,14 +537,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
             </li>
           </ul>
         </li>
-        <li>
-          Asian-Languages
-          <code>DaengGWokFook/Asian-Languages</code>
-          <ul>
-            <li>台城 - <code>hoisiang</code></li>
-            <li>新寧台山話　斗山兼沖蔞口音 - <code>SRenNing_EauSanCungLau</code></li>
-          </ul>
-        </li>
+        <li>台城 - <code>hoisiang</code></li>
+        <li>新寧台山話　斗山兼沖蔞口音 - <code>SRenNing_EauSanCungLau</code></li>
         <li>粵語雙拼 - <code>jyutsoeng</code></li>
         <li>梧州白話 - <code>NgZjau_JyutPing</code></li>
         <li>貴州韻 - <code>gvaizauvan</code></li>
@@ -777,7 +760,6 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
     <details>
       <summary>閩東語 Eastern Min</summary>
       <ul>
-        <li>平話字表 (閩東語‣福州話) ℞ <code>only3km/ciklinbekin</code></li>
         <li>福州話羅馬字 ℞ <code>DDFShanyu/Huk-ciu-ua-Lo-ma-ci</code></li>
       </ul>
     </details>
@@ -865,6 +847,12 @@ For detailed information of the collected schemas in the download package, pleas
   - [廣韻段毄攴字法](https://bintray.com/rime-aca/Schemata/KMG)
 - 粵語
   - [貴州韻](https://zhuanlan.zhihu.com/p/31464937)
+  - [台城](https://github.com/DaengGWokFook/Asian-Languages/tree/master/Canton/Four-Counties/Hoi-san)
+  - [新寧台山話　斗山兼沖蔞口音](https://github.com/DaengGWokFook/Asian-Languages/tree/master/Yvt-Viet/SRiYip/SRenNing-HoiSan)
+- 客家話
+  - [梅縣音](https://github.com/DaengGWokFook/Asian-Languages/tree/master/Kak-Hak/Yat-Toi)
+- 閩東語
+  - [平話字表 (閩東語‣福州話)](https://github.com/only3km/ciklinbekin)
 - 晉語
   - [嘉樂泉話](https://github.com/osfans/rime-tool/tree/master/data/y)
 - 域外方音
