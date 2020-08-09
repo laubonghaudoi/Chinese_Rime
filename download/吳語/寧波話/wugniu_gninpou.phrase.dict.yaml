@@ -17,7 +17,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.08.05"
+version: "2020.08.09"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -595,7 +595,6 @@ use_preset_vocabulary: true
 𠞭眼	lheu ngae	55
 𠞭耳朵	lheu ng to	55
 𠞭耳朵	lheu gni to	55
-𠞭空皮鞋	lheu khon bi gha	55
 天家冷	thi ko lan	578
 天家熱	thi ko gniq	578
 夏天家	gho thi ko	418
@@ -651,6 +650,7 @@ use_preset_vocabulary: true
 搲龍船	uo lon ZOE	55
 腳指末頭	ciaq ciaq maq deu
 腳指甲	ciaq ciaq khaq
+打箍	tan chieu	55
 
 # 其他詞彙
 
@@ -2292,7 +2292,6 @@ use_preset_vocabulary: true
 搲飯
 搲垃圾	o la shi
 好像釘把搲
-拑下飯
 夾下飯	ciq gho vae
 夾電臺	kaq di de
 夾頻道	kaq bin dau
@@ -2794,8 +2793,6 @@ use_preset_vocabulary: true
 三歲合棺材	sae syu kaq kun ze
 到老用勒着	tau lau yon laq dzoq
 到老用勒着	tau lau yon laq zyuq
-𥫷腳桶
-𥫷高鑊蓋
 箍桶限卯	khu don ghae mau
 箍桶限卯	khou don ghae mau
 越限越小
@@ -4120,6 +4117,8 @@ use_preset_vocabulary: true
 煩赤佬	vae tshaq lau
 懶婦掏縩空	lae vu dau cia khon
 懶婦掏縩空	lae vu dau cian khon
+箍腳桶	chieu ciaq don
+箍高鑊蓋	chieu kau ghoq ke
 # 地名
 寧波市	gnin pou zy
 寧波市	gnin poq zy
@@ -7956,6 +7955,9 @@ use_preset_vocabulary: true
 啊唷哇	aq yuq ua
 喔唷	oq yuq
 喔唷哇	oq yuq ua
+來弗及	le vaq ji	578
+來勿及	le vaq ji
+來勒及	le laq ji	578
 # 八股文拆分詞彙
 〇兩	lin lian
 一九九兩	iq cieu cieu lian

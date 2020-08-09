@@ -24,15 +24,17 @@
 # open-source Cantonese-to-English dictionary (CC-Canto) http://www.cccanto.org/
 #
 # 碼表製作與校對人員
-# sgal <ayaka@mail.shn.hk>
+# sgalal <sgalal.me@outlook.com>
 # chaaklau <chaakming@gmail.com>
 # LeiMaau <leimaau@qq.com>
 # laubonghaudoi <laubonghaudoi@icloud.com>
+# tanxpyox <tanxpyox@gmail.com>
+# William915 <William915@gmail.com>
 #
 
 ---
 name: jyutping
-version: "2020.06.26"
+version: "2020.08.8"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -958,7 +960,7 @@ import_tables:
 珌	bei	0%
 琲	bei	0%
 畀	bei	
-畀	bei	9%
+畀	bei	90%
 畁	bei	0%
 疕	bei	0%
 疪	bei	
@@ -1165,7 +1167,6 @@ import_tables:
 仌	bing	0%
 仒	bing	0%
 併	bing	
-併	bing	3%
 倂	bing	0%
 偋	bing	0%
 傡	bing	0%
@@ -4053,12 +4054,13 @@ import_tables:
 䥄	cou	0%
 且	cou	0%
 傮	cou	0%
+儲	cou	
 厝	cou	
 取	cou	3%
 喿	cou	
 嘈	cou	
 噪	cou	
-娶	cou	3%
+娶	cou	
 嶆	cou	
 徂	cou	
 怚	cou	0%
@@ -4085,6 +4087,7 @@ import_tables:
 簉	cou	0%
 粗	cou	
 糙	cou	
+聚	cou	
 肏	cou	
 艚	cou	
 艸	cou	0%
@@ -8087,7 +8090,7 @@ import_tables:
 薊	gai	
 蘮	gai	
 蘻	gai	
-計	gai	1%
+計	gai	10%
 計	gai	
 銈	gai	
 雞	gai	
@@ -8120,10 +8123,9 @@ import_tables:
 僸	gam	
 凎	gam	
 凚	gam	0%
-咁	gam	0%
-咁	gam	9%
+咁	gam	
 唫	gam	
-噉	gam	9%
+噉	gam	99%
 噤	gam	
 噤	gam	0%
 媣	gam	0%
@@ -8492,7 +8494,7 @@ import_tables:
 𨷺	gau	
 犭	gau zaau bin	0%
 嘅	ge	3%
-嘅	ge	9%
+嘅	ge	97%
 痂	ge	0%
 𠸏	ge	
 㒫	gei	
@@ -9175,7 +9177,7 @@ import_tables:
 哥	go	
 哿	go	0%
 哿	go	
-嗰	go	9%
+嗰	go	90%
 彁	go	0%
 戨	go	0%
 旮	go	3%
@@ -9924,7 +9926,7 @@ import_tables:
 卦	gwaa	
 呱	gwaa	
 呱	gwaa	3%
-啩	gwaa	9%
+啩	gwaa	90%
 坬	gwaa	0%
 媧	gwaa	0%
 寡	gwaa	
@@ -10602,8 +10604,6 @@ import_tables:
 乤	haa	0%
 厦	haa	
 吓	haa	
-吓	haa	5%
-吓	haa	0%
 呀	haa	
 哈	haa	
 哈	haa	0%
@@ -11027,12 +11027,12 @@ import_tables:
 䐼	hai	0%
 䜁	hai	
 䫣	hai	
-係	hai	10%
+係	hai	100%
 傒	hai	
 傒	hai	0%
 兮	hai	
 匸	hai	0%
-喺	hai	10%
+喺	hai	100%
 奊	hai	
 奚	hai	
 妎	hai	0%
@@ -13626,7 +13626,7 @@ import_tables:
 冶	je	
 卄	je	
 喏	je	
-嘢	je	1000
+嘢	je	10000
 埜	je	0%
 壄	je	
 夜	je	
@@ -16873,7 +16873,7 @@ import_tables:
 䵶	keoi	
 佉	keoi	
 佝	keoi	
-佢	keoi	10%
+佢	keoi	100%
 俱	keoi	
 倶	keoi	0%
 劬	keoi	
@@ -17838,7 +17838,7 @@ import_tables:
 彑	kyut tau wu	0%
 啦	la	
 嘑	la	
-嘞	la	9%
+嘞	la	99%
 㖸	laa	
 㙤	laa	
 了	laa	0%
@@ -17887,7 +17887,7 @@ import_tables:
 癩	laai	0%
 籟	laai	
 腉	laai	0%
-舐	laai	0%
+舐	laai	
 落	laai	0%
 落	laai	3%
 藾	laai	0%
@@ -18117,7 +18117,7 @@ import_tables:
 勵	lai	
 厲	lai	
 唳	lai	0%
-嚟	lai	9%
+嚟	lai	99%
 囇	lai	0%
 婯	lai	0%
 巁	lai	0%
@@ -18493,7 +18493,7 @@ import_tables:
 哩	lei	
 唎	lei	
 喱	lei	
-嚟	lei	9%
+嚟	lei	99%
 囄	lei	0%
 娌	lei	
 娳	lei	
@@ -18600,7 +18600,8 @@ import_tables:
 瀝	lek	3%
 癧	lek	
 𠠝	lek	
-舐	lem	0%
+舔	lem	
+𦧷	lem	
 僆	leng	
 岭	leng	
 嶺	leng	3%
@@ -19080,13 +19081,13 @@ import_tables:
 瞼	lim	0%
 磏	lim	
 秥	lim	0%
+簾	lim	0%
 簾	lim	
 籢	lim	0%
 籨	lim	
 羷	lim	
 臁	lim	
 臉	lim	
-舐	lim	0%
 艌	lim	0%
 薕	lim	
 薟	lim	3%
@@ -20902,8 +20903,9 @@ import_tables:
 𢡟	mau	
 𣕚	mau	
 𦳑	mau	
-乜	me	
+乜	me	3%
 乜	me	0%
+乜	me	
 咩	me	
 哶	me	
 孭	me	
@@ -22035,6 +22037,10 @@ import_tables:
 𥈶	nam	
 𥻚	nam	
 𦛚	nam	
+囜	nan	0%
+捻	nan	
+撚	nan	
+涊	nan	0%
 㴰	nang	
 䏻	nang	
 儜	nang	0%
@@ -22941,9 +22947,7 @@ import_tables:
 念	nim	
 拈	nim	
 拈	nim	0%
-捻	nim	3%
 捻	nim	
-捻	nim	0%
 撚	nim	3%
 棯	nim	
 棯	nim	3%
@@ -24005,7 +24009,7 @@ import_tables:
 䶄	ping	
 乒	ping	
 伻	ping	
-併	ping	0%
+併	ping	
 俜	ping	
 倂	ping	0%
 匉	ping	
@@ -24570,13 +24574,12 @@ import_tables:
 䢄	saai	
 䵘	saai	
 咶	saai	
-哂	saai	0%
 嗮	saai	
 嘥	saai	
 壐	saai	0%
 屣	saai	
 徙	saai	
-晒	saai	9%
+晒	saai	90%
 曬	saai	
 枲	saai	
 殺	saai	0%
@@ -27333,6 +27336,7 @@ import_tables:
 膤	syut	0%
 艝	syut	0%
 說	syut	
+説	syut	0%
 轌	syut	0%
 雪	syut	
 鱈	syut	
@@ -28514,7 +28518,7 @@ import_tables:
 忉	tou	3%
 悇	tou	
 慆	tou	
-挑	tou	
+挑	tou	0%
 捈	tou	
 掏	tou	0%
 掏	tou	
@@ -29684,7 +29688,7 @@ import_tables:
 咼	wo	0%
 唩	wo	0%
 啝	wo	
-喎	wo	9%
+喎	wo	90%
 喎	wo	
 堝	wo	
 姀	wo	
@@ -32681,7 +32685,7 @@ import_tables:
 俎	zo	
 助	zo	
 咀	zo	0%
-咗	zo	1000
+咗	zo	10000
 唑	zo	
 唨	zo	
 坐	zo	
@@ -33556,7 +33560,6 @@ import_tables:
 崪	zyut	0%
 惙	zyut	
 拙	zyut	
-拙	zyut	0%
 捽	zyut	
 捽	zyut	0%
 掇	zyut	
@@ -33611,10 +33614,6 @@ import_tables:
 黜	zyut	
 黜	zyut	0%
 𠭴	zyut	
-囜		0%
-捻		
-撚		
-涊		0%
 
 
 # 粵語用詞
@@ -33658,6 +33657,7 @@ import_tables:
 阿崩養狗	aa bang joeng gau	
 阿崩買火石	aa bang maai fo sek	
 阿崩買火石：𠽤過先知	aa bang maai fo sek kek gwo sin zi	
+阿崩買火石：𠽤過先知	aa bang maai fo sek kik gwo sin zi	
 阿崩咬狗虱	aa bang ngaau gau sat	
 阿崩咬狗蝨	aa bang ngaau gau sat	
 阿崩劏羊	aa bang tong joeng	
@@ -33707,7 +33707,6 @@ import_tables:
 亞齊	aa cai	
 亞齊省	aa cai saang	
 吖嗪	aa ceon	
-阿嗪	aa ceon	
 阿茨海默症	aa ci hoi mak zing	
 阿超着褲	aa ciu zoek fu	
 阿初佛	aa co fat	
@@ -33835,7 +33834,7 @@ import_tables:
 阿訇	aa gwang	
 啞光	aa gwong	
 亞哈	aa haa	
-吖吓	aa haa	
+啊吓	aa haa	
 亞哈斯	aa haa si	
 阿赫蒂薩里	aa haak dai saat lei	
 錒系元素	aa hai jyun sou	
@@ -33949,6 +33948,7 @@ import_tables:
 阿奇霉素	aa kei mui sou	
 啞劇	aa kek	
 阿奎納	aa kwai naap	
+阿剌伯	aa laa baak	
 亞孻	aa laai	
 阿孻	aa laai	
 阿拉	aa laai	
@@ -33956,7 +33956,6 @@ import_tables:
 阿拉巴馬	aa laai baa maa	
 亞拉巴馬州	aa laai baa maa zau	
 阿拉巴馬州	aa laai baa maa zau	
-阿剌伯	aa laai baak	
 阿拉伯	aa laai baak	
 阿拉伯半島	aa laai baak bun dou	
 阿拉伯電信聯盟	aa laai baak din seon lyun mang	
@@ -34442,16 +34441,12 @@ import_tables:
 埃涅阿斯	aai nip aa si	
 埃涅阿斯紀	aai nip aa si gei	
 埃奧羅斯	aai ou lo si	
-挨屏	aai peng	
-挨拼	aai peng	
 挨𩩍	aai peng	
-挨屏椅	aai peng ji	
 挨憑椅	aai peng ji	
-挨拼椅	aai peng ji	
+挨𩩍椅	aai peng ji	
 挨拼	aai ping	
 嗌破喉嚨	aai po hau lung	
 嗌生嗌死	aai saang aai sei	
-嗌生嗮	aai saang saai	
 嗌生晒	aai saang saai	
 嗌霎	aai saap	
 埃森	aai sam	
@@ -34878,7 +34873,7 @@ import_tables:
 暗物質	am mat zat	
 暗冕鷦鶯	am min ziu ang	
 庵摩勒	am mo lak	
-庵摩落迦果	am mo lak gaa gwo	
+庵摩落迦果	am mo lok gaa gwo	
 暗無天日	am mou tin jat	
 暗昧	am mui	
 媕婀	am o	
@@ -35010,7 +35005,7 @@ import_tables:
 歐盟	au mang	
 歐盟委員會	au mang wai jyun wui	
 歐美	au mei	
-漚麵豉	au min si	
+漚麪豉	au min si	
 歐姆	au mou	
 歐姆蛋	au mou daan	
 歐姆定律	au mou ding leot	
@@ -35883,13 +35878,12 @@ import_tables:
 百計千方	baak gai cin fong	
 帛金	baak gam	
 白金	baak gam	
-鉑金	baak gam	
 百金花	baak gam faa	
 百感交集	baak gam gaau zaap	
 白金漢宮	baak gam hon gung	
 白金漢郡	baak gam hon gwan	
 白金卡	baak gam kaa	
-白金咭	baak gam kaa	
+白金咭	baak gam kaat	
 迫近	baak gan	
 百斤加一	baak gan gaa jat	
 白鴿	baak gap	
@@ -36056,7 +36050,6 @@ import_tables:
 白洋澱	baak joeng din	
 白楊樹	baak joeng syu	
 白羊座	baak joeng zo	
-白肉	baak jok	
 白玉	baak juk	
 白肉	baak juk	
 白玉縣	baak juk jyun	
@@ -36081,8 +36074,6 @@ import_tables:
 白眶鶲鶯	baak kwaang jung ang	
 白眶雀鶥	baak kwaang zoek mei	
 伯拉第斯拉瓦	baak laai dai si laai ngaa	
-白賴嘥	baak laai saai	
-白賴晒	baak laai saai	
 白賴𤿂	baak laai saai	
 白欖	baak laam	
 白蘭	baak laan	
@@ -36235,9 +36226,6 @@ import_tables:
 百衲本	baak naap bun	
 百衲衣	baak naap ji	
 啪紐	baak nau	
-廹鈕	baak nau	
-迫紐	baak nau	
-迫鈕	baak nau	
 伯牙	baak ngaa	
 白額燕鷗	baak ngaak jin au	
 白額圓尾鸌	baak ngaak jyun mei wok	
@@ -36300,7 +36288,6 @@ import_tables:
 白砂糖	baak saa tong	
 白沙灣	baak saa waan	
 白嘥	baak saai	
-白嗮嗮	baak saai saai	
 白晒晒	baak saai saai	
 白山	baak saan	
 白山派	baak saan paai	
@@ -36729,11 +36716,8 @@ import_tables:
 板皮	baan pei	
 班仆街冚家剷	baan puk gaai ham gaa caan	
 扮晒串	baan saai cyun	
-扮嗮蟹	baan saai haai	
 扮晒蟹	baan saai haai	
-扮嗮嘢	baan saai je	
 扮晒嘢	baan saai je	
-扮晒野	baan saai je	
 扮晒魚蝦蟹	baan saai jyu haa haai	
 班衫	baan saam	
 辦身後事	baan san hau si	
@@ -37833,7 +37817,6 @@ import_tables:
 稟神	ban san	
 禀神都冇句真	ban san dou mou geoi zan	
 稟神都冇句真	ban san dou mou geoi zan	
-稟神咁聲	ban san gam seng	
 稟神噉聲	ban san gam seng	
 笨實	ban sat	
 笨手笨腳	ban sau ban goek	
@@ -37944,6 +37927,7 @@ import_tables:
 崩紗	bang saa	
 𧌇䖢	bang saa	
 崩沙腩	bang saa naam	
+絣繩	bang sing	
 崩坍	bang taan	
 崩塌	bang taap	
 蹦躂	bang taat	
@@ -39176,8 +39160,6 @@ import_tables:
 不絕於耳	bat zyut jyu ji	
 不絕如縷	bat zyut jyu leoi	
 不絕於途	bat zyut jyu tou	
-爆冷	bauu laang	
-爆冷門	bauu laang mun	
 啤把	be baa	
 啤啤熊	be be hung	
 啤啤佢	be be keoi	
@@ -39309,7 +39291,6 @@ import_tables:
 備荒	bei fong	
 比方	bei fong	
 祕方	bei fong	
-秘方	bei fong	
 袐方	bei fong	
 比方說	bei fong syut	
 被訪者	bei fong ze	
@@ -39342,7 +39323,6 @@ import_tables:
 悲哽	bei gang	
 碑記	bei gei	
 祕技	bei gei	
-秘技	bei gei	
 避忌	bei gei	
 比基尼	bei gei nei	
 比基尼島	bei gei nei dou	
@@ -39351,7 +39331,7 @@ import_tables:
 比堅尼	bei gin nei	
 祕結	bei git	
 悲歌	bei go	
-畀個	bei go	100.0
+畀個	bei go	1000.0
 鼻哥	bei go	
 鼻哥𦡁	bei go doeng	
 悲歌當哭	bei go dong huk	
@@ -39418,7 +39398,7 @@ import_tables:
 鼻血	bei hyut	
 庇蔭	bei jam	
 鼻音	bei jam	
-畀人	bei jan	1000
+畀人	bei jan	10000
 避孕	bei jan	
 畀人白眼	bei jan baak ngaan	
 畀人唱衰	bei jan coeng seoi	
@@ -39505,17 +39485,15 @@ import_tables:
 畀卡	bei kaat	
 畀咭	bei kaat	
 祕笈	bei kap	
-秘笈	bei kap	
 避其銳氣，擊其惰歸	bei kei jeoi hei gik kei do gwai	
 悲劇	bei kek	
 悲劇缺陷	bei kek kyut haam	
 悲劇性	bei kek sing	
 畀佢	bei keoi	
-畀佢哋	bei keoi dei	100.0
+畀佢哋	bei keoi dei	1000.0
 碑碣	bei kit	
 被困	bei kwan	
 祕訣	bei kyut	
-秘訣	bei kyut	
 肶罅	bei laa	
 脾罅	bei laa	
 髀罅	bei laa	
@@ -39557,9 +39535,7 @@ import_tables:
 吡咯	bei lok	
 祕撈	bei lou	
 祕魯	bei lou	
-秘撈	bei lou	
-秘魯	bei lou	
-秘魯苦蘵	bei lou fu zik	
+祕魯苦蘵	bei lou fu zik	
 卑路乍灣	bei lou zaa waan	
 畀路支	bei lou zi	
 畀路支省	bei lou zi saang	
@@ -39579,11 +39555,9 @@ import_tables:
 畀問起	bei man hei	
 避蚊胺	bei man on	
 祕密	bei mat	
-秘密	bei mat	
 祕密警察	bei mat ging caat	
-秘密警察	bei mat ging caat	
-秘密會社	bei mat wui se	
-秘密活動	bei mat wut dung	
+祕密會社	bei mat wui se	
+祕密活動	bei mat wut dung	
 卑微	bei mei	
 媲美	bei mei	
 俾面	bei min	
@@ -39610,15 +39584,15 @@ import_tables:
 畀鬧到一隻屐	bei naau dou jat zek kek	
 畀鬧到死死下	bei naau dou sei sei haa	
 鼻腍	bei nam	
-畀你	bei nei	100.0
-畀你哋	bei nei dei	100.0
+畀你	bei nei	1000.0
+畀你哋	bei nei dei	1000.0
 碑額	bei ngaak	
 畀眼睇	bei ngaan tai	
 畀倪	bei ngai	
 畀銀紙	bei ngan zi	
 鼻牛兒	bei ngau ji	
-畀我	bei ngo	100.0
-畀我哋	bei ngo dei	100.0
+畀我	bei ngo	1000.0
+畀我哋	bei ngo dei	1000.0
 彼岸	bei ngon	
 彼岸花	bei ngon faa	
 鼻黏膜	bei nim mok	
@@ -39636,7 +39610,6 @@ import_tables:
 卑鄙齷齪	bei pei ak cuk	
 卑鄙無恥	bei pei mou ci	
 卑鄙小人	bei pei siu jan	
-比併	bei ping	
 比拼	bei ping	
 鼻旁竇	bei pong dau	
 被鋪	bei pou	
@@ -39655,7 +39628,7 @@ import_tables:
 俾心機	bei sam gei	
 畀心機	bei sam gei	
 畀心機做	bei sam gei zou	
-秘辛	bei san	
+祕辛	bei san	
 比溼	bei sap	
 比什凱克	bei sap hoi hak	
 避實就虛	bei sat zau heoi	
@@ -39674,7 +39647,6 @@ import_tables:
 卑詩	bei si	
 比試	bei si	
 祕史	bei si	
-秘史	bei si	
 鼻屎	bei si	
 比斯特	bei si dak	
 鼻屎咁大	bei si gam daai	
@@ -39697,15 +39669,12 @@ import_tables:
 比索	bei sok	
 比數	bei sou	
 祕書	bei syu	
-秘書	bei syu	
 避暑	bei syu	
-秘書處	bei syu cyu	
+祕書處	bei syu cyu	
 避暑山莊	bei syu saan zong	
 避暑勝地	bei syu sing dei	
 祕書臺	bei syu toi	
-秘書臺	bei syu toi	
 祕書長	bei syu zoeng	
-秘書長	bei syu zoeng	
 悲酸	bei syun	
 畀雪藏	bei syut cong	
 悲嘆	bei taan	
@@ -39741,7 +39710,7 @@ import_tables:
 庇護所	bei wu so	
 比腕力	bei wun lik	
 避債	bei zaai	
-避債咁避	bei zaai gam bei	
+避債噉避	bei zaai gam bei	
 鼻針療法	bei zam liu faat	
 避震	bei zan	
 畀晝作夜	bei zau zok je	
@@ -39761,7 +39730,7 @@ import_tables:
 被自殺	bei zi saat	
 卑職	bei zik	
 比值	bei zik	
-秘籍	bei zik	
+祕籍	bei zik	
 避席	bei zik	
 鼻尖	bei zim	
 備戰	bei zin	
@@ -39979,12 +39948,12 @@ import_tables:
 逼供信	bik gung seon	
 壁掛	bik gwaa	
 壁櫃	bik gwai	
-逼過來	bik gwo lai	
+逼過嚟	bik gwo lai	
 逼過嚟	bik gwo lei	
 碧咸	bik haam	
 壁效應	bik haau jing	
 壁龕	bik ham	
-逼冚嗮	bik ham saai	
+逼冚晒	bik ham saai	
 迫脅	bik hip	
 碧海	bik hoi	
 迫害	bik hoi	
@@ -40065,7 +40034,6 @@ import_tables:
 便閉	bin bai	
 邊幣	bin bai	
 便祕	bin bei	
-便秘	bin bei	
 扁鼻	bin bei	
 扁鼻佬戴眼鏡	bin bei lou daai ngaan geng	
 便便	bin bin	
@@ -40192,8 +40160,8 @@ import_tables:
 邊個打邊個	bin go daa bin go	
 邊個㗎	bin go gaa	
 邊個嘅	bin go ge	
-邊個來㗎	bin go lai gaa	
 邊個嚟㗎	bin go lai gaa	
+邊個嚟㗎	bin go lei gaa	
 邊個靚	bin go leng	
 邊彊	bin goeng	
 邊疆	bin goeng	
@@ -40504,7 +40472,6 @@ import_tables:
 冰柱	bing cyu	
 丙醛	bing cyun	
 並存	bing cyun	
-併存	bing cyun	
 冰川	bing cyun	
 冰川期	bing cyun kei	
 冰蛋	bing daan	
@@ -40529,7 +40496,6 @@ import_tables:
 冰花	bing faa	
 冰塊	bing faai	
 冰塊盒	bing faai hap	
-併發	bing faat	
 兵法	bing faat	
 迸發	bing faat	
 迸發出	bing faat ceot	
@@ -40574,7 +40540,6 @@ import_tables:
 併捲機	bing gyun gei	
 冰鞋	bing haai	
 並系羣	bing hai kwan	
-併系羣	bing hai kwan	
 並行	bing hang	
 並行不悖	bing hang bat bui	
 並行程序	bing hang cing zeoi	
@@ -40599,7 +40564,6 @@ import_tables:
 丙寅	bing jan	
 兵刃	bing jan	
 冰人	bing jan	
-並入	bing jap	
 併入	bing jap	
 丙一身	bing jat san	
 丙一鑊	bing jat wok	
@@ -40758,6 +40722,7 @@ import_tables:
 兵制	bing zai	
 冰鎮	bing zan	
 冰袖	bing zau	
+并州	bing zau	
 冰洲石	bing zau sek	
 並臻	bing zeon	
 並進	bing zeon	
@@ -40784,7 +40749,7 @@ import_tables:
 必不可少	bit bat ho siu	
 必不可少組成	bit bat ho siu zou sing	
 必備	bit bei	
-咇出來	bit ceot lai	
+咇出嚟	bit ceot lai	
 咇出嚟	bit ceot lei	
 別出心裁	bit ceot sam coi	
 別稱	bit cing	
@@ -41113,7 +41078,6 @@ import_tables:
 標誌位	biu zi wai	
 標識位	biu zi wai	
 表徵	biu zing	
-表証	biu zing	
 表證	biu zing	
 表彰	biu zoeng	
 表章	biu zoeng	
@@ -41469,6 +41433,7 @@ import_tables:
 博格達山脈	bok gaak daat saan mak	
 博格多	bok gaak do	
 博格多汗宮	bok gaak do hon gung	
+鉑金	bok gam	
 膊巾	bok gan	
 薄技	bok gei	
 搏擊	bok gik	
@@ -41519,8 +41484,6 @@ import_tables:
 薄油層	bok jau cang	
 㩧嘢	bok je	
 博野	bok je	
-扑嘢	bok je	
-撲嘢	bok je	
 博野縣	bok je jyun	
 駁議	bok ji	
 博而不精	bok ji bat zing	
@@ -41546,7 +41509,6 @@ import_tables:
 博覽	bok laam	
 博覽館	bok laam gun	
 博覽羣書	bok laam kwan syu	
-博覽群書	bok laam kwan syu	
 博覽會	bok laam wui	
 薄禮	bok lai	
 薄利	bok lei	
@@ -41560,7 +41522,7 @@ import_tables:
 薄落	bok lok	
 駁落	bok lok	
 㩧落去	bok lok heoi	
-㩧落來	bok lok lai	
+㩧落嚟	bok lok lai	
 博洛尼亞	bok lok nei aa	
 博樂市	bok lok si	
 㩧佬	bok lou	
@@ -41613,10 +41575,9 @@ import_tables:
 薄皮	bok pei	
 薄片	bok pin	
 薄紗	bok saa	
-搏嗮老命	bok saai lou meng	
-搏嗮老命噉	bok saai lou meng gam	
+搏晒老命	bok saai lou meng	
 搏晒老命噉	bok saai lou meng gam	
-搏嗮命	bok saai meng	
+搏晒命	bok saai meng	
 博山	bok saan	
 博山區	bok saan keoi	
 搏殺	bok saat	
@@ -41717,7 +41678,6 @@ import_tables:
 邦國	bong gwok	
 幫下眼	bong haa ngaan	
 綁鞋帶	bong haai daai	
-幫閑	bong haan	
 幫閒	bong haan	
 傍黑	bong hak	
 幫口	bong hau	
@@ -41863,7 +41823,6 @@ import_tables:
 保存期	bou cyun kei	
 煲大	bou daai	
 報大數	bou daai sou	
-死人燈籠	bou daai sou	
 保單	bou daan	
 哺蛋	bou daan	
 報單	bou daan	
@@ -42444,7 +42403,6 @@ import_tables:
 補票處	bou piu cyu	
 報盤	bou pun	
 布灑器	bou saa hei	
-暴曬	bou saai	
 曝曬	bou saai	
 補衫	bou saam	
 補衫婆	bou saam po	
@@ -42619,7 +42577,7 @@ import_tables:
 保護人	bou wu jan	
 保護區	bou wu keoi	
 寶葫蘆	bou wu lou	
-寶葫蘆的秘密	bou wu lou dik bei mat	
+寶葫蘆的祕密	bou wu lou dik bei mat	
 保護模式	bou wu mou sik	
 保護傘	bou wu saan	
 保護色	bou wu sik	
@@ -42675,7 +42633,6 @@ import_tables:
 簿籍	bou zik	
 保荐	bou zin	
 保薦	bou zin	
-保証	bou zing	
 保證	bou zing	
 保靖	bou zing	
 暴政	bou zing	
@@ -42837,7 +42794,6 @@ import_tables:
 悖謬	bui mau	
 背謬	bui mau	
 杯麪	bui min	
-杯麵	bui min	
 背面	bui min	
 貝母	bui mou	
 背脢	bui mui	
@@ -42875,7 +42831,7 @@ import_tables:
 杯托	bui tok	
 背泳	bui wing	
 揹債	bui zaai	
-杯仔麵	bui zai min	
+杯仔麪	bui zai min	
 背側	bui zak	
 杯酒解怨	bui zau gaai jyun	
 杯酒言歡	bui zau jin fun	
@@ -43604,7 +43560,6 @@ import_tables:
 茶油	caa jau	
 叉嘢	caa je	
 查夜	caa je	
-猜嘢	caa je	
 差異	caa ji	
 詫異	caa ji	
 查爾斯	caa ji si	
@@ -43760,7 +43715,6 @@ import_tables:
 差之毫釐，失之千里	caa zi hou lei sat zi cin lei	
 奼紫嫣紅	caa zi jin hung	
 叉積	caa zik	
-查証	caa zing	
 查證	caa zing	
 茶晶	caa zing	
 茶座	caa zo	
@@ -43835,6 +43789,7 @@ import_tables:
 踩油	caai jau	
 柴油發動機	caai jau faat dung gei	
 柴油機	caai jau gei	
+猜嘢	caai je	
 猜疑	caai ji	
 差役	caai jik	
 柴魚	caai jyu	
@@ -44546,6 +44501,7 @@ import_tables:
 插中	caap zung	
 察雅	caat aa	
 察雅縣	caat aa jyun	
+刷白	caat baak	
 刷爆	caat baau	
 擦邊球	caat bin kau	
 刷磅	caat bong	
@@ -44617,7 +44573,7 @@ import_tables:
 擦牙	caat ngaa	
 擦棒球	caat paang kau	
 擦屁股	caat pei gu	
-擦嗮	caat saai	
+擦晒	caat saai	
 擦洗	caat sai	
 刷新	caat san	
 擦身而過	caat san ji gwo	
@@ -44717,7 +44673,6 @@ import_tables:
 巢咪掹	caau mi mang	
 巢咪𠵼	caau mi mang	
 炒麪	caau min	
-炒麵	caau min	
 抄網	caau mong	
 吵鬧	caau naau	
 吵鬧聲	caau naau sing	
@@ -44737,8 +44692,8 @@ import_tables:
 䩌皮咪𠵼	caau pei mi mang	
 巢皮咪𠵼	caau pei mi mang	
 鈔票	caau piu	
-䩌嗮皮	caau saai pei	
-巢嗮皮	caau saai pei	
+䩌晒皮	caau saai pei	
+巢晒皮	caau saai pei	
 炒散	caau saan	
 抄身	caau san	
 抄手	caau sau	
@@ -44757,7 +44712,6 @@ import_tables:
 炒鑊	caau wok	
 炒鑊勁	caau wok ging	
 炒黃牛	caau wong ngau	
-炒黄牛	caau wong ngau	
 巢湖	caau wu	
 巢湖地區	caau wu dei keoi	
 巢湖市	caau wu si	
@@ -44795,7 +44749,7 @@ import_tables:
 凄清	cai cing	
 淒清	cai cing	
 妻妾	cai cip	
-妻妾成群	cai cip sing kwan	
+妻妾成羣	cai cip sing kwan	
 凄切	cai cit	
 淒切	cai cit	
 凄楚	cai co	
@@ -45535,9 +45489,8 @@ import_tables:
 七拐八拐	cat gwaai baat gwaai	
 七國咁亂	cat gwok gam lyun	
 七國集團	cat gwok zaap tyun	
-七吓七吓	cat haa cat haa	
+七下七下	cat haa cat haa	
 柒下柒下	cat haa cat haa	
-柒吓柒吓	cat haa cat haa	
 𨳍下𨳍下	cat haa cat haa	
 漆黑	cat haak	
 漆咸道	cat haam dou	
@@ -46266,7 +46219,6 @@ import_tables:
 車票	ce piu	
 扯破	ce po	
 斜坡	ce po	
-扯嗮火	ce saai fo	
 扯晒火	ce saai fo	
 扯晒旗	ce saai kei	
 車衫	ce saam	
@@ -46584,12 +46536,9 @@ import_tables:
 璀璀	ceoi ceoi	
 脆脆	ceoi ceoi	
 隨隨便便	ceoi ceoi bin bin	
-脆脆哋	ceoi ceoi dei	
 脆脆地	ceoi ceoi dei	
-趣趣哋	ceoi ceoi dei	
 趣趣地	ceoi ceoi dei	
 催催貢	ceoi ceoi gung	
-催催頁	ceoi ceoi gung	
 覷覷眼	ceoi ceoi ngaan	
 吹吹拍拍	ceoi ceoi paak paak	
 取出	ceoi ceot	
@@ -46748,7 +46697,6 @@ import_tables:
 吹口琴	ceoi hau kam	
 隨口噏	ceoi hau ngap	
 隨口噏當祕笈	ceoi hau ngap dong bei kap	
-隨口噏當秘笈	ceoi hau ngap dong bei kap	
 吹口哨	ceoi hau saau	
 隨口胡謅	ceoi hau wu zau	
 吹氣	ceoi hei	
@@ -46890,13 +46838,13 @@ import_tables:
 脆片	ceoi pin	
 翠屏區	ceoi ping keoi	
 吹捧	ceoi pung	
-除嗮衫	ceoi saai saam	
+除晒衫	ceoi saai saam	
 除衫	ceoi saam	
 除衫褲	ceoi saam fu	
 吹散	ceoi saan	
 催生	ceoi saang	
 催生婆	ceoi saang po	
-催生嗮	ceoi saang saai	
+催生晒	ceoi saang saai	
 催生素	ceoi saang sou	
 吹哨	ceoi saau	
 趨勢	ceoi sai	
@@ -47005,7 +46953,6 @@ import_tables:
 隨州市	ceoi zau si	
 除罪	ceoi zeoi	
 徐俊	ceoi zeon	
-捶子	ceoi zi	
 趣緻	ceoi zi	
 趣致	ceoi zi	
 錘子	ceoi zi	
@@ -47056,7 +47003,7 @@ import_tables:
 春秋戰國	ceon cau zin gwok	
 春秋戰國時代	ceon cau zin gwok si doi	
 春秋左氏傳	ceon cau zo si zyun	
-蠢蠢哋	ceon ceon dei	
+蠢蠢地	ceon ceon dei	
 蠢蠢欲動	ceon ceon juk dung	
 循循善誘	ceon ceon sin jau	
 旬始	ceon ci	
@@ -47087,7 +47034,6 @@ import_tables:
 循化	ceon faa	
 春化	ceon faa	
 春花	ceon faa	
-馴化	ceon faa	
 春花秋月	ceon faa cau jyut	
 春華秋實	ceon faa cau sat	
 循化縣	ceon faa jyun	
@@ -47355,8 +47301,8 @@ import_tables:
 出飯	ceot faan	
 出番啖氣	ceot faan daam hei	
 出返啖氣	ceot faan daam hei	
-出翻來	ceot faan lai	
-出返來	ceot faan lai	
+出翻嚟	ceot faan lai	
+出返嚟	ceot faan lai	
 出翻嚟	ceot faan lei	
 出返嚟	ceot faan lei	
 出發	ceot faat	
@@ -47503,16 +47449,12 @@ import_tables:
 出缺	ceot kyut	
 出啦	ceot laa	
 出喇	ceot laa	
-出來	ceot lai	
 出嚟	ceot lai	
 出嚟擺	ceot lai baai	
 出嚟襯	ceot lai can	
 出嚟趁	ceot lai can	
-出來行	ceot lai haang	
 出嚟行	ceot lai haang	
-出來撈	ceot lai lou	
 出嚟撈	ceot lai lou	
-出來蒲	ceot lai pou	
 出嚟蒲	ceot lai pou	
 出溜	ceot lau	
 出嘍子	ceot lau zi	
@@ -47583,7 +47525,6 @@ import_tables:
 出埃及記	ceot oi kap gei	
 出牌	ceot paai	
 出盤	ceot pun	
-出嗮名	ceot saai meng	
 出晒名	ceot saai meng	
 出晒位	ceot saai wai	
 出山	ceot saan	
@@ -47717,11 +47658,9 @@ import_tables:
 此次	ci ci	
 遲遲	ci ci	
 刺刺不休	ci ci bat jau	
-癡癡哋	ci ci dei	
 癡癡地	ci ci dei	
-黐黐哋	ci ci dei	
 黐黐地	ci ci dei	
-黐黐哋線	ci ci dei sin	
+黐黐地線	ci ci dei sin	
 黐黐立立	ci ci nap nap	
 黐黐𣲷𣲷	ci ci nap nap	
 黐黐𥹉𥹉	ci ci nap nap	
@@ -48004,7 +47943,6 @@ import_tables:
 詞窮	ci kung	
 齒冷	ci laang	
 遲嚟先上渡	ci lai sin soeng dou	
-遲來先上岸	ci lai sin soeng ngon	
 遲嚟先上岸	ci lai sin soeng ngon	
 遲嚟先走	ci lai sin zau	
 黐撚線	ci lan sin	
@@ -48039,6 +47977,7 @@ import_tables:
 始料未及	ci liu mei kap	
 笞掠	ci loek	
 矢量	ci loeng	
+遲來先上岸	ci loi sin soeng ngon	
 池鷺	ci lou	
 黐佬	ci lou	
 此路不通	ci lou bat tung	
@@ -48210,7 +48149,6 @@ import_tables:
 癡笑	ci siu	
 此消彼長	ci siu bei zoeng	
 似笑非笑	ci siu fei siu	
-厠所	ci so	
 廁所	ci so	
 癡傻	ci so	
 廁所板	ci so baan	
@@ -48301,7 +48239,6 @@ import_tables:
 詞綴	ci zeoi	
 詞綴剝除	ci zeoi mok ceoi	
 刺字	ci zi	
-厠紙	ci zi	
 廁紙	ci zi	
 柿子	ci zi	
 次之	ci zi	
@@ -48322,7 +48259,6 @@ import_tables:
 褫職	ci zik	
 辭職	ci zik	
 翅展	ci zin	
-持証人	ci zing jan	
 持證人	ci zing jan	
 池沼	ci ziu	
 慈照寺	ci ziu zi	
@@ -48410,8 +48346,8 @@ import_tables:
 纖塵	cim can	
 纖塵不染	cim can bat jim	
 簽出	cim ceot	
-撍出來	cim ceot lai	
-撏出來	cim ceot lai	
+撍出嚟	cim ceot lai	
+撏出嚟	cim ceot lai	
 撍出嚟	cim ceot lei	
 撏出嚟	cim ceot lei	
 纖纖	cim cim	
@@ -48541,7 +48477,6 @@ import_tables:
 簽字筆	cim zi bat	
 簽字費	cim zi fai	
 簽字者	cim zi ze	
-簽証	cim zing	
 簽證	cim zing	
 簽證機	cim zing gei	
 簽咗	cim zo	
@@ -49137,7 +49072,7 @@ import_tables:
 蟶埕	cing cing	
 清清白白	cing cing baak baak	
 清清楚楚	cing cing co co	
-清清哋	cing cing dei	
+清清地	cing cing dei	
 清清爽爽	cing cing song song	
 埕埕䍇䍇	cing cing taap taap	
 埕埕塔塔	cing cing taap taap	
@@ -49773,9 +49708,7 @@ import_tables:
 切切私語	cit cit si jyu	
 切磋	cit co	
 切磋琢磨	cit co doek mo	
-切卓咁轉	cit coet gam zyun	
 切卓噉轉	cit coet gam zyun	
-彳亍咁轉	cit coet gam zyun	
 彳亍噉轉	cit coet gam zyun	
 切菜	cit coi	
 切菜刀	cit coi dou	
@@ -50065,7 +49998,6 @@ import_tables:
 超級子彈人	ciu kap zi daan jan	
 超距作用	ciu keoi zok jung	
 超羣	ciu kwan	
-超群	ciu kwan	
 超羣絕倫	ciu kwan zyut leon	
 俏麗	ciu lai	
 超臨界	ciu lam gaai	
@@ -50311,10 +50243,8 @@ import_tables:
 坐館	co gun	
 錯怪	co gwaai	
 坐櫃面	co gwai min	
-初歸心抱，落地孩兒	co gwai sam pou lok dei haai ji	
 初歸新婦，落地孩兒	co gwai sam pou lok dei haai ji	
 初歸新抱，落地孩兒	co gwai sam pou lok dei haai ji	
-初歸心抱，落地孩兒	co gwai san pou lok dei haai ji	
 初歸新婦，落地孩兒	co gwai san pou lok dei haai ji	
 初歸新抱落地孩兒	co gwai san pou lok dei haai ji	
 初歸新抱，落地孩兒	co gwai san pou lok dei haai ji	
@@ -50375,8 +50305,6 @@ import_tables:
 坐立不安	co laap bat on	
 鋤犁	co lai	
 初嚟埗到，唔知鑊竈	co lai bou bou m zi wok zou	
-初來報到	co lai bou dou	
-初來甫到	co lai bou dou	
 初嚟埗到	co lai bou dou	
 初嚟報到	co lai bou dou	
 初嚟甫到	co lai bou dou	
@@ -50389,6 +50317,8 @@ import_tables:
 坐輪椅	co leon ji	
 坐蓮	co lin	
 芻糧	co loeng	
+初來報到	co loi bou dou	
+初來甫到	co loi bou dou	
 初來乍到	co loi zaa dou	
 坐落	co lok	
 錯落	co lok	
@@ -50514,7 +50444,6 @@ import_tables:
 戳兒	coek ji	
 桌椅板凳	coek ji baan dang	
 卓爾不羣	coek ji bat kwan	
-卓爾不群	coek ji bat kwan	
 卓然	coek jin	
 灼熱	coek jit	
 綽約	coek joek	
@@ -50797,7 +50726,6 @@ import_tables:
 長氣袋	coeng hei doi	
 搶去	coeng heoi	
 長吁短嘆	coeng heoi dyun taan	
-長吁短歎	coeng heoi dyun taan	
 搶險	coeng him	
 搶險救災	coeng him gau zoi	
 長興	coeng hing	
@@ -50883,7 +50811,6 @@ import_tables:
 槍決	coeng kyut	
 猖獗	coeng kyut	
 長䧒䧒	coeng laai laai	
-長拉拉	coeng laai laai	
 長癩癩	coeng laai laai	
 長賴賴	coeng laai laai	
 唱嚟	coeng lai	
@@ -50970,7 +50897,6 @@ import_tables:
 長牙	coeng ngaa	
 搶眼	coeng ngaan	
 槍眼	coeng ngaan	
-窗鈎	coeng ngau	
 窗鉤	coeng ngau	
 場外應急	coeng ngoi jing gap	
 唱念	coeng nim	
@@ -51039,7 +50965,6 @@ import_tables:
 長生板	coeng saang baan	
 長生果	coeng saang gwo	
 搶生意	coeng saang ji	
-唱生哂	coeng saang saai	
 唱生晒	coeng saang saai	
 槍殺	coeng saat	
 詳細	coeng sai	
@@ -51116,8 +51041,7 @@ import_tables:
 暢談話卡	coeng taam waa kaat	
 搶灘	coeng taan	
 長嘆	coeng taan	
-長歎	coeng taan	
-長歎一聲	coeng taan jat sing	
+長嘆一聲	coeng taan jat sing	
 槍替	coeng tai	
 窗體	coeng tai	
 唱頭	coeng tau	
@@ -51193,7 +51117,6 @@ import_tables:
 長袖善舞	coeng zau sin mou	
 長遮	coeng ze	
 長嗟短嘆	coeng ze dyun taan	
-長嗟短歎	coeng ze dyun taan	
 長嘴百靈	coeng zeoi baak ling	
 長嘴捕蛛鳥	coeng zeoi bou zyu niu	
 長嘴地鶇	coeng zeoi dei dung	
@@ -51489,7 +51412,7 @@ import_tables:
 採棉機	coi min gei	
 菜苗	coi miu	
 財務	coi mou	
-財務秘書	coi mou bei syu	
+財務祕書	coi mou bei syu	
 財務大臣	coi mou daai san	
 財務公司	coi mou gung si	
 財務軟件	coi mou jyun gin	
@@ -51886,7 +51809,6 @@ import_tables:
 倉鼠跑	cong syu paau	
 藏書票	cong syu piu	
 牀頭	cong tau	
-床頭打交床尾和	cong tau daa gaau cong mei wo	
 牀頭打交牀尾和	cong tau daa gaau cong mei wo	
 創投基金	cong tau gei gam	
 牀頭櫃	cong tau gwai	
@@ -51985,7 +51907,7 @@ import_tables:
 草草	cou cou	
 嘈嘈閉	cou cou bai	
 嘈嘈閉閉	cou cou bai bai	
-粗粗哋	cou cou dei	
+粗粗地	cou cou dei	
 曹操都有知心友，關公都有對頭人	cou cou dou jau zi sam jau gwaan gung dou jau deoi tau jan	
 曹操都有知心友，關公亦有對頭人	cou cou dou jau zi sam jau gwaan gung jik jau deoi tau jan	
 草草了事	cou cou liu si	
@@ -52068,7 +51990,7 @@ import_tables:
 粗口爛舌	cou hau laan sit	
 粗口橫飛	cou hau waang fei	
 儲起	cou hei	
-嘈起上來	cou hei soeng lai	
+嘈起上嚟	cou hei soeng lai	
 嘈起上嚟	cou hei soeng lei	
 草鴞	cou hiu	
 草海	cou hoi	
@@ -52088,7 +52010,6 @@ import_tables:
 儲郵票	cou jau piu	
 粗嘢	cou je	
 粗野	cou je	
-取耳	cou ji	
 嘈耳	cou ji	
 措意	cou ji	
 草擬	cou ji	
@@ -52186,7 +52107,6 @@ import_tables:
 草珊瑚	cou saan wu	
 粗生	cou saang	
 粗生粗養	cou saang cou joeng	
-嘈生嗮	cou saang saai	
 嘈生晒	cou saang saai	
 粗細	cou sai	
 操心	cou sam	
@@ -52448,13 +52368,12 @@ import_tables:
 松坡湖	cung bo wu	
 重播節目	cung bo zit muk	
 重磅	cung bong	
-冲茶	cung caa	
 沖茶	cung caa	
 重查	cung caa	
 松柴	cung caai	
 充撐	cung caang	
 充橕場面	cung caang coeng min	
-充橕吓場面	cung caang haa coeng min	
+充橕下場面	cung caang haa coeng min	
 重插	cung caap	
 沖刷	cung caat	
 重抄	cung caau	
@@ -52632,7 +52551,6 @@ import_tables:
 重櫃	cung gwai	
 充軍	cung gwan	
 從軍	cung gwan	
-冲滾水	cung gwan seoi	
 沖滾水	cung gwan seoi	
 松果	cung gwo	
 松果腺	cung gwo sin	
@@ -52770,13 +52688,11 @@ import_tables:
 沖齡	cung ling	
 松嶺區	cung ling keoi	
 松遼平原	cung liu ping jyun	
-冲涼	cung loeng	
 從良	cung loeng	
 沖涼	cung loeng	
 重量	cung loeng	
 重量單位	cung loeng daan wai	
 重量噸	cung loeng deon	
-沖涼房	cung loeng foeng	
 沖涼房	cung loeng fong	
 沖涼缸	cung loeng gong	
 重量級	cung loeng kap	
@@ -52871,7 +52787,6 @@ import_tables:
 沖曬	cung saai	
 松山	cung saan	
 松山區	cung saan keoi	
-充生嗮	cung saang saai	
 充生晒	cung saang saai	
 沖煞	cung saat	
 衝殺	cung saat	
@@ -53945,7 +53860,6 @@ import_tables:
 打崩頭	daa bang tau	
 打不過	daa bat gwo	
 打不通	daa bat tung	
-咑吡	daa bei	
 打吡	daa bei	
 打比	daa bei	
 打畀	daa bei	
@@ -54100,7 +54014,6 @@ import_tables:
 打道回府	daa dou wui fu	
 打到走夾唔唞有氣冇碇唞	daa dou zau gaap m tau jau hei mou deng tau	
 打到走夾唔透有氣冇訂透	daa dou zau gaap m tau jau hei mou deng tau	
-打到豬頭咁	daa dou zyu tau gam	
 打到豬頭噉	daa dou zyu tau gam	
 打動	daa dung	
 打戙	daa dung	
@@ -54150,7 +54063,6 @@ import_tables:
 打膠槍	daa gaau coeng	
 打交道	daa gaau dou	
 打搞晒	daa gaau saai	
-打攪嗮	daa gaau saai	
 打攪晒	daa gaau saai	
 打雞血	daa gai hyut	
 打緊	daa gan	
@@ -54217,7 +54129,6 @@ import_tables:
 打卦	daa gwaa	
 打啩	daa gwaa	
 打瓜	daa gwaa	
-打斛斗	daa gwaan dau	
 打關斗	daa gwaan dau	
 打䃎䃎	daa gwaang gwaang	
 打滾	daa gwan	
@@ -54306,7 +54217,7 @@ import_tables:
 打球	daa kau	
 打茄輪	daa ke leon	
 打棋子	daa kei zi	
-打佢老母	daa keoi lou mou!	
+打佢老母	daa keoi lou mou	
 打棘	daa kik	
 打躆跲	daa kik kap	
 打箍	daa ku	
@@ -54350,7 +54261,7 @@ import_tables:
 打鑼都搵唔倒	daa lo dou wan m dou	
 打鑼都搵唔到	daa lo dou wan m dou	
 打鑼噉搵	daa lo gam wan	
-打鑼咁搵你	daa lo gam wan nei	
+打鑼噉搵你	daa lo gam wan nei	
 打量	daa loeng	
 打來回	daa loi wui	
 打落水狗	daa lok seoi gau	
@@ -54414,9 +54325,7 @@ import_tables:
 打破砂鍋問到底	daa po saa wo man dou dai	
 打撲克	daa pok hak	
 打抱不平	daa pou bat ping	
-打嗮纈	daa saai lit	
 打晒纈	daa saai lit	
-打嗮色	daa saai sik	
 打晒色	daa saai sik	
 打晒骰	daa saai sik	
 打傘	daa saan	
@@ -54529,12 +54438,11 @@ import_tables:
 打橫放	daa waang fong	
 打橫行	daa waang haang	
 打橫行	daa waang hang	
-打橫來	daa waang lai	
 打橫嚟	daa waang lai	
-打橫來講	daa waang lai gong	
 打橫嚟講	daa waang lai gong	
 打橫嚟	daa waang lei	
 打橫嚟講	daa waang lei gong	
+打橫來講	daa waang loi gong	
 打橫炮	daa waang paau	
 打橫寫	daa waang se	
 打橫睇	daa waang tai	
@@ -54995,7 +54903,6 @@ import_tables:
 大家	daai gaa	
 大駕	daai gaa	
 大家都噉話	daai gaa dou gam waa	
-大家咁話	daai gaa gam waa	
 大家噉話	daai gaa gam waa	
 大家閨秀	daai gaa gwai sau	
 大駕光臨	daai gaa gwong lam	
@@ -55340,7 +55247,6 @@ import_tables:
 大嘢	daai je	
 大爺	daai je	
 大冶市	daai je si	
-大隻講貪口爽	daai jek gong taam hau song	
 大贏家	daai jeng gaa	
 大潤發	daai jeon faat	
 大二	daai ji	
@@ -55688,7 +55594,6 @@ import_tables:
 大無私樣	daai mou si joeng	
 大無畏	daai mou wai	
 大無畏精神	daai mou wai zing san	
-大姆指	daai mou zi	
 大拇指	daai mou zi	
 戴帽子	daai mou zi	
 大媒	daai mui	
@@ -55811,9 +55716,9 @@ import_tables:
 大片	daai pin	
 大篇幅	daai pin fuk	
 大婆	daai po	
+太婆	daai po	
 大破大立	daai po daai laap	
 大破慳囊	daai po haan nong	
-太婆	daai poe	
 大浦洞	daai pou dung	
 大浦洞二	daai pou dung ji	
 大浦洞二號	daai pou dung ji hou	
@@ -55828,7 +55733,6 @@ import_tables:
 大沙錐	daai saa zeoi	
 大㗰	daai saai	
 大㩄	daai saai	
-大嗮	daai saai	
 大嘥	daai saai	
 大晒	daai saai	
 大曬	daai saai	
@@ -56033,7 +55937,6 @@ import_tables:
 大談特談	daai taam dak taam	
 大貪鬼	daai taam gwai	
 大潭水塘	daai taam seoi tong	
-大嘆特嘆	daai taan dak taan	
 大歎特歎	daai taan dak taan	
 大題	daai tai	
 大體	daai tai	
@@ -56202,8 +56105,8 @@ import_tables:
 大姐仔	daai ze zai	
 大隻	daai zek	
 大隻啲	daai zek di	
-大隻廣	daai zek gong	
 大隻講	daai zek gong	
+大隻講貪口爽	daai zek gong taam hau song	
 大隻廣	daai zek gwong	
 大隻累累	daai zek leoi leoi	
 大隻纍纍	daai zek leoi leoi	
@@ -56658,7 +56561,7 @@ import_tables:
 蛋餡烘餅	daan haam hung beng	
 彈坑	daan haang	
 彈匣	daan haap	
-但係	daan hai	1000.0
+但係	daan hai	10000.0
 單係	daan hai	
 單喺	daan hai	
 單克隆抗體	daan hak lung kong tai	
@@ -57177,9 +57080,9 @@ import_tables:
 𢴈落	daat lok	
 𢴈落牀	daat lok cong	
 𢴈落地	daat lok dei	
-𢴈落來	daat lok lai	
 𢴈落嚟	daat lok lai	
 𢴈落嚟	daat lok lei	
+𢴈落來	daat lok loi	
 達朗貝爾	daat long bui ji	
 達魯花赤	daat lou faa cek	
 達嚕噶齊	daat lou gaa cai	
@@ -57194,6 +57097,7 @@ import_tables:
 達姆彈	daat mou daan	
 達尼亞	daat nei aa	
 達悟族	daat ng zuk	
+笪沙魚	daat saa jyu	
 撻生魚	daat saang jyu	
 𢴈生魚	daat saang jyu	
 𢴈生魚噉𢴈	daat saang jyu gam daat	
@@ -57270,7 +57174,7 @@ import_tables:
 底底	dai dai	
 弟弟	dai dai	
 低低切切	dai dai cit cit	
-低低哋	dai dai dei	
+低低地	dai dai dei	
 抵得	dai dak	
 抵得頸	dai dak geng	
 抵得淤	dai dak jyu	
@@ -57557,7 +57461,6 @@ import_tables:
 第三狀態	dai saam zong taai	
 底細	dai sai	
 第世	dai sai	
-蛋家婆摸蜆	dai sai	
 蒂森克虜伯	dai sam hak lou baak	
 帝辛	dai san	
 底薪	dai san	
@@ -57672,7 +57575,6 @@ import_tables:
 低俗之風	dai zuk zi fung	
 抵住	dai zyu	
 逮住	dai zyu	
-第五肢	dai ńgi zi	
 得把口	dak baa hau	
 得把牙	dak baa ngaa	
 得把聲	dak baa seng	
@@ -57818,14 +57720,13 @@ import_tables:
 德國統一社會黨	dak gwok tung jat se wui dong	
 德國之聲	dak gwok zi sing	
 德國戰車	dak gwok zin ce	
-得閑	dak haan	
 得閒	dak haan	
 得閒飲茶	dak haan jam caa	
-得閑嚟坐	dak haan lai co	
+得閒嚟坐	dak haan lai co	
 得閒冇屎屙	dak haan mou si o	
-得閑你	dak haan nei	
+得閒你	dak haan nei	
 得閒死唔得閒病	dak haan sei m dak haan beng	
-得閑先	dak haan sin	
+得閒先	dak haan sin	
 特效	dak haau	
 特效藥	dak haau joek	
 德黑蘭	dak hak laan	
@@ -58126,7 +58027,7 @@ import_tables:
 氹氹測	dam dam caak	
 𨂽𨂽趯	dam dam dek	
 揼揼下	dam dam haa	
-泵泵吓	dam dam haa	
+泵泵下	dam dam haa	
 耽耽下	dam dam haa	
 揼揼𡃈	dam dam kwaak	
 氹氹框	dam dam kwaak	
@@ -58141,7 +58042,6 @@ import_tables:
 耽雞	dam gai	
 髧雞	dam gai	
 䂿腳	dam goek	
-趻腳	dam goek	
 𨂽腳	dam goek	
 抌骨	dam gwat	
 揼開	dam hoi	
@@ -58298,7 +58198,6 @@ import_tables:
 瞪鞋搖滾	dang haai jiu gwan	
 等閒	dang haan	
 等閒視之	dang haan si zi	
-等閑之輩	dang haan zi bui	
 等閒之輩	dang haan zi bui	
 等效百萬噸當量	dang haau baak maan deon dong loeng	
 磴口	dang hau	
@@ -58365,7 +58264,7 @@ import_tables:
 瞪眼	dang ngaan	
 燈蛾	dang ngo	
 等我	dang ngo	
-等我來	dang ngo lai	
+等我嚟	dang ngo lai	
 等我嚟	dang ngo lei	
 等我睇下	dang ngo tai haa	
 登岸	dang ngon	
@@ -58747,8 +58646,8 @@ import_tables:
 豆苗	dau miu	
 豆苗餃	dau miu gaau	
 兜帽	dau mou	
-抖木	dau muk	
 鬥木	dau muk	
+鬬木	dau muk	
 鬥木佬	dau muk lou	
 鬥木師傅	dau muk si fu	
 斗門	dau mun	
@@ -58856,11 +58755,8 @@ import_tables:
 嗲嗲渧	de de dai	
 嗲嗲吊	de de diu	
 爹地	de dei	
-嗲哋	de di	
-爹哋	de di	
-爹啲	de di	
 爹地	de di	
-嗲哋媽咪	de di maa mi	
+嗲地媽咪	de di maa mi	
 嗲掂	de dim	
 嗲吊	de diu	
 嗲幾句	de gei geoi	
@@ -59202,7 +59098,6 @@ import_tables:
 掟飛鏢	deng fei biu	
 訂貨	deng fo	
 埞方	deng fong	
-定方	deng fong	
 碇方	deng fong	
 訂房	deng fong	
 頂風	deng fung	
@@ -59345,6 +59240,7 @@ import_tables:
 對價	deoi gaa	
 對家	deoi gaa	
 堆金積玉	deoi gam zik juk	
+對勼	deoi gau	
 對句	deoi geoi	
 對勁	deoi ging	
 對勁兒	deoi ging ji	
@@ -59390,7 +59286,6 @@ import_tables:
 隊員	deoi jyun	
 對乙酰氨基酚	deoi jyut sin on gei fan	
 對襟	deoi kam	
-對勼	deoi kau	
 對摳	deoi kau	
 隊旗	deoi kei	
 對佢	deoi keoi	
@@ -59445,8 +59340,8 @@ import_tables:
 對偶多面體	deoi ngau do min tai	
 對偶性	deoi ngau sing	
 對牛彈琴	deoi ngau taan kam	
-對我來講	deoi ngo lai gong	
-對我來說	deoi ngo lai syut	
+對我嚟講	deoi ngo lai gong	
+對我嚟說	deoi ngo lai syut	
 對我嚟講	deoi ngo lei gong	
 對我來說	deoi ngo loi syut	
 對外	deoi ngoi	
@@ -59590,7 +59485,6 @@ import_tables:
 啲打佬	di daa lou	
 啲吺	di dau	
 啲啲	di di	
-尐尐	di di	
 弟弟	di di	
 啲啲咑咑	di di daak daak	
 啲啲䙞䙞	di di dang dang	
@@ -59666,11 +59560,12 @@ import_tables:
 滴下	dik haa	
 嫡系	dik hai	
 迪克	dik hak	
-扚起來	dik hei lai	
+扚起嚟	dik hei lai	
 扚起嚟	dik hei lei	
 扚起心肝	dik hei sam gon	
 的起心肝	dik hei sam gon	
 𢯊起心肝	dik hei sam gon	
+扚起身	dik hei san	
 滌去	dik heoi	
 迪慶州	dik hing zau	
 迪慶藏族自治州	dik hing zong zuk zi zi zau	
@@ -59957,7 +59852,7 @@ import_tables:
 點子	dim zi	
 點字	dim zi	
 點止	dim zi	
-點知	dim zi	1000.0
+點知	dim zi	10000.0
 點至	dim zi	
 點指兵兵	dim zi bing bing	
 點子背	dim zi bui	
@@ -60037,7 +59932,6 @@ import_tables:
 電唱針	din coeng zam	
 典藏	din cong	
 電廠	din cong	
-典床典蓆	din cong din zek	
 典牀典蓆	din cong din zek	
 捵牀捵席	din cong din zek	
 痶牀痶席	din cong din zek	
@@ -60046,7 +59940,6 @@ import_tables:
 電打	din daa	
 電打字機	din daa zi gei	
 電單車	din daan ce	
-電燈膽	din daang daam	
 墊底兒	din dai ji	
 電燈	din dang	
 電燈杉	din dang caam	
@@ -60061,7 +59954,7 @@ import_tables:
 顛顛	din din	
 癲癲得得	din din dak dak	
 癲癲得得	din din dat dat	
-癲癲哋	din din dei	
+癲癲地	din din dei	
 癲癲廢廢	din din fai fai	
 奠定	din ding	
 典當	din dong	
@@ -60548,7 +60441,7 @@ import_tables:
 叮沊	ding dam	
 丁等	ding dang	
 定啲	ding di	
-定啲來	ding di lai	
+定啲嚟	ding di lai	
 定啲嚟	ding di lei	
 丁點	ding dim	
 定點	ding dim	
@@ -60725,7 +60618,7 @@ import_tables:
 玎玲	ding ling	
 丁零襶褦	ding ling daai laai	
 丁零襶褦	ding ling daai lang	
-椗呤鄧㨢	ding ling dang lang	
+叮拎等㨢	ding ling dang lang	
 丁零噹啷	ding ling dong long	
 定螺	ding lo	
 定量	ding loeng	
@@ -60771,7 +60664,6 @@ import_tables:
 丁寧	ding ning	
 叮嚀	ding ning	
 耵聹	ding ning	
-叮拎等㨢	ding ning dang nang	
 丁內酯	ding noi zi	
 定安	ding on	
 定案	ding on	
@@ -60779,8 +60671,7 @@ import_tables:
 定編	ding pin	
 定票	ding piu	
 定盤星	ding pun sing	
-定嗮型	ding saai jing	
-定嗮形	ding saai jing	
+定晒型	ding saai jing	
 定晒形	ding saai jing	
 盯梢	ding saau	
 定勢	ding sai	
@@ -60997,7 +60888,7 @@ import_tables:
 跌落地下，揦返拃沙	dit lok dei haa laa faan zaa saa	
 跌落地揦返拃沙	dit lok dei laa faan zaa saa	
 跌落去	dit lok heoi	
-跌落來	dit lok lai	
+跌落嚟	dit lok lai	
 跌落嚟	dit lok lei	
 秩祿	dit luk	
 佚名	dit ming	
@@ -61127,11 +61018,9 @@ import_tables:
 釣竿	diu gon	
 吊槓	diu gong	
 吊高	diu gou	
-吊高來賣	diu gou lai maai	
 吊高嚟賣	diu gou lai maai	
-釣高嚟賣	diu gou lai maai	
 吊高嚟賣	diu gou lei maai	
-釣高嚟賣	diu gou lei maai	
+吊高來賣	diu gou loi maai	
 弔古	diu gu	
 丟官	diu gun	
 吊掛	diu gwaa	
@@ -61160,9 +61049,9 @@ import_tables:
 雕刻家	diu hak gaa	
 丟棄	diu hei	
 吊起	diu hei	
-吊起來賣	diu hei lai maai	
 吊起嚟賣	diu hei lai maai	
 吊起嚟賣	diu hei lei maai	
+吊起來賣	diu hei loi maai	
 調遣	diu hin	
 鵰鴞	diu hiu	
 吊靴鬼	diu hoe gwai	
@@ -61250,8 +61139,7 @@ import_tables:
 調門兒	diu mun ji	
 丟那媽	diu naa maa	
 屌那媽	diu naa maa	
-掉哪媽	diu naa maa	
-掉哪媽頂硬上	diu naa maa deng ngaang soeng	
+屌那媽頂硬上	diu naa maa deng ngaang soeng	
 屌那星	diu naa sing	
 𨳒那星	diu naa sing	
 刁難	diu naan	
@@ -61294,7 +61182,7 @@ import_tables:
 丟三拉四	diu saam laai sei	
 丟三落四	diu saam lok sei	
 丟生	diu saang	
-丟生嗮	diu saang saai	
+丟生晒	diu saang saai	
 吊審	diu sam	
 丟生	diu sang	
 丟失	diu sat	
@@ -61416,7 +61304,7 @@ import_tables:
 多此一舉	do ci jat geoi	
 多錢善賈	do cin sin gu	
 多情	do cing	
-躲清閑	do cing haan	
+躲清閒	do cing haan	
 多彩	do coi	
 多才	do coi	
 多采	do coi	
@@ -61482,7 +61370,6 @@ import_tables:
 多嚿魚	do gau jyu	
 多舊魚	do gau jyu	
 多鳩餘	do gau jyu	
-法國大餐	do gau jyu	
 多幾錢重	do gei cin cung	
 多句嘴	do geoi zeoi	
 多極化	do gik faa	
@@ -61610,7 +61497,7 @@ import_tables:
 墮落	do lok	
 惰落	do lok	
 墮落雞	do lok gai	
-惰落來	do lok lai	
+惰落嚟	do lok lai	
 惰落嚟	do lok lei	
 多勞多得	do lou do dak	
 多氯聯苯	do luk lyun bun	
@@ -61732,7 +61619,7 @@ import_tables:
 多謝夾盛惠	do ze gaap sing wai	
 多謝你咁好介紹	do ze nei gam hou gaai siu	
 多謝我	do ze ngo	
-多謝嗮	do ze saai	
+多謝晒	do ze saai	
 多謝先	do ze sin	
 多隻香爐多隻鬼	do zek hoeng lou do zek gwai	
 多咀	do zeoi	
@@ -61942,7 +61829,7 @@ import_tables:
 度頸	dok geng	
 度稿	dok gou	
 度高	dok gou	
-度吓	dok haa	
+度下	dok haa	
 度野	dok je	
 度橋	dok kiu	
 度竅	dok kiu	
@@ -61958,7 +61845,6 @@ import_tables:
 踱水	dok seoi	
 度叔	dok suk	
 度縮	dok suk	
-庹縮	dok suk	
 鐸叔	dok suk	
 度位	dok wai	
 度住	dok zyu	
@@ -62074,9 +61960,9 @@ import_tables:
 檔期	dong kei	
 當其時	dong kei si	
 當佢冇到	dong keoi mou dou	
-當佢冇來	dong keoi mou lai	
 當佢冇嚟	dong keoi mou lai	
 當佢冇嚟	dong keoi mou lei	
+當佢冇來	dong keoi mou loi	
 黨規	dong kwai	
 當權	dong kyun	
 當權派	dong kyun paai	
@@ -62103,7 +61989,7 @@ import_tables:
 當務之急	dong mou zi gap	
 黨媒	dong mui	
 擋泥板	dong nai baan	
-當你神咁拜	dong nei san gam baai	
+當你神噉拜	dong nei san gam baai	
 當眼	dong ngaan	
 當牛作馬	dong ngau zok maa	
 當我流	dong ngo lau	
@@ -62277,7 +62163,7 @@ import_tables:
 倒春寒	dou ceon hon	
 導出	dou ceot	
 道出	dou ceot	
-倒出來	dou ceot lai	
+倒出嚟	dou ceot lai	
 倒出嚟	dou ceot lei	
 到出汁	dou ceot zap	
 導出值	dou ceot zik	
@@ -62331,7 +62217,7 @@ import_tables:
 到達大廳	dou daat daai teng	
 到底	dou dai	
 道德	dou dak	
-都得	dou dak	1000.0
+都得	dou dak	10000.0
 道德敗壞	dou dak baai waai	
 道德品質	dou dak ban zat	
 道德家	dou dak gaa	
@@ -62484,7 +62370,7 @@ import_tables:
 導函數	dou haam sou	
 都係	dou hai	
 都喺	dou hai	
-都喺道	dou hai dou	
+都喺度	dou hai dou	
 都係咁	dou hai gam	
 都係噉	dou hai gam	
 都係有	dou hai jau	
@@ -62502,7 +62388,6 @@ import_tables:
 倒後鏡	dou hau geng	
 杜口裹足	dou hau gwo zuk	
 到喉唔到肺	dou hau m dou fai	
-到喉唔到肺	dou hau m1 dou fai	
 賭氣	dou hei	
 道喜	dou hei	
 道歉	dou hip	
@@ -62692,7 +62577,7 @@ import_tables:
 杜牧	dou muk	
 到目前	dou muk cin	
 到目前爲止	dou muk cin wai zi	
-抖木佬	dou muk lou	
+鬬木佬	dou muk lou	
 杜門	dou mun	
 杜門不出	dou mun bat ceot	
 杜門謝客	dou mun ze haak	
@@ -62705,7 +62590,7 @@ import_tables:
 倒眼	dou ngaan	
 鍍銀	dou ngan	
 倒鉤	dou ngau	
-倒鈎鬚	dou ngau sou	
+倒鉤鬚	dou ngau sou	
 倒臥	dou ngo	
 度外	dou ngoi	
 道外	dou ngoi	
@@ -62763,8 +62648,8 @@ import_tables:
 倒瀉籮蟹	dou se lo haai	
 到死	dou sei	
 堵死	dou sei	
-到死吓死吓	dou sei haa sei haa	
-到死死吓	dou sei sei haa	
+到死下死下	dou sei haa sei haa	
+到死死下	dou sei sei haa	
 搗石屎	dou sek si	
 倒水	dou seoi	
 搗碎	dou seoi	
@@ -63257,7 +63142,6 @@ import_tables:
 獨尊	duk zyun	
 篤專	duk zyun	
 獨尊儒術	duk zyun jyu seot	
-凍肉舖	dun juk pou	
 東亞	dung aa	
 東阿	dung aa	
 東亞病夫	dung aa beng fu	
@@ -63374,7 +63258,7 @@ import_tables:
 戙篤笑騷	dung duk siu sou	
 咚咚	dung dung	
 東東	dung dung	
-凍凍哋	dung dung dei	
+凍凍地	dung dung dei	
 冬粉	dung fan	
 洞窟	dung fat	
 凍啡	dung fe	
@@ -63479,12 +63363,12 @@ import_tables:
 東光縣	dung gwong jyun	
 冬夏	dung haa	
 恫嚇	dung haak	
-冬閑	dung haan	
+冬閒	dung haan	
 動口	dung hau	
 洞口	dung hau	
 洞口縣	dung hau jyun	
 動氣	dung hei	
-㢥起床板	dung hei cong baan	
+㢥起牀板	dung hei cong baan	
 戙起牀板	dung hei cong baan	
 戙起牀版	dung hei cong baan	
 戙起隻腳	dung hei zek goek	
@@ -63524,7 +63408,7 @@ import_tables:
 動人心弦	dung jan sam jyun	
 動人心魄	dung jan sam paak	
 東一榔頭西一棒子	dung jat long tau sai jat paang zi	
-楝嘢	dung je	
+棟嘢	dung je	
 冬衣	dung ji	
 動議	dung ji	
 東夷	dung ji	
@@ -63546,6 +63430,7 @@ import_tables:
 東洋話	dung joeng waa	
 董陽孜	dung joeng zi	
 凍肉	dung juk	
+凍肉舖	dung juk pou	
 凍容	dung jung	
 動容	dung jung	
 動用	dung jung	
@@ -64541,7 +64426,7 @@ import_tables:
 快馬加鞭	faai maa gaa bin	
 快慢	faai maan	
 塊面	faai min	
-塊面紅紅哋	faai min hung hung dei	
+塊面紅紅地	faai min hung hung dei	
 塊煤	faai mui	
 快門	faai mun	
 快跑	faai paau	
@@ -64626,7 +64511,7 @@ import_tables:
 飯鏟頭	faan caan tau	
 翻抄	faan caau	
 翻炒	faan caau	
-返炒牛肉	faan caau ngau jok	
+返炒牛肉	faan caau ngau juk	
 翻沉	faan cam	
 翻尋味	faan cam mei	
 返尋味	faan cam mei	
@@ -65039,19 +64924,14 @@ import_tables:
 凡例	faan lai	
 反例	faan lai	
 範例	faan lai	
-翻來	faan lai	
 翻嚟	faan lai	
 范例	faan lai	
 范蠡	faan lai	
-返來	faan lai	
 返嚟	faan lai	
-翻來覆去	faan lai fuk heoi	
 番荔枝	faan lai zi	
 反粒子	faan lap zi	0%
 樊籬	faan lei	
-翻嚟	faan lei	
 藩籬	faan lei	
-返來	faan lei	
 返利	faan lei	
 返嚟	faan lei	
 反領	faan leng	
@@ -65063,12 +64943,12 @@ import_tables:
 反臉無情	faan lim mou cing	
 梵鈴	faan ling	
 飯量	faan loeng	
+翻來	faan loi	
 返來	faan loi	
 翻來覆去	faan loi fuk heoi	
 煩勞	faan lou	
 番路	faan lou	
 番路鄉	faan lou hoeng	
-返老還童	faan lou syun tung	
 返老還童	faan lou waan tung	
 翻老賬	faan lou zoeng	
 反錄病毒	faan luk beng duk	
@@ -65154,7 +65034,7 @@ import_tables:
 翻倍	faan pui	
 翻盤	faan pun	
 飯盆	faan pun	
-翻嗮面	faan saai min	
+翻晒面	faan saai min	
 帆傘	faan saan	
 翻山越嶺	faan saan jyut leng	
 反散射	faan saan se	
@@ -65717,9 +65597,6 @@ import_tables:
 法蘭西皇帝	faat laan sai wong dai	
 法蘭斯	faat laan si	
 發爛渣	faat laan zaa	
-發爛笮	faat laan zaa	
-發爛苲	faat laan zaa	
-發爛苴	faat laan zaa	
 發冷	faat laang	
 髮蠟	faat laap	
 法例	faat lai	
@@ -65753,7 +65630,6 @@ import_tables:
 琺瑯	faat long	
 髮廊	faat long	
 發啷厲	faat long lai	
-發狼悷	faat long lai	
 發狼戾	faat long lai	
 琺琅質	faat long zat	
 琺瑯質	faat long zat	
@@ -65806,7 +65682,6 @@ import_tables:
 髮泥	faat nai	
 發嬲	faat nau	
 發你	faat nei	
-發牙痕	faat ng3aa han	
 發芽	faat ngaa	
 發牙痕	faat ngaa han	
 發喑話	faat ngam waa	
@@ -65979,6 +65854,7 @@ import_tables:
 廢除軍備	fai ceoi gwan bei	
 揮春	fai ceon	
 揮春紙	fai ceon zi	
+廢黜	fai ceot	
 廢弛	fai ci	
 徽幟	fai ci	
 肺刺激性毒劑	fai ci gik sing duk zai	
@@ -66141,6 +66017,7 @@ import_tables:
 費盡心機	fai zeon sam gei	
 費盡心思	fai zeon sam si	
 費盡唇舌	fai zeon seon sit	
+廢黜	fai zeot	
 廢止	fai zi	
 廢紙	fai zi	
 廢置	fai zi	
@@ -66275,7 +66152,7 @@ import_tables:
 分到餅仔	fan dou beng zai	
 訓導處	fan dou cyu	
 分道揚鑣	fan dou joeng biu	
-瞓到淰嗮	fan dou nam saai	
+瞓到淰晒	fan dou nam saai	
 訓導職務	fan dou zik mou	
 訓導主任	fan dou zyu jam	
 訓讀	fan duk	
@@ -66331,7 +66208,6 @@ import_tables:
 分隔	fan gaak	
 睏覺	fan gaau	
 瞓覺	fan gaau	
-訓覺	fan gaau	
 瞓覺喇	fan gaau laa	
 瞓覺啦你	fan gaau laa nei	
 瞓覺喇你	fan gaau laa nei	
@@ -66535,7 +66411,7 @@ import_tables:
 昏亂	fan lyun	
 紛亂	fan lyun	
 瞓唔到	fan m dou	
-瞓唔安食唔落	fan m on sik m1 lok	
+瞓唔安食唔落	fan m on sik m lok	
 瞓唔着	fan m zoek	
 瞓唔着覺	fan m zoek gaau	
 分米	fan mai	
@@ -66549,7 +66425,7 @@ import_tables:
 分文不取	fan man bat ceoi	
 分文不值	fan man bat zik	
 訓民正音	fan man zing jam	
-瞓乜頸	fan me geng	
+瞓歪頸	fan me geng	
 分娩	fan min	
 奮勉	fan min	
 粉麪	fan min	
@@ -66822,9 +66698,8 @@ import_tables:
 忽忽	fat fat	
 狒狒	fat fat	
 魆魆	fat fat	
-弗弗哋	fat fat dei	
 弗弗地	fat fat dei	
-忽忽哋	fat fat dei	
+忽忽地	fat fat dei	
 忽忽悠悠	fat fat jau jau	
 罰款	fat fun	
 罰俸	fat fung	
@@ -67629,7 +67504,7 @@ import_tables:
 揈頭丸	fing tau jyun	
 𢝵到漏油	fit dou lau jau	
 𢞵到漏油	fit dou lau jau	
-扉扉聲	fit fit seng	
+𢞵𢞵聲	fit fit seng	
 灰士	fiu si	
 火把	fo baa	
 火把節	fo baa zit	
@@ -68119,7 +67994,6 @@ import_tables:
 霍華德	fok waa dak	
 霍州	fok zau	
 霍州市	fok zau si	
-慌死	fon sei	
 放白鴿	fong baak gaap	
 放白鴿	fong baak gap	
 方包	fong baau	
@@ -68265,7 +68139,6 @@ import_tables:
 放飛	fong fei	
 放飛機	fong fei gei	
 放飛劍	fong fei gim	
-放聲氣	fong feng hei	
 放火	fong fo	
 防火	fong fo	
 防火布	fong fo bou	
@@ -68335,7 +68208,7 @@ import_tables:
 防駭	fong haai	
 房客	fong haak	
 訪客	fong haak	
-防閑	fong haan	
+防閒	fong haan	
 仿傚	fong haau	
 仿效	fong haau	
 放喺	fong hai	
@@ -68473,9 +68346,9 @@ import_tables:
 放唔低	fong m dai	
 放唔落	fong m lok	
 放馬	fong maa	
-放馬過來	fong maa gwo lai	
 放馬過嚟	fong maa gwo lai	
 放馬過嚟	fong maa gwo lei	
+放馬過來	fong maa gwo loi	
 放馬後炮	fong maa hau paau	
 放慢	fong maan	
 放蚊	fong man	
@@ -68770,7 +68643,7 @@ import_tables:
 苦不唧兒	fu bat zik ji	
 拊髀	fu bei	
 褲髀	fu bei	
-副秘書長	fu bei syu zoeng	
+副祕書長	fu bei syu zoeng	
 副標題	fu biu tai	
 敷布	fu bou	
 富布賴特	fu bou laai dak	
@@ -69031,7 +68904,7 @@ import_tables:
 乶下	fu haa	
 虎蝦	fu haa	
 苦哈哈	fu haa haa	
-庫克群島	fu haak kwan dou	
+庫克羣島	fu haak kwan dou	
 呼喊	fu haam	
 賦閒	fu haan	
 赴考	fu haau	
@@ -69039,7 +68912,6 @@ import_tables:
 父系	fu hai	
 庫克	fu hak	
 庫克羣島	fu hak kwan dou	
-庫克群島	fu hak kwan dou	
 庫克山	fu hak saan	
 庫克船長	fu hak syun zoeng	
 俯瞰	fu ham	
@@ -69294,6 +69166,7 @@ import_tables:
 虎落平陽被犬欺	fu lok ping joeng bei hyun hei	
 虎狼	fu long	
 褲浪	fu long	
+褲𧚅	fu long	
 虎狼之年	fu long zi nin	
 俘虜	fu lou	
 呼嚕	fu lou	
@@ -69394,8 +69267,6 @@ import_tables:
 撫寧	fu ning	
 富寧縣	fu ning jyun	
 撫寧縣	fu ning jyun	
-褲囊	fu nong	
-褲𧚅	fu nong	
 褲𧟘	fu nong	
 苦惱	fu nou	
 富農	fu nung	
@@ -69639,7 +69510,6 @@ import_tables:
 付之一炬	fu zi jat geoi	
 付之一笑	fu zi jat siu	
 付之一嘆	fu zi jat taan	
-付之一歎	fu zi jat taan	
 呼之欲出	fu zi juk ceot	
 虎字頭	fu zi tau	
 呼之則來揮之則去	fu zi zak loi fai zi zak heoi	
@@ -69908,7 +69778,7 @@ import_tables:
 復出	fuk ceot	
 複詞	fuk ci	
 福清	fuk cing	
-福青幫	fuk cing	
+福青幫	fuk cing bong	
 福清市	fuk cing si	
 覆轍	fuk cit	
 複啅	fuk coek	
@@ -70627,7 +70497,6 @@ import_tables:
 楓紅	fung hung	
 豐胸	fung hung	
 封紅包	fung hung baau	
-逄凶化吉	fung hung faa gat	
 逢凶化吉	fung hung faa gat	
 奉勸	fung hyun	
 瘋犬	fung hyun	
@@ -70864,7 +70733,7 @@ import_tables:
 風水佬呃你十年八年	fung seoi lou ngak nei sap nin baat nin	
 風水佬呃你十年八年，唔呃得一世	fung seoi lou ngak nei sap nin baat nin m ngak dak jat sai	
 風水尾	fung seoi mei	
-風水生	fung seoi sang	
+風水生	fung seoi saang	
 風水師	fung seoi si	
 風水先生	fung seoi sin saang	
 豐順	fung seon	
@@ -71268,7 +71137,6 @@ import_tables:
 加價	gaa gaa	
 嘎嘎	gaa gaa	
 噶噶	gaa gaa	
-假假哋	gaa gaa dei	
 假假地	gaa gaa dei	
 假假地都係	gaa gaa dei dou hai	
 家家觀世音	gaa gaa gun sai jam	
@@ -71314,7 +71182,6 @@ import_tables:
 家居賣場	gaa geoi maai coeng	
 噶舉派	gaa geoi paai	
 家居環境	gaa geoi waan geng	
-家基冷	gaa gi laang	
 家己儂	gaa gi laang	
 家己冷	gaa gi laang	
 價鍵	gaa gin	
@@ -71562,7 +71429,7 @@ import_tables:
 伽馬	gaa maa	
 價碼	gaa maa	
 加碼	gaa maa	
-𠺢嘛	gaa maa	100.0
+𠺢嘛	gaa maa	1000.0
 伽馬輻射	gaa maa fuk se	
 噶瑪蘭	gaa maa laan	
 噶瑪蘭族	gaa maa laan zuk	
@@ -71959,7 +71826,6 @@ import_tables:
 解剖室	gaai fau sat	
 戒方	gaai fong	
 街坊	gaai fong	
-街坊look	gaai fong	
 街訪	gaai fong	
 解放	gaai fong	
 解放巴勒斯坦人民陣線	gaai fong baa lak si taan jan man zan sin	
@@ -72074,6 +71940,7 @@ import_tables:
 芥辣	gaai laat	
 佳麗	gaai lai	
 佳麗釀	gaai lai joeng	
+芥蘭菜	gaai lan coi	
 佳里	gaai lei	
 解理	gaai lei	
 解離	gaai lei	
@@ -72340,7 +72207,6 @@ import_tables:
 格林威治	gaak lam wai zi	
 格林威治標準時間	gaak lam wai zi biu zeon si gaan	
 格林威治村	gaak lam wai zi cyun	
-隔來	gaak lei	
 隔篱	gaak lei	
 隔籬	gaak lei	
 隔離	gaak lei	
@@ -72435,7 +72301,6 @@ import_tables:
 隔天	gaak tin	
 隔渣	gaak zaa	
 格仔	gaak zai	
-爬格仔	gaak zai	
 革製品	gaak zai ban	
 格仔餅	gaak zai beng	
 格仔裙	gaak zai kwan	
@@ -72485,13 +72350,13 @@ import_tables:
 監倉	gaam cong	
 減噪	gaam cou	
 監粗	gaam cou	
-監粗來	gaam cou lai	
 監粗嚟	gaam cou lai	
 監粗嚟吖	gaam cou lai aa	
 監粗嚟啊	gaam cou lai aa	
 監粗嚟	gaam cou lei	
 監粗嚟吖	gaam cou lei aa	
 監粗嚟啊	gaam cou lei aa	
+監粗來	gaam cou loi	
 減速	gaam cuk	
 減速器	gaam cuk hei	
 減低	gaam dai	
@@ -72907,7 +72772,6 @@ import_tables:
 夾當兒	gaap dong ji	
 夾道	gaap dou	
 夾道歡迎	gaap dou fun jing	
-㪉份	gaap fan	
 佮份	gaap fan	
 合份	gaap fan	
 夾份	gaap fan	
@@ -73423,7 +73287,6 @@ import_tables:
 皎厲	gaau lai	
 搞撚錯	gaau lan co	
 攪撚錯	gaau lan co	
-芥蘭菜	gaau lan co	
 膠粒	gaau lap	0%
 交流	gaau lau	
 交流電	gaau lau din	
@@ -73457,7 +73320,6 @@ import_tables:
 教民	gaau man	
 搞乜	gaau mat	
 搞乜春呀	gaau mat ceon aa	
-攪乜春呀	gaau mat ceon aa	
 搞乜鬼	gaau mat gwai	
 搞乜鬼呀	gaau mat gwai aa	
 搞乜鬼啊	gaau mat gwai aa	
@@ -73510,7 +73372,6 @@ import_tables:
 攪盤電話	gaau pun din waa	
 搞三搞四	gaau saam gaau sei	
 攪三攪四	gaau saam gaau sei	
-攪生嗮	gaau saang saai	
 攪生晒	gaau saang saai	
 絞殺	gaau saat	
 滘西洲	gaau sai zau	
@@ -73550,7 +73411,6 @@ import_tables:
 教識徒弟冇師父	gaau sik tou dai mou si fu	
 校綫	gaau sin	
 交城	gaau sing	
-搞成咁	gaau sing gam	
 攪成噉	gaau sing gam	
 交城縣	gaau sing jyun	
 交涉	gaau sip	
@@ -73733,7 +73593,6 @@ import_tables:
 交足功課	gaau zuk gung fo	
 教宗	gaau zung	
 校鐘	gaau zung	
-較鐘	gaau zung	
 攪珠	gaau zyu	
 教主	gaau zyu	
 較著	gaau zyu	
@@ -73940,7 +73799,7 @@ import_tables:
 雞婆	gai po	
 雞泡魚	gai pou jyu	
 繼配	gai pui	
-計嗮	gai saai	
+計晒	gai saai	
 雞西	gai sai	
 雞西市	gai sai si	
 雞心	gai sam	
@@ -73955,11 +73814,9 @@ import_tables:
 繼室	gai sat	
 雞手鴨腳	gai sau aap goek	
 鷄手鴨腳	gai sau aap goek	
-雞嗉	gai seoi	
 雞歲	gai seoi	
 雞碎	gai seoi	
 雞膆	gai seoi	
-雞嗉咁多	gai seoi gam do	
 雞碎咁多	gai seoi gam do	
 繼述	gai seot	
 計時	gai si	
@@ -74114,7 +73971,7 @@ import_tables:
 咁遲	gam ci	
 金翅	gam ci	
 金翅噪鶥	gam ci cou mei	
-咁遲先來	gam ci sin lai	
+咁遲先嚟	gam ci sin lai	
 咁遲先嚟	gam ci sin lei	
 金翅雀	gam ci zoek	
 㩒錢	gam cin	
@@ -74225,7 +74082,6 @@ import_tables:
 甘苦	gam fu	
 金庫	gam fu	
 金富軾	gam fu sik	
-咁款	gam fun	
 噉款	gam fun	
 金峯	gam fung	
 金風	gam fung	
@@ -74240,7 +74096,7 @@ import_tables:
 噉解	gam gaai	
 禁戒	gam gaai	
 噉搞	gam gaau	
-咁搞法	gam gaau faat	
+噉搞法	gam gaau faat	
 金雞	gam gai	
 錦雞	gam gai	
 金雞獨立	gam gai duk laap	
@@ -74252,7 +74108,6 @@ import_tables:
 柑咁大個鼻	gam gam daai go bei	
 柑桔	gam gat	
 噉嘅	gam ge	
-咁嘅嘢	gam ge je	
 噉嘅嘢	gam ge je	
 㩒機	gam gei	
 撳機	gam gei	
@@ -74277,7 +74132,6 @@ import_tables:
 金角灣	gam gok waan	
 金閣寺	gam gok zi	
 咁趕	gam gon	
-咁講	gam gong	
 噉講	gam gong	
 贛江	gam gong	
 金剛	gam gong	
@@ -74388,7 +74242,6 @@ import_tables:
 噉又得	gam jau dak	
 噉又點	gam jau dim	
 噉又點啊	gam jau dim aa	
-咁又係	gam jau hai	
 噉又係	gam jau hai	
 噉又唔係	gam jau m hai	
 噉又唔係噃	gam jau m hai bo	
@@ -74429,7 +74282,7 @@ import_tables:
 禁藥	gam joek	
 噤若寒蟬	gam joek hon sim	
 噤若寒蟬	gam joek hon sin	
-噉樣	gam joeng	1000.0
+噉樣	gam joeng	10000.0
 金陽	gam joeng	
 噉樣嘅	gam joeng ge	
 噉樣樣	gam joeng joeng	
@@ -74599,7 +74452,6 @@ import_tables:
 金額雀鶥	gam ngaak zoek mei	
 咁啱	gam ngaam	
 咁啱得咁巧	gam ngaam dak gam kiu	
-咁啱得咁橋	gam ngaam dak gam kiu	
 咁啱得咁蹺	gam ngaam dak gam kiu	
 咁啱嘅	gam ngaam ge	
 咁啱線	gam ngaam sin	
@@ -74768,12 +74620,10 @@ import_tables:
 感嘆	gam taan	
 感歎	gam taan	
 金壇	gam taan	
-感嘆詞	gam taan ci	
 感歎詞	gam taan ci	
-感嘆句	gam taan geoi	
-感嘆號	gam taan hou	
+感歎句	gam taan geoi	
 感歎號	gam taan hou	
-感嘆語	gam taan jyu	
+感歎語	gam taan jyu	
 金壇市	gam taan si	
 金䍇	gam taap	
 金塔	gam taap	
@@ -74812,7 +74662,7 @@ import_tables:
 金華地區	gam waa dei keoi	
 金華火腿	gam waa fo teoi	
 金華市	gam waa si	
-咁話喎	gam waa wo	
+噉話喎	gam waa wo	
 感懷	gam waai	
 金灣	gam waan	
 金灣區	gam waan keoi	
@@ -74859,7 +74709,6 @@ import_tables:
 金執	gam zap	
 感質	gam zat	
 今周	gam zau	
-咁就	gam zau	
 噉就	gam zau	
 甘州	gam zau	
 禁酒	gam zau	
@@ -74947,9 +74796,7 @@ import_tables:
 咁鍾意	gam zung ji	
 金主	gam zyu	
 金豬	gam zyu	
-撳住來搶	gam zyu lai coeng	
 撳住嚟搶	gam zyu lai coeng	
-撳住來搶	gam zyu lei coeng	
 撳住嚟搶	gam zyu lei coeng	
 㩒住頭	gam zyu tau	
 撳住頭	gam zyu tau	
@@ -75110,7 +74957,6 @@ import_tables:
 近期	gan kei	
 近頃	gan king	
 緊箍咒	gan ku zau	
-近來	gan lai	
 近嚟	gan lai	
 近嚟	gan lei	
 緊鄰	gan leon	
@@ -75196,7 +75042,7 @@ import_tables:
 跟注	gan zyu	
 近住	gan zyu	
 近朱近墨	gan zyu gan mak	
-跟住落來	gan zyu lok lai	
+跟住落嚟	gan zyu lok lai	
 跟住落嚟	gan zyu lok lei	
 近朱者赤，近墨者黑	gan zyu ze cek gan mak ze haak	
 近朱者赤，近墨者黑	gan zyu ze cek gan mak ze hak	
@@ -75930,7 +75776,6 @@ import_tables:
 狗噏	gau ngap	
 鳩噏	gau ngap	
 鳩噏當祕笈	gau ngap dong bei kap	
-鳩噏當秘笈	gau ngap dong bei kap	
 九牛一毛	gau ngau jat mou	
 九牛二虎之力	gau ngau ji fu zi lik	
 狗年	gau nin	
@@ -76006,8 +75851,6 @@ import_tables:
 夠時候咯	gau si hau lok	
 狗屎垃圾	gau si laap saap	
 狗屎垃雜	gau si laap zaap	
-狗屎拉雜	gau si laap zaap	
-狗屎立雜	gau si laap zaap	
 狗屎佬	gau si lou	
 狗屎運	gau si wan	
 舊式	gau sik	
@@ -76026,7 +75869,7 @@ import_tables:
 救傷車	gau soeng ce	
 救傷隊	gau soeng deoi	
 舊相好	gau soeng hou	
-狗上瓦坑	gau soeng ng3aa haang	
+狗上瓦坑	gau soeng ngaa haang	
 夠數	gau sou	
 救贖	gau suk	
 鳩縮	gau suk	
@@ -76678,7 +76521,7 @@ import_tables:
 紀念章	gei nim zoeng	
 幾年	gei nin	
 紀年	gei nin	
-幾年來	gei nin lai	
+幾年嚟	gei nin lai	
 幾年來	gei nin loi	
 基奈	gei noi	
 幾耐	gei noi	
@@ -76756,7 +76599,7 @@ import_tables:
 記事本	gei si bun	
 記事冊	gei si caak	
 幾時出	gei si ceot	
-幾時得閑	gei si dak haan	
+幾時得閒	gei si dak haan	
 幾時得嚟	gei si dak lai	
 幾時得嚟	gei si dak lei	
 既視感	gei si gam	
@@ -76877,7 +76720,6 @@ import_tables:
 記傳	gei zyun	
 紀傳體	gei zyun tai	
 吃口吃舌	gek hau gek sit	
-驚死	gen sei	
 頸部	geng bou	
 頸背	geng bui	
 驚青	geng ceng	
@@ -76897,7 +76739,7 @@ import_tables:
 鏡架	geng gaa	
 頸巾	geng gan	
 頸梗	geng gang	
-驚驚哋	geng geng dei	
+驚驚地	geng geng dei	
 景轟	geng gwang	
 頸骨	geng gwat	
 驚嚇	geng haak	
@@ -77203,7 +77045,6 @@ import_tables:
 鋸子	geoi zi	
 舉薦	geoi zin	
 居正	geoi zing	
-舉証	geoi zing	
 舉證	geoi zing	
 巨爵座	geoi zoek zo	
 巨像	geoi zoeng	
@@ -77645,7 +77486,6 @@ import_tables:
 見高就拜見低就踩	gin gou zau baai gin dai zau caai	
 堅固	gin gu	
 堅固性	gin gu sing	
-見䠩	gin gui	
 見攰	gin gui	
 見癐	gin gui	
 建功	gin gung	
@@ -78279,11 +78119,8 @@ import_tables:
 景泰縣	ging taai jyun	
 景泰藍	ging taai laam	
 警探	ging taam	
-驚嘆	ging taan	
 驚歎	ging taan	
-驚嘆不已	ging taan bat ji	
 驚歎不已	ging taan bat ji	
-驚嘆號	ging taan hou	
 驚歎號	ging taan hou	
 勁頭	ging tau	
 競投	ging tau	
@@ -78669,7 +78506,6 @@ import_tables:
 撬墻腳	giu coeng goek	
 撬牆腳	giu coeng goek	
 撬長腳	giu coeng goek	
-叫床	giu cong	
 叫牀	giu cong	
 叫牀聲	giu cong seng	
 嬌寵	giu cung	
@@ -78862,7 +78698,7 @@ import_tables:
 嗰句話	go geoi waa	
 個個	go go	
 哥哥	go go	
-嗰個	go go	1000.0
+嗰個	go go	10000.0
 嗰個係	go go hai	
 嗰個嘢	go go je	
 哥哥仔	go go zai	
@@ -78911,7 +78747,6 @@ import_tables:
 哥倫布紀	go leon bou gei	
 個囉	go lo	
 旮旯	go lo	
-哥羅仿	go lo foeng	
 哥羅仿	go lo fong	
 哥羅芳	go lo fong	
 旮旯兒	go lo ji	
@@ -78985,9 +78820,9 @@ import_tables:
 嗰朕𡃴	go zam ceoi	
 個陣	go zan	
 嗰陣	go zan	
-嗰陣	go zan	100.0
+嗰陣	go zan	1000.0
 嗰陣時	go zan si	
-嗰隻	go zek	1000.0
+嗰隻	go zek	10000.0
 嗰隻蟹	go zek haai	
 嗰隻嘢	go zek je	
 嗰隻衰嘢	go zek seoi je	
@@ -79207,7 +79042,6 @@ import_tables:
 改邪歸正	goi ce gwai zeng	
 改邪歸正	goi ce gwai zing	
 蓋茨	goi ci	
-蓋茲	goi ci	
 蓋茨比	goi ci bei	
 改簽	goi cim	
 改稱	goi cing	
@@ -79593,6 +79427,7 @@ import_tables:
 乾嚎	gon hou	
 乾號	gon hou	
 干邑	gon jap	
+趕入窮巷	gon jap kung hong	
 干邑酒	gon jap zau	
 干休	gon jau	
 乾兒	gon ji	
@@ -79657,7 +79492,7 @@ import_tables:
 肝腦塗地	gon nou tou dei	
 趕跑	gon paau	
 幹啥	gon saa	
-乾嗮塘	gon saai tong	
+乾晒塘	gon saai tong	
 乾洗	gon sai	
 幹細胞	gon sai baau	
 乾洗店	gon sai dim	
@@ -79759,7 +79594,6 @@ import_tables:
 剛察	gong caat	
 剛察縣	gong caat jyun	
 降塵	gong can	
-講出來	gong ceot lai	
 講出嚟	gong ceot lai	
 講出嚟	gong ceot lei	
 講辭	gong ci	
@@ -79908,12 +79742,10 @@ import_tables:
 岡下肌	gong haa gei	
 江夏區	gong haa keoi	
 講下笑	gong haa siu	
-講吓笑	gong haa siu	
 講下笑啫	gong haa siu ze	
 江夏黃	gong haa wong	
 江夏站	gong haa zaam	
 港客	gong haak	
-講閑話	gong haan waa	
 講閒話	gong haan waa	
 剛巧	gong haau	
 江口	gong hau	
@@ -79924,7 +79756,7 @@ import_tables:
 講口唔講手	gong hau m gong sau	
 港口城市	gong hau sing si	
 講起又講	gong hei jau gong	
-講起上來	gong hei soeng lai	
+講起上嚟	gong hei soeng lai	
 講起上嚟	gong hei soeng lei	
 江河	gong ho	
 江河日下	gong ho jat haa	
@@ -79961,7 +79793,6 @@ import_tables:
 剛柔相濟	gong jau soeng zai	
 講嘢	gong je	
 講嘢呀	gong je aa	
-講嘢呀	gong je ah	
 講嘢鬼食泥噉	gong je gwai sik nai gam	
 講嘢好乸型	gong je hou naa jing	
 講嘢有骨	gong je jau gwat	
@@ -79999,9 +79830,8 @@ import_tables:
 鋼纜	gong laam	
 講爛口	gong laan hau	
 講嚟	gong lai	
-講嚟講去三幅被	gong lai gong heoi saam fuk bei	
-講來講去三幅被	gong lai gong heoi saam fuk pei	
-講來聽下	gong lai teng haa	
+講嚟講去三幅被	gong lai gong heoi saam fuk pei	
+講嚟聽下	gong lai teng haa	
 降臨	gong lam	
 降臨節	gong lam zit	
 崗樓	gong lau	
@@ -80011,7 +79841,7 @@ import_tables:
 講理	gong lei	
 講嚟講去三幅被	gong lei gong heoi saam fuk pei	
 講嚟聽下	gong lei teng haa	
-講來話長	gong lei waa coeng	
+講嚟話長	gong lei waa coeng	
 江輪	gong leon	
 講論	gong leon	
 槓鈴	gong ling	
@@ -80105,7 +79935,7 @@ import_tables:
 岡山縣	gong saan jyun	
 江山市	gong saan si	
 岡山鎮	gong saan zan	
-講生嗮	gong saang saai	
+講生晒	gong saang saai	
 崗哨	gong saau	
 江西	gong sai	
 降世	gong sai	
@@ -80143,7 +79973,7 @@ import_tables:
 江城哈尼族彞族自治縣	gong sing haa nei zuk ji zuk zi zi jyun	
 江城縣	gong sing jyun	
 江城區	gong sing keoi	
-講笑	gong siu	1000.0
+講笑	gong siu	10000.0
 講笑搵第樣	gong siu wan dai joeng	
 岡上肌	gong soeng gei	
 槓上開花	gong soeng hoi faa	
@@ -80569,7 +80399,6 @@ import_tables:
 告語	gou jyu	
 告諭	gou jyu	
 高於	gou jyu	
-睪丸	gou jyun	
 睾丸	gou jyun	
 高原	gou jyun	
 高縣	gou jyun	
@@ -80887,9 +80716,9 @@ import_tables:
 孤單單	gu daan daan	
 故第	gu dai	
 顧得優鞋又甩髻	gu dak jau haai jau lat gai	
-顧得頭來腳反筋	gu dak tau lai goek faan gan	
 顧得頭嚟腳反筋	gu dak tau lai goek faan gan	
 顧得頭嚟腳反筋	gu dak tau lei goek faan gan	
+顧得頭來腳反筋	gu dak tau loi goek faan gan	
 古登堡	gu dang bou	
 姑爹	gu de	
 故地	gu dei	
@@ -81020,7 +80849,6 @@ import_tables:
 古國	gu gwok	
 故國	gu gwok	
 估下	gu haa	
-估吓	gu haa	
 賈客	gu haak	
 顧客	gu haak	
 顧客羣	gu haak kwan	
@@ -81330,7 +81158,6 @@ import_tables:
 古惑	gu waak	
 蠱惑	gu waak	
 蠱惑人心	gu waak jan sam	
-盅惑友	gu waak jau	
 蠱惑友	gu waak jau	
 古惑女	gu waak neoi	
 古惑仔	gu waak zai	
@@ -81422,7 +81249,7 @@ import_tables:
 癐拉拉	gui laai laai	
 癐癩癩	gui laai laai	
 癐賴賴	gui laai laai	
-癐嗮	gui saai	
+癐晒	gui saai	
 焗餅	guk beng	
 谷壁	guk bik	
 局部	guk bou	
@@ -81862,7 +81689,7 @@ import_tables:
 貫注	gun zyu	
 館主	gun zyu	
 冠絕	gun zyut	
-冠絕群倫	gun zyut kwan leon	
+冠絕羣倫	gun zyut kwan leon	
 共軛	gung aak	
 共軛不盡根	gung aak bat zeon gan	
 共軛複數	gung aak fuk sou	
@@ -82348,7 +82175,7 @@ import_tables:
 公立	gung laap	
 公立學校	gung laap hok haau	
 公立醫院	gung laap ji jyun	
-貢來貢去	gung lai gung heoi	
+貢嚟貢去	gung lai gung heoi	
 芎林	gung lam	
 芎林鄉	gung lam hoeng	
 公立	gung lap	
@@ -82690,12 +82517,10 @@ import_tables:
 弓箭手	gung zin sau	
 工展會	gung zin wui	
 公正	gung zing	
-公証	gung zing	
 公證	gung zing	
 工整	gung zing	
 公正不阿	gung zing bat o	
 公證處	gung zing cyu	
-公証行	gung zing hong	
 公證行	gung zing hong	
 公證人	gung zing jan	
 共焦	gung ziu	
@@ -82930,8 +82755,8 @@ import_tables:
 拐角	gwaai gok	
 乖乖	gwaai gwaai	
 怪怪	gwaai gwaai	
-乖乖哋	gwaai gwaai dei	
-怪怪哋	gwaai gwaai dei	
+乖乖地	gwaai gwaai dei	
+怪怪地	gwaai gwaai dei	
 乖乖女	gwaai gwaai neoi	
 乖乖仔	gwaai gwaai zai	
 拐棍	gwaai gwan	
@@ -83001,8 +82826,7 @@ import_tables:
 怪哉	gwaai zoi	
 乖豬	gwaai zyu	
 摑一巴掌	gwaak jat baa zoeng	
-一吓	gwaak jat haa	
-框吓	gwaak jat haa	
+摑一下	gwaak jat haa	
 摑耳光	gwaak ji gwong	
 關隘	gwaan aai	
 關押	gwaan aap	
@@ -83208,7 +83032,6 @@ import_tables:
 貴賓犬	gwai ban hyun	
 貴賓室	gwai ban sat	
 詭祕	gwai bei	
-詭秘	gwai bei	
 詭辯	gwai bin	
 詭辯家	gwai bin gaa	
 詭辯術	gwai bin seot	
@@ -83298,7 +83121,6 @@ import_tables:
 閨房	gwai fong	
 季父	gwai fu	
 歸附	gwai fu	
-虧負	gwai fu	
 貴婦	gwai fu	
 貴府	gwai fu	
 龜趺	gwai fu	
@@ -83360,7 +83182,7 @@ import_tables:
 貴公司	gwai gung si	
 鬼怪	gwai gwaai	
 鬼摑後䪴	gwai gwaak hau zam	
-鬼鬼哋	gwai gwai dei	
+鬼鬼地	gwai gwai dei	
 鬼鬼馬馬	gwai gwai maa maa	
 鬼鬼祟祟	gwai gwai seoi seoi	
 鬼鬼祟祟	gwai gwai syu syu	
@@ -83432,7 +83254,6 @@ import_tables:
 桂圓	gwai jyun	
 櫃員	gwai jyun	
 櫃員機	gwai jyun gei	
-桂圓肉	gwai jyun jok	
 桂圓肉	gwai jyun juk	
 貴遠賤近	gwai jyun zin gan	
 鬼月	gwai jyut	
@@ -83516,7 +83337,6 @@ import_tables:
 貴南縣	gwai naam jyun	
 歸納	gwai naap	
 歸納法	gwai naap faat	
-歸納論証	gwai naap leon zing	
 歸納論證	gwai naap leon zing	
 歸納推理	gwai naap teoi lei	
 閨女	gwai neoi	
@@ -83716,6 +83536,7 @@ import_tables:
 滾犢子	gwan duk zi	
 滾動	gwan dung	
 滾動條	gwan dung tiu	
+滾花	gwan faa	
 軍法	gwan faat	
 軍法官	gwan faat gun	
 軍法審判	gwan faat sam pun	
@@ -83742,7 +83563,6 @@ import_tables:
 滾搞	gwan gaau	
 滾攪	gwan gaau	
 滾搞晒	gwan gaau saai	
-滾攪嗮	gwan gaau saai	
 滾攪晒	gwan gaau saai	
 軍機	gwan gei	
 軍紀	gwan gei	
@@ -84143,7 +83963,6 @@ import_tables:
 骨節	gwat zit	
 倔住晒	gwat zyu saai	
 呱呱	gwek gwek	
-櫃桶	gwiaa tung	
 隙縫	gwik fung	
 闃然	gwik jin	
 闃然無聲	gwik jin mou sing	
@@ -84254,7 +84073,7 @@ import_tables:
 過過癮	gwo gwo jan	
 果戈里	gwo gwo lei	
 過下	gwo haa	
-過吓癮	gwo haa jan	
+過下癮	gwo haa jan	
 過客	gwo haak	
 果餡餅	gwo haam beng	
 過後	gwo hau	
@@ -84322,7 +84141,6 @@ import_tables:
 果欄	gwo laan	
 戈蘭高地	gwo laan gou dei	
 過冷河	gwo laang ho	
-過來	gwo lai	
 過嚟	gwo lai	
 過禮	gwo lai	
 顆粒	gwo lap	0%
@@ -84385,7 +84203,7 @@ import_tables:
 過三爆四	gwo saam baau sei	
 過三關	gwo saam gwaan	
 過山車	gwo saan ce	
-過山峰	gwo saan fung	
+過山峯	gwo saan fung	
 過山風	gwo saan fung	
 過山香	gwo saan hoeng	
 過山烏	gwo saan wu	
@@ -84478,9 +84296,6 @@ import_tables:
 裹足不前	gwo zuk bat cin	
 過鐘	gwo zung	
 過主	gwo zyu	
-光鮮	gwoeng sin	
-光頭佬	gwoeng tau lou	
-光頭仔	gwoeng tau zai	
 國賓	gwok ban	
 國賓館	gwok ban gun	
 國柄	gwok beng	
@@ -84945,9 +84760,7 @@ import_tables:
 廣播節目	gwong bo zit muk	
 廣博	gwong bok	
 光膀子	gwong bong zi	
-狂煲	gwong bou	
 光背地鶇	gwong bui dei dung	
-狂踩	gwong caai	
 光劖劖	gwong caam caam	
 光振振	gwong caang caang	
 光棖棖	gwong caang caang	
@@ -84986,7 +84799,6 @@ import_tables:
 廣大	gwong daai	
 廣德	gwong dak	
 廣德縣	gwong dak jyun	
-狂掟	gwong deng	
 光電	gwong din	
 廣電	gwong din	
 光電池	gwong din ci	
@@ -85140,7 +84952,6 @@ import_tables:
 光鹵石	gwong lou sek	
 光祿大夫	gwong luk daai fu	
 光祿勳	gwong luk fan	
-光劣出	gwong lyut cyut	
 光捋出	gwong lyut cyut	
 光捋捋	gwong lyut lyut	
 光捋脫	gwong lyut tyut	
@@ -85202,7 +85013,6 @@ import_tables:
 廣水市	gwong seoi si	
 光信號	gwong seon hou	
 光是	gwong si	
-狂食	gwong sik	
 光線	gwong sin	
 光鮮	gwong sin	
 光說不練	gwong syut bat lin	
@@ -85798,10 +85608,7 @@ import_tables:
 下扒	haa paa	
 下爬	haa paa	
 下巴輕輕	haa paa heng heng	
-下巴輕輕土	haa paa heng heng	
 下扒輕輕	haa paa heng heng	
-下爬輕輕	haa paa heng heng	
-下扒輕輕	haa paa hing hing	
 下巴頦	haa paa hoi	
 哈珀	haa paak	
 哈棒	haa paang	
@@ -85969,7 +85776,7 @@ import_tables:
 蟹膏	haai gou	
 骸骨	haai gwat	
 嚡過沙紙	haai gwo saa zi	
-嚡嚡哋	haai haai dei	
+嚡嚡地	haai haai dei	
 嚡嚡聲	haai haai seng	
 駭客	haai haak	
 械繫	haai hai	
@@ -86229,7 +86036,6 @@ import_tables:
 黑墨墨	haak mak mak	
 黑墨屎	haak mak si	
 黑擝擝	haak mang mang	
-黑盟盟	haak mang mang	
 黑鼆鼆	haak mang mang	
 黑瞇掹	haak mi mang	
 黑瞇擝	haak mi mang	
@@ -86397,7 +86203,6 @@ import_tables:
 鹹蝦	haam haa	
 鹹蝦燦	haam haa caan	
 鹹鹹臭臭	haam haam cau cau	
-鹹鹹哋	haam haam dei	
 鹹鹹地	haam haam dei	
 喊喊口	haam haam hau	
 陷坑	haam haang	
@@ -86523,7 +86328,6 @@ import_tables:
 閒扯	haan ce	
 慳錢	haan cin	
 閒錢	haan cin	
-閑情逸致	haan cing jat zi	
 閒情逸緻	haan cing jat zi	
 閒情逸致	haan cing jat zi	
 限速	haan cuk	
@@ -86539,7 +86343,7 @@ import_tables:
 限定詞	haan ding ci	
 閒蕩	haan dong	
 限度	haan dou	
-閑花	haan faa	
+閒花	haan faa	
 慳翻	haan faan	
 慳返	haan faan	
 慳番啖氣	haan faan daam hei	
@@ -86552,95 +86356,75 @@ import_tables:
 限界	haan gaai	
 限界線	haan gaai sin	
 慳雞	haan gai	
-閑偈	haan gai	
 閒偈	haan gai	
 閒計	haan gai	
-閑居	haan geoi	
 閒居	haan geoi	
 慳儉	haan gim	
 慳鬼	haan gwai	
 閒過立秋	haan gwo lap cau	
-閑暇	haan haa	
 閒暇	haan haa	
-閑閑哋	haan haan dei	
-閑閑地	haan haan dei	
-閒閒哋	haan haan dei	
 閒閒地	haan haan dei	
 慳慳地喇	haan haan dei laa	
 閒口	haan hau	
-閑侃	haan hon	
+閒侃	haan hon	
 閒空	haan hung	
-閑人	haan jan	
 閒人	haan jan	
 閒人免進	haan jan min zeon	
-閑日	haan jat	
-閑逸	haan jat	
 閒日	haan jat	
+閒逸	haan jat	
 慳油	haan jau	
 閒遊	haan jau	
 閒嘢	haan je	
 閒言閒語	haan jin haan jyu	
-閑言碎語	haan jin seoi jyu	
 閒言碎語	haan jin seoi jyu	
-閑冗	haan jung	
+閒冗	haan jung	
 限於	haan jyu	
 限期	haan kei	
-閑逛	haan kwaang	
 閒逛	haan kwaang	
 慳吝	haan leon	
 慳力	haan lik	
 限令	haan ling	
-閑聊	haan liu	
 閒聊	haan liu	
-閑聊天	haan liu tin	
+閒聊天	haan liu tin	
 限量	haan loeng	
 限量版	haan loeng baan	
 閒來無事	haan loi mou si	
-閑雅	haan ngaa	
+閒雅	haan ngaa	
 限額	haan ngaak	
 慳皮	haan pei	
-閑散	haan saan	
 閒散	haan saan	
-閑心	haan sam	
 閒心	haan sam	
 慳溼	haan sap	
 慳水	haan seoi	
 慳稅	haan seoi	
 慳水慳力	haan seoi haan lik	
 慳水又慳力	haan seoi jau haan lik	
-閑事	haan si	
-閑時	haan si	
 閒事	haan si	
 閒時	haan si	
 限時	haan si	
 慳時間	haan si gaan	
 限時限刻	haan si haan hak	
 限時信	haan si seon	
-閑適	haan sik	
 閒適	haan sik	
 嫺淑	haan suk	
 嫺熟	haan suk	
 閒書	haan syu	
-閑談	haan taam	
 閒談	haan taam	
-閑話	haan waa	
 閒話	haan waa	
-閑話家常	haan waa gaa soeng	
 閒話家常	haan waa gaa soeng	
 慳位	haan wai	
 閒混	haan wan	
-閑雜	haan zaap	
 閒雜	haan zaap	
 限制	haan zai	
 限制酶	haan zai mui	
 限制酶圖譜	haan zai mui tou pou	
 閒置	haan zi	
-閑職	haan zik	
+閒職	haan zik	
 嫺靜	haan zing	
-閑靜	haan zing	
-閑坐	haan zo	
-閑章	haan zoeng	
-閑在	haan zoi	
+閒靜	haan zing	
+閒坐	haan zo	
+閒章	haan zoeng	
+閒在	haan zoi	
 限載人數	haan zoi jan sou	
 行不通	haang bat tung	
 行咇	haang bit	
@@ -86652,7 +86436,7 @@ import_tables:
 行青	haang ceng	
 行出行入	haang ceot haang jap	
 行出去	haang ceot heoi	
-行出來	haang ceot lai	
+行出嚟	haang ceot lai	
 行出嚟	haang ceot lei	
 行千里路，讀萬卷書	haang cin lei lou duk maan gyun syu	
 行青	haang cing	
@@ -86700,12 +86484,11 @@ import_tables:
 行公司	haang gung si	
 行逛	haang gwaang	
 行過	haang gwo	
-行過來	haang gwo lai	
+行過嚟	haang gwo lai	
 行過嚟	haang gwo lei	
 行過籠	haang gwo lung	
 行過龍	haang gwo lung	
 行下	haang haa	
-行吓	haang haa	
 行下公司	haang haa gung si	
 行行企企	haang haang kei kei	
 行行企企食飯幾味	haang haang kei kei sik faan gei mei	
@@ -86724,7 +86507,7 @@ import_tables:
 行人道	haang jan dou	
 行人路	haang jan lou	
 行入去	haang jap heoi	
-行入來	haang jap lai	
+行入嚟	haang jap lai	
 行入嚟	haang jap lei	
 行一步睇一步	haang jat bou tai jat bou	
 行遠必自邇	haang jyun bit zi ji	
@@ -86736,7 +86519,6 @@ import_tables:
 坑渠水	haang keoi seoi	
 行喇	haang laa	
 行禮	haang lai	
-行來行去	haang lai haang heoi	
 行嚟行去	haang lai haang heoi	
 行撚開	haang lan hoi	
 行嚟行去	haang lei haang heoi	
@@ -86754,7 +86536,7 @@ import_tables:
 行唔埋	haang m maai	
 行唔通	haang m tung	
 行埋	haang maai	
-行埋來	haang maai lai	
+行埋嚟	haang maai lai	
 行埋嚟	haang maai lei	
 行萬里路	haang maan lei lou	
 行萬里路，讀萬卷書	haang maan lei lou duk maan gyun syu	
@@ -87115,8 +86897,7 @@ import_tables:
 喺啲	hai di	
 係點	hai dim	
 係都	hai dou	
-喺度	hai dou	1000.0
-喺道	hai dou	
+喺度	hai dou	10000.0
 喺度食	hai dou sik	
 係咁	hai gam	
 係噉	hai gam	
@@ -87124,7 +86905,6 @@ import_tables:
 係噉㗎啦	hai gam gaa laa	
 係噉㗎喇	hai gam gaa laa	
 係噉嘅	hai gam ge	
-係咁意	hai gam ji	
 係噉意	hai gam ji	
 係噉先	hai gam sin	
 㞓鳩撚屌呀	hai gau lan diu aa	
@@ -87201,10 +86981,8 @@ import_tables:
 係你先至好講啊	hai nei sin zi hou gong aa	
 係我	hai ngo	
 繫念	hai nim	
-㞓嗮	hai saai	
 㞓晒	hai saai	
-喺嗮	hai saai	
-閪嗮	hai saai	
+喺晒	hai saai	
 閪晒	hai saai	
 㞓聲	hai seng	
 閪聲	hai seng	
@@ -87765,7 +87543,6 @@ import_tables:
 冚家剷	ham gaa caan	
 冚家富貴	ham gaa caan	
 冚家鏟	ham gaa caan	
-咸家鏟	ham gaa caan	
 冚家祥	ham gaa coeng	
 冚家富貴	ham gaa fu gwai	
 冚家伶	ham gaa ling	
@@ -87783,9 +87560,6 @@ import_tables:
 坎坎	ham ham	
 冚冚聲	ham ham seng	
 含含聲	ham ham seng	
-唅唅聲	ham ham seng	
-坎坎聲	ham ham seng	
-煔煔聲	ham ham seng	
 含含糊糊	ham ham wu wu	
 含恨	ham han	
 憾恨	ham han	
@@ -87948,7 +87722,7 @@ import_tables:
 很高興認識你	han gou hing jing sik nei	
 狠過	han gwo	
 狠狠	han han	
-痕痕哋	han han dei	
+痕痕地	han han dei	
 肯肯舞	han han mou	
 恨海難填	han hoi naan tin	
 很害怕	han hoi paa	
@@ -88201,7 +87975,6 @@ import_tables:
 衡平	hang ping	
 杏脯	hang pou	
 肯普索恩	hang pou sok jan	
-衡嗮	hang saai	
 衡晒	hang saai	
 恆山	hang saan	
 衡山	hang saan	
@@ -88455,7 +88228,6 @@ import_tables:
 洽購	hap kau	
 合規	hap kwai	
 合羣	hap kwan	
-合群	hap kwan	
 合流	hap lau	
 合理	hap lei	
 合理化	hap lei faa	
@@ -88488,7 +88260,7 @@ import_tables:
 合浦	hap pou	
 合浦縣	hap pou jyun	
 磕碰	hap pung	
-合嗮合尺	hap saai ho ce	
+合晒合尺	hap saai ho ce	
 合山	hap saan	
 合山市	hap saan si	
 恰西	hap sai	
@@ -89065,7 +88837,6 @@ import_tables:
 口垃溼	hau laap sap	
 口立溼	hau laap sap	
 厚禮	hau lai	
-後來	hau lai	
 後嚟	hau lai	
 後嚟先上岸	hau lai sin soeng ngon	
 厚笠	hau lap	
@@ -89337,8 +89108,6 @@ import_tables:
 後朝	hau ziu	
 後趙	hau ziu	
 後照鏡	hau ziu geng	
-后座	hau zo	
-後坐	hau zo	
 後座	hau zo	
 後坐力	hau zo lik	
 後座力	hau zo lik	
@@ -89465,7 +89234,6 @@ import_tables:
 氣墊船	hei din syun	
 氣頂	hei ding	
 起碇	hei ding	
-氣定神閑	hei ding san haan	
 氣定神閒	hei ding san haan	
 起朵	hei do	
 氣袋	hei doi	
@@ -89728,7 +89496,6 @@ import_tables:
 希臘文	hei laap man	
 希臘神話	hei laap san waa	
 希臘字母	hei laap zi mou	
-起來	hei lai	
 起嚟	hei lai	
 稀冧冧	hei lam lam	
 稀淋淋	hei lam lam	
@@ -89952,9 +89719,9 @@ import_tables:
 稀疏	hei so	
 稀𣸛	hei soek	
 起雙飛	hei soeng fei	
-起上來	hei soeng lai	
 起上嚟	hei soeng lai	
 起上嚟	hei soeng lei	
+起上來	hei soeng loi	
 欺上瞞下	hei soeng mun haa	
 氣數	hei sou	
 起訴	hei sou	
@@ -90181,7 +89948,7 @@ import_tables:
 輕重	heng cung	
 輕啲	heng di	
 輕度	heng dou	
-輕輕哋	heng heng dei	
+輕輕地	heng heng dei	
 輕擎	heng keng	
 慶零含林	heng leng ham lam	
 輕寥寥	heng liu liu	
@@ -90192,7 +89959,7 @@ import_tables:
 輕升升	heng sing sing	
 輕鬆	heng sung	
 墟巴嘈閉	heoi baa cou bai	
-去八吓	heoi baat haa	
+去八下	heoi baat haa	
 虛不受補	heoi bat sau bou	
 去邊	heoi bin	
 去邊度	heoi bin dok	
@@ -90773,7 +90540,7 @@ import_tables:
 氫氣	hing hei	
 興起	hing hei	
 氫氣球	hing hei kau	
-㷫起來	hing hei lai	
+㷫起嚟	hing hei lai	
 㷫起嚟	hing hei lei	
 興許	hing heoi	
 輕輕	hing hing	
@@ -90989,7 +90756,7 @@ import_tables:
 挾怨	hip jyun	
 協理	hip lei	
 協力	hip lik	
-瞸埋眼	hip maai ngaan	
+䁋埋眼	hip maai ngaan	
 怯懦	hip no	
 挾細拿粗	hip sai naa cou	
 怯生	hip sang	
@@ -91084,7 +90851,7 @@ import_tables:
 荷包蛋	ho baau daan	
 荷包倒吊	ho baau dou diu	
 荷包糠	ho baau hong	
-荷包糠糠哋	ho baau hong hong dei	
+荷包糠糠地	ho baau hong hong dei	
 荷包友	ho baau jau	
 荷包茄	ho baau ke	
 荷包亂揈	ho baau lyun fang	
@@ -92431,7 +92198,6 @@ import_tables:
 海蛞蝓	hoi kut jyu	
 海葵	hoi kwai	
 害羣之馬	hoi kwan zi maa	
-害群之馬	hoi kwan zi maa	
 開曠	hoi kwong	
 開礦	hoi kwong	
 海拉爾	hoi laai ji	
@@ -92439,11 +92205,9 @@ import_tables:
 海纜	hoi laam	
 開立	hoi laap	
 海蠣	hoi lai	
-開來	hoi lai	
 開例	hoi lai	
 開嚟	hoi lai	
 開犁	hoi lai	
-開黎	hoi lai	
 海蠣子	hoi lai zi	
 海林	hoi lam	
 凱林賽	hoi lam coi	
@@ -92476,6 +92240,7 @@ import_tables:
 開鑼喝道	hoi lo hot dou	
 海量	hoi loeng	
 海量汪涵	hoi loeng wong haam	
+開來	hoi loi	
 海洛因	hoi lok jan	
 海洛英	hoi lok jing	
 海浪	hoi long	
@@ -92976,8 +92741,7 @@ import_tables:
 學區	hok keoi	
 學拳	hok kyun	
 鶴立雞羣	hok laap gai kwan	
-鶴立雞群	hok laap gai kwan	
-鶴立雞群	hok lap gai kwan	
+鶴立雞羣	hok lap gai kwan	
 學力	hok lik	
 學歷	hok lik	
 學齡	hok ling	
@@ -93351,7 +93115,7 @@ import_tables:
 看牛	hon ngau	
 汗牛充棟	hon ngau cung dung	
 看牛噉	hon ngau gam	
-看牛咁看	hon ngau gam hon	
+看牛噉看	hon ngau gam hon	
 看我的	hon ngo dik	
 看呆	hon ngoi	
 看鳥人	hon niu jan	
@@ -93836,7 +93600,7 @@ import_tables:
 好得	hou dak	
 浩特	hou dak	
 好得多	hou dak do	
-好得閑	hou dak haan	
+好得閒	hou dak haan	
 好得滯	hou dak zai	
 好等	hou dang	
 好鬥	hou dau	
@@ -93934,7 +93698,7 @@ import_tables:
 好慣	hou gwaan	
 好貴	hou gwai	
 好鬼	hou gwai	
-好鬼死	hou gwai sei	1000.0
+好鬼死	hou gwai sei	10000.0
 好鬼死難頂	hou gwai sei laan ding	
 好鬼衰	hou gwai seoi	
 犒軍	hou gwan	
@@ -93943,7 +93707,6 @@ import_tables:
 好孩子	hou haai zi	
 好客	hou haak	
 毫克	hou haak	
-好閑	hou haan	
 好閒	hou haan	
 好閒㗎啫	hou haan gaa ze	
 好行	hou haang	
@@ -93961,7 +93724,6 @@ import_tables:
 浩氣	hou hei	
 豪氣	hou hei	
 豪氣干雲	hou hei gon wan	
-好戲在後頭	hou hei joi hau tau	
 好起來	hou hei loi	
 好氣色	hou hei sik	
 好戲還在後頭	hou hei waan zoi hau tau	
@@ -94198,6 +93960,7 @@ import_tables:
 好朋友	hou pang jau	
 好平	hou peng	
 好評	hou ping	
+好晒	hou saai	
 好曬	hou saai	
 耗散	hou saan	
 豪薩語	hou saat jyu	
@@ -94543,7 +94306,6 @@ import_tables:
 凶黨	hung dong	
 空擋	hung dong	
 空檔	hung dong	
-空當	hung dong	
 空蕩蕩	hung dong dong	
 紅噹噹	hung dong dong	
 紅當當	hung dong dong	
@@ -94853,7 +94615,6 @@ import_tables:
 孔穴	hung jyut	
 空穴	hung jyut	
 孔乙己	hung jyut gei	
-空穴來風	hung jyut lai fung	
 空穴來風	hung jyut loi fung	
 空穴來風未必無因	hung jyut loi fung mei bit mou jan	
 胸襟	hung kam	
@@ -95012,7 +94773,6 @@ import_tables:
 紅顏知己	hung ngaan zi gei	
 紅眼症	hung ngaan zing	
 紅眼鱒	hung ngaan zyun	
-鴻雁	hung ngaang	
 熊倪	hung ngai	
 紅牛	hung ngau	
 紅牛皮菜	hung ngau pei coi	
@@ -95639,8 +95399,11 @@ import_tables:
 𨅝檯腳	jaang toi goek	
 押高褲腳	jaap gou fu goek	
 擪高褲腳	jaap gou fu goek	
+擪高衫袖	jaap gou saam zau	
 㩉手	jaap sau	
 翕手	jaap sau	
+擪屎片	jaap si pin	
+拽不動	jai bat dung	
 拽步	jai bou	
 曳到死	jai dou sei	
 曳貨	jai fo	
@@ -95728,7 +95491,6 @@ import_tables:
 音調	jam diu	
 淫蕩	jam dong	
 陰道	jam dou	
-飲到大大哋	jam dou daai daai dei	
 飲到大大地	jam dou daai daai dei	
 陰道口	jam dou hau	
 陰道炎	jam dou jim	
@@ -96122,13 +95884,12 @@ import_tables:
 忍不住手	jan bat zyu sau	
 印鼻	jan bei	
 隱祕	jan bei	
-隱秘	jan bei	
 隱避	jan bei	
 人比人比死人	jan bei jan bei sei jan	
 人比人，比死人	jan bei jan bei sei jan	
 人比人氣死人	jan bei jan hei sei jan	
 人比人，氣死人	jan bei jan hei sei jan	
-隱秘難言	jan bei naan jin	
+隱祕難言	jan bei naan jin	
 恩比天大	jan bei tin daai	
 隱病不報	jan beng bat bou	
 人逼人	jan bik jan	
@@ -96620,7 +96381,6 @@ import_tables:
 人窮志短	jan kung zi dyun	
 檃栝	jan kut	
 人羣	jan kwan	
-人群	jan kwan	
 蒽醌	jan kwan	
 人困馬乏	jan kwan maa fat	
 釁隙	jan kwik	
@@ -96630,7 +96390,6 @@ import_tables:
 人權法	jan kyun faat	
 人權觀察	jan kyun gun caat	
 引決	jan kyut	
-人來	jan lai	
 人嚟	jan lai	
 癮嚟	jan lai	
 人流	jan lau	
@@ -97088,13 +96847,10 @@ import_tables:
 人尖兒	jan zim ji	
 引薦	jan zin	
 人精	jan zing	
-人証	jan zing	
 人證	jan zing	
 仁政	jan zing	
-印証	jan zing	
 印證	jan zing	
 引徵	jan zing	
-引証	jan zing	
 引證	jan zing	
 人證物證	jan zing mat zing	
 引着	jan zoek	
@@ -97132,9 +96888,9 @@ import_tables:
 因住	jan zyu	
 因住電親	jan zyu din can	
 因住凍親	jan zyu dung can	
-因住來	jan zyu lai	
 因住嚟	jan zyu lai	
 因住嚟	jan zyu lei	
+因住來	jan zyu loi	
 因住收尾嗰兩年	jan zyu sau mei go loeng nin	
 入稟	jap ban	
 入不敷出	jap bat fu ceot	
@@ -97230,9 +96986,7 @@ import_tables:
 入月	jap jyut	
 入寇	jap kau	
 入球	jap kau	
-入來	jap lai	
 入嚟	jap lai	
-入來啦	jap lai laa	
 入嚟啦	jap lai laa	
 入流	jap lau	
 入嚟	jap lei	
@@ -97354,7 +97108,7 @@ import_tables:
 一筆還一筆	jat bat waan jat bat	
 一不做二不休	jat bat zou ji bat jau	
 一不做，二不休	jat bat zou ji bat jau	
-一秘	jat bei	
+一祕	jat bei	
 日比谷公園	jat bei guk gung jyun	
 一鼻孔出氣	jat bei hung ceot hei	
 一臂之力	jat bei zi lik	
@@ -97425,7 +97179,7 @@ import_tables:
 一般原則	jat bun jyun zak	
 日本原子能研究所	jat bun jyun zi nang jin gau so	
 一般規定	jat bun kwai ding	
-一般來講	jat bun lai gong	
+一般嚟講	jat bun lai gong	
 日本柳鶯	jat bun lau ang	
 一般嚟講	jat bun lei gong	
 一般來講	jat bun loi gong	
@@ -97459,7 +97213,7 @@ import_tables:
 日產	jat caan	
 一餐飯	jat caan faan	
 一切	jat cai	
-一齊	jat cai	100.0
+一齊	jat cai	1000.0
 一妻多夫	jat cai do fu	
 一妻多夫制	jat cai do fu zai	
 一切險	jat cai him	
@@ -97542,8 +97296,7 @@ import_tables:
 一場空	jat coeng hung	
 一唱一和	jat coeng jat wo	
 一場雨	jat coeng jyu	
-一倡三歎	jat coeng saam taan	
-一唱三嘆	jat coeng saam taan	
+一唱三歎	jat coeng saam taan	
 逸彩	jat coi	
 一草	jat cou	
 一草嘢	jat cou je	
@@ -97768,7 +97521,6 @@ import_tables:
 一頸血	jat geng hyut	
 一句	jat geoi	
 一舉	jat geoi	
-一句講嗮	jat geoi gong saai	
 一句講晒	jat geoi gong saai	
 一句起兩句止	jat geoi hei loeng geoi zi	
 一舉一動	jat geoi jat dung	
@@ -98133,7 +97885,7 @@ import_tables:
 一覽無遺	jat laam mou wai	
 一攬子	jat laam zi	
 日立	jat laap	
-一來到	jat lai dou	
+一嚟到	jat lai dou	
 一粒嘢	jat lap je	0%
 一粒老鼠屎壞了一鍋粥	jat lap lou syu si waai liu jat wo zuk	0%
 一流	jat lau	
@@ -98303,7 +98055,6 @@ import_tables:
 一眼關七	jat ngaan gwaan cat	
 一眼看穿	jat ngaan hon cyun	
 一眼望去	jat ngaan mong heoi	
-一眼睇嗮	jat ngaan tai saai	
 一眼睇晒	jat ngaan tai saai	
 日哦夜哦	jat ngo je ngo	
 日鵝夜鵝	jat ngo je ngo	
@@ -98340,7 +98091,6 @@ import_tables:
 一派胡言	jat paai wu jin	
 一拍行	jat paak hong	
 一拍兩散	jat paak loeng saan	
-烏蠅摟馬尾	jat paak loeng saan	
 一拍即合	jat paak zik hap	
 一棚人	jat paang jan	
 一坺迾	jat paat laat	
@@ -98382,7 +98132,6 @@ import_tables:
 一扑一碌	jat puk jat luk	
 一盤散沙	jat pun saan saa	
 一盤水	jat pun seoi	
-日晒雨淋	jat saai jyu lam	
 日曬雨淋	jat saai jyu lam	
 日曬傷	jat saai soeng	
 逸散	jat saan	
@@ -98558,11 +98307,9 @@ import_tables:
 一剔過	jat tik gwo	
 一剔一點	jat tik jat dim	
 一天	jat tin	
-一天都光嗮	jat tin dou gwong saai	
 一天都光晒	jat tin dou gwong saai	
 一天到晚	jat tin dou maan	
 一天假	jat tin gaa	
-一天光嗮	jat tin gwong saai	
 一天光晒	jat tin gwong saai	
 一天一個樣	jat tin jat go joeng	
 一條	jat tiu	
@@ -98749,7 +98496,7 @@ import_tables:
 一早就	jat zou zau	
 一族	jat zuk	
 一竹篙打一船人	jat zuk gou daa jat syun jan	
-一竹篙打嗮一船人	jat zuk gou daa saai jat syun jan	
+一竹篙打晒一船人	jat zuk gou daa saai jat syun jan	
 一竹篙打死一船人	jat zuk gou daa sei jat syun jan	
 一竹篙揇沉一船人	jat zuk gou naam cam jat syun jan	
 一竹篙揇咗一船人	jat zuk gou naam zo jat syun jan	
@@ -98872,7 +98619,7 @@ import_tables:
 由淺入深	jau cin jap sam	
 有錢有辦法冇錢基本法	jau cin jau baan faat mou cin gei bun faat	
 有錢有辦法無錢基本法	jau cin jau baan faat mou cin gei bun faat	
-有錢有閑	jau cin jau haan	
+有錢有閒	jau cin jau haan	
 有前有後	jau cin jau hau	
 有錢有勢	jau cin jau sai	
 有錢樓上樓，冇錢地下踎	jau cin lau soeng lau mou cin dei haa mau	
@@ -99246,17 +98993,15 @@ import_tables:
 優客李林	jau haak lei lam	
 游客止步	jau haak zi bou	
 誘陷	jau haam	
-休閑	jau haan	
 休閒	jau haan	
 優閒	jau haan	
 幽閒	jau haan	
-悠閑	jau haan	
 悠閒	jau haan	
 有閒	jau haan	
 有限	jau haan	
 休閒車	jau haan ce	
 有限單元	jau haan daan jyun	
-休閑褲	jau haan fu	
+休閒褲	jau haan fu	
 有限公司	jau haan gung si	
 休閒鞋	jau haan haai	
 有限元	jau haan jyun	
@@ -99421,8 +99166,8 @@ import_tables:
 髹油	jau jau	
 悠悠蕩蕩	jau jau dong dong	
 優柔寡斷	jau jau gwaa dyun	
-游游閑	jau jau haan	
-悠悠閑閑	jau jau haan haan	
+游游閒	jau jau haan	
+悠悠閒閒	jau jau haan haan	
 猶有餘悸	jau jau jyu gwai	
 悠悠球	jau jau kau	
 優遊自得	jau jau zi dak	
@@ -99441,7 +99186,6 @@ import_tables:
 有嘢就講，有屁就放	jau je zau gong jau pei zau fong	
 有嘢做	jau je zou	
 油潤	jau jeon	
-有約	jau jeot	
 優異	jau ji	
 友誼	jau ji	
 右耳	jau ji	
@@ -99678,6 +99422,7 @@ import_tables:
 優酪乳	jau lok jyu	
 遊樂園	jau lok jyun	
 油𠺘口	jau long hau	
+右路	jau lou	
 憂勞	jau lou	
 有勞	jau lou	
 有路	jau lou	
@@ -99731,7 +99476,6 @@ import_tables:
 有乜噏乜	jau mat ngap mat	
 有乜事幹	jau mat si gon	
 有咩	jau me	
-有乜冬瓜豆腐	jau me dung gwaa dau fu	
 有咩冬瓜豆腐	jau me dung gwaa dau fu	
 有咩依郁	jau me ji juk	
 有咩咿喐	jau me ji juk	
@@ -99762,7 +99506,7 @@ import_tables:
 揉磨	jau mo	
 有望	jau mong	
 休謨	jau mou	
-有冇	jau mou	1000.0
+有冇	jau mou	10000.0
 有無	jau mou	
 有冇帶袋	jau mou daai doi aa	
 有冇得	jau mou dak	
@@ -99960,7 +99704,6 @@ import_tables:
 有仇必報	jau sau bit bou	
 有仇口	jau sau hau	
 優秀學生	jau sau hok saang	
-遊手好閑	jau sau hou haan	
 遊手好閒	jau sau hou haan	
 有手有腳	jau sau jau goek	
 右手面	jau sau min	
@@ -99996,7 +99739,6 @@ import_tables:
 柔順劑	jau seon zai	
 有術	jau seot	
 柔術	jau seot	
-有麝自然香	jau she zi jin hoeng	
 休市	jau si	
 又是	jau si	
 又試	jau si	
@@ -100019,7 +99761,8 @@ import_tables:
 有時候	jau si hau	
 有時好	jau si hou	
 又屎又巴閉	jau si jau baa bai	
-有史以來	jau si ji lai	
+有史以嚟	jau si ji lai	
+有史以嚟	jau si ji lei	
 有史以來	jau si ji loi	
 有事慢慢講	jau si maan maan gong	
 休氏樹鶯	jau si syu ang	
@@ -100249,7 +99992,7 @@ import_tables:
 右側	jau zak	
 有則改之，無則加勉	jau zak goi zi mou zak gaa min	
 油浸禾花雀	jau zam wo faa zoek	
-油浸黄花雀	jau zam wong faa zoek	
+油浸黃花雀	jau zam wong faa zoek	
 丘疹	jau zan	
 有陣時	jau zan si	
 有增無減	jau zang mou gaam	
@@ -101076,7 +100819,6 @@ import_tables:
 議付	ji fu	
 異乎尋常	ji fu cam soeng	
 伊府麪	ji fu min	
-伊府麵	ji fu min	
 義父母	ji fu mou	
 二伏	ji fuk	
 衣服	ji fuk	
@@ -101089,7 +100831,7 @@ import_tables:
 依家	ji gaa	
 咿家	ji gaa	
 宜家	ji gaa	
-而家	ji gaa	1000.0
+而家	ji gaa	10000.0
 衣架	ji gaa	
 議價	ji gaa	
 醫家	ji gaa	
@@ -101501,7 +101243,6 @@ import_tables:
 耳蠟	ji laap	
 而立之年	ji laap zi nin	
 伊撈七	ji laau cat	
-以來	ji lai	
 以嚟	ji lai	
 伊犁	ji lai	
 儀禮	ji lai	
@@ -101691,7 +101432,6 @@ import_tables:
 意味住	ji mei zyu	
 以免	ji min	
 伊麪	ji min	
-伊麵	ji min	
 意麪	ji min	
 耳綿	ji min	
 以免藉口	ji min ze hau	
@@ -101798,7 +101538,6 @@ import_tables:
 咿排	ji paai	
 咿牌	ji paai	
 異頻雷達收發機	ji pan leoi daat sau faat gei	
-倚憑	ji pang	
 椅憑	ji pang	
 椅披	ji pei	
 椅𩩍	ji peng	
@@ -102287,7 +102026,6 @@ import_tables:
 意中人	ji zung jan	
 意中事	ji zung si	
 耳珠	ji zyu	
-義堂	jii tong	
 抑壓	jik aat	
 液壓	jik aat	
 逆壓	jik aat	
@@ -102870,7 +102608,6 @@ import_tables:
 嚴整	jim zing	
 嚴正	jim zing	
 炎症	jim zing	
-驗証	jim zing	
 驗證	jim zing	
 驗證碼	jim zing maa	
 艷照	jim ziu	
@@ -103180,7 +102917,6 @@ import_tables:
 演繹	jin jik	
 現役	jin jik	
 演繹法	jin jik faat	
-演繹論証	jin jik leon zing	
 演繹論證	jin jik leon zing	
 咽炎	jin jim	
 嫣然	jin jin	
@@ -103282,10 +103018,6 @@ import_tables:
 演藝界	jin ngai gaai	
 演藝圈	jin ngai hyun	
 演藝人員	jin ngai jan jyun	
-咽韌	jin ngan	
-煙蔫	jin ngan	
-煙靭	jin ngan	
-煙韌	jin ngan	
 現銀	jin ngan	
 蔫韌	jin ngan	
 現銀交易	jin ngan gaau jik	
@@ -103685,7 +103417,6 @@ import_tables:
 凝固點	jing gu dim	
 凝固汽油彈	jing gu hei jau daan	
 凝固劑	jing gu zai	
-認股証	jing gu zing	
 認股證	jing gu zing	
 應棍	jing gwan	
 英軍	jing gwan	
@@ -104337,7 +104068,6 @@ import_tables:
 孽種	jip zung	
 業主	jip zyu	
 醃豬肉	jip zyu juk	
-拽不動	jit bat dung	
 熱啤	jit be	
 熱比亞	jit bei aa	
 熱比婭	jit bei aa	
@@ -104390,7 +104120,7 @@ import_tables:
 熱度	jit dou	
 熱到飛起	jit dou fei hei	
 熱島效應	jit dou haau jing	
-熱到流嗮汗	jit dou lau saai hon	
+熱到流晒汗	jit dou lau saai hon	
 熱導率	jit dou leot	
 熱到死	jit dou sei	
 熱動平衡	jit dung ping hang	
@@ -104442,7 +104172,7 @@ import_tables:
 熱飲	jit jam	
 熱議	jit ji	
 熱爾韋	jit ji wai	
-熱熱哋	jit jit dei	
+熱熱地	jit jit dei	
 熱熱烈烈	jit jit lit lit	
 熱容	jit jung	
 蠮螉	jit jung	
@@ -104606,7 +104336,7 @@ import_tables:
 腰間	jiu gaan	
 腰間盤	jiu gaan pun	
 要咁	jiu gam	
-要噉	jiu gam	1000.0
+要噉	jiu gam	10000.0
 遙感	jiu gam	
 腰金衣紫	jiu gam ji zi	
 要緊	jiu gan	
@@ -104639,12 +104369,11 @@ import_tables:
 腰果雞丁	jiu gwo gai ding	
 搖光	jiu gwong	
 搖下	jiu haa	
-搖吓	jiu haa	
 搖下搖下	jiu haa jiu haa	
 吆喊	jiu haam	
 要行	jiu haang	
 要係	jiu hai	
-要喺	jiu hai	1000.0
+要喺	jiu hai	10000.0
 搖撼	jiu ham	
 繞行	jiu hang	
 繞口令	jiu hau ling	
@@ -105404,7 +105133,6 @@ import_tables:
 陽曲縣	joeng kuk jyun	
 羊羣	joeng kwan	
 羊羣心理	joeng kwan sam lei	
-羊群心理	joeng kwan sam lei	
 羊羣心態	joeng kwan sam taai	
 佯狂	joeng kwong	
 氧炔吹管	joeng kyut ceoi gun	
@@ -105823,7 +105551,6 @@ import_tables:
 慾壑難填	juk kok naan tin	
 玉蘭	juk laan	
 玉蘭花	juk laan faa	
-喐來喐去	juk lai juk heoi	
 喐嚟喐去	juk lai juk heoi	
 玉林	juk lam	
 玉林地區	juk lam dei keoi	
@@ -105842,6 +105569,7 @@ import_tables:
 慾令智昏	juk ling zi fan	
 郁烈	juk lit	
 沃羅湼日	juk lo nip jat	
+喐來喐去	juk loi juk heoi	
 玉露	juk lou	
 玉龍縣	juk lung jyun	
 玉龍納西族自治縣	juk lung naap sai zuk zi zi jyun	
@@ -106195,7 +105923,6 @@ import_tables:
 勇決	jung kyut	
 慵懶	jung laan	
 擁立	jung laap	
-用來	jung lai	
 用嚟	jung lai	
 湧流	jung lau	
 絨褸	jung lau	
@@ -106327,7 +106054,7 @@ import_tables:
 用戶端設備	jung wu dyun cit bei	
 用戶介面	jung wu gaai min	
 用戶界面	jung wu gaai min	
-用戶群	jung wu kwan	
+用戶羣	jung wu kwan	
 用戶名	jung wu meng	
 用戶面	jung wu min	
 用戶線	jung wu sin	
@@ -107109,7 +106836,7 @@ import_tables:
 魚𦢊	jyu pok	
 宇普西龍	jyu pou sai lung	
 預配	jyu pui	
-瘀嗮	jyu saai	
+瘀晒	jyu saai	
 乳山	jyu saan	
 雨傘	jyu saan	
 雨山	jyu saan	
@@ -107432,7 +107159,7 @@ import_tables:
 鉛筆芯	jyun bat sam	
 完備	jyun bei	
 懸臂	jyun bei	
-玄秘	jyun bei	
+玄祕	jyun bei	
 遠比	jyun bei	
 遠避	jyun bei	
 軟屄屄	jyun bei bei	
@@ -108547,10 +108274,10 @@ import_tables:
 月闌	jyut laan	
 月鱧	jyut lai	
 越禮	jyut lai	
-越來越	jyut lai jyut	
 越嚟越	jyut lai jyut	
 越來越多	jyut lai jyut do	
 月利	jyut lei	
+越來越	jyut lei jyut	
 越嚟越	jyut lei jyut	
 月輪	jyut leon	
 月曆	jyut lik	
@@ -108806,7 +108533,7 @@ import_tables:
 卡式	kaa sik	
 卡式帶	kaa sik daai	
 卡式機	kaa sik gei	
-卡式証	kaa sik zing	
+卡式證	kaa sik zing	
 卡仙尼	kaa sin nei	
 卡桑德拉	kaa song dak laai	
 卡塔赫納	kaa taap haak naap	
@@ -109027,8 +108754,8 @@ import_tables:
 擒擒青	kam kam ceng	
 擒擒青青	kam kam ceng ceng	
 擒擒青	kam kam cing	
-擒䞚	kam ke	
 擒騎	kam ke	
+禽騎	kam ke	
 冚旗	kam kei	
 琴棋書畫	kam kei syu waa	
 蠄蟝	kam keoi	
@@ -109567,9 +109294,7 @@ import_tables:
 求職	kau zik	
 求職信	kau zik seon	
 求職者	kau zik ze	
-求証	kau zing	
 求證	kau zing	
-球証	kau zing	
 球證	kau zing	
 扣咗	kau zo	
 求助	kau zo	
@@ -109615,18 +109340,13 @@ import_tables:
 騎樓底	ke lau dai	
 奇離	ke le	
 茄喱	ke le	
-騎喱	ke le	
 咖哩啡	ke le fe	
 茄哩啡	ke le fe	
 茄喱啡	ke le fe	
 奇離怪	ke le gwaai	
 奇離拐	ke le gwaai	
-騎呢怪	ke le gwaai	
-騎呢拐	ke le gwaai	
-騎咧拐	ke le gwaai	
-騎喱𧊅	ke le gwaai	
+奇離𧊅	ke le gwaai	
 奇離位	ke le wai	
-騎呢位	ke le wai	
 騎籬𧊅	ke lei gwaai	
 騎驢	ke leoi	
 騎驢覓驢	ke leoi mik leoi	
@@ -109636,7 +109356,6 @@ import_tables:
 騎馬釘	ke maa deng	
 騎馬找馬	ke maa zaau maa	
 騎馬者	ke maa ze	
-騎呢	ke nei	
 騎牛搵馬	ke ngau wan maa	
 騎射	ke se	
 騎術	ke seot	
@@ -109745,7 +109464,7 @@ import_tables:
 企起身	kei hei san	
 徛起身	kei hei san	
 期許	kei heoi	
-企響個邊	kei hoeng go bin	
+企響嗰邊	kei hoeng go bin	
 旗開得勝	kei hoi dak sing	
 期刊	kei hon	
 旗號	kei hou	
@@ -109838,7 +109557,7 @@ import_tables:
 騎馬找馬	kei maa zaau maa	
 企埋一邊	kei maai jat bin	
 企埋一便喇	kei maai jat bin laa	
-企埋來	kei maai lai	
+企埋嚟	kei maai lai	
 企埋嚟	kei maai lei	
 其貌不揚	kei maau bat joeng	
 棋迷	kei mai	
@@ -110048,7 +109767,7 @@ import_tables:
 區處	keoi cyu	
 俱全	keoi cyun	
 拘傳	keoi cyun	
-佢哋	keoi dei	1000.0
+佢哋	keoi dei	10000.0
 佢哋嘅	keoi dei ge	
 佢哋自己	keoi dei zi gei	
 佢哋自己嘅	keoi dei zi gei ge	
@@ -110095,8 +109814,8 @@ import_tables:
 佢廣西	keoi gwong sai	
 胠篋	keoi haap	
 胠篋者流	keoi haap ze lau	
-佢係	keoi hai	1000.0
-佢喺	keoi hai	1000.0
+佢係	keoi hai	10000.0
+佢喺	keoi hai	10000.0
 佢係咪	keoi hai mai	
 拘牽	keoi hin	
 軀殼	keoi hok	
@@ -110324,7 +110043,6 @@ import_tables:
 鯨魚座	king jyu zo	
 傾傾	king king	
 傾傾下	king king haa	
-傾傾吓	king king haa	
 煢煢孑立	king king kit laap	
 擎拳合掌	king kyun hap zoeng	
 瓊樓玉宇	king lau juk jyu	
@@ -110398,7 +110116,7 @@ import_tables:
 瓊中黎族苗族自治縣	king zung lai zuk miu zuk zi zi jyun	
 傾注	king zyu	
 喼弗	kip fit	
-揭秘	kit bei	
+揭祕	kit bei	
 藒車	kit ce	
 擷取	kit ceoi	
 揭出	kit ceot	
@@ -110415,7 +110133,6 @@ import_tables:
 羯鼓	kit gu	
 羯鼓催花	kit gu ceoi faa	
 揭黑	kit hak	
-歇後語	kit hau jyu	
 揭起	kit hei	
 揭曉	kit hiu	
 揭開	kit hoi	
@@ -110769,7 +110486,7 @@ import_tables:
 確認	kok jing	
 確認下	kok jing haa	
 壑溝	kok kau	
-涸涸哋	kok kok dei	
+涸涸地	kok kok dei	
 確立	kok laap	
 確立	kok lap	
 搉門	kok mun	
@@ -111286,7 +111003,7 @@ import_tables:
 規章	kwai zoeng	
 愧怍	kwai zok	
 困厄	kwan aak	
-群毆	kwan au	
+羣毆	kwan au	
 裙擺	kwan baai	
 窘迫	kwan baak	
 菌柄	kwan beng	
@@ -111297,10 +111014,8 @@ import_tables:
 綑綁	kwan bong	
 昆布	kwan bou	
 羣策羣力	kwan caak kwan lik	
-羣策群力	kwan caak kwan lik	
-群策群力	kwan caak kwan lik	
 菌陳蒿	kwan can hou	
-群揪	kwan cau	
+羣揪	kwan cau	
 羣情	kwan cing	
 昆蟲	kwan cung	
 昆蟲學	kwan cung hok	
@@ -111310,13 +111025,11 @@ import_tables:
 困頓	kwan deon	
 坤甸	kwan din	
 羣島	kwan dou	
-群島	kwan dou	
 昆都侖	kwan dou leon	
 昆都侖區	kwan dou leon keoi	
 羣島弧	kwan dou wu	
-滾花	kwan faa	
 羣花	kwan faa	
-群番	kwan faan	
+羣番	kwan faan	
 閫範	kwan faan	
 困乏	kwan fat	
 羣飛	kwan fei	
@@ -111352,7 +111065,6 @@ import_tables:
 羣起而攻之	kwan hei ji gung zi	
 崑腔	kwan hong	
 羣雄	kwan hung	
-群雄	kwan hung	
 羣雄逐鹿	kwan hung zuk luk	
 鵾弦	kwan jin	
 羣言堂	kwan jin tong	
@@ -111370,7 +111082,7 @@ import_tables:
 窘困	kwan kwan	
 裙拉褲甩	kwan laai fu lat	
 裙甩褲甩	kwan lat fu lat	
-群裏	kwan leoi	
+羣裏	kwan leoi	
 菌類	kwan leoi	
 崑崙	kwan leon	
 昆侖	kwan leon	
@@ -111380,10 +111092,8 @@ import_tables:
 羣落	kwan lok	
 菌落	kwan lok	
 羣龍無首	kwan lung mou sau	
-群龍無首	kwan lung mou sau	
 羣馬縣	kwan maa jyun	
 羣埋	kwan maai	
-群埋	kwan maai	
 昆明	kwan ming	
 昆明市	kwan ming si	
 昆明湖	kwan ming wu	
@@ -111412,12 +111122,10 @@ import_tables:
 昆士蘭州	kwan si laan zau	
 羣星	kwan sing	
 羣星拱照	kwan sing gung ziu	
-群星拱照	kwan sing gung ziu	
 窘相	kwan soeng	
 羣上	kwan soeng	
 窘態	kwan taai	
 羣體	kwan tai	
-群體	kwan tai	
 羣體性事件	kwan tai sing si gin	
 昆廷	kwan ting	
 菌托	kwan tok	
@@ -111429,10 +111137,8 @@ import_tables:
 菌子	kwan zi	
 裙子	kwan zi	
 羣組	kwan zou	
-群組	kwan zou	
 昆仲	kwan zung	
 羣衆	kwan zung	
-群衆	kwan zung	
 羣衆大會	kwan zung daai wui	
 羣衆路線	kwan zung lou sin	
 羣衆外包	kwan zung ngoi baau	
@@ -111480,7 +111186,9 @@ import_tables:
 狂奔	kwong ban	
 狂飆	kwong biu	
 狂暴	kwong bou	
+狂煲	kwong bou	
 狂暴者	kwong bou ze	
+狂踩	kwong caai	
 礦產	kwong caan	
 礦產資源	kwong caan zi jyun	
 礦層	kwong cang	
@@ -111500,6 +111208,7 @@ import_tables:
 曠達	kwong daat	
 礦燈	kwong dang	
 曠地	kwong dei	
+狂掟	kwong deng	
 狂頂	kwong ding	
 狂跌	kwong dit	
 曠代	kwong doi	
@@ -111577,6 +111286,7 @@ import_tables:
 礦石	kwong sek	
 礦水	kwong seoi	
 曠時攝影	kwong si sip jing	
+狂食	kwong sik	
 狂笑	kwong siu	
 狂想	kwong soeng	
 狂想曲	kwong soeng kuk	
@@ -111843,6 +111553,7 @@ import_tables:
 拉大纜	laai daai laam	
 拉大條	laai daai tiu	
 瀨大鑊	laai daai wok	
+舐大鑊	laai daai wok	
 拉達克	laai daat hak	
 么弟	laai dai	
 攋低	laai dai	
@@ -111935,8 +111646,6 @@ import_tables:
 拉人	laai jan	
 拉入	laai jap	
 拉油	laai jau	
-攋嘢	laai je	
-瀨嘢	laai je	
 舐嘢	laai je	
 𦧺嘢	laai je	
 賴以	laai ji	
@@ -111948,8 +111657,7 @@ import_tables:
 拉拉隊	laai laai deoi	
 拉拉隊員	laai laai deoi jyun	
 拉拉隊長	laai laai deoi zoeng	
-殀殀哂哂	laai laai saai saai	
-賴賴哂哂	laai laai saai saai	
+賴賴𤿂𤿂	laai laai saai saai	
 拉纜	laai laam	
 拉里	laai lei	
 拉力	laai lik	
@@ -111975,7 +111683,6 @@ import_tables:
 拉美	laai mei	
 拉美西斯	laai mei sai si	
 拉麪	laai min	
-拉麵	laai min	
 拉莫斯	laai mok si	
 拉姆安拉	laai mou on laai	
 拉姆斯菲爾德	laai mou si fei ji dak	
@@ -112034,8 +111741,8 @@ import_tables:
 賴屎	laai si	
 賴斯	laai si	
 瀨屎忽	laai si fat	
-舐屎忽	laai si fat	
-𦧺屎忽	laai si fat	
+舐屎窟	laai si fat	
+舐屎𦜇	laai si fat	
 𦧺屎窟	laai si fat	
 𦧺屎𦜇	laai si fat	
 瀨屎褲	laai si fu	
@@ -112124,7 +111831,7 @@ import_tables:
 濫調陳腔	laam diu can hong	
 艦島	laam dou	
 攬到實	laam dou sat	
-攬到實嗮	laam dou sat saai	
+攬到實晒	laam dou sat saai	
 藍短翅鶇	laam dyun ci dung	
 濫發	laam faat	
 濫伐	laam fat	
@@ -112417,13 +112124,12 @@ import_tables:
 蘭溪	laan kai	
 蘭溪市	laan kai si	
 蘭蔻	laan kau	
-懶懶哋	laan laan dei	
+懶懶地	laan laan dei	
 懶懶閒	laan laan haan	
 懶懶散散	laan laan saan saan	
 躝撚開	laan lan hoi	
 懶理	laan lei	
 懶叻	laan lek	
-爛嚦	laan lek	
 讕叻	laan lek	
 讕𥌮	laan lek	
 懶靚	laan leng	
@@ -112746,7 +112452,7 @@ import_tables:
 立功	laap gung	
 立功贖罪	laap gung suk zeoi	
 立國	laap gwok	
-擸光嗮	laap gwong saai	
+擸光晒	laap gwong saai	
 立下	laap haa	
 立夏	laap haa	
 立刻	laap haak	
@@ -112806,7 +112512,7 @@ import_tables:
 立案	laap on	
 立案偵查	laap on zing caa	
 擸平嘢	laap peng je	
-擸嗮網頂	laap saai mong deng	
+擸晒網頂	laap saai mong deng	
 立山區	laap saan keoi	
 立山小種	laap saan siu zung	
 垃圾	laap saap	
@@ -112906,7 +112612,7 @@ import_tables:
 辣油	laat jau	
 辣嘢	laat je	
 辣魚多	laat jyu do	
-辣辣哋	laat laat dei	
+辣辣地	laat laat dei	
 瘌痢	laat lei	
 癩痢	laat lei	
 鬎鬁	laat lei	
@@ -112935,6 +112641,7 @@ import_tables:
 撈錢	laau cin	
 撈底	laau dai	
 撈稻草	laau dou cou	
+摎挍	laau gaau	
 摎攪	laau gaau	
 撈攪	laau gaau	
 撈絞	laau gaau	
@@ -112984,13 +112691,11 @@ import_tables:
 禮部	lai bou	
 禮部尚書	lai bou soeng syu	
 蠡測	lai cak	
-來遲	lai ci	
 儷辭	lai ci	
 嚟遲	lai ci	
 麗詞	lai ci	
 麗辭	lai ci	
 麗池卡登	lai ci kaa dang	
-來遲咗	lai ci zo	
 嚟遲咗	lai ci zo	
 黎涌	lai cung	
 禮泉	lai cyun	
@@ -112998,10 +112703,8 @@ import_tables:
 禮泉縣	lai cyun jyun	
 醴泉縣	lai cyun jyun	
 黎川縣	lai cyun jyun	
-來得切	lai dak cit	
-來得撤	lai dak cit	
 嚟得切	lai dak cit	
-來得啱	lai dak ngaam	
+嚟得撤	lai dak cit	
 嚟得啱	lai dak ngaam	
 犁地	lai dei	
 禮多人不怪	lai do jan bat gwaai	
@@ -113009,7 +112712,6 @@ import_tables:
 禮法	lai faat	
 禮廢樂崩	lai fai ngok bang	
 禮服	lai fuk	
-來㗎	lai gaa	
 例假	lai gaa	
 嚟㗎	lai gaa	
 麗佳娜	lai gaai naa	
@@ -113018,11 +112720,9 @@ import_tables:
 戾偈	lai gai	
 戾計	lai gai	
 禮金	lai gam	
-來緊	lai gan	
 嚟緊	lai gan	
 嚟緊頭	lai gan tau	
 戾狗邊	lai gau bin	
-來嘅	lai ge	
 嚟嘅	lai ge	
 禮記	lai gei	
 例句	lai geoi	
@@ -113087,7 +112787,6 @@ import_tables:
 例規	lai kwai	
 嚟葵	lai kwai	
 麗麗	lai lai	
-來來去去	lai lai heoi heoi	
 嚟嚟去去	lai lai heoi heoi	
 利利市市	lai lai si si	
 利利是是	lai lai si si	
@@ -113096,10 +112795,8 @@ import_tables:
 醴陵市	lai ling si	
 嚟料	lai liu	
 禮樂	lai lok	
-來唔切	lai m cit	
-來唔撤	lai m cit	
 嚟唔切	lai m cit	
-來唔得切	lai m dak cit	
+嚟唔撤	lai m cit	
 嚟唔得切	lai m dak cit	
 厲埋片面	lai maai pin min	
 戾埋片面	lai maai pin min	
@@ -113116,7 +112813,7 @@ import_tables:
 例文	lai man	
 黎民	lai man	
 禮物	lai mat	
-戾乜面	lai me min	
+戾歪面	lai me min	
 黎明	lai ming	
 黎明前的黑暗	lai ming cin dik hak am	
 黎明時分	lai ming si fan	
@@ -113126,7 +112823,7 @@ import_tables:
 例外字	lai ngoi zi	
 禮樂崩壞	lai ngok bang waai	
 禮樂射	lai ngok se	
-來呢度	lai ni dou	
+嚟呢度	lai ni dou	
 犁耙	lai paa	
 例牌	lai paai	
 例牌菜	lai paai coi	
@@ -113139,7 +112836,7 @@ import_tables:
 荔浦	lai pou	
 荔浦縣	lai pou jyun	
 荔浦芋	lai pou wu	
-來神	lai san	
+嚟神	lai san	
 麗實	lai sat	
 戾手	lai sau	
 捩手	lai sau	
@@ -113152,21 +112849,10 @@ import_tables:
 黎瑞恩	lai seoi jan	
 麗水市	lai seoi si	
 例示	lai si	
-利事	lai si	
-利市	lai si	
 利是	lai si	
 麗鳾	lai si	
-利事錢	lai si cin	
-利市錢	lai si cin	
 利是錢	lai si cin	
-利事逗來	lai si dau loi	
-利事𢭃來	lai si dau loi	
-利市逗來	lai si dau loi	
-利市𢭃來	lai si dau loi	
-利是逗來	lai si dau loi	
 利是𢭃來	lai si dau loi	
-利事封	lai si fung	
-利市封	lai si fung	
 利是封	lai si fung	
 麗色噪鶥	lai sik cou mei	
 麗色奇鶥	lai sik kei mei	
@@ -113200,11 +112886,8 @@ import_tables:
 例會	lai wui	
 禮讚	lai zaan	
 禮制	lai zai	
-來真	lai zan	
 嚟真	lai zan	
 麗質	lai zat	
-嚟啫	lai ze	
-來自	lai zi	
 例子	lai zi	
 勵志	lai zi	
 嚟自	lai zi	
@@ -113233,7 +112916,6 @@ import_tables:
 勒兵	lak bing	
 勒脖子	lak but zi	
 簕竇	lak dau	
-勒杜鵑	lak dou gyun	
 簕杜鵑	lak dou gyun	
 叻埠	lak fau	
 勒戒	lak gaai	
@@ -113248,11 +112930,8 @@ import_tables:
 肋軟骨	lak jyun gwat	
 㪐㩿	lak kak	
 犖确	lak kak	
-甩咳	lak kak	
-肋揢	lak kak	
 勒勒車	lak lak ce	
 犖犖确确	lak lak kak kak	
-甩甩咳咳	lak lak kak kak	
 勒令	lak ling	
 勒馬	lak maa	
 勒龐	lak pong	
@@ -113317,6 +112996,7 @@ import_tables:
 臨牀經驗	lam cong ging jim	
 臨牀實驗	lam cong sat jim	
 臨滄市	lam cong si	
+林冲	lam cung	
 林沖	lam cung	
 林村	lam cyun	
 臨川	lam cyun	
@@ -113440,7 +113120,6 @@ import_tables:
 臨淵羨魚，不如退而結網	lam jyun sin jyu bat jyu teoi ji git mong	
 臨月兒	lam jyut ji	
 林卡	lam kaa	
-林擒	lam kam	
 林檎	lam kam	
 淋擒	lam kam	
 淋球菌	lam kau kwan	
@@ -113550,9 +113229,7 @@ import_tables:
 臨潭	lam taam	
 臨潭縣	lam taam jyun	
 臨頭	lam tau	
-臨天光賴尿	lam tin gwong laai liu	
 臨天光瀨尿	lam tin gwong laai niu	
-臨天光賴尿	lam tin gwong laai niu	
 臨帖	lam tip	
 臨眺	lam tiu	
 臨洮	lam tou	
@@ -113689,7 +113366,9 @@ import_tables:
 甩開膀子	lat hoi bong zi	
 甩遠	lat jyun	
 甩卡	lat kaa	
+甩咳	lat kat	
 甩期	lat kei	
+甩甩咳咳	lat lat kat kat	
 甩甩漏漏	lat lat lau lau	
 甩甩離	lat lat lei	
 甩漏	lat lau	
@@ -114107,7 +113786,7 @@ import_tables:
 流量計	lau loeng gai	
 流落	lau lok	
 流落江湖	lau lok gong wu	
-流落來	lau lok lai	
+流落嚟	lau lok lai	
 流落嚟	lau lok lei	
 流落他鄉	lau lok taa hoeng	
 流浪	lau long	
@@ -114181,7 +113860,7 @@ import_tables:
 流沙	lau saa	
 流沙包	lau saa baau	
 溜舐	lau saai	
-流嗮口水	lau saai hau seoi	
+流晒口水	lau saai hau seoi	
 流逝	lau sai	
 留西裝	lau sai zong	
 柳心	lau sam	
@@ -114339,8 +114018,8 @@ import_tables:
 離氣	le he	
 𠻗𠺪	le he	
 咧咧	le le	
-咧嗮氣	le saai he	
-離嗮氣	le saai he	
+咧晒氣	le saai he	
+離晒氣	le saai he	
 咧嘴	le zeoi	
 李亞鵬	lei aa paang	
 籬笆	lei baa	
@@ -114730,9 +114409,7 @@ import_tables:
 理平頭	lei ping tau	
 離譜	lei pou	
 理賠	lei pui	
-離嗮譜	lei saai pou	
 離晒譜	lei saai pou	
-離嗮罩	lei saai zaau	
 離晒罩	lei saai zaau	
 李三腳	lei saam goek	
 離散	lei saan	
@@ -114787,14 +114464,7 @@ import_tables:
 李斯特氏桿菌	lei si dak si gon kwan	
 李斯特氏菌	lei si dak si kwan	
 李斯特城	lei si dak sing	
-利事逗來	lei si dau loi	
-利事𢭃來	lei si dau loi	
-利市逗來	lei si dau loi	
-利市𢭃來	lei si dau loi	
-利是逗來	lei si dau loi	
 利是𢭃來	lei si dau loi	
-利事封	lei si fung	
-利市封	lei si fung	
 利是封	lei si fung	
 理事國	lei si gwok	
 李司棋	lei si kei	
@@ -114898,6 +114568,7 @@ import_tables:
 嚟真	lei zan	
 李振藩	lei zan faan	
 痢疾	lei zat	
+嚟啫	lei ze	
 李鄭屋古墓	lei zeng uk gu mou	
 李鄭屋漢墓博物館	lei zeng uk hon mou bok mat gun	
 利津	lei zeon	
@@ -114945,8 +114616,8 @@ import_tables:
 叻女	lek neoi	
 嚦女	lek neoi	
 叻仔	lek zai	
-舐屎忽	lem si fat	
-舐嘴	lem zeoi	
+舔屎忽	lem si fat	
+舔嘴	lem zeoi	
 靚啊	leng aa	
 靚爆鏡	leng baau geng	
 靚抽	leng cau	
@@ -115072,7 +114743,6 @@ import_tables:
 雷達網	leoi daat mong	
 雷達天線	leoi daat tin sin	
 雷達站	leoi daat zaam	
-摞低	leoi dai	
 擂低	leoi dai	
 裏底	leoi dai	
 𨀤低	leoi dai	
@@ -115135,7 +114805,7 @@ import_tables:
 雷轟電閃	leoi gwang din sim	
 濾過	leoi gwo	
 淚光	leoi gwong	
-蕾哈娜	leoi haa no	
+蕾哈娜	leoi haa naa	
 旅客	leoi haak	
 旅行家	leoi haang gaa	
 雷克雅未克	leoi hak ngaa mei hak	
@@ -115559,7 +115229,6 @@ import_tables:
 論資排輩	leon zi paai bui	
 輪值	leon zik	
 論戰	leon zin	
-論証	leon zing	
 論證	leon zing	
 卵精巢	leon zing caau	
 淪浹	leon zip	
@@ -115574,7 +115243,7 @@ import_tables:
 輪種	leon zung	
 論著	leon zyu	
 輪住	leon zyu	
-輪住來	leon zyu lai	
+輪住嚟	leon zyu lai	
 輪住嚟	leon zyu lei	
 輪住值班	leon zyu zik baan	
 輪轉	leon zyun	
@@ -115670,7 +115339,7 @@ import_tables:
 力傳遞	lik cyun dai	
 力大無比	lik daai mou bei	
 力大無窮	lik daai mou kung	
-拎得起放得低	lik dak hei fong dak dai	
+搦得起放得低	lik dak hei fong dak dai	
 歷代	lik doi	
 歷代志下	lik doi zi haa	
 歷代志上	lik doi zi soeng	
@@ -115769,6 +115438,7 @@ import_tables:
 嚦仔	lik zai	
 力爭	lik zang	
 力爭上游	lik zang soeng jau	
+攊走	lik zau	
 歷盡	lik zeon	
 歷盡滄桑	lik zeon cong song	
 歷盡艱難	lik zeon gaan naan	
@@ -115826,7 +115496,7 @@ import_tables:
 臉盲症	lim maang zing	
 臉面	lim min	
 簾幕	lim mok	
-鐮鈎腳	lim ngau goek	
+鐮鉤腳	lim ngau goek	
 臉皮	lim pei	
 臉皮薄	lim pei bok	
 臉皮厚	lim pei hau	
@@ -116146,6 +115816,10 @@ import_tables:
 靈車	ling ce	
 領取	ling ceoi	
 領取行李	ling ceoi hang lei	
+拎出	ling ceot	
+拎出去	ling ceot heoi	
+拎出嚟	ling ceot lai	
+拎出嚟	ling ceot lei	
 令慈	ling ci	
 凌遲	ling ci	
 零錢	ling cin	
@@ -116170,6 +115844,7 @@ import_tables:
 靈丹	ling daan	
 靈丹妙藥	ling daan miu joek	
 令弟	ling dai	
+拎得起放得低	ling dak hei fong dak dai	
 零等待狀態	ling dang doi zong taai	
 領地	ling dei	
 領隊	ling deoi	
@@ -116208,6 +115883,10 @@ import_tables:
 菱花鏡	ling faa geng	
 靈快	ling faai	
 靈泛	ling faan	
+拎翻去	ling faan heoi	
+拎返去	ling faan heoi	
+拎翻屋企	ling faan uk kei	
+拎返屋企	ling faan uk kei	
 菱粉	ling fan	
 零分	ling fan	
 靈符	ling fu	
@@ -116294,7 +115973,7 @@ import_tables:
 令人難忘	ling jan naan mong	
 靈恩派	ling jan paai	
 令人嘆	ling jan taan	
-令人嘆爲觀止	ling jan taan wai gun zi	
+令人歎爲觀止	ling jan taan wai gun zi	
 令人咋舌	ling jan zaa sit	
 令人振奮	ling jan zan fan	
 另一	ling jat	
@@ -116719,7 +116398,7 @@ import_tables:
 遼東	liu dung	
 遼東半島	liu dung bun dou	
 了斷	liu dyun	
-了番出嚟	liu faan cet lai	
+了番出嚟	liu faan ceot lai	
 療法	liu faat	
 寮房	liu fong	
 遼闊	liu fut	
@@ -116942,7 +116621,6 @@ import_tables:
 裸婚	lo fan	
 羅浮宮	lo fau gung	
 羅浮山	lo fau saan	
-攞苦來辛	lo fu lai san	
 攞苦嚟辛	lo fu lai san	
 攞苦嚟辛	lo fu lei san	
 羅夫諾	lo fu nok	
@@ -116980,7 +116658,7 @@ import_tables:
 裸官	lo gun	
 羅貫中	lo gun zung	
 羅掘	lo gwat	
-攞過來	lo gwo lai	
+攞過嚟	lo gwo lai	
 攞過嚟	lo gwo lei	
 攞下	lo haa	
 裸考	lo haau	
@@ -117030,25 +116708,16 @@ import_tables:
 螺距	lo keoi	
 羅拉	lo laai	
 羅蘭	lo laan	
-攞來	lo lai	
 攞嚟	lo lai	
-攞來搞	lo lai gaau	
 攞嚟搞	lo lai gaau	
-攞來攪嘅	lo lai gaau ge	
-攞來講	lo lai gong	
+攞嚟攪嘅	lo lai gaau ge	
 攞嚟講	lo lai gong	
-攞來講嘅啫	lo lai gong ge ze	
-攞來辛苦	lo lai san fu	
+攞嚟講嘅啫	lo lai gong ge ze	
 攞嚟辛苦	lo lai san fu	
-攞來衰	lo lai seoi	
 攞嚟衰	lo lai seoi	
-攞來笑	lo lai siu	
 攞嚟笑	lo lai siu	
-攞來睇睇	lo lai tai tai	
 攞嚟睇睇	lo lai tai tai	
-攞來賤	lo lai zin	
 攞嚟賤	lo lai zin	
-攞來做	lo lai zou	
 攞嚟做	lo lai zou	
 羅勒	lo lak	
 蘿艻	lo lak	
@@ -117059,7 +116728,6 @@ import_tables:
 裸鯉	lo lei	
 攞嚟搞	lo lei gaau	
 攞嚟攪嘅	lo lei gaau ge	
-攞來講	lo lei gong	
 攞嚟講	lo lei gong	
 攞嚟講嘅啫	lo lei gong ge ze	
 蘿莉控	lo lei hung	
@@ -117077,7 +116745,7 @@ import_tables:
 囉囉攣	lo lo lyun	
 羅羅攣	lo lo lyun	
 囉囉囌囌	lo lo so so	
-攞落來	lo lok lai	
+攞落嚟	lo lok lai	
 攞落嚟	lo lok lei	
 裸露	lo lou	
 裸露狂	lo lou kwong	
@@ -117149,9 +116817,8 @@ import_tables:
 羅盤度	lo pun dou	
 羅盤座	lo pun zo	
 羅莎	lo saa	
-攞嗮彩	lo saai coi	
 攞晒彩	lo saai coi	
-攞嗮返去	lo saai faan heoi	
+攞晒返去	lo saai faan heoi	
 攞晒你命	lo saai nei meng	
 羅傘	lo saan	
 羅姍	lo saan	
@@ -117375,7 +117042,6 @@ import_tables:
 兩全其美	loeng cyun kei mei	
 糧單	loeng daan	
 兩彈一星	loeng daan jat sing	
-糧單	loeng daang	
 亮底牌	loeng dai paai	
 兩德	loeng dak	
 亮燈	loeng dang	
@@ -117666,7 +117332,6 @@ import_tables:
 糧頭	loeng tau	
 兩頭兒	loeng tau ji	
 兩頭唔到岸	loeng tau m dou ngon	
-兩頭唔到岸	loeng tau m1 dou ngon	
 兩頭蛇	loeng tau se	
 兩頭揗	loeng tau tan	
 兩頭遯	loeng tau tan	
@@ -118076,7 +117741,6 @@ import_tables:
 落臉	lok lim	
 樂陵	lok ling	
 樂陵市	lok ling si	
-咯咯	lok lok	
 落落大方	lok lok daai fong	
 落落寡歡	lok lok gwaa fun	
 落落寡交	lok lok gwaa gaau	
@@ -118118,6 +117782,7 @@ import_tables:
 樂安縣	lok on jyun	
 酪氨酸	lok on syun	
 酪氨酸代謝病	lok on syun doi ze beng	
+落魄	lok paak	
 落跑	lok paau	
 落Pub	lok pap	
 洛皮塔	lok pei taap	
@@ -118128,7 +117793,6 @@ import_tables:
 洛浦縣	lok pou jyun	
 洛佩斯	lok pui si	
 洛佩茲	lok pui zi	
-落嗮形	lok saai jing	
 落晒形	lok saai jing	
 樂山	lok saan	
 落山	lok saan	
@@ -118182,7 +117846,6 @@ import_tables:
 落臺	lok toi	
 落托	lok tok	
 落拓	lok tok	
-落魄	lok tok	
 落堂	lok tong	
 落湯雞	lok tong gai	
 樂陶陶	lok tou tou	
@@ -118925,8 +118588,6 @@ import_tables:
 老美	lou mei	
 鹵味	lou mei	
 撈麪	lou min	
-撈麵	lou min	
-攎麵	lou min	
 滷麪	lou min	
 路面	lou min	
 露面	lou min	
@@ -119628,7 +119289,7 @@ import_tables:
 錄相	luk soeng	
 陸上	luk soeng	
 淥熟	luk suk	
-淥熟嗮	luk suk saai	
+淥熟晒	luk suk saai	
 六書	luk syu	
 綠書	luk syu	
 綠樹	luk syu	
@@ -120080,12 +119741,12 @@ import_tables:
 聯貫	lyun gun	
 攣弓	lyun gung	
 攣弓蝦米	lyun gung haa mai	
-攣弓鈎鼻	lyun gung ngau bei	
+攣弓鉤鼻	lyun gung ngau bei	
 亂逛	lyun gwaang	
 亂軍	lyun gwan	
 聯軍	lyun gwan	
 亂棍打死老師傅	lyun gwan daa sei lou si fu	
-聯群結隊	lyun gwan git deoi	
+聯羣結隊	lyun gwan git deoi	
 亂揈	lyun gwang	
 亂過亂世佳人	lyun gwo lyun sai gaai jan	
 亂過亂葬崗	lyun gwo lyun zong gong	
@@ -120107,7 +119768,7 @@ import_tables:
 聯合公報	lyun hap gung bou	
 聯合軍演	lyun hap gwan jin	
 聯合國	lyun hap gwok	
-聯合國秘書處	lyun hap gwok bei syu cyu	
+聯合國祕書處	lyun hap gwok bei syu cyu	
 聯合國大會	lyun hap gwok daai wui	
 聯合國教科文組織	lyun hap gwok gaau fo man zou zik	
 聯合國氣候變化框架公約	lyun hap gwok hei hau bin faa kwaang gaa gung joek	
@@ -120148,7 +119809,6 @@ import_tables:
 攣曲	lyun kuk	
 聯羣結隊	lyun kwan git deoi	
 聯立方程	lyun laap fong cing	
-亂來	lyun lai	
 亂嚟	lyun lai	
 亂諗嘢	lyun lam je	
 亂立立	lyun lap lap	
@@ -120200,14 +119860,12 @@ import_tables:
 灤平縣	lyun ping jyun	
 鸞飄鳳泊	lyun piu fung bok	
 亂蓬蓬	lyun pung pung	
-亂曬	lyun saai	
-亂嗮大龍	lyun saai daai lung	
+亂晒	lyun saai	
 亂晒大籠	lyun saai daai lung	
-亂嗮坑	lyun saai haang	
+亂晒大龍	lyun saai daai lung	
 亂晒坑	lyun saai haang	
-亂嗮籠	lyun saai lung	
-亂嗮龍	lyun saai lung	
 亂晒籠	lyun saai lung	
+亂晒龍	lyun saai lung	
 聯衫	lyun saam	
 孿生	lyun saang	
 孿生兄弟	lyun saang hing dai	
@@ -120331,7 +119989,6 @@ import_tables:
 唔清	m cing	
 唔清楚	m cing co	
 唔清唔楚	m cing m co	
-唔清唔楚	m cing m1 co	
 唔切	m cit	
 唔撤	m cit	
 唔錯	m co	
@@ -120361,13 +120018,11 @@ import_tables:
 唔得撤	m dak cit	
 唔得掂	m dak dim	
 唔得𠶧	m dak dim	
-唔得閑	m dak haan	
 唔得閒	m dak haan	
 唔得了	m dak liu	
 唔等使	m dang sai	
 唔等洗	m dang sai	
 唔嗲唔吊	m de m diu	
-唔嗲唔吊	m de m1 diu	
 唔對路	m deoi lou	
 唔啲吖	m di aa	
 唔掂	m dim	
@@ -120434,9 +120089,9 @@ import_tables:
 唔夠氣	m gau hei	
 唔夠佢打	m gau keoi daa	
 唔夠佢鬥	m gau keoi dau	
-唔夠佢來	m gau keoi lai	
 唔夠佢嚟	m gau keoi lai	
 唔夠佢嚟	m gau keoi lei	
+唔夠佢來	m gau keoi loi	
 唔夠佢爭	m gau keoi zaang	
 唔夠力	m gau lik	
 唔夠你	m gau nei	
@@ -120461,12 +120116,10 @@ import_tables:
 唔經大腦	m ging daai nou	
 唔經唔覺	m ging m gok	
 唔驚唔覺	m ging m gok	
-唔經唔覺	m ging m1 gok	
 唔叫	m giu	
 唔啹	m goe	
 唔𢤹	m goe	
 唔該	m goi	
-唔該嗮	m goi saai	
 唔該晒	m goi saai	
 唔該先	m goi sin	
 唔該借歪	m goi ze me	
@@ -120516,7 +120169,6 @@ import_tables:
 唔係啊話	m hai aa waa	
 唔喺處	m hai cyu	
 唔喺度	m hai dou	
-唔喺道	m hai dou	
 唔係噉講	m hai gam gong	
 唔係噉話	m hai gam waa	
 唔係噉話，你過獎喇	m hai gam waa nei gwo zoeng laa	
@@ -120707,7 +120359,6 @@ import_tables:
 唔怕生壞命	m paa saang waai meng	
 唔怕生壞命，最怕改壞名	m paa saang waai meng zeoi paa goi waai meng	
 唔平	m peng	
-唔嗮	m saai	
 唔晒	m saai	
 唔三唔四	m saam m sei	
 唔生性	m saang sing	
@@ -120726,16 +120377,14 @@ import_tables:
 唔洗講	m sai gong	
 唔使客氣	m sai haak hei	
 唔使恨	m sai han	
-唔使欿	m sai han	
 唔使一陣	m sai jat zan	
 唔使憂	m sai jau	
 唔使拘	m sai keoi	
 唔使啦	m sai laa	
 唔使喇	m sai laa	
-唔使來	m sai lei	
+唔使嚟	m sai lei	
 唔犀利	m sai lei	
 唔使唔該	m sai m goi	
-唔使唔該	m sai m1 goi	
 唔使問亞貴	m sai man aa gwai	
 唔使問阿桂	m sai man aa gwai	
 唔使問阿貴	m sai man aa gwai	
@@ -120769,9 +120418,9 @@ import_tables:
 唔聲唔聲，嚇你一驚	m seng m seng haak nei jat geng	
 唔衰得	m seoi dak	
 唔需要	m seoi jiu	
-唔衰攞來衰	m seoi lo lai seoi	
 唔衰攞嚟衰	m seoi lo lai seoi	
 唔衰攞嚟衰	m seoi lo lei seoi	
+唔衰攞來衰	m seoi lo loi seoi	
 唔衰搵嚟衰	m seoi wan lai seoi	
 唔信	m seon	
 唔順	m seon	
@@ -120827,7 +120476,6 @@ import_tables:
 唔熟行	m suk hong	
 唔熟唔食	m suk m sik	
 黃皮樹了哥	m suk m sik	
-唔熟唔食	m suk m1 sik	
 唔熟性	m suk sing	
 唔舒服	m syu fuk	
 唔輸蝕	m syu sik	
@@ -120841,7 +120489,6 @@ import_tables:
 唔聽笛	m teng dek	
 唔妥	m to	
 唔湯唔水	m tong m seoi	
-唔湯唔水	m tong m1 seoi	
 唔同	m tung	
 唔痛	m tung	
 唔通	m tung	
@@ -120929,7 +120576,6 @@ import_tables:
 唔重要	m zung jiu	
 唔中用	m zung jung	
 唔轉	m zyun	
-唔知	m1 zi	
 馬伯樂	maa baak lok	
 麻瘢	maa baan	
 麻包袋	maa baau doi	
@@ -121044,7 +120690,7 @@ import_tables:
 麻煩	maa faan	
 麻煩啲	maa faan di	
 麻煩你	maa faan nei	
-麻煩嗮	maa faan saai	
+麻煩晒	maa faan saai	
 孖份	maa fan	
 瑪芬	maa fan	
 馬芬	maa fan	
@@ -121089,8 +120735,6 @@ import_tables:
 孖吉	maa gat	
 麻吉	maa gat	
 馬廄	maa gau	
-澳門朋友	maa gau faan	
-澳門風扇	maa gau faan	
 麻鳩煩	maa gau faan	
 馬具	maa geoi	
 馬經	maa ging	
@@ -121346,7 +120990,6 @@ import_tables:
 嫲嫲	maa maa	
 嬤嬤	maa maa	
 麻麻	maa maa	
-麻麻哋	maa maa dei	
 麻麻地	maa maa dei	
 馬馬虎虎	maa maa fu fu	
 罵罵咧咧	maa maa le le	
@@ -121471,7 +121114,6 @@ import_tables:
 麻繩	maa sing	
 麻城市	maa sing si	
 馬紹爾羣島	maa siu ji kwan dou	
-馬紹爾群島	maa siu ji kwan dou	
 馬上	maa soeng	
 馬上比武	maa soeng bei mou	
 馬上風	maa soeng fung	
@@ -121708,15 +121350,14 @@ import_tables:
 埋欄	maai laan	
 賣懶	maai laan	
 賣爛嘢	maai laan je	
-埋來	maai lai	
 埋嚟	maai lai	
-埋黎	maai lai	
 賣甩	maai lat	
 買樓	maai lau	
 埋嚟	maai lei	
 賣力	maai lik	
 賣力氣	maai lik hei	
 買兩邊	maai loeng bin	
+埋來	maai loi	
 買路錢	maai lou cin	
 買路財	maai lou coi	
 埋籠	maai lung	
@@ -121747,7 +121388,6 @@ import_tables:
 賣破綻	maai po zaan	
 買盤	maai pun	
 埋晒	maai saai	
-賣嗮	maai saai	
 賣晒	maai saai	
 買衫	maai saam	
 賣生藕	maai saang ngau	
@@ -121852,9 +121492,7 @@ import_tables:
 擘畫	maak waak	
 慢板	maan baan	
 慢班	maan baan	
-萬般	maan baan	
 蠻班辦	maan baan baan	
-萬般皆下品，唯有讀書高	maan baan gaai haa ban wai jau duk syu gou	
 蠻綳綳	maan baang baang	
 萬不得已	maan bat dak ji	
 漫不經心	maan bat ging sam	
@@ -121872,6 +121510,7 @@ import_tables:
 漫步者	maan bou ze	
 晚輩	maan bui	
 萬般	maan bun	
+萬般皆下品，唯有讀書高	maan bun gaai haa ban wai jau duk syu gou	
 萬般無奈	maan bun mou noi	
 慢半拍	maan bun paak	
 晚半天兒	maan bun tin ji	
@@ -121941,7 +121580,6 @@ import_tables:
 萬家生佛	maan gaa sang fat	
 晚間	maan gaan	
 扳雞	maan gai	
-掹雞	maan gai	
 摱雞	maan gai	
 𢺳雞	maan gai	
 萬金油	maan gam jau	
@@ -122339,7 +121977,7 @@ import_tables:
 盲人摸象	maang jan mo zoeng	
 盲人門球	maang jan mun kau	
 猛一看	maang jat hon	
-猛野	maang je	
+猛嘢	maang je	
 猛然	maang jin	
 孟縣	maang jyun	
 猛禽	maang kam	
@@ -122603,7 +122241,6 @@ import_tables:
 米該亞	mai goi aa	
 米缸	mai gong	
 咪高峯	mai gou fung	
-咪高峰	mai gou fung	
 咪高風	mai gou fung	
 米高揚	mai gou joeng	
 米高積遜	mai gou zik seon	
@@ -122741,7 +122378,6 @@ import_tables:
 咪嘴	mai zeoi	
 迷醉	mai zeoi	
 迷津	mai zeon	
-咪住	mai zi	
 咪自	mai zi	
 米脂	mai zi	
 咪指擬	mai zi ji	
@@ -122979,7 +122615,7 @@ import_tables:
 文不加點	man bat gaa dim	
 文筆流暢	man bat lau coeng	
 民不聊生	man bat liu sang	
-文秘	man bei	
+文祕	man bei	
 蚊肶同牛肶	man bei tung ngau bei	
 蚊髀同牛脾	man bei tung ngau bei	
 蚊髀同牛髀	man bei tung ngau bei	
@@ -123582,7 +123218,7 @@ import_tables:
 繃繃緊	mang mang gan	
 萌芽	mang ngaa	
 掹炮	mang paau	
-盟嗮	mang saai	
+盟晒	mang saai	
 掹衫尾	mang saam mei	
 絣衫尾	mang saam mei	
 盟山誓海	mang saan sai hoi	
@@ -123593,7 +123229,6 @@ import_tables:
 萌生	mang sang	
 擝實	mang sat	
 擝繩	mang sing	
-絣繩	mang sing	
 盟書	mang syu	
 絣藤	mang tang	
 䁅𤿆	mang zang	
@@ -123632,7 +123267,7 @@ import_tables:
 密啲手	mat di sau	
 密電	mat din	
 嘧啶	mat ding	
-乜都	mat dou	100.0
+乜都	mat dou	1000.0
 密度	mat dou	
 密度波	mat dou bo	
 乜都得	mat dou dak	
@@ -123672,6 +123307,7 @@ import_tables:
 密告	mat gou	
 蜜罐	mat gun	
 蜜供	mat gung	
+乜公司	mat gung si	
 蜜瓜	mat gwaa	
 乜鬼	mat gwai	
 乜鬼嘢	mat gwai je	
@@ -123695,10 +123331,9 @@ import_tables:
 密友	mat jau	
 物有所值	mat jau so zik	
 乜嘢	mat je	
-乜野	mat je	
 乜嘢料呀	mat je liu aa	
 乜嘢料啊	mat je liu aa	
-乜嘢新絲蘿蔔皮	mat je san si lo baak pei	
+乜嘢新鮮蘿蔔皮	mat je san sin lo baak pei	
 乜嘢時間	mat je si gaan	
 乜嘢時候	mat je si hau	
 乜嘢話	mat je waa	
@@ -123751,7 +123386,6 @@ import_tables:
 乜料呀	mat liu aa	
 密鑼緊鼓	mat lo gan gu	
 蜜露	mat lou	
-密竉	mat lung	
 密籠	mat lung	
 密龍	mat lung	
 密碼	mat maa	
@@ -123860,7 +123494,6 @@ import_tables:
 密植	mat zik	
 密織	mat zik	
 蜜餞	mat zin	
-物証	mat zing	
 物證	mat zing	
 密接	mat zip	
 密詔	mat ziu	
@@ -123992,14 +123625,13 @@ import_tables:
 咩班	me baan	
 哶班	me baan	
 咩筆	me bat	
-乜斜	me ce	
 咩車	me ce	
+歪斜	me ce	
 孭重飛	me cung fei	
 孭帶	me daai	
 孭凳仔	me dang zai	
 咩碟	me dip	
 孭袋	me doi	
-乜都	me dou	
 咩都	me dou	
 咩都假	me dou gaa	
 咩都唔驚	me dou m geng	
@@ -124008,16 +123640,12 @@ import_tables:
 咩叫	me giu	
 咩歌	me go	
 咩角色	me gok sik	
-乜公司	me gung si	
 咩公司	me gung si	
 咩鬼	me gwai	
 哶戲	me hei	
 孭起	me hei	
-乜人	me jan	
 咩人	me jan	
-乜野	me je	
 咩嘢	me je	
-咩野	me je	
 咩嘢嚟㗎	me je lai gaa	
 咩嘢環境啊	me je waan ging aa	
 咩意思	me ji si	
@@ -124040,7 +123668,7 @@ import_tables:
 歪帽	me mou	
 咩衫	me saam	
 歪身歪勢	me san me sai	
-乜水	me seoi	
+咩水	me seoi	
 咩事	me si	
 咩事啊	me si aa	
 咩視頻	me si pan	
@@ -124048,7 +123676,7 @@ import_tables:
 孭數	me sou	
 孭臊蝦仔	me sou haa zai	
 孭書包	me syu baau	
-乜說話	me syut waa	
+咩說話	me syut waa	
 孭鐵	me tit	
 咩圖	me tou	
 咩圖片	me tou pin	
@@ -124783,7 +124411,6 @@ import_tables:
 面不改色	min bat goi sik	
 免不了	min bat liu	
 麪餅	min beng	
-麵餅	min beng	
 面壁	min bik	
 面壁思過	min bik si gwo	
 綿薄	min bok	
@@ -124846,9 +124473,7 @@ import_tables:
 免費軟件	min fai jyun gin	
 免費週	min fai zau	
 麪粉	min fan	
-麵粉	min fan	
 麪粉公仔	min fan gung zai	
-麵粉公仔	min fan gung zai	
 免罰	min fat	
 面肥	min fei	
 麪肥	min fei	
@@ -124866,7 +124491,6 @@ import_tables:
 面交	min gaau	
 面巾	min gan	
 麪筋	min gan	
-麵筋	min gan	
 棉緊身	min gan san	
 面巾紙	min gan zi	
 綿亙	min gang	
@@ -125061,7 +124685,6 @@ import_tables:
 面試	min si	
 面豉	min si	
 麪豉	min si	
-麵豉	min si	
 面試工作	min si gung zok	
 面試會	min si wui	
 麪豉醬	min si zoeng	
@@ -126206,7 +125829,6 @@ import_tables:
 網約車	mong joek ce	
 亡羊補牢	mong joeng bou lou	
 望洋興嘆	mong joeng hing taan	
-望洋興歎	mong joeng hing taan	
 妄語	mong jyu	
 忙於	mong jyu	
 網語	mong jyu	
@@ -127009,18 +126631,16 @@ import_tables:
 無休無止	mou jau mou zi	
 冇有怕	mou jau paa	
 冇嘢	mou je	
-冇野	mou je	
 冇嘢吖	mou je aa	
 冇嘢啊	mou je aa	
 冇嘢啊嘛	mou je aa maa	
 母夜叉	mou je caa	
-冇野矴口	mou je deng hau	
+冇嘢矴口	mou je deng hau	
 冇嘢到	mou je dou	
 冇嘢講	mou je gong	
-冇野講	mou je gong	
 冇嘢好講	mou je hou gong	
 冇嘢傾	mou je king	
-無嘢撈	mou je lou	
+嘢撈	mou je lou	
 冇嘢玩	mou je waan	
 巫醫	mou ji	
 摹擬	mou ji	
@@ -127074,7 +126694,6 @@ import_tables:
 冒認	mou jing	
 帽纓	mou jing	
 模型	mou jing	
-模形	mou jing	
 無形	mou jing	
 母嬰健康院	mou jing gin hong jyun	
 戊型肝炎	mou jing gon jim	
@@ -127083,7 +126702,7 @@ import_tables:
 無形輸出	mou jing syu ceot	
 無形中	mou jing zung	
 無業	mou jip	
-無業閑散	mou jip haan saan	
+無業閒散	mou jip haan saan	
 無業游民	mou jip jau man	
 無業遊民	mou jip jau man	
 毛腰	mou jiu	
@@ -127333,8 +126952,6 @@ import_tables:
 冇乜點	mou mat dim	
 冇乜好死	mou mat hou sei	
 冇乜嘢	mou mat je	
-冇乜野	mou mat je	
-無乜嘢	mou mat je	
 冇乜料	mou mat liu	
 冇乜兩句	mou mat loeng geoi	
 冇密碼	mou mat maa	
@@ -127345,7 +126962,7 @@ import_tables:
 冇咩	mou me	
 無咩	mou me	
 冇咩大用	mou me daai jung	
-冇乜點	mou me dim	
+冇咩點	mou me dim	
 冇咩人	mou me jan	
 無咩人	mou me jan	
 嫵媚	mou mei	
@@ -127370,8 +126987,8 @@ import_tables:
 冒名頂替者	mou ming ding tai ze	
 無名火	mou ming fo	
 無名火起	mou ming fo hei	
-慕名而來	mou ming ji lai	
-慕名而來	mou ming ji lei	
+慕名而嚟	mou ming ji lai	
+慕名而嚟	mou ming ji lei	
 慕名而來	mou ming ji loi	
 無名英雄	mou ming jing hung	
 武鳴縣	mou ming jyun	
@@ -127408,13 +127025,12 @@ import_tables:
 冇𪐀經	mou naa gaang	
 冇𪐀耕	mou naa gaang	
 冇挐掕	mou naa lang	
-冇挐冇掕	mou naa mou nang	
+冇挐冇掕	mou naa mou lang	
 冇𠸎冇褦	mou naa mou nang	
 冇𪐀冇褦	mou naa mou nang	
 無嗱嗱	mou naa naa	
 無𠸎𠸎	mou naa naa	
 無𪐀𪐀	mou naa naa	
-冇挐掕	mou naa nang	
 冇𠸎褦	mou naa nang	
 冇𪐀㨢	mou naa nang	
 冇𪐀褦	mou naa nang	
@@ -127503,19 +127119,16 @@ import_tables:
 冒泡	mou pou	
 毛坯	mou pui	
 嘸啥	mou saa	
-冇嗮	mou saai	
 冇晒	mou saai	
 無晒	mou saai	
-冇嗮表情	mou saai biu cing	
 冇晒表情	mou saai biu cing	
-冇嗮符	mou saai fu	
 冇晒符	mou saai fu	
-冇嗮符弗	mou saai fu fit	
-冇嗮姣氣	mou saai haau hei	
-冇嗮行	mou saai hong	
+冇晒符弗	mou saai fu fit	
+冇晒姣氣	mou saai haau hei	
+冇晒行	mou saai hong	
 冇晒面	mou saai min	
 冇晒心機	mou saai sam gei	
-冇嗮聲氣	mou saai seng hei	
+冇晒聲氣	mou saai seng hei	
 毛衫	mou saam	
 無三不成幾	mou saam bat sing gei	
 巫山	mou saan	
@@ -127629,7 +127242,7 @@ import_tables:
 無絲分裂	mou si fan lit	
 冇時間	mou si gaan	
 冇事幹	mou si gon	
-冇時閑	mou si haan	
+冇時閒	mou si haan	
 無私顯見私	mou si hin gin si	
 無事獻殷勤非奸即盜	mou si hin jan kan fei gaan zik dou	
 無事獻殷勤，非奸即盜	mou si hin jan kan fei gaan zik dou	
@@ -127870,7 +127483,6 @@ import_tables:
 武進區	mou zeon keoi	
 無出貓	mou zeot maau	
 墓誌	mou zi	
-姆指	mou zi	
 帽子	mou zi	
 戊子	mou zi	
 拇指	mou zi	
@@ -128230,7 +127842,6 @@ import_tables:
 目鏡	muk geng	
 目擊	muk gik	
 目擊者	muk gik ze	
-目擊証人	muk gik zing jan	
 目擊證人	muk gik zing jan	
 木劍	muk gim	
 目見	muk gin	
@@ -128797,7 +128408,7 @@ import_tables:
 蒙蒙	mung mung	
 懵懵閉	mung mung bai	
 朦朦茶茶	mung mung caa caa	
-懵懵哋	mung mung dei	
+懵懵地	mung mung dei	
 懵懵懂懂	mung mung dung dung	
 曚曚光	mung mung gwong	
 矇矇光	mung mung gwong	
@@ -128946,7 +128557,7 @@ import_tables:
 沒有規矩，不成方圓	mut jau kwai geoi bat sing fong jyun	
 沒有規矩，何以成方圓	mut jau kwai geoi ho ji sing fong jyun	
 沒有臉皮	mut jau lim pei	
-沒有我份	mut jau ngoe fan	
+沒有我份	mut jau ngo fan	
 沒有什麼	mut jau sam mo	
 沒有甚麼	mut jau sam mo	
 沒有甚麼不可能	mut jau sam mo bat ho nang	
@@ -129114,18 +128725,13 @@ import_tables:
 那末	naa mut	
 娜娜	naa naa	
 乸乸地	naa naa dei	
-嗱嗱林	naa naa lam	
-嗱嗱淋	naa naa lam	
-拿拿冧	naa naa lam	
-拿拿林	naa naa lam	
-拿拿淋	naa naa lam	
-拿拿臨	naa naa lam	
+嗱嗱臨	naa naa lam	
 挐挐掕掕	naa naa lang lang	
 𠸎𠸎褦褦	naa naa nang nang	
 𪐀𪐀褦褦	naa naa nang nang	
 嗱嗱聲	naa naa seng	
 拿拿聲	naa naa seng	
-拿拿聲	naa naa sing	
+嗱嗱聲	naa naa sing	
 𠸎㨢	naa nang	
 𠸎褦	naa nang	
 𢲡𠹌	naa nang	
@@ -129214,7 +128820,7 @@ import_tables:
 奶母	naai mou	
 奶奶	naai naai	
 奶奶的	naai naai dik	
-乃乃閑	naai naai haan	
+乃乃閒	naai naai haan	
 奶牛	naai ngau	
 奶牛場	naai ngau coeng	
 乃念	naai nim	
@@ -129281,7 +128887,6 @@ import_tables:
 南齊書	naam cai syu	
 南潯	naam cam	
 南潯區	naam cam keoi	
-男厠	naam ci	
 男廁	naam ci	
 男廁所	naam ci so	
 南朝	naam ciu	
@@ -129671,7 +129276,6 @@ import_tables:
 男裝櫃	naam zong gwai	
 南莊鄉	naam zong hoeng	
 南棗	naam zou	
-南竹	naam zuk	
 楠竹	naam zuk	
 南中國海	naam zung gwok hoi	
 男中音	naam zung jam	
@@ -129915,7 +129519,6 @@ import_tables:
 鬧中取靜	naau zung ceoi zing	
 泥鴨	nai aap	
 泥巴	nai baa	
-泥掽	nai baan	
 泥湴	nai baan	
 泥湴醬	nai baan zoeng	
 泥剷	nai caan	
@@ -130024,9 +129627,9 @@ import_tables:
 腍厴	nam jim	
 諗竅	nam kiu	
 諗爛心肝	nam laan sam gon	
-諗來度去	nam lai dok heoi	
 諗嚟度去	nam lai dok heoi	
 諗嚟度去	nam lei dok heoi	
+諗來度去	nam loi dok heoi	
 恁落	nam lok	
 諗落	nam lok	
 諗唔掂	nam m dim	
@@ -130113,7 +129716,6 @@ import_tables:
 粒白細胞	nap baak sai baau	
 凹板	nap baan	
 凹版	nap baan	
-𣲷黏黏	nap ci ci	
 𣲷黐黐	nap ci ci	
 𥹉黐黐	nap ci ci	
 𥹉稱稱	nap cing cing	
@@ -130194,7 +129796,6 @@ import_tables:
 扭動	nau dung	
 紐芬蘭	nau fan laan	
 紐芬蘭與拉布拉多	nau fan laan jyu laai bou laai do	
-澩嫪	nau gaau	
 扭偈	nau gai	
 扭計	nau gai	
 扭計師爺	nau gai si je	
@@ -130279,7 +129880,7 @@ import_tables:
 嬲咗	nau zo	
 扭轉	nau zyun	
 呢吓	ne haa	
-呢可	ne ho	
+呢嗬	ne ho	
 呢嗱	ne naa	
 你啊	nei aa	
 尼雅	nei aa	
@@ -130318,7 +129919,6 @@ import_tables:
 尼德蘭	nei dak laan	
 你等	nei dang	
 你哋	nei dei	
-你地	nei dei	
 你哋啲	nei dei di	
 你哋嘅	nei dei ge	
 你哋自己	nei dei zi gei	
@@ -130349,7 +129949,6 @@ import_tables:
 彌渡縣	nei dou jyun	
 你都識	nei dou sik	
 你東我西	nei dung ngo sai	
-你東我西	nei dung ngoe sai	
 你快來	nei faai loi	
 膩煩	nei faan	
 呢瓣嘢	nei faan je	
@@ -130387,7 +129986,6 @@ import_tables:
 你個死人頭	nei go sei jan tau	
 你個頭	nei go tau	
 你講嘢呀	nei gong je aa	
-你講嘢呀	nei gong je ah	
 你講乜撚嘢	nei gong mat lan je	
 你講咩嘢話	nei gong me je waa	
 你高	nei gou	
@@ -130538,7 +130136,7 @@ import_tables:
 尼斯	nei si	
 你試下	nei si haa	
 尼斯湖水怪	nei si wu seoi gwaai	
-你先	nei sin	100.0
+你先	nei sin	1000.0
 餌線	nei sin	
 你上	nei soeng	
 尼桑	nei song	
@@ -130587,8 +130185,8 @@ import_tables:
 你就想	nei zau soeng	
 你這個	nei ze go	
 你隻	nei zek	
+你隻嘢	nei zek je	
 呢隻嘢	nei zek je	
-你隻嘢	nei zek jek	
 你隻手	nei zek sau	
 你最紅	nei zeoi hung	
 你追我趕	nei zeoi ngo gon	
@@ -130621,7 +130219,6 @@ import_tables:
 女僕	neoi buk	
 女伴	neoi bun	
 女襯衫	neoi can saam	
-女厠	neoi ci	
 女廁	neoi ci	
 女廁所	neoi ci so	
 女牆	neoi coeng	
@@ -131152,8 +130749,6 @@ import_tables:
 吳忠市	ng zung si	
 捂住	ng zyu	
 吳尊	ng zyun	
-牙齒痕	ng3aa ci han	
-牙屎屎	ng3aa si si	
 牙呀仔	ngaa aa zai	
 牙白	ngaa baak	
 牙班	ngaa baan	
@@ -131397,7 +130992,6 @@ import_tables:
 牙套	ngaa tou	
 牙痛	ngaa tung	
 牙痛慘過大病	ngaa tung caam gwo daai beng	
-牙痛咁聲	ngaa tung gam seng	
 牙痛噉聲	ngaa tung gam seng	
 瓦通紙	ngaa tung zi	
 瓦通紙盒	ngaa tung zi hap	
@@ -131607,7 +131201,6 @@ import_tables:
 呃呃𧨾𧨾	ngaak ngaak tam tam	
 額外	ngaak ngoi	
 額外性	ngaak ngoi sing	
-呃嗮	ngaak saai	
 呃晒	ngaak saai	
 呃神騙鬼	ngaak san pin gwai	
 額手稱慶	ngaak sau cing hing	
@@ -131669,10 +131262,9 @@ import_tables:
 啱啱線	ngaam ngaam sin	
 啱啱先至	ngaam ngaam sin zi	
 岩沙海葵毒素	ngaam saa hoi kwai duk sou	
-啱嗮	ngaam saai	
 啱晒	ngaam saai	
 啱晒合尺	ngaam saai ho ce	
-啱哂你	ngaam saai nei	
+啱晒你	ngaam saai nei	
 啱使	ngaam sai	
 癌細胞	ngaam sai baau	
 啱心水	ngaam sam seoi	
@@ -131994,12 +131586,10 @@ import_tables:
 硬灌	ngaang gun	
 硬功夫	ngaang gung fu	
 硬瓜瓜	ngaang gwaa gwaa	
-硬摑摑	ngaang gwaak gwaak	
 硬𥕏𥕏	ngaang gwaak gwaak	
+硬觥觥	ngaang gwaang gwaang	
+硬觵觵	ngaang gwaang gwaang	
 硬櫃	ngaang gwai	
-硬倔倔	ngaang gwak gwak	
-硬掘掘	ngaang gwak gwak	
-硬摑摑	ngaang gwak gwak	
 硬榾榾	ngaang gwak gwak	
 硬𥕏𥕏	ngaang gwak gwak	
 硬倔倔	ngaang gwat gwat	
@@ -132029,8 +131619,6 @@ import_tables:
 硬盤	ngaang pun	
 硬碰硬	ngaang pung ngaang	
 硬晒	ngaang saai	
-硬嗮舦	ngaang saai taai	
-硬嗮軚	ngaang saai taai	
 硬晒舦	ngaang saai taai	
 硬晒軚	ngaang saai taai	
 硬生生	ngaang saang saang	
@@ -132062,11 +131650,7 @@ import_tables:
 硬着頭皮	ngaang zoek tau pei	
 硬仗	ngaang zoeng	
 押高褲腳	ngaap gou fu goek	
-擪高褲腳	ngaap gou fu goek	
-押高衫袖	ngaap gou saam zau	
 擪高衫袖	ngaap gou saam zau	
-押屎片	ngaap si pin	
-擪屎片	ngaap si pin	
 鴨仔團	ngaap zai tyun	
 餲堪堪	ngaat ham ham	
 嚙牙	ngaat ngaa	
@@ -132119,7 +131703,6 @@ import_tables:
 咬老軟	ngaau lou jyun	
 淆亂	ngaau lyun	
 咬唔入	ngaau m jap	
-咬唔入	ngaau m zap	
 咬米	ngaau mai	
 咬文嚼字	ngaau man zoek zi	
 咬木蝨	ngaau muk sat	
@@ -132130,8 +131713,7 @@ import_tables:
 咬齧	ngaau ngit	
 咬我食	ngaau ngo sik	
 殽晒框	ngaau saai gwaang	
-殽嗮框	ngaau saai kwaang	
-𢯎嗮頭	ngaau saai tau	
+殽晒框	ngaau saai kwaang	
 𢯎晒頭	ngaau saai tau	
 咬實牙根	ngaau sat ngaa gan	
 咬實牙關	ngaau sat ngaa gwaan	
@@ -132338,7 +131920,6 @@ import_tables:
 呃呃氹氹	ngak ngak tam tam	
 呃呃𠱁𠱁	ngak ngak tam tam	
 呃呃𧨾𧨾	ngak ngak tam tam	
-呃嗮	ngak saai	
 呃晒	ngak saai	
 呃神騙鬼	ngak san pin gwai	
 呃食	ngak sik	
@@ -132348,7 +131929,7 @@ import_tables:
 撢穿袋	ngam cyun doi	
 扲袋	ngam doi	
 扲荷包	ngam ho baau	
-吟來吟去	ngam lai ngam heoi	
+吟嚟吟去	ngam lai ngam heoi	
 吟嚟吟去	ngam lei ngam heoi	
 吟吟尋尋	ngam ngam cam cam	
 吟吟沉沉	ngam ngam cam cam	
@@ -132458,7 +132039,7 @@ import_tables:
 䟴䟴腳	ngan ngan goek	
 印印腳	ngan ngan goek	
 扤扤腳	ngan ngan goek	
-䟴䟴吓	ngan ngan haa	
+䟴䟴下	ngan ngan haa	
 齦齶音	ngan ngok jam	
 仁棯	ngan nim	
 銀棯	ngan nim	
@@ -132638,7 +132219,7 @@ import_tables:
 藕瓜	ngau gwaa	
 牛鬼蛇神	ngau gwai se san	
 牛骨	ngau gwat	
-鈎骨	ngau gwat	
+鉤骨	ngau gwat	
 偶函數	ngau haam sou	
 偶合	ngau hap	
 耦合	ngau hap	
@@ -132812,7 +132393,6 @@ import_tables:
 勾劃	ngau waak	
 勾畫	ngau waak	
 勾魂	ngau wan	
-牛王	ngau woeng	
 牛王	ngau wong	
 牛黃	ngau wong	
 牛王妹	ngau wong mui	
@@ -132866,6 +132446,7 @@ import_tables:
 齧齒類	ngit ci leoi	
 齧牙	ngit ngaa	
 俄巴底亞書	ngo baa dai aa syu	
+我班同學	ngo baan tung hok	
 臥不安	ngo bat on	
 我比	ngo bei	
 俄備得	ngo bei dak	
@@ -132889,17 +132470,13 @@ import_tables:
 鵝蛋粉	ngo daan fan	
 鵝蛋口面	ngo daan hau min	
 鵝蛋形	ngo daan jing	
-卧底	ngo dai	
 臥底	ngo dai	
 臥底行動	ngo dai hang dung	
 俄底浦斯	ngo dai pou si	
 俄底浦斯情結	ngo dai pou si cing git	
 我等	ngo dang	
-我哋	ngo dei	1000.0
-我哋	ngo dei	
-我地	ngo dei	
+我哋	ngo dei	10000.0
 我哋嘅	ngo dei ge	
-我地嘅	ngo dei ge	
 我哋自己	ngo dei zi gei	
 我哋自己嘅	ngo dei zi gei ge	
 我啲	ngo di	
@@ -133042,7 +132619,6 @@ import_tables:
 餓殍載道	ngo piu zoi dou	
 餓莩載道	ngo piu zoi dou	
 鵝朴	ngo pok	
-卧鋪	ngo pou	
 臥鋪	ngo pou	
 峨山彞族自治縣	ngo saan ji zuk zi zi jyun	
 峨山縣	ngo saan jyun	
@@ -133083,6 +132659,7 @@ import_tables:
 我隻	ngo zek	
 我醉欲眠	ngo zeoi juk min	
 我只	ngo zi	
+我知	ngo zi	
 蛾子	ngo zi	
 訛字	ngo zi	
 我自己	ngo zi gei	
@@ -133094,9 +132671,6 @@ import_tables:
 我仲	ngo zung	
 俄中朝	ngo zung ciu	
 我住	ngo zyu	
-我班同學	ngoe baan tung hok	
-我地	ngoe dei	
-我知	ngoe zi	
 呆板	ngoi baan	
 外辦	ngoi baan	
 呆扳手	ngoi baan sau	
@@ -133463,7 +133037,6 @@ import_tables:
 𩓥高頭	ngok gou tau	
 齶骨	ngok gwat	
 岳起	ngok hei	
-愕起	ngok hei	
 樂器	ngok hei	
 𩓥起	ngok hei	
 樂學者	ngok hok ze	
@@ -133572,7 +133145,7 @@ import_tables:
 戇乜居	ngong mat geoi	
 昂納克	ngong naap hak	
 昂昂	ngong ngong	
-戇戇哋	ngong ngong dei	
+戇戇地	ngong ngong dei	
 昂昂溪	ngong ngong kai	
 昂昂溪區	ngong ngong kai keoi	
 骯骯髒髒	ngong ngong zong zong	
@@ -133653,7 +133226,7 @@ import_tables:
 呢幾個	ni gei go	
 呢幾日	ni gei jat	
 呢幾年	ni gei nin	
-呢幾年來	ni gei nin lai	
+呢幾年嚟	ni gei nin lai	
 呢幾年嚟	ni gei nin lei	
 呢句	ni geoi	
 呢句話	ni geoi waa	
@@ -133663,8 +133236,8 @@ import_tables:
 呢個嘢	ni go je	
 呢個月	ni go jyut	
 呢個時候	ni go si hau	
-呢一㬍	ni jat bou	
 呢一牌	ni jat paai	
+呢一鋪	ni jat pou	
 呢嘢	ni je	
 呢樣	ni joeng	
 呢樣嗰樣	ni joeng go joeng	
@@ -133701,7 +133274,7 @@ import_tables:
 昵稱	nik cing	
 暱稱	nik cing	
 匿藏	nik cong	
-搦過來	nik gwo lai	
+搦過嚟	nik gwo lai	
 搦過嚟	nik gwo lei	
 溺嬰	nik jing	
 匿影藏形	nik jing cong jing	
@@ -133714,7 +133287,6 @@ import_tables:
 溺死	nik sei	
 溺水	nik seoi	
 搦走	nik zau	
-攊走	nik zau	
 匿跡	nik zik	
 溺職	nik zik	
 搦戰	nik zin	
@@ -133746,12 +133318,8 @@ import_tables:
 粘合	nim hap	
 黏合	nim hap	
 粘合劑	nim hap zai	
-唸口簧	nim hau woeng	
 唸口簧	nim hau wong	
 唸口黃	nim hau wong	
-唸口黄	nim hau wong	
-念口簧	nim hau wong	
-念口黃	nim hau wong	
 拈輕怕重	nim hing paa cung	
 拈香	nim hoeng	
 念學位	nim hok wai	
@@ -133774,7 +133342,7 @@ import_tables:
 粘木	nim muk	
 粘粘	nim nim	
 念念不忘	nim nim bat mong	
-黏黏哋	nim nim dei	
+黏黏地	nim nim dei	
 唸唸有詞	nim nim jau ci	
 念念有詞	nim nim jau ci	
 拈拈苫苫	nim nim sim sim	
@@ -134000,10 +133568,6 @@ import_tables:
 檸茶	ning caa	
 寧拆十座廟，不毀一樁婚	ning caak sap zo miu bat wai jat zong fan	
 檸七	ning cat	
-拎出	ning ceot	
-拎出去	ning ceot heoi	
-拎出來	ning ceot lai	
-拎出嚟	ning ceot lei	
 寧德	ning dak	
 寧德地區	ning dak dei keoi	
 寧德市	ning dak si	
@@ -134013,17 +133577,13 @@ import_tables:
 寧都縣	ning dou jyun	
 寧化	ning faa	
 寧化縣	ning faa jyun	
-拎翻去	ning faan heoi	
-拎返去	ning faan heoi	
-拎翻屋企	ning faan uk kei	
-拎返屋企	ning faan uk kei	
 寧教人打仔，莫教人分妻	ning gaau jan daa zai mok gaau jan fan cai	
 擰緊	ning gan	
 寧岡	ning gong	
 寧江	ning gong	
 寧岡縣	ning gong jyun	
 寧江區	ning gong keoi	
-擰過身來	ning gwo san lai	
+擰過身嚟	ning gwo san lai	
 擰過身嚟	ning gwo san lei	
 寧國	ning gwok	
 寧國市	ning gwok si	
@@ -134063,7 +133623,6 @@ import_tables:
 寧蒗縣	ning long jyun	
 獰貓	ning maau	
 檸蜜	ning mat	
-擰乜面	ning me min	
 擰歪面	ning me min	
 寧明	ning ming	
 寧明縣	ning ming jyun	
@@ -134085,7 +133644,7 @@ import_tables:
 寧南縣	ning naam jyun	
 寧安	ning on	
 寧安市	ning on si	
-擰嗮頭	ning saai tau	
+擰晒頭	ning saai tau	
 佞臣	ning san	
 寧舍	ning se	
 寧死不屈	ning sei bat wat	
@@ -134101,7 +133660,6 @@ import_tables:
 寧爲雞頭，不爲鳳尾	ning wai gai tau bat wai fung mei	
 寧爲玉碎，不爲瓦全	ning wai juk seoi bat wai ngaa cyun	
 寧爲玉碎，不作瓦全	ning wai juk seoi bat zok ngaa cyun	
-拎走	ning zau	
 寧晉	ning zeon	
 寧津	ning zeon	
 寧晉縣	ning zeon jyun	
@@ -134111,7 +133669,6 @@ import_tables:
 寧左勿右	ning zo mat jau	
 寧做雞頭，不做鳳尾	ning zou gai tau bat zou fung mei	
 寧宗	ning zung	
-拎住	ning zyu	
 擰轉	ning zyun	
 擰轉身	ning zyun san	
 擰轉頭	ning zyun tau	
@@ -134217,7 +133774,7 @@ import_tables:
 鳥眼紋	niu ngaan man	
 尿尿	niu niu	
 裊裊	niu niu	
-嬲嬲哋	niu niu dei	
+嬲嬲地	niu niu dei	
 嫋嫋瘦瘦	niu niu sau sau	
 裊裊婷婷	niu niu ting ting	
 裊娜	niu no	
@@ -134404,7 +133961,6 @@ import_tables:
 內哄	noi hung	
 內訌	noi hung	
 內鬨	noi hung	
-共鬨	noi hung	
 內人	noi jan	
 耐人尋味	noi jan cam mei	
 內丘	noi jau	
@@ -134912,7 +134468,7 @@ import_tables:
 暖粒粒	nyun nap nap	
 嫩芽	nyun ngaa	
 暖暖	nyun nyun	
-暖暖哋	nyun nyun dei	
+暖暖地	nyun nyun dei	
 暖暖區	nyun nyun keoi	
 暖瓶	nyun ping	
 暖水袋	nyun seoi doi	
@@ -134923,7 +134479,6 @@ import_tables:
 嫩滑	nyun waat	
 暖和	nyun wo	
 暖壺	nyun wu	
-暖墊	nyun zin	
 暖氈	nyun zin	
 嫩雀	nyun zoek	
 嫰雀	nyun zoek	
@@ -135212,7 +134767,6 @@ import_tables:
 哀訴	oi sou	
 噯酸	oi syun	
 哀嘆	oi taan	
-哀歎	oi taan	
 哀痛	oi tung	
 愛屋及鳥	oi uk kap niu	
 愛屋及烏	oi uk kap wu	
@@ -135293,10 +134847,7 @@ import_tables:
 惡語	ok jyu	
 惡語傷人	ok jyu soeng jan	
 惡語中傷	ok jyu zung soeng	
-惡哽	ok kang	
-惡啃	ok kang	
 惡骾	ok kang	
-惡鯁	ok kang	
 惡𠽤	ok kik	
 惡辣	ok laat	
 惡浪	ok long	
@@ -135380,7 +134931,6 @@ import_tables:
 案稱	on cing	
 安設	on cit	
 安卓	on coek	
-安祥	on coeng	
 安詳	on coeng	
 安塞	on coi	
 安塞縣	on coi jyun	
@@ -135497,7 +135047,6 @@ import_tables:
 氨基葡糖	on gei pou tong	
 氨基葡萄糖	on gei pou tou tong	
 氨基酸	on gei syun	
-胺基酸	on gei syun	
 安居	on geoi	
 安居工程	on geoi gung cing	
 安居區	on geoi keoi	
@@ -135517,12 +135066,11 @@ import_tables:
 案卷	on gyun	
 按下	on haa	
 按下葫蘆浮起瓢	on haa wu lou fau hei piu	
-安閑	on haan	
 安閒	on haan	
-安閑隨意	on haan ceoi ji	
-安閑舒適	on haan syu sik	
-安閑自得	on haan zi dak	
-安閑自在	on haan zi zoi	
+安閒隨意	on haan ceoi ji	
+安閒舒適	on haan syu sik	
+安閒自得	on haan zi dak	
+安閒自在	on haan zi zoi	
 氨哮素	on haau sou	
 安克拉治	on hak laai zi	
 安克雷奇	on hak leoi kei	
@@ -135758,7 +135306,6 @@ import_tables:
 奧巴馬	ou baa maa	
 澳幣	ou bai	
 奧祕	ou bei	
-奧秘	ou bei	
 奧布里	ou bou lei	
 奧切諾斯	ou cit nok si	
 奧塞羅	ou coi lo	
@@ -135821,7 +135368,7 @@ import_tables:
 奧利安	ou lei on	
 奧利奧	ou lei ou	
 奧里薩邦	ou lei saat bong	
-擙落來	ou lok lai	
+擙落嚟	ou lok lai	
 擙落嚟	ou lok lei	
 奧朗德	ou long dak	
 奧盧	ou lou	
@@ -135881,11 +135428,9 @@ import_tables:
 奧運賽	ou wan coi	
 奧運村	ou wan cyun	
 奧運城市	ou wan sing si	
-噢運會	ou wan wui	
 奧運會	ou wan wui	
 奧援	ou wun	
 澳際	ou zai	
-澳州	ou zau	
 澳洲	ou zau	
 澳洲廣播電臺	ou zau gwong bo din toi	
 澳洲航空	ou zau hong hung	
@@ -135906,12 +135451,10 @@ import_tables:
 爬蟲動物	paa cung dung mat	
 爬蟲類	paa cung leoi	
 趴低	paa dai	
-趴底	paa dai	
 耙地	paa dei	
 扒釘	paa deng	
 怕凍	paa dung	
 扒飯	paa faan	
-爬飯	paa faan	
 扒糞	paa fan	
 扒房	paa fong	
 怕苦	paa fu	
@@ -135949,6 +135492,7 @@ import_tables:
 怕你有牙	paa nei jau ngaa	
 扒逆水	paa ngaak seoi	
 怕怕	paa paa	
+怕晒	paa saai	
 怕曬	paa saai	
 趴晒地	paa saai dei	
 爬山	paa saan	
@@ -135982,7 +135526,6 @@ import_tables:
 扒仔	paa zai	
 琶洲	paa zau	
 耙子	paa zi	
-怕唧	paa zit	
 怕擮	paa zit	
 排版	paai baan	
 牌品	paai ban	
@@ -136171,8 +135714,6 @@ import_tables:
 牌桌	paai zoek	
 排長	paai zoeng	
 牌章	paai zoeng	
-排長籠	paai zoeng lung	
-排長龍	paai zoeng lung	
 派駐	paai zyu	
 拍板	paak baan	
 拍膊頭	paak bok tau	
@@ -136268,8 +135809,8 @@ import_tables:
 柏木	paak muk	
 拍門	paak mun	
 拍門收數	paak mun sau sou	
+啪拿	paak naa	
 拍乸	paak naa	
-派拿	paak naa	
 啪紐	paak nau	
 帕尼巴特	paak nei baa dak	
 帕瓦蒂	paak ngaa dai	
@@ -136448,10 +135989,8 @@ import_tables:
 棒糖	paang tong	
 鵬摶	paang tyun	
 棚屋	paang uk	
-彭湖	paang wu	
 棚戶	paang wu	
 澎湖	paang wu	
-彭湖島	paang wu dou	
 澎湖島	paang wu dou	
 澎湖縣	paang wu jyun	
 棚戶區	paang wu keoi	
@@ -136649,7 +136188,6 @@ import_tables:
 泡溫泉	paau wan cyun	
 拋鑊	paau wok	
 拋擲	paau zaak	
-泡制	paau zai	
 泡製	paau zai	
 炮仔	paau zai	
 炮制	paau zai	
@@ -137276,8 +136814,6 @@ import_tables:
 辟魚腥	pik jyu seng	
 僻遠	pik jyun	
 霹雷	pik leoi	
-劈裏啪啦	pik leoi paak laa	
-噼裏啪啦	pik leoi paak laa	
 霹靂	pik lik	
 霹靂火	pik lik fo	
 霹靂舞	pik lik mou	
@@ -137329,7 +136865,6 @@ import_tables:
 遍地	pin dei	
 遍地開花	pin dei hoi faa	
 遍地黃金	pin dei wong gam	
-遍地黄金	pin dei wong gam	
 編訂	pin deng	
 編隊	pin deoi	
 偏殿	pin din	
@@ -137396,7 +136931,6 @@ import_tables:
 便宜行事	pin ji hang si	
 便宜老豆	pin ji lou dau	
 便宜莫貪	pin ji mok taam	
-光棍佬教仔	pin ji mok taam	
 便宜說話	pin ji syut waa	
 便宜仔	pin ji zai	
 編譯	pin jik	
@@ -138273,8 +137807,9 @@ import_tables:
 撲克牌	pok hak paai	
 撲向	pok hoeng	
 撲空	pok hung	
+撲嘢	pok je	
 璞玉渾金	pok juk wan gam	
-撲來撲去	pok lai pok heoi	
+撲嚟撲去	pok lai pok heoi	
 撲嚟撲去	pok lei pok heoi	
 撲臉兒	pok lim ji	
 撲棱	pok ling	
@@ -138371,7 +137906,6 @@ import_tables:
 膀子	pong zi	
 龐茲	pong zi	
 旁枝末節	pong zi mut zit	
-旁証	pong zing	
 旁證	pong zing	
 蚌精	pong zing	
 泡吧	pou baa	
@@ -139240,7 +138774,6 @@ import_tables:
 砂煲甖罉	saa bou aang caang	
 砂煲罌罉	saa bou aang caang	
 砂煲罌𦉘	saa bou aang caang	
-沙煲罌罉	saa bou aang daang	
 沙煲咁大個膽	saa bou gam daai go daam	
 紗布口罩	saa bou hau zaau	
 沙煲兄弟	saa bou hing dai	
@@ -139368,7 +138901,7 @@ import_tables:
 沙律菜	saa leot coi	
 沙律醬	saa leot zoeng	
 沙哩儱偅	saa li lung cung	
-沙哩弄冲	saa li lung cung	
+沙哩弄沖	saa li lung cung	
 沙哩弄銃	saa li lung cung	
 沙礫	saa lik	
 砂礫	saa lik	
@@ -139535,19 +139068,15 @@ import_tables:
 曬黑網	saai hak mong	
 曬黑族	saai hak zuk	
 曬幸福	saai hang fuk	
-晒行馬	saai hang maa	
 曬行馬	saai hang maa	
 嘥口水	saai hau seoi	
 嘥氣	saai hei	
 璽印	saai jan	
 曬友	saai jau	
-晒嘢	saai je	
 曬嘢	saai je	
-曬野	saai je	
 曬衣繩	saai ji sing	
 曬衣繩子	saai ji sing zi	
 曬熱頭	saai jit tau	
-晒月光	saai jyut gwong	
 曬月光	saai jyut gwong	
 晒冷	saai laang	
 曬冷	saai laang	
@@ -139556,18 +139085,13 @@ import_tables:
 曬料	saai liu	
 曬駱駝	saai lok to	
 曬晾	saai long	
-晒馬	saai maa	
 曬馬	saai maa	
 矖馬	saai maa	
-晒馬檻	saai maa laam	
 曬馬檻	saai maa laam	
-晒馬檻	saai maa lam	
 曬馬檻	saai maa lam	
-晒命	saai meng	
 曬命	saai meng	
-晒銀時	saai ngan si	
+曬銀時	saai ngan si	
 曬棚	saai paang	
-嘥嗮	saai saai	
 嘥晒	saai saai	
 曬衫	saai saam	
 曬衫夾	saai saam gip	
@@ -139578,7 +139102,6 @@ import_tables:
 晒士	saai si	
 嘥時間	saai si gaan	
 嘥聲壞氣	saai sing waai hei	
-晒相	saai soeng	
 曬傷	saai soeng	
 曬相	saai soeng	
 曬相舖	saai soeng pou	
@@ -139587,14 +139110,11 @@ import_tables:
 曬太陽	saai taai joeng	
 嘥撻	saai taat	
 曬圖	saai tou	
-晒蓆	saai zek	
 曬蓆	saai zek	
 嘥紙	saai zi	
 徙置	saai zi	
 徙置區	saai zi keoi	
 曬蓆	saai zik	
-晒招	saai ziu	
-晒蕉	saai ziu	
 曬蕉	saai ziu	
 矖招	saai ziu	
 索取	saak ceoi	
@@ -139965,9 +139485,8 @@ import_tables:
 三料	saam liu	
 三略	saam loek	
 三兩	saam loeng	
-三兩吓手腳	saam loeng haa sau goek	
+三兩下手腳	saam loeng haa sau goek	
 三兩下手勢	saam loeng haa sau sai	
-三兩吓手勢	saam loeng haa sau sai	
 三六	saam luk	
 三鹿	saam luk	
 三氯氰胺	saam luk cing on	
@@ -140012,7 +139531,6 @@ import_tables:
 衫鈕	saam nau	
 三五七	saam ng cat	
 三五成羣	saam ng sing kwan	
-三五成群	saam ng sing kwan	
 三五知己	saam ng zi gei	
 三瓦兩舍	saam ngaa loeng se	
 三年	saam nin	
@@ -140570,7 +140088,6 @@ import_tables:
 散盡	saan zeon	
 山子	saan zi	
 山雉	saan zi	
-散子	saan zi	
 散紙	saan zi	
 饊子	saan zi	
 散紙包	saan zi baau	
@@ -140608,11 +140125,9 @@ import_tables:
 省便	saang bin	
 生保	saang bou	
 生埗	saang bou	
-生部	saang bou	
 生保牀	saang bou cong	
 生保人	saang bou jan	
 生暴人	saang bou jan	
-生部人	saang bou jan	
 生暴	saang buk	
 生搬硬套	saang bun ngaang tou	
 生炒	saang caau	
@@ -140629,7 +140144,6 @@ import_tables:
 生菜魚肉	saang coi jyu juk	
 生瘡	saang cong	
 生草藥	saang cou joek	
-生蟲柺杖	saang cuhung gwaai zoeng	
 牲畜	saang cuk	
 牲畜糞	saang cuk fan	
 生蟲	saang cung	
@@ -140795,11 +140309,10 @@ import_tables:
 生安白造	saang on baak zou	
 生片	saang pin	
 生沙淋	saang saa lam	
-生嗮	saang saai	
 生晒	saang saai	
 生曬	saang saai	
-生嗮草	saang saai cou	
-生嗮鍟	saang saai seng	
+生晒草	saang saai cou	
+生晒鍟	saang saai seng	
 生生猛猛	saang saang maang maang	
 省心	saang sam	
 生辰	saang san	
@@ -140875,9 +140388,7 @@ import_tables:
 生豬	saang zyu	
 煠蛋	saap daan	
 烚下烚下	saap haa saap haa	
-烚吓烚吓	saap haa saap haa	
 煠下煠下	saap haa saap haa	
-煠吓煠吓	saap haa saap haa	
 熠下熠下	saap haa saap haa	
 霎下霎下	saap haa saap haa	
 𤆣下𤆣下	saap haa saap haa	
@@ -140907,7 +140418,6 @@ import_tables:
 撒丫子	saat aa zi	
 剎把	saat baa	
 薩巴德羅	saat baa dak lo	
-刷白	saat baak	
 煞白	saat baak	
 煞筆	saat bat	
 剎不住	saat bat zyu	
@@ -141293,7 +140803,6 @@ import_tables:
 誓詞	sai ci	
 使錢	sai cin	
 洗錢	sai cin	
-駛錢	sai cin	
 世情	sai cing	
 洗清	sai cing	
 西青	sai cing	
@@ -141721,7 +141230,7 @@ import_tables:
 細路仔鴛鴦	sai lou zai jyun joeng	
 世祿	sai luk	
 世祿之家	sai luk zi gaa	
-使唔嗮	sai m saai	
+使唔晒	sai m saai	
 使唔使	sai m sai	
 使唔使啊	sai m sai aa	
 使媽	sai maa	
@@ -141854,7 +141363,7 @@ import_tables:
 細紗	sai saa	
 西沙	sai saa	
 西沙羣島	sai saa kwan dou	
-使嗮	sai saai	
+使晒	sai saai	
 西曬	sai saai	
 洗衫	sai saam	
 洗衫板	sai saam baan	
@@ -142096,7 +141605,7 @@ import_tables:
 塞萬提斯	sak maan tai si	
 塞滿	sak mun	
 塞牙	sak ngaa	
-塞嗮車	sak saai ce	
+塞晒車	sak saai ce	
 塞子	sak zi	
 塞席爾	sak zik ji	
 噻唑	sak zo	
@@ -142199,7 +141708,7 @@ import_tables:
 深度優先	sam dou jau sin	
 心都離	sam dou lei	
 心都離埋	sam dou lei maai	
-心都涼嗮	sam dou loeng saai	
+心都涼晒	sam dou loeng saai	
 心都實	sam dou sat	
 審讀	sam duk	
 心毒	sam duk	
@@ -142407,7 +141916,6 @@ import_tables:
 瀋陽	sam joeng	
 瀋陽故宮	sam joeng gu gung	
 沁陽市	sam joeng si	
-沈陽市	sam joeng si	
 瀋陽市	sam joeng si	
 心喐	sam juk	
 心郁	sam juk	
@@ -142559,7 +142067,7 @@ import_tables:
 心安	sam on	
 心安理得	sam on lei dak	
 心安神定	sam on san ding	
-心安神閑	sam on san haan	
+心安神閒	sam on san haan	
 深奧	sam ou	
 深怕	sam paa	
 岑彭	sam paang	
@@ -142797,11 +142305,10 @@ import_tables:
 神不守舍	san bat sau se	
 神不知鬼不覺	san bat zi gwai bat gok	
 神祕	san bei	
-神秘	san bei	
-神秘化	san bei faa	
+神祕化	san bei faa	
 神祕莫測	san bei mok caak	
 呻鼻涕	san bei tai	
-神秘主義	san bei zyu ji	
+神祕主義	san bei zyu ji	
 申辯	san bin	
 身邊	san bin	
 新兵	san bing	
@@ -142950,7 +142457,6 @@ import_tables:
 身負重傷	san fu cung soeng	
 神乎其技	san fu kei gei	
 新撫區	san fu keoi	
-辛苦搵來自在食	san fu wan lai zi zoi sik	
 辛苦搵嚟自在食	san fu wan lai zi zoi sik	
 辛苦搵嚟志在食	san fu wan lei zi zoi sik	
 辛苦搵嚟自在食	san fu wan lei zi zoi sik	
@@ -142995,6 +142501,7 @@ import_tables:
 身教勝於言教	san gaau sing jyu jin gaau	
 新教徒	san gaau tou	
 身教重於言教	san gaau zung jyu jin gaau	
+新淦	san gam	
 薪金	san gam	
 新金縣	san gam jyun	
 新金山	san gam saan	
@@ -143006,7 +142513,6 @@ import_tables:
 娠紀	san gei	
 新紀	san gei	
 新記	san gei	
-有身紀	san gei	
 身己	san gei	
 身紀	san gei	
 新紀元	san gei jyun	
@@ -143064,7 +142570,6 @@ import_tables:
 神經症	san ging zing	
 神經中樞	san ging zung syu	
 腎結石	san git sek	
-身嬌肉貴	san giu ju gwai	
 身嬌肉貴	san giu juk gwai	
 身驕肉貴	san giu juk gwai	
 晨歌	san go	
@@ -143073,8 +142578,7 @@ import_tables:
 新疆小盤雞	san goeng siu pun gai	
 新疆維吾爾自治區	san goeng wai ng ji zi zi keoi	
 新疆溫宿縣	san goeng wan suk jyun	
-新干	san gon	
-新干縣	san gon jyun	
+新幹縣	san gon jyun	
 新幹線	san gon sin	
 伸港	san gong	
 新港	san gong	
@@ -143252,7 +142756,6 @@ import_tables:
 伸懶腰	san laan jiu	
 辛辣	san laat	
 新嚟	san lai	
-新來新豬肉	san lai san zyu juk	
 新嚟新豬肉	san lai san zyu juk	
 新林	san lam	
 新林區	san lam keoi	
@@ -143447,7 +142950,6 @@ import_tables:
 申申	san san	
 神神	san san	
 莘莘	san san	
-神神哋	san san dei	
 神神地	san san dei	
 臣臣地	san san dei	
 神神化化	san san faa faa	
@@ -144057,7 +143559,7 @@ import_tables:
 溼電	sap din	
 十多億	sap do jik	
 溼度	sap dou	
-溼到淰嗮	sap dou nam saai	
+溼到淰晒	sap dou nam saai	
 溼凍	sap dung	
 十動然拒	sap dung jin keoi	
 十冬臘月	sap dung laap jyut	
@@ -144076,11 +143578,11 @@ import_tables:
 拾金不昧	sap gam bat mui	
 溼巾	sap gan	
 十九	sap gau	
-溼九	sap gau	
 溼鳩	sap gau	
+溼𨳊	sap gau	
 十九日	sap gau jat	
 十九世紀	sap gau sai gei	
-溼九仔	sap gau zai	
+溼𨳊仔	sap gau zai	
 十幾	sap gei	
 十幾款	sap gei fun	
 十幾個月	sap gei go jyut	
@@ -144094,7 +143596,7 @@ import_tables:
 十國	sap gwok	
 十國春秋	sap gwok ceon cau	
 十下十下	sap haa sap haa	
-拾吓拾吓	sap haa sap haa	
+拾下拾下	sap haa sap haa	
 十克	sap hak	
 什器	sap hei	
 拾起	sap hei	
@@ -144438,10 +143940,10 @@ import_tables:
 膝蓋	sat koi	
 實權	sat kyun	
 失禮	sat lai	
-實來	sat lai	
 實例	sat lai	
+實嚟	sat lai	
 失禮人	sat lai jan	
-失禮嗮	sat lai saai	
+失禮晒	sat lai saai	
 失禮死人	sat lai sei jan	
 失利	sat lei	
 實利	sat lei	
@@ -144659,10 +144161,7 @@ import_tables:
 手板係肉，手背又係肉	sau baan hai juk sau bui jau hai juk	
 手扳眼見	sau baan ngaan gin	
 手板眼見	sau baan ngaan gin	
-手扳眼見功夫	sau baan ngaan gin gung fu	
-手扳眼見工夫	sau baan ngaan gin gung fu	
 手板眼見功夫	sau baan ngaan gin gung fu	
-手板眼見工夫	sau baan ngaan gin gung fu	
 手板心	sau baan sam	
 手板堂	sau baan tong	
 手扳葫蘆	sau baan wu lou	
@@ -145010,7 +144509,6 @@ import_tables:
 手骨	sau gwat	
 瘦骨如柴	sau gwat jyu caai	
 瘦骨如柴煲碌竹	sau gwat jyu caai bou luk zuk	
-瘦骨拉柴	sau gwat laai caai	
 瘦骨癩柴	sau gwat laai caai	
 瘦骨賴柴	sau gwat laai caai	
 瘦骨嶙峋	sau gwat leon seon	
@@ -145304,7 +144802,6 @@ import_tables:
 受涼	sau loeng	
 受落	sau lok	
 修路	sau lou	
-右路	sau lou	
 收爐	sau lou	
 收錄	sau luk	
 收錄機	sau luk gei	
@@ -145686,7 +145183,6 @@ import_tables:
 受制	sau zai	
 壽仔	sau zai	
 守制	sau zai	
-手制	sau zai	
 手掣	sau zai	
 守則	sau zak	
 受浸	sau zam	
@@ -145753,10 +145249,8 @@ import_tables:
 受精	sau zing	
 授精	sau zing	
 授證	sau zing	
-搜証	sau zing	
 搜證	sau zing	
 收症	sau zing	
-蒐証	sau zing	
 蒐證	sau zing	
 守正不阿	sau zing bat o	
 修正液	sau zing jik	
@@ -145968,7 +145462,7 @@ import_tables:
 社論	se leon	
 卸力	se lik	
 赦令	se ling	
-寫落來	se lok lai	
+寫落嚟	se lok lai	
 寫落嚟	se lok lei	
 蛇佬	se lou	
 蛇綠岩	se luk ngaam	
@@ -146023,7 +145517,6 @@ import_tables:
 佘詩曼	se si maan	
 射線	se sin	
 寫成	se sing	
-些小	se siu	
 些少	se siu	
 賒銷	se siu	
 賒數	se sou	
@@ -146044,8 +145537,6 @@ import_tables:
 瀉肚子	se tou zi	
 社團	se tyun	
 社團大哥	se tyun daai go	
-社團	se tyung	
-社團大哥	se tyung daai go	
 蛇脫	se tyut	
 社維法	se wai faat	
 社運	se wan	
@@ -146536,8 +146027,7 @@ import_tables:
 死婆	sei po	
 四旁	sei pong	
 死仆街	sei puk gaai	
-死扑街	sei puk gaai	
-死嗮	sei saai	
+死晒	sei saai	
 四三八	sei saam baat	
 四散	sei saan	
 四散奔逃	sei saan ban tou	
@@ -146653,7 +146143,6 @@ import_tables:
 死賤種	sei zin zung	
 死症	sei zing	
 死剩把口	sei zing baa hau	
-死淨把口	sei zing baa hau	
 死剩種	sei zing zung	
 死咗都唔知咩事	sei zo dou m zi me si	
 死咗火	sei zo fo	
@@ -146688,6 +146177,7 @@ import_tables:
 石砌	sek cai	
 石沉大海	sek cam daai hoi	
 石春	sek ceon	
+石矢	sek ci	
 石阡	sek cin	
 石阡縣	sek cin jyun	
 石青	sek cing	
@@ -146867,8 +146357,8 @@ import_tables:
 石屏	sek ping	
 石屏縣	sek ping jyun	
 石破天驚	sek po tin ging	
-錫嗮	sek saai	
-錫嗮你	sek saai nei	
+錫晒	sek saai	
+錫晒你	sek saai nei	
 石山	sek saan	
 錫山	sek saan	
 錫山區	sek saan keoi	
@@ -146881,7 +146371,6 @@ import_tables:
 石筍	sek seon	
 石屎	sek si	
 石獅	sek si	
-石矢	sek si	
 碩士	sek si	
 錫士	sek si	
 碩士班	sek si baan	
@@ -147023,7 +146512,6 @@ import_tables:
 腥膻	seng zin	
 成朝	seng ziu	
 成朝早	seng ziu zou	
-瀡滑梯	seo waat tai	
 瑞亞	seoi aa	
 水鴨	seoi aap	
 水壓	seoi aat	
@@ -147122,7 +146610,6 @@ import_tables:
 水痘	seoi dau	
 水豆腐	seoi dau fu	
 水鬥水	seoi dau seoi	
-海軍鬥水兵	seoi dau seoi	
 水嗲嗲	seoi de de	
 水滴	seoi dik	
 水滴石穿	seoi dik sek cyun	
@@ -147291,7 +146778,7 @@ import_tables:
 水氣	seoi hei	
 水汽	seoi hei	
 瑞氣	seoi hei	
-衰起上來有頭有路	seoi hei soeng lai jau tau jau lou	
+衰起上嚟有頭有路	seoi hei soeng lai jau tau jau lou	
 衰起上嚟有頭有路	seoi hei soeng lei jau tau jau lou	
 水氣掣	seoi hei zai	
 水險	seoi him	
@@ -147594,7 +147081,7 @@ import_tables:
 水泡餅	seoi pou beng	
 水蒲葦鶯	seoi pou wai ang	
 水盆	seoi pun	
-衰嗮	seoi saai	
+衰晒	seoi saai	
 睡衫	seoi saam	
 瑞薩	seoi saat	
 瑞薩科技	seoi saat fo gei	
@@ -147637,7 +147124,6 @@ import_tables:
 垂垂	seoi seoi	
 瑞穗	seoi seoi	
 絮絮	seoi seoi	
-衰衰哋	seoi seoi dei	
 衰衰地	seoi seoi dei	
 絮絮叨叨	seoi seoi dou dou	
 衰衰噉	seoi seoi gam	
@@ -147894,7 +147380,6 @@ import_tables:
 順德	seon dak	
 順得哥情失嫂意	seon dak go cing sat sou ji	
 信得過	seon dak gwo	
-順得人	seon dak jan	
 順德人	seon dak jan	
 順德區	seon dak keoi	
 信德省	seon dak saang	
@@ -148343,7 +147828,7 @@ import_tables:
 時不再來	si bat zoi loi	
 士啤	si be	
 士啤呔	si be taai	
-私秘	si bei	
+私祕	si bei	
 施比受更有福	si bei sau gang jau fuk	
 屎餅	si beng	
 撕逼	si bik	
@@ -148467,7 +147952,7 @@ import_tables:
 事旦	si daan	
 是但	si daan	
 是旦	si daan	
-童子軍跳彈床	si daan	
+童子軍跳彈牀	si daan	
 是但啊	si daan aa	
 史丹頓島	si daan deon dou	
 士丹頓街	si daan deon gaai	
@@ -148857,7 +148342,7 @@ import_tables:
 私人	si jan	
 私隱	si jan	
 詩人	si jan	
-私人秘書	si jan bei syu	
+私人祕書	si jan bei syu	
 私人鑰匙	si jan joek si	
 私隱權	si jan kyun	
 私人樓	si jan lau	
@@ -149889,7 +149374,7 @@ import_tables:
 食過世	sik gwo sai	
 色光	sik gwong	
 釋卷	sik gyun	
-食吓	sik haa	
+食下	sik haa	
 食蟹獴	sik haai mung	
 食客	sik haak	
 食鹹水	sik haam seoi	
@@ -150034,16 +149519,15 @@ import_tables:
 食唔化	sik m faa	
 食唔落	sik m lok	
 食唔安瞓唔落	sik m on fan m lok	
-食唔嗮	sik m saai	
+食唔晒	sik m saai	
 識唔識	sik m sik	
 食埋	sik maai	
 食晚飯	sik maan faan	
 色盲	sik maang	
 色盲症	sik maang zing	
-識貌麵	sik maau min	
+識貌面	sik maau min	
 食貓面	sik maau min	
 食貓麪	sik maau min	
-食貓麵	sik maau min	
 色迷	sik mai	
 食米唔知價	sik mai m zi gaa	
 食米唔知米貴	sik mai m zi mai gwai	
@@ -150117,7 +149601,6 @@ import_tables:
 適配	sik pui	
 適配層	sik pui cang	
 適配器	sik pui hei	
-食嗮	sik saai	
 食晒	sik saai	
 食三六	sik saam luk	
 食山頭	sik saan tau	
@@ -150161,7 +149644,7 @@ import_tables:
 識時通變	sik si tung bin	
 識食	sik sik	
 食色	sik sik	
-識識哋	sik sik dei	
+識識地	sik sik dei	
 色色迷迷	sik sik mai mai	
 食色性也	sik sik sing jaa	
 息息相關	sik sik soeng gwaan	
@@ -150183,7 +149666,6 @@ import_tables:
 識書	sik syu	
 食雪糕	sik syut gou	
 食雪條	sik syut tiu	
-識嘆	sik taan	
 識歎	sik taan	
 識彈唔識唱	sik taan m sik coeng	
 骰塔	sik taap	
@@ -150209,7 +149691,6 @@ import_tables:
 色溫	sik wan	
 適溫	sik wan	
 色域	sik wik	
-食皇家飯	sik woeng gaa faan	
 食皇家飯	sik wong gaa faan	
 食枉米	sik wong mai	
 食黃泥	sik wong nai	
@@ -150388,7 +149869,6 @@ import_tables:
 閃閃	sim sim	
 閃閃發光	sim sim faat gwong	
 閃閃下	sim sim haa	
-閃閃吓	sim sim haa	
 閃閃令	sim sim ling	
 閃閃呤	sim sim ling	
 閃閃炩	sim sim ling	
@@ -150810,7 +150290,7 @@ import_tables:
 先進集體	sin zeon zaap tai	
 仙子	sin zi	
 先知	sin zi	
-先至	sin zi	1000.0
+先至	sin zi	10000.0
 扇子	sin zi	
 擅自	sin zi	
 茜紫	sin zi	
@@ -151007,7 +150487,6 @@ import_tables:
 醒定啲	sing ding di	
 聖迭戈	sing dit gwo	
 升調	sing diu	
-昇調	sing diu	
 聲調	sing diu	
 聲調語言	sing diu jyu jin	
 聲調輪廓	sing diu leon kwok	
@@ -151358,7 +150837,6 @@ import_tables:
 醒豁	sing kut	
 成規	sing kwai	
 成羣	sing kwan	
-成群	sing kwan	
 星羣	sing kwan	
 成羣結隊	sing kwan git deoi	
 乘隙	sing kwik	
@@ -151369,7 +150847,7 @@ import_tables:
 性冷感	sing laang gam	
 成立	sing laap	
 聖禮	sing lai	
-醒來	sing lai	
+醒嚟	sing lai	
 成立	sing lap	
 城樓	sing lau	
 星流電擊	sing lau din gik	
@@ -151866,8 +151344,8 @@ import_tables:
 𤗈入	sip jap	
 攝入去	sip jap heoi	
 𤗈入去	sip jap heoi	
-攝入來	sip jap lai	
-𤗈入來	sip jap lai	
+攝入嚟	sip jap lai	
+𤗈入嚟	sip jap lai	
 攝入嚟	sip jap lei	
 𤗈入嚟	sip jap lei	
 攝入量	sip jap loeng	
@@ -151896,7 +151374,6 @@ import_tables:
 涉案	sip on	
 涉世	sip sai	
 涉世未深	sip sai mei sam	
-躡手躡腳	sip sau sip goek	
 攝石	sip sek	
 攝石人	sip sek jan	
 涉水靴	sip seoi hoe	
@@ -152006,7 +151483,7 @@ import_tables:
 泄怒	sit nou	
 竊案	sit on	
 蝕晒本	sit saai bun	
-蝕嗮大本	sit saai daai bun	
+蝕晒大本	sit saai daai bun	
 蝕晒底	sit saai dai	
 泄瀉	sit se	
 折水	sit seoi	
@@ -152077,7 +151554,7 @@ import_tables:
 小不忍則亂大謀	siu bat jan zak lyun daai mau	
 少不了	siu bat liu	
 少不免	siu bat min	
-小秘	siu bei	
+小祕	siu bei	
 小病	siu beng	
 燒餅	siu beng	
 笑柄	siu beng	
@@ -152395,7 +151872,6 @@ import_tables:
 小孩堤防	siu haai tai fong	
 小孩子	siu haai zi	
 兆赫	siu haak	
-消閑	siu haan	
 消閒	siu haan	
 消閒兒	siu haan ji	
 小巧	siu haau	
@@ -153224,7 +152700,6 @@ import_tables:
 所羅巴伯	so lo baa baak	
 所羅門	so lo mun	
 所羅門羣島	so lo mun kwan dou	
-所羅門群島	so lo mun kwan dou	
 疏略	so loek	
 疏落	so lok	
 傻佬	so lou	
@@ -153282,7 +152757,7 @@ import_tables:
 瑣屑	so sit	
 傻笑	so siu	
 疏疏	so so	
-傻傻哋	so so dei	
+傻傻地	so so dei	
 傻傻更更	so so gaang gaang	
 疏疏列列	so so laat laat	
 傻傻戇戇	so so ngong ngong	
@@ -153338,6 +152813,7 @@ import_tables:
 傻豬	so zyu	
 鎖住	so zyu	
 瀡板	soe baan	
+瀡滑梯	soe waat tai	
 削波	soek bo	
 削膊	soek bok	
 削除	soek ceoi	
@@ -153526,7 +153002,6 @@ import_tables:
 湘菜	soeng coi	
 上蔡縣	soeng coi jyun	
 上倉	soeng cong	
-上床	soeng cong	
 上牀	soeng cong	
 上蒼	soeng cong	
 雙牀	soeng cong	
@@ -153563,7 +153038,6 @@ import_tables:
 上得山多終遇虎	soeng dak saan do zung jyu fu	
 常德市	soeng dak si	
 常德絲弦	soeng dak si jin	
-上第	soeng dang	
 上等	soeng dang	
 相等	soeng dang	
 上等兵	soeng dang bing	
@@ -154122,7 +153596,6 @@ import_tables:
 常規銅電話線	soeng kwai tung din waa sin	
 上蠟	soeng laap	
 雙立人	soeng laap jan	
-上來	soeng lai	
 上嚟	soeng lai	
 常例	soeng lai	
 上林	soeng lam	
@@ -154733,7 +154206,6 @@ import_tables:
 塑料袋	sok liu doi	
 索羅門	sok lo mun	
 索羅斯	sok lo si	
-熟絡	sok lok	
 熟落	sok lok	
 索馬利	sok maa lei	
 索馬里	sok maa lei	
@@ -154754,7 +154226,7 @@ import_tables:
 索普	sok pou	
 索賠	sok pui	
 縮沙	sok saa	
-嗍嗮氣	sok saai hei	
+嗍晒氣	sok saai hei	
 嗍水	sok seoi	
 縮水	sok seoi	
 索緒爾	sok seoi ji	
@@ -155079,7 +154551,6 @@ import_tables:
 搔擾	sou jiu	
 騷擾	sou jiu	
 騷擾客蚤	sou jiu haak zou	
-騷擾嗮	sou jiu saai	
 騷擾晒	sou jiu saai	
 搔癢	sou joeng	
 瘙癢	sou joeng	
@@ -155497,7 +154968,6 @@ import_tables:
 熟稔	suk nam	
 孰能無過	suk nang mou gwo	
 熟能生巧	suk nang saang haau	
-孰能生巧	suk nang sang haau	
 熟能生巧	suk nang sang haau	
 淑女	suk neoi	
 熟女	suk neoi	
@@ -155765,7 +155235,6 @@ import_tables:
 鬆佊佊	sung pe pe	
 鬆坺坺	sung pet pet	
 鬆泡泡	sung peu peu	
-鬆膨膨	sung peu peu	
 崇山	sung saan	
 嵩山	sung saan	
 鬆散	sung saan	
@@ -155976,7 +155445,7 @@ import_tables:
 輸入設備	syu jap cit bei	
 輸入法	syu jap faat	
 輸入系統	syu jap hai tung	
-鼠入來	syu jap lai	
+鼠入嚟	syu jap lai	
 鼠入嚟	syu jap lei	
 舒一口氣	syu jat hau hei	
 書友	syu jau	
@@ -156073,7 +155542,6 @@ import_tables:
 薯片	syu pin	
 書評	syu ping	
 輸沙量	syu saa loeng	
-輸嗮	syu saai	
 輸晒	syu saai	
 樹梢	syu saau	
 舒心	syu sam	
@@ -156488,7 +155956,7 @@ import_tables:
 孫叔敖	syun suk ngou	
 選送	syun sung	
 篆書	syun syu	
-酸酸哋	syun syun dei	
+酸酸地	syun syun dei	
 旋梯	syun tai	
 篆體	syun tai	
 船梯	syun tai	
@@ -156759,7 +156227,7 @@ import_tables:
 說書	syut syu	
 說說	syut syut	
 說說而已	syut syut ji ji	
-雪雪聲	syut syut seng	
+𠽌𠽌聲	syut syut seng	
 說帖	syut tip	
 雪鐵龍	syut tit lung	
 雪條	syut tiu	
@@ -157322,7 +156790,7 @@ import_tables:
 探索	taam sok	
 平淡	taam taam	
 談談	taam taam	
-淡淡哋	taam taam dei	
+淡淡地	taam taam dei	
 淡淡聲	taam taam seng	
 探頭	taam tau	
 貪頭	taam tau	
@@ -157385,17 +156853,15 @@ import_tables:
 袒膊	taan bok	
 攤薄後每股盈利	taan bok hau mui gu jing lei	
 坦博拉	taan bok laai	
-嘆報紙	taan bou zi	
 歎報紙	taan bou zi	
 炭焙	taan bui	
 彈撥	taan but	
 彈撥樂	taan but ngok	
 彈撥樂器	taan but ngok hei	
-嘆茶	taan caa	
 歎茶	taan caa	
 坦陳	taan can	
-嘆詞	taan ci	
 彈詞	taan ci	
+歎詞	taan ci	
 彈斥	taan cik	
 碳纖維	taan cim wai	
 攤錢	taan cin	
@@ -157420,8 +156886,7 @@ import_tables:
 炭火	taan fo	
 坍方	taan fong	
 炭灰色	taan fui sik	
-嘆服	taan fuk	
-嘆咖啡	taan gaa fe	
+歎服	taan fuk	
 歎咖啡	taan gaa fe	
 坦噶尼喀	taan gaa nei kaa	
 坦噶尼喀湖	taan gaa nei kaa wu	
@@ -157441,7 +156906,6 @@ import_tables:
 彈劾	taan hat	
 彈劾權	taan hat kyun	
 嘆氣	taan hei	
-歎氣	taan hei	
 炭氣	taan hei	
 碳氫化合物	taan hing faa hap mat	
 檀香	taan hoeng	
@@ -157449,7 +156913,6 @@ import_tables:
 檀香山	taan hoeng saan	
 檀香樹	taan hoeng syu	
 攤開	taan hoi	
-嘆號	taan hou	
 歎號	taan hou	
 袒胸	taan hung	
 袒胸露臂	taan hung lou bei	
@@ -157461,13 +156924,12 @@ import_tables:
 碳原子	taan jyun zi	
 檀越	taan jyut	
 彈琴	taan kam	
-嘆冷氣	taan laang hei	
 歎冷氣	taan laang hei	
 碳鏈	taan lin	
 碳鏈纖維	taan lin cim wai	
 炭爐	taan lou	
 袒露	taan lou	
-嘆慢板	taan maan baan	
+歎慢板	taan maan baan	
 彈墨	taan mak	
 歎問號	taan man hou	
 坦尾	taan mei	
@@ -157480,7 +156942,6 @@ import_tables:
 坦佩雷	taan pui leoi	
 攤曬	taan saai	
 儃世界	taan sai gaai	
-嘆世界	taan sai gaai	
 歎世界	taan sai gaai	
 攤心	taan sam	
 攤售	taan sau	
@@ -157490,7 +156951,6 @@ import_tables:
 攤屍	taan si	
 嘆息	taan sik	
 嘆惜	taan sik	
-歎息	taan sik	
 袒裼	taan sik	
 袒裼裸裎	taan sik lo cing	
 碳酰氯	taan sin luk	
@@ -157525,7 +156985,6 @@ import_tables:
 灘塗	taan tou	
 炭畫	taan waa	
 攤位	taan wai	
-嘆爲觀止	taan wai gun zi	
 歎爲觀止	taan wai gun zi	
 攤位遊戲	taan wai jau hei	
 攤黃菜	taan wong coi	
@@ -157646,7 +157105,6 @@ import_tables:
 撻皮	taat pei	
 撻沙	taat saa	
 撻沙魚	taat saa jyu	
-笪沙魚	taat saa jyu	
 鰨沙魚	taat saa jyu	
 㒓數	taat sou	
 撻數	taat sou	
@@ -157750,7 +157208,7 @@ import_tables:
 剃度	tai dou	
 提到	tai dou	
 梯度	tai dou	
-睇到	tai dou	1000.0
+睇到	tai dou	10000.0
 睇到	tai dou	
 睇到拫	tai dou hang	
 剃刀門楣	tai dou mun mei	
@@ -157793,7 +157251,6 @@ import_tables:
 睇緊	tai gan	
 睇梗	tai gang	
 睇夠	tai gau	
-梯己	tai gei	
 題記	tai gei	
 體己	tai gei	
 體己錢	tai gei cin	
@@ -157825,8 +157282,7 @@ import_tables:
 剃光頭	tai gwong tau	
 睇下	tai haa	
 睇下點	tai haa dim	
-睇吓點	tai haa dim	
-睇吓又點	tai haa jau dim	
+睇下又點	tai haa jau dim	
 睇下咧	tai haa le	
 睇下先	tai haa sin	
 體校	tai haau	
@@ -157839,10 +157295,10 @@ import_tables:
 睇戲	tai hei	
 睇起	tai hei	
 提起公訴	tai hei gung sou	
-睇起來	tai hei lai	
+睇起嚟	tai hei lai	
 睇起嚟	tai hei lei	
 睇氣色	tai hei sik	
-睇起上來	tai hei soeng lai	
+睇起上嚟	tai hei soeng lai	
 睇起上嚟	tai hei soeng lei	
 提起精神	tai hei zing san	
 睇輕	tai heng	
@@ -157932,10 +157388,9 @@ import_tables:
 提拉米蘇	tai laai mai sou	
 提籃	tai laam	
 提籃兒	tai laam ji	
-睇來	tai lai	
 睇嚟	tai lai	
 體例	tai lai	
-睇來湊	tai lai cau	
+睇嚟湊	tai lai cau	
 提溜	tai lau	
 提留	tai lau	
 睇樓	tai lau	
@@ -157961,7 +157416,7 @@ import_tables:
 睇路	tai lou	
 睇老婆	tai lou po	
 睇唔出	tai m ceot	
-睇唔出來	tai m ceot lai	
+睇唔出嚟	tai m ceot lai	
 睇唔出嚟	tai m ceot lei	
 睇唔清	tai m cing	
 睇唔切	tai m cit	
@@ -158170,9 +157625,9 @@ import_tables:
 睇鐘數	tai zung sou	
 睇住	tai zyu	
 睇住佢頭	tai zyu keoi tau	
-睇住來	tai zyu lai	
 睇住嚟	tai zyu lai	
 睇住嚟	tai zyu lei	
+睇住來	tai zyu loi	
 啼囀	tai zyun	
 踢爆	tak baau	
 凼肥	tam fei	
@@ -158219,7 +157674,7 @@ import_tables:
 吞嚥	tan jin	
 吞嚥困難	tan jin kwan naan	
 暾欲穀	tan juk guk	
-揗來揗去	tan lai tan heoi	
+揗嚟揗去	tan lai tan heoi	
 揗嚟揗去	tan lei tan heoi	
 吞唔落	tan m lok	
 吞米桑布札	tan mai song bou zaat	
@@ -158233,7 +157688,7 @@ import_tables:
 吞噗	tan pok	
 吞樸	tan pok	
 吞泡	tan pok	
-揗嗮雞	tan saai gai	
+揗晒雞	tan saai gai	
 吞噬	tan sai	
 吞噬細胞	tan sai sai baau	
 吞噬作用	tan sai zok jung	
@@ -158485,10 +157940,8 @@ import_tables:
 投光燈	tau gwong dang	
 㪗下	tau haa	
 唞下	tau haa	
-唞吓	tau haa	
 敨下	tau haa	
 頭銜	tau haam	
-偷閑	tau haan	
 偷閒	tau haan	
 投效	tau haau	
 投考	tau haau	
@@ -158726,7 +158179,7 @@ import_tables:
 頭疼	tau tang	
 偷偷	tau tau	
 頭頭	tau tau	
-偷偷哋	tau tau dei	
+偷偷地	tau tau dei	
 頭頭掂掂	tau tau dim dim	
 頭頭點着黑	tau tau dim zoek hak	
 頭頭尾尾	tau tau mei mei	
@@ -158817,13 +158270,10 @@ import_tables:
 踢開	tek hoi	
 踢入會	tek jap wui	
 踢毽	tek jin	
-踢燕	tek jin	
 踢契	tek kai	
 踢馬刺	tek maa ci	
 踢皮球	tek pei kau	
-踢嗮腳	tek saai goek	
 踢晒腳	tek saai goek	
-踢曬腳	tek saai goek	
 踢死兔	tek sei tou	
 踢拖	tek to	
 踢着腳	tek zoek goek	
@@ -159237,7 +158687,7 @@ import_tables:
 恬退	tim teoi	
 湉湉	tim tim	
 甜甜	tim tim	
-甜甜哋	tim tim dei	
+甜甜地	tim tim dei	
 甜甜圈	tim tim hyun	
 甜甜蜜蜜	tim tim mat mat	
 甜筒	tim tung	
@@ -159337,9 +158787,9 @@ import_tables:
 天敵	tin dik	
 天電	tin din	
 天頂	tin ding	
-天跌落來當被冚	tin dit lok lai dong pei kam	
 天跌落嚟當被冚	tin dit lok lai dong pei kam	
 天跌落嚟當被冚	tin dit lok lei dong pei kam	
+天跌落來當被冚	tin dit lok loi dong pei kam	
 填堵	tin dou	
 天道	tin dou	
 天道酬勤	tin dou cau kan	
@@ -159418,7 +158868,6 @@ import_tables:
 天公地道	tin gung dei dou	
 天公造美	tin gung zou mei	
 天癸	tin gwai	
-天光	tin gwoeng	
 天國	tin gwok	
 天光	tin gwong	
 天光大白	tin gwong daai baak	
@@ -160243,7 +159692,6 @@ import_tables:
 鐵嘴雞	tit zeoi gai	
 鐵嘴沙鴴	tit zeoi saa hang	
 鐵枝	tit zi	
-鐵証	tit zing	
 鐵證	tit zing	
 鐵證如山	tit zing jyu saan	
 鐵勺	tit zoek	
@@ -160350,7 +159798,6 @@ import_tables:
 挑起把火	tiu hei baa fo	
 條氣唔順	tiu hei m seon	
 跳起身	tiu hei san	
-條氣順嗮	tiu hei seon saai	
 條氣順晒	tiu hei seon saai	
 挑起條筋	tiu hei tiu gan	
 挑起條癮	tiu hei tiu jan	
@@ -160396,7 +159843,7 @@ import_tables:
 條令	tiu ling	
 調料	tiu liu	
 跳落去	tiu lok heoi	
-跳落來	tiu lok lai	
+跳落嚟	tiu lok lai	
 跳落嚟	tiu lok lei	
 條路自己揀，仆街唔好喊	tiu lou zi gei gaan puk gaai m hou haam	
 挑弄	tiu lung	
@@ -160435,7 +159882,6 @@ import_tables:
 條目	tiu muk	
 挑那媽	tiu naa maa	
 挑那星	tiu naa sing	
-挑那媽	tiu nah maa	
 挑紐耳	tiu nau ji	
 挑你屎忽	tiu nei si fat	
 條女	tiu neoi	
@@ -161113,7 +160559,6 @@ import_tables:
 倘有	tong jau	
 糖友	tong jau	
 糖油粑粑	tong jau baa baa	
-湯藥費	tong jek fai	
 唐睿宗	tong jeoi zung	
 燙衣	tong ji	
 糖衣	tong ji	
@@ -161319,6 +160764,7 @@ import_tables:
 土鱉	tou bit	
 圖標	tou biu	
 圖表	tou biu	
+吐蕃	tou bo	
 圖波列夫	tou bo lit fu	
 圖博	tou bok	
 桃駁李	tou bok lei	
@@ -161836,6 +161282,7 @@ import_tables:
 塗潭	tou taam	
 塗炭	tou taan	
 圖坦卡門	tou taan kaa mun	
+挑達	tou taat	
 圖騰	tou tang	
 圖騰崇拜	tou tang sung baai	
 土頭土腦	tou tau tou nou	
@@ -161854,7 +161301,6 @@ import_tables:
 套筒	tou tung	
 肚痛	tou tung	
 套筒扳手	tou tung baan sau	
-挑通眼眉	tou tung ngaan mei	
 套筒扳手	tou tung paan sau	
 土豚	tou tyun	
 逃脫	tou tyut	
@@ -163204,9 +162650,8 @@ import_tables:
 華沙	waa saa	
 哇沙比	waa saa bei	
 哇沙米	waa saa mai	
-話嗮	waa saai	
 話晒	waa saai	
-話嗮事	waa saai si	
+話晒事	waa saai si	
 話三話四	waa saam waa sei	
 華山	waa saan	
 華西	waa sai	
@@ -163488,9 +162933,9 @@ import_tables:
 劃過	waak gwo	
 劃痕	waak han	
 或許	waak heoi	
-畫耳埋牆	waak i maai coeng	
 劃一	waak jat	
 劃一不二	waak jat bat ji	
+畫耳埋牆	waak ji maai coeng	
 或然	waak jin	
 或然率	waak jin leot	
 畫圓	waak jyun	
@@ -163752,6 +163197,7 @@ import_tables:
 環評	waan ping	
 環抱	waan pou	
 玩耍	waan saa	
+彎臣	waan san	
 還神	waan san	
 玩新人	waan san jan	
 玩新郎	waan san long	
@@ -163841,6 +163287,7 @@ import_tables:
 玩轉	waan zyun	
 橫丫腸	waang aa coeng	
 橫椏腸	waang aa coeng	
+橫丫路	waang aa lou	
 橫板	waang baan	
 橫斑腹小鴞	waang baan fuk siu hiu	
 橫斑林鶯	waang baan lam ang	
@@ -163948,7 +163395,6 @@ import_tables:
 橫面	waang min	
 橫木	waang muk	
 橫門	waang mun	
-橫丫路	waang ngaa lou	
 橫額	waang ngaak	
 橫眼	waang ngaan	
 橫鉤	waang ngau	
@@ -163962,7 +163408,6 @@ import_tables:
 橫山鄉	waang saan hoeng	
 橫山縣	waang saan jyun	
 橫心	waang sam	
-彎臣	waang san	
 軭神	waang san	
 橫神經	waang san ging	
 橫生	waang sang	
@@ -164025,7 +163470,6 @@ import_tables:
 挖洞	waat dung	
 滑動	waat dung	
 挖東牆補西牆	waat dung coeng bou sai coeng	
-滑嘟嘟	waat dyut dyut	
 滑塊	waat faai	
 挖苦	waat fu	
 滑蓋手機	waat goi sau gei	
@@ -164058,7 +163502,6 @@ import_tables:
 滑落	waat lok	
 滑浪	waat long	
 滑浪風帆	waat long fung faan	
-滑嘟嘟	waat lyut lyut	
 滑捋捋	waat lyut lyut	
 滑𣲷𣲷	waat lyut lyut	
 滑膜	waat mok	
@@ -164573,7 +164016,7 @@ import_tables:
 唯物論	wai mat leon	
 爲乜事幹	wai mat si gon	
 唯物主義	wai mat zyu ji	
-爲乜	wai me	
+爲咩	wai me	
 唯美	wai mei	
 委靡	wai mei	
 萎靡	wai mei	
@@ -164777,7 +164220,6 @@ import_tables:
 圍城	wai sing	
 彗星	wai sing	
 惠城	wai sing	
-慧星	wai sing	
 渭城	wai sing	
 濰城	wai sing	
 蔚成	wai sing	
@@ -164974,7 +164416,7 @@ import_tables:
 琿春市	wan ceon si	
 搵出	wan ceot	
 運出	wan ceot	
-搵出來	wan ceot lai	
+搵出嚟	wan ceot lai	
 搵出嚟	wan ceot lei	
 運出運費	wan ceot wan fai	
 暈池	wan ci	
@@ -165118,7 +164560,7 @@ import_tables:
 蘊涵	wan haam	
 雲咸街	wan haam gaai	
 隕坑	wan haang	
-榲黑房	wan hak fong	
+困黑房	wan hak fong	
 韞黑房	wan hak fong	
 蘊含	wan ham	
 混行	wan hang	
@@ -165248,18 +164690,15 @@ import_tables:
 渾球兒	wan kau ji	
 搵佢	wan keoi	
 暈厥	wan kyut	
-搵來	wan lai	
 搵嚟	wan lai	
-搵來搞	wan lai gaau	
 搵嚟搞	wan lai gaau	
-搵來攪嘅	wan lai gaau ge	
-搵來講	wan lai gong	
+搵嚟攪嘅	wan lai gaau ge	
 搵嚟講	wan lai gong	
-搵來辛苦	wan lai san fu	
 搵嚟辛苦	wan lai san fu	
 雲林	wan lam	
 雲林縣	wan lam jyun	
 勻溜	wan lau	
+搵嚟	wan lei	
 搵嚟搞	wan lei gaau	
 搵嚟攪嘅	wan lei gaau ge	
 搵嚟講	wan lei gong	
@@ -165287,7 +164726,6 @@ import_tables:
 搵路	wan lou	
 運路	wan lou	
 搵老襯	wan lou can	
-搵老親	wan lou can	
 運路行	wan lou haang	
 搵老婆	wan lou po	
 雲龍	wan lung	
@@ -165378,7 +164816,6 @@ import_tables:
 溫莎	wan saa	
 雲沙	wan saa	
 雲紗	wan saa	
-暈嗮大浪	wan saai daai long	
 暈晒大浪	wan saai daai long	
 搵山草藥	wan saan cou joek	
 雲散風流	wan saan fung lau	
@@ -165477,9 +164914,7 @@ import_tables:
 雲吞	wan tan	
 餛飩	wan tan	
 雲吞麪	wan tan min	
-雲吞麵	wan tan min	
 餛飩麪	wan tan min	
-餛飩麵	wan tan min	
 暈頭	wan tau	
 雲頭	wan tau	
 韻頭	wan tau	
@@ -165874,8 +165309,8 @@ import_tables:
 永泰縣	wing taai jyun	
 永泰站	wing taai zaam	
 泳灘	wing taan	
-詠嘆	wing taan	
-詠嘆調	wing taan diu	
+詠歎	wing taan	
+詠歎調	wing taan diu	
 𢫕頭	wing tau	
 榮華	wing waa	
 榮華富貴	wing waa fu gwai	
@@ -166188,7 +165623,6 @@ import_tables:
 獲獎	wok zoeng	
 獲獎人	wok zoeng jan	
 穫獎者	wok zoeng ze	
-往時	won si	
 黃鴨	wong aap	
 黃鶯	wong ang	
 王鷗	wong au	
@@ -166910,7 +166344,6 @@ import_tables:
 烏豆	wu dau	
 胡豆	wu dau	
 污點	wu dim	
-污點証人	wu dim zing jan	
 污點證人	wu dim zing jan	
 胡定欣	wu ding jan	
 胡蝶	wu dip	
@@ -167000,7 +166433,6 @@ import_tables:
 湖光山色	wu gwong saan sik	
 烏鵑	wu gyun	
 烏下烏下	wu haa wu haa	
-烏吓烏吓	wu haa wu haa	
 烏克蘭	wu haak laan	
 戶限	wu haan	
 戶限爲穿	wu haan wai cyun	
@@ -167596,7 +167028,6 @@ import_tables:
 回鄉卡	wui hoeng kaat	
 回鄉咭	wui hoeng kaat	
 茴香籽	wui hoeng zi	
-回鄉証	wui hoeng zing	
 回鄉證	wui hoeng zing	
 回航	wui hong	
 回耗	wui hou	
@@ -167777,7 +167208,7 @@ import_tables:
 匯回	wui wui	
 回回	wui wui	
 回回青	wui wui cing	
-會會哋	wui wui dei	
+會會地	wui wui dei	
 會澤	wui zaak	
 會澤縣	wui zaak jyun	
 匯集	wui zaap	
@@ -168173,7 +167604,6 @@ import_tables:
 乍到	zaa dou	
 渣都冇	zaa dou mou	
 渣都冇得剩	zaa dou mou dak zing	
-渣都冇得剩	zaa dou mouk dak zing	
 揸筷子	zaa faai zi	
 詐瞓	zaa fan	
 揸弗	zaa fit	
@@ -168247,7 +167677,6 @@ import_tables:
 詐媽嬌	zaa maa giu	
 蚱蜢	zaa maang	
 炸麪	zaa min	
-炸麵	zaa min	
 炸毛	zaa mou	
 詐冒	zaa mou	
 咱們	zaa mun	
@@ -168315,10 +167744,9 @@ import_tables:
 榨汁機	zaa zap gei	
 榨酒池	zaa zau ci	
 揸正	zaa zeng	
-揸正來做	zaa zeng lai zou	
 揸正嚟做	zaa zeng lai zou	
-揸正來做	zaa zeng lei zou	
 揸正嚟做	zaa zeng lei zou	
+揸正來做	zaa zeng loi zou	
 渣滓	zaa zi	
 炸子雞	zaa zi gai	
 炸醬麪	zaa zoeng min	
@@ -168481,7 +167909,7 @@ import_tables:
 嘖嘖	zaak zaak	
 嘖嘖稱奇	zaak zaak cing kei	
 嘖嘖稱羡	zaak zaak cing sin	
-窄窄哋	zaak zaak dei	
+窄窄地	zaak zaak dei	
 澤州	zaak zau	
 澤州縣	zaak zau jyun	
 摘借	zaak ze	
@@ -168514,7 +167942,6 @@ import_tables:
 斬犯	zaam faan	
 蘸火	zaam fo	
 斬雞頭燒黃紙	zaam gai tau siu wong zi	
-斬雞頭燒黄紙	zaam gai tau siu wong zi	
 斬雞頭換雞腳	zaam gai tau wun gai goek	
 斬件	zaam gin	
 嶄勁	zaam ging	
@@ -168531,9 +167958,7 @@ import_tables:
 䁪下	zaam haa	
 眨下	zaam haa	
 䁪下眼	zaam haa ngaan	
-䁪吓眼	zaam haa ngaan	
 眨下眼	zaam haa ngaan	
-眨吓眼	zaam haa ngaan	
 䁪下眼就	zaam haa ngaan zau	
 眨下眼就	zaam haa ngaan zau	
 暫行	zaam hang	
@@ -168673,9 +168098,8 @@ import_tables:
 贊成票	zaan sing piu	
 讚賞	zaan soeng	
 撰書	zaan syu	
-讚嘆	zaan taan	
 讚歎	zaan taan	
-讚嘆不已	zaan taan bat ji	
+讚歎不已	zaan taan bat ji	
 賺頭	zaan tau	
 賺頭蝕尾	zaan tau sik mei	
 賺頭蝕尾	zaan tau sit mei	
@@ -168728,7 +168152,7 @@ import_tables:
 爭論	zaang leon	
 爭兩個人	zaang loeng go jan	
 爭唔落	zaang m lok	
-掙滿嗮	zaang mun saai	
+掙滿晒	zaang mun saai	
 䂻牙罅	zaang ngaa laa	
 撐沙雞	zaang saa gai	
 撑沙雞	zaang saa gai	
@@ -169096,7 +168520,6 @@ import_tables:
 紮炮	zaat paau	
 紮砲	zaat paau	
 扎破	zaat po	
-紮嗮馬	zaat saai maa	
 紮晒馬	zaat saai maa	
 扎實	zaat sat	
 紮實	zaat sat	
@@ -169274,7 +168697,6 @@ import_tables:
 擠踏	zai daap	
 䎺得過	zai dak gwo	
 制得過	zai dak gwo	
-製得過	zai dak gwo	
 擠兌	zai deoi	
 擠對	zai deoi	
 制掂	zai dim	
@@ -169359,7 +168781,6 @@ import_tables:
 制唔過	zai m gwo	
 䎺唔䎺	zai m zai	
 制唔制	zai m zai	
-製唔製	zai m zai	
 祭物	zai mat	
 擠眉弄眼	zai mei lung ngaan	
 擠滿	zai mun	
@@ -169417,7 +168838,7 @@ import_tables:
 濟濟	zai zai	
 製劑	zai zai	
 擠擠插插	zai zai caap caap	
-滯滯哋	zai zai dei	
+滯滯地	zai zai dei	
 濟濟一堂	zai zai jat tong	
 掣肘	zai zau	
 濟州	zai zau	
@@ -169519,7 +168940,7 @@ import_tables:
 浸親	zam can	
 針車	zam ce	
 斟出	zam ceot	
-斟出來	zam ceot lai	
+斟出嚟	zam ceot lai	
 斟出嚟	zam ceot lei	
 針刺	zam ci	
 針刺麻醉	zam ci maa zeoi	
@@ -169773,7 +169194,7 @@ import_tables:
 震過貓王	zan gwo maau wong	
 賑捐	zan gyun	
 震駭	zan haai	
-真係	zan hai	1000.0
+真係	zan hai	10000.0
 真係慘嘞	zan hai caam laak	
 真系火滾	zan hai fo gwan	
 真係有心	zan hai jau sam	
@@ -169977,7 +169398,7 @@ import_tables:
 賑濟	zan zai	
 真真	zan zan	
 陣陣	zan zan	
-真真哋	zan zan dei	
+真真地	zan zan dei	
 真真假假	zan zan gaa gaa	
 震震貢	zan zan gung	
 振振有詞	zan zan jau ci	
@@ -170203,7 +169624,6 @@ import_tables:
 爭住	zang zyu	
 執拗	zap aau	
 執包袱	zap baau fuk	
-輯包袱	zap baau fuk	
 執筆	zap bat	
 執筆忘字	zap bat mong zi	
 執波	zap bo	
@@ -170264,7 +169684,7 @@ import_tables:
 執行主席	zap hang zyu zik	
 執口水尾	zap hau seoi mei	
 執起	zap hei	
-執起來	zap hei lai	
+執起嚟	zap hei lai	
 執起嚟	zap hei lei	
 執人口水尾	zap jan hau seoi mei	
 執人口水溦	zap jan hau seoi mei	
@@ -170298,7 +169718,6 @@ import_tables:
 執拾好行李	zap sap hou hang lei	
 執手	zap sau	
 執手尾	zap sau mei	
-輯手尾	zap sau mei	
 執死雞	zap sei gai	
 執死雞仔	zap sei gai zai	
 汁水	zap seoi	
@@ -170327,7 +169746,6 @@ import_tables:
 執仔婆	zap zai bo	
 執仔婆	zap zai po	
 執正	zap zeng	
-輯正	zap zeng	
 執正啲	zap zeng di	
 執子	zap zi	
 執字粒	zap zi lap	
@@ -170493,7 +169911,7 @@ import_tables:
 揪出	zau ceot	
 走出	zau ceot	
 走出去	zau ceot heoi	
-走出來	zau ceot lai	
+走出嚟	zau ceot lai	
 走出嚟	zau ceot lei	
 就此	zau ci	
 酒刺	zau ci	
@@ -170639,7 +170057,7 @@ import_tables:
 走歸左	zau gwai zo	
 走過	zau gwo	
 走過場	zau gwo coeng	
-走過來	zau gwo lai	
+走過嚟	zau gwo lai	
 走過嚟	zau gwo lei	
 酒過三巡	zau gwo saam ceon	
 走光	zau gwong	
@@ -170697,7 +170115,7 @@ import_tables:
 周恩來	zau jan loi	
 走入	zau jap	
 走入去	zau jap heoi	
-走入來	zau jap lai	
+走入嚟	zau jap lai	
 走入嚟	zau jap lei	
 週一	zau jat	
 週日	zau jat	
@@ -170746,7 +170164,6 @@ import_tables:
 酒藥	zau joek	
 走樣	zau joeng	
 酒釀	zau joeng	
-走樣兒	zau joeng ji	
 走肉	zau juk	
 酒肉朋友	zau juk pang jau	
 鄒容	zau jung	
@@ -170786,7 +170203,6 @@ import_tables:
 周立波	zau laap bo	
 州立大學	zau laap daai hok	
 周禮	zau lai	
-就來	zau lai	
 就嚟	zau lai	
 走撚開	zau lan hoi	
 酒凹	zau lap	
@@ -170814,6 +170230,7 @@ import_tables:
 酒令兒	zau ling ji	
 酒量	zau loeng	
 周梁淑怡	zau loeng suk ji	
+就來	zau loi	
 走來回	zau loi wui	
 走廊	zau long	
 酒廊	zau long	
@@ -170835,7 +170252,7 @@ import_tables:
 走馬上任	zau maa soeng jam	
 走馬章臺	zau maa zoeng toi	
 走埋	zau maai	
-走埋來	zau maai lai	
+走埋嚟	zau maai lai	
 走埋嚟	zau maai lei	
 就晚了	zau maan liu	
 皺掹掹	zau maang maang	
@@ -170896,8 +170313,8 @@ import_tables:
 酒舖	zau pou	
 酒鋪	zau pou	
 揪痧	zau saa	
-走曬	zau saai	
-走曬音	zau saai jam	
+走晒	zau saai	
+走晒音	zau saai jam	
 週三	zau saam	
 周三徑一	zau saam ging jat	
 舟山	zau saan	
@@ -171376,7 +170793,7 @@ import_tables:
 蔗渣噉嘅價錢	ze zaa gam ge gaa cin	
 借債	ze zaai	
 借債人	ze zaai jan	
-車仔麵	ze zai min	
+車仔麪	ze zai min	
 遮仔會	ze zai wui	
 這陣兒	ze zan ji	
 這陣子	ze zan zi	
@@ -171532,7 +170949,6 @@ import_tables:
 精叻	zeng lek	
 精嚦	zeng lek	
 精𥌮	zeng lek	
-精靈	zeng ling	
 鄭碼	zeng maa	
 精埋一便	zeng maai jat bin	
 精面	zeng min	
@@ -171540,7 +170956,6 @@ import_tables:
 鄭夢準	zeng mung zeon	
 正牌	zeng paai	
 井噴	zeng pan	
-正嗮	zeng saai	
 正晒	zeng saai	
 凈身出戶	zeng san ceot wu	
 鄭秀文	zeng sau man	
@@ -171559,8 +170974,8 @@ import_tables:
 鄭州大學	zeng zau daai hok	
 鄭州市	zeng zau si	
 井井	zeng zeng	
-精精哋	zeng zeng dei	
-精精哋就	zeng zeng dei zau	
+精精地	zeng zeng dei	
+精精地就	zeng zeng dei zau	
 井井有條	zeng zeng jau tiu	
 鄭重	zeng zung	
 鄭中基	zeng zung gei	
@@ -171843,8 +171258,6 @@ import_tables:
 錐面	zeoi min	
 敘明	zeoi ming	
 罪名	zeoi ming	
-嘴喵喵	zeoi miu miu	
-嘴妙妙	zeoi miu miu	
 嘴廟廟	zeoi miu miu	
 嘴藐藐	zeoi miu miu	
 嘴𠴕𠴕	zeoi miu miu	
@@ -172355,7 +171768,7 @@ import_tables:
 怵惕	zeot tik	
 出橫手	zeot waang sau	
 卒仔	zeot zai	
-椊嘴	zeot zeoi	
+捽嘴	zeot zeoi	
 卒之	zeot zi	
 卒中	zeot zung	
 噍低	zeu dai	
@@ -172706,7 +172119,6 @@ import_tables:
 脂粉客	zi fan haak	
 脂粉氣	zi fan hei	
 芝焚蕙嘆	zi fan wai taan	
-芝焚蕙歎	zi fan wai taan	
 芝罘	zi fau	
 芝罘區	zi fau keoi	
 紙火柴	zi fo caai	
@@ -172766,7 +172178,7 @@ import_tables:
 字格	zi gaak	
 資格	zi gaak	
 資格賽	zi gaak coi	
-資格証	zi gaak zing	
+資格證	zi gaak zing	
 之間	zi gaan	
 知更鳥	zi gaang niu	
 知更雀	zi gaang zoek	
@@ -172827,10 +172239,10 @@ import_tables:
 自己人	zi gei jan	
 自己友	zi gei jau	
 自己攞嚟	zi gei lo lai	
-自己攞來衰	zi gei lo lai seoi	
 自己攞嚟衰	zi gei lo lai seoi	
 自己攞嚟死	zi gei lo lei sei	
 自己攞嚟衰	zi gei lo lei seoi	
+自己攞來衰	zi gei lo loi seoi	
 自己身有屎	zi gei san jau si	
 自己執生	zi gei zap saang	
 自己最知自己事	zi gei zeoi zi zi gei si	
@@ -172937,7 +172349,7 @@ import_tables:
 只限於	zi haan jyu	
 知慳識儉	zi haan sik gim	
 子孝父慈	zi haau fu ci	
-只係	zi hai	10000.0
+只係	zi hai	100000.0
 支系	zi hai	
 子系統	zi hai tung	
 支系統	zi hai tung	
@@ -173123,7 +172535,6 @@ import_tables:
 字意	zi ji	
 字義	zi ji	
 恣意	zi ji	
-指倚	zi ji	
 指意	zi ji	
 指擬	zi ji	
 指爾	zi ji	
@@ -173614,7 +173025,6 @@ import_tables:
 自新	zi san	
 自身	zi san	
 自身利益	zi san lei jik	
-泥菩薩過江	zi san naan bou	
 自身難保	zi san naan bou	
 置身事外	zi san si ngoi	
 智神星	zi san sing	
@@ -173809,8 +173219,7 @@ import_tables:
 姿態婀娜	zi taai o no	
 紫檀	zi taan	
 自嘆不如	zi taan bat jyu	
-自歎不如	zi taan bat jyu	
-自歎弗如	zi taan fat jyu	
+自嘆弗如	zi taan fat jyu	
 自彈自唱	zi taan zi coeng	
 字體	zi tai	
 肢體	zi tai	
@@ -174444,7 +173853,6 @@ import_tables:
 即食	zik sik	
 積食	zik sik	
 即食麪	zik sik min	
-即食麵	zik sik min	
 直線	zik sin	
 跡線	zik sin	
 直線加速器	zik sin gaa cuk hei	
@@ -175048,8 +174456,8 @@ import_tables:
 精兵	zing bing	
 旌表	zing biu	
 正步	zing bou	
-整煲傑嘢人嘆	zing bou git je jan taan	
-整煲杰嘢人嘆	zing bou git je jan taan	
+整煲傑嘢人歎	zing bou git je jan taan	
+整煲杰嘢人歎	zing bou git je jan taan	
 正步走	zing bou zau	
 正本	zing bun	
 正本清源	zing bun cing jyun	
@@ -175078,7 +174486,7 @@ import_tables:
 整除	zing ceoi	
 整除數	zing ceoi sou	
 精出骨	zing ceot gwat	
-整出來	zing ceot lai	
+整出嚟	zing ceot lai	
 整出嚟	zing ceot lei	
 證詞	zing ci	
 正詞法	zing ci faat	
@@ -175264,7 +174672,6 @@ import_tables:
 正根	zing gan	
 政紀	zing gei	
 整機	zing gei	
-証據	zing geoi	
 證據	zing geoi	
 正極	zing gik	
 幀檢驗序列	zing gim jim zeoi lit	
@@ -175314,7 +174721,6 @@ import_tables:
 證管會	zing gun wui	
 政工	zing gung	
 精工	zing gung	
-証供	zing gung	
 證供	zing gung	
 正宮娘娘	zing gung noeng noeng	
 正攻砲	zing gung paau	
@@ -175401,7 +174807,6 @@ import_tables:
 正人	zing jan	
 正印	zing jan	
 正因	zing jan	
-証人	zing jan	
 證人	zing jan	
 正人君子	zing jan gwan zi	
 證人席	zing jan zik	
@@ -175540,7 +174945,7 @@ import_tables:
 剩落	zing lok	
 靜樂	zing lok	
 靜樂縣	zing lok jyun	
-靜落來	zing lok lai	
+靜落嚟	zing lok lai	
 靜落嚟	zing lok lei	
 整路	zing lou	
 正路	zing lou	
@@ -175564,7 +174969,6 @@ import_tables:
 正文	zing man	
 烝民	zing man	
 精密	zing mat	
-証物	zing mat	
 證物	zing mat	
 靜宓	zing mat	
 靜謐	zing mat	
@@ -175577,12 +174981,10 @@ import_tables:
 精美	zing mei	
 正面	zing min	
 淨麪	zing min	
-淨麵	zing min	
 精麪	zing min	
 晶明	zing ming	
 正名	zing ming	
 精明	zing ming	
-証明	zing ming	
 證明	zing ming	
 證明完畢	zing ming jyun bat	
 精明強幹	zing ming koeng gon	
@@ -175725,7 +175127,7 @@ import_tables:
 蒸水蛋	zing seoi daan	
 整衰個招牌	zing seoi go ziu paai	
 淨水器	zing seoi hei	
-整衰嗮	zing seoi saai	
+整衰晒	zing seoi saai	
 偵訊	zing seon	
 征詢	zing seon	
 徵信	zing seon	
@@ -175799,9 +175201,9 @@ import_tables:
 晶體結構	zing tai git kau	
 晶體管	zing tai gun	
 整體觀念	zing tai gun nim	
-整體來講	zing tai lai gong	
 整體嚟講	zing tai lai gong	
 整體嚟講	zing tai lei gong	
+整體來講	zing tai loi gong	
 整體數位服務網路	zing tai sou wai fuk mou mong lou	
 正體字	zing tai zi	
 蒸騰	zing tang	
@@ -175927,7 +175329,6 @@ import_tables:
 靜靜雞	zing zing gai	
 正正經經	zing zing ging ging	
 整整下	zing zing haa	
-整整吓	zing zing haa	
 蒸蒸日上	zing zing jat soeng	
 井井有條	zing zing jau tiu	
 正正確確	zing zing kok kok	
@@ -176384,7 +175785,7 @@ import_tables:
 招風耳	ziu fung ji	
 招架	ziu gaa	
 照計	ziu gai	
-照咁睇	ziu gam tai	
+照噉睇	ziu gam tai	
 焦急	ziu gap	
 照舊	ziu gau	
 趙構	ziu gau	
@@ -176884,7 +176285,7 @@ import_tables:
 左手交右手	zo sau gaau jau sau	
 坐收漁人之利	zo sau jyu jan zi lei	
 坐收漁利	zo sau jyu lei	
-左手來，右手去	zo sau lai jau sau heoi	
+左手嚟，右手去	zo sau lai jau sau heoi	
 左手嚟，右手去	zo sau lei jau sau heoi	
 左手面	zo sau min	
 助手席	zo sau zik	
@@ -176979,12 +176380,9 @@ import_tables:
 酌辦	zoek baan	
 雀斑	zoek baan	
 着筆	zoek bat	
-著筆	zoek bat	
 嚼不爛	zoek bat laan	
 着邊	zoek bin	
-著邊	zoek bin	
 着邊兒	zoek bin ji	
-著邊兒	zoek bin ji	
 鵲報	zoek bou	
 雀巢	zoek caau	
 鵲巢鳩佔	zoek caau gau zim	
@@ -176994,36 +176392,26 @@ import_tables:
 酌情處理	zoek cing cyu lei	
 酌裁	zoek coi	
 着牀	zoek cong	
-著牀	zoek cong	
 着草	zoek cou	
 著草	zoek cou	
 雀噪	zoek cou	
 着草鞋	zoek cou haai	
 著草鞋	zoek cou haai	
 着處	zoek cyu	
-著處	zoek cyu	
 酌處	zoek cyu	
 酌處權	zoek cyu kyun	
 着得	zoek dak	
 着燈	zoek dang	
-著燈	zoek dang	
 雀竇	zoek dau	
 着地	zoek dei	
-著地	zoek dei	
 着地點	zoek dei dim	
-著地點	zoek dei dim	
 酌定	zoek ding	
 酌奪	zoek dyut	
 着花	zoek faa	
-著花	zoek faa	
 着法	zoek faat	
-著法	zoek faat	
 着火	zoek fo	
-著火	zoek fo	
 着火點	zoek fo dim	
-著火點	zoek fo dim	
 着慌	zoek fong	
-著慌	zoek fong	
 着褲	zoek fu	
 著褲	zoek fu	
 酌加	zoek gaa	
@@ -177032,9 +176420,7 @@ import_tables:
 着緊	zoek gan	
 著緊	zoek gan	
 着急	zoek gap	
-著急	zoek gap	
 着勁兒	zoek ging ji	
-著勁兒	zoek ging ji	
 雀局	zoek guk	
 鵲局	zoek guk	
 着孝	zoek haau	
@@ -177050,12 +176436,10 @@ import_tables:
 雀友	zoek jau	
 着意	zoek ji	
 着衣	zoek ji	
-著意	zoek ji	
 著衣	zoek ji	
 酌議	zoek ji	
 雀兒山	zoek ji saan	
 着然	zoek jin	
-著然	zoek jin	
 斫營	zoek jing	
 雀鷹	zoek jing	
 雀形目	zoek jing muk	
@@ -177069,7 +176453,6 @@ import_tables:
 着鴛鴦襪	zoek jyun joeng mat	
 著鴛鴦襪	zoek jyun joeng mat	
 着棋	zoek kei	
-著棋	zoek kei	
 鵲橋	zoek kiu	
 嚼蠟	zoek laap	
 着嚟	zoek lai	
@@ -177077,21 +176460,14 @@ import_tables:
 著褸	zoek lau	
 雀類	zoek leoi	
 着力	zoek lik	
-著力	zoek lik	
 着力點	zoek lik dim	
-著力點	zoek lik dim	
 着涼	zoek loeng	
-著涼	zoek loeng	
 酌量	zoek loeng	
 着落	zoek lok	
-著落	zoek lok	
 爵祿	zoek luk	
 着陸	zoek luk	
-著陸	zoek luk	
 着陸場	zoek luk coeng	
-著陸場	zoek luk coeng	
 着陸點	zoek luk dim	
-著陸點	zoek luk dim	
 雀籠	zoek lung	
 着龍袍唔似太子	zoek lung pou m ci taai zi	
 著龍袍唔似太子	zoek lung pou m ci taai zi	
@@ -177100,27 +176476,19 @@ import_tables:
 雀盲	zoek maang	
 雀盲眼	zoek maang ngaan	
 着迷	zoek mai	
-著迷	zoek mai	
 着墨	zoek mak	
-著墨	zoek mak	
 着名牌	zoek ming paai	
 著名牌	zoek ming paai	
 着魔	zoek mo	
-著魔	zoek mo	
 着忙	zoek mong	
-著忙	zoek mong	
 雀𪃏	zoek mui	
 酌滿	zoek mun	
 着呢	zoek ne	
-著呢	zoek ne	
 着瓦靴	zoek ngaa hoe	
 着眼	zoek ngaan	
-著眼	zoek ngaan	
 着眼點	zoek ngaan dim	
-著眼點	zoek ngaan dim	
 雀鳥	zoek niu	
 着惱	zoek nou	
-著惱	zoek nou	
 芍陂	zoek pei	
 雀屏	zoek ping	
 雀屏中選	zoek ping zung syun	
@@ -177128,22 +176496,16 @@ import_tables:
 著衫	zoek saam	
 着三不着兩	zoek saam bat zoek loeng	
 着實	zoek sat	
-著實	zoek sat	
 着手	zoek sau	
-著手	zoek sau	
 酌收	zoek sau	
 着手於	zoek sau jyu	
-著手於	zoek sau jyu	
 着手成春	zoek sau sing ceon	
-著手成春	zoek sau sing ceon	
 爵士	zoek si	
 着時	zoek si	
-著時	zoek si	
 爵士音樂	zoek si jam ngok	
 爵士舞	zoek si mou	
 爵士樂	zoek si ngok	
 着色	zoek sik	
-著色	zoek sik	
 雀食	zoek sik	
 鵲色鸝	zoek sik lei	
 嚼舌	zoek sit	
@@ -177152,10 +176514,8 @@ import_tables:
 灼燒	zoek siu	
 灼傷	zoek soeng	
 着想	zoek soeng	
-著想	zoek soeng	
 斫喪	zoek song	
 着數	zoek sou	
-著數	zoek sou	
 雀粟	zoek suk	
 灼痛	zoek tung	
 爵位	zoek wai	
@@ -177171,11 +176531,8 @@ import_tables:
 着着失敗	zoek zoek sat baai	
 着着聲	zoek zoek seng	
 着裝	zoek zong	
-著裝	zoek zong	
 着重	zoek zung	
-著重	zoek zung	
 着重號	zoek zung hou	
-著重號	zoek zung hou	
 長丫角	zoeng aa gok	
 掌握	zoeng aak	
 掌握電腦	zoeng aak din nou	
@@ -177776,14 +177133,13 @@ import_tables:
 災區	zoi keoi	
 再傾	zoi king	
 載攜	zoi kwai	
-再來	zoi lai	
-再來過	zoi lai gwo	
 再嚟過	zoi lai gwo	
 再臨	zoi lam	
 再嚟	zoi lei	
 在理	zoi lei	
 再嚟過	zoi lei gwo	
 再利用	zoi lei jung	
+再來	zoi loi	
 在來米	zoi loi mai	
 再唔慌	zoi m fong	
 再唔係	zoi m hai	
@@ -177827,7 +177183,7 @@ import_tables:
 再生制動	zoi sang zai dung	
 再生資源	zoi sang zi jyun	
 宰牲節	zoi sang zit	
-在室內	zoi sat naap	
+在室內	zoi sat noi	
 再四	zoi sei	
 再衰三竭	zoi seoi saam kit	
 甾醇	zoi seon	
@@ -178056,7 +177412,6 @@ import_tables:
 濯足	zok zuk	
 作主	zok zyu	
 作輟	zok zyut	
-趕入窮巷	zon jap kung hong	
 妝扮	zong baan	
 撞板	zong baan	
 撞闆	zong baan	
@@ -178093,11 +177448,11 @@ import_tables:
 裝彈	zong daan	
 髒彈	zong daan	
 裝彈弓	zong daan gung	
+裝訂	zong deng	
 妝點	zong dim	
 裝點	zong dim	
 裝點門面	zong dim mun min	
 壯丁	zong ding	
-裝訂	zong ding	
 裝袋	zong doi	
 撞倒	zong dou	
 撞到滿天星	zong dou mun tin sing	
@@ -178392,13 +177747,13 @@ import_tables:
 灶底	zou dai	
 皁隸	zou dai	
 做得	zou dak	
-做得來	zou dak lai	
+做得嚟	zou dak lai	
 租地	zou dei	
 租地人投標票權	zou dei jan tau biu piu kyun	
 組隊	zou deoi	
 早啲	zou di	
-早啲翻來	zou di faan lai	
-早啲返來	zou di faan lai	
+早啲翻嚟	zou di faan lai	
+早啲返嚟	zou di faan lai	
 早啲翻嚟	zou di faan lei	
 早啲返嚟	zou di faan lei	
 早啲瞓	zou di fan	
@@ -178412,7 +177767,7 @@ import_tables:
 遭到	zou dou	
 做到金睛火眼	zou dou gam zing fo ngaan	
 做到氣咳	zou dou hei kat	
-做到一隻屐咁	zou dou jat zek kek gam	
+做到一隻屐噉	zou dou jat zek kek gam	
 做到嘢	zou dou je	
 做到死死下	zou dou sei sei haa	
 早稻田大學	zou dou tin daai hok	
@@ -178465,7 +177820,7 @@ import_tables:
 做雞	zou gai	
 租金	zou gam	
 做緊	zou gan	
-做緊乜	zou gan me	
+做緊乜	zou gan mat	
 做緊咩	zou gan me	
 做嘅	zou ge	
 做忌	zou gei	
@@ -178597,8 +177952,8 @@ import_tables:
 早戀	zou lyun	
 做唔切	zou m cit	
 做唔到	zou m dou	
-做唔來	zou m lai	
-做唔嗮	zou m saai	
+做唔嚟	zou m lai	
+做唔晒	zou m saai	
 祖馬	zou maa	
 竈馬	zou maa	
 造馬	zou maa	
@@ -178663,7 +178018,6 @@ import_tables:
 做散使	zou saan sai	
 造山運動	zou saan wan dung	
 造山作用	zou saan zok jung	
-做生不如做熟	zou saang bat ju zou suk	
 做生不如做熟	zou saang bat jyu zou suk	
 早生貴子	zou saang gwai zi	
 做生日	zou saang jat	
@@ -178915,7 +178269,6 @@ import_tables:
 觸動	zuk dung	
 竹東鎮	zuk dung zan	
 竹花頭	zuk faa tau	
-竹花頭	zuk faa tu	
 觸犯	zuk faan	
 祝髮	zuk faat	
 竺法	zuk faat	
@@ -178935,7 +178288,6 @@ import_tables:
 屬格	zuk gaak	
 捉姦	zuk gaan	
 竹簡	zuk gaan	
-捉姦在床	zuk gaan zoi cong	
 捉姦在牀	zuk gaan zoi cong	
 竹鮫	zuk gaau	
 竺教	zuk gaau	
@@ -179203,7 +178555,6 @@ import_tables:
 祝允明	zuk wan ming	
 捉獲	zuk wok	
 捉黃腳雞	zuk wong goek gai	
-捉黄腳雞	zuk wong goek gai	
 竹芋	zuk wu	
 屬垣有耳	zuk wun jau ji	
 續集	zuk zaap	
@@ -179810,7 +179161,7 @@ import_tables:
 綜效	zung haau	
 重孝	zung haau	
 忠孝不能兩全	zung haau bat nang loeng cyun	
-仲係	zung hai	1000.0
+仲係	zung hai	10000.0
 仲喺	zung hai	
 種系	zung hai	
 總係	zung hai	
@@ -179908,10 +179259,9 @@ import_tables:
 中日韓統一表意文字	zung jat hon tung jat biu ji man zi	
 中油	zung jau	
 中游	zung jau	
-仲有	zung jau	100.0
+仲有	zung jau	1000.0
 縱有	zung jau	
 總有	zung jau	
-重有	zung jau	
 仲有個	zung jau go	
 仲有咩	zung jau me	
 仲有冇	zung jau mou	
@@ -180112,7 +179462,7 @@ import_tables:
 重量輕質	zung loeng hing zat	
 中量級	zung loeng kap	
 舂落去	zung lok heoi	
-舂落來	zung lok lai	
+舂落嚟	zung lok lai	
 舂落嚟	zung lok lei	
 鍾落潭	zung lok taam	
 鐘落潭	zung lok taam	
@@ -180126,7 +179476,7 @@ import_tables:
 中六	zung luk	
 中聯辦	zung lyun baan	
 中聯航	zung lyun hong	
-仲唔	zung m	100.0
+仲唔	zung m	1000.0
 仲唔瞓	zung m fan	
 仲唔落雨就弊咯	zung m lok jyu zau bai lok	
 鍾唔鍾意	zung m zung ji	
@@ -180161,8 +179511,7 @@ import_tables:
 中牟	zung mau	
 中牟縣	zung mau jyun	
 中美	zung mei	
-仲未	zung mei	100.0
-重未	zung mei	
+仲未	zung mei	1000.0
 棕尾伯勞	zung mei baak lou	
 仲未到	zung mei dou	
 中美高	zung mei gou	
@@ -180173,7 +179522,7 @@ import_tables:
 棕眉柳鶯	zung mei lau ang	
 中美文化研究中心	zung mei man faa jin gau zung sam	
 棕眉山岩鷚	zung mei saan ngaam lau	
-重未死過	zung mei sei gwo	
+仲未死過	zung mei sei gwo	
 中美洲	zung mei zau	
 中微子	zung mei zi	
 鐘面	zung min	
@@ -180410,7 +179759,7 @@ import_tables:
 中上	zung soeng	
 中傷	zung soeng	
 中常	zung soeng	
-仲想	zung soeng	100.0
+仲想	zung soeng	1000.0
 中上層	zung soeng cang	
 中上程度	zung soeng cing dou	
 中上等	zung soeng dang	
@@ -180436,7 +179785,7 @@ import_tables:
 中樞神經	zung syu san ging	
 中樞神經系統	zung syu san ging hai tung	
 中選	zung syun	
-仲算	zung syun	100.0
+仲算	zung syun	1000.0
 總算	zung syun	
 中宣部	zung syun bou	
 重孫女	zung syun neoi	
@@ -180658,7 +180007,6 @@ import_tables:
 種族主義者	zung zuk zyu ji ze	
 中中	zung zung	
 種種	zung zung	
-中中哋	zung zung dei	
 中中地	zung zung dei	
 中中挺挺	zung zung ting ting	
 重中之重	zung zung zi zung	
@@ -180772,9 +180120,9 @@ import_tables:
 主導	zyu dou	
 主導權	zyu dou kyun	
 煮到嚟就食	zyu dou lai zau sik	
-煮到來就食	zyu dou lai zau zi	
+煮到嚟就食	zyu dou lai zau zi	
 煮到嚟就食	zyu dou lei zau zi	
-煮到埋來先食	zyu dou maai lai sin sik	
+煮到埋嚟先食	zyu dou maai lai sin sik	
 煮到埋嚟就食	zyu dou maai lai zau sik	
 煮到埋嚟先食	zyu dou maai lei sin sik	
 煮到埋嚟就食	zyu dou maai lei zau sik	
@@ -181676,7 +181024,7 @@ import_tables:
 轉頭	zyun tau	
 鑽頭	zyun tau	
 轉頭見	zyun tau gin	
-轉頭來過	zyun tau lai gwo	
+轉頭嚟過	zyun tau lai gwo	
 轉頭嚟過	zyun tau lei gwo	
 轉臺	zyun toi	
 轉托	zyun tok	

@@ -4,7 +4,7 @@
 schema:
   schema_id: naamning_bingwaa
   name: "南寧(亭子)平話"
-  version: "2020.05.19"
+  version: "2020.08.07"
   author:
     - LeiMaau <leimaau@qq.com>
   description: |
@@ -88,11 +88,10 @@ speller:
     - derive/^nj/j/               # 模糊 nj -> j
     - derive/^sl/s/               # 模糊 sl -> s
     - derive/^ngia(ng|k)/njia$1/        # 模糊 ngia(ng|k) -> njia(ng|k)
-    - derive/^(g|k)wo/$1o/        # 模糊 (gk)wo -> (gk)o
     - derive/^(g|k)wik/$1ik/      # 模糊 (gk)wik -> (gk)ik
-    - derive/^kwaak/kaak/         # 模糊 kwaak -> kaak
     - derive/i$/ei/          	  # 模糊 i -> ei
     - derive/u$/ou/          	  # 模糊 u -> ou
+    - derive/ia(ng|k)$/e$1/       # 模糊 ia(ng|k) -> e(ng|k)
     - derive/dik$/d/              # 快出「的」字
     - derive/^jy?([aeiou])/y$1/   # 容錯 j -> y
     - derive/^jyu/yu/             # 容錯 jyu -> yu
@@ -100,8 +99,7 @@ speller:
     - derive/yu/y/                # 容錯 jyu -> jy
     - derive/aa$/a/               # 容錯 aa -> a
     - derive/oe(ng|k)$/eo$1/      # 容錯 oe(ng|k) -> eo(ng|k)
-    - derive/ia(ng|k)$/e$1/       # 容錯 ia(ng|k) -> e(ng|k)
-    - derive/o(ng|k)$/u$1/        # 容錯 o(ng|k) -> u(ng|k)
+    - derive/u(ng|k)$/o$1/        # 容錯 u(ng|k) -> o(ng|k)
     - abbrev/^([a-z]).+$/$1/      # 首字母簡拼
     - abbrev/^([a-z]{2}).+$/$1/   # 首2字母簡拼
     - abbrev/^(gw|kw|ng).+$/$1/   # 聲母簡拼

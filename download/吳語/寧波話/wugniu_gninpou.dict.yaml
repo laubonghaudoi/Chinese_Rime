@@ -21,7 +21,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.08.05"
+version: "2020.08.09"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -645,6 +645,7 @@ import_tables:
 世	syu
 卋	syu
 丗	syu
+笹	syu
 勢	syu
 歲	syu
 嵗	syu
@@ -1214,6 +1215,8 @@ import_tables:
 䡘	di
 鿬	di
 畑	di
+畠	di
+鴫	di
 沺	di
 殿	di
 奠	di
@@ -1434,6 +1437,7 @@ import_tables:
 櫔	li
 禲	li
 蠇	li
+栃	li
 例	li
 吏	li
 𥷗	li
@@ -1552,6 +1556,7 @@ import_tables:
 縑	ci
 堅	ci
 鰹	ci
+樫	ci
 諫	ci
 澗	ci
 鐗	ci
@@ -1869,7 +1874,7 @@ import_tables:
 奇	ji
 琦	ji
 騎	ji
-敧	ji
+敧	ji	578
 觭	ji
 碕	ji
 埼	ji
@@ -3202,7 +3207,7 @@ s	迡	gni
 雇	ku
 僱	ku
 枯	khu
-箍	khu
+箍	khu	5%
 骷	khu
 軲	khu
 刳	khu
@@ -4027,6 +4032,7 @@ s	迡	gni
 鉲	kha
 咔	kha
 佧	kha
+峠	kha
 嘎	ga
 嘠	ga
 茄	ga
@@ -4488,8 +4494,9 @@ s	迡	gni
 栳	lau
 咾	lau
 銠	lau
-潦	lau	5%
 荖	lau
+蛯	lau
+潦	lau	5%
 轑	lau
 嘮	lau
 嫪	lau
@@ -5044,6 +5051,7 @@ s	迡	gni
 廈	gho
 下	gho
 丅	gho
+雫	gho
 嗄	gho
 夏	gho
 暇	gho	1%
@@ -5616,6 +5624,7 @@ s	迡	gni
 花	huo
 蘤	huo
 芲	huo
+糀	huo
 嘩	huo
 譁	huo
 颬	huo
@@ -6186,6 +6195,7 @@ s	迡	gni
 亶	tae
 紞	tae
 黵	tae
+丼	tae
 打	tae	0%
 笪	tae
 鴠	tae
@@ -6357,6 +6367,7 @@ s	迡	gni
 懺	tshae
 湌	tshae
 飡	tshae
+喰	tshae
 慘	tshae
 產	tshae
 産	tshae
@@ -6416,6 +6427,7 @@ s	迡	gni
 舢	sae
 汕	sae
 訕	sae
+杣	sae
 三	sae
 𭆻	sae
 叁	sae
@@ -6459,7 +6471,6 @@ s	迡	gni
 鑱	zae
 𡓦	zae
 涎	zae
-⿰虫孱	zae
 僝	zae
 劖	zae
 𩻣	zae
@@ -6872,6 +6883,7 @@ s	迡	gni
 州	cieu
 洲	cieu
 揪	cieu
+揫	cieu
 啾	cieu
 鬏	cieu
 盩	cieu
@@ -6913,8 +6925,7 @@ s	迡	gni
 鞦	chieu
 鰍	chieu
 鰌	chieu
-揫	chieu
-揪	chieu	0%
+箍	chieu	5%
 抽	chieu
 𥻤	chieu
 湫	chieu
@@ -7337,6 +7348,7 @@ s	迡	gni
 槑	mei
 莓	mei
 脢	mei
+栂	mei
 枚	mei
 玫	mei
 溦	mei
@@ -8371,7 +8383,7 @@ s	迡	gni
 髁	khou
 稞	khou
 蝌	khou
-箍	khou
+箍	khou	5%
 薖	khou
 𨗲	khou
 可	khou
@@ -8616,6 +8628,7 @@ s	迡	gni
 廔	leu
 遱	leu
 鞻	leu
+瞜	leu
 塿	leu
 摟	leu
 簍	leu
@@ -8627,9 +8640,7 @@ s	迡	gni
 僂	leu
 瘻	leu
 𠞭	lheu
-摟	lheu	0%
 鏤	lheu
-瞜	lheu
 瘻	lheu
 瘺	lheu
 艛	lheu
@@ -8976,6 +8987,7 @@ s	迡	gni
 樑	lian
 粱	lian
 墚	lian
+簗	lian
 量	lian
 糧	lian
 粮	lian
@@ -9576,6 +9588,7 @@ s	迡	gni
 琩	tshaon
 裮	tshaon
 錩	tshaon
+椙	tshaon
 窗	tshaon
 牎	tshaon
 牕	tshaon
@@ -9919,6 +9932,7 @@ s	迡	gni
 槃	bun
 鞶	bun
 蹣	bun
+叛	bun
 𥑍	bun
 柈	bun
 磻	bun
@@ -9934,7 +9948,7 @@ s	迡	gni
 畔	bun
 坢	bun
 姅	bun
-叛	bun
+𨒃	bun
 瞞	mun
 饅	mun
 䊡	mun
@@ -10558,6 +10572,7 @@ s	迡	gni
 窉	pin
 苪	pin
 蛃	pin
+鞆	pin
 餅	pin
 秉	pin
 禀	pin
@@ -10599,6 +10614,7 @@ s	迡	gni
 蚲	bin
 鮃	bin
 屏	bin
+塀	bin
 鵧	bin
 萍	bin
 枰	bin
@@ -10924,6 +10940,7 @@ s	迡	gni
 眞	cin
 禛	cin
 蒖	cin
+槇	cin
 旍	cin
 兓	cin
 瑧	cin
@@ -10941,6 +10958,7 @@ s	迡	gni
 驚	cin
 筋	cin
 巾	cin
+凧	cin
 禁	cin
 襟	cin
 兢	cin
@@ -10970,6 +10988,7 @@ s	迡	gni
 寖	cin
 井	cin
 肼	cin
+丼	cin
 盡	cin	0%
 儘	cin	0%
 堇	cin
@@ -11333,6 +11352,7 @@ s	迡	gni
 騂	shin
 新	shin
 薪	shin
+噺	shin
 垶	shin
 觪	shin
 馨	shin
@@ -11761,6 +11781,7 @@ s	迡	gni
 閠	yun
 韻	yun
 韵	yun
+匂	yun
 鄆	yun
 運	yun
 貟	yun
@@ -11899,6 +11920,7 @@ s	迡	gni
 唇	zyun
 漘	zyun
 神	zyun
+榊	zyun
 辰	zyun
 晨	zyun
 宸	zyun
@@ -11924,6 +11946,7 @@ s	迡	gni
 靭	zyun
 靱	zyun
 肕	zyun	5%
+籾	zyun
 認	zyun	6%
 潤	zyun
 栠	zyun
@@ -12101,6 +12124,7 @@ s	迡	gni
 鉖	don
 鉵	don
 動	don
+働	don
 桶	don
 筒	don
 筩	don
@@ -13116,6 +13140,7 @@ s	迡	gni
 擇	dzaq
 雜	dzaq
 襍	dzaq
+枠	dzaq
 崱	dzaq
 溭	dzaq
 崪	dzaq
@@ -14384,7 +14409,7 @@ s	迡	gni
 肉	gnioq
 𢫭	gnioq
 掿	gnioq
-浴	gnioq	5%
+浴	gnioq	0%
 箬	gnioq	0%
 鰙	gnioq
 鳿	gnioq
@@ -15519,6 +15544,7 @@ s	迡	gni
 浴	yuq
 鵒	yuq
 峪	yuq
+硲	yuq
 曰	yuq
 域	yuq
 閾	yuq
@@ -17389,6 +17415,7 @@ s	迡	gni
 蝼	leu
 蒌	leu
 𫐷	leu
+䁖	leu
 𪣻	leu
 搂	leu
 篓	leu
@@ -17396,9 +17423,7 @@ s	迡	gni
 偻	leu
 瘘	leu
 𫦉	lheu
-搂	lheu
 镂	lheu
-䁖	lheu
 瘘	lheu
 邹	tseu
 绉	tseu
@@ -19738,7 +19763,6 @@ s	迡	gni
 瞎眼	haq ngae
 環眼	wae ngae	55
 吊眼	tiau ngae	55
-瞜眼	lheu ngae	55
 鬥𥉻眼	teu chi ngae	55
 鬥雞眼	teu ci ngae
 白眼	baq ngae
@@ -22224,7 +22248,6 @@ s	迡	gni
 𢄺身	ciau shin	55
 落水	loq syu
 軋頭	gaq deu	55
-伸懶長	shin lae jian	55
 伸懶勢	shin lae syu	55
 拗腰骨	au iau kuaq	55
 打呵鼾	tan huo he	55
@@ -22609,7 +22632,6 @@ s	迡	gni
 翻屋	fae oq	55
 捉漏	tsoq leu	55
 刷白	syuq baq
-打𥫷	tan chieu	55
 限卯	ghae mau	55
 釘碗	tin un	55
 碫磨	toe mou	55
@@ -25356,7 +25378,6 @@ s	迡	gni
 彌陀芥菜	mi dou ka tshe	55
 彌滿	mi mun
 咪咪笑	mhi mhi shiau	55
-眯覷眼	mhi chi ngae	55
 眯眯大	mhi mhi dou	55
 𡬍花眼𥉻	mi huo ngae chi	55
 米篩	mi sy	55
@@ -26920,7 +26941,6 @@ s	迡	gni
 蝦皮	huo bi
 蝦米	huo mi
 蝦乾	huo kI
-蝦⿰虫孱	huo zae	55
 蝦段	huo doe	55
 蝦醬	huo cian
 蝦仁	huo gnin
@@ -27962,9 +27982,6 @@ s	迡	gni
 豆青	deu chin
 豆莢	deu ciaq
 豆稭稈	deu ciq kI	55
-鏤眼	lheu ngae	55
-鏤鏤挖挖	lheu lheu uaq uaq	55
-鏤形刮髓	lheu yin kuaq shi	55
 鏤耳朵	lheu ng to	55
 鏤耳朵	lheu gni to	55
 樓下	leu gho
@@ -28058,7 +28075,6 @@ s	迡	gni
 打胎	tan the
 打板子	tan pae tsy
 打扮	tan pae
-打揫	tan chieu	55
 打手天心	tan shieu thi shin	55
 打亂草	tan loe tshau	55
 打火石	tan hou zaq
