@@ -28,7 +28,7 @@
 
 ---
 name: naamning_baakwaa
-version: "2020.08.07"
+version: "2020.08.13"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -235,7 +235,7 @@ import_tables:
 跛	(習)bai1「又作𨃅字」	
 𨃅	bai1	
 鎞	bai1「釵」	
-背	(語)bai3「背時，倒楣」	0%
+背	(語)bai3「背時，倒楣，官話借詞」	0%
 蔽	(書)bai3	
 轡	(又)bai3	10%
 閉	bai3	
@@ -2586,7 +2586,7 @@ import_tables:
 監	gaam3「太監」	10%
 鑑	gaam3	
 鑒	gaam3	
-奸	gaan1「漢奸」	
+奸	gaan1「奸臣」	
 姦	gaan1「強姦」	
 艱	gaan1	
 菅	gaan1	
@@ -2942,12 +2942,13 @@ import_tables:
 靬	gin1	
 鞬	gin1	
 鰹	gin1	
+件	(白)gin2「條件」	5%
 蹇	gin2	
 建	gin3	
 毽	(書)gin3	10%
 腱	gin3	
 見	gin3	
-件	gin6	
+件	gin6「一件」	
 健	gin6	
 揵	gin6「同楗字」	
 楗	gin6	
@@ -3762,7 +3763,7 @@ import_tables:
 贏	(罕)heng4	5%
 勩	(語)het6「器物磨損」	10%
 敲	(白)heu1	20%
-橇	(又)heu1	10%
+橇	(白)heu1	
 翹	(白)heu1「翹腳」	
 蹺	(白)heu1「蹺腳，蹺手」	
 蹻	heu1「同蹺字」	
@@ -3803,6 +3804,8 @@ import_tables:
 起	hi2	
 𨭎	hi2	
 器	hi3	
+屓	hi3	
+屭	hi3	
 棄	hi3	
 憩	hi3	
 戲	hi3	
@@ -3882,7 +3885,6 @@ import_tables:
 囂	hiu1	
 梟	hiu1	
 枵	hiu1	
-橇	(又)hiu1	10%
 繑	hiu1	
 驍	hiu1	
 鴞	hiu1	
@@ -3900,6 +3902,7 @@ import_tables:
 岢	ho2	
 舸	(又)ho2	10%
 何	ho4	
+和	(語)ho4「連詞，官話借詞」	10%
 嗬	ho4「嘆詞；～哆de1，嗩吶」	
 河	ho4	
 荷	ho4「薄荷，荷花」	
@@ -4193,6 +4196,7 @@ import_tables:
 霪	jam4	
 𩬎	jam4「褸𩬎妹」	
 荏	jam5	
+餁	(又)jam5	10%
 飪	(又)jam5	10%
 任	jam6「責任」	
 妊	jam6	
@@ -4200,6 +4204,7 @@ import_tables:
 紝	jam6	
 衽	jam6	
 賃	jam6	
+餁	jam6「同飪字」	
 飪	jam6	
 訢	jan1「同欣字」	
 因	jan1	
@@ -4224,7 +4229,7 @@ import_tables:
 闉	jan1	
 駰	jan1	
 潤	(白)jan2「禽畜的肝，俗字膶」	5%
-膶	(白)jan2	5%
+膶	jan2「禽畜的肝，本字潤，避諱乾」	
 隱	jan2	
 印	jan3	
 焮	(又)jan3	10%
@@ -4252,7 +4257,6 @@ import_tables:
 潤	jan6「滋潤」	
 紉	jan6	
 胤	jan6	
-膶	jan6「禽畜的肝，本字潤，避諱乾」	
 訒	jan6	
 軔	jan6	
 閏	jan6	
@@ -4376,6 +4380,7 @@ import_tables:
 贏	(白)jeng4	
 擪	(白)jep3「～衫袖，捲起衣袖，又作擫字」	
 擫	(白)jep3「～衫袖，捲起衣袖，又作擪字」	
+逸	(語)jet1「躍過」	5%
 爪	(白)jeu2	20%
 伊	ji1	
 依	ji1	
@@ -5032,10 +5037,10 @@ import_tables:
 縣	(白)jyun2「邕寧縣，橫縣」	5%
 婉	jyun2	
 宛	jyun2	
-潤	(白)jyun2	5%
+潤	(白)jyun2「禽畜的肝，俗字膶」	5%
 琬	jyun2	
 畹	jyun2	
-膶	(白)jyun2	5%
+膶	(老派)jyun2	10%
 苑	jyun2	
 菀	jyun2「紫菀」	
 院	jyun2	
@@ -5097,7 +5102,6 @@ import_tables:
 琄	jyun6	
 瑗	jyun6	
 眩	jyun6	
-膶	(老派)jyun6	10%
 衒	jyun6	
 閏	(老派)jyun6	10%
 乙	jyut3	
@@ -5251,7 +5255,7 @@ import_tables:
 躿	(語)keng2「瘦蜢meng2～，非常瘦」	5%
 擎	(語)keng4「靈leng4～，靈驗」	10%
 橛	(語)ket1「量詞，截」	5%
-橇	(白)keu1	
+橇	(文)keu1	
 翹	(文)keu1「翹腳」	
 蹺	(文)keu1「蹺腳，蹺手」	
 蹻	(又)keu1「同蹺字」	10%
@@ -5354,7 +5358,6 @@ import_tables:
 頡	kit3	
 黠	(又)kit3	10%
 𢷒	kit3	
-橇	(文)kiu1	
 巧	(常)kiu2「巧妙」	
 蹺	kiu2「蹊蹺，高蹺」	10%
 竅	kiu3	
@@ -5543,7 +5546,7 @@ import_tables:
 捃	kwan2	
 捆	kwan2	
 綑	kwan2	
-混	(語)kwan2「又作渾/滾字」	5%
+混	(語)kwan2「～社會，又作渾/滾字」	5%
 緄	(習)kwan2「緄邊」	
 閫	kwan2	
 困	kwan3「困難」	
@@ -7103,6 +7106,8 @@ import_tables:
 惗	nam2「同諗字」	
 諗	(訓)nam2「訓讀恁，思考」	
 腍	nam4「松軟，爛熟，本字飪/餁」	
+餁	(語)nam4「松軟，爛熟」	10%
+飪	(語)nam4「松軟，爛熟」	10%
 稔	nam5「熟稔」	
 婻	nam6	
 淰	nam6「睡熟；溼透；洇」	
@@ -7113,7 +7118,6 @@ import_tables:
 㨢	nang3「連帶，又作褦字」	
 褦	(語)nang3「連帶，又作㨢字」	10%
 能	nang4	
-凹	(又)nap1	10%
 粒	nap1	
 湆	(語)nap6「溼湆湆，又作𣲷字」	10%
 𣲷	nap6「溼𣲷𣲷，又作湆字」	
@@ -7466,6 +7470,7 @@ import_tables:
 蹨	nim3「踮」	
 鮎	nim4	
 鯰	nim4	
+黏	(又)nim4	10%
 廿	(文)nim6	
 唸	nim6	
 念	nim6	
@@ -9788,7 +9793,7 @@ import_tables:
 鰮	wan1	
 揾	wan2「找」	
 搵	wan2「找」	
-混	(白)wan2	5%
+混	(白)wan2「混亂」	5%
 穩	wan2	
 困	(白)wan3「囚禁，又作韞字」	20%
 愠	wan3	
@@ -9831,7 +9836,7 @@ import_tables:
 隕	wan5	
 圂	wan6	
 暈	wan6「日暈」	10%
-混	wan6	
+混	wan6「混合」	
 溷	wan6	
 煴	wan6「同熨字」	
 熅	wan6「同熨字」	
@@ -9910,7 +9915,7 @@ import_tables:
 踒	wo1	
 喎	wo3「語氣詞，表示輕微爭辯或讚歎」	
 涴	wo3	
-和	wo4	
+和	wo4「和平」	
 盉	wo4	
 禾	wo4	
 龢	wo4	
@@ -10486,7 +10491,7 @@ import_tables:
 孳	zi1	
 嵫	zi1	
 巵	zi1	
-擠	(語)zi1「擁擠」	10%
+擠	(語)zi1「擁擠，官話借詞」	10%
 支	zi1	
 枝	zi1	
 梔	zi1	
@@ -16395,6 +16400,9 @@ A站	ei zaam6	100
 高蹻	gu1 goek3
 高趫	gu1 kiu4
 高蹺	gu1 kiu2
+吐谷渾	dat6 juk6 wan4
+谷蠡	luk6 lai5
+句讀	gyu3 dau6
 
 
 # 本地詞彙表

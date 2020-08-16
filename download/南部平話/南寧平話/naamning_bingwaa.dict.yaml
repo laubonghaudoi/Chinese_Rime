@@ -24,7 +24,7 @@
 
 ---
 name: naamning_bingwaa
-version: "2020.08.07"
+version: "2020.08.13"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -265,7 +265,7 @@ import_tables:
 裨	bai1「裨益」	
 跛	(習)bai1「又作𨃅字」	
 𨃅	bai1	
-背	(語)bai3「背時，倒楣」	0%
+背	(語)bai3「背時，倒楣，官話借詞」	0%
 轡	bai3	
 閉	bai3	
 睥	bai5	
@@ -385,6 +385,7 @@ import_tables:
 斃	bi6	
 蔽	bi6	
 被	bi6「被動」	
+贔	bi6	
 避	bi6	
 鼻	bi6	
 伯	biak2	
@@ -604,9 +605,6 @@ import_tables:
 篸	caam2「～箕」	
 懺	caam3	
 杉	caam3	
-劖	caam4「刺入，又作鑱/攙字」	
-攙	(又)caam4「刺入，又作鑱/劖字」	10%
-鑱	caam4「刺入，又作攙/劖字」	
 餐	caan1	
 產	caan2	
 剷	caan2	
@@ -1302,6 +1300,7 @@ import_tables:
 錭	diu1	
 彫	diu1	
 雕	diu1	
+鵰	diu1	
 屌	diu2「性交，本字鳥」	
 鳥	(白)diu2「性交，俗字屌」	5%
 吊	diu3	
@@ -1717,9 +1716,9 @@ import_tables:
 贛	gaam3	
 鑑	gaam3	
 鑒	gaam3	
-乾	gaan1「乾燥」	
 奸	gaan1	
 姦	gaan1	
+乾	gaan1「乾燥」	
 干	gaan1	
 肝	gaan1	
 艱	gaan1	
@@ -2112,7 +2111,7 @@ import_tables:
 結	(又)git2	10%
 袺	(又)git2	10%
 嬌	giu1	
-橇	giu1	
+橇	(又)giu1	10%
 澆	giu1	
 翹	(又)giu1「蹺腳」	10%
 蹺	(又)giu1「蹺腳，蹺手」	10%
@@ -2630,6 +2629,7 @@ import_tables:
 蜆	(白)hen2	
 齦	(語)hen5「老鼠齦」	10%
 勩	(語)het6「器物磨損」	10%
+橇	heu1	
 翹	heu1「翹腳」	
 蹺	heu1「蹺腳，蹺手」	
 蹻	heu1「同蹺字」	
@@ -2654,6 +2654,8 @@ import_tables:
 蟢	hi2	
 起	hi2	
 器	hi3	
+屓	hi3	
+屭	hi3	
 棄	hi3	
 憩	hi3	
 戲	hi3	
@@ -3029,7 +3031,7 @@ import_tables:
 冶	je5	
 野	je5	
 夜	(文)je6「夜來香」	
-逸	(語)jet3「跳躍」	10%
+逸	(語)jet3「躍過」	10%
 伊	ji1	
 依	ji1	
 醫	ji1	
@@ -3649,7 +3651,7 @@ import_tables:
 鈞	kwan1	
 捆	kwan2	
 綑	kwan2	
-混	(語)kwan2「又作渾/滾字」	5%
+混	(語)kwan2「～社會，又作渾/滾字」	5%
 困	kwan3	
 睏	(文)kwan3	
 揈	kwang1「驅趕，同轟字」	
@@ -4357,6 +4359,7 @@ import_tables:
 朆	(語)mang4「未曾的合音」	10%
 盟	mang4	
 萌	mang4	
+凹	(又)map2	10%
 搣	mat2「撕，掰」	
 霉	(語)mat2	10%
 黴	(語)mat2	10%
@@ -4512,6 +4515,7 @@ import_tables:
 懵	moeng5	
 蠓	moeng5	
 夢	moeng6	
+沒	(語)mot6「沒入水中」	10%
 巫	mu1	
 摸	mu1「撫摸」	
 誣	mu1	
@@ -4618,7 +4622,6 @@ import_tables:
 曩	naang5	
 齉	naang6	
 㘝	(語)naap3「搛」	10%
-凹	(又)naap3	10%
 納	naap5	
 鈉	naap5	
 㘝	naap6	
@@ -4646,6 +4649,8 @@ import_tables:
 旎	nai5	
 膩	nai6	
 腍	nam4「松軟，爛熟，本字飪/餁」	
+餁	(語)nam4「松軟，爛熟」	10%
+飪	(語)nam4「松軟，爛熟」	10%
 恁	nam5「思考，俗字諗」	
 稔	nam5「熟稔」	
 諗	(訓)nam5「訓讀恁，思考」	
@@ -4968,6 +4973,7 @@ import_tables:
 恁	njam6「這，那」	
 紝	njam6	
 賃	njam6	
+餁	njam6「同飪字」	
 飪	njam6	
 人	njan4	
 仁	njan4	
@@ -6404,8 +6410,11 @@ import_tables:
 斬	zaam2	
 湛	zaam3	
 蘸	zaam3	
+劖	zaam4「刺入，又作鑱/攙字」	
 慚	zaam4	
+攙	(又)zaam4「刺入，又作鑱/劖字」	10%
 讒	zaam4	
+鑱	zaam4「刺入，又作攙/劖字」	
 饞	zaam4	
 暫	zaam6	
 站	zaam6	
@@ -11903,6 +11912,9 @@ A站	ei zaam6	100
 高蹻	gaau1 giak2
 高趫	gaau1 giu4
 高蹺	gaau1 kiu2
+吐谷渾	dat6 njoek5 wan4
+谷蠡	loek5 lai5
+句讀	gyu3 dau6
 
 
 # 本地詞彙表
