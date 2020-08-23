@@ -21,7 +21,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.08.12"
+version: "2020.08.16"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -1353,7 +1353,7 @@ import_tables:
 蠡	li
 欚	li
 邐	li
-攦	li
+攦	li	418
 豊	li
 禮	li
 礼	li
@@ -1399,7 +1399,7 @@ import_tables:
 璉	li
 鄻	li
 嬚	li
-稴	li
+稴	li	55
 軟	li	0%
 旅	li
 荔	li
@@ -1441,9 +1441,9 @@ import_tables:
 例	li
 吏	li
 𥷗	li
-𤃀	li
-劙	li
-剺	li
+𤃀	li	25
+劙	li	25
+剺	li	100
 銐	li
 砅	li
 慮	li
@@ -1459,14 +1459,14 @@ import_tables:
 練	li
 㪝	li
 湅	li
-𣿊	li
+𣿊	li	55
 㼑	li
 堜	li
 萰	li
 鰊	li
 鏈	li
 戀	li
-𪚁	li
+𪚁	li	55
 浰	li
 立	li	0%
 力	li	0%
@@ -8870,12 +8870,12 @@ s	迡	gni
 鵬	ban
 趽	ban
 憉	ban
-蟚	ban
 輣	ban
 庄	ban
 蚌	ban
 䰷	ban
 蟛	ban
+蟚	ban
 甏	ban
 碰	ban
 踫	ban
@@ -9306,6 +9306,7 @@ s	迡	gni
 𤧭	baon
 房	baon	0%
 蟛	baon
+蟚	baon
 舽	baon
 逄	baon
 棒	baon
@@ -16629,6 +16630,7 @@ s	迡	gni
 颢	ghau
 灏	ghau
 岙	au
+𬣦	au
 袄	au
 钯	po
 坝	po
@@ -16958,6 +16960,7 @@ s	迡	gni
 赞	tsae
 𪷽	tsae
 溅	tsae
+𱄊	tsae
 馓	tsae
 瓒	tsae
 参	tshae
@@ -17074,6 +17077,7 @@ s	迡	gni
 镩	tshoe
 钏	tshoe
 传	dzOE
+𬣡	dzoe
 𪴙	dzoe
 酂	dzoe
 诪	dzoe
@@ -17173,6 +17177,7 @@ s	迡	gni
 对	tei
 㳔	tei
 贪	thei
+𰛩	thei
 颓	dei
 头	dei
 绐	dei
@@ -17767,6 +17772,7 @@ s	迡	gni
 仑	len
 沦	len
 轮	len
+𰑄	len
 囵	len
 纶	len
 𬬭	len
@@ -17987,6 +17993,7 @@ s	迡	gni
 声	shin
 绅	shin
 诜	shin
+𱇡	shin
 锌	shin
 骍	shin
 兴	shin
@@ -18144,6 +18151,7 @@ s	迡	gni
 㑈	ton
 鸫	ton
 𪣆	ton
+𰇎	ton
 冻	ton
 栋	ton
 胨	ton
@@ -18173,6 +18181,7 @@ s	迡	gni
 陇	lon
 垄	lon
 垅	lon
+𫢒	lon
 𨀁	lon
 𫎦	lon
 弄	lon
@@ -20214,7 +20223,7 @@ s	迡	gni
 近𥉻眼	jin chi ngae	55
 近覷眼	jin tshyu ngae	55
 鏖糟眼	au tsau ngae	55
-青盲瞎	chin maon haq	55
+青盲瞎	chin man haq	55
 借米聾	cia mi lon	55
 借米聾	cian mi lon	55
 齈鼻頭	nhon baq deu	55
@@ -22037,7 +22046,7 @@ s	迡	gni
 風火	fon hou
 罪孽	zei gniq
 禍孽	ghou gniq	55
-出產	tshyuq sae
+出產	tshyuq sae	55
 姓數	shin su	55
 切號	chiq ghau	55
 種草	tson tshau	55
@@ -22951,7 +22960,7 @@ s	迡	gni
 面刺刺	mi tshy tshy	55
 肉割割	gnioq kaq kaq	55
 怏勃勃	aon baq baq	55
-怏躁躁	aon tshau tshau	55
+怏躁躁	aon tsau tsau	55
 怏勃幾糟	aon baq ci tsau	55
 心煩幾糟	shin vae ci tsau	55
 惡氣倒出	oq chi tau tshyuq	55
