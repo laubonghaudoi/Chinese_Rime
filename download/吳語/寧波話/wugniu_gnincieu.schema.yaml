@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_gnincieu
   name: 吳語（鄞州）
-  version: "0.4.2"
+  version: "0.5.0"
   author:
     - Electric Sheep <shinzoqchiuq@outlook.com>
   description: |
@@ -62,24 +62,14 @@ speller:
   algebra:
     - xform/^([bcdfghjklpqstvwxyz])$/$1_/
     # 生成鄞州音系
-    - xform/WU|NU/ngu/
-    - xform/nEI/nae/
-    - xform/EI|AE/e/
-    - xform/nE/gnie/
-    - xform/I/e/
-    - xform/W/v/
-    - xform/N/w/
+    - xform/(\w*)-(\w*)/$2/
     - xform/(^y|i)u(?=n)/$1o/
     - derive/([pb]|ph)un/$1oe/
     - xform/mun/moe/
     - xform/uo/o/
     - xform/wo/gho/
-    - derive/tshOE/chieu/
-    - derive/dzOE/jieu/
-    - xform/(tsh|dz)OE/$1oe/
-    - xform/DZOE/jieu/
-    - xform/ZOE/zhieu/
     - erase/(^|c|j|gn|kn|[csz]h)(y|i)o$/
+    - erase/^-$/
 
     # 兼容吳語協會式拼音
     - derive/q/h/
@@ -104,6 +94,10 @@ speller:
     - derive/^ye$/ghe/
     # 降壯不分
     - derive/ciaon/tsaon/
+    # 穿秋不分
+    - derive/ts(h)?oe$/c$1ieu/
+    - derive/dzoe$/jieu/
+    - derive/^(s|z)oe$/$1hieu/
     # 官孤不分
     - derive/(?<![iy])un/u/
     # 春沖不分 出促不分
@@ -153,21 +147,13 @@ translator:
   spelling_hints: 5          # 標註拼音
   comment_format: &comment
     # 生成鄞州音系
-    - xform/WU|NU/ngu/
-    - xform/nEI/nae/
-    - xform/EI|AE/e/
-    - xform/nE/gnie/
-    - xform/I/e/
-    - xform/W/v/
-    - xform/N/w/
+    - xform/(\w*)-(\w*)/$2/
     - xform/(\by|i)u(?=n)/$1o/
     - xform/([pbm]|ph)un/$1oe/
     - xform/uo/o/
     - xform/wo/gho/
-    - xform/OE/oe/
-    - xform/DZoe/jieu/
-    - xform/Zoe/zhieu/
     - xform/(\b|c|j|gn|kn|[csz]h)(y|i)o\b//
+    - xform/\b-\b//
 
 # 副翻譯器1 朙月拼音
 luna_pinyin:

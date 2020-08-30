@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_gninpou
   name: 吳語（寧波）
-  version: "0.4.2"
+  version: "0.5.0"
   author:
     - Electric Sheep <shinzoqchiuq@outlook.com>
   description: |
@@ -62,7 +62,7 @@ speller:
   algebra:
     - xform/^([bcdfghjklpqstvwxyz])$/$1_/
     # 還原城區音系
-    - xlit/AEIOUWNDZ/aeiouwndz/
+    - xform/(\w*)-(\w*)/$1/
 
     # io韻消失
     - erase/(^|c|j|gn|kn|[csz]h)(y|i)o$/
@@ -148,7 +148,7 @@ translator:
   spelling_hints: 5          # 標註拼音
   comment_format: &comment
     # 還原城區音系
-    - xlit/AEIOUWNDZ/aeiouwndz/
+    - xform/(\w*)-(\w*)/$1/
     - xform/(\b|c|j|gn|kn|[csz]h)(y|i)o\b//
 
 # 副翻譯器1 朙月拼音

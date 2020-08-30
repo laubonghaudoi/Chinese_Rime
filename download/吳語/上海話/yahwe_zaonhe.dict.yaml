@@ -15,7 +15,7 @@
 
 ---
 name: yahwe_zaonhe
-version: "2020.03.15"
+version: "2020.08.25"
 sort: by_weight
 use_preset_vocabulary: true
 # import_tables: 
@@ -11668,6 +11668,8 @@ min_phrase_weight: 100
 大幹	du koe
 大度	da du
 大廈	da gho
+大廈	da so
+大廈	da sa
 大廚	du zyu
 大厰	du tshan
 大廳	du thin
@@ -13669,6 +13671,7 @@ min_phrase_weight: 100
 宿營	soh yin
 宿疾	soh zih
 宿舍	soh so
+宿舍	soh soe
 宿醉	soh tsoe
 寀	tshe
 寂	zih
@@ -15499,6 +15502,7 @@ min_phrase_weight: 100
 廄	cieu
 廄肥	cieu vi
 廈	gho
+廈門	gho men
 廉	lie
 廉江	lie kaon
 廊	laon
@@ -18541,8 +18545,8 @@ min_phrase_weight: 100
 拽住	tse zyu
 拽好	tse hau
 拽牢	tse lau
-拾	zeh	100%
-拾	zih	1%
+拾	zeh	90%
+拾	zih	10%
 拾取	zeh tshiu
 拾得	zeh teh
 拾掇	zeh teh
@@ -29389,6 +29393,7 @@ min_phrase_weight: 100
 皂莢	zau kaeh
 皂角
 皂隸	zau di
+的	ti	0%
 的	tih
 的人	tih nyin
 的哥
@@ -34797,8 +34802,8 @@ min_phrase_weight: 100
 舌下	zeh gho
 舌苔	zeh the
 舌頭根
-舍	so
-舍	soe
+舍	so	100%
+舍	soe	0%
 舍利	so li
 舍弗得	so veh teh
 舍勿得	so veh teh
@@ -35452,7 +35457,7 @@ min_phrase_weight: 100
 華岡	gho kaon
 華工	gho kon
 華府	gho fu
-華廈	gho gho
+華廈
 華強	gho jian
 華彩	gho tshe
 華德	gho teh
@@ -38465,6 +38470,7 @@ min_phrase_weight: 100
 譽冠
 譽爲
 讀	deu	0%
+讀號	deu ghau
 讀	doh	100%
 讀了	doh liau
 讀作	doh tsoh
@@ -47371,8 +47377,10 @@ min_phrase_weight: 100
 厃	yie
 漨浡	bon beh
 廈	sa
+廈	so
 商廈	saon gho
 商廈	saon sa
+商廈	saon so
 漫	mae
 渳	'mi
 渳老酒	'mi lau tsieu

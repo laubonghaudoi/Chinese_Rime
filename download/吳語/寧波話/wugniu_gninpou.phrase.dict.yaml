@@ -17,7 +17,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.08.21"
+version: "2020.08.29"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -26,14 +26,12 @@ use_preset_vocabulary: true
 
 裏向	li shian	40000
 外向	nga shian
-正向	cin shian
 夜裏向	ya li shian	578
 年裏向	gni li shian	578
 伏裏向	voq li shian	578
 該向	kiq shian	6000
 蕩向	daon shian	578
 門裏向	men li shian	578
-滰腳面桶	jian ciaq mi don	418
 滰腳桶	jian ciaq don	578
 滰起	jian chi	418
 滰人	jian gnin	578
@@ -44,7 +42,7 @@ use_preset_vocabulary: true
 隨爾咋	zei ng dza	418
 渠拉	ji laq	578
 怕渠	pho ji	418
-看渠	khI ji	55
+看渠	khi-khe ji	55
 覅渠	fe ji	578
 嘔嘔渠	eu eu ji
 話話渠	wo wo ji	55
@@ -96,32 +94,19 @@ use_preset_vocabulary: true
 涴挭的	ou kuan tiq	55
 涴𤿏屁鬆	ou nei phi son	55
 把作師父	po tsoq sy vu	55
-半弗牢告	pun vaq lau kau	55
-半弗冷打	pun vaq lan tan	55
 半弗郎當	pun vaq laon taon	55
 半弗拉介	pun vaq la ka	55
-撩弗着	liau vaq dzoq	55
 撩弗着	liau vaq zyuq	55
 壓弗殺	aq vaq saq	55
 打弗煞	tan vaq saq	55
 老弗大	lau vaq dou	55
-老弗大草	lau vaq dou tshau	55
 噦氣弗轉	iuq chi vaq tsoe	55
 𧼱弗着	biq vaq dzoq	55
 𧼱弗着	biq vaq zyuq	55
-氣弗過	chi vaq kou	55
-弗肯歇	vaq khen shiq	55
-交代弗過	kau de vaq kou	55
-痗心弗過	mei shin vaq kou	55
-弗爽快	vaq saon khua	55
 做記弗着	tsou ci vaq dzoq	55
 做記弗着	tsou ci vaq zyuq	55
 歇弗來	shiq vaq le	55
-挨擠弗開	a ci vaq khe	55
-老弗出	lau vaq tshyuq	55
 做鬼弗大	tsou ciu vaq dou	55
-弗對	vaq tei	55
-賊弗貪	zaq vaq thei	55
 賊弗偷	zaq vaq theu	55
 做人弗來	tsou gnin vaq le	55
 毛羽弗動	mau yu vaq don	55
@@ -136,46 +121,27 @@ use_preset_vocabulary: true
 先弗先	shi vaq shi	55
 弗然	vaq zoe	55
 弗然	vaq gni	55
-弗打記頭	vaq tan ci deu	55
 打弗記頭	tan vaq ci deu	55
-弄弗好	lon vaq hau	55
-只弗	ciq vaq	55
 弗知	vaq ciq	55
 弗及	vaq ji	55
 勒及	laq ji	55
-弗來	vaq le	60000
-弗像	vaq zhian	55
 弗相像	vaq shian zhian	55
 弗相相	vaq shian shian	55
-弗過	vaq kou	55
 弗好	vaq hau	55
 弗有	vaq yeu	55
-弗相似	vaq shian zy	55
 弗是	vaq zy	170000
 弗得	vaq taq	55
-弗生好心	vaq san hau shin	55
 弗啦	vaq laq	1000
 三弗像	sae vaq zhian	55
-弗上課	vaq zaon khou	55
-弗長毛	vaq cian mau	55
 弗出產	vaq tshyuq sae	55
-弗在內	vaq dze nei	55
 弗在乎	vaq dze wu	55
 弗討妙	vaq thau miau	55
-弗捨得	vaq so taq	55
-弗怯氣	vaq chiq chi	55
-弗做肉	vaq tsou gnioq	55
-弗着港	vaq jiaq kaon	55
 弗管賬	vaq kun cian	55
 喫弗落	chioq vaq loq	55
 嘔弗應	eu vaq in
 苦弗出	khu vaq tshyuq	55
 杭弗消	ghaon vaq shiau	55
 杭弗住	ghaon vaq dzyu	55
-話弗起	wo vaq chi	55
-話弗睬	wo vaq tshe	55
-講弗睬	kaon vaq tshe	55
-派弗來	pha vaq le	55
 跳弗落	thiau vaq loq	55
 三弗相信	sae vaq shian shin	55
 大大弗大	dou dou vaq dou	55
@@ -186,29 +152,21 @@ use_preset_vocabulary: true
 大貴弗貴	dou ciu vaq ciu	55
 上嘴弗得	zaon tsyu vaq taq	55
 上嘴弗來	zaon tsyu vaq le	55
-弗二弗三	vaq gni vaq sae	55
-弗問長短	vaq men jian toe	55
 上落弗問	zaon loq vaq men	55
 弗燥弗溼	vaq sau vaq shiq	55
-弗上弗落	vaq zaon vaq loq	55
 弗尷弗尬	vaq kae vaq ka	55
-巴弗能夠	po vaq nen keu	55
 巴弗得	po vaq taq	55
-死人弗怪	shi gnin vaq kua	55
 喫氣弗過	chioq chi vaq kou	55
 兩頭弗着	lian deu vaq jiaq	55
 兩頭弗着港	lian deu vaq jiaq kaon
 近手弗	jin shieu vaq	55
 悶咚弗響	mhen ton vaq shian	578
-悶聲弗響	mhen shin vaq shian	55
 悶弗聲響	mhen vaq shin shian	55
 腳弗落地	ciaq vaq loq di	55
 腳弗撩地	ciaq vaq liau di	55
 脫情弗來	thaq jin vaq le	55
 寄手弗動	ci shieu vaq don	55
-譬如弗得	phi zyu vaq taq	55
 譬如弗如	phi zyu vaq zyu	55
-弗是生意經	vaq zy san i cin	55
 弗知咋是咋	vaq ciq dza zy dza	55
 各手弗知賬	koq shieu vaq tsyu cian	55
 渾身弗搭界	wen shin vaq taq ka	55
@@ -276,7 +234,6 @@ use_preset_vocabulary: true
 賴伏雞娘	la bu ci gnian	55
 賴伏草雞	la bu tshau ci	55
 伏胎蛋	bu the dae	55
-賴伏	la bu	55
 伏豆芽	bu deu ngo	55
 撩勿着	liau vaq zyuq	55
 管着	kun zyuq
@@ -290,7 +247,7 @@ use_preset_vocabulary: true
 抽着抽	chieu zyuq chieu
 坐着坐	zou zyuq zou
 喫着喫	chioq zyuq chioq
-穿嘸沒穿着	tshOE mhiq tshOE zyuq
+穿嘸沒穿着	tshoe mhiq tshoe zyuq
 喫嘸沒喫着	chioq mhiq chioq zyuq
 做嘸沒做着	tsou mhiq tsou zyuq
 走嘸沒走着	tseu mhiq tseu zyuq
@@ -298,15 +255,10 @@ use_preset_vocabulary: true
 嬲和	na ngou	578
 惡嬲和	oq na ngou	55
 嬲和嬉頭	na ngou shi deu	55
-作啥幹	tsoq soq khI	578
-阿啥幹	aq soq khI	10000
-多𥈊眼	tou saq ngae	418
-眼𥈊毛	ngae saq mau	55
+作啥幹	tsoq soq khi-khe	578
+阿啥幹	aq soq khi-khe	10000
 雞𥈊覺	ci saq kau	55
-撒屙樸	dza ou phoq	55
 撒涴樸	dza ou phoq	55
-撒尿樸	dza syu phoq	55
-尿撒	syu dza	55
 撒屙	dza ou	55
 撒涴	dza ou	55
 撒尿	dza syu	418
@@ -317,8 +269,6 @@ use_preset_vocabulary: true
 涴撒出	ou dza tshyuq	55
 撒尿出	dza syu tshyuq	55
 尿撒出	syu dza tshyuq	55
-肚皮撒	du bi dza	55
-撒肚皮	dza du bi	55
 撒爛屙	dza lae ou	55
 撒爛薄屙	dza lae boq ou	55
 撒爛涴	dza lae ou	55
@@ -385,8 +335,6 @@ use_preset_vocabulary: true
 謳儂着力𡀂	eu nou jiaq liq lei
 謳俉着力𡀂	eu ng jiaq liq lei
 謳爾着力𡀂	eu ng jiaq liq lei
-跑春	phau tshyun	55
-飯𣖄骨	vae chiau kuaq	55
 漬浞	ciq tsoq	55
 遲早點	dzy tsau ti
 遲了百遲	dzy liau paq dzy
@@ -404,8 +352,12 @@ use_preset_vocabulary: true
 結襞	ciq paq	55
 膚殼𥀬	fu khoq i	55
 小娃屄	shiau uae pi	55
-腐滯滯	vu ji ji	55
+腐滯刮剌	vu jiq kuaq la	55
+腐滯刮剌	vu ji guaq la	55
+腐滯刮剌	vu jiq guaq la	55
 腐滯刮剌	vu ji kuaq laq	55
+腐滯刮剌	vu jiq kuaq laq	55
+腐滯刮剌	vu jiq guaq laq	55
 鏾雞	shi ci	55
 縩孔籃	cia khon lae	55
 縩孔籃	cian khon lae	55
@@ -425,8 +377,8 @@ use_preset_vocabulary: true
 我個	ngo ghoq	10000
 我儂個	ngo nou ghoq	55
 燒窯個	shiau yau ghoq	55
-唸佛個	nE vaq ghoq	55
-穿棕繃個	tshOE tson pan ghoq	55
+唸佛個	ne-gnie vaq ghoq	55
+穿棕繃個	tshoe tson pan ghoq	55
 修行個	shieu ghan ghoq	55
 兌糖個	dei daon ghoq	55
 儂個	nou ghoq	40000
@@ -452,7 +404,6 @@ use_preset_vocabulary: true
 隨嫁阿姆	zei ko a m	55
 大大阿姆	dou dou a m	55
 娘子阿姆	gnian tsy a m	55
-看牛小娃	khI ngeu shiau uae	55
 伏蛋	bu dae	55
 伏小雞	bu shiau ci	55
 伏秧子	bu ian tsy	55
@@ -462,7 +413,6 @@ use_preset_vocabulary: true
 啥犯着	sou vae dzoq	55
 雷打着𡀂	lei tan dzoq lei
 雷打着了	lei tan dzoq lei
-候着	gheu dzoq	55
 候着記把	gheu dzoq ci po	55
 碰着	ban dzoq
 碰着	phon dzoq
@@ -470,11 +420,11 @@ use_preset_vocabulary: true
 嬲嬲和	na na ngou	578
 斷命浮屍	doe min vei sy	55
 氽江浮屍	then kaon vei sy	55
-阿啥幹	aq sou khI	578
-作啥幹	tsoq sou khI	578
-啥幹	soq khI	12000
-啥幹	sou khI	1000
-啥幹	so khI	1000
+阿啥幹	aq sou khi-khe	578
+作啥幹	tsoq sou khi-khe	578
+啥幹	soq khi-khe	12000
+啥幹	sou khi-khe	1000
+啥幹	so khi-khe	1000
 豬涴	tsyu ou	55
 撒涴撲	dza ou phoq	55
 射涴撲	dza ou phoq	55
@@ -485,7 +435,7 @@ use_preset_vocabulary: true
 牙涴	ngo ou	55
 爛薄涴	lae baq ou	55
 爛薄稀涴	lae baq shi ou	55
-蠶涴	zEI ou	55
+蠶涴	zei-ze ou	55
 涴注蒼蠅	ou tsyu tshaon in	55
 涴道頭	ou dau deu	55
 涴榨貓	ou tso mae	55
@@ -508,12 +458,17 @@ use_preset_vocabulary: true
 䂻爾肚裏勿得	dzan ng du li vaq taq
 䂻爾肚裏弗得	dzan ng du li vaq taq
 爾倷個	ng naq goq	55
+爾倷個	ng naq ghoq	55
 爾個	ng goq	578
+爾個	ng ghoq	578
 爾儂個	ng nou goq	55
+爾儂個	ng nou ghoq	55
 眼睛𥈊𥈊	ngae cin saq saq	55
 眼睛一𥈊	ngae cin iq saq	55
 其個	ji goq	10000
+其個	ji ghoq	10000
 其儂個	ji nou goq	55
+其儂個	ji nou ghoq	55
 𧟰其	fe ji	578
 睬其瞎子	tshe ji haq tsy
 睬其老白眼	tshe ji lau baq ngae
@@ -526,6 +481,7 @@ use_preset_vocabulary: true
 喫喫其拉	chioq chioq jiq laq
 其拉兩人	jiq laq lian gnin	55
 其拉個	jiq laq goq	578
+其拉個	jiq laq ghoq	578
 滰面	jian mi	578
 滰面水	jian mi syu	578
 滰衣裳	jian i zaon	578
@@ -547,10 +503,9 @@ use_preset_vocabulary: true
 𠑞屁蟲	dza phi dzon	55
 𠑞尿撲	dza syu phoq	55
 𠑞屙撲	dza ou phoq	55
-譬如弗得	phi zy vaq taq	55
 氣耐弗牢	chi ne vaq lau	55
 疑惑弗決	gni ghoq vaq ciuq	55
-看弗起	khI vaq chi	55
+看弗起	khi-khe vaq chi	55
 買弗出	ma vaq tshyuq	55
 咬弗動	ngau vaq don	55
 咬弗落	ngau vaq loq	55
@@ -558,9 +513,7 @@ use_preset_vocabulary: true
 話弗理睬	wo vaq li tshe	55
 話弗出	wo vaq tshyuq	55
 尷裏弗尷尬	kae li vaq kae ka	55
-對弗住	tei vaq dzyu	55
 對弗起	tei vaq chi	55
-推扳弗起	thei pae vaq chi	55
 䂻渠肚裏弗得	dzan ji du li vaq taq
 䂻儂肚裏弗得	dzan nou du li vaq taq
 䂻俉肚裏弗得	dzan ng du li vaq taq
@@ -569,7 +522,7 @@ use_preset_vocabulary: true
 行弗住	ghaon vaq dzyu	55
 行弗消	ghaon vaq shiau	55
 悶冬弗響	mhen ton vaq shian	578
-弗敢當	vaq kI taon	55
+弗敢當	vaq ki-ke taon	55
 弗依	vaq i	55
 弗大	vaq da	55
 弗咋	vaq dza	55
@@ -591,7 +544,6 @@ use_preset_vocabulary: true
 要俉着力了	iau ng jiaq liq lei
 將煞了	cian saq lei	55
 脹煞了	cian saq lei	55
-跔掉	geu diau	55
 𠞭眼	lheu ngae	55
 𠞭耳朵	lheu ng to	55
 𠞭耳朵	lheu gni to	55
@@ -636,7 +588,6 @@ use_preset_vocabulary: true
 滑滯滯	waq ji ji
 腐滯涾剌	vu ji daq laq
 碗頭碗尾	un deu un mi
-寋叉	ge tsho	55
 寋鈸	ge baq	55
 寋尺板	ge tshaq pae	55
 搞七八	gau chiq paq	55
@@ -646,11 +597,31 @@ use_preset_vocabulary: true
 發奤	faq phoq	55
 拖帉布	thou fon pu	55
 拖帉柄	thou fon pin	55
-搲船	uo ZOE	55
-搲龍船	uo lon ZOE	55
+搲船	uo zoe	55
+搲龍船	uo lon zoe	55
 腳指末頭	ciaq ciaq maq deu
 腳指甲	ciaq ciaq khaq
 打箍	tan chieu	55
+四個	sy ghoq
+幾個	ci ghoq
+千把個	chi po ghoq	55
+前個月	zhi ghoq yuq	55
+好幾個	hau ci ghoq
+下個月	gho ghoq yuq
+多少個	tou shiau ghoq
+儂個	nou ghoq	578
+個把個	kou po ghoq	55
+兩個	lian ghoq
+蕩個月	daon ghoq yuq	578
+蕩個	daon ghoq	578
+上個月	zaon ghoq yuq
+半個	pun ghoq
+百把個	paq po ghoq	55
+該個月	kiq ghoq yuq	418
+該個	kiq ghoq	578
+一個	iq ghoq
+十多個	zyuq tou ghoq
+十個	zyuq ghoq
 
 # 其他詞彙
 
@@ -674,7 +645,7 @@ use_preset_vocabulary: true
 明朝雨夾風	mi ciau yu kaq fon
 明朝雨夾風	min ciau yu kaq fon
 海上大霧露	he zaon dou vu lu
-海上大霧露	he zaon dou Wu lu
+海上大霧露	he zaon dou wu- lu
 日頭烤番薯	gniq deu khau fae zyu
 落爛雪片
 天打龍光閃
@@ -693,7 +664,7 @@ use_preset_vocabulary: true
 冬季修田塍	ton ci shieu di yin
 好比修皇城
 䃗河塘墈	poq ghou daon khe
-䃗河塘墈	poq ghou daon khI
+䃗河塘墈	poq ghou daon khi-khe
 圍塘
 標準海塘
 夾塘
@@ -704,7 +675,7 @@ use_preset_vocabulary: true
 碶閘街
 大水氽去	dou syu then chi
 初二十六大水頭	tshu gni zyuq loq dou syu deu
-初八廿三當小水	tshu paq nE sae taon shiau syu
+初八廿三當小水	tshu paq ne-gnie sae taon shiau syu
 過橋石板
 開石宕	khe zaq daon
 裏山人	li sae gnin
@@ -715,7 +686,7 @@ use_preset_vocabulary: true
 妹在埠頭汏內紗	mei dze bu deu da nei so
 跌落金釵埠頭下	tiq loq cin tsho bu deu gho
 跌落金釵埠頭下	toq loq cin tsho bu deu gho
-航船埠頭軋出人	ghaon ZOE bu deu gaq tshyuq gnin
+航船埠頭軋出人	ghaon zoe bu deu gaq tshyuq gnin
 河埠頭滰衣裳	ghou bu deu jian i zaon
 河埠頭講阿婆	ghou bu deu kaon aq bou
 唸經堂講新婦
@@ -799,7 +770,7 @@ use_preset_vocabulary: true
 唐家匯	daon ko wei
 卓家灘	tsoq ko thae
 周宿渡
-甘溪潭	kI chi dei
+甘溪潭	ki-ke chi dei
 蔣家潭	cian ko dei
 潛龍漕
 花汀邵
@@ -877,15 +848,15 @@ use_preset_vocabulary: true
 蚊蟲多一半
 閒時不節勿做家	ghae zy paq ciq vaq tsou ko
 熱熱勒伏裏	gniq gniq laq voq li
-交秋無雨廿日晴	kau chieu vu yu nE gniq zhin
-交秋無雨廿日晴	kau chieu Wu yu nE gniq zhin
+交秋無雨廿日晴	kau chieu vu yu ne-gnie gniq zhin
+交秋無雨廿日晴	kau chieu wu- yu ne-gnie gniq zhin
 八月桂花蒸
 一生世𣍐忘記	iq san shi vei maon ci
 一梗扁擔一梗龍
 一生一世喫勿窮	iq san iq shi chioq vaq jion
 下世做蟹	gho shi tsou ha
 小來怕剃頭
-老來怕看牛	lau le pho khI ngeu
+老來怕看牛	lau le pho khi-khe ngeu
 少年勿做家	shiau gni vaq tsou ko
 老來當狗爬
 種田腳跟
@@ -898,17 +869,18 @@ use_preset_vocabulary: true
 太公本是小官人	tha kon pen zy shiau kun gnin
 太婆也是囡出身	tha bou gha zy noe tshyuq shin
 廿年新婦廿年婆
-再過廿年做太婆	tse kou nE gni tsou tha bou
+再過廿年做太婆	tse kou ne-gnie gni tsou tha bou
 只要老公好
 苦苦也嘸告	khu khu gha mh kau
 老𡢿香
 忘記孃	maon ci gnian
 三個老𡢿抵潮鴨	sae goq lau gnion ti jiau ae
 三個老𡢿抵潮鴨	sae ghoq lau gnion ti jiau ae
+三個老𡢿抵潮鴨	sae ghoq lau gnion ti jiau ae
 快手勢勿及慢兩爹
 兩孃拼條褲
-一個穿來一個跍	iq goq tshOE le iq goq gu
-一個穿來一個跍	iq ghoq tshOE le iq goq gu
+一個穿來一個跍	iq goq tshoe le iq goq gu
+一個穿來一個跍	iq ghoq tshoe le iq ghoq gu
 六月日頭	loq yuq gniq deu
 晚孃拳頭
 囡出嫁	noe tshyuq ko
@@ -932,7 +904,7 @@ use_preset_vocabulary: true
 七主意
 八老大	paq lau da
 老大多	lau da tou
-倒沒船	tau maq ZOE
+倒沒船	tau maq zoe
 落雨𡀂
 打烊𡀂
 小八癩𪓿開會𡀂
@@ -942,7 +914,7 @@ use_preset_vocabulary: true
 背米挑擔氣力大	pei mi thiau tae chi liq dou
 種田人講節氣	tson di gnin kaon ciq chi
 生意人講和氣	san i gnin kaon ghou chi
-看先生	khI shi san
+看先生	khi-khe shi san
 熱飯冷茶淘
 爹做郎中醫勿好
 裁縫嘸紐襻
@@ -999,7 +971,7 @@ use_preset_vocabulary: true
 出頭椽子先爛
 一對寶貨
 萬寶全書缺只角
-好日黃狗奔弄堂	hau gniq wu kI pen lon daon
+好日黃狗奔弄堂	hau gniq wu ki-ke pen lon daon
 好日黃狗奔弄堂	hau gniq wu keu pen lon daon
 好日黃狗奔弄堂	hau gniq waon keu pen lon daon
 牽黃牛	chi waon ngeu
@@ -1010,9 +982,9 @@ use_preset_vocabulary: true
 印度黑炭
 小教爛眼	shiau kau lae ngae
 一䂻䂻到王家弄	iq dzan dzan tau waon ko lon
-看張黃狗嘔外公	khI cian wu kI eu nga kon
-看張黃狗嘔外公	khI cian wu keu eu nga kon
-看張黃狗嘔外公	khI cian waon keu eu nga kon
+看張黃狗嘔外公	khi-khe cian wu ki-ke eu nga kon
+看張黃狗嘔外公	khi-khe cian wu keu eu nga kon
+看張黃狗嘔外公	khi-khe cian waon keu eu nga kon
 啞子多疙瘩
 聾𦗭造說話
 天家冷凍凍	thi ko lan ton ton
@@ -1132,7 +1104,7 @@ use_preset_vocabulary: true
 人意好纔是好	gnin i hau dze zy hau
 樣範難看
 三色勿看
-兩色半也要看	lian saq pun gha iau khI
+兩色半也要看	lian saq pun gha iau khi-khe
 沙頭骨篤
 睏相壞	khuen shian ua
 賣面情
@@ -1170,7 +1142,7 @@ use_preset_vocabulary: true
 出手大	tshyuq shieu dou
 出手小
 局頭大	jiuq deu dou
-三歲意姿看到老	sae syu i ci khI tau lau
+三歲意姿看到老	sae syu i ci khi-khe tau lau
 力道大	liq dau dou
 手幫子健
 腳勁好
@@ -1210,7 +1182,7 @@ use_preset_vocabulary: true
 發買㾹病
 扶痚駝
 少年癆瘵	shiau gni lau chiq
-一百廿日	iq paq nE gniq
+一百廿日	iq paq ne-gnie gniq
 瘵病鬼	chiq bin ciu
 生瘵病	san chiq bin
 生黃胖病	san waon phaon bin
@@ -1333,7 +1305,7 @@ use_preset_vocabulary: true
 碗頭蔥烤河鯽魚	un deu tshon khau ghou ci ng
 大泡辣茄	dou phau laq jie
 尖頭辣茄	ci deu laq jie
-黃鼠狼看蒲樣	waon tsy laon khI bu yan
+黃鼠狼看蒲樣	waon tsy laon khi-khe bu yan
 五月煮蒲羹
 六月乘風涼	loq yuq zhin fon lian
 三月拗烏筍	sae yuq au u syun
@@ -1351,7 +1323,7 @@ use_preset_vocabulary: true
 邱隘鹹齏
 鹹齏黃魚	ghae ci waon ng
 肚皮喫勒脹鼓鼓
-黴乾菜烤肉	mei kI tshe khau gnioq
+黴乾菜烤肉	mei ki-ke tshe khau gnioq
 牛肉線粉湯	ngeu gnioq shi fen thaon
 送路菜
 擺夜羹飯
@@ -1382,7 +1354,7 @@ use_preset_vocabulary: true
 三北豆酥糖
 紹興老酒
 阿拉老酒	aq laq lau cieu
-南風吹吹	nEI fon tshyu tshyu
+南風吹吹	nei-nae fon tshyu tshyu
 燒酒注注
 甜氣
 辣氣
@@ -1415,8 +1387,8 @@ use_preset_vocabulary: true
 階沿阿要坐	ka yi aq iau zou
 水泥路梯	syu gni lu the
 只聽路梯響
-嘸沒人看張	mh maq gnin khI cian
-嘸沒人看張	mhiq gnin khI cian
+嘸沒人看張	mh maq gnin khi-khe cian
+嘸沒人看張	mhiq gnin khi-khe cian
 借部路梯
 老牆門
 胡家牆門	wu ko zhian men
@@ -1445,8 +1417,8 @@ use_preset_vocabulary: true
 完全外行	wun dzoe nga ghaon
 大火輪	dou hou len
 人到三十頂風光	gnin tau sae zyuq ten fon kuaon
-船到⿰舟巤子頂會裝	ZOE tau laq tsy ten wei tsaon
-撮隻櫓烏珠想打船	tshaq tsaq lu u tsyu shian tan ZOE
+船到⿰舟巤子頂會裝	zoe tau laq tsy ten wei tsaon
+撮隻櫓烏珠想打船	tshaq tsaq lu u tsyu shian tan zoe
 扯風篷
 撐家計	tshan ko ci
 早睏晏爬起
@@ -1478,7 +1450,7 @@ use_preset_vocabulary: true
 屙掃帚成精	ou sau cieu jin cin
 阿姆點亮	a m ti lian
 阿姆點亮	an m ti lian
-阿嬸看樣	aq shin khI yan
+阿嬸看樣	aq shin khi-khe yan
 圖書勿明
 單子勿靈	tae tsy vaq lin
 敲私章	khau sy tsaon
@@ -1495,6 +1467,7 @@ use_preset_vocabulary: true
 刨鑊墨灰
 千揀萬揀	chi kae vae kae
 揀個嘸底飯傘	kae goq mh ti vae sae
+揀個嘸底飯傘	kae ghoq mh ti vae sae
 揀個嘸底飯傘	kae ghoq mh ti vae sae
 掏柴株
 柴株當棉襖
@@ -1531,7 +1504,7 @@ use_preset_vocabulary: true
 箱子鋬頭
 門鋬
 茶葉罐頭
-餅乾罐頭	pin kI kun deu
+餅乾罐頭	pin ki-ke kun deu
 番薯䉭
 熱水瓶殼子	gniq syu bin khoq tsy
 牙膏殼子
@@ -1662,7 +1635,7 @@ use_preset_vocabulary: true
 直絲流
 橫絲流
 劈柴看絲流
-擡老婆看阿舅	de lau bou khI aq jieu
+擡老婆看阿舅	de lau bou khi-khe aq jieu
 樹椏杈
 楊梅𣝗
 桃子骨頭
@@ -1764,7 +1737,7 @@ use_preset_vocabulary: true
 鄉下人上埭街	shian gho gnin zaon da ka
 嘴巴講勒歪
 一離帶魚	iq li ta ng
-一連鋸	iq li kI
+一連鋸	iq li ki-ke
 一摙柴
 一摙衣裳
 一嶙地
@@ -1818,7 +1791,7 @@ use_preset_vocabulary: true
 一結草紙
 一𩏷草
 兩𩏷柴
-唸佛唸一世	nE vaq nE iq shi
+唸佛唸一世	ne-gnie vaq ne-gnie iq shi
 勿如過橋石板鋪一記
 打一記
 一窠地方
@@ -1932,7 +1905,7 @@ use_preset_vocabulary: true
 該埭河	kiq da ghou
 該埭字	kiq da zy
 該離帶魚	kiq li ta ng
-該連鋸	kiq li kI
+該連鋸	kiq li ki-ke
 該摙柴	kiq li za
 該摙衣裳	kiq li i zaon
 該嶙地	kiq lin di
@@ -2045,7 +2018,7 @@ use_preset_vocabulary: true
 該一埭河	kiq iq da ghou
 該一埭字	kiq iq da zy
 該一離帶魚	kiq iq li ta ng
-該一連鋸	kiq iq li kI
+該一連鋸	kiq iq li ki-ke
 該一摙柴	kiq iq li za
 該一摙衣裳	kiq iq li i zaon
 該一嶙地	kiq iq lin di
@@ -2131,7 +2104,7 @@ use_preset_vocabulary: true
 姆媽落家做裁縫	mh mha loq ko tsou ze von
 姐姐裁紙做燈籠
 和家瘟	ghou ko uen
-和家勿得安	ghou ko vaq taq EI
+和家勿得安	ghou ko vaq taq ei-e
 小苦喫勒候頭頸
 拍照相
 照相簿
@@ -2141,9 +2114,9 @@ use_preset_vocabulary: true
 八八念
 一盞煙燈照空房
 兩肩聳起像無常	lian ci son chi zhian vu dzaon
-兩肩聳起像無常	lian ci son chi zhian Wu dzaon
+兩肩聳起像無常	lian ci son chi zhian wu- dzaon
 活無常	waq vu dzaon
-活無常	waq Wu dzaon
+活無常	waq wu- dzaon
 吊煞鬼勸上吊	tiau saq ciu chiu zaon tiau
 指甲烏	tsy khaq u
 門縫道
@@ -2204,7 +2177,9 @@ use_preset_vocabulary: true
 話撥儂聽
 懶婦是介話	lae vu zy ka wo
 十月還有一個夏	zyuq yuq gha yeu iq goq gho
+十月還有一個夏	zyuq yuq gha yeu iq ghoq gho
 十月還有一個夏	zyuq yuq wa yeu iq goq gho
+十月還有一個夏	zyuq yuq wa yeu iq ghoq gho
 十月還有一個夏	zyuq yuq gha yeu iq ghoq gho
 十月還有一個夏	zyuq yuq wa yeu iq ghoq gho
 話其一頓
@@ -2217,7 +2192,7 @@ use_preset_vocabulary: true
 應許呂布
 兩邊做人情	lian pi tsou gnin jin
 各廟各菩薩
-各人懺念法	koq gnin tshae nE faq
+各人懺念法	koq gnin tshae ne-gnie faq
 自傲饅頭白	zhi ngau mun deu baq
 咬開純大麥	ngau khe zyun dou maq
 討𧮙勿揀日子	thau zoq vaq kae gniq tsy
@@ -2290,7 +2265,7 @@ use_preset_vocabulary: true
 掏花生	dau huo sen
 掏抽斗
 搲飯
-搲垃圾	o la shi
+搲垃圾	uo la shi
 好像釘把搲
 夾下飯	ciq gho vae
 夾電臺	kaq di de
@@ -2431,8 +2406,8 @@ use_preset_vocabulary: true
 甩碗盞	huaq un tsae
 狗甩尾巴	keu huaq mi po
 桂圓甩蛋	kuei yu huaq dae
-黃狗甩尾巴	wu kI huaq mi po
-黃狗甩尾巴	waon kI huaq mi po
+黃狗甩尾巴	wu ki-ke huaq mi po
+黃狗甩尾巴	waon ki-ke huaq mi po
 黃狗甩尾巴	waon keu huaq mi po
 抲白鴿
 抲來白鴿直攦煞
@@ -2471,9 +2446,9 @@ use_preset_vocabulary: true
 㨆樹皮	lin zyu bi
 㨆竹節	lin tsoq ciq
 捂小雞	u shiau ci
-捂蠶	u zEI
+捂蠶	u zei-ze
 㒼屁眼
-船到橋門自會直	ZOE tau jiau men zy wei jiq
+船到橋門自會直	zoe tau jiau men zy wei jiq
 勿是碰就是別
 澆馬路
 澆水泥地垟	ciau syu gni di yan
@@ -2532,7 +2507,7 @@ use_preset_vocabulary: true
 跍落來
 跍勒喫飯
 兩娘拼條褲
-一個穿來一個跍	iq ghoq tshOE le iq ghoq gu
+一個穿來一個跍	iq ghoq tshoe le iq ghoq gu
 踔勿煞草子	nau vaq saq tshau tsy
 壓勿煞婊子
 踏腳踏車
@@ -2557,7 +2532,7 @@ use_preset_vocabulary: true
 出腳醫生	tshyuq ciaq i san
 底子單薄	ti tsy tae boq
 屁股出仔講人家	phi ku tshyuq tsy kaon gnin ko
-庉庉朝南屋	den den jiau nEI oq
+庉庉朝南屋	den den jiau nei-nae oq
 喫喫陳年穀
 牆倒戤着壁
 嘸子靠阿侄	mh tsy khau aq jiq
@@ -2604,14 +2579,14 @@ use_preset_vocabulary: true
 蓬草
 蓬柴
 刺蓬
-黃狗遊河	wu kI yeu ghou
-黃狗遊河	waon kI yeu ghou
+黃狗遊河	wu ki-ke yeu ghou
+黃狗遊河	waon ki-ke yeu ghou
 黃狗遊河	waon keu yeu ghou
 出張嘴巴	tshyuq jian tsyu po
 出張嘴巴	tshyuq cian tsyu po
 六月六
-黃狗貓滰肉	wu kI mae jian gnioq
-黃狗貓滰肉	waon kI mae jian gnioq
+黃狗貓滰肉	wu ki-ke mae jian gnioq
+黃狗貓滰肉	waon ki-ke mae jian gnioq
 黃狗貓滰肉	waon keu mae jian gnioq
 阿婆嘔我做人客	aq bou eu ngo tsou gnin khaq
 老公嘔我拗腰骨
@@ -2697,10 +2672,10 @@ use_preset_vocabulary: true
 紙團撮過	tsy doe tshaq kou
 並無罪過
 𡨢孃姨
-𡨢大小老𡢿	kI dou shiau lau gnion
+𡨢大小老𡢿	ki-ke dou shiau lau gnion
 𡨢大小老𡢿	ke dou shiau lau gnion
-𡨢幾畝大田	kI ci m dou di
-𡨢幾畝大田	kI ci meu dou di
+𡨢幾畝大田	ki-ke ci m dou di
+𡨢幾畝大田	ki-ke ci meu dou di
 𡨢幾畝大田	ke ci m dou di
 𡨢幾畝大田	ke ci meu dou di
 和擔判	ghou tae phun
@@ -2784,7 +2759,7 @@ use_preset_vocabulary: true
 䃗石墈
 䃗海塘
 有福嘸福
-朝南起屋	jiau nEI chi oq
+朝南起屋	jiau nei-nae chi oq
 泥水捉漏	gni syu tsoq leu
 越捉越漏
 捉漏趁天晴
@@ -2798,9 +2773,9 @@ use_preset_vocabulary: true
 越限越小
 破裏破碎兌糖喫
 看兔
-看鴨	khI ae
+看鴨	khi-khe ae
 臿米
-牛趕水	ngeu kI syu
+牛趕水	ngeu ki-ke syu
 種田好甮學	tson di hau ven ghoq
 行行差一拓	ghaon ghaon tsho iq thoq
 種田人靠天	tson di gnin khau thi
@@ -2965,7 +2940,7 @@ use_preset_vocabulary: true
 餓煞肚子
 雨打梅頭
 快活黃牛	khua waq waon ngeu
-安安耽耽過日腳	EI EI tae tae kou gniq ciaq
+安安耽耽過日腳	ei-e ei-e tae tae kou gniq ciaq
 穩篤六株過日腳	uen toq loq tsyu kou gniq ciaq
 矮子會長	a tsy wei jian
 寬寬心
@@ -2981,7 +2956,7 @@ use_preset_vocabulary: true
 純是力氣
 戲文𣍐做
 刀槍有夥
-汗崩倒介	ghEI pon tau ka
+汗崩倒介	ghei-ghe pon tau ka
 少數人	shiau su gnin
 少見多怪
 和家老少	ghou ko lau shiau
@@ -3021,11 +2996,11 @@ use_preset_vocabulary: true
 隊排斬齊
 上樑勿正
 下樑錯拼
-南風甩	nEI fon huae
+南風甩	nei-nae fon huae
 稻穀綻
 飯𣥼彌滿
 老酒㕐彌滿
-飯𣥼勒穿頂	vae ci laq tshOE tin
+飯𣥼勒穿頂	vae ci laq tshoe tin
 老酒㕐勒胖頂	lau cieu shia laq phaon tin
 𥣘穀
 豆朗多莢	deu laon tou ciaq
@@ -3042,7 +3017,7 @@ use_preset_vocabulary: true
 青青背單綠夾襖	chin chin pei tae loq kaq au
 皮膚粗剌柴	bi fu tshu la za
 五更走路趁風涼	ng kan tseu lu chin fon lian
-廿歲嫁人趁後生	nE syu ko gnin chin gheu san
+廿歲嫁人趁後生	ne-gnie syu ko gnin chin gheu san
 後生怕激	gheu san pho ciq
 老頭怕逼
 人怕出名豬怕壯	gnin pho tshyuq min tsyu pho tsaon
@@ -3060,7 +3035,7 @@ use_preset_vocabulary: true
 老虎裝萎
 腦子差把	nau tsy tsho po
 哭作無賴笑嘻嘻	khoq tsoq vu la shiau shi shi
-哭作無賴笑嘻嘻	khoq tsoq Wu la shiau shi shi
+哭作無賴笑嘻嘻	khoq tsoq wu- la shiau shi shi
 眼睛哭勒青大腫	ngae cin khoq laq chin dou tson
 面孔磕勒青大腫	mi khon khaq laq chin dou tson
 能使搭儇人揹包袱	nen sy taq huae gnin pei pau boq
@@ -3134,7 +3109,7 @@ use_preset_vocabulary: true
 老爺貨
 老爺手機
 勤力無價之寶	jin liq vu cia tsy pau
-勤力無價之寶	jin liq Wu cia tsy pau
+勤力無價之寶	jin liq wu- cia tsy pau
 懶惰現眼現報
 野舅舅
 野牌子	ya ba tsy
@@ -3196,7 +3171,7 @@ use_preset_vocabulary: true
 頭埭怪清	deu da kuan chin
 鏖糟布頭
 喫勒邋遢做菩薩
-邋遢冬至乾淨年	laq thaq ton tsy kI zhin gni
+邋遢冬至乾淨年	laq thaq ton tsy ki-ke zhin gni
 夜做夜
 豆腐慢慢賣
 耳朵紅紅響
@@ -3255,7 +3230,7 @@ use_preset_vocabulary: true
 丫臉漆黑
 人曬勒漆黑	gnin sa laq tshaq haq
 皮膚黑黢黢
-房間漆暗	vaon kae tshaq EI
+房間漆暗	vaon kae tshaq ei-e
 皮鞋鋥亮
 眼睛鋥亮
 眼睛木夫夫
@@ -3263,7 +3238,7 @@ use_preset_vocabulary: true
 吊紅大舌頭	tiau ghon dou zhiq deu
 能使買梨頭
 爛屙賊臭
-泔水酸汪汪	kI syu soe uaon uaon
+泔水酸汪汪	ki-ke syu soe uaon uaon
 三日勿喫鹹齏湯	sae gniq vaq chioq ghae ci thaon
 腳骨有眼痠汪汪
 羊肉嘸沒喫	yan gnioq mhiq chioq
@@ -3368,7 +3343,7 @@ use_preset_vocabulary: true
 呆好
 呆快
 呆客氣
-侅大	khI dou
+侅大	khi- dou
 侅大	khe dou
 侅好
 侅鬧熱
@@ -3432,7 +3407,7 @@ use_preset_vocabulary: true
 親門口
 親旁邊
 靠十歲	khau zyuq syu
-靠廿歲	khau nE syu
+靠廿歲	khau ne-gnie syu
 靠十斤
 靠廿斤
 靠百斤
@@ -3517,8 +3492,8 @@ use_preset_vocabulary: true
 嘸沒只多少辰光	mhiq ciq tou shiau zyun kuaon
 眼淚鼻頭	ngae li baq deu
 做勿及	tsou vaq ji
-看勿及	khI vaq ji
-穿勿及	tshOE vaq ji
+看勿及	khi-khe vaq ji
+穿勿及	tshoe vaq ji
 喫勿及	chioq vaq ji
 穿勿來
 喫勿來
@@ -3602,9 +3577,9 @@ use_preset_vocabulary: true
 勿來傷陰騭
 餓煞鬼投人身	ngou saq ciu deu gnin shin
 槍斃鬼投人身	chian bi ciu deu gnin shin
-嘸百廿日	mh paq nE gniq
-嘸百廿個	mh paq nE goq
-嘸百廿個	mh paq nE ghoq
+嘸百廿日	mh paq ne-gnie gniq
+嘸百廿個	mh paq ne-gnie goq
+嘸百廿個	mh paq ne-gnie ghoq
 高鼻頭管老鷹眼	kau baq deu kun lau in ngae
 一世湊隊嘸後還	iq shi tsheu dei mh gheu wae
 一世湊隊嘸後還	iq shi tshei dei mh gheu wae
@@ -3786,8 +3761,8 @@ use_preset_vocabulary: true
 兩架生	lian ko san
 漆紫	tshaq tsy
 漆漆烏	tshaq tshaq u
-漆漆暗	tshaq tshaq EI
-漆暗薄龍	tshaq EI boq lon
+漆漆暗	tshaq tshaq ei-e
+漆暗薄龍	tshaq ei-e boq lon
 漆漆黑	tshaq tshaq haq
 溼溼澾澾	saq saq daq daq
 釋雪	saq syuq
@@ -3903,12 +3878,12 @@ use_preset_vocabulary: true
 落雨淋弗着	loq yu lin vaq dzoq
 背脊骨直弗起	pei ciq kuaq jiq vaq chi
 會做也弗難	wei tsou gha vaq nae
-三色弗看	sae saq vaq khI
+三色弗看	sae saq vaq khi-khe
 活靈弗生	waq lin vaq san
 小苦弗喫	shiau khu vaq chioq
 心網弗定	shin maon vaq din
 喫弗窮	chioq vaq jion
-穿弗窮	tshOE vaq jion
+穿弗窮	tshoe vaq jion
 算着弗好一世窮	soe zyuq vaq hau iq shi jion
 算着弗好一世窮	soe dzoq vaq hau iq shi jion
 一日弗造生㾸𤶁	iq gniq vaq zau san kaq lau
@@ -3934,8 +3909,8 @@ use_preset_vocabulary: true
 要緊弗得慢	iau cin vaq taq mae
 草蓬腳下弗可坐	tshau bon ciaq gho vaq khou zou
 冬冷弗算冷	ton lan vaq soe lan
-打煞黃狗弗離窠	tan saq wu kI vaq li khou
-打煞黃狗弗離窠	tan saq waon kI vaq li khou
+打煞黃狗弗離窠	tan saq wu ki-ke vaq li khou
+打煞黃狗弗離窠	tan saq waon ki-ke vaq li khou
 打煞黃狗弗離窠	tan saq waon keu vaq li khou
 弗是爬就是挖	vaq zy bo jieu zy uaq
 癩𪓿剝皮心弗死	la sy poq bi shin vaq shi
@@ -3944,7 +3919,7 @@ use_preset_vocabulary: true
 弗如過橋石板鋪一記	vaq zyu kou jiau zaq pae phu iq ci
 行業弗尋	ghaon gniq vaq zhin
 弗好欠衆家	vaq hau chi tson ko
-和家弗得安	ghou ko vaq taq EI
+和家弗得安	ghou ko vaq taq ei-e
 細糠喫弗起	shi khaon chioq vaq chi
 丫臉犯落弗認人	o li vae loq vaq gnin gnin
 做人弗能翻白	tsou gnin vaq nen fae baq
@@ -3998,7 +3973,7 @@ use_preset_vocabulary: true
 弗招怪	vaq ciau kua
 秋前弗擱田	chieu zhi vaq koq di
 兒子弗供爹	ng tsy vaq tson tia
-馬屁弗穿繃	mo phi vaq tshOE pan
+馬屁弗穿繃	mo phi vaq tshoe pan
 運弗行	yun vaq ghan
 壓弗進	aq vaq cin
 弗怕路翻向	vaq pho lu fae shian
@@ -4041,14 +4016,14 @@ use_preset_vocabulary: true
 弗相信	vaq shian shin
 會做也弗難
 做弗及	tsou vaq ji
-看弗及	khI vaq ji
-穿弗及	tshOE vaq ji
+看弗及	khi-khe vaq ji
+穿弗及	tshoe vaq ji
 喫弗及	chioq vaq ji
 做勒及	tsou laq ji
-看勒及	khI laq ji
-穿勒及	tshOE laq ji
+看勒及	khi-khe laq ji
+穿勒及	tshoe laq ji
 喫勒及	chioq laq ji
-穿弗來	tshOE vaq le
+穿弗來	tshoe vaq le
 過日腳弗來	kou gniq ciaq vaq le
 做弗像	tsou vaq zhian
 講弗像	kaon vaq zhian
@@ -4098,9 +4073,9 @@ use_preset_vocabulary: true
 𤈦香菸		418
 飯𤈦焦了	vae mei ciau lei	55
 丈姆一聲謳	jian m iq shin eu
-看張黃狗謳外公	khI cian wu kI eu nga kon
-看張黃狗謳外公	khI cian wu keu eu nga kon
-看張黃狗謳外公	khI cian waon keu eu nga kon
+看張黃狗謳外公	khi-khe cian wu ki-ke eu nga kon
+看張黃狗謳外公	khi-khe cian wu keu eu nga kon
+看張黃狗謳外公	khi-khe cian waon keu eu nga kon
 謳其倒痰瓶
 喫飯謳嬉䏘
 謳其一聲
@@ -4168,7 +4143,7 @@ use_preset_vocabulary: true
 寧波市婦女兒童醫院	gnin pou zy vu gniu er don i yu
 寧波市婦女兒童醫院	gnin poq zy vu gniu er don i yu
 南郊公園
-南郊水廠	nEI ciau syu chian
+南郊水廠	nei-nae ciau syu chian
 市委黨校
 全祖望墓	dzoe tsu vaon mou
 全祖望	dzoe tsu vaon
@@ -4196,7 +4171,7 @@ use_preset_vocabulary: true
 靈橋門
 東渡路
 東渡門
-解放南路	ka faon nEI lu
+解放南路	ka faon nei-nae lu
 民光電影院
 石碶街道
 石碶人	zaq chi gnin
@@ -4402,7 +4377,7 @@ use_preset_vocabulary: true
 人民路	zyun min lu
 槐樹路
 桃渡路
-大慶南路	da chin nEI lu
+大慶南路	da chin nei-nae lu
 寧波美術館	gnin pou mei zyuq kun
 寧波美術館	gnin poq mei zyuq kun
 來福士廣場
@@ -4485,7 +4460,7 @@ use_preset_vocabulary: true
 江南中路
 江南東路
 駱霞公路	loq gho kon lu
-海警武裝學院	he cin Wu tsaon ghoq yu
+海警武裝學院	he cin wu-vu tsaon ghoq yu
 東海路
 黃山西路
 黃山路
@@ -4629,7 +4604,8 @@ use_preset_vocabulary: true
 明州醫院
 鄞州大道	gnin cieu da dau
 鄞州客運總站
-南部商務區	nEI bu saon vu chiu
+南部商務區	nei-nae bu saon wu- chiu
+南部商務區	nei-nae bu saon vu chiu
 萬里學院	vae li ghoq yu
 寧波經貿學校	gnin pou cin meu ghoq yau
 寧波經貿學校	gnin poq cin meu ghoq yau
@@ -4664,8 +4640,8 @@ use_preset_vocabulary: true
 櫻花公園
 中塘河
 十九中學	zyuq cieu tson ghoq
-寧波藝術實驗學校	gnin pou gni zyuq zyuq nE ghoq yau
-寧波藝術實驗學校	gnin poq gni zyuq zyuq nE ghoq yau
+寧波藝術實驗學校	gnin pou gni zyuq zyuq ne-gnie ghoq yau
+寧波藝術實驗學校	gnin poq gni zyuq zyuq ne-gnie ghoq yau
 東勝街道
 大河路	da ghou lu
 新江廈
@@ -4741,7 +4717,7 @@ use_preset_vocabulary: true
 通途路
 東部新城
 海晏北路	he i poq lu
-海晏南路	he i nEI lu
+海晏南路	he i nei-nae lu
 寧波文化廣場	gnin pou ven huo kuaon jian
 寧波文化廣場	gnin poq ven huo kuaon jian
 寧東路
@@ -4749,7 +4725,7 @@ use_preset_vocabulary: true
 河清南路
 福慶北路
 福慶南路
-新城第一實驗學校	shin jin di iq zyuq nE ghoq yau
+新城第一實驗學校	shin jin di iq zyuq ne-gnie ghoq yau
 盛莫路	dzan moq lu
 民安東路
 興寧東路
@@ -4808,7 +4784,7 @@ use_preset_vocabulary: true
 奉化縣
 奉化
 奉化中學	von huo tson ghoq
-奉化實驗中學	von huo zyuq nE tson ghoq
+奉化實驗中學	von huo zyuq ne-gnie tson ghoq
 方橋街道
 方橋人	faon jiau gnin
 方橋
@@ -4896,7 +4872,7 @@ use_preset_vocabulary: true
 觀海衛人	kun he wei gnin
 觀海衛
 寧海縣
-寧海人	nin he gnin
+寧海人	gnin he gnin
 寧海
 躍龍街道
 躍龍人	yaq lon gnin
@@ -5053,10 +5029,10 @@ use_preset_vocabulary: true
 金塘島
 金塘
 白泉鎮
-白泉人	baq dzOE gnin
+白泉人	baq dzoe gnin
 白泉
 干覽鎮
-干覽人	kI lae gnin
+干覽人	ki-ke lae gnin
 干覽
 普陀區
 普陀人	phu dou gnin
@@ -5069,7 +5045,7 @@ use_preset_vocabulary: true
 東港人	ton kaon gnin
 東港
 朱家尖街道	tsyu ko ci ka dau
-朱家尖街道	tsyu ko ci gnin
+朱家尖人	tsyu ko ci gnin
 朱家尖	tsyu ko ci
 普陀山機場
 展茅街道
@@ -5166,7 +5142,7 @@ use_preset_vocabulary: true
 芝蘭橋
 奉化江大橋	von huo kaon da jiau
 鄞縣大橋	gnin yu da jiau
-南翔大橋	nEI jian da jiau
+南翔大橋	nei-nae jian da jiau
 姚江
 餘姚江
 新江橋
@@ -5229,7 +5205,6 @@ use_preset_vocabulary: true
 鉛山	yi sae
 通通樣樣	thon thon gnian gnian
 統統樣樣	thon thon gnian gnian
-像模像樣	zhian moq zhian yan
 拓碑	thaq pei
 虧煞	tshu saq
 虧煞	khuei saq
@@ -5240,7 +5215,7 @@ use_preset_vocabulary: true
 蝙蝠老鼠開會𡀂	phi foq lau tsy khe wei lei
 蝙蝠老鼠開會了	phi foq lau tsy khe wei lei
 大家	da cia	55
-乾咽	kI iq
+乾咽	ki-ke iq
 人物闐咽	zyun vaq di iq
 凝咽	gnin iq
 哽咽	ken iq
@@ -5326,7 +5301,7 @@ use_preset_vocabulary: true
 自憐自艾	zy li zy gni
 艾如張	gni zyu cian
 電梯	di the
-甘羅說趙王	kI lou sei jiau waon
+甘羅說趙王	ki-ke lou sei jiau waon
 遊說	yeu sei
 遊說團	yeu sei doe
 遊說團體	yeu sei doe thi
@@ -5350,7 +5325,6 @@ use_preset_vocabulary: true
 孫悟空	sen wu khon
 輪胎	len thei
 輪胎	len the
-氣胎	chi thei
 爆胎	pau thei
 眠牀底下	mi zaon tiau gho
 眠牀底下	mi zaon diau gho
@@ -5360,13 +5334,13 @@ use_preset_vocabulary: true
 紅毛番薯	ghou mau fae zyu
 紅毛人	ghou mau gnin
 紅毛人案	ghou mau gnin e
-紅毛人案	ghou mau gnin EI
+紅毛人案	ghou mau gnin ei-e
 佝僂	keu leu
 佝僂病	keu leu bin
 万俟	moq ji
 扁舟	phi cieu
-可汗	khaq ghEI
-天可汗	thi khaq ghEI
+可汗	khaq ghei-ghe
+天可汗	thi khaq ghei-ghe
 會稽	kuei ci
 會稽山	kuei ci sae
 綢繆	jieu meu
@@ -5392,6 +5366,7 @@ use_preset_vocabulary: true
 弗出產	vaq tshyuq tshae
 勿出產	vaq tshyuq tshae
 送產	son tshae
+寧可	gnin khou
 # 兒童用語
 奧魚	au ng
 肉肉	knion knion
@@ -5425,7 +5400,7 @@ use_preset_vocabulary: true
 咩咩羊
 汪汪狗
 爬爬蟲
-啞啞船	nko nko ZOE
+啞啞船	nko nko zoe
 棚棚船
 𠺢𠺢雞	ko ko ci
 𠺢𠺢嗡	ko ko on
@@ -5548,7 +5523,7 @@ use_preset_vocabulary: true
 該堵板壁	kiq du pae piq
 該一堵牆	kiq iq du zhian
 該一堵板壁	kiq iq du pae piq
-# XX看
+# xx看
 借借看	cia cia khe
 停停看	din din khe
 動動看	don don khe
@@ -5570,7 +5545,7 @@ use_preset_vocabulary: true
 猜猜看	tshe tshe khe
 畫畫看	wo wo khe
 疊疊看	diaq diaq khe
-穿穿看	tshOE tshOE khe
+穿穿看	tshoe tshoe khe
 算算看	soe soe khe
 練練看	li li khe
 嗅嗅看	shion shion khe
@@ -5584,7 +5559,7 @@ use_preset_vocabulary: true
 連連看	li li khe
 量量看	lian lian khe
 弄弄看	lon lon khe
-看看看	khI khI khe
+看看看	khi-khe khi-khe khe
 相相看	shian shian khe
 䞁䞁看	i i khe
 派派看	pha pha khe
@@ -5668,7 +5643,7 @@ use_preset_vocabulary: true
 交關壞	ciau kuae ua
 交關多	ciau kuae tou
 交關多事體	ciau kuae tou zy thi
-交關多事幹	ciau kuae tou zy kI
+交關多事幹	ciau kuae tou zy ki-ke
 交關多人	ciau kuae tou gnin
 交關多人和總	ciau kuae tou gnin ghou tson
 交關多辰光	ciau kuae tou zyun kuaon
@@ -5679,7 +5654,8 @@ use_preset_vocabulary: true
 交關奇怪	ciau kuae ji kua
 交關好	ciau kuae hau
 交關好個	ciau kuae hau goq
-交關好看	ciau kuae hau khI
+交關好個	ciau kuae hau ghoq
+交關好看	ciau kuae hau khi-khe
 交關好聽	ciau kuae hau thin
 交關容易	ciau kuae yon yi
 交關小	ciau kuae shiau
@@ -5715,7 +5691,7 @@ use_preset_vocabulary: true
 交關對勿住	ciau kuae tei vaq dzyu
 交關對弗住	ciau kuae tei vaq dzyu
 交關挨	ciau kuae a
-交關敢	ciau kuae kI
+交關敢	ciau kuae ki-ke
 交關新	ciau kuae shin
 交關方便	ciau kuae faon bi
 交關早	ciau kuae tsau
@@ -5723,7 +5699,7 @@ use_preset_vocabulary: true
 交關早就	ciau kuae tsau jieu
 交關明顯	ciau kuae min shi
 交關晏	ciau kuae ae
-交關暗	ciau kuae EI
+交關暗	ciau kuae ei-e
 交關有	ciau kuae yeu
 交關有可能	ciau kuae yeu khou nen
 交關有意思	ciau kuae yeu i sy
@@ -5772,7 +5748,7 @@ use_preset_vocabulary: true
 交關苦	ciau kuae khu
 交關薄	ciau kuae boq
 交關貴	ciau kuae ciu
-交關趕	ciau kuae kI
+交關趕	ciau kuae ki-ke
 交關輕	ciau kuae chin
 交關辛苦	ciau kuae shin khu
 交關近	ciau kuae jin
@@ -5919,6 +5895,7 @@ use_preset_vocabulary: true
 忖打
 忖尋
 忖尋個	tshen zhin goq
+忖尋個	tshen zhin ghoq
 忖搭
 忖投
 忖抱
@@ -5952,6 +5929,7 @@ use_preset_vocabulary: true
 忖裝
 忖要
 忖要個	tshen iau goq
+忖要個	tshen iau ghoq
 忖見
 忖講
 忖變
@@ -6006,6 +5984,7 @@ use_preset_vocabulary: true
 尋來
 尋來尋去
 尋個	zhin goq
+尋個	zhin ghoq
 尋出
 尋出來
 尋出去
@@ -6117,6 +6096,7 @@ use_preset_vocabulary: true
 挈來
 挈來挈去
 挈個	chiq goq
+挈個	chiq ghoq
 挈出
 挈出來
 挈出去
@@ -6155,6 +6135,7 @@ use_preset_vocabulary: true
 馱來
 馱來馱去
 馱個	dou goq
+馱個	dou ghoq
 馱出
 馱出來
 馱出去
@@ -6497,8 +6478,8 @@ use_preset_vocabulary: true
 嘸沒主意	mhiq tsyu i	418
 嘸沒了	mhiq lei	578
 嘸沒事體	mhiq zy thi	578
-嘸沒事幹	mhiq zy kI	55
-嘸沒事幹	mhiq zy khI	55
+嘸沒事幹	mhiq zy ki-ke	55
+嘸沒事幹	mhiq zy khi-khe	55
 嘸沒交	mhiq kau	418
 嘸沒亮	mhiq lian	418
 嘸沒人	mhiq gnin	418
@@ -6512,9 +6493,10 @@ use_preset_vocabulary: true
 嘸沒來由	mhiq le yeu	55
 嘸沒來頭	mhiq le deu	55
 嘸沒個好結果	mhiq goq hau ciq kou	55
+嘸沒個好結果	mhiq ghoq hau ciq kou	55
 嘸沒借	mhiq cia	55
 嘸沒做	mhiq tsou	418
-嘸沒傳	mhiq dzOE	55
+嘸沒傳	mhiq dzoe	55
 嘸沒像	mhiq zhian	418
 嘸沒光	mhiq kuaon	55
 嘸沒再	mhiq tse	418
@@ -6535,7 +6517,7 @@ use_preset_vocabulary: true
 嘸沒取	mhiq tshyu	55
 嘸沒受	mhiq zhieu	55
 嘸沒喫	mhiq chioq	578
-嘸沒喫嘸沒穿	mhiq chioq mhiq tshOE	55
+嘸沒喫嘸沒穿	mhiq chioq mhiq tshoe	55
 嘸沒向	mhiq shian	55
 嘸沒吵	mhiq tshau	55
 嘸沒吸	mhiq shiq	55
@@ -6563,7 +6545,7 @@ use_preset_vocabulary: true
 嘸沒好氣	mhiq hau chi	55
 嘸沒學	mhiq ghoq	418
 嘸沒守	mhiq shieu	55
-嘸沒安好心	mhiq EI hau shin	55
+嘸沒安好心	mhiq ei-e hau shin	55
 嘸沒射	mhiq zhiq	55
 嘸沒對	mhiq tei	55
 嘸沒小	mhiq shiau	55
@@ -6575,12 +6557,12 @@ use_preset_vocabulary: true
 嘸沒後	mhiq gheu	55
 嘸沒後跟	mhiq gheu ken	418
 嘸沒心	mhiq shin	418
-嘸沒心嘸沒肝	mhiq shin mhiq kI	418
+嘸沒心嘸沒肝	mhiq shin mhiq ki-ke	418
 嘸沒心嘸沒肺	mhiq shin mhiq fi	418
 嘸沒心眼	mhiq shin ngae	418
 嘸沒必要	mhiq piq iau	418
 嘸沒志氣	mhiq tsy chi	55
-嘸沒念	mhiq nE	55
+嘸沒念	mhiq ne-gnie	55
 嘸沒咋貌	mhiq dza mau	418
 嘸沒咋貌介	mhiq dza mau ka	578
 嘸沒咋貌介	mhiq dza mau kaq	578
@@ -6595,7 +6577,7 @@ use_preset_vocabulary: true
 嘸沒忖過	mhiq tshen kou	418
 嘸沒意志	mhiq i tsy	55
 嘸沒意思	mhiq i sy	418
-嘸沒感覺	mhiq kI ciuq	418
+嘸沒感覺	mhiq ki-ke ciuq	418
 嘸沒慢	mhiq mae	418
 嘸沒戲	mhiq shi	55
 嘸沒戲好拍	mhiq shi hau phaq	418
@@ -6620,7 +6602,7 @@ use_preset_vocabulary: true
 嘸沒收	mhiq shieu	55
 嘸沒效	mhiq yau	55
 嘸沒救	mhiq cieu	418
-嘸沒敢	mhiq kI	55
+嘸沒敢	mhiq ki-ke	55
 嘸沒敲	mhiq khau	418
 嘸沒日嘸沒夜	mhiq gniq mhiq ya	55
 嘸沒書	mhiq syu	418
@@ -6666,18 +6648,18 @@ use_preset_vocabulary: true
 嘸沒當	mhiq taon	418
 嘸沒病	mhiq bin	418
 嘸沒省	mhiq san	418
-嘸沒看	mhiq khI	418
+嘸沒看	mhiq khi-khe	418
 嘸沒睏	mhiq khuen	418
 嘸沒破	mhiq phou	418
 嘸沒種	mhiq tson	55
 嘸沒空	mhiq khon	418
-嘸沒穿	mhiq tshOE	418
+嘸沒穿	mhiq tshoe	418
 嘸沒笑	mhiq shiau	418
 嘸沒筆	mhiq piq	418
 嘸沒簽	mhiq chi	418
 嘸沒撥	mhiq paq	418
 嘸沒經	mhiq cin	55
-嘸沒經驗	mhiq cin nE	418
+嘸沒經驗	mhiq cin ne-gnie	418
 嘸沒緣	mhiq yu	55
 嘸沒羞	mhiq shieu	418
 嘸沒聲	mhiq shin	55
@@ -6687,7 +6669,7 @@ use_preset_vocabulary: true
 嘸沒脊樑	mhiq ciq lian	55
 嘸沒面孔	mhiq mi khon	55
 嘸沒面孔見人	mhiq mi khon ci gnin	55
-嘸沒船	mhiq ZOE	418
+嘸沒船	mhiq zoe	418
 嘸沒良心	mhiq lian shin	418
 嘸沒花	mhiq huo	55
 嘸沒落	mhiq loq	55
@@ -6695,12 +6677,12 @@ use_preset_vocabulary: true
 嘸沒藥	mhiq yaq	418
 嘸沒要	mhiq iau	55
 嘸沒見	mhiq ci	55
-嘸沒看見	mhiq khI ci	418
-嘸沒看張	mhiq khI cian	418
+嘸沒看見	mhiq khi-khe ci	418
+嘸沒看張	mhiq khi-khe cian	418
 嘸沒見世面	mhiq ci syu mi	418
 嘸沒見識	mhiq ci shiq	55
-嘸沒看見過	mhiq khI ci kou	418
-嘸沒看張過	mhiq khI cian kou	418
+嘸沒看見過	mhiq khi-khe ci kou	418
+嘸沒看張過	mhiq khi-khe cian kou	418
 嘸沒規矩	mhiq kuei ciu	418
 嘸沒親	mhiq chin	418
 嘸沒討	mhiq thau	55
@@ -6723,7 +6705,7 @@ use_preset_vocabulary: true
 嘸沒買	mhiq ma	418
 嘸沒賞	mhiq saon	418
 嘸沒爬起	mhiq bo chi	418
-嘸沒趕	mhiq kI	418
+嘸沒趕	mhiq ki-ke	418
 嘸沒路	mhiq lu	418
 嘸沒路走	mhiq lu tseu	418
 嘸沒路好走	mhiq lu hau tseu	418
@@ -6774,7 +6756,7 @@ use_preset_vocabulary: true
 嘸沒人會	mhiq gnin wei	418
 嘸沒勁道	mhiq jin dau	418
 嘸沒反應	mhiq fae in	418
-嘸沒安裝	mhiq EI tsaon	418
+嘸沒安裝	mhiq ei-e tsaon	418
 嘸沒差別	mhiq tsho biq	418
 嘸沒意義	mhiq i gni	418
 嘸沒辰光	mhiq zyun kuaon	418
@@ -6796,6 +6778,7 @@ use_preset_vocabulary: true
 滰來
 滰來滰去
 滰個	jian goq
+滰個	jian ghoq
 滰去
 滰好
 滰手
@@ -6836,8 +6819,11 @@ use_preset_vocabulary: true
 睏來
 睏來睏去
 睏個	khuen goq
+睏個	khuen ghoq
 睏個夠	khuen goq keu
+睏個夠	khuen ghoq keu
 睏個爽快	khuen goq saon khua
+睏個爽快	khuen ghoq saon khua
 睏到
 睏前
 睏去
@@ -6923,8 +6909,11 @@ use_preset_vocabulary: true
 啥人勒	so gnin laq
 啥人勒	sou gnin laq
 啥人個	soq gnin goq
+啥人個	soq gnin ghoq
 啥人個	so gnin goq
+啥人個	so gnin ghoq
 啥人個	sou gnin goq
+啥人個	sou gnin ghoq
 啥人先	soq gnin shi
 啥人先	so gnin shi
 啥人先	sou gnin shi
@@ -6980,14 +6969,17 @@ use_preset_vocabulary: true
 啥人做的	so gnin tsou tiq
 啥人做的	sou gnin tsou tiq
 啥人做個	soq gnin tsou goq
+啥人做個	soq gnin tsou ghoq
 啥人做個	so gnin tsou goq
+啥人做個	so gnin tsou ghoq
 啥人做個	sou gnin tsou goq
+啥人做個	sou gnin tsou ghoq
 啥人做個	soq gnin tsou ghoq
 啥人做個	so gnin tsou ghoq
 啥人做個	sou gnin tsou ghoq
-啥人敢	soq gnin kI
-啥人敢	so gnin kI
-啥人敢	sou gnin kI
+啥人敢	soq gnin ki-ke
+啥人敢	so gnin ki-ke
+啥人敢	sou gnin ki-ke
 啥人是	soq gnin zy
 啥人是	so gnin zy
 啥人是	sou gnin zy
@@ -7080,6 +7072,7 @@ use_preset_vocabulary: true
 該一記	kiq iq ci
 該一些	kiq iq shiq
 該一個	kiq iq goq
+該一個	kiq iq ghoq
 該一切	kiq iq chiq
 該一日	kiq iq gniq
 該一年	kiq iq gni
@@ -7090,6 +7083,7 @@ use_preset_vocabulary: true
 該一點	kiq iq ti
 該三	kiq sae
 該三個	kiq sae goq
+該三個	kiq sae ghoq
 該記	kiq ci
 該主要是	kiq tsyu iau zy
 該也	kiq gha
@@ -7100,6 +7094,7 @@ use_preset_vocabulary: true
 該眼事	kiq ngae zy
 該眼人	kiq ngae gnin
 該些個	kiq shiq goq
+該些個	kiq shiq ghoq
 該眼問題	kiq ngae ven di
 該眼東西	kiq ngae ton shi
 該眼言話	kiq ngae ghae wo
@@ -7114,34 +7109,47 @@ use_preset_vocabulary: true
 該位	kiq wei
 該位是	kiq wei zy
 該個	kiq goq
+該個	kiq ghoq
 該個世界	kiq goq syu ka
+該個世界	kiq ghoq syu ka
 該隻名字	kiq tsaq min zy
 該個問題	kiq goq ven di
+該個問題	kiq ghoq ven di
 該個國家	kiq goq koq cia
+該個國家	kiq ghoq koq cia
 該個地方	kiq goq di faon
+該個地方	kiq ghoq di faon
 該隻城市	kiq tsaq jin zy
 該個女人	kiq goq gniu gnin
+該個女人	kiq ghoq gniu gnin
 該個小娘	kiq goq shiau gnian
+該個小娘	kiq ghoq shiau gnian
 該個字	kiq goq zy
+該個字	kiq ghoq zy
 該隻擋口	kiq tsaq taon kheu
 該隻故事	kiq tsaq ku zy
 該個數字	kiq goq su zy
+該個數字	kiq ghoq su zy
 該隻數字	kiq tsaq su zy
 該隻文件	kiq tsaq ven ji
 該個文件	kiq goq ven ji
+該個文件	kiq ghoq ven ji
 該隻辰光	kiq tsaq zyun kuaon
 該個月	kiq goq yuq
+該個月	kiq ghoq yuq
 該個月	kiq kou yuq
 該隻東西	kiq tsaq ton shi
 該隻機會	kiq tsaq ci wei
 該隻消息	kiq tsaq shiau shiq
-該個男人	kiq goq nEI gnin
+該個男人	kiq goq nei-nae gnin
+該個男人	kiq ghoq nei-nae gnin
 該隻網站	kiq tsaq maon dzae
 該隻遊戲	kiq tsaq yeu shi
 該倒	kiq tau
 該倒	ke tau
 該兩	kiq lian
 該兩個	kiq lian goq
+該兩個	kiq lian ghoq
 該兩隻	kiq lian tsaq
 該兩日	kiq lian gniq
 該兩種	kiq lian tson
@@ -7184,8 +7192,11 @@ use_preset_vocabulary: true
 該年	kiq gni
 該幾	kiq ci
 該幾個	kiq ci goq
+該幾個	kiq ci ghoq
 該幾個人	kiq ci goq gnin
+該幾個人	kiq ci ghoq gnin
 該幾個月	kiq ci goq yuq
+該幾個月	kiq ci ghoq yuq
 該幾個月	kiq ci kou yuq
 該兩年	kiq lian gni
 該所	kiq so
@@ -7198,6 +7209,7 @@ use_preset_vocabulary: true
 該早晏	kiq tsau ae
 該是	kiq zy
 該是一個	kiq zy iq goq
+該是一個	kiq zy iq ghoq
 該是一種	kiq zy iq tson
 該是其	kiq zy ji
 該是渠	kiq zy ji
@@ -7205,6 +7217,7 @@ use_preset_vocabulary: true
 該是爾	kiq zy ng
 該是儂	kiq zy nou
 該是個	kiq zy goq
+該是個	kiq zy ghoq
 該是隻	kiq zy tsaq
 該是我	kiq zy ngo
 該辰光	kiq zyun kuaon
@@ -7251,7 +7264,7 @@ use_preset_vocabulary: true
 該種事體	kiq tson zy thi
 該種人	kiq tson gnin
 該種情況	kiq tson jin huaon
-該種感覺	kiq tson kI ciuq
+該種感覺	kiq tson ki-ke ciuq
 該種方式	kiq tson faon shiq
 該種方法	kiq tson faon faq
 該端	kiq toe
@@ -7499,6 +7512,10 @@ use_preset_vocabulary: true
 該炷墳	kiq tsyu ven
 該炷磨	kiq dzyu mou
 該炷磨	kiq tsyu mou
+# 落
+剩落
+弄落
+攎落
 # 食物
 倭豆鹹肉糯米飯
 糯米飯
@@ -7529,15 +7546,15 @@ use_preset_vocabulary: true
 片片鴨	phi phi ae
 慈城年糕
 米仁	mi zyun
-凍米
 鹹烤蝦
 鹹㸆蝦
 桃膠	dau ciau
-桃膠乾	dau ciau kI
+桃膠乾	dau ciau ki-ke
 石花凍	zhiq huo ton
 米仁湯	mi zyun thaon
 糖水黃桃
 黃桃
+青塊
 # 商業
 倉橋麪結店
 興寧橋烤雞
@@ -7702,7 +7719,7 @@ use_preset_vocabulary: true
 外國閒話
 日本言話	zyuq pen ghae wo
 日本閒話	zyuq pen ghae wo
-韓國言話	ghEI koq ghae wo
+韓國言話	ghei-ghe koq ghae wo
 韓國閒話
 # 其他詞彙
 急口令
@@ -7832,7 +7849,7 @@ use_preset_vocabulary: true
 𠑞藥
 撒藥	dza yaq
 射藥	dza yaq
-鵪鶉鳥	EI zyun tiau
+鵪鶉鳥	ei-e zyun tiau
 肫掌
 傴倒	on tau	55
 傴頭	eu deu	55
@@ -7905,17 +7922,17 @@ use_preset_vocabulary: true
 實足年齡
 足歲	tsoq syu
 虛年齡
-晐到四處	ghEI tau sy tshyu
-晐到各態	ghEI tau koq the
-晐到各退	ghEI tau koq thei
-晐到四態	ghEI tau sy the
-晐到四退	ghEI tau sy thei
+晐到四處	ghei-ghe tau sy tshyu
+晐到各態	ghei-ghe tau koq the
+晐到各退	ghei-ghe tau koq thei
+晐到四態	ghei-ghe tau sy the
+晐到四退	ghei-ghe tau sy thei
 各到各態	koq tau koq the
 各到各退	koq tau koq thei
 倷䏘	na phiq
 倷卜	na poq
 哭作無賴	khoq tshoq vu la
-哭作無賴	khoq tshoq Wu la
+哭作無賴	khoq tshoq wu- la
 拆家棚	tshaq ko ban
 家棚精	ko ban cin
 延晏	yi ae
@@ -7965,7 +7982,6 @@ use_preset_vocabulary: true
 倒篤大糊	tau toq dou wu
 燥大糊	sau dou wu
 敲坍	khau thae
-樣樣色色
 樣樣式式	yan yan shiq shiq
 樣樣啥啥	yan yan sou sou
 亂鐘	loe tson
@@ -7992,6 +8008,7 @@ use_preset_vocabulary: true
 蝨眯老鬼	saq mhi lau ciu
 蝨眯鬼	saq mhi ciu
 是巧
+總巧
 䜉䜉嚓嚓	chiq chiq tshaq tshaq
 蝦𩻣鮳	huo dzae khau
 蝦𩻣鮳	huo zae khau
@@ -8001,15 +8018,50 @@ use_preset_vocabulary: true
 作業簿
 病歷簿
 戶口簿
+斯整
+斯斯整整
+𡇠仔
+甩乾機	huaq ki-ke ci
+黃鮚鮳
+黃榨榨
+敐梗刮得	jin guan kuaq taq
+瘃子斑
+腳鉗
+清盯
+瘦㽺㽺
+癟兮兮	piq shi shi
+鮳頭	khau dei
+搣陀螺	miq doq laon
+燥迫廿三	sau paq ne-gnie sae
+韌比刁起	gnin pi tiau chi
+呵呵	huo huo
+篤落木	toq loq moq
+唧唧咯咯	ciq ciq kaq kaq
+直直軋軋	jiq jiq gaq gaq
+彭彭
+戇鵝
+偷爬
+芒餅
+稻鬚	dau syu
+稻鬚穀	dau syu koq
+嘴革瘡
+坑頭塊
+對對動
+吐綻
 # 八股文拆分詞彙
 〇兩	lin lian
 一九九兩	iq cieu cieu lian
 一兩三	iq lian sae
 一個勿小心	iq goq vaq shiau shin
+一個勿小心	iq ghoq vaq shiau shin
 一個弗小心	iq goq vaq shiau shin
+一個弗小心	iq ghoq vaq shiau shin
 一個巴掌拍勿響	iq goq po tsaon phaq vaq shian
+一個巴掌拍勿響	iq ghoq po tsaon phaq vaq shian
 一個巴掌拍弗響	iq goq po tsaon phaq vaq shian
+一個巴掌拍弗響	iq ghoq po tsaon phaq vaq shian
 一個心眼	iq goq shin ngae
+一個心眼	iq ghoq shin ngae
 一隻跟斗十萬八千里	iq tsaq ken teu zyuq vae paq chi li
 一隻鑊裏喫飯個	iq tsaq ghoq li chioq vae goq
 一隻鑊裏喫飯個	iq tsaq ghoq li chioq vae ghoq
@@ -8020,6 +8072,7 @@ use_preset_vocabulary: true
 一千零兩	iq chi lin lian
 一口喫隻胖子	iq kheu chioq tsaq phaon tsy
 一日一個樣	iq gniq iq goq yan
+一日一個樣	iq gniq iq ghoq yan
 一字勿差	iq zy vaq tsho
 一字弗差	iq zy vaq tsho
 一心兩用	iq shin lian yon
@@ -8045,7 +8098,9 @@ use_preset_vocabulary: true
 丈二和尚摸勿着頭腦	jian gni ghou zaon moq vaq zyuq deu nau
 丈二和尚摸弗着頭腦	jian gni ghou zaon moq vaq zyuq deu nau
 三個和尚嘸沒水喝	sae goq ghou zaon mhiq syu haq
+三個和尚嘸沒水喝	sae ghoq ghou zaon mhiq syu haq
 三個和尚嘸沒水喫	sae goq ghou zaon mhiq syu chioq
+三個和尚嘸沒水喫	sae ghoq ghou zaon mhiq syu chioq
 三分之兩	sae fen tsy lian
 三十兩	sae zyuq lian
 三十兩萬	sae zyuq lian vae
@@ -8063,6 +8118,7 @@ use_preset_vocabulary: true
 上勿去	zaon vaq chi
 上弗去	zaon vaq chi
 上個禮拜	zaon goq li pa
+上個禮拜	zaon ghoq li pa
 上禮拜	zaon li pa
 上牀睏覺	zaon zaon khuen kau
 上班辰光	zaon pae zyun kuaon
@@ -8075,6 +8131,7 @@ use_preset_vocabulary: true
 下勿去	gho vaq chi
 下弗去	gho vaq chi
 下個禮拜	gho goq li pa
+下個禮拜	gho ghoq li pa
 下禮拜	gho li pa
 下班辰光	gho pae zyun kuaon
 落課時間	loq khou zy ci
@@ -8086,12 +8143,12 @@ use_preset_vocabulary: true
 弗下去	vaq gho chi
 勿落去	vaq loq chi
 弗落去	vaq loq chi
-勿乾淨	vaq kI zhin
-弗乾淨	vaq kI zhin
-勿乾脆	vaq kI tshei
-弗乾脆	vaq kI tshei
-勿乾裂	vaq kI liq
-弗乾裂	vaq kI liq
+勿乾淨	vaq ki-ke zhin
+弗乾淨	vaq ki-ke zhin
+勿乾脆	vaq ki-ke tshei
+弗乾脆	vaq ki-ke tshei
+勿乾裂	vaq ki-ke liq
+弗乾裂	vaq ki-ke liq
 勿亞於	vaq ia yu
 弗亞於	vaq ia yu
 勿交	vaq ciau
@@ -8193,23 +8250,24 @@ use_preset_vocabulary: true
 弗大能	vaq da nen
 勿好了	vaq hau lei
 弗好了	vaq hau lei
-勿安分	vaq EI ven
-弗安分	vaq EI ven
+勿安分	vaq ei-e ven
+弗安分	vaq ei-e ven
 勿容易	vaq yon yi
 弗容易	vaq yon yi
 勿屬於	vaq dzoq yu
 弗屬於	vaq dzoq yu
 勿差	vaq tsho
 弗差	vaq tsho
-勿干你	vaq kI ng
-弗干你	vaq kI ng
-勿干爾	vaq kI ng
-弗干爾	vaq kI ng
-勿干俉	vaq kI ng
-弗干俉	vaq kI ng
-勿干儂	vaq kI nou
-弗干儂	vaq kI nou
+勿干你	vaq ki-ke ng
+弗干你	vaq ki-ke ng
+勿干爾	vaq ki-ke ng
+弗干爾	vaq ki-ke ng
+勿干俉	vaq ki-ke ng
+弗干俉	vaq ki-ke ng
+勿干儂	vaq ki-ke nou
+弗干儂	vaq ki-ke nou
 不幸中個大幸	paq yin tson goq da yin
+不幸中個大幸	paq yin tson ghoq da yin
 勿從	vaq dzon
 弗從	vaq dzon
 勿忘本	vaq vaon pen
@@ -8260,7 +8318,9 @@ use_preset_vocabulary: true
 勿明確	vaq min chiuq
 弗明確	vaq min chiuq
 勿是一個	vaq zy iq goq
+勿是一個	vaq zy iq ghoq
 弗是一個	vaq zy iq goq
+弗是一個	vaq zy iq ghoq
 勿是儂	vaq zy nou
 弗是儂	vaq zy nou
 勿是俉	vaq zy ng
@@ -8364,8 +8424,8 @@ use_preset_vocabulary: true
 弗等價交換	vaq ten ko ciau wun
 勿等於	vaq ten yu
 弗等於	vaq ten yu
-勿管三七廿一	vaq kun sae chiq nE iq
-弗管三七廿一	vaq kun sae chiq nE iq
+勿管三七廿一	vaq kun sae chiq ne-gnie iq
+弗管三七廿一	vaq kun sae chiq ne-gnie iq
 勿簡單	vaq ci tae
 弗簡單	vaq ci tae
 勿習慣	vaq zhiq kuae
@@ -8416,11 +8476,11 @@ use_preset_vocabulary: true
 弗見天日	vaq ci thi zyuq
 弗見棺材弗掉淚	vaq ci kun ze vaq diau lei
 弗見棺材弗落淚	vaq ci kun ze vaq loq lei
-勿見經傳	vaq ci cin dzOE
+勿見經傳	vaq ci cin dzoe
 勿覺	vaq ciuq
 勿覺察	vaq ciuq tshaq
 勿覺得	vaq ciuq taq
-弗見經傳	vaq ci cin dzOE
+弗見經傳	vaq ci cin dzoe
 弗覺	vaq ciuq
 弗覺察	vaq ciuq tshaq
 弗覺得	vaq ciuq taq
@@ -8508,29 +8568,29 @@ use_preset_vocabulary: true
 九萬兩千	cieu vae lian chi
 也嘸沒	gha mhiq
 也嘸沒	ya mhiq
-乾淨不乾淨	kI zhin paq kI zhin
+乾淨不乾淨	ki-ke zhin paq ki-ke zhin
 清爽勿清爽	chin saon vaq chin saon
 清爽弗清爽	chin saon vaq chin saon
-乾乾個	kI kI goq
-乾乾個	kI kI ghoq
-乾坐的	kI zou tiq
-乾阿妹	kI aq mei
-乾阿姐	kI aq cia
+乾乾個	ki-ke ki-ke goq
+乾乾個	ki-ke ki-ke ghoq
+乾坐的	ki-ke zou tiq
+乾阿妹	ki-ke aq mei
+乾阿姐	ki-ke aq cia
 燥夫夫個	sau fu fu goq
 燥乎乎個	sau fu fu goq
 燥夫夫個	sau fu fu ghoq
 燥乎乎個	sau fu fu ghoq
-乾掉宕杯	kI diau daon pei
-乾掉蕩杯	kI diau daon pei
-乾掉該杯	kI diau kiq pei
+乾掉宕杯	ki-ke diau daon pei
+乾掉蕩杯	ki-ke diau daon pei
+乾掉該杯	ki-ke diau kiq pei
 燥煞死	sau saq shi
 燥毛巾	sau mau cin
-乾個	kI goq
-乾個	kI ghoq
+乾個	ki-ke goq
+乾個	ki-ke ghoq
 燥個	sau goq
 燥個	sau ghoq
-乾該一杯	kI kiq iq pei
-乾該杯	kI kiq pei
+乾該一杯	ki-ke kiq iq pei
+乾該杯	ki-ke kiq pei
 垃圾亂揞	la shi loe an
 垃圾亂揞	la shi loe khan
 垃圾亂揞	laq saq loe an
@@ -8548,7 +8608,7 @@ use_preset_vocabulary: true
 兩〇〇八	lian lin lin paq
 兩〇一〇	lian lin iq lin
 兩〇一一	lian lin iq iq
-廿七區	nE chiq chiu
+廿七區	ne-gnie chiq chiu
 兩兩拍子	lian lian phaq tsy
 兩人同心其利斷金	lian gnin don shin ji li doe cin
 兩倍體	lian bei thi
@@ -8565,34 +8625,34 @@ use_preset_vocabulary: true
 兩劃	lian waq
 兩動	lian don
 兩區	lian chiu
-廿一世紀	nE iq syu ci
-廿一萬	nE iq vae
-廿一點	nE iq ti
-廿七萬	nE chiq vae
-廿七號	nE chiq ghau
-廿三萬	nE sae vae
-廿三點	nE sae ti
-廿二萬	nE gni vae
-廿二號	nE gni ghau
-廿二點	nE gni ti
-廿八宿	nE paq shieu
-廿八萬	nE paq vae
-廿八號	nE paq ghau
-廿六歲	nE loq syu
-廿六萬	nE loq vae
-廿六號	nE loq ghau
-廿四小時	nE sy shiau zy
-廿四萬	nE sy vae
-廿四號	nE sy ghau
-廿多	nE tou
-廿多萬	nE tou vae
-廿日	nE gniq
-廿幾	nE ci
-廿幾年	nE ci gni
-廿幾萬	nE ci vae
-廿歲	nE sei
-廿萬	nE vae
-廿點	nE ti
+廿一世紀	ne-gnie iq syu ci
+廿一萬	ne-gnie iq vae
+廿一點	ne-gnie iq ti
+廿七萬	ne-gnie chiq vae
+廿七號	ne-gnie chiq ghau
+廿三萬	ne-gnie sae vae
+廿三點	ne-gnie sae ti
+廿二萬	ne-gnie gni vae
+廿二號	ne-gnie gni ghau
+廿二點	ne-gnie gni ti
+廿八宿	ne-gnie paq shieu
+廿八萬	ne-gnie paq vae
+廿八號	ne-gnie paq ghau
+廿六歲	ne-gnie loq syu
+廿六萬	ne-gnie loq vae
+廿六號	ne-gnie loq ghau
+廿四小時	ne-gnie sy shiau zy
+廿四萬	ne-gnie sy vae
+廿四號	ne-gnie sy ghau
+廿多	ne-gnie tou
+廿多萬	ne-gnie tou vae
+廿日	ne-gnie gniq
+廿幾	ne-gnie ci
+廿幾年	ne-gnie ci gni
+廿幾萬	ne-gnie ci vae
+廿歲	ne-gnie sei
+廿萬	ne-gnie vae
+廿點	ne-gnie ti
 兩千億	lian chi i
 兩千石	lian chi zaq
 兩千萬	lian chi vae
@@ -8625,19 +8685,19 @@ use_preset_vocabulary: true
 兩月兩	lian yuq lian
 兩月份	lian yuq ven
 兩期工程	lian ji kon jin
-兩桿子	lian kI tsy
-兩桿子脾氣	lian kI tsy bi chi
+兩桿子	lian ki-ke tsy
+兩桿子脾氣	lian ki-ke tsy bi chi
 兩棟	lian ton
 兩樓	lian leu
 兩樓住戶	lian leu dzyu wu
 兩次世界大戰	lian tshy syu ka da ci
 兩次世界大戰	lian tshy syu ka da tsoe
-兩次函數	lian tshy ghEI su
+兩次函數	lian tshy ghei-ghe su
 兩次型	lian tshy yin
 兩次多項式	lian tshy tou ghaon shiq
 兩次大戰	lian tshy da ci
 兩次大戰	lian tshy da tsoe
-兩次感染	lian tshy kI gni
+兩次感染	lian tshy ki-ke gni
 兩次方	lian tshy faon
 兩次方程	lian tshy faon jin
 兩次方程式	lian tshy faon jin shiq
@@ -8713,8 +8773,8 @@ use_preset_vocabulary: true
 交落去	kau loq chi
 交付撥	ciau fu paq
 交女朋友	ciau gniu ban yeu
-交男友	ciau nEI yeu
-交男朋友	ciau nEI ban yeu
+交男友	ciau nei-nae yeu
+交男朋友	ciau nei-nae ban yeu
 交易價鈿	ciau yiq ko di
 交撥	ciau paq
 交還撥	ciau wae paq
@@ -8800,7 +8860,7 @@ use_preset_vocabulary: true
 以儂	yi nou
 以小喫大	yi shiau chioq dou
 仰仗勒	gnian jian laq
-仰看勒	gnian khI laq
+仰看勒	gnian khi-khe laq
 仰賴勒	gnian la laq
 任何事體	zyun ghou zy thi
 任俉	zyun ng
@@ -8893,7 +8953,7 @@ use_preset_vocabulary: true
 爾勿是	ng vaq zy
 爾弗是	ng vaq zy
 爾也	ng gha
-爾乾一杯	ng kI iq pei
+爾乾一杯	ng ki-ke iq pei
 爾以爲	ng yi wei
 爾作	ng tsoq
 爾做	ng tsou
@@ -8921,7 +8981,7 @@ use_preset_vocabulary: true
 爾蠻	ng mhae
 爾得	ng taq
 爾快樂	ng khua loq
-爾念	ng nE
+爾念	ng ne-gnie
 爾怕	ng pho
 爾想	ng shian
 爾想要	ng shian iau
@@ -8935,7 +8995,7 @@ use_preset_vocabulary: true
 爾尋	ng zhin
 爾搜	ng seu
 爾搞	ng gau
-爾敢	ng kI
+爾敢	ng ki-ke
 爾是	ng zy
 爾是我	ng zy ngo
 爾是爲了	ng zy wei laq
@@ -8954,7 +9014,7 @@ use_preset_vocabulary: true
 爾該手	ng kiq shieu
 爾心	ng shin
 爾手	ng shieu
-爾看	ng khI
+爾看	ng khi-khe
 爾真	ng cin
 爾老	ng lau
 爾聽	ng thin
@@ -8999,7 +9059,7 @@ use_preset_vocabulary: true
 俉勿是	ng vaq zy
 俉弗是	ng vaq zy
 俉也	ng gha
-俉乾一杯	ng kI iq pei
+俉乾一杯	ng ki-ke iq pei
 俉以爲	ng yi wei
 俉作	ng tsoq
 俉來	ng le
@@ -9028,7 +9088,7 @@ use_preset_vocabulary: true
 俉蠻	ng mhae
 俉得	ng taq
 俉快樂	ng khua loq
-俉念	ng nE
+俉念	ng ne-gnie
 俉怕	ng pho
 俉想	ng shian
 俉想要	ng shian iau
@@ -9042,7 +9102,7 @@ use_preset_vocabulary: true
 俉尋	ng zhin
 俉搜	ng seu
 俉搞	ng gau
-俉敢	ng kI
+俉敢	ng ki-ke
 俉是	ng zy
 俉是我	ng zy ngo
 俉是爲了	ng zy wei laq
@@ -9061,7 +9121,7 @@ use_preset_vocabulary: true
 俉該手	ng kiq shieu
 俉心	ng shin
 俉手	ng shieu
-俉看	ng khI
+俉看	ng khi-khe
 俉真	ng cin
 俉等	ng ten
 俉老	ng lau
@@ -9108,7 +9168,7 @@ use_preset_vocabulary: true
 儂勿是	nou vaq zy
 儂弗是	nou vaq zy
 儂也	nou gha
-儂乾一杯	nou kI iq pei
+儂乾一杯	nou ki-ke iq pei
 儂以爲	nou yi wei
 儂作	nou tsoq
 儂來	nou le
@@ -9136,7 +9196,7 @@ use_preset_vocabulary: true
 儂蠻	nou mhae
 儂得	nou taq
 儂快樂	nou khua loq
-儂念	nou nE
+儂念	nou ne-gnie
 儂怕	nou pho
 儂想	nou shian
 儂想要	nou shian iau
@@ -9150,7 +9210,7 @@ use_preset_vocabulary: true
 儂尋	nou zhin
 儂搜	nou seu
 儂搞	nou gau
-儂敢	nou kI
+儂敢	nou ki-ke
 儂是	nou zy
 儂是我	nou zy ngo
 儂是爲了	nou zy wei laq
@@ -9176,7 +9236,7 @@ use_preset_vocabulary: true
 儂個手	nou ghoq shieu
 儂心	nou shin
 儂手	nou shieu
-儂看	nou khI
+儂看	nou khi-khe
 儂真	nou cin
 儂等	nou ten
 儂老	nou lau
@@ -9228,9 +9288,9 @@ use_preset_vocabulary: true
 來容易	le yon yi
 來捉	le tsoq
 來馱	le dou
-來看爾	le khI ng
-來看俉	le khI ng
-來看儂	le khI nou
+來看爾	le khi-khe ng
+來看俉	le khi-khe ng
+來看儂	le khi-khe nou
 來自浙江	le zy ciq kaon
 來自寧波	le zy gnin pou
 來自寧波	le zy gnin poq
@@ -9307,18 +9367,18 @@ use_preset_vocabulary: true
 偷落去	theu loq chi
 偷馱	theu dou
 偷勒	theu laq
-傳落	dzOE loq
-傳落來	dzOE loq le
-傳落去	dzOE loq chi
-傳勿到	dzOE vaq tau
-傳弗到	dzOE vaq tau
-傳授撥	dzOE zhieu paq
-傳播撥	dzOE pou paq
-傳染撥	dzOE gni paq
-傳個	dzOE goq
-傳個	dzOE ghoq
-傳勒	dzOE laq
-傳撥	dzOE paq
+傳落	dzoe loq
+傳落來	dzoe loq le
+傳落去	dzoe loq chi
+傳勿到	dzoe vaq tau
+傳弗到	dzoe vaq tau
+傳授撥	dzoe zhieu paq
+傳播撥	dzoe pou paq
+傳染撥	dzoe gni paq
+傳個	dzoe goq
+傳個	dzoe ghoq
+傳勒	dzoe laq
+傳撥	dzoe paq
 戇人自有戇福	gaon gnin zy yeu gaon foq
 傾落去	chin loq chi
 像俉	zhian ng
@@ -9344,6 +9404,7 @@ use_preset_vocabulary: true
 全國頂大	dzoe koq tin dou
 全球頂大	dzoe jieu tin dou
 兩個小人	lian goq shiau gnin
+兩個小人	lian ghoq shiau gnin
 兩面勿是人	lian mi vaq zy gnin
 兩面弗是人	lian mi vaq zy gnin
 八字嘸沒一撇	paq zy mhiq iq phiq
@@ -9351,10 +9412,10 @@ use_preset_vocabulary: true
 八字還嘸沒一撇	paq zy wa mhiq iq phiq
 八號上半日	paq ghau zaon pun gniq
 八號下半日	paq ghau gho pun gniq
-八竿子打勿着	paq kI tsy tan vaq dzoq
-八竿子打勿着	paq kI tsy tan vaq zyuq
-八竿子打弗着	paq kI tsy tan vaq dzoq
-八竿子打弗着	paq kI tsy tan vaq zyuq
+八竿子打勿着	paq ki-ke tsy tan vaq dzoq
+八竿子打勿着	paq ki-ke tsy tan vaq zyuq
+八竿子打弗着	paq ki-ke tsy tan vaq dzoq
+八竿子打弗着	paq ki-ke tsy tan vaq zyuq
 公私勿分	kon sy vaq fen
 公私弗分	kon sy vaq fen
 再落去	tse loq chi
@@ -9422,8 +9483,8 @@ use_preset_vocabulary: true
 划弗來	waq vaq le
 划勒	uo laq
 划勒走	uo laq tseu
-初戀個感覺	tshu li goq kI ciuq
-初戀個感覺	tshu li ghoq kI ciuq
+初戀個感覺	tshu li goq ki-ke ciuq
+初戀個感覺	tshu li ghoq ki-ke ciuq
 判落去	phun loq chi
 別人個	biq gnin goq
 別人個	biq gnin ghoq
@@ -9505,6 +9566,7 @@ use_preset_vocabulary: true
 十多兩分	zyuq tou lian fen
 十多兩歲	zyuq tou lian syu
 十多兩個	zyuq tou lian goq
+十多兩個	zyuq tou lian ghoq
 十多兩月	zyuq tou lian yuq
 十月十號	zyuq yuq zyuq ghau
 十歲辰光	zyuq syu zyun kuaon
@@ -9546,7 +9608,7 @@ use_preset_vocabulary: true
 嘸數嘸沒	mh su mhiq
 可隨勒	khou zei laq
 好隨勒	hau zei laq
-好乾製	hau kI tsyu
+好乾製	hau ki-ke tsyu
 好分爲	hau fen wei
 好增加	hau tsen ko
 好拿	hau no
@@ -9571,8 +9633,8 @@ use_preset_vocabulary: true
 喫勿落兜勒走	chioq vaq loq teu laq tseu
 喫弗落	chioq vaq loq
 喫弗落兜勒走	chioq vaq loq teu laq tseu
-喫乾了	chioq kI liau
-喫乾醋	chioq kI tshu
+喫乾了	chioq ki-ke liau
+喫乾醋	chioq ki-ke tshu
 喫了	chioq laq
 喫了定心丸	chioq laq din shin wun
 喫了秤砣	chioq laq chin dou
@@ -9597,12 +9659,12 @@ use_preset_vocabulary: true
 喫奶個氣力	chioq na goq chi liq
 喫奶個力氣	chioq na ghoq liq chi
 喫奶個氣力	chioq na ghoq chi liq
-喫幾碗乾飯	chioq ci un kI vae
+喫幾碗乾飯	chioq ci un ki-ke vae
 喫得了	chioq taq liau
 喫敗仗	chioq ba cian
 喫虧	chioq khuei
 喫虧	chioq chiu
-喫豆乾	chioq deu kI
+喫豆乾	chioq deu ki-ke
 喫豆人	chioq deu gnin
 喫長齋	chioq jian tsa
 喫飯時間	chioq vae zy ci
@@ -9610,7 +9672,7 @@ use_preset_vocabulary: true
 喫飽了	chioq pau lei
 喫飽了飯撐的	chioq pau laq vae tshan tiq
 喫飽撐勒	chioq pau tshan laq
-喫飽沒事幹	chioq pau mhaq zy kI
+喫飽沒事幹	chioq pau mhaq zy ki-ke
 喫鴨蛋	chioq aq dae
 吊落去	tiau loq chi
 吊勒	tiau laq
@@ -9628,7 +9690,7 @@ use_preset_vocabulary: true
 吞其落去	then ji loq chi
 吞渠落去	then ji loq chi
 吧托	pa thoq
-含的	ghEI tiq
+含的	ghei-ghe tiq
 吵勒	tshau laq
 吸落去	shiq loq chi
 吸勒	shiq laq
@@ -9645,7 +9707,7 @@ use_preset_vocabulary: true
 咬勒不放	ngau laq paq faon
 咳勒	khaq laq
 哭勒	khoq laq
-唸勒	nE laq
+唸勒	ne-gnie laq
 啃勒	khen laq
 問一記	men iq ci
 問儂	men nou
@@ -9691,7 +9753,7 @@ use_preset_vocabulary: true
 垮落來	khua loq le
 垮落去	khua loq chi
 埋落去	ma loq chi
-埋落去	mAE loq chi
+埋落去	mae-me loq chi
 堅持落去	ci ji loq chi
 堅持落去	ci dzy loq chi
 堅持勒	ci ji laq
@@ -9752,11 +9814,11 @@ use_preset_vocabulary: true
 好了𠲎	hau laq vaq
 好了弗	hau laq vaq
 好了勿	hau laq vaq
-好事勿出門壞事傳千里	hau zy vaq tshyuq men wa zy dzOE chi li
-好事勿出門惡事傳千里	hau zy vaq tshyuq men oq zy dzOE chi li
+好事勿出門壞事傳千里	hau zy vaq tshyuq men wa zy dzoe chi li
+好事勿出門惡事傳千里	hau zy vaq tshyuq men oq zy dzoe chi li
 好事勿出門惡事行千里	hau zy vaq tshyuq men oq zy yin chi li
-好事弗出門壞事傳千里	hau zy vaq tshyuq men wa zy dzOE chi li
-好事弗出門惡事傳千里	hau zy vaq tshyuq men oq zy dzOE chi li
+好事弗出門壞事傳千里	hau zy vaq tshyuq men wa zy dzoe chi li
+好事弗出門惡事傳千里	hau zy vaq tshyuq men oq zy dzoe chi li
 好事弗出門惡事行千里	hau zy vaq tshyuq men oq zy yin chi li
 好借好還再借勿難	hau cia hau wae tse cia vaq nae
 好借好還再借弗難	hau cia hau wae tse cia vaq nae
@@ -9787,9 +9849,10 @@ use_preset_vocabulary: true
 學堂裏	ghoq daon li
 學堂領導	ghoq daon lin dau
 學個	ghoq goq
+學個	ghoq ghoq
 學眼	ghoq ngae
 守勒	shieu laq
-安靜落去	EI zhin loq chi
+安靜落去	ei-e zhin loq chi
 定落去	din loq chi
 定落來	din loq le
 害人勿淺	ghe gnin vaq chi
@@ -9797,6 +9860,7 @@ use_preset_vocabulary: true
 害煞	ghe saq
 家政專科學堂	cia cin tsoe khou ghoq daon
 屋裏個	oq li goq
+屋裏個	oq li ghoq
 屋裏向	oq li shian
 寄宿學堂	ci soq ghoq daon
 寫落去	shia loq chi
@@ -9823,7 +9887,7 @@ use_preset_vocabulary: true
 小矮凳	shiau a ten
 小洞不補大洞喫苦	shiau don paq pu dou don chioq khu
 小魚喫大魚	shiau ng chioq da ng
-就喫乾	jieu chioq kI
+就喫乾	jieu chioq ki-ke
 就寢辰光	jieu chin zyun kuaon
 就馱	jieu dou
 就馱出	jieu dou tshyuq
@@ -9835,7 +9899,9 @@ use_preset_vocabulary: true
 就讓儂	jieu gnian nou
 屬於自家	dzoq yu zhi ko
 差勿多個	tsho vaq tou goq
+差勿多個	tsho vaq tou ghoq
 差弗多個	tsho vaq tou goq
+差弗多個	tsho vaq tou ghoq
 差勒多	tsho laq tou
 差勒	tsho laq
 巾幗勿讓鬚眉	cin koq vaq gnian syu mei
@@ -9866,7 +9932,7 @@ use_preset_vocabulary: true
 平常日腳	bin dzaon gniq ciaq
 平躺的	bin thaon tiq
 平躺勒	bin thaon laq
-幹落去	kI loq chi
+幹落去	ki-ke loq chi
 幾乎弗	ci fu vaq
 幾乎勿	ci fu vaq
 幾乎弗可能	ci fu vaq khou nen
@@ -9898,10 +9964,10 @@ use_preset_vocabulary: true
 忙勒	maon laq
 快落去	khua loq chi
 快嘸沒了	khua mhiq lei
-念落去	nE loq chi
-念俉	nE ng
-念爾	nE ng
-念儂	nE nou
+念落去	ne-gnie loq chi
+念俉	ne-gnie ng
+念爾	ne-gnie ng
+念儂	ne-gnie nou
 急勒	ciq laq
 怪俉	kua ng
 怪爾	kua ng
@@ -9923,8 +9989,8 @@ use_preset_vocabulary: true
 愛個人	e goq gnin
 愛個人	e ghoq gnin
 愛自家	e zhi ko
-感覺弗到	kI ciuq vaq tau
-感覺勿到	kI ciuq vaq tau
+感覺弗到	ki-ke ciuq vaq tau
+感覺勿到	ki-ke ciuq vaq tau
 憋煞	piq saq
 憋煞死	piq saq shi
 憋勒	piq laq
@@ -9961,11 +10027,11 @@ use_preset_vocabulary: true
 我是爾	ngo zy ng
 我是儂	ngo zy nou
 我嘸沒	ngo mhiq
-我看俉	ngo khI ng
-我看爾	ngo khI ng
-我看儂	ngo khI nou
-我看勒	ngo khI laq
-我看的	ngo khI tiq
+我看俉	ngo khi-khe ng
+我看爾	ngo khi-khe ng
+我看儂	ngo khi-khe nou
+我看勒	ngo khi-khe laq
+我看的	ngo khi-khe tiq
 我曉得你	ngo shiau taq ng
 我曉得俉	ngo shiau taq ng
 我曉得爾	ngo shiau taq ng
@@ -10114,7 +10180,7 @@ use_preset_vocabulary: true
 拼落去	phin loq chi
 拼勒	phin laq
 指勒	tsy laq
-按落去	EI loq chi
+按落去	ei-e loq chi
 挑落去	thiau loq chi
 挑勒	thiau laq
 挖落去	uaq loq chi
@@ -10308,7 +10374,7 @@ use_preset_vocabulary: true
 夜到睏覺	ya tau khuen kau
 夜裏睏覺	ya li khuen kau
 夜晚辰光	ya vae zyun kuaon
-暗落去	EI loq chi
+暗落去	ei-e loq chi
 曾經個	dzen cin goq
 曾經個	dzen cin ghoq
 會落去	wei loq chi
@@ -10398,7 +10464,7 @@ use_preset_vocabulary: true
 沉落去	jin loq chi
 沒落去	mhaq loq chi
 沒喫	mhaq chioq
-沒喫沒穿	mhaq chioq mhaq tshOE
+沒喫沒穿	mhaq chioq mhaq tshoe
 嘸沒水平	mhiq sei bin
 嘸沒水平	mhiq syu bin
 醫煞	i saq
@@ -10413,7 +10479,7 @@ use_preset_vocabulary: true
 活勿了	waq vaq liau
 派落去	pha loq chi
 流落去	lieu loq chi
-流傳落去	lieu dzOE loq chi
+流傳落去	lieu dzoe loq chi
 流勒	lieu laq
 流着眼淚	lieu dzoq ngae li
 流着眼淚	lieu zyuq ngae li
@@ -10452,11 +10518,13 @@ use_preset_vocabulary: true
 炸勒	tso laq
 炸煞	tso saq
 炸個	tso goq
+炸個	tso ghoq
 炸個	zaq goq
+炸個	zaq ghoq
 無菌個	vu chiun goq
 無菌個	vu chiun ghoq
-無菌個	Wu chiun goq
-無菌個	Wu chiun ghoq
+無菌個	wu- chiun goq
+無菌個	wu- chiun ghoq
 照落去	ciau loq chi
 照勒	ciau laq
 煩煞了	vae saq lei
@@ -10565,26 +10633,26 @@ use_preset_vocabulary: true
 省落	san loq
 省鈔票	san tshau phiau
 省眼	san ngae
-看落去	khI loq chi
-看弗落去	khI vaq loq chi
-看勿落去	khI vaq loq chi
-看弗過去	khI vaq kou chi
-看勿過去	khI vaq kou chi
-看也弗看	khI gha vaq khI
-看也勿看	khI gha vaq khI
-看俉	khI ng
-看爾	khI ng
-看儂	khI nou
-看勒其	khI laq ji
-看勒渠	khI laq ji
-看其的	khI ji tiq
-看勒你	khI laq ng
-看勒俉	khI laq ng
-看勒爾	khI laq ng
-看勒儂	khI laq nou
-看我的	khI ngo tiq
-眼看勒	ngae khI laq
-眼看的	ngae khI tiq
+看落去	khi-khe loq chi
+看弗落去	khi-khe vaq loq chi
+看勿落去	khi-khe vaq loq chi
+看弗過去	khi-khe vaq kou chi
+看勿過去	khi-khe vaq kou chi
+看也弗看	khi-khe gha vaq khi-khe
+看也勿看	khi-khe gha vaq khi-khe
+看俉	khi-khe ng
+看爾	khi-khe ng
+看儂	khi-khe nou
+看勒其	khi-khe laq ji
+看勒渠	khi-khe laq ji
+看其的	khi-khe ji tiq
+看勒你	khi-khe laq ng
+看勒俉	khi-khe laq ng
+看勒爾	khi-khe laq ng
+看勒儂	khi-khe laq nou
+看我的	khi-khe ngo tiq
+眼看勒	ngae khi-khe laq
+眼看的	ngae khi-khe tiq
 瞄弗準	miau vaq tsyun
 瞄勿準	miau vaq tsyun
 砍落去	khae loq chi
@@ -10605,7 +10673,7 @@ use_preset_vocabulary: true
 空勒	khon laq
 空勒仔	khon laq tsy
 空仔	khon tsy
-穿落去	tshOE loq chi
+穿落去	tshoe loq chi
 站落去	dzae loq chi
 端落去	toe loq chi
 端勒	toe laq
@@ -10614,12 +10682,12 @@ use_preset_vocabulary: true
 笑煞人	shiau saq gnin
 笑勒	shiau laq
 笨煞	ben saq
-第廿	di nE
-第廿七	di nE chiq
-第廿九	di nE cieu
-第廿五	di nE ng
-第廿四	di nE sy
-第廿條	di nE diau
+第廿	di ne-gnie
+第廿七	di ne-gnie chiq
+第廿九	di ne-gnie cieu
+第廿五	di ne-gnie ng
+第廿四	di ne-gnie sy
+第廿條	di ne-gnie diau
 第二日	di gni gniq
 等落去	ten loq chi
 等俉	ten ng
@@ -10822,9 +10890,9 @@ use_preset_vocabulary: true
 起弗了	chi vaq liau
 起勿了	chi vaq liau
 起勒	chi laq
-趕落去	kI loq chi
-趕辰光	kI zyun kuaon
-趕勒	kI laq
+趕落去	ki-ke loq chi
+趕辰光	ki-ke zyun kuaon
+趕勒	ki-ke laq
 跌煞	tiq saq
 跑落去	bau loq chi
 跑弗了	bau vaq liau
@@ -11002,7 +11070,7 @@ use_preset_vocabulary: true
 還過勒	gha kou laq
 還過勒去	gha kou laq chi
 都落去	tu loq chi
-鄉音無改鬢毛衰	shian in Wu ke pin mau tshei
+鄉音無改鬢毛衰	shian in wu- ke pin mau tshei
 鄉音無改鬢毛衰	shian in vu ke pin mau tshei
 醒的	shin tiq
 調覺的	diau kau tiq
@@ -11148,26 +11216,26 @@ use_preset_vocabulary: true
 點勿着	ti vaq jiaq
 炸肉圓	zaq gnioq yu
 # 帶字母的詞彙
-K	khe
 k	khe
-老K牌	lau k ba
-老K牌	lau k bae
-S	e sy
+k	khe
+老k牌	lau k ba
+老k牌	lau k bae
 s	e sy
-B超	bi chiau
-CT	shi thi
-T恤	thi shiuq
-T恤衫	thi shiuq sae
-U盤	ieu bun
-X光	e khaq sy kuaon
-X刀	e khaq sy tau
-X光片	e khaq sy kuaon phi
+s	e sy
+b超	bi chiau
+ct	shi thi
+t恤	thi shiuq
+t恤衫	thi shiuq sae
+u盤	ieu bun
+x光	e khaq sy kuaon
+x刀	e khaq sy tau
+x光片	e khaq sy kuaon phi
 愛克斯光	e khaq sy kuaon
 愛克斯刀	e khaq sy tau
 愛克斯光片	e khaq sy kuaon phi
-4S店	sy e sy ti
-DVD	di vi di
-VCD	vi shi di
+4s店	sy e sy ti
+dvd	di vi di
+vcd	vi shi di
 
 # 其他地名
 
@@ -11395,8 +11463,8 @@ VCD	vi shi di
 下饞
 下馮
 下龍泉
-世南中學	syu nEI tson ghoq
-世南家園	syu nEI cia yu
+世南中學	syu nei-nae tson ghoq
+世南家園	syu nei-nae cia yu
 世紀名苑	syu ci min iu
 世紀家園	syu ci cia yu
 世紀曙光	syu ci zyu kuaon
@@ -11501,8 +11569,8 @@ VCD	vi shi di
 乍浦鄉
 乍浦人	dzo phu gnin
 乍浦人	tso phu gnin
-九五商務大廈	cieu ng saon Wu da gho
-九五商務大廈	cieu ng saon Wu da so
+九五商務大廈	cieu ng saon wu- da gho
+九五商務大廈	cieu ng saon wu- da so
 九五商務大廈	cieu ng saon vu da gho
 九五商務大廈	cieu ng saon vu da so
 九五花園
@@ -11552,7 +11620,7 @@ VCD	vi shi di
 二輕大廈	er chin da so
 二輕大廈	gni chin da gho
 二輕大廈	gni chin da so
-二靈山溫泉酒店	gni lin sae uen DZOE cieu ti
+二靈山溫泉酒店	gni lin sae uen dzoe cieu ti
 二高路	gni kau lu
 五一九廣場
 五塊巷
@@ -11593,7 +11661,7 @@ VCD	vi shi di
 五鄉農貿市場
 五鄉鎮政府
 五鄉鎮行政中心	ng shian tsyun yin cin tson shin
-五鄉鎮行政服務中心	ng shian tsyun yin cin voq Wu tson shin
+五鄉鎮行政服務中心	ng shian tsyun yin cin voq wu- tson shin
 五鄉鎮行政服務中心	ng shian tsyun yin cin voq vu tson shin
 五鄉集貿市場	ng shian jiq meu zy jian
 五里牌	ng li ba
@@ -11860,8 +11928,8 @@ VCD	vi shi di
 劉家嶴水庫	lieu ko au syu khu
 劉家弄	lieu ko lon
 劉杜村
-劍南家園溫馨苑	ci nEI cia yu uen shin iu
-劍南家園芳香苑	ci nEI cia yu faon shian iu
+劍南家園溫馨苑	ci nei-nae cia yu uen shin iu
+劍南家園芳香苑	ci nei-nae cia yu faon shian iu
 劍寺路
 劍山支路
 劍山菜市場
@@ -11912,7 +11980,7 @@ VCD	vi shi di
 北二環路
 北侖中醫院
 北侖人民醫院	poq len zyun min i yu
-北侖人民醫院南門	poq len zyun min i yu nEI men
+北侖人民醫院南門	poq len zyun min i yu nei-nae men
 北侖客運站
 北侖客運總站
 北侖小港
@@ -11990,7 +12058,7 @@ VCD	vi shi di
 匯龍浦
 十七房景區
 十七房路
-十五中學實驗校區	zyuq ng tson ghoq zyuq nE yau chiu
+十五中學實驗校區	zyuq ng tson ghoq zyuq ne-gnie yau chiu
 十五嶴
 十八灣河
 十字北街
@@ -12013,11 +12081,11 @@ VCD	vi shi di
 半江河
 半浦村
 半路漲
-南二東路	nEI gni ton lu
-南二環中路	nEI gni wae tson lu
+南二東路	nei-nae gni ton lu
+南二環中路	nei-nae gni wae tson lu
 南二環中路
 南二環東路
-南二西路	nEI gni shi lu
+南二西路	nei-nae gni shi lu
 南余河
 南勝苑
 南北河
@@ -12031,11 +12099,11 @@ VCD	vi shi di
 南城邊街
 南堡河
 南塘路
-南大步巷	nEI da bu ghaon
+南大步巷	nei-nae da bu ghaon
 南大河
-南大街	nEI dou ka
-南大西路	nEI da shi lu
-南大路	nEI da lu
+南大街	nei-nae dou ka
+南大西路	nei-nae da shi lu
+南大路	nei-nae da lu
 南宋石刻公園
 南山北路
 南山實業
@@ -12051,7 +12119,7 @@ VCD	vi shi di
 南村
 南東安路
 南林村
-南林村錢家	nEI lin tshen ji ko
+南林村錢家	nei-nae lin tshen ji ko
 南橫江
 南橫河
 南永寧巷
@@ -12065,7 +12133,7 @@ VCD	vi shi di
 南渡村
 南渡菜場
 南湖路
-南溪家園	nEI chi cia yu
+南溪家園	nei-nae chi cia yu
 南演武街
 南濱江路
 南環路
@@ -12081,11 +12149,11 @@ VCD	vi shi di
 南蘭江西路
 南裕小區
 南裕新村
-南豐大橋	nEI fon da jiau
+南豐大橋	nei-nae fon da jiau
 南鎮安街
 南門
 南門副食品市場
-南門大街	nEI men dou ka
+南門大街	nei-nae men dou ka
 南門站
 南門頭
 南雅街
@@ -12172,7 +12240,7 @@ VCD	vi shi di
 名匯大廈	min wei da gho
 名匯大廈	min wei da so
 名江新都
-名邦商務大廈	min paon saon Wu da gho
+名邦商務大廈	min paon saon wu- da gho
 名邦商務大廈	min paon saon vu da gho
 名都公寓
 名門莊園
@@ -12284,7 +12352,7 @@ VCD	vi shi di
 唐家路	daon ko lu
 唐葉新村
 唐虞路
-商務大廈	saon Wu da so
+商務大廈	saon wu- da so
 商務大廈	saon vu da gho
 商幫文化公園
 商會大廈	saon wei da gho
@@ -12323,15 +12391,15 @@ VCD	vi shi di
 嘉溪
 嘉溪廟
 嘉盛銀座	cia zhin gnin zou
-嘉裏商務大廈	cia li saon Wu da gho
-嘉裏商務大廈	cia li saon Wu da so
+嘉裏商務大廈	cia li saon wu- da gho
+嘉裏商務大廈	cia li saon wu- da so
 嘉裏商務大廈	cia li saon vu da gho
 嘉裏商務大廈	cia li saon vu da so
 嘉裏商務樓
 嘉都苑
 嚴家	gni ko
 四合村
-四塘南大路	sy daon nEI da lu
+四塘南大路	sy daon nei-nae da lu
 四塘村
 四塘橫江
 四塘橫河
@@ -12609,7 +12677,7 @@ VCD	vi shi di
 大池墩水庫	dou dzy ten syu khu
 大汪路
 大河	da ghou
-大河南路	da ghou nEI lu
+大河南路	da ghou nei-nae lu
 大河巷	da ghou ghaon
 大河新村	da ghou shin tshen
 大河橋路	da ghou jiau lu
@@ -12831,7 +12899,7 @@ VCD	vi shi di
 姜家渡	cian ko du
 姜山二商	cian sae gni saon
 姜山公交站	cian sae kon ciau dzae
-姜山實驗中學	cian sae zyuq nE tson ghoq
+姜山實驗中學	cian sae zyuq ne-gnie tson ghoq
 姜山環鎮路
 姜山菜場
 姜山衛生院	cian sae wei sen yu
@@ -12976,10 +13044,10 @@ VCD	vi shi di
 富邦廣場
 實驗公寓
 寧南南路
-寧南立交橋	gnin nEI liq ciau jiau
+寧南立交橋	gnin nei-nae liq ciau jiau
 寧南路
 寧報印刷公司
-寧大南校門	gnin da nEI yau men
+寧大南校門	gnin da nei-nae yau men
 寧大東校門	gnin da ton yau men
 寧大花園	gnin da huo yu
 寧大附屬醫院	gnin da vu dzoq i yu
@@ -13003,8 +13071,8 @@ VCD	vi shi di
 寧波化工區	gnin pou huo kon chiu
 寧波國檢	gnin poq koq ci
 寧波國檢	gnin pou koq ci
-寧波國際文武學校	gnin poq koq ci ven Wu ghoq yau
-寧波國際文武學校	gnin pou koq ci ven Wu ghoq yau
+寧波國際文武學校	gnin poq koq ci ven wu-vu ghoq yau
+寧波國際文武學校	gnin pou koq ci ven wu-vu ghoq yau
 寧波圖書館	gnin poq du syu kun
 寧波圖書館	gnin pou du syu kun
 寧波城市學院	gnin poq jin zy yuq yu
@@ -13080,7 +13148,7 @@ VCD	vi shi di
 寧海大廈	gnin he da so
 寧燕大樓	gnin i da leu
 寧福路
-寧穿路	gnin tshOE lu
+寧穿路	gnin tshoe lu
 寧穿路
 寧興大廈	gnin shin da gho
 寧興大廈	gnin shin da so
@@ -13144,7 +13212,7 @@ VCD	vi shi di
 小浹江
 小涇浦
 小清水湖
-小港實驗小學	shiau kaon zyuq nE shiau ghoq
+小港實驗小學	shiau kaon zyuq ne-gnie shiau ghoq
 小港工業區
 小港聯合車站
 小港街道辦事處
@@ -13267,9 +13335,9 @@ VCD	vi shi di
 常洪
 常洪橋
 常青藤小城
-平安大廈	bin EI da gho
-平安大廈	bin EI da so
-平安鳥雨衣	bin EI gniau yu i
+平安大廈	bin ei-e da gho
+平安大廈	bin ei-e da so
+平安鳥雨衣	bin ei-e gniau yu i
 平樂小區	bin loq shiau chiu
 平潭水庫
 平王社區
@@ -13288,7 +13356,7 @@ VCD	vi shi di
 庵東
 庵東市場路
 庵東建設路
-庵東衛生院	EI ton wei sen yu
+庵東衛生院	ei-e ton wei sen yu
 庵東車站
 庵東農貿市場
 庵東鎮北路
@@ -13568,7 +13636,7 @@ VCD	vi shi di
 慈溪宗漢
 慈溪客運東站
 慈溪客運西站
-慈溪實驗小學	dzy chi zyuq nE shiau ghoq
+慈溪實驗小學	dzy chi zyuq ne-gnie shiau ghoq
 慈溪山莊
 慈溪崇壽鎮
 崇壽鎮
@@ -13687,7 +13755,7 @@ VCD	vi shi di
 新城大廈	shin jin da so
 新城大道	shin jin da dau
 新城大道北路	shin jin da dau poq lu
-新城大道南路	shin jin da dau nEI lu
+新城大道南路	shin jin da dau nei-nae lu
 新城家園	shin jin cia yu
 新城市花園
 新塘公寓
@@ -14167,7 +14235,7 @@ VCD	vi shi di
 東邑小區
 東邵
 東郊
-東郊服務中心	ton ciau voq Wu tson shin
+東郊服務中心	ton ciau voq wu- tson shin
 東郊服務中心	ton ciau voq vu tson shin
 東郡名苑
 東郡尚都
@@ -14178,7 +14246,7 @@ VCD	vi shi di
 東錢湖中心小學	ton ji wu tson shin shiau ghoq
 東錢湖旅遊學校	ton ji wu li yeu ghoq yau
 東錢湖管委會
-東錢湖遊客服務中心	ton ji wu yeu khaq voq Wu tson shin
+東錢湖遊客服務中心	ton ji wu yeu khaq voq wu- tson shin
 東錢湖遊客服務中心	ton ji wu yeu khaq voq vu tson shin
 東錢湖鎮政府
 東門橋
@@ -14382,9 +14450,9 @@ VCD	vi shi di
 榮合公館
 榮安佳境
 榮安和院
-榮安大廈	yon EI da gho
-榮安大廈	yon EI da so
-榮安實驗中學	yon EI zyuq nE tson ghoq
+榮安大廈	yon ei-e da gho
+榮安大廈	yon ei-e da so
+榮安實驗中學	yon ei-e zyuq ne-gnie tson ghoq
 榮安府
 榮安花園
 榮欣苑
@@ -14450,7 +14518,7 @@ VCD	vi shi di
 橫河中學	wan ghou tson ghoq
 橫河交警中隊	wan ghou ciau cin tson dei
 橫河埭路
-橫河實驗小學	wan ghou zyuq nE shiau ghoq
+橫河實驗小學	wan ghou zyuq ne-gnie shiau ghoq
 橫河污水處理站
 橫河街
 橫河路
@@ -14503,9 +14571,9 @@ VCD	vi shi di
 武勝門
 武嶺水庫
 武嶺花園
-武林學校	Wu lin ghoq yau
+武林學校	wu-vu lin ghoq yau
 武羣橫路
-武警學校	Wu cin ghoq yau
+武警學校	wu-vu cin ghoq yau
 歷崔路
 歷崔路口
 歷石線
@@ -14569,7 +14637,7 @@ VCD	vi shi di
 永佳苑
 永信
 永傅路
-永安公交	ion EI kon ciau
+永安公交	ion ei-e kon ciau
 永安路
 永成塘
 永新景園
@@ -14597,14 +14665,14 @@ VCD	vi shi di
 江北交警大隊	kaon poq ciau cin da dei
 江北創業
 江北大河	kaon poq da ghou
-江北實驗中學	kaon poq zyuq nE tson ghoq
-江北實驗小學	kaon poq zyuq nE shiau ghoq
+江北實驗中學	kaon poq zyuq ne-gnie tson ghoq
+江北實驗小學	kaon poq zyuq ne-gnie shiau ghoq
 江北工業區管委會
 江北投資創業中心
 江北眼病醫院
 江南一品
-江南人家	kaon nEI zyun cia
-江南大河	kaon nEI da ghou
+江南人家	kaon nei-nae zyun cia
+江南大河	kaon nei-nae da ghou
 江南新城
 江南春曉
 江南景苑
@@ -14634,7 +14702,7 @@ VCD	vi shi di
 江東海明河
 江東海運大樓	kaon ton he yun da leu
 江東科技創業中心
-江東第二實驗小學	kaon ton di gni zyuq nE shiau ghoq
+江東第二實驗小學	kaon ton di gni zyuq ne-gnie shiau ghoq
 江東西柳
 江東青城大樓	kaon ton chin jin da leu
 江東青山
@@ -14738,8 +14806,8 @@ VCD	vi shi di
 泥牛塘江
 泰和家園	tha ghou cia yu
 泰和馨苑
-泰安大廈	tha EI da gho
-泰安大廈	tha EI da so
+泰安大廈	tha ei-e da gho
+泰安大廈	tha ei-e da so
 泰安社區
 泰安西路
 泰富廣場
@@ -14845,7 +14913,7 @@ VCD	vi shi di
 海景華庭
 海景豪庭
 海曙交警大隊	he zyu ciau cin da dei
-海曙區人武部	he zyu chiu zyun Wu bu
+海曙區人武部	he zyu chiu zyun wu-vu bu
 海曙外國語學校	he zyu nga koq gniu ghoq yau
 海殿路口
 海洋家園	he yan cia yu
@@ -14895,7 +14963,7 @@ VCD	vi shi di
 清河賓館
 清泉山莊
 清泉新村
-清泉花園	chin DZOE huo yu
+清泉花園	chin dzoe huo yu
 清泉花園
 清泰公寓
 清涼寺水庫
@@ -15478,7 +15546,7 @@ VCD	vi shi di
 第九醫院
 第二小學	di gni shiau ghoq
 第四堡
-第四實驗小學	di sy zyuq nE shiau ghoq
+第四實驗小學	di sy zyuq ne-gnie shiau ghoq
 筍嶴
 筍行弄
 筱牆巷
@@ -15664,7 +15732,7 @@ VCD	vi shi di
 聯勤村
 聯升一路
 聯升佳苑
-聯南社區	li nEI dzo chiu
+聯南社區	li nei-nae dzo chiu
 聯合公寓
 聯合大廈	li ghaq da gho
 聯合大廈	li ghaq da so
@@ -15891,7 +15959,7 @@ VCD	vi shi di
 莊橋上邵站
 莊橋大街	tsaon jiau dou ka
 莊橋孔家	tsaon jiau khon ko
-莊橋實驗學校	tsaon jiau zyuq nE ghoq yau
+莊橋實驗學校	tsaon jiau zyuq ne-gnie ghoq yau
 莊橋工業園區
 莊橋河
 莊橋火車站
@@ -15910,7 +15978,7 @@ VCD	vi shi di
 莫家嶴水庫	moq ko au syu khu
 莫家村	moq ko tshen
 莫家湖	moq ko wu
-莫干山路	moq kI sae lu
+莫干山路	moq ki-ke sae lu
 莫方公路	moq faon kon lu
 菁江渡
 菁華路
@@ -16061,7 +16129,7 @@ VCD	vi shi di
 蕭皋西路
 薈博雅苑
 薛家	shiq ko
-薛家南路	shiq ko nEI lu
+薛家南路	shiq ko nei-nae lu
 薛家新家園	shiq ko shin cia yu
 薛家村	shiq ko tshen
 薛家河	shiq ko ghou
@@ -16134,9 +16202,9 @@ VCD	vi shi di
 蟠龍路
 蟹山水庫
 蟹鉗口水庫
-衆安家園	tson EI cia yu
+衆安家園	tson ei-e cia yu
 行政中心	yin cin tson shin
-行政服務中心	yin cin voq Wu tson shin
+行政服務中心	yin cin voq wu- tson shin
 行政服務中心	yin cin voq vu tson shin
 行知職高	yin tsyu ciq kau
 衙前
@@ -16321,7 +16389,7 @@ VCD	vi shi di
 貢海路
 貴駟工業區	ciu sy kon gniq chiu
 貴駟工業小區	ciu sy kon gniq shiau chiu
-貴駟村服務中心	ciu sy tshen voq Wu tson shin
+貴駟村服務中心	ciu sy tshen voq wu- tson shin
 貴駟村服務中心	ciu sy tshen voq vu tson shin
 貴駟汽車站	ciu sy chi tsho dzae
 費家巷	vi ko ghaon
@@ -16520,7 +16588,7 @@ VCD	vi shi di
 鄞州公園
 鄞州區政府
 鄞州大道	gnin cieu da dau
-鄞州實驗中學	gnin cieu zyuq nE tson ghoq
+鄞州實驗中學	gnin cieu zyuq ne-gnie tson ghoq
 鄞州投資創業中心
 鄞州教育中心	gnin cieu ciau yuq tson shin
 鄞州文藝中心
@@ -16530,7 +16598,7 @@ VCD	vi shi di
 鄞州科技中心
 鄞州老年樂園	gnin cieu lau gni loq yu
 鄞州藝術學校	gnin cieu gni zyuq ghoq yau
-鄞州行政服務中心	gnin cieu yin cin voq Wu tson shin
+鄞州行政服務中心	gnin cieu yin cin voq wu- tson shin
 鄞州行政服務中心	gnin cieu yin cin voq vu tson shin
 鄞州財稅局
 鄞州鋼材市場
@@ -16780,7 +16848,7 @@ VCD	vi shi di
 鍾盈小區
 鎖瀾橋
 鎮中橫路
-鎮南大道	tsyun nEI da dau
+鎮南大道	tsyun nei-nae da dau
 鎮南橫路
 鎮南路
 鎮大路	tsyun da lu
@@ -16799,7 +16867,7 @@ VCD	vi shi di
 鎮海區政府
 鎮海客運中心
 鎮海市民廣場
-鎮海市民服務中心	tsyun he zy min voq Wu tson shin
+鎮海市民服務中心	tsyun he zy min voq wu- tson shin
 鎮海市民服務中心	tsyun he zy min voq vu tson shin
 鎮海第二醫院	tsyun he di gni i yu
 鎮海經濟開發區
@@ -16823,11 +16891,11 @@ VCD	vi shi di
 長塘	jian daon
 長塘河	jian daon ghou
 長墩	jian ten
-長壽南路	jian zhieu nEI lu
+長壽南路	jian zhieu nei-nae lu
 長壽寺	jian zhieu zy
 長壽東路	jian zhieu ton lu
 長壽路	jian zhieu lu
-長安新村	jian EI shin tshen
+長安新村	jian ei-e shin tshen
 長島花園	jian tau huo yu
 長嶴弄水庫	jian au lon syu khu
 長嶺公園	jian lin kon yu
@@ -16848,7 +16916,7 @@ VCD	vi shi di
 長池支路	jian dzy tsy lu
 長池支路	jian ji tsy lu
 長河交警隊	jian ghou ciau cin dei
-長河南大路	jian ghou nEI da lu
+長河南大路	jian ghou nei-nae da lu
 長河塘	jian ghou daon
 長河花壇新村	jian ghou huo dae shin tshen
 長河西街	jian ghou shi ka
@@ -17068,7 +17136,7 @@ VCD	vi shi di
 霓虹路
 霞南
 霞景水岸
-霞浦南路	gho phu nEI lu
+霞浦南路	gho phu nei-nae lu
 霞浦派出所
 霞浦西路	gho phu shi lu
 霞浦路	gho phu lu
@@ -17106,17 +17174,17 @@ VCD	vi shi di
 青草灣
 青雲梯景區
 青龍橋
-靖南大街	zhin nEI dou ka
+靖南大街	zhin nei-nae dou ka
 靖海南路
 靖海路
 靜德橋
 靜海路
 靶場路
 鞍山村
-鞍山翁家	EI sae on ko
+鞍山翁家	ei-e sae on ko
 韓夏村
-韓家	ghEI ko
-韓家路	ghEI ko lu
+韓家	ghei-ghe ko
+韓家路	ghei-ghe ko lu
 韓嶺
 響嶺崗
 響嶺路
@@ -17267,7 +17335,7 @@ VCD	vi shi di
 高教園區	kau ciau yu chiu
 高教園區圖書館	kau ciau yu chiu du syu kun
 高新區管委會
-高新區行政服務中心	kau shin chiu yin cin voq Wu tson shin
+高新區行政服務中心	kau shin chiu yin cin voq wu- tson shin
 高新區行政服務中心	kau shin chiu yin cin voq vu tson shin
 高新區辦證中心
 高望新苑
