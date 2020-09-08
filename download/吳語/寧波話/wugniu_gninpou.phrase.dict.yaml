@@ -17,7 +17,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.08.29"
+version: "2020.09.08"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -363,6 +363,45 @@ use_preset_vocabulary: true
 縩孔籃	cian khon lae	55
 拖帉	thou fon	799
 屈死	chiuq shi	55
+㞘塞弄	toq saq lon	55
+㞘塞弄堂	toq saq lon daon	55
+㞘底	toq ti	55
+㞘壁	toq piq	55
+㞘壁日腳	toq piq gniq ciaq	55
+攔柵	laq saq	55
+攔板	laq pae	55
+遮攔	tso laq	55
+軋攔門	gaq laq men	55
+攔軋	laq gaq	55
+打攔軋	tan laq gaq	55
+尋軋攔門	zhin gaq laq men	55
+礌倒牌子	lei tau ba tsy	55
+礌盤	lei bun	55
+礌木圓	lei moq yu	55
+𨀤倒	lei tau	55
+礌鐵環	lei thiq guae	55
+一昶	iq chian	418
+上昶	zaon chian	418
+上一昶	zaon iq chian	418
+前昶	zhi chian	418
+前一昶	zhi iq chian	418
+該昶	kiq chian	418
+該一昶	kiq iq chian	418
+該昶裏	kiq chian li	418
+蕩昶	daon chian	418
+蕩一昶	daon iq chian	418
+蕩昶裏	daon chian li	418
+下昶	gho chian	418
+下一昶	gho iq chian	418
+下昶裏	gho chian li	418
+有昶	yeu chian	418
+有一昶	yeu iq chian	418
+時昶	zy chian	55
+庉昶	den chian	55
+庉一昶	den iq chian	55
+過昶	kou chian	55
+過一昶	kou iq chian	55
+再昶	tse chian	55
 
 # 江蘇教育版《寧波方言詞典》 其他寫法
 
@@ -622,6 +661,8 @@ use_preset_vocabulary: true
 一個	iq ghoq
 十多個	zyuq tou ghoq
 十個	zyuq ghoq
+礌沙圓	lei so yu	55
+礌銅板	lei don pae	55
 
 # 其他詞彙
 
@@ -1399,7 +1440,6 @@ use_preset_vocabulary: true
 上排門
 頭痛屋柱碰
 肚痛冷飯䂻
-豬廄迾柵
 豬廄格柵
 牛廄格柵	ngeu ji kaq saq
 打槍笆
@@ -1496,7 +1536,6 @@ use_preset_vocabulary: true
 三九四九
 膠碎搗臼	kau sei tau jieu
 金漆果桶白米飯
-擂來擂去𣍐倒翻	lei le lei chi vei tau fae
 籃環	lae guae
 水桶環	syu don guae
 要緊勿得慢
@@ -1555,7 +1594,6 @@ use_preset_vocabulary: true
 鷂虻喤喤響
 天日日日長	thi gniq gniq gniq jian
 口喫肚商量
-擂進來
 跳三記
 𨆪三記
 看小書
@@ -1644,7 +1682,6 @@ use_preset_vocabulary: true
 科松毛
 松毛柴
 攋松毛絲
-金糰擂松花
 十年檫樹好打船
 一眼東西
 活靈一眼勿生	waq lin iq ngae vaq san
@@ -2553,10 +2590,7 @@ use_preset_vocabulary: true
 初七八爬山挖
 腳踏西瓜皮
 溜到阿裏算阿裏	lieu tau aq li soe aq li
-擂地十八滾
 冤家夫妻擡棕繃	iu ko fu chi de tson pan
-擂來擂去當中央	lei le lei chi taon tson gnian
-擂擂倒
 種大稻	tson dou dau
 勿會寫字多蘸筆
 勿會走路多磕跌
@@ -3031,7 +3065,6 @@ use_preset_vocabulary: true
 味道㽺	mi dau shiq
 好做酒
 㽺做醋
-擂倒就睏熟
 老虎裝萎
 腦子差把	nau tsy tsho po
 哭作無賴笑嘻嘻	khoq tsoq vu la shiau shi shi
@@ -4094,6 +4127,14 @@ use_preset_vocabulary: true
 懶婦掏縩空	lae vu dau cian khon
 箍腳桶	chieu ciaq don
 箍高鑊蓋	chieu kau ghoq ke
+豬廄籃柵	tsyu ji laq saq
+礌來礌去𣍐倒翻	lei le lei chi vei tau fae
+礌進來
+金糰礌松花
+礌地十八滾
+礌來礌去當中央	lei le lei chi taon tson gnian
+𨀤𨀤倒
+𨀤倒就睏熟
 # 地名
 寧波市	gnin pou zy
 寧波市	gnin poq zy
@@ -7516,6 +7557,15 @@ use_preset_vocabulary: true
 剩落
 弄落
 攎落
+# 攔
+攔牢	laq lau	578
+攔勒牢	laq laq lau	418
+攔弗牢	laq vaq lau	418
+攔勿牢	laq vaq lau	55
+攔煞	laq saq	55
+攔的	laq tiq
+攔好	laq hau
+攔勒外頭	laq laq nga deu
 # 食物
 倭豆鹹肉糯米飯
 糯米飯
@@ -8048,6 +8098,8 @@ use_preset_vocabulary: true
 坑頭塊
 對對動
 吐綻
+總歸是
+總是
 # 八股文拆分詞彙
 〇兩	lin lian
 一九九兩	iq cieu cieu lian

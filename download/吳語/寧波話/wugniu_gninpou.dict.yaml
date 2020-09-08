@@ -22,7 +22,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.08.29"
+version: "2020.09.08"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -7526,7 +7526,6 @@ s	迡	gni
 讄	lei
 屢	lei
 磊	lei
-礌	lei
 耒	lei
 誄	lei
 頛	lei
@@ -7538,9 +7537,12 @@ s	迡	gni
 纇	lei
 淚	lei	6%
 泪	lei	6%
-擂	lei	578
+擂	lei	55
 𢺢	lei
 攂	lei
+礌	lei	578
+㔣	lei
+𨀤	lei	55
 洡	lei
 頪	lei
 銇	lei
@@ -9092,9 +9094,8 @@ s	迡	gni
 𪁺	chian
 僘	chian
 搶	chian
-𪰻	chian
 鋹	chian
-昶	chian
+昶	chian	578
 摤	chian
 羥	chian
 强	chian	5%
@@ -13028,8 +13029,7 @@ s	迡	gni
 菈	laq
 砳	laq
 ⿰舟巤	laq
-迾	laq
-攔	laq	0%
+攔	laq
 勒	laq	45114
 了	laq
 嘞	laq
@@ -13893,8 +13893,9 @@ s	迡	gni
 𧰵	toq
 剢	toq
 厾	toq
+䐁	toq
 𡰪	toq
-㞘	toq
+㞘	toq	10
 沰	toq
 啄	toq
 裰	toq
@@ -14714,6 +14715,7 @@ s	迡	gni
 趔	liq
 茢	liq
 咧	liq
+迾	liq
 櫟	liq
 礫	liq
 躒	liq
@@ -18923,8 +18925,6 @@ s	迡	gni
 道頭	dau deu	55
 堍頭	thu deu	55
 𡓦頭	zae deu	55
-篤塞弄	toq saq lon	55
-篤塞弄堂	toq saq lon daon	55
 井頭	cin deu	55
 井頭	cin dei	55
 井頭跟	cin deu ken	55
@@ -18952,8 +18952,6 @@ s	迡	gni
 下底	gho ti	55
 下頭	gho deu
 下頂	gho ten	55
-篤底	toq ti	55
-篤壁	toq piq	55
 借手半邊	cia shieu pun pi	55
 借邊	cia pi	55
 順手半邊	zyun shieu pun pi	55
@@ -19166,23 +19164,6 @@ s	迡	gni
 一夠晝	iq keu cieu	55
 一隔週	iq kaq cieu	55
 一夠歲	iq keu syu	55
-一𪰻	iq chian	418
-上𪰻	zaon chian	418
-上一𪰻	zaon iq chian	418
-前𪰻	zhi chian	418
-前一𪰻	zhi iq chian	418
-該𪰻	kiq chian	418
-該一𪰻	kiq iq chian	418
-該𪰻裏	kiq chian li	418
-蕩𪰻	daon chian	418
-蕩一𪰻	daon iq chian	418
-蕩𪰻裏	daon chian li	418
-下𪰻	gho chian	418
-下一𪰻	gho iq chian	418
-下𪰻裏	gho chian li	418
-有𪰻	yeu chian	418
-有一𪰻	yeu iq chian	418
-時𪰻	zy chian	55
 三日三夜	sae gniq sae ya	55
 半半六十日	pun pun loq zyuq gniq	55
 半半六十五日	pun pun loq zyuq ng gniq	55
@@ -19304,7 +19285,6 @@ s	迡	gni
 頂壓煞	tin aq saq	418
 頂末腳	tin maq ciaq	55
 頂後背	tin gheu pei	55
-篤壁日腳	toq piq gniq ciaq	55
 阿伯	aq paq	4000
 阿伯	aq pan
 阿爸	aq paq	10000
@@ -19638,7 +19618,6 @@ s	迡	gni
 老油條	lau yeu diau
 滑頭碼子	waq deu mo tsy	55
 翻白泥螺	fae baq gni lou	418
-擂倒牌子	lei tau ba tsy	55
 鹹𣝗青果	ghae waq chin kou	55
 鹹𣝗	ghae waq	55
 稻熟麻將	dau zoq mo cian
@@ -21128,10 +21107,7 @@ s	迡	gni
 推板	thei pae	55
 槅子	kaq tsy	55
 亮梗	lian kuan	55
-迾柵	laq saq	55
 格柵	kaq saq
-迾板	laq pae	55
-遮迾	tso laq	55
 槍笆	chian po	55
 短牆	toe zhian	55
 陰溝洞	in keu don	55
@@ -21204,7 +21180,6 @@ s	迡	gni
 捎棚	sau ban	55
 鋼絲	kaon sy
 輪盤	len bun
-擂盤	lei bun	55
 氣胎	chi the	55
 黃魚車	waon ng tsho
 手拉車	shieu lha tsho
@@ -21688,7 +21663,6 @@ s	迡	gni
 打煞坯	tan saq phei	55
 打勿煞	tan vaq saq	55
 菱角	lin koq
-擂木圓	lei moq yu	55
 蛋殼球	dae khoq jieu	55
 蛋殼皮球	dae khoq bi jieu	55
 花綠紙	huo loq tsy	55
@@ -22044,10 +22018,8 @@ s	迡	gni
 名其	min ji	55
 箍顱圈	khu lu chiu	55
 骷顱圈	khu lu chiu	55
-軋迾門	gaq laq men	55
 肯頭	khen deu	55
 吼勢	heu syu	55
-迾軋	laq gaq	55
 皵頭	chiq deu	55
 上落	zaon loq
 腳埭	ciaq da	55
@@ -22274,7 +22246,6 @@ s	迡	gni
 跳上	thiau zaon
 跳落	thiau loq	55
 溜跌	lieu tiq	55
-擂倒	lei tau	55
 磕跌	khaq tiq	55
 磕煞	khaq saq	578
 磕開	khaq khe	55
@@ -22573,7 +22544,6 @@ s	迡	gni
 摸暗洞	moq ei-e don	55
 擺酒窠	pa cieu khou	55
 打彈子	tan dae tsy
-擂鐵環	lei thiq guae	55
 揞水片	an syu phi	55
 揞水片	khan syu phi	55
 揞水片	ae syu phi	55
@@ -24303,11 +24273,6 @@ s	迡	gni
 庉一晌	den iq zaon	55
 過一晌	kou iq zaon	55
 再晌	tse zaon	55
-庉𪰻	den chian	55
-庉一𪰻	den iq chian	55
-過𪰻	kou chian	55
-過一𪰻	kou iq chian	55
-再𪰻	tse chian	55
 臨時口緊	lin zy kheu cin	55
 𧼰時裏	zaq zy li	55
 𧼰時	zaq zy	55
@@ -24558,7 +24523,6 @@ s	迡	gni
 未見得	mi ci taq
 打後手	tan gheu shieu	55
 打把勢	tan po syu
-打迾軋	tan laq gaq	55
 喫栗子	chioq liq tsy	55
 打獨溜	tan doq lieu	55
 打探動	tan thei don	55
@@ -24632,7 +24596,6 @@ s	迡	gni
 尋吼勢	zhin heu syu	55
 尋肯頭	zhin khen deu	55
 尋皵頭	zhin chiq deu	55
-尋軋迾門	zhin gaq laq men	55
 尋造孽	zhin zau gniq	55
 收罪過	shieu zei kou	55
 走人家	tseu gnin ko	55
@@ -27658,8 +27621,6 @@ s	迡	gni
 雷雨	lei yu
 雷陣雨	lei jin yu
 雷打着𡀂	lei tan zyuq lei	55
-擂沙圓	lei so yu	55
-擂銅板	lei don pae	55
 錐子	tsei tsy
 醉雞肉	tsei ci gnioq	55
 隨便渠法	zei bi ji faq
@@ -29272,7 +29233,7 @@ s	迡	gni
 鐘頭	tson deu
 腫起	tson chi	55
 種豬	tson tsyu
-總歸	tson kuei
+總歸	tson kuei	3000
 總歸仔	tson kuei tsy	55
 總督羹	tson toq kan	55
 種牛痘	tson ngeu deu
@@ -29873,10 +29834,6 @@ s	迡	gni
 伏勒睏	boq laq khuen	55
 服帖	voq thiaq
 服服帖帖	voq voq thiaq thiaq	55
-𡰪底	toq ti	55
-𡰪壁	toq piq	55
-𡰪塞弄堂	toq saq lon daon	55
-𡰪壁日腳	toq piq gniq ciaq	55
 𧰵更	toq kan	55
 𧰵糖	toq daon	55
 𧰵洞	toq don	55
@@ -30854,7 +30811,6 @@ s	迡	gni
 面前牙	mi zhi ngo
 耍賴羊	sa la yan
 揹性命	pei shin min
-背桌凳腳	pei tsoq ten ciaq
 點飢	ti ci
 蝦𩻣薧	huo zae khau
 蝦𩻣薧	huo dzae khau
