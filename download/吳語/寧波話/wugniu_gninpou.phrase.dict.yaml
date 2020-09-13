@@ -17,7 +17,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.09.08"
+version: "2020.09.12"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -96,15 +96,15 @@ use_preset_vocabulary: true
 把作師父	po tsoq sy vu	55
 半弗郎當	pun vaq laon taon	55
 半弗拉介	pun vaq la ka	55
-撩弗着	liau vaq zyuq	55
+撩弗着	liau vaq zoq	55
 壓弗殺	aq vaq saq	55
 打弗煞	tan vaq saq	55
 老弗大	lau vaq dou	55
 噦氣弗轉	iuq chi vaq tsoe	55
 𧼱弗着	biq vaq dzoq	55
-𧼱弗着	biq vaq zyuq	55
+𧼱弗着	biq vaq zoq	55
 做記弗着	tsou ci vaq dzoq	55
-做記弗着	tsou ci vaq zyuq	55
+做記弗着	tsou ci vaq zoq	55
 歇弗來	shiq vaq le	55
 做鬼弗大	tsou ciu vaq dou	55
 賊弗偷	zaq vaq theu	55
@@ -113,11 +113,11 @@ use_preset_vocabulary: true
 毛衣弗動	mau i vaq don	55
 差咋弗多	tsho dza vaq tou	55
 差弗多	tsho vaq tou	55
-阿姆阿伯弗認得	a m aq paq vaq gnin taq
-阿伯阿姆弗認得	aq paq a m vaq gnin taq
-阿姆阿伯弗認得	an m aq paq vaq gnin taq
-阿伯阿姆弗認得	aq paq an m vaq gnin taq
-阿爹阿孃弗認得	aq tia aq gnian vaq gnin taq
+阿姆阿伯弗認得	a m aq paq vaq gnin taq	1
+阿伯阿姆弗認得	aq paq a m vaq gnin taq	1
+阿姆阿伯弗認得	an m aq paq vaq gnin taq	1
+阿伯阿姆弗認得	aq paq an m vaq gnin taq	1
+阿爹阿孃弗認得	aq tia aq gnian vaq gnin taq	1
 先弗先	shi vaq shi	55
 弗然	vaq zoe	55
 弗然	vaq gni	55
@@ -129,7 +129,6 @@ use_preset_vocabulary: true
 弗相相	vaq shian shian	55
 弗好	vaq hau	55
 弗有	vaq yeu	55
-弗是	vaq zy	170000
 弗得	vaq taq	55
 弗啦	vaq laq	1000
 三弗像	sae vaq zhian	55
@@ -138,10 +137,8 @@ use_preset_vocabulary: true
 弗討妙	vaq thau miau	55
 弗管賬	vaq kun cian	55
 喫弗落	chioq vaq loq	55
-嘔弗應	eu vaq in
+嘔弗應	eu vaq in	1
 苦弗出	khu vaq tshyuq	55
-杭弗消	ghaon vaq shiau	55
-杭弗住	ghaon vaq dzyu	55
 跳弗落	thiau vaq loq	55
 三弗相信	sae vaq shian shin	55
 大大弗大	dou dou vaq dou	55
@@ -158,7 +155,7 @@ use_preset_vocabulary: true
 巴弗得	po vaq taq	55
 喫氣弗過	chioq chi vaq kou	55
 兩頭弗着	lian deu vaq jiaq	55
-兩頭弗着港	lian deu vaq jiaq kaon
+兩頭弗着港	lian deu vaq jiaq kaon	1
 近手弗	jin shieu vaq	55
 悶咚弗響	mhen ton vaq shian	578
 悶弗聲響	mhen vaq shin shian	55
@@ -170,12 +167,12 @@ use_preset_vocabulary: true
 弗知咋是咋	vaq ciq dza zy dza	55
 各手弗知賬	koq shieu vaq tsyu cian	55
 渾身弗搭界	wen shin vaq taq ka	55
-隨便其咋弗咋	zei bi ji dza vaq dza
-但便其咋弗咋	dae bi ji dza vaq dza
-隨便儂咋弗咋	zei bi nou dza vaq dza
-但便儂咋弗咋	dae bi nou dza vaq dza
-隨便我咋弗咋	zei bi ngo dza vaq dza
-但便我咋弗咋	dae bi ngo dza vaq dza
+隨便其咋弗咋	zei bi ji dza vaq dza	1
+但便其咋弗咋	dae bi ji dza vaq dza	1
+隨便儂咋弗咋	zei bi nou dza vaq dza	1
+但便儂咋弗咋	dae bi nou dza vaq dza	1
+隨便我咋弗咋	zei bi ngo dza vaq dza	1
+但便我咋弗咋	dae bi ngo dza vaq dza	1
 乃介	nae kaq	55
 介貌	kaq mau	50000
 介貌介	kaq mau kaq	25000
@@ -235,22 +232,22 @@ use_preset_vocabulary: true
 賴伏草雞	la bu tshau ci	55
 伏胎蛋	bu the dae	55
 伏豆芽	bu deu ngo	55
-撩勿着	liau vaq zyuq	55
-管着	kun zyuq
-合着	kaq zyuq
-做記勿着	tsou ci vaq zyuq	55
-喫着	chioq zyuq
-着把	zyuq po	55
-劖着劖	zae zyuq zae
-買着買	ma zyuq ma
-撮着撮	tshaq zyuq tshaq
-抽着抽	chieu zyuq chieu
-坐着坐	zou zyuq zou
-喫着喫	chioq zyuq chioq
-穿嘸沒穿着	tshoe mhiq tshoe zyuq
-喫嘸沒喫着	chioq mhiq chioq zyuq
-做嘸沒做着	tsou mhiq tsou zyuq
-走嘸沒走着	tseu mhiq tseu zyuq
+撩勿着	liau vaq zoq	55
+管着	kun zoq
+合着	kaq zoq
+做記勿着	tsou ci vaq zoq	55
+喫着	chioq zoq
+着把	zoq po	55
+劖着劖	zae zoq zae
+買着買	ma zoq ma
+撮着撮	tshaq zoq tshaq
+抽着抽	chieu zoq chieu
+坐着坐	zou zoq zou
+喫着喫	chioq zoq chioq
+穿嘸沒穿着	tshoe mhiq tshoe zoq
+喫嘸沒喫着	chioq mhiq chioq zoq
+做嘸沒做着	tsou mhiq tsou zoq
+走嘸沒走着	tseu mhiq tseu zoq
 嬲和東西	na ngou ton shi	578
 嬲和	na ngou	578
 惡嬲和	oq na ngou	55
@@ -321,7 +318,7 @@ use_preset_vocabulary: true
 燥㸆飯	sau khau vae	55
 謳活靈	eu waq lin	55
 謳弗應	eu vaq in	55
-謳勿應	eu vaq in	55
+謳勿應	eu vaq in
 謳勒應	eu laq in	55
 謳謳其	eu eu ji	55
 謳謳渠	eu eu ji	55
@@ -348,7 +345,7 @@ use_preset_vocabulary: true
 奧裏奧搞	au li au gau	55
 喫搞勢	chioq gau syu	55
 壓弗煞	aq vaq saq	55
-壓勿煞	aq vaq saq	55
+壓勿煞	aq vaq saq
 結襞	ciq paq	55
 膚殼𥀬	fu khoq i	55
 小娃屄	shiau uae pi	55
@@ -402,6 +399,25 @@ use_preset_vocabulary: true
 過昶	kou chian	55
 過一昶	kou iq chian	55
 再昶	tse chian	55
+老搨蛋	lau thaaq dae	55
+咋個	dza kun	1500
+咋個	dza kou	578
+介個	ka kun	1000
+介個	ka kou	418
+抗弗消	ghaon vaq shiau	55
+抗弗住	ghaon vaq dzyu	55
+抗勿消	ghaon vaq shiau
+抗勿住	ghaon vaq dzyu
+抗勒消	ghaon laq shiau	55
+抗勒住	ghaon laq dzyu	55
+阿姆阿伯弗認得	an m aq paq vaq gnin taq	1
+阿伯阿姆弗認得	aq paq an m vaq gnin taq	1
+撩弗着	liau vaq zoq	55
+做記弗着	tsou ci vaq zoq	55
+水胡萄	syu wu dau	55
+候着候	gheu zoq gheu	55
+睏着	khuen zoq	418
+睏着	khuen dzoq	418
 
 # 江蘇教育版《寧波方言詞典》 其他寫法
 
@@ -452,7 +468,6 @@ use_preset_vocabulary: true
 啥犯着	sou vae dzoq	55
 雷打着𡀂	lei tan dzoq lei
 雷打着了	lei tan dzoq lei
-候着記把	gheu dzoq ci po	55
 碰着	ban dzoq
 碰着	phon dzoq
 輪着	len dzoq
@@ -494,8 +509,8 @@ use_preset_vocabulary: true
 睬爾阿白哥	tshe ng aq baq kou
 嘔爾着力𡀂	eu ng jiaq liq lei
 要爾着力𡀂	iau ng jiaq liq lei
+䂻爾肚裏弗得	dzan ng du li vaq taq	1
 䂻爾肚裏勿得	dzan ng du li vaq taq
-䂻爾肚裏弗得	dzan ng du li vaq taq
 爾倷個	ng naq goq	55
 爾倷個	ng naq ghoq	55
 爾個	ng goq	578
@@ -514,8 +529,8 @@ use_preset_vocabulary: true
 睬其瞎子老白眼	tshe ji haq tsy lau baq ngae
 睬其阿白哥	tshe ji aq baq kou
 候其話話過	gheu ji wo wo kou	55
+䂻其肚裏弗得	dzan ji du li vaq taq	1
 䂻其肚裏勿得	dzan ji du li vaq taq
-䂻其肚裏弗得	dzan ji du li vaq taq
 喫喫其	chioq chioq ji
 喫喫其拉	chioq chioq jiq laq
 其拉兩人	jiq laq lian gnin	55
@@ -553,9 +568,9 @@ use_preset_vocabulary: true
 話弗出	wo vaq tshyuq	55
 尷裏弗尷尬	kae li vaq kae ka	55
 對弗起	tei vaq chi	55
-䂻渠肚裏弗得	dzan ji du li vaq taq
-䂻儂肚裏弗得	dzan nou du li vaq taq
-䂻俉肚裏弗得	dzan ng du li vaq taq
+䂻渠肚裏弗得	dzan ji du li vaq taq	1
+䂻儂肚裏弗得	dzan nou du li vaq taq	1
+䂻俉肚裏弗得	dzan ng du li vaq taq	1
 講弗來	kaon vaq le	55
 講弗理踩	kaon vaq li tshe	55
 行弗住	ghaon vaq dzyu	55
@@ -577,7 +592,7 @@ use_preset_vocabulary: true
 稻大肚了	dau dou du lei	55
 告吵儂了	kau tshau nou lei	55
 飯僵脯了	vae cian bu lei	55
-雷打着了	lei tan zyuq lei	55
+雷打着了	lei tan zoq lei	55
 屙榨貓壓牢了	ou tso mae aq lau lei
 嘔俉着力了	eu ng jiaq liq lei
 要俉着力了	iau ng jiaq liq lei
@@ -663,6 +678,15 @@ use_preset_vocabulary: true
 十個	zyuq ghoq
 礌沙圓	lei so yu	55
 礌銅板	lei don pae	55
+胸脘頭肉	shion kun deu gnioq	55
+肋胳肢下毛	laq kaq tsy gho mau	55
+湯壺子	thaon wu tsy	55
+湯盤子	thaon bun tsy	55
+湯婆子	thaon bou tsy	55
+湯水壺	thaon syu wu	55
+睏弗着	khuen vaq zoq	418
+睏弗着	khuen vaq dzoq	418
+睏勿着	khuen vaq dzoq	55
 
 # 其他詞彙
 
@@ -1053,7 +1077,7 @@ use_preset_vocabulary: true
 面孔下大臉	mi khon gho dou li
 面頰巴肉宕落	mi kaq po gnioq dan loq
 凹臉撲腦殼
-落雨淋勿着	loq yu lin vaq zyuq
+落雨淋勿着	loq yu lin vaq zoq
 落雨淋勿着	loq yu lin vaq dzoq
 腫眼泡皮
 眼屙結嗝
@@ -1172,7 +1196,7 @@ use_preset_vocabulary: true
 要好也𣍐好	iau hau gha vei hau
 喫勿窮
 穿勿窮
-算着勿好一世窮	soe zyuq vaq hau iq shi jion
+算着勿好一世窮	soe zoq vaq hau iq shi jion
 算着勿好一世窮	soe dzoq vaq hau iq shi jion
 惀帶好
 根腳深
@@ -1389,7 +1413,6 @@ use_preset_vocabulary: true
 苔條粢飯糕	de diau tshy vae kau
 下飯嘸沒龍頭鮳
 點心嘸沒黃𤿏糕
-鴨肉骨頭水貼糕	aq gnioq kuaq deu syu thaq kau
 八月十六等勿到
 分麻餅	fen mo pin
 三北豆酥糖
@@ -1457,7 +1480,7 @@ use_preset_vocabulary: true
 完全外行	wun dzoe nga ghaon
 大火輪	dou hou len
 人到三十頂風光	gnin tau sae zyuq ten fon kuaon
-船到⿰舟巤子頂會裝	zoe tau laq tsy ten wei tsaon
+船到𦪴子頂會裝	zoe tau laq tsy ten wei tsaon
 撮隻櫓烏珠想打船	tshaq tsaq lu u tsyu shian tan zoe
 扯風篷
 撐家計	tshan ko ci
@@ -1736,7 +1759,7 @@ use_preset_vocabulary: true
 一沰石灰
 饞唾一沰	zae thu iq toq
 處處用着	tshyu tshyu yon dzoq
-處處用着	tshyu tshyu yon zyuq
+處處用着	tshyu tshyu yon zoq
 一頂傘
 兩頂傘
 三頂傘
@@ -2117,7 +2140,7 @@ use_preset_vocabulary: true
 解房鈿	ka vaon di
 喫利鈿
 貪眼小便宜
-管着老價鈿	kun zyuq lau ko di
+管着老價鈿	kun zoq lau ko di
 管着老價鈿	kun dzoq lau ko di
 陶窯大	dau yau dou
 多陶窯
@@ -2282,8 +2305,8 @@ use_preset_vocabulary: true
 馱勿肯
 小個桌凳撩勿着	shiau goq tsoq ten liau vaq dzoq
 小個桌凳撩勿着	shiau ghoq tsoq ten liau vaq dzoq
-小個桌凳撩勿着	shiau goq tsoq ten liau vaq zyuq
-小個桌凳撩勿着	shiau ghoq tsoq ten liau vaq zyuq
+小個桌凳撩勿着	shiau goq tsoq ten liau vaq zoq
+小個桌凳撩勿着	shiau ghoq tsoq ten liau vaq zoq
 老個豆腐嚼勿落	lau goq deu vu zhiaq vaq loq
 老個豆腐嚼勿落	lau ghoq deu vu zhiaq vaq loq
 撩起一拳
@@ -2497,7 +2520,7 @@ use_preset_vocabulary: true
 燕子做窠爛泥挭
 鴉鵲做窠搭涼棚	o chiaq tsou khou taq lian ban
 爛泥挭着	na gni kuan dzoq
-爛泥挭着	na gni kuan zyuq
+爛泥挭着	na gni kuan zoq
 着象棋	ciaq zhian ji
 彫花臉
 妝面油
@@ -2683,7 +2706,7 @@ use_preset_vocabulary: true
 大家喜歡	do ko shi hun
 隔壁做賊
 大家嚇煞	do ko haq saq
-老婆擡勿着	lau bou de vaq zyuq
+老婆擡勿着	lau bou de vaq zoq
 老婆擡勿着	lau bou de vaq dzoq
 一世苦勿出	iq shi khu vaq tshyuq
 辦好日酒	bae hau gniq cieu
@@ -2741,13 +2764,7 @@ use_preset_vocabulary: true
 煠雞
 面拖蝦
 拖黃魚	thou waon ng
-貼蛋	thaq dae
-貼帶魚	thaq ta ng
-貼老豆腐	thaq lau deu vu
-貼大餅	thaq dou pin
-貼金糰	thaq cin doe
 小兵張嘎
-大餅貼貼	dou pin thaq thaq
 煙囪塞塞
 老太婆𧮙煞	lau tha bou zoq saq
 𰟫苔條	koq de diau
@@ -2801,7 +2818,7 @@ use_preset_vocabulary: true
 合壽材	kaq zhieu ze
 三歲合棺材	sae syu kaq kun ze
 到老用勒着	tau lau yon laq dzoq
-到老用勒着	tau lau yon laq zyuq
+到老用勒着	tau lau yon laq zoq
 箍桶限卯	khu don ghae mau
 箍桶限卯	khou don ghae mau
 越限越小
@@ -2857,7 +2874,7 @@ use_preset_vocabulary: true
 跌落地	toq loq di
 跌落地	tiq loq di
 撮着自	tshaq dzoq zhi
-撮着自	tshaq zyuq zhi
+撮着自	tshaq zoq zhi
 急急一日
 沓沓一月	thaq thaq iq yuq
 喫百姓
@@ -3434,7 +3451,7 @@ use_preset_vocabulary: true
 暴喫饅頭三口生	bau chioq mun deu sae kheu san
 暴時種田	bau zy tson di
 碰着閏年	ban dzoq yun gni
-碰着閏年	ban zyuq yun gni
+碰着閏年	ban zoq yun gni
 暴時做世人	bau zy tsou shi gnin
 何必介認真	ghou piq ka zyun cin
 親門口
@@ -3600,7 +3617,7 @@ use_preset_vocabulary: true
 做出事體三勿像
 抲賊抲贓
 抲勿着喫巴掌	kho vaq dzoq chioq po tsaon
-抲勿着喫巴掌	kho vaq zyuq chioq po tsaon
+抲勿着喫巴掌	kho vaq zoq chioq po tsaon
 啥人詏我做賊
 巴掌喫其腐𤒻𤒻
 奔奔前頭
@@ -3685,11 +3702,11 @@ use_preset_vocabulary: true
 頭兩個	deu lian goq
 頭兩個	deu lian ghoq
 頭兩隻
-喫弗來	chioq vaq le
+喫弗來	chioq vaq le	1
 去勿來	chi vaq le
-去弗來	chi vaq le
+去弗來	chi vaq le	1
 弄勿來
-弄弗來	lon vaq le
+弄弗來	lon vaq le	1
 睏勿過
 囥勿過
 坐勿過
@@ -3706,24 +3723,24 @@ use_preset_vocabulary: true
 打渠勿過	tan ji vaq kou
 慢勿過
 多勿過
-睏弗過	khuen vaq kou
-囥弗過	khaon vaq kou
-坐弗過	zou vaq kou
-比弗過	pi vaq kou
-比我弗過	pi ngo vaq kou
-比爾弗過	pi ng vaq kou
-比俉弗過	pi ng vaq kou
-比其弗過	pi ji vaq kou
-比渠弗過	pi ji vaq kou
-打弗過	tan vaq kou
-打俉弗過	tan ng vaq kou
-打爾弗過	tan ng vaq kou
-打其弗過	tan ji vaq kou
-打渠弗過	tan ji vaq kou
-慢弗過	mae vaq kou
-多弗過	tou vaq kou
+睏弗過	khuen vaq kou	1
+囥弗過	khaon vaq kou	1
+坐弗過	zou vaq kou	1
+比弗過	pi vaq kou	1
+比我弗過	pi ngo vaq kou	1
+比爾弗過	pi ng vaq kou	1
+比俉弗過	pi ng vaq kou	1
+比其弗過	pi ji vaq kou	1
+比渠弗過	pi ji vaq kou	1
+打弗過	tan vaq kou	1
+打俉弗過	tan ng vaq kou	1
+打爾弗過	tan ng vaq kou	1
+打其弗過	tan ji vaq kou	1
+打渠弗過	tan ji vaq kou	1
+慢弗過	mae vaq kou	1
+多弗過	tou vaq kou	1
 話勿相似	wo vaq shian zy
-話弗相似	wo vaq shian zy
+話弗相似	wo vaq shian zy	1
 着勿樣	ciaq vaq yan
 講勿樣
 做勿樣
@@ -3736,30 +3753,30 @@ use_preset_vocabulary: true
 講勿相相	kaon vaq shian shian
 做勿相相	tsou vaq shian shian
 弄勿相相	lon vaq shian shian
-着弗樣	ciaq vaq yan
-講弗樣	kaon vaq yan
-做弗樣	tsou vaq yan
-弄弗樣	lon vaq yan
-着弗相樣	ciaq vaq shian yan
-講弗相樣	kaon vaq shian yan
-做弗相樣	tsou vaq shian yan
-弄弗相樣	lon vaq shian yan
-着弗相相	ciaq vaq shian shian
-講弗相相	kaon vaq shian shian
-做弗相相	tsou vaq shian shian
-弄弗相相	lon vaq shian shian
+着弗樣	ciaq vaq yan	1
+講弗樣	kaon vaq yan	1
+做弗樣	tsou vaq yan	1
+弄弗樣	lon vaq yan	1
+着弗相樣	ciaq vaq shian yan	1
+講弗相樣	kaon vaq shian yan	1
+做弗相樣	tsou vaq shian yan	1
+弄弗相樣	lon vaq shian yan	1
+着弗相相	ciaq vaq shian shian	1
+講弗相相	kaon vaq shian shian	1
+做弗相相	tsou vaq shian shian	1
+弄弗相相	lon vaq shian shian	1
 碰勿得
-動着勿得	don zyuq vaq taq
+動着勿得	don zoq vaq taq
 動着勿得	don dzoq vaq taq
 𧮙眼勿得
 輕仔勿得
 重仔勿得
-碰弗得	ban vaq taq
-動着弗得	don zyuq vaq taq
-動着弗得	don dzoq vaq taq
-𧮙眼弗得	zoq ngae vaq taq
-輕仔弗得	chin tsy vaq taq
-重仔弗得	dzon tsy vaq taq
+碰弗得	ban vaq taq	1
+動着弗得	don zoq vaq taq	1
+動着弗得	don dzoq vaq taq	1
+𧮙眼弗得	zoq ngae vaq taq	1
+輕仔弗得	chin tsy vaq taq	1
+重仔弗得	dzon tsy vaq taq	1
 睏勒過
 囥勒過
 坐勒過
@@ -3845,7 +3862,7 @@ use_preset_vocabulary: true
 話渠一頓	wo ji iq ten
 皇帝老官打渠跔	waon ti lau kun tan ji geu
 䂻進渠肚裏勿得	dzan cin ji du li vaq taq
-䂻進渠肚裏弗得	dzan cin ji du li vaq taq
+䂻進渠肚裏弗得	dzan cin ji du li vaq taq	1
 渠要怏	ji iau aon
 田要種渠骨敦	di iau tson ji kuaq ten
 字宅宅寫渠快	zy dzaq dzaq shia ji khua
@@ -3892,187 +3909,187 @@ use_preset_vocabulary: true
 𠑞屙壅伸草	dza ou ion shin tshau
 𠑞屙筆篤	dza ou piq toq
 𠑞尿哚哚響	dza syu do do shian
-早鱟弗過晝	tsau heu vaq kou cieu
-高頭弗來	kau deu vaq le
-低頭弗去	ti deu vaq chi
-閒時不節弗做家	ghae zy paq ciq vaq tsou ko
-一生一世喫弗窮	iq san iq shi chioq vaq jion
-少年弗做家	shiau gni vaq tsou ko
-快手勢弗及慢兩爹	khua shieu syu vaq jiq mae lian tia
-做囡弗斷孃家路	tsou noe vaq doe gnian ko lu
-孃勤囡弗懶	gnian jin noe vaq lae
-爹做郎中醫弗好	tia tsou laon tson i vaq hau
-叫花子弗留過夜食	kau huo tsy vaq lieu kou ya zhiq
-自家做做來弗及	zhi ko tsou tsou le vaq ji
-人家做做弗中意	gnin ko tsou tsou vaq tson i
-弗及屋裏	vaq jiq oq li
-犯落丫臉弗認人	vae loq o li vaq gnin gnin
-落雨淋弗着	loq yu lin vaq zyuq
-落雨淋弗着	loq yu lin vaq dzoq
-背脊骨直弗起	pei ciq kuaq jiq vaq chi
-會做也弗難	wei tsou gha vaq nae
-三色弗看	sae saq vaq khi-khe
-活靈弗生	waq lin vaq san
-小苦弗喫	shiau khu vaq chioq
-心網弗定	shin maon vaq din
-喫弗窮	chioq vaq jion
-穿弗窮	tshoe vaq jion
-算着弗好一世窮	soe zyuq vaq hau iq shi jion
-算着弗好一世窮	soe dzoq vaq hau iq shi jion
-一日弗造生㾸𤶁	iq gniq vaq zau san kaq lau
-一弗打和尚	iq vaq tan ghou zaon
-二弗打黃胖	gni vaq tan waon phaon
-出力弗討好	tshyuq liq vaq thau hau
-熱弗退	gniq vaq thei
-只認衣衫弗認人	ciq gnin i sae vaq gnin gnin
-閒賬弗管	ghae cian vaq kun
-只話我養生弗推扳	ciq wo ngo yan san vaq thei pae
-運道來了推弗開	yun dau le laq thei vaq khe
-橋倒壓弗煞差魚	jiau tau aq vaq saq tsho ng
-油鹽弗喫是梅豆	yeu yi vaq chioq zy mei deu
-能使買弗值	nen sy ma vaq jiq
-弗可買喫食	vaq khou ma chioq zhiq
-八月十六等弗到	paq yuq zyuq loq ten vaq tau
-金窠銀窠弗如屋裏草窠	cin khou gnin khou vaq zyu oq li tshau khou
-閻王奪弗去	gni waon daq vaq chi
-肚飢弗論好羹湯	du ci vaq len hau kan thaon
-瞌𥅻弗論好眠牀	khaq tshon vaq len hau mi zaon
-圖書弗明	du syu vaq min
-單子弗靈	tae tsy vaq lin
-要緊弗得慢	iau cin vaq taq mae
-草蓬腳下弗可坐	tshau bon ciaq gho vaq khou zou
-冬冷弗算冷	ton lan vaq soe lan
-打煞黃狗弗離窠	tan saq wu ki-ke vaq li khou
-打煞黃狗弗離窠	tan saq waon ki-ke vaq li khou
-打煞黃狗弗離窠	tan saq waon keu vaq li khou
-弗是爬就是挖	vaq zy bo jieu zy uaq
-癩𪓿剝皮心弗死	la sy poq bi shin vaq shi
-弗如值鈿樹掙	vaq zyu jiq di zyu tsan
-活靈一眼弗生	waq lin iq ngae vaq san
-弗如過橋石板鋪一記	vaq zyu kou jiau zaq pae phu iq ci
-行業弗尋	ghaon gniq vaq zhin
-弗好欠衆家	vaq hau chi tson ko
-和家弗得安	ghou ko vaq taq ei-e
-細糠喫弗起	shi khaon chioq vaq chi
-丫臉犯落弗認人	o li vae loq vaq gnin gnin
-做人弗能翻白	tsou gnin vaq nen fae baq
-閒話弗能煞潑	ghae wo vaq nen saq phaq
-言話弗能煞潑	ghae wo vaq nen saq phaq
-老人弗掏古	lau gnin vaq dau ku
-討𧮙弗揀日子	thau zoq vaq kae gniq tsy
-弄弗討好	lon vaq thau hau
-果子弗可擇	kou tsy vaq khou dzaq
-閒話弗可扎	ghae wo vaq khou tsaq
-言話弗可扎	ghae wo vaq khou tsaq
-掇凳弗坐討凳坐	taq ten vaq zou thau ten zou
-喫弗論	chioq vaq len
-馱弗肯	dou vaq khen
-小個桌凳撩弗着	shiau goq tsoq ten liau vaq dzoq
-小個桌凳撩弗着	shiau ghoq tsoq ten liau vaq dzoq
-小個桌凳撩弗着	shiau goq tsoq ten liau vaq zyuq
-小個桌凳撩弗着	shiau ghoq tsoq ten liau vaq zyuq
-老個豆腐嚼弗落	lau goq deu vu zhiaq vaq loq
-老個豆腐嚼弗落	lau ghoq deu vu zhiaq vaq loq
-裁縫弗落布	ze von vaq loq pu
-有眼弗識泰山	yeu ngae vaq shiq tha sae
-月裏奶花弗可𢱤	yuq li na hun vaq khou son
-好漢弗上兩	hau he vaq zaon lian
-弗是碰就是別	vaq zy ban jieu zy biq
-嫖賭弗論錢	biau tu vaq len ji
-弗鞔鼓中心	vaq mun ku tson shin
-踔弗煞草子	nau vaq saq tshau tsy
-壓弗煞婊子	aq vaq saq piau tsy
-有力弗好盡撐	yeu liq vaq hau jin tshan
-有勢弗可盡行	yeu syu vaq khou jin ghan
-弗會寫字多蘸筆	vaq wei shia zy tou tsae piq
-弗會走路多磕跌	vaq wei tseu lu tou khaq tiq
-外婆屋裏去弗來	nga bou oq li chi vaq le
-䂻進其肚裏弗得	dzan cin ji du li vaq taq
-賬軋弗平	cian gaq vaq bin
-弗好落夜	vaq hau loq ya
-捏勒卵子弗撒尿	gniaq laq loe tsy vaq dza syu
-捏勒卵子弗射尿	gniaq laq loe tsy vaq dza syu
-捏勒卵子弗𠑞尿	gniaq laq loe tsy vaq dza syu
-惀頭弗到	len deu vaq tau
-防弗到	baon vaq tau
-調一弗歡喜	diau iq vaq hun shi
-儂弗喫	nou vaq chioq
-雷雨弗過江	lei yu vaq kou kaon
-老婆擡弗着	lau bou de vaq zyuq
-老婆擡弗着	lau bou de vaq dzoq
-一世苦弗出	iq shi khu vaq tshyuq
-防賊弗到撥賊笑	baon zaq vaq tau paq zaq shiau
-行行弗落檔	ghaon ghaon vaq loq taon
-弗招怪	vaq ciau kua
-秋前弗擱田	chieu zhi vaq koq di
-兒子弗供爹	ng tsy vaq tson tia
-馬屁弗穿繃	mo phi vaq tshoe pan
-運弗行	yun vaq ghan
-壓弗進	aq vaq cin
-弗怕路翻向	vaq pho lu fae shian
-動雷弗做梅	don lei vaq tsou mei
-做梅弗動雷	tsou mei vaq don lei
-弗是怕老婆	vaq zy pho lau bou
-着力弗賺鈿	jiaq liq vaq dzae di
-賺鈿弗着力	dzae di vaq jiaq liq
-上樑弗正	zaon lian vaq cin
-人弄人弄弗煞	gnin lon gnin lon vaq saq
-弗可搭笨人出主意	vaq khou taq ben gnin tshyuq tsyu i
-偷力弗旺	theu liq vaq waon
-饞癆弗壯	dzae lau vaq tsaon
-泥螺弗喫喫蟹醬	gni lou vaq chioq chioq ha cian
-大人弗歡喜	dou gnin vaq hun shi
-裝勒弗認得	tsaon laq vaq gnin taq
-弄弗靈清	lon vaq lin chin
-講弗靈清	kaon vaq lin chin
-面孔好白弗白	mi khon hau baq vaq baq
-屁股好黑弗黑	phi ku hau haq vaq haq
-有鈿弗買疙瘩產	yeu di vaq ma kaq taq tshae
-能使挑弗動	nen sy thiau vaq don
-弗好單頭重	vaq hau tae deu dzon
-屁股坐弗牢	phi ku zou vaq lau
-三日弗喫鹹齏湯	sae gniq vaq chioq ghae ci thaon
-輸勒阿姆阿伯弗認得	syu laq a m aq paq vaq gnin taq
-輸勒阿姆阿伯弗認得	syu laq an m aq paq vaq gnin taq
-債揹勒阿姆阿伯弗認得	tsa pei laq a m aq paq vaq gnin taq
-債揹勒阿姆阿伯弗認得	tsa pei laq an m aq paq vaq gnin taq
-笨勒阿姆阿伯弗認得	ben laq a m aq paq vaq gnin taq
-笨勒阿姆阿伯弗認得	ben laq an m aq paq vaq gnin taq
-壽勒阿姆阿伯弗認得	zhieu laq a m aq paq vaq gnin taq
-壽勒阿姆阿伯弗認得	zhieu laq an m aq paq vaq gnin taq
-忙勒阿姆阿伯弗認得	maon laq a m aq paq vaq gnin taq
-忙勒阿姆阿伯弗認得	maon laq an m aq paq vaq gnin taq
-弗冷弗熱阿講做	vaq lan vaq gniq aq kaon tsou
-弗冷弗熱阿講做	vaq lan vaq gniq oq kaon tsou
-弗可做絕	vaq khou tsou dzyuq
-弗去	vaq chi
-弗相信	vaq shian shin
+早鱟弗過晝	tsau heu vaq kou cieu	1
+高頭弗來	kau deu vaq le	1
+低頭弗去	ti deu vaq chi	1
+閒時不節弗做家	ghae zy paq ciq vaq tsou ko	1
+一生一世喫弗窮	iq san iq shi chioq vaq jion	1
+少年弗做家	shiau gni vaq tsou ko	1
+快手勢弗及慢兩爹	khua shieu syu vaq jiq mae lian tia	1
+做囡弗斷孃家路	tsou noe vaq doe gnian ko lu	1
+孃勤囡弗懶	gnian jin noe vaq lae	1
+爹做郎中醫弗好	tia tsou laon tson i vaq hau	1
+叫花子弗留過夜食	kau huo tsy vaq lieu kou ya zhiq	1
+自家做做來弗及	zhi ko tsou tsou le vaq ji	1
+人家做做弗中意	gnin ko tsou tsou vaq tson i	1
+弗及屋裏	vaq jiq oq li	1
+犯落丫臉弗認人	vae loq o li vaq gnin gnin	1
+落雨淋弗着	loq yu lin vaq zoq	1
+落雨淋弗着	loq yu lin vaq dzoq	1
+背脊骨直弗起	pei ciq kuaq jiq vaq chi	1
+會做也弗難	wei tsou gha vaq nae	1
+三色弗看	sae saq vaq khi-khe	1
+活靈弗生	waq lin vaq san	1
+小苦弗喫	shiau khu vaq chioq	1
+心網弗定	shin maon vaq din	1
+喫弗窮	chioq vaq jion	1
+穿弗窮	tshoe vaq jion	1
+算着弗好一世窮	soe zoq vaq hau iq shi jion	1
+算着弗好一世窮	soe dzoq vaq hau iq shi jion	1
+一日弗造生㾸𤶁	iq gniq vaq zau san kaq lau	1
+一弗打和尚	iq vaq tan ghou zaon	1
+二弗打黃胖	gni vaq tan waon phaon	1
+出力弗討好	tshyuq liq vaq thau hau	1
+熱弗退	gniq vaq thei	1
+只認衣衫弗認人	ciq gnin i sae vaq gnin gnin	1
+閒賬弗管	ghae cian vaq kun	1
+只話我養生弗推扳	ciq wo ngo yan san vaq thei pae	1
+運道來了推弗開	yun dau le laq thei vaq khe	1
+橋倒壓弗煞差魚	jiau tau aq vaq saq tsho ng	1
+油鹽弗喫是梅豆	yeu yi vaq chioq zy mei deu	1
+能使買弗值	nen sy ma vaq jiq	1
+弗可買喫食	vaq khou ma chioq zhiq	1
+八月十六等弗到	paq yuq zyuq loq ten vaq tau	1
+金窠銀窠弗如屋裏草窠	cin khou gnin khou vaq zyu oq li tshau khou	1
+閻王奪弗去	gni waon daq vaq chi	1
+肚飢弗論好羹湯	du ci vaq len hau kan thaon	1
+瞌𥅻弗論好眠牀	khaq tshon vaq len hau mi zaon	1
+圖書弗明	du syu vaq min	1
+單子弗靈	tae tsy vaq lin	1
+要緊弗得慢	iau cin vaq taq mae	1
+草蓬腳下弗可坐	tshau bon ciaq gho vaq khou zou	1
+冬冷弗算冷	ton lan vaq soe lan	1
+打煞黃狗弗離窠	tan saq wu ki-ke vaq li khou	1
+打煞黃狗弗離窠	tan saq waon ki-ke vaq li khou	1
+打煞黃狗弗離窠	tan saq waon keu vaq li khou	1
+弗是爬就是挖	vaq zy bo jieu zy uaq	1
+癩𪓿剝皮心弗死	la sy poq bi shin vaq shi	1
+弗如值鈿樹掙	vaq zyu jiq di zyu tsan	1
+活靈一眼弗生	waq lin iq ngae vaq san	1
+弗如過橋石板鋪一記	vaq zyu kou jiau zaq pae phu iq ci	1
+行業弗尋	ghaon gniq vaq zhin	1
+弗好欠衆家	vaq hau chi tson ko	1
+和家弗得安	ghou ko vaq taq ei-e	1
+細糠喫弗起	shi khaon chioq vaq chi	1
+丫臉犯落弗認人	o li vae loq vaq gnin gnin	1
+做人弗能翻白	tsou gnin vaq nen fae baq	1
+閒話弗能煞潑	ghae wo vaq nen saq phaq	1
+言話弗能煞潑	ghae wo vaq nen saq phaq	1
+老人弗掏古	lau gnin vaq dau ku	1
+討𧮙弗揀日子	thau zoq vaq kae gniq tsy	1
+弄弗討好	lon vaq thau hau	1
+果子弗可擇	kou tsy vaq khou dzaq	1
+閒話弗可扎	ghae wo vaq khou tsaq	1
+言話弗可扎	ghae wo vaq khou tsaq	1
+掇凳弗坐討凳坐	taq ten vaq zou thau ten zou	1
+喫弗論	chioq vaq len	1
+馱弗肯	dou vaq khen	1
+小個桌凳撩弗着	shiau goq tsoq ten liau vaq dzoq	1
+小個桌凳撩弗着	shiau ghoq tsoq ten liau vaq dzoq	1
+小個桌凳撩弗着	shiau goq tsoq ten liau vaq zoq	1
+小個桌凳撩弗着	shiau ghoq tsoq ten liau vaq zoq	1
+老個豆腐嚼弗落	lau goq deu vu zhiaq vaq loq	1
+老個豆腐嚼弗落	lau ghoq deu vu zhiaq vaq loq	1
+裁縫弗落布	ze von vaq loq pu	1
+有眼弗識泰山	yeu ngae vaq shiq tha sae	1
+月裏奶花弗可𢱤	yuq li na hun vaq khou son	1
+好漢弗上兩	hau he vaq zaon lian	1
+弗是碰就是別	vaq zy ban jieu zy biq	1
+嫖賭弗論錢	biau tu vaq len ji	1
+弗鞔鼓中心	vaq mun ku tson shin	1
+踔弗煞草子	nau vaq saq tshau tsy	1
+壓弗煞婊子	aq vaq saq piau tsy	1
+有力弗好盡撐	yeu liq vaq hau jin tshan	1
+有勢弗可盡行	yeu syu vaq khou jin ghan	1
+弗會寫字多蘸筆	vaq wei shia zy tou tsae piq	1
+弗會走路多磕跌	vaq wei tseu lu tou khaq tiq	1
+外婆屋裏去弗來	nga bou oq li chi vaq le	1
+䂻進其肚裏弗得	dzan cin ji du li vaq taq	1
+賬軋弗平	cian gaq vaq bin	1
+弗好落夜	vaq hau loq ya	1
+捏勒卵子弗撒尿	gniaq laq loe tsy vaq dza syu	1
+捏勒卵子弗射尿	gniaq laq loe tsy vaq dza syu	1
+捏勒卵子弗𠑞尿	gniaq laq loe tsy vaq dza syu	1
+惀頭弗到	len deu vaq tau	1
+防弗到	baon vaq tau	1
+調一弗歡喜	diau iq vaq hun shi	1
+儂弗喫	nou vaq chioq	1
+雷雨弗過江	lei yu vaq kou kaon	1
+老婆擡弗着	lau bou de vaq zoq	1
+老婆擡弗着	lau bou de vaq dzoq	1
+一世苦弗出	iq shi khu vaq tshyuq	1
+防賊弗到撥賊笑	baon zaq vaq tau paq zaq shiau	1
+行行弗落檔	ghaon ghaon vaq loq taon	1
+弗招怪	vaq ciau kua	1
+秋前弗擱田	chieu zhi vaq koq di	1
+兒子弗供爹	ng tsy vaq tson tia	1
+馬屁弗穿繃	mo phi vaq tshoe pan	1
+運弗行	yun vaq ghan	1
+壓弗進	aq vaq cin	1
+弗怕路翻向	vaq pho lu fae shian	1
+動雷弗做梅	don lei vaq tsou mei	1
+做梅弗動雷	tsou mei vaq don lei	1
+弗是怕老婆	vaq zy pho lau bou	1
+着力弗賺鈿	jiaq liq vaq dzae di	1
+賺鈿弗着力	dzae di vaq jiaq liq	1
+上樑弗正	zaon lian vaq cin	1
+人弄人弄弗煞	gnin lon gnin lon vaq saq	1
+弗可搭笨人出主意	vaq khou taq ben gnin tshyuq tsyu i	1
+偷力弗旺	theu liq vaq waon	1
+饞癆弗壯	dzae lau vaq tsaon	1
+泥螺弗喫喫蟹醬	gni lou vaq chioq chioq ha cian	1
+大人弗歡喜	dou gnin vaq hun shi	1
+裝勒弗認得	tsaon laq vaq gnin taq	1
+弄弗靈清	lon vaq lin chin	1
+講弗靈清	kaon vaq lin chin	1
+面孔好白弗白	mi khon hau baq vaq baq	1
+屁股好黑弗黑	phi ku hau haq vaq haq	1
+有鈿弗買疙瘩產	yeu di vaq ma kaq taq tshae	1
+能使挑弗動	nen sy thiau vaq don	1
+弗好單頭重	vaq hau tae deu dzon	1
+屁股坐弗牢	phi ku zou vaq lau	1
+三日弗喫鹹齏湯	sae gniq vaq chioq ghae ci thaon	1
+輸勒阿姆阿伯弗認得	syu laq a m aq paq vaq gnin taq	1
+輸勒阿姆阿伯弗認得	syu laq an m aq paq vaq gnin taq	1
+債揹勒阿姆阿伯弗認得	tsa pei laq a m aq paq vaq gnin taq	1
+債揹勒阿姆阿伯弗認得	tsa pei laq an m aq paq vaq gnin taq	1
+笨勒阿姆阿伯弗認得	ben laq a m aq paq vaq gnin taq	1
+笨勒阿姆阿伯弗認得	ben laq an m aq paq vaq gnin taq	1
+壽勒阿姆阿伯弗認得	zhieu laq a m aq paq vaq gnin taq	1
+壽勒阿姆阿伯弗認得	zhieu laq an m aq paq vaq gnin taq	1
+忙勒阿姆阿伯弗認得	maon laq a m aq paq vaq gnin taq	1
+忙勒阿姆阿伯弗認得	maon laq an m aq paq vaq gnin taq	1
+弗冷弗熱阿講做	vaq lan vaq gniq aq kaon tsou	1
+弗冷弗熱阿講做	vaq lan vaq gniq oq kaon tsou	1
+弗可做絕	vaq khou tsou dzyuq	1
+弗去	vaq chi	1
+弗相信	vaq shian shin	1
 會做也弗難
-做弗及	tsou vaq ji
-看弗及	khi-khe vaq ji
-穿弗及	tshoe vaq ji
-喫弗及	chioq vaq ji
+做弗及	tsou vaq ji	1
+看弗及	khi-khe vaq ji	1
+穿弗及	tshoe vaq ji	1
+喫弗及	chioq vaq ji	1
 做勒及	tsou laq ji
 看勒及	khi-khe laq ji
 穿勒及	tshoe laq ji
 喫勒及	chioq laq ji
-穿弗來	tshoe vaq le
-過日腳弗來	kou gniq ciaq vaq le
-做弗像	tsou vaq zhian
-講弗像	kaon vaq zhian
-弄弗像	lon vaq zhian
-做弗相像	tsou vaq shian zhian
-講弗相像	kaon vaq shian zhian
-弄弗相像	lon vaq shian zhian
-窮弗搭富鬥	jion vaq taq fu teu
-富弗搭官鬥	fu vaq taq kun teu
-做出事體三弗像	tsou tshyuq zy thi sae vaq zhian
-抲弗着喫巴掌	kho vaq dzoq chioq po tsaon
-抲弗着喫巴掌	kho vaq zyuq chioq po tsaon
-弄勒弗好還要撥領導喫僝頭	lon laq vaq hau wa iau paq lin dau chioq zae deu
-弗來傷陰騭	vaq le saon in ciq
-譬如弗講	phi zyu vaq kaon
-悶咚弗響要生病	mhen ton vaq shian iau san bin
+穿弗來	tshoe vaq le	1
+過日腳弗來	kou gniq ciaq vaq le	1
+做弗像	tsou vaq zhian	1
+講弗像	kaon vaq zhian	1
+弄弗像	lon vaq zhian	1
+做弗相像	tsou vaq shian zhian	1
+講弗相像	kaon vaq shian zhian	1
+弄弗相像	lon vaq shian zhian	1
+窮弗搭富鬥	jion vaq taq fu teu	1
+富弗搭官鬥	fu vaq taq kun teu	1
+做出事體三弗像	tsou tshyuq zy thi sae vaq zhian	1
+抲弗着喫巴掌	kho vaq dzoq chioq po tsaon	1
+抲弗着喫巴掌	kho vaq zoq chioq po tsaon	1
+弄勒弗好還要撥領導喫僝頭	lon laq vaq hau wa iau paq lin dau chioq zae deu	1
+弗來傷陰騭	vaq le saon in ciq	1
+譬如弗講	phi zyu vaq kaon	1
+悶咚弗響要生病	mhen ton vaq shian iau san bin	1
 落雨了	loq yu lei
 打烊了	tan yan lei
 小八癩𪓿開會了	shiau paq la sy khe wei lei
@@ -4134,7 +4151,19 @@ use_preset_vocabulary: true
 礌地十八滾
 礌來礌去當中央	lei le lei chi taon tson gnian
 𨀤𨀤倒
-𨀤倒就睏熟
+𨀤倒就睏着	lei tau jieu khuen zoq
+𨀤倒就睏着	lei tau jieu khuen dzoq
+鴨肉骨頭水搨糕	aq gnioq kuaq deu syu thaq kau
+搨蛋	thaq dae
+搨帶魚	thaq ta ng
+搨老豆腐	thaq lau deu vu
+搨大餅	thaq dou pin
+搨金糰	thaq cin doe
+大餅搨搨	dou pin thaq thaq
+咋個長	dza kun jian	55
+咋個大	dza kun dou	55
+咋個長	dza kou jian
+咋個大	dza kou dou
 # 地名
 寧波市	gnin pou zy
 寧波市	gnin poq zy
@@ -5305,7 +5334,7 @@ use_preset_vocabulary: true
 拖去	thou chi
 拖去	tha chi
 屏牢	pin lau
-屏弗牢	pin vaq lau
+屏弗牢	pin vaq lau	1
 屏勿牢	pin vaq lau
 屏勒牢	pin laq lau
 吞聲屏氣	then shin pin chi
@@ -5356,8 +5385,8 @@ use_preset_vocabulary: true
 眼烏珠䀨瞎	ngae u ciu kuaq haq
 頭回	daq wei
 頭回子	daq wei tsy
-弗上弗落	foq zaon foq loq
-密弗通風	maq faq don fon
+弗上弗落	foq zaon foq loq	1
+密弗通風	maq faq don fon	1
 真到話	cin tou wo	55
 真到話	cin to wo	55
 幼兒園	ieu lu yu
@@ -5392,6 +5421,8 @@ use_preset_vocabulary: true
 炮羊肚	bau yan tu
 爆肚	pau tu
 羊肚蕈	yan tu jin
+肯定	khen din
+肯定	khen gnin
 # 多音義詞彙
 明朝	min jiau
 肚子	du tsy
@@ -5404,7 +5435,7 @@ use_preset_vocabulary: true
 天亮了	thi lian lei
 天亮𡀂	thi lian lei
 出產	tshyuq tshae	903
-弗出產	vaq tshyuq tshae
+弗出產	vaq tshyuq tshae	1
 勿出產	vaq tshyuq tshae
 送產	son tshae
 寧可	gnin khou
@@ -5606,8 +5637,8 @@ use_preset_vocabulary: true
 派派看	pha pha khe
 # 忒
 忒弗
-忒弗像話
-忒弗像樣
+忒弗像話	1
+忒弗像樣	1
 忒勿
 忒勿像樣
 忒燥
@@ -5727,10 +5758,10 @@ use_preset_vocabulary: true
 交關慢	ciau kuae mae
 交關懶	ciau kuae lae
 交關扁	ciau kuae pi
+交關對弗起	ciau kuae tei vaq chi	1
 交關對勿起	ciau kuae tei vaq chi
-交關對弗起	ciau kuae tei vaq chi
+交關對弗住	ciau kuae tei vaq dzyu	1
 交關對勿住	ciau kuae tei vaq dzyu
-交關對弗住	ciau kuae tei vaq dzyu
 交關挨	ciau kuae a
 交關敢	ciau kuae ki-ke
 交關新	ciau kuae shin
@@ -5857,22 +5888,22 @@ use_preset_vocabulary: true
 忖下去
 忖落來
 忖落去
-忖弗出	tshen vaq tshyuq
+忖弗出	tshen vaq tshyuq	1
 忖勿出
-忖弗出來	tshen vaq tshyuq le
+忖弗出來	tshen vaq tshyuq le	1
 忖勿出來
-忖弗到	tshen vaq tau
+忖弗到	tshen vaq tau	1
 忖勿到
-忖弗起來	tshen vaq chi le
+忖弗起來	tshen vaq chi le	1
 忖勿起來
-忖弗透	tshen vaq theu
+忖弗透	tshen vaq theu	1
 忖勿透
-忖弗通	tshen vaq thon
+忖弗通	tshen vaq thon	1
 忖勿通
-忖弗開	tshen vaq khe
+忖弗開	tshen vaq khe	1
 忖勿開
-忖也弗忖	tshen gha vaq tshen
-忖也弗忖	tshen ya vaq tshen
+忖也弗忖	tshen gha vaq tshen	1
+忖也弗忖	tshen ya vaq tshen	1
 忖也勿忖
 忖也好甮忖
 忖了	tshen laq
@@ -5957,7 +5988,7 @@ use_preset_vocabulary: true
 忖看
 忖看看
 忖着	tshen dzoq
-忖着	tshen zyuq
+忖着	tshen zoq
 忖睏
 忖瞭解	tshen liau ka
 忖瞭解	tshen liau cia
@@ -6001,17 +6032,17 @@ use_preset_vocabulary: true
 尋上去
 尋上門
 尋上門來
-尋弗出	zhin vaq tshyuq
+尋弗出	zhin vaq tshyuq	1
 尋勿出
-尋弗着	zhin vaq dzoq
+尋弗着	zhin vaq dzoq	1
 尋勿着	zhin vaq dzoq
-尋弗着了	zhin vaq dzoq lei
+尋弗着了	zhin vaq dzoq lei	1
 尋勿着了	zhin vaq dzoq lei
-尋弗着	zhin vaq zyuq
-尋勿着	zhin vaq zyuq
-尋弗着了	zhin vaq zyuq lei
-尋勿着了	zhin vaq zyuq lei
-尋弗自在	zhin vaq zy dze
+尋弗着	zhin vaq zoq	1
+尋勿着	zhin vaq zoq
+尋弗着了	zhin vaq zoq lei	1
+尋勿着了	zhin vaq zoq lei
+尋弗自在	zhin vaq zy dze	1
 尋勿自在
 尋了	zhin laq
 尋事體
@@ -6038,14 +6069,14 @@ use_preset_vocabulary: true
 尋尋
 尋尋出
 尋尋着	zhin zhin dzoq
-尋尋着	zhin zhin zyuq
+尋尋着	zhin zhin zoq
 尋對頭
 尋工作
 尋我
 尋機會
 尋的
 尋着	zhin dzoq
-尋着	zhin zyuq
+尋着	zhin zoq
 尋勒
 尋竅門
 尋藉口	zhin cia kheu
@@ -6085,10 +6116,10 @@ use_preset_vocabulary: true
 抲回來
 抲回去
 抲牢
-抲弗牢	kho vaq lau
+抲弗牢	kho vaq lau	1
 抲勿牢
 抲的
-抲牢弗放	kho lau vaq faon
+抲牢弗放	kho lau vaq faon	1
 抲牢勿放
 抲進
 抲進來
@@ -6121,7 +6152,7 @@ use_preset_vocabulary: true
 捉鬮
 捉眼
 # 挈
-挈弗動	chiq vaq don
+挈弗動	chiq vaq don	1
 挈勿動
 挈勒動
 挈起
@@ -6160,17 +6191,17 @@ use_preset_vocabulary: true
 馱落
 馱落來
 馱落去
-馱弗	dou vaq
+馱弗	dou vaq	1
 馱勿
-馱弗了	dou vaq liau
+馱弗了	dou vaq liau	1
 馱勿了	dou vaq liau
-馱弗出手	dou vaq tshyuq shieu
+馱弗出手	dou vaq tshyuq shieu	1
 馱勿出手
-馱弗到	dou vaq tau
+馱弗到	dou vaq tau	1
 馱勿到
-馱弗動	dou vaq don
+馱弗動	dou vaq don	1
 馱勿動
-馱弗起來	dou vaq chi le
+馱弗起來	dou vaq chi le	1
 馱勿起來
 馱啥
 馱來
@@ -6189,7 +6220,7 @@ use_preset_vocabulary: true
 馱回屋落
 馱的
 馱着	dou dzoq
-馱着	dou zyuq
+馱着	dou zoq
 馱勒
 馱撥
 馱藥
@@ -6259,7 +6290,7 @@ use_preset_vocabulary: true
 # 撮
 撮了	tshaq laq
 撮着	tshaq dzoq
-撮着	tshaq zyuq
+撮着	tshaq zoq
 撮去	tshaq chi
 撮回	tshaq wei
 撮回來	tshaq wei le
@@ -6364,7 +6395,7 @@ use_preset_vocabulary: true
 頂壞個是	tin ua goq zy
 頂壞個是	tin ua ghoq zy
 頂多
-頂多弗超過	tin tou vaq chiau kou
+頂多弗超過	tin tou vaq chiau kou	1
 頂多勿超過	tin tou vaq chiau kou
 頂多個	tin tou goq
 頂多個	tin tou ghoq
@@ -6614,7 +6645,7 @@ use_preset_vocabulary: true
 嘸沒咋貌格	mhiq dza maq kaq	55
 嘸沒忖	mhiq tshen	418
 嘸沒忖着	mhiq tshen dzoq	578
-嘸沒忖着	mhiq tshen zyuq	55
+嘸沒忖着	mhiq tshen zoq	55
 嘸沒忖過	mhiq tshen kou	418
 嘸沒意志	mhiq i tsy	55
 嘸沒意思	mhiq i sy	418
@@ -6624,13 +6655,13 @@ use_preset_vocabulary: true
 嘸沒戲好拍	mhiq shi hau phaq	418
 嘸沒打	mhiq tan	55
 嘸沒尋着	mhiq zhin dzoq	418
-嘸沒尋着	mhiq zhin zyuq	55
+嘸沒尋着	mhiq zhin zoq	55
 嘸沒抄	mhiq tshau	55
 嘸沒把握	mhiq po oq	418
 嘸沒招	mhiq ciau	55
 嘸沒馱	mhiq dou	418
 嘸沒馱着	mhiq dou dzoq	418
-嘸沒馱着	mhiq dou zyuq	418
+嘸沒馱着	mhiq dou zoq	418
 嘸沒指望	mhiq tsy vaon	55
 嘸沒排	mhiq ba	55
 嘸沒接	mhiq ciq	418
@@ -6684,7 +6715,7 @@ use_preset_vocabulary: true
 嘸沒用	mhiq yon	55
 嘸沒用場	mhiq yon jian	418
 嘸沒用着	mhiq yon dzoq	418
-嘸沒用着	mhiq yon zyuq	418
+嘸沒用着	mhiq yon zoq	418
 嘸沒畫	mhiq wo	55
 嘸沒當	mhiq taon	418
 嘸沒病	mhiq bin	418
@@ -6810,9 +6841,9 @@ use_preset_vocabulary: true
 嘸沒第二句閒話	mhiq di gni ciu ghae wo	55
 嘸沒聯繫	mhiq li shi	418
 # 滰
-滰弗掉	jian vaq diau
+滰弗掉	jian vaq diau	1
 滰勿掉
-滰弗清	jian vaq chin
+滰弗清	jian vaq chin	1
 滰勿清
 滰清爽	jian chin saon
 滰了	jian laq
@@ -6847,12 +6878,10 @@ use_preset_vocabulary: true
 睏上去
 睏落來
 睏落去
-睏弗到	khuen vaq tau
+睏弗到	khuen vaq tau	1
 睏勿到
-睏弗好	khuen vaq hau
+睏弗好	khuen vaq hau	1
 睏勿好
-睏弗熟	khuen vaq zoq
-睏勿熟	khuen vaq zoq
 睏晝覺	khuen cieu kau
 睏了	khuen lei
 睏𡀂	khuen lei
@@ -6869,7 +6898,7 @@ use_preset_vocabulary: true
 睏前
 睏去
 睏𠲎
-睏弗	khuen vaq
+睏弗	khuen vaq	1
 睏勿
 睏勒
 睏好
@@ -6880,7 +6909,8 @@ use_preset_vocabulary: true
 睏懶覺
 睏法
 睏滿
-睏熟了	khuen zoq lei
+睏着了	khuen zoq lei
+睏着了	khuen dzoq lei
 睏睏
 睏睏覺	khuen khuen kau
 睏覺前	khuen kau zhi
@@ -6893,15 +6923,17 @@ use_preset_vocabulary: true
 睏醒
 睏長覺	khuen jian kau
 睏飽
+睏勒着	khuen laq zoq
+睏勒着	khuen laq dzoq
 # 立
 立上
 立上來
 立上去
-立弗牢	liq vaq lau
+立弗牢	liq vaq lau	1
 立勿牢
-立弗穩	liq vaq uen
+立弗穩	liq vaq uen	1
 立勿穩
-立弗起來	liq vaq chi le
+立弗起來	liq vaq chi le	1
 立勿起來
 立了	liq laq
 立牢	liq lau
@@ -6927,7 +6959,7 @@ use_preset_vocabulary: true
 嗅了	shion laq
 嗅嗅	shion shion
 嗅着	shion dzoq
-嗅着	shion zyuq
+嗅着	shion zoq
 # 欺侮
 欺侮	chi vu	4000
 欺侮人	chi vu gnin	700
@@ -7071,12 +7103,12 @@ use_preset_vocabulary: true
 趁上
 趁上去
 趁上仔
-趁弗上	chin vaq zaon
+趁弗上	chin vaq zaon	1
 趁勿上
 嘸沒趁上	mhiq chin zaon
 趁了	chin laq
 趁到
-趁弗到	chin vaq tau
+趁弗到	chin vaq tau	1
 趁勿到
 趁勒
 趁勒仔
@@ -7556,7 +7588,7 @@ use_preset_vocabulary: true
 # 落
 剩落
 弄落
-攎落
+擄落
 # 攔
 攔牢	laq lau	578
 攔勒牢	laq laq lau	418
@@ -7878,7 +7910,7 @@ use_preset_vocabulary: true
 蕩兩埭
 一埭金
 两埭银
-三埭弗笑是儇人	sae da vaq shiau zy huae gnin
+三埭弗笑是儇人	sae da vaq shiau zy huae gnin	1
 三埭勿笑是儇人	sae da vaq shiau zy huae gnin
 儇人	huae gnin
 儇囡	huae nhoe
@@ -7894,7 +7926,7 @@ use_preset_vocabulary: true
 㰵㰵
 㰵出來
 㰵勒出
-㰵弗出	tsyuq vaq tshyuq
+㰵弗出	tsyuq vaq tshyuq	1
 㰵勿出
 𠑞藥
 撒藥	dza yaq
@@ -8025,7 +8057,7 @@ use_preset_vocabulary: true
 𢪂𢪂其
 頭𢪂𢪂
 肉片撮着	gnioq phi tshaq dzoq
-肉片撮着	gnioq phi tshaq zyuq
+肉片撮着	gnioq phi tshaq zoq
 鐵卵脬
 橡皮卵脬
 抖抖卵脬
@@ -8100,18 +8132,20 @@ use_preset_vocabulary: true
 吐綻
 總歸是
 總是
+亂網
+亂網蟹
 # 八股文拆分詞彙
 〇兩	lin lian
 一九九兩	iq cieu cieu lian
 一兩三	iq lian sae
 一個勿小心	iq goq vaq shiau shin
 一個勿小心	iq ghoq vaq shiau shin
-一個弗小心	iq goq vaq shiau shin
-一個弗小心	iq ghoq vaq shiau shin
+一個弗小心	iq goq vaq shiau shin	1
+一個弗小心	iq ghoq vaq shiau shin	1
 一個巴掌拍勿響	iq goq po tsaon phaq vaq shian
 一個巴掌拍勿響	iq ghoq po tsaon phaq vaq shian
-一個巴掌拍弗響	iq goq po tsaon phaq vaq shian
-一個巴掌拍弗響	iq ghoq po tsaon phaq vaq shian
+一個巴掌拍弗響	iq goq po tsaon phaq vaq shian	1
+一個巴掌拍弗響	iq ghoq po tsaon phaq vaq shian	1
 一個心眼	iq goq shin ngae
 一個心眼	iq ghoq shin ngae
 一隻跟斗十萬八千里	iq tsaq ken teu zyuq vae paq chi li
@@ -8126,29 +8160,29 @@ use_preset_vocabulary: true
 一日一個樣	iq gniq iq goq yan
 一日一個樣	iq gniq iq ghoq yan
 一字勿差	iq zy vaq tsho
-一字弗差	iq zy vaq tsho
+一字弗差	iq zy vaq tsho	1
 一心兩用	iq shin lian yon
 一棍子打煞	iq kuen tsy tan saq
 一生受用勿盡	iq sen zhieu yon vaq jin
-一生受用弗盡	iq sen zhieu yon vaq jin
+一生受用弗盡	iq sen zhieu yon vaq jin	1
 一覺睏到天亮	iq kau khuen tau thi lian
 一覺睏到天亮	iq kau khuen tau thiq gnian
 一覺睏到大天亮	iq kau khuen tau dou thi lian
 一頭撞煞	iq deu dzaon saq
 一眼也	iq ngae gha
 一眼也勿	iq ngae gha vaq
-一眼也弗	iq ngae gha vaq
+一眼也弗	iq ngae gha vaq	1
 一眼也嘸沒	iq ngae gha mhiq
 一眼也	iq ngae ya
 一眼也勿	iq ngae ya vaq
-一眼也弗	iq ngae ya vaq
+一眼也弗	iq ngae ya vaq	1
 一眼也嘸沒	iq ngae ya mhiq
 七十兩	chiq zyuq lian
 七十兩行	chiq zyuq lian ghaon
 丈二和尚摸勿着頭腦	jian gni ghou zaon moq vaq dzoq deu nau
-丈二和尚摸弗着頭腦	jian gni ghou zaon moq vaq dzoq deu nau
-丈二和尚摸勿着頭腦	jian gni ghou zaon moq vaq zyuq deu nau
-丈二和尚摸弗着頭腦	jian gni ghou zaon moq vaq zyuq deu nau
+丈二和尚摸弗着頭腦	jian gni ghou zaon moq vaq dzoq deu nau	1
+丈二和尚摸勿着頭腦	jian gni ghou zaon moq vaq zoq deu nau
+丈二和尚摸弗着頭腦	jian gni ghou zaon moq vaq zoq deu nau	1
 三個和尚嘸沒水喝	sae goq ghou zaon mhiq syu haq
 三個和尚嘸沒水喝	sae ghoq ghou zaon mhiq syu haq
 三個和尚嘸沒水喫	sae goq ghou zaon mhiq syu chioq
@@ -8157,18 +8191,18 @@ use_preset_vocabulary: true
 三十兩	sae zyuq lian
 三十兩萬	sae zyuq lian vae
 三句勿離本行	sae ciu vaq li pen ghaon
-三句弗離本行	sae ciu vaq li pen ghaon
+三句弗離本行	sae ciu vaq li pen ghaon	1
 三句話勿離本行	sae ciu wo vaq li pen ghaon
-三句話弗離本行	sae ciu wo vaq li pen ghaon
+三句話弗離本行	sae ciu wo vaq li pen ghaon	1
 三房兩廳	sae vaon lian thin
 上落班時間	zaon loq pae zy ci
 上落班辰光	zaon loq pae zyun kuaon
 上勿了	zaon vaq liau
-上弗了	zaon vaq liau
+上弗了	zaon vaq liau	1
 上勿了臺面	zaon vaq liau de mi
-上弗了臺面	zaon vaq liau de mi
+上弗了臺面	zaon vaq liau de mi	1
 上勿去	zaon vaq chi
-上弗去	zaon vaq chi
+上弗去	zaon vaq chi	1
 上個禮拜	zaon goq li pa
 上個禮拜	zaon ghoq li pa
 上禮拜	zaon li pa
@@ -8177,11 +8211,11 @@ use_preset_vocabulary: true
 上癮頭	zaon gni deu
 上網辰光	zaon maon zyun kuaon
 下勿了	gho vaq liau
-下弗了	gho vaq liau
+下弗了	gho vaq liau	1
 下勿了臺	gho vaq liau de
-下弗了臺	gho vaq liau de
+下弗了臺	gho vaq liau de	1
 下勿去	gho vaq chi
-下弗去	gho vaq chi
+下弗去	gho vaq chi	1
 下個禮拜	gho goq li pa
 下個禮拜	gho ghoq li pa
 下禮拜	gho li pa
@@ -8190,328 +8224,328 @@ use_preset_vocabulary: true
 落課辰光	loq khou zyun kuaon
 跪落	jiu loq
 勿上去	vaq zaon chi
-弗上去	vaq zaon chi
+弗上去	vaq zaon chi	1
 勿下去	vaq gho chi
-弗下去	vaq gho chi
+弗下去	vaq gho chi	1
 勿落去	vaq loq chi
-弗落去	vaq loq chi
+弗落去	vaq loq chi	1
 勿乾淨	vaq ki-ke zhin
-弗乾淨	vaq ki-ke zhin
+弗乾淨	vaq ki-ke zhin	1
 勿乾脆	vaq ki-ke tshei
-弗乾脆	vaq ki-ke tshei
+弗乾脆	vaq ki-ke tshei	1
 勿乾裂	vaq ki-ke liq
-弗乾裂	vaq ki-ke liq
+弗乾裂	vaq ki-ke liq	1
 勿亞於	vaq ia yu
-弗亞於	vaq ia yu
+弗亞於	vaq ia yu	1
 勿交	vaq ciau
-弗交	vaq ciau
+弗交	vaq ciau	1
 勿交	vaq kau
-弗交	vaq kau
+弗交	vaq kau	1
 勿人道	vaq zyun dau
-弗人道	vaq zyun dau
+弗人道	vaq zyun dau	1
 勿介意	vaq ka i
-弗介意	vaq ka i
+弗介意	vaq ka i	1
 勿低於	vaq ti yu
-弗低於	vaq ti yu
+弗低於	vaq ti yu	1
 勿信任	vaq shin zyun
-弗信任	vaq shin zyun
+弗信任	vaq shin zyun	1
 勿做虧心事	vaq tsou khuei shin zy
-弗做虧心事	vaq tsou khuei shin zy
+弗做虧心事	vaq tsou khuei shin zy	1
 勿停	vaq din
-弗停	vaq din
+弗停	vaq din	1
 勿傷和氣	vaq saon ghou chi
-弗傷和氣	vaq saon ghou chi
+弗傷和氣	vaq saon ghou chi	1
 勿准問	vaq tsyun men
-弗准問	vaq tsyun men
+弗准問	vaq tsyun men	1
 勿出去	vaq tshyuq chi
-弗出去	vaq tshyuq chi
+弗出去	vaq tshyuq chi	1
 勿分	vaq fen
-弗分	vaq fen
+弗分	vaq fen	1
 勿分清紅皁白	vaq fen chin ghon zau baq
-弗分清紅皁白	vaq fen chin ghon zau baq
+弗分清紅皁白	vaq fen chin ghon zau baq	1
 勿利於	vaq li yu
-弗利於	vaq li yu
+弗利於	vaq li yu	1
 勿到長城非好漢	vaq tau jian jin fi hau he
-弗到長城非好漢	vaq tau jian jin fi hau he
+弗到長城非好漢	vaq tau jian jin fi hau he	1
 勿動了	vaq don lei
-弗動了	vaq don lei
+弗動了	vaq don lei	1
 勿區分大小寫	vaq chiu fen dou shiau shia
-弗區分大小寫	vaq chiu fen dou shiau shia
+弗區分大小寫	vaq chiu fen dou shiau shia	1
 勿升反降	vaq shin fae ciaon
-弗升反降	vaq shin fae ciaon
+弗升反降	vaq shin fae ciaon	1
 勿去睬	vaq chi tshe
-弗去睬	vaq chi tshe
+弗去睬	vaq chi tshe	1
 勿可再生資源	vaq khou tse sen tsy gniu
-弗可再生資源	vaq khou tse sen tsy gniu
-弗可分	vaq khou fen
+弗可再生資源	vaq khou tse sen tsy gniu	1
+弗可分	vaq khou fen	1
 勿可分	vaq khou fen
-弗可分割	vaq khou fen kaq
+弗可分割	vaq khou fen kaq	1
 勿可分割	vaq khou fen kaq
-弗可分離	vaq khou fen li
+弗可分離	vaq khou fen li	1
 勿可分離	vaq khou fen li
 勿喫虧	vaq chioq khuei
-弗喫虧	vaq chioq khuei
-弗問	vaq men
-弗問前因後果	vaq men zhi in gheu kou
-弗問好歹	vaq men hau te
-弗問是非曲直	vaq men zy fi chiuq jiq
-弗問青紅皁白	vaq men chin ghon zau baq
+弗喫虧	vaq chioq khuei	1
+弗問	vaq men	1
+弗問前因後果	vaq men zhi in gheu kou	1
+弗問好歹	vaq men hau te	1
+弗問是非曲直	vaq men zy fi chiuq jiq	1
+弗問青紅皁白	vaq men chin ghon zau baq	1
 勿問	vaq men
 勿問前因後果	vaq men zhi in gheu kou
 勿問好歹	vaq men hau te
 勿問是非曲直	vaq men zy fi chiuq jiq
 勿問青紅皁白	vaq men chin ghon zau baq
-弗單	vaq tae
+弗單	vaq tae	1
 勿單	vaq tae
 勿單是	vaq tae zy
-弗單是	vaq tae zy
+弗單是	vaq tae zy	1
 勿在家	vaq dze cia
-弗在家	vaq dze cia
+弗在家	vaq dze cia	1
 勿堪	vaq khae
 勿堪一擊	vaq khae iq ciq
-弗堪	vaq khae
-弗堪一擊	vaq khae iq ciq
+弗堪	vaq khae	1
+弗堪一擊	vaq khae iq ciq	1
 勿壞	vaq ua
-弗壞	vaq ua
-弗外乎	vaq nga wu
+弗壞	vaq ua	1
+弗外乎	vaq nga wu	1
 勿外乎	vaq nga wu
 勿多於	vaq tou yu
-弗多於	vaq tou yu
+弗多於	vaq tou yu	1
 勿大	vaq dou
-弗大	vaq dou
+弗大	vaq dou	1
 勿大勿小	vaq dou vaq shiau
-弗大弗小	vaq dou vaq shiau
+弗大弗小	vaq dou vaq shiau	1
 勿大好	vaq da hau
-弗大好	vaq da hau
+弗大好	vaq da hau	1
 嘸沒大好	mhiq da hau
 嘸沒咋好	mhiq dza hau
 勿大想	vaq da shian
-弗大想	vaq da shian
+弗大想	vaq da shian	1
 勿大忖	vaq da tshen
-弗大忖	vaq da tshen
+弗大忖	vaq da tshen	1
 勿咋忖	vaq dza tshen
-弗咋忖	vaq dza tshen
+弗咋忖	vaq dza tshen	1
 不大明白	paq da min baq
 不大會	paq da wei
 不大能	paq da nen
 勿大明白	vaq da min baq
 勿大會	vaq da wei
 勿大能	vaq da nen
-弗大明白	vaq da min baq
-弗大會	vaq da wei
-弗大能	vaq da nen
+弗大明白	vaq da min baq	1
+弗大會	vaq da wei	1
+弗大能	vaq da nen	1
 勿好了	vaq hau lei
-弗好了	vaq hau lei
+弗好了	vaq hau lei	1
 勿安分	vaq ei-e ven
-弗安分	vaq ei-e ven
+弗安分	vaq ei-e ven	1
 勿容易	vaq yon yi
-弗容易	vaq yon yi
+弗容易	vaq yon yi	1
 勿屬於	vaq dzoq yu
-弗屬於	vaq dzoq yu
+弗屬於	vaq dzoq yu	1
 勿差	vaq tsho
-弗差	vaq tsho
+弗差	vaq tsho	1
 勿干你	vaq ki-ke ng
-弗干你	vaq ki-ke ng
+弗干你	vaq ki-ke ng	1
 勿干爾	vaq ki-ke ng
-弗干爾	vaq ki-ke ng
+弗干爾	vaq ki-ke ng	1
 勿干俉	vaq ki-ke ng
-弗干俉	vaq ki-ke ng
+弗干俉	vaq ki-ke ng	1
 勿干儂	vaq ki-ke nou
-弗干儂	vaq ki-ke nou
+弗干儂	vaq ki-ke nou	1
 不幸中個大幸	paq yin tson goq da yin
 不幸中個大幸	paq yin tson ghoq da yin
 勿從	vaq dzon
-弗從	vaq dzon
+弗從	vaq dzon	1
 勿忘本	vaq vaon pen
-弗忘	vaq vaon
-弗忘本	vaq vaon pen
+弗忘	vaq vaon	1
+弗忘本	vaq vaon pen	1
 𣍐忘	vei vaon
 𣍐忘本	vei vaon pen
 勿快樂	vaq khua loq
 勿怕死	vaq pho shi
 勿怕嘸沒柴燒	vaq pho mhiq za shiau
 勿怕鬼敲門	vaq pho ciu khau men
-弗快樂	vaq khua loq
-弗怕死	vaq pho shi
-弗怕嘸沒柴燒	vaq pho mhiq za shiau
-弗怕鬼敲門	vaq pho ciu khau men
+弗快樂	vaq khua loq	1
+弗怕死	vaq pho shi	1
+弗怕嘸沒柴燒	vaq pho mhiq za shiau	1
+弗怕鬼敲門	vaq pho ciu khau men	1
 勿惜犧牲	vaq shiq shi sen
-弗惜犧牲	vaq shiq shi sen
+弗惜犧牲	vaq shiq shi sen	1
 勿愛你	vaq e gni
-弗愛你	vaq e gni
+弗愛你	vaq e gni	1
 勿愛你	vaq e ng
-弗愛你	vaq e ng
+弗愛你	vaq e ng	1
 勿愛爾	vaq e ng
-弗愛爾	vaq e ng
+弗愛爾	vaq e ng	1
 勿愛俉	vaq e ng
-弗愛俉	vaq e ng
+弗愛俉	vaq e ng	1
 勿愛儂	vaq e nou
-弗愛儂	vaq e nou
+弗愛儂	vaq e nou	1
 勿應該	vaq in ke
-弗應該	vaq in ke
+弗應該	vaq in ke	1
 勿懷	vaq wae
 勿懷好意	vaq wae hau i
-弗懷	vaq wae
-弗懷好意	vaq wae hau i
+弗懷	vaq wae	1
+弗懷好意	vaq wae hau i	1
 勿懷	vaq wa
 勿懷好意	vaq wa hau i
-弗懷	vaq wa
-弗懷好意	vaq wa hau i
+弗懷	vaq wa	1
+弗懷好意	vaq wa hau i	1
 勿成問題	vaq jin ven di
 勿成材	vaq jin dze
-弗成問題	vaq jin ven di
-弗成材	vaq jin dze
+弗成問題	vaq jin ven di	1
+弗成材	vaq jin dze	1
 勿戴	vaq ta
-弗戴	vaq ta
+弗戴	vaq ta	1
 勿戴	vaq te
-弗戴	vaq te
+弗戴	vaq te	1
 勿早了	vaq tsau lei
-弗早了	vaq tsau lei
+弗早了	vaq tsau lei	1
 勿明確	vaq min chiuq
-弗明確	vaq min chiuq
+弗明確	vaq min chiuq	1
 勿是一個	vaq zy iq goq
 勿是一個	vaq zy iq ghoq
-弗是一個	vaq zy iq goq
-弗是一個	vaq zy iq ghoq
+弗是一個	vaq zy iq goq	1
+弗是一個	vaq zy iq ghoq	1
 勿是儂	vaq zy nou
-弗是儂	vaq zy nou
+弗是儂	vaq zy nou	1
 勿是俉	vaq zy ng
-弗是俉	vaq zy ng
+弗是俉	vaq zy ng	1
 勿是爾	vaq zy ng
-弗是爾	vaq zy ng
+弗是爾	vaq zy ng	1
 勿是其他人	vaq zy ji tha gnin
 勿是其它人	vaq zy ji tha gnin
-弗是其他人	vaq zy ji tha gnin
-弗是其它人	vaq zy ji tha gnin
+弗是其他人	vaq zy ji tha gnin	1
+弗是其它人	vaq zy ji tha gnin	1
 勿是嘸沒	vaq zy mhiq
-弗是嘸沒	vaq zy mhiq
+弗是嘸沒	vaq zy mhiq	1
 勿是滋味	vaq zy tsy vi
-弗是滋味	vaq zy tsy vi
+弗是滋味	vaq zy tsy vi	1
 勿更事	vaq ken zy
-弗更事	vaq ken zy
+弗更事	vaq ken zy	1
 勿曾	vaq dzen
 勿曾在	vaq dzen dze
 勿曾來	vaq dzen le
 勿曾有	vaq dzen yeu
 勿曾有過	vaq dzen yeu kou
-弗曾	vaq dzen
-弗曾在	vaq dzen dze
-弗曾來	vaq dzen le
-弗曾有	vaq dzen yeu
-弗曾有過	vaq dzen yeu kou
+弗曾	vaq dzen	1
+弗曾在	vaq dzen dze	1
+弗曾來	vaq dzen le	1
+弗曾有	vaq dzen yeu	1
+弗曾有過	vaq dzen yeu kou	1
 勿會忘記	vaq wei maon ci
-弗會忘記	vaq wei maon ci
+弗會忘記	vaq wei maon ci	1
 𣍐忘記	vei maon ci
 勿樂	vaq loq
 勿樂於	vaq loq yu
 勿樂觀	vaq loq kun
-弗樂	vaq loq
-弗樂於	vaq loq yu
-弗樂觀	vaq loq kun
+弗樂	vaq loq	1
+弗樂於	vaq loq yu	1
+弗樂觀	vaq loq kun	1
 勿止於此	vaq tsy yu tshy
-弗止於此	vaq tsy yu tshy
+弗止於此	vaq tsy yu tshy	1
 勿正常狀況	vaq cin dzaon dzaon huaon
-弗正常狀況	vaq cin dzaon dzaon huaon
+弗正常狀況	vaq cin dzaon dzaon huaon	1
 勿正當競爭	vaq cin taon jin tsen
-弗正當競爭	vaq cin taon jin tsen
+弗正當競爭	vaq cin taon jin tsen	1
 勿正確	vaq cin chiuq
-弗正確	vaq cin chiuq
+弗正確	vaq cin chiuq	1
 勿死	vaq shi
 勿死勿活	vaq shi vaq waq
 勿死心	vaq sy shin
-弗死	vaq shi
-弗死弗活	vaq shi vaq waq
-弗死心	vaq sy shin
+弗死	vaq shi	1
+弗死弗活	vaq shi vaq waq	1
+弗死心	vaq sy shin	1
 勿爭氣	vaq tsan chi
-弗爭氣	vaq tsan chi
+弗爭氣	vaq tsan chi	1
 勿生	vaq san
-弗生	vaq san
+弗生	vaq san	1
 勿當人	vaq taon gnin
-弗當人	vaq taon gnin
+弗當人	vaq taon gnin	1
 勿登大雅之堂	vaq ten da ia tsy daon
-弗登大雅之堂	vaq ten da ia tsy daon
+弗登大雅之堂	vaq ten da ia tsy daon	1
 勿發達國家	vaq faq daq koq cia
-弗發達國家	vaq faq daq koq cia
+弗發達國家	vaq faq daq koq cia	1
 勿省人事	vaq shin zyun zy
-弗省人事	vaq shin zyun zy
+弗省人事	vaq shin zyun zy	1
 勿真勿假	vaq cin vaq ko
-弗真弗假	vaq cin vaq ko
+弗真弗假	vaq cin vaq ko	1
 勿着	vaq jiaq
 勿着	vaq dzoq
-勿着	vaq zyuq
-弗着	vaq jiaq
-弗着	vaq dzoq
-弗着	vaq zyuq
+勿着	vaq zoq
+弗着	vaq jiaq	1
+弗着	vaq dzoq	1
+弗着	vaq zoq	1
 勿急	vaq ciq
-弗急	vaq ciq
+弗急	vaq ciq	1
 勿着痕跡	vaq dzoq ghen ciq
 勿着邊際	vaq dzoq pi ci
 勿着陸飛行	vaq dzoq loq fi yin
-勿着痕跡	vaq zyuq ghen ciq
-勿着邊際	vaq zyuq pi ci
-勿着陸飛行	vaq zyuq loq fi yin
-弗着痕跡	vaq dzoq ghen ciq
-弗着邊際	vaq dzoq pi ci
-弗着陸飛行	vaq dzoq loq fi yin
-弗着痕跡	vaq zyuq ghen ciq
-弗着邊際	vaq zyuq pi ci
-弗着陸飛行	vaq zyuq loq fi yin
+勿着痕跡	vaq zoq ghen ciq
+勿着邊際	vaq zoq pi ci
+勿着陸飛行	vaq zoq loq fi yin
+弗着痕跡	vaq dzoq ghen ciq	1
+弗着邊際	vaq dzoq pi ci	1
+弗着陸飛行	vaq dzoq loq fi yin	1
+弗着痕跡	vaq zoq ghen ciq	1
+弗着邊際	vaq zoq pi ci	1
+弗着陸飛行	vaq zoq loq fi yin	1
 勿睏覺	vaq khuen kau
-弗睏覺	vaq khuen kau
+弗睏覺	vaq khuen kau	1
 勿瞭解	vaq liau ka
 勿瞭解	vaq liau cia
-弗瞭解	vaq liau ka
-弗瞭解	vaq liau cia
+弗瞭解	vaq liau ka	1
+弗瞭解	vaq liau cia	1
 勿曉得啥原因	vaq shiau taq so gniu in
 勿曉得啥原因	vaq shiau taq soq gniu in
 勿曉得啥原因	vaq shiau taq sou gniu in
-弗曉得啥原因	vaq shiau taq so gniu in
-弗曉得啥原因	vaq shiau taq soq gniu in
-弗曉得啥原因	vaq shiau taq sou gniu in
+弗曉得啥原因	vaq shiau taq so gniu in	1
+弗曉得啥原因	vaq shiau taq soq gniu in	1
+弗曉得啥原因	vaq shiau taq sou gniu in	1
 勿知去向	vaq tsyu chiu shian
-弗知去向	vaq tsyu chiu shian
+弗知去向	vaq tsyu chiu shian	1
 勿科學	vaq khou yuq
-弗科學	vaq khou yuq
+弗科學	vaq khou yuq	1
 勿等價交換	vaq ten ko ciau wun
-弗等價交換	vaq ten ko ciau wun
+弗等價交換	vaq ten ko ciau wun	1
 勿等於	vaq ten yu
-弗等於	vaq ten yu
+弗等於	vaq ten yu	1
 勿管三七廿一	vaq kun sae chiq ne-gnie iq
-弗管三七廿一	vaq kun sae chiq ne-gnie iq
+弗管三七廿一	vaq kun sae chiq ne-gnie iq	1
 勿簡單	vaq ci tae
-弗簡單	vaq ci tae
+弗簡單	vaq ci tae	1
 勿習慣	vaq zhiq kuae
 勿習慣	vaq zyuq kuae
-弗習慣	vaq zhiq kuae
-弗習慣	vaq zyuq kuae
+弗習慣	vaq zhiq kuae	1
+弗習慣	vaq zyuq kuae	1
 勿肯去	vaq khen chi
-弗肯去	vaq khen chi
+弗肯去	vaq khen chi	1
 忘記勿來	maon ci vaq le
 定勿落來	din vaq loq le
-忘記弗來	maon ci vaq le
-定弗落來	din vaq loq le
+忘記弗來	maon ci vaq le	1
+定弗落來	din vaq loq le	1
 勿自	vaq zy
 勿自由	vaq zy yeu
 勿自覺	vaq zy ciuq
-弗自	vaq zy
-弗自由	vaq zy yeu
-弗自覺	vaq zy ciuq
+弗自	vaq zy	1
+弗自由	vaq zy yeu	1
+弗自覺	vaq zy ciuq	1
 勿至於	vaq tsy yu
 勿致於	vaq tsy yu
-弗至於	vaq tsy yu
-弗致於	vaq tsy yu
+弗至於	vaq tsy yu	1
+弗致於	vaq tsy yu	1
 勿良習慣	vaq lian zhiq kuae
 勿良習慣	vaq lian zyuq kuae
-弗良習慣	vaq lian zhiq kuae
-弗良習慣	vaq lian zyuq kuae
+弗良習慣	vaq lian zhiq kuae	1
+弗良習慣	vaq lian zyuq kuae	1
 勿虧	vaq khuei
 勿行	vaq yin
 勿行了	vaq yin lei
 勿被	vaq bei
-弗虧	vaq khuei
-弗行	vaq yin
-弗行了	vaq yin lei
-弗被	vaq bei
+弗虧	vaq khuei	1
+弗行	vaq yin	1
+弗行了	vaq yin lei	1
+弗被	vaq bei	1
 覅去	fe chi
 𧟰去	fe chi
 莫去	mhau chi
@@ -8525,96 +8559,96 @@ use_preset_vocabulary: true
 勿見天日	vaq ci thi zyuq
 勿見棺材勿掉淚	vaq ci kun ze vaq diau lei
 勿見棺材勿落淚	vaq ci kun ze vaq loq lei
-弗見天日	vaq ci thi zyuq
-弗見棺材弗掉淚	vaq ci kun ze vaq diau lei
-弗見棺材弗落淚	vaq ci kun ze vaq loq lei
+弗見天日	vaq ci thi zyuq	1
+弗見棺材弗掉淚	vaq ci kun ze vaq diau lei	1
+弗見棺材弗落淚	vaq ci kun ze vaq loq lei	1
 勿見經傳	vaq ci cin dzoe
 勿覺	vaq ciuq
 勿覺察	vaq ciuq tshaq
 勿覺得	vaq ciuq taq
-弗見經傳	vaq ci cin dzoe
-弗覺	vaq ciuq
-弗覺察	vaq ciuq tshaq
-弗覺得	vaq ciuq taq
+弗見經傳	vaq ci cin dzoe	1
+弗覺	vaq ciuq	1
+弗覺察	vaq ciuq tshaq	1
+弗覺得	vaq ciuq taq	1
 勿該	vaq ke
-弗該	vaq ke
+弗該	vaq ke	1
 勿認	vaq gnin
 勿認人	vaq gnin gnin
 勿認帳	vaq gnin cian
 勿認賬	vaq gnin cian
-弗認	vaq gnin
-弗認人	vaq gnin gnin
-弗認帳	vaq gnin cian
-弗認賬	vaq gnin cian
+弗認	vaq gnin	1
+弗認人	vaq gnin gnin	1
+弗認帳	vaq gnin cian	1
+弗認賬	vaq gnin cian	1
 勿誤	vaq nu
-弗誤	vaq nu
+弗誤	vaq nu	1
 勿誤	vaq wu
-弗誤	vaq wu
+弗誤	vaq wu	1
 勿調和	vaq diau ghou
-弗調和	vaq diau ghou
+弗調和	vaq diau ghou	1
 勿請自來	vaq chin zy le
-弗請自來	vaq chin zy le
+弗請自來	vaq chin zy le	1
 勿讓人	vaq gnian gnin
-弗讓人	vaq gnian gnin
+弗讓人	vaq gnian gnin	1
 勿讓鬚眉	vaq gnian syu mei
-弗讓鬚眉	vaq gnian syu mei
+弗讓鬚眉	vaq gnian syu mei	1
 勿負責任	vaq veu tsaq zyun
-弗負責任	vaq veu tsaq zyun
+弗負責任	vaq veu tsaq zyun	1
 勿負責任	vaq veu tsaq gnin
-弗負責任	vaq veu tsaq gnin
+弗負責任	vaq veu tsaq gnin	1
 勿貴	vaq ciu
-弗貴	vaq ciu
+弗貴	vaq ciu	1
 勿費吹灰之力	vaq fi tshei huei tsy liq
-弗費吹灰之力	vaq fi tshei huei tsy liq
+弗費吹灰之力	vaq fi tshei huei tsy liq	1
 勿跟人	vaq ken gnin
-弗跟人	vaq ken gnin
+弗跟人	vaq ken gnin	1
 勿透明水彩畫	vaq theu min syu tshe wo
-弗透明水彩畫	vaq theu min syu tshe wo
+弗透明水彩畫	vaq theu min syu tshe wo	1
 勿透水	vaq theu syu
-弗透水	vaq theu syu
+弗透水	vaq theu syu	1
 勿進去	vaq cin chi
 勿過去	vaq kou chi
-弗進去	vaq cin chi
-弗過去	vaq kou chi
+弗進去	vaq cin chi	1
+弗過去	vaq kou chi	1
 勿遲	vaq dzy
 勿遲	vaq ji
-弗遲	vaq dzy
-弗遲	vaq ji
+弗遲	vaq dzy	1
+弗遲	vaq ji	1
 勿長	vaq cian
 勿長	vaq jian
-弗長	vaq cian
-弗長	vaq jian
+弗長	vaq cian	1
+弗長	vaq jian	1
 勿長一智	vaq cian iq tsyu
-弗長一智	vaq cian iq tsyu
+弗長一智	vaq cian iq tsyu	1
 勿長勿短	vaq cian vaq toe
-弗長弗短	vaq cian vaq toe
+弗長弗短	vaq cian vaq toe	1
 勿間斷	vaq ci doe
 勿間斷電源	vaq ci doe di gniu
-弗間斷	vaq ci doe
-弗間斷電源	vaq ci doe di gniu
+弗間斷	vaq ci doe	1
+弗間斷電源	vaq ci doe di gniu	1
 勿防	vaq baon
-弗防	vaq baon
+弗防	vaq baon	1
 勿防	vaq vaon
-弗防	vaq vaon
+弗防	vaq vaon	1
 勿降	vaq ghaon
 勿降	vaq ciaon
 勿降反升	vaq ciaon fae shin
-弗降	vaq ghaon
-弗降	vaq ciaon
-弗降反升	vaq ciaon fae shin
+弗降	vaq ghaon	1
+弗降	vaq ciaon	1
+弗降反升	vaq ciaon fae shin	1
 勿限於	vaq ghae yu
-弗限於	vaq ghae yu
+弗限於	vaq ghae yu	1
 勿飽和	vaq pau ghou
 勿飽和脂肪酸	vaq pau ghou tsy faon soe
-弗飽和	vaq pau ghou
-弗飽和脂肪酸	vaq pau ghou tsy faon soe
+弗飽和	vaq pau ghou	1
+弗飽和脂肪酸	vaq pau ghou tsy faon soe	1
 世界上頂	syu ka zaon tin
 世界頂大	syu ka tin dou
 世界個語言	syu ka goq gniu yi
 世界個語言	syu ka ghoq gniu yi
 丟落去	tieu loq chi
 並勿在乎	bin vaq dze wu
-並弗在乎	bin vaq dze wu
+並弗在乎	bin vaq dze wu	1
 中國頂大	tson koq tin dou
 之兩	tsy lian
 九萬兩千	cieu vae lian chi
@@ -8622,7 +8656,7 @@ use_preset_vocabulary: true
 也嘸沒	ya mhiq
 乾淨不乾淨	ki-ke zhin paq ki-ke zhin
 清爽勿清爽	chin saon vaq chin saon
-清爽弗清爽	chin saon vaq chin saon
+清爽弗清爽	chin saon vaq chin saon	1
 乾乾個	ki-ke ki-ke goq
 乾乾個	ki-ke ki-ke ghoq
 乾坐的	ki-ke zou tiq
@@ -8652,9 +8686,9 @@ use_preset_vocabulary: true
 了勿得	liau vaq taq
 了勿成	liau vaq jin
 了勿起	liau vaq chi
-了弗得	liau vaq taq
-了弗成	liau vaq jin
-了弗起	liau vaq chi
+了弗得	liau vaq taq	1
+了弗成	liau vaq jin	1
+了弗起	liau vaq chi	1
 兩〇	lian lin
 兩〇〇九	lian lin lin cieu
 兩〇〇八	lian lin lin paq
@@ -8794,7 +8828,7 @@ use_preset_vocabulary: true
 兩號電池	lian ghau di dzy
 兩街	lian ka
 二話勿講	gni wo vaq kaon
-二話弗講	gni wo vaq kaon
+二話弗講	gni wo vaq kaon	1
 兩讀	lian doq
 兩踢腳	lian thiq ciaq
 兩輪電影	lian len di in
@@ -8834,8 +8868,8 @@ use_preset_vocabulary: true
 亮的	lian tiq
 人勿	gnin vaq
 人勿像人	gnin vaq zhian gnin
-人弗	gnin vaq
-人弗像人	gnin vaq zhian gnin
+人弗	gnin vaq	1
+人弗像人	gnin vaq zhian gnin	1
 人莫哭	gnin mau khoq
 人莫哭	gnin mhau khoq
 人喫人	gnin chioq gnin
@@ -8847,21 +8881,21 @@ use_preset_vocabulary: true
 人心是肉做個	gnin shin zy gnioq tsou ghoq
 人手勿足	gnin shieu vaq tsoq
 人手勿足	zyun shieu vaq tsoq
-人手弗足	gnin shieu vaq tsoq
-人手弗足	zyun shieu vaq tsoq
+人手弗足	gnin shieu vaq tsoq	1
+人手弗足	zyun shieu vaq tsoq	1
 人數頂多	gnin su ten tou
 人比人氣煞人	gnin pi gnin chi saq gnin
 人生地勿熟	gnin san di vaq zoq
-人生地弗熟	gnin san di vaq zoq
+人生地弗熟	gnin san di vaq zoq	1
 人生路勿熟	gnin san lu vaq zoq
 人生面勿熟	gnin san mi vaq zoq
-人生路弗熟	gnin san lu vaq zoq
-人生面弗熟	gnin san mi vaq zoq
+人生路弗熟	gnin san lu vaq zoq	1
+人生面弗熟	gnin san mi vaq zoq	1
 人個	gnin goq
 人個	gnin ghoq
 人曉得	gnin shiau taq
 人算勿如天算	gnin soe vaq zyu thi soe
-人算弗如天算	gnin soe vaq zyu thi soe
+人算弗如天算	gnin soe vaq zyu thi soe	1
 人講	gnin kaon
 啥問題	soq ven di
 啥問題	so ven di
@@ -8926,7 +8960,7 @@ use_preset_vocabulary: true
 伸落去	shin loq chi
 伸勒	shin laq
 伸手勿見五指	shin shieu vaq ci ng tsy
-伸手弗見五指	shin shieu vaq ci ng tsy
+伸手弗見五指	shin shieu vaq ci ng tsy	1
 但爾	dae ng
 但俉	dae ng
 但儂	dae nou
@@ -8944,10 +8978,10 @@ use_preset_vocabulary: true
 佔勒	tsoe laq
 作賤自家	tsoq zhi zhi ko
 你勿	ng vaq
-你弗	ng vaq
+你弗	ng vaq	1
 你嘸沒來的	ng mhiq le tiq
 你勿是	ng vaq zy
-你弗是	ng vaq zy
+你弗是	ng vaq zy	1
 倷倆	naq lian
 倷好	naq hau
 你搭	ng taq
@@ -8956,7 +8990,7 @@ use_preset_vocabulary: true
 你忒	ng thou
 你好𠲎	ng hau va
 你好𠲎	ng hau vaq
-你好弗	ng hau vaq
+你好弗	ng hau vaq	1
 你好勿	ng hau vaq
 倷阿姆	naq a m
 倷阿姆	naq an m
@@ -8984,7 +9018,7 @@ use_preset_vocabulary: true
 你是話	ng zy wo
 你囥	ng khaon
 你覺着	ng koq dzoq
-你覺着	ng koq zyuq
+你覺着	ng koq zoq
 你講我	ng kaon ngo
 你講的	ng kaon tiq
 你講個	ng kaon goq
@@ -9000,10 +9034,10 @@ use_preset_vocabulary: true
 你話過	ng wo kou
 爾一	ng iq
 爾勿	ng vaq
-爾弗	ng vaq
+爾弗	ng vaq	1
 爾嘸沒來的	ng mhiq le tiq
 爾勿是	ng vaq zy
-爾弗是	ng vaq zy
+爾弗是	ng vaq zy	1
 爾也	ng gha
 爾乾一杯	ng ki-ke iq pei
 爾以爲	ng yi wei
@@ -9024,7 +9058,7 @@ use_preset_vocabulary: true
 爾好啊	ng hau a
 爾好𠲎	ng hau va
 爾好𠲎	ng hau vaq
-爾好弗	ng hau vaq
+爾好弗	ng hau vaq	1
 爾好勿	ng hau vaq
 爾將	ng cian
 爾對	ng tei
@@ -9082,7 +9116,7 @@ use_preset_vocabulary: true
 爾要	ng iau
 爾覺得	ng ciuq taq
 爾覺着	ng koq dzoq
-爾覺着	ng koq zyuq
+爾覺着	ng koq zoq
 爾該	ng ke
 爾講	ng kaon
 爾講我	ng kaon ngo
@@ -9106,10 +9140,10 @@ use_preset_vocabulary: true
 爾還會	ng gha wei
 俉一	ng iq
 俉勿	ng vaq
-俉弗	ng vaq
+俉弗	ng vaq	1
 俉嘸沒來的	ng mhiq le tiq
 俉勿是	ng vaq zy
-俉弗是	ng vaq zy
+俉弗是	ng vaq zy	1
 俉也	ng gha
 俉乾一杯	ng ki-ke iq pei
 俉以爲	ng yi wei
@@ -9131,7 +9165,7 @@ use_preset_vocabulary: true
 俉好啊	ng hau a
 俉好𠲎	ng hau va
 俉好𠲎	ng hau vaq
-俉好弗	ng hau vaq
+俉好弗	ng hau vaq	1
 俉好勿	ng hau vaq
 俉將	ng cian
 俉對	ng tei
@@ -9190,7 +9224,7 @@ use_preset_vocabulary: true
 俉要	ng iau
 俉覺得	ng ciuq taq
 俉覺着	ng koq dzoq
-俉覺着	ng koq zyuq
+俉覺着	ng koq zoq
 俉該	ng ke
 俉講	ng kaon
 俉講我	ng kaon ngo
@@ -9215,10 +9249,10 @@ use_preset_vocabulary: true
 儂走儂的陽關道	nou tseu nou tiq yan kuae dau
 儂一	nou iq
 儂勿	nou vaq
-儂弗	nou vaq
+儂弗	nou vaq	1
 儂嘸沒來的	nou mhiq le tiq
 儂勿是	nou vaq zy
-儂弗是	nou vaq zy
+儂弗是	nou vaq zy	1
 儂也	nou gha
 儂乾一杯	nou ki-ke iq pei
 儂以爲	nou yi wei
@@ -9239,7 +9273,7 @@ use_preset_vocabulary: true
 儂好啊	nou hau a
 儂好𠲎	nou hau va
 儂好𠲎	nou hau vaq
-儂好弗	nou hau vaq
+儂好弗	nou hau vaq	1
 儂好勿	nou hau vaq
 儂將	nou cian
 儂對	nou tei
@@ -9305,7 +9339,7 @@ use_preset_vocabulary: true
 儂要	nou iau
 儂覺得	nou ciuq taq
 儂覺着	nou koq dzoq
-儂覺着	nou koq zyuq
+儂覺着	nou koq zoq
 儂該	nou ke
 儂講	nou kaon
 儂講我	nou kaon ngo
@@ -9367,8 +9401,8 @@ use_preset_vocabulary: true
 倒也勿	tau gha vaq
 倒也勿是	tau gha vaq zy
 倒也𣍐	tau gha vei
-倒也弗	tau gha vaq
-倒也弗是	tau gha vaq zy
+倒也弗	tau gha vaq	1
+倒也弗是	tau gha vaq zy	1
 倚靠勒	i khau laq
 隑勒	ge laq
 借勒	cia laq
@@ -9389,9 +9423,9 @@ use_preset_vocabulary: true
 做一日和尚撞一日鐘	tsou iq gniq ghou zaon dzaon iq gniq tson
 做落去	tsou loq chi
 做勿了	tsou vaq liau
-做弗了	tsou vaq liau
+做弗了	tsou vaq liau	1
 做勿來	tsou vaq le
-做弗來	tsou vaq le
+做弗來	tsou vaq le	1
 做勒來	tsou laq le
 做勒更好	tsou laq ken hau
 做自家	tsou zhi ko
@@ -9400,18 +9434,18 @@ use_preset_vocabulary: true
 停落去	din loq chi
 停勿落	din vaq loq
 停勿落來	din vaq loq le
-停弗落	din vaq loq
-停弗落來	din vaq loq le
+停弗落	din vaq loq	1
+停弗落來	din vaq loq le	1
 停勿牢	din vaq lau
-停弗牢	din vaq lau
+停弗牢	din vaq lau	1
 停牢	din lau
 停勒	din laq
 停放勒	din faon laq
 停止落來	din tsy loq le
 停滯勿前	din dzy vaq zhi
-停滯弗前	din dzy vaq zhi
+停滯弗前	din dzy vaq zhi	1
 停滯勿前	din ji vaq zhi
-停滯弗前	din ji vaq zhi
+停滯弗前	din ji vaq zhi	1
 停留勒	din lieu laq
 停留辰光	din lieu zyun kuaon
 停靠勒	din khau laq
@@ -9423,7 +9457,7 @@ use_preset_vocabulary: true
 傳落來	dzoe loq le
 傳落去	dzoe loq chi
 傳勿到	dzoe vaq tau
-傳弗到	dzoe vaq tau
+傳弗到	dzoe vaq tau	1
 傳授撥	dzoe zhieu paq
 傳播撥	dzoe pou paq
 傳染撥	dzoe gni paq
@@ -9437,9 +9471,9 @@ use_preset_vocabulary: true
 像爾	zhian ng
 像儂	zhian nou
 僵持勿落	cian ji vaq loq
-僵持弗落	cian ji vaq loq
+僵持弗落	cian ji vaq loq	1
 僵持勿落	cian dzy vaq loq
-僵持弗落	cian dzy vaq loq
+僵持弗落	cian dzy vaq loq	1
 兄弟姊妹	shion di ci mei
 先落去	shi loq chi
 光兩極管	kuaon lian jiq kun
@@ -9447,9 +9481,9 @@ use_preset_vocabulary: true
 光電兩極	kuaon di lian jiq
 光電兩極管	kuaon di lian jiq kun
 克服勿了	khaq voq vaq liau
-克服弗了	khaq voq vaq liau
+克服弗了	khaq voq vaq liau	1
 免勿了	mi vaq liau
-免弗了	mi vaq liau
+免弗了	mi vaq liau	1
 內容搭形式	nei yon taq yin shiq
 內生個	nei sen goq
 內生個	nei sen ghoq
@@ -9458,47 +9492,47 @@ use_preset_vocabulary: true
 兩個小人	lian goq shiau gnin
 兩個小人	lian ghoq shiau gnin
 兩面勿是人	lian mi vaq zy gnin
-兩面弗是人	lian mi vaq zy gnin
+兩面弗是人	lian mi vaq zy gnin	1
 八字嘸沒一撇	paq zy mhiq iq phiq
 八字眉毛	paq zy mi mau
 八字還嘸沒一撇	paq zy wa mhiq iq phiq
 八號上半日	paq ghau zaon pun gniq
 八號下半日	paq ghau gho pun gniq
 八竿子打勿着	paq ki-ke tsy tan vaq dzoq
-八竿子打勿着	paq ki-ke tsy tan vaq zyuq
-八竿子打弗着	paq ki-ke tsy tan vaq dzoq
-八竿子打弗着	paq ki-ke tsy tan vaq zyuq
+八竿子打勿着	paq ki-ke tsy tan vaq zoq
+八竿子打弗着	paq ki-ke tsy tan vaq dzoq	1
+八竿子打弗着	paq ki-ke tsy tan vaq zoq	1
 公私勿分	kon sy vaq fen
-公私弗分	kon sy vaq fen
+公私弗分	kon sy vaq fen	1
 再落去	tse loq chi
 再勿去	tse vaq chi
-再弗去	tse vaq chi
+再弗去	tse vaq chi	1
 再也勿	tse gha vaq
-再也弗	tse gha vaq
+再也弗	tse gha vaq	1
 再也𣍐	tse gha vei
 再也勿是	tse gha vaq zy
 再也勿會	tse gha vaq wei
 再也勿肯	tse gha vaq khen
 再也勿能	tse gha vaq nen
-再也弗是	tse gha vaq zy
-再也弗會	tse gha vaq wei
-再也弗肯	tse gha vaq khen
-再也弗能	tse gha vaq nen
+再也弗是	tse gha vaq zy	1
+再也弗會	tse gha vaq wei	1
+再也弗肯	tse gha vaq khen	1
+再也弗能	tse gha vaq nen	1
 再也嘸沒	tse gha mhiq
 再也勿	tse ya vaq
-再也弗	tse ya vaq
+再也弗	tse ya vaq	1
 再也𣍐	tse ya vei
 再也勿是	tse ya vaq zy
 再也勿會	tse ya vaq wei
 再也勿肯	tse ya vaq khen
 再也勿能	tse ya vaq nen
-再也弗是	tse ya vaq zy
-再也弗會	tse ya vaq wei
-再也弗肯	tse ya vaq khen
-再也弗能	tse ya vaq nen
+再也弗是	tse ya vaq zy	1
+再也弗會	tse ya vaq wei	1
+再也弗肯	tse ya vaq khen	1
+再也弗能	tse ya vaq nen	1
 再也嘸沒	tse ya mhiq
 再好也勿過	tse hau gha vaq kou
-再好也弗過	tse hau gha vaq kou
+再好也弗過	tse hau gha vaq kou	1
 再馱	tse dou
 再嘸沒	tse mhiq
 再講落去	tse kaon loq chi
@@ -9513,7 +9547,7 @@ use_preset_vocabulary: true
 凸的	daq tiq
 凸仔	daq tsy
 出勿了	tshyuq vaq liau
-出弗了	tshyuq vaq liau
+出弗了	tshyuq vaq liau	1
 出仔	tshyuq tsy
 出仔事體	tshyuq tsy zy thi
 出海抲魚	tshyuq he kho ng
@@ -9521,10 +9555,10 @@ use_preset_vocabulary: true
 分勿清	fen vaq chin
 分勿清爽	fen vaq chin saon
 分勿開	fen vaq khe
-分弗出	fen vaq tshyuq
-分弗清	fen vaq chin
-分弗清爽	fen vaq chin saon
-分弗開	fen vaq khe
+分弗出	fen vaq tshyuq	1
+分弗清	fen vaq chin	1
+分弗清爽	fen vaq chin saon	1
+分弗開	fen vaq khe	1
 分喫	fen chioq
 分勒出	fen laq tshyuq
 分勒到	fen laq tau
@@ -9532,7 +9566,7 @@ use_preset_vocabulary: true
 分發撥	fen faq paq
 分鈔票	fen tshau phiau
 划勿來	waq vaq le
-划弗來	waq vaq le
+划弗來	waq vaq le	1
 划勒	uo laq
 划勒走	uo laq tseu
 初戀個感覺	tshu li goq ki-ke ciuq
@@ -9576,7 +9610,7 @@ use_preset_vocabulary: true
 刮落去	kuaq loq chi
 刮勒	kuaq laq
 到勿了	tau vaq liau
-到弗了	tau vaq liau
+到弗了	tau vaq liau	1
 到俉	tau ng
 到爾	tau ng
 到儂	tau nou
@@ -9602,9 +9636,9 @@ use_preset_vocabulary: true
 努力落去	nu liq loq chi
 勒煞	laq saq
 動勿了	don vaq liau
-動弗了	don vaq liau
+動弗了	don vaq liau	1
 動勿來	don vaq le
-動弗來	don vaq le
+動弗來	don vaq le	1
 包落去	pau loq chi
 十一個月	zyuq iq kou yuq
 十七個月	zyuq chiq kou yuq
@@ -9632,11 +9666,11 @@ use_preset_vocabulary: true
 卻嘸沒	chiaq mhiq
 去勿了	chi vaq liau
 去勿成	chi vaq jin
-去弗了	chi vaq liau
-去弗成	chi vaq jin
+去弗了	chi vaq liau	1
+去弗成	chi vaq jin	1
 去𠲎	chi va
 去𠲎	chi vaq
-去弗	chi vaq
+去弗	chi vaq	1
 去勿	chi vaq
 去滰	chi jian
 去個	chi goq
@@ -9647,12 +9681,12 @@ use_preset_vocabulary: true
 又嘸沒	yeu mhiq
 又嘸沒	yi mhiq
 受勿了	zhieu vaq liau
-受弗了	zhieu vaq liau
+受弗了	zhieu vaq liau	1
 受勒	zhieu laq
 只借勿還	ciq cia vaq wae
-只借弗還	ciq cia vaq wae
+只借弗還	ciq cia vaq wae	1
 只覺着	ciq koq dzoq
-只覺着	ciq koq zyuq
+只覺着	ciq koq zoq
 叫落去	ciau loq chi
 叫勒	ciau laq
 好大好小	hau dou hau shiau
@@ -9679,12 +9713,12 @@ use_preset_vocabulary: true
 喫不了	chioq paq liau
 喫勿了	chioq vaq liau
 喫勿了兜勒走	chioq vaq liau teu laq tseu
-喫弗了	chioq vaq liau
-喫弗了兜勒走	chioq vaq liau teu laq tseu
+喫弗了	chioq vaq liau	1
+喫弗了兜勒走	chioq vaq liau teu laq tseu	1
 喫勿落	chioq vaq loq
 喫勿落兜勒走	chioq vaq loq teu laq tseu
-喫弗落	chioq vaq loq
-喫弗落兜勒走	chioq vaq loq teu laq tseu
+喫弗落	chioq vaq loq	1
+喫弗落兜勒走	chioq vaq loq teu laq tseu	1
 喫乾了	chioq ki-ke liau
 喫乾醋	chioq ki-ke tshu
 喫了	chioq laq
@@ -9694,7 +9728,7 @@ use_preset_vocabulary: true
 喫人	chioq gnin
 喫人不吐骨頭	chioq gnin paq thu kuaq deu
 喫人勿吐骨頭	chioq gnin vaq thu kuaq deu
-喫人弗吐骨頭	chioq gnin vaq thu kuaq deu
+喫人弗吐骨頭	chioq gnin vaq thu kuaq deu	1
 喫人蟲	chioq gnin dzon
 喫個	chioq goq
 喫個	chioq ghoq
@@ -9769,7 +9803,7 @@ use_preset_vocabulary: true
 喂勒	iu laq
 喂的	iu tiq
 善惡勿分	zoe oq vaq fen
-善惡弗分	zoe oq vaq fen
+善惡弗分	zoe oq vaq fen	1
 喊落去	hae loq chi
 喊勒	hae laq
 喘勒	tshoe laq
@@ -9790,7 +9824,7 @@ use_preset_vocabulary: true
 嚥落去	i loq chi
 四房兩廳	sy vaon lian thin
 回勿去	wei vaq chi
-回弗去	wei vaq chi
+回弗去	wei vaq chi	1
 回家喫自己	wei cia chioq zy ci
 回勒去	wei laq chi
 圍落去	wei loq chi
@@ -9829,11 +9863,11 @@ use_preset_vocabulary: true
 壞個	ua goq
 壞個	ua ghoq
 夠勿着	keu vaq dzoq
-夠勿着	keu vaq zyuq
-夠弗着	keu vaq dzoq
-夠弗着	keu vaq zyuq
+夠勿着	keu vaq zoq
+夠弗着	keu vaq dzoq	1
+夠弗着	keu vaq zoq	1
 夠勒着	keu laq dzoq
-夠勒着	keu laq zyuq
+夠勒着	keu laq zoq
 夢裏向個	mon li shian goq
 夢裏向個	mon li shian ghoq
 大半日	dou pun gniq
@@ -9859,34 +9893,34 @@ use_preset_vocabulary: true
 尾巴夾仔	mi po kaq tsy
 套落去	thau loq chi
 好勿了	hau vaq liau
-好弗了	hau vaq liau
+好弗了	hau vaq liau	1
 好勿容易	hau vaq yon yi
-好弗容易	hau vaq yon yi
+好弗容易	hau vaq yon yi	1
 好了𠲎	hau laq va
 好了𠲎	hau laq vaq
-好了弗	hau laq vaq
+好了弗	hau laq vaq	1
 好了勿	hau laq vaq
 好事勿出門壞事傳千里	hau zy vaq tshyuq men wa zy dzoe chi li
 好事勿出門惡事傳千里	hau zy vaq tshyuq men oq zy dzoe chi li
 好事勿出門惡事行千里	hau zy vaq tshyuq men oq zy yin chi li
-好事弗出門壞事傳千里	hau zy vaq tshyuq men wa zy dzoe chi li
-好事弗出門惡事傳千里	hau zy vaq tshyuq men oq zy dzoe chi li
-好事弗出門惡事行千里	hau zy vaq tshyuq men oq zy yin chi li
+好事弗出門壞事傳千里	hau zy vaq tshyuq men wa zy dzoe chi li	1
+好事弗出門惡事傳千里	hau zy vaq tshyuq men oq zy dzoe chi li	1
+好事弗出門惡事行千里	hau zy vaq tshyuq men oq zy yin chi li	1
 好借好還再借勿難	hau cia hau wae tse cia vaq nae
-好借好還再借弗難	hau cia hau wae tse cia vaq nae
+好借好還再借弗難	hau cia hau wae tse cia vaq nae	1
 好壞勿分	hau ua vaq fen
-好壞弗分	hau ua vaq fen
+好壞弗分	hau ua vaq fen	1
 好心嘸沒好報	hau shin mhiq hau pau
 好景勿長	hau cin vaq jian
-好景弗長	hau cin vaq jian
+好景弗長	hau cin vaq jian	1
 好死勿如惡活	hau shi vaq zyu oq waq
 好死勿如歹活	hau shi vaq zyu te waq
 好死勿如賴活	hau shi vaq zyu la waq
-好死弗如惡活	hau shi vaq zyu oq waq
-好死弗如歹活	hau shi vaq zyu te waq
-好死弗如賴活	hau shi vaq zyu la waq
+好死弗如惡活	hau shi vaq zyu oq waq	1
+好死弗如歹活	hau shi vaq zyu te waq	1
+好死弗如賴活	hau shi vaq zyu la waq	1
 好漢勿喫眼前虧	hau he vaq chioq ngae zhi khuei
-好漢弗喫眼前虧	hau he vaq chioq ngae zhi khuei
+好漢弗喫眼前虧	hau he vaq chioq ngae zhi khuei	1
 嫁撥你	ko paq ng
 嫁撥俉	ko paq ng
 嫁撥爾	ko paq ng
@@ -9908,7 +9942,7 @@ use_preset_vocabulary: true
 定落去	din loq chi
 定落來	din loq le
 害人勿淺	ghe gnin vaq chi
-害人弗淺	ghe gnin vaq chi
+害人弗淺	ghe gnin vaq chi	1
 害煞	ghe saq
 家政專科學堂	cia cin tsoe khou ghoq daon
 屋裏個	oq li goq
@@ -9933,7 +9967,7 @@ use_preset_vocabulary: true
 對爾講	tei ng kaon
 對儂講	tei nou kaon
 對辰光	tei zyun kuaon
-對錯弗分	tei tshou vaq fen
+對錯弗分	tei tshou vaq fen	1
 對錯勿分	tei tshou vaq fen
 小日腳	shiau gniq ciaq
 小矮凳	shiau a ten
@@ -9952,12 +9986,12 @@ use_preset_vocabulary: true
 屬於自家	dzoq yu zhi ko
 差勿多個	tsho vaq tou goq
 差勿多個	tsho vaq tou ghoq
-差弗多個	tsho vaq tou goq
-差弗多個	tsho vaq tou ghoq
+差弗多個	tsho vaq tou goq	1
+差弗多個	tsho vaq tou ghoq	1
 差勒多	tsho laq tou
 差勒	tsho laq
 巾幗勿讓鬚眉	cin koq vaq gnian syu mei
-巾幗弗讓鬚眉	cin koq vaq gnian syu mei
+巾幗弗讓鬚眉	cin koq vaq gnian syu mei	1
 希拉克	shi lha khaq
 帶落去	ta loq chi
 帶俉	ta ng
@@ -9976,7 +10010,7 @@ use_preset_vocabulary: true
 帶撥爾	ta pen
 帶撥儂	ta paq nou
 幫勿了	paon vaq liau
-幫弗了	paon vaq liau
+幫弗了	paon vaq liau	1
 幫俉	paon ng
 幫爾	paon ng
 幫儂	paon nou
@@ -9985,9 +10019,9 @@ use_preset_vocabulary: true
 平躺的	bin thaon tiq
 平躺勒	bin thaon laq
 幹落去	ki-ke loq chi
-幾乎弗	ci fu vaq
+幾乎弗	ci fu vaq	1
 幾乎勿	ci fu vaq
-幾乎弗可能	ci fu vaq khou nen
+幾乎弗可能	ci fu vaq khou nen	1
 幾乎勿可能	ci fu vaq khou nen
 幾乎嘸沒	ci fu mhiq
 幾點鐘了	ci ti tson laq
@@ -10004,13 +10038,13 @@ use_preset_vocabulary: true
 引落去	yin loq chi
 彈落去	dae loq chi
 彎落去	uae loq chi
-影響弗了	in shian vaq liau
+影響弗了	in shian vaq liau	1
 影響勿了	in shian vaq liau
 待勒	de laq
 忍落去	zyun loq chi
-忘弗了	maon vaq liau
+忘弗了	maon vaq liau	1
 忘勿了	maon vaq liau
-忘弗掉	maon vaq diau
+忘弗掉	maon vaq diau	1
 忘勿掉	maon vaq diau
 忘記了	maon ci lei
 忙勒	maon laq
@@ -10041,7 +10075,7 @@ use_preset_vocabulary: true
 愛個人	e goq gnin
 愛個人	e ghoq gnin
 愛自家	e zhi ko
-感覺弗到	ki-ke ciuq vaq tau
+感覺弗到	ki-ke ciuq vaq tau	1
 感覺勿到	ki-ke ciuq vaq tau
 憋煞	piq saq
 憋煞死	piq saq shi
@@ -10056,9 +10090,9 @@ use_preset_vocabulary: true
 憑爾啥人	bin ng soq gnin
 憑儂啥人	bin nou soq gnin
 憑勒	bin laq
-成弗了	jin vaq liau
+成弗了	jin vaq liau	1
 成勿了	jin vaq liau
-我也弗	ngo gha vaq
+我也弗	ngo gha vaq	1
 我也勿	ngo gha vaq
 我也嘸沒	ngo gha mhiq
 我也好	ngo gha hau
@@ -10101,11 +10135,11 @@ use_preset_vocabulary: true
 我自家	ngo zhi ko
 我撥	ngo paq
 我覺着	ngo koq dzoq
-我覺着	ngo koq zyuq
+我覺着	ngo koq zoq
 我送俉	ngo son ng
 我送爾	ngo son ng
 我送儂	ngo son nou
-我還弗	ngo wa vaq
+我還弗	ngo wa vaq	1
 我還勿	ngo wa vaq
 我還來	ngo wa le
 我還來的	ngo wa le tiq
@@ -10136,7 +10170,7 @@ use_preset_vocabulary: true
 打煞死	tan saq shi
 打發辰光	tan faq zyun kuaon
 打勒	tan laq
-打蛇弗死	tan dzo vaq shi
+打蛇弗死	tan dzo vaq shi	1
 打蛇勿死	tan dzo vaq shi
 揞掉了	an diau lei
 揞掉了	khan diau lei
@@ -10163,18 +10197,18 @@ use_preset_vocabulary: true
 扶落去	vu loq chi
 批落去	phi loq chi
 扼煞	aq saq
-承受弗了	jin zhieu vaq liau
+承受弗了	jin zhieu vaq liau	1
 承受勿了	jin zhieu vaq liau
 抄落去	tshau loq chi
 抄勒	tshau laq
 抄的	tshau tiq
 抓落去	tsa loq chi
-抓弗準	tsa vaq tsyun
+抓弗準	tsa vaq tsyun	1
 抓勿準	tsa vaq tsyun
 抓周	tsa cieu
 投落去	deu loq chi
 抖落去	teu loq chi
-抗拒弗了	khaon jiu vaq liau
+抗拒弗了	khaon jiu vaq liau	1
 抗拒勿了	khaon jiu vaq liau
 折落去	ciq loq chi
 抱落去	bau loq chi
@@ -10185,7 +10219,7 @@ use_preset_vocabulary: true
 抱勒俉	bau laq ng
 抱勒爾	bau laq ng
 抱勒儂	bau laq nou
-抵擋弗了	ti taon vaq liau
+抵擋弗了	ti taon vaq liau	1
 抵擋勿了	ti taon vaq liau
 抵勒	ti laq
 抵的	ti tiq
@@ -10201,7 +10235,7 @@ use_preset_vocabulary: true
 拄的	tsyu tiq
 拆落去	tshaq loq chi
 拉落去	lha loq chi
-拉弗動	lha vaq don
+拉弗動	lha vaq don	1
 拉勿動	lha vaq don
 拉個	lha goq
 拉個	lha ghoq
@@ -10243,9 +10277,9 @@ use_preset_vocabulary: true
 挺落去	thin loq chi
 挺勒	thin laq
 挺的	thin tiq
-挽回弗了	uae wei vaq liau
+挽回弗了	uae wei vaq liau	1
 挽回勿了	uae wei vaq liau
-挽救弗了	uae cieu vaq liau
+挽救弗了	uae cieu vaq liau	1
 挽救勿了	uae cieu vaq liau
 挽勒	uae laq
 挽的	uae tiq
@@ -10269,13 +10303,13 @@ use_preset_vocabulary: true
 掛落去	kuo loq chi
 採落去	tshe loq chi
 接落去	ciq loq chi
-接受弗了	ciq zhieu vaq liau
+接受弗了	ciq zhieu vaq liau	1
 接受勿了	ciq zhieu vaq liau
 接勒	ciq laq
 接落就是	ciq loq jieu zy
 接勒是	ciq laq zy
 接落是	ciq loq zy
-控制弗了	khon tsyu vaq liau
+控制弗了	khon tsyu vaq liau	1
 控制勿了	khon tsyu vaq liau
 推落去	thei loq chi
 推勒	thei laq
@@ -10302,29 +10336,29 @@ use_preset_vocabulary: true
 摘落去	tsaq loq chi
 摟勒	leu laq
 摸落去	moq loq chi
-摸弗着	moq vaq dzoq
-摸弗着	moq vaq zyuq
+摸弗着	moq vaq dzoq	1
+摸弗着	moq vaq zoq	1
 摸勿着	moq vaq dzoq
-摸勿着	moq vaq zyuq
-摸弗着邊	moq vaq dzoq pi
-摸弗着邊	moq vaq zyuq pi
+摸勿着	moq vaq zoq
+摸弗着邊	moq vaq dzoq pi	1
+摸弗着邊	moq vaq zoq pi	1
 摸勿着邊	moq vaq dzoq pi
-摸勿着邊	moq vaq zyuq pi
-摸弗着邊際	moq vaq dzoq pi ci
-摸弗着邊際	moq vaq zyuq pi ci
+摸勿着邊	moq vaq zoq pi
+摸弗着邊際	moq vaq dzoq pi ci	1
+摸弗着邊際	moq vaq zoq pi ci	1
 摸勿着邊際	moq vaq dzoq pi ci
-摸勿着邊際	moq vaq zyuq pi ci
-摸弗着頭腦	moq vaq dzoq deu nau
-摸弗着頭腦	moq vaq zyuq deu nau
+摸勿着邊際	moq vaq zoq pi ci
+摸弗着頭腦	moq vaq dzoq deu nau	1
+摸弗着頭腦	moq vaq zoq deu nau	1
 摸勿着頭腦	moq vaq dzoq deu nau
-摸勿着頭腦	moq vaq zyuq deu nau
+摸勿着頭腦	moq vaq zoq deu nau
 摸勒着	moq laq dzoq
-摸勒着	moq laq zyuq
+摸勒着	moq laq zoq
 撈勒	lhau laq
 撈勒仔	lhau laq tsy
 撈的	lhau tiq
 撐落去	tshan loq chi
-撐弗落去	tshan vaq loq chi
+撐弗落去	tshan vaq loq chi	1
 撐勿落去	tshan vaq loq chi
 撐煞	tshan saq
 撐煞死	tshan saq shi
@@ -10342,7 +10376,7 @@ use_preset_vocabulary: true
 撲落去	phoq loq chi
 擁勒	ion laq
 擇日腳	dzaq gniq ciaq
-擋弗了	taon vaq liau
+擋弗了	taon vaq liau	1
 擋勿了	taon vaq liau
 操勒	tshau laq
 擔勒	tae laq
@@ -10353,11 +10387,11 @@ use_preset_vocabulary: true
 擡落去	de loq chi
 擡勒	de laq
 擤鼻頭	hen baq deu
-擱弗落	koq vaq loq
-擱弗落	goq vaq loq
+擱弗落	koq vaq loq	1
+擱弗落	goq vaq loq	1
 擱勿落	koq vaq loq
 擱勿落	goq vaq loq
-擱弗牢	goq vaq lau
+擱弗牢	goq vaq lau	1
 擱勿牢	goq vaq lau
 擱勒牢	koq laq lau
 擱勒牢	goq laq lau
@@ -10366,7 +10400,7 @@ use_preset_vocabulary: true
 擱勒	goq laq
 擱的	goq tiq
 擺落去	pa loq chi
-擺脫弗了	pa thaq vaq liau
+擺脫弗了	pa thaq vaq liau	1
 擺脫勿了	pa thaq vaq liau
 攀勒	phae laq
 攔的	lae tiq
@@ -10379,10 +10413,10 @@ use_preset_vocabulary: true
 支的	tsy tiq
 收落去	shieu loq chi
 收勒	shieu laq
-改弗了	ke vaq liau
+改弗了	ke vaq liau	1
 改勿了	ke vaq liau
 改趁	ke chin
-改變弗了	ke pi vaq liau
+改變弗了	ke pi vaq liau	1
 改變勿了	ke pi vaq liau
 攻落去	kon loq chi
 放落去	faon loq chi
@@ -10402,15 +10436,15 @@ use_preset_vocabulary: true
 敲勒	khau laq
 整煞	cin saq
 敷的	fu tiq
-數弗着	su vaq dzoq
-數弗着	su vaq zyuq
+數弗着	su vaq dzoq	1
+數弗着	su vaq zoq	1
 數勿着	su vaq dzoq
-數勿着	su vaq zyuq
+數勿着	su vaq zoq
 數勒着	su laq dzoq
-數勒着	su laq zyuq
+數勒着	su laq zoq
 數勒	su laq
 斬落去	tsae loq chi
-日夜弗分	gniq ya vaq fen
+日夜弗分	gniq ya vaq fen	1
 日夜勿分	gniq ya vaq fen
 春天大亂夢	tshyun thi dou loe maon
 昧勒	mei laq
@@ -10421,7 +10455,7 @@ use_preset_vocabulary: true
 是假個	zy ko goq
 是假個	zy ko ghoq
 是𠲎	zy va
-是弗	zy vaq
+是弗	zy vaq	1
 是勿	zy vaq
 夜到睏覺	ya tau khuen kau
 夜裏睏覺	ya li khuen kau
@@ -10435,7 +10469,7 @@ use_preset_vocabulary: true
 有人話	yeu gnin wo
 有人講	yeu gnin kaon
 有儂	yeu nou
-有借有還再借弗難	yeu cia yeu wae tse cia vaq nae
+有借有還再借弗難	yeu cia yeu wae tse cia vaq nae	1
 有借有還再借勿難	yeu cia yeu wae tse cia vaq nae
 有日腳	yeu gniq ciaq
 服落去	voq loq chi
@@ -10462,19 +10496,19 @@ use_preset_vocabulary: true
 歲個	syu goq
 歲個	syu ghoq
 歸還撥	kuei wae paq
-死弗	shi vaq
+死弗	shi vaq	1
 死勿	shi vaq
-死弗了	shi vaq liau
+死弗了	shi vaq liau	1
 死勿了	shi vaq liau
-死弗帶去	shi vaq ta chi
+死弗帶去	shi vaq ta chi	1
 死勿帶去	shi vaq ta chi
-死弗承認	shi vaq jin zyun
+死弗承認	shi vaq jin zyun	1
 死勿承認	shi vaq jin zyun
-死弗瞑目	shi vaq min moq
+死弗瞑目	shi vaq min moq	1
 死勿瞑目	shi vaq min moq
-死弗認錯	shi vaq gnin tshou
+死弗認錯	shi vaq gnin tshou	1
 死勿認錯	shi vaq gnin tshou
-死弗足惜	shi vaq tsoq shiq
+死弗足惜	shi vaq tsoq shiq	1
 死勿足惜	shi vaq tsoq shiq
 你煞	ng saq
 俉煞	ng saq
@@ -10487,14 +10521,14 @@ use_preset_vocabulary: true
 死勒	shi laq
 死快了	shi khua lei
 煞我了	saq ngo lei
-死活弗顧	shi waq vaq ku
+死活弗顧	shi waq vaq ku	1
 死活勿顧	shi waq vaq ku
 死個	shi goq
 死個	shi ghoq
 段辰光	doe zyun kuaon
-殺人弗眨眼	saq gnin vaq tsaq ngae
+殺人弗眨眼	saq gnin vaq tsaq ngae	1
 殺人勿眨眼	saq gnin vaq tsaq ngae
-殺人弗見血	saq gnin vaq ci shiuq
+殺人弗見血	saq gnin vaq ci shiuq	1
 殺人勿見血	saq gnin vaq ci shiuq
 殺辰光	saq zyun kuaon
 雌鴨	tshy ae
@@ -10527,14 +10561,14 @@ use_preset_vocabulary: true
 注視勒	tsyu zy laq
 洗落去	shi loq chi
 活落去	waq loq chi
-活弗了	waq vaq liau
+活弗了	waq vaq liau	1
 活勿了	waq vaq liau
 派落去	pha loq chi
 流落去	lieu loq chi
 流傳落去	lieu dzoe loq chi
 流勒	lieu laq
 流着眼淚	lieu dzoq ngae li
-流着眼淚	lieu zyuq ngae li
+流着眼淚	lieu zoq ngae li
 流鼻頭	lieu baq deu
 流鼻頭紅	lieu baq deu on
 流鼻頭紅血	lieu baq deu on shiuq
@@ -10544,7 +10578,7 @@ use_preset_vocabulary: true
 浮的	veu tiq
 消失落去	shiau syuq loq chi
 混落去	wen loq chi
-混弗落去	wen vaq loq chi
+混弗落去	wen vaq loq chi	1
 混勿落去	wen vaq loq chi
 混日腳	wen gniq ciaq
 混勒	wen laq
@@ -10601,16 +10635,16 @@ use_preset_vocabulary: true
 牽的	chi tiq
 牽勒	chi laq
 牽勒走	chi laq tseu
-犯弗着	vae vaq dzoq
-犯弗着	vae vaq zyuq
+犯弗着	vae vaq dzoq	1
+犯弗着	vae vaq zoq	1
 犯勿着	vae vaq dzoq
-犯勿着	vae vaq zyuq
+犯勿着	vae vaq zoq
 犯勒着	vae laq dzoq
-犯勒着	vae laq zyuq
-猜弗着	tshe vaq dzoq
+犯勒着	vae laq zoq
+猜弗着	tshe vaq dzoq	1
 猜勿着	tshe vaq dzoq
-猜弗着	tshe vaq zyuq
-猜勿着	tshe vaq zyuq
+猜弗着	tshe vaq zoq	1
+猜勿着	tshe vaq zoq
 環的	wae tiq
 生落來	san loq le
 生落去	san loq chi
@@ -10618,18 +10652,18 @@ use_preset_vocabulary: true
 生命中頂	sen min tson tin
 生勒	san laq
 生小人	san shiau gnin
-用弗了	yon vaq liau
+用弗了	yon vaq liau	1
 用勿了	yon vaq liau
-用弗着	yon vaq dzoq
+用弗着	yon vaq dzoq	1
 用勿着	yon vaq dzoq
-用弗着	yon vaq zyuq
-用勿着	yon vaq zyuq
+用弗着	yon vaq zoq	1
+用勿着	yon vaq zoq
 用勒着	yon laq dzoq
-用勒着	yon laq zyuq
+用勒着	yon laq zoq
 用餐辰光	yon tshae zyun kuaon
-甩弗掉	huaq vaq diau
+甩弗掉	huaq vaq diau	1
 甩勿掉	huaq vaq diau
-甩弗開	huaq vaq khe
+甩弗開	huaq vaq khe	1
 甩勿開	huaq vaq khe
 由俉	yeu ng
 由爾	yeu ng
@@ -10640,7 +10674,7 @@ use_preset_vocabulary: true
 留的	lieu tiq
 畫落去	wo loq chi
 當落去	taon loq chi
-當弗了	taon vaq liau
+當弗了	taon vaq liau	1
 當勿了	taon vaq liau
 當俉	taon ng
 當爾	taon ng
@@ -10661,7 +10695,7 @@ use_preset_vocabulary: true
 發展個國家	faq ci ghoq koq cia
 發展個國家	faq tsoe goq koq cia
 發展個國家	faq tsoe ghoq koq cia
-發揮弗了	faq huei vaq liau
+發揮弗了	faq huei vaq liau	1
 發揮勿了	faq huei vaq liau
 發現自家	faq yi zhi ko
 發勒	faq laq
@@ -10679,18 +10713,18 @@ use_preset_vocabulary: true
 直勒	jiq laq
 直勒仔	jiq laq tsy
 直仔	jiq tsy
-相差弗多	shian tsho vaq tou
+相差弗多	shian tsho vaq tou	1
 相差勿多	shian tsho vaq tou
 省落來	san loq le
 省落	san loq
 省鈔票	san tshau phiau
 省眼	san ngae
 看落去	khi-khe loq chi
-看弗落去	khi-khe vaq loq chi
+看弗落去	khi-khe vaq loq chi	1
 看勿落去	khi-khe vaq loq chi
-看弗過去	khi-khe vaq kou chi
+看弗過去	khi-khe vaq kou chi	1
 看勿過去	khi-khe vaq kou chi
-看也弗看	khi-khe gha vaq khi-khe
+看也弗看	khi-khe gha vaq khi-khe	1
 看也勿看	khi-khe gha vaq khi-khe
 看俉	khi-khe ng
 看爾	khi-khe ng
@@ -10705,7 +10739,7 @@ use_preset_vocabulary: true
 看我的	khi-khe ngo tiq
 眼看勒	ngae khi-khe laq
 眼看的	ngae khi-khe tiq
-瞄弗準	miau vaq tsyun
+瞄弗準	miau vaq tsyun	1
 瞄勿準	miau vaq tsyun
 砍落去	khae loq chi
 硬撐落去	ngan tshan loq chi
@@ -10754,10 +10788,10 @@ use_preset_vocabulary: true
 算俉	soe ng
 算爾	soe ng
 算儂	soe nou
-管弗着	kun vaq dzoq
-管弗着	kun vaq zyuq
+管弗着	kun vaq dzoq	1
+管弗着	kun vaq zoq	1
 管勿着	kun vaq dzoq
-管勿着	kun vaq zyuq
+管勿着	kun vaq zoq
 簽落去	chi loq chi
 簽的	chi tiq
 粘的	kni tiq
@@ -10787,7 +10821,7 @@ use_preset_vocabulary: true
 翻落去	fae loq chi
 翻的	fae tiq
 老落去	lau loq chi
-老弗死	lau vaq shi
+老弗死	lau vaq shi	1
 老勿死	lau vaq shi
 而落去	er loq chi
 而俉	er ng
@@ -10795,8 +10829,8 @@ use_preset_vocabulary: true
 而儂	er nou
 聚勒	zyu laq
 聽落去	thin loq chi
-聽弗進	thin vaq cin
-聽弗進去	thin vaq cin chi
+聽弗進	thin vaq cin	1
+聽弗進去	thin vaq cin chi	1
 聽勿進	thin vaq cin
 聽勿進去	thin vaq cin chi
 聽俉	thin ng
@@ -10806,9 +10840,9 @@ use_preset_vocabulary: true
 聽張了	thin cian lei
 聽明了	thin min lei
 肯落去	khen loq chi
-背弗動	pei vaq don
+背弗動	pei vaq don	1
 背勿動	pei vaq don
-脫弗了	thaq vaq liau
+脫弗了	thaq vaq liau	1
 脫勿了	thaq vaq liau
 小膽鬼	shiau tae kuei
 臥落去	ngou loq chi
@@ -10827,7 +10861,7 @@ use_preset_vocabulary: true
 茶點辰光	dzo te zyun kuaon
 蓋的	ke tiq
 藥煞	yaq saq
-行弗通	yin vaq thon
+行弗通	yin vaq thon	1
 行勿通	yin vaq thon
 行勒通	yin laq thon
 衝落去	tshon loq chi
@@ -10844,21 +10878,21 @@ use_preset_vocabulary: true
 要爾	iau ng
 要儂	iau nou
 要馱	iau dou
-要死弗活	iau shi vaq waq
+要死弗活	iau shi vaq waq	1
 要死勿活	iau shi vaq waq
-見弗着	ci vaq dzoq
+見弗着	ci vaq dzoq	1
 見勿着	ci vaq dzoq
-見弗着	ci vaq zyuq
-見勿着	ci vaq zyuq
+見弗着	ci vaq zoq	1
+見勿着	ci vaq zoq
 見勒多了	ci laq tou lei
 見勒着	ci laq dzoq
-見勒着	ci laq zyuq
+見勒着	ci laq zoq
 規模頂大	kuei mou tin dou
 覺着交關	koq dzoq ciau kuae
-覺着交關	koq zyuq ciau kuae
+覺着交關	koq zoq ciau kuae
 覺着自家	koq dzoq zhi ko
-覺着自家	koq zyuq zhi ko
-解決弗了	ka ciuq vaq liau
+覺着自家	koq zoq zhi ko
+解決弗了	ka ciuq vaq liau	1
 解決勿了	ka ciuq vaq liau
 訂煞	tin saq
 討人歡喜	thau gnin hun shi
@@ -10871,9 +10905,9 @@ use_preset_vocabulary: true
 記得儂	ci taq nou
 記性推板	ci shin thei pae
 記勒	ci laq
-認弗出	gnin vaq tshyuq
-認弗出來	gnin vaq tshyuq le
-認弗清	gnin vaq chin
+認弗出	gnin vaq tshyuq	1
+認弗出來	gnin vaq tshyuq le	1
+認弗清	gnin vaq chin	1
 認勿出	gnin vaq tshyuq
 認勿出來	gnin vaq tshyuq le
 認勿清	gnin vaq chin
@@ -10893,7 +10927,7 @@ use_preset_vocabulary: true
 譜落去	pu loq chi
 護勒	wu laq
 變落去	pi loq chi
-變弗了	pi vaq liau
+變弗了	pi vaq liau	1
 變勿了	pi vaq liau
 變推板	pi thei pae
 讓人家去講	gnian gnin ko chi kaon
@@ -10907,8 +10941,8 @@ use_preset_vocabulary: true
 豬八戒喫人參果	tsyu paq ka chioq zyun tshae kou
 貨比三家不喫虧	hou pi sae cia paq chioq khuei
 貨比三家不喫虧	hou pi sae cia paq chioq chiu
-貨比三家弗喫虧	hou pi sae cia vaq chioq khuei
-貨比三家弗喫虧	hou pi sae cia vaq chioq chiu
+貨比三家弗喫虧	hou pi sae cia vaq chioq khuei	1
+貨比三家弗喫虧	hou pi sae cia vaq chioq chiu	1
 貨比三家勿喫虧	hou pi sae cia vaq chioq khuei
 貨比三家勿喫虧	hou pi sae cia vaq chioq chiu
 貪喫鬼	thei chioq kuei
@@ -10918,28 +10952,28 @@ use_preset_vocabulary: true
 買回屋落	ma wei oq loq
 費辰光	fi zyun kuaon
 貼落去	thiaq loq chi
-賣弗出去	ma vaq tshyuq chi
+賣弗出去	ma vaq tshyuq chi	1
 賣勿出去	ma vaq tshyuq chi
 賣個	ma goq
 賣個	ma ghoq
 賣隻	ma tsaq
 質量推板	ciq lian thei pae
 賴勒	la laq
-賺弗了	dzae vaq liau
+賺弗了	dzae vaq liau	1
 賺勿了	dzae vaq liau
 賺大鈔票	dzae dou tshau phiau
-贏弗了	yin vaq liau
+贏弗了	yin vaq liau	1
 贏勿了	yin vaq liau
 出腳大仙	tshyuq ciaq da shi
 走落去	tseu loq chi
-走弗了	tseu vaq liau
+走弗了	tseu vaq liau	1
 走勿了	tseu vaq liau
-走弗過去	tseu vaq kou chi
+走弗過去	tseu vaq kou chi	1
 走勿過去	tseu vaq kou chi
 走勒	tseu laq
 走自家個路	tseu zhi ko goq lu
 走自家個路	tseu zhi ko ghoq lu
-起弗了	chi vaq liau
+起弗了	chi vaq liau	1
 起勿了	chi vaq liau
 起勒	chi laq
 趕落去	ki-ke loq chi
@@ -10947,15 +10981,15 @@ use_preset_vocabulary: true
 趕勒	ki-ke laq
 跌煞	tiq saq
 跑落去	bau loq chi
-跑弗了	bau vaq liau
+跑弗了	bau vaq liau	1
 跑勿了	bau vaq liau
-跑弗了寺	bau vaq liau zy
+跑弗了寺	bau vaq liau zy	1
 跑勿了寺	bau vaq liau zy
-跑弗了廟	bau vaq liau miau
+跑弗了廟	bau vaq liau miau	1
 跑勿了廟	bau vaq liau miau
-跑了和尚跑弗了廟	bau laq ghou zaon bau vaq liau miau
+跑了和尚跑弗了廟	bau laq ghou zaon bau vaq liau miau	1
 跑了和尚跑勿了廟	bau laq ghou zaon bau vaq liau miau
-跑得了和尚跑弗了廟	bau taq laq ghou zaon bau vaq liau miau
+跑得了和尚跑弗了廟	bau taq laq ghou zaon bau vaq liau miau	1
 跑得了和尚跑勿了廟	bau taq laq ghou zaon bau vaq liau miau
 跑勒	bau laq
 跟落去	ken loq chi
@@ -11004,7 +11038,7 @@ use_preset_vocabulary: true
 送儂	son nou
 送還撥	son wae paq
 逃落去	dau loq chi
-逃弗了	dau vaq liau
+逃弗了	dau vaq liau	1
 逃勿了	dau vaq liau
 逆勒	gniq laq
 透落去	theu loq chi
@@ -11014,13 +11048,13 @@ use_preset_vocabulary: true
 趤了	dan laq
 連落去	li loq chi
 連勒	li laq
-連頭也弗回	li deu gha vaq wei
+連頭也弗回	li deu gha vaq wei	1
 連頭也勿回	li deu gha vaq wei
 週休兩日	cieu shieu lian gniq
 週年視差	cieu gni zy tsha
-進弗了	cin vaq liau
+進弗了	cin vaq liau	1
 進勿了	cin vaq liau
-進弗去	cin vaq chi
+進弗去	cin vaq chi	1
 進勿去	cin vaq chi
 逼落去	piq loq chi
 逼俉	piq ng
@@ -11028,36 +11062,36 @@ use_preset_vocabulary: true
 逼儂	piq nou
 逼煞	piq saq
 運落去	yun loq chi
-過弗落去	kou vaq loq chi
+過弗落去	kou vaq loq chi	1
 過勿落去	kou vaq loq chi
-過弗了	kou vaq liau
+過弗了	kou vaq liau	1
 過勿了	kou vaq liau
-過弗去	kou vaq chi
+過弗去	kou vaq chi	1
 過勿去	kou vaq chi
 過勒去	kou laq chi
-過意弗去	kou i vaq chi
+過意弗去	kou i vaq chi	1
 過意勿去	kou i vaq chi
 過日腳	kou gniq ciaq
 過勒	kou laq
 過過癮頭	kou kou gni deu
 過過念頭	kou kou gni deu
 遣落去	chi loq chi
-遮弗了	tso vaq liau
+遮弗了	tso vaq liau	1
 遮勿了	tso vaq liau
 避勒	bi laq
 邁勒	mae laq
 還落來	wa loq le
 還落去	wa loq chi
-還弗	wa vaq
+還弗	wa vaq	1
 還勿	wa vaq
-還弗出	wa vaq tshyuq
+還弗出	wa vaq tshyuq	1
 還勿出	wa vaq tshyuq
-還弗出	wae vaq tshyuq
+還弗出	wae vaq tshyuq	1
 還勿出	wae vaq tshyuq
-還弗是	wa vaq zy
+還弗是	wa vaq zy	1
 還勿是	wa vaq zy
 還𣍐	wa vei
-還弗曉得	wa vaq shiau taq
+還弗曉得	wa vaq shiau taq	1
 還勿曉得	wa vaq shiau taq
 還嘸沒來	wa mhiq le
 還俉	wae ng
@@ -11076,7 +11110,7 @@ use_preset_vocabulary: true
 還有交關	wa yeu ciau kuae
 還有𠲎	wa yeu va
 還有勿	wa yeu vaq
-還有弗	wa yeu vaq
+還有弗	wa yeu vaq	1
 還有𣍐	wa yeu vei
 還有啥人	wa yeu soq gnin
 還嘸沒	wa mhiq
@@ -11090,14 +11124,14 @@ use_preset_vocabulary: true
 還鈔票	wae tshau phiau
 還落來	gha loq le
 還落去	gha loq chi
-還弗	gha vaq
+還弗	gha vaq	1
 還勿	gha vaq
-還弗出	gha vaq tshyuq
+還弗出	gha vaq tshyuq	1
 還勿出	gha vaq tshyuq
-還弗是	gha vaq zy
+還弗是	gha vaq zy	1
 還勿是	gha vaq zy
 還𣍐	gha vei
-還弗曉得	gha vaq shiau taq
+還弗曉得	gha vaq shiau taq	1
 還勿曉得	gha vaq shiau taq
 還嘸沒來	gha mhiq le
 還來的	gha le tiq
@@ -11111,7 +11145,7 @@ use_preset_vocabulary: true
 還有交關	gha yeu ciau kuae
 還有𠲎	gha yeu va
 還有勿	gha yeu vaq
-還有弗	gha yeu vaq
+還有弗	gha yeu vaq	1
 還有𣍐	gha yeu vei
 還有啥人	gha yeu soq gnin
 還嘸沒	gha mhiq
@@ -11137,7 +11171,7 @@ use_preset_vocabulary: true
 鑲的	shian tiq
 鑽隻	tsoe tsaq
 鑽隻洞	tsoe tsaq don
-長弗大	cian vaq dou
+長弗大	cian vaq dou	1
 長勿大	cian vaq dou
 門牌號頭	men ba ghau deu
 閃勒	shi laq
@@ -11147,16 +11181,16 @@ use_preset_vocabulary: true
 眼睛閉勒仔	ngae cin pi laq tsy
 眼睛閉的	ngae cin pi tiq
 開落去	khe loq chi
-開弗了	khe vaq liau
+開弗了	khe vaq liau	1
 開勿了	khe vaq liau
-關弗了	kuae vaq liau
+關弗了	kuae vaq liau	1
 關勿了	kuae vaq liau
 關勒	kuae laq
 防勒	baon laq
 防勒	vaon laq
-阻擋弗了	tsu taon vaq liau
+阻擋弗了	tsu taon vaq liau	1
 阻擋勿了	tsu taon vaq liau
-阻止弗了	tsu tsy vaq liau
+阻止弗了	tsu tsy vaq liau	1
 阻止勿了	tsu tsy vaq liau
 降落去	ghaon loq chi
 陪俉	bei ng
@@ -11176,7 +11210,7 @@ use_preset_vocabulary: true
 隨儂	zei nou
 隨勒	zei laq
 雞翼梢	ci yiq sau
-離弗了	li vaq liau
+離弗了	li vaq liau	1
 離勿了	li vaq liau
 離俉	li ng
 離爾	li ng
@@ -11202,10 +11236,10 @@ use_preset_vocabulary: true
 頂勿住	tin vaq dzyu
 頂勿起	tin vaq chi
 頂勿起來	tin vaq chi le
-頂弗	tin vaq
-頂弗住	tin vaq dzyu
-頂弗起	tin vaq chi
-頂弗起來	tin vaq chi le
+頂弗	tin vaq	1
+頂弗住	tin vaq dzyu	1
+頂弗起	tin vaq chi	1
+頂弗起來	tin vaq chi le	1
 頂牢	tin lau
 頂勒	tin laq
 頂的	tin tiq
@@ -11213,7 +11247,7 @@ use_preset_vocabulary: true
 領勒	lin laq
 題落去	di loq chi
 題勒	di laq
-顧弗了	ku vaq liau
+顧弗了	ku vaq liau	1
 顧勿了	ku vaq liau
 風味小喫	fon vi shiau chioq
 颳勒	kuaq laq
@@ -11224,7 +11258,7 @@ use_preset_vocabulary: true
 飛落去	fi loq chi
 養勒	ian laq
 養勒仔	ian laq tsy
-餓弗煞	ngou vaq saq
+餓弗煞	ngou vaq saq	1
 餓勿煞	ngou vaq saq
 𣍐餓煞	vei ngou saq
 餓煞	ngou saq
@@ -11253,18 +11287,18 @@ use_preset_vocabulary: true
 魚圓	ng yu
 魚圓湯	ng yu thaon
 魚圓粗麪	ng yu tshu mi
-鳥弗生蛋	tiau vaq san dae
+鳥弗生蛋	tiau vaq san dae	1
 鳥勿生蛋	tiau vaq san dae
-鳥弗生蛋	gniau vaq san dae
+鳥弗生蛋	gniau vaq san dae	1
 鳥勿生蛋	gniau vaq san dae
 黏落去	kni loq chi
 黏的	kni tiq
-黑白弗分	haq baq vaq fen
+黑白弗分	haq baq vaq fen	1
 黑白勿分	haq baq vaq fen
 默認個	maq zyun goq
 默認個	maq zyun ghoq
 點落去	ti loq chi
-點弗着	ti vaq jiaq
+點弗着	ti vaq jiaq	1
 點勿着	ti vaq jiaq
 炸肉圓	zaq gnioq yu
 # 帶字母的詞彙

@@ -22,7 +22,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.09.08"
+version: "2020.09.12"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -8251,7 +8251,7 @@ s	迡	gni
 垛	dou
 肚	dou	0%
 大	dou
-捼	nou	20
+捼	nou	25
 挼	nou
 儺	nou
 挪	nou	6%
@@ -8382,7 +8382,6 @@ s	迡	gni
 餜	kou
 惈	kou
 猓	kou
-管	kou	0%
 個	kou	300000
 箇	kou	6%
 軻	khou
@@ -9773,6 +9772,7 @@ s	迡	gni
 筕	ghaon
 航	ghaon
 杭	ghaon
+抗	ghaon	0%
 貥	ghaon
 頏	ghaon
 沆	ghaon
@@ -10027,6 +10027,7 @@ s	迡	gni
 遦	kun
 鏆	kun
 鱹	kun
+個	kun	55
 寬	khun
 寛	khun
 髖	khun
@@ -12172,7 +12173,6 @@ s	迡	gni
 癑	non
 襛	nhon
 齈	nhon
-齆	nhon
 噥	nhon
 隆	lon
 窿	lon
@@ -12517,7 +12517,7 @@ s	迡	gni
 𤌏	on
 䩺	on
 鶲	on
-齆	on	1%
+齆	on
 紅	on	0%
 屋	on	0%
 蓊	on
@@ -12681,7 +12681,7 @@ s	迡	gni
 哵	paq
 玐	paq
 釟	paq
-不	paq
+不	paq	100000
 鈈	paq
 撥	paq	331919
 癶	paq
@@ -12812,7 +12812,7 @@ s	迡	gni
 珐	faq
 琺	faq
 鍅	faq
-弗	faq
+弗	faq	5000
 彿	faq
 佛	faq	2%
 髴	faq
@@ -12839,7 +12839,7 @@ s	迡	gni
 笰	faq
 紱	faq
 翇	faq
-勿	faq	5%
+勿	faq	25
 乏	vaq
 罰	vaq
 罸	vaq
@@ -12853,7 +12853,7 @@ s	迡	gni
 垡	vaq
 瞂	vaq
 藅	vaq
-勿	vaq	295400
+勿	vaq	100000
 物	vaq
 伆	vaq
 弗	vaq	590801
@@ -12918,7 +12918,6 @@ s	迡	gni
 𡍲	thaq	578
 撻	thaq
 闥	thaq
-貼	thaq	5%
 沓	thaq
 䵬	thaq
 㒓	thaq
@@ -13028,7 +13027,7 @@ s	迡	gni
 磖	laq
 菈	laq
 砳	laq
-⿰舟巤	laq
+𦪴	laq
 攔	laq
 勒	laq	45114
 了	laq
@@ -13041,7 +13040,7 @@ s	迡	gni
 竻	laq
 氻	laq
 泐	laq
-叻	laq
+叻	laq	25
 捋	laq
 埒	laq
 𩛝	laq
@@ -13895,7 +13894,7 @@ s	迡	gni
 厾	toq
 䐁	toq
 𡰪	toq
-㞘	toq	10
+㞘	toq	25
 沰	toq
 啄	toq
 裰	toq
@@ -14037,7 +14036,7 @@ s	迡	gni
 穱	tsoq
 作	tsoq
 筰	tsoq
-撮	tsoq	10
+撮	tsoq	25
 糳	tsoq
 傶	tsoq
 喌	tsoq
@@ -14258,6 +14257,8 @@ s	迡	gni
 杓	zoq
 芍	zoq
 仢	zoq
+著	zoq	0%
+着	zoq	6%
 國	koq
 国	koq
 囯	koq
@@ -15705,8 +15706,6 @@ s	迡	gni
 集	zyuq	10%
 隰	zyuq
 踅	zyuq
-著	zyuq	0%
-着	zyuq	10%
 兒	er
 児	er
 唲	er
@@ -16253,7 +16252,7 @@ s	迡	gni
 鳡	ki-ke
 赣	ki-ke
 绀	ki-ke
-干	khi-khe
+干	khi-khe	0%
 𫘱	yi
 𫘬	yi
 鲑	yi
@@ -17252,7 +17251,7 @@ s	迡	gni
 锤	zei
 谁	zei
 坠	zei
-蚕	zei-ze
+蚕	zei-ze	0%
 錾	zei-ze
 锐	zei
 𫠐	hei-
@@ -17745,6 +17744,7 @@ s	迡	gni
 鹳	kun
 贯	kun
 𨱌	kun
+个	kun
 宽	khun
 髋	khun
 欢	hun
@@ -18332,7 +18332,6 @@ s	迡	gni
 𦈖	thaq
 挞	thaq
 闼	thaq
-贴	thaq
 𠉂	thaq
 脱	thaq
 𪉍	thaq
@@ -18965,10 +18964,10 @@ s	迡	gni
 當中央央	taon tson gnian gnian	578
 半當中央	pun taon tson gnian	55
 半中央亨	pun tson gnian han	55
-半勿牢告	pun vaq lau kau	55
-半勿冷打	pun vaq lan tan	55
-半勿郎當	pun vaq laon taon	55
-半勿拉介	pun vaq la ka	55
+半勿牢告	pun vaq lau kau
+半勿冷打	pun vaq lan tan
+半勿郎當	pun vaq laon taon
+半勿拉介	pun vaq la ka
 出面相	tshyuq mi shian	55
 眼面前	ngae mi zhi
 後背	gheu pei
@@ -19710,7 +19709,6 @@ s	迡	gni
 賴臭皮	la chieu bi	55
 賴屙皮	la ou bi	55
 出頭椽子	tshyuq deu dzoe tsy	55
-老貼蛋	lau thaq dae	55
 老樸屍	lau phoq sy	55
 浮屍	vei sy	578
 浮屍	veu sy	578
@@ -19907,10 +19905,8 @@ s	迡	gni
 咋呢	dza gni	55
 咋回事體	dza wei zy thi	578
 咋西孃格	dza shi gnian kaq	55
-咋管	dza kun	418
-咋管	dza kou	418
-介管	ka kun	418
-介管	ka kou	418
+咋管	dza kun	55
+介管	ka kun	55
 介眼	ka ngae	418
 介眼眼	ka ngae ngae	418
 格打	kaq tan	55
@@ -20823,8 +20819,6 @@ s	迡	gni
 木蓮	moq li	55
 金鈴子	cin lin tsy
 紫葡萄	tsy bu dau
-紫胡桃	tsy wu dau	578
-水胡桃	syu wu dau	55
 白蒲棗	baq bu tsau	55
 圓眼	yu ngae
 杏梅	ghan mei
@@ -20949,10 +20943,8 @@ s	迡	gni
 粢飯糕	tshy vae kau	55
 米饅頭	mi mun deu	55
 黃𤿏糕	waon nei kau	55
-水貼糕	syu thaq kau	55
 方糕	faon kau	55
 灰汁糰	huei ciq doe	55
-油貼黃	yeu thaq waon	55
 箸夾管	ji kaq kun	55
 麻餅	mo pin	55
 千層餅	chi zen pin	55
@@ -21198,7 +21190,7 @@ s	迡	gni
 火輪	hou len
 地莊船	di tsaon zoe	55
 抲魚船	kho ng zoe	55
-⿰舟巤子	laq tsy	55
+𦪴子	laq tsy	55
 抲水	kho syu	55
 看鴨船	khi-khe ae zoe	55
 腳搲船	ciaq uo zoe	55
@@ -21661,7 +21653,7 @@ s	迡	gni
 木頭人案	moq deu gnin e	55
 搣陀螺	miq daq laon	55
 打煞坯	tan saq phei	55
-打勿煞	tan vaq saq	55
+打勿煞	tan vaq saq
 菱角	lin koq
 蛋殼球	dae khoq jieu	55
 蛋殼皮球	dae khoq bi jieu	55
@@ -21904,8 +21896,8 @@ s	迡	gni
 篾白	miq baq	55
 葛藤	kaq den
 木蓮藤	moq li den	55
-老勿大	lau vaq dou	55
-老勿大草	lau vaq dou tshau	55
+老勿大	lau vaq dou
+老勿大草	lau vaq dou tshau
 玉荷花	gnioq ghou huo	55
 朝日頭花	jiau gniq deu huo	55
 柴白絳花	za baq cian huo	55
@@ -22149,7 +22141,6 @@ s	迡	gni
 失眼	syuq ngae	55
 顧野	ku ya	55
 閒野	ghae ya	55
-彈眼落睛	dae ngae loq cin	55
 䀨瞎	kuaq haq	55
 翻白	fae baq
 眼淚出	ngae li tshyuq	55
@@ -22159,7 +22150,7 @@ s	迡	gni
 聽明	thiq min	55
 嗅嘴	shion tsyu	55
 煞煞口	saq saq kheu	55
-噦氣勿轉	iuq chi vaq tsoe	55
+噦氣勿轉	iuq chi vaq tsoe
 咽酸	i soe	55
 打䬵	tan ge	55
 打冷呃	tan lan aq	55
@@ -22213,7 +22204,6 @@ s	迡	gni
 打襉	tan kae	55
 敲邊	khau pi	55
 大做	dou tsou	55
-貼襪底	thaq maq ti	55
 夾襠	kaq taon	55
 跍倒	gu tau	55
 𢲔跌	pae tiq	55
@@ -22229,7 +22219,7 @@ s	迡	gni
 𧼱競	biq jin	55
 𧼱轎	biq jiau	55
 𧼱出	biq tshyuq	55
-𧼱勿着	biq vaq dzoq	55
+𧼱勿着	biq vaq dzoq
 打腳骨軟	tan ciaq kuaq gniu	55
 打軟腳骨	tan gniu ciaq kuaq	55
 腳娘肚彈琵琶	ciaq gnian du dae bi bo	55
@@ -22273,7 +22263,6 @@ s	迡	gni
 睏覺	khuen kau	20000
 睏⿰忄態覺	khuen the kau	55
 打中覺	tan tson kau	55
-睏熟	khuen zoq	55
 調覺	diau kau	1000
 醒覺轉	shin kau tsoe	55
 睏失覺	khuen syuq kau	55
@@ -22385,20 +22374,20 @@ s	迡	gni
 看想	khi-khe shian	55
 眼癢	ngae yan	55
 眼睛癢	ngae cin yan	55
-氣勿過	chi vaq kou	55
+氣勿過	chi vaq kou
 肯歇	khen shiq	55
-勿肯歇	vaq khen shiq	55
+勿肯歇	vaq khen shiq
 值鈿	jiq di	578
 肉痛	gnioq thon
 罪過	zei kou	578
 罪過	zei khou	55
 見情	ci jin	55
-交代勿過	kau de vaq kou	55
-痗心勿過	mei shin vaq kou	55
+交代勿過	kau de vaq kou
+痗心勿過	mei shin vaq kou
 心焦	shin ciau	5765
 壞過	ua kou	55
 難過	nae kou
-勿爽快	vaq saon khua	55
+勿爽快	vaq saon khua
 難熬	nae ngau
 焐心	u shin	55
 動火	don hou
@@ -22700,7 +22689,7 @@ s	迡	gni
 拼捨性命	phin so shin min	55
 隨舍	zei so	55
 橫豎橫	wan zyu wan	55
-做記勿着	tsou ci vaq dzoq	55
+做記勿着	tsou ci vaq dzoq
 放血	faon shiuq
 動打場	don tan jian	55
 打相打	tan shian tan	418
@@ -22777,7 +22766,6 @@ s	迡	gni
 慣常	kuae dzaon
 依依名	i i min	55
 脹膯	cian ten	55
-縋膯	dzyu ten	55
 積食	ciq zhiq
 賴孵	la bu	55
 打水	tan syu
@@ -22870,7 +22858,7 @@ s	迡	gni
 歇作	shiq tsoq	55
 算數	soe su
 歇過	shiq kou	55
-歇勿來	shiq vaq le	55
+歇勿來	shiq vaq le
 來勒	le laq	55
 來的	le tiq
 來當	le taon	55
@@ -23187,7 +23175,7 @@ s	迡	gni
 軋立軋煞	gaq liq gaq saq	55
 軋立軋煞	gaq li gaq saq	55
 軋軋煞煞	gaq gaq saq saq	55
-挨擠勿開	a ci vaq khe	55
+挨擠勿開	a ci vaq khe
 朗泛泛	laon fae fae	55
 朗稀稀	laon shi shi	55
 寬舒	khun syu
@@ -23308,7 +23296,7 @@ s	迡	gni
 出跳	tshyuq thiau
 出䠷	tshyuq thiau	418
 幼羞	ieu shieu	55
-老勿出	lau vaq tshyuq	55
+老勿出	lau vaq tshyuq
 認生頭	gnin san deu	55
 斯文	sy ven
 息息介	shiq shiq ka	55
@@ -23352,7 +23340,6 @@ s	迡	gni
 𨉖𨉖側側	iq iq tsaq tsaq	55
 頂真	tin tsyun
 仔潔	tsy ciq	55
-仔跡	tsy ciq	55
 面孔重	mi khon dzon	55
 賊笨	zaq ben	578
 倒爺笨	tau ya ben	55
@@ -23443,7 +23430,7 @@ s	迡	gni
 嗇啚啚	saq pi pi	55
 狗皮倒竈	keu bi tau tsau	55
 小鬼裏氣	shiau ciu li chi	55
-做鬼勿大	tsou ciu vaq dou	55
+做鬼勿大	tsou ciu vaq dou
 指甲伸	tsy khaq shin	55
 眼孔淺	ngae khon chi	55
 眼殼子高	ngae khoq tsy kau	55
@@ -23543,15 +23530,15 @@ s	迡	gni
 次毛	tshy mau	418
 差板	tsho pae	55
 推位	thei wei	55
-勿對	vaq tei	55
+勿對	vaq tei
 差差	tsho tsho	55
 死樣	shi yan	55
 拉打	lhan tan	55
 拆搭	tshaq taq	55
 嘸做	mh tsou	55
 老爺	lau ya
-賊勿貪	zaq vaq thei	55
-賊勿偷	zaq vaq theu	55
+賊勿貪	zaq vaq thei
+賊勿偷	zaq vaq theu
 屙衲一樣	ou naq iq yan	55
 聽名聲	thin min shin	55
 一般般	iq pae pae	55
@@ -23630,7 +23617,7 @@ s	迡	gni
 尋死	zhin shi
 死蟹𡀂	shi ha lei	55
 死快𡀂	shi khua lei	55
-做人勿來	tsou gnin vaq le	55
+做人勿來	tsou gnin vaq le
 阿難	aq nae
 阿難死	aq nae shi	55
 陰靉	in a	55
@@ -23792,8 +23779,8 @@ s	迡	gni
 簇括剌新	tshaq kuaq laq shin	55
 簇刮斯新	tshaq kuaq sy shin	55
 舊那那	jieu nha nha	55
-毛羽勿動	mau yu vaq don	55
-毛衣勿動	mau i vaq don	55
+毛羽勿動	mau yu vaq don
+毛衣勿動	mau i vaq don
 活龍	waq lon	55
 透刮新鮮	theu kuaq shin shi	55
 透新鮮	theu shin shi	55
@@ -23899,8 +23886,8 @@ s	迡	gni
 差來無去	tsho le wu- chi	55
 差來無幾	tsho le vu ci	55
 差來無幾	tsho le wu- ci	55
-差咋勿多	tsho dza vaq tou	55
-差勿多	tsho vaq tou	55
+差咋勿多	tsho dza vaq tou
+差勿多	tsho vaq tou
 對半夾起	tei pun kaq chi	55
 大頭朝上	dou deu jiau zaon	55
 前腳後跟	zhi ciaq gheu ken	55
@@ -24216,20 +24203,20 @@ s	迡	gni
 𠡒八𠡒九筋	tei paq tei cieu cin
 暴時	bau zy	418
 暴生	bau san	55
-先勿先	shi vaq shi	55
+先勿先	shi vaq shi
 本格	pen kaq	55
 本當	pen taon
 本生	pen san
 否則	feu tsaq
 否格	feu kaq	55
-勿然	vaq zoe	55
-勿然	vaq gni	55
+勿然	vaq zoe
+勿然	vaq gni
 藍扮	lae pae	55
 藍扮頭	lae pae deu	55
 千年藍扮	chi gni lae pae	55
 賴花頭	la huo deu	55
-候着	gheu zyuq	55
-候着記把	gheu zyuq ci po	55
+候着	gheu dzoq	55
+候着記把	gheu dzoq ci po	55
 有兩遭	yeu lian tsau	55
 有辰光	yeu zyun kuaon	55
 每遭	mei tsau	55
@@ -24280,8 +24267,8 @@ s	迡	gni
 一時裏	iq zy li	55
 立時三刻	liq zy sae khaq	55
 立時裏	liq zy li	55
-勿打記頭	vaq tan ci deu	55
-打勿記頭	tan vaq ci deu	55
+勿打記頭	vaq tan ci deu
+打勿記頭	tan vaq ci deu
 打末知頭	tan maq tsyu deu	55
 怕其	pho ji	418
 得怕	taq pho	55
@@ -24302,7 +24289,7 @@ s	迡	gni
 阿防	aq baon	55
 落去	loq chi
 弄仿	lon faon	55
-弄勿好	lon vaq hau	55
+弄勿好	lon vaq hau
 像人家	zhian gnin ko	55
 像家	zhian ko	55
 像煞	zhian saq	55
@@ -24416,21 +24403,21 @@ s	迡	gni
 嘸沒啥	mhiq so	55
 嘸沒只	mhiq ciq	55
 嘸告	mh kau	578
-只勿	ciq vaq	55
-勿結	vaq ciq	55
-勿及	vaq ji	55
-勿來	vaq le	30000
-勿像	vaq zhian	55
-勿相像	vaq shian zhian	55
-勿相相	vaq shian shian	55
+只勿	ciq vaq
+勿結	vaq ciq
+勿及	vaq ji
+勿來	vaq le	20000
+勿像	vaq zhian
+勿相像	vaq shian zhian
+勿相相	vaq shian shian
 勒像	laq zhian	55
 勒相像	laq shian zhian	55
 勒相相	laq shian shian	55
-勿過	vaq kou	55
+勿過	vaq kou
 勒過	laq kou	55
-勿好	vaq hau	55
-勿有	vaq yeu	55
-勿相似	vaq shian zy	55
+勿好	vaq hau
+勿有	vaq yeu
+勿相似	vaq shian zy
 勒相似	laq shian zy	55
 連兼	li ci	55
 除出	dzyu tshyuq	55
@@ -24446,9 +24433,9 @@ s	迡	gni
 反即	fae ciq	55
 雖則	sei tsaq
 雖即	sei ciq	55
-勿是	vaq zy	100000
-勿得	vaq taq	55
-勿生好心	vaq san hau shin	55
+勿是	vaq zy	70000
+勿得	vaq taq
+勿生好心	vaq san hau shin
 必可	piq khou
 必過	piq kou	55
 竟得	cin taq	55
@@ -24468,7 +24455,7 @@ s	迡	gni
 的𡀂	tiq lei	55
 仔𡀂	tsy lei	55
 介𡀂	ka lei	55
-勿啦	vaq laq	578
+勿啦	vaq laq	418
 東西	ton shi
 一聲響	iq shin shian	55
 勒其	laq ji	55
@@ -24499,7 +24486,7 @@ s	迡	gni
 一手落	iq shieu loq	55
 獨手落	doq shieu loq	55
 一隻鼎	iq tsaq tin	55
-三勿像	sae vaq zhian	55
+三勿像	sae vaq zhian
 上篤落	zaon toq loq	55
 上督落	zaon toq loq	55
 開伙倉	khe hou tshaon	55
@@ -24507,18 +24494,18 @@ s	迡	gni
 扎面子	tsaq mi tsy	55
 佔相因	ci shian in	55
 見䏘鬼	ci phiq ciu	55
-勿上課	vaq zaon khou	55
-勿長毛	vaq cian mau	55
-勿出產	vaq tshyuq sae	55
+勿上課	vaq zaon khou
+勿長毛	vaq cian mau
+勿出產	vaq tshyuq sae
 勒出產	laq tshyuq sae	55
-勿在內	vaq dze nei	55
-勿在乎	vaq dze wu	55
-勿討妙	vaq thau miau	55
-勿捨得	vaq so taq	418
-勿怯氣	vaq chiq chi	55
-勿做肉	vaq tsou gnioq	55
-勿着港	vaq jiaq kaon	55
-勿管賬	vaq kun cian	55
+勿在內	vaq dze nei
+勿在乎	vaq dze wu
+勿討妙	vaq thau miau
+勿捨得	vaq so taq	55
+勿怯氣	vaq chiq chi
+勿做肉	vaq tsou gnioq
+勿着港	vaq jiaq kaon
+勿管賬	vaq kun cian
 雙夾嘴	saon kaq tsyu	55
 未見得	mi ci taq
 打後手	tan gheu shieu	55
@@ -24551,7 +24538,7 @@ s	迡	gni
 吊心火	tiau shin hou	55
 吊燥水	tiau sau syu	55
 喫小苦	chioq shiau khu	55
-喫勿落	chioq vaq loq	55
+喫勿落	chioq vaq loq
 喫勒落	chioq laq loq	55
 喫巴掌	chioq po tsaon	418
 喫生活	chioq san waq
@@ -24635,13 +24622,9 @@ s	迡	gni
 岔夾餅	tsho kaq pin	55
 飯喫煞	vae chioq saq	55
 忌一腳	ji iq ciaq	55
-苦勿出	khu vaq tshyuq	55
+苦勿出	khu vaq tshyuq
 苦勒出	khu laq tshyuq	55
 苦相出	khu shian tshyuq	55
-杭勿消	ghaon vaq shiau	55
-杭勿住	ghaon vaq dzyu	55
-杭勒消	ghaon laq shiau	55
-杭勒住	ghaon laq dzyu	55
 直落三	jiq loq sae
 奔腳頭	pen ciaq deu	55
 抲白郎	kho baq laon	55
@@ -24659,10 +24642,10 @@ s	迡	gni
 放上槓	faon zaon kaon	55
 放白鴿	faon baq kaq	55
 放銅銃	faon don tshon	55
-話勿起	wo vaq chi	55
+話勿起	wo vaq chi
 話勒起	wo laq chi	55
-話勿睬	wo vaq tshe	55
-講勿睬	kaon vaq tshe	578
+話勿睬	wo vaq tshe
+講勿睬	kaon vaq tshe	418
 話勒睬	wo laq tshe	55
 講勒睬	kaon laq tshe	55
 牽頭皮	chi deu bi	55
@@ -24675,7 +24658,7 @@ s	迡	gni
 看三色	khi-khe sae saq	55
 鬼擄頭	ciu lou deu	55
 甮加氣	ven ko chi	55
-派勿來	pha vaq le	55
+派勿來	pha vaq le
 起血性	chi shiuq shin	55
 䀣眼火	piq ngae hou	55
 䀣眼火	biq ngae hou	55
@@ -24684,7 +24667,7 @@ s	迡	gni
 䟕洪洞	tsho ghon don	55
 乘風涼	zhin fon lian	55
 借肩背	cia ci pei	55
-候着候	gheu zyuq gheu	55
+候着候	gheu dzoq gheu	55
 𣍐難熬	vei nae ngau	55
 屙挭的	ou kuan tiq	55
 擄順毛	lou zyun mau	55
@@ -24722,7 +24705,7 @@ s	迡	gni
 遊五門	yeu ng men	55
 遊六門	yeu loq men	55
 摸六株	moq loq tsyu	55
-跳勿落	thiau vaq loq	55
+跳勿落	thiau vaq loq
 觸霉頭	tshoq mei deu
 解心焦	ka shin ciau	55
 戤白皮	ge baq bi	55
@@ -24778,21 +24761,21 @@ s	迡	gni
 七蹱八跌	chiq tshon paq tiq	55
 七闖八跌	chiq tshaon paq tiq	55
 人看人樣	gnin khi-khe gnin yan	55
-三勿相信	sae vaq shian shin	55
+三勿相信	sae vaq shian shin
 三兄四弟	sae shion sy di	55
 三頭六面	sae deu loq mi	55
 三對六面	sae tei loq mi
 三腳六面	sae ciaq loq mi	55
 三搭六橋	sae taq loq jiau	55
-大大勿大	dou dou vaq dou	55
-大快勿快	dou khua vaq khua	55
-大遠勿遠	dou yu vaq yu	55
-大笨勿笨	dou ben vaq ben	55
-大忙勿忙	dou maon vaq maon	55
-大貴勿貴	dou ciu vaq ciu	55
+大大勿大	dou dou vaq dou
+大快勿快	dou khua vaq khua
+大遠勿遠	dou yu vaq yu
+大笨勿笨	dou ben vaq ben
+大忙勿忙	dou maon vaq maon
+大貴勿貴	dou ciu vaq ciu
 萬試萬應	vae sy vae in	55
-上嘴勿得	zaon tsyu vaq taq	55
-上嘴勿來	zaon tsyu vaq le	55
+上嘴勿得	zaon tsyu vaq taq
+上嘴勿來	zaon tsyu vaq le
 千恩萬謝	chi en vae zhia
 千過萬謝	chi kou vae zhia	55
 丫臉黑仔	o li haq tsy	55
@@ -24810,12 +24793,12 @@ s	迡	gni
 介煩既煩	ka vae ci vae	55
 介揀既揀	ka kae ci kae	55
 介看既看	ka khi-khe ci khi-khe	55
-勿二勿三	vaq gni vaq sae	55
-勿問長短	vaq men jian toe	55
-上落勿問	zaon loq vaq men	55
-勿燥勿溼	vaq sau vaq shiq	55
-勿上勿落	vaq zaon vaq loq	55
-勿尷勿尬	vaq kae vaq ka	55
+勿二勿三	vaq gni vaq sae
+勿問長短	vaq men jian toe
+上落勿問	zaon loq vaq men
+勿燥勿溼	vaq sau vaq shiq
+勿上勿落	vaq zaon vaq loq
+勿尷勿尬	vaq kae vaq ka
 爲好除妙	wei hau dzyu miau	55
 爲好成怨	wei hau jin iu	55
 爲來爲去	wei le wei chi	55
@@ -24823,8 +24806,8 @@ s	迡	gni
 火種彭生	hou tshon ban san	55
 心塞眼閉	shin saq ngae pi	55
 心塞塞	shin saq saq	55
-巴勿能夠	po vaq nen keu	55
-巴勿得	po vaq taq	55
+巴勿能夠	po vaq nen keu
+巴勿得	po vaq taq
 正當正氣	cin taon cin chi	55
 打強嘴巴	tan jian tsyu po	55
 打硬嘴巴	tan ngan tsyu po	55
@@ -24846,12 +24829,12 @@ s	迡	gni
 有寫嘸寫	yeu shia mh shia	55
 有揩嘸揩	yeu kha mh kha	55
 老相扮出	lau shian pae tshyuq	55
-死人勿怪	shi gnin vaq kua	55
+死人勿怪	shi gnin vaq kua
 死蟹一隻	shi ha iq tsaq	55
 死蟹吹白	shi ha tshyu baq	55
 夾頭夾腦	kaq deu kaq nau	55
 喫人腦髓	chioq gnin nau shi	55
-喫氣勿過	chioq chi vaq kou	55
+喫氣勿過	chioq chi vaq kou
 喫腦子卜	chioq nau tsy boq	55
 喫腦子彈	chioq nau tsy dae	55
 喫腦子磕	chioq nau tsy khaq	55
@@ -24878,8 +24861,8 @@ s	迡	gni
 弄發弄發	lon faq lon faq	55
 蕩發蕩發	daon faq daon faq	55
 調發調發	diau faq diau faq	55
-兩頭勿着	lian deu vaq jiaq	55
-兩頭勿着港	lian deu vaq jiaq kaon	55
+兩頭勿着	lian deu vaq jiaq
+兩頭勿着港	lian deu vaq jiaq kaon
 嘸氣嘸魄	mh chi mh phaq	55
 嘸心到事	mh shin tau zy	55
 嘸心嘸事	mh shin mh zy	55
@@ -24903,11 +24886,11 @@ s	迡	gni
 連爹連孃	li tia li gnian	55
 離爹離孃	li tia li gnian	55
 賣爹賣孃	ma tia ma gnian	55
-近手勿	jin shieu vaq	55
+近手勿	jin shieu vaq
 閒話一句	ghae wo iq ciu	55
-悶咚勿響	mhen ton vaq shian	55
-悶聲勿響	mhen shin vaq shian	418
-悶勿聲響	mhen vaq shin shian	55
+悶咚勿響	mhen ton vaq shian
+悶聲勿響	mhen shin vaq shian	55
+悶勿聲響	mhen vaq shin shian
 冷灰頭爆	lan huei deu pau	55
 阿寶背書	aq pau bei syu	55
 陳年隔古	jin gni kaq ku	55
@@ -25006,15 +24989,15 @@ s	迡	gni
 裝小花臉	tsaon shiau huo li	55
 做做煞煞	tsou tsou saq saq	55
 假癡假呆	ko tshyu ko nge	55
-腳勿落地	ciaq vaq loq di	55
-腳勿撩地	ciaq vaq liau di	55
+腳勿落地	ciaq vaq loq di
+腳勿撩地	ciaq vaq liau di
 腳腳連步	ciaq ciaq li bu	55
 腳筋奔斷	ciaq cin pen doe	578
 腳底奔穿	ciaq ti pen tshoe	578
 腳底奔洞	ciaq ti pen don	55
-脫情勿來	thaq jin vaq le	55
+脫情勿來	thaq jin vaq le
 𠞭𠞭挖挖	lheu lheu uaq uaq	55
-寄手勿動	ci shieu vaq don	55
+寄手勿動	ci shieu vaq don
 隨便其法	zei bi ji faq	55
 隨便其咋	zei bi ji dza	55
 裁頭刮腳	ze deu kuaq ciaq	55
@@ -25048,8 +25031,8 @@ s	迡	gni
 瞎𠡒百𠡒	haq tei paq tei	55
 踢腳𢲔手	thiq ciaq pae shieu	55
 贏喫輸賴	yin chioq syu la	55
-譬如勿得	phi zyu vaq taq	55
-譬如勿如	phi zyu vaq zyu	55
+譬如勿得	phi zyu vaq taq
+譬如勿如	phi zyu vaq zyu
 一場嘸結果	iq jian mh ciq kou
 下巴骨彈落	gho po kuaq dae loq
 勿是生意經	vaq zy san i cin
@@ -25119,7 +25102,7 @@ s	迡	gni
 紙行	tsy ghaon
 紙襞箱	tsy paq shian	55
 紙箱店	tsy shian ti	55
-紫胡萄	tsy wu dau	55
+紫胡萄	tsy wu dau	578
 紫菜	tsy tshe
 紫檀	tsy dae
 紫藤	tsy den
@@ -25320,7 +25303,7 @@ s	迡	gni
 屁屁輕	phi phi chin	55
 𠜱刀	phi tau	55
 騙子	phi tsy
-譬如勿得	phi zy vaq taq	55
+譬如勿得	phi zy vaq taq
 譬如	phi zy
 皮子麪	bi tsy mi	55
 皮靴	bi shiu
@@ -25643,7 +25626,7 @@ s	迡	gni
 汽油燈	chi yeu ten	55
 氣數	chi su
 氣概	chi ke
-氣耐勿牢	chi ne vaq lau	55
+氣耐勿牢	chi ne vaq lau
 氣量	chi lian
 氣窗	chi tshaon
 氣門絕煞	chi men dzyuq saq	55
@@ -25695,7 +25678,7 @@ s	迡	gni
 泥墁	gni mun	55
 泥壁	gni piq
 疑心	gni shin
-疑惑勿決	gni ghoq vaq ciuq	55
+疑惑勿決	gni ghoq vaq ciuq
 閻羅大王	gni lou da waon	55
 黏黏上	gni gni zaon	55
 二處飯	gni tshyu vae	55
@@ -25781,7 +25764,7 @@ s	迡	gni
 看風水	khi-khe fon syu
 看中意	khi-khe tson i	55
 看白戲	khi-khe baq shi	55
-看勿起	khi-khe vaq chi	55
+看勿起	khi-khe vaq chi
 看勒起	khi-khe laq chi	55
 看的	khi-khe tiq
 看眼的	khi-khe ngae tiq	55
@@ -25815,7 +25798,6 @@ s	迡	gni
 煙囪	i tshon
 菸盒子	i ghaq tsy	55
 菸葉	i yiq
-嫌貶	i pi	55
 嫌憎	i tsen
 醃篤鮮	i toq shi	55
 醫生	i san
@@ -25925,8 +25907,8 @@ s	迡	gni
 姑嬤頭	ku mho deu	55
 古銅色	ku don saq
 僱工	ku kon
-僱着	ku zyuq	55
-顧着	ku zyuq
+僱着	ku zoq	55
+顧着	ku zoq
 箍桶師父	khu don sy vu	55
 骷顱頭瓶	khu lu deu bin	55
 苦膽	khu tae
@@ -26069,7 +26051,7 @@ s	迡	gni
 買面孔	ma mi khon	55
 買面子	ma mi tsy
 買賬	ma cian
-買勿出	ma vaq tshyuq	55
+買勿出	ma vaq tshyuq
 賣旺	ma waon	55
 賣藥郎中	ma yaq laon tson	55
 帶孝	ta hau
@@ -26513,8 +26495,8 @@ s	迡	gni
 絞絲旁	gau sy baon	55
 搞七搞八	gau chiq gau paq	55
 搞依八𠡒	gau i paq tei	55
-咬勿動	ngau vaq don	55
-咬勿落	ngau vaq loq	55
+咬勿動	ngau vaq don
+咬勿落	ngau vaq loq
 痚駝病	hau dou bin	55
 好幾個	hau ci goq
 好幾個	hau ci kou
@@ -26601,7 +26583,7 @@ s	迡	gni
 車兜	tsho teu	55
 車行	tsho ghaon
 差來浮去	tsho le vu chi	55
-差扳勿起	tsho pae vaq chi	55
+差扳勿起	tsho pae vaq chi
 差扳眼	tsho pae ngae	55
 差眼眼	tsho ngae ngae	55
 差一眼眼	tsho iq ngae ngae	55
@@ -26642,15 +26624,14 @@ s	迡	gni
 啥地方	so di faon	55
 啥地方	soq di faon	55
 啥地方	sou di faon	55
-啥犯着	so vae zyuq	55
-啥犯着	sou vae zyuq	55
+啥犯着	so vae zoq	55
+啥犯着	sou vae zoq	55
 稍勢	so syu	55
 稍爲	so wei	578
 稍便	so bi	55
 痧藥	so yaq	55
 蓑衣	so i
 賒賬	so cian
-惹嫌	zo i	55
 惹厭貓	zo i mae	55
 瓜子	kuo tsy
 瓜子臉	kuo tsy li
@@ -26778,7 +26759,7 @@ s	迡	gni
 瞭高	liau kau	55
 料車	liau tsho
 料酒	liau cieu
-料着	liau zyuq	55
+料着	liau zoq	55
 交交關	ciau ciau kuae	578
 交交關關	ciau ciau kuae kuae	578
 交杯酒	ciau pei cieu
@@ -26954,8 +26935,8 @@ s	迡	gni
 話李	wo li	55
 話把	wo po	55
 話梅	wo mei
-話勿理睬	wo vaq li tshe	55
-話勿出	wo vaq tshyuq	55
+話勿理睬	wo vaq li tshe
+話勿出	wo vaq tshyuq
 話劇	wo jiq
 蛙泳	uo ion
 𧟰渠	fe ji	30000
@@ -27123,7 +27104,7 @@ s	迡	gni
 犯人車	vae gnin tsho	55
 犯法	vae faq
 犯罪	vae zei
-犯着	vae zyuq	55
+犯着	vae zoq	55
 飯師父	vae sy vu	55
 飯店	vae ti
 飯盂	vae yu	55
@@ -27301,7 +27282,7 @@ s	迡	gni
 揀落漿	kae loq cian	55
 減年成	kae gni jin	55
 橄欖	kae lae
-尷裏勿尷尬	kae li vaq kae ka	55
+尷裏勿尷尬	kae li vaq kae ka
 鉛皮匠	khae bi zhian	55
 鉛筆	khae piq
 嵌寶戒	khae pau ka	55
@@ -27428,7 +27409,6 @@ s	迡	gni
 臭花娘子	shieu huo gnian tsy	55
 臭豆腐	chieu deu vu
 臭醬豆腐	chieu cian deu vu	55
-臭齆齆	chieu nhon nhon	55
 臭蟲	chieu dzon
 臭烘烘	chieu hon hon
 臭墨	chieu moq	55
@@ -27587,11 +27567,11 @@ s	迡	gni
 對蝦	tei huo
 對襟	tei cin
 對攏	tei lon	55
-對勿住	tei vaq dzyu	55
-對勿起	tei vaq chi	55
+對勿住	tei vaq dzyu
+對勿起	tei vaq chi
 對折攔腰環	tei ciq lae iau guae	55
 推扳眼	thei pae ngae	418
-推扳勿起	thei pae vaq chi	418
+推扳勿起	thei pae vaq chi	55
 推爲	thei wei
 腿腈	thei cin	55
 退潮	thei jiau
@@ -27620,7 +27600,7 @@ s	迡	gni
 𤿏飯	nei vae	55
 雷雨	lei yu
 雷陣雨	lei jin yu
-雷打着𡀂	lei tan zyuq lei	55
+雷打着𡀂	lei tan zoq lei	55
 錐子	tsei tsy
 醉雞肉	tsei ci gnioq	55
 隨便渠法	zei bi ji faq
@@ -27802,7 +27782,6 @@ s	迡	gni
 蘿蔔菜	lou boq tshe	55
 鑼鼓腳	lou ku ciaq	55
 囉唆	lhou sou
-攎順毛	lou zyun mau	55
 做眯眼	tsou mhi ngae	55
 做地頭	tsou di deu	55
 做地𡍲	tsou di taq	55
@@ -28047,6 +28026,8 @@ s	迡	gni
 候我話話過	gheu ngo wo wo kou
 候儂話話過	gheu nou wo wo kou
 候人家話話過	gheu gnin ko wo wo kou
+候着	gheu zoq	55
+候着記把	gheu zoq ci po	55
 傴倒	eu tau	578
 繃子	pan tsy
 伯伯	pan pan
@@ -28055,8 +28036,8 @@ s	迡	gni
 朋友道裏	ban yeu dau li	55
 彭祖暴	ban tsu pau	55
 棚梯	ban the	55
-碰着	ban zyuq
-碰着	phon zyuq
+碰着	ban zoq
+碰着	phon zoq
 甏腳	ban ciaq	55
 蟛蟲	ban dzon	55
 猛日頭	man gniq deu	55
@@ -28441,10 +28422,6 @@ s	迡	gni
 湯藥	thaon yaq
 耥田	thaon di	55
 燙衣裳	thaon i zaon	55
-燙壺子	thaon wu tsy	55
-燙盤子	thaon bun tsy	55
-燙婆子	thaon bou tsy	55
-燙水壺	thaon syu wu	55
 堂房	daon vaon
 堂房姊妹	daon vaon ci mei	55
 堂姊妹	daon ci mei
@@ -28576,16 +28553,12 @@ s	迡	gni
 講臺	kaon de
 講大話	kaon da wo	55
 講正頭	kaon cin deu	55
-講勿來	kaon vaq le	578
-講勿理踩	kaon vaq li tshe	55
+講勿來	kaon vaq le	418
+講勿理踩	kaon vaq li tshe
 講勒來	kaon laq le	55
 戇大女婿	gaon dou gniu shi	55
 戇戇鵝	gaon gaon ngou	55
 行會	ghaon wei
-行勿住	ghaon vaq dzyu	578
-行勿消	ghaon vaq shiau	578
-行勒住	ghaon laq dzyu	578
-行勒消	ghaon laq shiau	578
 項圈	ghaon chiu
 光是	kuaon zy
 光芋	kuaon gniu	55
@@ -28703,7 +28676,6 @@ s	迡	gni
 門口頭	men kheu deu	418
 門口	men kheu
 門槍	men chian	55
-門門帳	men men cian	578
 門框	men khuaon
 門襟	men cin	55
 門神	men zyun
@@ -28711,7 +28683,7 @@ s	迡	gni
 蚊蟲香	men dzon shian	55
 悶氣特塞	mhen chi daq saq	55
 悶痧	mhen so	55
-悶冬勿響	mhen ton vaq shian	418
+悶冬勿響	mhen ton vaq shian	55
 悶洞老虎	mhen don lau fu	55
 問籤詩	men chi sy	55
 問案	men ei-e
@@ -28764,7 +28736,7 @@ s	迡	gni
 嫩頭	nen deu	55
 嫩筍頭	nen syun deu	55
 輪船	len zoe
-輪着	len zyuq
+輪着	len zoq
 忖紋理	tshen ven li	55
 襯布	tshen pu
 襯鞋底	tshen gha ti	55
@@ -28863,7 +28835,7 @@ s	迡	gni
 零用鈿	lin yon di	578
 零拆躉買	lin tshaq ten ma	55
 臨帖	lin thiaq
-臨着	lin zyuq	55
+臨着	lin zoq	55
 靈巧	lin chiau
 領來兒子	lin le ng tsy	55
 領口	lin kheu
@@ -29036,7 +29008,7 @@ s	迡	gni
 信紙	shin tsy
 興致	shin tsy
 尋開心	zhin khe shin
-尋着	zhin zyuq	55
+尋着	zhin zoq	55
 甚多莫少	zhin tou moq shiau	55
 淨更半夜	zhin ken pun ya	418
 靜靜個	zhin zhin kou	55
@@ -29084,6 +29056,7 @@ s	迡	gni
 滾壯活脫	kuen tsaon waq thaq	55
 睏褲	khuen khu	55
 睏衫	khuen sae	55
+睏勿着	khuen vaq zoq	55
 睏落	khuen loq	578
 昏頭	huen deu
 婚事	huen zy
@@ -29203,7 +29176,6 @@ s	迡	gni
 桶耳朵皮	don ng to bi	55
 桶耳朵皮	don gni to bi	55
 筒子	don tsy
-齆鼻頭	nhon baq deu	55
 龍鬚竹	lon syu tsoq	55
 龍蝦	lon huo
 龍頭魚	lon deu ng	55
@@ -29312,8 +29284,6 @@ s	迡	gni
 兄弟	shion di
 兄弟家	shion di ko	55
 胸脯	shion bu
-胸管頭	shion kun deu	55
-胸管頭肉	shion kun deu gnioq	55
 雄驢	yon lu	55
 雄雞	yon ci
 雄馬	yon mo
@@ -29450,16 +29420,16 @@ s	迡	gni
 發嗝	faq kaq	55
 發帖子	faq thiaq tsy
 髮腳	faq ciaq
-勿敢當	vaq ki-ke taon	55
-勿依	vaq i	55
-勿大	vaq da	55
-勿咋	vaq dza	55
-勿入料	vaq zyuq liau	55
-勿錯	vaq tshou	55
-勿論	vaq len	55
-勿認得	vaq gnin taq	55
-勿得了	vaq taq liau	55
-勿服	vaq voq	55
+勿敢當	vaq ki-ke taon
+勿依	vaq i
+勿大	vaq da
+勿咋	vaq dza
+勿入料	vaq zyuq liau
+勿錯	vaq tshou
+勿論	vaq len
+勿認得	vaq gnin taq
+勿得了	vaq taq liau
+勿服	vaq voq
 佛手	vaq shieu
 佛堂	vaq daon
 物證	vaq cin
@@ -29491,8 +29461,6 @@ s	迡	gni
 衲爿	naq bae	55
 倷兩人	naq lian gnin	55
 倷個	naq goq	578
-肋膈肢下	laq kaq tsy gho	578
-肋膈肢下毛	laq kaq tsy gho mau	55
 勒渠	laq ji	55
 辣椒粉	laq ciau fen
 辣椒	laq ciau
@@ -29733,8 +29701,8 @@ s	迡	gni
 鰙鰨魚	gniaq thaq ng	55
 削地𡍲	shiaq di taq	55
 削骨臉	shiaq kuaq li	55
-嚼勿動	zhiaq vaq don	55
-嚼勿落	zhiaq vaq loq	55
+嚼勿動	zhiaq vaq don
+嚼勿落	zhiaq vaq loq
 藥水肥皂	yaq syu bi zau	55
 藥店	yaq ti
 藥碾子	yaq gni tsy	55
@@ -29961,7 +29929,7 @@ s	迡	gni
 穀倉	koq tshaon
 擱沙	koq so	55
 擱板	koq pae
-覺着	koq zyuq	10000
+覺着	koq zoq	10000
 殼貨	khoq hou	55
 殼㝗	khoq laon	55
 霍亂吐瀉	hoq loe thu shia	55
@@ -30036,7 +30004,7 @@ s	迡	gni
 肉丁	gnioq tin
 肉凍	gnioq ton
 肉鬆	gnioq son
-肉勿𤿏	gnioq vaq nei	55
+肉勿𤿏	gnioq vaq nei
 肉骨實實	gnioq kuaq zyuq zyuq	55
 畢發畢準	piq faq piq tsyun
 畢業	piq gniq
@@ -30067,7 +30035,7 @@ s	迡	gni
 別針	biq cin
 別別跳	biq biq thiau	55
 鼻翼	biq yiq
-𧼱勿着	biq vaq zyuq	55
+𧼱勿着	biq vaq zoq
 蹩腳	biq ciaq
 蹩腳貨	biq ciaq hou	55
 嘸沒啥好	mhiq so hau	55
@@ -30560,7 +30528,7 @@ s	迡	gni
 弗過	vaq kou	55
 弗來	vaq le	60000
 弗知	faq ciq
-弗是	faq zy
+弗是	vaq zy	170000
 弗像	vaq zhian	55
 弗入流	vaq zyuq lieu
 弗上課	vaq zaon khou	55
@@ -30854,8 +30822,6 @@ s	迡	gni
 筍麩鹹虀	syun fu ghae ci
 倒向	tau shian
 倒夜笨	tau ya ben
-候着	gheu dzoq	55
-候着候	gheu dzoq gheu
 侯分候數	gheu fen gheu su
 爹頭娘腳	tia deu gnian ciaq
 舀斗	iau teu
