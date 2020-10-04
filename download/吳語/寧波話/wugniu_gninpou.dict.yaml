@@ -22,7 +22,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.09.26"
+version: "2020.10.04"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -7714,29 +7714,29 @@ s	迡	gni
 篲	zei
 鏏	zei
 蔧	zei
-蚶	hei-	0%
-酣	hei-	0%
-邯	hei-	0%
-炶	hei-	0%
-甝	hei-	0%
-魽	hei-	0%
-鼾	hei-	0%
-頇	hei-	0%
-憨	hei-	0%
-𩈣	hei-	0%
-㟏	hei-	0%
-谽	hei-	0%
-馠	hei-	0%
-罕	hei-	0%
+蚶	hei-	6%
+酣	hei-	6%
+邯	hei-	6%
+炶	hei-	6%
+甝	hei-	6%
+魽	hei-	6%
+鼾	hei-	6%
+頇	hei-	6%
+憨	hei-	6%
+𩈣	hei-	6%
+㟏	hei-	6%
+谽	hei-	6%
+馠	hei-	6%
+罕	hei-	6%
 許	hei-	5%
-撼	hei-	0%
-憾	hei-	0%
+撼	hei-	6%
+憾	hei-	6%
 咳	hei-	5%
-蔊	hei-	0%
-厂	hei-	0%
-漢	hei-	0%
+蔊	hei-	6%
+厂	hei-	6%
+漢	hei-	6%
 熯	hei-	55
-旰	hei-	0%
+旰	hei-	6%
 哎	ghei-ghe
 含	ghei-ghe
 焓	ghei-ghe
@@ -14795,7 +14795,6 @@ s	迡	gni
 只	ciq
 祇	ciq	0%
 知	ciq	0%
-蜘	ciq	0%
 楫	ciq
 檝	ciq
 郅	ciq
@@ -20127,6 +20126,7 @@ s	迡	gni
 身關	shin kuae	55
 後影	gheu in
 奶酣	na he	55
+奶酣	na hei-
 個子頭	kou tsy deu	55
 塊頭	khuei deu
 塊碼	khuei mo	55
@@ -20156,7 +20156,9 @@ s	迡	gni
 頭埭	deu da	55
 章程	tsaon jin
 呵鼾	huo he	55
+呵鼾	huo hei-
 眠鼾	mi he	55
+眠鼾	mi hei-
 雞眨覺	ci saq kau	55
 亂夢地裏	loe maon di li	55
 心網	shin maon	55
@@ -20565,6 +20567,7 @@ s	迡	gni
 淡菜	dae tshe
 蠣黃	li uaon
 毛蚶	mau he
+毛蚶	mau hei-
 蛤螷	kaq bi	55
 蛤皮	kaq bi	55
 圓蛤	yu kaq	55
@@ -20717,6 +20720,7 @@ s	迡	gni
 豆板	deu pae	55
 蘭花倭豆	lae huo ou deu	55
 羅漢豆	lou he deu
+羅漢豆	lou hei- deu
 蠶豆	zei-ze deu
 細倭豆	shi ou deu	55
 赤豆	tshaq deu
@@ -21781,10 +21785,8 @@ s	迡	gni
 米蟲	mi dzon
 穀蝴蝶	koq wu diaq	55
 結蛛	ciq tsyu	55
-蛛蛛	tsyu tsyu
 𧋥蛛	tsoq tsyu	55
 結蛛亂網	ciq tsyu loe maon	55
-蛛蛛亂網	tsyu tsyu loe maon	55
 𧋥蛛亂網	tsoq tsyu loe maon	55
 壁蟹	piq ha	55
 壁老虎	piq lau fu	55
@@ -21856,6 +21858,7 @@ s	迡	gni
 辣蓼	laq liau	55
 艾青	nge chin
 艾漢	nge he	55
+艾漢	nge hei-	55
 苧麻	ji mo
 絡麻	loq mo	55
 糖蔗	daon tso	55
@@ -22256,7 +22259,9 @@ s	迡	gni
 伸懶勢	shin lae syu	55
 拗腰骨	au iau kuaq	55
 打呵鼾	tan huo he	55
+打呵鼾	tan huo hei-	55
 打眠鼾	tan mi he	55
+打眠鼾	tan mi hei-	55
 打瞌𥅻	tan khaq tshon	418
 睏晏覺	khuen ae kau	578
 睏覺	khuen kau	20000
@@ -23239,6 +23244,7 @@ s	迡	gni
 結棍	ciq kuen	55
 鐵倉介	thiq tshaon ka	55
 紅出𩈣𩈣	ghon tshyuq he he	55
+紅出𩈣𩈣	ghon tshyuq hei- hei-	55
 𦫪色	o saq	55
 㽺東東	shiq ton ton	55
 㽺倲倲	shiq ton ton	55
@@ -25189,8 +25195,6 @@ s	迡	gni
 硃紅	tsyu ghon
 侏栗	tsyu liq	55
 珠花	tsyu huo	55
-蛛蛛網	tsyu tsyu maon	55
-蛛蛛網絲	tsyu tsyu maon sy	55
 主意	tsyu i
 主主意意	tsyu tsyu i i	55
 主人家	tsyu gnin ko
@@ -27404,7 +27408,6 @@ s	迡	gni
 抽腳筋	chieu ciaq cin	55
 秋收	chieu shieu
 秋分	chieu fen
-臭花娘子	shieu huo gnian tsy	55
 臭豆腐	chieu deu vu
 臭醬豆腐	chieu cian deu vu	55
 臭蟲	chieu dzon
@@ -29467,7 +29470,7 @@ s	迡	gni
 辣醬油	laq cian yeu
 辣白菜	laq baq tshe	55
 辣辣茄	laq laq jie	55
-邋裏邋遢	laq li laq thaq	55
+邋裏邋遢	laq li laq thaq	445
 臘梅	laq mei
 臘腸	laq jian
 臘肉	laq gnioq
