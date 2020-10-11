@@ -22,7 +22,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.10.04"
+version: "2020.10.11"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -301,7 +301,7 @@ import_tables:
 俬	sy
 斯	sy
 撕	sy
-嘶	sy
+嘶	sy	730
 廝	sy
 厮	sy
 釃	sy
@@ -1877,7 +1877,7 @@ import_tables:
 奇	ji
 琦	ji
 騎	ji
-敧	ji	1000
+敧	ji	5000
 觭	ji
 碕	ji
 埼	ji
@@ -2166,7 +2166,7 @@ s	迡	gni
 樨	shi
 髓	shi
 徙	shi
-嘶	shi	5%
+嘶	shi	2142
 圾	shi
 簁	shi
 褷	shi
@@ -8596,6 +8596,7 @@ s	迡	gni
 婾	theu
 鍮	theu
 斢	theu
+透	theu
 鋀	theu
 㪗	theu	418
 敨	theu
@@ -8631,10 +8632,10 @@ s	迡	gni
 啂	neu
 耨	neu
 鎒	neu
-槈	nou
+槈	neu
 獳	neu
 檽	neu
-譳	nou
+譳	neu
 㝅	neu
 樓	leu
 髏	leu
@@ -18860,7 +18861,6 @@ s	迡	gni
 龍光閃	lon kuaon shi	55
 落地雷	loq di lei	55
 連底凍	li ti ton	55
-成糖	jin daon	55
 天家	thi ko	578
 地腳印	di ciaq in	55
 塢采	u tshe	418
@@ -19184,8 +19184,6 @@ s	迡	gni
 過年過界	kou gni kou kau	55
 長年到頭	jian gni tau deu	55
 多百多年	tou paq tou gni	55
-念年	ne-gnie gni	55
-念年子	ne-gnie gni tsy	55
 開年	khe gni
 出開年	tshyuq khe gni	55
 新年新歲	shin gni shin syu	418
@@ -20087,10 +20085,6 @@ s	迡	gni
 腳娘肚	ciaq gnian du	578
 碰㬹	ban tsan	55
 腳㬹	ciaq tsan	55
-腳卜絡頭	ciaq boq loq deu	55
-腳卜絡頭	ciaq bu loq deu	55
-腳卜絡頭	ciaq boq lu deu	55
-腳卜絡頭	ciaq bu lu deu	55
 腳㬹子頭	ciaq tsan tsy deu	55
 腳泥螺	ciaq gni lou	418
 腳末泥螺	ciaq maq gni lou	418
@@ -20510,7 +20504,7 @@ s	迡	gni
 鑲盆	shian ben	55
 汁水	ciq syu	55
 汁湯	ciq thaon	55
-鹵滯	lu dzyu	55
+滷滯	lu dzyu	55
 臭滷	chieu lu	55
 葷腥	huen shin
 熱氣肉	gniq chi gnioq	55
@@ -24446,13 +24440,13 @@ s	迡	gni
 竟得	cin taq	55
 如話	zyu wo	50000
 是話	zy wo	50000
-篤知	toq tsyu	55
 鐵爬	thiq bo	55
 鐵防	thiq baon	55
 只勒	ciq laq	55
 但便	dae bi	55
 省勒	san laq	55
 省勒	sae laq	55
+喌喌	tsoq tsoq
 喌喌	tso tso
 喁喁	gniu gniu
 咩咩	mhae mhae
@@ -25209,7 +25203,6 @@ s	迡	gni
 豬心	tsyu shin
 豬血	tsyu shiuq
 嘴巴	tsyu po
-嘴巴都起	tsyu po tu chi	55
 嘴巴牢	tsyu po lau	55
 嘴巴噘噘	tsyu po ciuq ciuq	55
 嘴巴嘸味道	tsyu po mh mi dau	55
@@ -25938,7 +25931,6 @@ s	迡	gni
 蝴蝶	wu diaq
 蝴蝶結	wu diaq ciq
 糊裏糊塗	wu li wu du	55
-糊千達萬	wu chi daq vae	55
 戶頭	wu deu
 武旦	wu-vu tae
 武生	wu-vu san
@@ -26697,6 +26689,8 @@ s	迡	gni
 夏至	gho tsy
 丫頭	o deu
 丫頭屄	o deu pi	55
+搲船	uo zoe	55
+搲龍船	uo lon zoe	55
 𦫪掉	o diau	55
 表弟新婦	piau di shin vu	55
 表姊妹	piau ci mei
@@ -28941,6 +28935,7 @@ s	迡	gni
 秤鉤	chin keu
 秤盤	chin bun
 趁早	chin tsau
+成糖	jin daon	55
 成攏	jin lon	55
 成藥	jin yaq
 芹菜	jin tshe
@@ -30695,8 +30690,8 @@ s	迡	gni
 悶聲弗響	mhen shin vaq shian	55
 悶桶弗響	mhen don vaq shian
 竈臺	tsau de
-良士	lian zy
-良士嬸	lian zy shin
+良士	lan zy
+良士嬸	lan zy shin
 社會禮拜	dzo wei li pa
 尿撒	syu dza	55
 遲了百遲	ji liau baq ji
@@ -30908,7 +30903,6 @@ s	迡	gni
 跔掉	geu diau	55
 跑春	phau tshyun	55
 蜒蚰螺	yi yi loe
-喌喌	tsoq tsoq
 黑醜醜	haq chieu chieu
 筒頭面	don deu mi
 釉璃傢伙	yeu li ko hou
