@@ -1,0 +1,91 @@
+engine:
+  filters:
+    - simplifier
+    - uniquifier
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+key_binder:
+  import_preset: default
+menu:
+  page_size: 8
+punctuator:
+  import_preset: default
+recognizer:
+  import_preset: default
+schema:
+  author:
+    - "triehhoo"
+  description: |
+    建寧府羅馬字輸入法
+    
+  name: "羅馬字〔建甌〕"
+  schema_id: lmc
+  version: 2017.09.23 
+speller:
+  algebra:
+    - "xform/[1-8]//"
+    - "derive/eeng/oeng/"
+    - "derive/eeng/oeyng/"
+    - "derive/eeng/oevng/"
+    - "derive/eeuu/oe/"
+    - "derive/eeuu/oey/"
+    - "derive/eeuu/oe/"
+    - "derive/uuing/ving/"
+    - "derive/uuing/ying/"
+    - "derive/ioo/io/"
+    - "derive/uu/v/"
+    - "derive/uu/y/"
+    - "derive/aa/ee/"
+    - "derive/uoong/uong/"
+    - "derive/uue/ve/"
+    - "derive/uue/ye/"
+    - "derive/e/ei/"
+    - "derive/uoi/ue/"
+    - "derive/eng/eing/"
+    - "derive/iau/iao/"
+    - "derive/au/ao/"
+    - "derive/u/w/"
+    - "derive/ci/ji/"
+    - "derive/chi/qi/"
+    - "derive/si/xi/"
+    - "derive/ci/zi/"
+    - "derive/ng/f/"
+    - "derive/^(.+)g$/$1/"
+    - "derive/^(.+)x$/$1/"
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: ["中文", "西文"]
+  - name: half_shape
+    states: ["全角", "半角"]
+  - name: ascii_punct
+    states: ["，。", "，．"]
+  - name: simplification
+    states: ["漢字", "汉字"]
+translator:
+  comment_format:
+    - "xlit/12345678/¹²³⁴⁵⁶⁷⁸/"
+  dictionary: lmc
+  enable_completion: true
+  enable_user_dict: false
+  preedit_format:
+    - "xform/f/ng/"
+  spelling_hints: 5

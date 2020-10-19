@@ -102,9 +102,9 @@ To improve the readability and maintainability of this project, here we adopt th
 | ----------------------- | ------------------ | --------------------- | ---------------------- | -------------------- | ------------------------ | ---------------- | -------------------- | ------------------ | ----------------------- | ---------------------- | ---------------------- | --------------- | ---------------- | ------------------------------ | ------------------------------ |
 | cdo                     | cjy                | cmn                   | cpx                    | czh                  | czo                      | gan              | hak                  | hsn                | lzh                     | mnp                    | nan                    | wuu             | yue              | cnp                            | csp                            |
 
-目前 **暫缺閩北語、閩中語、徽語、贛語、湘語、北部平話** 的輸入方案。如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或[新開一個 issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) 以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
+目前 **暫缺閩中語、徽語、贛語、湘語、北部平話** 的輸入方案。如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或[新開一個 issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) 以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
-Right now we are still **missing the schemas for Northern Min, Central Min, Huizhou, Gan, Xiang, Northern Ping**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or [open a new issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) to add it to the collection. Schemas for other Chinese languages are also highly welcomed.
+Right now we are still **missing the schemas for Central Min, Huizhou, Gan, Xiang, Northern Ping**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or [open a new issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) to add it to the collection. Schemas for other Chinese languages are also highly welcomed.
 
 以下爲方案總表和配方列表。其中配方以符號 ℞ 標識。
 
@@ -112,8 +112,9 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共 109 個方案）
-<br/>Full list of collected schemas (109 schemas in total)</h3>
+<h3>方案列表（共 110 個方案）
+<br/>Full list of collected schemas (110 schemas in total)</h3>
+
 
 <ul>
   <li>
@@ -395,7 +396,14 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   <li>
     <details>
       <summary>閩北語 Northern Min</summary>
-      <b>暫缺 Not available</b>
+      <ul>
+        <li>
+          建寧府羅馬字輸入法和閩北語輸入法 ℞ <code>triehhoo/svnihua</code>
+          <ul>
+            <li>羅馬字〔建甌〕 - <code>lmc</code></li>
+          </ul>
+        </li>
+      </ul>
     </details>
   </li>
   <li>
@@ -619,8 +627,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
 </ul>
 
-<h3>配方列表（共 41 個配方）
-<br/>List of recipes (41 recipes in total)</h3>
+<h3>配方列表（共 42 個配方）
+<br/>List of recipes (42 recipes in total)</h3>
 
 <ul>
   <li>
@@ -756,7 +764,9 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   <li>
     <details>
       <summary>閩北語 Northern Min</summary>
-      <b>暫缺 Not available</b>
+      <ul>
+        <li>建寧府羅馬字輸入法和閩北語輸入法 ℞ <code>triehhoo/svnihua</code></li>
+      </ul>
     </details>
   </li>
   <li>
