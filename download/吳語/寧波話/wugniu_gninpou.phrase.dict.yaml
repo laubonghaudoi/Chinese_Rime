@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.10.11"
+version: "2020.10.23"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -73,7 +73,6 @@ use_preset_vocabulary: true
 狼基涴樸	laon ci ou phoq	55
 涴蛋分	ou dae fen	418
 涴講	ou kaon	55
-揩涴屁眼	kae ou phi ngae	55
 涴賴	ou la	55
 涴塞煞	ou saq saq	418
 涴塞飽	ou saq pau	55
@@ -428,6 +427,7 @@ use_preset_vocabulary: true
 腳部絡頭	ciaq bu loq deu	55
 腳膊路頭	ciaq boq lu deu	55
 腳部路頭	ciaq bu lu deu	55
+扴涴屁眼	kae ou phi ngae	55
 
 # 江蘇教育版《寧波方言詞典》 其他寫法
 
@@ -2582,7 +2582,6 @@ use_preset_vocabulary: true
 菜心蘑菇
 花蓮菜炒年糕
 三月三
-地菜馬蘭揩屁眼
 苔條月餅	de diau yuq pin
 苔條燜花生米	de diau mhen huo sen mi
 碗頭蔥烤河鯽魚	un deu tshon khau ghou ci ng
@@ -3437,7 +3436,7 @@ use_preset_vocabulary: true
 喚狗
 喚雞
 嘔其一聲
-啐活靈
+啐活靈	tshe waq lin
 老人勿掏古	lau gnin vaq dau ku
 後生會失譜	gheu san wei syuq pu
 買只豬娘
@@ -5362,6 +5361,7 @@ use_preset_vocabulary: true
 咋個大	dza kun dou	55
 咋個長	dza kou jian
 咋個大	dza kou dou
+地菜馬蘭扴屁眼
 # 地名
 寧波市	gnin pou zy
 寧波市	gnin poq zy
@@ -8836,6 +8836,29 @@ use_preset_vocabulary: true
 兩件頭
 三件頭
 該件頭	kiq ji deu
+# X煞可憐
+煞可憐		578
+勒可憐
+弄煞可憐
+做煞可憐
+講煞可憐
+聽煞可憐
+煩煞可憐
+謳煞可憐
+奔煞可憐
+𧮙煞可憐
+忙煞可憐
+尋煞可憐
+弄勒可憐
+做勒可憐
+講勒可憐
+聽勒可憐
+煩勒可憐
+謳勒可憐
+奔勒可憐
+𧮙勒可憐
+忙勒可憐
+尋勒可憐
 # 食物
 倭豆鹹肉糯米飯
 糯米飯
@@ -8875,6 +8898,9 @@ use_preset_vocabulary: true
 糖水黃桃
 黃桃
 青塊
+蟹腳末頭
+大腳鉗	dou ciaq ji
+小腳鉗
 # 商業
 倉橋麪結店
 興寧橋烤雞
@@ -9368,6 +9394,8 @@ use_preset_vocabulary: true
 和計		55
 和結		55
 木鬼	moq ciu
+木木鬼	moq moq ciu
+小木鬼	shiau moq ciu
 幾千年庚
 老鼠窠	lau tsy khou
 癢趣趣	yan tshyu tshyu
@@ -9398,6 +9426,10 @@ use_preset_vocabulary: true
 手部絡頭	shieu bu loq deu	55
 手膊路頭	shieu boq lu deu	55
 手部路頭	shieu bu lu deu	55
+涴精寶	ou cin pau
+屙精寶	ou cin pau
+啊啐	gha tshei
+咋記意思
 # 八股文拆分詞彙
 〇兩	lin lian
 一九九兩	iq cieu cieu lian
@@ -15487,7 +15519,7 @@ vcd	vi shi di
 東嚴
 東園新村
 東坑
-東坑里水庫
+東坑裏水庫
 東城名苑
 東城峯匯大廈	ton jin fon wei da gho
 東城峯匯大廈	ton jin fon wei da so

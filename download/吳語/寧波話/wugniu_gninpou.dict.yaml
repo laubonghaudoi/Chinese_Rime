@@ -22,7 +22,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.10.11"
+version: "2020.10.24"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -757,6 +757,8 @@ import_tables:
 彼	pi	10%
 柀	pi
 娝	pi
+撥渠	pi
+撥其	pi
 扁	pi
 匾	pi
 鯿	pi
@@ -1097,6 +1099,8 @@ import_tables:
 坻	ti
 弤	ti
 軧	ti
+搭渠	ti
+搭其	ti
 典	ti
 碘	ti
 𥮏	ti
@@ -1523,7 +1527,6 @@ import_tables:
 羈	ci
 羇	ci
 躸	ci
-今	ci	0%
 旃	ci
 栴	ci
 韉	ci
@@ -1581,6 +1584,7 @@ import_tables:
 麉	ci
 玪	ci
 䥛	ci
+今	ci	0%
 擠	ci
 濟	ci
 櫅	ci
@@ -2366,9 +2370,9 @@ s	迡	gni
 漧	ki-ke
 迀	ki-ke
 鳱	ki-ke
+鋸	ki-ke
 該	ki-	0%
 賅	ki-
-鋸	ki-ke
 𡨢	ki-
 丐	ki-	10%
 匃	ki-	10%
@@ -2469,6 +2473,9 @@ s	迡	gni
 沶	yi
 瓵	yi
 懿	yi
+涯	yi
+崖	yi
+冶	yi
 𧍢	yi
 延	yi
 蜒	yi
@@ -2526,9 +2533,6 @@ s	迡	gni
 豓	yi
 艶	yi
 蛝	yi
-涯	yi
-崖	yi
-冶	yi
 匸	yi
 已	yi
 以	yi
@@ -2540,6 +2544,8 @@ s	迡	gni
 扡	yi
 肔	yi
 苢	yi
+裏	yi	0%
+裡	yi	0%
 峴	yi
 晛	yi
 睍	yi
@@ -2567,8 +2573,6 @@ s	迡	gni
 豏	yi
 夵	yi
 棪	yi
-裏	yi	0%
-裡	yi	0%
 異	yi
 勩	yi	55
 泄	yi	0%
@@ -2987,7 +2991,6 @@ s	迡	gni
 努	nu
 孥	nu
 駑	nu
-吾	nu-ngu
 峿	nu
 梧	nu
 鼯	nu
@@ -3000,6 +3003,7 @@ s	迡	gni
 祦	nu
 郚	nu
 鯃	nu
+吾	nu-ngu
 弩	nu
 砮	nu
 𧉭	nu
@@ -3061,11 +3065,11 @@ s	迡	gni
 穭	lu
 嚕	lu
 鐪	lu
+氌	lu
 櫓	lu
 艪	lu
 艣	lu
 樐	lu
-氌	lu
 賂	lu	10%
 輅	lu
 路	lu
@@ -3252,11 +3256,9 @@ s	迡	gni
 魱	wu
 誤	wu	10%
 悟	wu	10%
-吾	wu-	10%
 吳	wu
 吴	wu
 呉	wu
-蜈	wu-ngu
 峿	wu
 鼯	wu
 齬	wu
@@ -3266,17 +3268,19 @@ s	迡	gni
 祦	wu
 郚	wu
 鯃	wu
-無	wu-	10%
-无	wu-	10%
-亡	wu-	0%
+黃	wu	0%
+黄	wu	0%
 誣	wu-vu	10%
 毋	wu-vu
 鳧	wu-vu
 鳬	wu-vu
 舞	wu-vu
 鵡	wu-vu
-黃	wu	0%
-黄	wu	0%
+無	wu-	10%
+无	wu-	10%
+亡	wu-	0%
+吾	wu-	10%
+蜈	wu-ngu
 户	wu
 戶	wu
 戸	wu
@@ -3812,6 +3816,7 @@ s	迡	gni
 虶	iu
 陓	iu
 衣	iu	0%
+益	iu	0%
 鴛	iu
 鵷	iu
 冤	iu
@@ -3826,7 +3831,6 @@ s	迡	gni
 剈	iu
 囦	iu
 蒬	iu
-益	iu	0%
 椅	iu
 𩌑	iu
 䩩	iu
@@ -4816,6 +4820,7 @@ s	迡	gni
 把	po
 鈀	po
 膀	po	0%
+撥我	po
 霸	po
 壩	po
 𩨜	po
@@ -4889,6 +4894,7 @@ s	迡	gni
 垜	to
 埵	to
 打	to	0%
+搭我	to
 跺	tho
 跥	tho
 湯	tho	0%
@@ -5792,6 +5798,7 @@ s	迡	gni
 嬭	ne	0%
 耐	ne
 螚	ne
+罱	ne
 廿	ne-gnie
 念	ne-gnie
 唸	ne-gnie
@@ -5800,7 +5807,6 @@ s	迡	gni
 験	ne-gnie
 𦁤	ne-gnie
 䧔	ne-gnie
-罱	ne
 奶	nhe	1%
 嬭	nhe	1%
 來	le	1209309
@@ -5855,7 +5861,7 @@ s	迡	gni
 湊	tshe	0%
 凑	tshe	0%
 菜	tshe
-啐	tshe
+啐	tshe	1%
 嘬	tshe
 才	dze
 纔	dze
@@ -6508,6 +6514,7 @@ s	迡	gni
 襉	kae
 𧟉	kae
 橄	kae
+扴	kae	578
 諫	kae	5%
 鑒	kae	5%
 鍳	kae	5%
@@ -6515,7 +6522,6 @@ s	迡	gni
 椷	kae
 尷	kae
 尶	kae
-揩	kae	5%
 鉛	khae
 鈆	khae
 堪	khae
@@ -6635,13 +6641,13 @@ s	迡	gni
 褱	wae
 淮	wae
 外	wae	0%
-鯇	wae
-繯	wae
-擐	wae
 糫	wae
 闤	wae
+鯇	wae
 睅	wae
 睆	wae
+繯	wae
+擐	wae
 蘾	wae
 槵	wae
 薍	wae
@@ -7278,12 +7284,12 @@ s	迡	gni
 褙	pei
 陂	pei
 貝	pei
-唄	pei
 彼	pei
 俾	pei
 髀	pei
 背	pei
 輩	pei
+唄	pei
 狽	pei
 鋇	pei
 䟺	pei
@@ -7322,6 +7328,7 @@ s	迡	gni
 錇	bei
 裴	bei
 醅	bei
+佩	bei
 倍	bei
 被	bei	10%
 蓓	bei
@@ -7341,7 +7348,6 @@ s	迡	gni
 偝	bei
 鄁	bei
 苝	bei
-佩	bei
 焙	bei
 𤊷	bei
 珮	bei
@@ -7609,6 +7615,7 @@ s	迡	gni
 湊	tshei	5%
 凑	tshei	5%
 焠	tshei
+啐	tshei
 韢	tshei
 𪙞	tshei	5%
 ⿱咋會	dzei
@@ -7676,9 +7683,9 @@ s	迡	gni
 瘁	zei
 睡	zei	1000
 瑞	zei
+𨅔	zei
 蠶	zei-ze
 鏨	zei-ze
-𨅔	zei
 惢	zei
 蕊	zei
 蕋	zei
@@ -8596,7 +8603,6 @@ s	迡	gni
 婾	theu
 鍮	theu
 斢	theu
-透	theu
 鋀	theu
 㪗	theu	418
 敨	theu
@@ -8863,8 +8869,8 @@ s	迡	gni
 祊	pan
 閍	pan
 絣	pan
-氆	pan
 伯	pan	5%
+氆	pan
 乓	phan
 烹	phan
 胓	phan
@@ -9059,9 +9065,9 @@ s	迡	gni
 䒂	cian
 脚	cian	5%
 腳	cian	5%
-脹	cian
 繈	cian
 膙	cian
+脹	cian
 帳	cian
 賬	cian
 痮	cian
@@ -9097,7 +9103,7 @@ s	迡	gni
 僘	chian
 搶	chian
 鋹	chian
-昶	chian	578
+昶	chian	1000
 摤	chian
 羥	chian
 强	chian	5%
@@ -9150,13 +9156,13 @@ s	迡	gni
 獽	gnian
 蘘	gnian
 瀼	gnian
+嚷	gnian
 央	gnian	0%
 梁	gnian	0%
 樑	gnian	0%
 喵	gnian	0%
 仰	gnian
 壤	gnian
-嚷	gnian
 釀	gnian
 讓	gnian
 譲	gnian
@@ -9696,9 +9702,9 @@ s	迡	gni
 嚐	zaon
 甞	zaon
 鋿	zaon
-狀	zaon
 上	zaon
 丄	zaon
+狀	zaon
 晌	zaon
 昨	zaon	0%
 尚	zaon
@@ -10112,6 +10118,9 @@ s	迡	gni
 錛	pen
 本	pen
 苯	pen
+撥俉	pen
+撥爾	pen
+撥你	pen
 奔	pen
 犇	pen
 逩	pen
@@ -10215,7 +10224,6 @@ s	迡	gni
 馩	ven
 逢	ven
 鼖	ven
-璺	ven
 抆	ven
 吻	ven
 脗	ven
@@ -10229,6 +10237,7 @@ s	迡	gni
 憤	ven
 汶	ven
 莬	ven
+璺	ven
 登	ten
 燈	ten
 瞪	ten
@@ -10260,6 +10269,9 @@ s	迡	gni
 躉	ten
 頂	ten	1%
 盹	ten
+搭俉	ten
+搭爾	ten
+搭你	ten
 頓	ten
 訰	ten
 凳	ten
@@ -10950,18 +10962,6 @@ s	迡	gni
 碪	cin
 甄	cin
 薽	cin
-精	cin
-睛	cin
-腈	cin
-鼱	cin
-菁	cin
-箐	cin
-聙	cin
-㲀	cin
-津	cin
-晶	cin
-旌	cin
-搢	cin
 珍	cin
 珎	cin
 診	cin
@@ -10974,6 +10974,18 @@ s	迡	gni
 兓	cin
 瑧	cin
 帪	cin
+精	cin
+睛	cin
+腈	cin
+鼱	cin
+菁	cin
+箐	cin
+聙	cin
+㲀	cin
+津	cin
+晶	cin
+旌	cin
+搢	cin
 金	cin
 釒	cin
 今	cin
@@ -11014,13 +11026,6 @@ s	迡	gni
 巹	cin
 氶	cin
 姫	cin
-寖	cin
-井	cin
-肼	cin
-丼	cin
-盡	cin	0%
-儘	cin	0%
-堇	cin
 疹	cin
 胗	cin
 畛	cin
@@ -11029,6 +11034,13 @@ s	迡	gni
 紾	cin
 抮	cin
 眕	cin
+寖	cin
+井	cin
+肼	cin
+丼	cin
+盡	cin	0%
+儘	cin	0%
+堇	cin
 儆	cin
 撜	cin
 裖	cin
@@ -11082,8 +11094,15 @@ s	迡	gni
 赬	chin
 稱	chin
 偁	chin
+爯	chin
+賝	chin
+睖	chin
+駸	chin
+頳	chin
+䞓	chin
 郴	chin
 綝	chin
+謓	chin
 親	chin
 青	chin
 靑	chin
@@ -11094,13 +11113,6 @@ s	迡	gni
 鯖	chin
 鶄	chin
 圊	chin
-謓	chin
-爯	chin
-賝	chin
-睖	chin
-駸	chin
-頳	chin
-䞓	chin
 欽	chin
 嶔	chin
 輕	chin
@@ -11790,8 +11802,6 @@ s	迡	gni
 蕓	yun
 紜	yun
 鄖	yun
-隕	yun
-殞	yun
 篔	yun
 囩	yun
 縜	yun
@@ -11799,6 +11809,8 @@ s	迡	gni
 橒	yun
 澐	yun
 耺	yun
+隕	yun
+殞	yun
 狁	yun
 玧	yun
 馻	yun
@@ -11967,6 +11979,13 @@ s	迡	gni
 滣	zyun
 忍	zyun
 蕈	zyun
+栠	zyun
+棯	zyun
+腍	zyun
+荵	zyun
+祳	zyun
+脤	zyun
+鋠	zyun
 任	zyun
 紝	zyun
 腎	zyun
@@ -11981,13 +12000,6 @@ s	迡	gni
 籾	zyun
 認	zyun	6%
 潤	zyun
-栠	zyun
-棯	zyun
-腍	zyun
-荵	zyun
-祳	zyun
-脤	zyun
-鋠	zyun
 慎	zyun
 愼	zyun
 昚	zyun
@@ -12366,11 +12378,11 @@ s	迡	gni
 茸	dzon
 䇯	dzon
 榵	dzon
-冗	dzon
-宂	dzon
 蟲	dzon
 重	dzon
 蝩	dzon
+冗	dzon
+宂	dzon
 氄	dzon
 軵	dzon
 尰	dzon
@@ -12993,6 +13005,7 @@ s	迡	gni
 蒳	naq
 軜	naq
 哪	naq	5%
+辣	naq	0%
 吶	naq
 呐	naq
 鈉	naq
@@ -13002,7 +13015,6 @@ s	迡	gni
 抐	naq
 㨥	naq
 肭	naq
-辣	naq	0%
 垃	laq	6%
 拉	laq
 啦	laq
@@ -13282,7 +13294,6 @@ s	迡	gni
 鵊	kaq
 圿	kaq
 忦	kaq
-扴	kaq
 鞂	kaq
 鴶	kaq
 介	kaq	5%
@@ -14043,6 +14054,12 @@ s	迡	gni
 糳	tsoq
 傶	tsoq
 喌	tsoq
+摘	tsoq	5%
+折	tsoq	5%
+簇	tsoq	5%
+癤	tsoq	0%
+䭁	tsoq
+遭	tsoq	0%
 粥	tsoq
 祝	tsoq
 柷	tsoq
@@ -14077,12 +14094,6 @@ s	迡	gni
 斮	tsoq
 斲	tsoq
 斵	tsoq
-摘	tsoq	5%
-折	tsoq	5%
-簇	tsoq	5%
-癤	tsoq	0%
-䭁	tsoq
-遭	tsoq	0%
 促	tshoq
 趗	tshoq
 珿	tshoq
@@ -14605,6 +14616,7 @@ s	迡	gni
 榓	miq
 淧	miq
 末	miq	0%
+嘸沒	mhiq	296233
 的	tiq
 旳	tiq
 扚	tiq
@@ -15790,19 +15802,6 @@ s	迡	gni
 嗯	nk
 唔	nk
 㕶	nk
-嘸沒	mhiq	296233
-撥我	po
-撥俉	pen
-撥爾	pen
-撥你	pen
-撥渠	pi
-撥其	pi
-搭我	to
-搭俉	ten
-搭爾	ten
-搭你	ten
-搭渠	ti
-搭其	ti
 
 # 简化字
 
@@ -15925,6 +15924,8 @@ s	迡	gni
 笾	pi
 编	pi
 𫚣	pi
+拨渠	pi
+拨其	pi
 鳊	pi
 贬	pi
 闭	pi
@@ -16247,9 +16248,9 @@ s	迡	gni
 宪	shi
 齐	zhi
 贱	zhi
+锯	ki-ke
 该	ki-
 赅	ki-
-锯	ki-ke
 赶	ki-ke
 鳡	ki-ke
 赣	ki-ke
@@ -16275,12 +16276,12 @@ s	迡	gni
 鹇	yi
 鸢	yi
 艳	yi
+里	yi	0%
 岘	yi
 𪾢	yi
 伣	yi
 𠯟	yi
 鳝	yi
-里	yi	0%
 异	yi
 勚	yi
 现	yi
@@ -16374,8 +16375,8 @@ s	迡	gni
 穞	lu
 噜	lu
 𫓺	lu
-橹	lu
 氇	lu
+橹	lu
 赂	lu
 辂	lu
 鹭	lu
@@ -16670,6 +16671,7 @@ s	迡	gni
 𬣦	au
 袄	au
 钯	po
+拨我	po
 坝	po
 罢	bo
 𫜨	bo
@@ -17076,9 +17078,9 @@ s	迡	gni
 镮	wae
 顽	wae
 怀	wae
+阛	wae
 鲩	wae
 缳	wae
-阛	wae
 弯	uae
 湾	uae
 绾	uae
@@ -17198,8 +17200,8 @@ s	迡	gni
 篓	loe
 乱	loe
 贝	pei
-呗	pei
 辈	pei
+呗	pei
 狈	pei
 钡	pei
 𫞥	pei
@@ -17547,8 +17549,8 @@ s	迡	gni
 长	cian
 涨	cian
 桨	cian
-胀	cian
 𫄶	cian
+胀	cian
 帐	cian
 账	cian
 𪽪	cian
@@ -17762,6 +17764,9 @@ s	迡	gni
 换	wun
 贲	pen
 锛	pen
+拨俉	pen
+拨尔	pen
+拨你	pen
 喷	phen
 门	men
 们	men
@@ -17797,6 +17802,7 @@ s	迡	gni
 吨	ten	0%
 趸	ten
 顶	ten
+搭尔	ten
 顿	ten
 炖	ten
 饨	den
@@ -17944,8 +17950,8 @@ s	迡	gni
 鲫	cin
 缜	cin
 卺	cin
-尽	cin
 轸	cin
+尽	cin
 紧	cin
 锦	cin
 颈	cin
@@ -17964,12 +17970,12 @@ s	迡	gni
 蛏	chin
 柽	chin
 称	chin
-亲	chin
-鲭	chin
-䴖	chin
 𫎩	chin
 骎	chin
 𫎭	chin
+亲	chin
+鲭	chin
+䴖	chin
 钦	chin
 嵚	chin
 轻	chin
@@ -18129,10 +18135,10 @@ s	迡	gni
 训	shiun
 纭	yun
 郧	yun
-陨	yun
-殒	yun
 筼	yun
 沄	yun
+陨	yun
+殒	yun
 𫕥	yun
 闰	yun
 郓	yun
@@ -18160,6 +18166,7 @@ s	迡	gni
 纯	zyun
 莼	zyun
 𫜀	zyun
+𫓵	zyun
 纴	zyun
 肾	zyun
 顺	zyun
@@ -18167,7 +18174,6 @@ s	迡	gni
 韧	zyun
 认	zyun
 润	zyun
-𫓵	zyun
 轫	zyun
 𪨊	zyun
 𫟃	zyun
@@ -18536,6 +18542,7 @@ s	迡	gni
 赂	loq
 辂	loq
 饹	loq
+疖	tsoq
 烛	tsoq
 属	tsoq
 嘱	tsoq
@@ -18543,7 +18550,6 @@ s	迡	gni
 㔉	tsoq
 𣃁	tsoq
 诼	tsoq
-疖	tsoq
 𫖹	tshoq
 镞	tshoq
 龊	tshoq
@@ -18627,6 +18633,7 @@ s	迡	gni
 灭	miq
 谧	miq
 觅	miq
+呒没	mhiq
 镝	tiq
 铁	thiq
 听	thiq
@@ -18818,14 +18825,6 @@ s	迡	gni
 儿	ng	0%
 鱼	ng
 尔	ng
-呒没	mhiq
-拨我	po
-拨俉	pen
-拨尔	pen
-拨你	pen
-拨渠	pi
-拨其	pi
-搭尔	ten
 
 # 《阿拉宁波话(修订版)》
 
