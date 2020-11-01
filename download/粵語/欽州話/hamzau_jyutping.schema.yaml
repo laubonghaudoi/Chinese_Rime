@@ -4,7 +4,7 @@
 schema:
   schema_id: hamzau_jyutping
   name: 欽拼
-  version: "7.31"
+  version: "201026"
   author:
     - Dr.Khuy
   description: |
@@ -56,11 +56,17 @@ engine:
     - simplifier@emoji_cn         #Emoji滤镜
 
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba23456789 #手機九宮 電腦毋要使
+  alphabet: zyxwvutsrqponmlkjihgfedcba23456789ZRSF #手機九宮 電腦毋要使
   delimiter: " '"
   algebra:
-    - xform/([1234])//           # 忽略声调
-    - derive/ng/q/                # 容錯 ng -> q
+    - derive/([1234])//           # 忽略声调
+    - xform/1/Z/                  # 陰平
+    - xform/2/R/                  # 陰上
+    - xform/3/S/                  # 陰去
+    - xform/4/F/                  # 陽平
+    #- xform/5/X/                 # 陽上
+    #- xform/6/J/                 # 陽去
+    - derive/aa/q/                # 容錯 aa -> q
     #- derive/^ng/gn/              # 容錯 ng -> gn
     #- derive/^nj/jn/              # 容錯 nj -> jn
     - derive/^nj/r/               # 容錯 nj -> r
@@ -69,7 +75,8 @@ speller:
     #- derive/^sl/lh/              # 容错 sl -> lh
     - derive/^sl/x/               # 容错 sl -> x
     #- derive/oe/eo/               # 容錯 oe -> eo
-    - derive/oe/v/                # 容錯 oe -> v
+    - derive/oe/y/                # 容錯 oe -> y
+    - derive/ng/v/                # 容錯 ng -> v
     #- derive/[^o]e/ie/           # 容錯 e  -> ie
     - derive/au/ou/               # 容錯 au -> ou
     - derive/aa$/a/               # 容錯 aa -> a
@@ -78,6 +85,7 @@ speller:
     - abbrev/^([gk]w).+$/$1/      # 聲母簡拼
     - abbrev/^(sl).+$/$1/         # 聲母簡拼
     #- abbrev/^(l[sh]).+$/$1/      # 聲母簡拼
+    - abbrev/^([a-z]).+$/$1/      # 首字母聲調簡拼
     - derive/^(.*)$/\U$1/
     - derive/([abc])/2/	 #手機九宮 電腦毋要使
     - derive/([def])/3/	 #手機九宮 電腦毋要使
@@ -91,53 +99,73 @@ speller:
 translator:
   dictionary: hamzau_jyutping
   spelling_hints: 5
+  preedit_format:
+    - 'xform q aa' #回調
+    - 'xform r nj' #回調
+    - 'xform v ng' #回調
+    - 'xform x sl' #回調
+    - 'xform y oe' #回調
+    - xform/Z/1/                 # 陰平
+    - xform/R/2/                 # 陰上
+    - xform/S/3/                 # 陰去
+    - xform/F/4/                 # 陽平
+    - xform/X/5/                 # 陽上
+    - xform/J/6/                 # 陽去
   #comment_format: 
     #- 'xform ([aeiou])(ng)([1234]) $1$3$2'
     #- 'xform ([aeiou])([iumnptk])([1234]) $1$3$2'
     #- 'xform ([ao])([ae])([1234]) $1$3$2'
     #- 'xform ([n])([g])([1234]) $1$3$2'
     #- 'xform 1 '
-    #- 'xform n3 ṉ'
+    #- 'xform n3 ń'
+    #- 'xform n3 n̄'
     #- 'xform n4 ǹ'
     #- 'xform n6 ṇ'
     #- 'xform n5 ñ'
-    #- 'xform n2 n͗'
-    #- 'xform m3 m'
-    #- 'xform m4 ṁ'
+    #- 'xform n2 n̉'
+    #- 'xform m3 ḿ'
+    #- 'xform m3 m̄'
+    #- 'xform m4 m̀'
     #- 'xform m6 ṃ'
     #- 'xform m5 m̃'
-    #- 'xform m2 m͗'
+    #- 'xform m2 m̉'
+    #- 'xform a3 á'
     #- 'xform a3 ā'
     #- 'xform a4 à'
     #- 'xform a6 ạ'
     #- 'xform a5 ã'
     #- 'xform a2 ả'
+    #- 'xform i3 í'
     #- 'xform i3 ī'
     #- 'xform i4 ì'
     #- 'xform i6 ị'
     #- 'xform i5 ĩ'
     #- 'xform i2 ỉ'
+    #- 'xform u3 ú'
     #- 'xform u3 ū'
     #- 'xform u4 ù'
     #- 'xform u6 ụ'
     #- 'xform u5 ũ'
     #- 'xform u2 ủ'
+    #- 'xform e3 é'
     #- 'xform e3 ē'
     #- 'xform e4 è'
     #- 'xform e6 ẹ'
     #- 'xform e5 ẽ'
     #- 'xform e2 ẻ'
+    #- 'xform o3 ó'
     #- 'xform o3 ō'
     #- 'xform o4 ò'
     #- 'xform o6 ọ'
     #- 'xform o5 õ'
     #- 'xform o2 ỏ'
+    #- 'xform y3 ý'
     #- 'xform y3 ȳ'
     #- 'xform y4 ỳ'
     #- 'xform y6 ỵ'
     #- 'xform y5 ỹ'
     #- 'xform y2 ỷ'
-
+    
 zh_hk:
   option_name: zh_hk
   opencc_config: t2hk.json

@@ -12,7 +12,7 @@
 
 ---
 name: wugniu_gninpou.essay
-version: "2020.10.23"
+version: "2020.10.26"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -328,6 +328,7 @@ use_preset_vocabulary: true
 七行詩	chiq ghaon sy
 七覺支	chiq ciuq tsy
 七魄	chiq phaq
+万俟	moq ji
 丈二和尚	jian gni ghou zaon
 丈二和尚摸不着頭腦	jian gni ghou zaon moq paq dzoq deu nau
 丈二和尚摸不着頭腦	jian gni ghou zaon moq paq zoq deu nau
@@ -562,6 +563,7 @@ use_preset_vocabulary: true
 下傳	gho dzoe
 下層階級	gho zen cie ciq
 下崗工人	gho kaon kon gnin
+下工夫	gho kon fu
 下得了	gho taq liau
 下拉	gho lha
 下拉框	gho lha khuaon
@@ -569,6 +571,7 @@ use_preset_vocabulary: true
 下斷	gho doe
 下斷語	gho toe gniu
 下朝	gho jiau
+下本	gho pen
 下板兒	gho pae er
 下架	gho ko
 下流人士	gho lieu zyun zy
@@ -1496,6 +1499,7 @@ use_preset_vocabulary: true
 乾和	ji ghou
 乾咳	ki-ke khaq
 乾咽	ki-ke i
+乾咽	ki-ke iq
 乾哥	ki-ke kou
 乾哥哥	ki-ke kou kou
 乾哭	ki-ke khoq
@@ -2762,6 +2766,7 @@ use_preset_vocabulary: true
 人物描寫	zyun vaq miau shia
 人物畫	zyun vaq wo
 人物誌	zyun vaq tsy
+人物闐咽	zyun vaq di iq
 人犯	gnin vae
 人瑞	zyun zei
 人生	zyun sen
@@ -3316,6 +3321,7 @@ use_preset_vocabulary: true
 低利率	ti li liq
 低尾氣排放	ti vi chi ba faon
 低幼兒童	ti ieu er don
+低微	ti vi
 低眉	ti mei
 低空飛行	ti khon fi yin
 低等生物	ti ten sen vaq
@@ -3362,6 +3368,7 @@ use_preset_vocabulary: true
 佔過去	tsoe kou chiu
 佔高枝兒	ci kau tsy er
 何以自處	ghou yi zy tshyu
+何晏	ghou i
 何曾	ghou dzen
 何樂不爲	ghou loq paq wei
 何樂而不爲	ghou loq er paq wei
@@ -5345,6 +5352,7 @@ use_preset_vocabulary: true
 凍兒	ton er
 凍死	ton shi
 凍膠	ton ciau
+凝咽	gnin iq
 凝膠	gnin ciau
 凝膠體	gnin ciau thi
 凝視時間	gnin zy zy ci
@@ -5437,6 +5445,7 @@ use_preset_vocabulary: true
 出生證	tshyuq san cin
 出生證明	tshyuq san cin min
 出生證明書	tshyuq san cin min syu
+出產	tshyuq tshae	903
 出發日	tshyuq faq gniq
 出的	tshyuq tiq
 出租人	tshyuq tsu gnin
@@ -6842,6 +6851,7 @@ use_preset_vocabulary: true
 勾肩搭背	keu ci taq pei
 勾魂攝魄	keu wen shiq phaq
 勾魂蕩魄	keu wen daon phaq
+勿出產	vaq tshyuq tshae
 勿忘	vaq vaon
 勿忘國恥	vaq vaon koq tshyu
 勿忘我	vaq vaon ngo
@@ -7633,6 +7643,7 @@ use_preset_vocabulary: true
 參展商	tshae tsoe saon
 參展團	tshae ci doe
 參展團	tshae tsoe doe
+參差	tshen tshy
 參差不齊	tshen tshy paq ji
 參差錯落	tshen tshy tshou loq
 參度	tshae doq
@@ -7948,6 +7959,7 @@ use_preset_vocabulary: true
 句子成分	ciu tsy jin ven
 句斷	ciu doe
 句法分析	ciu faq fen shiq
+句讀	ciu deu
 另一個	lin iq ghoq
 另一個	lin iq goq
 另一個人	lin iq ghoq gnin
@@ -8079,6 +8091,7 @@ use_preset_vocabulary: true
 可望而不可及	khou vaon er paq khou jiq
 可樂	khou loq
 可樂餅	khou loq pin
+可汗	khaq ghei-ghe
 可沒	khou mhaq
 可沒有	khou maq yeu
 可申請	khou syun chin
@@ -8393,6 +8406,7 @@ use_preset_vocabulary: true
 吞拿	then na
 吞拿魚	then na ng
 吞沒	then maq
+吞聲屏氣	then shin pin chi
 吟味	gnin vi
 吡拉西坦	pi lha shi thae
 否認	feu zyun
@@ -8917,6 +8931,8 @@ use_preset_vocabulary: true
 哼個	han goq
 哼兒哈兒	han er ha er
 哼哈二將	han ha er cian
+哽咽	ken iq
+哽哽咽咽	ken ken iq iq
 唏哩嘩啦	shi li hua la
 唐人	daon gnin
 唐人街	daon gnin ka
@@ -9081,6 +9097,7 @@ use_preset_vocabulary: true
 啜泣	tsyuq chiq
 啜飲	tsyuq in
 啞吧	o po
+啞咽	o iq
 啥子	so tsy
 啥時候	so zy gheu
 啥樣	so yan
@@ -9235,7 +9252,9 @@ use_preset_vocabulary: true
 嗓門兒	saon men er
 嗔斥	tshen chiq
 嗚兒嗚兒	u er u er
+嗚咽	u iq
 嗚啦	u lha
+嗚嗚咽咽	u u iq iq
 嗝兒	kaq er
 嗩吶	sou naq
 嗯嗯	an an
@@ -10314,6 +10333,7 @@ use_preset_vocabulary: true
 填了	di laq
 填個	di ghoq
 填個	di goq
+填咽	di iq
 填鴨	di aq
 填鴨式	di aq shiq
 塵世	jin syu
@@ -10366,6 +10386,7 @@ use_preset_vocabulary: true
 墨江哈尼族自治縣	moq kaon ha gni dzoq zy dzyu yu
 墨沈	moq shin
 墨爾本	moq er pen
+墨翟	moq diq
 墨西哥人	moq shi kou gnin
 墨西拿	moq shi na
 墨西拿海峽	moq shi na he ciaq
@@ -11062,6 +11083,7 @@ use_preset_vocabulary: true
 大客車	dou khaq tsho
 大宴	da i
 大宴賓客	da i pin khaq
+大家	da cia
 大家一起	do ko iq chi
 大家分享	do ko fen shian
 大家夥兒	da cia hou er
@@ -12081,6 +12103,9 @@ use_preset_vocabulary: true
 天主教會	thi tsyu ciau wei
 天主教派	thi tsyu ciau pha
 天乾物燥	thi ki-ke vaq sau
+天亮	thi lian
+天亮了	thi lian lei
+天亮𡀂	thi lian lei
 天人	thi zyun
 天人之分	thi zyun tsy fen
 天人之際	thi zyun tsy ci
@@ -12095,6 +12120,7 @@ use_preset_vocabulary: true
 天兒	thi er
 天冬苯丙二肽酯	thi ton pen pin er tha tsy
 天分	thi fen
+天可汗	thi khaq ghei-ghe
 天哪	thi nha
 天啊	thi a
 天啊	thi gha
@@ -12123,6 +12149,7 @@ use_preset_vocabulary: true
 天津師範大學	thi cin sy vae da ghoq
 天涯雜談	thi ya dzaq dae
 天涯雜談	thi yi dzaq dae
+天清日晏	thi chin zyuq i
 天災人禍	thi tse zyun ghou
 天無二日	thi vu er zyuq
 天無二日	thi wu- er zyuq
@@ -13317,6 +13344,7 @@ use_preset_vocabulary: true
 宮人	kon zyun
 宮爆肉丁	kon pau gnioq tin
 宮爆雞丁	kon pau ci tin
+宮車晏駕	kon tsho i cia
 宰人	tse zyun
 宰牲節	tse san ciq
 害人	ghe gnin
@@ -13692,6 +13720,7 @@ use_preset_vocabulary: true
 實驗教學	zyuq ne-gnie ciau yuq
 實驗語音學	zyuq ne-gnie gniu in yuq
 實驗高級中學	zyuq ne-gnie kau ciq tson ghoq
+寧可	gnin khou
 寧夏回族自治區	gnin gho wei dzoq zy dzyu chiu
 寧夏自治	gnin gho zy dzyu
 寧夏自治區	gnin gho zy dzyu chiu
@@ -14285,8 +14314,30 @@ use_preset_vocabulary: true
 屈膝投降	chiuq shiq deu ghaon
 屋架	oq ko
 屎尿	sy gniau
+屏居	pin ciu
+屏息	pin shiq
+屏息以待
+屏息凝氣	pin shiq gnin chi
+屏息凝視	pin shiq gnin zy
+屏息靜觀	pin shiq zhin kun
+屏斥	pin chiq
 屏東教育大學	bin ton ciau yuq da ghoq
+屏棄	pin chi
+屏氣	pin chi
+屏氣凝神	pin chi gnin zyun
+屏氣攝息	pin chi shiq shiq
+屏氣斂息	pin chi li shiq
+屏營	pin yin
+屏當	pin taon
+屏絕	pin dzyuq
+屏聲息氣	pin shin shiq chi
+屏語	pin gniu
+屏跡	pin ciq
+屏退	pin thei
 屏邊苗族自治縣	bin pi miau dzoq zy dzyu yu
+屏除	pin dzyu
+屏隱	pin in
+屏黜	pin tshyuq
 展示櫃	ci zy guei
 展示櫃	tsoe zy guei
 展轉騰挪	ci tsoe den nou
@@ -14995,6 +15046,7 @@ use_preset_vocabulary: true
 幼稚教育	ieu dzy ciau yuq
 幼稚教育	ieu ji ciau yuq
 幽人	ieu gnin
+幽咽	ieu iq
 幾世	ci syu
 幾世紀	ci syu ci
 幾乎	ci fu
@@ -15254,6 +15306,7 @@ use_preset_vocabulary: true
 引自	yin zy
 引進人才	yin cin zyun dze
 引風吹火	yin fon tshyu hou
+弗出產	vaq tshyuq tshae	1
 弗吉尼亞	faq ciq gni ia
 弗吉尼亞州	faq ciq gni ia cieu
 弗塞奇	faq se ji
@@ -15397,6 +15450,7 @@ use_preset_vocabulary: true
 彪個子	piau kou tsy
 彪形大漢	piau yin da he
 彪形大漢	piau yin da hei-
+彭于晏	ban yu i
 彭水苗族土家族自治縣	ban syu miau dzoq thu cia dzoq zy dzyu yu
 彰化人	tsaon huo gnin
 彰化師範大學	tsaon huo sy vae da ghoq
@@ -15848,6 +15902,7 @@ use_preset_vocabulary: true
 性行爲	shin yin wei
 怨不得人	iu paq taq gnin
 怨望	iu vaon
+怨艾	iu gni
 怨鬼	iu kuei
 怪了	kua lei
 怪人	kua gnin
@@ -15918,6 +15973,7 @@ use_preset_vocabulary: true
 患兒	wae er
 患難之交	wae nae tsy ciau
 悲不自勝	pei paq zy shin
+悲咽	pei iq
 悲喜交並	pei shi ciau bin
 悲喜交加	pei shi ciau cia
 悲喜交集	pei shi ciau jiq
@@ -16531,6 +16587,7 @@ use_preset_vocabulary: true
 所生	so san
 所發生	so faq sen
 所羅巴伯	so lou pa paq
+扁舟	phi cieu
 扇墜	shi dzei
 扇墜兒	shi dzei er
 扇涼翅兒	shi lian tshy er
@@ -17064,6 +17121,7 @@ use_preset_vocabulary: true
 押尾	aq vi
 押櫃	aq guei
 抽乾	chieu ki-ke
+抽咽	chieu iq
 抽問	chieu ven
 抽時間	chieu zy ci
 抽長	chieu cian
@@ -18453,8 +18511,10 @@ use_preset_vocabulary: true
 放射狀	faon zhiq dzaon
 放小菜兒	faon shiau tshe er
 放屁崩坑兒	faon phi pon khan er
+放屏	faon pin
 放慢線兒	faon mae shi er
 放斷鷂	faon doe yau
+放映	faon in
 放暑假	faon syu ko
 放桄兒	faon kuaon er
 放爆竹	faon pau tsoq
@@ -18917,6 +18977,7 @@ use_preset_vocabulary: true
 數百人	su paq gnin
 數萬人	su vae gnin
 數量分析	su lian fen shiq
+斂聲屏氣	li shin pin chi
 文不加點	ven paq cia ti
 文了	ven laq
 文人	ven gnin
@@ -19522,6 +19583,7 @@ use_preset_vocabulary: true
 日方	zyuq faon
 日日夜夜	gniq gniq ya ya
 日日春	gniq gniq tshyun
+日晏	zyuq i
 日晚	zyuq vae
 日晷	zyuq kuei
 日晷儀	zyuq kuei gni
@@ -19786,6 +19848,7 @@ use_preset_vocabulary: true
 明日	min zyuq
 明日之星	min zyuq tsy shin
 明日黃花	min zyuq waon huo
+明朝	min jiau
 明朝人	min jiau gnin
 明朝體	min jiau thi
 明槍易躲	min chian yi to
@@ -20049,6 +20112,24 @@ use_preset_vocabulary: true
 晉朝人	cin jiau gnin
 晉江人	cin kaon gnin
 晏公老兒下西洋	i kon lau er gho shi yan
+晏如	i zyu
+晏嬰	i in
+晏子	i tsy
+晏子春秋	i tsy tshyun chieu
+晏寢	i chin
+晏平仲	i bin dzon
+晏幾道	i ci dau
+晏御揚揚	i gniu yan yan
+晏晏	i i
+晏朝	i jiau
+晏殊	i zyu
+晏然	i zoe
+晏燈	i ten
+晏紫	i tsy
+晏裘	i jieu
+晏開之警	i khe tsy cin
+晏飲	i in
+晏駕	i cia
 晚上睡覺	vae zaon zei ciau
 晚世	vae syu
 晚半天兒	vae pun thi er
@@ -20542,6 +20623,8 @@ use_preset_vocabulary: true
 會更	wei ken
 會更好	wei ken hau
 會死	wei shi
+會稽	kuei ci
+會稽山	kuei ci sae
 會被	wei bei
 會計人員	kuei ci zyun yu
 會計分錄	kuei ci fen loq
@@ -21024,6 +21107,7 @@ use_preset_vocabulary: true
 未解決	vi ka ciuq
 未還	vi wae
 未開發國家	vi khe faq koq cia
+未雨綢繆	vi yu jieu meu
 末世	maq syu
 末了	maq liau
 末伏	maq voq
@@ -21157,6 +21241,7 @@ use_preset_vocabulary: true
 杜爾伯特蒙古族自治縣	du er paq daq mon ku dzoq zy dzyu yu
 杜瓦利埃	du ngo li e
 杜莎夫人	du so fu gnin
+杜門屏跡	du men pin ciq
 杜集	du jiq
 杜集區	du jiq chiu
 杜鵑鳥	du ciu gniau
@@ -21391,6 +21476,12 @@ use_preset_vocabulary: true
 查覺	dzo ciuq
 查覺到	dzo ciuq tau
 柬埔寨人民黨	ci phu za zyun min taon
+柯橋	khou jiau
+柯橋	kou jiau
+柯橋人	khou jiau gnin
+柯橋人	kou jiau gnin
+柯橋區	khou jiau chiu
+柯橋區	kou jiau chiu
 柯爾克孜	khou er khaq tsy
 柯爾克孜族	khou er khaq tsy dzoq
 柯爾克孜語	khou er khaq tsy gniu
@@ -21533,6 +21624,7 @@ use_preset_vocabulary: true
 梯架	thi ko
 梯狀	thi dzaon
 梳了	sy laq
+梳理	su li
 梵學	vae yuq
 梵教	vae ciau
 棄世	chi syu
@@ -22174,6 +22266,7 @@ use_preset_vocabulary: true
 歲數	sei su
 歲星	sei shin
 歲時	sei zy
+歲晏	sei i
 歲暮	sei mou
 歲月	sei yuq
 歲月如梭	sei yuq zyu sou
@@ -22429,6 +22522,7 @@ use_preset_vocabulary: true
 殼兒	khoq er
 殼牌	khoq ba
 殼牌公司	khoq ba kon sy
+殿後	ti gheu
 毀了	huei laq
 毀家紓難	huei cia syu nae
 毀損率	huei sen liq
@@ -22626,6 +22720,7 @@ use_preset_vocabulary: true
 氣吞牛斗	chi then ngeu teu
 氣味相合	chi vi shian ghaq
 氣味相投	chi vi shian deu
+氣咽聲絲	chi iq shin sy
 氣孔率	chi khon liq
 氣急敗壞	chi ciq ba wa
 氣昂昂	chi ghaon ghaon
@@ -23258,6 +23353,7 @@ use_preset_vocabulary: true
 河洛人	ghou loq gnin
 河流匯集	ghou lieu wei jiq
 河涸海乾	ghou hoq he ki-ke
+河清海晏	ghou chin he i
 河渠	ghou jiu
 河落海乾	ghou loq he ki-ke
 河裏孩兒岸上娘	ghou li ghe er nge zaon gnian
@@ -23685,6 +23781,9 @@ use_preset_vocabulary: true
 海拉爾	he lha er
 海拉爾區	he lha er chiu
 海日	he zyuq
+海晏	he i
+海晏河清	he i ghou chin
+海晏縣	he i yu
 海洋學	he yan yuq
 海洋溫差發電	he yan uen tsha faq di
 海洋生態系	he yan sen the shi
@@ -23761,6 +23860,7 @@ use_preset_vocabulary: true
 淆雜	yau dzaq
 淌淚	thaon lei
 淌眼淚	thaon ngae li
+淒咽	chi iq
 淒斷	chi doe
 淘氣鬼	dau chi kuei
 淚下沾襟	lei gho ci cin
@@ -24303,6 +24403,7 @@ use_preset_vocabulary: true
 炮兒局	phau er jiuq
 炮子兒	phau tsy er
 炮打燈兒	phau tan ten er
+炮羊肚	bau yan tu
 炮耳	phau er
 炷頭香	dzyu deu shian
 炷頭香	tsyu deu shian
@@ -24870,6 +24971,7 @@ use_preset_vocabulary: true
 爆米花	pau mi huo
 爆聲	pau shin
 爆肚	pau du
+爆肚	pau tu
 爆肚兒	pau du er
 爆胎	pau the
 爆艙	pau tshaon
@@ -25631,6 +25733,7 @@ use_preset_vocabulary: true
 甘味劑	ki-ke vi ci
 甘味料	ki-ke vi liau
 甘孜藏族自治州	ki-ke tsy dzaon dzoq zy dzyu cieu
+甘羅說趙王	ki-ke lou sei jiau waon
 甘肅人	ki-ke soq gnin
 甚麼人	zhin mou gnin
 甜味	di vi
@@ -25827,6 +25930,7 @@ use_preset_vocabulary: true
 生津	sen cin
 生津止渴	sen cin tsy khaq
 生津解渴	sen cin ka khaq
+生活	sen waq
 生活上	sen waq zaon
 生活中	sen waq tson
 生活作風	sen waq tsoq fon
@@ -28283,6 +28387,7 @@ use_preset_vocabulary: true
 管教	kun ciau
 管教無方	kun ciau vu faon
 管教無方	kun ciau wu- faon
+管晏	kun i
 管樂	kun yuq
 管樂器	kun yuq chi
 管樂團	kun yuq doe
@@ -28352,6 +28457,7 @@ use_preset_vocabulary: true
 簇簇	tshoq tshoq
 簍兒	leu er
 簡任	ci zyun
+簡余晏	ci yu i
 簡分數	ci fen su
 簡單再生	ci tae tse sen
 簡單再生產	ci tae tse sen tshae
@@ -28833,6 +28939,7 @@ use_preset_vocabulary: true
 綠衣人	loq i gnin
 綠豆皮兒	loq deu bi er
 綠鬢朱顏	loq pin tsyu yi
+綢繆	jieu meu
 維也納	vi ye naq
 維也納盆地	vi ye naq ben di
 維京人	vi cin gnin
@@ -29189,6 +29296,8 @@ use_preset_vocabulary: true
 羈泊	ci boq
 羊兒風	yan er fon
 羊毛狀	yan mau dzaon
+羊肚	yan tu
+羊肚蕈	yan tu jin
 美人兒	mei gnin er
 美人燈兒	mei gnin ten er
 美分	mei fen
@@ -29317,7 +29426,9 @@ use_preset_vocabulary: true
 習題	zhiq di
 習題集	zhiq di jiq
 翔集	jian jiq
+翟子悲	diq tsy pei
 翠生生	tshei sen sen
+翬翟	huei diq
 翰林學士	ghei-ghe lin yuq zy
 翹了	chiau laq
 翹尾巴	chiau mi po
@@ -29750,6 +29861,7 @@ use_preset_vocabulary: true
 聲樂	shin yuq
 聲樂家	shin yuq cia
 聲淚俱下	shin lei jiu gho
+聲絲氣咽	shin sy chi iq
 聲覺	shin ciuq
 聲韻學	shin yun yuq
 聳了	son laq
@@ -29818,6 +29930,7 @@ use_preset_vocabulary: true
 肚兒	du er
 肚兒裏有勾當	du er li yeu keu taon
 肚囊兒	du naon er
+肚子	du tsy
 肛交	kaon ciau
 肛瘻	kaon leu
 肝腫大	ki-ke tson da
@@ -30478,6 +30591,7 @@ use_preset_vocabulary: true
 自忖	zy tshen
 自性	zy shin
 自怨	zy iu
+自怨自艾	zy iu zy gni
 自恃	zy dzy
 自悔	zy huei
 自愛	zy e
@@ -30492,6 +30606,7 @@ use_preset_vocabulary: true
 自慰	zy wei
 自慰器	zy wei chi
 自憐	zy li
+自憐自艾	zy li zy gni
 自應	zy in
 自戀	zy li
 自成	zy jin
@@ -31164,6 +31279,7 @@ use_preset_vocabulary: true
 艾哈邁德	nge ha mae taq
 艾哈邁迪內賈德	nge ha mae diq nei cia taq
 艾哈邁達巴德	nge ha mae daq po taq
+艾如張	gni zyu cian
 艾弗森	nge faq sen
 艾彌爾	nge mi er
 艾斯托利爾	nge sy thoq li er
@@ -31370,6 +31486,10 @@ use_preset_vocabulary: true
 茲沃勒	tsy oq laq
 茶攤兒	dzo thae er
 茶葉末兒	dzo yiq maq er
+茶遲飯晏	dzo dzy vae ae
+茶遲飯晏	dzo dzy vae i
+茶遲飯晏	dzo ji vae ae
+茶遲飯晏	dzo ji vae i
 茶館兒	dzo kun er
 茶點時間	dzo te zy ci
 茶點時間	dzo ti zy ci
@@ -32025,6 +32145,7 @@ use_preset_vocabulary: true
 虛擬世界	shiu gni syu ka
 虛擬空間	shiu gni khon ci
 虛歲	shiu syu
+虛與委蛇	shiu yu uei yi
 虛雲大師	shiu yun da sy
 虞世南	gniu syu nei-nae
 號啕大哭	ghau dau da khoq
@@ -32396,6 +32517,7 @@ use_preset_vocabulary: true
 行淫	yin yin
 行照	yin ciau
 行營	yin yin
+行爲	yin wei
 行爲不檢	yin wei paq ci
 行爲世範	yin wei syu vae
 行爲主義	yin wei tsyu gni
@@ -32905,6 +33027,7 @@ use_preset_vocabulary: true
 要加強	iau cia jian
 要加牛奶	iau ko ngeu na
 要問	iau men
+要塞	iau se
 要學	iau ghoq
 要抓	iau tsa
 要拿	iau no
@@ -33215,6 +33338,7 @@ use_preset_vocabulary: true
 言歸正傳	yi kuei cin dzoe
 言猶在耳	yi yeu dze er
 言笑之間	yi shiau tsy ci
+言笑晏晏	yi shiau i i
 言笑間	yi shiau ci
 言行	yi yin
 言行一致	yi yin iq tsy
@@ -33676,10 +33800,12 @@ use_preset_vocabulary: true
 說合了蓋兒了	syuq ghaq laq ke er laq
 說吧	syuq pa
 說唱文學	syuq tshaon ven yuq
+說士	sei zy
 說大話	syuq da wo
 說太平話兒	syuq tha bin wo er
 說好了	syuq hau lei
 說定了	syuq din lei
+說客	sei khaq
 說岳全傳	syuq ngoq dzoe dzoe
 說教	syuq ciau
 說教術	syuq ciau zyuq
@@ -34028,6 +34154,7 @@ use_preset_vocabulary: true
 豬尾	tsyu vi
 豬尾巴	tsyu mi po
 豬肉乾	tsyu gnioq ki-ke
+豬肚	tsyu tu
 豬蹄膀	tsyu di phaon
 豬鼻	tsyu biq
 豹死留皮	pau sy lieu bi
@@ -35163,6 +35290,7 @@ use_preset_vocabulary: true
 送信人	son shin gnin
 送報人	son pau gnin
 送報生	son pau san
+送產	son tshae
 送禮大方	son li da faon
 送行	son yin
 送行人	son yin gnin
@@ -35490,6 +35618,10 @@ use_preset_vocabulary: true
 遊行法	yeu yin faq
 遊行示威	yeu yin zy uei
 遊行示衆	yeu yin zy tson
+遊說	yeu sei
+遊說團	yeu sei doe
+遊說團體	yeu sei doe thi
+遊說集團	yeu sei jiq doe
 遊遊磨磨兒	yeu yeu mou mou er
 運動學	yun don yuq
 運動家	yun don cia
@@ -35527,6 +35659,7 @@ use_preset_vocabulary: true
 過剩人口	kou jin gnin kheu
 過動兒	kou don er
 過勞死	kou lau sy
+過去	kou chiu
 過去了	kou chi lei
 過去分詞	kou chiu fen dzy
 過去完成式	kou chiu wun jin shiq
@@ -36685,6 +36818,7 @@ use_preset_vocabulary: true
 釦眼兒	kheu ngae er
 鈍學累功	den yuq lei kon
 鉚勁兒	mau jin er
+鉛山	yi sae
 鉛酸蓄電池	khae soe shiuq di dzy
 鉛酸蓄電池	khae soe shiuq di ji
 鉛錘	khae zei
@@ -37534,6 +37668,7 @@ use_preset_vocabulary: true
 闌尾	lae vi
 闌尾切除術	lae vi chiq dzyu zyuq
 闌尾炎	lae vi yi
+闐咽	di iq
 闔家	ghaq cia
 闔家歡	ghaq cia hun
 闖下大禍	tshaon gho da ghou
@@ -39328,6 +39463,7 @@ use_preset_vocabulary: true
 養家餬口	ian cia wu kheu
 養成教育	ian jin ciau yuq
 養樂多	ian loq tou
+養生	ian sen
 養生之道	ian sen tsy dau
 養生堂	ian sen daon
 養生法	ian sen faq
@@ -39944,6 +40080,7 @@ use_preset_vocabulary: true
 魚生	ng sen
 魚目混珠	ng moq wen tsyu
 魚肉人民	ng gnioq zyun min
+魚肚	ng tu
 魚鉤兒	ng keu er
 魚雷	ng lei
 魚雷	yu lei
@@ -39966,6 +40103,7 @@ use_preset_vocabulary: true
 魯魚亥豕	lu yu ghe sy
 鮑威爾	bau uei er
 鮫人	kau gnin
+鮭菜	yi tshe
 鮮卑人	shi pei gnin
 鮮味	shi mi
 鮮明個性	shi min kou shin
@@ -40062,6 +40200,7 @@ use_preset_vocabulary: true
 鴨子划水	aq tsy waq syu
 鴨子湯	aq tsy thaon
 鴨掌	aq tsaon
+鴨梨	aq li
 鴨毛	aq mau
 鴨絨	aq gnion
 鴨絨毛	aq gnion mau
@@ -40430,3 +40569,4 @@ use_preset_vocabulary: true
 龐雜	baon dzaq
 龔自珍	kon zy cin
 龜兒子	kuei ng tsy
+龜茲	chieu dzy
