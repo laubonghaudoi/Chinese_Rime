@@ -15,7 +15,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.11.08"
+version: "2020.11.13"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -8604,6 +8604,7 @@ s	迡	gni
 婾	theu
 鍮	theu
 斢	theu
+透	theu
 鋀	theu
 㪗	theu	418
 敨	theu
@@ -19531,7 +19532,7 @@ s	迡	gni
 起頭	chi deu
 牽頭皮	chi deu bi	55
 氣頭言話	chi deu ghae wo	55
-氣頭閒話	chi deu ghae wo	55
+氣頭閒話	chi deu ghae wo
 起頭家	chi deu ko
 起頭落腳	chi deu loq ciaq	55
 起地㽘	chi di gaon
@@ -20724,7 +20725,7 @@ s	迡	gni
 浸煞	cin saq	55
 精瘦颳得	cin seu kuaq taq	55
 京戲	cin shi
-正鏾雞	cin shi ci
+真鏾雞	cin shi ci
 正向	cin shian
 正式	cin shiq	40000
 進舍	cin so
@@ -20788,6 +20789,7 @@ s	迡	gni
 只認衣衫弗認人	ciq gnin i sae vaq gnin gnin	1
 節日頭間	ciq gniq deu kae	55
 結𥀬	ciq i	55
+摺衣裳	ciq i zaon
 摺襉	ciq kae	55
 結嗝	ciq kaq	55
 結夾	ciq kaq	55
@@ -21157,6 +21159,8 @@ s	迡	gni
 玳玳花	de de huo	55
 擡頭	de deu
 苔條	de diau	55
+苔條千層餅	de diau chi zen pin
+苔條花生	de diau huo sen
 苔條燜花生米	de diau mhen huo sen mi
 苔條餅	de diau pin	55
 苔條拖黃魚	de diau thou waon ng	55
@@ -21263,6 +21267,7 @@ s	迡	gni
 頭髮	deu faq
 頭髮兌針	deu faq dei cin
 頭髮甩散	deu faq huaq sae	55
+頭髮絲	deu faq sy
 頭髮禿頂	deu faq thaq tin
 頭後日	deu gheu gniq	55
 投人身	deu gnin shin	55
@@ -21371,6 +21376,7 @@ s	迡	gni
 弟弟	di di
 提桶	di don
 地藏王菩薩	di dzaon waon bu saq
+電茶壺	di dzo wu
 地方	di faon
 地㽘	di gaon	55
 第二日	di gni gniq	55
@@ -21382,6 +21388,7 @@ s	迡	gni
 地樣下頭	di gnian gho deu	55
 地壤下底	di gnian gho ti	55
 地壤裏	di gnian li	55
+電熱餅	di gniq pin
 田要種渠骨敦	di iau tson ji kuaq ten
 第一	di iq
 地軸	di jiuq
@@ -21488,8 +21495,7 @@ s	迡	gni
 條石	diau zaq	55
 定親	din chin
 定堅	din ci	55
-凌凙	din daon
-凌𠗶	din daon
+凌凙	din daon	55
 定頭鈿	din deu di	55
 定頭洋	din deu yan	55
 停停看	din din khe
@@ -22017,6 +22023,7 @@ s	迡	gni
 咋話	dza wo	578
 射藥	dza yaq
 撒藥	dza yaq
+𠑞藥	dza yaq	1
 賺進	dzae cin	55
 蹔𧉆	dzae ciq	55
 站頭	dzae deu	418
@@ -22413,6 +22420,7 @@ s	迡	gni
 發奤	faq phoq	55
 發醭	faq phoq	55
 發䨣泥螺	faq phoq gni lou	55
+發奤泥螺	faq phoq gni lou	55
 發奤浮屍	faq phoq vei sy
 發奤浮屍	faq phoq veu sy
 弗燥弗溼	faq sau faq shiq	55
@@ -22723,14 +22731,17 @@ s	迡	gni
 言話	ghae wo	10000
 閒話	ghae wo
 言話一句	ghae wo iq ciu	55
-閒話一句	ghae wo iq ciu	55
-言話講道理	ghae wo kaon dau li
+閒話一句	ghae wo iq ciu
+言話講道理	ghae wo kaon dau li	1
+閒話講道理	ghae wo kaon dau li
 言話勿可扎	ghae wo vaq khou tsaq
 言話弗可扎	ghae wo vaq khou tsaq	1
-閒話弗可扎	ghae wo vaq khou tsaq	1
+閒話勿可扎	ghae wo vaq khou tsaq
+閒話弗可扎	ghae wo vaq khou tsaq
 言話勿能煞潑	ghae wo vaq nen saq phaq
 言話弗能煞潑	ghae wo vaq nen saq phaq	1
-閒話弗能煞潑	ghae wo vaq nen saq phaq	1
+閒話勿能煞潑	ghae wo vaq nen saq phaq
+閒話弗能煞潑	ghae wo vaq nen saq phaq
 閒野	ghae ya	55
 閒食	ghae zhiq	55
 閒時不節	ghae zy paq ciq	55
@@ -22799,7 +22810,8 @@ s	迡	gni
 旱菸管	ghei-ghe i kun	55
 寒凚凚	ghei-ghe jin jin	55
 寒假	ghei-ghe ko
-韓國言話	ghei-ghe koq ghae wo
+韓國言話	ghei-ghe koq ghae wo	1
+韓國閒話	ghei-ghe koq ghae wo
 寒懍懍	ghei-ghe lin lin	55
 寒露	ghei-ghe lu
 寒毛	ghei-ghe mau
@@ -23382,13 +23394,13 @@ s	迡	gni
 韌比比	gnin pi pi	55
 韌比刁起	gnin pi tiau chi
 寧波評話	gnin poq bin wo
-寧波言話	gnin poq ghae wo
+寧波言話	gnin poq ghae wo	1
 寧波閒話	gnin poq ghae wo
 寧波灘簧	gnin poq thae waon	55
 寧波走書	gnin poq tseu syu
 寧波話	gnin poq wo
 寧波評話	gnin pou bin wo
-寧波言話	gnin pou ghae wo
+寧波言話	gnin pou ghae wo	1
 寧波閒話	gnin pou ghae wo
 寧波灘簧	gnin pou thae waon	55
 寧波走書	gnin pou tseu syu
@@ -23454,7 +23466,7 @@ s	迡	gni
 肉圓	gnioq yu
 玉石	gnioq zaq
 熱勃勃	gniq baq baq	55
-熱炦幾糟	gniq baq ci tsau
+熱勃幾糟	gniq baq ci tsau
 熱氣肉	gniq chi gnioq	55
 日長夜大	gniq cian ya dou	55
 日腳	gniq ciaq	578
@@ -24713,7 +24725,8 @@ s	迡	gni
 朝外貨	jiau nga hou
 撬䏘洞	jiau phiq don	55
 橋鋪	jiau phu	55
-潮汕言話	jiau sae ghae wo
+潮汕言話	jiau sae ghae wo	1
+潮汕閒話	jiau sae ghae wo
 橋蜆	jiau shi	55
 潮溼溼	jiau shiq shiq	55
 潮水	jiau syu
@@ -24742,7 +24755,6 @@ s	迡	gni
 陳皮	jin bi
 近𥉻眼	jin chi ngae	55
 凌凙	jin daon	55
-凌𠗶	jin daon
 成糖	jin daon	55
 勁道	jin dau
 埕頭	jin deu	55
@@ -24976,7 +24988,7 @@ s	迡	gni
 講肚仙	kaon du shi
 講言話	kaon ghae wo	20000
 講閒話	kaon ghae wo	578
-講言話慢他他	kaon ghae wo mae than than
+講言話慢他他	kaon ghae wo mae than than	1
 講閒話慢他他	kaon ghae wo mae than than
 講纏話	kaon ji wo	55
 剛剛	kaon kaon
@@ -25335,7 +25347,7 @@ s	迡	gni
 康家𡍲	khaon ko taq
 囥弗過	khaon vaq kou	1
 克切行爲	khaq chiq ghan wei
-客家言話	khaq cia ghae wo
+客家言話	khaq cia ghae wo	1
 客家閒話	khaq cia ghae wo
 客家語	khaq cia gniu
 客家話	khaq cia wo
@@ -25567,7 +25579,7 @@ s	迡	gni
 空頭	khon deu
 空頭白腦	khon deu baq nau	55
 空頭言話	khon deu ghae wo	55
-空頭閒話	khon deu ghae wo	55
+空頭閒話	khon deu ghae wo
 空頭白腦	khon deu paq nau	55
 空頭支票	khon deu tsy phiau
 空頭話	khon deu wo
@@ -25817,7 +25829,7 @@ s	迡	gni
 該結草紙	kiq ciq tshau tsy
 該句	kiq ciu
 該捲	kiq ciu
-該句言話	kiq ciu ghae wo
+該句言話	kiq ciu ghae wo	1
 該句閒話	kiq ciu ghae wo
 該埭	kiq da
 該埭河	kiq da ghou
@@ -25832,7 +25844,7 @@ s	迡	gni
 該疊紙頭	kiq diaq tsy deu
 該條	kiq diau
 該段	kiq doe
-該段言話	kiq doe ghae wo
+該段言話	kiq doe ghae wo	1
 該段閒話	kiq doe ghae wo
 該段路	kiq doe lu
 該段辰光	kiq doe zyun kuaon
@@ -25858,7 +25870,7 @@ s	迡	gni
 該副	kiq fu
 該也	kiq gha
 該也是	kiq gha zy
-該言話	kiq ghae wo
+該言話	kiq ghae wo	1
 該閒話	kiq ghae wo
 該行	kiq ghaon
 該項	kiq ghaon
@@ -26160,7 +26172,7 @@ s	迡	gni
 該面邊	kiq mi pi
 該名	kiq min
 該眼	kiq ngae	60000
-該眼言話	kiq ngae ghae wo
+該眼言話	kiq ngae ghae wo	1
 該眼閒話	kiq ngae ghae wo
 該眼人	kiq ngae gnin
 該眼東西	kiq ngae ton shi
@@ -26374,7 +26386,7 @@ s	迡	gni
 嫁男人	ko nei-nae gnin	55
 嫁囡	ko noe	55
 家生	ko san	578
-假騸雞	ko shi ci
+假鏾雞	ko shi ci
 假戲頭	ko shi deu	55
 家小	ko shiau
 傢俬	ko sy
@@ -26599,7 +26611,8 @@ s	迡	gni
 光榔頭	kuaon laon deu	55
 光郎頭	kuaon laon deu	55
 光禿芋艿頭	kuaon thaq n na deu	55
-廣東言話	kuaon ton ghae wo
+廣東言話	kuaon ton ghae wo	1
+廣東閒話	kuaon ton ghae wo
 光是	kuaon zy
 骨牌凳	kuaq ba ten	55
 刮皮	kuaq bi	55
@@ -28140,7 +28153,6 @@ s	迡	gni
 美人肩	mei zyun ci	55
 美人蕉	mei zyun ciau
 門牌號頭	men ba ghau deu	55
-悶勃勃	men baq baq	55
 門栿	men boq	55
 問籤詩	men chi sy	55
 門槍	men chian	55
@@ -28319,7 +28331,7 @@ s	迡	gni
 莫煩	mhau vae
 莫煩吶	mhau vae naq
 妹妹	mhei mhei
-悶炦炦	mhen baq baq	55
+悶勃勃	mhen baq baq	55
 悶氣特塞	mhen chi daq saq	55
 悶氣烔烔	mhen chi don don
 悶地躬	mhen di kon
@@ -28404,7 +28416,7 @@ s	迡	gni
 嘸沒提	mhiq di	55
 嘸沒電	mhiq di	418
 嘸沒第二句言話	mhiq di gni ciu ghae wo	55
-嘸沒第二句閒話	mhiq di gni ciu ghae wo	55
+嘸沒第二句閒話	mhiq di gni ciu ghae wo
 嘸沒動	mhiq don	418
 嘸沒銅鈿	mhiq don di
 嘸沒毒	mhiq doq	418
@@ -28436,11 +28448,11 @@ s	迡	gni
 嘸沒風	mhiq fon	418
 嘸沒付	mhiq fu	55
 嘸沒言話	mhiq ghae wo	418
-嘸沒閒話	mhiq ghae wo	418
+嘸沒閒話	mhiq ghae wo
 嘸沒言話成份	mhiq ghae wo jin ven	55
 嘸沒閒話成份	mhiq ghae wo jin ven
 嘸沒言話講	mhiq ghae wo kaon	418
-嘸沒閒話講	mhiq ghae wo kaon	418
+嘸沒閒話講	mhiq ghae wo kaon
 嘸沒言話份	mhiq ghae wo ven	55
 嘸沒閒話份	mhiq ghae wo ven
 嘸沒後	mhiq gheu	55
@@ -29346,6 +29358,7 @@ s	迡	gni
 外快	nga khua
 外公	nga kon
 外國言話	nga koq ghae wo
+外國閒話	nga koq ghae wo
 外國紅	nga koq ghon	55
 外國人	nga koq gnin
 捱過	nga kou
@@ -30228,7 +30241,7 @@ s	迡	gni
 拼捨性命	phin so shin min	55
 䏘漿水	phiq cian syu	55
 劈直言話	phiq jiq ghae wo	55
-劈直閒話	phiq jiq ghae wo	55
+劈直閒話	phiq jiq ghae wo
 霹靂	phiq liq
 劈面相	phiq mi shian	55
 怕人	pho gnin
@@ -30267,6 +30280,7 @@ s	迡	gni
 鋪蓋	phu ke
 鋪板	phu pae
 普通言話	phu thon ghae wo
+普通閒話	phu thon ghae wo
 鋪塢	phu u	55
 半個	phun kou
 判官	phun kun
@@ -30859,7 +30873,7 @@ s	迡	gni
 煞辣	saq naq	55
 煞潑	saq phaq	55
 煞潑言話	saq phaq ghae wo	55
-煞潑閒話	saq phaq ghae wo	55
+煞潑閒話	saq phaq ghae wo
 撒潑煞辣	saq phaq saq laq
 撒潑無賴	saq phaq vu la
 撒潑無賴	saq phaq wu- la
@@ -30973,7 +30987,6 @@ s	迡	gni
 細巧	shi chiau
 癬喫癩頭	shi chioq la deu
 鏾雞	shi ci	55
-騸雞	shi ci	55
 線腳	shi ciaq	55
 箲帚	shi cieu	55
 絮枕頭	shi cin deu
@@ -31268,7 +31281,7 @@ s	迡	gni
 燒火阿姆	shiau hou an m	55
 小貨銅鈿	shiau hou don di	55
 小貨言話	shiau hou ghae wo	55
-小貨閒話	shiau hou ghae wo	55
+小貨閒話	shiau hou ghae wo
 笑呵呵	shiau hou hou
 小貨場	shiau hou jian	55
 小火輪	shiau hou len	55
@@ -31939,7 +31952,8 @@ s	迡	gni
 司的克	sy tiq khaq	55
 私章	sy tsaon
 四隻眼	sy tsaq ngae	55
-四川言話	sy tshoe ghae wo
+四川言話	sy tshoe ghae wo	1
+四川閒話	sy tshoe ghae wo
 四穿涼棚	sy tshoe lian ban
 獅子	sy tsy
 四齒耙	sy tsy bo
@@ -33231,7 +33245,8 @@ s	迡	gni
 凍米胖	ton mi phaon	418
 端午	ton ng
 端午粽	ton ng tson	55
-東北言話	ton poq ghae wo
+東北言話	ton poq ghae wo	1
+東北閒話	ton poq ghae wo
 東半邊	ton pun pi
 凍煞鬼	ton saq ciu
 凍煞死	ton saq shi
@@ -33762,6 +33777,7 @@ s	迡	gni
 菜葉爿	tshe yiq bae	55
 湊隊	tshei dei	55
 湊隊家	tshei dei ko
+湊頭	tshei deu	55
 𢶀頭毛子	tshei deu mau tsy
 𢶀耳朵皮	tshei gni to bi
 脆瓜	tshei kuo	55
@@ -34058,7 +34074,7 @@ s	迡	gni
 出田	tshyuq di	55
 出大汗	tshyuq dou ghei-ghe	55
 出言話	tshyuq ghae wo	55
-出閒話	tshyuq ghae wo	55
+出閒話	tshyuq ghae wo
 出河頭	tshyuq ghou deu
 出場	tshyuq jian
 出張嘴巴	tshyuq jian tsyu po
@@ -34809,6 +34825,7 @@ s	迡	gni
 飯烏龜	vae u ciu	55
 飯碗	vae un
 飯碗頭	vae un deu	55
+煩煩者	vae vae tse
 犯勿着	vae vaq dzoq
 犯弗着	vae vaq dzoq	1
 犯勿着	vae vaq zoq
@@ -35312,7 +35329,8 @@ s	迡	gni
 爲好成怨	wei hau jin iu	55
 回𩌑	wei iu
 圍棋	wei ji
-會講言話多招怪	wei kaon ghae wo tou ciau kua
+會講言話多招怪	wei kaon ghae wo tou ciau kua	1
+會講閒話多招怪	wei kaon ghae wo tou ciau kua
 會講會話	wei kaon wei wo
 會講會話是先生	wei kaon wei wo zy shi san
 胃口	wei kheu
@@ -35995,7 +36013,8 @@ s	迡	gni
 上個月	zaon goq yuq
 上好孃	zaon hau gnian
 尚好使讓	zaon hau sy gnian
-上海言話	zaon he ghae wo
+上海言話	zaon he ghae wo	1
+上海閒話	zaon he ghae wo
 上蕻	zaon hon	55
 上灰	zaon huei	55
 上一昶	zaon iq chian	418
@@ -36180,7 +36199,7 @@ s	迡	gni
 造孽精	zau gniq cin	55
 造孽頭朋	zau gniq deu ban	55
 造孽言話	zau gniq ghae wo	55
-造孽閒話	zau gniq ghae wo	55
+造孽閒話	zau gniq ghae wo
 造好掉	zau hau diau	55
 造六國大反	zau loq koq dou fae
 漕嘴	zau tsyu	55
@@ -36670,7 +36689,7 @@ s	迡	gni
 十外	zyuq nga	55
 十八個月走人家	zyuq paq ghoq yuq tseu gnin ko
 十八個月走人家	zyuq paq goq yuq tseu gnin ko
-日本言話	zyuq pen ghae wo
+日本言話	zyuq pen ghae wo	1
 日本閒話	zyuq pen ghae wo
 十三檔算盤	zyuq sae taon soe bun
 十三點	zyuq sae ti
