@@ -15,7 +15,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.12.11"
+version: "2020.12.15"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -4142,7 +4142,7 @@ s	迡	gni
 呿	chia
 笡	chia
 趄	chia	0%
-且	chia
+且	chia	5%
 𢲶	chia
 髂	chia
 伽	jia
@@ -6021,7 +6021,7 @@ s	迡	gni
 誡	cie
 烗	cie
 丯	cie
-且	chie	5%
+且	chie
 趄	chie
 茄	jie
 諧	ye
@@ -19174,8 +19174,15 @@ s	迡	gni
 防賊勿到撥賊笑	baon zaq vaq tau paq zaq shiau
 防賊弗到撥賊笑	baon zaq vaq tau paq zaq shiau	1
 白白	baq baq
+白白喫	baq baq chioq
+白白講	baq baq kaon
 白白力力	baq baq li li	55
 白白力力	baq baq liq liq	55
+白白弄	baq baq lon
+白白問	baq baq men
+白白打	baq baq tan
+白白做	baq baq tsou
+白白話	baq baq wo
 白蒲	baq bu	55
 白蒲西瓜	baq bu shi kuo	55
 白蒲棗	baq bu tsau	55
@@ -20200,6 +20207,7 @@ s	迡	gni
 七纏八纏	chiq ji paq ji	55
 七張	chiq jian
 七長八短	chiq jian paq toe	55
+七梗	chiq kan
 七講八講	chiq kaon paq kaon	418
 挈夾	chiq kaq	55
 七高八低	chiq kau paq ti	55
@@ -20208,6 +20216,7 @@ s	迡	gni
 挈過	chiq kou
 挈過去	chiq kou chi
 挈過來	chiq kou le
+七梗	chiq kuan
 挈籃	chiq lae
 挈了	chiq laq
 挈勒	chiq laq
@@ -20325,6 +20334,7 @@ s	迡	gni
 幾張	ci jian
 見情	ci jin	55
 記情	ci jin	55
+幾梗	ci kan
 機耕路	ci kan lu	55
 肩胛	ci kaq	2815
 肩胛頭	ci kaq deu	55
@@ -20336,6 +20346,7 @@ s	迡	gni
 尖角領	ci koq lin	55
 幾個	ci kou
 嘰咕	ci ku
+幾梗	ci kuan
 雞冠頭	ci kun deu	55
 雞冠花	ci kun huo
 記掛	ci kuo
@@ -20876,6 +20887,7 @@ s	迡	gni
 九張	cieu jian
 酒勁	cieu jin
 酒埕	cieu jin	55
+九梗	cieu kan
 九快利	cieu khua li
 酒家	cieu ko
 周家寮	cieu ko liau
@@ -20883,6 +20895,7 @@ s	迡	gni
 晝過晝過	cieu kou cieu kou
 晝過頭	cieu kou deu	578
 晝過飯	cieu kou vae	578
+九梗	cieu kuan
 酒館店	cieu kun ti
 九兩	cieu lian	55
 九六	cieu loq
@@ -20980,6 +20993,8 @@ s	迡	gni
 整張頭	cin jian deu
 驚蟄	cin jiq
 金衢片	cin jiu phi
+整梗	cin kan
+整梗頭	cin kan deu
 儘夠	cin keu	55
 精空	cin khon	55
 精空彭空	cin khon ban khon	55
@@ -20990,6 +21005,8 @@ s	迡	gni
 井乾刷淨	cin ki-ke syuq zhin
 整個	cin kou
 真個	cin kou
+整梗	cin kuan
+整梗頭	cin kuan deu
 精光	cin kuaon
 精光的滑	cin kuaon tiq waq	55
 精光滑澾	cin kuaon waq daq	55
@@ -21345,6 +21362,7 @@ s	迡	gni
 蕩個月	daon goq yuq	578
 蕩一昶	daon iq chian	418
 蕩張	daon jian
+蕩梗	daon kan
 糖糕	daon kau
 搪鉛杯	daon khae pei
 搪口杯	daon kheu pei
@@ -21352,6 +21370,7 @@ s	迡	gni
 唐家匯	daon ko wei
 蕩個	daon kou	578
 蕩個月	daon kou yuq	578
+蕩梗	daon kuan
 蕩光	daon kuaon	55
 堂倌	daon kun
 鏜鋃銀子	daon laon gnin tsy	55
@@ -24667,7 +24686,7 @@ s	迡	gni
 依埭	i da	55
 菸袋袋	i de de	55
 依掉	i diau	55
-饐掉	i diau	55
+蔫掉	i diau	55
 挔鋤頭柄	i dzu deu pin
 衣櫥頭頂	i dzyu deu ten
 衣櫥裏向	i dzyu li shian
@@ -25050,12 +25069,19 @@ s	迡	gni
 一襉橘子	iq kae ciuq tsy
 一襉大蒜頭	iq kae dou soe deu
 一襉香泡	iq kae shian phau
+一梗	iq kan
 一梗矮凳	iq kan a ten
 一梗棒頭	iq kan baon deu
+一梗被頭	iq kan bi deu
+一梗頭髮	iq kan deu faq
+該梗頭髮	iq kan deu faq
+一梗梗	iq kan kan
 一梗毛	iq kan mau
 一梗魚	iq kan ng
 一梗扁擔一梗龍	iq kan pi tae iq kan lon
+一梗帶魚	iq kan ta ng
 一梗繩	iq kan zhin
+一梗繩子	iq kan zhin tsy
 一格抽斗	iq kaq chieu teu
 一隔週	iq kaq cieu	55
 一格路梯	iq kaq lu thi
@@ -25078,12 +25104,19 @@ s	迡	gni
 𥣘穀	iq koq
 一角頭	iq koq deu
 一個	iq kou
+一梗	iq kuan
 一梗矮凳	iq kuan a ten
 一梗棒頭	iq kuan baon deu
+一梗被頭	iq kuan bi deu
+一梗頭髮	iq kuan deu faq
+該梗頭髮	iq kuan deu faq
+一梗梗	iq kuan kuan
 一梗毛	iq kuan mau
 一梗魚	iq kuan ng
 一梗扁擔一梗龍	iq kuan pi tae iq kuan lon
+一梗帶魚	iq kuan ta ng
 一梗繩	iq kuan zhin
+一梗繩子	iq kuan zhin tsy
 一管槍	iq kun chian
 一管秤	iq kun chin
 一管簫	iq kun shiau
@@ -26317,6 +26350,7 @@ s	迡	gni
 開豁	khe huaq
 開葷	khe huen
 開場	khe jian
+開着	khe jiaq
 開庎櫥門	khe ka dzyu men	55
 開交	khe kau
 開口	khe kheu
@@ -26939,11 +26973,16 @@ s	迡	gni
 該一張桌凳	kiq iq jian tsoq ten
 該一張紙頭	kiq iq jian tsy deu
 該一劇戲文	kiq iq jiq shi ven
+該一梗	kiq iq kan
 該一梗矮凳	kiq iq kan a ten
 該一梗棒頭	kiq iq kan baon deu
+該一梗被頭	kiq iq kan bi deu
+該一梗頭髮	kiq iq kan deu faq
 該一梗毛	kiq iq kan mau
 該一梗魚	kiq iq kan ng
+該一梗帶魚	kiq iq kan ta ng
 該一梗繩	kiq iq kan zhin
+該一梗繩子	kiq iq kan zhin tsy
 該一格抽斗	kiq iq kaq chieu teu
 該一格路梯	kiq iq kaq lu the
 該一刻	kiq iq khaq
@@ -26953,11 +26992,16 @@ s	迡	gni
 該一架瓦片	kiq iq ko ngo phi
 該一架布	kiq iq ko pu
 該一架西瓜	kiq iq ko shi kuo
+該一梗	kiq iq kuan
 該一梗矮凳	kiq iq kuan a ten
 該一梗棒頭	kiq iq kuan baon deu
+該一梗被頭	kiq iq kuan bi deu
+該一梗頭髮	kiq iq kuan deu faq
 該一梗毛	kiq iq kuan mau
 該一梗魚	kiq iq kuan ng
+該一梗帶魚	kiq iq kuan ta ng
 該一梗繩	kiq iq kuan zhin
+該一梗繩子	kiq iq kuan zhin tsy
 該一管槍	kiq iq kun chian
 該一管秤	kiq iq kun chin
 該一管簫	kiq iq kun shiau
@@ -27029,9 +27073,12 @@ s	迡	gni
 該梗	kiq kan
 該梗矮凳	kiq kan a ten
 該梗棒頭	kiq kan baon deu
+該梗被頭	kiq kan bi deu
 該梗毛	kiq kan mau
 該梗魚	kiq kan ng
+該梗帶魚	kiq kan ta ng
 該梗繩	kiq kan zhin
+該梗繩子	kiq kan zhin tsy
 該格	kiq kaq
 該格抽斗	kiq kaq chieu teu
 該格路梯	kiq kaq lu the
@@ -27056,9 +27103,12 @@ s	迡	gni
 該梗	kiq kuan
 該梗矮凳	kiq kuan a ten
 該梗棒頭	kiq kuan baon deu
+該梗被頭	kiq kuan bi deu
 該梗毛	kiq kuan mau
 該梗魚	kiq kuan ng
+該梗帶魚	kiq kuan ta ng
 該梗繩	kiq kuan zhin
+該梗繩子	kiq kuan zhin tsy
 該管槍	kiq kun chian
 該管秤	kiq kun chin
 該管簫	kiq kun shiau
@@ -27108,19 +27158,27 @@ s	迡	gni
 該兩張眠牀	kiq lian jian mi zaon
 該兩張桌凳	kiq lian jian tsoq ten
 該兩張紙頭	kiq lian jian tsy deu
+該兩梗	kiq lian kan
 該兩梗矮凳	kiq lian kan a ten
 該兩梗棒頭	kiq lian kan baon deu
+該兩梗頭髮	kiq lian kan deu faq
 該兩梗魚	kiq lian kan ng
+該兩梗帶魚	kiq lian kan ta ng
 該兩梗繩	kiq lian kan zhin
+該兩梗繩子	kiq lian kan zhin tsy
 該兩格抽斗	kiq lian kaq chieu teu
 該兩窠地方	kiq lian khou di faon
 該兩架絹帕	kiq lian ko ciu phae
 該兩架肉	kiq lian ko gnioq
 該兩架西瓜	kiq lian ko shi kuo
+該兩梗	kiq lian kuan
 該兩梗矮凳	kiq lian kuan a ten
 該兩梗棒頭	kiq lian kuan baon deu
+該兩梗頭髮	kiq lian kuan deu faq
 該兩梗魚	kiq lian kuan ng
+該兩梗帶魚	kiq lian kuan ta ng
 該兩梗繩	kiq lian kuan zhin
+該兩梗繩子	kiq lian kuan zhin tsy
 該兩門題目	kiq lian men di moq
 該兩刀草紙	kiq lian tau tshau tsy
 該兩頂傘	kiq lian tin sae
@@ -27315,6 +27373,8 @@ s	迡	gni
 該事體	kiq zy thi
 該是隻	kiq zy tsaq
 該辰光	kiq zyun kuaon
+該兩梗被頭	kiqlian kan bi deu
+該兩梗被頭	kiqlian kuan bi deu
 黏結格牢	kni ciq kaq lau	55
 黏結疙瘩	kni ciq kaq taq
 黏格格	kni kaq kaq	55
@@ -27413,8 +27473,10 @@ s	迡	gni
 各人管自	koq gnin kun zhi	55
 各人懺念法	koq gnin tshae ne-gnie faq
 各張	koq jian
+各梗	koq kan
 郭家畤	koq ko ji
 角角落落	koq koq loq loq	55
+各梗	koq kuan
 擱廊	koq laon	55
 閣樓	koq leu
 𰟫龍頭鮳	koq lon deu khau
@@ -28514,10 +28576,15 @@ s	迡	gni
 兩張眠牀	lian jian mi zaon
 兩張桌凳	lian jian tsoq ten
 兩張紙頭	lian jian tsy deu
+兩梗	lian kan
 兩梗矮凳	lian kan a ten
 兩梗棒頭	lian kan baon deu
+兩梗被頭	lian kan bi deu
+兩梗頭髮	lian kan deu faq
 兩梗魚	lian kan ng
+兩梗帶魚	lian kan ta ng
 兩梗繩	lian kan zhin
+兩梗繩子	lian kan zhin tsy
 亮槅	lian kaq	55
 兩格抽斗	lian kaq chieu teu
 兩隔生	lian kaq san	55
@@ -28535,10 +28602,15 @@ s	迡	gni
 兩個	lian kou
 兩姑嫂	lian ku sau	55
 亮梗	lian kuan	55
+兩梗	lian kuan
 兩梗矮凳	lian kuan a ten
 兩梗棒頭	lian kuan baon deu
+兩梗被頭	lian kuan bi deu
+兩梗頭髮	lian kuan deu faq
 兩梗魚	lian kuan ng
+兩梗帶魚	lian kuan ta ng
 兩梗繩	lian kuan zhin
+兩梗繩子	lian kuan zhin tsy
 亮刮刮	lian kuaq kuaq
 兩老	lian lau	55
 兩老頭	lian lau dei
@@ -28906,6 +28978,7 @@ s	迡	gni
 落場勢	loq jian syu	55
 落潮	loq jiau
 落直	loq jiq	578
+六梗	loq kan
 落檻	loq khae	55
 綠殼	loq khoq	55
 落課	loq khou	55
@@ -28919,6 +28992,7 @@ s	迡	gni
 六穀勿結	loq koq vaq ciq
 六穀弗結	loq koq vaq ciq	1
 鹿過江	loq kou kaon	55
+六梗	loq kuan
 落棺材	loq kun ze	55
 落爛雪片	loq lae syuq phi
 落殮	loq li	55
@@ -29324,14 +29398,18 @@ s	迡	gni
 梅花	mei huo
 每一張	mei iq cian
 每一張	mei iq jian
+每一梗	mei iq kan
+每一梗	mei iq kuan
 每張	mei jian
 煤球	mei jieu
 煤球風爐	mei jieu fon lou	418
 煤球爐子	mei jieu lu tsy	55
 煤球店	mei jieu ti	55
+每梗	mei kan
 黴乾菜	mei ki-ke tshe
 黴乾菜㸆肉	mei ki-ke tshe khau gnioq
 黴乾菜烤肉	mei ki-ke tshe khau gnioq
+每梗	mei kuan
 玫瑰	mei kuei
 玫瑰紅	mei kuei ghon
 梅蘭芳	mei lae faon
@@ -29365,6 +29443,7 @@ s	迡	gni
 美人蕉	mei zyun ciau
 門牌號頭	men ba ghau deu	55
 門栿	men boq	55
+問菩薩	men bu saq
 問籤詩	men chi sy	55
 門槍	men chian	55
 明朝	men ciau	578
@@ -29410,6 +29489,7 @@ s	迡	gni
 門面要繃	men mi iau pan
 悶牛娘	men ngeu gnian
 門牙	men ngo
+問儂問菩薩	men nou men bu saq
 門背後	men pei gheu	55
 門鋬	men phae
 門邊頭	men pi deu	55
@@ -30567,6 +30647,7 @@ s	迡	gni
 五一	ng iq
 五張	ng jian
 五更	ng kan
+五梗	ng kan
 五更阿三	ng kan aq sae
 五更機	ng kan ci	55
 五更雞	ng kan ci	55
@@ -30580,6 +30661,7 @@ s	迡	gni
 五架屋	ng ko on	55
 五架屋	ng ko oq	55
 五穀	ng koq
+五梗	ng kuan
 魚骨頭	ng kuaq deu
 五兩	ng lian
 魚鱗	ng lin
@@ -31343,6 +31425,7 @@ s	迡	gni
 撥渠	paq ji
 八張	paq jian
 百襉裙	paq kae jiun	55
+八梗	paq kan
 百家衣	paq ko i	55
 百家鎖	paq ko sou	55
 伯公	paq kon
@@ -31351,6 +31434,7 @@ s	迡	gni
 八哥	paq kou
 百果糕	paq kou kau
 八哥湯果	paq kou thaon kou
+八梗	paq kuan
 不剌	paq la
 不剌	paq laq	55
 八老大	paq lau da
@@ -31938,9 +32022,11 @@ s	迡	gni
 半張	pun jian
 半橛柱頭	pun jiuq dzyu deu
 半𥏘觀音	pun jiuq kun in	55
+半梗	pun kan
 搬嫁妝	pun ko tsaon	55
 搬嫁資衣	pun ko tsy i	55
 半個	pun kou
+半梗	pun kuan
 半路里	pun lu li	55
 搬屋	pun oq	55
 半百六十日	pun paq loq zyuq gniq
@@ -32203,6 +32289,7 @@ s	迡	gni
 生意人靠騙	san i gnin khau phi
 生意幫	san i paon	55
 生隱腳	san in ciaq
+三梗	san kan
 生㾸𤶁	san kaq lau
 生隔壁氣	san kaq piq chi	55
 省開交	san khe ciau
@@ -32210,6 +32297,7 @@ s	迡	gni
 生苦鐵鹹	san khu thiq ghae	55
 生古結鹹	san ku ciq ghae	55
 生古鐵鹹	san ku thiq ghae	55
+三梗	san kuan
 生癩頭	san la deu
 生冷	san lan
 生冷東西	san lan ton shi	55
@@ -33484,12 +33572,14 @@ s	迡	gni
 四個	sy goq
 四一	sy iq
 四張	sy jian
+四梗	sy kan
 史家墓	sy ko mou
 篩穀	sy koq	55
 篩穀⿱寨	sy koq dza	55
 四角框	sy koq khuaon	55
 篩穀⿱寨	sy koq za	55
 四個	sy kou
+四梗	sy kuan
 屍骨	sy kuaq
 四兩	sy lian
 絲流	sy lieu	55
@@ -35242,7 +35332,9 @@ s	迡	gni
 多少個	tou shiau ghoq
 多少個	tou shiau goq
 多少張	tou shiau jian
+多少梗	tou shiau kan
 多少個	tou shiau kou
+多少梗	tou shiau kuan
 多少有趣	tou shiau yeu tshyu
 多心	tou shin
 多星	tou shin
@@ -36526,12 +36618,14 @@ s	迡	gni
 做忌日羹飯	tsou ji gniq kan vae	55
 做張	tsou jian
 做勁道	tsou jin dau	55
+做梗	tsou kan
 做羹飯	tsou kan vae	55
 做客	tsou khaq
 做窠生	tsou khou sen
 做家	tsou ko	55
 做功	tsou kon
 做功德	tsou kon taq	55
+做梗	tsou kuan
 做規矩	tsou kuei ciu	55
 做官請坐	tsou kun chin zou
 做賴三	tsou la sae
@@ -39220,8 +39314,10 @@ s	迡	gni
 實貨	zyuq hou	55
 十一	zyuq iq
 十張	zyuq jian
+十梗	zyuq kan
 十塊頭	zyuq khuei deu
 十個	zyuq kou
+十梗	zyuq kuan
 入梅	zyuq mei
 入黴	zyuq mei	418
 入木	zyuq moq	55
