@@ -12,7 +12,7 @@
 
 ---
 name: wugniu_gninpou.essay
-version: "2020.12.13"
+version: "2020.12.24"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -571,7 +571,6 @@ use_preset_vocabulary: true
 下斷	gho doe
 下斷語	gho toe gniu
 下朝	gho jiau
-下本	gho pen
 下板兒	gho pae er
 下架	gho ko
 下流人士	gho lieu zyun zy
@@ -1212,6 +1211,7 @@ use_preset_vocabulary: true
 中國音樂	tson koq in yuq
 中大	tson da
 中大型	tson da yin
+中央	tson ian
 中央人民廣播電臺	tson ian zyun min kuaon pou di de
 中央國家機關	tson ian koq cia ci kuae
 中央執行委員會	tson ian ciq yin uei yu wei
@@ -5446,7 +5446,7 @@ use_preset_vocabulary: true
 出生證	tshyuq san cin
 出生證明	tshyuq san cin min
 出生證明書	tshyuq san cin min syu
-出產	tshyuq tshae	903
+出產	tshyuq tshae
 出發日	tshyuq faq gniq
 出的	tshyuq tiq
 出租人	tshyuq tsu gnin
@@ -6852,7 +6852,6 @@ use_preset_vocabulary: true
 勾肩搭背	keu ci taq pei
 勾魂攝魄	keu wen shiq phaq
 勾魂蕩魄	keu wen daon phaq
-勿出產	vaq tshyuq tshae
 勿忘	vaq vaon
 勿忘國恥	vaq vaon koq tshyu
 勿忘我	vaq vaon ngo
@@ -12115,7 +12114,6 @@ use_preset_vocabulary: true
 天乾物燥	thi ki-ke vaq sau
 天亮	thi lian
 天亮了	thi lian lei
-天亮𡀂	thi lian lei
 天人	thi zyun
 天人之分	thi zyun tsy fen
 天人之際	thi zyun tsy ci
@@ -13220,7 +13218,6 @@ use_preset_vocabulary: true
 安樂死	ei-e loq sy
 安樂窩	ei-e loq ou
 安歇吧	ei-e shiq pa
-安泊	ei-e boq
 安琪兒	ei-e ji er
 安瓦爾	ei-e ngo er
 安貧樂道	ei-e bin loq dau
@@ -13592,7 +13589,6 @@ use_preset_vocabulary: true
 宿分	soq fen
 宿務	soq vu
 宿務	soq wu-
-宿泊	soq boq
 宿願已償	soq gniu yi dzaon
 宿願得償	soq gniu taq dzaon
 寂寞歲月	jiq moq sei yuq
@@ -13735,7 +13731,6 @@ use_preset_vocabulary: true
 寧夏回族自治區	gnin gho wei dzoq zy dzyu chiu
 寧夏自治	gnin gho zy dzyu
 寧夏自治區	gnin gho zy dzyu chiu
-寧定淡泊	gnin din dae boq
 寧日	gnin zyuq
 寧死不降	gnin shi paq ghaon
 寧死不降	gnin sy paq ghaon
@@ -14210,10 +14205,14 @@ use_preset_vocabulary: true
 尼日利亞	gni zyuq li ia
 尼日爾	gni zyuq er
 尼日爾河	gni zyuq er ghou
+尼泊爾	gni boq er
 尼泊爾	gni phaq er
+尼泊爾共產黨	gni boq er gon tshae taon
 尼泊爾共產黨	gni phaq er gon tshae taon
+尼泊爾國王	gni boq er koq waon
 尼泊爾國王	gni phaq er koq waon
 尼泊爾王國	gni boq er waon koq
+尼泊爾王國	gni phaq er waon koq
 尼爾	gni er
 尼爾森	gni er sen
 尼爾遜	gni er sen
@@ -15317,7 +15316,6 @@ use_preset_vocabulary: true
 引自	yin zy
 引進人才	yin cin zyun dze
 引風吹火	yin fon tshyu hou
-弗出產	vaq tshyuq tshae	1
 弗吉尼亞	faq ciq gni ia
 弗吉尼亞州	faq ciq gni ia cieu
 弗塞奇	faq se ji
@@ -16637,7 +16635,6 @@ use_preset_vocabulary: true
 才秀人微	dze shieu zyun vi
 才華蓋世	dze wo ke syu
 才行	dze yin
-才被	dze bei
 才貫二酉	dze kun er yeu
 才高行厚	dze kau ghan gheu
 才高行潔	dze kau ghan ciq
@@ -16741,7 +16738,6 @@ use_preset_vocabulary: true
 打箍	tan khou
 打箍	tan khu
 打糖鑼兒的	tan daon lou er tiq
-打細泊	tan shi boq
 打罵教育	tan mo ciau yuq
 打羣架	tan jiun cia
 打翻了的牛奶而哭泣	tan fae laq tiq ngeu na er khoq chiq
@@ -21239,6 +21235,7 @@ use_preset_vocabulary: true
 材望	dze vaon
 村人	tshen gnin
 村生泊長	tshen sen boq cian
+村生泊長	tshen sen phaq cian
 村裏人	tshen li gnin
 村裏長	tshen li cian
 村長	tshen cian
@@ -21487,12 +21484,6 @@ use_preset_vocabulary: true
 查覺	dzo ciuq
 查覺到	dzo ciuq tau
 柬埔寨人民黨	ci phu za zyun min taon
-柯橋	khou jiau
-柯橋	kou jiau
-柯橋人	khou jiau gnin
-柯橋人	kou jiau gnin
-柯橋區	khou jiau chiu
-柯橋區	kou jiau chiu
 柯爾克孜	khou er khaq tsy
 柯爾克孜族	khou er khaq tsy dzoq
 柯爾克孜語	khou er khaq tsy gniu
@@ -22121,7 +22112,6 @@ use_preset_vocabulary: true
 歐拉	eu lha
 歐拉朱萬	eu lha tsyu vae
 歐氏幾何學	eu zy ci ghou yuq
-歐泊	eu boq
 歐洲中央銀行	eu cieu tson ian gnin ghaon
 歐洲人	eu cieu gnin
 歐洲國家	eu cieu koq cia
@@ -23360,7 +23350,7 @@ use_preset_vocabulary: true
 河南師範大學	ghou nei-nae sy vae da ghoq
 河南蒙古族自治縣	ghou nei-nae mon ku dzoq zy dzyu yu
 河口瑤族自治縣	ghou kheu yau dzoq zy dzyu yu
-河泊所	ghou boq so
+河泊所	ghou phaq so
 河洛人	ghou loq gnin
 河流匯集	ghou lieu wei jiq
 河涸海乾	ghou hoq he ki-ke
@@ -23400,7 +23390,6 @@ use_preset_vocabulary: true
 治死	dzyu sy
 治病救人	dzyu bin cieu gnin
 治療小兒	dzyu liau shiau er
-沽泊	ku boq
 沾了	ci laq
 沾染世俗	ci gni syu dzoq
 沾染習氣	ci gni zhiq chi
@@ -23709,7 +23698,6 @@ use_preset_vocabulary: true
 浩氣長存	ghau chi jian dzen
 浪兒門	laon er men
 浪樣兒	laon yan er
-浪泊	laon boq
 浪花四濺	laon huo sy ci
 浪蕩乾坤	laon daon ji khuen
 浪費時間	laon fi zy ci
@@ -23906,10 +23894,6 @@ use_preset_vocabulary: true
 淡忘	dae vaon
 淡水人	dae syu gnin
 淡江大學	dae kaon da ghoq
-淡泊	dae boq
-淡泊名利	dae boq min li
-淡泊寡味	dae boq kua vi
-淡泊明志	dae boq min tsy
 淪沒	len maq
 淫娃	yin ua
 淫樂	yin loq
@@ -24226,7 +24210,6 @@ use_preset_vocabulary: true
 漂了	phiau laq
 漂亮女人	phiau lian gniu gnin
 漂兒	phiau er
-漂泊	phiau boq
 漂行	phiau yin
 漂零蓬斷	phiau lin bon doe
 漆了	chiq laq
@@ -24335,9 +24318,6 @@ use_preset_vocabulary: true
 澳洲人	au cieu gnin
 澳門人	au men gnin
 澳門特別行政區	au men daq biq yin cin chiu
-澹泊	dae boq
-澹泊寡欲	dae boq kua yuq
-澹泊寡欲	dae boq kuo yuq
 激光二極管	ciq kuaon er jiq kun
 激動人心	ciq don zyun shin
 激發學生	ciq faq ghoq san
@@ -24376,7 +24356,6 @@ use_preset_vocabulary: true
 灌漿兒	kun cian er
 灌精兒	kun cin er
 灑淚	sa lei
-灣泊	uae boq
 火上加油	hou zaon ko yeu
 火了	hou laq
 火了	hou lei
@@ -27981,7 +27960,6 @@ use_preset_vocabulary: true
 積極分子	ciq jiq ven tsy
 積極參加	ciq jiq tshae ko
 積極參與	ciq jiq tshae yu
-積泊	ciq boq
 穎慧過人	yin wei kou gnin
 穗兒	zei er
 穗狀	zei dzaon
@@ -29205,6 +29183,7 @@ use_preset_vocabulary: true
 纔沒有	dze maq yeu
 纔沒能	dze mhaq nen
 纔派人	dze pha gnin
+纔被	dze bei
 纖人	shi gnin
 纖兒	shi er
 纖維光學	shi vi kuaon yuq
@@ -29311,7 +29290,6 @@ use_preset_vocabulary: true
 羈泊	ci boq
 羊兒風	yan er fon
 羊毛狀	yan mau dzaon
-羊肚	yan tu
 羊肚蕈	yan tu jin
 美人兒	mei gnin er
 美人燈兒	mei gnin ten er
@@ -31727,7 +31705,6 @@ use_preset_vocabulary: true
 萊齊耶三世	le ji ya sae syu
 萌兒	men er
 萌生	men sen
-萍泊	bin boq
 萬世	vae syu
 萬世一時	vae syu iq zy
 萬世師表	vae syu sy piau
@@ -31807,7 +31784,6 @@ use_preset_vocabulary: true
 落後國家	loq gheu koq cia
 落日	loq zyuq
 落日餘暉	loq zyuq yu huei
-落泊	loq boq
 落淚	loq lei
 落禮兒	loq li er
 落花生	loq huo sen
@@ -32087,6 +32063,7 @@ use_preset_vocabulary: true
 蘇格蘭摺耳貓	su kaq lae ciq er mae
 蘇格蘭摺耳貓	su kaq lae ciq er mau
 蘇泊爾	su boq er
+蘇泊爾	su phaq er
 蘇洵	su syun
 蘇爾	su er
 蘇爾坦	su er thae
@@ -33509,7 +33486,6 @@ use_preset_vocabulary: true
 評度	bin doq
 評斷	bin toe
 評斷是非	bin toe zy fi
-評泊	bin boq
 評獎人	bin cian gnin
 評論家	bin len cia
 評選人	bin soe gnin
@@ -35307,7 +35283,6 @@ use_preset_vocabulary: true
 送信人	son shin gnin
 送報人	son pau gnin
 送報生	son pau san
-送產	son tshae
 送禮大方	son li da faon
 送行	son yin
 送行人	son yin gnin
@@ -38153,7 +38128,7 @@ use_preset_vocabulary: true
 阿芙樂爾號	a vu loq er ghau
 阿芙羅狄忒	a vu lou diq thaq
 阿芙蓉	a vu yon
-阿芝特剋人	a tsy daq khaq gnin
+阿芝特克人	a tsy daq khaq gnin
 阿花	aq huo
 阿茲海默	a tsy he maq
 阿茲海默氏症	a tsy he maq zy cin
@@ -39386,7 +39361,6 @@ use_preset_vocabulary: true
 颳了	kuaq laq
 颳去	kuaq chi
 颳大風	kuaq dou fon
-飄泊	phiau boq
 飄灑自如	phiau sa zy zyu
 飄然出世	phiau zoe tshyuq syu
 飄蓬斷梗	phiau bon doe kan
@@ -39663,7 +39637,6 @@ use_preset_vocabulary: true
 馬歇爾	mo shiq er
 馬歇爾計劃	mo shiq er ci waq
 馬歇爾計畫	mo shiq er ci waq
-馬泊六	mo boq loq
 馬爾	mo er
 馬爾他	mo er tha
 馬爾他人	mo er tha gnin
@@ -40189,7 +40162,6 @@ use_preset_vocabulary: true
 鳳尾竹	von vi tsoq
 鳳尾草	von vi tshau
 鳳梨乾	von li ki-ke
-鳳泊鸞飄	von boq loe phiau
 鳴人	min zyun
 鳴雁	min yi
 鴇兒	pau er
@@ -40268,7 +40240,6 @@ use_preset_vocabulary: true
 鸛鳥	kun gniau
 鸞翔鳳集	loe jian von jiq
 鸞膠續斷	loe ciau dzoq doe
-鸞飄鳳泊	loe phiau von boq
 鹵人	lu gnin
 鹹味	ghae mi
 鹹津津兒	ghae cin cin er

@@ -15,7 +15,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2020.12.15"
+version: "2020.12.27"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -440,7 +440,7 @@ import_tables:
 邾	tsyu
 茱	tsyu
 洙	tsyu
-玍	tsyu
+玍	tsyu	0%
 知	tsyu
 蜘	tsyu
 智	tsyu
@@ -8922,7 +8922,7 @@ s	迡	gni
 虻	man	0%
 蝱	man	0%
 孟	man
-厖	man	1%
+櫻	man	0%
 𩜠	mhan
 𩛎	mhan
 飯	mhan	0%
@@ -11477,6 +11477,7 @@ s	迡	gni
 葚	zhin
 夝	zhin
 枔	zhin
+贏	zhin	1%
 甚	zhin
 凈	zhin
 淨	zhin
@@ -12056,6 +12057,7 @@ s	迡	gni
 獴	mon
 瞢	mon
 懵	mon
+明	mon	0%
 曚	mon
 夢	mon
 鄸	mon
@@ -14092,6 +14094,7 @@ s	迡	gni
 諑	tsoq
 椓	tsoq
 卓	tsoq
+䓬	tsoq
 倬	tsoq
 踔	tsoq
 桌	tsoq
@@ -17532,6 +17535,7 @@ s	迡	gni
 𨸂	pan
 鹏	ban
 锰	man
+樱	man
 带	tan
 铴	than
 争	tsan
@@ -18073,6 +18077,7 @@ s	迡	gni
 荨	zhin
 鲟	zhin
 𫊻	zhin
+赢	zhin
 净	zhin
 静	zhin
 饪	zhin
@@ -21017,8 +21022,8 @@ s	迡	gni
 蒸籠	cin lon
 蒸籠頭	cin lon deu	55
 蒸籠格	cin lon kaq	55
-金厖	cin man	55
-金孟	cin man	55
+金孟	cin man
+金櫻	cin man	55
 精明	cin min
 證明人	cin min gnin
 金魚	cin ng
@@ -22813,6 +22818,7 @@ s	迡	gni
 番薯癟	fae zyu piq	55
 番薯屑	fae zyu shiq	55
 番薯錫	fae zyu shiq	55
+番薯湯果	fae zyu thaon kou
 番薯糊剌	fae zyu wu la	55
 番薯糊辣	fae zyu wu laq	55
 方矮凳	faon a ten	55
@@ -23525,6 +23531,7 @@ s	迡	gni
 下種	gho tson
 下作	gho tsoq
 下作貨	gho tsoq hou	55
+下作坯	gho tsoq phei
 下作坯子	gho tsoq phei tsy	55
 夏至	gho tsy
 下飯	gho vae	55
@@ -27585,6 +27592,7 @@ s	迡	gni
 裹餛飩	kou wen den	55
 過戶	kou wu
 過夜	kou ya
+過油飽	kou yeu pau
 過雲雨	kou yun yu
 過晌	kou zaon
 過謝	kou zhia
@@ -28882,6 +28890,7 @@ s	迡	gni
 弄賺	lon dzae
 弄仿	lon faon	55
 弄發弄發	lon faq lon faq	55
+弄下飯	lon gho vae
 龍蝦	lon huo
 礱糠	lon khaon
 籠褲	lon khu	55
@@ -29049,8 +29058,10 @@ s	迡	gni
 落雨淋勿着	loq yu lin vaq zoq
 落雨淋弗着	loq yu lin vaq zoq	1
 落雨落雪	loq yu loq syuq
+落雨明朝	loq yu men ciau
 落雨明朝	loq yu mi ciau
 落雨明朝	loq yu min ciau
+落雨明朝	loq yu mon ciau
 落雨天家	loq yu thi ko	578
 落月	loq yuq
 六月日頭	loq yuq gniq deu
@@ -29154,6 +29165,7 @@ s	迡	gni
 買田買水路	ma di ma syu lu
 馬桶箱	ma don shian	55
 買着買	ma dzoq ma	55
+買下飯	ma gho vae
 買海蜒放生	ma he yi faon san
 埋怨	ma iu
 賣爛泥膏藥	ma lae gni kau yaq
@@ -30276,6 +30288,16 @@ s	迡	gni
 麻舌頭	mo zhiq deu	55
 𩞁餈	mo zy	55
 𩞁餈	mo zyu	55
+明朝	mon ciau	55
+明朝晝過	mon ciau cieu kou
+明朝下半日	mon ciau gho pun gniq
+明朝日裏	mon ciau gniq li
+明朝天亮	mon ciau thi gnian
+明朝天亮	mon ciau thiq gnian
+明朝子	mon ciau tsy	55
+明朝夜裏	mon ciau ya li
+明朝夜到	mon ciau ya tau
+明朝上半日	mon ciau zaon pun gniq
 懵懂	mon ton
 懵懂先生	mon ton shi san
 木器店	moq chi ti
@@ -30606,6 +30628,7 @@ s	迡	gni
 能使	nen sy	578
 能使買蒲薺	nen sy ma bu ji
 能使買金孟	nen sy ma cin man
+能使買金櫻	nen sy ma cin man	1
 能使買甘蔗	nen sy ma ki-ke tso
 能使買廣橘	nen sy ma kuaon ciuq
 能使買梨頭	nen sy ma li deu
@@ -30728,6 +30751,7 @@ s	迡	gni
 五月端午晴	ng yuq ton ng zhin
 五月煮蒲羹	ng yuq tsy bu kan
 五月石榴結金孟	ng yuq zaq lieu ciq cin man
+五月石榴結金櫻	ng yuq zaq lieu ciq cin man	1
 五事	ng zy	55
 五十	ng zyuq
 五十一	ng zyuq iq
@@ -34546,6 +34570,7 @@ s	迡	gni
 褪殼	then khoq	55
 褪褲阿大	then khu aq dou	55
 褪褲阿舅	then khu aq jieu
+褪落	then loq
 偷爬	theu bo
 偷伴	theu bun	55
 偷盤	theu bun	55
@@ -36849,7 +36874,7 @@ s	迡	gni
 嘴巴嘟起	tsyu po tu chi	55
 嘴巴環	tsyu po wae
 侏掃帚	tsyu sau cieu	55
-玍掃帚	tsyu sau cieu	55
+玍掃帚	tsyu sau cieu
 豬心	tsyu shin
 豬血	tsyu shiuq
 豬舍	tsyu so
