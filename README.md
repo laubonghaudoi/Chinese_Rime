@@ -112,8 +112,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共 110 個方案）
-<br/>Full list of collected schemas (110 schemas in total)</h3>
+<h3>方案列表（共 111 個方案）
+<br/>Full list of collected schemas (111 schemas in total)</h3>
 
 
 <ul>
@@ -425,6 +425,12 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
             <li>閩南語廈台腔專用版 - <code>blg_etai</code></li>
           </ul>
         </li>
+        <li>
+          台語方音輸入法 ℞ <code>YuRen-tw/rime-taigi-tps</code>
+          <ul>
+            <li>台語方音 - <code>taigi_tps</code></li>
+          </ul>
+        </li>
         <li>閩倂輸入灋 - <code>mp</code></li>
         <li>
           潮语拼音输入法 ℞ <code>kahaani/dieghv</code>
@@ -627,8 +633,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
 </ul>
 
-<h3>配方列表（共 42 個配方）
-<br/>List of recipes (42 recipes in total)</h3>
+<h3>配方列表（共 43 個配方）
+<br/>List of recipes (43 recipes in total)</h3>
 
 <ul>
   <li>
@@ -775,6 +781,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
       <ul>
         <li>閩南語輸入方案 ℞ <code>a-thok/rime-hokkien</code></li>
         <li>閩南語拼音輸入方案 ℞ <code>LimTo/etaiBLG</code></li>
+        <li>台語方音輸入法 ℞ <code>YuRen-tw/rime-taigi-tps</code></li>
         <li>潮语拼音输入法 ℞ <code>kahaani/dieghv</code></li>
         <li>潮汕话輸入方案 ℞ <code>femkerr/dieghe</code></li>
       </ul>
