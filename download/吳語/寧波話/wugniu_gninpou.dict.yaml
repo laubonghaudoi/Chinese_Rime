@@ -15,7 +15,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2021.01.05"
+version: "2021.01.12"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -10096,7 +10096,7 @@ s	迡	gni
 緩	wun
 嵈	wun
 鰀	wun
-援	wun	5%
+援	wun	10%
 換	wun
 逭	wun
 漶	wun
@@ -10520,7 +10520,6 @@ s	迡	gni
 閐	sen
 愻	sen
 潠	sen
-䚮	zen
 層	zen
 根	ken
 跟	ken
@@ -11209,6 +11208,7 @@ s	迡	gni
 仍	jin
 扔	jin
 𧘌	jin
+䚮	jin
 懲	jin
 情	jin
 秦	jin
@@ -23448,7 +23448,6 @@ s	迡	gni
 厚粥	gheu tsoq	55
 後做忌	gheu tsou ji
 厚嘴厚得	gheu tsyu gheu taq	55
-厚䚮䚮	gheu zen zen	55
 厚層層	gheu zen zen	55
 候自	gheu zhi	578
 候着	gheu zoq	55
@@ -25202,7 +25201,9 @@ s	迡	gni
 一世嘸計較	iq shi mh ci kau
 一世難熬	iq shi nae ngau
 一世湊隊嘸後還	iq shi tshei dei mh gheu wae
+一世湊頭嘸後還	iq shi tshei deu mh gheu wae
 一世湊隊嘸後還	iq shi tsheu dei mh gheu wae
+一世湊頭嘸後還	iq shi tsheu deu mh gheu wae
 一世爲人	iq shi wei gnin	55
 一手一腳	iq shieu iq ciaq	55
 抑手抑腳	iq shieu iq ciaq
@@ -26467,8 +26468,7 @@ s	迡	gni
 看三色	khi-khe sae saq	55
 看先生	khi-khe shi san
 看戲文	khi-khe shi ven
-看想	khi-khe shian	55
-看相	khi-khe shian
+看相	khi-khe shian	600
 看相先生	khi-khe shian shi san	55
 看小書	khi-khe shiau syu
 看手㬹子頭	khi-khe shieu tsan tsy deu
@@ -30666,8 +30666,7 @@ s	迡	gni
 五更	ng kan
 五梗	ng kan
 五更阿三	ng kan aq sae
-五更機	ng kan ci	55
-五更雞	ng kan ci	55
+五更雞	ng kan ci
 五更頭	ng kan dei
 五更頭	ng kan deu	55
 五更好	ng kan hau
@@ -31748,7 +31747,6 @@ s	迡	gni
 怕其	pho jiq	55
 怕渠	pho jiq	55
 怕懼	pho jiu	418
-怕權	pho jiu	55
 怕敢	pho ki-ke	55
 怕光	pho kuaon	55
 怕生	pho san
@@ -35866,6 +35864,7 @@ s	迡	gni
 菜油	tshe yeu
 菜葉爿	tshe yiq bae	55
 湊隊	tshei dei	55
+湊隊夥	tshei dei hou
 湊隊家	tshei dei ko
 湊頭	tshei deu	55
 𢶀頭毛子	tshei deu mau tsy
@@ -36052,7 +36051,6 @@ s	迡	gni
 忖坐勒	tshen zou laq
 湊巧	tsheu chiau
 湊隊	tsheu dei	55
-湊頭	tsheu dei	55
 湊隊夥	tsheu dei hou
 湊隊家	tsheu dei ko	55
 湊頭	tsheu deu	55
@@ -37153,8 +37151,7 @@ s	迡	gni
 飯窠	vae khou	55
 飯窠籮	vae khou lou
 飯黏	vae kni	55
-飯黏碎	vae kni sei	55
-飯黏糝	vae kni sei
+飯黏糝	vae kni sei	55
 煩過去	vae kou chi
 犯關	vae kuae	578
 飯瓜	vae kuo	55
@@ -38057,7 +38054,7 @@ s	迡	gni
 楊陸河頭	yan loq ghou deu
 揚麥	yan maq	55
 陽帽篷	yan mau bon	55
-羊毛厚䚮䚮	yan mau gheu zen zen
+羊毛厚層層	yan mau gheu zen zen
 陽帽戴篷	yan mau te bon	55
 羊毛出勒羊身上	yan mau tshyuq laq yan shin zaon
 楊梅	yan mei
@@ -39216,7 +39213,6 @@ s	迡	gni
 時時道道	zy zy dau dau
 豎蜻蜓	zyu chin din
 聚隊	zyu dei	578
-聚頭	zyu dei
 聚頭	zyu deu
 鋤頭	zyu deu
 鋤頭褪缺	zyu deu then chiuq
