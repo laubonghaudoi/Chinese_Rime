@@ -15,7 +15,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2021.01.12"
+version: "2021.01.23"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -10125,7 +10125,7 @@ s	迡	gni
 本	pen
 苯	pen
 撥俉	pen
-撥爾	pen
+撥爾	pen	25
 撥你	pen
 奔	pen
 犇	pen
@@ -10276,7 +10276,7 @@ s	迡	gni
 頂	ten	1%
 盹	ten
 搭俉	ten
-搭爾	ten
+搭爾	ten	25
 搭你	ten
 頓	ten
 訰	ten
@@ -12037,6 +12037,7 @@ s	迡	gni
 韸	bon
 芃	bon
 鬅	bon
+嘣	bon
 㷯	bon
 埲	bon
 蒙	mon
@@ -12165,7 +12166,8 @@ s	迡	gni
 𩍅	don
 獞	don
 佟	don
-咚	don	0%
+鼕	don
+咚	don
 彤	don
 哃	don
 犝	don
@@ -13830,6 +13832,7 @@ s	迡	gni
 𩍩	boq
 穙	boq
 瞨	boq
+噗	boq
 亳	boq
 僰	boq
 伏	boq	10%
@@ -15736,7 +15739,7 @@ s	迡	gni
 兒	er
 児	er
 唲	er
-爾	er
+爾	er	3570
 尒	er
 尓	er
 而	er
@@ -18909,7 +18912,7 @@ s	迡	gni
 餲𦤣幾糟	aq boq ci tsau	55
 阿婆	aq bou
 阿婆嘔我做人客	aq bou eu ngo tsou gnin khaq
-阿婆謳我做人客	aq bou eu ngo tsou gnin khaq
+阿婆謳我做人客	aq bou eu ngo tsou gnin khaq	1
 阿伴	aq bun	55
 押去	aq chi	55
 阿青阿黃	aq chin aq waon	418
@@ -19526,20 +19529,24 @@ s	迡	gni
 蓬頭獅	bon deu sy	55
 蓬頭獅子	bon deu sy tsy
 蓬頭活鬼	bon deu waq ciu	55
+嘣咚	bon don
 蓬蒿菜	bon hau tshe	55
 塳灰	bon huei	55
 塳塵	bon jin	55
+嘣介	bon ka
 蓬草	bon tshau
 蓬柴	bon za
 薄薄個	boq boq kou	55
-卜咚	boq don
-卜咚一跌𢲔	boq don iq tiq pae
+噗咚	boq don
+噗咚一跌𢲔	boq don iq tiq pae
 薄衣裳	boq i zaon
 薄舀舀	boq iau iau
 薄褲	boq khu
 伏勒睏	boq laq khuen	55
 匐勒睏	boq laq khuen
+噗隆咚	boq lon don
 薄落頭	boq loq deu
+噗碌獨	boq loq doq
 薄落柱	boq loq dzyu
 伏倒	boq tau
 匐倒	boq tau
@@ -20125,7 +20132,7 @@ s	迡	gni
 喫支	chioq tsyu
 喫支香菸	chioq tsyu shian i
 喫飯嘔嬉䏘	chioq vae eu shi phiq
-喫飯謳嬉䏘	chioq vae eu shi phiq
+喫飯謳嬉䏘	chioq vae eu shi phiq	1
 喫飯要過口	chioq vae iau kou kheu
 喫飯要搵鹽	chioq vae iau uen yi
 喫飯間	chioq vae kae	55
@@ -20546,7 +20553,7 @@ s	迡	gni
 腳盆	ciaq ben
 腳蹁蹁	ciaq bi bi
 腳膊絡頭	ciaq boq loq deu	55
-腳卜絡頭蹩出	ciaq boq loq deu biq tshyuq
+腳膊絡頭蹩出	ciaq boq loq deu biq tshyuq
 腳膊路頭	ciaq boq lu deu	55
 腳部絡頭	ciaq bu loq deu	55
 腳部路頭	ciaq bu lu deu	55
@@ -20707,9 +20714,8 @@ s	迡	gni
 交關重	ciau kuae dzon
 交關重要	ciau kuae dzon iau
 交關愛	ciau kuae e
-交關愛你	ciau kuae e ng
 交關愛俉	ciau kuae e ng
-交關愛爾	ciau kuae e ng
+交關愛爾	ciau kuae e ng	1
 交關愛儂	ciau kuae e nou
 交關暗	ciau kuae ei-e
 交關方便	ciau kuae faon bi
@@ -20812,9 +20818,8 @@ s	迡	gni
 交關早就	ciau kuae tsau jieu
 交關早辰光	ciau kuae tsau zyun kuaon
 交關忖	ciau kuae tshen
-交關忖你	ciau kuae tshen ng
 交關忖俉	ciau kuae tshen ng
-交關忖爾	ciau kuae tshen ng
+交關忖爾	ciau kuae tshen ng	1
 交關忖儂	ciau kuae tshen nou
 交關準	ciau kuae tsyun
 交關壞	ciau kuae ua
@@ -21995,6 +22000,7 @@ s	迡	gni
 同業公會	don gniq kon wei
 動伙	don hou	418
 動火	don hou
+咚介	don ka
 同庚	don kan
 同庚年紀	don kan gni ci	55
 瞳孔	don khon
@@ -22516,11 +22522,11 @@ s	迡	gni
 鋥骨斯亮	dzan kuaq sy lian
 鋥亮	dzan lian
 䂻俉肚裏勿得	dzan ng du li vaq taq
-䂻俉肚裏弗得	dzan ng du li vaq taq	1
+䂻俉肚裏弗得	dzan ng du li vaq taq
 䂻爾肚裏勿得	dzan ng du li vaq taq
 䂻爾肚裏弗得	dzan ng du li vaq taq	1
 䂻儂肚裏勿得	dzan nou du li vaq taq
-䂻儂肚裏弗得	dzan nou du li vaq taq	1
+䂻儂肚裏弗得	dzan nou du li vaq taq
 䂻笆洞	dzan po don	55
 盛墊	dzan ti
 藏青	dzaon chin
@@ -22557,7 +22563,7 @@ s	迡	gni
 喳喳	dzo dzo
 喳喳叫	dzo dzo ciau
 喳喳嘔	dzo dzo eu
-喳喳謳	dzo dzo eu
+喳喳謳	dzo dzo eu	1
 查查廉廉	dzo dzo li li	55
 查查問問	dzo dzo men men	55
 查查叨叨	dzo dzo tau tau
@@ -22679,7 +22685,7 @@ s	迡	gni
 庵堂	ei-e daon
 暗頭	ei-e deu	418
 暗頭裏	ei-e deu li	418
-暗笛卜朧	ei-e diq boq lon	55
+暗笛薄朧	ei-e diq boq lon	55
 暗笛薄龍	ei-e diq boq lon	55
 暗洞洞	ei-e don don	55
 安安耽耽	ei-e ei-e tae tae	55
@@ -22690,7 +22696,7 @@ s	迡	gni
 安陰陽	ei-e in yan	55
 按杖棒	ei-e jian baon	55
 暗裏墨洞	ei-e li moq don
-暗力卜朧	ei-e liq boq lon	55
+暗力薄朧	ei-e liq boq lon	55
 暗弄慫	ei-e lon son	55
 安落去	ei-e loq chi	55
 暗墨侖寸	ei-e moq len tshen	55
@@ -22699,10 +22705,8 @@ s	迡	gni
 安板子	ei-e pae tsy	55
 暗手	ei-e shieu	55
 安耽	ei-e tae	55
-安躭	ei-e tae
 暗探	ei-e thei
 暗鐵撲朧	ei-e thiq phoq lon	55
-暗鐵撲龍	ei-e thiq phoq lon	55
 暗寸寸	ei-e tshen tshen	55
 暗黢黢	ei-e tshyuq tshyuq	578
 按拄棒	ei-e tsyu baon	55
@@ -22720,22 +22724,23 @@ s	迡	gni
 謳謳渠	eu eu ji	55
 嘔其淘淘米	eu ji dau dau mi
 嘔渠淘淘米	eu ji dau dau mi
-謳其淘淘米	eu ji dau dau mi
-謳渠淘淘米	eu ji dau dau mi
+謳其淘淘米	eu ji dau dau mi	1
+謳渠淘淘米	eu ji dau dau mi	1
 嘔其一聲	eu ji iq shin
 嘔渠一聲	eu ji iq shin
-謳其一聲	eu ji iq shin
-謳渠一聲	eu ji iq shin
+謳其一聲	eu ji iq shin	1
+謳渠一聲	eu ji iq shin	1
 嘔其倒痰瓶	eu ji tau dae bin
 嘔渠倒痰瓶	eu ji tau dae bin
-謳其倒痰瓶	eu ji tau dae bin
-謳渠倒痰瓶	eu ji tau dae bin
+謳其倒痰瓶	eu ji tau dae bin	1
+謳渠倒痰瓶	eu ji tau dae bin	1
 甌江片	eu kaon phi
 嘔過去	eu kou chi
-謳過去	eu kou chi
+謳過去	eu kou chi	1
 嘔勒應	eu laq in
 謳勒應	eu laq in	55
-謳勒可憐	eu laq khou li
+嘔勒可憐	eu laq khou li
+謳勒可憐	eu laq khou li	1
 傴勒仔	eu laq tsy	55
 嘔俉着力了	eu ng jiaq liq lei
 嘔俉着力𡀂	eu ng jiaq liq lei
@@ -22743,11 +22748,11 @@ s	迡	gni
 嘔爾着力𡀂	eu ng jiaq liq lei
 謳俉着力了	eu ng jiaq liq lei
 謳俉着力𡀂	eu ng jiaq liq lei
-謳爾着力了	eu ng jiaq liq lei
+謳爾着力了	eu ng jiaq liq lei	1
 謳爾着力𡀂	eu ng jiaq liq lei
 嘔俉疙瘩𡀂	eu ng kaq taq lei
 嘔爾疙瘩了	eu ng kaq taq lei
-謳俉疙瘩了	eu ng kaq taq lei
+謳俉疙瘩了	eu ng kaq taq lei	1
 謳俉疙瘩𡀂	eu ng kaq taq lei
 嘔儂着力了	eu nou jiaq liq lei
 嘔儂着力𡀂	eu nou jiaq liq lei
@@ -22757,7 +22762,8 @@ s	迡	gni
 嘔儂疙瘩𡀂	eu nou kaq taq lei
 謳儂疙瘩了	eu nou kaq taq lei
 謳儂疙瘩𡀂	eu nou kaq taq lei
-謳煞可憐	eu saq khou li
+嘔煞可憐	eu saq khou li
+謳煞可憐	eu saq khou li	1
 傴倒	eu tau	578
 傴倒爬起	eu tau bo chi	55
 傴倒拜	eu tau pa
@@ -22765,7 +22771,7 @@ s	迡	gni
 傴的	eu tiq	55
 傴仔	eu tsy	55
 嘔勿應	eu vaq in
-嘔弗應	eu vaq in	1
+嘔弗應	eu vaq in
 謳勿應	eu vaq in
 謳弗應	eu vaq in	55
 嘔活靈	eu waq lin
@@ -24152,8 +24158,10 @@ s	迡	gni
 跫跫來	gon gon le
 跫跫奔到戲文場	gon gon pen tau shi ven jian
 共總	gon tson
-個個郎	goq goq laon	55
-個個𧮙	goq goq zoq
+嗰嗰郎	goq goq laon	55
+嗰嗰𧮙	goq goq zoq
+嗰隆咚	goq lon don
+嗰碌獨	goq loq doq
 咕咕叨叨	gu gu tau tau
 咕咕忖忖	gu gu tshen tshen
 咕咕注	gu gu tsyu
@@ -24814,10 +24822,10 @@ s	迡	gni
 腰骨的軟	iau kuaq tiq gniu
 要俉着力了	iau ng jiaq liq lei
 要俉着力𡀂	iau ng jiaq liq lei
-要爾着力了	iau ng jiaq liq lei
+要爾着力了	iau ng jiaq liq lei	1
 要爾着力𡀂	iau ng jiaq liq lei
 要俉疙瘩𡀂	iau ng kaq taq lei
-要爾疙瘩了	iau ng kaq taq lei
+要爾疙瘩了	iau ng kaq taq lei	1
 要儂着力了	iau nou jiaq liq lei
 要儂着力𡀂	iau nou jiaq liq lei
 要儂疙瘩了	iau nou kaq taq lei
@@ -25466,7 +25474,7 @@ s	迡	gni
 丈姆	jian m	418
 丈姆孃	jian m gnian	418
 丈姆一聲嘔	jian m iq shin eu
-丈姆一聲謳	jian m iq shin eu
+丈姆一聲謳	jian m iq shin eu	1
 丈姆家	jian m ko	418
 長孟孟	jian ma ma
 弶貓	jian mae	55
@@ -26437,13 +26445,13 @@ s	迡	gni
 看張老師難爲情	khi-khe cian lau sy nae wei jin
 看張東西樣樣要	khi-khe cian ton shi yan yan iau
 看張黃狗嘔外公	khi-khe cian waon keu eu nga kon
-看張黃狗謳外公	khi-khe cian waon keu eu nga kon
+看張黃狗謳外公	khi-khe cian waon keu eu nga kon	1
 看張黃狗嘔外公	khi-khe cian waon ki-ke eu nga kon
-看張黃狗謳外公	khi-khe cian waon ki-ke eu nga kon
+看張黃狗謳外公	khi-khe cian waon ki-ke eu nga kon	1
 看張黃狗嘔外公	khi-khe cian wu keu eu nga kon
-看張黃狗謳外公	khi-khe cian wu keu eu nga kon
+看張黃狗謳外公	khi-khe cian wu keu eu nga kon	1
 看張黃狗嘔外公	khi-khe cian wu ki-ke eu nga kon
-看張黃狗謳外公	khi-khe cian wu ki-ke eu nga kon
+看張黃狗謳外公	khi-khe cian wu ki-ke eu nga kon	1
 看頭	khi-khe deu
 看翻	khi-khe fae	55
 看風使船	khi-khe fon sy zoe	55
@@ -26870,7 +26878,7 @@ s	迡	gni
 該炷香	kiq dzyu shian
 該炷墳	kiq dzyu ven
 該嘔	kiq eu
-該謳	kiq eu
+該謳	kiq eu	1
 該番	kiq fae
 該方	kiq faon
 該方面	kiq faon mi
@@ -27373,7 +27381,7 @@ s	迡	gni
 該是其	kiq zy ji
 該是渠	kiq zy ji
 該是俉	kiq zy ng
-該是爾	kiq zy ng
+該是爾	kiq zy ng	1
 該是我	kiq zy ngo
 該是儂	kiq zy nou
 該事體	kiq zy thi
@@ -28193,7 +28201,7 @@ s	迡	gni
 老價鈿	lau ko di	55
 老公	lau kon
 老公嘔我拗腰骨	lau kon eu ngo au iau kuaq
-老公謳我拗腰骨	lau kon eu ngo au iau kuaq
+老公謳我拗腰骨	lau kon eu ngo au iau kuaq	1
 老公公	lau kon kon
 老公老婆	lau kon lau bou
 老公偷偷喫	lau kon theu theu chioq
@@ -28207,8 +28215,7 @@ s	迡	gni
 老菱	lau lin	55
 老門檻	lau men khae	55
 老麻將	lau mo cian	55
-老木朧懂	lau moq lon ton	55
-老木龍東	lau moq lon ton	55
+老木儱倲	lau moq lon ton	55
 老木躘踵	lau moq lon tshon	55
 老呆大	lau nge dou
 老鴉	lau o
@@ -30647,10 +30654,10 @@ s	迡	gni
 魚交孳	ng gau tsy
 五號	ng ghau
 五號牆門	ng ghau zhian men
-俉個	ng ghoq	578
+俉個	ng ghoq
 爾個	ng ghoq	578
 五二	ng gni
-俉個	ng goq	578
+俉個	ng goq
 爾個	ng goq	578
 五嚇喀嘞	ng haq khaq laq
 五海大碗	ng he da un	55
@@ -30685,22 +30692,22 @@ s	迡	gni
 五六	ng loq
 魚籮	ng lou	55
 魚滷	ng lu
-俉倷	ng naq	578
-爾倷	ng naq	418
-俉倷個	ng naq ghoq	578
-爾倷個	ng naq ghoq	578
-俉倷個	ng naq goq	55
+俉倷	ng naq
+爾倷	ng naq	578
+俉倷個	ng naq ghoq
+爾倷個	ng naq ghoq	55
+俉倷個	ng naq goq
 爾倷個	ng naq goq	55
 五五	ng ng
 兒囡	ng no	418
 兒囡上腰	ng no zaon iau
 兒囡	ng noe	418
 兒囡上腰	ng noe zaon iau
-俉儂	ng nou	55
+俉儂	ng nou
 爾儂	ng nou	55
-俉儂個	ng nou ghoq	55
+俉儂個	ng nou ghoq
 爾儂個	ng nou ghoq	55
-俉儂個	ng nou goq	55
+俉儂個	ng nou goq
 爾儂個	ng nou goq	55
 五八	ng paq
 魚泡泡	ng phau phau	418
@@ -30942,8 +30949,8 @@ s	迡	gni
 呆古古	nge ku ku	55
 呆臉呆得	nge li nge taq	55
 呆裏呆得	nge li nge taq
-呆剝龍東	nge poq lon ton	55
-呆剝𢙱倲	nge poq lon ton	55
+呆不愣敦	nge paq len ten	55
+呆剝儱倲	nge poq lon ton	55
 呆剝剝	nge poq poq	55
 呆性性	nge shin shin	55
 呆頓頓	nge ten ten	55
@@ -31462,9 +31469,8 @@ s	迡	gni
 百枚	paq mei
 八面玲瓏	paq mi lin lon
 八五	paq ng
-撥你	paq ng
 撥俉	paq ng
-撥爾	paq ng
+撥爾	paq ng	1
 撥我	paq ngo
 撥儂	paq nou
 伯伯	paq pan
@@ -31815,9 +31821,9 @@ s	迡	gni
 邊門	pi men
 鯿魚	pi ng
 比俉勒過	pi ng laq kou
-比爾勒過	pi ng laq kou
+比爾勒過	pi ng laq kou	1
 比俉勿過	pi ng vaq kou
-比俉弗過	pi ng vaq kou	1
+比俉弗過	pi ng vaq kou
 比爾勿過	pi ng vaq kou
 比爾弗過	pi ng vaq kou	1
 比我勒過	pi ngo laq kou
@@ -32194,8 +32200,7 @@ s	迡	gni
 三百二	sae paq gni	55
 三百一	sae paq iq	55
 三百兩	sae paq lian	55
-三八兩市	sae paq lian zy
-三八兩時	sae paq lian zy	55
+三不兩時	sae paq lian zy	55
 三百六	sae paq loq	55
 三百六十行	sae paq loq zyuq ghaon
 三百五	sae paq ng	55
@@ -32203,7 +32208,6 @@ s	迡	gni
 三百三	sae paq sae	55
 三百四	sae paq sy	55
 三不時	sae paq zy	55
-三八時	sae paq zy	55
 三百十	sae paq zyuq	55
 三包頭	sae pau deu
 山坡	sae phou
@@ -32272,7 +32276,7 @@ s	迡	gni
 三月三	sae yuq sae
 三層樓翻落	sae zen leu fae loq
 山前頭	sae zhi deu	55
-三時八節	sae zy paq ciq	55
+三時不節	sae zy paq ciq	55
 杉樹	sae zyu
 三十	sae zyuq
 三十年夜	sae zyuq gni ya	55
@@ -32405,9 +32409,8 @@ s	迡	gni
 雙旋	saon zoe	55
 喪事	saon zy
 桑樹	saon zyu
-澀勃勃	saq baq baq
-澀𦤣幾糟	saq baq ci tsau
-溼𦤣幾糟	saq boq ci tsau	55
+澀𦤣𦤣	saq baq baq
+澀𦤣幾糟	saq baq ci tsau	55
 煞縛	saq bou	55
 煞氣蓬鬆	saq chi bon son
 煞清爽	saq chin saon	578
@@ -32419,10 +32422,8 @@ s	迡	gni
 塞銅鈿	saq don di	55
 塞暗亮頭	saq ei-e lian deu	55
 塞暗亮錢	saq ei-e lian ji
-溼人	saq gnin
 煞人	saq gnin	55
 煞格	saq kaq	55
-溼格格	saq kaq kaq	55
 澀格格	saq kaq kaq	55
 煞克	saq khaq
 澀肯頭	saq khen deu	55
@@ -32488,7 +32489,6 @@ s	迡	gni
 梢頭	sau deu
 燥地鴨	sau di ae	55
 掃地壤	sau di gnian
-燥地螞蝗	sau di mo waon	55
 燥地螞蟥	sau di mo waon	55
 掃地垟	sau di yan
 燥大糊	sau dou wu
@@ -33221,7 +33221,7 @@ s	迡	gni
 溼氣	shiq chi
 歇晝	shiq cieu
 雪茄菸	shiq ga i
-吸人	shiq gnin	55
+溼人	shiq gnin	55
 息肉	shiq gnioq
 瘜肉	shiq gnioq	55
 歇一歇	shiq iq shiq	55
@@ -33239,7 +33239,6 @@ s	迡	gni
 溼溚溚	shiq taq taq
 吸鐵石	shiq thiq zaq
 㽺倲倲	shiq ton ton	55
-㽺東東	shiq ton ton	55
 溼扎扎	shiq tsaq tsaq	55
 溼漬漬	shiq tsaq tsaq	55
 歇作	shiq tsoq	55
@@ -33294,11 +33293,11 @@ s	迡	gni
 啥人去	so gnin chi
 啥人清爽	so gnin chin saon
 啥人嘔	so gnin eu
-啥人謳	so gnin eu
+啥人謳	so gnin eu	1
 啥人嘔俉	so gnin eu ng
 啥人嘔爾	so gnin eu ng
 啥人謳俉	so gnin eu ng
-啥人謳爾	so gnin eu ng
+啥人謳爾	so gnin eu ng	1
 啥人嘔儂	so gnin eu nou
 啥人謳儂	so gnin eu nou
 啥人啊	so gnin gha
@@ -33428,11 +33427,11 @@ s	迡	gni
 啥人去	soq gnin chi
 啥人清爽	soq gnin chin saon
 啥人嘔	soq gnin eu
-啥人謳	soq gnin eu
+啥人謳	soq gnin eu	1
 啥人嘔俉	soq gnin eu ng
 啥人嘔爾	soq gnin eu ng
 啥人謳俉	soq gnin eu ng
-啥人謳爾	soq gnin eu ng
+啥人謳爾	soq gnin eu ng	1
 啥人嘔儂	soq gnin eu nou
 啥人謳儂	soq gnin eu nou
 啥人啊	soq gnin gha
@@ -33496,11 +33495,11 @@ s	迡	gni
 啥人去	sou gnin chi
 啥人清爽	sou gnin chin saon
 啥人嘔	sou gnin eu
-啥人謳	sou gnin eu
+啥人謳	sou gnin eu	1
 啥人嘔俉	sou gnin eu ng
 啥人嘔爾	sou gnin eu ng
 啥人謳俉	sou gnin eu ng
-啥人謳爾	sou gnin eu ng
+啥人謳爾	sou gnin eu ng	1
 啥人嘔儂	sou gnin eu nou
 啥人謳儂	sou gnin eu nou
 啥人啊	sou gnin gha
@@ -33980,9 +33979,9 @@ s	迡	gni
 打馬撥李聽	tan mo paq li thin
 打腦頭	tan nau deu
 打俉勒過	tan ng laq kou
-打爾勒過	tan ng laq kou
+打爾勒過	tan ng laq kou	1
 打俉勿過	tan ng vaq kou
-打俉弗過	tan ng vaq kou	1
+打俉弗過	tan ng vaq kou
 打爾勿過	tan ng vaq kou
 打爾弗過	tan ng vaq kou	1
 打硬嘴巴	tan ngan tsyu po	55
@@ -34126,9 +34125,8 @@ s	迡	gni
 得漫	taq mae	55
 搭脈	taq maq	55
 嗒味道	taq mi dau
-搭你	taq ng
 搭俉	taq ng
-搭爾	taq ng
+搭爾	taq ng	1
 搭我	taq ngo
 搭儂	taq nou
 搭班	taq pae
@@ -34321,7 +34319,6 @@ s	迡	gni
 鬥水	teu syu	55
 兜尿布	teu syu pu	55
 兜當中	teu taon tson	578
-鬥當中	teu taon tson	55
 抖抖卵脬	teu teu loe phau
 兜底	teu ti
 兜底兜面	teu ti teu mi
@@ -35653,7 +35650,7 @@ s	迡	gni
 撮着撮	tshaq dzoq tshaq	55
 撮着自	tshaq dzoq zhi
 漆暗	tshaq ei-e	55
-漆暗卜朧	tshaq ei-e boq lon	55
+漆暗薄朧	tshaq ei-e boq lon	55
 漆暗墨朧	tshaq ei-e moq lon	55
 漆黑	tshaq haq
 漆黑泥藍	tshaq haq gni lae	55
@@ -35835,13 +35832,13 @@ s	迡	gni
 菜綠	tshe loq	55
 猜謎子	tshe mei tsy	418
 睬俉阿白哥	tshe ng aq baq kou
-睬爾阿白哥	tshe ng aq baq kou
+睬爾阿白哥	tshe ng aq baq kou	1
 睬俉瞎子	tshe ng haq tsy
-睬爾瞎子	tshe ng haq tsy
+睬爾瞎子	tshe ng haq tsy	1
 睬俉瞎子老白眼	tshe ng haq tsy lau baq ngae
-睬爾瞎子老白眼	tshe ng haq tsy lau baq ngae
+睬爾瞎子老白眼	tshe ng haq tsy lau baq ngae	1
 睬俉老白眼	tshe ng lau baq ngae
-睬爾老白眼	tshe ng lau baq ngae
+睬爾老白眼	tshe ng lau baq ngae	1
 睬我阿白哥	tshe ngo aq baq kou
 睬我瞎子	tshe ngo haq tsy
 睬我瞎子老白眼	tshe ngo haq tsy lau baq ngae
@@ -35959,12 +35956,10 @@ s	迡	gni
 忖嬲和	tshen na ghou
 忖嬲和	tshen na ngou
 忖嬲和	tshen na wu
-忖你	tshen ng
 忖俉	tshen ng
-忖爾	tshen ng
-忖你了	tshen ng lei
+忖爾	tshen ng	1
 忖俉了	tshen ng lei
-忖爾了	tshen ng lei
+忖爾了	tshen ng lei	1
 忖儂	tshen nou
 忖儂了	tshen nou lei
 忖屋裏	tshen oq li
@@ -37515,12 +37510,12 @@ s	迡	gni
 頑僧和尚	wae sen ghou zaon
 環天倒地	wae thi tau di	55
 環天倒地來該嘔	wae thi tau di le ke eu
-環天倒地來該謳	wae thi tau di le ke eu
+環天倒地來該謳	wae thi tau di le ke eu	1
 還轉	wae tsoe	55
 環嘴	wae tsyu	55
 環環	wae wae
 環環嘔	wae wae eu
-環環謳	wae wae eu
+環環謳	wae wae eu	1
 環環哭	wae wae khoq
 環環嘶	wae wae shi
 環環𧮙	wae wae zoq
@@ -38787,7 +38782,7 @@ s	迡	gni
 罪過不剌	zei kou paq laq	418
 隨路	zei lu	55
 隨面	zei mi	55
-隨俉咋	zei ng dza	55
+隨俉咋	zei ng dza
 隨爾咋	zei ng dza	418
 隨伯嚭	zei paq phi	55
 隨手	zei shieu
@@ -38990,9 +38985,8 @@ s	迡	gni
 尋門路	zhin men lu
 尋面子	zhin mi tsy
 尋麻煩	zhin mo vae
-尋你	zhin ng
 尋俉	zhin ng
-尋爾	zhin ng
+尋爾	zhin ng	1
 尋眼	zhin ngae
 尋我	zhin ngo
 尋儂	zhin nou

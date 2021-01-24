@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_sonkaon
   name: 吳語（松江）
-  version: "2020.01.12"
+  version: "2021.01.18"
   author:
     - 神死慟瞑 <411325365@qq.com> (dict)
     - 雪心居士 <sihsin@live.com> (schema)
@@ -49,9 +49,10 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - script_translator             # 主翻譯器
-    - script_translator@luna_pinyin # 用於反查的luna_pinyin翻譯器
-    - table_translator@stroke       # 用於反查的stroke翻譯器
+    - script_translator              # 主翻譯器
+    - script_translator@luna_pinyin  # 用於反查的luna_pinyin翻譯器
+    - table_translator@stroke        # 用於反查的stroke翻譯器
+    - table_translator@custom_phrase # 用戶短語
   filters:
     - simplifier
     - uniquifier
@@ -132,6 +133,15 @@ stroke:
   closing_tips: 〔吳語（松江）〕
   preedit_format:
     - xlit/hspnz/一丨丿丶乙/
+
+# 副翻譯器3 用戶短語
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase # 用戶詞典名
+  db_class: stabledb       # 詞典類型爲只讀格式
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
 
 # 反查濾鏡
 reverse_lookup:
