@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_soutseu
   name: 吳語（蘇州）
-  version: "2021.01.18"
+  version: "2021.01.25"
   author:
     - 予安 <181065229@qq.com> (dict)
     - 雪心居士 <sihsin@live.com> (schema)
@@ -111,7 +111,7 @@ translator:
   dictionary: wugniu_soutseu # 調取詞典wugniu_soutseu
   prism: wugniu_soutseu      # 根據拼寫運算生成棱鏡文件wugniu_soutseu
   spelling_hints: 5          # 標註拼音
-  comment_format: &comment
+  comment_format:
     # 不顯示單字調
     - xform/\d//
 
@@ -155,7 +155,8 @@ reverse_lookup:
   tags: [luna_pinyin, stroke] # 掛在翻譯器luna_pinyin和stroke上
   overwrite_comment: true     # 覆蓋其他提示
   dictionary: wugniu_soutseu  # 反查所得爲蘇州吳拼
-  comment_format: *comment
+  comment_format:
+    __include: translator/comment_format
 
 punctuator:
   import_preset: symbols # 句讀處理器，統一從外部導入

@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_gnincieu
   name: 吳語（鄞州）
-  version: "0.6.1"
+  version: "0.6.2"
   author:
     - Electric Sheep <shinzoqchiuq@outlook.com>
   description: |
@@ -146,7 +146,7 @@ translator:
   dictionary: wugniu_gninpou # 調取詞典wugniu_gninpou
   prism: wugniu_gnincieu     # 根據拼寫運算生成棱鏡文件wugniu_gnincieu
   spelling_hints: 5          # 標註拼音
-  comment_format: &comment
+  comment_format:
     # 生成鄞州音系
     - xform/(\w*)-(\w*)/$2/
     - xform/(\by|i)u(?=n)/$1o/
@@ -196,7 +196,8 @@ reverse_lookup:
   tags: [luna_pinyin, stroke] # 掛在翻譯器luna_pinyin和stroke上
   overwrite_comment: true     # 覆蓋其他提示
   dictionary: wugniu_gninpou  # 反查所得爲寧波吳拼
-  comment_format: *comment
+  comment_format:
+    __include: translator/comment_format
 
 punctuator:
   import_preset: symbols # 句讀處理器，統一從外部導入
