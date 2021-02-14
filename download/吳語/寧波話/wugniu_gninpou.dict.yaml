@@ -15,7 +15,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2021.01.30"
+version: "2021.02.14"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -19642,6 +19642,7 @@ s	迡	gni
 去風	chi fon	55
 起風	chi fon
 氣呼大呼	chi fu da fu	55
+起戇聲	chi gaon shin
 千年藍扮	chi gni lae pae	55
 千年瓦爿會翻身	chi gni ngo bae wei fae shin
 欺軟怕惡	chi gniu pho oq	55
@@ -20685,8 +20686,6 @@ s	迡	gni
 招頭紙	ciau deu tsy	55
 招風耳朵	ciau fon gni to	55
 招風耳朵	ciau fon ng to	55
-叫花子喫鮮白蟹	ciau huo tsy chioq shi baq ha
-叫花子勿留過夜食	ciau huo tsy vaq lieu kou ya zhiq
 澆槓	ciau kaon	55
 叫哥哥	ciau kou kou	55
 招怪	ciau kua	55
@@ -22144,6 +22143,7 @@ s	迡	gni
 大花甑	dou huo tsen
 大堰	dou i
 大印	dou in
+大一圈	dou iq chiu
 大一眼	dou iq ngae	55
 大池	dou ji	55
 大池頭	dou ji deu
@@ -22312,6 +22312,7 @@ s	迡	gni
 肚才	du dze	55
 杜仲包	du dzon pau
 肚下白	du gho baq	55
+肚下門	du gho men
 肚臍眼	du ji ngae
 肚腸	du jian
 肚腸骨頭笑斷	du jian kuaq deu shiau doe
@@ -26127,6 +26128,8 @@ s	迡	gni
 絞花被	kau huo bi	55
 叫花子	kau huo tsy
 絞花子	kau huo tsy	55
+叫花子喫鮮白蟹	kau huo tsy chioq shi baq ha
+叫花子勿留過夜食	kau huo tsy vaq lieu kou ya zhiq
 叫花子弗留過夜食	kau huo tsy vaq lieu kou ya zhiq	1
 校場長𢿞𢿞	kau jian jian liau liau
 絞腸痧	kau jian so	55
@@ -28262,6 +28265,7 @@ s	迡	gni
 老套套	lau thaon thau	55
 老搨蛋	lau thaq dae	55
 老套套	lau thau thau	55
+老鐵殼	lau thiq khoq
 老土地	lau thu di	55
 老底子	lau ti tsy	55
 老早	lau tsau
@@ -30307,6 +30311,8 @@ s	迡	gni
 懵懂	mon ton
 懵懂先生	mon ton shi san
 木器店	moq chi ti
+木器店阿大	moq chi ti aq dou
+木記木記	moq ci moq ci
 墨汁	moq ciq
 木鬼	moq ciu
 木頭	moq deu
@@ -30355,6 +30361,7 @@ s	迡	gni
 摸奶奶	moq nhe nhe
 木倭樹	moq ou zyu	55
 墨筆	moq piq
+木死哥	moq shi kou
 木箱	moq shian
 木手木腳	moq shieu moq ciaq	55
 木性性	moq shin shin	578
@@ -32094,6 +32101,14 @@ s	迡	gni
 曬癟葛藤	sa piq kaq den	55
 曬曬挔挔	sa sa i i
 曬煞泥鰍和黃鱔	sa saq gni chieu ghou waon yi
+三四	sa sy
+三四個	sa sy ghoq
+三四個	sa sy goq
+三四隻	sa sy tsaq
+三四十	sa sy zyuq
+三四十個	sa sy zyuq ghoq
+三四十個	sa sy zyuq goq
+三四十隻	sa sy zyuq tsaq
 灑藥水	sa yaq syu	55
 三㢊六坐九爬爬	sae a loq zou cieu bo bo
 山嶴	sae au	55
@@ -32225,6 +32240,13 @@ s	迡	gni
 三兄四弟一條心	sae shion sy di iq diau shin
 三四	sae sy
 三四埭	sae sy da
+三四個	sae sy ghoq
+三四個	sae sy goq
+三四隻	sae sy tsaq
+三四十	sae sy zyuq
+三四十個	sae sy zyuq ghoq
+三四十個	sae sy zyuq goq
+三四十隻	sae sy zyuq tsaq
 三歲意姿看到老	sae syu i ci khi-khe tau lau
 三歲合棺材	sae syu kaq kun ze
 山水𩂢𩂢殺落來	sae syu nga nga saq loq le
@@ -32618,6 +32640,7 @@ s	迡	gni
 西瓜血血紅	shi kuo shiuq shiuq ghon
 西瓜時	shi kuo zy	55
 鮮辣粉	shi laq fen	55
+鮮荔枝	shi li ci
 稀裏吼嘍	shi li heu leu	55
 稀裏糊塗	shi li wu du
 閃龍光閃	shi lon kuaon shi	55
@@ -32655,7 +32678,6 @@ s	迡	gni
 細相	shi shian	55
 西鄉十八𡍲	shi shian zyuq paq taq
 西式頭	shi shiq deu
-稀索	shi soq	55
 鮮索	shi soq	55
 死屍	shi sy
 死屍發䨣	shi sy faq phoq
@@ -32894,6 +32916,7 @@ s	迡	gni
 小火輪	shiau hou len	55
 小貨說話	shiau hou syuq wo	55
 小花臉	shiau huo li
+小一圈	shiau iq chiu
 小腸	shiau jian
 銷場	shiau jian	55
 小腸氣	shiau jian chi	55
@@ -36753,7 +36776,7 @@ s	迡	gni
 紫絳紅	tsy cian ghon	55
 紫絳色	tsy cian saq
 紙筋	tsy cin	55
-仔潔	tsy ciq	55
+仔跡	tsy ciq	55
 紫檀	tsy dae
 紫藤	tsy den
 紙頭	tsy deu	578
