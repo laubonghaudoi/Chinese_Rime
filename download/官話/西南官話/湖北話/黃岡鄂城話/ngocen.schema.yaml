@@ -95,17 +95,17 @@ speller:
     - derive/([123456~])//#忽略声调
 
 #容錯（鍵盤類型）
-    - derive/ng/mg/
-    - derive/ng/bg/
-    - derive/en/em/
-    - derive/en/eb/
-    - derive/in/im/
-    - derive/in/ib/
-    - derive/un/um/
-    - derive/un/ub/
-    - derive/vn/vm/
-    - derive/vn/vb/
-    - derive/en/wn/
+#   - derive/ng/mg/
+#    - derive/ng/bg/
+#    - derive/en/em/
+#    - derive/en/eb/
+#    - derive/in/im/
+#    - derive/in/ib/
+#    - derive/un/um/
+#    - derive/un/ub/
+#    - derive/vn/vm/
+#    - derive/vn/vb/
+#    - derive/en/wn/
 
 translator:
   dictionary: huangxiao
