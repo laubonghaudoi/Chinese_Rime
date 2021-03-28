@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2021.03.14"
+version: "2021.03.24"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -10484,6 +10484,7 @@ import_tables:
 朾	tsan
 掙	tsan	5%
 㬹	tsan
+踭	tsan
 棦	tsan
 柼	tsan
 撑	tshan
@@ -12408,6 +12409,7 @@ import_tables:
 坪	bin
 蚲	bin
 鮃	bin
+呯	bin
 屏	bin
 塀	bin
 鵧	bin
@@ -22365,6 +22367,7 @@ import_tables:
 鐾自來火	bi zy le hou
 瓢蟲	biau dzon
 瓢羹	biau kan
+呯嘭	bin ban
 平耙	bin bo	55
 平腳	bin ciaq	55
 平腳橋	bin ciaq jiau
@@ -24881,7 +24884,6 @@ import_tables:
 大排	dou ba	55
 大排肆場	dou ba sy jian
 大彭彭	dou ban ban	55
-大膨膨	dou ban ban	55
 大佛	dou baq
 大白	dou baq
 大白靈性	dou baq lin shin	55
@@ -27053,7 +27055,6 @@ import_tables:
 海棠	he daon
 海棠糕	he daon kau	55
 海棠果	he daon kou	55
-海夫絨	he fu gnion	55
 海虎絨	he fu gnion	55
 熯下飯	he gho vae
 許願心	he gniu shin	55
@@ -28227,12 +28228,12 @@ import_tables:
 盡一頭	jin iq deu
 陳歧	jin ji
 敐敐	jin jin
-勤勤敲	jin jin khau
-敐敐挭挭	jin jin kuan kuan
-陣陣奔	jin jin pen
-勤勤奔去	jin jin pen chi
-勤勤奔來	jin jin pen le
-勤勤打	jin jin tan
+敐敐敲	jin jin khau
+敐敐梗梗	jin jin kuan kuan
+敐敐奔	jin jin pen
+敐敐奔去	jin jin pen chi
+敐敐奔來	jin jin pen le
+敐敐打	jin jin tan
 敐敐走	jin jin tseu
 陳家段	jin ko doe
 辰光	jin kuaon	578
@@ -28242,7 +28243,7 @@ import_tables:
 城裏頭	jin li deu	418
 城裏頭人	jin li deu gnin	418
 城裏人	jin li gnin
-敐零挭冷	jin lin kuan lan
+敐零梗冷	jin lin kuan lan
 勤力	jin liq
 勤力無價之寶	jin liq vu cia tsy pau
 勤力無價之寶	jin liq wu- cia tsy pau
@@ -29262,7 +29263,6 @@ import_tables:
 快活	khua wo
 筷箸籠	khuae ji lon	55
 闊剌柴	khuaq la za	55
-闊拉柴	khuaq lha za	55
 闊扁毛豆	khuaq pi mau deu	55
 塊頭	khuei deu
 塊頭大	khuei deu dou
@@ -30428,7 +30428,7 @@ import_tables:
 癩嘴小娘	la tsyu shiau gnian	55
 剌胡嚨	la wu lon
 剌柴	la za	55
-拉柴胡子	la za wu tsy
+剌柴鬍子	la za wu tsy	55
 爛鼻頭管正經人	lae baq deu kun cin cin gnin
 爛薄屙	lae baq ou
 爛薄涴	lae baq ou	55
@@ -30948,8 +30948,6 @@ import_tables:
 拉手	lha shieu
 拉車	lha tsho
 拉衛生	lha wei sen
-拉柴	lha za	55
-拉柴胡子	lha za wu tsy	55
 拉打	lhan tan	55
 誏話	lhaon wo	418
 撈把揀揀	lhau po kae kae	55
@@ -36177,7 +36175,6 @@ import_tables:
 雪白	syuq baq
 雪白粉嫩	syuq baq fen nen	55
 雪白憐	syuq baq li
-刷平	syuq bin	55
 雪平	syuq bin	55
 刷帚	syuq cieu	55
 雪淡	syuq dae	418
@@ -36564,7 +36561,6 @@ import_tables:
 搗子頭	tau tsy deu	55
 倒環楊柳	tau wae yan lieu
 倒夜	tau ya	55
-倒夜笨	tau ya ben
 倒爺笨	tau ya ben	55
 倒陽	tau yan	55
 倒運	tau yun
@@ -38514,7 +38510,6 @@ import_tables:
 初二十六大水頭	tshu gni zyuq loq dou syu deu
 粗糠	tshu khaon
 粗剌柴	tshu la za	55
-粗拉柴	tshu la za	55
 初外	tshu nga	55
 初八廿三當小水	tshu paq ne-gnie sae taon shiau syu
 粗坯	tshu phei	55
@@ -39244,13 +39239,13 @@ import_tables:
 捂雪	u syuq	55
 熓敦敦	u ten ten	55
 熓頓頓	u ten ten	55
-塢湯	u thaon	55
-塢態	u the	418
-塢退	u thei
+烏湯	u thaon	55
+烏態	u the	418
+烏退	u thei
 烏早天亮	u tsau thi gnian
 烏早天亮	u tsau thiq gnian	55
-塢采	u tshe	418
-塢處	u tshyu	55
+烏采	u tshe	418
+烏處	u tshyu	55
 焐粥甏	u tsoq ban
 椅子	u tsy
 烏子	u tsy	55
@@ -40243,13 +40238,9 @@ import_tables:
 楊梅時	yan mei zy	55
 羊尾筍	yan mi syun	55
 癢麻嘍嗖	yan mo leu seu	55
-癢麻嘍搜	yan mo leu seu	55
 癢麻色嘍	yan mo saq leu	55
-癢木樓颼	yan moq leu seu	55
-癢麻嘍嗖	yan moq leu seu	55
-癢麻嘍搜	yan moq leu seu	55
-癢木色嘍	yan moq saq leu
-癢麻色嘍	yan moq saq leu	55
+癢木嘍嗖	yan moq leu seu	55
+癢木色嘍	yan moq saq leu	55
 洋芋艿	yan n na	55
 洋瓦	yan ngo	55
 洋囡囡	yan noe noe
