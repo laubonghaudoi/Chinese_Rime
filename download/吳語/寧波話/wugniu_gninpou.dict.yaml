@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2021.04.02"
+version: "2021.04.10"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -23325,8 +23325,8 @@ import_tables:
 借因頭	cia in deu	55
 傢俱	cia jiu
 傢俱簇刮新	cia jiu tshaq kuaq shin
-縩孔	cia khon	55
-縩孔籃	cia khon lae	55
+䶓箜	cia khon	55
+䶓箜籃	cia khon lae	55
 借力使	cia liq sy	55
 借力施	cia liq sy
 借米好落鑊	cia mi hau loq ghoq
@@ -23364,8 +23364,8 @@ import_tables:
 漲潮	cian jiau
 將就	cian jieu
 帳鉤	cian keu
-縩孔	cian khon	55
-縩孔籃	cian khon lae	55
+䶓箜	cian khon	55
+䶓箜籃	cian khon lae	55
 蔣家潭	cian ko dei
 張家峯	cian ko fon
 張家瀛	cian ko yin
@@ -25415,7 +25415,9 @@ import_tables:
 妯娌	dzoq li
 㪬裏㪬煞	dzoq li dzoq saq	55
 族裏人	dzoq li gnin	55
+㪬落僵鴨	dzoq loq cian ae
 㪬落羹	dzoq loq kan	55
+㪬落養生	dzoq loq yan san
 㪬芋艿皮	dzoq n na bi
 着把	dzoq po	55
 濁瘟	dzoq uen	55
@@ -25450,9 +25452,8 @@ import_tables:
 廚房間	dzyu vaon kae	55
 絕頭絕腦	dzyuq deu dzyuq nau	55
 絕絕煞煞	dzyuq dzyuq saq saq
-絕裏絕塞	dzyuq li dzyuq saq
-絕落僵鴨	dzyuq loq cian ae
-絕落養生	dzyuq loq yan san
+絕裏絕煞	dzyuq li dzyuq saq
+絕煞	dzyuq saq
 愛陰陽	e in yan	55
 愛惜	e shiq
 暗氣	ei-e chi
@@ -30516,8 +30517,8 @@ import_tables:
 爛腐	lae vu	55
 爛腐勃脹	lae vu baq cian
 爛腐結夾	lae vu ciq kaq
-懶婦掏縩空	lae vu dau cia khon
-懶婦掏縩空	lae vu dau cian khon
+懶婦掏䶓箜	lae vu dau cia khon
+懶婦掏䶓箜	lae vu dau cian khon
 爛腐貨	lae vu hou	55
 懶黃泥鰍	lae waon gni chieu
 藍藥水	lae yaq syu	55
@@ -38494,7 +38495,6 @@ import_tables:
 戳人色剌	tshoq gnin saq laq	55
 促掐	tshoq khaq
 觸霉頭	tshoq mei deu
-觸黴頭	tshoq mei deu
 戳壁腳	tshoq piq ciaq
 珿斬齊	tshoq tsae zhi
 促促	tshoq tshoq
@@ -38839,6 +38839,7 @@ import_tables:
 作忖	tsoq tshen	55
 作出	tsoq tshyuq
 喌喌	tsoq tsoq
+作作動	tsoq tsoq don
 作作梗梗	tsoq tsoq kan kan
 瘃子斑	tsoq tsy pae
 𧋥蛛	tsoq tsyu	55
