@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_haeye
   name: 吳語（海鹽）
-  version: "2021.01.18"
+  version: "2021.05.08"
   author:
     - 雪心居士 <sihsin@live.com> (dict, schema)
     - Electric Sheep <shinzoqchiuq@outlook.com> (schema)
@@ -95,10 +95,6 @@ speller:
     - derive/ao/oa/
     # 容錯 ae => ea
     - derive/ae/ea/
-    # 容錯 y- => ghi-
-    - derive/yi|y(?=[aeou])/ghi/
-    # 容錯 w- => ghu-
-    - derive/wu|w(?=[aeo])/ghu/
 
 
 # 主翻譯器 海鹽吳拼

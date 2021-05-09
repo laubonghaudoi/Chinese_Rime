@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2021.05.02"
+version: "2021.05.04"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -28989,6 +28989,7 @@ import_tables:
 開場	khe jian
 開着	khe jiaq
 開庎櫥門	khe ka dzyu men	55
+開講	khe kaon
 開交	khe kau
 開口	khe kheu
 開骻	khe khuo	55
@@ -28996,6 +28997,7 @@ import_tables:
 開面酒	khe mi cieu	55
 開面湯果	khe mi thaon kou	55
 侅鬧熱	khe nau gniq
+開眼投胎	khe ngae deu the
 開眼烏龜	khe ngae u ciu	55
 開普帽	khe phu mau	55
 開筆	khe piq
@@ -33714,6 +33716,8 @@ import_tables:
 倭豆鹹肉糯米飯	ou deu ghae gnioq nou mi vae
 倭豆芽	ou deu ngo	55
 倭豆飯	ou deu vae
+涴獨頭	ou doq deu
+涴讀書	ou doq syu
 屙射出	ou dza tshyuq
 屙撒出	ou dza tshyuq
 屙𠑞出	ou dza tshyuq
@@ -34276,6 +34280,7 @@ import_tables:
 比俉弗過	pi ng vaq kou
 比爾勿過	pi ng vaq kou
 比爾弗過	pi ng vaq kou	1
+閉眼投胎	pi ngae deu the
 比我勒過	pi ngo laq kou
 比我勿過	pi ngo vaq kou
 比我弗過	pi ngo vaq kou	1
@@ -34857,6 +34862,8 @@ import_tables:
 煞清斯爽	saq chin sy saon
 殺雞辦飯	saq ci bae vae
 𥈊記𥈊記	saq ci saq ci
+蝨鬼	saq ciu
+蝨鬼介大	saq ciu ka dou
 塞頭	saq deu	55
 殺頭	saq deu
 塞銅鈿	saq don di	55
@@ -34882,11 +34889,11 @@ import_tables:
 煞辣斯	saq laq sy	55
 煞辣斯清爽	saq laq sy chin saon	55
 蝨末鬼	saq maq ciu	55
+蝨末鬼介大	saq maq ciu ka dou
 蝨末老鬼	saq maq lau ciu	55
 蝨眯鬼	saq mhi ciu
+蝨眯鬼介大	saq mhi ciu ka dou
 蝨眯老鬼	saq mhi lau ciu
-蝨米鬼	saq mi ciu
-蝨米老鬼	saq mi lau ciu
 煞辣	saq naq	55
 煞潑	saq phaq	55
 煞潑言話	saq phaq ghae wo	55
@@ -35271,6 +35278,7 @@ import_tables:
 小鬼	shiau ciu
 小鬼頭	shiau ciu deu
 小鬼裏氣	shiau ciu li chi	55
+小鬼材	shiau ciu ze
 小糖	shiau daon	55
 小堂名	shiau daon min	55
 小堂菜	shiau daon tshe	55
@@ -36083,7 +36091,6 @@ import_tables:
 水桶	syu don
 水桶環	syu don guae
 水桶脫底	syu don thaq ti
-書毒頭	syu doq deu	55
 書獨頭	syu doq deu	55
 書大糊	syu dou wu	55
 尿射	syu dza
@@ -39304,6 +39311,7 @@ import_tables:
 橫糊裏拉	uan wu li la
 橫糊裏拉	uan wu li lha
 黃蒲蒲	uaon bu bu	55
+尢介大	uaon ka dou
 黃殼蟹	uaon khoq ha
 汪家宅跟	uaon ko dzaq ken
 曂亮	uaon lian	55

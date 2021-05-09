@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_soutseu
   name: 吳語（蘇州）
-  version: "2021.01.25"
+  version: "2021.05.08"
   author:
     - 予安 <181065229@qq.com> (dict)
     - 雪心居士 <sihsin@live.com> (schema)
@@ -99,12 +99,6 @@ speller:
     - derive/oe/eo/
     # 容錯 ao => oa
     - derive/ao/oa/
-    # 容錯 ae => ea
-    - derive/ae/ea/
-    # 容錯 y- => ghi-
-    - derive/yi|y(?=[aeou])/ghi/
-    # 容錯 w- => ghu-
-    - derive/wu|w(?=[aeo])/ghu/
 
 # 主翻譯器 蘇州吳拼
 translator:

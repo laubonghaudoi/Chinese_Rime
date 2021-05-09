@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_haegnin
   name: 吳語（海寧）
-  version: "2021.01.18"
+  version: "2021.05.08"
   author:
     - 陳熙元 <370327837@qq.com> (dict)
     - 雪心居士 <sihsin@live.com> (schema)
@@ -87,10 +87,6 @@ speller:
     - derive/ao/oa/
     # 容錯 ae => ea
     - derive/ae/ea/
-    # 容錯 y- => ghi-
-    - derive/yi|y(?=[aeou])/ghi/
-    # 容錯 w- => ghu-
-    - derive/wu|w(?=[aeo])/ghu/
 
 
 # 主翻譯器 海寧吳拼

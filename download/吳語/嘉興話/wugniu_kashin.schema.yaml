@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_kashin
   name: 吳語（嘉興）
-  version: "2021.01.18"
+  version: "2021.05.08"
   author:
     - 雪心居士 <sihsin@live.com> (dict, schema)
     - 步履躊躇 (dict)
@@ -97,10 +97,6 @@ speller:
     - derive/ao/oa/
     # 容錯 ae => ea
     - derive/ae/ea/
-    # 容錯 y- => ghi-
-    - derive/yi|y(?=[aeou])/ghi/
-    # 容錯 w- => ghu-
-    - derive/wu|w(?=[aeo])/ghu/
 
 
 # 主翻譯器 嘉興吳拼

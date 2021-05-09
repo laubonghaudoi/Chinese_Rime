@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_kazoe
   name: 吳語（嘉善）
-  version: "2021.01.18"
+  version: "2021.05.08"
   author:
     - 雪心居士 <sihsin@live.com> (dict, schema)
     - Electric Sheep <shinzoqchiuq@outlook.com> (schema)
@@ -87,10 +87,6 @@ speller:
     - derive/oe/eo/
     # 容錯 ao => oa
     - derive/ao/oa/
-    # 容錯 y- => ghi-
-    - derive/yi|y(?=[aeou])/ghi/
-    # 容錯 w- => ghu-
-    - derive/wu|w(?=[aeo])/ghu/
 
 
 # 主翻譯器 嘉善吳拼

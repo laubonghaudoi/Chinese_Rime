@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_gnincieu
   name: 吳語（鄞州）
-  version: "0.6.2"
+  version: "0.7.0"
   author:
     - Electric Sheep <shinzoqchiuq@outlook.com>
   description: |
@@ -136,10 +136,6 @@ speller:
     - derive/ao/oa/
     # 容錯 ae => ea
     - derive/ae/ea/
-    # 容錯 y- => ghi-
-    - derive/yi|y(?=[aeou])/ghi/
-    # 容錯 w- => ghu-
-    - derive/wu|w(?=[aeo])/ghu/
 
 # 主翻譯器 鄞州吳拼
 translator:
