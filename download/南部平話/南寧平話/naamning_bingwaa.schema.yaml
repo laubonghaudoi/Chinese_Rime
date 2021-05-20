@@ -4,7 +4,7 @@
 schema:
   schema_id: naamning_bingwaa
   name: "南寧(亭子)平話"
-  version: "2020.08.07"
+  version: "2021.04.30"
   author:
     - LeiMaau <leimaau@qq.com>
   description: |
@@ -89,6 +89,7 @@ speller:
     - derive/^sl/s/               # 模糊 sl -> s
     - derive/^ngia(ng|k)/njia$1/        # 模糊 ngia(ng|k) -> njia(ng|k)
     - derive/^(g|k)wik/$1ik/      # 模糊 (gk)wik -> (gk)ik
+    - derive/^(g|k)ik/$1wik/      # 模糊 (gk)ik -> (gk)wik
     - derive/i$/ei/          	  # 模糊 i -> ei
     - derive/u$/ou/          	  # 模糊 u -> ou
     - derive/ia(ng|k)$/e$1/       # 模糊 ia(ng|k) -> e(ng|k)

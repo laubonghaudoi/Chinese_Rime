@@ -4,7 +4,7 @@
 schema:
   schema_id: naamning_baakwaa
   name: "南寧白話"
-  version: "2020.05.11"
+  version: "2021.04.30"
   author:
     - LeiMaau <leimaau@qq.com>
   description: |
@@ -95,7 +95,9 @@ speller:
     - derive/yu$/eoi/          	  # 模糊 yu -> eoi
     - derive/^sl/s/               # 模糊 sl -> s
     - derive/^(g|k)wo/$1o/        # 模糊 (gk)wo -> (gk)o
+    - derive/^(g|k)o/$1wo/        # 模糊 (gk)o -> (gk)wo
     - derive/^(g|k)wik/$1ik/      # 模糊 (gk)wik -> (gk)ik
+    - derive/^(g|k)ik/$1wik/      # 模糊 (gk)ik -> (gk)wik
     - derive/i$/ei/          	  # 模糊 i -> ei
     - derive/u$/ou/          	  # 模糊 u -> ou
     - derive/saang$/sang/         # 模糊 saang -> sang 庚韻二等字文讀
