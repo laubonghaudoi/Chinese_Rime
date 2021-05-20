@@ -846,7 +846,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         <li>欽州粵拼 ℞ <code>LaiJoengzit/hamzau_jyutping</code></li>
         <li>沟漏片藤县白话输入方案 ℞ <code>cryptogun/gaulau_jyutping</code>
         </li>
-        <li>台山話拼系輸入法 ℞ <code>pearapple123/rime-hoisanva</li>
+        <li>台山話拼系輸入法 ℞ <code>pearapple123/rime-hoisanva</code></li>
       </ul>
     </details>
   </li>
