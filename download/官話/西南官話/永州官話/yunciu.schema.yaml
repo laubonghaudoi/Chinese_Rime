@@ -1,0 +1,157 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: yunciu
+  name: 永州官話
+  version: "0.0.3"
+  author:
+    - Electric Sheep <shinzoqchiuq@outlook.com>
+  description: |
+    零陵口音
+    https://github.com/shinzoqchiuq/rime-yunciu/
+  dependencies:
+    - luna_pinyin
+    - stroke
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    reset: 1
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - affix_segmentor@luna_pinyin # 自定義tag luna_pinyin
+    - affix_segmentor@stroke      # 自定義tag stroke
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator              # 主翻譯器
+    - script_translator@luna_pinyin  # 用於反查的luna_pinyin翻譯器
+    - table_translator@stroke        # 用於反查的stroke翻譯器
+    - table_translator@custom_phrase # 用戶短語
+  filters:
+    - simplifier
+    - uniquifier
+    - reverse_lookup_filter@reverse_lookup # 反查濾鏡
+
+speller:
+  alphabet: abcdefghijklmnopqrstuvwxyz
+  delimiter: " '"
+  algebra:
+    - xform/^([bcdfghjklpqstvwxyz])$/$1_/
+    - xform/\d//     # 去掉聲調
+
+    # 模糊音
+    # uo -> o
+    - derive/wo/o/
+    # yai -> ngai
+    - derive/yai/ngai/
+    # ng -> ∅
+    - derive/\bng//
+    # f -> hu
+    - derive/f(?!o)/hu/
+    - derive/fou/hou/
+    # shui -> hui
+    - derive/shui/hui/
+
+    - derive/ch/q/
+    - derive/sh/x/
+    - derive/zh/j/
+    - derive/ng/g/
+    - derive/gh/r/
+    - derive/ang(\b|\d)/an/
+    - derive/un(\b|\d)/uen/
+    - derive/ui(\b|\d)/uei/
+    - derive/iu(\b|\d)/iou/
+    - derive/ong(\b|\d)/on/
+    - derive/ao(\b|\d)/oa/
+
+    # 簡拼
+    - abbrev/^([a-z]).+$/$1/
+    - abbrev/^([ptszckg]h|ng|tsh?|dz).+$/$1/
+
+# 主翻譯器 永州官话
+translator:
+  dictionary: yunciu
+  prism: yunciu
+  spelling_hints: 5
+  comment_format:
+    # 不顯示單字調
+    - xform/\d//
+
+# 副翻譯器1 朙月拼音
+luna_pinyin:
+  tag: luna_pinyin
+  dictionary: luna_pinyin # 調取詞典luna_pinyin
+  enable_user_dict: false # 關閉用戶詞典
+  prefix: '`'             # 引導鍵「`」
+  suffix: "'"             # 結束鍵「'」
+  tips: 〔反查〕          # 輸入前提示〔反查〕
+  closing_tips: 〔永州官话〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+# 副翻譯器2 五筆畫
+stroke:
+  tag: stroke
+  dictionary: stroke      # 調取詞典stroke
+  enable_user_dict: false # 關閉用戶詞典
+  prefix: '`'             # 引導鍵「`」
+  suffix: "'"             # 結束鍵「'」
+  tips: 〔反查〕          # 輸入前提示〔反查〕
+  closing_tips: 〔永州官话〕
+  preedit_format:
+    - xlit/hspnz/一丨丿丶乙/
+
+# 副翻譯器3 用戶短語
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase # 用戶詞典名
+  db_class: stabledb       # 詞典類型爲只讀格式
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
+
+# 反查濾鏡
+reverse_lookup:
+  tags: [luna_pinyin, stroke] # 掛在翻譯器luna_pinyin和stroke上
+  overwrite_comment: true     # 覆蓋其他提示
+  dictionary: yunciu
+  comment_format:
+    __include: translator/comment_format
+
+punctuator:
+  import_preset: symbols # 句讀處理器，統一從外部導入
+
+key_binder:
+  import_preset: default # 快捷鍵，統一從外部導入
+
+recognizer:
+  import_preset: default # 特殊規則輸入碼，統一從外部導入
+  patterns:
+    punct: "^/([0-9]|10|[A-Za-z]+)$" # 按 / 輸入符號
+    luna_pinyin: "`[hspnz]*[aeiouv][a-z]*'?$|`[a-gi-moqrt-y][a-z]*'?$"
+    stroke: "`[hspnz]+'?$"

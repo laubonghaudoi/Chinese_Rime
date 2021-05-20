@@ -112,8 +112,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共 111 個方案）
-<br/>Full list of collected schemas (111 schemas in total)</h3>
+<h3>方案列表（共 113 個方案）
+<br/>Full list of collected schemas (113 schemas in total)</h3>
 
 
 <ul>
@@ -263,6 +263,12 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
                   <li>黃岡（混胡符版） - <code>huanggangxiangzhen</code></li>
                   <li>鄂城 - <code>ngocen</code></li>
                   <li>武漢 - <code>wuhan</code></li>
+                </ul>
+              </li>
+              <li>
+                永州官話輸入方案 ℞ <code>shinzoqchiuq/rime-yunciu</code>
+                <ul>
+                  <li>永州官話 - <code>yunciu</code></li>
                 </ul>
               </li>
             </ul>
@@ -563,6 +569,13 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
             </li>
           </ul>
         </li>
+        <li>
+          台山話拼系輸入法 ℞ <code>rime-hoisanva</code>
+          <ul>
+            <li>台山話 - <code>gene</code></li>
+            <li>台山話（數字聲調版） - <code>gene_numeric</code></li>
+          </ul>
+        </li>
         <li>台城 - <code>hoisiang</code></li>
         <li>新寧台山話　斗山兼沖蔞口音 - <code>SRenNing_EauSanCungLau</code></li>
         <li>粵語雙拼 - <code>jyutsoeng</code></li>
@@ -633,8 +646,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
 </ul>
 
-<h3>配方列表（共 43 個配方）
-<br/>List of recipes (43 recipes in total)</h3>
+<h3>配方列表（共 45 個配方）
+<br/>List of recipes (45 recipes in total)</h3>
 
 <ul>
   <li>
@@ -717,6 +730,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
                 蜀拼 ℞ <code>Papnas/shupin</code>
               </li>
               <li>咵一咵湖北话 ℞ <code>yuxifongfei/hubehua</code></li>
+              <li>永州官話輸入方案 ℞ <code>shinzoqchiuq/rime-yunciu</code></li>
             </ul>
           </details>
         </li>
@@ -832,6 +846,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         <li>欽州粵拼 ℞ <code>LaiJoengzit/hamzau_jyutping</code></li>
         <li>沟漏片藤县白话输入方案 ℞ <code>cryptogun/gaulau_jyutping</code>
         </li>
+        <li>台山話拼系輸入法 ℞ <code>pearapple123/rime-hoisanva</li>
       </ul>
     </details>
   </li>

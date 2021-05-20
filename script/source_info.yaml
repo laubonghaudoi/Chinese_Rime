@@ -80,6 +80,12 @@
     - huangxiao.dict.yaml
     - hubehua.dict.yaml
     - ngocen.schema.yaml
+官話/西南官話/永州官話:
+  source: 西南官話/永州官話輸入方案/
+  files:
+    - yunciu.dict.yaml
+    - yunciu.schema.yaml
+    - LICENSE
 吳語/上海話:
   source: 吳語/吳語協會式上海話輸入法/
   files:
@@ -194,6 +200,15 @@
     - naamning_bingwaa.schema.yaml
     - naamning_jyutping.phrase.dict.yaml
     - naamning_jyutping.city.dict.yaml
+粵語/台山話:
+  source: 粵語/台山話拼系輸入法/
+  files:
+    - LICENSE
+    - gene.schema.yaml
+    - gene_numeric.schema.yaml
+    - hoisanva.dict.yaml
+    - hoisanva.lettered.dict.yaml
+    - hoisanva.words.dict.yaml
 莆仙語/莆田話:
   source: 莆仙語/兴化韵莆仙话输入方案/
   files:

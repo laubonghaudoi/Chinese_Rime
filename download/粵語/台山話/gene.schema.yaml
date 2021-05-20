@@ -1,0 +1,191 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: gene
+  name: 台山話
+  version: "0.0.0"
+  author:
+    - 𥹘𥼱〈Discord 𥹘𥼱#3329〉
+    - suspiciouscactus〈Discord suspiciouscactus#2120〉
+
+  description:
+    採用陳振文「Gene Chin」台山話拼系輸入法
+    https://sites.fitnyc.edu/users/gene_chin/hed/intro/index.htm
+    支援聲調顯示同輸入
+
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: simplification
+    states: [漢字, 汉字]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    states: [ 中式, 西式 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - affix_segmentor@luna_pinyin
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - script_translator@luna_pinyin
+  filters:
+    - simplifier
+    - uniquifier
+    - reverse_lookup_filter
+
+speller:
+  alphabet: abcdefghijklmnopqrstuvwxyz;
+  delimiter: " '"
+  algebra:
+    - derive/[1235]//
+    # `xform` tones with longer strings first so they don't get intercepted by
+    # substring `xform`s.
+    - xform/325$/ww/
+    - xform/215$/zz/
+    - derive/55$/qr/
+    - derive/55$/qw/
+    - derive/55$/qz/
+    - derive/55$/rq/
+    - derive/55$/rw/
+    - derive/55$/rz/
+    - derive/55$/wq/
+    - derive/55$/wr/
+    - derive/55$/wz/
+    - derive/55$/zq/
+    - derive/55$/zr/
+    - derive/55$/zw/
+    - erase/55$/
+    - xform/33$/q/
+    - xform/35$/qq/
+    - xform/11$/r/
+    - xform/15$/rr/
+    - xform/31$/w/
+    - xform/21$/z/
+    - abbrev/^([a-z]).+$/$1/      # 首字母簡拼
+    - abbrev/^([a-z]{2}).+$/$1/   # 首2字母簡拼
+
+
+translator:
+  dictionary: hoisanva
+  prism: gene
+  spelling_hints: 5
+  comment_format:
+    # Perl unicode literals for the combining diacritics eg. `\x{304}` to seem
+    # to not show up in RIME. The workaround is to use the actual combining
+    # diacritic in the replacement string instead of an escape code. This ends
+    # up combining into other characters of the replacement string such as `1`
+    # in `$1`, but still works as expected.
+    # For some reason the `xform` doesn't work correctly and removes tone
+    # information without extra characters in the replacement string when using
+    # a diacritic. Add a space at the end of the replacement string as a
+    # workaround.
+    - xform/\b(m)55\b/$1̄ /
+    - xform/\b(m)33\b/$1̈ /
+    - xform_\b(m)35\b_$1̈ /_
+    - xform/\b(m)11\b/$1̃ /
+    - xform_\b(m)15\b_$1̃ /_
+    - xform/\b(m)31\b/$1̀ /
+    - xform_\b(m)325\b_$1̀ /_
+    - xform/\b(m)21\b/$1̂ /
+    - xform_\b(m)215\b_$1̂ /_
+    - xform/(ui|iu)55\b/$1̄ /
+    - xform/(ui|iu)33\b/$1̈ /
+    - xform_(ui|iu)35\b_$1̈ /_
+    - xform/(ui|iu)11\b/$1̃ /
+    - xform_(ui|iu)15\b_$1̃ /_
+    - xform/(ui|iu)31\b/$1̀ /
+    - xform_(ui|iu)325\b_$1̀ /_
+    - xform/(ui|iu)21\b/$1̂ /
+    - xform_(ui|iu)215\b_$1̂ /_
+    - xform/([aeiou])([a-z]*)55\b/$1̄$2 /
+    - xform/([aeiou])([a-z]*)33\b/$1̈$2 /
+    - xform_([aeiou])([a-z]*)35\b_$1̈$2/ _
+    - xform/([aeiou])([a-z]*)11\b/$1̃$2 /
+    - xform_([aeiou])([a-z]*)15\b_$1̃$2/ _
+    - xform/([aeiou])([a-z]*)31\b/$1̀$2 /
+    - xform_([aeiou])([a-z]*)325\b_$1̀$2/ _
+    - xform/([aeiou])([a-z]*)21\b/$1̂$2 /
+    - xform_([aeiou])([a-z]*)215\b_$1̂$2/ _
+  preedit_format:
+    - xform/\b(m)(?:q[rwz]|r[qwr]|w[qrz]|z[qrw])\b/$1̄/
+    - xform/\b(m)q\b/$1̈/
+    - xform_\b(m)qq\b_$1̈/_
+    - xform/\b(m)r\b/$1̃/
+    - xform_\b(m)rr\b_$1̃/_
+    - xform/\b(m)w\b/$1̀/
+    - xform_\b(m)ww\b_$1̀/_
+    - xform/\b(m)z\b/$1̂/
+    - xform_\b(m)zz\b_$1̂/_
+    - xform/(ui|iu)(?:q[rwz]|r[qwr]|w[qrz]|z[qrw])\b/$1̄/
+    - xform/(ui|iu)q\b/$1̈/
+    - xform_(ui|iu)qq\b_$1̈/_
+    - xform/(ui|iu)r\b/$1̃/
+    - xform_(ui|iu)rr\b_$1̃/_
+    - xform/(ui|iu)w\b/$1̀/
+    - xform_(ui|iu)ww\b_$1̀/_
+    - xform/(ui|iu)z\b/$1̂/
+    - xform_(ui|iu)zz\b_$1̂/_
+    - xform/([aeiou])([^qrwz ]*)(?:q[rwz]|r[qwr]|w[qrz]|z[qrw])\b/$1̄$2/
+    - xform/([aeiou])([^qrwz ]*)q\b/$1̈$2/
+    - xform_([aeiou])([^qrwz ]*)qq\b_$1̈$2/_
+    - xform/([aeiou])([^qrwz ]*)r\b/$1̃$2/
+    - xform_([aeiou])([^qrwz ]*)rr\b_$1̃$2/_
+    - xform/([aeiou])([^qrwz ]*)w\b/$1̀$2/
+    - xform_([aeiou])([^qrwz ]*)ww\b_$1̀$2/_
+    - xform/([aeiou])([^qrwz ]*)z\b/$1̂$2/
+    - xform_([aeiou])([^qrwz ]*)zz\b_$1̂$2/_
+
+
+reverse_lookup:
+  tags: [ luna_pinyin ]
+  overwrite_comment: false
+  dictionary: hoisanva
+
+luna_pinyin:
+  tag: luna_pinyin
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: ";"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    punct: "^/([0-9]0?|[a-z]+)$"
+    luna_pinyin: "`[a-z']*;?$"
+
+style:
+  font_face: "Yu Gothic UI"
+  layout:
+    border_width: 0

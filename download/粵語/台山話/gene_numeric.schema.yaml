@@ -1,0 +1,49 @@
+# Rime schema
+# encoding: utf-8
+
+__include: gene.schema:/
+
+schema:
+  schema_id: gene_numeric
+  name: 台山話（數字聲調版）
+  version: "0.0.0"
+  author:
+    - 𥹘𥼱〈Discord 𥹘𥼱#3329〉
+    - suspiciouscactus〈Discord suspiciouscactus#2120〉
+  description:
+    陳振文「Gene Chin」台山話拼系輸入法
+    https://sites.fitnyc.edu/users/gene_chin/hed/intro/index.htm
+    支援數字聲調顯示同輸入
+
+translator:
+  dictionary: hoisanva
+  prism: gene_numeric
+  spelling_hints: 5
+  comment_format:
+    # For some reason the `xform` doesn't work correctly and removes tone
+    # information without extra characters in the replacement string when using
+    # a diacritic. Add a space at the end of the replacement string as a
+    # workaround.
+    # `xform` tones with longer strings first so they don't get intercepted by
+    # substring `xform`s.
+    - xform/325\b/³²⁵ /
+    - xform/215\b/²¹⁵ /
+    - xform/55\b/⁵⁵ /
+    - xform/33\b/³³ /
+    - xform/35\b/³⁵ /
+    - xform/11\b/¹¹ /
+    - xform/15\b/¹⁵ /
+    - xform/31\b/³¹ /
+    - xform/21\b/²¹ /
+  preedit_format:
+    # `xform` tones with longer strings first so they don't get intercepted by
+    # substring `xform`s.
+    - xform/(?:q[rwz]|r[qwr]|w[qrz]|z[qrw])\b/⁵⁵/
+    - xform/qq\b/³⁵/
+    - xform/rr\b/¹⁵/
+    - xform/ww\b/³²⁵/
+    - xform/zz\b/²¹⁵/
+    - xform/q\b/³³/
+    - xform/r\b/¹¹/
+    - xform/w\b/³¹/
+    - xform/z\b/²¹/
