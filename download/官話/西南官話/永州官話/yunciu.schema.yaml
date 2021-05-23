@@ -4,7 +4,7 @@
 schema:
   schema_id: yunciu
   name: 永州官話
-  version: "0.0.3"
+  version: "0.0.4"
   author:
     - Electric Sheep <shinzoqchiuq@outlook.com>
   description: |
@@ -80,7 +80,7 @@ speller:
     - derive/zh/j/
     - derive/ng/g/
     - derive/gh/r/
-    - derive/ang(\b|\d)/an/
+    - derive/(?<![iuyw])ang(\b|\d)/an/
     - derive/un(\b|\d)/uen/
     - derive/ui(\b|\d)/uei/
     - derive/iu(\b|\d)/iou/
