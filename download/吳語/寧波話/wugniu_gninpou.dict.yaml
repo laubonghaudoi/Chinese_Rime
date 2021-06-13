@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2021.06.02"
+version: "2021.06.11"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -3308,7 +3308,6 @@ import_tables:
 晡	bu
 䝵	bu
 𩊬	bu
-瓠	bu
 埠	bu
 埗	bu
 伏	bu	5%
@@ -22150,8 +22149,8 @@ import_tables:
 鼻頭紅出	baq deu on tshyuq
 鼻頭屙	baq deu ou
 鼻頭涴	baq deu ou	418
-鼻頭屙結嗝	baq deu ou ciq kaq
-鼻頭涴結嗝	baq deu ou ciq kaq	1
+鼻頭屙結夾	baq deu ou ciq kaq
+鼻頭涴結夾	baq deu ou ciq kaq	1
 鼻頭水	baq deu syu	578
 白頭到老	baq deu tau lau
 鼻頭涕汰	baq deu thi tha
@@ -23982,7 +23981,6 @@ import_tables:
 結𥀬	ciq i	55
 摺衣裳	ciq i zaon
 摺襉	ciq kae	55
-結嗝	ciq kaq	55
 結夾	ciq kaq	55
 節跟	ciq ken
 羯狗娘	ciq keu gnian	55
@@ -24068,8 +24066,6 @@ import_tables:
 莙薘	ciun daq	55
 軍犯保徒犯	ciun vae pau du vae
 厥去	ciuq chi	55
-厥起	ciuq chi	55
-瘚去	ciuq chi	55
 橘紅	ciuq ghon
 菊花	ciuq huo
 橘絡	ciuq loq	55
@@ -24157,7 +24153,6 @@ import_tables:
 彈墨線	dae moq shi
 彈眼睩睛	dae ngae loq cin	55
 彈硬	dae ngan	55
-檀硬	dae ngan	55
 淡包	dae pau	55
 淡包車	dae pau tsho	55
 談山海經	dae sae he cin	55
@@ -24833,8 +24828,7 @@ import_tables:
 同年相仿	don gni shian paon	55
 桶耳朵皮	don gni to bi	55
 同業公會	don gniq kon wei
-動伙	don hou	418
-動火	don hou
+動火	don hou	418
 咚介	don ka
 同庚	don kan
 同庚年紀	don kan gni ci	55
@@ -27897,7 +27891,6 @@ import_tables:
 一攤大字	iq thae da zy
 一𡍲地方	iq thaq di faon
 一脫甘蔗	iq thaq ki-ke tso
-一塌刮仔	iq thaq kuaq tsy	578
 一塌刮子	iq thaq kuaq tsy	578
 一脫藕	iq thaq ngeu
 一脫帶魚	iq thaq ta ng
@@ -28084,7 +28077,6 @@ import_tables:
 滰頭	jian deu	578
 滰頭髮	jian deu faq
 犟頭犟腦	jian deu jian nau	55
-強頭倔腦	jian deu jiuq nau	55
 犟頭倔腦	jian deu jiuq nau	55
 滰掉	jian diau
 長條桌	jian diau tsoq	55
@@ -30509,7 +30501,7 @@ import_tables:
 爛料泥水	lae liau gni syu
 爛眼	lae ngae	55
 爛眼臭貌	lae ngae chieu mau
-爛眼級格	lae ngae ciq kaq
+爛眼結夾	lae ngae ciq kaq
 爛眼沿	lae ngae yi	55
 爛屙	lae ou
 爛涴	lae ou	418
@@ -33356,10 +33348,8 @@ import_tables:
 眼眼叫	ngae ngae ciau	55
 眼屙	ngae ou
 眼涴	ngae ou	418
-眼屙結嗝	ngae ou ciq kaq
-眼屙結格	ngae ou ciq kaq
-眼涴結嗝	ngae ou ciq kaq
-眼涴結格	ngae ou ciq kaq	1
+眼屙結夾	ngae ou ciq kaq
+眼涴結夾	ngae ou ciq kaq	1
 眼泡皮	ngae phau bi	55
 眼泡虛腫	ngae phau shiu tson
 顏色	ngae saq
@@ -33834,9 +33824,7 @@ import_tables:
 窩飳	ou tsyu	55
 屙嘴疙得	ou tsyu kaq taq
 涴嘴疙得	ou tsyu kaq taq	55
-屙嘴蒼蠅	ou tsyu tshaon in
 屙注蒼蠅	ou tsyu tshaon in
-涴嘴蒼蠅	ou tsyu tshaon in	55
 涴注蒼蠅	ou tsyu tshaon in	55
 擺平	pa bin
 擺俏功	pa chiau kon	55
@@ -37803,7 +37791,6 @@ import_tables:
 扎肥田粉	tsaq vi di fen
 早晏	tsau ae	55
 早晏晚頭	tsau ae mae deu
-早瓠	tsau bu	55
 早蒲	tsau bu	55
 竈雞	tsau ci
 早晝過飯	tsau cieu kou vae	418
@@ -38005,8 +37992,6 @@ import_tables:
 簇刮剌	tshaq kuaq laq	55
 簇刮剌剌新	tshaq kuaq laq laq shin
 簇刮剌新	tshaq kuaq laq shin	55
-簇刮勒新	tshaq kuaq laq shin	55
-簇括剌新	tshaq kuaq laq shin	55
 簇刮新	tshaq kuaq shin	55
 簇刮斯新	tshaq kuaq sy shin	55
 拆爛屙	tshaq lae ou
