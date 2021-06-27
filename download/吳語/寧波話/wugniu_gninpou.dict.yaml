@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2021.06.14"
+version: "2021.06.24"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -2538,6 +2538,7 @@ import_tables:
 偐	gni
 𤜵	gni
 鬳	gni
+彌	gni	0%
 念	gni	0%
 驗	gni	5%
 騐	gni	5%
@@ -4866,6 +4867,7 @@ import_tables:
 斝	cia
 藉	cia
 借	cia
+䶓	cia
 縩	cia
 嫁	cia	5%
 介	cia	5%
@@ -10643,6 +10645,7 @@ import_tables:
 痮	cian
 𥇔	cian
 醬	cian
+䶓	cian
 縩	cian
 仗	cian
 借	cian	0%
@@ -17773,6 +17776,7 @@ import_tables:
 鉽	shiq
 啥	shiq	0%
 西	shiq	0%
+雪	shiq	0%
 韘	shiq
 僁	shiq
 暬	shiq
@@ -18930,6 +18934,7 @@ import_tables:
 酽	gni
 砚	gni
 谚	gni
+弥	gni
 验	gni
 牺	shi
 𫍡	shi
@@ -26927,6 +26932,9 @@ import_tables:
 搰翼梢膀	guaq yiq sau paon
 滾記滾記	guen ci guen ci	55
 潰膿	guen non
+蟹爬	ha bo
+蟹爬一樣	ha bo iq yan
+蟹爬介	ha bo ka
 蟹青	ha chin
 蟹醬	ha cian
 蟹腳鉗	ha ciaq ji	55
@@ -27754,7 +27762,6 @@ import_tables:
 一梗棒頭	iq kan baon deu
 一梗被頭	iq kan bi deu
 一梗頭髮	iq kan deu faq
-該梗頭髮	iq kan deu faq
 一梗梗	iq kan kan
 一梗毛	iq kan mau
 一梗魚	iq kan ng
@@ -27789,7 +27796,6 @@ import_tables:
 一梗棒頭	iq kuan baon deu
 一梗被頭	iq kuan bi deu
 一梗頭髮	iq kuan deu faq
-該梗頭髮	iq kuan deu faq
 一梗梗	iq kuan kuan
 一梗毛	iq kuan mau
 一梗魚	iq kuan ng
@@ -29697,6 +29703,7 @@ import_tables:
 該梗矮凳	kiq kan a ten
 該梗棒頭	kiq kan baon deu
 該梗被頭	kiq kan bi deu
+該梗頭髮	kiq kan deu faq
 該梗毛	kiq kan mau
 該梗魚	kiq kan ng
 該梗帶魚	kiq kan ta ng
@@ -29727,6 +29734,7 @@ import_tables:
 該梗矮凳	kiq kuan a ten
 該梗棒頭	kiq kuan baon deu
 該梗被頭	kiq kuan bi deu
+該梗頭髮	kiq kuan deu faq
 該梗毛	kiq kuan mau
 該梗魚	kiq kuan ng
 該梗帶魚	kiq kuan ta ng
@@ -30721,7 +30729,7 @@ import_tables:
 老酒夾燒酒	lau cieu kaq shiau cieu
 老酒包	lau cieu pau	55
 老酒㕐勒胖頂	lau cieu shia laq phaon tin
-老酒㕐彌滿	lau cieu shia mi mun
+老酒㕐彌滿	lau cieu shia mhi mun
 老酒壺	lau cieu wu	55
 老結	lau ciq	55
 老鬼	lau ciu
@@ -34609,6 +34617,7 @@ import_tables:
 三張紙頭	sae jian tsy deu
 三朝	sae jiau
 三間一舍	sae kae iq so
+三梗	sae kan
 三梗矮凳	sae kan a ten
 三梗魚	sae kan ng
 三江口	sae kaon kheu
@@ -34625,6 +34634,7 @@ import_tables:
 三角短褲	sae koq toe khu
 三角尺	sae koq tshaq	55
 三姑六婆	sae ku loq bou
+三梗	sae kuan
 三梗矮凳	sae kuan a ten
 三梗魚	sae kuan ng
 三官暴	sae kun pau	55
@@ -34756,7 +34766,6 @@ import_tables:
 生意人	san i gnin
 生意幫	san i paon	55
 生隱腳	san in ciaq
-三梗	san kan
 生㾸𤶁	san kaq lau
 生隔壁氣	san kaq piq chi	55
 省開交	san khe ciau
@@ -34764,7 +34773,6 @@ import_tables:
 生苦鐵鹹	san khu thiq ghae	55
 生古結鹹	san ku ciq ghae	55
 生古鐵鹹	san ku thiq ghae	55
-三梗	san kuan
 生癩頭	san la deu
 生冷	san lan
 生冷東西	san lan ton shi	55
@@ -35632,6 +35640,7 @@ import_tables:
 錫箔	shiq boq
 溼氣	shiq chi
 歇晝	shiq cieu
+雪茄	shiq ga
 雪茄菸	shiq ga i
 溼人	shiq gnin	55
 息肉	shiq gnioq
@@ -39394,7 +39403,7 @@ import_tables:
 飯喫忒多	vae chioq thaq tou
 飯喫忒多	vae chioq thou tou
 飯𣥼勒穿頂	vae ci laq tshoe tin
-飯𣥼彌滿	vae ci mi mun
+飯𣥼彌滿	vae ci mhi mun
 飯僵脯了	vae cian bu lei	55
 飯僵脯𡀂	vae cian bu lei	55
 飯蒸	vae cin	55
