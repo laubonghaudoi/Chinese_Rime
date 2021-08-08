@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2021.07.30"
+version: "2021.08.06"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -6729,8 +6729,8 @@ import_tables:
 臺	de
 檯	de
 颱	de
-抬	de
-擡	de
+抬	de	2128
+擡	de	100
 跆	de
 駘	de
 炱	de
@@ -13231,6 +13231,7 @@ import_tables:
 靱	gnin
 肕	gnin
 濘	gnin
+䀼	gnin
 憗	gnin
 憖	gnin
 猌	gnin
@@ -14393,7 +14394,6 @@ import_tables:
 趥	tshon
 銃	tshon
 蹱	tshon
-踵	tshon	0%
 愡	tshon
 憁	tshon
 謥	tshon
@@ -19304,7 +19304,7 @@ import_tables:
 𫍰	sa
 晒	sa
 阶	ka
-鲛	ka	0%
+鲛	ka
 𨱕	ga
 还	gha
 锕	a
@@ -20903,6 +20903,7 @@ import_tables:
 银	gnin
 𣘴	gnin
 宁	gnin	0%
+苧	gnin	0%
 柠	gnin
 咛	gnin
 狞	gnin
@@ -23162,7 +23163,6 @@ import_tables:
 七搭八搭	chiq taq paq taq	55
 挈的	chiq tiq
 七闖八跌	chiq tshaon paq tiq	55
-七衝八跌	chiq tshon paq tiq	55
 七蹱八跌	chiq tshon paq tiq	55
 七簇星	chiq tshoq shin	55
 七錯八改	chiq tshou paq ge	55
@@ -24114,7 +24114,7 @@ import_tables:
 大蒜頭	da soe deu	55
 大多數	da tou su
 大菜	da tshe
-大菜臺子	da tshe de tsy	55
+大菜檯子	da tshe de tsy	55
 大菜師父	da tshe sy vu	55
 大菜桌燈	da tshe tsoq ten	55
 𢪂癢	da yan
@@ -24380,11 +24380,11 @@ import_tables:
 稻熟麻雀	dau zoq mo cian	55
 道士	dau zy
 袋皮	de bi	55
-擡去	de chi
+抬去	de chi
 袋袋	de de	578
-擡擡動	de de don	55
+抬抬動	de de don	55
 玳玳花	de de huo	55
-擡頭	de deu
+抬頭	de deu
 苔條	de diau	55
 苔條千層餅	de diau chi zen pin
 苔條花生	de diau huo sen
@@ -24395,22 +24395,22 @@ import_tables:
 苔條油饡子	de diau yeu tsae tsy	55
 苔條月餅	de diau yuq pin
 臺虎鉗	de fu ji	55
-擡䞁房	de i vaon	55
-擡轎大皮	de jiau dou bi	55
-擡轎肚皮	de jiau du bi
-擡轎郎	de jiau laon	55
-擡城隍	de jin waon	55
+抬䞁房	de i vaon	55
+抬轎大皮	de jiau dou bi	55
+抬轎肚皮	de jiau du bi
+抬轎郎	de jiau laon	55
+抬城隍	de jin waon	55
 臺閣	de koq
-擡棺材	de kun ze
-擡老婆	de lau bou	55
-擡老𡢿	de lau gnion	55
+抬棺材	de kun ze
+抬老婆	de lau bou	55
+抬老𡢿	de lau gnion	55
 怠慢	de mae
 檯布	de pu
 袋衫	de sae	55
 苔生	de san	55
 苔生片	de sen phi	55
 薹生酥	de sen su
-擡新婦	de shin vu	55
+抬新婦	de shin vu	55
 代書	de syu
 苔菜	de tshe	55
 檯鐘	de tson
@@ -24476,13 +24476,15 @@ import_tables:
 頭埭	deu da	55
 頭𢪂𢪂	deu da da
 頭埭怪青	deu da kuan chin
-頭擡起	deu de chi	55
+頭抬起	deu de chi	55
 頭頭	deu deu
 投投動	deu deu don	55
+頭頭後年	deu deu gheu gni	55
 頭頭後日	deu deu gheu gniq	55
 斷頭爛腳	deu deu lae ciaq	55
 斷頭落環	deu deu loq guae	55
-頭頭前日	deu deu zhi gniq
+頭頭前年	deu deu zhi gni	55
+頭頭前日	deu deu zhi gniq	55
 頭頭是道	deu deu zy dau
 頭頭順流	deu deu zyun lieu	55
 頭鈿	deu di	55
@@ -24500,6 +24502,7 @@ import_tables:
 頭髮絲	deu faq sy
 頭髮打結	deu faq tan ciq
 頭跔進	deu geu cin
+頭後年	deu gheu gni	55
 頭後日	deu gheu gniq	55
 投人身	deu gnin shin	55
 頭剛	deu kaon	55
@@ -24576,6 +24579,7 @@ import_tables:
 頭暈心慌	deu yun shin huaon
 頭暈惺忪	deu yun shin son
 頭暈暈動	deu yun yun don
+頭前年	deu zhi gni	55
 頭前日	deu zhi gniq	55
 頭繩	deu zhin
 豆豉醬	deu zy cian
@@ -26657,6 +26661,7 @@ import_tables:
 韌跔跔	gnin geu geu
 銀杏	gnin ghan
 銀杏樹	gnin ghan zyu	55
+䀼䀼動	gnin gnin don
 銀灰	gnin huei
 人意	gnin i
 人意好纔是好	gnin i hau dze zy hau
@@ -27972,7 +27977,7 @@ import_tables:
 怨苦大結	iu khu da ciq	55
 冤家	iu ko
 益加	iu ko
-冤家夫妻擡棕繃	iu ko fu chi de tson pan
+冤家夫妻抬棕繃	iu ko fu chi de tson pan
 冤家癩頭	iu ko la deu
 冤家犯死	iu ko vae shi
 冤家犯死徑	iu ko vae shi cin
@@ -31665,9 +31670,9 @@ import_tables:
 腡頂	lou tin	55
 腡紋	lou ven	55
 擄順毛	lou zyun mau	55
-蘆稷	lu ci	55
+蘆稷	lu ci
 蘆穄	lu ci	55
-蘆稷開花散滔滔	lu ci khe huo sae thau thau
+蘆穄開花散滔滔	lu ci khe huo sae thau thau
 蘆穄桿	lu ci ki-ke	55
 蘆穄掃帚	lu ci sau cieu	55
 路道	lu dau
@@ -34084,7 +34089,7 @@ import_tables:
 碰杯	phan pei
 胓㠮	phan phon	55
 乓剖	phan phou
-碰和臺	phan wu de	55
+碰和檯	phan wu de	55
 胖脯	phaon bu	55
 胖起	phaon chi	55
 胖頭魚	phaon deu ng
@@ -37763,7 +37768,7 @@ import_tables:
 裝樣	tsaon yan	55
 樟樹	tsaon zyu
 眨記眨記	tsaq ci tsaq ci
-扎擡閣	tsaq de koq
+扎抬閣	tsaq de koq
 扎臺型	tsaq de yin
 扎秧子	tsaq ian tsy
 扎臍帶	tsaq ji ta	55
@@ -38490,12 +38495,10 @@ import_tables:
 沖熱水瓶	tshon gniq syu bin	55
 蔥花	tshon huo
 沖場	tshon jian	55
-衝場	tshon jian
 充強好漢	tshon jian hau he
 充強好漢	tshon jian hau hei-
 楤杠	tshon kaon	55
 沖口出	tshon kheu tshyuq	55
-衝口出	tshon kheu tshyuq	55
 充闊	tshon khuaq
 充公	tshon kon
 充乖的得	tshon kua tiq taq
@@ -38517,7 +38520,6 @@ import_tables:
 戳戳動	tshoq tshoq don	55
 戳戳看	tshoq tshoq khe
 促促快	tshoq tshoq khua
-曲蟮	tshoq yi
 蛐蟮	tshoq yi
 珿齊	tshoq zhi
 錯氣	tshou chi	55
@@ -40567,7 +40569,7 @@ import_tables:
 雨壓落來	yu aq loq le	55
 雨棚	yu ban
 圍巾	yu cin
-圓臺面	yu de mi	55
+圓檯面	yu de mi	55
 園地	yu di
 雨暗	yu ei-e	55
 羽絨衫	yu gnion sae
@@ -41888,23 +41890,23 @@ import_tables:
 秧好一年穀	ian hau iq gni koq
 妻賢一生福	chi yi iq san foq
 天亮飽一日飽	thiq gnian pau iq gniq pau
-老婆擡着一世好	lau bou de dzoq iq shi hau
+老婆抬着一世好	lau bou de dzoq iq shi hau
 天亮飽一日飽	thi gnian pau iq gniq pau
-老婆擡着一世好	lau bou de zoq iq shi hau
+老婆抬着一世好	lau bou de zoq iq shi hau
 生意做弗着一遭	san i tsou vaq dzoq iq tsau
-老婆擡弗着一世	lau bou de vaq dzoq iq shi
+老婆抬弗着一世	lau bou de vaq dzoq iq shi
 生意做弗着一遭	san i tsou vaq zoq iq tsau
-老婆擡弗着一世	lau bou de vaq zoq iq shi
+老婆抬弗着一世	lau bou de vaq zoq iq shi
 生意做勿着一遭	san i tsou vaq dzoq iq tsau
-老婆擡勿着一世	lau bou de vaq dzoq iq shi
+老婆抬勿着一世	lau bou de vaq dzoq iq shi
 生意做勿着一遭	san i tsou vaq zoq iq tsau
-老婆擡勿着一世	lau bou de vaq zoq iq shi
-老婆擡弗着	lau bou de vaq dzoq
+老婆抬勿着一世	lau bou de vaq zoq iq shi
+老婆抬弗着	lau bou de vaq dzoq
 一世苦弗出	iq shi khu vaq tshyuq
-老婆擡弗着	lau bou de vaq zoq
-老婆擡勿着	lau bou de vaq dzoq
+老婆抬弗着	lau bou de vaq zoq
+老婆抬勿着	lau bou de vaq dzoq
 一世苦勿出	iq shi khu vaq tshyuq
-老婆擡勿着	lau bou de vaq zoq
+老婆抬勿着	lau bou de vaq zoq
 竈口地康看老婆	tsau kheu di khaon khi-khe lau bou
 越看越動火	yuq khi-khe yuq don hou
 男怕入錯行	nei-nae pho zyuq tshou ghaon
@@ -41982,9 +41984,9 @@ import_tables:
 十個老婆九個兇	zyuq ghoq lau bou cieu ghoq shion
 冤家夫妻紿棕繃	iu ko fu chi de tson pan
 礌來礌去當中央	lei le lei chi taon tson gnian
-弗擡老婆講弗起	vaq de lau bou kaon vaq chi
-擡勒老婆要加氣	de laq lau bou iau ko chi
-勿擡老婆講勿起	vaq de lau bou kaon vaq chi
+弗抬老婆講弗起	vaq de lau bou kaon vaq chi
+抬勒老婆要加氣	de laq lau bou iau ko chi
+勿抬老婆講勿起	vaq de lau bou kaon vaq chi
 兒子是自家好	ng tsy zy zhi ko hau
 老𡢿是人家好	lau gnion zy gnin ko hau
 家花還是野花香	cia huo wa zy ya huo shian
@@ -42471,9 +42473,9 @@ import_tables:
 連竈連眠牀	li tsau li mi zaon
 對落是涴缸	tei loq zy ou kaon
 對落是屙缸	tei loq zy ou kaon
-擡頭弗起	de deu vaq chi
+抬頭弗起	de deu vaq chi
 轉身弗來	tsoe shin vaq le
-擡頭勿起	de deu vaq chi
+抬頭勿起	de deu vaq chi
 轉身勿來	tsoe shin vaq le
 螄螺殼裏做道場	sy lou khoq li tsou dau jian
 稗草也是穀	bo tshau gha zy koq
@@ -42513,7 +42515,7 @@ import_tables:
 弗如喫在肚裏	vaq zyu chioq dze du li
 勿如喫在肚裏	vaq zyu chioq dze du li
 路來嘴巴裏	lu le tsyu po li
-擡樹擡小頭	de zyu de shiau deu
+抬樹抬小頭	de zyu de shiau deu
 問路問老頭	men lu men lau deu
 路生地弗熟	lu san di vaq zoq
 到處叫阿叔	tau tshyu ciau aq soq
@@ -42762,7 +42764,7 @@ import_tables:
 人多好用力	gnin tou hau yon liq
 人缺好喫食	gnin chiuq hau chioq zhiq
 人多力量大	gnin tou liq lian dou
-牌樓擡過河	ba leu de kou ghou
+牌樓抬過河	ba leu de kou ghou
 喫飯要過口	chioq vae iau kou kheu
 做事要對手	tsou zy iau tei shieu
 人靠人幫	gnin khau gnin paon
@@ -42785,7 +42787,7 @@ import_tables:
 會揀揀才郎	wei kae kae dze laon
 𣍐揀揀田莊	vei kae kae di tsaon
 劈柴另看絲流	phiq za lin khi-khe sy lieu
-擡老婆看阿舅	de lau bou khi-khe aq jieu
+抬老婆看阿舅	de lau bou khi-khe aq jieu
 牆門對牆門	zhian men tei zhian men
 槍笆對槍笆	chian po tei chian po
 高弗來	kau vaq le
@@ -43014,10 +43016,10 @@ import_tables:
 人敬儂七分	gnin cin nou chiq fen
 敬重田公敬重穀	cin dzon di kon cin dzon koq
 敬重木匠敬重屋	cin dzon moq zhian cin dzon oq
-人擡人無價之寶	gnin de gnin vu ko tsy pau
-人擡人無價之寶	gnin de gnin wu- ko tsy pau
-儂擡人一尺	nou de gnin iq tshaq
-人擡儂一丈	gnin de nou iq jian
+人抬人無價之寶	gnin de gnin vu ko tsy pau
+人抬人無價之寶	gnin de gnin wu- ko tsy pau
+儂抬人一尺	nou de gnin iq tshaq
+人抬儂一丈	gnin de nou iq jian
 人熟禮弗熟	gnin zoq li vaq zoq
 禮多人弗怪	li tou gnin vaq kua
 人熟禮勿熟	gnin zoq li vaq zoq
@@ -43118,7 +43120,7 @@ import_tables:
 一句話把人講跳	iq ciu wo po gnin kaon thiau
 刀可以割肉	tau khou yi kaq gnioq
 話可以斷骨	wo khou yi doe kuaq
-三寸舌頭擡煞人	sae tshen zhiq deu de saq gnin
+三寸舌頭抬煞人	sae tshen zhiq deu de saq gnin
 三寸舌頭壓煞人	sae tshen zhiq deu aq saq gnin
 良言一句三冬暖	lian yi iq ciu sae ton noe
 惡言傷人六月霜	oq yi saon gnin loq yuq saon
@@ -43127,7 +43129,7 @@ import_tables:
 相罵嘸好言	shian mo mh hau yi
 相打嘸好拳	shian tan mh hau jiu
 講話聲放低	kaon wo shin faon ti
-走路腳擡高	tseu lu ciaq de kau
+走路腳抬高	tseu lu ciaq de kau
 矮人面前弗說矮	a gnin mi zhi vaq syuq a
 矮人面前勿說矮	a gnin mi zhi vaq syuq a
 嘴巴講勒出蓮花	tsyu po kaon laq tshyuq li huo
@@ -44174,7 +44176,7 @@ import_tables:
 春天生意真難做	tshyun thi san i cin nae tsou
 一頭行李一頭貨	iq deu ghan li iq deu hou
 冬至起九	ton tsy chi cieu
-擡冰上手	de pin zaon shieu
+抬冰上手	de pin zaon shieu
 氣力賺飯喫	chi liq dzae vae chioq
 好漢弗賺六月鈿	hau he vaq dzae loq yuq di
 好漢弗賺六月鈿	hau hei- vaq dzae loq yuq di
@@ -44332,9 +44334,9 @@ import_tables:
 嘸銅鈿人喫灰沙	mh don di gnin chioq huei so
 經濟人穿草鞋翻面	cin ci gnin tshoe tshau gha fae mi
 有佬人喫雞肉剝皮	yeu lau gnin chioq ci gnioq poq bi
-擡轎也是人	de jiau gha zy gnin
+抬轎也是人	de jiau gha zy gnin
 坐轎也是人	zou jiau gha zy gnin
-擡轎也是人	de jiau ya zy gnin
+抬轎也是人	de jiau ya zy gnin
 坐轎也是人	zou jiau ya zy gnin
 富貴講命長	fu ciu kaon min jian
 窮人派飯賬	jion gnin pha vae cian
@@ -44507,8 +44509,8 @@ import_tables:
 運道來了推勿開	yun dau le laq thei vaq khe
 財來	dze le
 運來	yun le
-擡個老𡢿帶胎來	de goq lau gnion ta the le
-擡個老𡢿帶胎來	de ghoq lau gnion ta the le
+抬個老𡢿帶胎來	de goq lau gnion ta the le
+抬個老𡢿帶胎來	de ghoq lau gnion ta the le
 下巴扣勒人家地方	gho po kheu laq gnin ko di faon
 滑進大好佬	waq cin dou hau lau
 滑出瘟跌倒	waq tshyuq uen tiq tau
@@ -46517,7 +46519,7 @@ import_tables:
 自家黃狗咬煞自家羊	zhi ko waon ki-ke ngau saq zhi ko yan
 自家黃狗咬煞自家羊	zhi ko wu keu ngau saq zhi ko yan
 自家黃狗咬煞自家羊	zhi ko wu ki-ke ngau saq zhi ko yan
-人家棺材擡進自家屋裏	gnin ko kun dze de cin zhi ko oq li
+人家棺材抬進自家屋裏	gnin ko kun dze de cin zhi ko oq li
 死弗死	shi vaq shi
 鹿變麂	loq pi ci
 死勿死	shi vaq shi
@@ -47093,7 +47095,7 @@ import_tables:
 人家講東京逃難	gnin ko kaon ton cin dau nae
 其講西京造反	ji kaon shi cin zau fae
 講明在前	kaon min dze zhi
-擡到曬鹽	de tau sa yi
+抬到曬鹽	de tau sa yi
 講好算數	kaon hau soe su
 麻油加醋	mo yeu ko tshu
 講講弗相信	kaon kaon vaq shian shin

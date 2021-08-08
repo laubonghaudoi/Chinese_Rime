@@ -16,7 +16,7 @@
 
 ---
 name: wugniu_gninpou.phrase
-version: "2021.06.10"
+version: "2021.08.05"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -1021,7 +1021,7 @@ use_preset_vocabulary: true
 長塗人	jian du gnin
 長塗	jian du
 衢山鎮
-衢山人	ghen sae gnin
+衢山人	jiu sae gnin
 衢山島
 衢山
 秀山鄉
@@ -1161,7 +1161,9 @@ use_preset_vocabulary: true
 核酸檢測報告
 咽拭子
 鼻咽拭子	biq i shiq tsy
+鼻拭子	biq shiq tsy
 口咽拭子
+口拭子
 肛拭子
 方艙醫院
 無症狀感染者	vu cin dzaon ki-ke gni tse
@@ -1178,7 +1180,7 @@ use_preset_vocabulary: true
 遠程辦公
 集中隔離	jiq tson kaq li
 居家隔離	ciu cia kaq li
-居家健康監測	ciu cia ji khaon ci tshaq
+居家健康監測	ciu cia ji khaon kae tshaq
 密切接觸者
 密接
 流行病學調查	lieu yin bin yuq diau dzo
@@ -1388,8 +1390,8 @@ use_preset_vocabulary: true
 上落班辰光	zaon loq pae zyun kuaon
 上勿了	zaon vaq liau
 上弗了	zaon vaq liau	1
-上勿了臺面	zaon vaq liau de mi
-上弗了臺面	zaon vaq liau de mi	1
+上勿了檯面	zaon vaq liau de mi
+上弗了檯面	zaon vaq liau de mi	1
 上勿去	zaon vaq chi
 上弗去	zaon vaq chi	1
 上個禮拜	zaon goq li pa
@@ -3578,8 +3580,8 @@ use_preset_vocabulary: true
 擠落去	ci loq chi
 擠煞	ci saq
 擠勒	ci laq
-擡落去	de loq chi
-擡勒	de laq
+抬落去	de loq chi
+抬勒	de laq
 擤鼻頭	hen baq deu
 擱弗落	koq vaq loq	1
 擱弗落	goq vaq loq	1
@@ -4494,26 +4496,26 @@ use_preset_vocabulary: true
 
 # 帶字母的詞彙
 
+K	khe
 k	khe
-k	khe
-老k牌	lau k ba
-老k牌	lau k bae
+老K牌	lau k ba
+老K牌	lau k bae
+S	e sy
 s	e sy
-s	e sy
-b超	bi chiau
-ct	shi thi
-t恤	thi shiuq
-t恤衫	thi shiuq sae
-u盤	ieu bun
-x光	e khaq sy kuaon
-x刀	e khaq sy tau
-x光片	e khaq sy kuaon phi
+B超	bi chiau
+CT	shi thi
+T恤	thi shiuq
+T恤衫	thi shiuq sae
+U盤	ieu bun
+X光	e khaq sy kuaon
+X刀	e khaq sy tau
+X光片	e khaq sy kuaon phi
 愛克斯光	e khaq sy kuaon
 愛克斯刀	e khaq sy tau
 愛克斯光片	e khaq sy kuaon phi
-4s店	sy e sy ti
-dvd	di vi di
-vcd	vi shi di
+4S店	sy e sy ti
+DVD	di vi di
+VCD	vi shi di
 
 # 增補地名
 
