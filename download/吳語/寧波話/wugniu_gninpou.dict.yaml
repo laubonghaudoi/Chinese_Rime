@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2021.08.06"
+version: "2021.08.12"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -21840,7 +21840,6 @@ import_tables:
 晏貨	ae hou
 晏眼	ae ngae	55
 鴨搜食	ae seu zhiq
-揞水片	ae syu phi	55
 晏到	ae tau	55
 櫻桃	an dau
 揞掉	an diau	55
@@ -21848,6 +21847,7 @@ import_tables:
 阿姆	an m	1000
 阿姆阿伯勿認得	an m aq paq vaq gnin taq
 阿姆阿伯弗認得	an m aq paq vaq gnin taq	1
+揞水爿	an syu bae	55
 揞水片	an syu phi	55
 怏勃勃	aon baq baq	55
 怏勃幾糟	aon baq ci tsau	55
@@ -26012,7 +26012,6 @@ import_tables:
 限板	ghae pae	55
 限板數	ghae pae su
 鹹餅乾	ghae pin ki-ke	55
-揞水片	ghae syu phi	55
 閒早	ghae tsau	55
 閒早子	ghae tsau tsy	55
 鹹草	ghae tshau	55
@@ -26726,6 +26725,8 @@ import_tables:
 掿衣裳	gnioq i zaon
 肉及及	gnioq jiq jiq	55
 肉割割	gnioq kaq kaq	55
+肉骨頭	gnioq kuaq deu
+肉骨頭粥	gnioq kuaq deu tsoq
 肉骨及及	gnioq kuaq jiq jiq	55
 肉骨實實	gnioq kuaq zyuq zyuq	55
 玉蘭花	gnioq lae huo
@@ -28476,7 +28477,6 @@ import_tables:
 講究	kaon cieu
 鋼針	kaon cin
 講斤頭	kaon cin deu	55
-講正頭	kaon cin deu	55
 鋼精鍋子	kaon cin kou tsy	55
 鋼精面桶	kaon cin mi don	55
 講大道	kaon da dau	578
@@ -28870,6 +28870,7 @@ import_tables:
 坑頭塊	khan deu khuei
 揞掉	khan diau	55
 坑跟間	khan ken kae	55
+揞水爿	khan syu bae	55
 揞水片	khan syu phi	55
 康家𡍲	khaon ko taq
 囥勒過	khaon laq kou
@@ -29207,7 +29208,6 @@ import_tables:
 空倉水鈿	khon tshaon syu di
 殼貨	khoq hou	55
 殼㝗	khoq laon	55
-殼郎	khoq laon	55
 哭勒環天倒地	khoq laq wae thi tau di
 殼落	khoq loq	55
 哭煞死	khoq saq shi
@@ -37584,7 +37584,6 @@ import_tables:
 短命屈死	toe min chiuq shi
 短命鬼	toe min ciu	55
 短命促死	toe min tshaq shi	55
-短命撮死	toe min tshaq shi	55
 碫磨	toe mou	55
 鍛磨	toe mou	55
 短打	toe tan
@@ -38088,7 +38087,7 @@ import_tables:
 草蓬	tshau bon	55
 草青	tshau chin	55
 草雞	tshau ci
-騲雞	tshau ci	55
+騲雞	tshau ci
 炒雞蛋	tshau ci dae
 耖田	tshau di	55
 炒地皮	tshau di bi
@@ -38608,7 +38607,6 @@ import_tables:
 出白鴨	tshyuq baq ae
 出蹩腳	tshyuq biq ciaq
 出氣	tshyuq chi
-出搶花	tshyuq chian huo
 出槍花	tshyuq chian huo	55
 出雞屙	tshyuq ci ou
 出雞涴	tshyuq ci ou	55
@@ -40281,8 +40279,6 @@ import_tables:
 羊臊氣	yan sau chi	55
 羊臊氣賊臭	yan sau chi zaq chieu
 佯掃地	yan sau di
-癢嗖嗖	yan seu seu	55
-癢搜搜	yan seu seu	55
 癢颼颼	yan seu seu	55
 洋秈米	yan shi mi	55
 煬錫	yan shiq
@@ -40466,9 +40462,8 @@ import_tables:
 有晌	yeu zaon	418
 油炸豆板	yeu zaq deu pae
 油炸檜	yeu zaq kuei	55
-油煠檜	yeu zaq kuei	55
-油煠湯糰	yeu zaq thaon doe
-油煠煠	yeu zaq zaq
+油炸湯糰	yeu zaq thaon doe
+油炸炸	yeu zaq zaq
 有愁嘸愁	yeu zeu mh zeu
 油繩	yeu zhin	55
 有時節	yeu zy ciq
@@ -41209,6 +41204,7 @@ import_tables:
 食包	zhiq pau	55
 蝕本	zhiq pen
 食品店	zhiq phin ti
+射水片	zhiq syu phi	55
 舌苔	zhiq the
 食罩	zhiq tsau	55
 蓆子	zhiq tsy	691
