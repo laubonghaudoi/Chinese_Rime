@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2021.08.12"
+version: "2021.08.21"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -6832,10 +6832,10 @@ import_tables:
 跴	tshe
 棌	tshe
 𢶀	tshe
+啐	tshe	1%
 湊	tshe	0%
 凑	tshe	0%
 菜	tshe
-啐	tshe	1%
 嘬	tshe
 才	dze
 纔	dze
@@ -7897,6 +7897,7 @@ import_tables:
 謜	tshoe
 舛	tshoe
 荈	tshoe
+啐	tshoe	1%
 躥	tshoe
 鑹	tshoe
 爨	tshoe
@@ -16879,6 +16880,7 @@ import_tables:
 蜹	gnioq
 恧	gnioq
 沑	gnioq
+唷	yoq
 筆	piq
 潷	piq
 𢴩	piq
@@ -18264,7 +18266,6 @@ import_tables:
 育	yuq
 蜟	yuq
 錥	yuq
-唷	yuq
 淯	yuq
 堉	yuq
 棛	yuq
@@ -21999,7 +22000,7 @@ import_tables:
 阿爺孫子	aq ya sen tsy	55
 阿姨	aq yi
 阿裏	aq yi	578
-啊唷哇	aq yuq ua
+啊唷哇	aq yoq ua
 阿賊揹板凳	aq zaq pei pae ten
 阿壽哥	aq zhieu kou
 鴨舌頭	aq zhiq deu
@@ -22081,7 +22082,6 @@ import_tables:
 彭彭揚	ban ban yan	55
 甏腳	ban ciaq	55
 棚蟲	ban dzon	55
-蟛蟲	ban dzon	55
 碰着	ban dzoq
 蚌殼油	ban khoq yeu	55
 棚梯	ban the	55
@@ -22425,11 +22425,15 @@ import_tables:
 別采	biq tshe	418
 𧼱出	biq tshyuq	55
 別轉	biq tsoe
-別塢蕩	biq u daon
-別塢頭	biq u deu	55
-別塢湯	biq u thaon	55
-別塢態	biq u the	55
-別塢采	biq u tshe	418
+別烏蕩	biq u daon
+別烏頭	biq u deu
+別烏賽	biq u se
+別烏碎	biq u sei
+別烏湯	biq u thaon
+別烏態	biq u the
+別烏退	biq u thei
+別烏采	biq u tshe	55
+別烏處	biq u tshyu
 𧼱勿着	biq vaq dzoq
 𧼱弗着	biq vaq dzoq	55
 𧼱勿着	biq vaq zoq
@@ -24166,15 +24170,14 @@ import_tables:
 淡沙沙	dae so so	55
 淡水刮搭	dae syu kuaq taq	418
 淡水毛氣	dae syu mau chi	578
-淡水毛帳	dae syu mau cian	55
 淡水毛漿	dae syu mau cian	55
 淡水水	dae syu syu	55
 蛋湯	dae thaon	418
 蛋炒飯	dae tshau vae
 淡菜	dae tshe
 淡竹	dae tsoq	55
-𥲄竹	dae tsoq	55
-𥲄竹液	dae tsoq yiq
+𥲄竹	dae tsoq
+淡竹液	dae tsoq yiq
 彈子	dae tsy
 彈子棋	dae tsy ji	55
 彈嘴	dae tsyu	55
@@ -26074,6 +26077,7 @@ import_tables:
 壕溝	ghau keu
 豪𢜶	ghau sau	418
 豪𢜶快點	ghau sau khua ti
+噢唷	ghau yoq
 孩兒骨	ghe er kuaq
 嗐嗐	ghe ghe	55
 害連白道場	ghe li baq dau jian	55
@@ -27569,7 +27573,7 @@ import_tables:
 應家埭	in ko da
 陰㫰布衫	in laon pu sae	55
 陰㫰絲	in laon sy	55
-蔭涼	in lian
+陰涼	in lian
 陰曆	in liq
 𢷍米	in mi
 印板	in pae	55
@@ -27999,7 +28003,7 @@ import_tables:
 噦氣弗轉	iuq chi vaq tsoe	55
 噦噦塞塞	iuq iuq saq saq	55
 郁家墳	iuq ko ven
-纏排頭	ji ba deu
+纏牌頭	ji ba deu
 旗袍	ji bau
 旗袍裙	ji bau jiun	55
 纏笡	ji chia	55
@@ -30564,7 +30568,6 @@ import_tables:
 冷灰豆爆	lan huei deu pau
 冷灰頭爆	lan huei deu pau	55
 冷幽幽	lan ieu ieu	55
-冷蔭	lan in	55
 冷陰	lan in	55
 冷開水	lan khe syu	55
 冷角落頭	lan koq loq deu	55
@@ -33702,8 +33705,8 @@ import_tables:
 惡嘴眼相	oq tsyu ngae shian	55
 屋檐	oq yi
 惡形惡狀	oq yin oq dzaon
-喔唷	oq yuq
-喔唷哇	oq yuq ua
+喔唷	oq yoq
+喔唷哇	oq yoq ua
 屙背出	ou bei tshyuq
 涴背出	ou bei tshyuq	55
 屙臭	ou chieu
@@ -34263,7 +34266,6 @@ import_tables:
 邊旁	pi baon
 扁尖	pi ci	55
 篦䇫	pi ci	55
-篦箕	pi ci	55
 變精作怪	pi cin tsoq kua
 扁豆	pi deu
 扁頭	pi deu
@@ -34358,7 +34360,6 @@ import_tables:
 屏勒牢	pin laq lau
 屏牢	pin lau
 冰冰瀴	pin pin in	55
-冰冰陰	pin pin in	55
 冰冰冷	pin pin lan	418
 併併當當	pin pin taon taon
 嬪相	pin shian	55
@@ -35035,7 +35036,6 @@ import_tables:
 死藤飯瓜	shi den vae kuo
 死掉	shi diau
 鮮朵朵	shi do do	55
-細粉	shi fen
 線粉	shi fen
 死後滿身紅	shi gheu mun shin ghon
 仙人	shi gnin
@@ -35767,8 +35767,16 @@ import_tables:
 啥體	so thi	578
 啥東西	so ton shi
 紗窗	so tshaon
+啥烏蕩	so u daon
+啥烏頭	so u deu
 沙胡嚨	so u lon
-啥塢采	so u tshe
+啥烏賽	so u se
+啥烏碎	so u sei
+啥烏湯	so u thaon
+啥烏態	so u the
+啥烏退	so u thei
+啥烏采	so u tshe
+啥烏處	so u tshyu
 啥犯着	so vae dzoq	55
 啥犯着	so vae zoq	55
 啥會	so wei	55
@@ -35901,6 +35909,15 @@ import_tables:
 啥體	soq thi	8000
 啥東西	soq ton shi
 束子	soq tsy	55
+啥烏蕩	soq u daon
+啥烏頭	soq u deu
+啥烏賽	soq u se
+啥烏碎	soq u sei
+啥烏湯	soq u thaon
+啥烏態	soq u the
+啥烏退	soq u thei
+啥烏采	soq u tshe
+啥烏處	soq u tshyu
 啥會	soq wei	55
 宿夜	soq ya	418
 啥有	soq yeu	55
@@ -35954,6 +35971,15 @@ import_tables:
 啥體	sou thi	578
 啥東西	sou ton shi
 梭子	sou tsy
+啥烏蕩	sou u daon
+啥烏頭	sou u deu
+啥烏賽	sou u se
+啥烏碎	sou u sei
+啥烏湯	sou u thaon
+啥烏態	sou u the
+啥烏退	sou u thei
+啥烏采	sou u tshe
+啥烏處	sou u tshyu
 啥犯着	sou vae dzoq	55
 啥犯着	sou vae zoq	55
 啥事體啦	sou zy thi la
@@ -37149,7 +37175,6 @@ import_tables:
 統貨	thon hou
 通關手	thon kuae shieu	55
 痛稀稀	thon shi shi	55
-統統樣樣	thon thon gnian gnian
 通通樣樣	thon thon gnian gnian
 統扯	thon tsha	55
 統扯	thon tsho	55
@@ -38178,6 +38203,7 @@ import_tables:
 彩燈懸凌宕	tshe ten yu lin dan
 菜湯淘飯	tshe thaon dau vae
 菜湯滷水	tshe thaon lu syu
+啐啐	tshe tshe
 猜猜看	tshe tshe khe
 菜子	tshe tsy
 菜籽	tshe tsy
@@ -38195,6 +38221,8 @@ import_tables:
 𢶀耳朵皮	tshei ng to bi
 𪙞牙	tshei ngo	55
 崔衙前	tshei ngo zhi
+啐啐	tshei tshei
+啐活靈	tshei waq lin
 忖啊	tshen a
 寸白蛇	tshen baq dzo
 忖抱	tshen bau
@@ -38373,8 +38401,7 @@ import_tables:
 湊隊夥	tsheu dei hou
 湊隊家	tsheu dei ko	55
 湊頭	tsheu deu	55
-叉牌頭	tsho ba deu	55
-扯排頭	tsho ba deu
+扯牌頭	tsho ba deu	55
 扯平	tsho bin
 扯篷	tsho bon
 扯蓬	tsho bon	55
@@ -38477,6 +38504,7 @@ import_tables:
 穿頂	tshoe tin	55
 穿罩衫	tshoe tsau sae
 穿襯衫	tshoe tshen sae
+啐啐	tshoe tshoe
 穿穿看	tshoe tshoe khe
 穿棕繃個	tshoe tson pan ghoq	55
 穿棕繃個	tshoe tson pan goq	55
@@ -38485,6 +38513,7 @@ import_tables:
 穿弗及	tshoe vaq ji	1
 穿勿來	tshoe vaq le
 穿弗來	tshoe vaq le	1
+啐活靈	tshoe waq lin
 穿羊絨衫	tshoe yan gnion sae
 穿羊毛衫	tshoe yan mau sae
 穿羽絨衫	tshoe yu gnion sae
@@ -39215,7 +39244,7 @@ import_tables:
 烏龜頭蟲	u ciu deu dzon	55
 烏龜強盜坯	u ciu jian dau phei	55
 萵苣筍	u ciu syun	55
-塢蕩	u daon	55
+烏蕩	u daon	55
 烏頭	u deu
 烏肚腸	u du jian
 衣櫥	u dzyu
@@ -39245,8 +39274,8 @@ import_tables:
 胡嚨哮管	u lon hau kun
 烏龍送	u lon son	55
 烏斑	u pae	55
-塢賽	u se	55
-塢碎	u sei
+烏賽	u se	55
+烏碎	u sei
 捂小雞	u shiau ci
 烏稍蛇	u shiau dzo
 烏筱絲	u shiau sy	55
@@ -40241,8 +40270,9 @@ import_tables:
 楊家𡍲	yan ko taq
 揚穀	yan koq
 羊角	yan koq
-楊辣	yan laq	55
-楊辣蜂𤈦	yan laq fon mei
+洋辣	yan laq	55
+洋辣蜂毛	yan laq fon mau
+洋辣蜂𤈦	yan laq fon mei
 洋辣毛	yan laq mau	55
 洋蠟燭	yan laq tsoq	55
 楊柳腰	yan lieu iau	55
@@ -40316,7 +40346,6 @@ import_tables:
 藥芹	yaq jin	55
 藥膏	yaq kau
 藥腥氣	yaq shin chi	55
-藥沙罐	yaq so kun	55
 藥砂罐	yaq so kun	55
 藥水肥皂	yaq syu bi zau	55
 藥戥子	yaq ten tsy	55
