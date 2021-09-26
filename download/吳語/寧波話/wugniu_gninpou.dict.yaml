@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2021.09.10"
+version: "2021.09.25"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -14542,7 +14542,6 @@ import_tables:
 輷	hon
 渹	hon
 鍧	hon
-紅	hon	0%
 舡	hon
 焢	hon
 蕻	hon
@@ -21175,7 +21174,6 @@ import_tables:
 䂵	kon
 龚	kon
 𫐒	hon
-红	hon
 唝	hon
 轰	hon
 红	ghon
@@ -21807,7 +21805,6 @@ import_tables:
 
 挨排生	a ba san	55
 矮棚狗	a ban keu	55
-矮趽狗	a ban keu	55
 挨擠勿開	a ci vaq khe
 挨擠弗開	a ci vaq khe	55
 挨埭	a da	55
@@ -22127,7 +22124,6 @@ import_tables:
 白蒲	baq bu	55
 白蒲西瓜	baq bu shi kuo	55
 白蒲棗	baq bu tsau	55
-拔秋	baq chieu	55
 祓秋	baq chieu	55
 白金	baq cin
 白糖	baq daon
@@ -25347,8 +25343,7 @@ import_tables:
 蛇苗	dzo miau	55
 茶農	dzo non
 茶杯	dzo pei
-蛇手	dzo shi	55
-茶手	dzo shieu	55
+蛇手	dzo shi
 蛇手	dzo shieu	55
 茶水	dzo syu
 蛇褪殼	dzo then khoq
@@ -25575,7 +25570,7 @@ import_tables:
 泛登	fae ten	55
 泛登陸阿二	fae ten loq aq gni
 翻天山	fae thi sae	55
-翻頂倒	fae tin tau	418
+翻丁倒	fae tin tau	418
 反則	fae tsaq	55
 翻轉做重梅	fae tsoe tsou dzon mei
 翻肚	fae tu	55
@@ -28484,7 +28479,6 @@ import_tables:
 槓箱	kaon shian	55
 講小貨說話	kaon shiau hou syuq wo
 缸沙	kaon so	55
-缸砂	kaon so	55
 鋼絲	kaon sy
 鋼絲牀	kaon sy zaon
 講書	kaon syu
@@ -31426,7 +31420,7 @@ import_tables:
 弄好挔好	lon hau i hau
 龍蝦	lon huo
 礱糠	lon khaon
-籠褲	lon khu	55
+籠褲	lon khu
 襱褲	lon khu	55
 礱穀	lon koq	55
 弄過去	lon kou chi
@@ -32646,7 +32640,6 @@ import_tables:
 米仁湯	mi zyun thaon
 廟堂人	miau daon gnin	55
 描紅簿	miau ghon bu	55
-苗公	miau kon	55
 苗紅	miau kon	55
 妙山	miau sae
 苗子	miau tsy
@@ -33711,8 +33704,7 @@ import_tables:
 屙缸邊頭罰願	ou kaon pi deu vaq gniu
 涴缸邊頭罰願	ou kaon pi deu vaq gniu
 屙缸沙	ou kaon so
-屙缸砂	ou kaon so	55
-涴缸砂	ou kaon so	55
+涴缸沙	ou kaon so	55
 屙缸無賴	ou kaon vu la
 涴缸無賴	ou kaon vu la	1
 屙缸無賴	ou kaon wu- la
@@ -35360,8 +35352,7 @@ import_tables:
 小刀子	shiau tau tsy
 小討飯一樣	shiau thau vae iq yan
 小偷	shiau theu
-小㪗卵	shiau theu loe	55
-小偷卵	shiau theu loe
+小偷卵	shiau theu loe	55
 肖兔	shiau thu
 肖兔子	shiau thu tsy
 小店	shiau ti
@@ -36174,7 +36165,6 @@ import_tables:
 雪刮淡	syuq kuaq dae	418
 雪刮泥淡	syuq kuaq gni dae	55
 雪刮斯淡	syuq kuaq sy dae	578
-雪裏紅	syuq li ghon
 雪裏蕻	syuq li hon
 雪裏斯白	syuq li sy baq	55
 雪亮	syuq lian
@@ -36539,7 +36529,7 @@ import_tables:
 倒篤筋倒	tau toq cin tau	55
 倒篤大糊	tau toq dou wu
 倒篤和尚	tau toq ghou zaon
-倒篤頂倒	tau toq tin tau	55
+倒篤丁倒	tau toq tin tau	55
 倒扎鉤	tau tsaq keu	55
 倒竈	tau tsau
 倒作	tau tsoq	55
@@ -36875,7 +36865,6 @@ import_tables:
 貪小	thei shiau
 貪小失大	thei shiau syuq dou
 貪嘴落夜	thei tsyu loq ya	55
-推位	thei wei	55
 推爲	thei wei
 褪缺	then chiuq	55
 褪腳毛蟹	then ciaq mau ha
@@ -37302,7 +37291,7 @@ import_tables:
 頂缺個	tin chiuq goq
 頂基本	tin ci pen
 頂簡單	tin ci tae
-頂僵骨粒	tin cian kuaq liq	55
+丁僵骨粒	tin cian kuaq liq	55
 頂真	tin cin
 頂進	tin cin	55
 頂貴	tin ciu
@@ -37357,7 +37346,6 @@ import_tables:
 頂難得	tin nae taq
 頂硬	tin ngan
 丁硬骨粒	tin ngan kuaq liq	55
-頂硬骨粒	tin ngan kuaq liq	55
 頂噁心	tin oq shin
 頂漂亮	tin phiau lian
 頂怕	tin pho
@@ -37369,7 +37357,7 @@ import_tables:
 頂小個	tin shiau goq
 叮心咬肺	tin shin ngau fi
 丁獅子	tin sy tsy	55
-頂倒	tin tau	55
+丁倒	tin tau	55
 頂推扳	tin thei pae
 頂推扳個	tin thei pae ghoq
 頂推扳個	tin thei pae goq
@@ -37723,8 +37711,7 @@ import_tables:
 卒格爛眼	tsaq kaq lae ngae
 側格楞敦	tsaq kaq len ten	55
 扎鉤	tsaq keu	55
-摘公	tsaq kon	55
-摘紅	tsaq kon
+摘紅	tsaq kon	55
 側角	tsaq koq	55
 側過來	tsaq kou le
 扎括	tsaq kuaq
@@ -38019,7 +38006,6 @@ import_tables:
 撮引	tshaq yin	55
 撮引烏龜	tshaq yin u ciu
 珿齊	tshaq zhi	55
-簇齊	tshaq zhi	55
 拆蝕	tshaq zhiq	55
 撮着	tshaq zoq
 撮着撮	tshaq zoq tshaq
@@ -39299,8 +39285,6 @@ import_tables:
 搵眼的	uen ngae tiq
 搵筆	uen piq
 瘟孫	uen sen	55
-瘟牲	uen sen	55
-瘟生	uen sen	55
 瘟孫兒子	uen sen ng tsy
 溫吞	uen then
 溫吞水	uen then syu	55
@@ -41556,7 +41540,6 @@ import_tables:
 黃狗貓滰肉	waon ki-ke mae jian gnioq
 黃狗貓滰肉	wu keu mae jian gnioq
 黃狗貓滰肉	wu ki-ke mae jian gnioq
-立秋西瓜拔拔秋	liq chieu shi kuo baq baq chieu
 立秋西瓜祓祓秋	liq chieu shi kuo baq baq chieu
 八月十六度中秋	paq yuq zyuq loq du tson chieu
 鴨肉骨頭水搨糕	aq gnioq kuaq deu syu thaq kau
