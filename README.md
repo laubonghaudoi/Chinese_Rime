@@ -112,8 +112,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共 113 個方案）
-<br/>Full list of collected schemas (113 schemas in total)</h3>
+<h3>方案列表（共 115 個方案）
+<br/>Full list of collected schemas (115 schemas in total)</h3>
 
 
 <ul>
@@ -159,6 +159,12 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
           唐韻（中古漢語）拼音方案 ℞ <code>rime-aca/rime-dangrvond</code>
           <ul>
             <li>唐韻 - <code>Dangrvond</code></li>
+          </ul>
+        </li>
+        <li>
+          通古羅馬字 ℞ <code>baopaau/rime-toongcuu</code>
+          <ul>
+            <li>通古羅馬字 - <code>toongcuu</code></li>
           </ul>
         </li>
         <li>中古汉拼 - <code>dghp</code></li>
@@ -378,6 +384,12 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
           </ul>
         </li>
         <li>標準吳語 - <code>pcngng</code></li>
+        <li>
+          溫州話 ℞ <code>pearapple123/rime-iuciou</code>
+          <ul>
+            <li>甌語輸入輔 - <code>iuciou</code></li>
+          </ul>
+        </li>
       </ul>
     </details>
   </li>
@@ -646,8 +658,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
 </ul>
 
-<h3>配方列表（共 45 個配方）
-<br/>List of recipes (45 recipes in total)</h3>
+<h3>配方列表（共 47 個配方）
+<br/>List of recipes (47 recipes in total)</h3>
 
 <ul>
   <li>
@@ -668,6 +680,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         <li>廣韻段毄攴字灋 ℞ <code>rime-aca/rime-kmg</code></li>
         <li>中古四拼 ℞ <code>inzoi/inzoi.github.io</code></li>
         <li>唐韻（中古漢語）拼音方案 ℞ <code>rime-aca/rime-dangrvond</code></li>
+        <li>通古羅馬字 ℞ <code>baopaau/rime-toongcuu</code></li>
       </ul>
     </details>
   </li>
@@ -760,6 +773,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         <li>樂清話拼音輸入法 ℞ <code>lotem/rime-aoyu</code></li>
         <li>吳語杭州話輸入法 ℞ <code>saeziae/hangzhou_wu</code></li>
         <li>標準吳語 ℞ <code>saeziae/nguphing</code></li>
+        <li>溫州話 ℞ <code>pearapple123/rime-iuciou</code></li>
       </ul>
     </details>
   </li>
