@@ -1,0 +1,66 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: iuciou
+  name: 甌語輸入輔
+  version: "1.0.0"
+  author:
+    - 空埃
+    - Telegram 〈@nezake5〉
+    - email 〈stickytoffeepuddingwithcaramel@gmail.com〉
+    - Discord 〈空埃#3329〉
+  description:
+    用「滬語」拼音的溫州話的輸入法
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: simplification
+    states: [漢字, 汉字]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    states: [ 中式, 西式 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: abcdefghijklmnopqrstuvwxyz
+  delimiter: " '"
+  algebra:
+
+translator:
+  dictionary: iuciou
+  spelling_hints: 5
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default  
