@@ -1,0 +1,137 @@
+# Rime schema
+# encoding: UTF-8 w/o BOM
+
+schema:
+  schema_id: fengyo
+  name: 汾阳拼音
+  version: "2021.11.24"
+  author:
+    - 字表录入：Hynuza
+    - 词汇表提供：李卫锋
+    - 字表、词汇表处理：侯睿
+  description:
+    - 字表依1963年赵骏程著《汾阳话与普通话》及2018年李卫锋著《汾阳方言研究》同音字表增补整理而成。
+    - 词汇表来自《汾阳方言研究》由作者李卫锋提供
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: half_shape
+    states: [ 全角, 半角 ]
+  - name: ascii_punct
+    states: [ ，。, ，． ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+
+    # 兼容漢語拼音的拼寫習慣
+    - derive/au/ao/
+    - derive/jy/ju/
+    - derive/qy/qu/
+    - derive/xy/xu/
+    - derive/ny/nu/
+    - derive/uo/o/
+    - derive/yo/io/
+    - derive/nr/nz/
+    - derive/uei/ui/
+    - derive/iou/iu/
+    - derive/ung/ong/
+    - derive/yng/iong/
+
+    # 允許省略音節尾的喉塞符號
+    - derive/eq/e/
+
+    # 兼容前后鼻音
+    - derive/eng/en/
+    - derive/in/ing/
+    - derive/an/ang/
+
+    # 兼容平翘
+    - derive/zhu/zu/
+    - derive/chu/cu/
+    - derive/shu/su/
+
+    - derive/zha/za/
+    - derive/cha/ca/
+    - derive/sha/sa/
+
+    - derive/zhw/zw/
+    - derive/chw/cw/
+    - derive/shw/sw/
+
+    - derive/zhou/zou/
+    - derive/chou/cou/
+    - derive/shou/sou/
+
+    - derive/zhe/ze/
+    - derive/che/ce/
+    - derive/she/se/
+    
+    - derive/ze/zhe/
+    - derive/ce/che/
+    - derive/se/she/
+
+    # 首字母簡拼
+    - abbrev/^([a-z]).+$/$1/
+
+
+translator:
+  dictionary: fengyo
+  spelling_hints: 5
+
+  comment_format: &comment_rules
+    # 將聲調顯示成上標
+    - xlit/12345678/¹²³⁴⁵⁶⁷⁸/
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔输入汉语拼音反查汾阳话拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+  comment_format: *comment_rules
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"

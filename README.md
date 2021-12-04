@@ -112,8 +112,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共 115 個方案）
-<br/>Full list of collected schemas (115 schemas in total)</h3>
+<h3>方案列表（共 116 個方案）
+<br/>Full list of collected schemas (116 schemas in total)</h3>
 
 
 <ul>
@@ -289,6 +289,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
       <ul>
         <li>嘉樂泉話 - <code>jieny</code></li>
         <li>晋拼解州片 - <code>haitrou</code></li>
+        <li>汾阳拼音 - <code>fengyo</code></li>
       </ul>
     </details>
   </li>
@@ -658,8 +659,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
 </ul>
 
-<h3>配方列表（共 47 個配方）
-<br/>List of recipes (47 recipes in total)</h3>
+<h3>配方列表（共 48 個配方）
+<br/>List of recipes (48 recipes in total)</h3>
 
 <ul>
   <li>
@@ -753,7 +754,9 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   <li>
     <details>
       <summary>晉語 Jin</summary>
-      <b>暫缺 Not available</b>
+      <ul>
+        <li>晋语汾阳话输入方案 ℞ <code>Hynuza/fengyo</code></li>
+      </ul>
     </details>
   </li>
   <li>
