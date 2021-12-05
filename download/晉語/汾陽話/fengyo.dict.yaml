@@ -7,7 +7,8 @@
 name: fengyo
 version: "2021.11.24"
 sort: by_weight
-use_preset_vocabulary: true
+vocabulary: essay-zh-hans
+# use_preset_vocabulary: true
 import_tables:
 - fengyo_word
 ...
@@ -297,6 +298,8 @@ import_tables:
 意	ii
 议	ii
 义	ii
+宜	ii
+谊	ii
 亿	ii
 易	ii
 医	ii
