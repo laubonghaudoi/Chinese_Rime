@@ -659,8 +659,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
 </ul>
 
-<h3>配方列表（共 48 個配方）
-<br/>List of recipes (48 recipes in total)</h3>
+<h3>配方列表（共 49 個配方）
+<br/>List of recipes (49 recipes in total)</h3>
 
 <ul>
   <li>
@@ -756,6 +756,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
       <summary>晉語 Jin</summary>
       <ul>
         <li>晋语汾阳话输入方案 ℞ <code>Hynuza/fengyo</code></li>
+        <li>嘉樂泉話 ℞ <code>iaoiezaon/rime-jieny</code></li>
       </ul>
     </details>
   </li>
@@ -916,8 +917,6 @@ For detailed information of the collected schemas in the download package, pleas
   - [梅縣音](https://github.com/DaengGWokFook/Asian-Languages/tree/master/Kak-Hak/Yat-Toi)
 - 閩東語
   - [平話字表 (閩東語‣福州話)](https://github.com/only3km/ciklinbekin)
-- 晉語
-  - [嘉樂泉話](https://github.com/osfans/rime-tool/tree/master/data/y)
 - 域外方音
   - [古壮字拼音](https://zhuanlan.zhihu.com/p/24138023)
 
