@@ -16,7 +16,7 @@
 
 ---
 name: wugniu_gninpou.phrase
-version: "2022.01.05"
+version: "2022.01.23"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -1166,10 +1166,18 @@ use_preset_vocabulary: true
 行程卡	yin jin kha
 行程碼	yin jin mo
 風險區域
+高風險
 高風險地區
+高風險區域
+中風險
 中風險地區
+中風險區域
+低風險
 低風險地區
+低風險區域
+中高風險
 中高風險地區
+中高風險區域
 核酸檢測
 核酸證明
 核酸檢測報告
@@ -1193,6 +1201,7 @@ use_preset_vocabulary: true
 封城
 封校
 封控
+封控區
 封閉管理
 閉環管理
 閉環轉運
@@ -1202,8 +1211,12 @@ use_preset_vocabulary: true
 社交距離	dzo ciau jiu li
 遠程辦公
 集中隔離	jiq tson kaq li
+集中管理	jiq tson kun li
 居家隔離	ciu cia kaq li
+健康監測	ji khaon kae tshaq
 居家健康監測	ciu cia ji khaon kae tshaq
+居家健康觀察	ciu cia ji khaon kun tshaq
+日常健康監測	zyuq dzaon ji khaon kae tshaq
 密切接觸
 密切接觸者
 密接
@@ -1211,6 +1224,12 @@ use_preset_vocabulary: true
 流行病學調查	lieu yin bin yuq diau dzo
 流調
 傳播路徑
+家庭傳播	cia din dzoe pou
+學校傳播	gho yau dzoe pou
+學堂傳播	gho daon dzoe pou
+傳播鏈條
+傳播鏈
+終末消毒
 無接觸
 無接觸配送
 大規模篩查	da kuei mou sy dzo
