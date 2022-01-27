@@ -112,8 +112,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共 116 個方案）
-<br/>Full list of collected schemas (116 schemas in total)</h3>
+<h3>方案列表（共 117 個方案）
+<br/>Full list of collected schemas (117 schemas in total)</h3>
 
 
 <ul>
@@ -665,8 +665,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
 </ul>
 
-<h3>配方列表（共 49 個配方）
-<br/>List of recipes (49 recipes in total)</h3>
+<h3>配方列表（共 50 個配方）
+<br/>List of recipes (50 recipes in total)</h3>
 
 <ul>
   <li>
@@ -943,7 +943,8 @@ For detailed information of the collected schemas in the download package, pleas
       <details>
         <summary>中古漢語 Middle Chinese</summary>
         <ul>
-          <li><a href="https://zh.wikipedia.org/wiki/User:Polyhedron/%E4%B8%AD%E5%8F%A4%E6%BC%A2%E8%AA%9E%E6%8B%BC%E9%9F%B3">中古漢語拼音</a></li>
+          <li><a href="https://zh.wikipedia.org/wiki/User:Polyhedron/%E4%B8%AD%E5%8F%A4%E6%BC%A2%E8%AA%9E%E6%8B%BC%E9%9F%B3">古韻羅馬字中古漢語拼音</a></li>
+          <li><a href="https://zh.wikipedia.org/wiki/User:%E6%9F%B3%E6%BC%AB/%E4%B8%AD%E5%8F%A4%E6%BC%A2%E8%AA%9E%E6%8B%BC%E9%9F%B3%EF%BC%88%E5%BB%A3%E9%80%9A%E7%BE%85%E9%A6%AC%E5%AD%97%EF%BC%89">廣通羅馬字中古漢語拼音</a></li>
           <li><a href="https://bkrs.info/taolun/attachment.php?aid=637">中古漢語基礎教程</a></li>
           <li><a href="http://www.kaom.net/">古音小鏡</a></li>
           <li><a href="https://inzoi.github.io/dg.html">中古四拼与汉字相互转换</a></li>
