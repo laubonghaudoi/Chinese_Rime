@@ -1,0 +1,111 @@
+# Rime schema
+# encoding: UTF-8 w/o BOM
+
+schema:
+  schema_id: guangtong
+  name: 廣通中古拼音
+  version: "2022.01.13"
+  author:
+    - 柳漫 <uli_loewi@hotmail.com>
+  description: |
+    廣通中古拼音輸入法
+    拼音教程 https://zhuanlan.zhihu.com/p/453393955
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: half_shape
+    states: [ 全角, 半角 ]
+  - name: ascii_punct
+    states: [ ，。, ，． ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvüutsrqponmlkjihgfedcbäa
+  delimiter: " '"
+  algebra:
+    # 去掉聲調
+    - xform/[́]//
+    - xform/[̀]//
+    
+    # 替代字母
+    - derive/ä/aa/
+    - derive/ü/uu/
+    - derive/ö/oo/
+    - derive/ë/ee/
+    - derive/ï/ii/
+    
+    # 晚期輕脣音
+    - derive/bü/bvuu/    
+    - derive/byo/bvyo/   
+    - derive/byu/bvyu/
+    - derive/pü/pfuu/    
+    - derive/pyo/pfyo/   
+    - derive/pyu/pfyu/
+    - derive/phü/pfhuu/    
+    - derive/phyo/pfhyo/   
+    - derive/phyu/pfhyu/
+    - derive/mü/mvuu/ 
+
+    # 早期四等無介音
+    - derive/iei/ei/    
+    - derive/vei/oei/   
+    - derive/ien/en/
+    - derive/ven/oen/    
+    - derive/iem/em/
+    - derive/ieu/eu/   
+
+translator:
+  dictionary: guangtong
+  spelling_hints: 5
+  preedit_format:
+    # 便捷鍵還原
+    - xform/uu/ü/
+    - xform/aa/ä/
+    - xform/ee/ë/
+    - xform/oo/ö/
+    - xform/ii/ï/
+
+  comment_format: &comment_rules
+    # 將聲調顯示成上標
+    - xlit/12345/¹²³⁴⁵/
+
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-zäüöëï]*'?$"

@@ -170,6 +170,12 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         <li>中古汉拼 - <code>dghp</code></li>
         <li>廣韻羅馬字 - <code>kuankhiunn</code></li>
         <li>廣韻查詢 - <code>middle_chinese_lookup</code></li>
+        <li>
+          廣通羅馬字 ℞ <code>uliloewi/guang2tong1zhong1gu3</code>
+          <ul>
+            <li>廣通羅馬字 - <code>guangtong</code></li>
+          </ul>
+        </li>
       </ul>
     </details>
   </li>
@@ -682,6 +688,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         <li>中古四拼 ℞ <code>inzoi/inzoi.github.io</code></li>
         <li>唐韻（中古漢語）拼音方案 ℞ <code>rime-aca/rime-dangrvond</code></li>
         <li>通古羅馬字 ℞ <code>baopaau/rime-toongcuu</code></li>
+        <li>廣通羅馬字 ℞ <code>uliloewi/guang2tong1zhong1gu3</code></li>
       </ul>
     </details>
   </li>
