@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2022.02.01"
+version: "2022.02.13"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -1856,6 +1856,7 @@ import_tables:
 緘	ci	0%
 靬	ci
 幵	ci
+趼	ci
 豣	ci
 麉	ci
 玪	ci
@@ -2565,7 +2566,6 @@ import_tables:
 豜	gni
 喭	gni
 顑	gni
-趼	kni
 研	kni
 黏	kni
 粘	kni
@@ -11901,7 +11901,6 @@ import_tables:
 体	ben
 獖	ben
 笨	ben
-捹	ben
 門	men
 們	men
 悶	men	5%
@@ -15823,7 +15822,6 @@ import_tables:
 曡	diaq
 疊	diaq
 畳	diaq
-沓	diaq	5%
 揲	diaq
 掠	liaq
 略	liaq
@@ -22134,7 +22132,7 @@ import_tables:
 懊煞	au saq	55
 拗手	au shieu	55
 拗手勁	au shieu jin	55
-拗鬥	au teu	55
+拗斗	au teu	55
 嶴底	au ti	55
 鏖糟	au tsau	418
 鏖糟氣	au tsau chi	55
@@ -22264,7 +22262,6 @@ import_tables:
 白大頭	baq dou deu	55
 白肚皮	baq du bi	55
 白塗塗	baq du du	55
-白荼荼	baq du du
 白肚裁	baq du ze
 白殕	baq fu	55
 白乎乎	baq fu fu	55
@@ -22368,7 +22365,6 @@ import_tables:
 刨痧氣	bau so chi
 跑單幫	bau tae paon
 刨黃瓜	bau waon kuo
-暴醃	bau yi
 暴鹽	bau yi	55
 暴鹽帶魚	bau yi ta ng
 抱上轎	bau zaon jiau	55
@@ -22405,7 +22401,7 @@ import_tables:
 坒坒聳	bi bi son
 枇杷	bi bo
 琵琶襟	bi bo cin	55
-蹁腳	bi ciaq	55
+蹁腳	bi cian	55
 皮大衣	bi da i
 皮大王	bi da waon	55
 皮蛋	bi dae
@@ -22456,7 +22452,6 @@ import_tables:
 被單	bi tae
 便當	bi taon
 被擋頭	bi taon deu	55
-被檔頭	bi taon deu
 被笚	bi taq	55
 蹁倒	bi tau	55
 皮頓頓	bi ten ten	55
@@ -22505,8 +22500,7 @@ import_tables:
 病字頭	bin zy deu	55
 𨂅𨂅	biq biq	55
 別別牢	biq biq lau
-別別跳	biq biq thiau	55
-𨂅𨂅跳	biq biq thiau
+𨂅𨂅跳	biq biq thiau	55
 蹩腳	biq ciaq
 蹩腳貨	biq ciaq hou	55
 別針	biq cin
@@ -22599,18 +22593,17 @@ import_tables:
 埠頭	bu dei
 埠頭	bu deu
 伏豆芽	bu deu ngo	55
-孵豆芽	bu deu ngo	55
+孵豆芽	bu deu ngo
 埠頭黃鱔	bu deu waon yi
 蒲團	bu doe
 蒲鞋	bu gha
 伏秧子	bu ian tsy	55
-孵秧子	bu ian tsy	55
+孵秧子	bu ian tsy
 蒲薺	bu ji	578
 蒲薺甜嫩嫩	bu ji di nen nen
 蒲薺扁窄窄	bu ji pi tsaq tsaq
 步鴣	bu ku	55
 篰籃	bu lae	55
-𥳖籃	bu lae
 蒲帽	bu mau	55
 蒲包	bu pau
 菩薩	bu saq
@@ -22619,11 +22612,11 @@ import_tables:
 莆仙語	bu shi gniu
 莆仙話	bu shi wo
 伏小雞	bu shiau ci	55
-孵小雞	bu shiau ci	55
+孵小雞	bu shiau ci
 蒲墩	bu ten	55
 步梯	bu the
 伏胎蛋	bu the dae	55
-孵胎蛋	bu the dae	55
+孵胎蛋	bu the dae
 步梯	bu thi
 蒲宗殼	bu tson khoq
 簿子	bu tsy
@@ -22666,7 +22659,6 @@ import_tables:
 欠大	chi dou
 棲蟲	chi dzon	55
 千恩萬謝	chi en vae zhia
-去風	chi fon	55
 起風	chi fon
 氣呼大呼	chi fu da fu	55
 起戇聲	chi gaon shin
@@ -22796,13 +22788,12 @@ import_tables:
 搶毛	chian mau	55
 搶翁	chian on	55
 嗆拍	chian phaq	55
-嗆潑	chian phaq
 羌餅	chian pin	55
 槍笆	chian po	55
 搶三	chian sae	55
 腔勢	chian syu
 搶犯	chian vae	55
-綽號	chiaq ghau
+綽號	chiaq ghau	55
 翹辮子	chiau bi tsy
 趬趬	chiau chiau	55
 翹翹板	chiau chiau pae
@@ -22907,7 +22898,6 @@ import_tables:
 秤花	chin huo	55
 清花理白	chin huo li baq
 青衣	chin i
-青櫻櫻	chin in in	55
 清一色	chin iq saq
 趁高鐵	chin kau thiq
 秤鉤	chin keu
@@ -23055,9 +23045,8 @@ import_tables:
 喫反耙	chioq fae bo
 喫翻桌	chioq fae tsoq	55
 喫髮螳螂	chioq faq daon laon	55
-喫髮頭郎	chioq faq deu laon	55
+喫髮頭螂	chioq faq deu laon	55
 喫髮螂	chioq faq laon	55
-喫髮郎	chioq faq laon	55
 喫軋頭	chioq gaq deu
 喫絞絲	chioq gau sy	55
 喫搞勢	chioq gau syu	55
@@ -23181,7 +23170,6 @@ import_tables:
 趞趞奔來	chiq chiq pen le
 䜉䜉嚓嚓	chiq chiq tshaq tshaq
 䜉䜉觸觸	chiq chiq tshoq tshoq
-切切促促	chiq chiq tshoq tshoq	55
 七張	chiq cian
 七九	chiq cieu
 漆帚	chiq cieu	55
@@ -23201,7 +23189,6 @@ import_tables:
 七搞八搞	chiq gau paq gau	55
 緝鞋底	chiq gha ti	55
 七號	chiq ghau
-切號	chiq ghau	55
 挈後腳	chiq gheu ciaq	55
 挈個	chiq ghoq
 七二	chiq gni
@@ -23293,6 +23280,7 @@ import_tables:
 漆匠肚皮	chiq zhian du bi
 七十	chiq zyuq
 七十一	chiq zyuq iq	55
+去風	chiu fon	55
 虧勒	chiu laq	578
 虧煞	chiu saq	578
 虧煞是	chiu saq zy
@@ -23484,13 +23472,11 @@ import_tables:
 張郎灣	cian laon uae
 張網	cian maon
 張網貨	cian maon hou	55
-張貓	cian mau	55
 醬毛蟹	cian mau ha
 仗毛力	cian mau liq	55
 帳門	cian men	55
 張貓	cian mhau	55
 脹面癗	cian mi lei	55
-借米聾	cian mi lon	55
 將面聾	cian mi lon	55
 僵硬	cian ngan
 僵硬骨粒	cian ngan kuaq liq	55
@@ -23498,7 +23484,6 @@ import_tables:
 漿板蛋	cian pae dae
 漿板湯果	cian pae thaon kou
 漿板圓子	cian pae yu tsy
-醬樸氣	cian phoq chi	55
 醬醭氣	cian phoq chi
 槳柄	cian pin	55
 將補	cian pu	55
@@ -23611,7 +23596,6 @@ import_tables:
 腳屙爛臭	ciaq ou lae chieu
 腳涴爛臭	ciaq ou lae chieu	55
 腳板	ciaq pae
-腳班	ciaq pae	55
 腳板面	ciaq pae mi	55
 腳髈	ciaq phaon
 腳魄	ciaq phaq	55
@@ -23814,7 +23798,6 @@ import_tables:
 叫𧐖	ciau li	55
 膠遼官話	ciau liau kun wo
 照面	ciau mi
-絞面	ciau mi
 照明直談	ciau min jiq dae
 澆馬路	ciau mo lu
 焦芽氣	ciau ngo chi	55
@@ -23876,7 +23859,6 @@ import_tables:
 酒家	cieu ko
 周家寮	cieu ko liau
 晝過	cieu kou	578
-晝過晝過	cieu kou cieu kou
 晝過頭	cieu kou deu	578
 晝過飯	cieu kou vae	578
 九梗	cieu kuan
@@ -23899,7 +23881,6 @@ import_tables:
 韭菜	cieu tshe
 韭菜芽	cieu tshe ngo	55
 酒盅	cieu tson
-周捉	cieu tsoq	55
 糾作	cieu tsoq	55
 糾作煞	cieu tsoq saq
 酒足飯飽	cieu tsoq vae pau
@@ -24009,7 +23990,6 @@ import_tables:
 精瘦刮搭	cin seu kuaq taq	55
 京戲	cin shi
 真鏾雞	cin shi ci
-真騸雞	cin shi ci
 正向	cin shian
 金手鐲	cin shieu jiuq
 正式	cin shiq	40000
@@ -24208,7 +24188,7 @@ import_tables:
 大菜	da tshe
 大菜檯子	da tshe de tsy	55
 大菜師父	da tshe sy vu	55
-大菜桌燈	da tshe tsoq ten	55
+大菜桌凳	da tshe tsoq ten	55
 𢪂癢	da yan
 𢪂癢棒	da yan baon	55
 大字	da zy
@@ -24254,7 +24234,6 @@ import_tables:
 談山海經	dae sae he cin	55
 檀香橄欖	dae shian kae lae	55
 檀香扇	dae shian shi	55
-淡㽺㽺	dae shiq shiq
 淡息息	dae shiq shiq	55
 淡沙沙	dae so so	55
 淡水刮搭	dae syu kuaq taq	418
@@ -24280,8 +24259,7 @@ import_tables:
 痰盂罐	dae yu kun	55
 宕賬	dan cian	55
 趤腳叉魚	dan ciaq tsho ng
-宕頭	dan deu	55
-趤頭	dan deu
+趤頭	dan deu	55
 宕日腳	dan gniq ciaq
 趤亨	dan han	55
 趤亨嘸郎	dan han mh laon
@@ -24324,8 +24302,7 @@ import_tables:
 蕩張	daon jian
 蕩梗	daon kan
 糖糕	daon kau
-搪鉛杯	daon khae pei
-搪口杯	daon kheu pei
+盪鉛杯	daon khae pei
 盪口杯	daon kheu pei	55
 唐家匯	daon ko wei
 蕩個	daon kou	578
@@ -24350,7 +24327,6 @@ import_tables:
 蕩岸	daon nge	578
 蕩邊	daon pi	578
 蕩向	daon shian	578
-蕩廂	daon shian	578
 堂兄弟	daon shion di
 搪沙灰	daon so huei
 糖水黃桃	daon syu waon dau
@@ -24409,7 +24385,6 @@ import_tables:
 稻雞	dau ci	55
 稻繫繩	dau ci zhin	55
 掏漿糊	dau cian wu	55
-掏糨糊	dau cian wu	55
 桃膠	dau ciau
 桃膠乾	dau ciau ki-ke
 掏井	dau cin	55
@@ -24419,10 +24394,8 @@ import_tables:
 道頭	dau deu	55
 掏豆腐湯	dau deu vu thaon	55
 道地	dau di
-稻田麻將	dau di mo cian
 稻田麻雀	dau di mo cian	55
 稻桶	dau don	55
-稻桶麻將	dau don mo cian
 稻桶麻雀	dau don mo cian	55
 稻桶響	dau don shian
 稻桶星	dau don shin	55
@@ -24446,7 +24419,6 @@ import_tables:
 稻穀麻雀	dau koq moq cian	55
 掏古	dau ku	55
 掏老古	dau lau ku	55
-淘簍	dau leu	55
 淘籮	dau lou
 稻枚	dau mei	55
 淘米漿泔水	dau mi cian ki-ke syu	55
@@ -24468,7 +24440,6 @@ import_tables:
 陶窯大	dau yau dou
 掏柴柱	dau za dzyu
 掏柴株	dau za tsyu
-稻熟麻將	dau zoq mo cian
 稻熟麻雀	dau zoq mo cian	55
 道士	dau zy
 袋皮	de bi	55
@@ -24488,14 +24459,14 @@ import_tables:
 苔條月餅	de diau yuq pin
 臺虎鉗	de fu ji	55
 抬䞁房	de i vaon	55
-抬轎大皮	de jiau dou bi	55
-抬轎肚皮	de jiau du bi
+抬轎肚皮	de jiau dou bi	55
 抬轎郎	de jiau laon	55
 抬城隍	de jin waon	55
 臺閣	de koq
 抬棺材	de kun ze
 抬老婆	de lau bou	55
 抬老𡢿	de lau gnion	55
+紿落	de loq	55
 怠慢	de mae
 檯布	de pu
 袋衫	de sae	55
@@ -24518,16 +24489,16 @@ import_tables:
 兌糖擔	dei daon tae
 窞窞	dei dei	578
 隊夥	dei hou	55
-隊夥淘裏	dei hou dau li
+隊夥道裏	dei hou dau li
 隊夥家	dei hou ko	55
 兌姑嫂	dei ku sau	55
-窞落	dei loq	55
+紿落	dei loq	55
 藤盤	den bun	55
 庉昶	den chian	55
-臀尖	den ci
+臀趼	den ci	55
 屯隊	den dei	55
 𨄇𨄇	den den	55
-騰騰奔	den den pen	55
+𨄇𨄇奔	den den pen	55
 𨄇𨄇奔去	den den pen chi
 𨄇𨄇奔進戲文場	den den pen cin shi ven jian
 𨄇𨄇奔勒戲文場	den den pen laq shi ven jian
@@ -24538,7 +24509,6 @@ import_tables:
 庉一昶	den iq chian	55
 庉一晌	den iq zaon	55
 藤椅	den iu
-臀趼	den kni	55
 庉落	den loq	55
 庉門	den men	55
 藤繃	den pan	55
@@ -24556,8 +24526,7 @@ import_tables:
 豆莢鮳	deu ciaq khau	55
 豆莢乾	deu ciaq ki-ke	55
 投井	deu cin
-脰頸	deu cin	55
-頭頸	deu cin
+頭頸	deu cin	55
 頭頸刨	deu cin bau	55
 頭頸纏纏	deu cin ji ji
 頭頸骨	deu cin kuaq	55
@@ -24605,7 +24574,7 @@ import_tables:
 頭家	deu ko
 頭枷鎖	deu ko sou	55
 頭拱糊爛泥	deu kon wu lae gni
-頭過	deu kou	55
+投過	deu kou	55
 頭裏	deu li
 頭兩	deu lian
 頭兩個	deu lian ghoq
@@ -24636,7 +24605,6 @@ import_tables:
 投孫活鬼	deu sen waq ciu	55
 頭世人	deu shi gnin
 頭削削尖	deu shiaq shiaq ci
-豆沙糖	deu so daon
 豆沙餡子	deu so ghae tsy
 豆沙色	deu so saq	55
 豆酥糖	deu su daon	55
@@ -24647,7 +24615,7 @@ import_tables:
 頭痛膨脹	deu thon ban cian	55
 頭底心	deu ti shin	55
 頭頂心	deu tin shin	55
-頭爪爪	deu tsau tsau
+頭搔搔	deu tsau tsau
 頭寸	deu tshen
 頭處飯	deu tshyu vae	55
 投出	deu tshyuq
@@ -24808,7 +24776,6 @@ import_tables:
 碟子	diaq tsy
 調排	diau ba	55
 苕溪小片	diau chi shiau phi
-掉槍花	diau chian huo
 調槍花	diau chian huo	55
 調大	diau da	55
 調頭	diau deu
@@ -24870,7 +24837,6 @@ import_tables:
 團團	doe doe
 團團圈圈	doe doe chiu chiu	55
 團團圈圈生疔瘡	doe doe chiu chiu san tin tshaon
-斷斷落環	doe doe loq guae
 段段落摜	doe doe loq guae	55
 團團轉	doe doe tsoe
 斷絞	doe gau	55
@@ -24902,7 +24868,6 @@ import_tables:
 銅千	don chi	55
 同隊	don dei
 動頭	don deu	55
-筒頭面	don deu mi
 筒頭麪	don deu mi	55
 銅鈿	don di	578
 銅鈿銀子	don di gnin tsy	55
@@ -24969,7 +24934,6 @@ import_tables:
 獨養囡	doq ian noe	578
 大家	doq ko	578
 獨路頭	doq lu deu
-大猛	doq man
 獨猛	doq man	55
 獨門心思	doq men shin sy	55
 獨眼龍	doq ngae lon
@@ -24984,7 +24948,6 @@ import_tables:
 大排	dou ba	55
 大排肆場	dou ba sy jian
 大彭彭	dou ban ban	55
-大佛	dou baq
 大白	dou baq
 大白靈性	dou baq lin shin	55
 大笨勿笨	dou ben vaq ben
@@ -25004,7 +24967,6 @@ import_tables:
 大貴勿貴	dou ciu vaq ciu
 大貴弗貴	dou ciu vaq ciu	55
 大塘	dou daon	55
-大淘	dou dau	55
 大箌	dou dau	55
 大道頭	dou dau deu
 大頭	dou deu
@@ -25016,7 +24978,6 @@ import_tables:
 大頭朝上	dou deu jiau zaon	55
 大頭殼子	dou deu khoq tsy	55
 大頭聊天	dou deu liau thi
-大頭梅瘦	dou deu mei seu
 大頭梅蒜	dou deu mei soe	55
 大頭魚鯗㸆肉	dou deu ng shian khau gnioq	55
 大頭魚鯗烤肉	dou deu ng shian khau gnioq	55
@@ -25053,9 +25014,7 @@ import_tables:
 大人大碼	dou gnin dou mo
 大人體料	dou gnin thi liau	55
 馱個	dou goq
-大侾佬	dou hau lau	55
 大好佬	dou hau lau	55
-大好老	dou hau lau	55
 大貨	dou hou
 馱貨	dou hou
 大貨癩𪓿	dou hou la sy	418
@@ -25128,7 +25087,7 @@ import_tables:
 大炮仗	dou phau jian	55
 大泡辣椒	dou phau laq ciau	55
 大泡辣茄	dou phau laq jie
-大撲撲	dou phoq phoq	55
+大奤奤	dou phoq phoq	55
 大餅	dou pin
 大餅攤	dou pin thae	55
 大餅搨搨	dou pin thaq thaq
@@ -25245,7 +25204,7 @@ import_tables:
 肚檔	du taon	55
 肚兜	du teu
 肚叉叉	du tsho tsho	55
-杜阻	du tsu
+杜蛆	du tsu
 圖畫釘	du wo tin	55
 渡船道頭	du zoe dau deu
 咋記意思	dza ci i sy
@@ -30416,14 +30375,13 @@ import_tables:
 瓜子臉	kuo tsy li
 賴皮	la bi
 賴伏	la bu	55
-賴孵	la bu	55
+賴孵	la bu
 賴伏雞	la bu ci	55
-賴孵雞	la bu ci	55
+賴孵雞	la bu ci
 賴伏雞娘	la bu ci gnian	55
-賴孵雞娘	la bu ci gnian	55
-賴伏雞變鴨	la bu ci pi aq
+賴孵雞娘	la bu ci gnian
 賴伏草雞	la bu tshau ci	55
-賴孵草雞	la bu tshau ci	55
+賴孵草雞	la bu tshau ci
 賴臭皮	la chieu bi	55
 賴賬	la cian
 癩頭	la dei
@@ -30714,8 +30672,6 @@ import_tables:
 老白酒	lau baq cieu	55
 老白蝨	lau baq saq	55
 癆病	lau bin
-老伏雞	lau boq ci
-老伏卵	lau boq loe
 老伏卵	lau boq lou	55
 老婆	lau bou
 老婆婆	lau bou bou
@@ -31213,7 +31169,7 @@ import_tables:
 涼帽戴篷	lian mau te bon	55
 兩門題目	lian men di moq
 亮眼	lian ngae
-亮眼𥳖	lian ngae bu	55
+亮眼篰	lian ngae bu	55
 亮眼頭絲	lian ngae deu sy	55
 亮眼瞎	lian ngae haq	55
 亮眼瞎子	lian ngae haq tsy	55
@@ -32991,7 +32947,7 @@ import_tables:
 嬲和嬉頭	na ngou shi deu	55
 嬲和東西	na ngou ton shi	578
 倷䏘	na phiq
-倷卜	na poq
+倷撥	na poq
 奶香	na shian	55
 奶嬸	na shin	55
 奶水	na syu
@@ -33479,7 +33435,6 @@ import_tables:
 藕色	ngeu saq
 藕絲糖	ngeu sy daon	55
 牛草篰	ngeu tshau bu
-牛草𥳖	ngeu tshau bu
 牛草籃	ngeu tshau lae	55
 偶湊	ngeu tsheu	55
 牛車盤	ngeu tsho bun	55
@@ -35135,7 +35090,7 @@ import_tables:
 向白籃	shian baq lae	55
 鑲盆	shian ben	55
 香肥皂	shian bi zau	55
-鯗𥳖	shian bu	55
+鯗篰	shian bu	55
 響器	shian chi
 相親	shian chin
 鑲金牙齒	shian cin ngo tshy
@@ -36553,7 +36508,6 @@ import_tables:
 倒掛眉毛	tau kuo mi mau	55
 倒㼑	tau li	55
 刀籠篰	tau lon bu	55
-刀籠𥳖	tau lon bu
 刀絡殼	tau loq khoq
 倒沒	tau maq	55
 到門	tau men	55
@@ -41539,8 +41493,10 @@ import_tables:
 強盜弗進五女門	jian dau vaq cin ng gniu men
 強盜勿進五女門	jian dau vaq cin ng gniu men
 五月弗娶妻	ng yuq vaq tshyu chi
-六月弗孵雞	loq yuq vaq bu ci
+六月弗伏雞	loq yuq vaq bu ci
 五月勿娶妻	ng yuq vaq tshyu chi
+六月勿伏雞	loq yuq vaq bu ci
+六月弗孵雞	loq yuq vaq bu ci
 六月勿孵雞	loq yuq vaq bu ci
 寧波姑娘坐花轎	gnin pou ku gnian zou huo jiau
 寧波姑娘坐花轎	gnin poq ku gnian zou huo jiau
@@ -46976,6 +46932,7 @@ import_tables:
 落雨淋勿着	loq yu lin vaq zoq
 眼睛大隻小	ngae cin dou tsaq shiau
 看張東西樣樣要	khi-khe cian ton shi yan yan iau
+賴伏雞變鴨	la bu ci pi aq
 賴孵雞變鴨	la bu ci pi aq
 眼大嘸光	ngae dou mh kuaon
 蛋大無黃	dae dou vu uaon
