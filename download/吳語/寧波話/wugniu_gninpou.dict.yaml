@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2022.02.21"
+version: "2022.03.27"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -7993,7 +7993,6 @@ import_tables:
 鄟	dzoe
 僎	dzoe
 襈	dzoe
-譸	dzoe
 叀	dzoe
 攅	dzoe
 酸	soe
@@ -16624,6 +16623,7 @@ import_tables:
 舳	dzoq
 擢	dzoq
 𥷘	dzoq
+濯	dzoq	10%
 㪬	dzoq
 蠗	dzoq
 鸐	dzoq
@@ -20026,7 +20026,6 @@ import_tables:
 躜	dzoe
 䏝	dzoe
 𫑘	dzoe
-诪	dzoe
 闩	soe
 选	soe
 陕	soe
@@ -25298,11 +25297,8 @@ import_tables:
 撒尿	dza syu
 𠑞尿	dza syu	418
 射尿撲	dza syu phoq
-射尿樸	dza syu phoq
 撒尿撲	dza syu phoq
-撒尿樸	dza syu phoq
 𠑞尿撲	dza syu phoq	55
-𠑞尿樸	dza syu phoq	55
 射尿尿	dza syu syu
 撒尿尿	dza syu syu
 𠑞尿尿	dza syu syu	1
@@ -25337,6 +25333,8 @@ import_tables:
 賺鈔票	dzae tshau phiau	578
 棧房	dzae vaon
 䂻腳夾縫	dzan ciaq kaq von
+䂻進其肚裏勿得	dzan cin ji du li vaq taq
+䂻進其肚裏弗得	dzan cin ji du li vaq taq	1
 䂻進渠肚裏勿得	dzan cin ji du li vaq taq
 䂻進渠肚裏弗得	dzan cin ji du li vaq taq	1
 鋥鋥亮	dzan dzan lian	55
@@ -25365,7 +25363,6 @@ import_tables:
 宅長太公	dzaq cian tha kon
 捽頭髮	dzaq deu faq
 宅宅	dzaq dzaq	55
-濯濯	dzaq dzaq
 捽年糕團	dzaq gni kau doe
 雜蟹	dzaq ha
 捽芹菜	dzaq jin tshe
@@ -25434,8 +25431,9 @@ import_tables:
 𧙇被	dzon bi
 從今以後	dzon cin yi gheu
 重隊	dzon dei
-重頭生活	dzon deu san waq	55
+重頭生活	dzon deu san waq
 重頭生活阿哥做	dzon deu san waq aq kou tsou
+重頭生活	dzon deu san wo	55
 重頭生活阿哥做	dzon deu san wo aq kou tsou
 從直	dzon jiq	55
 從直趁熱	dzon jiq chin gniq
@@ -32095,7 +32093,6 @@ import_tables:
 嘸響嘸動	mh shian mh don
 嘸手柱	mh shieu dzyu
 嘸心嘸事	mh shin mh zy	55
-嘸心想	mh shin shian
 嘸心相	mh shin shian	55
 嘸心倒事	mh shin tau zy
 嘸心到事	mh shin tau zy	55
@@ -35518,9 +35515,9 @@ import_tables:
 性煞	shin saq	55
 心塞眼閉	shin saq ngae pi	55
 心塞塞	shin saq saq	55
-心想	shin shian
-心相	shin shian	55
+心相	shin shian	578
 聲響	shin shian
+心相好	shin shian hau
 心相壞	shin shian ua
 伸手	shin shieu
 星宿	shin shieu
@@ -46506,8 +46503,6 @@ import_tables:
 弗講一肚氣	vaq kaon iq du chi
 講講兩肚氣	kaon kaon lian du chi
 勿講一肚氣	vaq kaon iq du chi
-䂻進其肚裏弗得	dzan cin ji du li vaq taq
-䂻進其肚裏勿得	dzan cin ji du li vaq taq
 斷竅苦煞	doe chiau khu saq
 難過日子	nae kou gniq tsy
 清白良民	chin baq lian min

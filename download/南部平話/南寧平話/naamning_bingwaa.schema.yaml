@@ -4,14 +4,14 @@
 schema:
   schema_id: naamning_bingwaa
   name: "南寧(亭子)平話"
-  version: "2021.04.30"
+  version: "2022.03.17"
   author:
     - LeiMaau <leimaau@qq.com>
   description: |
     採用『香港語言學會粵語拼音方案』
     聲調輸入 q平 v上 x去 （雙擊爲陽調）
     IPA版提供多種字形轉換和提示音爲IPA
-    提供六種反查方案，[`]普拼反查粵拼，[x]五筆畫反查粵拼，[v]倉頡五代反查粵拼，[r]五筆86反查粵拼，[xx]用普拼反查中古音，[xj]用粵拼反查中古音
+    提供六種反查方案，[`]普拼反查粵拼，[x]五筆畫反查粵拼，[v]倉頡五代反查粵拼，[r]粵語兩分反查粵拼，[xx]用普拼反查中古音，[xj]用粵拼反查中古音
     PC上按Ctrl+Enter可將提示音上屏，按Ctrl+Shift+Enter可將候選項上屏
     註釋reverse_lookup/tags可顯示釋義，可根據需要自行開啓
     項目主頁 https://github.com/leimaau/naamning_jyutping
@@ -19,7 +19,8 @@ schema:
     - luna_pinyin
     - stroke
     - cangjie5
-    - wubi86
+#    - wubi86
+    - loengfan
     - zyenpheng
 
 switches:
@@ -50,7 +51,8 @@ engine:
     - affix_segmentor@luna_pinyin
     - affix_segmentor@stroke
     - affix_segmentor@cangjie5
-    - affix_segmentor@wubi86
+#    - affix_segmentor@wubi86
+    - affix_segmentor@loengfan
     - affix_segmentor@puping_to_zyenpheng
     - affix_segmentor@jyutping_to_zyenpheng
     - abc_segmentor
@@ -62,7 +64,8 @@ engine:
     - script_translator@luna_pinyin
     - table_translator@stroke
     - table_translator@cangjie5
-    - table_translator@wubi86
+#    - table_translator@wubi86
+    - script_translator@loengfan
     - script_translator@puping_to_zyenpheng
     - script_translator@jyutping_to_zyenpheng
   filters:
@@ -114,13 +117,13 @@ translator:
   dictionary: naamning_bingwaa
   prism: naamning_bingwaa
   spelling_hints: 5  # 標註拼音的字數，建議橫排顯示時設置爲1
-  preedit_format: 
-    - xform/([aeioumngptk])qq/$1⁴/
-    - xform/([aeioumngptk])q/$1¹/
-    - xform/([aeioumngptk])vv/$1⁵/
-    - xform/([aeioumngptk])v/$1²/
-    - xform/([aeioumngptk])xx/$1⁶/
-    - xform/([aeioumngptk])x/$1³/
+  preedit_format:
+    - xform/([aeioumngptk])qq/${1}4/
+    - xform/([aeioumngptk])q/${1}1/
+    - xform/([aeioumngptk])vv/${1}5/
+    - xform/([aeioumngptk])v/${1}2/
+    - xform/([aeioumngptk])xx/${1}6/
+    - xform/([aeioumngptk])x/${1}3/
   comment_format:
     - xform/\(.+?\)//    # 處理組詞拼音
     - xform/「.+?」//    # 處理組詞拼音
@@ -163,18 +166,26 @@ cangjie5:    # 倉頡五代反查粵拼
     - "^z.*$"
     - "^yyy.*$"
     
-wubi86:    # 五筆86反查粵拼
-  tag: wubi86
-  dictionary: wubi86
-  enable_user_dict: false
+#wubi86:    # 五筆86反查粵拼
+#  tag: wubi86
+#  dictionary: wubi86
+#  enable_user_dict: false
+#  prefix: "r"
+#  suffix: ";"
+#  tips: 〔五筆86〕
+#  disable_user_dict_for_patterns:
+#    - "^z.*$"
+
+loengfan:    # 粵語兩分反查粵拼
+  tag: loengfan
+  dictionary: loengfan
   prefix: "r"
   suffix: ";"
-  tips: 〔五筆86〕
-  disable_user_dict_for_patterns:
-    - "^z.*$"
+  tips: 〔粵語兩分〕
 
 reverse_lookup:
-  tags:  [luna_pinyin, stroke, cangjie5, wubi86]  # 需要打字時顯示釋義則註釋這行，建議豎排顯示時使用【很有用的功能，建議PC上使用！】
+#  tags:  [luna_pinyin, stroke, cangjie5, wubi86]
+  tags:  [luna_pinyin, stroke, cangjie5, loengfan]  # 需要打字時顯示釋義則註釋這行，建議豎排顯示時使用【很有用的功能，建議PC上使用！】
   overwrite_comment: true
   dictionary: naamning_bingwaa
   comment_format:
@@ -382,6 +393,7 @@ recognizer:
     luna_pinyin: "`[a-z']*'?$"
     stroke: "x[hspnz]*'?$"
     cangjie5: "v[a-z]*'?$"
-    wubi86: "r[a-z]*'?$"
+#    wubi86: "r[a-z]*'?$"
+    loengfan: "r[a-z]*'?$"
     puping_to_zyenpheng: "xx[a-z]*'?$"
     jyutping_to_zyenpheng: "xj[a-z]*'?$"
