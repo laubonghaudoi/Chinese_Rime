@@ -112,8 +112,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共 117 個方案）
-<br/>Full list of collected schemas (117 schemas in total)</h3>
+<h3>方案列表（共 122 個方案）
+<br/>Full list of collected schemas (122 schemas in total)</h3>
 
 
 <ul>
@@ -174,6 +174,13 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
           廣通羅馬字 ℞ <code>uliloewi/guang2tong1zhong1gu3</code>
           <ul>
             <li>廣通羅馬字 - <code>guangtong</code></li>
+          </ul>
+        </li>
+        <li>
+          切韻拼音 ℞ <code>ayaka14732/rime-tupa</code>
+          <ul>
+            <li>切韻拼音 - <code>tupa</code></li>
+            <li>無空格切韻拼音 - <code>tupa_unspaced</code></li>
           </ul>
         </li>
       </ul>
@@ -665,8 +672,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
 </ul>
 
-<h3>配方列表（共 50 個配方）
-<br/>List of recipes (50 recipes in total)</h3>
+<h3>配方列表（共 54 個配方）
+<br/>List of recipes (54 recipes in total)</h3>
 
 <ul>
   <li>
@@ -689,6 +696,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         <li>唐韻（中古漢語）拼音方案 ℞ <code>rime-aca/rime-dangrvond</code></li>
         <li>通古羅馬字 ℞ <code>baopaau/rime-toongcuu</code></li>
         <li>廣通羅馬字 ℞ <code>uliloewi/guang2tong1zhong1gu3</code></li>
+        <li>切韻拼音 ℞ <code>ayaka14732/rime-tupa</code></li>
       </ul>
     </details>
   </li>
