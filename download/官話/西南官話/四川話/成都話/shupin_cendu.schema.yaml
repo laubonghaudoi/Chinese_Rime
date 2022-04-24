@@ -282,27 +282,27 @@ reverse_lookup:
     - xform/Dqu4/qie4/  #去字讀音
     - xform/Dlu5/liu2/  #六字讀音
     - xform/([dtlzcs])un/$1en/ #啓用此行表示dtlzcs+un都併入en
-    - xform/^([qx])u5($|(◎.+$))/$1io5$2/ #啓用此行表示通入
-    - xform/^su5($|(◎.+$))/sv5$1/
-    - xform/^sv5($|(◎.+$))/sio5$1/
-    - xform/^zu5($|(◎.+$))/zv5$1/
-    - xform/^zu5($|(◎.+$))/zio5$1/
-    - xform/^yu5($|(◎.+$))/yo5$1/
+    - xform/(^|\ )([qx])u5($|(◎.+$))/$1$2io5$3/ #啓用此行表示通入
+    - xform/(^|\ )su5($|(◎.+$))/$1sv5$2/
+    - xform/(^|\ )sv5($|(◎.+$))/$1sio5$2/
+    - xform/(^|\ )zu5($|(◎.+$))/$1zv5$2/
+    - xform/(^|\ )zu5($|(◎.+$))/$1zio5$2/
+    - xform/(^|\ )yu5($|(◎.+$))/$1yo5$2/
     - xform/eo([1234])$/o$1$2/    #啓用此行表示不分舒聲戈歌
     - xform/eo5/o5/ #啓用此行表示不分入聲戈歌
     - xform/5($|(◎.+$))/2$1/   #啓用此行表示入派陽平
-    - xform/^([zcs])h/$1/   #啓用此行表示無翹舌
+    - xform/(^|\ )([zcs])h/$1$2/   #啓用此行表示無翹舌
     - xform/zyi/ji/    #zyi>ji
     - xform/cyi/qi/    #cyi>qi
     - xform/syi/xi/    #syi>xi
-    - xform/^zi([a-z]+)/ji$1/   #zi->ji-
-    - xform/^ci([a-z]+)/qi$1/   #ci->qi-
-    - xform/^si([a-z]+)/xi$1/   #si->xi-
-    - xform/^zv/ju/ #zü>ju, zü->ju-
-    - xform/^cv/qu/ #cü>qu, cü->qu-
-    - xform/^sv/xu/ #sü>xu, sü->xu-
-    - xform/^sv/xu/ #sü>xu, sü->xu-
-    - xform/^hu([12345])($|(◎.+$))/fu$1$2/ #hu>fu
+    - xform/(^|\ )zi([a-z]+)/$1ji$2/   #zi->ji-
+    - xform/(^|\ )ci([a-z]+)/$1qi$2/   #ci->qi-
+    - xform/(^|\ )si([a-z]+)/$1xi$2/   #si->xi-
+    - xform/(^|\ )zv/$1ju/ #zü>ju, zü->ju-
+    - xform/(^|\ )cv/$1qu/ #cü>qu, cü->qu-
+    - xform/(^|\ )sv/$1xu/ #sü>xu, sü->xu-
+    - xform/(^|\ )sv/$1xu/ #sü>xu, sü->xu-
+    - xform/(^|\ )hu([12345])($|(◎.+$))/$1fu$2$3/ #hu>fu
 
     - xform/^(.*)$/〔$1〕
     - xform ([aeiouv])(ng?|r)([1234q]) $1$3$2
@@ -342,6 +342,7 @@ reverse_lookup:
     - xform ü5 ǚ
     - xform/([a-z]+)/$1/
     - xform/(◎.+)〕/〕$1/
+    - xform/[A-Z][^\ ]+[\ $]//
   
 punctuator:
   import_preset: default

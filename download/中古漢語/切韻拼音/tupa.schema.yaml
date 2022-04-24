@@ -4,7 +4,7 @@
 schema:
   schema_id: tupa
   name: 切韻拼音
-  version: "2021.03.26"
+  version: "2021.04.22"
   author:
     - Ayaka Mikazuki <ayaka@mail.shn.hk>
   description: |-
@@ -105,5 +105,5 @@ recognizer:
   import_preset: default
   patterns:
     punct: "^/([0-9]0?|[a-z]+)$"
-    luna_pinyin: "`[a-z]*;?$"
-    jyut6ping3: "f[a-z]*;?$"
+    luna_pinyin: "^`[a-z]*;?$"
+    jyut6ping3: "^f[a-z]*;?$"

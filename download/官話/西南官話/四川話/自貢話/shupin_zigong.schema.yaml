@@ -295,6 +295,7 @@ reverse_lookup:
     - xform ü5 ǚ
     - xform/([a-z]+)/$1/
     - xform/(◎.+)〕/〕$1/
+    - xform/[A-Z][^\ ]+[\ $]//
   
 punctuator:
   import_preset: default
