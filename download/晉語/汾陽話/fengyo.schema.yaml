@@ -4,9 +4,9 @@
 schema:
   schema_id: fengyo
   name: 汾阳拼音
-  version: "2021.11.24"
+  version: "2022.05.18"
   author:
-    - 字表录入：Hynuza
+    - 字表录入与维护：Hynuza
     - 词汇表提供：李卫锋
     - 字表、词汇表处理：侯睿
   description:
@@ -113,7 +113,7 @@ translator:
     - xlit/12345678/¹²³⁴⁵⁶⁷⁸/
 
 reverse_lookup:
-  dictionary: luna_pinyin
+  dictionary: pinyin_simp
   prefix: "`"
   suffix: "'"
   tips: 〔输入汉语拼音反查汾阳话拼音〕

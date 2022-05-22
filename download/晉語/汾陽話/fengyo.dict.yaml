@@ -5,13 +5,14 @@
 
 ---
 name: fengyo
-version: "2022.04.24"
+version: "2022.05.18"
 sort: by_weight
 vocabulary: essay-zh-hans
 # use_preset_vocabulary: true
 import_tables:
 - fengyo_word
 ...
+
 比	bii
 被	bii
 备	bii
@@ -411,6 +412,7 @@ import_tables:
 瞿	cy
 觑	cy
 蛆	cy
+䙡	cy
 需	sy
 许	sy
 须	sy
@@ -547,6 +549,7 @@ import_tables:
 扯	qi
 茄	qi
 钳	qi
+槏	qi
 槛	qi
 锨	qi
 芡	qi
@@ -592,7 +595,6 @@ import_tables:
 骟	xi
 搧	xi
 羶	xi
- 	xi
 灺	xi
 䗣	xi
 年	ni
@@ -817,6 +819,7 @@ import_tables:
 漩	xy
 暄	xy
 楦	xy
+碹	xy
 揎	xy
 镟	xy
 桊	xy
@@ -878,7 +881,7 @@ import_tables:
 诈	za
 渣	za
 乍	za
-斩	za
+槎	za
 榨	za
 栅	za
 喳	za
@@ -1210,6 +1213,7 @@ import_tables:
 腔	qyo
 呛	qyo
 戗	qyo
+框	qyo
 向	xyo
 项	xyo
 相	xyo
@@ -2583,6 +2587,7 @@ import_tables:
 鸪	geu
 牯	geu
 蛊	geu
+䀇	geu
 诂	geu
 苦	keu
 库	keu
@@ -2791,6 +2796,7 @@ import_tables:
 暗	ngan
 鞍	ngan
 淹	ngan
+淊	ngan
 庵	ngan
 黯	ngan
 还	han
@@ -2990,7 +2996,7 @@ import_tables:
 船	chuan
 串	chuan
 窜	chuan
-𣀔	chuan
+𥽽	chuan
 算	shuan
 酸	shuan
 栓	shuan
@@ -3078,6 +3084,7 @@ import_tables:
 猿	yuan
 本	beng
 奔	beng
+颁	beng
 泵	beng
 崩	beng
 磅	beng
@@ -3814,7 +3821,6 @@ import_tables:
 臃	yung
 蛹	yung
 恿	yung
-}	yung
 镕	yung
 把	baq
 八	baq
@@ -3870,6 +3876,7 @@ import_tables:
 喇	laq
 肋	laq
 邋	laq
+擸	laq
 蝲	laq
 笿	laq
 勒	laq
@@ -4260,8 +4267,6 @@ import_tables:
 谪	dieq
 觌	dieq
 咥	dieq
-
-	dieq
 铁	tieq
 贴	tieq
 踢	tieq
@@ -4504,6 +4509,7 @@ import_tables:
 忤	weq
 杌	weq
 捼	weq
+捾	weq
 略	lyeq
 掠	lyeq
 捋	lyeq
@@ -4555,6 +4561,7 @@ import_tables:
 戌	xyeq
 蓿	xyeq
 踅	xyeq
+旭	xyeq
 月	yueq
 峪	yueq
 越	yueq

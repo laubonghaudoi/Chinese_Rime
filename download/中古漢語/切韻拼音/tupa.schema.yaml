@@ -4,7 +4,7 @@
 schema:
   schema_id: tupa
   name: 切韻拼音
-  version: "2021.04.22"
+  version: "2022.05.21"
   author:
     - Ayaka Mikazuki <ayaka@mail.shn.hk>
   description: |-
@@ -20,8 +20,8 @@ switches:
   - name: ascii_mode
     reset: 0
     states: [ 中文, 西文 ]
-  - name: half_shape
-    states: [ 全角, 半角 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
   - name: simplification
     states: [ 漢字, 汉字 ]
   - name: ascii_punct
