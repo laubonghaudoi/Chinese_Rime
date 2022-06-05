@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2022.05.12"
+version: "2022.06.05"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -3326,6 +3326,7 @@ import_tables:
 簿	bu
 𥳖	bu	55
 瓿	bu
+殕	bu
 步	bu
 歩	bu
 捕	bu
@@ -22564,7 +22565,6 @@ import_tables:
 薄舀舀	boq iau iau
 薄褲	boq khu
 伏勒睏	boq laq khuen	55
-匐勒睏	boq laq khuen
 噗隆咚	boq lon don
 薄落頭	boq loq deu
 噗碌獨	boq loq doq
@@ -25634,7 +25634,7 @@ import_tables:
 翻肚	fae tu	55
 翻肚肚	fae tu tu	55
 反文旁	fae ven baon
-𨠒黃	fae waon
+泛黃	fae waon
 番薯	fae zyu
 番薯年糕	fae zyu gni kau
 番薯乾	fae zyu ki-ke	55
@@ -25666,7 +25666,7 @@ import_tables:
 方角	faon koq	55
 放爛草	faon lae tshau
 放落沙䥛就嘸飯	faon loq so ci jieu mh vae
-方面敦敦	faon mi ten ten
+方面頓頓	faon mi ten ten
 放命	faon min	55
 放命頭	faon min deu	55
 放啞炮	faon o phau
@@ -25693,11 +25693,9 @@ import_tables:
 發青沙	faq chin so
 髮腳	faq ciaq
 發酒瘋	faq cieu fon
-發酒凚	faq cieu jin	55
 發酒勁	faq cieu jin	55
-弗知	faq ciq
-弗結	faq ciq	578
-弗結咋是咋	faq ciq dza zy dza
+弗知	faq ciq	578
+弗知咋是咋	faq ciq dza zy dza
 發大興	faq da shin	55
 發動機叿叿響	faq don ci ghon ghon shian
 發喥	faq du	55
@@ -25723,6 +25721,7 @@ import_tables:
 發流火	faq lieu hou
 發爐子	faq lu tsy	55
 發買㾹病	faq ma za bin
+發買㾹病	faq mau za bin
 發呆勁	faq nge jin	55
 發票	faq phiau
 發䨣	faq phoq	55
@@ -25794,7 +25793,6 @@ import_tables:
 分鯗絲	fen shian sy
 分書	fen syu
 分歲	fen syu
-粉滋滋	fen tsy tsy
 粉慈慈	fen zy zy	55
 否格	feu kaq	55
 否則	feu tsaq
@@ -25831,7 +25829,6 @@ import_tables:
 風爐	fon lou
 風色	fon saq
 風箱	fon shian
-瘋手	fon shieu
 風手	fon shieu	55
 風手爛腳	fon shieu lae ciaq
 風水	fon syu
@@ -25868,7 +25865,7 @@ import_tables:
 虎螕	fu pi	55
 呼嘯蛇	fu shiau dzo	55
 呼筱絲	fu shiau sy	55
-撫恤金	fu shiuq cin
+撫卹金	fu shiuq cin
 富庶	fu syu
 戽斗	fu teu
 麩炭	fu thae
@@ -36533,7 +36530,6 @@ import_tables:
 倒運	tau yun
 倒運年口	tau yun gni kheu
 戴頭篷	te deu bon	55
-戴頭蓬	te deu bon	55
 戴涼帽介	te lian mau ka
 點心	te shin
 點心飯	te shin vae	55
@@ -39443,7 +39439,6 @@ import_tables:
 物證	vaq cin
 勿結	vaq ciq
 弗知	vaq ciq	55
-勿結咋是咋	vaq ciq dza zy dza
 弗知咋是咋	vaq ciq dza zy dza	55
 勿大	vaq da
 弗大	vaq da	55
