@@ -311,7 +311,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
       <summary>吳語 Wu</summary>
       <ul>
         <li>
-          吳語協會式上海話輸入法 ℞ <code>edward-martyr/rime-yahwe_zaonhe</code>
+          吳語協會式上海話輸入法 ℞ <code>wugniu/rime-yahwe_zaonhe</code>
           <ul>
             <li>吳協式上海言話 - <code>yahwe_zaonhe</code></li>
           </ul>
@@ -779,7 +779,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
     <details>
       <summary>吳語 Wu</summary>
       <ul>
-        <li>吳語協會式上海話輸入法 ℞ <code>edward-martyr/rime-yahwe_zaonhe</code></li>
+        <li>吳語協會式上海話輸入法 ℞ <code>wugniu/rime-yahwe_zaonhe</code></li>
         <li>上海吳語拼音輸入方案 ℞ <code>NGLI/rime-wugniu_zaonhe</code></li>
         <li>蘇州吳語拼音輸入方案 ℞ <code>NGLI/rime-wugniu_soutseu</code></li>
         <li>寧波吳語拼音輸入方案 ℞ <code>NGLI/rime-wugniu_gninpou</code></li>
