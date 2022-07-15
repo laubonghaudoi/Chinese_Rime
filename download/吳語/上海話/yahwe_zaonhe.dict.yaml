@@ -11,16 +11,15 @@
 #
 # 本地化、增改：
 # 
-#   埃爾德路 ‹edwardmartyr@outlook.com›
+#   Yuanhao 'Nyoeghau' Chen ‹nyoeghau@nyoeghau.com›
 
 ---
 name: yahwe_zaonhe
-version: "2020.08.25"
+version: "2022.07.05"
 sort: by_weight
 use_preset_vocabulary: true
 # import_tables: 
-#   - luna_pinyin.poetry
-min_phrase_weight: 100
+#   - qieyun_zaonhe # use with ℞ edward-martyr/rime-qieyun_zaonhe
 ...
 
 〇	lin
@@ -126012,3 +126011,4 @@ Rime 中州韻輸入法	rime
 𧯷	cin
 𣛒	li
 ⿰身建	jia
+伐	va	0%
