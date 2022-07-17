@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2022.06.19"
+version: "2022.07.16"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -23428,7 +23428,7 @@ import_tables:
 借邊	cia pi	55
 借手	cia shieu
 借手蹩腳	cia shieu biq ciaq
-借手箬鰨	cia shieu gnioq thaq	55
+借手鰙鰨	cia shieu gnioq thaq	55
 借手抲筷	cia shieu kho khuae
 借手㪝槌	cia shieu li dzyu
 借手半邊	cia shieu pun pi	55
@@ -26125,8 +26125,7 @@ import_tables:
 寒毛	ghei-ghe mau
 寒毛管	ghei-ghe mau kun	418
 寒毛懍懍	ghei-ghe mau lin lin	55
-汗毛懍懍	ghei-ghe mau lin lin
-汗毛尺䞁	ghei-ghe mau tshaq i
+寒毛尺䞁	ghei-ghe mau tshaq i
 汗𩂢𩂢響	ghei-ghe nga nga shian	55
 汗斑	ghei-ghe pae
 汗背心	ghei-ghe pei shin	55
@@ -26181,7 +26180,6 @@ import_tables:
 候着	gheu dzoq	55
 候着記把	gheu dzoq ci po	55
 候着候	gheu dzoq gheu	55
-侯分候數	gheu fen gheu su
 候分候數	gheu fen gheu su	55
 後分候榫	gheu fen gheu syun
 候分刻毛	gheu fen khaq mau	55
@@ -26203,7 +26201,6 @@ import_tables:
 候扣	gheu kheu	55
 候扣好	gheu kheu hau	55
 厚褲	gheu khu
-後來	gheu le
 後樑頭	gheu lian deu	55
 後門	gheu men
 後門口尖一隻缸	gheu men kheu ci iq tsaq kaon
@@ -26339,7 +26336,6 @@ import_tables:
 紅頭黑炭	ghon deu haq thae	55
 紅頭蒼蠅	ghon deu tshaon in	55
 紅緞鑲邊	ghon doe shian pi	55
-紅粉細白	ghon fen shi baq
 紅粉鮮白	ghon fen shi baq	55
 洪峯	ghon fon
 叿叿	ghon ghon	55
@@ -26448,7 +26444,6 @@ import_tables:
 和家	ghou ko	55
 和家計掇出	ghou ko ci taq tshyuq
 和家老小	ghou ko lau shiau	55
-和家老少	ghou ko lau shiau
 和家瘟	ghou ko uen
 和個	ghou kou	55
 荷蘭水	ghou lae syu	55
@@ -26482,11 +26477,9 @@ import_tables:
 和三隻	ghou sae tsaq
 和筲箕覆出	ghou sau ci foq tshyuq
 和消頭	ghou shiau deu	55
-禍消頭	ghou shiau deu
 河屍鬼	ghou sy ciu	55
 河水鬼	ghou syu ciu	55
 河水翻漿	ghou syu fae cian
-禍水翻漿	ghou syu fae cian
 河水怪清	ghou syu kuan chin
 和擔判	ghou tae phun
 河對頭	ghou tei deu
@@ -26511,7 +26504,6 @@ import_tables:
 泥鰍打渾	gni chieu tan wen
 年紀	gni ci
 二汁	gni ciq	55
-念頭	gni deu
 癮頭	gni deu
 黏頭樹	gni deu zyu	55
 泥桶	gni don	55
@@ -26631,7 +26623,7 @@ import_tables:
 喵呣喵呣	gnian mh gnian mh
 喵呣貓	gnian mh mae
 孃戲孃倒	gnian shi gnian tau	55
-娘嬉䏘	gnian shi phiq
+孃嬉䏘	gnian shi phiq
 孃戳屄	gnian tshoq pi	55
 娘子	gnian tsy
 娘子阿姆	gnian tsy a m	55
@@ -26658,7 +26650,7 @@ import_tables:
 原方	gnieu faon	55
 揉揉看	gnieu gnieu khe
 扭扭作作	gnieu gnieu tsoq tsoq	55
-扭紐子	gnieu gnieu tsy	55
+扭鈕子	gnieu gnieu tsy	55
 扭秧歌	gnieu ian kou
 原舊	gnieu jieu	55
 鈕襻	gnieu phae	55
@@ -26694,7 +26686,6 @@ import_tables:
 人滾壯	gnin kuen tsaon
 人辣辣瘦落去	gnin laq laq seu loq chi
 人來瘋	gnin le fon
-人來風	gnin le fon
 銀樓	gnin leu
 人立勒骨挺	gnin liq laq kuaq thin
 凝攏	gnin lon	55
@@ -26764,9 +26755,8 @@ import_tables:
 肉絲糊臘	gnioq sy wu laq	55
 肉搭搭	gnioq taq taq
 肉頓頓	gnioq ten ten
-箬鰨	gnioq thaq	55
 鰙鰨	gnioq thaq	55
-箬鰨魚	gnioq thaq ng	55
+鰙鰨魚	gnioq thaq ng	55
 肉痛	gnioq thon
 肉店	gnioq ti
 肉店倌	gnioq ti kun
@@ -26887,7 +26877,6 @@ import_tables:
 軟宕宕	gniu than than	55
 軟塌皮	gniu thaq bi	55
 軟塌塌	gniu thaq thaq
-軟貼紕	gniu thiaq bi
 軟菜	gniu tshe	55
 軟菜蛤螷羹	gniu tshe kaq bi kan
 愚豬	gniu tsyu	55
@@ -27421,7 +27410,7 @@ import_tables:
 衣櫥頭頂	i dzyu deu ten
 衣櫥裏向	i dzyu li shian
 菸盒子	i ghaq tsy	55
-挔紐子	i gnieu tsy
+挔鈕子	i gnieu tsy
 煙火氣	i hou chi
 菸灰	i huei
 䞁䞁看	i i khe
@@ -35009,8 +34998,7 @@ import_tables:
 死坯	shi phei	55
 戲票	shi phiau
 嬉䏘	shi phiq	55
-戲䏘	shi phiq	55
-戲䏘揹命	shi phiq pei min
+嬉䏘揹命	shi phiq pei min
 搧巴掌	shi po tsaon	55
 西半邊	shi pun pi
 西曬日頭	shi sa gniq deu	55
@@ -35476,9 +35464,9 @@ import_tables:
 新娘子	shin gnian tsy
 新人家	shin gnin ko	55
 新肉	shin gnioq	55
+新花暴熱	shin huo bau gniq	55
+新花暴時熱	shin huo bau zy gniq	55
 心花開	shin huo khe	55
-新花暴熱	shin huo pau gniq	55
-新花暴時熱	shin huo pau zy gniq	55
 新街口	shin ka kheu
 聖珓	shin kau	55
 醒覺轉	shin kau tsoe	55
@@ -41311,7 +41299,7 @@ import_tables:
 純怕	zyun pho	55
 順邊	zyun pi	55
 順手	zyun shieu
-順手箬鰨	zyun shieu gnioq thaq	55
+順手鰙鰨	zyun shieu gnioq thaq	55
 順手骨接	zyun shieu kuaq ciq
 順手半邊	zyun shieu pun pi	55
 人心難料	zyun shin nae liau
@@ -46886,7 +46874,6 @@ import_tables:
 喫飯謳嬉䏘	chioq vae eu shi phiq
 喫飯嘔嬉䏘	chioq vae eu shi phiq
 頭髮禿頂	deu faq thaq tin
-嬉䏘揹命	shi phiq pei min
 小人嬉老䏘	shiau gnin shi lau phiq
 嬉䏘看面孔	shi phiq khi-khe mi khon
 要䏘嬉	iau phiq shi

@@ -80,11 +80,11 @@ speller:
     # - derive/eh$/ah/
     # - derive/ioh$/iuih/
     # - derive/iuih$/ioh/
-    - derive/ae$/e/ # 模糊“蘭”“雷”
-    - derive/ie$/i/ # 模糊“煙”“衣”
 
     # 中派口音
     - derive/(?<=[sz])yu$/y/
+    - derive/ae$/e/ # 模糊“蘭”“雷”
+    - derive/ie$/i/ # 模糊“煙”“衣”
     - derive/aeh$/ah/ # 多數中派模糊前後ah
     - derive/ah$/aeh/
     - derive/aon$/an/ # 多數中派模糊前後an
@@ -107,7 +107,7 @@ speller:
     # - derive/^r$/er/
     # - abbrev/^nyi(?=[nh]$|$)/gni/
     # - abbrev/^ny(?=[aeou])/gni/
-    # - derive/ui(nh)$/u/
+    # - derive/ui(?=[nh]$)/u/
     # - derive/h$/q/
 
 translator:
