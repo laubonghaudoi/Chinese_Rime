@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2022.08.01"
+version: "2022.08.13"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -25220,9 +25220,9 @@ import_tables:
 咋個大	dza kou dou
 咋個長	dza kou jian
 咋光景	dza kuaon cin	578
-咋個	dza kun	1500
-咋個大	dza kun dou	55
-咋個長	dza kun jian	55
+咋管	dza kun	1500
+咋管大	dza kun dou	55
+咋管長	dza kun jian	55
 射爛薄屙	dza lae boq ou
 射爛薄涴	dza lae boq ou	55
 撒爛薄屙	dza lae boq ou
@@ -28358,7 +28358,7 @@ import_tables:
 介講既講	ka kaon ci kaon	55
 介看既看	ka khi-khe ci khi-khe	55
 介個	ka kou	418
-介個	ka kun	1000
+介管	ka kun	1000
 解纜	ka lae
 介勒	ka laq	55
 介癆槽	ka lau zau
@@ -28499,8 +28499,8 @@ import_tables:
 鋼種鍋子	kaon tson kou tsy	55
 講勿來	kaon vaq le	418
 講弗來	kaon vaq le	55
-講勿理踩	kaon vaq li tshe
-講弗理踩	kaon vaq li tshe	55
+講勿理睬	kaon vaq li tshe
+講弗理睬	kaon vaq li tshe	55
 講勿靈清	kaon vaq lin chin
 講弗靈清	kaon vaq lin chin	1
 講勿相相	kaon vaq shian shian
@@ -28521,7 +28521,6 @@ import_tables:
 講夜話	kaon ya wo	418
 講現成話	kaon yi jin wo
 夾襖	kaq au
-蛤皮	kaq bi	55
 蛤螷	kaq bi	55
 蛤螷油	kaq bi yeu	55
 革頻道	kaq bin dau
@@ -28557,11 +28556,8 @@ import_tables:
 隔火牆	kaq hou zhian	55
 疙疙瘩瘩	kaq kaq taq taq
 合棺材	kaq kun ze
-介勒	kaq laq	55
 格勒	kaq laq	50000
-介勒介	kaq laq kaq	55
 格勒格	kaq laq kaq	55
-介勒話	kaq laq wo	55
 格勒話	kaq laq wo	55
 㾸𤶁	kaq lau	55
 格楞敦	kaq len ten	55
@@ -28576,6 +28572,7 @@ import_tables:
 割麥	kaq maq	55
 格末	kaq maq	50000
 格末一來	kaq maq iq le
+格末介	kaq maq ka	50000
 格末介好	kaq maq ka hau
 格末介一來	kaq maq ka iq le
 格末介來的	kaq maq ka le tiq
@@ -28584,6 +28581,7 @@ import_tables:
 格末介還只	kaq maq ka wa ciq
 格末介會	kaq maq ka wei
 格末介有	kaq maq ka yeu
+格末格	kaq maq kaq
 格末格好	kaq maq kaq hau
 格末格一來	kaq maq kaq iq le
 格末格來的	kaq maq kaq le tiq
@@ -28607,7 +28605,6 @@ import_tables:
 格貌介會	kaq mau ka wei
 格貌介有	kaq mau ka yeu
 格貌講	kaq mau kaon
-格貌介	kaq mau kaq	50000
 格貌格	kaq mau kaq	50000
 格貌格好	kaq mau kaq hau
 格貌格一來	kaq mau kaq iq le
@@ -28636,18 +28633,14 @@ import_tables:
 格相貌介	kaq shian mau kaq	55
 割小腸氣	kaq shiau jian chi
 隔手賬	kaq shieu cian	55
-介星	kaq shin	55
 格星	kaq shin	55
 夾心餅乾	kaq shin pin ki-ke
-介式貌	kaq shiq mau	55
 格式貌	kaq shiq mau	55
-介式貌介	kaq shiq mau kaq	55
 格式貌格	kaq shiq mau kaq	55
 合算	kaq soe	578
 割螄螺	kaq sy lou	55
 夾尿夾屙	kaq syu kaq ou
 夾尿夾涴	kaq syu kaq ou	1
-介打	kaq tan	55
 格打	kaq tan	55
 夾襠	kaq taon	55
 疙瘩	kaq taq
@@ -28686,7 +28679,7 @@ import_tables:
 高頭	kau deu
 高頭勿來	kau deu vaq le
 高頭弗來	kau deu vaq le	1
-糕團廟	kau doe miau	55
+糕糰店	kau doe ti	55
 教方板	kau faon pae	55
 高鑊蓋	kau ghoq ke	55
 膏蟹	kau ha	55
@@ -28698,7 +28691,6 @@ import_tables:
 校場長𢿞𢿞	kau jian jian liau liau
 絞腸痧	kau jian so	55
 絞腸痛	kau jian thon	55
-告介	kau kaq	55
 告格	kau kaq	55
 高跟皮鞋	kau ken bi gha	55
 高墈	kau khe	55
@@ -28718,7 +28710,7 @@ import_tables:
 告吵儂了	kau tshau nou lei	55
 告吵儂𡀂	kau tshau nou lei	55
 交春	kau tshyun	55
-交子	kau tsy
+交孳	kau tsy
 篙子	kau tsy
 膏滋藥	kau tsy yaq	55
 糕糊喫飽	kau wu chioq pau
@@ -28814,7 +28806,6 @@ import_tables:
 克舵	khaq dou	55
 客棧	khaq dzae
 克蛇烏龜	khaq dzo u ciu
-客人	khaq gnin
 磕一跌	khaq iq tiq
 克克	khaq khaq	55
 克克挑擔子	khaq khaq thiau tae tsy
@@ -28848,17 +28839,15 @@ import_tables:
 考卷	khau ciu
 敲糖	khau daon
 薧頭	khau dei
-鮳頭	khau dei
-薧頭	khau deu	55
+鮳頭	khau dei	55
+薧頭	khau deu
 鮳頭	khau deu	55
 靠墊	khau di
 敲地𡍲	khau di taq	55
 敲定	khau din
-㸆大頭菜	khau dou deu tshe
 烤大頭菜	khau dou deu tshe
 敲大鑼	khau dou lou	55
 烤番薯	khau fae zyu
-㸆麩	khau fu	55
 烤麩	khau fu	55
 拷火油箱	khau hou yeu shian	55
 敲花字	khau huo zy	55
@@ -28899,7 +28888,6 @@ import_tables:
 敲釘鑽節	khau tin tsoe ciq
 敲𧰵	khau toq	55
 敲隻大櫥	khau tsaq dou dzyu
-㸆菜	khau tshe
 烤菜	khau tshe
 敲竹槓	khau tsoq kaon
 敲橫檔	khau wan taon	55
@@ -28909,7 +28897,7 @@ import_tables:
 靠十斤	khau zyuq cin
 靠十歲	khau zyuq syu
 開步	khe bu
-開缺窞	khe chiuq dei
+開缺頭	khe chiuq dei
 開缺頭	khe chiuq deu	55
 開張	khe cian
 開交	khe ciau
@@ -28927,7 +28915,6 @@ import_tables:
 開着	khe jiaq
 開庎櫥門	khe ka dzyu men	55
 開講	khe kaon
-開交	khe kau
 開口	khe kheu
 開骻	khe khuo	55
 開面	khe mi
@@ -28970,6 +28957,7 @@ import_tables:
 哏哏嗽	khen khen seu
 懇苦	khen khu	55
 掯腦子卜	khen nau tsy boq	55
+掯腦子卜	khen nau tsy poq	55
 肯歇	khen shiq	55
 口臭	kheu chieu
 口喫肚商量	kheu chioq du saon lian
@@ -38853,7 +38841,6 @@ import_tables:
 做百日	tsou paq gniq
 做坯	tsou phei	55
 做產	tsou sae	55
-做三朝	tsou sae ciau	55
 做三朝	tsou sae jiau	55
 做生	tsou san	55
 做生意	tsou san i
