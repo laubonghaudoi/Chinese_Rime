@@ -102,9 +102,9 @@ To improve the readability and maintainability of this project, here we adopt th
 | ----------------------- | ------------------ | --------------------- | ---------------------- | -------------------- | ------------------------ | ---------------- | -------------------- | ------------------ | ----------------------- | ---------------------- | ---------------------- | --------------- | ---------------- | ------------------------------ | ------------------------------ |
 | cdo                     | cjy                | cmn                   | cpx                    | czh                  | czo                      | gan              | hak                  | hsn                | lzh                     | mnp                    | nan                    | wuu             | yue              | cnp                            | csp                            |
 
-目前 **暫缺閩中語、徽語、贛語、湘語、北部平話** 的輸入方案。如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或[新開一個 issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) 以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
+目前 **暫缺閩中語、徽語、贛語、北部平話** 的輸入方案。如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或[新開一個 issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) 以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
-Right now we are still **missing the schemas for Central Min, Huizhou, Gan, Xiang, Northern Ping**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or [open a new issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) to add it to the collection. Schemas for other Chinese languages are also highly welcomed.
+Right now we are still **missing the schemas for Central Min, Huizhou, Gan, Northern Ping**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or [open a new issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) to add it to the collection. Schemas for other Chinese languages are also highly welcomed.
 
 以下爲方案總表和配方列表。其中配方以符號 ℞ 標識。
 
@@ -112,8 +112,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共 122 個方案）
-<br/>Full list of collected schemas (122 schemas in total)</h3>
+<h3>方案列表（共 123 個方案）
+<br/>Full list of collected schemas (123 schemas in total)</h3>
 
 
 <ul>
@@ -422,7 +422,14 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   <li>
     <details>
       <summary>湘語 Xiang</summary>
-      <b>暫缺 Not available</b>
+      <ul>
+        <li>
+          邵東話輸入方案 ℞ <code>AlfredLouis00/rime-inputting-method-of-Sautungva</code>
+          <ul>
+            <li>邵東話 - <code>sautungva</code></li>
+          </ul>
+        </li>
+      </ul>
     </details>
   </li>
   <li>
@@ -672,8 +679,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
 </ul>
 
-<h3>配方列表（共 54 個配方）
-<br/>List of recipes (54 recipes in total)</h3>
+<h3>配方列表（共 55 個配方）
+<br/>List of recipes (55 recipes in total)</h3>
 
 <ul>
   <li>
@@ -811,7 +818,9 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   <li>
     <details>
       <summary>湘語 Xiang</summary>
-      <b>暫缺 Not available</b>
+      <ul>
+        <li>邵東話輸入方案 ℞ <code>AlfredLouis00/rime-inputting-method-of-Sautungva</code></li>
+      </ul>
     </details>
   </li>
   <li>

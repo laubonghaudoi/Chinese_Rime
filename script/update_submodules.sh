@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # -*- coding: utf-8 -*-
 # 更新各個submodule
+branch_mains=("./中古漢語/切韻拼音","./晉語/晋语汾阳话输入方案","./吳語/溫州話","./閩北語/建寧府羅馬字輸入法和閩北語輸入法","./閩南語/台語方音輸入法","./湘語/邵東話輸入方案")
 cd ../sources
 for file in ./*/*
 do
@@ -11,23 +12,7 @@ do
     then
         git reset --hard origin/棗莊話羅馬字輸入方案
         git pull origin 棗莊話羅馬字輸入方案
-    elif [ "$file" = "./中古漢語/切韻拼音" ];
-    then
-        git reset --hard origin/main
-        git pull origin main
-    elif [ "$file" = "./晉語/晋语汾阳话输入方案" ];
-    then
-        git reset --hard origin/main
-        git pull origin main
-    elif [ "$file" = "./吳語/溫州話" ];
-    then
-        git reset --hard origin/main
-        git pull origin main
-    elif [ "$file" = "./閩北語/建寧府羅馬字輸入法和閩北語輸入法" ];
-    then
-        git reset --hard origin/main
-        git pull origin main
-    elif [ "$file" = "./閩南語/台語方音輸入法" ];
+    elif [[ "${branch_mains[*]}"  =~ "${file}" ]];
     then
         git reset --hard origin/main
         git pull origin main
