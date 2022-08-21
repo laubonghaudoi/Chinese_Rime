@@ -8,7 +8,7 @@ schema:
   author:
     - 轀輬 <alfredlouis0x7@gmail.com>
   description: |
-    「邵東話拼音自編」，以符號按鍵 - = _ + \輸入五聲
+    「邵東話拼音自編」，以按鍵 qrwj 輸入 1 2 3 45 五聲， 以 45調 聽感接近故以同一鍵表示
   dependencies:
     - luna_pinyin
 
@@ -51,13 +51,18 @@ speller:
   alphabet: zyxvutsponmlkihgfedcba=-+\
   delimiter: " '"
   algebra:
-    - xform/\d//                 # 無聲調
-    - xform/[12345678]//         # 不打聲調
+    #- xform/\d//                 # 無聲調
     - derive/ieu/iu/
     - derive/uei/ui/
     - derive/au/ao/
     - derive/eu/ou/
-    - derive/^([aeiuy])n$/$1ng/
+    #- derive/^([aeiuy])n$/$1ng/
+    - derive/[iy]en$/[iy]an$/
+    - xform/1$/q/                 #以 qrwj 輸入 1 2 3 45 五聲
+    - xform/2$/r/
+    - xform/3$/w/
+    - xform/[45]$/j/
+    - derive/[qrwj]$//            #組詞不需輸入聲調（也可以輸入
 
 translator:
   dictionary: sautungva
