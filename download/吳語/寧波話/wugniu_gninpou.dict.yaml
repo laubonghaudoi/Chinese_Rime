@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2022.08.13"
+version: "2022.09.04"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -2863,7 +2863,6 @@ import_tables:
 顑	khi-khe
 豤	khi-khe
 看	khi-khe
-堪	khi-khe	1%
 墈	khi-khe
 幹	khi-khe	0%
 携	yi
@@ -8146,7 +8145,6 @@ import_tables:
 鞦	chieu
 鰍	chieu
 鰌	chieu
-箍	chieu	5%
 抽	chieu
 𥻤	chieu
 湫	chieu
@@ -8171,6 +8169,7 @@ import_tables:
 丠	chieu
 邱	chieu
 蚯	chieu
+箍	chieu	5%
 𥫷	chieu
 恘	chieu
 繑	chieu
@@ -28727,6 +28726,10 @@ import_tables:
 𡨢孃姨	ke gnian yi
 賅人家	ke gnin ko	55
 該應	ke in
+該了	ke lei
+該𡀂	ke lei
+該了	ke liq
+該𡀂	ke liq
 蓋捫碗	ke men un	55
 該死	ke shi
 該死畜生	ke shi tshoq san
@@ -29003,7 +29006,6 @@ import_tables:
 看風使船	khi-khe fon sy zoe	55
 看風水	khi-khe fon syu
 看人起	khi-khe gnin chi	55
-堪好	khi-khe hau	55
 看好	khi-khe hau
 看蝦嘸血	khi-khe huo mh shiuq
 看醫生	khi-khe i san
@@ -29063,7 +29065,6 @@ import_tables:
 抲魚船	kho ng zoe	55
 抲眼	kho ngae
 抲捼倒跌	kho ou tau tiq	55
-抲捼跌倒	kho ou tiq tau
 抲筆	kho piq
 抲小嘵豬	kho shiau gniau tsyu
 抲水	kho syu	55
@@ -29112,9 +29113,8 @@ import_tables:
 空心牆	khon shin zhian
 空勢勢	khon syu syu	55
 空當	khon taon
-空倉鈿	khon tshaon di
 空艙鈿	khon tshaon di	55
-空倉水鈿	khon tshaon syu di
+空艙水鈿	khon tshaon syu di
 殼貨	khoq hou	55
 殼盝	khoq laon	55
 哭勒環天倒地	khoq laq wae thi tau di
@@ -29124,7 +29124,6 @@ import_tables:
 哭作無賴	khoq tshoq wu- la
 哭作面貌	khoq tsoq mi mau	418
 哭作包	khoq tsoq pau	55
-哭作寶	khoq tsoq pau
 哭作無賴	khoq tsoq vu la	418
 哭作無賴笑嘻嘻	khoq tsoq vu la shiau shi shi
 哭作環臉	khoq tsoq wae li	418
@@ -29134,6 +29133,7 @@ import_tables:
 課堂	khou daon
 箍桶	khou don
 箍桶限卯	khou don ghae mau
+箍桶師父	khou don sy vu	55
 可可看	khou khou khi-khe	55
 可憐	khou li
 可憐可相	khou li khou shian	55
@@ -29176,7 +29176,7 @@ import_tables:
 褲帶打結	khu ta tan ciq
 苦膽	khu tae
 褲襠	khu taon
-苦得頭	khu taq deu
+苦搭頭	khu taq deu
 苦搭搭	khu taq taq	55
 苦頓頓	khu ten ten	55
 褲褪落	khu then loq
@@ -29660,7 +29660,6 @@ import_tables:
 該籃	kiq lae
 該來	kiq le
 該類	kiq lei
-該𡀂	kiq lei
 該輪	kiq len
 該聯	kiq li
 該裏	kiq li	578
@@ -29704,6 +29703,7 @@ import_tables:
 該兩梗	kiq lian kan
 該兩梗矮凳	kiq lian kan a ten
 該兩梗棒頭	kiq lian kan baon deu
+該兩梗被頭	kiq lian kan bi deu
 該兩梗頭髮	kiq lian kan deu faq
 該兩梗魚	kiq lian kan ng
 該兩梗帶魚	kiq lian kan ta ng
@@ -29717,6 +29717,7 @@ import_tables:
 該兩梗	kiq lian kuan
 該兩梗矮凳	kiq lian kuan a ten
 該兩梗棒頭	kiq lian kuan baon deu
+該兩梗被頭	kiq lian kuan bi deu
 該兩梗頭髮	kiq lian kuan deu faq
 該兩梗魚	kiq lian kuan ng
 該兩梗帶魚	kiq lian kuan ta ng
@@ -29916,8 +29917,6 @@ import_tables:
 該事體	kiq zy thi
 該是隻	kiq zy tsaq
 該辰光	kiq zyun kuaon
-該兩梗被頭	kiqlian kan bi deu
-該兩梗被頭	kiqlian kuan bi deu
 黏結格牢	kni ciq kaq lau	55
 黏結疙瘩	kni ciq kaq taq
 黏格格	kni kaq kaq	55
@@ -29939,7 +29938,6 @@ import_tables:
 家敗精	ko ba cin
 加氣	ko chi
 加氣煩惱	ko chi vae nau	55
-加氣煩腦	ko chi vae nau
 家計	ko ci
 假叫貓	ko ciau mae
 家頭	ko deu	55
@@ -29948,11 +29946,8 @@ import_tables:
 嫁人	ko gnin
 加肉彩	ko gnioq tshe	55
 傢伙	ko hou
-家火	ko hou	55
-嫁衣	ko i
 加應子	ko in tsy
 傢俱店	ko jiu ti	55
-價格	ko kaq
 家口	ko kheu
 𠺢𠺢	ko ko
 𠺢𠺢雞	ko ko ci
@@ -39719,6 +39714,7 @@ import_tables:
 黃包車	waon pau tsho
 黃包車伕	waon pau tsho fu	55
 黃胖	waon phaon	55
+黃胖病	waon phaon bin
 黃胖日頭	waon phaon gniq deu	55
 黃胖虛脹	waon phaon shiu cian
 旺三無程	waon sae vu jin	55

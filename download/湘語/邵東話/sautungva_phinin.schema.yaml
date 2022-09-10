@@ -1,0 +1,97 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: sautungva_phinin
+  name: 邵東話拼音
+  version: "0.1"
+  author:
+    - 轀輬 <alfredlouis0x7@gmail.com>
+  description: |
+    「邵東話拼音自編」，以符號按鍵 - = _ + \輸入五聲（暫時未能實現）
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    states: [ ，。, ，． ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - affix_segmentor@kana
+    - affix_segmentor@hangeul
+    - affix_segmentor@cyrillic
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - table_translator@kana
+    - table_translator@hangeul
+    - table_translator@cyrillic
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmljkihgfedcba
+  delimiter: " '"
+  algebra:
+    - xform/\d//                # 無聲調
+    - xform/[12345]//           # 不打聲調
+    #- derive/[aeiuy]n$/$1ng/
+    - derive/^dd*/^d*/
+    - derive/^(gg)*/^g*/
+    - derive/^(bb)*/^b*/
+    - derive/^(zz)*/^z*/
+    - derive/^(jj)*/^j*/
+    - derive/^(hh)*/^h*/
+    - derive/^u*/^w*/
+    - derive/[a]ng$/$1n/
+
+
+translator:
+  dictionary: sautungva_phinin
+  spelling_hints: 5
+  prism: true
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "^`[abcdefghijklmnopqrestuvwxyz]*'?$"
