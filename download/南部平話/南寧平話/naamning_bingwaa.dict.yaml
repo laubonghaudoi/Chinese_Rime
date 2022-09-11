@@ -24,7 +24,7 @@
 
 ---
 name: naamning_bingwaa
-version: "2022.08.24"
+version: "2022.09.10"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -135,6 +135,7 @@ import_tables:
 媪	aau2	
 媼	aau2	
 拗	(文)aau2	
+襖	aau2	
 噢	aau3「嘆詞」	
 圫	aau3	
 坳	aau3	
@@ -146,7 +147,7 @@ import_tables:
 拗	(文)aau3	
 澳	aau3	
 燠	aau3「甚熱」	
-襖	aau3	
+襖	(又)aau3	10%
 詏	(文)aau3	
 隩	aau3「同奧字」	
 靿	aau3	
@@ -836,7 +837,7 @@ import_tables:
 臕	biu1	
 蔈	biu1	
 藨	biu1	
-錶	biu1	
+錶	biu1「手錶」	
 鏢	biu1	
 鑣	biu1	
 颮	biu1「扶揺風；同飆字」	
@@ -1503,7 +1504,7 @@ import_tables:
 纖	cim1	
 薟	cim1「豨薟」	
 襜	cim1	
-遷	cim1	
+遷	cim1「與蟬/典/演/孽韻尾演變同」	
 鉆	cim1「鑷子」	
 銛	cim1	
 鋟	cim1	
@@ -1778,7 +1779,7 @@ import_tables:
 抬	daai4	
 擡	daai4	
 炱	daai4	
-苔	daai4	
+苔	daai4「青苔」	
 薹	daai4	
 跆	daai4	
 邰	daai4	
@@ -2223,7 +2224,7 @@ import_tables:
 牏	(又)dau4	10%
 酘	dau4「酒再釀」	
 骰	dau4	
-哣	dau6「吽哣，呆滯，一說本字怐愗」	
+哣	dau6「吽～，迷糊、不清醒，後引申爲古板、難溝通，一說本字怐愗」	
 痘	dau6	
 竇	dau6「情竇；姓」	
 脰	dau6	
@@ -2289,14 +2290,14 @@ import_tables:
 掂	dim1	
 敁	dim1	
 踮	dim1	
-典	(習)dim2	
-捵	(又)dim2	10%
-晪	(又)dim2	10%
-淟	(又)dim2	10%
+典	(習)dim2「與蟬/演/遷/孽韻尾演變同」	
+捵	dim2「推、頂」	
+晪	dim2	
+淟	dim2	
 點	dim2「～燈，～炮」	
 碘	(習)dim2	
-腆	(習)dim2	10%
-靦	(又)dim2	10%
+腆	(習)dim2	
+靦	dim2「靦顏」	
 坫	dim3	
 店	dim3	
 惦	dim3	
@@ -2567,7 +2568,7 @@ import_tables:
 峒	doeng6「山洞」	
 恫	doeng6「恫嚇」	
 慟	doeng6	
-戙	doeng6「船板木；豎；量詞，摞；戳，與厾/㧻/𧰵對轉」	
+戙	doeng6「船板木；豎；量詞，摞」	
 洞	doeng6	
 硐	doeng6	
 胴	doeng6	
@@ -5134,6 +5135,7 @@ import_tables:
 刳	hu1	
 呼	hu1	
 嘑	hu1「同呼字」	
+嵙	hu1	
 幠	hu1	
 挎	hu1「執持」	
 枯	(文)hu1	
@@ -5449,7 +5451,7 @@ import_tables:
 𠯋	jai4「劣質的，本字勩」	
 跇	(語)jai5「孩童頑皮，又作跩字」	10%
 跩	(語)jai5「孩童頑皮，又作跇字」	10%
-𠯋	jai5「孩童頑皮，本字跩」	
+𠯋	jai5「孩童頑皮，本字跩/跇」	
 勩	(又)jai6	10%
 抴	jai6	
 拽	jai6	
@@ -5812,7 +5814,7 @@ import_tables:
 弇	jim2	
 掩	jim2	
 渰	jim2	
-演	(習)jim2	
+演	(習)jim2「與蟬/典/遷/孽韻尾演變同」	
 罨	jim2「魚網」	
 魘	jim2	
 黶	jim2	
@@ -6496,8 +6498,8 @@ import_tables:
 欬	kat2	
 橛	(語)kat3「量詞，截」	10%
 勼	(語)kau1「摻雜、混合」	10%
-摳	kau1	
-牞	(語)kau1「擡起，又作摳字」	10%
+摳	kau1「擡起、端起，～張凳來；挖，～牆壁」	
+牞	(又)kau1	10%
 瞘	kau1	
 芤	kau1	
 彄	kau1	
@@ -6637,7 +6639,6 @@ import_tables:
 魁	kui1	
 傀	kui2「傀儡」	
 憒	(又)kui3	10%
-潰	(又)kui3	10%
 聵	(又)kui3	10%
 㸌	kuk2	
 㺢	kuk2	
@@ -6870,6 +6871,7 @@ import_tables:
 啦	laa1「啦啦隊」	
 喇	laa1「喇嘛」	5%
 嘞	laa1「語氣詞」	
+砬	(又)laa1	5%
 鞡	laa1	
 喇	laa2「喇叭」	
 㱻	(語)laa3「瘟疫」	10%
@@ -7128,7 +7130,7 @@ import_tables:
 檁	lam5	
 稟	lam5「同廩字」	10%
 壈	lam5	
-㨆	lam6「堆砌，與笠/拉/搚對轉」	
+㨆	lam6「堆砌，與笠/拉對轉」	
 噒	lan1「啃；緊、結實；又作㖮/㖥字」	
 溣	(語)lan2「弄髒，沾上」	5%
 𡳞	lan2「男陰」	
@@ -7180,9 +7182,8 @@ import_tables:
 掕	(語)lang4「攔截，與㪐/勒對轉」	10%
 楞	lang4	
 唥	lang6「冚𠾴（唪、巴）～（咸不論），全部」	
-拉	(語)lap2「套，～衫；哄，～人；又作笠/搚字」	10%
-搚	(語)lap2「套，～衫；哄，～人；又作笠/拉字」	10%
-笠	(白)lap2「竹～，竹簍；<語>套，～衫；<語>哄，～人；又作拉/搚字」	
+拉	(語)lap2「套，～衫；哄，～人；又作笠字」	10%
+笠	(白)lap2「竹～，竹簍；<語>套，～衫；<語>哄，～人；又作拉字」	
 㬤	(又)lap3	10%
 泣	lap3	
 笠	(又)lap3	10%
@@ -8887,7 +8888,7 @@ import_tables:
 耦	ngau5	
 蕅	ngau5	
 藕	ngau5	
-吽	ngau6「吽哣，呆滯，一說本字怐愗」	
+吽	ngau6「～哣，迷糊、不清醒，後引申爲古板、難溝通，一說本字怐愗」	
 枒	(白)nge1	20%
 椏	(白)nge1	20%
 𡃀	nge1「牛𡃀[ŋe55]～，童語」	
@@ -9613,7 +9614,7 @@ import_tables:
 伻	ping1	
 俜	ping1	
 匉	ping1	
-姘	ping1	
+姘	ping1「姘頭」	
 娉	ping1「娉婷」	
 怦	ping1	
 抨	ping1「抨擊」	
@@ -9919,6 +9920,7 @@ import_tables:
 廋	sau1	
 收	sau1	
 溲	sau1	
+艘	(又)sau1	5%
 守	sau2	
 手	sau2	
 艏	sau2	
@@ -10400,7 +10402,7 @@ import_tables:
 饈	slau1	
 颾	slau1「同颼字」	
 叟	slau2	
-嗾	slau2	
+嗾	slau2「嗾使」	
 搜	slau2「搜查」	
 擻	slau2「抖擻」	
 滫	slau2	
@@ -10629,7 +10631,7 @@ import_tables:
 粟	sloek2	
 肅	sloek2	
 蓿	sloek2	
-餿	(又)sloek2「食物過宿，訓讀宿」	10%
+餿	(訓)sloek2「食物過宿，訓讀宿」	10%
 驌	sloek2	
 鷫	sloek2	
 𡖊	sloek2	
@@ -10729,7 +10731,7 @@ import_tables:
 醑	slyu2	
 嗉	(語)slyu3「雞嗉」	10%
 絮	slyu3	
-緒	slyu3	5%
+緒	(又)slyu3	5%
 膆	(語)slyu3「雞膆」	10%
 宣	slyun1	
 悛	slyun1	
@@ -10860,12 +10862,14 @@ import_tables:
 癙	syu2	
 黍	syu2	
 鼠	syu2	
-噓	(語)syu3「模擬狗聲指使狗，析音作射豬」	10%
+嗾	(語)syu3「指使狗聲，唆使、挑撥，又作噓/𡂡字」	10%
+噓	(語)syu3「指使狗聲，唆使、挑撥，又作嗾/𡂡字，析音作射豬」	10%
 庶	syu3	
 恕	syu3	
 戍	syu3	
+緒	syu3	5%
 腧	syu3	
-噓	syu4「嘆詞」	10%
+噓	syu4「嘆詞，表制止」	10%
 殊	syu4	
 殳	syu4	
 糬	syu4	
@@ -10913,6 +10917,7 @@ import_tables:
 鉈	taa1「金屬元素，符號Tl」	
 呔	(外)taai1「車～，英語tyre」	
 胎	taai1	
+苔	taai1「舌苔」	5%
 𧘹	(外)taai1「領帶，英語tie」	
 㘆	taai2「語不正」	
 呔	taai2「語不正」	
@@ -11083,12 +11088,12 @@ import_tables:
 栝	tim2「撥火棍；木杖」	
 舔	tim2	
 天	tin1	
-捵	tin2「推、頂」	
-晪	tin2	
-淟	tin2	
+捵	(又)tin2	10%
+晪	(又)tin2	10%
+淟	(又)tin2	10%
 町	tin2「町疃」	
-腆	(書)tin2	
-靦	tin2「靦顏」	
+腆	(書)tin2	10%
+靦	(又)tin2	10%
 瑱	tin3「玉名」	
 廳	ting1	
 听	ting1「同聽字」	
@@ -12856,10 +12861,11 @@ import_tables:
 鮡	ziu6	
 佐	zo2	
 俎	zo2	
-咗	zo2「粵字，助词，表完成，本地用了」	
-唨	zo2「粵字，咗的舊寫，本地用了」	
+咗	zo2「粵字，助词，表完成，來源於着，本地用了」	
+唨	zo2	
 岨	zo2「同阻字」	
 左	zo2	
+詛	(又)zo2	5%
 阻	zo2	
 詛	zo3	
 痤	zo4	
