@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2022.09.04"
+version: "2022.09.25"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -8741,6 +8741,7 @@ import_tables:
 探	thei
 㶒	thei
 僋	thei
+嘆	thei	0%
 憛	thei
 誩	thei
 娧	thei
@@ -20132,6 +20133,7 @@ import_tables:
 㳔	tei
 贪	thei
 𰛩	thei
+叹	thei
 颓	dei
 头	dei
 镡	dei
@@ -23822,7 +23824,7 @@ import_tables:
 叫子	ciau tsyu
 招文袋	ciau ven de	55
 焦黃	ciau waon
-焦黃剌裏	ciau waon laq li	55
+焦黃勒憐	ciau waon laq li	55
 照會	ciau wei
 招魂幡	ciau wen fae	55
 照樣	ciau yan
@@ -29988,7 +29990,6 @@ import_tables:
 拱趣趣	kon tshyu tshyu	55
 供佛	kon vaq
 擱排凳	koq ba ten	55
-閣排凳	koq ba ten
 各爿廠	koq bae chian
 各部汽車	koq bu chi tsho
 各部腳踏車	koq bu ciaq daq tsho
@@ -30098,7 +30099,6 @@ import_tables:
 過口	kou kheu
 哥哥	kou kou
 過老酒	kou lau cieu	55
-過雷雨	kou lei yu	55
 過路	kou lu
 過門	kou men
 過邊	kou pi	55
@@ -30137,7 +30137,6 @@ import_tables:
 孤老頭	ku lau deu	55
 孤老住祠堂	ku lau dzyu zy daon
 孤老老太婆	ku lau lau tha bou
-古老八千	ku lau paq chi
 古老百千	ku lau paq chi	55
 孤老太婆	ku lau tha bou	55
 姑嬤	ku mho	55
@@ -30234,6 +30233,7 @@ import_tables:
 刮痧	kuaq so
 刮痧氣	kuaq so chi
 刮斯	kuaq sy	55
+刮水缸腳	kuaq syu kaon cian	55
 刮水缸腳	kuaq syu kaon ciaq	55
 刮搭	kuaq taq	55
 刮搭咽落	kuaq taq i loq
@@ -30329,7 +30329,6 @@ import_tables:
 賴學精	la ghoq cin	55
 賴學坯	la ghoq phei	55
 賴婚	la huen
-癩花頭	la huo deu
 賴花頭	la huo deu	55
 癩蛤蚆	la kaq po	55
 攋鉤	la keu
@@ -30346,7 +30345,6 @@ import_tables:
 垃圾畚斗	la shi pen teu	55
 攋沙䥛	la so ci
 攋松毛絲	la son mau sy
-癩螄	la sy	55
 癩𪓿	la sy	55
 癩𪓿蛤蚆	la sy kaq po	55
 癩𪓿哥	la sy kou	55
@@ -30425,9 +30423,11 @@ import_tables:
 藍邊碗	lae pi un	55
 爛雪片	lae syuq phi	55
 爛搭瓜	lae taq kuo
-懶嘆氣	lae thae chi	55
+懶嘆氣	lae thae chi
 懶嘆心頭氣	lae thae shin deu chi
 懶塌塌	lae thaq thaq	55
+懶嘆氣	lae thei chi
+懶嘆心頭氣	lae thei shin deu chi
 懶拖拖	lae thou thou	55
 爛唾水	lae thu syu	418
 爛草子	lae tshau tsy
@@ -30443,21 +30443,18 @@ import_tables:
 爛腐貨	lae vu hou	55
 懶黃泥鰍	lae waon gni chieu
 藍藥水	lae yaq syu	55
-濫賤	lae zhi	55
 爛賤	lae zhi	55
 爛樹變沉香	lae zyu pi jin shian
 冷呃	lan aq
 冷盆	lan ben
-冷氣拔出	lan chi baq tshyuq
+冷氣勃出	lan chi baq tshyuq
 冷氣肉	lan chi gnioq	55
 冷氣黃魚	lan chi waon ng
-冷凊凊	lan chin chin	55
 冷清清	lan chin chin
 冷茶	lan dzo	55
 冷茶壺	lan dzo wu	55
 冷汗直淋	lan ghei-ghe jiq lin
 冷熱病	lan gniq bin
-冷灰豆爆	lan huei deu pau
 冷灰頭爆	lan huei deu pau	55
 冷幽幽	lan ieu ieu	55
 冷陰	lan in	55
@@ -30518,10 +30515,9 @@ import_tables:
 㫰出	laon tshyuq	55
 郎中	laon tson
 廊檐	laon yi
-狼籍	laon zhiq
 狼藉	laon zhiq	55
 肋排骨	laq ba kuaq	418
-蠟白	laq baq
+鑞白	laq baq
 辣白菜	laq baq tshe	55
 臘皮一樣	laq bi iq yan	55
 臘皮介	laq bi ka	55
@@ -30564,7 +30560,7 @@ import_tables:
 辣辣嚼	laq laq zhiaq
 攔牢	laq lau	578
 蠟棱頭	laq len deu	55
-勒裏	laq li
+勒憐	laq li
 邋裏邋遢	laq li laq thaq	445
 辣蓼	laq liau	55
 捋落	laq loq
@@ -30591,7 +30587,6 @@ import_tables:
 蠟燭鈿	laq tsoq di	55
 蠟燭包	laq tsoq pau	55
 蠟燭巴釘	laq tsoq po tin	55
-肋子	laq tsy
 𦪴子	laq tsy	55
 攔子牌	laq tsy ba
 攔勿牢	laq vaq lau	55
@@ -30774,7 +30769,6 @@ import_tables:
 老活猻	lau waq sen
 老話頭	lau wo dei
 老話頭	lau wo deu	55
-老壺	lau wu	55
 老爺	lau ya
 老爺貨	lau ya hou
 老爺手機	lau ya shieu ci
@@ -30783,7 +30777,6 @@ import_tables:
 老鹽頭	lau yi deu	55
 癆槽	lau zau	55
 癆槽病	lau zau bin
-癆槽窖	lau zau ciau	55
 癆槽窞	lau zau dei	55
 癆槽紋	lau zau ven	55
 老牆門	lau zhian men
@@ -30851,8 +30844,10 @@ import_tables:
 輪胎	len the
 輪胎	len thei
 輪轉太婆	len tsoe tha bou	55
+㔂竹節	len tsoq ciq
 輪船	len zoe
 輪着	len zoq
+㔂樹皮	len zyu bi
 樓下	leu gho
 嘍吼	leu heu	55
 僂勾師	leu keu sy	55
@@ -31220,7 +31215,6 @@ import_tables:
 領來兒子	lin le ng tsy	55
 領領徑徑	lin lin cin cin	418
 㔂魚鱗	lin ng lin
-㨆魚鱗	lin ng lin
 領囡	lin noe	55
 零碎	lin sei
 零碎銅鈿	lin sei don di	578
@@ -31232,8 +31226,6 @@ import_tables:
 鄰舍家	lin so ko	578
 臨帖	lin thiaq
 零拆躉買	lin tshaq ten ma	55
-㔂竹節	lin tsoq ciq
-㨆竹節	lin tsoq ciq
 翎子	lin tsy
 零用鈿	lin yon di	578
 臨紹	lin zhiau
@@ -31241,8 +31233,6 @@ import_tables:
 臨着	lin zoq	55
 臨時口緊	lin zy kheu cin	55
 領市面	lin zy mi	55
-㔂樹皮	lin zyu bi
-㨆樹皮	lin zyu bi
 立起	liq chi
 立起來	liq chi le
 立起身	liq chi shin
@@ -40007,8 +39997,7 @@ import_tables:
 野鴨	ya ae
 野牌子	ya ba tsy
 野氣	ya chi	55
-野氣勃出	ya chi baq tshyuq
-野氣白出	ya chi baq tshyuq	55
+野氣勃出	ya chi baq tshyuq	55
 野氣百出	ya chi paq tshyuq	55
 野雞	ya ci
 夜叫	ya ciau	55
