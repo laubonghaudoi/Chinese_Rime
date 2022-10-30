@@ -12,7 +12,7 @@
 
 ---
 name: wugniu_gninpou.essay
-version: "2022.10.07"
+version: "2022.10.30"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -1498,7 +1498,6 @@ use_preset_vocabulary: true
 乾又熱	ki-ke yeu gniq
 乾和	ji ghou
 乾咳	ki-ke khaq
-乾咽	ki-ke i
 乾咽	ki-ke iq
 乾哥	ki-ke kou
 乾哥哥	ki-ke kou kou
@@ -1513,6 +1512,7 @@ use_preset_vocabulary: true
 乾嘔	ki-ke eu
 乾噦	ki-ke iuq
 乾嚎	ki-ke ghau
+乾嚥	ki-ke i
 乾圖	ji du
 乾土	ki-ke thu
 乾地	ki-ke di
@@ -3659,11 +3659,11 @@ use_preset_vocabulary: true
 信息學	shin shiq yuq
 信息科學	shin shiq khou yuq
 信手塗鴉	shin shieu du ia
-信托貿易	shin thoq meu yiq
 信教	shin ciau
 信樂團	shin yuq doe
 信筆塗鴉	shin piq du ia
 信行兒	shin yin er
+信託貿易	shin thoq meu yiq
 信貸衍生產品	shin de yi sen tshae phin
 信貸衍生產品	shin the yi sen tshae phin
 信鳥	shin gniau
@@ -4120,7 +4120,6 @@ use_preset_vocabulary: true
 備耕	bei kan
 傢伙座兒	cia hou zou er
 傢伙座兒	ko hou zou er
-傢俱	cia jiu
 傢俱行	cia jiu ghaon
 催人	tshei gnin
 催淚	tshei lei
@@ -4724,6 +4723,7 @@ use_preset_vocabulary: true
 兔兒不喫窠邊草	thu er paq chioq khou pi tshau
 兔兒爺	thu er ya
 兔子尾巴長不了	thu tsy mi po jian paq liau
+兔子尾巴長不了	thu tsy ng po jian paq liau
 兔死狐悲	thu sy wu pei
 兔死狗烹	thu sy keu phan
 兜兒	teu er
@@ -5058,7 +5058,7 @@ use_preset_vocabulary: true
 八大	paq da
 八大工業國組織	paq da kon gniq koq tsu ciq
 八大明王	paq da min waon
-八大胡同	paq da wu don
+八大衚衕	paq da wu don
 八大部	paq da bu
 八大金剛	paq da cin kaon
 八字沒一撇	paq zy mhaq iq phiq
@@ -7885,7 +7885,7 @@ use_preset_vocabulary: true
 受刑人	zhieu yin gnin
 受制於	zhieu tsyu yu
 受制於人	zhieu tsyu yu gnin
-受命于天	zhieu min yu thi
+受命於天	zhieu min yu thi
 受夠了	zhieu keu laq
 受孕率	zhieu yun liq
 受害人	zhieu ghe gnin
@@ -9223,10 +9223,6 @@ use_preset_vocabulary: true
 喂偏食	iu phi zhiq
 喂喂	wei wei
 喂喂喂	wei wei wei
-喂眼	iu ngae
-喂着	iu dzoq
-喂着	iu zoq
-喂藥	iu yaq
 喃喃自語	nei-nae nei-nae zy gniu
 善了	zoe laq
 善人	zoe gnin
@@ -9746,7 +9742,6 @@ use_preset_vocabulary: true
 國家文物鑑定委員會	koq cia ven vaq ci din uei yu wei
 國家旅遊局	koq cia li yeu jiuq
 國家旅遊度假區	koq cia li yeu du cia chiu
-國家杯	koq cia pei
 國家棟梁	koq cia ton lian
 國家標準	koq cia piau tsyun
 國家標準中文交換碼	koq cia piau tsyun tson ven ciau wun mo
@@ -9778,6 +9773,7 @@ use_preset_vocabulary: true
 國家發展改革委	koq cia faq tsoe ke kaq uei
 國家發展計劃委員會	koq cia faq ci ci waq uei yu wei
 國家發展計劃委員會	koq cia faq tsoe ci waq uei yu wei
+國家盃	koq cia pei
 國家社會主義	koq cia dzo wei tsyu gni
 國家科學委員會	koq cia khou yuq uei yu wei
 國家稅	koq cia sei
@@ -11241,8 +11237,8 @@ use_preset_vocabulary: true
 大專	da tsoe
 大專同學	da tsoe don ghoq
 大專學生	da tsoe ghoq san
-大專杯	da tsoe pei
 大專生	da tsoe san
+大專盃	da tsoe pei
 大專院校	da tsoe yu yau
 大尉	da uei
 大小	dou shiau
@@ -12386,9 +12382,12 @@ use_preset_vocabulary: true
 夾斷	kaq doe
 夾當兒	kaq taon er
 夾着尾巴	kaq dzoq mi po
+夾着尾巴	kaq dzoq ng po
 夾着尾巴	kaq zoq mi po
+夾着尾巴	kaq zoq ng po
 夾被	kaq bi
 夾起尾巴	kaq chi mi po
+夾起尾巴	kaq chi ng po
 夾雜	kaq dzaq
 夾雜在	kaq dzaq dze
 夾餡兒	kaq ghae er
@@ -14352,7 +14351,9 @@ use_preset_vocabulary: true
 尾大不掉	vi da paq diau
 尾子	vi tsy
 尾巴	mi po
+尾巴	ng po
 尾巴工程	mi po kon jin
+尾巴工程	ng po kon jin
 尾市	vi zy
 尾張國	vi cian koq
 尾形	vi yin
@@ -16708,7 +16709,7 @@ use_preset_vocabulary: true
 戴笠	te liq
 戴維	te vi
 戴維斯	te vi sy
-戴維斯杯	te vi sy pei
+戴維斯盃	te vi sy pei
 戴維營	te vi yin
 戴蒙	te mon
 戴蒙德	te mon taq
@@ -17603,6 +17604,7 @@ use_preset_vocabulary: true
 拖家帶口	thou cia ta kheu
 拖家帶眷	thou cia ta ciu
 拖尾巴	thou mi po
+拖尾巴	thou ng po
 拖延時間	thou yi zy ci
 拖拉	thou lha
 拖拉機	thou lha ci
@@ -18138,6 +18140,23 @@ use_preset_vocabulary: true
 援交小姐	yu ciau shiau cia
 援助交際	wun dzu ciau ci
 援助交際	yu dzu ciau ci
+揹上	pei zaon
+揹上來	pei zaon le
+揹上去	pei zaon chi
+揹不動	pei paq don
+揹了時	pei laq zy
+揹人	pei gnin
+揹出	pei tshyuq
+揹出來	pei tshyuq le
+揹出去	pei tshyuq chi
+揹到	pei tau
+揹包	pei pau
+揹包客	pei pau khaq
+揹包袱	pei pau boq
+揹包遊	pei pau yeu
+揹回家去	pei wei cia chiu
+揹起	pei chi
+揹起來	pei chi le
 搋手兒	tshe shieu er
 損人	sen gnin
 損人不利己	sen gnin paq li ci
@@ -18156,6 +18175,7 @@ use_preset_vocabulary: true
 搖尾	yau vi
 搖尾乞憐	yau vi chiq li
 搖尾巴	yau mi po
+搖尾巴	yau ng po
 搖搖欲墜	yau yau yuq dzei
 搖擺樂	yau pa yuq
 搖旗吶喊	yau ji naq hae
@@ -19720,7 +19740,6 @@ use_preset_vocabulary: true
 日復一日	gniq foq iq gniq
 日復一日	gniq voq iq gniq
 日心說	zyuq shin syuq
-日志文件	zyuq tsy ven ji
 日惹	zyuq zo
 日戳	zyuq tshoq
 日據	zyuq ciu
@@ -19897,6 +19916,7 @@ use_preset_vocabulary: true
 日記賬	zyuq ci cian
 日試萬言	zyuq sy vae yi
 日誌	zyuq tsy
+日誌文件	zyuq tsy ven ji
 日語	zyuq gniu
 日語系	zyuq gniu shi
 日語課	zyuq gniu khou
@@ -20294,7 +20314,7 @@ use_preset_vocabulary: true
 晚風習習	vae fon zhiq zhiq
 晚飯時間	vae vae zy ci
 晝伏夜出	cieu voq ya tshyuq
-晝伏夜游	cieu voq ya yeu
+晝伏夜遊	cieu voq ya yeu
 晝分	cieu fen
 晝夜不分	cieu ya paq fen
 晝夜平分點	cieu ya bin fen ti
@@ -25514,6 +25534,7 @@ use_preset_vocabulary: true
 狄更斯	diq ken sy
 狐假虎威	wu cia fu uei
 狐狸尾巴	wu li mi po
+狐狸尾巴	wu li ng po
 狐臭味	wu chieu mi
 狐藉虎威	wu cia fu uei
 狐鬼神仙	wu kuei zyun shi
@@ -25528,7 +25549,8 @@ use_preset_vocabulary: true
 狗眼看人	keu ngae khi-khe gnin
 狗眼看人低	keu ngae khi-khe gnin ti
 狗竇大開	keu deu da khe
-狗長尾巴尖兒	keu jian vi po ci er
+狗長尾巴尖兒	keu cian mi po ci er
+狗長尾巴尖兒	keu cian ng po ci er
 狗雜種	keu dzaq tson
 狗顛兒	keu ti er
 狠了	hen laq
@@ -26549,6 +26571,7 @@ use_preset_vocabulary: true
 留守人員	lieu shieu zyun yu
 留守兒童	lieu shieu er don
 留尾巴	lieu mi po
+留尾巴	lieu ng po
 留戀忘返	lieu li vaon fae
 留成兒	lieu jin er
 留日	lieu zyuq
@@ -28908,9 +28931,9 @@ use_preset_vocabulary: true
 索緒爾	soq zyu er
 索還	soq wae
 索邦大學	soq paon da ghoq
-紫云苗族布依族自治縣	tsy yun miau dzoq pu i dzoq zy dzyu yu
 紫坪鋪大壩	tsy bin phu da po
 紫芝眉宇	tsy tsy mei yu
+紫雲苗族布依族自治縣	tsy yun miau dzoq pu i dzoq zy dzyu yu
 紮了	tsaq laq
 累世	lei syu
 累了	lei laq
@@ -29622,6 +29645,7 @@ use_preset_vocabulary: true
 翰林學士	ghei-ghe lin yuq zy
 翹了	chiau laq
 翹尾巴	chiau mi po
+翹尾巴	chiau ng po
 翹拇指	chiau meu tsy
 翹望	chiau vaon
 翹首以望	chiau shieu yi vaon
@@ -29751,8 +29775,10 @@ use_preset_vocabulary: true
 老驥伏櫪志在千里	lau ci voq liq tsy dze chi li
 老驥嘶風	lau ci sy fon
 老鳥	lau gniau
-老鼠尾巴	lau tsy vi po
+老鼠尾巴	lau tsy mi po
+老鼠尾巴	lau tsy ng po
 老鼠尾巴生瘡兒	lau tsy mi po san tshaon er
+老鼠尾巴生瘡兒	lau tsy ng po san tshaon er
 老鼻子	lau biq tsy
 考上大學	khau zaon da ghoq
 考了	khau laq
@@ -30172,6 +30198,7 @@ use_preset_vocabulary: true
 背上	pei zaon
 背上來	pei zaon le
 背上去	pei zaon chi
+背不動	bei paq don
 背不動	pei paq don
 背了時	pei laq zy
 背井離鄉	pei cin li shian
@@ -30183,9 +30210,12 @@ use_preset_vocabulary: true
 背傷	pei saon
 背光	pei kuaon
 背光性	pei kuaon shin
+背出	bei tshyuq
 背出	pei tshyuq
+背出來	bei tshyuq le
 背出來	pei tshyuq le
 背出去	pei tshyuq chi
+背到	bei tau
 背到	pei tau
 背前背後	pei zhi pei gheu
 背包	pei pau
@@ -30260,7 +30290,9 @@ use_preset_vocabulary: true
 背負	pei veu
 背負着	pei veu dzoq
 背負着	pei veu zoq
+背起	bei chi
 背起	pei chi
+背起來	bei chi le
 背起來	pei chi le
 背逆	pei gniq
 背運	pei yun
@@ -32392,7 +32424,6 @@ use_preset_vocabulary: true
 蜂窩兒	fon ou er
 蜂膠	fon ciau
 蜂鳥	fon gniau
-蜈蚣	men kon
 蜈蚣	wu-ngu kon
 蜘蛛人	tsyu tsyu gnin
 蜚短流長	fi toe lieu jian
@@ -33580,7 +33611,7 @@ use_preset_vocabulary: true
 計算機斷層	ci soe ci doe zen
 計算機科學	ci soe ci khou yuq
 計算機科學家	ci soe ci khou yuq cia
-計算機集成制造	ci soe ci jiq jin tsyu zau
+計算機集成製造	ci soe ci jiq jin tsyu zau
 計費時間	ci fi zy ci
 計量化學	ci lian huo yuq
 計量史學	ci lian sy yuq
@@ -34358,6 +34389,7 @@ use_preset_vocabulary: true
 豬兒	tsyu er
 豬尾	tsyu vi
 豬尾巴	tsyu mi po
+豬尾巴	tsyu ng po
 豬肉乾	tsyu gnioq ki-ke
 豬肚	tsyu tu
 豬蹄膀	tsyu di phaon
@@ -37359,7 +37391,10 @@ use_preset_vocabulary: true
 長寬	jian khun
 長射程	jian zhiq jin
 長尾	jian vi
-長尾巴	jian vi po
+長尾巴	cian mi po
+長尾巴	cian ng po
+長尾巴	jian mi po
+長尾巴	jian ng po
 長尾猴	jian vi gheu
 長尾猿	jian vi yu
 長局	jian jiuq
@@ -37990,6 +38025,7 @@ use_preset_vocabulary: true
 阿們	a men
 阿倫	aq len
 阿倫達爾	a len daq er
+阿傑	aq jiq
 阿兄	aq shion
 阿克倫	a khaq len
 阿克倫河	a khaq len ghou
@@ -38134,7 +38170,7 @@ use_preset_vocabulary: true
 阿拉伯	a lha paq
 阿拉伯世界	a lha paq syu ka
 阿拉伯人	a lha paq gnin
-阿拉伯共衕市場	a lha paq gon don zy jian
+阿拉伯共同市場	a lha paq gon don zy jian
 阿拉伯半島	a lha paq pun tau
 阿拉伯國家	a lha paq koq cia
 阿拉伯國家聯盟	a lha paq koq cia li men
@@ -38500,6 +38536,7 @@ use_preset_vocabulary: true
 陰陽家	in yan cia
 陰陽生	in yan sen
 陰靈兒	in lin er
+陳世傑	jin syu jiq
 陳世杰	jin syu jiq
 陳世美	jin syu mei
 陳先生	jin shi san
@@ -39145,7 +39182,8 @@ use_preset_vocabulary: true
 霜兒	saon er
 霜降牛肉	saon kaon ngeu gnioq
 露了	lu laq
-露出了狐狸尾巴	lu tshyuq liau wu li vi po
+露出了狐狸尾巴	lu tshyuq liau wu li mi po
+露出了狐狸尾巴	lu tshyuq liau wu li ng po
 露水珠兒	lu syu tsyu er
 露盤兒	lu bun er
 露背	lu pei
@@ -39721,6 +39759,10 @@ use_preset_vocabulary: true
 餵了	iu laq
 餵你	iu gni
 餵你	iu ng
+餵眼	iu ngae
+餵着	iu dzoq
+餵着	iu zoq
+餵藥	iu yaq
 餵鴨	iu ae
 餾分	lieu ven
 餿味	seu mi
