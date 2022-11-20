@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2022.11.06"
+version: "2022.11.20"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -2198,8 +2198,8 @@ import_tables:
 芡	chi
 涀	chi
 菣	chi
-齊	ji	5%
-斉	ji	5%
+齊	ji	20%
+斉	ji	20%
 臍	ji
 薺	ji
 鱭	ji
@@ -14998,7 +14998,6 @@ import_tables:
 𥿉	maq
 秣	maq
 枚	maq	5%
-貌	maq	0%
 瀎	maq
 眜	maq
 粖	maq
@@ -15567,7 +15566,7 @@ import_tables:
 忦	kaq
 鞂	kaq
 鴶	kaq
-介	kaq	5%
+介	kaq	0%
 溢	kaq	5%
 礊	kaq
 挌	kaq
@@ -22872,7 +22871,6 @@ import_tables:
 青金糰	chin cin doe	55
 清蒸鰻筒	chin cin mun don
 親眷	chin ciu
-趁大巴	chin da pa
 清道夫	chin dau fu
 清頭	chin deu	55
 趁電梯	chin di thi
@@ -22884,6 +22882,7 @@ import_tables:
 秤砣	chin dou
 青大頭	chin dou dei
 青大頭	chin dou deu	55
+趁大巴	chin dou pa
 青大腫	chin dou tson	55
 清茶	chin dzo
 秤錘	chin dzyu
@@ -24481,7 +24480,7 @@ import_tables:
 檯鐘	de tson
 待筵	de yi	55
 臺型	de yin
-隊排斬齊	dei ba tsae ji
+隊排斬齊	dei ba tsae zhi
 兌糖	dei daon	578
 兌糖個	dei daon ghoq	55
 兌糖人	dei daon gnin
@@ -25245,11 +25244,10 @@ import_tables:
 𠑞痢疾	dza li jiq	55
 咋弄	dza lon	578
 咋弄弄	dza lon lon	578
-咋貌介	dza maq kaq	25000
-咋貌格	dza maq kaq	25000
+咋末介	dza maq ka	25000
+咋末格	dza maq kaq	25000
 咋貌	dza mau	50000
 咋貌介	dza mau ka	25000
-咋貌介	dza mau kaq	25000
 咋貌格	dza mau kaq	25000
 ⿱寨魚	dza ng	55
 射㕶㕶	dza nk nk
@@ -25290,13 +25288,13 @@ import_tables:
 射屁賴賴	dza phi la la
 撒屁賴賴	dza phi la la
 𠑞屁賴賴	dza phi la la
-咋西孃介	dza shi gnian kaq	55
+咋西孃介	dza shi gnian ka	55
 咋西孃格	dza shi gnian kaq	55
 咋相貌	dza shian mau	55
 咋相貌介	dza shian mau ka	55
-咋相貌介	dza shian mau kaq	55
+咋相貌格	dza shian mau kaq	55
 咋式貌	dza shiq mau	55
-咋式貌介	dza shiq mau kaq	55
+咋式貌介	dza shiq mau ka	55
 咋式貌格	dza shiq mau kaq	55
 射尿	dza syu
 撒尿	dza syu
@@ -25373,8 +25371,6 @@ import_tables:
 捽芹菜	dzaq jin tshe
 雜格楞敦	dzaq kaq len ten
 雜角𩞁餈	dzaq koq mo zy
-咋貌介	dzaq maq kaq	25000
-咋貌格	dzaq maq kaq	25000
 雜嘴雜舌	dzaq tsyu dzaq zhiq
 在行	dze ghaon
 在行三叔婆	dze ghaon sae soq bou	55
@@ -28637,7 +28633,7 @@ import_tables:
 格柵	kaq saq
 格相貌	kaq shian mau	55
 格相貌介	kaq shian mau ka	55
-格相貌介	kaq shian mau kaq	55
+格相貌格	kaq shian mau kaq	55
 割小腸氣	kaq shiau jian chi
 隔手賬	kaq shieu cian	55
 格星	kaq shin	55
@@ -29872,7 +29868,7 @@ import_tables:
 該種人	kiq tson gnin
 該種情況	kiq tson jin huaon
 該種介	kiq tson ka	10000
-該種介	kiq tson kaq	2500
+該種格	kiq tson kaq	2500
 該種感覺	kiq tson ki-ke ciuq
 該種事體	kiq tson zy thi
 該組	kiq tsu
@@ -32167,14 +32163,12 @@ import_tables:
 嘸沒馱着	mhiq dou zoq	418
 嘸沒咋	mhiq dza	55
 嘸沒咋改變	mhiq dza ke pi	418
-嘸沒咋貌	mhiq dza maq	418
-嘸沒咋貌介	mhiq dza maq ka	578
-嘸沒咋貌介	mhiq dza maq kaq	578
-嘸沒咋貌格	mhiq dza maq kaq	55
+嘸沒咋末	mhiq dza maq	418
+嘸沒咋末介	mhiq dza maq ka	578
+嘸沒咋末格	mhiq dza maq kaq	578
 嘸沒咋貌	mhiq dza mau	418
 嘸沒咋貌介	mhiq dza mau ka	578
-嘸沒咋貌介	mhiq dza mau kaq	578
-嘸沒咋貌格	mhiq dza mau kaq	55
+嘸沒咋貌格	mhiq dza mau kaq	578
 嘸沒傳	mhiq dzoe	55
 嘸沒詞	mhiq dzy	55
 嘸沒安好心	mhiq ei-e hau shin	55
@@ -33276,7 +33270,6 @@ import_tables:
 硬襞紙箱	ngan paq tsy shian
 硬碰硬	ngan phan ngan
 硬剝剝	ngan poq poq	55
-硬卜卜	ngan poq poq
 硬傷	ngan saon
 硬燥燥	ngan sau sau	55
 硬到底苦到死	ngan tau ti khu tau shi
@@ -35727,7 +35720,7 @@ import_tables:
 啥人又	soq gnin yi
 啥人是	soq gnin zy
 啥人是啥人	soq gnin zy soq gnin
-啥介	soq kaq	55
+啥介	soq ka	55
 啥格	soq kaq	55
 索格	soq kaq	55
 啥幹	soq khi-khe	12000
@@ -38917,8 +38910,7 @@ import_tables:
 子蝦	tsy huo	55
 致怨	tsy iu	55
 致怨招怪	tsy iu ciau kua
-資介	tsy kaq	55
-資格	tsy kaq
+資格	tsy kaq	55
 紫殼蟹	tsy khaon ha	55
 指甲	tsy khaq	55
 指甲鉗	tsy khaq ji	522
@@ -39608,6 +39600,7 @@ import_tables:
 還魂酒	wae wen cieu	55
 還魂塑料	wae wen soq liau
 橫嶴	wan au
+橫道線	wan dau shi
 橫頭	wan deu	418
 橫頭多	wan deu tou
 橫愛司頭	wan e sy deu	55
