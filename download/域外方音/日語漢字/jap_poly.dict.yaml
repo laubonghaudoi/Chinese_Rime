@@ -10,7 +10,7 @@
 
 ---
 name: jap_poly
-version: "2020.10.20"
+version: "2023.01.19"
 sort: by_weight	#original
 use_preset_vocabulary: false
 ...
@@ -823,7 +823,7 @@ use_preset_vocabulary: false
 亞	a	
 亞	e	5%
 况	kyau	
-些	sya	
+些	sya	w%
 些	sa	
 亟	kyoku	
 亟	ki	
@@ -2538,7 +2538,6 @@ use_preset_vocabulary: false
 奝	teu	
 奧	au	
 奧	iku	
-奧	oku	
 奠	ten	
 奠	den	
 奡	gau	
@@ -3273,6 +3272,8 @@ use_preset_vocabulary: false
 廖	leu	
 廚	tyo	
 廚	tyou	
+廚	du	
+廚	tyuu	
 廛	ten	
 廝	si	
 廞	kin	
@@ -4313,6 +4314,7 @@ use_preset_vocabulary: false
 敏	bin	
 敉	bi	
 教	keu	
+敎	keu	
 救	kiu	
 救	ku	
 敗	hai	
@@ -6045,8 +6047,8 @@ use_preset_vocabulary: false
 牆	syau	
 牆	zau	
 片	hen	
-板	han	
-板	hen	
+版	han	
+版	hen	
 牉	han	
 牋	sen	
 牌	hai	
@@ -11295,6 +11297,7 @@ use_preset_vocabulary: false
 酗	ku	
 酢	so	
 酢	saku	
+酢	su	
 酡	ta	
 酣	kan	
 酤	ko	
@@ -13241,10 +13244,12 @@ use_preset_vocabulary: false
 龥	yu	
 䶵	ti	
 䶵	di	
+アール	a-lu
 アイスクリーム	aisu kuli-mu
 アイスクリーム	ice cream
 アイディア	aidia
 アイディア	idea
+アイティー	aiti-
 アイブロー	aibulo-
 アイブロー	eyebrow
 アイロン	ailon
@@ -13253,6 +13258,7 @@ use_preset_vocabulary: false
 アカウント	akaunto
 アカデミー	academy
 アカデミー	akademi-
+あか頭巾	aka du kin
 アクセサリー	accessory
 アクセサリー	akusesali-
 あさね坊	asa ne bau
@@ -13289,6 +13295,7 @@ use_preset_vocabulary: false
 アマチュア	amatyua
 アメリカ	amelika
 アメリカ	america
+あめん棒	ame n bau
 アラーム	ala-mu
 アラーム	alarm
 アリーナ	ali-na
@@ -13305,8 +13312,12 @@ use_preset_vocabulary: false
 イギリス	igilisu
 イギリス	inglez
 イタリア	italia
+イノベーター	innovator
+イノベーター	inobe-ta-
 イベント	event
 イベント	ibento
+イメージ	image
+イメージ	ime-zi
 イヤリンぐ	ear ring
 イヤリンぐ	iya lingu
 いや味	iya mi
@@ -13324,6 +13335,8 @@ use_preset_vocabulary: false
 インダストリー	industry
 インド	indo
 インドネシア	indonesia
+インフルエンザ	influenza
+インフルエンザ	inhuluenza
 い黃	i wau
 ウィーク	week
 ウィーク	wi-ku
@@ -13355,6 +13368,8 @@ use_preset_vocabulary: false
 エリア	elia
 エリート	elite
 エリート	eli-to
+エレベーター	elebe-ta-
+エレベーター	elevator
 エンジン	engine
 エンジン	enzin
 エンライテンド	enlaitendo
@@ -13388,12 +13403,17 @@ use_preset_vocabulary: false
 おほさか城	oho saka zyau
 おほさか府	oho saka hu
 おほ袈裟	oho ge sa
+おほ肉まる	oho niku malu
 おほ勢	oho zei
 オランダ	holanda
 オランダ	olanda
+オリンピック	olinpikku
+オリンピック	olympic
 お茶	o tya
 お辭儀	o zi gi
 お得意さん	o toku i san
+お菓子	o kwa si
+お節料理	o seti leu li
 お客	o kyaku
 お禮	o lei
 お娘	o dyau
@@ -13402,6 +13422,9 @@ use_preset_vocabulary: false
 お世辭	o se zi
 お田	o den
 お宅	o taku
+お酢	o su
+カーテン	curtain
+カーテン	ka-ten
 カード	card
 カード	ka-do
 ガイド	gaido
@@ -13434,6 +13457,7 @@ use_preset_vocabulary: false
 カムフラージュ	kamuhula-zyu
 カメラ	camera
 カメラ	kamela
+カラー	collar
 カラー	color
 カラー	kala-
 カラーテレビ	kala- telebi
@@ -13448,6 +13472,8 @@ use_preset_vocabulary: false
 カレンダー	calendar
 カレンダー	kalenda-
 かれ氏	kale si
+カンニンぐ	cunning
+カンニンぐ	kanningu
 カンパニー	company
 カンパニー	kanpani-
 か奈がは	ka na gaha
@@ -13479,6 +13505,9 @@ use_preset_vocabulary: false
 ギリシャ	grecia
 キリスト	christ
 キリスト	kilisuto
+キロ	kilo
+キロメートル	kilometer
+キロメートル	kilome-tolu
 き地	ki di
 グーグル	google
 グーグル	gu-gulu
@@ -13521,6 +13550,12 @@ use_preset_vocabulary: false
 クロースアップ	kulo-su appu
 クローバー	clover
 クローバー	kulo-ba-
+グローバル	global
+グローバル	gulo-balu
+くロケット	croquette
+くロケット	kuloketto
+クロス	cross
+クロス	kulosu
 クヰズ	kuwizu
 クヰズ	quiz
 ケーキ	cake
@@ -13549,6 +13584,8 @@ use_preset_vocabulary: false
 ゴールデン	go-luden
 コールド	cold
 コールド	ko-ludo
+コスト	cost
+コスト	kosuto
 コスメ	kosume
 コック	cook
 コック	kokku
@@ -13570,6 +13607,8 @@ use_preset_vocabulary: false
 コロナ	kolona
 コンクリート	concrete
 コンクリート	konkuli-to
+コンサート	concert
+コンサート	konsa-to
 コンタクト	contact
 コンタクト	kontakuto
 コンパニー	company
@@ -13587,6 +13626,8 @@ use_preset_vocabulary: false
 こ五郎	ko go lau
 サービス	sa-bisu
 サービス	service
+サーフ	sa-hu
+サーフ	surf
 サイズ	saizu
 サイズ	size
 サイト	saito
@@ -13605,14 +13646,19 @@ use_preset_vocabulary: false
 サンド	sando
 サンドヰッチ	sandowitti
 サンドヰッチ	sandwich
+シーシー	cc
+シーシー	si-si-
 シーズン	season
 シーズン	si-zun
 シーツ	sheets
 シーツ	si-tu
+シーン	scene
+シーン	si-n
 ジーンズ	jeans
 ジーンズ	zi-nzu
 シェア	share
 シェア	shea
+ジェー	je-
 ジェット	jet
 ジェット	jetto
 ジェネラル	general
@@ -13623,17 +13669,25 @@ use_preset_vocabulary: false
 シチュー	stew
 シナリオ	scenario
 シナリオ	sinalio
+ジビエ	gibier
+ジビエ	zibie
+ジム	gym
+ジム	jimu
 ジャガいも	zyaga imo
 ジャケット	jacket
 ジャケット	zyaketto
 シャツ	shirt
 シャツ	syatu
+ジャパン	japan
+ジャパン	zyapan
 シャワー	shower
 シャワー	syawa-
 ジャンパー	jumper
 ジャンパー	zyanpa-
 ジュース	juice
 ジュース	zyu-su
+シュート	shoot
+シュート	syu-to
 シュール	syu-lu
 シュガー	sugar
 シュガー	syuga-
@@ -13645,6 +13699,8 @@ use_preset_vocabulary: false
 ショッピング	syoppingu
 ショップ	shop
 ショップ	syoppu
+ショルダー	shoulder
+ショルダー	syoluda-
 シリーズ	series
 シリーズ	sili-zu
 シンク	sink
@@ -13653,14 +13709,19 @@ use_preset_vocabulary: false
 スーザン	su-zan
 スーツ	shoots
 スーツ	suit
+スーツ	su-tu
 スーパー	su-pa-
 スーパー	super
 スーパー·マーケット	su-pa- ma-ketto
 スーパー·マーケット	super market
+スープ	soup
+スープ	su-pu
 スカート	skirt
 スカート	suka-to
 スカーフ	scarf
 スカーフ	suka-hu
+スカイ	sky
+スカイ	sukai
 スキー	ski
 スキー	suki-
 スキー場	ski dyau
@@ -13669,6 +13730,8 @@ use_preset_vocabulary: false
 スキンケア	sukin kea
 スケート	skate
 スケート	suke-to
+スケジュール	sukezyu-lu
+スケジュール	schedule
 スケヂュール	schedule
 スケヂュール	sukedyu-lu
 スコア	score
@@ -13690,6 +13753,8 @@ use_preset_vocabulary: false
 スタミナ	sutamina
 スタンガン	stun gun
 スタンガン	sutan gan
+スタンド	stand
+スタンド	sutando
 ステップ	step
 ステップ	suteppu
 ステレオ	stereo
@@ -13708,8 +13773,14 @@ use_preset_vocabulary: false
 スノー	suno-
 スピーチ	speech
 スピーチ	supi-ti
+スピード	speed
+スピード	supi-do
+スピルリナ	spirulina
+スピルリナ	supilulina
 スペイン	spain
 スペイン	supein
+スペイン語	spain go
+スペイン語	supein go
 スペシャル	special
 スペシャル	supesyalu
 スポーツ	sports
@@ -13726,6 +13797,8 @@ use_preset_vocabulary: false
 スライド	sulaido
 スリッパ	slipper
 スリッパ	sulippa
+スレッド	suleddo
+スレッド	thread
 スヰス	suisse
 スヰス	suwisu
 スヰッチ	suwitti
@@ -13758,6 +13831,9 @@ use_preset_vocabulary: false
 センチ	senti
 セントラル	central
 セントラル	sentolalu
+ソース	sauce
+ソース	so-su
+その後	sono go
 その他	sono ta
 ソフトニングローション	softening lotion
 ソフトニングローション	sohutoningu lo-syon
@@ -13772,6 +13848,8 @@ use_preset_vocabulary: false
 ターン	turn
 タイ	tai
 タイ	thai
+ダイエット	daietto
+ダイエット	diet
 タイト	taito
 タイト	tight
 タイトル	taitolu
@@ -13794,10 +13872,15 @@ use_preset_vocabulary: false
 タオル	towel
 タクシー	takusi-
 タクシー	taxi
+タクシー代	takusi- dai
+タクシー代	taxi dai
 タバコ	tabacco
 タバコ	tabako
+タピオカ	tapioca
+タピオカ	tapioka
 ダビング	dabingu
 ダビング	dubbing
+ダブリュー	dabulyu-
 ダム	dam
 ダム	damu
 た方が	ta hau ga
@@ -13842,8 +13925,15 @@ use_preset_vocabulary: false
 デザイナー	dezaina-
 デザイン	design
 デザイン	dezain
+デジカメ	dezi kame
+デジタル	dezitalu
+デジタル	digital
 デジャビュ	dejavu
 デジャビュ	dezyabyu
+デシリットル	deciliter
+デシリットル	desilittolu
+テスト	test
+テスト	tesuto
 デッキ	deck
 デッキ	dekki
 テニス	tenisu
@@ -13858,7 +13948,10 @@ use_preset_vocabulary: false
 て錠	te dyau
 て配	te hai
 て配書	te hai syo
+て數料	te suu leu
 て帳	te tyau
+ドア	doa
+ドア	door
 ドイツ	deutsch
 ドイツ	doitu
 ドイツ	duits
@@ -13870,6 +13963,7 @@ use_preset_vocabulary: false
 ドッキング	dokkingu
 ドック	dock
 ドック	dokku
+どの邊	dono hen
 トマト	tomato
 トラック	tolakku
 トラック	truck
@@ -13877,6 +13971,8 @@ use_preset_vocabulary: false
 トラベラーズ	travelers
 ドラマ	dolama
 ドラマ	drama
+トランク	tolanku
+トランク	trunk
 トリック	tolikku
 トリック	trick
 トレイン	tolein
@@ -13884,6 +13980,7 @@ use_preset_vocabulary: false
 トレジャー	tolezya-
 トレジャー	treasure
 どろ棒	dolo bau
+トン	ton
 トンネル	tonnelu
 トンネル	tunnel
 と計	to kei
@@ -13921,18 +14018,26 @@ use_preset_vocabulary: false
 ニュース	nyu-su
 ニューヨーク	new york
 ニューヨーク	nyu- yo-ku
+ニ臺	ni dai
 に物	ni motu
 ネクタイ	neck tie
 ネクタイ	neku tai
+ネック	neck
+ネック	nekku
 ネックレス	neck lace
 ネックレス	nekku lesu
 ね段	ne dan
+ね坊	ne bau
+ノエル	noel
+ノエル	noelu
 ノート	note
 ノート	no-to
 ノクターン	nocturn
 ノクターン	nokuta-n
 のび代	nobi dai
 の樣	no yau
+パーカー	pa-ka-
+パーカー	parka
 パーク	pa-ku
 パーク	park
 バーゲン	ba-gen
@@ -13945,12 +14050,16 @@ use_preset_vocabulary: false
 パーセント	per cent
 パーティー	party
 パーティー	pa-ti-
+バーテンダー	bartender
+バーテンダー	ba-tenda-
 ハート	ha-to
 ハート	heart
 バーボン	ba-bon
 バーボン	bourbon
 パイ	pai
 パイ	pie
+ハイジャック	haizyakku
+ハイジャック	hijack
 ハイテク	hai teku
 ハイテク	high tech
 バイバイ	bai bai
@@ -13972,6 +14081,7 @@ use_preset_vocabulary: false
 バスルーム	bathroom
 パスワード	password
 パスワード	pasuwa-do
+パソコン	paso kon
 バター	butter
 バック	back
 バック	bakku
@@ -13985,17 +14095,23 @@ use_preset_vocabulary: false
 バナナ	banana
 パニック	panic
 パニック	panikku
+パフェ	pafe
+パフェ	parfait
 はブラシ	ha brush
 はブラシ	ha bulasi
 ハム	ham
 ハム	hamu
 パラシュート	palasyu-to
 パラシュート	parashoot
+パラソル	palasolu
+パラソル	parasol
 バランス	balance
 バランス	balansu
 はら宿	hala zyuku
 パリ	pali
 パリ	paris
+バレー	bale-
+バレー	volley
 バレーボール	bale-bo-lu
 バレーボール	volleyball
 パレス	palace
@@ -14024,13 +14140,22 @@ use_preset_vocabulary: false
 ピアノ	piano
 ヒアリング	hearing
 ヒアリング	hialingu
+ビーチ	beach
+ビーチ	bi-ti
 ピーナツ	peanuts
+ピーナッツ	peanuts
+ピーナッツ	pi-nattu
+ピーマン	pi-man
+ピーマン	piment
 ビール	beer
 ビール	bi-lu
 ヒーロー	hero
 ヒーロー	hi-lo-
 ビギナー	bigina-
 ビギナー	biginner
+ビキニ	bikini
+ピクニック	picnic
+ピクニック	pikunikku
 ビジネスマン	bizinisuman
 ビジネスマン	businessman
 ビデオ	bideo
@@ -14089,6 +14214,8 @@ use_preset_vocabulary: false
 ぶた肉	buta niku
 フッ素	hus so
 ふな便	huna bin
+フライ	fry
+フライ	hulai
 プライバシー	privacy
 プライバシー	pulaibasi-
 フライパン	fry pan
@@ -14110,7 +14237,13 @@ use_preset_vocabulary: false
 フランス語	hulansu go
 ブランド	brand
 ブランド	bulando
+フリーズ	freeze
+フリーズ	huli-zu
 フリーター	huli-ta-
+プリン	pudding
+プリン	pulin
+プリンス	prince
+プリンス	pulinsu
 ブルー	blue
 ブルー	bulu-
 プレイヤー	player
@@ -14135,6 +14268,8 @@ use_preset_vocabulary: false
 ブロック	bulokku
 プロポーズ	propose
 プロポーズ	pulopo-zu
+ベア	bare
+ベア	bea
 ベーグル	bagel
 ベーグル	be-gulu
 ページ	page
@@ -14184,6 +14319,11 @@ use_preset_vocabulary: false
 ホステル	hosutelu
 ボタン	botan
 ボタン	button
+ボディ	bodi
+ボディ	body
+ボディーガード	bodi-ga-do
+ボディーガード	bodyguard
+ボディコン	bodi kon
 ポテート	potato
 ポテート	pote-to
 ポテチ	poteti
@@ -14203,6 +14343,8 @@ use_preset_vocabulary: false
 ボルト	volt
 ホワイト	howaito
 ホワイト	white
+マーク	ma-ku
+マーク	mark
 マーケット	ma-ketto
 マーケット	market
 マイク	maiku
@@ -14212,6 +14354,7 @@ use_preset_vocabulary: false
 マジック	mazikku
 マター	mata-
 マター	matter
+まちあひ室	mati ahi situ
 マッチ	match
 マッチ	matti
 マネージャー	manager
@@ -14230,6 +14373,8 @@ use_preset_vocabulary: false
 マルチ	multi
 マンション	mansion
 マンション	mansyon
+ミート	meat
+ミート	mi-to
 ミサイル	misailu
 ミサイル	missile
 ミッション	mission
@@ -14237,8 +14382,13 @@ use_preset_vocabulary: false
 みづ御殿	midu go ten
 ミニスカート	mini skirt
 ミニスカート	mini suka-to
+ミリ	mili
+ミリ	milli
+ミリメートル	milime-tolu
+ミリメートル	millimeter
 ミルク	milk
 ミルク	miluku
+み分	mi bun
 ムービー	movie
 ムービー	mu-bi-
 メイン	main
@@ -14247,11 +14397,16 @@ use_preset_vocabulary: false
 メーカー	me-ka-
 メーク	make
 メーク	me-ku
+メード	maid
+メード	me-do
 メートル	meter
 メートル	me-tolu
 メートル	metre
 メール	mail
 メール	me-lu
+メキシコ	mekisiko
+メキシコ	mexico
+めざましど計	mezamasi do kei
 メダル	medal
 メダル	medalu
 メニュー	menu
@@ -14269,6 +14424,7 @@ use_preset_vocabulary: false
 モップ	moppu
 モデル	model
 モデル	modelu
+モノレール	mono le-lu
 モルモット	marmot
 モルモット	molumotto
 や賃	ya tin
@@ -14302,12 +14458,16 @@ use_preset_vocabulary: false
 ライバル	rival
 ライブ	laibu
 ライブ	live
+ライフセーバー	laihu se-ba-
+ライフセーバー	lifesaver
 ライン	lain
 ライン	line
 ラウンド	laundo
 ラウンド	round
 ラヂオ	ladio
 ラヂオ	radio
+ラッキー	lakki-
+ラッキー	lucky
 ラッシュ	lassyu
 ラッシュ	rush
 ラッシュ·アワー	lassyu awa-
@@ -14328,12 +14488,20 @@ use_preset_vocabulary: false
 リア充	real zyuu
 リーグ	league
 リーグ	li-gu
+リーダー	li-da-
+リーダー	leader
 リソース	liso-su
 リソース	resource
+リットル	liter
+リットル	littolu
 リップスティック	lip stick
 リップスティック	lippu sutikku
 リトライ	litolai
 リトライ	retry
+リニア	linear
+リニア	linia
+リニアモーターカー	linear motor car
+リニアモーターカー	linia mo-ta- ka-
 リフト	lift
 リフト	lihuto
 リベンジ	libenzi
@@ -14367,6 +14535,10 @@ use_preset_vocabulary: false
 レーコード	record
 レース	le-su
 レース	race
+レール	le-lu
+レール	rail
+レールウェイズ	le-luweizu
+レールウェイズ	railways
 レギュラー	legyula-
 レギュラー	regular
 レコーダー	leko-da-
@@ -14378,6 +14550,8 @@ use_preset_vocabulary: false
 レジスタンス	resistance
 レシピ	lesipi
 レシピ	recipe
+レジャー	leisure
+レジャー	lezya-
 レストラン	lesutolan
 レストラン	restaurant
 レトリバー	letoliba-
@@ -14418,6 +14592,7 @@ use_preset_vocabulary: false
 阿修羅	a syu la
 挨拶	ai satu
 愛馬	ai ba
+愛情	ai zyau
 愛人	ai zin
 愛知縣	ai ti ken
 曖昧	ai mai
@@ -14435,6 +14610,8 @@ use_preset_vocabulary: false
 暗殺者	an satu sya
 暗示	an zi
 暗算	an zan
+拗長音	eu tyau on
+拗音	eu on
 傲慢	gau man
 奧義	au gi
 八百	hap pyaku
@@ -14460,6 +14637,7 @@ use_preset_vocabulary: false
 霸權	ha ken
 霸王	ha wau
 霸王劍	ha wau ken
+白堊	haku a
 白毫	byaku gau
 白虎	byak ko
 白馬	haku ba
@@ -14474,6 +14652,7 @@ use_preset_vocabulary: false
 百年	hyaku nen
 百獸	hyaku ziu
 百万	hyaku man
+百万圓	hyaku man wen
 拜見	hai ken
 拜啓	hai kei
 敗北	hai boku
@@ -14504,6 +14683,7 @@ use_preset_vocabulary: false
 保護	ho go
 保護區	ho go ku
 保濕	ho situ
+保險	ho ken
 保育	ho iku
 保育園	ho iku wen
 保障	ho syau
@@ -14513,6 +14693,7 @@ use_preset_vocabulary: false
 寶飾	hau syoku
 報酬	hau siu
 報道	hau dau
+報復	hau huku
 報告	hau koku
 暴君	bau kun
 暴力	bau lyoku
@@ -14525,12 +14706,14 @@ use_preset_vocabulary: false
 爆竹	baku tiku
 爆走	baku sou
 杯ど	hai do
+卑劣	hi letu
 卑怯	hi kehu
 悲觀	hi kwan
 悲劇	hi geki
 悲鳴	hi mei
 悲痛	hi tuu
 北東	hoku tou
+北斗	hoku to
 北海道	hok kai dau
 北極	hok kyoku
 北寄がひ	hok ki gahi
@@ -14538,6 +14721,7 @@ use_preset_vocabulary: false
 北米	hoku bei
 北西	hoku sai
 北西	hoku sei
+背後	hai go
 背景	hai kei
 背面	hai men
 背水	hai suwi
@@ -14546,6 +14730,7 @@ use_preset_vocabulary: false
 被害	hi gai
 被害者	hi gai sya
 備前	bi zen
+本だ	hon da
 本だな	hon dana
 本もの	hon mono
 本や	hon ya
@@ -14554,6 +14739,7 @@ use_preset_vocabulary: false
 本島	hon tau
 本店	hon ten
 本番	hon ban
+本格	hon kaku
 本館	hon kwan
 本籍	hon seki
 本來	hon lai
@@ -14563,9 +14749,11 @@ use_preset_vocabulary: false
 本日	hon zitu
 本社	hon sya
 本堂	hon dau
+本體	hon tai
 本廳	hon tyau
 本心	hon sin
 本性	hon syau
+本戰	hon sen
 本質	hon situ
 本州	hon siu
 本尊	hon zon
@@ -14586,10 +14774,12 @@ use_preset_vocabulary: false
 必要	hitu eu
 陛下	hei ka
 閉鎖	hei sa
+閉院	hei win
 避雷針	hi lai sin
 避難	hi nan
 贔屓	hii ki
 編隊	hen tai
+編修	hen siu
 邊鄙	hen pi
 邊獄	hen goku
 扁球	hen kiu
@@ -14597,16 +14787,20 @@ use_preset_vocabulary: false
 便利	ben li
 辨慶	ben kei
 辯護士	ben go si
+變だ	hen da
 變な	hen na
 變電所	hen den syo
 變革	hen kaku
 變更	hen kau
 變化	hen ge
+變化	hen kwa
 變身	hen sin
 變聲機	hen sei ki
 變聲器	hen sei ki
+變數	hen suu
 變態	hen tai
 變裝	hen sau
+杓子	syaku si
 標的	heu teki
 標識	heu siki
 標準	heu zyun
@@ -14623,8 +14817,10 @@ use_preset_vocabulary: false
 冰菓	hyou kwa
 冰河	hyou ga
 冰晶	hyou syau
+冰瓶	hyou bin
 冰山	hyou zan
 冰上	hyou zyau
+冰神	hyou zin
 兵長	hei tyau
 兵隊	hei tai
 兵糧丸	hyau lau gwan
@@ -14648,7 +14844,9 @@ use_preset_vocabulary: false
 不安	hu an
 不安定	hu an tei
 不便	hu ben
+不充分	hu zyuu bun
 不敵	hu teki
+不動產	hu dou san
 不動堂	hu dou dau
 不二	hu zi
 不謹愼	hu kin sin
@@ -14656,6 +14854,7 @@ use_preset_vocabulary: false
 不可能	hu ka nou
 不況	hu kyau
 不滿	hu man
+不滅	hu metu
 不明	hu mei
 不能	hu nou
 不器用	bu ki you
@@ -14671,6 +14870,8 @@ use_preset_vocabulary: false
 不協和音	hu kehu wa on
 不夜	hu ya
 不意に	hu i ni
+不愉快	hu yu kwai
+不運	hu un
 不足	hu soku
 不足分	hu soku bun
 布袋	ho tei
@@ -14682,9 +14883,11 @@ use_preset_vocabulary: false
 部長	bu tyau
 部隊	bu tai
 部分	bu bun
+部活	bu kwatu
 部品	bu hin
 部下	bu ka
 才波	sai ba
+才能	sai nou
 材料	sai leu
 材料	zai leu
 財寶	zai hau
@@ -14692,6 +14895,7 @@ use_preset_vocabulary: false
 財產	zai san
 財力	zai lyoku
 裁縫	sai hou
+裁決	sai ketu
 裁判	sai ban
 裁判長	sai ban tyau
 裁判所	sai ban syo
@@ -14706,6 +14910,7 @@ use_preset_vocabulary: false
 參戰	san sen
 殘だか	zan daka
 殘酷	zan koku
+殘留	zan liu
 殘念	zan nen
 殘虐	zan gyaku
 殘像	zan zau
@@ -14717,7 +14922,10 @@ use_preset_vocabulary: false
 操縱	sau zyuu
 操作	sau sa
 曹長	sau tyau
+草神	sau sin
 草原	sau gen
+策略	saku lyaku
+策士	saku si
 曾祖父	sou so hu
 曾祖母	sou so bo
 茶ば	tya ba
@@ -14725,12 +14933,14 @@ use_preset_vocabulary: false
 茶道	sa dau
 茶房	sa bau
 茶室	tya situ
+査抄	sa seu
 差別	sa betu
 產業	san gehu
 長安	tyau an
 長城	tyau zyau
 長刀	tyau tau
 長官	tyau kwan
+長江	tyau kau
 長距離	tyau kyo li
 長老	tyau lau
 長男	tyau nan
@@ -14756,6 +14966,8 @@ use_preset_vocabulary: false
 撤退	tet tai
 徹底	tet tei
 徹底的	tet tei teki
+臣下	sin ka
+稱讚	syou san
 成敗	sei bai
 成長	sei tyau
 成功	sei kou
@@ -14763,6 +14975,8 @@ use_preset_vocabulary: false
 成語	sei go
 承認	syou nin
 城都	zyau to
+城門	zyau mon
+城內	zyau nai
 城一郎	zyau iti lau
 乗船	zyou sen
 乗客	zyou kyaku
@@ -14778,11 +14992,16 @@ use_preset_vocabulary: false
 衝動	syou dou
 衝擊	syou geki
 衝擊波	syou geki ha
+崇高	suu kau
 銃創	zyuu sau
 銃殺	zyuu satu
 銃聲	zyuu sei
+抽籤	tiu sen
+抽籤臺	tiu sen dai
+抽象	tiu syau
 躊躇	tiu tyo
 醜態	siu tai
+出版	syup pan
 出場	syutu dyau
 出發	syup patu
 出港	syuk kau
@@ -14826,6 +15045,7 @@ use_preset_vocabulary: false
 純こ	zyun ko
 純粹	zyun suwi
 純一	zyun iti
+純正	zyun sei
 慈悲	zi hi
 慈恩	zi on
 磁ば	zi ba
@@ -14840,8 +15060,10 @@ use_preset_vocabulary: false
 次男	zi nan
 次女	zi dyo
 次元	zi gen
+刺激	si geki
 刺客	si kaku
 聰明	sou mei
+從者	zyuu sya
 麤しな	so sina
 麤末	so matu
 促成	soku sei
@@ -14862,22 +15084,27 @@ use_preset_vocabulary: false
 大した	tai si ta
 大爆發	dai baku hatu
 大變	tai hen
+大病	tai byau
 大草原	dai sau gen
 大臣	dai zin
+大成功	dai sei kou
 大膽	dai tan
 大刀	dai tau
+大地	dai ti
 大敵	tai teki
 大抵	tai tei
-大地	dai ti
+大都市	dai so si
 大豆	dai du
 大分	dai bu
 大根	dai kon
 大工	dai ku
+大規模	dai ki bo
+大好物	dai kau butu
 大河	tai ga
 大黑ばしら	dai koku basila
+大會	dai kwai
 大會	tai kwai
 大吉	dai kiti
-大將	dai syau
 大將	tai syau
 大金	tai kin
 大決戰	dai kes sen
@@ -14886,10 +15113,12 @@ use_preset_vocabulary: false
 大亂戰	dai lan sen
 大冒險	dai bau ken
 大名	dai myau
+大魔王	dai ma wau
 大逆轉	dai gyaku ten
 大砲	tai hau
 大平原	dai hei gen
 大切	tai setu
+大人物	dai zin butu
 大日如來	dai niti nyo lai
 大使	tai si
 大使館	tai si kwan
@@ -14897,6 +15126,7 @@ use_preset_vocabulary: false
 大體	dai tai
 大體	tai tei
 大西洋	tai sei yau
+大賢者	dai ken zya
 大學	dai gaku
 大宇宙	dai u tiu
 大丈夫	dai dyau bu
@@ -14908,6 +15138,7 @@ use_preset_vocabulary: false
 代表團	dai heu dan
 代表者	dai heu sya
 代代	dai dai
+代價	dai ka
 代理	dai li
 代替	dai tai
 怠惰	tai da
@@ -14916,6 +15147,7 @@ use_preset_vocabulary: false
 單身	tan sin
 單語	tan go
 擔當	tan tau
+擔當者	tan tau sya
 旦那	dan na
 蛋白	tan paku
 蛋白質	tan paku situ
@@ -14930,16 +15162,41 @@ use_preset_vocabulary: false
 到達	tau tatu
 到頭	tau tou
 到着	tau tyaku
+道場	dau dyau
 道德	dau toku
 道化師	dau ke si
 道具	dau gu
 道力	dau liki
 道路	dau lo
 道明寺	dau myau zi
+道義	dau gi
 盜聽器	tau tyau ki
 盜賊	tau zoku
 盜賊團	tau zoku dan
 得意	toku i
+地みち	di miti
+地裁	ti sai
+地藏	di zau
+地藏	ti zau
+地帶	ti tai
+地底	ti tei
+地方	ti hau
+地脈	di myaku
+地面	di men
+地名	ti mei
+地盤	di ban
+地平線	ti hei sen
+地球	ti kiu
+地上	ti zyau
+地圖	ti du
+地位	ti wi
+地味	di mi
+地下	ti ka
+地下道	ti ka dau
+地下鐵	ti ka tetu
+地獄	di goku
+地獄	ti goku
+地震	di sin
 的な	teki na
 登場	tou dyau
 登錄	tou loku
@@ -14953,27 +15210,6 @@ use_preset_vocabulary: false
 敵意	teki i
 敵陣	teki din
 抵抗	tei kau
-地みち	di miti
-地裁	ti sai
-地藏	di zau
-地藏	ti zau
-地帶	ti tai
-地底	ti tei
-地方	ti hau
-地面	di men
-地名	ti mei
-地平線	ti hei sen
-地球	ti kiu
-地上	ti zyau
-地圖	ti du
-地位	ti wi
-地味	di mi
-地下	ti ka
-地下道	ti ka dau
-地下鐵	ti ka tetu
-地獄	di goku
-地獄	ti goku
-地震	di sin
 弟子	de si
 帝丹	tei tan
 帝國	tei koku
@@ -14982,6 +15218,8 @@ use_preset_vocabulary: false
 第三	dai san
 第一	dai iti
 第一話	dai iti wa
+第一課	dai ik kwa
+點檢	ten ken
 點在	ten zai
 店長	ten tyau
 店員	ten win
@@ -14996,17 +15234,22 @@ use_preset_vocabulary: false
 電光石火	den kwau sek kwa
 電話	den wa
 電話中	den wa tyuu
-電教	den keu
+電敎	den keu
 電氣	den ki
+電氣代	den ki dai
 電器	den ki
 電器街	den ki gai
+電源	den gen
 電子	den si
 殿堂	den dau
+殿下	den ka
 澱粉	den pun
 彫刻	teu koku
 彫像	teu zau
 調査	teu sa
 調査員	teu sa win
+調理	teu li
+調味	teu mi
 調味料	teu mi leu
 調整	teu sei
 調子	teu si
@@ -15031,9 +15274,11 @@ use_preset_vocabulary: false
 東北	tou hoku
 東部	tou bu
 東都	tou to
+東海道	tou kai dau
 東京	tou kyau
 東京都	tou kyau to
 東京驛	tou kyau eki
+東南	tou nan
 東洋	tou yau
 東洋人	tou yau zin
 洞窟	dou kutu
@@ -15047,12 +15292,14 @@ use_preset_vocabulary: false
 動物園	dou butu wen
 動向	dou kau
 棟梁	tou lyau
+都道府縣	to dau hu ken
 都度	tu do
 都合	tu gahu
 都會	to kwai
 都民	to min
 都市	to si
 都知事	to ti zi
+豆腐	tou hu
 鬪魚	tou gyo
 毒藥	doku yaku
 獨斷	doku dan
@@ -15060,6 +15307,7 @@ use_preset_vocabulary: false
 獨立語	doku litu go
 獨身	doku sin
 讀書	doku syo
+讀者	doku sya
 賭博	to baku
 端末	tan matu
 短刀	tan tau
@@ -15068,7 +15316,11 @@ use_preset_vocabulary: false
 段段	dan dan
 段階	dan kai
 緞子	don su
+鍛造	tan zau
+鍛造圖	tan zau du
 斷刀	dan tau
+斷片	dan pen
+斷罪	dan zai
 隊長	tai tyau
 對し	tai si
 對す	tai su
@@ -15092,12 +15344,14 @@ use_preset_vocabulary: false
 惡鬼	ak ki
 惡靈	aku lei
 惡靈	aku lyau
+惡龍	aku lyuu
 惡夢	aku mu
 惡魔	aku ma
 惡童	aku dou
 惡政	aku sei
 餓鬼	ga ki
 餓狼	ga lau
+恩惠	on kei
 恩人	on zin
 恩師	on si
 二百	ni hyaku
@@ -15119,6 +15373,7 @@ use_preset_vocabulary: false
 二億	ni oku
 二元	ni gen
 二月	ni gwatu
+二擇	ni taku
 二重	ni dyuu
 發表	hap peu
 發達	hat tatu
@@ -15130,6 +15385,7 @@ use_preset_vocabulary: false
 發見	hak ken
 發酵	hak kau
 發掘	hak kutu
+發賣	hatu bai
 發券機	hak ken ki
 發想	has sau
 發信	has sin
@@ -15139,10 +15395,12 @@ use_preset_vocabulary: false
 發展	hat ten
 廢船	hai sen
 廢墟	hai kyo
+法令	hahu lei
 法隆寺	hahu lyuu zi
 法律	hahu litu
 法師	hahu si
 法庭	hahu tei
+法則	hahu soku
 番ぐみ	ban gumi
 番地	ban ti
 番隊	ban tai
@@ -15162,17 +15420,19 @@ use_preset_vocabulary: false
 反則	han soku
 返上	hen zyau
 返事	hen zi
-犯行	han kau
 犯人	han nin
+犯行	han kau
 犯罪	han zai
 犯罪者	han zai sya
 販賣	han bai
 範圍	han wi
 方法	hau hahu
+方式	hau siki
 方向	hau kau
 方言	hau gen
 方針	hau sin
 防波堤	bau ha tei
+防沙壁	bau sa heki
 防禦	bau gyo
 紡錘	hau suwi
 訪日	hau niti
@@ -15185,15 +15445,17 @@ use_preset_vocabulary: false
 放送	hau sou
 放題	hau dai
 放心	hau sin
-非行	hi kau
+非常	hi zyau
 非合理	hi gahu li
+非難	hi nan
 非情	hi zyau
 非人道	hi zin dau
+非行	hi kau
 非戰	hi sen
+飛沫	hi matu
 飛行	hi kau
 飛行船	hi kau sen
 飛行機	hi kau ki
-飛沫	hi matu
 飛躍	hi yaku
 肥のかは	hi no kaha
 翡翠	hi suwi
@@ -15206,6 +15468,9 @@ use_preset_vocabulary: false
 分校	bun kau
 分野	bun ya
 分子	bun si
+氛圍氣	hun wi ki
+雰圍氣	hun wi ki
+粉末	hun matu
 忿怒	hun do
 憤怒	hun nu
 奮鬥	hun tou
@@ -15220,6 +15485,7 @@ use_preset_vocabulary: false
 風流	huu liu
 風呂	hu lo
 風情	hu zei
+風神	huu zin
 風俗	huu zoku
 風速	huu soku
 風味	huu mi
@@ -15228,16 +15494,17 @@ use_preset_vocabulary: false
 風月	huu getu
 風雲	huu un
 豐富	hou hu
-奉行	bu gyau
 奉太郎	hou ta lau
+奉行	bu gyau
+奉行所	bu gyau syo
 鳳仙	hou sen
-佛光	buk kwau
-佛教	buk keu
-佛像	butu zau
-佛焰苞	butu en hau
 夫婦	huu hu
 夫人	hu zin
 弗素	hus so
+佛光	buk kwau
+佛敎	buk keu
+佛像	butu zau
+佛焰苞	butu en hau
 服從	huku zyuu
 服役	huku eki
 服裝	huku sau
@@ -15262,22 +15529,28 @@ use_preset_vocabulary: false
 副指揮	huku si ki
 復讎	huku siu
 復活	huk kwatu
+復習	huku sihu
+富士	hu zi
 富士山	hu zi san
 複合	huku gahu
+複習	huku sihu
 複雜	huku zatu
 複製	huku sei
 複製體	huku sei tai
 伽藍	ga lan
-改行	kai gyau
+改竄	kai zan
 改良	kai lyau
+改行	kai gyau
 改造	kai zau
 概念	gai nen
 甘露	kan lo
+甘泉	kan sen
 肝心	kan zin
 感じ	kan zi
 感動	kan dou
 感動詞	kan dou si
 感化	kan kwa
+感激	kan geki
 感覺	kan kaku
 感情	kan zyau
 感傷	kan syau
@@ -15287,6 +15560,7 @@ use_preset_vocabulary: false
 干涉	kan sehu
 幹部	kan bu
 幹線	kan sen
+綱領	kau lyau
 鋼鐵	kau tetu
 高層	kau sou
 高層ビル	kau sou bilu
@@ -15296,8 +15570,11 @@ use_preset_vocabulary: false
 高級	kau kihu
 高級品	kau kihu hin
 高價	kau ka
+高齡	kau lei
 高樓	kau lou
 高速	kau soku
+高速バス	kau soku basu
+高速バス	kau soku bus
 高校	kau kau
 高校生	kau kau sei
 高性能	kau sei nou
@@ -15316,6 +15593,8 @@ use_preset_vocabulary: false
 格鬥技	kaku tou gi
 格好	kak kau
 格言	kaku gen
+閣下	kak ka
+各地	kaku ti
 各國	kak koku
 各人	kaku zin
 各種	kaku syu
@@ -15325,8 +15604,11 @@ use_preset_vocabulary: false
 個月	ka getu
 給料	kihu leu
 給與	kihu yo
+根本	kon pon
 根據	kon kyo
+根絕	kon zetu
 根性	kon zyau
+根源	kon gen
 更衣室	kau i situ
 工場	kou dyau
 工夫	ku huu
@@ -15340,20 +15622,27 @@ use_preset_vocabulary: false
 公開	kou kai
 公平	kou hei
 公認	kou nin
+公務	kou mu
 公序良俗	kou zyo lyau zoku
 公演	kou en
 公益	kou eki
+公營	kou ei
 公園	kou wen
 公正	kou syau
+功績	kou seki
 攻防	kou bau
 攻擊	kou geki
 攻擊力	kou geki lyoku
 宮殿	kyuu den
+宮司	guu zi
+宮廷	kyuu tei
 共犯	kyou han
 共和國	kyou wa koku
+共生	kyou sei
 共通	kyou tuu
 共通點	kyou tuu ten
 共同	kyou dou
+貢獻	kou ken
 勾配	kou bai
 構造	kou zau
 購入	kou nihu
@@ -15364,13 +15653,16 @@ use_preset_vocabulary: false
 古典部	ko ten bu
 古來	ko lai
 古美術	ko bi zyutu
+古生物	ko sei butu
 古事記	ko zi ki
 古書	ko syo
 古書店	ko syo ten
 骨董	kot tou
+骨董品	kot tou hin
 骨折	kos setu
 鼓動	ko dou
 固定	ko tei
+故宮	ko kyuu
 故鄉	ko kyau
 故障	ko syau
 顧問	ko mon
@@ -15381,11 +15673,15 @@ use_preset_vocabulary: false
 怪談	kwai dan
 怪物	kwai butu
 官廳街	kwan tyau gai
+關し	kwan si
 關して	kwan site
+關する	kwan sulu
 關都	kwan to
 關節	kwan setu
 關西	kwan sai
+關西辯	kwan sai ben
 關係	kwan kei
+觀察	kwan satu
 觀光	kwan kwau
 觀覽	kwan lan
 觀覽車	kwan lan sya
@@ -15393,23 +15689,32 @@ use_preset_vocabulary: false
 觀賞	kwan syau
 觀音	kwan non
 管理	kwan li
+管理者	kwan li sya
 光劍	kwau ken
+光熱費	kwau netu hi
+光榮	kwau ei
 光速	kwau soku
 光線	kwau sen
 光澤	kwau taku
 光柱	kwau tyuu
+廣大	kwau dai
 廣告	kwau koku
+廣州	kwau siu
 珪素	kei so
 規定	ki tei
+規模	ki bo
 規約	ki yaku
 規則	ki soku
 硅素	kei so
+瑰琦	kwai ki
 龜裂	ki letu
 歸還	ki kwan
 歸省	ki sei
+歸屬	ki zoku
 歸鄉	ki kyau
 歸宅	ki taku
 歸宅中	ki taku tyuu
+軌道	ki dau
 鬼畜	ki tiku
 鬼人	ki zin
 鬼神	ki sin
@@ -15423,17 +15728,23 @@ use_preset_vocabulary: false
 國會	kok kwai
 國籍	koku seki
 國際	koku sai
+國際化	koku sai kwa
+國際聯合	koku sai len gahu
 國家	kok ka
 國交	kok kau
 國境	kok kyau
 國立	koku litu
+國聯	koku len
 國民	koku min
 國民性	koku min sei
 國內	koku nai
 國旗	kok ki
 國土	koku do
+國營	koku ei
+國營化	koku ei kwa
 國語	koku go
 果實	kwa zitu
+果汁	kwa zihu
 菓子	kwa si
 過程	kwa tei
 過度	kwa do
@@ -15444,6 +15755,7 @@ use_preset_vocabulary: false
 還曆	kwan leki
 海岸	kai gan
 海兵	kai hei
+海燈祭	kai tou sai
 海底	kai tei
 海軍	kai gun
 海流	kai liu
@@ -15466,13 +15778,13 @@ use_preset_vocabulary: false
 海賊旗	kai zoku ki
 海賊王	kai zoku wau
 海中	kai tyuu
+寒山	kan zan
+韓國	kan koku
+韓國語	kan koku go
+旱魃	kan batu
 漢語	kan go
 漢字	kan zi
-行動	kau dou
-行進曲	kau sin kyoku
-行事	gyau zi
-行爲	kau wi
-行幸	gyau kau
+杭州	kau siu
 航海士	kau kai si
 航空	kau kuu
 航空便	kau kuu bin
@@ -15488,15 +15800,18 @@ use_preset_vocabulary: false
 合唱	gas syau
 合成	gahu sei
 合點	gat ten
+合法	gahu hahu
+合格	gahu kaku
 合理	gahu li
 合流	gahu liu
+合宿	gas syuku
 合體	gat tai
 合同	gahu dou
-合宿	gas syuku
 合意	gahu i
 合戰	gas sen
 和風	wa huu
 和菓子	wa gwa si
+和解	wa kai
 和尚	kwa syau
 和尚	wa zyau
 和尚	wo syau
@@ -15511,6 +15826,8 @@ use_preset_vocabulary: false
 黑幕	koku maku
 黑糖	koku tau
 痕跡	kon seki
+橫斷	wau dan
+洪水	kou suwi
 紅白	kou haku
 紅茶	kou tya
 紅海	kou kai
@@ -15524,9 +15841,11 @@ use_preset_vocabulary: false
 後任	kou nin
 後退	kou tai
 後遺症	kou wi syau
+後援會	kou wen kwai
 候補	kou ho
 呼吸	ko kihu
 胡椒	ko seu
+胡麻菓子	go ma kwa su
 湖上	ko zyau
 許可	kyo ka
 許容	kyo you
@@ -15537,6 +15856,8 @@ use_preset_vocabulary: false
 花劍	kwa ken
 花鳥	kwa teu
 花瓶	kwa bin
+花神	kwa sin
+花神誕祭	kwa sin tan sai
 花王	kwa wau
 花序	kwa zyo
 華麗	kwa lei
@@ -15558,13 +15879,19 @@ use_preset_vocabulary: false
 壞滅	kwai metu
 歡迎	kwan gei
 環境	kwan kyau
+幻境	gen kyau
 幻覺	gen kaku
 幻術	gen zyutu
 幻聽	gen tyau
+幻想	gen sau
+幻象	gen syau
 患者	kwan zya
 荒城	kwau zyau
 荒野	kwau ya
 皇帝	kwau tei
+皇后	kwau go
+皇女	kwau dyo
+皇室	kwau situ
 黃海	kwau kai
 黃河	kwau ga
 黃金	wau gon
@@ -15584,6 +15911,7 @@ use_preset_vocabulary: false
 會長	kwai tyau
 會長室	kwai tyau situ
 會場	kwai dyau
+會費	kwai hi
 會館	kwai kwan
 會話	kwai wa
 會話文	kwai wa bun
@@ -15593,6 +15921,7 @@ use_preset_vocabulary: false
 會社員	kwai sya win
 會議	kwai gi
 會議室	kwai gi situ
+會員	kwai win
 穢土	we do
 穢土轉生	we do ten sei
 繪がく	we gaku
@@ -15600,10 +15929,11 @@ use_preset_vocabulary: false
 繪里奈	we li na
 昏睡	kon suwi
 婚約	kon yaku
+渾身	kon sin
 混亂	kon lan
 混浴	kon yoku
 混雜	kon zatu
-渾身	kon sin
+活動	kwatu dou
 活路	kwatu lo
 活用	kwatu you
 活躍	kwatu yaku
@@ -15642,10 +15972,13 @@ use_preset_vocabulary: false
 擊破	geki ha
 擊突	geki totu
 吉祥寺	kiti zyau zi
+即賣	soku bai
 即物的	soku butu teki
-急行	kihu kau
+急な	kihu na
+急に	kihu ni
 急急如律令	kihu kihu nyo litu lyau
 急救	kihu kiu
+急行	kihu kau
 急須	kihu su
 急用	kihu you
 疾走	sis sou
@@ -15666,6 +15999,7 @@ use_preset_vocabulary: false
 計畫	kei kwaku
 計算	kei san
 計算機	kei san ki
+既視感	ki si kan
 紀のくに	ki no kuni
 紀律	ki litu
 記号	ki gau
@@ -15679,9 +16013,11 @@ use_preset_vocabulary: false
 加減	ka gen
 加美	ka mi
 加門	ka mon
+加盟	ka mei
 加速	ka soku
 加藤	ka tou
 家畜	ka tiku
+家具	ka gu
 家來	ke lai
 家內	ka nai
 家事	ka zi
@@ -15704,6 +16040,8 @@ use_preset_vocabulary: false
 價值觀	ka ti kwan
 煎餅	sen bei
 監察	kan satu
+監禁	kan kin
+監禁室	kan kin situ
 監視	kan si
 監獄	kan goku
 殲滅	sen metu
@@ -15714,11 +16052,14 @@ use_preset_vocabulary: false
 簡單	kan tan
 簡潔	kan ketu
 見參	ken zan
+見識	ken siki
 見聞	ken bun
 見物	ken butu
 見學	ken gaku
 建設	ken setu
+建造	ken zau
 建築	ken tiku
+建築師	ken tiku si
 健鬪	ken tou
 健康	ken kau
 健一	ken iti
@@ -15728,12 +16069,15 @@ use_preset_vocabulary: false
 劍鬪會	ken tou kwai
 劍鬪士	ken tou si
 劍豪	ken gau
+劍客	ken kyaku
 劍士	ken si
 劍術	ken zyutu
 劍舞	ken bu
 劍俠	ken kehu
 艦隊	kan tai
+鑑賞	kan syau
 鑑眞	gan zin
+將軍	syau gun
 將來	syau lai
 將棋	syau gi
 將一	syau iti
@@ -15743,6 +16087,7 @@ use_preset_vocabulary: false
 講義	kau gi
 講座	kau za
 降臨	kau lin
+降臨者	kau lin sya
 降下	kau ka
 醬油	syau yu
 交叉	kau sa
@@ -15755,27 +16100,30 @@ use_preset_vocabulary: false
 交涉	kau sehu
 交通	kau tuu
 交通費	kau tuu hi
+交通事故	kau tuu zi ko
 交響曲	kau kyau kyoku
 交易	kau eki
 交易港	kau eki kau
 交戰	kau sen
 郊外	kau gwai
+敎導	keu dau
+敎官	keu kwan
+敎化	keu kwa
+敎科書	keu kwa syo
+敎師	keu si
+敎室	keu situ
+敎硏室	keu ken situ
+敎育	keu iku
+敎員	keu win
 焦熱	seu netu
+角度	kaku do
 角形	kak kei
 狡猾	kau kwatu
 腳色	kyaku syoku
 餃子	gyau za
 餃子	gyo- za
 攪亂	kaku lan
-教導	keu dau
-教官	keu kwan
-教化	keu kwa
-教科書	keu kwa syo
-教師	keu si
-教室	keu situ
-教硏室	keu ken situ
-教育	keu iku
-教員	keu win
+教令院	keu lei win
 接す	ses su
 接觸	ses syoku
 接近	sek kin
@@ -15821,6 +16169,7 @@ use_preset_vocabulary: false
 今月	kon getu
 今月号	kon getu gau
 今周	kon siu
+金いろ	kin ilo
 金たま	kin tama
 金剛石	kon gau seki
 金閣寺	kin kaku zi
@@ -15838,18 +16187,22 @@ use_preset_vocabulary: false
 緊張感	kin tyau kan
 謹愼	kin sin
 近代	kin dai
+近代化	kin dai kwa
 近海	kin kai
 近年	kin nen
 近所	kin zyo
 晉級	sin kihu
 進步	sin po
 進出	sin syutu
-進行	sin kau
 進化	sin kwa
 進擊	sin geki
+進行	sin kau
 進學	sin gaku
+進展	sin ten
 禁じ	kin zi
 禁斷	kin dan
+禁忌	kin ki
+禁止	kin si
 禁制	kin sei
 京ばし	kyau basi
 京都	kyau to
@@ -15857,11 +16210,13 @@ use_preset_vocabulary: false
 京極	kyau goku
 京劇	kyau geki
 京師	kei si
+晶核	syau kaku
 經過	kei kwa
 經濟	kei zai
 經理	kei li
 經路	kei lo
 經驗	kei ken
+經營	kei ei
 精悍	sei kan
 精進	syau zin
 精靈	sei lei
@@ -15882,11 +16237,14 @@ use_preset_vocabulary: false
 警部補	kei bu ho
 警察	kei satu
 警察犬	kei satu ken
+警官	kei kwan
 警戒	kei kai
+警戒心	kei kai sin
 警視廳	kei si tyau
 警鐘	kei syou
 淨化	zyau kwa
 淨瓶	zyau hei
+淨土	zyau do
 敬愛	kei ai
 敬禮	kei lei
 敬體	kei tai
@@ -15903,9 +16261,11 @@ use_preset_vocabulary: false
 九條	ku deu
 九尾	kiu bi
 九州	kiu siu
+酒友	siu iu
 救出	kiu syutu
 救急車	kiu kihu sya
 救濟	kiu sai
+救命	kiu mei
 救難	kiu nan
 救世主	kiu sei syu
 就職	siu syoku
@@ -15923,6 +16283,7 @@ use_preset_vocabulary: false
 巨獸	kyo ziu
 巨万	kyo man
 具あひ	gu ahi
+具體	gu tai
 距離	kyo li
 劇場	geki dyau
 決し	kes si
@@ -15932,13 +16293,14 @@ use_preset_vocabulary: false
 決鬥	ket tou
 決鬪	ket tou
 決斷	ketu dan
-決行	kek kau
 決裂	ketu letu
 決末	ketu matu
 決起	kek ki
 決勝	kes syou
 決勝戰	kes syou sen
 決死	kes si
+決心	kes sin
+決行	kek kau
 決意	ketu i
 決戰	kes sen
 決着	ket tyaku
@@ -15963,14 +16325,15 @@ use_preset_vocabulary: false
 開門	kai mon
 開幕	kai maku
 開始	kai si
-開通	kai tuu
 開拓	kai taku
 開拓者	kai taku sya
+開通	kai tuu
 開眼	kai gan
 開業醫	kai gehu i
 開戰	kai sen
 凱風快晴	kai huu kwai sei
 勘定	kan dyau
+勘定奉行	kan dyau bu gyau
 勘十郎	kan zihu lau
 看板	kan ban
 看護婦	kan go hu
@@ -15978,9 +16341,12 @@ use_preset_vocabulary: false
 看守長	kan syu tyau
 亢奮	kau hun
 抗議	kau gi
+考慮	kau lyo
 攷古	kau ko
 攷古學	kau ko gaku
+攷慮	kau lyo
 苛酷	ka koku
+科目	kwa moku
 科學	kwa gaku
 科學者	kwa gaku sya
 可決	ka ketu
@@ -15988,16 +16354,20 @@ use_preset_vocabulary: false
 可能性	ka nou sei
 可視化	ka si kwa
 客船	kyaku sen
+客人	kyaku zin
 客語	kyaku go
 課長	kwa tyau
+課外	kwa gwai
 空白	kuu haku
 空城の計	kuu zyau no kei
 空對地	kuu tai ti
+空腹	kuu huku
 空港	kuu kau
 空欄	kuu lan
 空母	kuu bo
 空氣	kuu ki
 空襲	kuu sihu
+空想	kuu sau
 空域	kuu wiki
 空戰	kuu sen
 空中	kuu tyuu
@@ -16011,6 +16381,7 @@ use_preset_vocabulary: false
 苦痛	ku tuu
 苦樂	ku laku
 苦戰	ku sen
+苦衷	ku tyuu
 快報	kwai hau
 快斗	kwai to
 快進擊	kwai sin geki
@@ -16018,7 +16389,9 @@ use_preset_vocabulary: false
 快龍	kwai lyuu
 快適	kwai teki
 狂氣	kyau ki
+狂妄	kyau bau
 狂言	kyau gen
+鑛脈	kwau myaku
 鑛石	kwau seki
 鑛物	kwau butu
 困難	kon nan
@@ -16034,6 +16407,7 @@ use_preset_vocabulary: false
 來月	lai getu
 來周	lai siu
 賴太	lai ta
+爛漫	lan man
 朗讀	lau doku
 浪人	lau nin
 牢番	lau ban
@@ -16044,6 +16418,7 @@ use_preset_vocabulary: false
 老人	lau zin
 老眼鏡	lau gan kyau
 雷刀	lai tau
+雷電	lai den
 雷遁	lai ton
 雷公	lai kou
 雷擊	lai geki
@@ -16052,18 +16427,23 @@ use_preset_vocabulary: false
 冷凍	lei tou
 冷凍庫	lei tou ko
 冷房	lei bau
+冷靜	lei sei
 離島	li tau
 離陸	li liku
 理解	li kai
 理科	li kwa
+理論	li lon
+理念	li nen
 理屈	li kutu
 理想	li sau
+理性	li sei
 理由	li iu
 禮拜	lei hai
 禮拜堂	lei hai dau
 禮文島	le bun tau
 力說	liki setu
 立法	lip pahu
+立方	lip pau
 立派	lip pa
 立體	lit tai
 利世	li se
@@ -16078,6 +16458,7 @@ use_preset_vocabulary: false
 連體詞	len tai si
 連體形	len tai kei
 連續	len zoku
+連續性	len zoku sei
 連用形	len you kei
 蓮華	len ge
 聯隊	len tai
@@ -16106,6 +16487,7 @@ use_preset_vocabulary: false
 料亭	leu tei
 瞭承	leu syou
 瞭解	leu kai
+瞭然	leu zen
 列車	les sya
 烈風	lep puu
 獵銃	lehu zyuu
@@ -16130,8 +16512,8 @@ use_preset_vocabulary: false
 留守	lu su
 留學	liu gaku
 留學生	liu gaku sei
-流行	liu kau
 流星	liu sei
+流行	liu kau
 六百	lop pyaku
 六本	lop pon
 六本ぎ	lop pon gi
@@ -16166,6 +16548,7 @@ use_preset_vocabulary: false
 亂戰	lan sen
 輪廻	lin ne
 輪墓	lin bo
+論文	lon bun
 論語	lon go
 螺旋	la sen
 螺旋丸	la sen gwan
@@ -16173,20 +16556,25 @@ use_preset_vocabulary: false
 羅針盤	la sin ban
 落第	laku dai
 落雷	laku lai
+落石	laku seki
 落下	lak ka
 落着	laku tyaku
 旅館	lyo kwan
+旅券	lyo ken
+旅團	lyo dan
 旅行	lyo kau
 旅行會社	lyo kau gwai sya
 旅行社	lyo kau sya
-旅券	lyo ken
 律令	litu lyau
+律宗	lis syuu
 麻痺	ma hi
 麻藥	ma yaku
 麻醉	ma suwi
 麻醉銃	ma suwi zyuu
+馬か	ba ka
 馬車	ba sya
 瑪瑙	me nau
+埋葬	mai sau
 脈搏	myaku haku
 賣店	bai ten
 賣買	bai bai
@@ -16208,6 +16596,7 @@ use_preset_vocabulary: false
 矛盾	mu zyun
 冒險	bau ken
 冒險家	bau ken ka
+冒險者	bau ken sya
 帽子	bau si
 貿易	bou eki
 梅雨	bai u
@@ -16221,6 +16610,7 @@ use_preset_vocabulary: false
 美和こ	mi wa ko
 美化語	bi kwa go
 美劍	bi ken
+美景	bi kei
 美濃	mi no
 美女	bi dyo
 美人	bi zin
@@ -16234,10 +16624,13 @@ use_preset_vocabulary: false
 美味	bi mi
 美形	bi kei
 魅力	mi lyoku
+萌蘖	hau getu
 猛攻	mau kou
 猛獸	mau ziu
 猛襲	mau sihu
 孟婆	mau ba
+夢境	mu kyau
+夢遊	mu iu
 迷宮	mei kyuu
 迷惑	mei waku
 迷路	mei lo
@@ -16258,12 +16651,18 @@ use_preset_vocabulary: false
 密室	mis situ
 蜜柑	mi kan
 免除	men dyo
+免許證	men kyo syou
 勉強	ben kyau
 面倒	men dau
 面倒い	men doi
 面倒く	men doku
+妙策	meu saku
+妙論派	meu lon ha
 滅亡	metu bau
 民宿	min syuku
+民閒	min kan
+民營	min ei
+民營化	min ei kwa
 民族	min zoku
 名詞	mei si
 名刺	mei si
@@ -16281,6 +16680,7 @@ use_preset_vocabulary: false
 名譽	mei yo
 名字	myau zi
 明白	mei haku
+明論派	mei lon ha
 明日	myau niti
 明月	mei getu
 明治	mei di
@@ -16304,14 +16704,17 @@ use_preset_vocabulary: false
 魔界	ma kai
 魔境	ma kyau
 魔鏡	ma kyau
+魔鱗病	ma lin byau
 魔犬	ma ken
 魔人	ma zin
+魔神	ma zin
 魔手	ma syu
 魔術	ma zyutu
 魔術師	ma zyutu si
 魔王	ma wau
 魔猿	ma wen
 抹殺	mas satu
+抹消	mas seu
 末裔	matu ei
 茉莉	ma li
 莫大	baku dai
@@ -16319,7 +16722,9 @@ use_preset_vocabulary: false
 驀進	baku sin
 謀略	bou lyaku
 母艦	bo kan
+木材	moku zai
 木遁	moku ton
+木劍	bok ken
 木曜び	moku eu bi
 木造	moku zau
 目標	moku heu
@@ -16330,9 +16735,11 @@ use_preset_vocabulary: false
 目擊	moku geki
 目擊者	moku geki sya
 目前	moku zen
+牧場	boku dyau
 募集	bo sihu
 墓標	bo heu
 幕末	baku matu
+暮夜	bo ya
 那霸	na ha
 納得	nat toku
 奈良	na la
@@ -16359,6 +16766,7 @@ use_preset_vocabulary: false
 內藤	nai tou
 內戰	nai sen
 能がき	nou gaki
+能力	nou lyoku
 能力者	nou lyoku sya
 能役	nou yaku
 能役者	nou yaku sya
@@ -16376,11 +16784,11 @@ use_preset_vocabulary: false
 年中	nen dyuu
 黏膜	nen maku
 黏土	nen do
+鳥卵	teu lan
 尿素	neu so
 齧齒	ges si
 牛乳	giu nyuu
-拗長音	eu tyau on
-拗音	eu on
+農學	nou gaku
 農藥	nou yaku
 農業	nou gehu
 農園	nou wen
@@ -16409,9 +16817,11 @@ use_preset_vocabulary: false
 派閥	ha batu
 派遣	ha ken
 判斷	han dan
+判決	han ketu
 叛亂	han lan
 叛逆	han gyaku
 叛逆者	han gyaku sya
+旁觀	bau kwan
 砲彈	hau dan
 砲火	hau kwa
 砲擊	hau geki
@@ -16420,6 +16830,7 @@ use_preset_vocabulary: false
 配置	hai ti
 噴火	hun kwa
 噴水	hun suwi
+盆栽	bon sai
 硼素	hau so
 披露	hi lou
 皮膚	hi hu
@@ -16430,19 +16841,23 @@ use_preset_vocabulary: false
 貧乏	bin bahu
 貧困	hin kon
 頻度	hin do
-品行	hin kau
 品評	hin pyau
 品評會	hin pyau kwai
+品行	hin kau
 品質	hin situ
 品種	hin syu
 平藏	hei zau
 平成	hei sei
 平次	hei zi
 平等	byau dou
+平凡	hei bon
+平方	hei hau
 平和	hei wa
 平均	hei kin
 平日	hei zitu
 平原	hei gen
+屏風	byau bu
+瓶のふた	bin no huta
 評判	hyau ban
 迫害	haku gai
 迫擊砲	haku geki hau
@@ -16458,13 +16873,17 @@ use_preset_vocabulary: false
 普通	hu tuu
 七郎	siti lau
 七時	siti zi
+七天神像	siti ten zin zau
 七武海	siti bu kai
 七星	siti sei
 七星劍	siti sei ken
 七月	siti gwatu
 期待	ki tai
+期末	ki matu
 期閒	ki kan
+期限	ki gen
 漆黑	sik koku
+漆器	sik ki
 奇拔	ki batu
 奇策	ki saku
 奇跡	ki seki
@@ -16478,8 +16897,10 @@ use_preset_vocabulary: false
 旗艦	ki kan
 騎士	ki si
 騎士道	ki si dau
+騎士團	ki si dan
 麒麟	ki lin
 企畫	ki kwaku
+企畫案	ki kwaku an
 企畫書	ki kwaku syo
 企業	ki gehu
 起爆	ki baku
@@ -16491,6 +16912,7 @@ use_preset_vocabulary: false
 氣がつき	ki ga tuki
 氣がつく	ki ga tuku
 氣が氣で	ki ga ki de
+氣さく	ki saku
 氣つけ	ki tuke
 氣の毒	ki no doku
 氣の所爲	ki no se wi
@@ -16503,6 +16925,7 @@ use_preset_vocabulary: false
 氣候	ki kou
 氣流	ki liu
 氣囊	ki nau
+氣配	ke hai
 氣品	ki hin
 氣迫	ki haku
 氣溫	ki won
@@ -16525,6 +16948,8 @@ use_preset_vocabulary: false
 前回	zen kwai
 前進	zen sin
 前日	sen zitu
+前哨	zen seu
+前哨戰	zen seu sen
 前提	zen tei
 前途	zen to
 前線	zen sen
@@ -16535,6 +16960,7 @@ use_preset_vocabulary: false
 潛入	sen nihu
 潛水	sen suwi
 潛水艦	sen suwi kan
+錢湯	sen tau
 淺草寺	sen sau zi
 遣隋使	ken zuwi si
 遣唐使	ken tau si
@@ -16558,6 +16984,7 @@ use_preset_vocabulary: false
 勤務	kin mu
 寢具	sin gu
 寢室	sin situ
+青春	sei syun
 青蘭	sei lan
 青龍	sei lyuu
 青學	sei gaku
@@ -16565,6 +16992,7 @@ use_preset_vocabulary: false
 清淨	sei zyau
 清淨	syau zyau
 清淨機	sei zyau ki
+清涼	sei lyau
 清算	sei san
 清音	sei on
 輕減	kei gen
@@ -16608,11 +17036,15 @@ use_preset_vocabulary: false
 拳法	ken pahu
 詮索	sen saku
 權化	gon ge
+權力	ken lyoku
 權利	ken li
+權能	ken nou
 權威	ken wi
 勸誘	kwan iu
 缺勤	kek kin
 缺席	kes seki
+缺陷	kek kan
+缺陷品	kek kan hin
 確保	kaku ho
 確定	kaku tei
 確率	kaku litu
@@ -16658,11 +17090,13 @@ use_preset_vocabulary: false
 忍道	nin dau
 忍法	nin pahu
 忍法帖	nin pahu tehu
+忍具	nin gu
 忍犬	nin ken
 忍術	nin zyutu
 忍者	nin zya
 任天堂	nin ten dau
 任務	nin mu
+認識	nin siki
 日本	ni hon
 日本	nip pon
 日本風	ni hon huu
@@ -16682,8 +17116,10 @@ use_preset_vocabulary: false
 容疑者	you gi sya
 容易	you i
 溶岩	you gan
+榮光	ei kwau
 榮枯	ei ko
 榮養	ei yau
+榮譽	ei yo
 熔接	you setu
 冗談	zyou dan
 柔步	ziu ho
@@ -16698,6 +17134,7 @@ use_preset_vocabulary: false
 如來	nyo lai
 儒艮	zyu gon
 乳液	nyuu eki
+入場料	nihu dyau leu
 入會金	nihu kwai kin
 入魂	nihu kon
 入門書	nihu mon syo
@@ -16705,7 +17142,9 @@ use_preset_vocabulary: false
 入學	nihu gaku
 入浴	nihu yoku
 入院	nihu win
+銳利	ei li
 叡山	ei zan
+叡智	ei ti
 弱點	zyaku ten
 弱者	zyaku sya
 颯爽	sas sau
@@ -16729,12 +17168,16 @@ use_preset_vocabulary: false
 三千	san zen
 三人	san nin
 三忍	san nin
+三十	san zihu
+三十分	san zip pun
 三十年	san zihu nen
+三十人團	san zihu nin dan
 三位	san mi
 三月	san gwatu
 三重	san dyuu
 三周	san siu
 傘下	san ka
+散兵	san hyau
 散步	san po
 散開	san kai
 騷動	sau dou
@@ -16744,7 +17187,6 @@ use_preset_vocabulary: false
 掃蕩	sau tau
 色目	siki moku
 色欲	siki yoku
-澀	sibu
 澀滯	zihu tai
 僧上	sou zyau
 沙塵	sa din
@@ -16757,21 +17199,27 @@ use_preset_vocabulary: false
 殺人犯	satu zin han
 殺人罪	satu zin zai
 殺意	satu i
+裟羅	sa la
 山頂	san tyau
 山能寺	san nou zi
+山陽	san yau
 珊瑚	san go
 煽動	sen dou
 閃光	sen kwau
 扇風機	sen puu ki
 善惡	zen aku
+善龍	zen lyuu
 商店	syau ten
 商會	syau kwai
 商賣	syau bai
 商品	syau hin
 商人	syau nin
 傷害	syau gai
+賞罰	syau hatu
 賞金	syau kin
+賞品	syau hin
 賞味	syau mi
+賞讚	syau san
 上層	zyau sou
 上等	zyau tou
 上海	syan hai
@@ -16784,7 +17232,6 @@ use_preset_vocabulary: false
 燒賣	seu mai
 燒賣	syu- mai
 芍藥	syaku yaku
-杓子	syaku si
 少額	seu gaku
 少將	seu syau
 少年	seu nen
@@ -16797,6 +17244,7 @@ use_preset_vocabulary: false
 紹介	seu kai
 蛇足	da soku
 社長	sya tyau
+社奉行	sya bu gyau
 社會	sya kwai
 社會人	sya kwai zin
 社員	sya win
@@ -16806,12 +17254,14 @@ use_preset_vocabulary: false
 設計	sek kei
 設計士	sek kei si
 設計圖	sek kei du
+申請	sin sei
 身長	sin tyau
 身體	sin tai
 深海	sin kai
 深呼吸	sin ko kihu
 深司	sin zi
 深夜	sin ya
+深淵	sin en
 紳士	sin si
 神殿	sin den
 神宮	zin guu
@@ -16822,9 +17272,13 @@ use_preset_vocabulary: false
 神社	zin zya
 神聖	sin sei
 神武	zin mu
+神像	zin zau
 神域	sin wiki
+沈沒	tin botu
 沈默	tin moku
+沈下	tin ka
 審査	sin sa
+審判	sin pan
 審議	sin gi
 審議所	sin gi syo
 甚平	zin bei
@@ -16837,6 +17291,7 @@ use_preset_vocabulary: false
 生還	sei kwan
 生活	sei kwatu
 生活費	sei kwatu hi
+生論派	sei lon ha
 生命	sei mei
 生命力	sei mei lyoku
 生前	sei zen
@@ -16859,6 +17314,8 @@ use_preset_vocabulary: false
 勝者	syou sya
 聖德	syau toku
 聖地	sei ti
+聖典	sei ten
+聖國	sei koku
 聖者	sei sya
 失敗	sip pai
 失格	sik kaku
@@ -16874,6 +17331,8 @@ use_preset_vocabulary: false
 師匠	si syau
 獅子	si si
 獅子	zi si
+詩歌	si ka
+詩人	si zin
 濕布	sip pu
 十倍	zihu bai
 十本	zip pon
@@ -16900,6 +17359,7 @@ use_preset_vocabulary: false
 石油	seki yu
 石竹	seki tiku
 食材	syoku zai
+食費	syoku hi
 食感	syok kan
 食後	syoku go
 食料品	syoku leu hin
@@ -16907,6 +17367,7 @@ use_preset_vocabulary: false
 食券	syok ken
 食人	syoku zin
 食事	syoku zi
+食事代	syoku zi dai
 食堂	syoku dau
 食物	syoku motu
 食欲	syoku yoku
@@ -16914,13 +17375,13 @@ use_preset_vocabulary: false
 時差	zi sa
 時代	zi dai
 時點	zi ten
+時刻	zi koku
 時期	zi ki
 時速	zi soku
 時閒	zi kan
 時限	zi gen
 時限爆彈	zi gen baku dan
 實は	zitu ha
-實行	zik kau
 實技	zitu gi
 實際	zis sai
 實家	zik ka
@@ -16929,8 +17390,10 @@ use_preset_vocabulary: false
 實體	zit tai
 實物	zitu butu
 實習	zis sihu
+實行	zik kau
 實驗	zik ken
 實驗體	zik ken tai
+實用化	zitu you kwa
 實在	zitu zai
 實戰	zis sen
 識得	siki toku
@@ -16938,6 +17401,7 @@ use_preset_vocabulary: false
 使節	si setu
 使命	si mei
 使用	si you
+使用料	si you leu
 使者	si sya
 始動	si dou
 始末	si matu
@@ -16949,13 +17413,16 @@ use_preset_vocabulary: false
 世紀	sei ki
 世紀末	sei ki matu
 世界	se kai
+世界樹	se kai zyu
 世界選手權	se kai sen syu ken
 世界中	se kai dyuu
 世良	se la
 市長	si tyau
 市場	si dyau
+市町村	si tyau son
 市民	si min
 市內	si nai
+市役所	si yaku syo
 事故	zi ko
 事件	zi ken
 事情	zi zyau
@@ -16971,8 +17438,10 @@ use_preset_vocabulary: false
 視聽覺	si tyau kaku
 視聽率	si tyau litu
 視線	si sen
+視野	si ya
 勢力	sei lyoku
 試あひ	si ahi
+試煉	si len
 試練	si len
 試驗	si ken
 試驗官	si ken kwan
@@ -16990,19 +17459,25 @@ use_preset_vocabulary: false
 手中	syu tyuu
 守鶴	syu kaku
 守護	syu go
+首都	syu to
+首都圈	syu to ken
 首都醫大	syu to i dai
 首領	syu lyau
+首相	syu syau
 受話器	zyu wa ki
 受難	zyu nan
 狩獵	syu lehu
 授業	zyu gehu
 壽命	zyu myau
 壽司	su si
+獸骨	ziu kotu
 獸人	ziu zin
 書道	syo dau
 書籍	syo seki
 書記	syo ki
 書記官	syo ki kwan
+書類	syo luwi
+書評	syo hyau
 書狀	syo zyau
 疏水	so suwi
 輸出	yu syutu
@@ -17013,6 +17488,7 @@ use_preset_vocabulary: false
 署長	syo tyau
 署名	syo mei
 述語	zyutu go
+術士	zyutu si
 庶民	syo min
 漱石	sou seki
 數詞	suu si
@@ -17026,10 +17502,14 @@ use_preset_vocabulary: false
 雙刀	sau tau
 雙方	sau hau
 雙獅拳	sau si ken
+雙星	sau sei
 水道	suwi dau
+水道代	suwi dau dai
 水遁	suwi ton
 水分	suwi bun
+水瓜	suwi kwa
 水化	suwi kwa
+水晶	suwi syau
 水軍	suwi gun
 水牢	suwi lau
 水面	suwi men
@@ -17054,6 +17534,8 @@ use_preset_vocabulary: false
 司會社	si kwai sya
 司令	si lei
 司令官	si lei kwan
+私的	si teki
+私鐵	si tetu
 思念	si nen
 思想	si sau
 死し	si si
@@ -17088,6 +17570,9 @@ use_preset_vocabulary: false
 速報	soku hau
 速達	soku tatu
 速度	soku do
+宿命	syuku mei
+宿舍	syuku sya
+宿題	syuku dai
 肅清	syuku sei
 酸素	san so
 算數	san suu
@@ -17095,9 +17580,13 @@ use_preset_vocabulary: false
 隧道	zuwi dau
 損な役	son na yaku
 損害	son gai
+損失	son situ
 所長	syo tyau
 所持	syo di
 所爲	se wi
+鎖國令	sa koku lei
+他動詞	ta dou si
+他人	ta nin
 他殺	ta satu
 踏破	tahu ha
 臺どころ	dai dokolo
@@ -17113,6 +17602,7 @@ use_preset_vocabulary: false
 態度	tai do
 檀那	dan na
 炭素	tan so
+探査	tan sa
 探求	tan kiu
 探求心	tan kiu sin
 探偵	tan tei
@@ -17133,6 +17623,7 @@ use_preset_vocabulary: false
 特別編	toku betu hen
 特大	toku dai
 特等	toku tou
+特典	toku ten
 特攻	tok kou
 特攻隊	tok kou tai
 特急	tok kihu
@@ -17141,11 +17632,13 @@ use_preset_vocabulary: false
 特賣	toku bai
 特賣品	toku bai hin
 特權	tok ken
+特賞	toku syau
 特殊	toku syu
 特訓	tok kun
 特徵	toku tyou
 特製	toku sei
 提案	tei an
+提出	tei syutu
 提燈	tyau tin
 提督	tei toku
 提供	tei kyou
@@ -17162,27 +17655,35 @@ use_preset_vocabulary: false
 體制	tai sei
 天才	ten sai
 天地	ten ti
+天敵	ten teki
 天頂	ten tyau
 天婦羅	ten pu la
 天狗	ten gu
 天國	ten goku
 天候	ten kou
 天皇	ten nau
+天皇	ten wau
 天界	ten kai
+天空	ten kuu
 天牢	ten lau
+天理	ten li
+天領奉行	ten lyau bu gyau
 天龍	ten lyuu
 天滿	ten ma
 天滿宮	ten man guu
+天女	ten nyo
 天氣	ten ki
 天然	ten nen
 天上	ten zyau
 天神	ten zin
 天使	ten si
+天守閣	ten syu kaku
 天堂	ten dau
 天藤	ten dou
 天下	ten ka
 天夜叉	ten ya sya
 天災	ten sai
+天眞	ten sin
 天職	ten syoku
 挑戰	teu sen
 條件	deu ken
@@ -17201,6 +17702,7 @@ use_preset_vocabulary: false
 庭園	tei wen
 停電	tei den
 通稱	tuu syou
+通過	tuu kwa
 通過點	tuu kwa ten
 通路	tuu lo
 通氣	tuu ki
@@ -17214,7 +17716,7 @@ use_preset_vocabulary: false
 同窗會	dou sau kwai
 同封	dou huu
 同感	dou kan
-同行會	dou kau kwai
+同好會	dou kau kwai
 同化	dou kwa
 同級生	dou kihu sei
 同刻	dou koku
@@ -17222,10 +17724,14 @@ use_preset_vocabulary: false
 同盟	dou mei
 同時	dou zi
 同士	dou si
+同鄉	dou kyau
+同行	dou kau
+同行會	dou kau kwai
 同樣	dou yau
 同意	dou i
 同意書	dou i syo
 同志	dou si
+童話	dou wa
 銅像	dou zau
 投光器	tou kwau ki
 投降	tou kau
@@ -17236,6 +17742,7 @@ use_preset_vocabulary: false
 頭腦	zu nou
 頭痛	du tuu
 透明	tou mei
+突發	top patu
 突擊	totu geki
 突拍子	top pyau si
 突破	top pa
@@ -17248,20 +17755,24 @@ use_preset_vocabulary: false
 圖鑑	du kan
 圖式	du siki
 圖書館	to syo kwan
+土產	do san
 土長	do dyau
 土地	to ti
 土遁	do ton
 土管	do kwan
+土圭	to kei
 土壤	do zyau
 土下座	do ge za
 土曜	do eu
 土曜び	do eu bi
 兔に角	to ni kaku
 團ご	dan go
+團長	dan tyau
 團體	dan tai
 團體戰	dan tai sen
 推測	suwi soku
 推理	suwi li
+推論	suwi lon
 退避	tai hi
 退屈	tai kutu
 退院	tai win
@@ -17294,12 +17805,15 @@ use_preset_vocabulary: false
 頑ばって	gwan batte
 頑ばる	gwan balu
 挽歌	ban ka
+晚餐	ban san
 晚餐會	ban san kwai
 晚御飯	ban go han
 万古	ban ko
+万國	ban koku
 万華鏡	man ge kyau
 万能	ban nou
 万年筆	man nen hitu
+万歲	ban zai
 万物	ban butu
 万圓	man wen
 万丈	ban dyau
@@ -17331,6 +17845,7 @@ use_preset_vocabulary: false
 微塵	mi din
 微弱	bi zyaku
 唯一	yuwi iti
+違法	wi hahu
 違反	wi han
 維新	wi sin
 委員	wi win
@@ -17359,26 +17874,37 @@ use_preset_vocabulary: false
 溫度差	won do sa
 溫泉	won sen
 溫室	won situ
+饂飩	u don
 文法	bun pahu
+文房具	bun bau gu
+文房具や	bun bau gu ya
 文化	bun kwa
 文節	bun setu
 文金	bun kin
 文句	mon ku
 文明	bun mei
+文通	bun tuu
 文學	bun gaku
 文語	bun go
+文章	bun syau
 文鎭	bun tin
 文字	mo zi
 紋章	mon syau
 問題	mon dai
 問題點	mon dai ten
+問題用紙	mon dai you si
 我愛羅	ga a la
 握手	aku syu
+污染	wo sen
+污染源	wo sen gen
 屋上	woku zyau
+烏有	u iu
 無さた	bu sata
 無常	mu zyau
 無敵	mu teki
 無法	mu hahu
+無賴	bu lai
+無賴漢	bu lai kan
 無理	mu li
 無理やり	mu li yali
 無禮	bu lei
@@ -17400,6 +17926,7 @@ use_preset_vocabulary: false
 五彩庵	go sai an
 五分	go hun
 五分後	go hun go
+五歌仙	go ka sen
 五角形	go kak kei
 五階	go kai
 五郎	go lau
@@ -17427,10 +17954,14 @@ use_preset_vocabulary: false
 武者	mu sya
 武裝	bu sau
 侮辱	bu zyoku
+舞台	bu tai
+舞臺	bu tai
 勿論	moti lon
 勿體ない	mot tai nai
+物價	buk ka
 物理	butu li
 物理學	butu li gaku
+物品	bup pin
 物質	bus situ
 誤報	go hau
 誤會	go kwai
@@ -17461,6 +17992,8 @@ use_preset_vocabulary: false
 蝦蟇	ga ma
 峽谷	kehu koku
 下部	ka bu
+下流	ka liu
+下民	ka min
 下忍	ge nin
 仙法	sen pahu
 仙人	sen nin
@@ -17471,7 +18004,10 @@ use_preset_vocabulary: false
 先生	sen sei
 先月	sen getu
 先周	sen siu
+先祖	sen zo
 嫌疑	ken gi
+賢明	ken mei
+賢者	ken zya
 限定	gen tei
 限度	gen do
 限界	gen kai
@@ -17490,6 +18026,7 @@ use_preset_vocabulary: false
 獻身	ken sin
 相馬	sau ma
 相談	sau dan
+相應	sau ou
 香港	hon kon
 香山	kau zan
 香水	kau suwi
@@ -17498,8 +18035,13 @@ use_preset_vocabulary: false
 饗宴	kyau en
 向上	kau zyau
 消費	seu hi
+消耗	seu mou
 消化	seu kwa
+消極	seu kyoku
+消極的	seu kyoku teki
 消滅	seu metu
+小テスト	seu test
+小テスト	seu tesuto
 小便	seu ben
 小動物	seu dou butu
 小隊	seu tai
@@ -17510,13 +18052,17 @@ use_preset_vocabulary: false
 小學館	seu gaku kwan
 小學生	seu gaku sei
 小學校	seu gak kau
+肖像	seu zau
 効果	kau kwa
+効果的	kau kwa teki
 効率	kau litu
 校門	kau mon
 校庭	kau tei
+邪龍	zya lyuu
 邪魔	zya ma
 協定	kehu tei
 協和	kehu wa
+協會	kehu kwai
 協力	kehu lyoku
 協力者	kehu lyoku sya
 協商	kehu syau
@@ -17528,6 +18074,7 @@ use_preset_vocabulary: false
 寫輪眼	sya lin gan
 寫眞	sya sin
 寫眞館	sya sin kwan
+寫眞集	sya sin sihu
 謝罪	sya zai
 心理	sin li
 心理學	sin li gaku
@@ -17539,19 +18086,23 @@ use_preset_vocabulary: false
 心轉	sin ten
 辛辣	sin latu
 辛氣	sin ki
+辛酸	sin san
 新がた	sin gata
 新兵	sin pei
 新幹線	sin kan sen
+新居	sin kyo
+新刊	sin kan
 新曆	sin leki
 新米	sin mai
 新年	sin nen
 新品	sin pin
 新人	sin zin
 新世界	sin se kai
+新宿	sin zyuku
 新聞	sin bun
 新聞社	sin bun sya
+新聞紙	sin bun si
 新鮮	sin sen
-新宿	sin zyuku
 新一	sin iti
 新章	sin syau
 信じ	sin zi
@@ -17560,11 +18111,18 @@ use_preset_vocabulary: false
 信念	sin nen
 信條	sin deu
 信煙彈	sin en dan
+信仰	sin kau
 信用	sin you
 猩猩	syau zyau
 刑法	kei hahu
 刑事	kei zi
 刑務所	kei mu syo
+行動	kau dou
+行進曲	kau sin kyoku
+行事	gyau zi
+行爲	kau wi
+行幸	gyau kau
+行樂地	kau laku ti
 形容	kei you
 形容詞	kei you si
 形容動詞	kei you dou si
@@ -17573,6 +18131,7 @@ use_preset_vocabulary: false
 幸福	kau huku
 幸運	kau un
 性別	sei betu
+性格	sei kaku
 性能	sei nou
 興奮	kou hun
 興味	kyou mi
@@ -17590,24 +18149,27 @@ use_preset_vocabulary: false
 休暇	kiu ka
 休養	kiu yau
 休業	kiu gehu
-修行	syu gyau
+修復	siu huku
 修理	siu li
 修羅	syu la
 修飾	siu syoku
 修飾語	siu syoku go
+修行	syu gyau
+修學	siu gaku
 修業	siu gehu
 修業	syu gehu
-宿命	syuku mei
-宿舍	syuku sya
-宿題	syuku dai
 秀一	siu iti
 秀逸	siu itu
+虛幻	kyo gen
 虛僞	kyo gi
 須貝	su bai
 須彌	syu mi
 須彌壇	syu mi dan
 須藤	su tou
+序曲	zyo kyoku
 續編	zoku hen
+宣傳	sen den
+宣告	sen koku
 喧嘩	ken kwa
 諠譁	ken kwa
 玄關	gen kwan
@@ -17620,8 +18182,10 @@ use_preset_vocabulary: false
 選攷	sen kau
 選手	sen syu
 選擇	sen taku
+選擇問題	sen taku mon dai
 學費	gaku hi
 學級	gak kihu
+學籍	gaku seki
 學歷	gaku leki
 學年	gaku nen
 學生	gaku sei
@@ -17641,13 +18205,16 @@ use_preset_vocabulary: false
 巡航	zyun kau
 殉職	zyun syoku
 訓練	kun len
+訓練場	kun len dyau
 壓倒	at tau
 壓倒的	at tau teki
 壓迫	ap paku
 煙幕	en maku
+煙突	en totu
 延長	en tyau
 延太郎	en ta lau
 言語	gen go
+岩山破蓄	gan zan ha tiku
 炎彈	en dan
 炎遁	en ton
 炎舞	en bu
@@ -17661,6 +18228,7 @@ use_preset_vocabulary: false
 硏修生	ken siu sei
 硏鑽	ken san
 嚴禁	gen kin
+嚴密	gen mitu
 巖石	gan seiki
 掩護	en go
 眼帶	gan tai
@@ -17689,16 +18257,20 @@ use_preset_vocabulary: false
 要領	eu lyau
 要求	eu kiu
 要塞	eu sai
+要事	eu zi
 要素	eu so
 要因	eu in
 要員	eu win
 藥草	yaku sau
 藥師	yaku si
 曜び	eu bi
+椰子	ya si
 野菜	ya sai
+野郎	ya lau
 野蠻	ya ban
 野暮天	ya bo ten
 野球	ya kiu
+野球場	ya kiu dyau
 野犬	ya ken
 野生	ya sei
 野生動物	ya sei dou butu
@@ -17706,7 +18278,9 @@ use_preset_vocabulary: false
 野望	ya bau
 野性	ya sei
 夜叉	ya sya
+夜景	ya kei
 業界	gehu kai
+業者	gehu sya
 一て	it te
 一とき	it toki
 一般	ip pan
@@ -17714,12 +18288,14 @@ use_preset_vocabulary: false
 一本	ip pon
 一步	ip po
 一觸即發	is syoku soku hatu
+一代	iti dai
 一旦	it tan
 一刀	it tau
 一刀兩斷	it tau lyau dan
 一等	it tou
 一滴	it teki
 一丁	it tyau
+一斗	it tou
 一度	iti do
 一髮	ip patu
 一番	iti ban
@@ -17729,7 +18305,6 @@ use_preset_vocabulary: false
 一個	ik ka
 一個	ik ko
 一根	ik kon
-一行	ik kau
 一合	iti gahu
 一環	ik kwan
 一回	ik kwai
@@ -17760,6 +18335,8 @@ use_preset_vocabulary: false
 一网打盡	iti mau da zin
 一味	iti mi
 一席	is seki
+一心傳	is sin den
+一行	ik kau
 一休	ik kiu
 一緒	is syo
 一夜	iti ya
@@ -17818,6 +18395,8 @@ use_preset_vocabulary: false
 異端	i tan
 異國	i koku
 異能者	i nou sya
+異世界	i se kai
+異鄉	i kyau
 異樣	i yau
 意地	i di
 意見	i ken
@@ -17834,12 +18413,18 @@ use_preset_vocabulary: false
 臆病	oku byau
 藝こ	gei ko
 藝能	gei nou
+藝能界	gei nou kai
+藝能人	gei nou zin
 藝人	gei nin
 藝術	gei zyutu
 議事	gi zi
 議事堂	gi zi dau
+驛便	eki ben
+驛便や	eki ben ya
 驛員	eki win
+因論派	in lon ha
 因緣	in nen
+音波	on pa
 音符	on pu
 音速	on soku
 音樂	on gaku
@@ -17850,15 +18435,20 @@ use_preset_vocabulary: false
 陰陽	in yau
 陰陽	on myau
 陰陽師	on myau zi
+吟遊	gin iu
 銀たま	gin tama
 銀閣寺	gin kaku zi
-銀行	gin kau
 銀河	gin ga
+銀行	gin kau
 銀杏	gin nan
 銀座	gin za
 引力	in lyoku
+飲料水	in leu suwi
+飲食	in syoku
+飲食店	in syoku ten
 隱退	in tai
 印度	indo
+印刷	in satu
 印象	in syau
 英理	ei li
 英雄	ei yuu
@@ -17868,8 +18458,10 @@ use_preset_vocabulary: false
 營業	ei gehu
 營業部	ei gehu bu
 影響	ei kyau
+影向山	yau gau san
 映畫	ei gwa
 映畫館	ei gwa kwan
+映倫	ei lin
 映像	ei zau
 硬化	kau kwa
 硬殼	kau kaku
@@ -17884,11 +18476,14 @@ use_preset_vocabulary: false
 永和	ei wa
 永劫	ei gohu
 永久	ei kiu
+永夜	ei ya
 永遠	ei wen
+咏唱	ei syau
 勇次	yuu zi
 勇斷	yuu dan
 勇敢	yuu kan
 勇氣	yuu ki
+勇士	yuu si
 勇者	yuu sya
 用件	you ken
 用品	you hin
@@ -17898,6 +18493,7 @@ use_preset_vocabulary: false
 用意	you i
 用紙	you si
 幽靈	iu lei
+幽夜	iu ya
 優勢	iu sei
 優先	iu sen
 優秀	iu siu
@@ -17918,6 +18514,7 @@ use_preset_vocabulary: false
 友情	iu zyau
 友人	iu zin
 有利	iu li
+有料	iu leu
 有名	iu mei
 有無	u mu
 有罪	iu zai
@@ -17925,15 +18522,17 @@ use_preset_vocabulary: false
 幼名	eu myau
 柚子	yu zu
 誘拐	iu kai
+娛樂	go laku
 魚雷	gyo lai
 魚人	gyo zin
 魚人島	gyo zin tau
 愉快	yu kwai
 愉快犯	yu kwai han
 愚癡	gu ti
+愚行	gu kau
 漁船	gyo sen
 餘計	yo kei
-餘假	jo ka
+餘假	yo ka
 餘所	yo so
 餘暇	yo ka
 餘儀	yo gi
@@ -17945,6 +18544,7 @@ use_preset_vocabulary: false
 宇佐美	u sa mi
 羽赫	u kaku
 羽毛	u mau
+雨林	u lin
 雨天	u ten
 語學	go gaku
 語學力	go gaku lyoku
@@ -17954,10 +18554,12 @@ use_preset_vocabulary: false
 浴室	yoku situ
 欲ばって	yoku batte
 欲望	yoku bau
+御挨拶	go ai satu
 御馳走	go ti sou
 御馳走さま	go ti sou sama
-御存じ	go zon ji
+御存じ	go zon zi
 御飯	go han
+御機嫌	go ki gen
 御苦勞	go ku lau
 御來光	go lai kwau
 御覽	go lan
@@ -17967,8 +18569,10 @@ use_preset_vocabulary: false
 御冗談	go zyou dan
 御三家	go san ke
 御使用	go si you
+御溫泉	go won sen
 御無事	go bu zi
 御主人	go syu zin
+御座	go za
 預報	yo hau
 預測	yo soku
 預定	yo tei
@@ -17979,16 +18583,21 @@ use_preset_vocabulary: false
 預期	yo ki
 預算	yo san
 預習	yo sihu
+預言	yo gen
+預言書	yo gen syo
 預約	yo yaku
+預戰	yo sen 
 獄卒	goku sotu
 元旦	gwan tan
 元氣	gen ki
 元帥	gen suwi
+元素	gen so
 元太	gen ta
 原點	gen ten
 原稿	gen kau
 原理	gen li
 原料	gen leu
+原神	gen sin
 原文	gen bun
 原因	gen in
 援軍	wen gun
@@ -18001,6 +18610,8 @@ use_preset_vocabulary: false
 遠藤	wen dou
 遠征	wen sei
 遠足	wen soku
+怨靈	won lyau
+院內	win nai
 願望	gwan bau
 約束	yaku soku
 月餅	gep pei
@@ -18013,19 +18624,25 @@ use_preset_vocabulary: false
 樂譜	gaku hu
 樂器	gak ki
 樂勝	laku syou
+樂土	laku do
 樂園	laku wen
 云云	un nun
 雲海	un kai
 隕石	win seki
 運動	un dou
 運動不足	un dou bu soku
+運動會	un dou kwai
+運河	un ga
 運命	un mei
+運行	un kau
 運轉	un ten
 運轉士	un ten si
+運轉手	un ten syu
 雜に	zahu ni
 雜賀	sahi ka
 雜巾	zahu kin
 雜用	zatu you
+雜魚	za ko
 雜誌	zas si
 災難	sai nan
 栽培	sai bai
@@ -18033,6 +18650,7 @@ use_preset_vocabulary: false
 再會	sai kwai
 再建	sai kon
 再生	sai sei
+再現	sai gen
 在庫	zai ko
 在庫一掃	zai ko is sau
 暫定	zan tei
@@ -18042,11 +18660,13 @@ use_preset_vocabulary: false
 遭難	sau nan
 遭遇	sau guu
 早速	sas soku
+早柚	sa yu
 造船	zau sen
 造船所	zau sen zyo
 責任	seki nin
 澤山	taku san
 增援	sou wen
+贈呈	zou tei
 札ぽろ	sap polo
 炸裂	saku letu
 齋藤	sai tou
@@ -18056,6 +18676,7 @@ use_preset_vocabulary: false
 展示場	ten zi dyau
 斬擊	zan geki
 斬首	zan syu
+占星術	sen sei zyutu
 戰場	sen dyau
 戰車	sen sya
 戰鬥	sen tou
@@ -18083,11 +18704,13 @@ use_preset_vocabulary: false
 召集	seu sihu
 照明	seu mei
 遮斷	sya dan
+遮光	sya kwau
 折角	sek kaku
 着陸	tyaku liku
 珍獸	tin ziu
 眞劍	sin ken
 眞空	sin kuu
+眞理	sin li
 眞實	sin zitu
 眞相	sin sau
 眞意	sin i
@@ -18101,12 +18724,14 @@ use_preset_vocabulary: false
 陣營	din ei
 震撼	sin kan
 整理	sei li
+正餐	sei san
 正常	sei zyau
 正常化	sei zyau kwa
 正價	sei ka
 正解	sei kai
 正門	sei mon
 正面	syau men
+正名	syau mei
 正確	sei kaku
 正式	sei siki
 正體	syau tai
@@ -18120,26 +18745,35 @@ use_preset_vocabulary: false
 正直	syau diki
 政府	sei hu
 政治	sei di
+症狀	syau zyau
 證據	syou ko
 證明	syou mei
 證人	syou nin
 證言	syou gen
 支持	si di
+支店	si ten
 支度	si taku
 支配	si hai
 支配者	si hai sya
+支社長	si sya tyau
 知惠	ti we
+知論派	ti lon ha
 知識	ti siki
 知事	ti zi
 知性	ti sei
+知音	ti in
 隻眼	seki gan
+直感	tyok kan
 直接	tyoku setu
 直面	tyoku men
 直前	tyoku zen
-執行	sik kau
+直視	tyoku si
 執念	sihu nen
 執事	situ zi
+執行	sik kau
+執行官	sik kau kwan
 植物	syoku butu
+植物園	syoku butu wen
 職ば	syoku ba
 職歷	syoku leki
 職人	syoku nin
@@ -18162,9 +18796,11 @@ use_preset_vocabulary: false
 志向	si kau
 志願	si gwan
 制度	sei do
+制限	sei gen
 制壓	sei atu
 制御	sei gyo
 制止	sei si
+治安	ti an
 治療	ti leu
 治外法權	ti gwai hahu ken
 致命傷	ti mei syau
@@ -18177,7 +18813,9 @@ use_preset_vocabulary: false
 製作	sei saku
 滯在	tai zai
 質素	sis so
+質問	situ mon
 中び	tyuu bi
+中二	tyuu ni
 中國	tyuu goku
 中國語	tyuu goku go
 中華	tyuu kwa
@@ -18188,30 +18826,39 @@ use_preset_vocabulary: false
 中秋節	tyuu siu setu
 中忍	tyuu nin
 中日	tyuu niti
+中三	tyuu san
 中樞	tyuu suu
 中條	tyuu deu
 中閒	tyuu kan
 中心	tyuu sin
+中心地	tyuu sin ti
 中心街	tyuu sin gai
+中學校	tyuu gak kau
 中旬	tyuu zyun
 中央	tyuu au
 中央部	tyuu au bu
+中一	tyuu iti
 中止	tyuu si
+忠誠	tyuu sei
+終電	syuu den
 終極	syuu kyoku
 終結	syuu ketu
 終了	syuu leu
 終業	syuu gehu
 終戰	syuu sen
 終止形	syuu si kei
+鍾離	syou li
 種類	syu luwi
 種目	syu moku
 種族	syu zoku
 仲裁	tyuu sai
+重臣	dyuu sin
 重量	dyuu lyau
 重傷	dyuu syau
 重悟	dyuu go
 重要	dyuu eu
 重要性	dyuu eu sei
+重罪	dyuu zai
 周に	siu ni
 周報	siu hau
 周邊	siu hen
@@ -18228,11 +18875,13 @@ use_preset_vocabulary: false
 朱雀	su zaku
 諸島	syo tau
 燭臺	syoku dai
+主動	syu dou
 主婦	syu hu
 主觀視點	syu kwan si ten
 主人	syu zin
 主人公	syu zin kou
 主任	syu nin
+主要	syu eu
 主語	syu go
 助詞	zyo si
 助動詞	zyo dou si
@@ -18246,21 +18895,27 @@ use_preset_vocabulary: false
 注意	tyuu i
 祝福	syuku huku
 祝日	syuku zitu
+祝聖	syuku sei
+貯金	tyo kin
 駐車	tyuu sya
+駐車禁止	tyuu sya kin si
 駐屯	tyuu ton
 駐在	tyuu zai
 專攻	sen kou
-專行	sen kau
 專家	sen ka
 專門	sen mon
 專門店	sen mon ten
+專門家	sen mon ka
 專屬	sen zoku
+專行	sen kau
 專用	sen you
 轉變	ten pen
 轉呼音	ten ko on
 轉落	ten laku
+轉勤	ten kin
 轉身	ten sin
 轉寫	ten sya
+轉職	ten syoku
 裝備	sau bi
 裝甲車	sau kahu sya
 裝置	sau ti
@@ -18273,24 +18928,32 @@ use_preset_vocabulary: false
 追跡	tuwi seki
 追求	tuwi kiu
 追憶	tuwi oku
+墜落	tuwi laku
 準備	zyun bi
 拙者	ses sya
 桌球	tak kiu
+桌球臺	tak kiu dai
 灼熱	syaku netu
 濁音	daku on
+資產	si san
 資金	si kin
+資料	si leu
+資料室	si leu situ
 資生堂	si sei dau
 資源	si gen
 資質	si situ
 子宮	si kyuu
 子孫	si son
 姊妹	si mai
+自暴自棄	zi bau zi ki
 自爆	zi baku
 自動	zi dou
 自動車	zi dou sya
+自動詞	zi dou si
 自動販賣機	zi dou han bai ki
 自分	zi bun
 自給自足	zi kihu zi soku
+自己	zi ko
 自家	zi ka
 自家製	zi ka sei
 自來也	zi lai ya
@@ -18308,10 +18971,12 @@ use_preset_vocabulary: false
 自意識	zi i siki
 自由	zi iu
 自宅	zi taku
+自治	zi ti
+自治體	zi ti tai
 自轉車	zi ten sya
 宗家	sou ke
 宗匠	sou syau
-宗教	syuu keu
+宗敎	syuu keu
 蹤跡	syou seki
 總菜	sou zai
 總長	sou tyau
@@ -18347,6 +19012,7 @@ use_preset_vocabulary: false
 最終	sai syuu
 罪人	zai nin
 尊敬	son kei
+尊敬	son kyau
 左官	sa kwan
 左衞門	sa we mon
 左樣奈良	sa yau na la

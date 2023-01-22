@@ -4,7 +4,7 @@
 schema:
   schema_id: yunciu
   name: 永州官話
-  version: "0.0.5"
+  version: "0.0.6"
   author:
     - Shin Zoqchiuq <shinzoqchiuq@outlook.com>
   description: |
@@ -63,8 +63,9 @@ speller:
     - xform/\d//     # 去掉聲調
 
     # 模糊音
-    # uo -> o
+    # uo ≈ o
     - derive/wo/o/
+    - derive/[^\b]o/uo/
     # yai -> ngai
     - derive/yai/ngai/
     # ng -> ∅
@@ -74,6 +75,14 @@ speller:
     - derive/fou/hou/
     # shui -> hui
     - derive/shui/hui/
+    # n- ≈ l-
+    - derive/\bn/l/
+    - derive/\bl/n/
+    # zh -> y
+    - derive/zhi[aeon]/y/
+    - derive/zhu/yu/
+    - derive/zhiu/you/
+    - derive/zhi[\b|\d]/yi/
 
     - derive/ch/q/
     - derive/sh/x/
