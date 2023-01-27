@@ -1,0 +1,109 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  name: 上古漢語（MSOEG, 布之道）
+  schema_id: OC_msoegDK
+  version: "2023.01.211"
+  author:
+    - hulenkius <hulenkius@gmail.com>
+    - github.com/Hulenkius/RIME_OC_collections
+  description: |
+    上古音輸入方案：msoeg 擬音，布之道增修
+    []不寫　　() 內容可不寫
+    ə 作 y　　ŋ 作 ng
+    ɬ 作 ll　　ɫ 作 l
+    ʔ ˤ作x　　ʍ 作 hw
+    ʰ◌̊◌̥作h
+    
+  dependencies:
+    - cangjie5
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - xform/(\*).+$//
+    - derive/\(l\)/l/
+    - derive/\(l\)//
+    - derive/\(r\)/r/
+    - derive/\(r\)//
+    - derive/\(w\)/w/
+    - derive/\(w\)//
+    - derive/H/h/
+    - derive/Hw/wh/
+    - derive/i/j/
+    - derive/j/i/
+    - derive/u/w/
+    - derive/w/u/
+    - derive/^x//
+
+translator:
+  dictionary: OC_msoegDK
+  prism: OC_msoegDK
+  spelling_hints: 1
+  enable_completion: true
+  preedit_format:
+    - xform/(\*).+$//
+  comment_format:
+    - xform/^(.*)$/‹$1›
+    - xform/((\*).+)›/›\ $1/
+    - xform/H/h/
+    
+reverse_lookup:
+  dictionary: cangjie5
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔倉頡〕
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - xform/^(.*)$/$1
+    - xform/((\*).+)/$1/
+  
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"

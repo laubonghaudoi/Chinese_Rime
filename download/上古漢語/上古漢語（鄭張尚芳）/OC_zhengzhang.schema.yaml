@@ -1,0 +1,103 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  name: 上古漢語（鄭張尚芳）
+  schema_id: OC_zhengzhang
+  version: "2023.01.092"
+  author:
+    - hulenkius <hulenkius@gmail.com>
+    - github.com/Hulenkius/RIME_OC_collections
+  description: |
+    上古音輸入方案：鄭張尚芳擬音
+    ɯ 作 y　　ɦ 作 hh 或 f
+    ʔ 作 x　　ɢ 作 gg 或 v
+    ' 作 c　　ʰ、◌̥ʰ 作 h
+    ŋ 作 ng　　· 不寫
+    長音雙寫
+  dependencies:
+    - cangjie5
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - xform/(\*).+$//
+    - derive/gg/v/
+    - derive/hh/f/
+    - derive/u/w/
+    - derive/w/u/
+    - derive/hw/wh/
+    - derive/i/j/
+    - derive/j/i/
+    - derive/Ⓛ//
+    - derive/\?//
+
+translator:
+  dictionary: OC_zhengzhang
+  prism: OC_zhengzhang
+  spelling_hints: 1
+  enable_completion: true
+  preedit_format:
+    - xform/(\*).+$//
+  comment_format:
+    - xform/^(.*)$/‹$1›
+    - xform/((\*).+)›/›\ $1/
+    - xform/‹ⓁⓁ/ⓁⓁ‹/
+    - xform/‹Ⓛ/Ⓛ‹/
+    - xform/‹\?/\?‹/
+
+reverse_lookup:
+  dictionary: cangjie5
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔倉頡〕
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"

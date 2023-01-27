@@ -1,0 +1,142 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  name: 上古漢語（白-沙2014）
+  schema_id: OC_baxter-sagart
+  version: "2023.01.10"
+  author:
+    - hulenkius <hulenkius@gmail.com>
+    - github.com/Hulenkius/RIME_OC_collections
+  description: |
+    上古音輸入方案：白一平-沙加爾擬音
+    [] <> . - 不寫　　()內容可不寫
+    大寫字母可單、雙小寫
+    ʰ 作 h　　◌̥◌̊ 作 h
+    ɦ 作 hh 或 f　　ə 作 y
+    ɢ 作 gg 或 v　　ŋ 作 ng
+    ʔ、ˤ 作 x　　
+  dependencies:
+    - cangjie5
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - xform/(\*).+$//
+    - derive/\(C\)/C/
+    - derive/\(C\)//
+    - derive/\(Cy\)/Cy/
+    - derive/\(Cy\)//
+    - derive/\(h\)/h/
+    - derive/\(h\)//
+    - derive/\(j\)/j/
+    - derive/\(j\)//
+    - derive/\(k\)/k/
+    - derive/\(k\)//
+    - derive/\(my\)/my/
+    - derive/\(my\)//
+    - derive/\(ng\)/ng/
+    - derive/\(ng\)//
+    - derive/\(p\)/p/
+    - derive/\(p\)//
+    - derive/\(r\)/r/
+    - derive/\(r\)//
+    - derive/\(s\)/s/
+    - derive/\(s\)//
+    - derive/\(x\)/x/
+    - derive/\(x\)//
+    - derive/\(w\)/w/
+    - derive/\(w\)//
+    - derive/\(y\)/y/
+    - derive/\(y\)//
+    - derive/C/c/
+    - derive/C/cc/
+    - derive/A/aa/
+    - derive/A/a/
+    - derive/N/n/
+    - derive/N/nn/
+    - derive/hw/wh/
+    - derive/wh/hw/
+    - derive/hh/f/
+    - derive/aa/a/
+    - derive/gg/v/
+    - derive/Ⓔ//
+    - derive/Ⓛ//
+    - derive/Ⓧ//
+    - derive/疑//
+
+translator:
+  dictionary: OC_baxter-sagart
+  prism: OC_baxter-sagart
+  spelling_hints: 1
+  enable_completion: true
+  preedit_format:
+    - xform/(\*).+$//
+  comment_format:
+    - xform/^(.*)$/‹$1›
+    - xform/((\*).+)›/›\ $1/
+    - xform/‹疑Ⓔ/\?Ⓔ‹/
+    - xform/‹Ⓔ/Ⓔ‹/
+    - xform/‹Ⓛ/Ⓛ‹/
+    - xform/‹Ⓧ/Ⓧ‹/
+    - xform/‹疑/\?‹/
+    
+reverse_lookup:
+  dictionary: cangjie5
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔倉頡〕
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - xform/^(.*)$/$1
+    - xform/((\*).+)/$1/
+    - derive/疑/\?/
+  
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"

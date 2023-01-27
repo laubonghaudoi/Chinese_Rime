@@ -112,8 +112,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共 124 個方案）
-<br/>Full list of collected schemas (124 schemas in total)</h3>
+<h3>方案列表（共 132 個方案）
+<br/>Full list of collected schemas (132 schemas in total)</h3>
 
 
 <ul>
@@ -122,6 +122,39 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
       <summary>上古漢語 Old Chinese</summary>
       <ul>
         <li>上古全拼 - <code>dkzp</code></li>
+        <li>
+          上古漢語（白一平1992）
+          <ul>
+            <li>上古漢語（白一平1992） - <code>OC_baxter1992</code></li>
+          </ul>
+        </li>
+        <li>
+          上古漢語（白-沙2014）
+          <ul>
+            <li>上古漢語（白-沙2014） - <code>OC_baxter-sagart</code></li>
+          </ul>
+        </li>
+        <li>
+          上古漢語（許思萊）
+          <ul>
+            <li>上古漢語（許思萊） - <code>OC_schuesslerOC</code></li>
+            <li>東漢漢語（許思萊） - <code>OC_schuesslerLHC</code></li>
+          </ul>
+        </li>
+        <li>
+          上古漢語（鄭張尚芳）
+          <ul>
+            <li>上古漢語（鄭張尚芳） - <code>OC_zhengzhang</code></li>
+            <li>秦漢漢語（鄭張尚芳[推導]） - <code>OC_zhengzhangQH</code></li>
+          </ul>
+        </li>
+        <li>
+          上古漢語（MSOEG）
+          <ul>
+            <li>古典漢語（MSOEG） - <code>OC_msoeg</code></li>
+            <li>上古漢語（MSOEG, 布之道） - <code>OC_msoegDK</code></li>
+          </ul>
+        </li>
       </ul>
     </details>
   </li>
@@ -930,6 +963,8 @@ For detailed information of the collected schemas in the download package, pleas
 <h2>部分方案數據來源（非配方）
 <br/>Incomplete list of sources of unmaintained schemas (non-recipes)</h2>
 
+- 上古漢語
+  - [RIME 上古漢語輸入方案集](https://github.com/Hulenkius/RIME_OC_collections)
 - 中古漢語
   - [廣韻查詢](https://gist.github.com/lotem/e964a81c1ea457a6ae92)
   - [廣韻羅馬字](https://gist.github.com/lotem/3950485)

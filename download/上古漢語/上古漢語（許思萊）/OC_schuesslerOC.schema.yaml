@@ -1,0 +1,138 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  name: 上古漢語（許思萊）
+  schema_id: OC_schuesslerOC
+  version: "2023.01.193"	
+  author:
+    - hulenkius <hulenkius@gmail.com>
+    - github.com/Hulenkius/RIME_OC_collections
+  description: |
+    上古音輸入方案：許思萊上古擬音
+    ^ - 不寫　　
+    ɦ 作 hh 或 f　　ə 作 y　　ŋ 作 ng
+    i 與 j、u 與 w 可淆 　　ʔ 作 x
+    z 鍵引導畢鶚擬音
+    
+  dependencies:
+    - cangjie5
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - xform/(\*).+$//
+    # 以下爲VFEC書附錄
+    - derive/Ⓖx//
+    - derive/Ⓖ//
+    - derive/\_//
+    - derive/\_x//
+    - derive/\-x//
+    # 以下爲主體
+    - derive/^x//
+    - derive/hh/f/
+    - derive/i/j/
+    - derive/j/i/
+    - derive/u/w/
+    - derive/w/u/
+    - derive/wh/hw/
+    - derive/\-//
+    - derive/C/c/
+    - derive/C/cc/
+    - derive/疑//
+    # 以下爲畢鶚擬音
+    - derive/Ⓑ/z/
+    - derive/N/n/
+    - derive/N/nn/
+    - derive/\(w\)/w/
+    - derive/\(w\)//
+    - derive/\(r\)/r/
+    - derive/\(r\)//
+    - derive/\(s\)/s/
+    - derive/\(s\)//
+    - derive/\(l\)/l/
+    - derive/\(l\)//
+    - derive/\(k\)/k/
+    - derive/\(k\)//
+    - derive/\(n\)/n/
+    - derive/\(n\)//
+
+translator:
+  dictionary: OC_schuesslerOC
+  prism: OC_schuesslerOC
+  spelling_hints: 1
+  enable_completion: true
+  preedit_format:
+    - xform/(\*).+$//
+  comment_format:
+    - xform/^(.*)$/‹$1›
+    - xform/((\*).+)›/›\ $1/
+    - derive/疑//
+    # VFEC
+    - derive/\_/\ /
+    - xform/‹Ⓖ/Ⓖ‹/
+    # 畢鶚
+    - xform/‹Ⓑ/Ⓑ‹/
+    - xform/</\ ⬅️\ /
+    - xform/>/\ ➡️\ /
+    
+reverse_lookup:
+  dictionary: cangjie5
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔倉頡〕
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - xform/^(.*)$/$1
+    - xform/((\*).+)/$1/
+    - derive/\疑//
+    - derive/\_/\ /
+  
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"

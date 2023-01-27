@@ -1,0 +1,113 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  name: 古典漢語（MSOEG）
+  schema_id: OC_msoeg
+  version: "2023.01.21"
+  author:
+    - hulenkius <hulenkius@gmail.com>
+    - github.com/Hulenkius/RIME_OC_collections
+  description: |
+    上古音輸入方案：msoeg 初釋版擬音
+    []不寫　　() 內容可不寫
+    ɛ作e　ɔ作o　ə作y　ɫ作j
+    θ作s　ŋ作ng　ʃ ʒ 作 sr zr
+    ɹ ʴ 作 r　　ʔ ʕ ˤ 作 x
+    ʰ◌̊◌̥作h　◌̃作v　ɦ作hh或f
+  dependencies:
+    - cangjie5
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - xform/(\*).+$//
+    - derive/\(j\)/j/
+    - derive/\(j\)//
+    - derive/\(r\)/r/
+    - derive/\(r\)//
+    - derive/\(u\)/u/
+    - derive/\(u\)//
+    - derive/\(w\)/w/
+    - derive/\(w\)//
+    - derive/\(x\)/x/
+    - derive/\(x\)//
+    - derive/hh/f/
+    - derive/i/j/
+    - derive/j/i/
+    - derive/u/w/
+    - derive/w/u/
+    - derive/^x//
+
+translator:
+  dictionary: OC_msoeg
+  prism: OC_msoeg
+  spelling_hints: 1
+  enable_completion: true
+  preedit_format:
+    - xform/(\*).+$//
+  comment_format:
+    - xform/^(.*)$/‹$1›
+    - xform/((\*).+)›/›\ $1/
+    # 對應拼音
+    - xform/（/\ ➡️\ /
+    - xform/）//
+    
+reverse_lookup:
+  dictionary: cangjie5
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔倉頡〕
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - xform/^(.*)$/$1
+    - xform/((\*).+)/$1/
+  
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
