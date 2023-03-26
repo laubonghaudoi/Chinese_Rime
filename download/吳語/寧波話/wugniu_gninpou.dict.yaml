@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2023.02.18"
+version: "2023.03.19"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -22037,13 +22037,13 @@ import_tables:
 阿嗯奶	aq ng ne
 阿囡	aq noe	578
 阿伯	aq pan
-阿伯	aq paq	4000
-阿爸	aq paq	10000
+阿伯	aq paq	10000
+阿爸	aq paq	4000
 阿伯阿姆勿認得	aq paq a m vaq gnin taq
 阿伯阿姆弗認得	aq paq a m vaq gnin taq	1
 阿伯阿姆勿認得	aq paq an m vaq gnin taq
 阿伯阿姆弗認得	aq paq an m vaq gnin taq	1
-阿爸值鈿小兒子	aq paq jiq di shiau ng tsy
+阿伯值鈿小兒子	aq paq jiq di shiau ng tsy
 阿伯老頭	aq paq lau deu
 壓寶	aq pau
 押寶	aq pau
@@ -25744,8 +25744,8 @@ import_tables:
 發帖子	faq thiaq tsy
 發癡	faq tshyu
 發出	faq tshyuq
-發橫財	faq wan dze
 發霧露	faq vu lu	55
+發橫財	faq wan dze
 發霧露	faq wu- lu	55
 發洋財	faq yan dze
 弗上弗落	faq zaon faq loq	418
@@ -26321,10 +26321,10 @@ import_tables:
 下飯好猛	gho vae hau man
 下飯嘸告飯喫飽	gho vae mh kau vae chioq pau
 下飯嘸沒龍頭鮳	gho vae mh maq lon deu khau
+下霧露	gho vu lu	55
 下橫頭	gho wan deu	55
 下回	gho wei
 下圍	gho wei	55
-下霧露	gho vu lu	55
 下霧露	gho wu- lu	55
 紅鼻頭管	ghon baq deu kun	55
 紅皮老鼠	ghon bi lau tsy	55
@@ -28092,7 +28092,6 @@ import_tables:
 丈人	jian gnin
 滰人	jian gnin	578
 丈人阿伯	jian gnin aq paq	418
-丈人阿爸	jian gnin aq paq	55
 滰人腳桶	jian gnin ciaq don	418
 丈人老頭	jian gnin lau deu	418
 仗人勢	jian gnin syu	55
@@ -29223,6 +29222,8 @@ import_tables:
 睏起	khuen chi
 睏起來	khuen chi le
 睏晝覺	khuen cieu kau
+睏彈簧	khuen dae waon
+睏彈簧眠牀	khuen dae waon mi zaon
 睏着	khuen dzoq	418
 睏着了	khuen dzoq lei
 睏法	khuen faq
@@ -29265,6 +29266,9 @@ import_tables:
 睏落來	khuen loq le
 睏帽	khuen mau
 睏滿	khuen mun
+睏硬板牀	khuen ngan pae zaon
+睏板	khuen pae
+睏板牀	khuen pae zaon
 睏飽	khuen pau
 睏衫	khuen sae	55
 睏相	khuen shian	578
@@ -29275,6 +29279,8 @@ import_tables:
 睏到	khuen tau
 睏⿰忄態覺	khuen the kau	55
 睏的	khuen tiq
+睏棕繃	khuen tson pan
+睏棕繃眠牀	khuen tson pan mi zaon
 睏足	khuen tsoq
 睏𠲎	khuen va
 睏勿	khuen vaq
@@ -32838,6 +32844,7 @@ import_tables:
 芋艿屙蟲	n na ou dzon
 芋艿涴蟲	n na ou dzon	55
 芋艿子	n na tsy	418
+奶脯	na bu	55
 奶𤷾	na chiq	55
 奶頭	na deu
 嬲和	na ghou	578
@@ -33206,7 +33213,7 @@ import_tables:
 眼睛生勒屁眼裏	ngae cin san laq phi ngae li
 眼睛眨眨	ngae cin saq saq	55
 眼睛𥈊𥈊	ngae cin saq saq	55
-眼睛小羅嗦	ngae cin shiau lou sou
+眼睛小囉嗦	ngae cin shiau lou sou
 眼鏡店	ngae cin ti	55
 眼睛癢	ngae cin yan	55
 眼窞	ngae dei	55
@@ -33258,14 +33265,12 @@ import_tables:
 眼烏珠碧綠	ngae u tsyu piq loq	55
 眼癢	ngae yan	55
 眼沿	ngae yi	55
-眼緣	ngae yu
 硬拗纏	ngan au ji	55
 硬照	ngan ciau	55
 硬勁	ngan cin	55
 硬結結	ngan ciq ciq	55
 硬結刮剌	ngan ciq kuaq laq	55
 硬糖	ngan daon
-硬動	ngan don
 硬絞纏	ngan gau ji	55
 硬要當	ngan iau taon
 硬槓子	ngan kaon tsy	55
@@ -33325,8 +33330,7 @@ import_tables:
 呆客氣	nge khaq chi
 呆快	nge khua
 呆古古	nge ku ku	55
-呆臉呆搭	nge li nge taq	55
-呆裏呆搭	nge li nge taq
+呆裏呆搭	nge li nge taq	55
 呆不愣敦	nge paq len ten	55
 呆剝儱倲	nge poq lon ton	55
 呆剝剝	nge poq poq	55
@@ -33384,7 +33388,7 @@ import_tables:
 瓦辣	ngo laq	55
 瓦楞草	ngo len tshau	55
 瓦流縫	ngo lieu von	55
-瓦粒	ngo liq	55
+瓦礫	ngo liq	55
 我儂	ngo lou	418
 衙門	ngo men
 牙牙響	ngo ngo shian
@@ -33396,21 +33400,19 @@ import_tables:
 牙屙	ngo ou
 牙涴	ngo ou	55
 瓦片	ngo phi
-牙梳	ngo su	55
 牙鬚	ngo su	578
 牙鬚翹聳聳	ngo su chiau son son
 牙刷	ngo syuq
 瓦刀	ngo tau
-牙齒垽	ngo tshy gnin
-牙齒拐拐動	ngo tshy kua kua don
-牙齒雪雪白	ngo tshy syuq syuq baq
 我種南瓜	ngo tson nei-nae kuo
 我種菠薐	ngo tson pou len
 牙齒	ngo tsy
 牙齒垽	ngo tsy gnin	55
 牙齒朝北	ngo tsy jiau poq
+牙齒拐拐動	ngo tsy kua kua don
 牙齒屙	ngo tsy ou
 牙齒涴	ngo tsy ou	418
+牙齒雪雪白	ngo tsy syuq syuq baq
 牙齒褪落	ngo tsy then loq
 牙齒縫	ngo tsy von	55
 牙齒縫道	ngo tsy von dau
@@ -33421,6 +33423,7 @@ import_tables:
 鵝毛扇	ngou mau shi	55
 鵝毛月	ngou mau yuq	55
 餓煞鬼投人身	ngou saq ciu deu gnin shin
+餓煞鬼投胎	ngou saq ciu deu te
 餓齋	ngou tsa	55
 鵝掌風	ngou tsaon fon
 鵝菜	ngou tshe	55
@@ -33428,7 +33431,6 @@ import_tables:
 鵝菜	ngou tshoe	55
 鵝瘃	ngou tsoq	55
 鵝黃	ngou waon
-奶脯	nhe bu	55
 奶奶	nhe nhe
 奶奶脯	nhe nhe bu	418
 奶奶頭	nhe nhe deu	55
@@ -33476,6 +33478,7 @@ import_tables:
 糯米	nou mi
 糯米絞	nou mi gau
 糯米⿰米鬼	nou mi khuei
+糯米塊	nou mi khuei
 糯米𩞁餈	nou mi mo zy	55
 糯米𩞁餈	nou mi mo zyu	55
 糯米飯	nou mi vae
@@ -33493,10 +33496,8 @@ import_tables:
 下火藥	o hou yaq
 下勁道	o jin dau	55
 下功夫	o kon fu
-丫各亂經	o koq loe cin
 丫角亂經	o koq loe cin	55
 丫臉	o li	55
-丫臉漆黑	o li chiq haq
 丫臉覅其	o li fe ji
 丫臉覅渠	o li fe ji
 丫臉黑落	o li haq loq	55
@@ -33527,9 +33528,8 @@ import_tables:
 傴倒	on tau	55
 傴倒爬起	on tau bo chi
 傴倒施揖	on tau sy iq	55
-傴的	on tiq
+傴的	on tiq	55
 蕹菜	on tshe
-甕中	on tson
 翁中	on tson	55
 傴仔	on tsy
 屋爿	oq bae	55
@@ -33746,7 +33746,7 @@ import_tables:
 板板六十四	pae pae loq zyuq sy
 板壁	pae piq
 瘢疤	pae po	55
-斑駁	pae poq
+扳駁	pae poq
 扮相	pae shian
 板箱	pae shian	55
 板篩	pae sy	55
@@ -33784,7 +33784,7 @@ import_tables:
 八九	paq cieu
 百筋百骸	paq cin paq hae	55
 八節八禮	paq ciq paq li
-百發百中	paq faq paq tson
+百發百準	paq faq paq tsyun
 八分形過	paq fen in kou	55
 八分形過	paq fen yin kou	55
 八號	paq ghau
@@ -33872,6 +33872,7 @@ import_tables:
 包心菜	pau shin tshe
 包打聽	pau tan thin
 飽膯膯	pau ten ten	55
+爆胎	pau the
 爆胎	pau thei
 爆凍米胖	pau ton mi phaon	55
 包車	pau tsho
@@ -33888,11 +33889,9 @@ import_tables:
 背脊骨直弗起	pei ciq kuaq jiq vaq chi	1
 背脊心	pei ciq shin	55
 背脊頂	pei ciq ten	55
-背胴	pei don	55
 揹大刀	pei dou tau	55
 背柱骨	pei dzyu kuaq	418
 揹風火	pei fon hou	55
-背風火	pei fon hou
 背後	pei gheu
 背後頭	pei gheu deu	55
 揹合勿起	pei kaq vaq chi
@@ -33907,7 +33906,7 @@ import_tables:
 揹木梢	pei moq sau	55
 褙襞	pei paq	55
 揹包袱	pei pau boq
-背殺頭罪名	pei saq dei zei min
+揹殺頭罪名	pei saq dei zei min
 背心	pei shin
 揹性命	pei shin min
 揹帶	pei ta	55
@@ -35108,7 +35107,6 @@ import_tables:
 小鴨毨毛	shiau ae sei mau
 小鴨毨毛	shiau ae seu mau
 小阿伯	shiau aq paq
-小阿爸	shiau aq paq
 小奧魚	shiau au ng
 小排	shiau ba
 小朋友	shiau ban yeu
@@ -46422,7 +46420,6 @@ import_tables:
 喫人家飯	chioq gnin ko vae
 受人家難	zhieu gnin ko nae
 喫餿氣冷飯	chioq seu chi lan vae
-揹殺頭罪名	pei saq deu zei min
 眼淚水淘湯飯	ngae li syu dau thaon vae
 小苦喫勒候頭頸	shiau khu chioq laq gheu deu cin
 橫切蘿蔔	wan chiq lou boq
