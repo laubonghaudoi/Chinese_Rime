@@ -1,0 +1,362 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: newhannom
+  name: 部𢫈𡨸漢喃㗂越
+  version: "0.11"
+  author:
+    - Keepout2010 <Keepout2010@163.com>
+  description: |
+    部𢫈𡨸漢喃㗂越、telex
+  dependencies:
+    - cangjie5
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 越, 西 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: hn_sp
+    states: [ 略字, 正字 ]
+    reset: 1
+
+patch:
+  punctuator/full_shape:
+    '\' : '，'
+    '/' : '・'
+    ',' : '、'
+    # ",": {commit: "、"}
+  punctuator/half_shape:
+    '\' : '，'
+    '/' : '・'
+    ',' : '、'
+    # ",": {commit: "、"}
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - xform/(ⓗ|ⓥ|×).+$//
+    - xform/ỷ/yr/
+    - xform/ỹ/yx/
+    - xform/ỵ/yj/
+    - xform/ỳ/yf/
+    - xform/ý/ys/
+    - xform/ỏ/or/
+    - xform/õ/ox/
+    - xform/ọ/oj/
+    - xform/ò/of/
+    - xform/ó/os/
+    - xform/ẻ/er/
+    - xform/ẽ/ex/
+    - xform/ẹ/ej/
+    - xform/è/ef/
+    - xform/é/es/
+    - xform/ủ/ur/
+    - xform/ũ/ux/
+    - xform/ụ/uj/
+    - xform/ù/uf/
+    - xform/ú/us/
+    - xform/ỉ/ir/
+    - xform/ĩ/ix/
+    - xform/ị/ij/
+    - xform/ì/if/
+    - xform/í/is/
+    - xform/ả/ar/
+    - xform/ã/ax/
+    - xform/ạ/aj/
+    - xform/à/af/
+    - xform/á/as/
+    - xform/ở/ơr/
+    - xform/ỡ/ơx/
+    - xform/ợ/ơj/
+    - xform/ờ/ơf/
+    - xform/ớ/ơs/
+    - xform/ơ/ow/
+    - xform/ử/ưr/
+    - xform/ữ/ưx/
+    - xform/ự/ưj/
+    - xform/ừ/ưf/
+    - xform/ứ/ưs/
+    - xform/ư/uw/
+    - xform/ể/êr/
+    - xform/ễ/êx/
+    - xform/ệ/êj/
+    - xform/ề/êf/
+    - xform/ế/ês/
+    - xform/ê/ee/
+    - xform/ổ/ôr/
+    - xform/ỗ/ôx/
+    - xform/ộ/ôj/
+    - xform/ồ/ôf/
+    - xform/ố/ôs/
+    - xform/ô/oo/
+    - xform/ẳ/ăr/
+    - xform/ẵ/ăx/
+    - xform/ặ/ăj/
+    - xform/ằ/ăf/
+    - xform/ắ/ăs/
+    - xform/ă/aw/
+    - xform/ẩ/âr/
+    - xform/ẫ/âx/
+    - xform/ậ/âj/
+    - xform/ầ/âf/
+    - xform/ấ/âs/
+    - xform/â/aa/
+    - xform/đ/dd/
+    - 'xform (huy)([sfjxr])(nh) $1$3$2'
+    - 'xform ([aeiouâăôê])([sfjxr])(ng|nh|ch) $1$3$2'
+    - 'xform ([aeiouâăôê])([sfjxr])([iunptckmy]) $1$3$2'
+    - 'xform ([ae])([sfjxr])([ou]) $1$3$2'
+    - 'xform (aw|ow|uw)([sfjxr])(ng|nh|ch) $1$3$2'
+    - 'xform (aw|ow|uw)([sfjxr])([iunptckmy]) $1$3$2'
+    - 'xform (u|uw|i)([sfjxr])(a) $1$3$2'
+    - xform/^(.*)$/$1z/
+    - xform/([sfjxr])z/$1/
+    - derive/^(qu|k|l|h|v|m|t|s?)i([sfjxrz])$/$1y$2/
+    - derive/^(qu|k|l|h|v|m|t|s?)y([sfjxrz])$/$1i$2/
+    - derive/uw/w/
+    - derive/^ph/f/
+    - abbrev/^([a-z]).+$/$1/
+    - derive/^(.*)[z,sxjfrA]$/$1/
+#    - derive/aw/a/
+#    - derive/aa/a/
+#    - derive/ee/e/
+#    - derive/oo/o/
+#    - derive/uw/u/
+#    - derive/ow/o/
+#    - derive/dd/d/
+
+translator:
+  dictionary: newhannom
+  prism: newhannom
+  spelling_hints: 1  # 〜字以內候選標註完整帶調拼音
+  enable_completion: false
+  preedit_format:
+    - xform/(ⓗ|ⓥ|×).+$//
+    - 'xform ([aeiouâăôê])(ng|nh|ch)([sfjxr]) $1$3$2'
+    - 'xform ([aeiouâăôê])([iunptckmy])([sfjxr]) $1$3$2'
+    - 'xform ([ae])([ou])([sfjxr]) $1$3$2'
+    - 'xform (aw|ow|uw|w)([iunptckmy])([sfjxr]) $1$3$2'
+    - 'xform (aw|ow|uw|w)(ng|nh|ch)([sfjxr]) $1$3$2'
+    - 'xform (u|uw|i|w)(a)([sfjxr])$ $1$3$2'
+    - 'xform (gi)([sfjxr])(a) $1$3$2'
+    - 'xform (u)([sfjxr])(y) $1$3$2'
+    - 'xform (huy)(nh)([sfjxr]) $1$3$2'
+    - 'xform qu([sfjxr])i qui$1'
+    - 'xform z '
+    - 'xform dd đ'
+    - 'xform aa â'
+    - 'xform âs ấ'
+    - 'xform âf ầ'
+    - 'xform âj ậ'
+    - 'xform âx ẫ'
+    - 'xform âr ẩ'
+    - 'xform aw ă'
+    - 'xform ăs ắ'
+    - 'xform ăf ằ'
+    - 'xform ăj ặ'
+    - 'xform ăx ẵ'
+    - 'xform ăr ẳ'
+    - 'xform oo ô'
+    - 'xform ôs ố'
+    - 'xform ôf ồ'
+    - 'xform ôj ộ'
+    - 'xform ôx ỗ'
+    - 'xform ôr ổ'
+    - 'xform ee ê'
+    - 'xform ês ế'
+    - 'xform êf ề'
+    - 'xform êj ệ'
+    - 'xform êx ễ'
+    - 'xform êr ể'
+    - 'xform ow ơ'
+    - 'xform ơs ớ'
+    - 'xform ơf ờ'
+    - 'xform ơj ợ'
+    - 'xform ơx ỡ'
+    - 'xform ơr ở'
+    - 'xform uw ư'
+    - 'xform w ư'
+    - 'xform ưs ứ'
+    - 'xform ưf ừ'
+    - 'xform ưj ự'
+    - 'xform ưx ữ'
+    - 'xform ưr ử'
+    - 'xform as á'
+    - 'xform af à'
+    - 'xform aj ạ'
+    - 'xform ax ã'
+    - 'xform ar ả'
+    - 'xform is í'
+    - 'xform if ì'
+    - 'xform ij ị'
+    - 'xform ix ĩ'
+    - 'xform ir ỉ'
+    - 'xform us ú'
+    - 'xform uf ù'
+    - 'xform uj ụ'
+    - 'xform ux ũ'
+    - 'xform ur ủ'
+    - 'xform es é'
+    - 'xform ef è'
+    - 'xform ej ẹ'
+    - 'xform ex ẽ'
+    - 'xform er ẻ'
+    - 'xform os ó'
+    - 'xform of ò'
+    - 'xform oj ọ'
+    - 'xform ox õ'
+    - 'xform or ỏ'
+    - 'xform ys ý'
+    - 'xform yf ỳ'
+    - 'xform yj ỵ'
+    - 'xform yx ỹ'
+    - 'xform yr ỷ'
+    - 'xform f ph'
+  comment_format:
+    - xform/^(.*)$/〔$1〕
+    - xform/((ⓗ|ⓥ|×).+)〕/〕$1/
+    - xform/úy/uý/
+    - xform/ùy/uỳ/
+    - xform/ủy/uỷ/
+    - xform/ụy/uỵ/
+    - xform/ũy/uỹ/
+    - xform/(qu|k|l|h|v|m|t|s)y/$1i/
+    - xform/(qu|k|l|h|v|m|t|s)ỳ/$1ì/
+    - xform/(qu|k|l|h|v|m|t|s)ý/$1í/
+    - xform/(qu|k|l|h|v|m|t|s)ỵ/$1ị/
+    - xform/(qu|k|l|h|v|m|t|s)ỹ/$1ĩ/
+    - xform/(qu|k|l|h|v|m|t|s)ỷ/$1ỉ/
+    
+reverse_lookup:
+  dictionary: cangjie5
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔倉頡〕
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - 'xform ([aeiouâăôê])(ng|nh|ch)([sfjxr]) $1$3$2'
+    - 'xform ([aeiouâăôê])([iunptckmy])([sfjxr]) $1$3$2'
+    - 'xform ([ae])([ou])([sfjxr]) $1$3$2'
+    - 'xform (aw|ow|uw)([iunptckmy])([sfjxr]) $1$3$2'
+    - 'xform (aw|ow|uw)(ng|nh|ch)([sfjxr]) $1$3$2'
+    - 'xform (u|uw)(a)([sfjxr]) $1$3$2'
+    - 'xform z '
+    - 'xform dd đ'
+    - 'xform aa â'
+    - 'xform âs ấ'
+    - 'xform âf ầ'
+    - 'xform âj ậ'
+    - 'xform âx ẫ'
+    - 'xform âr ẩ'
+    - 'xform aw ă'
+    - 'xform ăs ắ'
+    - 'xform ăf ằ'
+    - 'xform ăj ặ'
+    - 'xform ăx ẵ'
+    - 'xform ăr ẳ'
+    - 'xform oo ô'
+    - 'xform ôs ố'
+    - 'xform ôf ồ'
+    - 'xform ôj ộ'
+    - 'xform ôx ỗ'
+    - 'xform ôr ổ'
+    - 'xform ee ê'
+    - 'xform ês ế'
+    - 'xform êf ề'
+    - 'xform êj ệ'
+    - 'xform êx ễ'
+    - 'xform êr ể'
+    - 'xform uw ư'
+    - 'xform ưs ứ'
+    - 'xform ưf ừ'
+    - 'xform ưj ự'
+    - 'xform ưx ữ'
+    - 'xform ưr ử'
+    - 'xform ow ơ'
+    - 'xform ơs ớ'
+    - 'xform ơf ờ'
+    - 'xform ơj ợ'
+    - 'xform ơx ỡ'
+    - 'xform ơr ở'
+    - 'xform as á'
+    - 'xform af à'
+    - 'xform aj ạ'
+    - 'xform ax ã'
+    - 'xform ar ả'
+    - 'xform is í'
+    - 'xform if ì'
+    - 'xform ij ị'
+    - 'xform ix ĩ'
+    - 'xform ir ỉ'
+    - 'xform us ú'
+    - 'xform uf ù'
+    - 'xform uj ụ'
+    - 'xform ux ũ'
+    - 'xform ur ủ'
+    - 'xform es é'
+    - 'xform ef è'
+    - 'xform ej ẹ'
+    - 'xform ex ẽ'
+    - 'xform er ẻ'
+    - 'xform os ó'
+    - 'xform of ò'
+    - 'xform oj ọ'
+    - 'xform ox õ'
+    - 'xform or ỏ'
+    - 'xform ys ý'
+    - 'xform yf ỳ'
+    - 'xform yj ỵ'
+    - 'xform yx ỹ'
+    - 'xform yr ỷ'
+    - xform/^(.*)$/〔$1〕
+    - xform/((ⓗ|ⓥ|×).+)〕/〕$1/
+  
+simplifier:
+  tips: all
+  opencc_config: hn.ini
+  option_name: hn_sp
+  
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
+
+style:
+  font_face: "Gothic Nguyen"
+  font_point: 12

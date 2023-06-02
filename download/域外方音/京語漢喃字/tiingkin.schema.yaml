@@ -1,0 +1,114 @@
+# UTF-8
+# RIME SCHEMA
+
+schema:
+  name: 𡦂喃㗂京中國
+  schema_id: tiingkin
+  version: "2023.06.02"
+  author:
+    - hulenkius <hulenkius@gmail.com>
+  description: |
+    中國京語詞典字头
+    需要 Nom Na Tong 字體私用區支持
+    聲調用 telex 寫法，可省略
+    長音雙寫
+    ɛ>ee　ɔ>oo　ɔː >ooo
+    ɯ>w　ə>y　ɤ>v
+    ɣ>ɡ　ŋ>ng 
+    ʔ->x或不寫　ʔb>b　ʔd>d 
+    ȵ>nh/nj　ɬ>lh
+  dependencies:
+    - cangjie5
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+    - reverse_lookup_translator
+  filters:
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - xform/(\*).+$//
+    - derive/^x//
+    - derive/i/j/
+    - derive/j/i/
+    - derive/hw/wh/
+    # telex 聲調轉寫
+    - derive/1//
+    - derive/2//
+    - derive/3//
+    - derive/5//
+    - derive/6//
+    - derive/7//
+    - derive/8//
+    - derive/1/z/
+    - derive/2/f/
+    - derive/5/s/
+    - derive/6/j/
+    - derive/7/s/
+    - derive/8/j/
+    - derive/3/r/
+    - derive/3/x/
+    - derive/\’//
+
+translator:
+  dictionary: tiingkin
+  prism: tiingkin
+  spelling_hints: 1
+  enable_completion: true
+  preedit_format:
+    - xform/(\*).+$//
+  comment_format:
+    - xform/^(.*)$/‹$1›
+    - xform/((\*).+)›/›\ $1/
+    
+reverse_lookup:
+  dictionary: cangjie5
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔倉頡〕
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - xform/^(.*)$/$1
+    - xform/((\*).+)/$1/
+  
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
