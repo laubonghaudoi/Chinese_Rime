@@ -112,8 +112,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共 132 個方案）
-<br/>Full list of collected schemas (132 schemas in total)</h3>
+<h3>方案列表（共 133 個方案）
+<br/>Full list of collected schemas (133 schemas in total)</h3>
 
 
 <ul>
@@ -686,14 +686,15 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
           </ul>
         </li>
         <li>古壮字拼音 - <code>sawndip</code></li>
-        <li>輸入法𡨸漢喃 - <code>hannomPS</code></li>
+        <li>部𢫈𡨸漢喃㗂越 - <code>newhannom</code></li>
+        <li>𡦂喃㗂京中國 - <code>tiingkin</code></li>
       </ul>
     </details>
   </li>
 </ul>
 
-<h3>配方列表（共 56 個配方）
-<br/>List of recipes (56 recipes in total)</h3>
+<h3>配方列表（共 57 個配方）
+<br/>List of recipes (57 recipes in total)</h3>
 
 <ul>
   <li>
@@ -930,6 +931,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         <li>rime-hanja ℞ <code>sgalal/rime-hanja</code></li>
         <li>poly日文 ℞ <code>biopolyhedron/rime-jap-poly</code></li>
         <li>rime-kunyomi ℞ <code>sgalal/rime-kunyomi</code></li>
+        <li>𡦂喃㗂京中國 ℞ <code>Hulenkius/rime_tiingkin</code></li>
       </ul>
     </details>
   </li>
