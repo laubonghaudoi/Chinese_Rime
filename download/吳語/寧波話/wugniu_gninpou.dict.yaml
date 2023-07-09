@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2023.05.07"
+version: "2023.07.09"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -9656,6 +9656,7 @@ import_tables:
 跛	phou
 破	phou
 剖	phou
+㠮	phou
 婆	bou
 蔢	bou
 碆	bou
@@ -11678,7 +11679,6 @@ import_tables:
 靽	pun
 潘	phun
 番	phun	1%
-盤	phun	5%
 𧺾	phun
 半	phun	0%
 判	phun
@@ -11691,7 +11691,6 @@ import_tables:
 沜	phun
 眫	phun
 頖	phun
-判	bun	5%
 盤	bun
 蟠	bun
 磐	bun
@@ -17007,7 +17006,6 @@ import_tables:
 碧	piq
 逼	piq
 偪	piq
-煏	piq
 愊	piq
 憋	piq
 鱉	piq
@@ -20696,7 +20694,6 @@ import_tables:
 𫗮	waon
 𫘩	waon
 㲿	uaon
-盘	phun
 𫟟	phun
 盘	bun
 蹒	bun
@@ -22604,7 +22601,7 @@ import_tables:
 孵秧子	bu ian tsy
 蒲薺	bu ji	578
 蒲薺甜嫩嫩	bu ji di nen nen
-蒲薺扁窄窄	bu ji pi tsaq tsaq
+蒲薺扁榨榨	bu ji pi tso tso
 步鴣	bu ku	55
 篰籃	bu lae	55
 蒲帽	bu mau	55
@@ -23887,6 +23884,7 @@ import_tables:
 糾作	cieu tsoq	55
 糾作煞	cieu tsoq saq
 酒足飯飽	cieu tsoq vae pau
+九彎涼牀	cieu uae lian zaon
 晝飯	cieu vae	578
 糾會	cieu wei	55
 酒壺	cieu wu
@@ -33956,7 +33954,6 @@ import_tables:
 鋬頭	phae deu	55
 碰杯	phan pei
 胓㠮	phan phon	55
-乓剖	phan phou
 碰和檯	phan wu de	55
 胖脯	phaon bu	55
 胖起	phaon chi	55
@@ -33969,7 +33966,7 @@ import_tables:
 胖胡嚨	phaon wu lon
 胖陽𣝗	phaon yan waq	55
 胖陽𣝗臖起	phaon yan waq hen chi
-潑便	phaq bi	55
+潑肥	phaq bi	55
 𤖼腳	phaq ciaq	55
 𤖼腳大	phaq ciaq da
 𤖼腳褲	phaq ciaq khu	55
@@ -34106,7 +34103,8 @@ import_tables:
 撲克牌	phoq khaq ba
 撲克牌	phoq khaq bae
 撲落	phoq loq	55
-魄莫	phoq moq	55
+奤莫	phoq moq	55
+𩔈莫	phoq moq
 撲腦殼	phoq nau khoq	55
 樸樸拜	phoq phoq pa
 魄屍	phoq sy	578
@@ -34114,6 +34112,7 @@ import_tables:
 破鞋爿	phou gha bae	55
 破衣兩頭環	phou i lian deu wae
 破裏破色	phou li phou saq	55
+破裏破色兌糖喫	phou li phou saq dei daon chioq
 破裏破碎	phou li phou sei	55
 破裏破碎兌糖喫	phou li phou sei dei daon chioq
 破屋爿	phou oq bae
@@ -34175,7 +34174,6 @@ import_tables:
 邊打邊相	pi tan pi shian	55
 邊打邊像	pi tan pi zhian
 扁搭搭	pi taq taq	55
-扁窄窄	pi tsaq tsaq	55
 扁榨榨	pi tso tso	55
 變種作怪	pi tson tsoq kua	55
 秕子	pi tsy
@@ -34197,7 +34195,7 @@ import_tables:
 表汗	piau ghei-ghe	55
 錶鏈	piau li
 表妹夫	piau mei fu	55
-表面	piau mi
+錶面	piau mi
 表兄弟	piau shion di
 婊子	piau tsy
 婊子兒子	piau tsy ng tsy	55
@@ -34237,8 +34235,7 @@ import_tables:
 筆借枝	piq cia tsyu
 筆頭	piq deu
 筆筒	piq don
-百發百中	piq faq piq tson
-畢發畢準	piq faq piq tsyun
+百發百準	piq faq piq tsyun
 壁虎	piq fu
 癟炄㾭	piq gnieu chieu
 癟炄炄	piq gnieu gnieu
@@ -34293,7 +34290,6 @@ import_tables:
 癟嘴癟搭	piq tsyu piq taq	55
 筆劃	piq waq
 潷藥	piq yaq
-筆順	piq zyun
 芭蕉扇	po ciau shi
 巴結	po ciq
 壩頭	po deu	55
@@ -34333,13 +34329,13 @@ import_tables:
 卜課先生	poq khou shi san	55
 北瓜	poq kuo
 卜卦	poq kuo
+北面	poq mi
 撥我	poq ngo
 剝剝	poq poq
 北半邊	poq pun pi	55
 北斗星	poq teu shin
 剝出鴨蛋	poq tshyuq aq dae	55
 北吳	poq wu
-博洋家紡	poq yan cia faon
 䃗石墈	poq zaq khe
 䃗石墈	poq zaq khi-khe
 駁船	poq zoe
@@ -34372,7 +34368,7 @@ import_tables:
 半個	pun goq
 半張	pun jian
 半橛柱頭	pun jiuq dzyu deu
-半𥏘觀音	pun jiuq kun in	55
+半橛觀音	pun jiuq kun in	55
 半梗	pun kan
 搬嫁妝	pun ko tsaon	55
 搬嫁資衣	pun ko tsy i	55
@@ -34394,6 +34390,7 @@ import_tables:
 半中大	pun tson dou	55
 半中央亨	pun tson gnian han	55
 半肢風	pun tsy fon	55
+搬房子	pun vaon tsy
 半勿拉介	pun vaq la ka
 半弗拉介	pun vaq la ka	55
 半勿冷打	pun vaq lan tan
@@ -34418,6 +34415,7 @@ import_tables:
 曬癟葛藤	sa piq kaq den	55
 曬曬挔挔	sa sa i i
 三四	sa sy
+三四埭	sa sy da
 三四個	sa sy ghoq
 三四個	sa sy goq
 三四隻	sa sy tsaq
@@ -34572,15 +34570,24 @@ import_tables:
 三寸金蓮	sae tshen cin li
 三彎涼牀	sae uae lian zaon	55
 三萬七	sae vae chiq
+三萬七千	sae vae chiq chi
 三萬九	sae vae cieu
+三萬九千	sae vae cieu chi
 三萬二	sae vae gni
 三萬一	sae vae iq
+三萬一千	sae vae iq chi
 三萬兩	sae vae lian
+三萬兩千	sae vae lian chi
 三萬六	sae vae loq
+三萬六千	sae vae loq chi
+三萬五	sae vae ng
 三萬五千	sae vae ng chi
 三萬八	sae vae paq
+三萬八千	sae vae paq chi
 三萬三	sae vae sae
+三萬三千	sae vae sae chi
 三萬四	sae vae sy
+三萬四千	sae vae sy chi
 三勿相信	sae vaq shian shin
 三弗相信	sae vaq shian shin	55
 三勿引	sae vaq yin
@@ -34617,7 +34624,6 @@ import_tables:
 生煎	san ci	55
 生煎餃子	san ci ciau tsy	55
 生薑	san cian
-生薑糖茶	san cian daon dzo
 生蛋	san dae
 生蛋雞	san dae ci
 生頭	san deu	55
@@ -34651,7 +34657,6 @@ import_tables:
 生梨	san li	55
 省力	san liq
 生爐子	san lu tsy	55
-生姆娘	san m gnian
 生姆孃	san m gnian	55
 生姆羹	san m kan	55
 生姆月裏	san m yuq li	55
@@ -34701,7 +34706,6 @@ import_tables:
 搡羹桶	saon kan don	55
 霜降	saon kaon
 雙缸醬	saon kaon cian	55
-雙夾制	saon kaq tsyu
 雙夾嘴	saon kaq tsyu	55
 雙夾拄	saon kaq tsyu
 雙嵌麻糰	saon khae mo doe	55
@@ -34711,8 +34715,6 @@ import_tables:
 桑果果	saon kou kou	55
 雙股繩子單股抽	saon ku zhin tsy tae ku chieu
 傷料	saon liau	55
-雙鹿電池	saon loq di dzy
-雙鹿電池	saon loq di ji
 舂米	saon mi
 雙滿月	saon mun yuq	55
 雙眼沿	saon ngae yi	55
