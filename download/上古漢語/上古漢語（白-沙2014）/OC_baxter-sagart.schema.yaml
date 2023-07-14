@@ -59,32 +59,8 @@ speller:
   delimiter: " '"
   algebra:
     - xform/(\*).+$//
-    - derive/\(C\)/C/
-    - derive/\(C\)//
-    - derive/\(Cy\)/Cy/
-    - derive/\(Cy\)//
-    - derive/\(h\)/h/
-    - derive/\(h\)//
-    - derive/\(j\)/j/
-    - derive/\(j\)//
-    - derive/\(k\)/k/
-    - derive/\(k\)//
-    - derive/\(my\)/my/
-    - derive/\(my\)//
-    - derive/\(ng\)/ng/
-    - derive/\(ng\)//
-    - derive/\(p\)/p/
-    - derive/\(p\)//
-    - derive/\(r\)/r/
-    - derive/\(r\)//
-    - derive/\(s\)/s/
-    - derive/\(s\)//
-    - derive/\(x\)/x/
-    - derive/\(x\)//
-    - derive/\(w\)/w/
-    - derive/\(w\)//
-    - derive/\(y\)/y/
-    - derive/\(y\)//
+    - derive/\((.|..)\)/\1/
+    - derive/\((.|..)\)//
     - derive/C/c/
     - derive/C/cc/
     - derive/A/aa/
@@ -96,10 +72,16 @@ speller:
     - derive/hh/f/
     - derive/aa/a/
     - derive/gg/v/
-    - derive/Ⓔ//
-    - derive/Ⓛ//
-    - derive/Ⓧ//
-    - derive/疑//
+    - derive/i/j/
+    - derive/j/i/
+    - derive/u/w/
+    - derive/w/u/
+    - derive/(Ⓔ|Ⓛ|Ⓧ|疑)//
+    - xform/x/X/
+    - xform/^X/x/
+    - derive/(X|X\(r\))(a|e|i|o|u|y)/\2\2/
+    - derive/X/x/
+    - derive/^x//
 
 translator:
   dictionary: OC_baxter-sagart

@@ -4,17 +4,18 @@
 schema:
   name: 上古漢語（MSOEG, 布之道）
   schema_id: OC_msoegDK
-  version: "2023.01.211"
+  version: "2023.07.141"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
   description: |
-    上古音輸入方案：msoeg 擬音，布之道增修
+    上古音輸入方案：布之道《廣韻形聲考》（msoeg 擬音體系）
     []不寫　　() 內容可不寫
     ə 作 y　　ŋ 作 ng
     ɬ 作 ll　　ɫ 作 l
     ʔ ˤ作x　　ʍ 作 hw
-    ʰ◌̊◌̥作h
+    ʰ◌̊◌̥作h　去聲可寫s
+    非三等可雙寫元音
     
   dependencies:
     - cangjie5
@@ -59,18 +60,21 @@ speller:
   delimiter: " '"
   algebra:
     - xform/(\*).+$//
-    - derive/\(l\)/l/
-    - derive/\(l\)//
-    - derive/\(r\)/r/
-    - derive/\(r\)//
-    - derive/\(w\)/w/
-    - derive/\(w\)//
-    - derive/H/h/
-    - derive/Hw/wh/
+    - derive/\((.)\)/\1/
+    - derive/\((.)\)//
+    - derive/X(a|e|i|o|u|y)/\1\1/
+    - derive/x/q/
+    - derive/X/x/
+    - derive/hw/wh/
+    - derive/wh/hw/
+    - derive/S/s/
+    - derive/S/h/
     - derive/i/j/
     - derive/j/i/
     - derive/u/w/
     - derive/w/u/
+    - derive/ing/in/
+    - derive/(ng)(|.)$/g\2/
     - derive/^x//
 
 translator:
@@ -83,7 +87,8 @@ translator:
   comment_format:
     - xform/^(.*)$/‹$1›
     - xform/((\*).+)›/›\ $1/
-    - xform/H/h/
+    - xform/X/x/
+    - xform/S/h/
     
 reverse_lookup:
   dictionary: cangjie5
@@ -96,6 +101,8 @@ reverse_lookup:
   comment_format:
     - xform/^(.*)$/$1
     - xform/((\*).+)/$1/
+    - xform/X/x/
+    - xform/S/h/
   
 punctuator:
   import_preset: default

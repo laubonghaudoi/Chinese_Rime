@@ -4,7 +4,7 @@
 schema:
   name: 上古漢語（白一平1992）
   schema_id: OC_baxter1992
-  version: "2023.01.09"
+  version: "2023.07.14"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -57,32 +57,8 @@ speller:
   delimiter: " '"
   algebra:
     - xform/(\*).+$//
-    - derive/\(C\)/C/
-    - derive/\(C\)//
-    - derive/\(g\)/g/
-    - derive/\(g\)//
-    - derive/\(h\)/h/
-    - derive/\(h\)//
-    - derive/\(j\)/j/
-    - derive/\(j\)//
-    - derive/\(k\)/k/
-    - derive/\(k\)//
-    - derive/\(l\)/l/
-    - derive/\(l\)//
-    - derive/\(n\)n/
-    - derive/\(n\)//
-    - derive/\(p\)/p/
-    - derive/\(p\)//
-    - derive/\(r\)/r/
-    - derive/\(r\)//
-    - derive/\(s\)/s/
-    - derive/\(s\)//
-    - derive/\(t\)/t/
-    - derive/\(t\)//
-    - derive/\(w\)/w/
-    - derive/\(w\)//
-    - derive/\(x\)/x/
-    - derive/\(x\)//
+    - derive/\((.|..)\)/\1/
+    - derive/\((.|..)\)//
     - derive/C/c/
     - derive/C/cc/
     - derive/G/gg/
@@ -108,13 +84,15 @@ speller:
     - derive/W/ww/
     - derive/W/w/
     - derive/hh/f/
-    - derive/aa/a/
     - derive/gg/v/
     - derive/hw/wh/
-    - derive/\-//
-    - derive/\[//
-    - derive/\]//
-    - derive/Ⓢ//
+    - derive/i/j/
+    - derive/j/i/
+    - derive/u/w/
+    - derive/w/u/
+    - derive/(\-|\[|\]|Ⓢ)//
+    - derive/x/q/
+    - derive/^x//
 
 translator:
   dictionary: OC_baxter1992
