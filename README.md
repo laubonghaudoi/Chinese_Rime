@@ -1,4 +1,4 @@
-<h1>中州韻輸入法漢語方言拼音方案全集
+<h1>中州韻輸入法非普通話漢語拼音方案全集
 <br/>Collection of Rime Input Method Phonetic Spelling Schemas for Chinese Languages & Dialects</h1>
 
 ![contributions welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen?style=for-the-badge&logo=contributions)
@@ -7,13 +7,13 @@
 <h2>項目宗旨
 <br/>The mission of this project</h2>
 
-本倉庫收集現代漢語各大方言及上古、中古漢語的[中州韻輸入法](https://rime.im/)拼音輸入方案和字庫。本項目的目標有三：
+本倉庫收集現代漢語各大分支及上古、中古漢語的[中州韻輸入法](https://rime.im/)拼音輸入方案和字庫。本項目的目標有三：
 
 1. 爲漢語非普通話使用者提供實用的拼音輸入方案，解決被迫使用普通話輸入法的困難。
-2. 爲現代漢語方言、古漢語學習者提供實用便利的學習工具，通過拼音打字來練習正音和正字。
+2. 爲現代非普通話漢語、古漢語學習者提供實用便利的學習工具，通過拼音打字來練習正音和正字。
 3. 爲學術研究（語言學、漢學、人類學等）提供參考資料。
 
-本項目同時作爲推廣漢語方言拼音輸入的支持項目，項目主頁請見 [HanhNgiox.net](https://hanhngiox.net/)。
+本項目同時作爲推廣漢語非普通話拼音輸入的支持項目，項目主頁請見 [HanhNgiox.net](https://hanhngiox.net/)。
 
 This repository collects the phonetic spelling schemas and character sets of [Rime input method](https://rime.im/) for Old Chinese, Middle Chinese and modern Chinese languages & dialects. This project aims to:
 
@@ -43,15 +43,6 @@ For related materials of the collected schemas, such as tutorials, schema white 
 
 <h2>使用教程
 <br/>Tutorial</h2>
-
-<h3>項目網站
-<br/>Project website</h3>
-
-關於如何使用方言拼音打字，請參考此網站：
-
-For detailed steps with explanations on how to type Chinese characters with these schemas, please visit this website (simplified Chinese only):
-
-<center><a href="http://www.hanhngiox.net"><font size="30"><b>漢語方言拼音輸入 HanhNgiox.net</b></font></a></center>
 
 <h3>克隆此倉庫
 <br/>Clone this repository</h3>
@@ -90,7 +81,7 @@ python update_download.py
 <h2>已收錄方案
 <br/>Collected schemas</h2>
 
-目前學界對漢語方言分類歸類問題仍存較大分歧。常見的分類方式有傳統的七分法、《中國語言地圖集》的十分法和 ISO 國際標準的十六分法等。若使用傳統分法，則現代漢語族下分七大語支，官吳贛湘粵客閩。若採用《中國語言地圖集》之十分法，則晉語獨立於官話成一支，徽語獨立於吳語成一支，平話獨立於粵語成一支。若採用 ISO 693-3 標準的十六分法，則平話再分爲南北兩部，閩語再細分爲閩北、閩南、閩東、閩中、莆仙五支，另外文言文也計作一門語言。
+目前學界對漢語分支分類歸類問題仍存較大分歧。常見的分類方式有傳統的七分法、《中國語言地圖集》的十分法和 ISO 國際標準的十六分法等。若使用傳統分法，則現代漢語族下分七大語支，官吳贛湘粵客閩。若採用《中國語言地圖集》之十分法，則晉語獨立於官話成一支，徽語獨立於吳語成一支，平話獨立於粵語成一支。若採用 ISO 693-3 標準的十六分法，則平話再分爲南北兩部，閩語再細分爲閩北、閩南、閩東、閩中、莆仙五支，另外文言文也計作一門語言。
 
 The classification for Chinese languages and dialects has been an unsettled issue in the academia. The traditional way (Jerry Norman 1988) puts Chinese languages into seven groups: Mandarin, Wu, Gan, Xiang, Cantonese, Hakka, Min. The _Language Atlas of China_ classifies them into 10 groups, separating Jin, Huizhou and Ping from Mandarin, Wu and Cantonese as independent languages. The ISO 693-3 standard further separates Ping into Northern and Southern divisions and divides Min into Northern, Southern, Eastern, Central and Pu-Xian branches.
 
