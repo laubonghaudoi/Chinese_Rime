@@ -1,13 +1,22 @@
-上古漢語/上古漢語（白一平1992）:
+上古漢語/上古漢語（MSOEG）:
   source: 上古漢語/上古漢語輸入方案集/
   files:
-    - OC_baxter1992.dict.yaml
-    - OC_baxter1992.schema.yaml
+    - OC_msoeg.dict.yaml
+    - OC_msoeg.schema.yaml
+    - OC_msoegDK.dict.yaml
+    - OC_msoegDK.schema.yaml
 上古漢語/上古漢語（白-沙2014）:
   source: 上古漢語/上古漢語輸入方案集/
   files:
     - OC_baxter-sagart.dict.yaml
     - OC_baxter-sagart.schema.yaml
+上古漢語/上古漢語（斯塔羅斯金）:
+  source: 上古漢語/上古漢語輸入方案集/
+  files:
+    - OC_starostinLO.dict.yaml
+    - OC_starostinLO.schema.yaml 
+    - OC_starostinTK.dict.yaml 
+    - OC_starostinTK.schema.yaml 
 上古漢語/上古漢語（許思萊）:
   source: 上古漢語/上古漢語輸入方案集/
   files:
@@ -20,13 +29,26 @@
   files:
     - OC_zhengzhang.dict.yaml
     - OC_zhengzhang.schema.yaml
-上古漢語/上古漢語（MSOEG）:
+上古漢語/上古漢語（白一平1992）:
   source: 上古漢語/上古漢語輸入方案集/
   files:
-    - OC_msoeg.dict.yaml
-    - OC_msoeg.schema.yaml
-    - OC_msoegDK.dict.yaml
-    - OC_msoegDK.schema.yaml
+    - OC_baxter1992.dict.yaml
+    - OC_baxter1992.schema.yaml
+上古漢語/上古漢語（王力）:
+  source: 上古漢語/上古漢語輸入方案集/
+  files:
+    - OC_wangli.dict.yaml 
+    - OC_wangli.schema.yaml
+上古漢語/上古漢語（李方桂）:
+  source: 上古漢語/上古漢語輸入方案集/
+  files:
+    - OC_lifanggui.dict.yaml 
+    - OC_lifanggui.schema.yaml
+上古漢語/上古漢語（周法高）:
+  source: 上古漢語/上古漢語輸入方案集/
+  files:
+    - OC_zhoufagao.dict.yaml 
+    - OC_zhoufagao.schema.yaml
 中古漢語/biopolyhedron中古音:
   source: 中古漢語/中古漢語（切韻音系）全拼及三拼/
   files:

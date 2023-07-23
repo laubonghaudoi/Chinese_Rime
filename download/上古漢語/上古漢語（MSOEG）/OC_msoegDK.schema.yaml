@@ -4,7 +4,7 @@
 schema:
   name: 上古漢語（MSOEG, 布之道）
   schema_id: OC_msoegDK
-  version: "2023.07.192"
+  version: "2023.07.20"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -13,10 +13,8 @@ schema:
     []不寫　　() 內容可不寫
     ə 作 y　　ŋ 作 ng
     ɬ 作 ll　　ɫ 作 l
-    ʔ ˤ作x　　ʍ 作 hw
-    ʰ◌̊◌̥作h　去聲可寫s
-    非三等可雙寫元音
-    
+    ʍ 作 sw 或 hw　　ʰ◌̊◌̥ 作 h
+    ʔ ˤ 作 x　　ˤ 可替以雙寫元音
   dependencies:
     - cangjie5
 
@@ -64,17 +62,16 @@ speller:
     - derive/\((.)\)//
     - derive/(.)x(a|e|i|o|u|y)/\1\2\2/
     - derive/(^x|x$)/q/
+    - derive/it/ik/ #質
+    - derive/W/sw/
+    - derive/W/hw/
+    - derive/wh/hw/
+    - derive/hw/wh/
     - derive/h$/s/
     - derive/i/j/
     - derive/j/i/
     - derive/u/w/
     - derive/w/u/
-    - derive/it/ik/ #質
-    - derive/W/sw/ #宣尖獨立
-    - derive/W/hw/ #宣尖混團
-    - derive/W/wh/ #宣尖混團
-    - derive/wh/hw/ #宣團混尖
-    - derive/hw/wh/ #送氣+圓脣次序
     - derive/(.)rx/\1xr/ #r介+咽化次序
     - derive/ing(|.)$/in\1/ #真
     - derive/in(|.)$/ing\1/ #真
@@ -92,6 +89,7 @@ translator:
     - xform/^(.*)$/‹$1›
     - xform/((\*).+)›/›\ $1/
     - xform/‹\❓/\❓‹/
+    - xform/W/sw/
     
 reverse_lookup:
   dictionary: cangjie5
@@ -104,6 +102,7 @@ reverse_lookup:
   comment_format:
     - xform/^(.*)$/$1
     - xform/((\*).+)/$1/
+    - xform/W/sw/
   
 punctuator:
   import_preset: default
