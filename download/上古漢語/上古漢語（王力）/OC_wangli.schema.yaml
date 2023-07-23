@@ -2,19 +2,21 @@
 # encoding: utf-8
 
 schema:
-  name: 上古漢語（鄭張尚芳）
-  schema_id: OC_zhengzhang
-  version: "2023.07.20"
+  name: 上古漢語（王力）
+  schema_id: OC_wangli
+  version: "2023.07.16"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
   description: |
-    上古音輸入方案：鄭張尚芳擬音
-    ɯ 作 y　　ɦ 作 hh 或 f
-    ʔ 作 x　　ɢ 作 gg 或 v
-    ' 作 c　　ʰ、◌̥ʰ 作 h
-    ŋ 作 ng　　· 不寫
-    長音雙寫
+    上古音輸入方案：王力擬音
+    ȶ ȡ ɕ ʑ ȵ 作 tx dx sx zx nx
+    ʎ 作 lx　　ŋ 作 ng
+    ɣ 作 xx 或 f 或 v
+    ʃ ʒ 作 sr zr　零聲母作 x 或不寫
+    ʰ 作 h　　ǐ 作 j
+    ə 作 y　　ɔ 作 o
+    
   dependencies:
     - cangjie5
 
@@ -58,29 +60,20 @@ speller:
   delimiter: " '"
   algebra:
     - xform/(\*).+$//
-    - derive/(a|e|i|o|u|y)(a|e|i|o|u|y)/x\1/
-    - derive/gg/v/
-    - derive/hh/f/
-    - derive/b$/p/
-    - derive/d$/t/
-    - derive/(g|gg)(|s)$/k\2/
-    - derive/bs$/ps/
-    - derive/ds$/ts/
-    - derive/(gg|ng)(|.)$/g\2/
-    - derive/l(|s|x)$/j\1/
-    - derive/s$/h/
-    - derive/hw/wh/
-    - derive/u/w/
-    - derive/w/u/
-    - derive/i/j/
+    - derive/X//
+    - derive/X/x/
+    - derive/x/q/
+    - derive/xx/f/
+    - derive/xx/v/
     - derive/j/i/
-    - derive/x$/q/
-    - derive/^q/x/
-    - derive/(^q|Ⓛ|\?)//
+    - derive/i/j/
+    - derive/w/u/
+    - derive/u/w/
+    - derive/ng$/g/
 
 translator:
-  dictionary: OC_zhengzhang
-  prism: OC_zhengzhang
+  dictionary: OC_wangli
+  prism: OC_wangli
   spelling_hints: 1
   enable_completion: true
   preedit_format:
@@ -88,9 +81,8 @@ translator:
   comment_format:
     - xform/^(.*)$/‹$1›
     - xform/((\*).+)›/›\ $1/
-    - xform/‹ⓁⓁ/ⓁⓁ‹/
-    - xform/‹Ⓛ/Ⓛ‹/
-    - xform/‹\?/\?‹/
+    - xform/X/x/
+    - xform/0//
 
 reverse_lookup:
   dictionary: cangjie5
@@ -100,6 +92,9 @@ reverse_lookup:
   tips: 〔倉頡〕
   preedit_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - xform/X/x/
+    - xform/0//
 
 punctuator:
   import_preset: default

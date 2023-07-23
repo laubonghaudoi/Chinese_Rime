@@ -2,19 +2,19 @@
 # encoding: utf-8
 
 schema:
-  name: 上古漢語（鄭張尚芳）
-  schema_id: OC_zhengzhang
-  version: "2023.07.20"
+  name: 詩經韻尾（斯塔羅斯金）
+  schema_id: OC_starostinTK
+  version: "2023.07.15"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
   description: |
-    上古音輸入方案：鄭張尚芳擬音
-    ɯ 作 y　　ɦ 作 hh 或 f
-    ʔ 作 x　　ɢ 作 gg 或 v
-    ' 作 c　　ʰ、◌̥ʰ 作 h
-    ŋ 作 ng　　· 不寫
-    長音雙寫
+    上古音輸入方案：斯塔羅斯金詩經韻尾擬音
+    長音雙寫或前置 x　　() 內容可不寫
+    ŋ 作 ng　　tɕ 作 tsx tc　ʑ 作 zx
+    ə 作 y　　tɬ dɮ 作 tl dl
+    ʔ- 作 x 或不寫　-ʔ 作 x
+    ʰ ʱ ◌̥ 作 h
   dependencies:
     - cangjie5
 
@@ -58,29 +58,27 @@ speller:
   delimiter: " '"
   algebra:
     - xform/(\*).+$//
+    - derive/\((.)\)/\1/
+    - derive/\((.)\)//
     - derive/(a|e|i|o|u|y)(a|e|i|o|u|y)/x\1/
-    - derive/gg/v/
-    - derive/hh/f/
-    - derive/b$/p/
-    - derive/d$/t/
-    - derive/(g|gg)(|s)$/k\2/
-    - derive/bs$/ps/
-    - derive/ds$/ts/
-    - derive/(gg|ng)(|.)$/g\2/
-    - derive/l(|s|x)$/j\1/
-    - derive/s$/h/
-    - derive/hw/wh/
-    - derive/u/w/
-    - derive/w/u/
+    - derive/x/q/
+    - derive/^x//
+    - derive/h$/s/
+    - derive/tsx/tc/
+    - derive/tsx$/c/ # 原書 ć
+    - derive/tsx$/ts/
+    - derive/tsx$/th/
+    - derive/^ts/c/ # 原書
     - derive/i/j/
     - derive/j/i/
-    - derive/x$/q/
-    - derive/^q/x/
-    - derive/(^q|Ⓛ|\?)//
+    - derive/u/w/
+    - derive/w/u/
+    - derive/(ng)(|.)$/g\2/
+    - derive/kw$/wk/ # 混淆 kw 尾之 w 至元音後
 
 translator:
-  dictionary: OC_zhengzhang
-  prism: OC_zhengzhang
+  dictionary: OC_starostinTK
+  prism: OC_starostinTK
   spelling_hints: 1
   enable_completion: true
   preedit_format:
@@ -88,9 +86,9 @@ translator:
   comment_format:
     - xform/^(.*)$/‹$1›
     - xform/((\*).+)›/›\ $1/
-    - xform/‹ⓁⓁ/ⓁⓁ‹/
-    - xform/‹Ⓛ/Ⓛ‹/
-    - xform/‹\?/\?‹/
+    # 對應拼音
+    - xform/（/\ ➡️\ /
+    - xform/）//
 
 reverse_lookup:
   dictionary: cangjie5
@@ -100,7 +98,10 @@ reverse_lookup:
   tips: 〔倉頡〕
   preedit_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
-
+  comment_format:
+    - xform/^(.*)$/$1
+    - xform/((\*).+)/$1/
+  
 punctuator:
   import_preset: default
 

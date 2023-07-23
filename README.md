@@ -103,8 +103,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共 133 個方案）
-<br/>Full list of collected schemas (133 schemas in total)</h3>
+<h3>方案列表（共 138 個方案）
+<br/>Full list of collected schemas (138 schemas in total)</h3>
 
 
 <ul>
@@ -116,13 +116,18 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         <li>
           RIME 上古漢語輸入方案集 ℞ <code>Hulenkius/RIME_OC_collections</code>
           <ul>
-            <li>上古漢語（白一平1992） - <code>OC_baxter1992</code></li>
+            <li>上古漢語（MSOEG, 布之道） - <code>OC_msoegDK</code></li>
+            <li>古典漢語（MSOEG） - <code>OC_msoeg</code></li>
             <li>上古漢語（白-沙2014） - <code>OC_baxter-sagart</code></li>
+            <li>晚期上古漢語（斯塔羅斯金） - <code>OC_starostinLO</code></li>
+            <li>詩經韻尾（斯塔羅斯金） - <code>OC_starostinTK</code></li>
             <li>上古漢語（許思萊） - <code>OC_schuesslerOC</code></li>
             <li>東漢漢語（許思萊） - <code>OC_schuesslerLHC</code></li>
             <li>上古漢語（鄭張尚芳） - <code>OC_zhengzhang</code></li>
-            <li>古典漢語（MSOEG） - <code>OC_msoeg</code></li>
-            <li>上古漢語（MSOEG, 布之道） - <code>OC_msoegDK</code></li>
+            <li>上古漢語（白一平1992） - <code>OC_baxter1992</code></li>
+            <li>上古漢語（王力） - <code>OC_wangli</code></li>
+            <li>上古漢語（李方桂） - <code>OC_lifanggui</code></li>
+            <li>上古漢語（周法高） - <code>OC_zhoufagao</code></li>
           </ul>
         </li>
       </ul>

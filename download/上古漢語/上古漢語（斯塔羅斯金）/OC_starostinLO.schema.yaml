@@ -1,0 +1,136 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  name: 晚期上古漢語（斯塔羅斯金）
+  schema_id: OC_starostinLO
+  version: "2023.07.16"
+  author:
+    - hulenkius <hulenkius@gmail.com>
+    - github.com/Hulenkius/RIME_OC_collections
+  description: |
+    上古音輸入方案：斯塔羅斯金晚期上古漢語擬音
+    長音雙寫或前置 x　高調末尾加 x
+    () 內容可不寫
+    ə 作 y　　tɬ dɮ 作 tl dl
+    ŋ 作 ng　　tɕ 作 tc ts c
+    ʔ 作 x 或不寫
+    ʰ ʱ ◌̥ 作 h
+  dependencies:
+    - cangjie5
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - xform/(\*).+$//
+    - derive/\((.)\)/\1/
+    - derive/\((.)\)//
+    - derive/(a|e|i|o|u|y)(a|e|i|o|u|y)/x\1/
+    - derive/x/q/
+    - derive/^x//
+    - derive/h$/s/
+    - derive/tc/c/
+    - derive/tc/tsx/
+    - derive/tc/ts/
+    - derive/tc/th/
+    - derive/^ts/c/
+    - derive/i/j/
+    - derive/j/i/
+    - derive/u/w/
+    - derive/w/u/
+    - derive/(ng)(|.)$/g\2/
+
+translator:
+  dictionary: OC_starostinLO
+  prism: OC_starostinLO
+  spelling_hints: 1
+  enable_completion: true
+  preedit_format:
+    - xform/(\*).+$//
+  comment_format:
+    - xform/^(.*)$/‹$1›
+    - xform/((\*).+)›/›\ $1/
+    # 對應拼音
+    - xform/（/\ ➡️\ /
+    - xform/）//
+
+#     第一處自定義（候選）開始----------
+    # - xform/tɕ/ć/ #此行用 ć 寫 /tɕ/ 尾【音標】，配合下一行使用
+    # - xform/tc/c/ #此行用 ć 寫 /tɕ/ 尾【按鍵】，配合上一行使用
+    # - xform/(|.)(|́)ː/\1̄\2/ #此行用 ¯ 寫長音【音標】
+    # - xform/\*ts/\*c/ #此行用 c 寫 /ts/ 頭【音標】，配合下一行使用
+    # - xform/‹ts/‹c/ #此行用 c 寫 /ts/ 頭【按鍵】，配合上一行使用
+    # - xform/\*z/\*з/ #此行用 з 寫 /z/ 頭 【音標】
+    # - xform/tɬ/ƛ/ #此行用 ƛ 寫 /tɬ/ 頭 【音標】
+    # - xform/dɮ/Ł/ #此行用 Ł 寫 /dɮ/ 頭 【音標】
+#     第一處自定義（候選）結束----------
+    
+reverse_lookup:
+  dictionary: cangjie5
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔倉頡〕
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - xform/^(.*)$/$1
+    - xform/((\*).+)/$1/
+
+#     第二處自定義（反查）開始----------
+    # - xform/tɕ/ć/ #此行用 ć 寫 /tɕ/ 尾【音標】，配合下一行使用
+    # - xform/tc/c/ #此行用 ć 寫 /tɕ/ 尾【按鍵】，配合上一行使用
+    # - xform/(|.)(|́)ː/\1̄\2/ #此行用 ¯ 寫長音【音標】
+    # - xform/\*ts/\*c/ #此行用 c 寫 /ts/ 頭【音標】，配合下一行使用
+    # - xform/(|.)ts/\1c/ #此行用 c 寫 /ts/ 頭【按鍵】，配合上一行使用，注意此處與第一處自定義中的不同
+    # - xform/\*z/\*з/ #此行用 з 寫 /z/ 頭 【音標】
+    # - xform/tɬ/ƛ/ #此行用 ƛ 寫 /tɬ/ 頭 【音標】
+    # - xform/dɮ/Ł/ #此行用 Ł 寫 /dɮ/ 頭 【音標】
+#     第二處自定義（反查）結束----------
+  
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
