@@ -18,9 +18,9 @@ switches:
     states: [ 越, 西 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: hn_sp
-    states: [ 略字, 正字 ]
-    reset: 1
+  - name: simplification
+    states: [ 正字, 略字 ]
+    reset: 0
 
 patch:
   punctuator/full_shape:
@@ -57,6 +57,7 @@ engine:
   filters:
     - simplifier
     - uniquifier
+ 
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
@@ -130,7 +131,7 @@ speller:
     - xform/ấ/âs/
     - xform/â/aa/
     - xform/đ/dd/
-    - 'xform (huy)([sfjxr])(nh) $1$3$2'
+    - 'xform (uy)([sfjxr])(nh|t) $1$3$2'
     - 'xform ([aeiouâăôê])([sfjxr])(ng|nh|ch) $1$3$2'
     - 'xform ([aeiouâăôê])([sfjxr])([iunptckmy]) $1$3$2'
     - 'xform ([ae])([sfjxr])([ou]) $1$3$2'
@@ -145,6 +146,32 @@ speller:
     - derive/^ph/f/
     - abbrev/^([a-z]).+$/$1/
     - derive/^(.*)[z,sxjfrA]$/$1/
+    - xform/A/a/
+    - xform/B/b/
+    - xform/C/c/
+    - xform/D/d/
+    - xform/E/e/
+    - xform/F/f/
+    - xform/G/g/
+    - xform/H/h/
+    - xform/I/i/
+    - xform/J/j/
+    - xform/K/k/
+    - xform/L/l/
+    - xform/M/m/
+    - xform/N/n/
+    - xform/O/o/
+    - xform/P/p/
+    - xform/Q/q/
+    - xform/R/r/
+    - xform/S/s/
+    - xform/T/t/
+    - xform/U/u/
+    - xform/V/v/
+    - xform/W/w/
+    - xform/X/x/
+    - xform/Y/y/
+    - xform/Z/z/
 #    - derive/aw/a/
 #    - derive/aa/a/
 #    - derive/ee/e/
@@ -168,7 +195,7 @@ translator:
     - 'xform (u|uw|i|w)(a)([sfjxr])$ $1$3$2'
     - 'xform (gi)([sfjxr])(a) $1$3$2'
     - 'xform (u)([sfjxr])(y) $1$3$2'
-    - 'xform (huy)(nh)([sfjxr]) $1$3$2'
+    - 'xform (uy)(nh|t)([sfjxr]) $1$3$2'
     - 'xform qu([sfjxr])i qui$1'
     - 'xform z '
     - 'xform dd đ'
@@ -240,6 +267,32 @@ translator:
     - 'xform yx ỹ'
     - 'xform yr ỷ'
     - 'xform f ph'
+    - xform/A/a/
+    - xform/B/b/
+    - xform/C/c/
+    - xform/D/d/
+    - xform/E/e/
+    - xform/F/f/
+    - xform/G/g/
+    - xform/H/h/
+    - xform/I/i/
+    - xform/J/j/
+    - xform/K/k/
+    - xform/L/l/
+    - xform/M/m/
+    - xform/N/n/
+    - xform/O/o/
+    - xform/P/p/
+    - xform/Q/q/
+    - xform/R/r/
+    - xform/S/s/
+    - xform/T/t/
+    - xform/U/u/
+    - xform/V/v/
+    - xform/W/w/
+    - xform/X/x/
+    - xform/Y/y/
+    - xform/Z/z/
   comment_format:
     - xform/^(.*)$/〔$1〕
     - xform/((ⓗ|ⓥ|×).+)〕/〕$1/
@@ -254,6 +307,32 @@ translator:
     - xform/(qu|k|l|h|v|m|t|s)ỵ/$1ị/
     - xform/(qu|k|l|h|v|m|t|s)ỹ/$1ĩ/
     - xform/(qu|k|l|h|v|m|t|s)ỷ/$1ỉ/
+    - xform/A/a/
+    - xform/B/b/
+    - xform/C/c/
+    - xform/D/d/
+    - xform/E/e/
+    - xform/F/f/
+    - xform/G/g/
+    - xform/H/h/
+    - xform/I/i/
+    - xform/J/j/
+    - xform/K/k/
+    - xform/L/l/
+    - xform/M/m/
+    - xform/N/n/
+    - xform/O/o/
+    - xform/P/p/
+    - xform/Q/q/
+    - xform/R/r/
+    - xform/S/s/
+    - xform/T/t/
+    - xform/U/u/
+    - xform/V/v/
+    - xform/W/w/
+    - xform/X/x/
+    - xform/Y/y/
+    - xform/Z/z/
     
 reverse_lookup:
   dictionary: cangjie5
@@ -343,8 +422,8 @@ reverse_lookup:
   
 simplifier:
   tips: all
-  opencc_config: hn.ini
-  option_name: hn_sp
+  opencc_config: hn.json
+  option_name: simplification
   
 punctuator:
   import_preset: default
@@ -356,7 +435,3 @@ recognizer:
   import_preset: default
   patterns:
     reverse_lookup: "`[a-z]*'?$"
-
-style:
-  font_face: "Gothic Nguyen"
-  font_point: 12
