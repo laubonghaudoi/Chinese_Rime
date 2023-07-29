@@ -1,116 +1,131 @@
-# Rime schema
-# encoding: utf-8
+# Rime schema 
+# encoding: utf-8 
 
-schema:
-  name: 上古漢語（MSOEG, 布之道）
-  schema_id: OC_msoegDK
-  version: "2023.07.20"
-  author:
-    - hulenkius <hulenkius@gmail.com>
-    - github.com/Hulenkius/RIME_OC_collections
-  description: |
-    上古音輸入方案：布之道《廣韻形聲考》（msoeg 擬音）
-    []不寫　　() 內容可不寫
-    ə 作 y　　ŋ 作 ng
-    ɬ 作 ll　　ɫ 作 l
-    ʍ 作 sw 或 hw　　ʰ◌̊◌̥ 作 h
-    ʔ ˤ 作 x　　ˤ 可替以雙寫元音
-  dependencies:
-    - cangjie5
+schema: 
+  name: 上古漢語（MSOEG, 布之道） 
+  schema_id: OC_msoegDK 
+  version: "2023.07.291" 
+  author: 
+    - hulenkius <hulenkius@gmail.com> 
+    - github.com/Hulenkius/RIME_OC_collections 
+  description: | 
+    上古音輸入方案：布之道《廣韻形聲考》（msoeg 擬音） 
+    []不寫　　() 內容可不寫 
+    ə 作 y　　ŋ 作 ng 
+    ɬ 作 ll　　ɫ 作 l 
+    ʍ 作 sw 或 hw　　ʰ◌̊◌̥ 作 h 
+    ʔ ˤ 作 x　　ˤ 可替以雙寫元音 
+  dependencies: 
+    - cangjie5 
 
-switches:
-  - name: ascii_mode
-    reset: 0
-    states: [ 中文, 西文 ]
-  - name: full_shape
-    states: [ 半角, 全角 ]
-  - name: simplification
-    states: [ 漢字, 汉字 ]
-  - name: ascii_punct
-    states: [ 。，, ．， ]
+switches: 
+  - name: ascii_mode 
+    reset: 0 
+    states: [ 中文, 西文 ] 
+  - name: full_shape 
+    states: [ 半角, 全角 ] 
+  - name: simplification 
+    states: [ 漢字, 汉字 ] 
+  - name: ascii_punct 
+    states: [ 。，, ．， ] 
 
-engine:
-  processors:
-    - ascii_composer
-    - recognizer
-    - key_binder
-    - speller
-    - punctuator
-    - selector
-    - navigator
-    - express_editor
-  segmentors:
-    - ascii_segmentor
-    - matcher
-    - abc_segmentor
-    - punct_segmentor
-    - fallback_segmentor
-  translators:
-    - punct_translator
-    - r10n_translator
-    - reverse_lookup_translator
-  filters:
-    - simplifier
-    - uniquifier
+engine: 
+  processors: 
+    - ascii_composer 
+    - recognizer 
+    - key_binder 
+    - speller 
+    - punctuator 
+    - selector 
+    - navigator 
+    - express_editor 
+  segmentors: 
+    - ascii_segmentor 
+    - matcher 
+    - abc_segmentor 
+    - punct_segmentor 
+    - fallback_segmentor 
+  translators: 
+    - punct_translator 
+    - r10n_translator 
+    - reverse_lookup_translator 
+  filters: 
+    - simplifier 
+    - uniquifier 
 
-speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba
-  delimiter: " '"
-  algebra:
-    - xform/(\*).+$//
-    - derive/\((.)\)/\1/
-    - derive/\((.)\)//
-    - derive/(.)x(a|e|i|o|u|y)/\1\2\2/
-    - derive/(^x|x$)/q/
-    - derive/it/ik/ #質
-    - derive/W/sw/
-    - derive/W/hw/
-    - derive/wh/hw/
-    - derive/hw/wh/
-    - derive/h$/s/
-    - derive/i/j/
-    - derive/j/i/
-    - derive/u/w/
-    - derive/w/u/
-    - derive/(.)rx/\1xr/ #r介+咽化次序
-    - derive/ing(|.)$/in\1/ #真
-    - derive/in(|.)$/ing\1/ #真
-    - derive/(ng)(|.)$/g\2/
-    - derive/(^(|❓)x|\-|❓)//
+speller: 
+  alphabet: zyxwvutsrqponmlkjihgfedcba 
+  delimiter: " '" 
+  algebra: 
+    - derive/^(.*?)(\*).+❓$/c\1/ #c鍵引導存疑音節 
+    - xform/(\*).+$// #將輸入碼範圍限定在音標前 
+    - derive/\((.)\)/\1/ #圓括號中的內容可打出 
+    - derive/\((.)\)// #圓括號中的內容可省略 
+    - xform/^(|c)xx/\1Xx/ #影母非三等獨立大寫，配合r介後置排除來母非三等重碼 
+    - derive/([^c])x(a|e|i|o|u|y)/\1\2\2/ #非三等可記作VV 
+    - derive/([^c])x(a|e|i|o|u|y)(.*?)$/\1\2\3f/ #非三等可記作V+後置f 
+    - derive/it/ik/ #質部-t可作-k 
+    - derive/^(|c)dz/\1z/ #從母可作z 
+    - derive/W/sw/ #ʍ獨立作sw 
+    - derive/W/hw/ #ʍ可與w̥混淆，作hw 
+    - derive/wh/hw/ #w̥可與ʍ混淆，作hw 
+    - derive/([^c])hw/\1wh/ #w̥獨立作wh；混淆次序：送氣、圓脣 
+    - derive/i/j/ #混淆i、j 
+    - derive/j/i/ 
+    - derive/u/w/ #混淆u、w 
+    - derive/w/u/ 
+    - derive/([^c])rx/\1xr/ #混淆次序：r介、非三等咽化 
+    - derive/ing(|.)$/in\1/ #真部可通作in 
+    - derive/in(|.)$/ing\1/ #真部可通作ing 
+    - derive/([^c])(ng)(.*?)$/\1g\3/ #ng韻可簡作g  
+    - derive/(^x|x$|X)/q/ #喉塞混淆x、q 
+    - derive/cx/cq/ #存疑音節中的影母混淆x、q 
+    - xform/^(|c)r/\1R/ #來母大寫以與r介進行區分，排除r介後置重碼 
+    - derive/^(.*?)r(.*?)$/\1\2r/ #r介可置於最後 
+    - derive/(^(x|X)|\-)// #影母可省略；忽略符號「-」 
+    - derive/c(X|x)/c/ #存疑音節中的影母可省略 
+    - xform/R/r/ #將來母重新定義爲小寫 
+    - xform/X/x/ #將大寫非三等影母重新定義爲小寫 
+    - derive/(|p|t|k)(|x|h)(|f)(|r)$/\1\2\4\3/ #混淆順序：上聲去聲、非三等標記後置、r介後置 
+    - derive/(|p|t|k)(|x|h)(|f)(|r)$/\3\1\2\4/ 
+    - derive/(|p|t|k)(|x|h)(|f)(|r)$/\3\4\1\2/ 
+    - derive/(|p|t|k)(|x|h)(|f)(|r)$/\4\1\2\3/ 
+    - derive/(|p|t|k)(|x|h)(|f)(|r)$/\4\3\1\2/ 
+    - derive/f/v/ #非三等可記作V+後置v 
+    - derive/(a|e|i|o|u|y)(.*?)h(.*?)$/\1\2s\3/ #去聲混淆h、s 
 
-translator:
-  dictionary: OC_msoegDK
-  prism: OC_msoegDK
-  spelling_hints: 1
-  enable_completion: true
-  preedit_format:
-    - xform/(\*).+$//
-  comment_format:
-    - xform/^(.*)$/‹$1›
-    - xform/((\*).+)›/›\ $1/
-    - xform/‹\❓/\❓‹/
-    - xform/W/sw/
-    
-reverse_lookup:
-  dictionary: cangjie5
-  enable_completion: true
-  prefix: "`"
-  suffix: "'"
-  tips: 〔倉頡〕
-  preedit_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
-  comment_format:
-    - xform/^(.*)$/$1
-    - xform/((\*).+)/$1/
-    - xform/W/sw/
-  
-punctuator:
-  import_preset: default
+translator: 
+  dictionary: OC_msoegDK 
+  prism: OC_msoegDK 
+  spelling_hints: 1 
+  enable_completion: true 
+  preedit_format: 
+    - xform/(\*).+$// 
+  comment_format: 
+    - xform/^(.*)$/‹$1› 
+    - xform/((\*).+)›/›\ $1/ 
+    - xform/W/sw/ 
 
-key_binder:
-  import_preset: default
+reverse_lookup: 
+  dictionary: cangjie5 
+  enable_completion: true 
+  prefix: "`" 
+  suffix: "'" 
+  tips: 〔倉頡〕 
+  preedit_format: 
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|" 
+  comment_format: 
+    - xform/^(.*)$/$1 
+    - xform/((\*).+)/$1/ 
+    - xform/W/sw/ 
 
-recognizer:
-  import_preset: default
-  patterns:
+punctuator: 
+  import_preset: default 
+
+key_binder: 
+  import_preset: default 
+
+recognizer: 
+  import_preset: default 
+  patterns: 
     reverse_lookup: "`[a-z]*'?$"

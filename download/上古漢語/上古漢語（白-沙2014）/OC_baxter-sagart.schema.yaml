@@ -4,7 +4,7 @@
 schema:
   name: 上古漢語（白-沙2014）
   schema_id: OC_baxter-sagart
-  version: "2023.01.10"
+  version: "2023.07.27"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -76,7 +76,7 @@ speller:
     - derive/j/i/
     - derive/u/w/
     - derive/w/u/
-    - derive/(Ⓔ|Ⓛ|Ⓧ|疑)//
+    - derive/(Ⓔ|Ⓛ|Ⓧ)//
     - xform/x/X/
     - xform/^X/x/
     - derive/(X|X\(r\))(a|e|i|o|u|y)/\2\2/
@@ -93,11 +93,7 @@ translator:
   comment_format:
     - xform/^(.*)$/‹$1›
     - xform/((\*).+)›/›\ $1/
-    - xform/‹疑Ⓔ/\?Ⓔ‹/
-    - xform/‹Ⓔ/Ⓔ‹/
-    - xform/‹Ⓛ/Ⓛ‹/
-    - xform/‹Ⓧ/Ⓧ‹/
-    - xform/‹疑/\?‹/
+    - xform/‹(Ⓔ|Ⓛ|Ⓧ)/\1‹/
     
 reverse_lookup:
   dictionary: cangjie5
@@ -110,7 +106,6 @@ reverse_lookup:
   comment_format:
     - xform/^(.*)$/$1
     - xform/((\*).+)/$1/
-    - derive/疑/\?/
   
 punctuator:
   import_preset: default
