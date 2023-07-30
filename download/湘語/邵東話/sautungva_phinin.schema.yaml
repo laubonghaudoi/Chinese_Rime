@@ -1,6 +1,7 @@
 # Rime schema
 # encoding: utf-8
 
+
 schema:
   schema_id: sautungva_phinin
   name: 邵東話拼音
@@ -8,10 +9,9 @@ schema:
   author:
     - 轀輬 <alfredlouis0x7@gmail.com>
   description: |
-    「邵東話拼音自編」，以符號按鍵 - = _ + \輸入五聲（暫時未能實現）
+    「邵東話拼音自編」
   dependencies:
     - luna_pinyin
-
 switches:
   - name: ascii_mode
     reset: 0
@@ -21,13 +21,14 @@ switches:
   - name: ascii_punct
     states: [ ，。, ，． ]
   - name: simplification
+    reset: 1
     states: [ 漢字, 汉字 ]
 
 engine:
   processors:
     - ascii_composer
-    - recognizer
     - key_binder
+    - recognizer
     - speller
     - punctuator
     - selector
@@ -36,18 +37,12 @@ engine:
   segmentors:
     - ascii_segmentor
     - matcher
-    - affix_segmentor@kana
-    - affix_segmentor@hangeul
-    - affix_segmentor@cyrillic
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
     - script_translator
-    - table_translator@kana
-    - table_translator@hangeul
-    - table_translator@cyrillic
     - reverse_lookup_translator
   filters:
     - simplifier
@@ -57,23 +52,73 @@ speller:
   alphabet: zyxwvutsrqponmljkihgfedcba
   delimiter: " '"
   algebra:
-    - xform/\d//                # 無聲調
-    - xform/[12345]//           # 不打聲調
-    #- derive/[aeiuy]n$/$1ng/
-    - derive/^dd*/^d*/
-    - derive/^(gg)*/^g*/
-    - derive/^(bb)*/^b*/
-    - derive/^(zz)*/^z*/
-    - derive/^(jj)*/^j*/
-    - derive/^(hh)*/^h*/
-    - derive/^u*/^w*/
-    - derive/[a]ng$/$1n/
+    - xform/\|.+$//               # 注释
+    - xform/[12345]//
+    - derive/([aei])n$/$1ng/
+    - derive/^dd/d/
+    - derive/^(gg)/g/
+    - derive/^(bb)/b/
+    - derive/^(zz)/z/
+    - derive/^(jj)/j/
+    - derive/^(hh)/h/
+    - derive/([fmbp])ong/$1eng/
+    - derive/(a)ng$/$1n/
+    - derive/^ng//
+    - fuzz/^([a-z]).+$/$1/
+
 
 
 translator:
   dictionary: sautungva_phinin
-  spelling_hints: 5
-  prism: true
+  spelling_hints: 10
+  prism: sautungva_phinin
+  preedit_format:
+    - xform/\|.+$//               # 注释
+    - xform/([nl])v/$1ü/
+  comment_format:
+    - xform ([aeiou])(ng?)([012345]) $1$3$2
+    - xform ([aeo])([iuo])([012345]) $1$3$2
+    - xform ng([012345]) n$1g
+    - xform a1 ā
+    - xform a2 á
+    - xform a3 ǎ
+    - xform a4 à
+    - xform a5 ạ
+    - xform e1 ē
+    - xform e2 é
+    - xform e3 ě
+    - xform e4 è
+    - xform e5 ẹ
+    - xform o1 ō
+    - xform o2 ó
+    - xform o3 ǒ
+    - xform o4 ò
+    - xform o5 ọ
+    - xform i1 ī
+    - xform i2 í
+    - xform i3 ǐ
+    - xform i4 ì
+    - xform i5 ị
+    #- xform/([jqxy])u/$1v/
+    - xform u1 ū
+    - xform u2 ú
+    - xform u3 ǔ
+    - xform u4 ù
+    - xform u5 ụ
+    - xform v1 ǖ
+    - xform v2 ǘ
+    - xform v3 ǚ
+    - xform v4 ǜ
+    - xform v5 ụ̈
+    - xform v ü
+    - xform 1 ̄
+    - xform 2 ́
+    - xform 3 ̌
+    - xform 4 ̀
+    - xform 5 ̣
+    - xform/0//
+    - xform/([nl])v/$1ü/
+
 
 reverse_lookup:
   dictionary: luna_pinyin
@@ -90,8 +135,10 @@ punctuator:
 
 key_binder:
   import_preset: default
+  
 
 recognizer:
   import_preset: default
   patterns:
     reverse_lookup: "^`[abcdefghijklmnopqrestuvwxyz]*'?$"
+    

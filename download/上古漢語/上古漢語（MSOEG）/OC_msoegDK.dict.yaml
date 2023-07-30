@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: OC_msoegDK
-version: "2023.07.291"
+version: "2023.07.301"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -59,7 +59,7 @@ use_preset_vocabulary: true
 窇	brxuk*brˤuk
 枹	b(r)u*b(r)u
 䍖	b(r)u*b(r)u
-𢀼	b(r)u*b(r)u
+𢀼	b(r)u*b(r)u⏪𦰮
 𦰮	b(r)u*b(r)u
 𩅟	brxuk*brˤuk
 鴇	pxux*pˤuʔ
@@ -119,7 +119,7 @@ use_preset_vocabulary: true
 阜	b(r)ux*b(r)uʔ
 𨸏	b(r)ux*b(r)uʔ
 𦰺	b(r)ux*b(r)uʔ
-𨹺	b(r)ux*b(r)uʔ
+𨹺	b(r)ux*b(r)uʔ⏪𩣸
 𩣸	b(r)ux*b(r)uʔ
 䧞	b(r)ux*b(r)uʔ
 㷆	b(r)ux*b(r)uʔ
@@ -406,7 +406,7 @@ use_preset_vocabulary: true
 𩈜	txui*tˤui
 𠂤	txui*tˤui
 𡏩	txui*tˤui
-𦞙	txuix*tˤuiʔ
+𦞙	txuix*tˤuiʔ⏪䏨
 䏨	txuix*tˤuiʔ
 𡑈	txuix*tˤuiʔ
 頧	txuix*tˤuiʔ
@@ -590,7 +590,7 @@ use_preset_vocabulary: true
 鶔	nu*nu
 揉	nu*nu
 䰆	nu*nu
-𨛶	nu*nu
+𨛶	nu*nu⏪𨜙
 𨜙	nu*nu
 蹂	nux*nuʔ
 楺	nux*nuʔ
@@ -683,7 +683,7 @@ use_preset_vocabulary: true
 𢓴	nhxuth*n̥ˤuth
 𨓤	nhxuth*n̥ˤuth
 糟	tsxu*tsˤu
-𦵩	tsxu*tsˤu
+𦵩	tsxu*tsˤu⏪漕
 漕	tsxu*tsˤu
 醩	tsxu*tsˤu
 遭	tsxu*tsˤu
@@ -986,7 +986,7 @@ use_preset_vocabulary: true
 䚌	kxu*kˤu
 䔌	kxu*kˤu
 㤒	kxu*kˤu
-䆁	kxu*kˤu
+䆁	kxu*kˤu⏪𥢐
 𥢐	kxu*kˤu
 䣗	kxu*kˤu
 嗥	gxu*ɡˤu
@@ -1097,7 +1097,7 @@ use_preset_vocabulary: true
 匓	ku*ku
 𨖏	ku*ku
 𣪘	khu*kʰu
-釗	kxiu*kˤiu
+釗	kxiu*kˤiu⏪䤛
 䤛	kxiu*kˤiu
 叫	kxiuh*kˤiuh
 訆	kxiuh*kˤiuh
@@ -2120,7 +2120,7 @@ use_preset_vocabulary: true
 㑛	stok*stok
 梀	throk*tʰrok
 𥹵	throk*tʰrok
-豰	txok*tˤok
+豰	txok*tˤok⏪𣫔
 𣫔	txok*tˤok
 啄	txok*tˤok
 䐁	txok*tˤok
@@ -2135,8 +2135,7 @@ use_preset_vocabulary: true
 䐁	trxok*trˤok
 𢽚	trxok*trˤok
 瘃	trok*trok
-𤷚	trok*trok
-瘃	trok*trok
+𤷚	trok*trok⏪瘃
 𢒔	trok*trok
 冢	trongx*troŋʔ
 塚	trongx*troŋʔ
@@ -2419,8 +2418,7 @@ use_preset_vocabulary: true
 擩	nox*noʔ
 醹	nox*noʔ
 孺	noh*noh
-𡦗	noh*noh
-孺	noh*noh
+𡦗	noh*noh⏪孺
 擩	noh*noh
 㹘	noh*noh
 堧	non*non
@@ -2498,7 +2496,7 @@ use_preset_vocabulary: true
 㟎	nhxuix*n̥ˤuiʔ
 㱣	nhxuix*n̥ˤuiʔ
 㞂	nhxuix*n̥ˤuiʔ
-捼	nxoi*nˤoi
+捼	nxoi*nˤoi⏪挼
 挼	nxoi*nˤoi
 捼	nxui*nˤui
 𨡌	nxui*nˤui
@@ -2510,7 +2508,7 @@ use_preset_vocabulary: true
 鮾	nxuix*nˤuiʔ
 脮	nxuix*nˤuiʔ
 㼏	nxuix*nˤuiʔ
-緌	nui*nui
+緌	nui*nui⏪綏
 綏	nui*nui
 桵	nui*nui
 䅑	nui*nui
@@ -2523,7 +2521,7 @@ use_preset_vocabulary: true
 葰	snui*snui
 浽	snui*snui
 䅑	snui*snui
-嫩	nxunh*nˤunh
+嫩	nxunh*nˤunh⏪㜛
 㜛	nxunh*nˤunh
 軟	nonx*nonʔ
 𢘎	nonx*nonʔ
@@ -2599,8 +2597,7 @@ use_preset_vocabulary: true
 縐	tsrxoh*tsrˤoh
 䐢	tsrxoh*tsrˤoh
 搊	tshrxo*tsʰrˤo
-𢬆	tshrxo*tsʰrˤo
-搊	tshrxo*tsʰrˤo
+𢬆	tshrxo*tsʰrˤo⏪搊
 篘	tshrxo*tsʰrˤo
 㮲	tshrxo*tsʰrˤo
 𥻤	tshrxo*tsʰrˤo
@@ -2611,8 +2608,7 @@ use_preset_vocabulary: true
 謅	tshrxox*tsʰrˤoʔ
 𩱈	tshrxox*tsʰrˤoʔ
 趨	tsho*tsʰo
-趍	tsho*tsʰo
-趨	tsho*tsʰo
+趍	tsho*tsʰo⏪趨
 芻	tshro*tsʰro
 犓	tshro*tsʰro
 䅳	dzro*dzro
@@ -2980,7 +2976,7 @@ use_preset_vocabulary: true
 堠	g(r)xoh*ɡ(r)ˤoh
 鍭	g(r)xoh*ɡ(r)ˤoh
 䞀	g(r)xoh*ɡ(r)ˤoh
-𣣠	g(r)xoh*ɡ(r)ˤoh
+𣣠	g(r)xoh*ɡ(r)ˤoh⏪𥀃
 𥀃	g(r)xoh*ɡ(r)ˤoh
 厚	g(r)xox*ɡ(r)ˤoʔ
 厚	g(r)xoh*ɡ(r)ˤoh
@@ -3182,7 +3178,7 @@ use_preset_vocabulary: true
 𠳃	gxongx*ɡˤoŋʔ
 汞	gxongx*ɡˤoŋʔ
 缸	grxong*ɡrˤoŋ
-缻	grxong*ɡrˤoŋ
+缻	grxong*ɡrˤoŋ⏪瓨
 瓨	grxong*ɡrˤoŋ
 項	grxongx*ɡrˤoŋʔ
 肛	hrxong*hrˤoŋ
@@ -3282,7 +3278,6 @@ use_preset_vocabulary: true
 𢪒	kongx*koŋʔ
 㤨	kongx*koŋʔ
 𢸁	kongx*koŋʔ
-拱	kongx*koŋʔ
 䱋	kongx*koŋʔ
 栱	kongx*koŋʔ
 輁	kongx*koŋʔ
@@ -3588,8 +3583,7 @@ use_preset_vocabulary: true
 屼	ngxut*ŋˤut
 矹	ngxut*ŋˤut
 鼿	ngxut*ŋˤut
-𦨉	ngxut*ŋˤut
-䑢	ngxut*ŋˤut
+𦨉	ngxut*ŋˤut⏪䑢
 䑢	ngxut*ŋˤut
 𠨜	ngxut*ŋˤut
 𤴰	ngxut*ŋˤut
@@ -3689,7 +3683,7 @@ use_preset_vocabulary: true
 痞	pyx*pəʔ
 殕	pyx*pəʔ
 秠	phy*pʰə
-𡫺	phy*pʰə
+𡫺	phy*pʰə⏪𡬇
 𡬇	phy*pʰə
 衃	phy*pʰə
 肧	phy*pʰə
@@ -3894,7 +3888,7 @@ use_preset_vocabulary: true
 蜰	byi*bəi
 䨽	byi*bəi
 萉	byih*bəih
-𧌘	byih*bəih
+𧌘	byih*bəih⏪蜰
 蜰	byih*bəih
 圮	bryix*brəiʔ
 輩	pxyih*pˤəih
@@ -4269,7 +4263,7 @@ use_preset_vocabulary: true
 𤃫	mhxyng*m̥ˤəŋ
 瞢	mxyng*mˤəŋ
 䒐	mxyng*mˤəŋ
-𢅴	mxyngh*mˤəŋh
+𢅴	mxyngh*mˤəŋh⏪懵
 懵	mxyngh*mˤəŋh
 䲛	mxyngh*mˤəŋh
 懜	mxyngh*mˤəŋh
@@ -4445,7 +4439,7 @@ use_preset_vocabulary: true
 𦐉	thy*tʰə
 𥉍	thy*tʰə
 齒	thyx*tʰəʔ
-紕	thyx*tʰəʔ
+紕	thyx*tʰəʔ⏪䊼
 䊼	thyx*tʰəʔ
 祉	thryx*tʰrəʔ❓
 時	dy*də
@@ -5158,8 +5152,7 @@ use_preset_vocabulary: true
 廁	tshrykh*tsʰrəkh
 崱	dzryk*dzrək
 萴	dzryk*dzrək
-稄	tsryk*tsrək
-𥟔	tsryk*tsrək
+稄	tsryk*tsrək⏪𥟔
 𥟔	tsryk*tsrək
 𣅔	tsryk*tsrək
 仄	tsryk*tsrək
@@ -5294,8 +5287,7 @@ use_preset_vocabulary: true
 蠶	dzxym*dzˤəm
 䣟	dzxym*dzˤəm
 𨅔	dzxym*dzˤəm
-䣠	dzxym*dzˤəm
-䣟	dzxym*dzˤəm
+䣠	dzxym*dzˤəm⏪䣟
 糣	sxymx*sˤəmʔ
 兓	tsym*tsəm
 𩀿	tsym*tsəm
@@ -5368,7 +5360,7 @@ use_preset_vocabulary: true
 𨊳	sym*səm
 杺	sym*səm
 森	srym*srəm
-壻	sxyph*sˤ[ə]ph
+壻	sxyph*sˤ[ə]ph⏪𡎎
 𡎎	sxyph*sˤ[ə]ph
 湒	tsyp*tsəp
 咠	tsyp*tsəp
@@ -6053,7 +6045,7 @@ use_preset_vocabulary: true
 盦	xxap*ʔˤap
 䶃	kxym*kˤəm
 玪	krxym*krˤəm
-龕	khxym*kʰˤəm
+龕	khxym*kʰˤəm⏪𪚕
 𪚕	khxym*kʰˤəm
 𢦟	khxym*kʰˤəm
 𩑟	khxym*kʰˤəm
@@ -6314,8 +6306,7 @@ use_preset_vocabulary: true
 雄	wyng*wəŋ
 國	kwxyk*kwˤək
 幗	kwxykh*kwˤəkh
-慖	kwxykh*kwˤəkh
-幗	kwxykh*kwˤəkh
+慖	kwxykh*kwˤəkh⏪幗
 簂	kwxykh*kwˤəkh
 𪏤	kwxykh*kwˤəkh
 蔮	kwxykh*kwˤəkh
@@ -6378,8 +6369,7 @@ use_preset_vocabulary: true
 𩢱	wxyi*wˤəi
 茴	wxyi*wˤəi
 迴	wxyih*wˤəih
-詯	wxyih*wˤəih
-䛛	wxyih*wˤəih
+詯	wxyih*wˤəih⏪䛛
 䛛	wxyih*wˤəih
 媁	xwyi*ʔwəi
 褘	whyi*w̥əi
@@ -6633,7 +6623,7 @@ use_preset_vocabulary: true
 䈻	bxa*bˤa
 捕	bxah*bˤah
 哺	bxah*bˤah
-鞴	bxah*bˤah
+鞴	bxah*bˤah⏪𩊬
 𩊬	bxah*bˤah
 餔	bxah*bˤah
 鵏	bxah*bˤah
@@ -7099,7 +7089,7 @@ use_preset_vocabulary: true
 帗	pyt*pət
 髮	pat*pat
 𩠖	pat*pat
-𩑛	pat*pat
+𩑛	pat*pat⏪𩑱
 𩑱	pat*pat
 颰	pat*pat
 冹	pat*pat
@@ -7671,7 +7661,7 @@ use_preset_vocabulary: true
 荰	dxax*dˤaʔ
 土	dxax*dˤaʔ
 社	dax*daʔ
-𥁹	dax*daʔ
+𥁹	dax*daʔ⏪䀅
 䀅	dax*daʔ
 𣝒	dax*daʔ
 都	txa*tˤa
@@ -7869,8 +7859,7 @@ use_preset_vocabulary: true
 墇	tangh*taŋh
 嶂	tangh*taŋh
 瘴	tangh*taŋh
-妒	txakh*tˤakh
-妬	txakh*tˤakh
+妒	txakh*tˤakh⏪妬
 妬	txakh*tˤakh
 蠹	txakh*tˤakh
 螙	txakh*tˤakh
@@ -8364,9 +8353,9 @@ use_preset_vocabulary: true
 挐	nrxa*nrˤa
 蒘	nrxa*nrˤa
 𧘽	nrxa*nrˤa
-𧦮	nrxa*nrˤa
+𧦮	nrxa*nrˤa⏪詉
 詉	nrxa*nrˤa
-𤓷	nrxa*nrˤa
+𤓷	nrxa*nrˤa⏪𤔀
 𤔀	nrxa*nrˤa
 笯	nrxa*nrˤa
 恕	nhah*n̥ah
@@ -8718,7 +8707,7 @@ use_preset_vocabulary: true
 捒	srah*srah
 臧	tsxang*tsˤaŋ
 匨	tsxang*tsˤaŋ
-䍧	tsxang*tsˤaŋ
+䍧	tsxang*tsˤaŋ⏪牂
 牂	tsxang*tsˤaŋ
 戕	tsxang*tsˤaŋ
 贓	tsxang*tsˤaŋ
@@ -9537,7 +9526,7 @@ use_preset_vocabulary: true
 𦄽	g(r)a*ɡ(r)a
 磲	g(r)a*ɡ(r)a
 蕖	g(r)a*ɡ(r)a
-淭	g(r)a*ɡ(r)a
+淭	g(r)a*ɡ(r)a⏪渠
 渠	g(r)a*ɡ(r)a
 𪆫	g(r)a*ɡ(r)a
 螶	g(r)a*ɡ(r)a
@@ -10831,10 +10820,10 @@ use_preset_vocabulary: true
 隺	gxauk*ɡˤauk
 𤌍	gxauk*ɡˤauk
 㿥	grxauk*ɡrˤauk
-臛	hxauk*hˤauk
+臛	hxauk*hˤauk⏪𦞦
 𦞦	hxauk*hˤauk
 𦞦	hxauk*hˤauk
-𤛹	ngxauk*ŋˤauk
+𤛹	ngxauk*ŋˤauk⏪㹊
 㹊	ngxauk*ŋˤauk
 㹊	ngrxauk*ŋrˤauk
 謔	ngh(r)auk*ŋ̊(r)auk
@@ -11406,7 +11395,7 @@ use_preset_vocabulary: true
 𪁘	xwxang*ʔwˤaŋ
 汪	xwxangh*ʔwˤaŋh
 䍿	wxang*wˤaŋ
-𤯷	wxang*wˤaŋ
+𤯷	wxang*wˤaŋ⏪𦨁
 𦨁	wxang*wˤaŋ
 暀	wxangh*wˤaŋh
 枉	xwangx*ʔwaŋʔ
@@ -11900,7 +11889,7 @@ use_preset_vocabulary: true
 𤁪	wrxat*wrˤat
 𦧠	wrxat*wrˤat
 敌	wrxat*wrˤat
-舌	wrxat*wrˤat
+舌	wrxat*wrˤat⏪𠯑
 𠯑	wrxat*wrˤat
 姡	wrxat*wrˤat
 咶	wrxat*wrˤat
@@ -11940,7 +11929,7 @@ use_preset_vocabulary: true
 孒	kwat*kwat
 巜	kwxath*kwˤath
 汩	kwxyt*kwˤət
-蚏	wat*wat
+蚏	wat*wat⏪蚎
 蚎	wat*wat
 曰	wat*wat
 䫻	wrat*wrat
@@ -12293,7 +12282,7 @@ use_preset_vocabulary: true
 㖅	mhit*m̥it
 𧊥	mhit*m̥it
 銊	mhit*m̥it
-𣧡	mhet*m̥et
+𣧡	mhet*m̥et⏪𣧵
 𣧵	mhet*m̥et
 烕	mhet*m̥et
 滅	met*met
@@ -12360,7 +12349,7 @@ use_preset_vocabulary: true
 脪	thri*tʰri
 瓻	thri*tʰri
 𤭏	thri*tʰri
-瓻	thri*tʰri
+瓻	thri*tʰri⏪𤭏
 黹	trix*triʔ
 㞟	txengx*tˤeŋʔ
 奠	dxingh*dˤiŋh
@@ -12442,8 +12431,7 @@ use_preset_vocabulary: true
 躓	trikh*trikh
 質	trikh*trikh
 嚏	txikh*tˤikh
-啑	txikh*tˤikh
-嚏	txikh*tˤikh
+啑	txikh*tˤikh⏪嚏
 疐	txikh*tˤikh
 懥	tikh*tikh
 疐	trikh*trikh
@@ -12557,7 +12545,7 @@ use_preset_vocabulary: true
 褺	dxip*dˤip
 䠟	dxip*dˤip
 墊	dxip*dˤip
-暬	nxip*nˤip
+暬	nxip*nˤip⏪𣊓
 𣊓	nxip*nˤip
 慹	nxip*nˤip
 執	tip*tip
@@ -12860,8 +12848,7 @@ use_preset_vocabulary: true
 䰍	tshikh*tsʰikh
 㓼	tshrik*tsʰrik
 㓼	tshrik*tsʰrik
-𠞩	tshrik*tsʰrik
-㓼	tshrik*tsʰrik
+𠞩	tshrik*tsʰrik⏪㓼
 䜉	tshrik*tsʰrik
 厀	sik*sik
 膝	sik*sik
@@ -13290,7 +13277,7 @@ use_preset_vocabulary: true
 靿	xrxiuh*ʔrˤiuh
 袎	xrxiuh*ʔrˤiuh
 㑃	xrxiuh*ʔrˤiuh
-箹	xrxiuh*ʔrˤiuh
+箹	xrxiuh*ʔrˤiuh⏪𥬓
 𥬓	xrxiuh*ʔrˤiuh
 軪	xrxiuh*ʔrˤiuh
 幽	xiu*ʔiu
@@ -13911,12 +13898,12 @@ use_preset_vocabulary: true
 𡷘	bret*bret
 拋	phrxeu*pʰrˤeu
 𦭼	beux*beuʔ
-殍	breux*breuʔ
+殍	breux*breuʔ⏪𣧶
 𣧶	breux*breuʔ
-莩	breux*breuʔ
+莩	breux*breuʔ⏪𦭼
 𦭼	breux*breuʔ
 𠬪	breux*breuʔ
-殍	brux*bruʔ
+殍	brux*bruʔ⏪𣧶
 𣧶	brux*bruʔ
 標	peu*peu
 瘭	peu*peu
@@ -14055,8 +14042,7 @@ use_preset_vocabulary: true
 覓	mxek*mˤek
 覛	mxek*mˤek
 䮭	mxek*mˤek
-㵋	mxek*mˤek
-漞	mxek*mˤek
+㵋	mxek*mˤek⏪漞
 漞	mxek*mˤek
 𧱻	mxek*mˤek
 䌐	mxek*mˤek
@@ -14165,8 +14151,7 @@ use_preset_vocabulary: true
 緹	dxe*dˤe
 騠	dxe*dˤe
 䚣	dxe*dˤe
-𡰄	dxe*dˤe
-𡰖	dxe*dˤe
+𡰄	dxe*dˤe⏪𡰖
 𪂿	dxe*dˤe
 𡰖	dxe*dˤe
 蝭	dxe*dˤe
@@ -14279,8 +14264,7 @@ use_preset_vocabulary: true
 淀	dxenh*dˤenh
 揨	drxeng*drˤeŋ
 𢾊	drxeng*drˤeŋ
-𢿦	drxeng*drˤeŋ
-𢾊	drxeng*drˤeŋ
+𢿦	drxeng*drˤeŋ⏪𢾊
 朾	drxeng*drˤeŋ
 虰	drxeng*drˤeŋ
 䁎	drxeng*drˤeŋ
@@ -14541,7 +14525,7 @@ use_preset_vocabulary: true
 㞙	nxeukh*nˤeukh
 搦	nrxeuk*nrˤeuk
 䚥	nrxeuk*nrˤeuk
-𧢺	nrxeuk*nrˤeuk
+𧢺	nrxeuk*nrˤeuk⏪𧣚
 𧣚	nrxeuk*nrˤeuk
 弱	neuk*neuk
 蒻	neuk*neuk
@@ -14799,8 +14783,7 @@ use_preset_vocabulary: true
 策	tshrxek*tsʰrˤek
 嫧	tshrxek*tsʰrˤek
 䶦	tshrxek*tsʰrˤek
-筴	tshrxek*tsʰrˤek
-策	tshrxek*tsʰrˤek
+筴	tshrxek*tsʰrˤek⏪策
 憡	tshrxek*tsʰrˤek
 皟	tshrxek*tsʰrˤek
 㥽	tshrxek*tsʰrˤek
@@ -14836,8 +14819,7 @@ use_preset_vocabulary: true
 𧙞	tshek*tsʰek
 嫧	tshek*tsʰek
 刺	tshekh*tsʰekh
-刾	tshekh*tsʰekh
-刺	tshekh*tsʰekh
+刾	tshekh*tsʰekh⏪刺
 㢀	tshekh*tsʰekh
 朿	tshekh*tsʰekh
 𧧒	tshekh*tsʰekh
@@ -15310,7 +15292,7 @@ use_preset_vocabulary: true
 檕	kxekh*kˤekh
 蘻	kxekh*kˤekh
 轚	kxekh*kˤekh
-㲅	kxekh*kˤekh
+㲅	kxekh*kˤekh⏪𣪠
 𣪠	kxekh*kˤekh
 罊	khxekh*kʰˤekh
 蟿	khxekh*kʰˤekh
@@ -15460,8 +15442,8 @@ use_preset_vocabulary: true
 粯	grxenh*ɡrˤenh
 䩤	hxet*hˤet
 䙽	hxet*hˤet
-𥓋	ngxen*ŋˤen
 硯	ngxen*ŋˤen
+𥓋	ngxen*ŋˤen⏪硯
 硯	ngxenh*ŋˤenh
 𨁍	ngxenh*ŋˤenh
 晛	nxenh*nˤenh
@@ -15691,7 +15673,7 @@ use_preset_vocabulary: true
 崖	ngrxe*ŋrˤe
 涯	ngrxe*ŋrˤe
 啀	ngrxe*ŋrˤe
-猚	ngrxe*ŋrˤe
+猚	ngrxe*ŋrˤe⏪𪺾
 𪺾	ngrxe*ŋrˤe
 厓	ngrxe*ŋrˤe
 恚	xweh*ʔweh
@@ -16009,7 +15991,7 @@ use_preset_vocabulary: true
 䏐	kwxet*kwˤet
 抉	kwxet*kwˤet
 炔	kwxeth*kwˤeth
-𤰮	kwxeth*kwˤeth
+𤰮	kwxeth*kwˤeth⏪𤱾
 𤱾	kwxeth*kwˤeth
 𣧎	kwxeth*kwˤeth
 夬	kwrxeth*kwrˤeth
@@ -16143,7 +16125,7 @@ use_preset_vocabulary: true
 𢂹	mrxeukh*mrˤeukh
 𢅉	mrxeukh*mrˤeukh
 藐	meux*meuʔ
-㥷	xxeph*ʔˤeph
+㥷	xxeph*ʔˤeph⏪瘱
 瘱	xxeph*ʔˤeph
 頰	kxep*kˤep
 𩠣	kxep*kˤep
@@ -16352,7 +16334,7 @@ use_preset_vocabulary: true
 礧	rxuih*rˤuih
 摞	rxoi*rˤoi
 騾	rxoi*rˤoi
-𦿌	rxoi*rˤoi
+𦿌	rxoi*rˤoi⏪蔂
 蔂	rxoi*rˤoi
 螺	rxoi*rˤoi
 𥡜	rxoi*rˤoi
@@ -16445,7 +16427,7 @@ use_preset_vocabulary: true
 浖	rot*rot
 哷	rot*rot
 㭩	rot*rot
-㿱	slot*slot
+㿱	slot*slot⏪𢯳
 𢯳	slot*slot
 𧋍	slot*slot
 率	rhut*r̥ut
@@ -16778,7 +16760,7 @@ use_preset_vocabulary: true
 裠	g(l)un*ɡ(ɫ)un
 宭	g(l)un*ɡ(ɫ)un
 𤸷	g(l)un*ɡ(ɫ)un
-郡	glunh*ɡɫunh❓
+郡	g(l)unh*ɡ(ɫ)unh❓
 窘	grunx*ɡrunʔ
 僒	grunx*ɡrunʔ
 莙	grunx*ɡrunʔ
@@ -17141,7 +17123,7 @@ use_preset_vocabulary: true
 亂	rxonh*rˤonh
 𢿢	rxonh*rˤonh
 𤔔	rxonh*rˤonh
-覼	rxoi*rˤoi
+覼	rxoi*rˤoi⏪覶
 覶	rxoi*rˤoi
 串	krxonh*krˤonh
 漶	gxonh*ɡˤonh
@@ -17159,7 +17141,7 @@ use_preset_vocabulary: true
 㥚	lo*lo
 萸	lo*lo
 㳛	lo*lo
-𤜹	lo*lo
+𤜹	lo*lo⏪𣢧
 𣢧	lo*lo
 𤧙	lo*lo
 𦺮	lo*lo
@@ -17276,7 +17258,7 @@ use_preset_vocabulary: true
 𢏕	lxong*lˤoŋ
 絧	lxong*lˤoŋ
 𨚯	lxong*lˤoŋ
-𪔝	lxong*lˤoŋ
+𪔝	lxong*lˤoŋ⏪𪔜
 𪔜	lxong*lˤoŋ
 洞	lxongh*lˤoŋh
 恫	lxongh*lˤoŋh
@@ -18070,7 +18052,7 @@ use_preset_vocabulary: true
 帒	lxy(k)h*lˤə(k)h
 袋	lxy(k)h*lˤə(k)h
 𤮼	lxy(k)h*lˤə(k)h
-酨	lxy(k)h*lˤə(k)h
+酨	lxy(k)h*lˤə(k)h⏪𨟲
 𨟲	lxy(k)h*lˤə(k)h
 式	lhyk*l̥ək
 拭	lhyk*l̥ək
@@ -18242,7 +18224,7 @@ use_preset_vocabulary: true
 䂿	lxyp*lˤəp
 𧌏	lxyp*lˤəp
 漯	lhxyp*l̥ˤəp
-濕	lhxyp*l̥ˤəp
+濕	lhxyp*l̥ˤəp⏪濕
 濕	lhxyp*l̥ˤəp
 溼	lhyp*l̥əp
 濕	lhyp*l̥əp
@@ -19017,8 +18999,7 @@ use_preset_vocabulary: true
 鹽	lamh*lamh
 𤅸	lamh*lamh
 臘	rxap*rˤap
-臈	rxap*rˤap
-臘	rxap*rˤap
+臈	rxap*rˤap⏪臘
 𪙷	rxap*rˤap
 鑞	rxap*rˤap
 蠟	rxap*rˤap
@@ -19027,7 +19008,7 @@ use_preset_vocabulary: true
 𥀰	rxap*rˤap
 𪇹	rxap*rˤap
 𦒦	rxap*rˤap
-𦅶	rxap*rˤap
+𦅶	rxap*rˤap⏪𦆻
 𦆻	rxap*rˤap
 邋	rxap*rˤap
 獵	rap*rap
@@ -19049,8 +19030,7 @@ use_preset_vocabulary: true
 䜲	rap*rap
 䃳	rap*rap
 巤	rap*rap
-獦	rap*rap
-獵	rap*rap
+獦	rap*rap⏪獵
 菟	lhxah*l̥ˤah
 兔	lhxah*l̥ˤah
 鵵	lhxah*l̥ˤah
@@ -19146,8 +19126,7 @@ use_preset_vocabulary: true
 枑	g(l)xah*ɡ(ɫ)ˤah
 𧥮	g(l)xah*ɡ(ɫ)ˤah
 𦊂	g(l)xah*ɡ(ɫ)ˤah
-𦬚	g(l)xah*ɡ(ɫ)ˤah
-䇘	g(l)xah*ɡ(ɫ)ˤah
+𦬚	g(l)xah*ɡ(ɫ)ˤah⏪䇘
 牙	ngrxa*ŋrˤa
 芽	ngrxa*ŋrˤa
 齖	ngrxa*ŋrˤa
@@ -19178,7 +19157,6 @@ use_preset_vocabulary: true
 輿	la*la
 旟	la*la
 璵	la*la
-㶛	la*la
 歟	la*la
 與	la*la
 譽	la*la
@@ -19218,7 +19196,7 @@ use_preset_vocabulary: true
 𥎗	slax*slaʔ
 舉	klax*kɫaʔ
 櫸	klax*kɫaʔ
-𠢈	klax*kɫaʔ
+𠢈	klax*kɫaʔ⏪𦥠
 𦥠	klax*kɫaʔ
 餉	lhangh*l̥aŋh
 向	lhangh*l̥aŋh
@@ -19630,8 +19608,7 @@ use_preset_vocabulary: true
 𩱡	klan*kɫan
 愆	khran*kʰran
 諐	khran*kʰran
-𠎝	khran*kʰran
-愆	khran*kʰran
+𠎝	khran*kʰran⏪愆
 衍	lanx*lanʔ
 𧍢	lanx*lanʔ
 𧊔	lanx*lanʔ
@@ -20131,7 +20108,7 @@ use_preset_vocabulary: true
 天	lhxing*l̥ˤiŋ
 𠀘	lhxing*l̥ˤiŋ
 吞	lhxing*l̥ˤiŋ
-詽	lhxing*l̥ˤiŋ
+詽	lhxing*l̥ˤiŋ⏪䚶
 䚶	lhxing*l̥ˤiŋ
 田	lxing*lˤiŋ
 佃	lxing*lˤiŋ
@@ -20474,7 +20451,7 @@ use_preset_vocabulary: true
 𪙽	rxek*rˤek
 厤	rxek*rˤek
 攊	rxek*rˤek
-𧙉	rxek*rˤek
+𧙉	rxek*rˤek⏪𧛿
 𧛿	rxek*rˤek
 𡳸	rxek*rˤek
 𦠓	rxek*rˤek
@@ -20533,7 +20510,7 @@ use_preset_vocabulary: true
 憪	grxen*ɡrˤen
 僩	grxanx*ɡrˤanʔ
 憪	grxanx*ɡrˤanʔ
-𤡥	grxanx*ɡrˤanʔ
+𤡥	grxanx*ɡrˤanʔ⏪撊
 撊	grxanx*ɡrˤanʔ
 橌	grxanx*ɡrˤanʔ
 隸	rxeth*rˤeth
@@ -20677,7 +20654,7 @@ use_preset_vocabulary: true
 歋	le*le
 螔	le*le
 𠐀	le*le
-𣣢	le*le
+𣣢	le*le⏪𠪗
 𠪗	le*le
 篪	lre*lre
 䶵	lre*lre
@@ -20723,7 +20700,7 @@ use_preset_vocabulary: true
 侹	lhxengx*l̥ˤeŋʔ
 頲	lhxengx*l̥ˤeŋʔ
 𡈼	lhxengx*l̥ˤeŋʔ
-䦐	lhxengx*l̥ˤeŋʔ
+䦐	lhxengx*l̥ˤeŋʔ⏪𨳝
 𨳝	lhxengx*l̥ˤeŋʔ
 庭	lxeng*lˤeŋ
 鼮	lxeng*lˤeŋ
@@ -20961,7 +20938,7 @@ use_preset_vocabulary: true
 𢅹	leuk*leuk
 𥌺	leuk*leuk
 鸙	leuk*leuk
-𤒀	leuk*leuk
+𤒀	leuk*leuk⏪䶳
 䶳	leuk*leuk
 𧕋	leuk*leuk
 䟑	leuk*leuk
@@ -21017,14 +20994,14 @@ use_preset_vocabulary: true
 抴	laph*l[a]ph
 㵩	laph*l[a]ph
 呭	laph*l[a]ph
-紲	lhap*l̥[a]p❓
-緤	lhap*l̥[a]p❓
-泄	lhap*l̥[a]p❓
-渫	lhap*l̥[a]p❓
-媟	lhap*l̥[a]p❓
-齛	lhap*l̥[a]p❓
-𣽒	lhap*l̥[a]p❓
-疶	lhap*l̥[a]p❓
+紲	lhat*l̥[a]t❓
+緤	lhat*l̥[a]t❓
+泄	lhat*l̥[a]t❓
+渫	lhat*l̥[a]t❓
+媟	lhat*l̥[a]t❓
+齛	lhat*l̥[a]t❓
+𣽒	lhat*l̥[a]t❓
+疶	lhat*l̥[a]t❓
 
 # 字不見於廣韻者
 吏	ryh*rəh❓
@@ -21060,7 +21037,6 @@ use_preset_vocabulary: true
 崧	sung*[s]uŋ❓
 匚	pang*paŋ❓
 旊	pangx*paŋʔ❓
-吚	xi*ʔi❓
 開	khxyi*kʰˁəi❓
 䭫	khxix*kʰˁiʔ❓
 柿	dzrix*dzriʔ❓

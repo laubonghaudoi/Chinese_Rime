@@ -1,13 +1,1762 @@
+# [日]表示日本漢字
+#复	fu4
 ---
 name: "sautungva"
-version: "0.1"
+version: "0.10"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
 min_phrase_weight: 100
+import_tables:
+  - tcyennie
+  #- pedu
+  #- luna
+  - thezy
+  #- extended
+  #- hanyu
+  #- poetry
+  #- cn_en
+  #- zhwiki
+  - stvtoin
+  - stvdztsu
+  - stvpendi
+  - stvemoji
 ...
+摧	tshuei1
+萃	tshuei5
+淬	tshuei5
+瘁	tshuei5
+悴	tshuei5
+啐	tshuei5
+說	se1
+姥	mo3
+蛭	ts4
+冗	zung3
+嶸	yng2
+傛	yng2
+葺	tci1
+鱅	yng1
+蠑	yng2
+秸	tci1
+銳	zuei4П
+廻	vei2
+企	tchi3П
+場	tshang3П
+薅	xau1
+橫	ven2
+蕩	dang5
+噹	tang1
+襠	tang1
+鐺	tang1
+碭	dang2
+碭	dang5
+讜	tang3
+蠊	lien2
+瑟	se1
+銫	se1
+嗇	se1
+穡	se1
+砒	phi1
+宕	dang5
+湮	ien3
+胭	ien1
+胥	ci1
+婿	cy1П
+酚	fen1
+氛	ven5
+氛	fen4
+吩	fen1
+汾	ven2
+蟑	tsang1
+服	vu2
+遛	lieu1
+綹	lieu4
+熘	lieu2
+鎏	lieu2
+瑠	lieu2
+婉	uang3
+皖	uan3
+輓	uan3
+綰	uang3
+烷	vang2
+頑	vang2
+菀	uang3
+琬	uang3
+剜	uang1
+脘	vang2
+魍	uang2
+鷄	tci1
+嘅	ke1
+岩	ien2
+尾	mi3
+嶼	y2
+瘀	y1
+隅	y2
+諭	y4
+輿	y2
+癒	y4
+庾	y2
+茱	tcy1
+隻	ts1
+圳	tsen4
+嗆	tshuang5
+噁	o4
+峩	ngo2
+錒	a1
+鶚	ngo4
+婀	o1
+鍔	ngo4
+佘	za2
+斫	to4
+斫	tso4
+𥕢	dzau2
+槎	tsha1
+槎	tsa1
+寧	ni4
+暇	zia2
+瑕	zia2
+疵	tsh1
+茈	ts3
+鐳	luei2
+埒	luei4
+耒	luei3
+酹	luei4
+纇	luei4
+張	tiang1	1%
+伯	pe4
+唑	dzo5
+仃	tin1
+嗵	thung1
+咚	tung1
+氡	tung1
+峒	dung2
+崆	khung1
+酩	min2
+酊	tin1
+叮	tin1
+腚	din5
+啶	din5
+靛	din5
+吖	a1
+潦	liau2
+瞭	liau3
+顫	tshan5П
+埠	bu5
+阜	vu5
+捧	phung3
+寝	tchin3
+鸞	luang2
+欒	luang2
+巒	luang2
+鑾	luang2
+泪	luei4
+帘	lien2
+漣	lien2
+璉	lien2
+濂	lien2
+殮	lien3
+攣	luang2
+鎌	lien2
+瀲	lien4
+蠊	lien2
+羌	tchiang1
+薔	dziang2
+檣	dziang2
+嬙	dziang2
+墻	dziang2
+襁	dziang2
+覃	dzin2
+磬	tchin5
+罄	tchin5
+黥	dzyng2
+繾	tchien3
+躚	tchien1
+軀	tchy1
+覷	tchy5
+衢	dzy2
+逑	dzieu2
+驢	ly2
+晾	lang4
+晾	liang4П
+顱	lu2
+嚕	lu1
+碌	lu4
+鸕	lu2
+擄	lu3
+戮	lu4
+櫓	lu3
+擼	lu1
+瀘	lu2
+淥	lu4
+鱸	lu2
+臚	lu2
+漉	lu4
+艫	lu2
+銖	tcy1
+舳	dzu2
+潞	lu4
+瑞	dzuei5	1%
+焯	tshau1
+拳	dzya2
+蹶	tchya5
+子	tci3
+粥	tseu1
+個	ko3
+甲	ka1
+加	ka1
+駕	ka4
+稼	ka1
+珈	ka1
+枷	ka1
+藨	phau1
+瓮	ung4
+甕	ung4
+逕	tcin4
+儆	tcin4
+阱	tcin3
+憬	tcin3
+撓	lau2
+瑙	lau3
+逗	deu5
+沒	mo1
+婧	dzin5
+濚	yng2
+蹤	tsung1
+揍	dzeu5
+諏	tseu1
+做	tsu4
+做	tseu4
+抻	tshen1
+清	tshen1
+背	pei4
+仟	tchien1
+倩	tchien5
+茜	tchien5
+茜	ci1
+騫	tchien1
+芊	tchien1
+塹	tchien3
+蕁	zyn2
+蕁	dzien2
+譴	tchien3
+籤	tchien1
+謇	tcien3
+黔	dzien2
+券	tchyen5
+荃	dzyen2
+醛	dzyen2
+銓	dzyen2
+詮	dzyen2
+佺	dzyen2
+筌	dzyen2
+痊	dzyen2
+挫	tsho5
+硅	kuei1
+鮭	kuei1
+曰	ye1
+曰	io1
+嶽	ye4
+玥	ye4
+噦	ye2
+橡	ciang4
+祥	ziang2
+項	ziang5
+汲	tci4
+饑	tci1
+唧	tci1
+嫉	tci4
+伎	tci4
+畸	tci1
+嵇	tci1
+悸	tci4
+笈	tci4
+迄	tchi4
+嘁	tchi1
+胤	in4
+霪	in2
+瑩	in2
+瑛	in1
+蠅	in3
+瀛	in2
+瀅	in2
+嬴	in2
+熒	in2
+楹	in2
+膺	in1
+嚶	in1
+閆	ien2
+烟	ien1
+醃	ien1
+琰	ien2
+偃	ien3
+靨	ien4
+魘	ien3
+蜒	ien2
+砷	sen1
+晟	sen1
+譁	va2
+惚	fu1
+鶻	vu5
+劾	xo4
+泓	hung2
+鬨	hung5
+肱	kung1
+瀚	han5
+悍	han5
+晗	han2
+捍	han5
+菡	xan4
+酗	cy4
+馴	cyn4
+勛	cyn1
+洵	zyn2
+潯	zyn2
+燻	cyn1
+噱	cye4
+渲	cyen4
+暄	cyen1
+鏽	cieu4
+脩	cieu1
+浠	ci1
+歃	sa4
+裟	sa1
+霎	sa4
+崚	len2
+塄	len4
+脛	tcin4
+瀣	cie4
+邂	cie4
+沆	hang5
+螄	s1
+奇	tci1	1%
+射	zia5
+猿	yen2
+垣	yen2
+沅	yen2
+鳶	yen1
+雎	tcy1
+掄	len2
+掄	luen2
+綸	len2
+綸	luen2
+侖	len2
+侖	luen2
+淪	len2
+淪	luen2
+沒	mo4	10%
+間	ka1	1%
+鎳	nie1
+聶	le1
+𥣘	ie1
+壑	ho5
+彆	pie1
+胁	cie1	10%
+淩	lin2
+菱	lin2
+綾	lin2
+苓	lin2
+翎	lin3
+聆	lin2
+囹	lin2
+粼	lin2
+璘	lin2
+嶙	lin2
+廩	lin3
+拎	lin1
+凜	lin3
+藺	lin4
+麟	lin2
+霖	lin2
+捏	nie1
+飼	z2
+借	tcia4
+舐	s4
+唆	so1
+娑	so1
+羧	so1
+艘	seu1
+蒐	seu1
+叟	seu3
+嗖	seu1
+說	so1
+服	vu2
+岱	tai4
+甙	dai5
+傣	tai3
+燥	tsau4
+江	kang1
+別	pe4	1%
+掣	tshe5
+澈	tshe1
+徹	tshe1
+傳	dzyen5
+孃	niang2
+戧	tshuang5
+牀	dzuang2
+週	tseu1
+一	i4
+糨	tciang4
+殭	tciang1
+上	zang3
+翳	i4
+#qianLai
+瀨	lai4
+熱	nien4
+渹	tchien5
+綺	tchi3
+慼	tchi1
+柒	tchi1
+麒	dzi2
+碁	dzi2
+鰭	dzi2
+騏	dzi2
+畦	dzi2
+淒	tchi1
+沏	tchi1
+覬	tchi3
+皛	tciau4
+竈	tsau4
+譟	tsau4
+噪	tshau5
+肏	tshau5
+漕	dzau2
+嘈	dzau2
+艚	dzau2
+羸	luei3
+嗑	kho1
+軻	kho1
+坷	kho1
+殑	khe1
+氪	khe1
+鈕	nieu3
+裊	niau3
+巧克力	chocolate
+胎	tyre
+恶	o3
+翅	tsh1
+褻	cie4
+搏	po4
+箇	ko3
+亇	ko4
+琨	khuen1
+錕	khuen1
+鯤	khuen1
+堃	khuen1
+喘	tchyen3
+舛	tchyen3
+椽	dzyen2
+氚	tchyen1
+絳	tciang4
+槳	tciang3
+犟	tciang4
+繮	tciang1
+鏘	tchiang1
+鏹	dziang2
+燬	fei3
+燴	vei5
+喙	vei5
+喙	huei5
+誨	vei5
+譭	fei3
+諢	ven2
+閽	fen1
+溷	ven5
+琿	ven2
+惛	fen1
+𰻞	piang3
+瞅	tsheu3
+疇	dzeu2
+糗	tchieu3
+讎	dzeu2
+搐	tshu5
+儔	dzeu2
+惆	dzeu2
+鯛	tiau1
+躊	dzeu2
+讐	dzeu2
+忻	cin1
+訫	cin4
+鷺	lu4
+奐	fang4
+豢	fang4
+嬛	vang2
+鬟	vang2
+翾	cyen1
+煌	vang2
+磺	vang2
+恍	fang3
+惶	vang2
+幌	fang3
+璜	vang2
+篁	vang2
+遑	vang2
+徨	vang2
+潢	vang2
+隍	vang2
+輻	vu2
+頫	fu3
+擰	nin3
+嚀	nin2
+您	nin2
+俺	ngan3
+氨	ngan1
+胺	ngan4
+銨	ngan3
+黯	ngan4
+諳	ngan1
+闇	ngan4
+鵪	ngan1
+鰲	ngau2
+驁	ngau4
+拗	ngau4
+遨	ngau2
+鏖	ngau2
+鄔	u1
+兀	u4
+焐	u3
+忤	u3
+仵	u3
+穫	xo4
+嚯	xo4
+涮	suai4
+誜	sua4
+隋	zuei2
+祟	suei4
+燧	suei4
+邃	suei4
+誶	suei4	50%
+誶	tshuei5
+錳	mung3
+虻	mang2
+獴	mung2
+鉀	tcia3
+迦	ka1
+迦	tcia1
+頰	tcia4
+珈	tcia1
+枷	tcia1
+挾	tcia1
+莢	tcia1
+葭	tcia1
+戛	tcia4
+笳	tcia1
+屆	tcie4
+戒	tcie4
+階	tcie1
+婕	tcie4
+婕	tcie1
+竭	tcie1
+竭	tcie4
+孑	tcie4
+誡	tcie4
+桀	tcie4
+甲	tcia1
+角	tciau3
+寰	vang2
+渙	fang4
+獾	fang1
+浣	vang5
+脫	the1
+轅	yen2
+苑	yen4
+媛	yen2
+亍	tshu5
+楮	tcy3
+芻	dzy2
+黜	tshu5
+滁	dzy2
+茬	dza2
+槎	tsha1
+詫	tsha5
+衩	tsha3
+紥	tsa1
+讖	tshan5
+讖	tshen5
+潺	dzan2
+巉	dzan2
+懾	ze5
+畲	ze2
+濕	s1
+尸	s1
+噬	s4
+拭	s4
+恃	z5
+弒	s4
+昰	z5||是 異體
+軾	s4
+諡	z5
+飠	s4
+鑠	so4
+嗍	so4
+槊	so4
+搠	so4
+蒴	so4
+説	so1
+觴	sang1
+尙	zang5
+繕	zan5
+跚	san1
+咫	ts3
+蚩	tsh1
+誌	ts4
+痣	ts4
+酯	ts3
+芷	ts3
+擲	dz5
+緻	ts4
+祗	ts3
+摯	ts4
+衹	ts3
+峙	dz5
+幟	ts4
+雉	ts4
+窒	ts4
+郅	ts4
+枳	ts4
+櫛	ts4
+渚	tsu3
+竺	tsu4
+竺	tu4	10%
+筑	tsu1
+蛛	tsu1
+炷	tcy1
+箸	tcy3
+邳	bei2
+范	van5
+樊	van2
+梵	fan4
+汎	van2
+藩	fan1
+釩	vab2
+仮	tcia3
+霏	fei1
+吠	fei4
+扉	fei1
+啡	fei1
+咖啡	cafe
+腓	vei2
+鐨	fei4
+鯡	fei1
+耶	ie1
+纂	tsuang4
+饌	tcyen4
+顓	tsyen1
+莘	cin1
+霉	mei2
+攷	khau3
+痰	dzan2
+覺	tciau4
+青銅
+白銀
+黃金
+鑽石
+星耀
+鉑金
+王者
+采	tshai3
+纔	dzai2
+綵	tshai3
+攥	tsuang4
+隴	lung3
+嚨	lung3
+給	tci3
+#給
+嘟	tu1
+篤	tu3
+犢	du5
+牘	du5
+瀆	du5
+蠹	tu4
+恫	dung5
+恫	thung1
+忑	the5
+羰	thang1
+忐	than3
+倀	thang1	10%
+倀	tshang1
+唉	ai4
+哎	ai4
+脣	dzuen2
+脣	dzen2
+醇	dzyn2
+淳	dzyn2
+鶉	dzyn2
+茹	zu2
+冉	zang2
+芮	zuei4
+嚷	zang1
+濡	zu2
+髯	zang2
+攘	zang3
+鎔	zung2
+瓤	zang3
+仞	zen4
+孺	zu2
+稔	zen3
+蕊	zuei3
+詡	cy3
+栩	cy3
+続	cy4||[日]續(续)
+勖	cy4
+頊	cy4
+蓿	su4
+愫	su4
+窣	su4
+蔌	su4
+玊	su4
+疎	su1
+姝	cy1
+庶	su4
+樞	cy1
+曙	cy3
+戍	su4
+倏	su1
+塾	su4
+紓	cy1
+黍	cy3
+澍	zy5
+翊	i4
+弋	i4
+苡	i3
+佚	i5
+洙	zy2
+鉻	ko4
+皰	pau1
+趵	pau4
+緥	pau3
+郜	kau4
+鵠	vu2
+誥	kau4
+嗥	kau1
+髙	kau1||高的異體
+睪	i4
+謁	ie4
+掖	ie4
+鄴	ie4
+吔	ia1||借粵語音
+冼	cien3
+舷	zyen2
+蘚	cien3
+醯	ci1||廣韻hei平
+虢	kue4
+著	tso1
+恣	ts4
+糍	dz2
+塊	khuai3||錢的單位	1%
+#更新 淆疊 音
+匣	zia2
+爵	dzye2
+嗟	tcie1
+厥	tcye1
+撅	tcye1
+蹶	tcye1
+崛	dzye2
+譎	tcye1
+彝	i2
+衕	dung2
+衕	dung5
+慟	dung5
+胴	dung5
+甦	su1
+夙	su4
+僳	su4
+謖	su4
+稷	tci4
+簌	su4
+龢	ho2
+鄺	kuang3
+鄺	kuang1	50%
+胱	kuang1
+誑	guang2
+哐	khuang1
+誆	khuang1
+苛	kho1
+胯	khua5
+滇	tien1
+紮	tsa1
+乍	tsa4
+咣	kuang1
+嚼	dziau5
+礁	tciau1
+窖	dziau5
+敎	tciau4
+蛟	tciau1
+姣	tciau3
+姣	zau2||?ziau2
+鉸	tciau3
+皎	tciau3
+嶠	dziau2
+鮫	tciau1
+醮	tciau1
+檄	ci4
+逍	ciau1
+梟	xiao1
+驍	ciau1
+哮	ciau4
+肴	ziau2
+疚	tcieu4
+岫	zieu4
+游	ieu2
+呦	ieu1
+鈾	ieu2
+酋	dzieu2
+攸	ieu1
+黝	ieu3
+効	ziau5
+訕	zan5
+煽	san1
+羶	cien1
+茵	in1
+垠	in2
+洇	in1
+蚓	in3
+氤	in1
+齦	in2
+訡	in2
+榆	y2
+妗	tcim1
+撻	tha5
+嗒	ta1
+罔	vang3
+鈷	ku3
+咕	ku1
+雇	ku4
+絝	khu5
+轂	ku1
+佈	pu4
+羆	phi1
+糸	s1||[日]絲(丝)
+秘	mi4
+靡	mi2
+醚	mi2
+冪	mi4
+宓	mi4
+蘼	mi2
+瀰	mi2
+汨	mi4
+羋	mi3
+羋	min3||誤讀或訛讀
+訛	ngo2
+峨	ngo2
+遏	ngo4
+諤	ngo4
+呃	a1||借粵語音
+麋	mi2
+鶩	vu5
+苜	mo4
+霂	mo4
+鏌	mo4
+默	mo4k
+黙	mo4k||[日]默
+麽	mo3
+脉	mai4
+脈	mai4
+霾	mai2
+売	mai4||[日]賣(卖)
+羙	mei4
+槑	mei2
+懋	mau4
+昴	mau3
+瑁	mau4
+旄	mau2
+麾	fei1
+袤	mau4
+蟊	mau2
+眸	meu2
+牟	meu2
+哞	meu2
+蟎	man2
+鰻	man2
+満	mang3||[日]滿(满)
+蔓	uan4
+邙	mang2
+牤	mang2
+燜	men1
+燜	men4
+捫	men2
+懣	men4
+矇	mung2
+朦	mung2
+濛	mung2
+蠓	mung2
+艋	mung3
+艨	mung2
+乜	mie1	1%
+篾	me4
+篾	mie4
+蠛	mie4
+淼	miau3
+謬	mieu4
+邈	miau3
+緲	miau3
+繆	mieu4
+玅	miau4
+麵	mien4
+冕	mien3
+浼	mien3
+岷	min2
+溟	min2
+暝	min2
+螟	min2
+詺	min2
+酩	min2
+翩	phien1
+汴	pien4
+氕	phie1
+丿	phie1	10%
+縹	phiau1
+驃	piau1
+剽	biau2
+鑣	piau1
+飊	piau1
+稟	pim3
+臏	pin1||?
+氷	pin1
+彆	pie4	1%
+蹩	phie3
+鼈	pie1
+燮	cie4
+榭	cie4
+屑	cie4
+腌	ien1
+捌	pa1
+跋	ba2
+灞	pa4
+笆	pa1
+魃	ba2
+屄	pi1
+謐	mi4
+嗶	pi1
+膊	po1
+鉢	po1
+鉑	bo2
+脖	po4
+渤	po4
+蕃	po1
+舶	bo5
+箔	po4
+洎	bo2
+亳	bo2
+搿	pai1
+焙	bei2
+狽	pei4
+邶	pei3
+甭	bung2
+嘣	ping1
+堋	bung2
+鏰	pung4
+鈑	pan3
+癍	pan1
+舨	pan3
+褩	pan1
+攽	pan1
+昄	pan3
+膀	bang2
+鎊	pang4
+煲	pau1
+苞	pau1
+葆	pau3
+孢	pau1
+寳	pau3
+齙	pau4
+匏	bau2
+褓	pau3
+鴇	pau3
+鈹	bi2
+鼙	bi2
+莆	phu3
+僕	bu2
+匍	bu2
+璞	phu3
+濮	phu3
+溥	phu3
+蹼	phu3
+鐠	phu3
+叵	pho3
+笸	pho3
+鄱	bo2
+旆	phei5
+碚	bei2
+湓	ben2
+揪	tcieu1
+玖	tcieu3
+鳩	tcieu1
+僦	tcieu4
+愀	tcieu1
+卞	pien4
+煸	pien3
+吡	pi4
+圩	vei2
+圩	cy1
+薈	fei4
+迴	vei2
+穢	fei4
+穢	uei4
+偎	uei1
+猥	uei3
+帷	vei2
+雯	ven2
+搵	uen4
+紊	uen3
+汶	ven2
+汶	ven5
+菟	thu5
+#谷字改音
+薊	tci4
+堀	khu1
+堀	ku1
+袴	khu5
+沽	ku1
+辜	ku1
+穀	ku1
+蠱	ku3
+樂	iau4	1%
+駢	bien2
+諞	bien2
+暉	fei1
+悔	fei4
+悔	fei3
+彙	vei5
+蕙	vei5
+諱	fei4
+卉	fei4
+粘	tsan1
+粘	nien2
+軼	i5
+胰	i2
+漪	i3
+漪	i1
+貽	i2
+弈	i4
+屹	i4
+曳	ie4
+沂	i2
+詣	i4
+羿	i4
+熠	i4
+翌	i4
+刈	i4
+粕	pho5
+珀	pho5
+幡	fang1
+着	tsho5
+緇	ts1
+瑾	tcin3
+靳	tcin4
+儘	tcin3
+噤	dzin5
+矜	tcin1
+堇	tcin3
+槿	tcin3
+衿	tcin1
+燼	dzin5
+饉	tcin3
+覲	tcin4
+藎	dzin5
+涇	tcin1
+旌	tcin1
+璟	tcin3
+兢	tcin1
+霆	din2
+烴	thin1
+汀	thin1
+羥	tchiang1
+氖	lai3
+柰	lai4
+鈉	la4
+衲	la4
+嵋	mei2
+鋁	ly3
+氯	ly4
+氯	lu1
+鏤	ly3
+閭	ly2
+褸	ly3
+撂	liau4
+暸	liau2
+僚	liau2
+燎	liau2
+寥	liau2
+繚	liau2
+獠	liau2
+棘	dzi2
+磯	tci1
+哉	tsai1
+砸	tsa4
+匝	tsa3
+咂	tsa1
+臢	tsa1
+飭	tsh1
+敕	tsh5
+悖	pei4
+褚	tchy3
+雛	dzu2
+櫥	dzy2
+杵	tchy3
+矗	tshu5
+怵	tshu5
+萵	o1
+隼	suen3
+笋	sen3
+苣	dzy5
+氫	tchin1
+駭	hai5
+骸	hai2
+氦	hai5
+鋰	li3
+鈈	phi1
+砰	phung1
+嘭	phung1
+怦	phung1
+抨	phung1
+澎	bung2
+壇	dan2
+歎	than5
+罈	dan2
+曇	dan2
+袒	than3
+簞	tan1
+靼	ta1
+韃	da2
+殫	tan1
+煬	iang2
+暘	iang2
+泱	iang1
+烊	iang2
+鴦	iang1
+徉	iang2
+怏	iang1
+瑒	iang2
+沸	fei4
+孚	vu2
+馥	vu5
+彿	vu2
+坊	fang3
+彷	fang3
+舫	fang3
+枋	fang1
+魴	vang2
+昉	fang3
+沖	tshung1
+憧	tshung1
+禧	ci3
+嘻	ci1
+烯	ci1
+汐	ci1
+喺	ci4
+熹	ci1
+羲	ci1
+晰	ci1
+淅	ci1
+皙	ci1
+矽	ci1
+囍	ci3
+蜥	ci1
+唏	ci1
+褉	cie1
+晞	ci1
+憩	tchi5
+莉	li4
+俐	li4
+曆	li4
+釐	li2
+贓	tsuang1
+贓	tsang1
+彰	tang1	10%
+璋	tang1	10%
+漳	tang4	10%
+嶂	tsang4
+嶂	tang4	10%
+昆	khuen1
+佐	tso3
+咗	tso3
+郴	tshem1
+埠	bu5
+阜	bu5
+訃	fu4
+皋	kau1
+鋯	kau4
+哺	pu3
+釗	tsau1
+獁	ma3
+蔴	ma2
+駡	ma4
+茉	mo4
+謨	mo4
+歿	mo4
+驀	mo4
+瞭	liau4
+寮	liau2
+嘍	leu2
+樑	liang2
+鍊	lien4
+琳	lin2
+愷	khai3
+蟆	ma2
+肇	dzau5
+迢	diau2
+掰	pan1
+坂	pan3
+阪	pan3
+佰	pe1
+襬	pai3
+沌	duen5
+沮	tcy3
+鏃	tshu5
+俎	dzu2
+簇	tshu5
+蹙	tshu5
+蹴	tshu5
+殂	dzu2
+丸	vang2
+狙	tcy1
+鉅	tcy4
+鞠	tcy1
+炬	tcy4
+掬	tcy1
+捏	nien1
+韋	uei3
+惟	vei2
+瑋	uei3
+煒	uei3
+蔚	uei4
+巍	uei1
+渭	uei4
+尉	uei4
+尉	y4
+解	cie4
+喂	uei4
+僞	uei3
+悚	sung3
+竦	sung3
+弗	vu2
+氟	vu2
+拂	vu2
+朕	tsen4
+禎	tsen1
+斟	tsen1
+怔	tsen1
+征	tsen1
+鄭	dzen5
+承	dzen2
+彤	dung2
+佟	dung2
+酮	dung2
+砼	dung2
+砼	zen2 kung1 s4
+仝	dung2
+潼	dung2
+德	te4
+鍀	te4
+嘲	dzau2
+謿	dzau2
+參	tshen1
+璨	tshan4
+粲	tshan4
+艙	tshang1
+滄	tshang1
+愴	tshuang5
+剷	tshan3
+嬋	dzan2
+蟾	dzan2
+懺	tshan5
+諂	tshan3
+嚐	dzang2
+敞	tshang3
+昶	tshan3
+悵	tshang5
+嫦	dzang2
+鯧	tshang1
+咱	tsan3			#訓讀
+讚	tsan4
+髒	tsang1
+臧	tsang1
+沾	tsan1
+占	tsan4
+詹	tsan1
+湛	tsan4
+瞻	tsan1
+氈	tsan1
+綻	tsan4
+霑	tsan1
+帳	tsang4	90%
+脹	tang4	10%
+彰	tsang1
+璋	tsang1
+漳	tsang4
+嫣	ien1
+衍	ien3
+堰	ien4
+檐	ien2
+焱	ien2
+贗	ien4
+避	phi5
+撾	uo1
+酪	lau4
+恪	khe1
+拓	tho5
+陀	do2
+沱	do2
+砣	do2
+庹	tho5
+哆	to1
+鐸	do2
+碩	zo5
+溯	so4
+爍	so1
+蟮	zan5
+輟	tsho5
+齪	tsho1
+啜	tsho5
+踔	tsho5
+拙	tso1
+灼	tso4
+濯	dzo5
+詘	tso1
+羣	dzyn2
+簽	tchien1
+邱	tchieu1
+裘	dzieu2
+囧	tcyng3
+杰	tcie4
+娟	tcyen1
+涓	tcyen1
+鵑	tcyen1
+蜷	dzyen2
+綣	dzyen2
+鹹	zien2
+鹹	han2
+纖	cien1
+纖	tchien1
+嫺	zien2
+綫	cien4
+襄	ciang1
+奚	ci1
+硒	ci1
+溼	s1
+峯	fung1
+涵	han2
+婪	lan2
+腩	lan2
+琅	lang2
+閥	va2
+准	tcyn3
+扈	vu5
+鬍	vu2
+弧	vu2
+唬	fu1
+惕	thi1
+歆	cin1
+惺	cin1
+懟	tuei4
+葩	pha1
+鈀	ba2
+噼	phi1
+淠	bi5
+圃	phu3
+濮	phu3
+朴	phu3
+埔	phu3
+溥	phu3
+湃	phai5
+徘	bai2
+俳	bai2
+磐	ban2
+泮	phan5
+蟠	phan1
+爿	phiang3
+彷	bang2
+乓	phang1
+滂	phang1
+霈	phei5
+轡	phei5
+庖	bau2
+硼	bung2
+澎	bung2
+韜	thau1
+悼	dau5
+蹈	dau5
+禱	tau3
+燾	dau5
+則	tse1
+楞	len2
+愣	len4
+稜	len2
+棱	len2
+泠	lin1
+署	cy3
+牴	ti3
+堤	ti1
+諦	ti4
+旳	ti3
+邸	di3
+啲	ti1
+嗨	xai1
+后	heu5
+蒂	ti4
+𢔶	te1
+竇	deu5
+痘	deu5
+蹬	ten1
+氮	dan5
+啖	dan5
+憚	dan5
+瑪	ma3
+酶	mei2
+暮	mo4
+沐	mo4
+募	mo4
+冥	min2
+閔	min3
+茗	min2
+鎂	mei3
+玫	mei2
+寐	mei4
+湄	mei2
+莓	mei2
+袂	mei4
+儂	lung2
+吶	la1
+妞	nieu1
+咧	lie4
+冽	lie4
+洌	lie4
+妳	n3
+妳	ni3
+妮	ni1
+倪	ni2
+暱	ni4
+霓	ni2
+涅	nie4
+挪	lo2
+喏	lo4
+懦	lo4
+萼	ngo4
+獃	tai1
+獃	ngai2
+釦	kheu5
+夸	khua1
+珂	kho1
+壙	khuang5
+杆	kan1
+紺	kan1
+睇	di5
+噠	ta4
+迪	ti4
+擡	dai2
+鈦	thai5
+肽	thai5
+檯	dai2
+颱	dai2
+殆	dai5
+跆	dai2
+邰	thai1
+咁	kam1
+噶	ko3
+葛	ko3
+軒	cyen1
+炫	zyen5
+瑄	cyen1
+萱	cyen1
+璇	zyen2
+絃	zyen2
+鉉	zyen2
+翔	ziang2
+須	cy1
+旭	cy4
+恤	cy4
+胥	cy4П
+鬚	cy1
+煦	cy4
+漵	cy4
+唄	pe1
+撲	phu1
+萍	bin2
+浜	pang1
+頗	pho1
+畔	phan4
+瞥	phie1
+瞟	phiau3
+噗	phu1
+葡	bu2
+蓓	bei5
+璞	phu3
+盃	pei1
+泵	pung4
+苯	pen3
+佈	pu4
+錶	piau3
+飆	piau1
+飈	piau1
+嘌	phiau1
+斐	fei1
+斐	fei3
+雪	cye1
+謔	cye4
+鱈	cye3
+#分界
+籽	ts3
+孜	ts3
+漬	ts4
+葵	guei2
+饋	khuei5
+匱	khuei5
+夔	guei2
+吃	tchia1
+弛	dz2
+叱	tsh5
+骷	khu1
+邏	lo2
+嘰	tci1
+蹟	tci4
+飢	tci1
+羈	tci1
+驥	tci4
+霽	dzi5
+喆	tse4
+轍	tse4
+輒	tse1
+仄	tse4
+嘯	ciau4
+筱	ciau3
+溴	cieu4
+饈	cieu1
+瀾	lan2
+闌	lan2
+蝻	lan2
+訥	la4
+唸	nien4
+囊	lang2
+饢	lang2
+染	zan3
+睿	zuei5
+台	thai1
+兮	e3	99%
+兮	ci1	1%
+曦	ci1
+濱	pin1
+瀕	pin1
+併	bin5
+炳	pin3
+吖	ia1
+噢	eu1
+喔	o1
+邑	i4
+攜	cie4
+泄	cie4
+諧	cie1
+脅	cie4
+偕	cie1
+楔	cie1
+羯	cie1
+晤	u4
+塢	u1
+鎢	u1
+嘿	xe1
+寧	nin2
+凝	nin2
+甯	nin2
+檸	nin2
+佞	lin4
+獰	nin2
+矚	tcy3
+呵	xo1
+郝	xo4
+閤	ho2
+學	xo4	1%
+褐	xo4
+覈	xe4
+闔	ho2
+涸	ho2
+鉚	mau3
+髦	mau2
+茆	mau3
+耄	mau4
+迭	die2
+噸	ten1
+燉	den5
+蹲	tung1
+蹲	tuen1
+遁	duen5
+臀	duen2
+飩	duen5
+閃	san3
+陝	san3
+擅	zan5
+姍	san1
+汕	san4
+贍	zan5
+鱔	zan5
+尚	zang5
+殤	sang1
+裳	sang3
+熵	sang1
+墒	sang1
+狩	zeu5
+蔘	sen1
+諶	zen5
+蜃	zen5
+燊	sen1
+呀	ia1
+鈺	y4
+婭	ia4
+氬	ia4
+訝	ia4
+冶	ie3
+燁	ie4
+椰	ie1
+曄	ie4
+嘢	ia3
+咦	i2
+喲	io1
+唷	io1
+嚛	io1
+煜	y4
+毓	y4
+豔	ien4
+妍	ien2
+菸	ien1
+焉	nien1	50%
+焉	ien1	50%
+漾	iang4
+恙	iang4
+佯	iang2
+鞅	iang1
+隕	yn3
+氳	yn1
+雍	yng1
+甬	yng3
+錐	tsuei1
+椎	tsuei1
+縋	dzuei2
+惴	tsuei4
+忍	zen3
+昊	hau5
+皓	hau5
+鑫	cin1
+昕	cin1
+邢	zin2
+爾	n3
+丑	tsheu3
+厄	ngo4
+鄂	ngo4
+娥	ngo2
+噩	ngo4
+鱷	ngo4
+顎	ngo4
+輬	liang2
+蜀	su3
+孰	su4
+墅	su4
+駐	tcy4
+誅	tcy1
+貯	tcy3
+齣	tcy1
+值	tsh4
+直	ts4
+懼	tcy4
+据	tcy4
+橘	tcy4
+闆	pan3
+喵	miau1
+仔	tsai3
+琛	sen1
+紳	sen1
+陞	sen1
+繩	zen2
+坨	do2
+謎	mi2
+祕	mi4
+眯	mi1
+廁	tshe5
+她	tha1
+它	tha1
+牠	tha1
+皮	bi2
+脾	bi2
+疲	bi2
+匕	pi3
+辟	phi1
+闢	phi1
+癖	phi5
+啤	bi2
+陂	pi3
+毗	bi5
+㨃	tuei4
+凹	ngau1
+嗷	au1
+獒	ngau2
+翱	ngau2
+疼	den2
+秩	ts4	9999999
+煞	sa4
+喀秋莎
+蕪	vu2
+嗚	u1
+戊	vu5
+毋	mo1
+鬆	sung1
+嵩	sung1
+淞	sung1
+圾	tci1
+剌	la2
+邋	la1
+旯	la2
+暨	tci4
+姬	tci1
+跡	tci4
+戟	tci3
+喀	kha1
+咔	kha1
+尬	ka1
+干	kan1
+贛	kan4
+侃	khan3
+瞰	khan5
+垢	ka1
+伽	ka1
+旮	ka1
+涂	du2
+荼	du2
+嗯	n3
+嗯	n2
+哼	hng1
+學	cio4
+賺	dzyen5
+撰	dzyen5
+摁	ngen4
+謝	dzia5
+誒	e4
+誒	e2
+欸	e4
+欸	e2
+謝	dzie5
+頡	tcie4
+腐	vu3
+像	dziang5
+兼	tcien1
+撿	tcien3
+劵	tchyen5
+佬	lau3
+怡	i2
+壹	i1
+奕	i4
+役	i4
+疫	i4
+頤	i2
+裔	i4
+驛	i4
+懿	i4
+祿	lu4
+璐	lu4
+麓	lu4
+講	tciang3
+薑	tciang1
+傢	tcia1
+萊	lai2
+#old
+歷	li4
 知	ts1
-知乎	ts1 fu1
 蜘	ts1
 支	ts1
 枝	ts1
@@ -29,6 +1778,7 @@ min_phrase_weight: 100
 芝	ts1
 趾	ts1
 紫	ts3
+#然	ts3
 紙	ts3
 姊	ts3
 脂	ts3
@@ -46,16 +1796,15 @@ min_phrase_weight: 100
 志	ts4
 痔	ts4
 制	ts4
-制度	ts4 du5
 製	ts4
-製作	ts4 tso4
-製造	ts4 tsau4
 汁	ts4
 侄	ts4
 質	ts4
 值	ts4
 職	ts4
 雌	tsh1
+癡	tsh1
+斥	tsh1
 疵	tsh1
 差	tsh1
 嗤	tsh1
@@ -67,9 +1816,8 @@ min_phrase_weight: 100
 恥	tsh3
 齒	tsh3
 刺	tsh5
+熾	tsh5
 直	tsh5
-直接	tsh5 tcie4
-直賓	tsh5 pin1
 賜	tsh5
 次	tsh5
 秩	tsh5
@@ -87,15 +1835,16 @@ min_phrase_weight: 100
 嗣	dz2
 詞	dz2
 持	dz2
-滯	dz2
+滯	dz5
 茨	dz2
 自	dz5
-示	dz5
-視	dz5
-嗜	dz5
+示	z5
+視	z5
+嗜	z5
+字	z5
 字	dz5
 稚	dz5
-似	dz5
+似	z5
 祀	dz5
 治	dz5
 痔	dz5
@@ -201,7 +1950,7 @@ min_phrase_weight: 100
 瞇	mi1
 咪	mi1
 迷	mi2
-稱	mi2
+#稱	mi2
 彌	mi2
 糜	mi2
 眉	mi2
@@ -228,7 +1977,6 @@ min_phrase_weight: 100
 屜	thi1
 踢	thi1
 體	thi3
-體系	thi3 ci4
 替	thi5
 剃	thi5
 剔	thi5
@@ -255,6 +2003,7 @@ min_phrase_weight: 100
 里	li3
 李	li3
 裡	li3
+裏	li3
 理	li3
 鯉	li3
 历	li4
@@ -291,7 +2040,7 @@ min_phrase_weight: 100
 己	tci3
 幾	tci3
 擠	tci3
-渠	tci3
+渠	tci3	999999999
 祭	tci4
 際	tci4
 濟	tci4
@@ -355,7 +2104,6 @@ min_phrase_weight: 100
 祺	dzi2
 崎	dzi2
 岐	dzi2
-歧視	dzi2 dz5
 騎	dzi2
 奇	dzi2
 期	dzi2
@@ -374,8 +2122,8 @@ min_phrase_weight: 100
 誼	ni2
 尼	ni2
 疑	ni2
-你	ni4
-擬	ni4
+你	ni3
+擬	ni3
 膩	ni4
 蟻	ni4
 逆	ni4
@@ -386,7 +2134,6 @@ min_phrase_weight: 100
 溺	ni4
 腻	ni4
 西	ci1
-西里爾	ci1 li3 e3
 棲	ci1
 犀	ci1
 婿	ci1
@@ -413,7 +2160,6 @@ min_phrase_weight: 100
 徙	ci3
 細	ci4
 系	ci4
-系統	ci4 thung3
 係	ci4
 戲	ci4
 習	ci4
@@ -429,16 +2175,10 @@ min_phrase_weight: 100
 醫	i1
 伊	i1
 一	i1
+一	i4
 揖	i1
 姨	i2
 爺	i2
-姑爺	ku1 i2
-大爺	dai5 i2
-二爺	e4 i2
-三爺	san1 i2
-四爺	s4 i2
-小爺	ciau3 i2
-外爺	uai4 i2
 夷	i2
 遺	i2
 移	i2
@@ -472,7 +2212,6 @@ min_phrase_weight: 100
 布	pu4
 怖	pu4
 不	pu4
-不錯	pu4 tsho5
 鋪	phu1
 樸	phu1
 普	phu3
@@ -482,7 +2221,7 @@ min_phrase_weight: 100
 浦	phu3
 甫	phu3
 鋪	phu5
-僕	phu5
+仆	phu5
 瀑	phu5
 訃	phu5
 赴	phu5
@@ -518,7 +2257,6 @@ min_phrase_weight: 100
 賦	fu4
 富	fu4
 副	fu4
-复	fu4
 佛	fu4
 縛	fu4
 福	fu4
@@ -530,7 +2268,6 @@ min_phrase_weight: 100
 赴	fu4
 服	fu4
 吳	vu2
-吳音	vu2 in1
 蜈	vu2
 娛	vu2
 梧	vu2
@@ -666,7 +2403,7 @@ min_phrase_weight: 100
 估	ku1
 骨	ku1
 窟	ku1
-谷	ku1
+谷	ku3
 菇	ku1
 菰	ku1
 古	ku3
@@ -701,7 +2438,7 @@ min_phrase_weight: 100
 侮	u3
 誤	u4
 悟	u4
-物	u4
+物	vu5
 勿	u4
 霧	u4
 務	u4
@@ -860,6 +2597,10 @@ min_phrase_weight: 100
 巴	pa1
 芭	pa1
 疤	pa1
+附	pa1	10%
+茇	pa1
+搏	pa1||叼
+縛	pa1
 爸	pa1
 粑	pa1
 八	pa1
@@ -867,14 +2608,24 @@ min_phrase_weight: 100
 叭	pa1
 把	pa3
 靶	pa3
+㞎	pa3
 吧	pa3
+播	pa4
 霸	pa4
 壩	pa4
+俾	pa4
+𢍏	pa4||例：𢍏飯
+羓	pa4
+髀	pa4
 欛	pa4
 坝	pa4
 趴	pha1
+𣱺	pha1||爛熟
+汃	pha1||爛熟
 拔	pha1
 拍	pha1
+啪	pha3
+劈	pha3||分得很開
 怕	pha5
 帕	pha5
 爬	ba2
@@ -882,15 +2633,19 @@ min_phrase_weight: 100
 拔	ba2
 耙	ba2
 扒	ba2
+朳	ba2
 罷	ba5
 媽	ma1
 嗎	ma1
 抹	ma1
 麻	ma2
 蟆	ma2
+嫲	ma2
+薶	ma2
 馬	ma3
 碼	ma3
 螞	ma3
+嘛	ma3
 罵	ma4
 花	fa1
 法	fa1
@@ -899,6 +2654,7 @@ min_phrase_weight: 100
 罰	fa4
 化	fa4
 法	fa4
+髮	fa4
 伐	fa4
 筏	fa4
 乏	fa4
@@ -928,14 +2684,11 @@ min_phrase_weight: 100
 蹋	tha5
 獺	tha5
 大	da5
-大佬	da5 lau3
 拉	la1
-拉癟	la1 pie1
+啦	la1
 垃	la1
 蠟	la1
 臘	la1
-糲澀	la1 se1
-糲粗	la1 tsu1
 拿	la2
 喇	la3
 哪	la3
@@ -944,9 +2697,7 @@ min_phrase_weight: 100
 捺	la4
 娜	la4
 那	la4
-那咖	la4 ka1
 落	la4
-落脫	la4 tho1
 渣	tsa1
 詐	tsa1
 蔗	tsa1
@@ -956,8 +2707,8 @@ min_phrase_weight: 100
 炙	tsa1
 隻	tsa1
 扎	tsa3
-咋	tsa3     #訓讀
 札	tsa3
+咋	tsa3				#訓讀
 炸	tsa4
 榨	tsa4
 詐	tsa4
@@ -1008,13 +2759,11 @@ min_phrase_weight: 100
 嘎	ka1
 間	ka1
 #尕	ka4
-尕尕	ka4 ka
 胛	ka1
 嫁	ka4
 架	ka4
 掐	kha1
 家	kha1
-客公	kha1 kung1
 卡	kha3
 丫	nga1
 鴨	nga1
@@ -1022,6 +2771,7 @@ min_phrase_weight: 100
 伢	nga2
 芽	nga2
 啞	nga3
+雅	nga3
 砑	nga4
 軋	nga4
 鍘	nga4
@@ -1031,14 +2781,18 @@ min_phrase_weight: 100
 蟹	xa1
 瞎	xa1
 哈	xa1
-毳毳 xa1 xa1
+毳毳	xa1 xa1
 瘕	xa1
+傻	xa3
 嚇	xa4
 蛤	ha2
 下	ha5
 下飯	ha5 van5
 阿	a1
+阿飛	a1 fei1||流氓
+阿婆娘	a1 bo2 niang2||丈母娘
 啊	a1
+於	a0	1%
 筆直	pia1 tsh4
 劈	phia1
 爹	tia1
@@ -1050,13 +2804,13 @@ min_phrase_weight: 100
 提	dia2
 累	lia1
 家	tcia1
+夾	tcia1
 佳	tcia1
 加	tcia1
 嘉	tcia1
 稼	tcia1
 胛	tcia1
 假	tcia3
-假名	tcia3 min2
 賈	tcia3
 姐	tcia3
 甲	tcia4
@@ -1162,6 +2916,7 @@ min_phrase_weight: 100
 薄	bo5
 簿	bo5
 摸	mo1
+默	mo1
 木	mo1
 磨	mo2
 魔	mo2
@@ -1190,9 +2945,8 @@ min_phrase_weight: 100
 陌	mo4
 墨	mo4
 多	to1
-腳	to1
-角	to1
-覺	to1
+腳	to1	50%
+覺	to1	10%
 躲	to3
 朵	to3
 跺	to4
@@ -1207,7 +2961,7 @@ min_phrase_weight: 100
 橢	tho3
 妥	tho3
 唾	tho3
-着	tho5
+着	tho5	1%
 唾	tho5
 馱	do2
 駝	do2
@@ -1218,12 +2972,15 @@ min_phrase_weight: 100
 烙	lo1
 樂	lo1
 囉	lo1
+絡	lo1
+咯	lo1
 羅	lo2
 蘿	lo2
 螺	lo2
 鑼	lo2
 騾	lo2
 腡	lo2
+摞	lo2
 踝	lo2
 籮	lo2
 裸	lo3
@@ -1241,6 +2998,7 @@ min_phrase_weight: 100
 瘧	lo4
 桌	tso1
 卓	tso1
+腳	tso1
 捉	tso1
 左	tso3
 做	tso4
@@ -1253,7 +3011,6 @@ min_phrase_weight: 100
 搓	tsho1
 撮	tsho1
 濁	tsho5
-濁音	tsho5 in1
 錯	tsho5
 措	tsho5
 銼	tsho5
@@ -1281,6 +3038,7 @@ min_phrase_weight: 100
 弱	zo5
 若	zo5
 哥	ko1
+角	ko1
 歌	ko1
 鍋	ko1
 戈	ko1
@@ -1300,6 +3058,7 @@ min_phrase_weight: 100
 過	ko4
 廓	ko4
 科	kho1
+柯	kho1
 蝌	kho1
 顆	kho1
 棵	kho1
@@ -1340,6 +3099,7 @@ min_phrase_weight: 100
 活	xo4
 霍	xo4
 藿	xo4
+赫	xo4
 或	xo4
 惑	xo4
 獲	xo4
@@ -1362,9 +3122,10 @@ min_phrase_weight: 100
 臥	o4
 握	o4
 腳	tcio1
+角	tcio1
 覺	tcio1
 確	tchio5
-覺	dzio2
+#覺	dzio2
 約	io1
 樂	io1
 藥	io4
@@ -1383,13 +3144,15 @@ min_phrase_weight: 100
 脈	me4
 得	te1
 褶	te1
-摺	te1
-折	te1
-遮	te4
-哲	te4
-德	te4
-車	the1
+摺	te1	1%
+折	te1	1%
+遮	te4	1%
+哲	te4	1%
+車	the1	1%
 特	the5
+呢	le1
+嘞	le1
+叻	le1
 勒	le4
 肋	le4
 捋	le4
@@ -1436,14 +3199,17 @@ min_phrase_weight: 100
 熱	ze5
 射	ze5
 隔	ke1
-给	ke1
+給	ke3
 鋸	ke4
 革	ke4
 格	ke4
 客	khe1
 磕	khe1
 克	khe1
+尅	khe1
+剋	khe1
 刻	khe1
+咳	khe3
 去	khe5
 嗝	ge2
 額	nge4
@@ -1451,6 +3217,7 @@ min_phrase_weight: 100
 核	xe4
 狹	xe4
 嚇	xe4
+或	fe4
 而	e2
 兒	e2
 耳	e3
@@ -1474,7 +3241,7 @@ min_phrase_weight: 100
 蔑	mie4
 跌	tie1
 碟	tie4
-疊	tie4
+疊	die2
 諜	tie4
 牒	tie4
 鐵	thie1
@@ -1487,14 +3254,14 @@ min_phrase_weight: 100
 列	lie4
 裂	lie4
 例	lie4
-接	tcie4
-揭	tcie4
-潔	tcie4
-節	tcie4
-結	tcie4
-階	tcie4
-皆	tcie4
-街	tcie4
+接	tcie1
+揭	tcie1
+潔	tcie1
+節	tcie1
+結	tcie1
+階	tcie1
+皆	tcie1
+街	tcie1
 解	tcie3
 姐	tcie3
 且	tcie3
@@ -1520,6 +3287,7 @@ min_phrase_weight: 100
 切	tchie5
 截	tchie5
 茄	dzie2
+斜	dzie2
 聶	nie1
 鑷	nie1
 躡	nie1
@@ -1556,9 +3324,12 @@ min_phrase_weight: 100
 液	ie4
 翼	ie4
 國	kue1
+或	xue4
+滑	ue4
 掠	lye4
 略	lye4
 覺	tcye1
+覺	tcye4
 絕	tcye4
 蕨	tcye4
 掘	tcye4
@@ -1570,7 +3341,7 @@ min_phrase_weight: 100
 確	tchye5
 雀	tchye5
 鵲	tchye5
-覺	dzye5
+#覺	dzye5
 虐	nye4
 瘧	nye4
 薛	cye1
@@ -1726,7 +3497,7 @@ min_phrase_weight: 100
 快樂	khuai5 lo4
 塊	khuai5
 筷	khuai5
-會	khuai5
+會	khuai5	1%
 歪	uai1
 崴	uai3
 外	uai4
@@ -1798,12 +3569,15 @@ min_phrase_weight: 100
 茴	vei2
 危	vei2
 為	vei2
+爲	vei2
 唯	vei2
 維	vei2
 違	vei2
 圍	vei2
 微	vei2
 匯	vei5
+爲	vei5
+為	vei5
 繪	vei5
 會	vei5
 末	vei5
@@ -1838,7 +3612,7 @@ min_phrase_weight: 100
 贅	tsuei4
 醉	tsuei4
 卒	tsuei4
-銳	tsuei4
+銳	dzuei5
 墜	tsuei4
 吹	tshuei1
 崔	tshuei1
@@ -1854,8 +3628,8 @@ min_phrase_weight: 100
 槌	dzuei2
 誰	dzuei2
 罪	dzuei5
-瑞	dzuei5
-遂	dzuei5
+瑞	zuei5
+遂	zuei5
 卒	dzuei5
 雖	suei1
 綏	suei1
@@ -1895,7 +3669,7 @@ min_phrase_weight: 100
 逵	guei2
 櫃	guei5
 跪	guei5
-微	uei1
+微	uei1П
 危	uei1
 薇	uei1
 威	uei1
@@ -1937,7 +3711,7 @@ min_phrase_weight: 100
 跑	phau3
 泡	phau5
 炮	phau5
-𣕅	phau5
+𣕅	phau5||表示十
 瀑	phau5
 袍	bau2
 刨	bau2
@@ -1952,7 +3726,7 @@ min_phrase_weight: 100
 毛	mau2
 矛	mau2
 茅	mau2
-茅厠	mau2 s
+茅厠	mau2 s0
 錨	mau2
 卯	mau3
 帽	mau4
@@ -1974,7 +3748,7 @@ min_phrase_weight: 100
 島	tau3
 倒	tau4
 到	tau4
-道	tau4
+道	tau4	49%
 照	tau4
 濤	thau1
 滔	thau1
@@ -1988,7 +3762,7 @@ min_phrase_weight: 100
 陶	dau2
 逃	dau2
 朝	dau2
-道	dau5
+道	dau5	49%
 稻	dau5
 盜	dau5
 導	dau5
@@ -2061,7 +3835,7 @@ min_phrase_weight: 100
 韶	zau2
 繞	zau2
 饒	zau2
-淆	zau2
+淆	ziau2
 擾	zau3
 高	kau1
 膏	kau1
@@ -2086,7 +3860,6 @@ min_phrase_weight: 100
 敖	ngau2
 襖	ngau3
 咬	ngau3
-
 傲	ngau4
 奧	ngau4
 澳	ngau4
@@ -2130,7 +3903,7 @@ min_phrase_weight: 100
 刁	tiau1
 雕	tiau1
 貂	tiau1
-鳥	tiau3
+鳥	tiau3	10
 屌	tiau3
 掉	tiau4
 吊	tiau4
@@ -2149,6 +3922,7 @@ min_phrase_weight: 100
 療	liau2
 了	liau3
 廖	liau4
+掉	liau4||例：掉巴掌	1%
 料	liau4
 焦	tciau1
 蕉	tciau1
@@ -2211,11 +3985,12 @@ min_phrase_weight: 100
 妖	iau1
 邀	iau1
 腰	iau1
-要	iau1
+要	iau1	10%
 幺	iau1
 校	iau1
 姚	iau2
 搖	iau2
+遙	iau2
 餚	iau2
 窯	iau2
 堯	iau2
@@ -2236,21 +4011,22 @@ min_phrase_weight: 100
 都	teu1
 兜	teu1
 逗	teu1
-周	teu1
-州	teu1
-舟	teu1
-洲	teu1
-宙	teu1
-鄒	teu1
-粥	teu1
+逗愛	teu1 ngai4
+周	teu1	10%
+州	teu1	10%
+舟	teu1	10%
+洲	teu1	10%
+宙	teu1	10%
+鄒	teu1	10%
+粥	teu1	10%
 陡	teu3
 斗	teu3
 抖	teu3
-肘	teu3
+肘	teu3	10%
 鬥	teu4
-晝	teu4
-皺	teu4
-咒	teu4
+晝	teu4	10%
+皺	teu4	10%
+咒	teu4	10%
 偷	theu1
 抽	theu1
 醜	theu3
@@ -2306,7 +4082,8 @@ min_phrase_weight: 100
 餿	seu1
 收	seu1
 手	seu3
-道	seu3
+首	seu3
+道	seu3	2%
 守	seu3
 瘦	seu4
 嗽	seu4
@@ -2340,6 +4117,7 @@ min_phrase_weight: 100
 偶	ngeu3
 藕	ngeu3
 慪	ngeu4
+慪氣	ngeu4 tchi5
 漚	ngeu4
 吼	xeu3
 否	xeu3
@@ -2385,6 +4163,7 @@ min_phrase_weight: 100
 舅	dzieu5
 臼	dzieu5
 舊	dzieu5
+肉	nieu1
 牛	nieu2
 扭	nieu3
 紐	nieu3
@@ -2440,7 +4219,7 @@ min_phrase_weight: 100
 葷	fen1
 渾	fen1
 粉	fen3
-紛	fen3
+紛	fen1
 憤	fen4
 糞	fen4
 奮	fen4
@@ -2455,8 +4234,6 @@ min_phrase_weight: 100
 蚊	ven2
 聞	ven2
 混	ven5
-混寫	ven5 cie3
-混輸	ven5 cy1
 份	ven5
 問	ven5
 登	ten1
@@ -2465,27 +4242,26 @@ min_phrase_weight: 100
 墩	ten1
 敦	ten1
 鈍	ten1
-針	ten1
-珍	ten1
-真	ten1
-蒸	ten1
-徵	ten1
-貞	ten1
-偵	ten1
-徵	ten1
-正	ten1
+針	ten1	10%
+珍	ten1	10%
+真	ten1	6%
+蒸	ten1	10%
+徵	ten1	10%
+貞	ten1	10%
+偵	ten1	10%
+正	ten1	10%
 等	ten3
-枕	ten3
-診	ten3
-疹	ten3
-整	ten3
-鎮	ten4
-振	ten4
-震	ten4
-證	ten4
-症	ten4
-政	ten4
-正	ten4
+枕	ten3	10%
+診	ten3	10%
+疹	ten3	10%
+整	ten3	10%
+鎮	ten4	10%
+振	ten4	10%
+震	ten4	10%
+證	ten4	10%
+症	ten4	10%
+政	ten4	10%
+正	ten4	10%
 頓	ten4
 凳	ten4
 鐙	ten4
@@ -2501,24 +4277,24 @@ min_phrase_weight: 100
 滕	den2
 屯	den2
 豚	den2
-陳	den2
-塵	den2
-澄	den2
-橙	den2
-乘	den2
-承	den2
-丞	den2
-盛	den2
-成	den2
-城	den2
-誠	den2
-沉	den2
+陳	den2	10%
+塵	den2	10%
+澄	den2	10%
+橙	den2	10%
+乘	den2	10%
+承	den2	10%
+丞	den2	10%
+盛	den2	10%
+成	den2	10%
+城	den2	10%
+誠	den2	10%
+沉	den2	10%
 囤	den5
 盾	den5
 鈍	den5
 鄧	den5
-鄭	den5
-陣	den5
+鄭	den5	10%
+陣	den5	10%
 輪	len2
 崙	len2
 倫	len2
@@ -2527,6 +4303,10 @@ min_phrase_weight: 100
 論	len4
 嫩	len4
 尊	tsen1
+幀	tsen1
+幀	tsen1
+錚	tsen1
+甄	tsen1
 遵	tsen1
 增	tsen1
 曾	tsen1
@@ -2538,7 +4318,6 @@ min_phrase_weight: 100
 爭	tsen1
 箏	tsen1
 睜	tsen1
-徵	tsen1
 徵	tsen1
 貞	tsen1
 偵	tsen1
@@ -2609,6 +4388,7 @@ min_phrase_weight: 100
 孫	sen1
 僧	sen1
 升	sen1
+昇	sen1
 生	sen1
 甥	sen1
 牲	sen1
@@ -2666,8 +4446,8 @@ min_phrase_weight: 100
 橫	hen2
 衡	hen2
 恆	hen2
-恨	hen1
-杏	hen1
+恨	hen5
+杏	hen5
 彬	pin1
 繽	pin1
 賓	pin1
@@ -2691,8 +4471,6 @@ min_phrase_weight: 100
 頻	bin2
 憑	bin2
 平	bin2
-平假	bin2 tcia3
-平假名	bin2 tcia3 min2
 瓶	bin2
 坪	bin2
 蘋	bin2
@@ -2854,7 +4632,6 @@ min_phrase_weight: 100
 因	in1
 陰	in1
 音	in1
-音讀	in1 du5
 音樂	in1 lo1
 音樂	in1 io1
 音樂	in1 ye1
@@ -2909,7 +4686,7 @@ min_phrase_weight: 100
 閏	zuen5
 滾	kuen3
 棍	kuen4
-昆	kuen3
+昆	kuen3	1%
 崑	kuen3
 坤	kuen3
 捆	khuen3
@@ -2948,7 +4725,6 @@ min_phrase_weight: 100
 迅	cyn4
 訊	cyn4
 訓	cyn4
-訓讀	cyn4 du5
 汛	cyn4
 殉	cyn4
 瞬	cyn4
@@ -3019,43 +4795,43 @@ min_phrase_weight: 100
 俸	vung5
 冬	tung1
 東	tung1
-中	tung1
-忠	tung1
-終	tung1
-鐘	tung1
-鍾	tung1
+中	tung1	10%
+忠	tung1	10%
+終	tung1	10%
+鐘	tung1	10%
+鍾	tung1	10%
 懂	tung3
 董	tung3
 腫	tung3
 種	tung3
 凍	tung4
 棟	tung4
-眾	tung4
-中	tung4
+眾	tung4	10%
+中	tung4	10%
 通	thung1
 熥	thung1
-囪	thung1
-衝	thung1
-舂	thung1
+囪	thung1	10%
+衝	thung1	10%
+舂	thung1	10%
 統	thung3
 桶	thung3
 捅	thung3
-充	thung3
+充	thung3	10%
 痛	thung5
-銃	thung5
-衝	thung5
+銃	thung5	10%
+衝	thung5	10%
 同	dung2
 銅	dung2
 筒	dung2
 桐	dung2
 童	dung2
 瞳	dung2
-蟲	dung2
-重	dung2
+蟲	dung2	10%
+重	dung2	10%
 洞	dung5
 動	dung5
-仲	dung5
-重	dung5
+仲	dung5	10%
+重	dung5	10%
 聾	lung1
 弄	lung1
 農	lung2
@@ -3085,6 +4861,7 @@ min_phrase_weight: 100
 綜	tsung4
 縱	tsung4
 眾	tsung4
+衆	tsung4
 中	tsung4
 聰	tshung1
 匆	tshung1
@@ -3174,7 +4951,7 @@ min_phrase_weight: 100
 窘	tcyng3
 窮	dzyng2
 瓊	dzyng2
-穹	dzyng2
+穹	dzyng2П
 兄	cyng1
 胸	cyng1
 兇	cyng1
@@ -3213,6 +4990,7 @@ min_phrase_weight: 100
 瓣	ban5
 蠻	man2
 晚	man3
+晚晚	man3 man0
 漫	man4
 曼	man4
 饅	man4
@@ -3277,7 +5055,6 @@ min_phrase_weight: 100
 難	lan2
 楠	lan2
 喃	lan2
-喃字	lan2 dz5
 懶	lan3
 纜	lan3
 攬	lan3
@@ -3319,7 +5096,7 @@ min_phrase_weight: 100
 蟬	dzan2
 暫	dzan5
 鏨	dzan5
-三	san1
+三	sam1
 衫	san1
 刪	san1
 珊	san1
@@ -3385,10 +5162,6 @@ min_phrase_weight: 100
 喊	xan3
 罕	xan3
 漢	xan4
-漢音	xan4 in1
-漢諺混書	xan4 ien4 ven5 cy1
-漢喃	xan4 lan2
-漢喃文	xan4 lan2 ven2
 含	han2
 函	han2
 咸	han2
@@ -3413,16 +5186,12 @@ min_phrase_weight: 100
 匾	pien3
 蝙	pien3
 變	pien4
-變格	pien4 ke4
-變位	pien4 uei4
 便	pien4
 篇	phien1
 偏	phien1
 翩	phien1
 騙	phien5
 片	phien5
-片假	phien5 tcia3
-片假名	phien5 tcia3 min2
 遍	phien5
 便	bien2
 辮	bien5
@@ -3437,6 +5206,7 @@ min_phrase_weight: 100
 緬	mien3
 靦	mien3
 面	mien4
+麪	mien4
 顛	tien1
 癲	tien1
 掂	tien1
@@ -3473,6 +5243,7 @@ min_phrase_weight: 100
 尖	tcien1
 殲	tcien1
 肩	tcien1
+間	tcien1
 堅	tcien1
 煎	tcien1
 艱	tcien1
@@ -3573,7 +5344,6 @@ min_phrase_weight: 100
 厭	ien4
 彥	ien4
 諺	ien4
-諺文	ien4 ven2
 艷	ien4
 焰	ien4
 咽	ien4
@@ -3587,7 +5357,7 @@ min_phrase_weight: 100
 捐	tcyen1
 專	tcyen1
 磚	tcyen1
-圈	tcyen1
+圈	tcyen1	1%
 捲	tcyen3
 轉	tcyen3
 眷	tcyen4
@@ -3699,7 +5469,7 @@ min_phrase_weight: 100
 放	fang4
 桓	vang2
 完	vang2
-玩	vang2
+玩	uang2
 還	vang2
 環	vang2
 黃	vang2
@@ -3721,31 +5491,32 @@ min_phrase_weight: 100
 宦	vang5
 忘	vang5
 當	tang1
-張	tang1
-章	tang1
-樟	tang1
+張	tang1	10%
+章	tang1	10%
+樟	tang1	10%
 擋	tang3
+檔	tang3
 黨	tang3
-長	tang3
-漲	tang3
-掌	tang3
+長	tang3	10%
+漲	tang3	10%
+掌	tang3	10%
 當	tang4
-瘴	tang4
-帳	tang4
-賬	tang4
-障	tang4
+瘴	tang4	10%
+帳	tang4	10%
+賬	tang4	10%
+障	tang4	10%
 湯	thang1
 昌	thang1
 娼	thang1
 猖	thang1
 躺	thang3
 倘	thang3
-廠	thang3
-趟	thang5
-燙	thang5
-唱	thang5
-倡	thang5
-暢	thang5
+廠	thang3	10%
+趟	thang5	10%
+燙	thang5	10%
+唱	thang5	10%
+倡	thang5	10%
+暢	thang5	10%
 堂	dang2
 棠	dang2
 膛	dang2
@@ -3754,17 +5525,17 @@ min_phrase_weight: 100
 唐音	dang2 in1
 糖	dang2
 塘	dang2
-長	dang2
-場	dang2
-腸	dang2
-常	dang2
-嘗	dang2
+長	dang2	10%
+場	dang2	10%
+腸	dang2	10%
+常	dang2	10%
+嘗	dang2	10%
 盪	dang5
 氹	dang5
-氹氹	dang5 dang
-丈	dang5
-杖	dang5
-仗	dang5
+氹氹	dang5 dang0
+丈	dang5	10%
+杖	dang5	10%
+仗	dang5	10%
 凼	dang5
 郎	lang2
 狼	lang2
@@ -3805,6 +5576,7 @@ min_phrase_weight: 100
 仗	dzang5
 藏	dzang5
 傷	sang1
+生	sang1
 商	sang1
 桑	sang1
 賞	sang3
@@ -3842,12 +5614,12 @@ min_phrase_weight: 100
 橫	hang5
 粘	tiang1
 甸	tiang4
-涼	tiang2
-良	tiang2
-量	tiang2
-糧	tiang2
-梁	tiang2
-粱	tiang2
+涼	liang2
+良	liang2
+量	liang2
+糧	liang2
+梁	liang2
+粱	liang2
 兩	liang3
 倆	liang3
 輛	liang4
@@ -3864,7 +5636,7 @@ min_phrase_weight: 100
 獎	tciang3
 蔣	tciang3
 頸	tciang3
-漿	tciang4
+漿	tciang1
 醬	tciang4
 將	tciang4
 降	tciang4
@@ -3872,7 +5644,7 @@ min_phrase_weight: 100
 腔	tchiang1
 疆	tchiang1
 搶	tchiang3
-強	tchiang3
+強	tchiang3	50%
 嗆	tchiang5
 強	dziang2
 牆	dziang2
@@ -3884,6 +5656,7 @@ min_phrase_weight: 100
 象	dziang5
 娘	niang2
 仰	niang3
+爙	niang3||爙菜：炒菜
 釀	niang4
 腻	niang4
 湘	ciang1
@@ -3898,8 +5671,8 @@ min_phrase_weight: 100
 享	ciang3
 餉	ciang3
 向	ciang4
-像	ciang4
-象	ciang4
+像	ciang4П
+象	ciang4П
 巷	ciang4
 項	ciang4
 詳	ziang2
@@ -3975,12 +5748,10 @@ min_phrase_weight: 100
 觀	kuang1
 冠	kuang1
 關	kuang1
-關係	kuang1 ci4
 廣	kuang3
 管	kuang3
 館	kuang3
 慣	kuang4
-慣用音	kuang4 yng4 in1
 貫	kuang4
 冠	kuang4
 罐	kuang4
@@ -4011,12 +5782,10 @@ min_phrase_weight: 100
 幻	uang4
 晃	uang4
 旺	uang4
-望	uang4
+望	vang4
 妄	uang4
 姆	m3
-你	n3
-恁	n3    #訓讀
-您	n3    #訓讀
+唔	m3
+恁	n3				#訓讀
+您	n3				#訓讀
 不	ng5
-不錯	ng5 tsau4
-不錯	ng5 tsho5

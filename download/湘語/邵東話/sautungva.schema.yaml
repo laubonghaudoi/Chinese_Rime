@@ -8,9 +8,12 @@ schema:
   author:
     - 轀輬 <alfredlouis0x7@gmail.com>
   description: |
-    「邵東話拼音自編」，以按鍵 qrwj 輸入 1 2 3 45 五聲， 以 45調 聽感接近故以同一鍵表示
+    「邵東話拼音自編」，以按鍵qrwj輸入五聲（聽感近似的陰陽去聲45皆用j表示）
   dependencies:
     - luna_pinyin
+    - kana
+    - oldhangeul
+    - cyrillic
 
 switches:
   - name: ascii_mode
@@ -25,9 +28,11 @@ switches:
 
 engine:
   processors:
+    #- key_binder
     - ascii_composer
-    - recognizer
     - key_binder
+    - recognizer
+    #- key_binder
     - speller
     - punctuator
     - selector
@@ -36,37 +41,216 @@ engine:
   segmentors:
     - ascii_segmentor
     - matcher
+    - affix_segmentor@kana
+    - affix_segmentor@hangeul
+    - affix_segmentor@cyrillic
+    - affix_segmentor@hannom
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
     - script_translator
+    - table_translator@kana
+    - table_translator@hangeul
+    - table_translator@cyrillic
+    - table_translator@hannom
     - reverse_lookup_translator
   filters:
     - simplifier
     - uniquifier
 
 speller:
-  alphabet: zyxvutsponmlkihgfedcba=-+\
+  alphabet: zyxwvutsrqponmljkihgfedcba-
+  initials: abcdefghiklmnopstuvwxyz
   delimiter: " '"
   algebra:
     #- xform/\d//                 # 無聲調
+    - xform/\|.+$//               # 注释
+    - derive/П//
     - derive/ieu/iu/
     - derive/uei/ui/
     - derive/au/ao/
     - derive/eu/ou/
-    #- derive/^([aeiuy])n$/$1ng/
+    #- derive/[aeiuy]n$/$1ng/
+    #- derive/ang$/an$/
+    - derive/^dz/tz/
+    - derive/^ts/ds/
+    - derive/^tc/dc/
+    - derive/^tc([iy])/ts$1/
+    - derive/^tch([iy])/tsh$1/
+    - derive/^ts([aeuo])/tc$1/
+    - derive/^tsh([aeuo])/tch$1/
     - derive/[iy]en$/[iy]an$/
-    - xform/1$/q/                 #以 qrwj 輸入 1 2 3 45 五聲
+    - derive/(u)ng/$1n/
+    - derive/([iu]a)ng/$1n/
+    - derive/^kh/lh/
+    - derive/^tci/txi/
+    - derive/m([012345])$/n$1/
+    - xform/1$/q/
     - xform/2$/r/
     - xform/3$/w/
     - xform/[45]$/j/
-    - derive/[qrwj]$//            #組詞不需輸入聲調（也可以輸入
-
+    - xform/k([0qrwj])/к$1/
+    - xform/p([0qrwj])/п$1/
+    - xform/t([0qrwj])/т$1/
+    - derive/к/k/
+    - derive/к//
+    - derive/п/p/
+    - derive/п//
+    - derive/т/t/
+    - derive/т//
+    - derive/[0qrwj]$//
+    - derive/([auy])n/$1b/
+    - abbrev/^([abcdefghiklmnopstuvxyz])([aoeiuy]).+$/$1/
+    - abbrev/^(ts|dz|tc|tsh|tch|ph|th|kh)([aoeiuy]).+$/$1/
+    - abbrev/^([aoeiuy]).+$/$1/
+    
+    
 translator:
   dictionary: sautungva
-  spelling_hints: 5
+  spelling_hints: 10
+  prism: sautungva
+  preedit_format:
+    - xform/\|.+$//               # 注释
+
+kana:
+  tag: kana
+  dictionary: japanese
+  spelling_hints: 10
+  #enable_user_dict: false
+  prefix: 'j'
+  suffix: "'"
+  tips: 〔假名〕
+  closing_tips: 〔邵東話〕
+
+hangeul:
+  tag: hangeul
+  dictionary: oldhangeul
+  spelling_hints: 10
+  enable_user_dict: false
+  prefix: 'w'
+  suffix: "'"
+  tips: 〔諺文〕
+  closing_tips: 〔邵東話〕
+  preedit_format:
+    - "xlit|qwertyuiopasdfghjklzxcvbnmQWERTYADFGZXCV|ㅂㅈㄷㄱㅅㅿㅛㅕㅑㆍㅁㄴㅇㄹㅎㅗㅓㅏㅣㅋㅌㅊㅍㅠㅜㅡᄫᅎᅐДᄼᄾㅱㆁᄛㆆдᅔᅕᅗ|"
+
+cyrillic:
+  tag: cyrillic
+  dictionary: cyrillic
+  spelling_hints: 10
+  enable_user_dict: false
+  prefix: 'r'
+  suffix: "'"
+  tips: 〔西方字母〕
+  closing_tips: 〔邵東話〕
+
+hannom:
+  tag: hannom
+  dictionary: newhannom
+  spelling_hints: 10
+  enable_user_dict: false
+  prefix: 'q'
+  suffix: "'"
+  tips: 〔漢喃〕
+  closing_tips: 〔邵東話〕
+  preedit_format:
+    - xform/(ⓗ|ⓥ|◎).+$//
+    - 'xform ([aeiouâăôê])(ng|nh|ch)([sfjxr]) $1$3$2'
+    - 'xform ([aeiouâăôê])([iunptckmy])([sfjxr]) $1$3$2'
+    - 'xform ([ae])([ou])([sfjxr]) $1$3$2'
+    - 'xform (aw|ow|uw|w)([iunptckmy])([sfjxr]) $1$3$2'
+    - 'xform (aw|ow|uw|w)(ng|nh|ch)([sfjxr]) $1$3$2'
+    - 'xform (u|uw|i|w)(a)([sfjxr])$ $1$3$2'
+    - 'xform (gi)([sfjxr])(a) $1$3$2'
+    - 'xform (u)([sfjxr])(y) $1$3$2'
+    - 'xform (huy)(nh)([sfjxr]) $1$3$2'
+    - 'xform qu([sfjxr])i qui$1'
+    - 'xform z '
+    - 'xform dd đ'
+    - 'xform aa â'
+    - 'xform âs ấ'
+    - 'xform âf ầ'
+    - 'xform âj ậ'
+    - 'xform âx ẫ'
+    - 'xform âr ẩ'
+    - 'xform aw ă'
+    - 'xform ăs ắ'
+    - 'xform ăf ằ'
+    - 'xform ăj ặ'
+    - 'xform ăx ẵ'
+    - 'xform ăr ẳ'
+    - 'xform oo ô'
+    - 'xform ôs ố'
+    - 'xform ôf ồ'
+    - 'xform ôj ộ'
+    - 'xform ôx ỗ'
+    - 'xform ôr ổ'
+    - 'xform ee ê'
+    - 'xform ês ế'
+    - 'xform êf ề'
+    - 'xform êj ệ'
+    - 'xform êx ễ'
+    - 'xform êr ể'
+    - 'xform ow ơ'
+    - 'xform ơs ớ'
+    - 'xform ơf ờ'
+    - 'xform ơj ợ'
+    - 'xform ơx ỡ'
+    - 'xform ơr ở'
+    - 'xform uw ư'
+    - 'xform w ư'
+    - 'xform ưs ứ'
+    - 'xform ưf ừ'
+    - 'xform ưj ự'
+    - 'xform ưx ữ'
+    - 'xform ưr ử'
+    - 'xform as á'
+    - 'xform af à'
+    - 'xform aj ạ'
+    - 'xform ax ã'
+    - 'xform ar ả'
+    - 'xform is í'
+    - 'xform if ì'
+    - 'xform ij ị'
+    - 'xform ix ĩ'
+    - 'xform ir ỉ'
+    - 'xform us ú'
+    - 'xform uf ù'
+    - 'xform uj ụ'
+    - 'xform ux ũ'
+    - 'xform ur ủ'
+    - 'xform es é'
+    - 'xform ef è'
+    - 'xform ej ẹ'
+    - 'xform ex ẽ'
+    - 'xform er ẻ'
+    - 'xform os ó'
+    - 'xform of ò'
+    - 'xform oj ọ'
+    - 'xform ox õ'
+    - 'xform or ỏ'
+    - 'xform ys ý'
+    - 'xform yf ỳ'
+    - 'xform yj ỵ'
+    - 'xform yx ỹ'
+    - 'xform yr ỷ'
+    - 'xform f ph'
+  comment_format:
+    - xform/^(.*)$/〔$1〕
+    - xform/((ⓗ|ⓥ|◎).+)〕/〕$1/
+    - xform/úy/uý/
+    - xform/ùy/uỳ/
+    - xform/ủy/uỷ/
+    - xform/ụy/uỵ/
+    - xform/ũy/uỹ/
+    - xform/(qu|k|l|h|v|m|t|s)y/$1i/
+    - xform/(qu|k|l|h|v|m|t|s)ỳ/$1ì/
+    - xform/(qu|k|l|h|v|m|t|s)ý/$1í/
+    - xform/(qu|k|l|h|v|m|t|s)ỵ/$1ị/
+    - xform/(qu|k|l|h|v|m|t|s)ỹ/$1ĩ/
+    - xform/(qu|k|l|h|v|m|t|s)ỷ/$1ỉ/
 
 reverse_lookup:
   dictionary: luna_pinyin
@@ -83,8 +267,30 @@ punctuator:
 
 key_binder:
   import_preset: default
+  bindings:
+    #- { when: always, accept: semicolon, send: m }
+    #- { when: always, accept: colon, send: M }
+    #- { when: always, accept: m, send: minus }
+    #- { when: always, accept: M, send: colon }
+    #- { when: always, accept: q, send: a }
+    #- { when: always, accept: a, send: q }
+    #- { when: always, accept: w, send: z }
+    #- { when: always, accept: z, send: w }
+    #- { when: always, accept: Q, send: A }
+    #- { when: always, accept: A, send: Q }
+    #- { when: always, accept: W, send: Z }
+    #- { when: always, accept: Z, send: W }
+    #- { when: always, accept: Control+semicolon, send: M }
+    #- { when: has_menu, accept: Shift_L, send: commit }
+    - { when: paging, accept: comma, send: Page_Up }
+    - { when: has_menu, accept: period, send: Page_Down}
+
 
 recognizer:
   import_preset: default
   patterns:
-    reverse_lookup: "`[abcdefghijklmnopqrestuvwxyz]*'?$"
+    reverse_lookup: "^`[abcdefghijklmnopqrestuvwxyz]*'?$"
+    kana: "^j[abcdefghijkmnopqrestuwxyz-]*'?$"
+    hangeul: "^w[abcdefghijklmnopqrestuvwxyzQWERTYADFGZXCV]*'?$"
+    cyrillic: "^r[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ;]*'?$"
+    hannom: "^q[abcdefghijklmnopqrestuvwxyz]*'?$"
