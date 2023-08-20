@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: OC_msoegDK
-version: "2023.08.02"
+version: "2023.08.171"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -564,8 +564,8 @@ use_preset_vocabulary: true
 𡚽	nhxux*n̥ˤuʔ
 好	nhxuh*n̥ˤuh
 𡚽	nhxuh*n̥ˤuh
-茠	hxu*hˤu❓
-𣐾	hxu*hˤu❓
+茠	nhxu*n̥ˤu❓
+𣐾	nhxu*n̥ˤu❓
 休	nhu*n̥u
 貅	nhu*n̥u
 㹯	nhu*n̥u
@@ -14704,7 +14704,7 @@ use_preset_vocabulary: true
 晴	dzeng*dzeŋ
 請	dzeng*dzeŋ
 夝	dzeng*dzeŋ
-	dzeng*dzeŋ
+䝼	dzeng*dzeŋ
 靜	dzengx*dzeŋʔ
 睜	dzengx*dzeŋʔ
 𩇕	dzengx*dzeŋʔ
@@ -21004,7 +21004,6 @@ use_preset_vocabulary: true
 疶	lhat*l̥[a]t❓
 
 # 字不見於廣韻者
-吏	ryh*rəh❓
 乇	trxak*trˁak❓
 拆	rhxak*tʰrˤak❓
 冪	mxek*mˁek❓
@@ -21013,7 +21012,6 @@ use_preset_vocabulary: true
 享	hrxang*hrˁaŋ❓
 享	hrxang*hɫaŋ❓
 豋	txyng*tˁəŋ❓
-並	bxengx*bˁeŋʔ❓
 烹	phrxang*pʰ[r]ˁaŋ❓
 囧	kwrengx*kwreŋʔ❓
 祛	kh(r)a*kʰ(r)a❓
@@ -21035,9 +21033,7 @@ use_preset_vocabulary: true
 票	pheu*pʰeu❓
 𠬞	krongx*koŋʔ❓
 崧	sung*[s]uŋ❓
-匚	pang*paŋ❓
 旊	pangx*paŋʔ❓
-開	khxyi*kʰˁəi❓
 䭫	khxix*kʰˁiʔ❓
 柿	dzrix*dzriʔ❓
 泲	tsxix*tsˁiʔ❓
@@ -21049,7 +21045,6 @@ use_preset_vocabulary: true
 叀	wxih*wˁih❓
 朘	tsxun*tsˁun❓
 䄟	tshoth*tsʰoth❓
-鉥	mlut*mlut❓
 誸	g(l)xin*ɡ(ɫ)ˁin❓
 罕	hxanx*hˁanʔ❓
 飦	kxan*kˁan❓
@@ -21074,3 +21069,17 @@ use_preset_vocabulary: true
 矣	yx*əʔ
 乎	a*a
 兮	e*e
+
+# 布之道知乎散見擬音
+鉥	llut*ɬut
+
+# 《廣韻形聲考》特殊字表註釋中所含擬音
+癡	lhry*[l̥]rə
+硩	thrat*tʰrat
+揥	thrath*tʰrath⏪硩
+𪯚	tshrai*tsʰrai❓
+並	bxengx*bˁeŋʔ⏪併
+竝	bxengx*bˁeŋʔ⏪併
+嘼	hruk*hruk⏪畜
+開	khxyi*kʰˁəi⏪闓
+吏	ryh*rəh⏪理
