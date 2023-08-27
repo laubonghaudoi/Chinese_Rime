@@ -4,7 +4,7 @@
 schema:
   name: 上古漢語（MSOEG, 布之道）
   schema_id: OC_msoegDK
-  version: "2023.07.30"
+  version: "2023.08.17"
   author:
     - hulenkius <hulenkius@gmail.com>
     - github.com/Hulenkius/RIME_OC_collections
@@ -83,7 +83,6 @@ speller:
     - derive/(^(x|X)|\-)// #影母可省略；忽略符號「-」
     - derive/c(X|x)/c/ #存疑音節中的影母可省略
     - xform/R/r/ #將來母重新定義爲小寫
-    - xform/X/x/ #將大寫非三等影母重新定義爲小寫
     - derive/(|p|t|k)(|x|h)(|f)(|r)$/\1\2\4\3/ #混淆順序：上聲去聲、非三等標記後置、r介後置
     - derive/(|p|t|k)(|x|h)(|f)(|r)$/\3\1\2\4/
     - derive/(|p|t|k)(|x|h)(|f)(|r)$/\3\4\1\2/
