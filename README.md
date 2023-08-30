@@ -103,8 +103,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共 138 個方案）
-<br/>Full list of collected schemas (138 schemas in total)</h3>
+<h3>方案列表（共 141 個方案）
+<br/>Full list of collected schemas (141 schemas in total)</h3>
 
 
 <ul>
@@ -265,6 +265,13 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
                 </ul>
               </li>
               <li>南通方言 - <code>ntw</code></li>
+              <li>
+                淮拼 ℞ <code>Sonner114514/huaipin</code>
+                <ul>
+                  <li>淮拼（全字） - <code>huaipinquiizi</code></li>
+                  <li>淮拼（雙字） - <code>huaipinsuangzi</code></li>
+                </ul>
+              </li>
             </ul>
           </details>
         </li>
@@ -410,6 +417,12 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
           溫州話 ℞ <code>pearapple123/rime-iuciou</code>
           <ul>
             <li>甌語輸入輔 - <code>iuciou</code></li>
+          </ul>
+        </li>
+        <li>
+          吳語-溫州話輸入方案 ℞ <code>ZWolken/rime-wenzhounese</code>
+          <ul>
+            <li>溫州話 - <code>wenzhounese</code></li>
           </ul>
         </li>
       </ul>
@@ -689,8 +702,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
 </ul>
 
-<h3>配方列表（共 57 個配方）
-<br/>List of recipes (57 recipes in total)</h3>
+<h3>配方列表（共 59 個配方）
+<br/>List of recipes (59 recipes in total)</h3>
 
 <ul>
   <li>
@@ -767,6 +780,9 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
               <li>
                 泰如拼音輸入法 ℞ <code>osfans/rime-taerv</code>
               </li>
+              <li>
+                淮拼 ℞ <code>Sonner114514/huaipin</code>
+              </li>
             </ul>
           </details>
         </li>
@@ -812,6 +828,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         <li>吳語杭州話輸入法 ℞ <code>saeziae/hangzhou_wu</code></li>
         <li>標準吳語 ℞ <code>saeziae/nguphing</code></li>
         <li>溫州話 ℞ <code>pearapple123/rime-iuciou</code></li>
+        <li>吳語-溫州話輸入方案 ℞ <code>ZWolken/rime-wenzhounese</code></li>
       </ul>
     </details>
   </li>
@@ -1117,7 +1134,6 @@ For detailed information of the collected schemas in the download package, pleas
 - [a-thok](https://github.com/a-thok)
 - [biopolyhedron](https://github.com/biopolyhedron)
 - [cryptogun](https://github.com/cryptogun)
-- [Electric Sheep](https://github.com/shinzoqchiuq)
 - [Hector Sioh](https://github.com/only3km)
 - [inzoi](https://github.com/inzoi)
 - [jimmy54](https://github.com/jimmy54)
@@ -1128,6 +1144,7 @@ For detailed information of the collected schemas in the download package, pleas
 - [Papnas](https://github.com/Papnas)
 - [Patrick T.](https://github.com/Patricivs)
 - [sgal](https://github.com/sgalal)
+- [Shin Zoqchiuq](https://github.com/shinzoqchiuq)
 - [syndict](https://github.com/syndict)
 - [Tenda Huang](https://github.com/Kahaani)
 - [tsauibusato](https://github.com/tsauibusato)
