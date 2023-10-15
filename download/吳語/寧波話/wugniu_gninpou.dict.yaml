@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2023.07.10"
+version: "2023.10.09"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -25361,6 +25361,7 @@ import_tables:
 藏青	dzaon chin
 撞頭	dzaon deu
 幢籃	dzaon lae	55
+撞落風	dzaon loq fon
 撞傷	dzaon saon
 幢箱櫥	dzaon shian dzyu	55
 宅基地	dzaq ci di
@@ -31855,6 +31856,7 @@ import_tables:
 媒人	mei gnin
 美人肩	mei gnin ci	55
 美人蕉	mei gnin ciau
+謎殼	mei gnioq
 每日	mei gniq	25000
 煤灰	mei huei
 梅花	mei huo
@@ -31868,6 +31870,7 @@ import_tables:
 煤球爐子	mei jieu lu tsy	55
 煤球店	mei jieu ti	55
 每梗	mei kan
+謎殼	mei khoq
 黴乾菜	mei ki-ke tshe
 黴乾菜㸆肉	mei ki-ke tshe khau gnioq
 黴乾菜烤肉	mei ki-ke tshe khau gnioq
@@ -34750,7 +34753,7 @@ import_tables:
 煞人	saq gnin	55
 煞格	saq kaq	55
 澀格格	saq kaq kaq	55
-煞克	saq khaq
+嗇刻	saq khaq
 澀肯頭	saq khen deu	55
 澀肯肯	saq khen khen	55
 澀口	saq kheu	55
@@ -34850,7 +34853,7 @@ import_tables:
 賽過	sei khou
 賽過	sei kou
 碎票	sei phiau
-碎碎塞塞	sei sei saq saq	55
+糝糝塞塞	sei sei saq saq	55
 雖則	sei tsaq
 碎食	sei zhiq	55
 生髮油	sen faq yeu	55
@@ -34864,7 +34867,6 @@ import_tables:
 生三奔	sen sae pen
 生三寫	sen sae shia
 孫新婦	sen shin vu	55
-生四	sen sy	418
 生死	sen sy
 孫子	sen tsy
 孫悟空	sen wu khon
@@ -34875,7 +34877,6 @@ import_tables:
 瘦刮刮	seu kuaq kuaq	55
 瘦骨材	seu kuaq ze	55
 瘦勒嘸采去	seu laq mh tshe chi
-瘦削削	seu shiaq shiaq	55
 瘦㽺㽺	seu shiq shiq	55
 鮮白蟹	shi baq ha	55
 鮮白鰳魚	shi baq lei ng	55
@@ -34924,6 +34925,7 @@ import_tables:
 喜果	shi kou
 戲館	shi kun	55
 西瓜	shi kuo
+西瓜皮	shi kuo bi
 西瓜𢪂藤	shi kuo da den
 西瓜頭蟲	shi kuo deu dzon	55
 西瓜蟲	shi kuo dzon	55
@@ -34998,7 +35000,6 @@ import_tables:
 死樣怪氣	shi yan kua chi	55
 死樣刮氣	shi yan kuaq chi
 細鹽	shi yi	55
-手抈抈	shi yuq yuq
 寫白字眼	shia baq zy ngae	55
 傻氣氣	shia chi chi
 㕐酒	shia cieu	55
@@ -35073,7 +35074,6 @@ import_tables:
 向拋天	shian phau thi	578
 享先	shian shi	55
 享先湯果	shian shi thaon kou	55
-響箱	shian shian	55
 相相看	shian shian khe
 商商量量	shian shian lian lian	55
 相信	shian shin
@@ -41172,7 +41172,6 @@ import_tables:
 士林藍	zy lin lae	55
 逝落	zy loq	55
 市面	zy mi
-自鳴鍾	zy min tson	55
 自鳴鐘	zy min tson
 鰣魚	zy ng
 時眼	zy ngae	55

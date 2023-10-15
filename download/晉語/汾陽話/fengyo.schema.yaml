@@ -113,10 +113,10 @@ translator:
     - xlit/12345678/¹²³⁴⁵⁶⁷⁸/
 
 reverse_lookup:
-  dictionary: pinyin_simp
+  dictionary: luna_pinyin
   prefix: "`"
   suffix: "'"
-  tips: 〔输入汉语拼音反查汾阳话拼音〕
+  tips: 〔汉语拼音输入汉字反查汾阳话拼音〕
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
