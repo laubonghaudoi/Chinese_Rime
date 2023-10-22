@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2023.10.09"
+version: "2023.10.19"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -4370,7 +4370,6 @@ import_tables:
 㧦	shiu
 昫	shiu
 煦	shiu
-揎	shiu
 酗	shiu
 絢	shiu
 𩋢	shiu
@@ -8009,6 +8008,7 @@ import_tables:
 宣	soe
 𩤡	soe
 愃	soe
+揎	soe
 選	soe
 𥶷	soe
 陝	soe
@@ -35210,8 +35210,8 @@ import_tables:
 小郎菜	shiau laon tshe	55
 小郎菜炒年糕	shiau laon tshe tshau gni kau
 肖老虎	shiau lau fu
+小老𡢿	shiau lau gnion	55
 小老𡢿生	shiau lau gnion san
-小老嫌	shiau lau i	55
 小老三	shiau lau sae
 小老鼠	shiau lau tsy
 肖老鼠	shiau lau tsy
@@ -35250,6 +35250,8 @@ import_tables:
 小八癩𪓿開會了	shiau paq la sy khe wei lei
 小八癩𪓿開會𡀂	shiau paq la sy khe wei lei
 小八癩子	shiau paq la tsy	55
+小八癩子開會了	shiau paq la tsy khe wei lei
+小八癩子開會𡀂	shiau paq la tsy khe wei lei
 小包車	shiau pau tsho	55
 小輩	shiau pei
 小兵張嘎	shiau pin cian ga
@@ -35410,7 +35412,6 @@ import_tables:
 身條	shin diau
 身條好	shin diau hau
 身段	shin doe
-心度	shin du
 心肚	shin du	55
 新發財主	shin faq dze tsyu	55
 新風鰻鯗	shin fon mun shian	55
@@ -35505,6 +35506,7 @@ import_tables:
 歇一歇	shiq iq shiq	55
 歇過	shiq kou	55
 吸壁走	shiq piq tseu
+些西	shiq shi
 啥西	shiq shi	578
 識相	shiq shian
 歇手	shiq shieu
@@ -35513,7 +35515,6 @@ import_tables:
 吸吸嚯嚯	shiq shiq hoq hoq	55
 息息介	shiq shiq ka	55
 吸血蟲	shiq shiuq dzon
-溼溚溚	shiq taq taq
 吸鐵石	shiq thiq zaq
 㽺倲倲	shiq ton ton	55
 溼漬漬	shiq tsaq tsaq	55
@@ -35547,7 +35548,6 @@ import_tables:
 砂皮	so bi
 稍微	so bi	55
 沙䥛	so ci	55
-沙尖	so ci	55
 賒賬	so cian
 沙袋	so de
 沙頭	so deu	55
@@ -35635,6 +35635,7 @@ import_tables:
 痧藥	so yaq	55
 啥有	so yeu	55
 啥事體啦	so zy thi la
+啥辰光	so zyun kuaon	55
 算盤	soe bun
 算盤子	soe bun tsy
 算賬	soe cian
@@ -35749,7 +35750,7 @@ import_tables:
 叔伯兄弟	soq paq shion di	55
 啥西	soq shi	50000
 啥星	soq shin	55
-啥些	soq shiq	50000
+啥些	soq shiq	55
 啥西	soq shiq	50000
 嗍螄螺	soq sy lou
 啥搭界	soq taq ka	418
@@ -35765,6 +35766,8 @@ import_tables:
 啥烏退	soq u thei
 啥烏采	soq u tshe
 啥烏處	soq u tshyu
+啥犯着	soq vae dzoq	55
+啥犯着	soq vae zoq	55
 啥會	soq wei	55
 宿夜	soq ya	418
 啥有	soq yeu	55
@@ -35905,7 +35908,6 @@ import_tables:
 四五	sy ng
 四眼碶	sy ngae chi
 四八	sy paq
-司必林	sy piq lin
 司必靈	sy piq lin	55
 司必靈鎖	sy piq lin sou	55
 四三	sy sae
