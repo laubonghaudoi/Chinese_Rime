@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2023.10.25"
+version: "2023.11.25"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -2381,10 +2381,6 @@ import_tables:
 惎	ji
 帺	ji
 渠	ji	304447
-厩	ji
-廐	ji
-廄	ji
-廏	ji
 鱀	ji
 忌	ji
 𡜱	ji
@@ -2403,6 +2399,7 @@ import_tables:
 健	ji
 踺	ji
 荐	ji
+圈	ji	2%
 泥	gni
 尼	gni
 埿	gni
@@ -4201,7 +4198,6 @@ import_tables:
 虡	jiu
 駏	jiu
 貗	jiu
-圈	jiu	2%
 裙	jiu	0%
 蜎	jiu
 萒	jiu
@@ -7614,6 +7610,8 @@ import_tables:
 醦	sae
 釤	sae
 帴	sae
+柵	sae	0%
+栅	sae	0%
 嚵	zae
 饞	zae	5%
 鑱	zae
@@ -8141,6 +8139,10 @@ import_tables:
 噣	cieu
 疚	cieu
 救	cieu
+厩	cieu
+廐	cieu
+廄	cieu
+廏	cieu
 僦	cieu
 秋	chieu
 秌	chieu
@@ -21995,7 +21997,7 @@ import_tables:
 阿二嬉䏘	aq gni shi phiq
 阿孃	aq gnian
 阿育王寺	aq gnioq waon zy	55
-鴨廄間	aq ji kae	55
+鴨圈間	aq ji kae	55
 阿舅	aq jieu	578
 阿侄	aq jiq	55
 阿講	aq kaon	55
@@ -23375,7 +23377,7 @@ import_tables:
 寄拜兒子	ci pa ng tsy	55
 寄拜囡	ci pa noe	55
 見䏘鬼	ci phiq ciu	55
-雞柵	ci saq
+雞柵	ci sae
 雞眨覺	ci saq kau	55
 雞𥈊覺	ci saq kau	55
 幾世年庚	ci shi gni kan	55
@@ -33357,9 +33359,9 @@ import_tables:
 牛肉乾	ngeu gnioq ki-ke
 牛肉線粉湯	ngeu gnioq shi fen thaon
 牛飲水	ngeu in syu
-牛廄	ngeu ji	55
-牛廄間	ngeu ji kae	55
-牛廄格柵	ngeu ji kaq saq
+牛圈	ngeu ji	55
+牛圈間	ngeu ji kae	55
+牛圈格柵	ngeu ji kaq saq
 牛控䩉	ngeu khon bu	55
 牛趕水	ngeu ki-ke syu
 牛虻	ngeu maon
@@ -38982,10 +38984,10 @@ import_tables:
 珠花	tsyu huo	55
 主意	tsyu i
 注意	tsyu i
-豬廄	tsyu ji	55
-豬廄間	tsyu ji kae	55
-豬廄格柵	tsyu ji kaq saq
-豬廄攔柵	tsyu ji laq saq
+豬圈	tsyu ji	55
+豬圈間	tsyu ji kae	55
+豬圈格柵	tsyu ji kaq saq
+豬圈攔柵	tsyu ji laq saq
 嘴革	tsyu kaq
 嘴革瘡	tsyu kaq tshaon
 豬狗相待	tsyu keu shian de
