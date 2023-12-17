@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2023.11.27"
+version: "2023.12.10"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -1721,6 +1721,8 @@ import_tables:
 栵	li
 犡	li
 鮤	li
+累	li	0%
+纍	li	0%
 鍊	li
 煉	li
 楝	li
@@ -25766,8 +25768,6 @@ import_tables:
 覅咋睬	fe dza tshe
 覅其	fe ji	60000
 覅渠	fe ji	578
-𧟰其	fe ji	578
-𧟰渠	fe ji	30000
 覅其甮其	fe ji ven ji	55
 覅渠甮渠	fe ji ven ji	55
 覅看	fe khi-khe
@@ -30987,8 +30987,8 @@ import_tables:
 李太君婆	li tha ciun bou
 連天曉	li thi shiau
 連底凍	li ti ton	55
-連爹怪孃	li tia kua gnian
-連爹連孃	li tia li gnian	55
+累爹怪孃	li tia kua gnian
+累爹累孃	li tia li gnian	55
 犁楤	li tshon
 練出	li tshyuq
 連作稻	li tsoq dau	55
@@ -41067,6 +41067,7 @@ import_tables:
 食指	zhiq tsy
 席席嫩	zhiq zhiq nen	55
 席席𧼰𧼰	zhiq zhiq zaq zaq
+自家	zhiu ko	10000
 惹彈梅	zo dae mei	55
 惹厭	zo i	55
 惹厭頭	zo i deu
