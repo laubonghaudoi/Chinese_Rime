@@ -1,0 +1,181 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  name: 上古漢語（金理新）
+  schema_id: OC_jinlixin
+  version: "2024.01.082"
+  author:
+    - hulenkius <hulenkius@gmail.com>
+    - github.com/Hulenkius/RIME_OC_collections
+  description: |
+    上古音輸入方案：金理新 2023 版擬音
+    //內插音可不寫　三等單寫　非三等雙寫
+    ɯ 作 y　　ŋ 作 ng　　ȶ ȡ 作 ts ds
+    ɕ 作 sh　　x 作 h　ɣ 作 hh 或 v
+    q 可作 kw　ɢ 作 gg 或 w　　ʔ 作 x
+    ɴ 作 nn 或 nng ngg　　χ 作 cc 或 c
+    ʁ 作 rr 或 gw
+
+  dependencies:
+    - cangjie5
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - xform/(\*).+$// #將輸入碼範圍限定在音標前
+    - derive/\((.)\)/\1/ #圓括號中的內容可打出
+    - derive/\((.)\)// #圓括號中的內容可省略
+    - derive/r(|x|h)$/j\1/ #歌部韻尾可寫成j
+    - derive/(a|e|i|o|u|y)/x\1/ #非三等可寫成xV
+    - derive/x(a|e|i|o|u|y)(.*?)$/\1\2f/ #非三等可記作V+後置f
+    - derive/a/aa/ #非三等可寫成VV
+    - derive/e/ee/ #非三等可寫成VV
+    - derive/i/ii/ #非三等可寫成VV
+    - derive/o/oo/ #非三等可寫成VV
+    - derive/u/uu/ #非三等可寫成VV
+    - derive/y/yy/ #非三等可寫成VV
+    - derive/y/au/ #宵藥部容錯
+    - derive/y(.*?)$/au\1f/
+    - derive/y/eu/ #宵藥部容錯
+    - derive/y(.*?)$/eu\1f/
+    - derive/(A|E|I|O|U|Y)(.*?)$/\1\2v/ #三等可記作V+後置v
+    - derive/A/a/ #三等可直書
+    - derive/E/e/ #三等可直書
+    - derive/I/i/ #三等可直書
+    - derive/O/o/ #三等可直書
+    - derive/U/u/ #三等可直書
+    - derive/Y/y/ #三等可直書
+    - derive/Y/au/ #三等可直書
+    - derive/Y/eu/ #三等可直書
+    - derive/R/rr/
+    - derive/R/gw/ #容錯
+    - derive/C/c/
+    - derive/C/cc/
+    - derive/H/hh/
+    - derive/H/v/
+    - derive/G/gg/
+    - derive/G/w/ #容錯
+    - derive/N/nn/
+    - derive/N/ngg/
+    - derive/N/nng/
+    - derive/(a|e|i|o|u|y)(ng)/\1g/ #ng韻可簡作g 
+    - derive/^x// #影母可省略
+    - derive/ts/tj/ #精母混淆
+    - derive/dz/dj/ #清母混淆
+    - derive/sh/sj/ #心母混淆
+    - derive/q/kw/ #容錯
+    - derive/wh/hw/
+    - derive/i/j/ #混淆i、j
+    - derive/j/i/
+    - derive/u/w/ #混淆u、w
+    - derive/w/u/
+    - derive/(x|h|s)(|f|v)$/\1\2/ #混淆順序：上聲去聲、三等非三等標記後置
+    - derive/(x|h|s)(|f|v)$/\2\1/
+    - derive/^s(m|n)/\1h/ #容錯
+    - derive/(a|e|i|o|u|y)(.*?)h(.*?)$/\1\2s\3/ #去聲混淆h、s
+    - derive/(a|e|i|o|u|y)(.*?)s(.*?)$/\1\2h\3/ #去聲混淆h、s
+
+translator:
+  dictionary: OC_jinlixin
+  prism: OC_jinlixin
+  spelling_hints: 1
+  enable_completion: true
+  preedit_format:
+    - xform/(\*).+$//
+  comment_format:
+    - xform/^(.*)$/‹$1›
+    - xform/((\*).+)›/›\ $1/
+    - xform/a(.*)\*/aa\1\*/ #非三等可寫成VV
+    - xform/e(.*)\*/ee\1\*/ #非三等可寫成VV
+    - xform/i(.*)\*/ii\1\*/ #非三等可寫成VV
+    - xform/o(.*)\*/oo\1\*/ #非三等可寫成VV
+    - xform/u(.*)\*/uu\1\*/ #非三等可寫成VV
+    - xform/y(.*)\*/yy\1\*/ #非三等可寫成VV
+    - xform/A/a/ #三等可直書
+    - xform/E/e/ #三等可直書
+    - xform/I/i/ #三等可直書
+    - xform/O/o/ #三等可直書
+    - xform/U/u/ #三等可直書
+    - xform/Y/y/ #三等可直書
+    - xform/R/rr/
+    - xform/C/cc/
+    - xform/H/hh/
+    - xform/G/gg/
+    - xform/N/nn/
+
+reverse_lookup:
+  dictionary: cangjie5
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔倉頡〕
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - xform/^(.*)$/$1
+    - xform/((\*).+)/$1/
+    - xform/a(.*)\*/aa\1\*/ #非三等可寫成VV
+    - xform/e(.*)\*/ee\1\*/ #非三等可寫成VV
+    - xform/i(.*)\*/ii\1\*/ #非三等可寫成VV
+    - xform/o(.*)\*/oo\1\*/ #非三等可寫成VV
+    - xform/u(.*)\*/uu\1\*/ #非三等可寫成VV
+    - xform/y(.*)\*/yy\1\*/ #非三等可寫成VV
+    - xform/A/a/ #三等可直書
+    - xform/E/e/ #三等可直書
+    - xform/I/i/ #三等可直書
+    - xform/O/o/ #三等可直書
+    - xform/U/u/ #三等可直書
+    - xform/Y/y/ #三等可直書
+    - xform/R/rr/
+    - xform/C/cc/
+    - xform/H/hh/
+    - xform/G/gg/
+    - xform/N/nn/
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
