@@ -103,8 +103,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共 141 個方案）
-<br/>Full list of collected schemas (141 schemas in total)</h3>
+<h3>方案列表（共 142 個方案）
+<br/>Full list of collected schemas (142 schemas in total)</h3>
 
 
 <ul>
@@ -124,6 +124,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
             <li>上古漢語（許思萊） - <code>OC_schuesslerOC</code></li>
             <li>東漢漢語（許思萊） - <code>OC_schuesslerLHC</code></li>
             <li>上古漢語（鄭張尚芳） - <code>OC_zhengzhang</code></li>
+            <li>上古漢語（金理新） - <code>OC_jinlixin</code></li>
             <li>上古漢語（白一平1992） - <code>OC_baxter1992</code></li>
             <li>上古漢語（王力） - <code>OC_wangli</code></li>
             <li>上古漢語（李方桂） - <code>OC_lifanggui</code></li>
