@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2024.02.25"
+version: "2024.04.07"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -1759,6 +1759,7 @@ import_tables:
 啙	ci
 隮	ci
 麡	ci
+嚌	ci
 几	ci
 机	ci
 幾	ci
@@ -17187,7 +17188,6 @@ import_tables:
 嘀	tiq
 適	tiq	0%
 𨮹	tiq
-擿	tiq
 跌	tiq
 啇	tiq
 甋	tiq
@@ -17219,6 +17219,7 @@ import_tables:
 硩	thiq
 銕	thiq
 驖	thiq
+擿	thiq
 笛	diq
 迪	diq
 廸	diq
@@ -17697,6 +17698,7 @@ import_tables:
 慹	jiq
 鏶	jiq
 欇	jiq
+擿	jiq
 其	jiq	0%
 渠	jiq	0%
 屐	jiq
@@ -18879,6 +18881,7 @@ import_tables:
 齑	ci
 跻	ci
 赍	ci
+哜	ci
 讥	ci
 叽	ci
 饥	ci
@@ -21966,17 +21969,17 @@ import_tables:
 揞水爿	an syu bae	55
 揞水片	an syu phi	55
 怏勃勃	aon baq baq	55
-怏勃幾糟	aon baq ci tsau	55
+怏勃嚌糟	aon baq ci tsau	55
 䱀顙魚	aon saon ng	55
 䱀顙魚	aon tsaon ng
 怏躁躁	aon tsau tsau	55
 阿防	aq baon	55
 餲𦤣氣	aq baq chi
-餲𦤣幾糟	aq baq ci tsau
+餲𦤣嚌糟	aq baq ci tsau
 阿爬	aq bo	55
 餲𦤣𦤣	aq boq boq	55
 餲𦤣氣	aq boq chi	55
-餲𦤣幾糟	aq boq ci tsau	55
+餲𦤣嚌糟	aq boq ci tsau	55
 阿婆	aq bou
 阿伴	aq bun	55
 押去	aq chi	55
@@ -22811,7 +22814,7 @@ import_tables:
 翹辮子	chiau bi tsy
 趬趬	chiau chiau	55
 翹翹板	chiau chiau pae
-翹翹走	chiau chiau tseu
+趬趬走	chiau chiau tseu
 趬趬走人家	chiau chiau tseu gnin ko
 蹺腳	chiau ciaq	55
 墝埆	chiau goq	55
@@ -23405,11 +23408,11 @@ import_tables:
 雞瞪鼓	ci ten ku	55
 雞膯鼓	ci ten ku
 𣥼的	ci tiq
-幾糟	ci tsau	55
+嚌糟	ci tsau	55
 雞罩	ci tsau	55
 雞爪風	ci tsau fon	55
 祭竈果	ci tsau kou	55
-嘰奏	ci tseu	55
+嚌奏	ci tseu	55
 𣥼出	ci tshyuq
 蟣仔	ci tsy	55
 剪指甲	ci tsy khaq
@@ -26027,6 +26030,7 @@ import_tables:
 鹹齏菜	ghae ci tshe	578
 鹹齏黃魚	ghae ci waon ng
 閒賬	ghae cian	55
+閒賬婆	ghae cian bou
 鹹蛋	ghae dae
 鹹地	ghae di	55
 鹹夫夫	ghae fu fu
@@ -26793,7 +26797,7 @@ import_tables:
 肉圓子	gnioq yu tsy
 玉石	gnioq zaq
 熱勃勃	gniq baq baq	55
-熱勃幾糟	gniq baq ci tsau
+熱勃嚌糟	gniq baq ci tsau
 熱氣肉	gniq chi gnioq	55
 日長夜大	gniq cian ya dou	55
 日腳	gniq ciaq	578
@@ -34748,7 +34752,7 @@ import_tables:
 喪事	saon zy
 桑樹	saon zyu
 澀𦤣𦤣	saq baq baq
-澀𦤣幾糟	saq baq ci tsau	55
+澀𦤣嚌糟	saq baq ci tsau	55
 煞縛	saq bou	55
 煞氣蓬鬆	saq chi bon son
 煞清爽	saq chin saon	578
@@ -35482,7 +35486,7 @@ import_tables:
 信紙	shin tsy
 興致	shin tsy
 聖旨亭跟	shin tsy din ken
-心煩幾糟	shin vae ci tsau	55
+心煩嚌糟	shin vae ci tsau	55
 新房	shin vaon
 新房子	shin vaon tsy	55
 身文	shin ven	55
