@@ -4,29 +4,24 @@
 schema:
   schema_id: naamning_baakwaa
   name: "南寧白話"
-  version: "2024.02.19"
+  version: "2024.04.08"
   author:
     - LeiMaau <leimaau@qq.com>
   description: |
-    採用『香港語言學學會粵語拼音方案』
-    聲調輸入 q平 v上 x去 （雙擊爲陽調）
-    IPA版提供多種字形轉換和提示音爲IPA
-    提供六種反查方案，[`]普拼反查粵拼，[x]五筆畫反查粵拼，[v]倉頡五代反查粵拼，[r]粵語兩分反查粵拼，[xx]用普拼反查中古音，[xj]用粵拼反查中古音
+    採用香港語言學學會粵語拼音方案
+    提供聲調輸入 q平 v上 x去 （雙擊爲陽調）和多種字形轉換
+    提供四種反查方案，[`]普拼反查粵拼，[x]五筆畫反查粵拼，[v]倉頡五代反查粵拼，[r]粵語兩分反查粵拼
     PC上按Ctrl+Enter可將提示音上屏，按Ctrl+Shift+Enter可將候選項上屏
-    註釋reverse_lookup/tags可顯示釋義，可根據需要自行開啓
-    項目主頁 https://github.com/leimaau/naamning_jyutping
   dependencies:
     - luna_pinyin
     - stroke
     - cangjie5
-#    - wubi86
     - loengfan
-    - zyenpheng
 
 switches:
-  - name: simplification
-    reset: 1
-    states: [ 漢字, 汉字 ]
+  - options: [simplification, noop, zh_hk, zh_tw]
+    states: [ 字形 → 大陸, 字形 → 傳統〔不轉換〕, 字形 → 香港, 字形 → 臺灣 ]
+    reset: 0
   - name: ascii_mode
     reset: 0
     states: [ 中文, 西文 ]
@@ -34,6 +29,9 @@ switches:
     states: [ 半角, 全角 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
+  - name: emoji_cn
+    reset: 0
+    states: [ 〇, 😊 ]
 
 engine:
   processors:
@@ -51,10 +49,7 @@ engine:
     - affix_segmentor@luna_pinyin
     - affix_segmentor@stroke
     - affix_segmentor@cangjie5
-#    - affix_segmentor@wubi86
     - affix_segmentor@loengfan
-    - affix_segmentor@puping_to_zyenpheng
-    - affix_segmentor@jyutping_to_zyenpheng
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
@@ -64,62 +59,61 @@ engine:
     - script_translator@luna_pinyin
     - table_translator@stroke
     - table_translator@cangjie5
-#    - table_translator@wubi86
     - script_translator@loengfan
-    - script_translator@puping_to_zyenpheng
-    - script_translator@jyutping_to_zyenpheng
   filters:
     - simplifier
+    - simplifier@zh_hk
+    - simplifier@zh_tw
+    - simplifier@emoji_cn
     - uniquifier
     - reverse_lookup_filter@reverse_lookup
-    - reverse_lookup_filter@zyenpheng_reverse_lookup
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
-    - xform/\(.+?\)//             # 忽略釋義
-    - xform/「.+?」//             # 忽略釋義
-    - derive/([123456])//         # 忽略声调
-    - derive/^([aeiou])/q$1/      # 增加 q 表示喉塞
-    - xform/1/q/                  # 陰平
-    - xform/4/qq/                 # 陽平
-    - xform/2/v/                  # 陰上
-    - xform/5/vv/                 # 陽上
-    - xform/3/x/                  # 陰去
-    - xform/6/xx/                 # 陽去
-    - derive/^(z|c|s)y$/$1z/      # 兼容 (zcs)y -> (zcs)z 傳教士方案
-    - derive/^(z|c|s)y$/$1ii/     # 兼容 (zcs)y -> (zcs)ii 客家話方案
-#    - derive/a(m|p)$/o$1/         # 兼容 a(m|p) -> o(m|p) 其他邕潯片
-#    - derive/aa(m)$/o$1/          # 兼容 aam -> om 其他邕潯片
-#    - derive/^j/nj/               # 兼容 j -> nj 其他邕潯片 nj[ȵ]
-    - derive/a([nt])$/eo$1/       # 模糊 a(nt) -> eo(nt)
-    - derive/ui$/eoi/          	  # 模糊 ui -> eoi
-    - derive/yu$/eoi/          	  # 模糊 yu -> eoi
-    - derive/^sl/s/               # 模糊 sl -> s
-    - derive/^(g|k)wo/$1o/        # 模糊 (gk)wo -> (gk)o
-    - derive/^(g|k)o/$1wo/        # 模糊 (gk)o -> (gk)wo
-    - derive/^(g|k)wik/$1ik/      # 模糊 (gk)wik -> (gk)ik
-    - derive/^(g|k)ik/$1wik/      # 模糊 (gk)ik -> (gk)wik
-    - derive/i$/ei/          	  # 模糊 i -> ei
-    - derive/u$/ou/          	  # 模糊 u -> ou
-    - derive/saang$/sang/         # 模糊 saang -> sang 庚韻二等字文讀
-    - derive/kok$/fok/            # 模糊 kok -> fok
-    - derive/fut$/kut/            # 模糊 fut -> kut 「豁達、蛞蝓」
-    - derive/gwaat$/kut/          # 模糊 gwaat -> kut 「包括、聒噪」
-    - derive/dik$/d/              # 快出「的」字
-    - derive/^jy?([aeiou])/y$1/   # 容錯 j -> y
-    - derive/^jyu/yu/             # 容錯 jyu -> yu
-    - derive/^jyu/ju/             # 容錯 jyu -> ju
-    - derive/yu/y/                # 容錯 jyu -> jy
-    - derive/aa$/a/               # 容錯 aa -> a
-    - derive/oe(ng|k)$/eo$1/      # 容錯 oe(ng|k) -> eo(ng|k)
-    - derive/eo([int])$/oe$1/     # 容錯 eo(int) -> oe(int)
-    - derive/eoi$/eoy/            # 教院式 eoi -> eoy
-    - abbrev/^([a-z]).+$/$1/      # 首字母簡拼
-    - abbrev/^([a-z]{2}).+$/$1/   # 首2字母簡拼
-    - abbrev/^(gw|kw|ng).+$/$1/   # 聲母簡拼
-    - abbrev/^([s][l]).+$/$1/     # 聲母簡拼
+    - xform/\(.+?\)//                  # 忽略釋義
+    - xform/「.+?」//                  # 忽略釋義
+    - derive/\d//                      # 忽略声调
+    - derive/^([aeiou])/q$1/           # 增加 q 表示喉塞
+    - xform/1/q/                       # 陰平
+    - xform/4/qq/                      # 陽平
+    - xform/2/v/                       # 陰上
+    - xform/5/vv/                      # 陽上
+    - xform/3/x/                       # 陰去
+    - xform/6/xx/                      # 陽去
+    - derive/^(z|c|s)y$/$1z/           # 兼容 (zcs)y -> (zcs)z 傳教士方案
+    - derive/^(z|c|s)y$/$1ii/          # 兼容 (zcs)y -> (zcs)ii 其他拼音方案
+    - derive/a(m|p)$/o$1/              # 兼容 a(m|p) -> o(m|p) 其他邕潯片
+    - derive/aa(m)$/o$1/               # 兼容 aam -> om 其他邕潯片
+    - derive/^j/nj/                    # 兼容 j -> nj 其他邕潯片 nj[ȵ]
+    - derive/a([nt])$/eo$1/            # 模糊 a(nt) -> eo(nt)
+    - derive/ui$/eoi/                  # 模糊 ui -> eoi
+    - derive/yu$/eoi/                  # 模糊 yu -> eoi
+    - derive/^sl/s/                    # 模糊 sl -> s
+    - derive/^(g|k)wo/$1o/             # 模糊 (gk)wo -> (gk)o
+    - derive/^(g|k)o/$1wo/             # 模糊 (gk)o -> (gk)wo
+    - derive/^(g|k)wik$/$1ik/          # 模糊 (gk)wik -> (gk)ik
+    - derive/^(g|k)ik$/$1wik/          # 模糊 (gk)ik -> (gk)wik
+    - derive/i$/ei/          	       # 模糊 i -> ei
+    - derive/u$/ou/          	       # 模糊 u -> ou
+    - derive/saang$/sang/              # 模糊 saang -> sang 庚韻二等字文讀
+    - derive/kok$/fok/                 # 模糊 kok -> fok
+    - derive/fut$/kut/                 # 模糊 fut -> kut 豁達、蛞蝓
+    - derive/gwaat$/kut/               # 模糊 gwaat -> kut 包括、聒噪
+    - derive/dik$/d/                   # 快出「的」字
+    - derive/^jy?([aeiou])/y$1/        # 容錯 j -> y
+    - derive/(g|k)u(?!ng|k)/$1wu/      # 模糊 gu -> gwu ku -> kwu
+    - derive/^jy?u/ju/                 # 容錯 jyu、ju -> ju
+    - derive/yu/y/                     # 容錯 yu -> y
+    - derive/aa$/a/                    # 容錯 aa -> a
+    - derive/oe(ng|k)$/eo$1/           # 容錯 oe(ng|k) -> eo(ng|k)
+    - derive/eo([int])$/oe$1/          # 容錯 eo(int) -> oe(int)
+    - derive/eoi$/eoy/                 # 教院式 eoi -> eoy
+    - abbrev/^([a-z]).+$/$1/           # 首字母簡拼
+#    - abbrev/^([a-z]{2}).+$/$1/        # 首2字母簡拼
+    - abbrev/^(gw|kw|ng).+$/$1/        # 聲母簡拼
+    - abbrev/^([s][l]).+$/$1/          # 聲母簡拼
 
 menu:
   alternative_select_keys: "123456789"
@@ -128,7 +122,7 @@ menu:
 translator:
   dictionary: naamning_baakwaa
   prism: naamning_baakwaa
-  spelling_hints: 5  # 標註拼音的字數，建議橫排顯示時設置爲1
+  spelling_hints: 8  # 標註拼音的字數，建議橫排顯示時設置爲1
   preedit_format:
     - xform/([aeioumngptk])qq/${1}4/
     - xform/([aeioumngptk])q/${1}1/
@@ -177,16 +171,7 @@ cangjie5:    # 倉頡五代反查粵拼
   disable_user_dict_for_patterns:
     - "^z.*$"
     - "^yyy.*$"
-    
-#wubi86:    # 五筆86反查粵拼
-#  tag: wubi86
-#  dictionary: wubi86
-#  enable_user_dict: false
-#  prefix: "r"
-#  suffix: ";"
-#  tips: 〔五筆86〕
-#  disable_user_dict_for_patterns:
-#    - "^z.*$"
+
 
 loengfan:    # 粵語兩分反查粵拼
   tag: loengfan
@@ -197,8 +182,7 @@ loengfan:    # 粵語兩分反查粵拼
   
 
 reverse_lookup:
-#  tags:  [luna_pinyin, stroke, cangjie5, wubi86]
-  tags:  [luna_pinyin, stroke, cangjie5, loengfan]  # 需要打字時顯示釋義則註釋這行，建議豎排顯示時使用【很有用的功能，建議PC上使用！】
+  tags:  [luna_pinyin, stroke, cangjie5, loengfan]  # 需要打字時顯示釋義則註釋這行，建議PC上豎排顯示時使用
   overwrite_comment: true
   dictionary: naamning_baakwaa
   comment_format:
@@ -208,190 +192,18 @@ reverse_lookup:
     - xform/「/ /
     - xform/」//
 
-puping_to_zyenpheng:    # 普拼反查中古音
-  tag: puping_to_zyenpheng
-  dictionary: luna_pinyin
-  enable_user_dict: false
-  prefix: "xx"
-  suffix: ";"
-  tips: 〔普拼〕
+zh_hk:
+  option_name: zh_hk
+  opencc_config: t2hk.json
 
-jyutping_to_zyenpheng:    # 粵拼反查中古音
-  tag: jyutping_to_zyenpheng
-  dictionary: leimaau_jyutping
-  enable_user_dict: false
-  prefix: "xj"
-  suffix: ";"
-  tips: 〔粵拼〕
+zh_tw:
+  option_name: zh_tw
+  opencc_config: t2tw.json
 
-zyenpheng_reverse_lookup:
-  tags:  [puping_to_zyenpheng, jyutping_to_zyenpheng]
-  overwrite_comment: true
-  dictionary: zyenpheng
-  comment_format:
-    - xform/ /\x03 \x01/
-    - xform/$/\x03/
-    - xform/^/\x01/
-# 預處理
-    - xform/ng/ŋ/
-    - xform/k\x03/ŋq\x03/
-    - xform/t\x03/nq\x03/
-    - xform/p\x03/mq\x03/
-    - xform/(\x01(?:th?|ch?|zs?|[dns]))r(?=[^iy'])/$1r'r/
-    - xform/(\x01(?:ph?|kh?|gh?|[bmhqjiy]|ŋ)[iy])eŋ/$1æŋ/
-    - xform/j(?![iy'])/ji/
-    - xform/(\x01(?:ch?|zs?|[sn])?[jl])(?=([iy]e([umn]|ŋ)?|i[imn]|yn)[dxhq]?)/$1'j/
-    - xform/(\x01(?:ch?|zs?|s))(?=(?:[iy]e(?:[umn]|ŋ)?|i[imn]|yn)[dxhq]?)/$1'j/
-    - xform/(\x01(?:ch?|zs?|s)rj?i)n/$1ɿn/
-    - xform/(\x01)(?!ph?|kh?|gh?|ŋ|[bmhqjiy])([^aeiouy]*y)n([xhq]?\x03)/$1$2ɿn$3/
-    - xform/(\x01)([^aeiouy]*jy)n([xhq]?\x03)/$1$2ɿn$3/
-    - xform/(\x01)(?!kh?|g|ŋ)([^aeioux]*)ia([xhq]?\x03)/$1$2'ria$3/
-# 壓縮聲調
-    - xform/([^xhdq])\x03/$1w\x03/
-    - xform/(\x01[^\x01\x03]+)([whxq])\x03((?:\s\x01[^\x01\x03]+\x03)*)\s\1([whxq])\x03((?:\s\x01[^\x01\x03]+\x03)*)\s\1([whxq]\x03)/$1$2$4$6$3$5/
-    - xform/(\x01[^\x01\x03]+)([whxq])\x03((?:\s\x01[^\x01\x03]+\x03)*)\s\1([whxq]\x03)/$1$2$4$3/
-# 轉換聲母
-# 如需開啓輕脣音請啓用以下四條
-#    - xform/\x01ph(?=y(o[in]?|a[mnd]|[au]ŋ)|iu(ŋ)?)/\x01L敷\x02/
-#    - xform/\x01p(?=y(o[in]?|a[mnd]|[au]ŋ)|iu(ŋ)?)/\x01L非\x02/
-#    - xform/\x01b(?=y(o[in]?|a[mnd]|[au]ŋ)|iu(ŋ)?)/\x01L奉\x02/
-#    - xform/\x01m(?=y(o[in]?|a[mnd]|[au]ŋ))/\x01L微\x02/
-    - xform/\x01ph/\x01L滂\x02/
-    - xform/\x01p/\x01L幫\x02/
-    - xform/\x01b/\x01L並\x02/
-    - xform/\x01m/\x01L明\x02/
-    - xform/\x01thr/\x01徹\x02/
-    - xform/\x01tr/\x01知\x02/
-    - xform/\x01dr/\x01澄\x02/
-    - xform/\x01nr/\x01孃\x02/
-    - xform/\x01nj/\x01日\x02/
-    - xform/\x01th/\x01透\x02/
-    - xform/\x01t/\x01端\x02/
-    - xform/\x01d/\x01定\x02/
-    - xform/\x01n/\x01泥\x02/
-    - xform/\x01chr/\x01初\x02/
-    - xform/\x01cr/\x01莊\x02/
-    - xform/\x01zsr/\x01俟\x02/
-    - xform/\x01zr/\x01崇\x02/
-    - xform/\x01sr/\x01生\x02/
-    - xform/\x01ch(j)/\x01昌\x02/
-    - xform/\x01c(j)/\x01章\x02/
-    - xform/\x01zs(j)/\x01船\x02/
-    - xform/\x01z(j)/\x01常\x02/
-    - xform/\x01s(j)/\x01書\x02/
-    - xform/\x01ch/\x01清\x02/
-    - xform/\x01c/\x01精\x02/
-    - xform/\x01zs/\x01邪\x02/
-    - xform/\x01z/\x01從\x02/
-    - xform/\x01s/\x01心\x02/
-    - xform/\x01kh/\x01谿\x02/
-    - xform/\x01k/\x01見\x02/
-    - xform/\x01gh/\x01匣\x02/
-    - xform/\x01g/\x01羣\x02/
-    - xform/\x01ŋ/\x01疑\x02/
-    - xform/\x01h/\x01曉\x02/
-    - xform/\x01q/\x01影\x02/
-    - xform/\x01([iy])/\x01云\x02$1/
-    - xform/\x01j/\x01以\x02/
-    - xform/\x01l/\x01來\x02/
-    - xform/'//
-# 壓縮聲母
-    - xform/\x01(L?)([^\x00-\x7f]{3})\x02([^\x01\x02\x03wxhq]+)([wxhq]*)\x03\s((?:\x01[^\x01\x03]+\x03\s)*)\x01\1([^\x00-\x7f]{3})\x02\3([wxhq]*)\x03\s((?:\x01[^\x01\x03]+\x03\s)*)\x01\1([^\x00-\x7f]{3})\x02\3([wxhq]*\x03)/\x01$1$2／$6／$9\x02$3$4／$7／$10 $5$8/
-    - xform/\x01(L?)([^\x00-\x7f]{3})\x02([^\x01\x02\x03wxhq]+)([wxhq]*)\x03\s((?:\x01[^\x01\x03]+\x03\s)*)\x01\1([^\x00-\x7f]{3})\x02\3([wxhq]*\x03)\s?/\x01$1$2／$6\x02$3$4／$7 $5/
-    - xform/\x01(L?)([^\x00-\x7f]{3})\x02([^\x01\x02\x03wxhq]+)([wxhq]*)\x03\s((?:\x01[^\x01\x03]+\x03\s)*)\x01\1([^\x00-\x7f]{3})\x02\3([wxhq]*\x03)\s?/\x01$1$2／$6\x02$3$4／$7 $5/
-    - xform/／+\x03/\x03/
-    - xform/([xhq]+)w/w$1/
-    - xform/(w?)([hq]+)x/$1x$2/
-    - xform/q(h)/$1q/
-    - xform/\x02([^\x01\x02\x03wxhq]+?)([wxhq]+)／\2／\2\x03/\x02$1$2\x03/
-    - xform/\x02([^\x01\x02\x03wxhq]+?)([wxhq]+)／\2\x03/\x02$1$2\x03/
-# 轉換韻母
-    - xform/\x02(i?)uŋ((?:[wxhq]|／)*\x03)/\x02$1東$2/
-    - xform/\x02(y)uŋ((?:[wxhq]|／)*\x03)/\x02$1鐘$2/
-    - xform/\x02(u)uŋ((?:[wxhq]|／)*\x03)/\x02$1冬$2/
-    - xform/\x02(r)uŋ((?:[wxhq]|／)*\x03)/\x02$1江$2/
-    - xform/\x02([iy])aŋ((?:[wxhq]|／)*\x03)/\x02$1o陽$2/
-    - xform/\x02(u?)aŋ((?:[wxhq]|／)*\x03)/\x02$1o唐$2/
-    - xform/\x02(ru?)aŋ((?:[wxhq]|／)*\x03)/\x02$1o庚$2/
-    - xform/\x02([iy])æŋ((?:[wxhq]|／)*\x03)/\x02ɨ$1o庚$2/
-    - xform/\x02(ru?)eŋ((?:[wxhq]|／)*\x03)/\x02$1o耕$2/
-    - xform/\x02j?([iy])eŋ((?:[wxhq]|／)*\x03)/\x02jɨ$1o清$2/
-    - xform/\x02(u?e)ŋ((?:[wxhq]|／)*\x03)/\x02$1o青$2/
-    - xform/\x02([iy])ŋ((?:[wxhq]|／)*\x03)/\x02$1o蒸$2/
-    - xform/\x02(u?)oŋ((?:[wxhq]|／)*\x03)/\x02$1o登$2/
-#
-    - xform/\x02(j?)(y)ɿn((?:[wxhq]|／)*\x03)/\x02$1ɨ$2o諄$3/
-    - xform/\x02(j?)(i)ɿn((?:[wxhq]|／)*\x03)/\x02$1ɨ$2o臻$3/
-    - xform/\x02(j?)([iy])n((?:[wxhq]|／)*\x03)/\x02$1ɨ$2o眞$3/
-    - xform/\x02(i)on((?:[wxhq]|／)*\x03)/\x02$1o欣$2/
-    - xform/\x02(u)on((?:[wxhq]|／)*\x03)/\x02$1o魂$2/
-    - xform/\x02on((?:[wxhq]|／)*\x03)/\x02o痕$1/
-    - xform/\x02(y)on((?:[wxhq]|／)*\x03)/\x02$1o文$2/
-    - xform/\x02(u)an((?:[wxhq]|／)*\x03)/\x02$1o桓$2/
-    - xform/\x02([iy])an((?:[wxhq]|／)*\x03)/\x02$1o元$2/
-    - xform/\x02(ru?)an((?:[wxhq]|／)*\x03)/\x02$1o刪$2/
-    - xform/\x02an((?:[wxhq]|／)*\x03)/\x02o寒$1/
-    - xform/\x02(ru?)en((?:[wxhq]|／)*\x03)/\x02$1o山$2/
-    - xform/\x02(j?)([iy])en((?:[wxhq]|／)*\x03)/\x02$1ɨ$2o仙$3/
-    - xform/\x02(u?e)n((?:[wxhq]|／)*\x03)/\x02$1o先$2/
-#
-    - xform/\x02(j?)(i)m((?:[wxhq]|／)*\x03)/\x02$1ɨ$2o侵$3/
-    - xform/\x02(i)am((?:[wxhq]|／)*\x03)/\x02$1o嚴$2/
-    - xform/\x02(y)am((?:[wxhq]|／)*\x03)/\x02$1o凡$2/
-    - xform/\x02(r)am((?:[wxhq]|／)*\x03)/\x02$1o銜$2/
-    - xform/\x02(r)em((?:[wxhq]|／)*\x03)/\x02$1o咸$2/
-    - xform/\x02am((?:[wxhq]|／)*\x03)/\x02o談$1/
-    - xform/\x02(j?)(i)em((?:[wxhq]|／)*\x03)/\x02$1ɨ$2o鹽$3/
-    - xform/\x02(e)m((?:[wxhq]|／)*\x03)/\x02$1o添$2/
-    - xform/\x02om((?:[wxhq]|／)*\x03)/\x02o覃$1/
-#
-    - xform/\x02(r)au((?:[wxh]|／)*\x03)/\x02$1肴$2/
-    - xform/\x02au((?:[wxh]|／)*\x03)/\x02豪$1/
-    - xform/\x02(j?)(i)eu((?:[wxh]|／)*\x03)/\x02$1ɨ$2宵$3/
-    - xform/\x02(e)u((?:[wxh]|／)*\x03)/\x02$1蕭$2/
-    - xform/\x02(i)u((?:[wxh]|／)*\x03)/\x02$1尤$2/
-    - xform/\x02u((?:[wxh]|／)*\x03)/\x02侯$1/
-    - xform/\x02(y)((?:[wxh]|／)*\x03)/\x02$1幽$2/
-#
-    - xform/\x02(j?)([iy])e((?:[wxh]|／)*\x03)/\x02$1ɨ$2o支$3/
-    - xform/\x02(j?)([iy])i((?:[wxh]|／)*\x03)/\x02$1ɨ$2o脂$3/
-    - xform/\x02i((?:[wxh]|／)*\x03)/\x02io之$1/
-    - xform/\x02([iy])oi((?:[wxh]|／)*\x03)/\x02$1o微$2/
-    - xform/\x02([iy])a((?:d|／)+\x03)/\x02$1o廢$2/
-    - xform/\x02(ru?)a((?:d|／)+\x03)/\x02$1o夬$2/
-    - xform/\x02(u?)a((?:d|／)+\x03)/\x02$1o泰$2/
-    - xform/\x02(j?)([iy])e((?:d|／)+\x03)/\x02$1ɨ$2o祭$3/
-    - xform/\x02(ru?)e((?:[wxh]|／)*\x03)/\x02$1o佳$2/
-    - xform/\x02(ru?)ai((?:[wxh]|／)*\x03)/\x02$1o皆$2/
-    - xform/\x02(u?e)((?:[wxh]|／)*\x03)/\x02$1o齊$2/
-    - xform/\x02i?(u)ai((?:[wxh]|／)*\x03)/\x02$1o灰$2/
-    - xform/\x02ai((?:[wxh]|／)*\x03)/\x02o咍$1/
-#
-    - xform/\x02([uiy])a((?:[wxh]|／)*\x03)/\x02$1o戈$2/
-    - xform/\x02a((?:[wxh]|／)*\x03)/\x02o歌$1/
-    - xform/\x02j?(r[ui]?)a((?:[wxh]|／)*\x03)/\x02$1o麻$2/
-    - xform/\x02(i)o((?:[wxh]|／)*\x03)/\x02$1魚$2/
-    - xform/\x02(y)o((?:[wxh]|／)*\x03)/\x02$1虞$2/
-    - xform/\x02o((?:[wxh]|／)*\x03)/\x02模$1/
-# 處理等、聲調
-    - xform/d/h/
-    - xform/(\x01[^\x01\x03wxhq]+)([whxq]+)((?:／[whxq]+)*)\x03/$1】$2$3/
-#
-    - xform/\x01(L?)((?:[^\x00-\x7f]{3}|／)+)\x02(j?ɨ)([iy])(o?)([^\x00-\x7f]{3})/〖$2〗重紐$3等\x01$1$5$4\x03【$6/
-    - xform/\x01(L?)((?:[^\x00-\x7f]{3}|／)+)\x02(u?)e(o?)([^\x00-\x7f]{3})/〖$2〗四等\x01$1$4$3\x03【$5/
-    - xform/\x01(L?)((?:[^\x00-\x7f]{3}|／)+)\x02r(u?)(o?)([^\x00-\x7f]{3})/〖$2〗二等\x01$1$4$3\x03【$5/
-    - xform/\x01(L?)((?:[^\x00-\x7f]{3}|／)+)\x02r?([iy])(o?)([^\x00-\x7f]{3})/〖$2〗三等\x01$1$4$3\x03【$5/
-    - xform/\x01(L?)((?:[^\x00-\x7f]{3}|／)+)\x02(u?)(o?)([^\x00-\x7f]{3})/〖$2〗一等\x01$1$4$3\x03【$5/
-    - xform/jɨ/四/
-    - xform/ɨ/三/
-    - xform/\x01(?!L)o[uy]\x03/合/
-    - xform/\x01(?!L)oi?\x03/開/
-    - xform/\x01L?[a-z]*\x03//
-# 壓縮韻母
-    - xform/(\s|^)([^\s]+)【([^\x00-\x7f]{3})】([wxhq]+)\s((?:[^\s]+\s)*)\2【([^\x00-\x7f]{3})】([wxhq]+)(\s|$)/$1$2【$3／$6】$4／$7 $5$8/
-    - xform/(】)([wxhq]+)／\2(\s)/$1$2$3/
-# 註聲調
-    - xlit|wxhq|平上去入|
+emoji_cn:
+  opencc_config: emoji.json
+  option_name: emoji_cn
+  tips: all
 
 punctuator:
   import_preset: symbols
@@ -406,7 +218,4 @@ recognizer:
     luna_pinyin: "`[a-z']*'?$"
     stroke: "x[hspnz]*'?$"
     cangjie5: "v[a-z]*'?$"
-#    wubi86: "r[a-z]*'?$"
     loengfan: "r[a-z]*'?$"
-    puping_to_zyenpheng: "xx[a-z]*'?$"
-    jyutping_to_zyenpheng: "xj[a-z]*'?$"
