@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2024.04.07"
+version: "2024.04.21"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -6105,7 +6105,7 @@ import_tables:
 聎	thiau
 糶	thiau
 脁	thiau
-𣂁	thiau
+𣂀	thiau
 朓	thiau
 窱	thiau
 跳	thiau
@@ -6769,7 +6769,6 @@ import_tables:
 邰	the
 貸	the	10%
 梯	the	5%
-⿰忄態	the
 曃	the
 儓	the
 臺	de
@@ -7272,6 +7271,7 @@ import_tables:
 癉	tae
 𨢿	tae
 撢	tae
+勯	tae
 耽	tae
 躭	tae
 眈	tae
@@ -7302,7 +7302,6 @@ import_tables:
 灘	thae
 坍	thae	1257
 癱	thae
-勯	thae
 毯	thae
 舑	thae
 聃	thae
@@ -12071,7 +12070,7 @@ import_tables:
 櫈	ten
 燉	ten
 撉	ten
-澄	ten	1%
+濎	ten
 磴	ten
 隥	ten
 𩞬	ten
@@ -12625,7 +12624,6 @@ import_tables:
 薡	tin
 葶	tin
 濎	tin
-澄	tin	1%
 訂	tin
 飣	tin
 碇	tin
@@ -19750,7 +19748,6 @@ import_tables:
 态	the
 鲐	the
 贷	the
-⿰忄态	the
 台	de	0%
 骀	de
 绐	de
@@ -23401,7 +23398,7 @@ import_tables:
 肌身熱	ci shin gniq	55
 肌身火熱	ci shin hou gniq	55
 雞血	ci shiuq	55
-雞打水	ci tan syu
+雞打勢	ci tan syu
 記得	ci taq
 剪刀	ci tau
 剪刀破絹帕	ci tau phou ciu phae	55
@@ -29293,7 +29290,7 @@ import_tables:
 睏甦醒	khuen su shin
 睏失覺	khuen syuq kau	55
 睏到	khuen tau
-睏⿰忄態覺	khuen the kau	55
+睏態覺	khuen the kau	55
 睏的	khuen tiq
 睏棕繃	khuen tson pan
 睏棕繃眠牀	khuen tson pan mi zaon
@@ -34031,6 +34028,7 @@ import_tables:
 屁輕	phi chin	55
 偏頭	phi deu
 偏頭間	phi deu kae	55
+偏方	phi faon
 披風	phi fon
 蝙蝠	phi foq
 蝙蝠老鼠	phi foq lau tsy
@@ -36057,7 +36055,6 @@ import_tables:
 書阿講讀	syu oq kaon doq
 書包	syu pau
 書包架	syu pau ko	55
-書報架	syu pau ko
 尿泡泡	syu phau phau	55
 水泡泡	syu phau phau	55
 水波浪	syu pou laon	55
@@ -36069,9 +36066,9 @@ import_tables:
 舒舒意意	syu syu i i	55
 水筍	syu syun	55
 水塌窞	syu thaq dei	418
-水𡍲頭	syu thaq deu	55
+水塌頭	syu thaq deu	55
 水搨糕	syu thaq kau	55
-舒⿰忄態	syu the
+舒態	syu the
 書店	syu ti
 水底工	syu ti kon	55
 水汀	syu tin
@@ -36121,7 +36118,7 @@ import_tables:
 失撇	syuq phiq	55
 失心	syuq shin
 雪雪白	syuq syuq baq	578
-刷刷平	syuq syuq bin	55
+雪雪平	syuq syuq bin	55
 雪雪斯白	syuq syuq sy baq
 雪得斯白	syuq taq sy baq
 刷桌布	syuq tsoq pu	55
@@ -36167,9 +36164,7 @@ import_tables:
 單角	tae koq	55
 單角落頭	tae koq loq dei
 單角落頭	tae koq loq deu	55
-打埋	tae ma
-擔漫	tae mae	55
-打埋	tae mae-me
+打埋	tae mae-me	55
 撣蚊蟲	tae men dzon	55
 單耳朵	tae ng to	55
 單眼竈	tae ngae tsau	55
@@ -36190,7 +36185,6 @@ import_tables:
 單位裏人	tae wei li gnin
 打牌九	tan ba cieu	55
 打棚	tan ban	55
-打暴	tan bau
 打耙面	tan bo mi
 打槍笆	tan chian po
 打箍	tan chieu	55
@@ -36210,7 +36204,6 @@ import_tables:
 打稻	tan dau	55
 打稻機	tan dau ci	55
 打地鋪	tan di phu
-打獨流	tan doq lieu
 打獨溜	tan doq lieu	55
 打杜勒克	tan du laq khaq	55
 打杜路克	tan du lu khaq	55
@@ -36255,7 +36248,6 @@ import_tables:
 打攔軋	tan laq gaq	55
 打勒過	tan laq kou
 打老K	tan lau khe	55
-打蓮花朗	tan li huo laon	55
 打蓮花落	tan li huo laon	55
 打連草	tan li tshau	55
 打潦草	tan liau tshau	55
@@ -36276,6 +36268,7 @@ import_tables:
 打扮	tan pae
 打板子	tan pae tsy
 打寶	tan pau	55
+打暴	tan pau
 打派司	tan pha sy	55
 打屁股	tan phi ku
 打拼	tan phin
@@ -36296,11 +36289,10 @@ import_tables:
 打錫箔個	tan shiq boq ghoq	55
 打錫箔個	tan shiq boq goq	55
 打勢	tan syu	55
-打水	tan syu
 打水機	tan syu ci
 打水機船	tan syu ci zoe	55
 打水陸	tan syu loq	55
-打水雄雞	tan syu yon ci
+打勢雄雞	tan syu yon ci
 打倒	tan tau
 打胎	tan the
 打探動	tan thei don	55
@@ -36357,6 +36349,7 @@ import_tables:
 擋過來	taon kou le
 擋勒	taon laq
 擋牢	taon lau
+當了	taon lei	1
 當𡀂	taon lei
 擋落去	taon loq chi
 擋落來	taon loq le
@@ -36388,7 +36381,6 @@ import_tables:
 搭積木	taq ciq moq	55
 答頭	taq deu	55
 搭地灰撲	taq di huei phoq	55
-搭地灰扎	taq di huei tsaq
 得法	taq faq
 得人惜	taq gnin shiq	55
 得人犯憎	taq gnin vae tsen
@@ -36465,7 +36457,6 @@ import_tables:
 刀磨勒鋒快	tau mou laq fen khua
 倒牛爿	tau ngeu bae
 到儂客氣	tau nou khaq chi
-到壩	tau po
 到靶	tau po	55
 倒向	tau shian
 倒塌聳	tau thaq son	55
@@ -36604,7 +36595,6 @@ import_tables:
 太公	tha kon
 太公牙鬚	tha kon ngo su
 討保	tha pau
-它山堰	tha sae i
 太師椅	tha sy i
 太師椅	tha sy iu
 太太	tha tha
@@ -36634,7 +36624,6 @@ import_tables:
 毯子	thae tsy
 灘簧	thae waon
 舑舌頭	thae zhiq deu
-宕鑼	than lou
 鐋鑼	than lou
 淌白	thaon baq	55
 湯婆子	thaon bou tsy	55
@@ -36710,7 +36699,6 @@ import_tables:
 搨老豆腐	thaq lau deu vu
 脫力	thaq liq	55
 沓落	thaq loq
-脫落	thaq loq
 忒慢	thaq mae
 忒忙	thaq maon
 搨襪底	thaq maq ti	55
@@ -36784,12 +36772,12 @@ import_tables:
 胎裏記認	the li ci gnin	55
 胎裏殘疾	the li dzae jiq	55
 胎裏毛病	the li mau bin	55
-⿰忄態鬆	the son
-⿰忄態話	the wo	55
+態鬆	the son
+態話	the wo	55
 推牌九	thei ba cieu
 退皮	thei bi	55
 推緝	thei chiq	55
-㷟雞	thei ci
+煺雞	thei ci
 腿腈	thei cin	55
 退堂	thei daon
 退庭	thei din
@@ -36824,8 +36812,7 @@ import_tables:
 褪褲阿舅	then khu aq jieu
 褪落	then loq
 偷爬	theu bo
-偷伴	theu bun
-偷盤	theu bun	55
+偷伴	theu bun	55
 偷針	theu cin	55
 透骨鮮	theu kuaq shi	55
 透骨新鮮	theu kuaq shin shi	55
@@ -36893,7 +36880,6 @@ import_tables:
 天亮紅霞靉愁愁	thi lian ghon ya a zeu zeu
 天落水	thi loq syu	55
 天落雨毛絲	thi loq yu mau sy
-天羅	thi lou
 天蘿	thi lou	55
 天蘿花箲	thi lou huo shi	55
 天蘿箲	thi lou shi	55
@@ -36901,15 +36887,15 @@ import_tables:
 天外落材	thi nga loq ze
 剃牙鬚	thi ngo su	55
 天皰瘡	thi phau tshaon	55
-天怕烏風猛暴	thi pho u fon man bau
+天怕烏風猛暴	thi pho u fon man pau
 掭筆	thi piq	55
 替手	thi shieu
 天心	thi shin
 天數	thi su
 天水	thi syu
 天膽地大	thi tae di dou	55
-天打暴	thi tan bau
 天打龍光閃	thi tan lon kuaon shi
+天打暴	thi tan pau
 天打煞	thi tan saq	55
 體汰	thi tha	418
 體汰阿姆	thi tha a m
@@ -37108,13 +37094,12 @@ import_tables:
 拖黃	thou uaon	55
 拖黃老泥螺	thou uaon lau gni lou
 忒勿	thou vaq
-忒弗	thou vaq
+忒弗	thou vaq	1
 忒弗像話	thou vaq zhian wo	1
 忒勿像樣	thou vaq zhian yan
 忒弗像樣	thou vaq zhian yan	1
 拖黃魚	thou waon ng
 忒油	thou yeu
-拖有病	thou yeu bin
 拖油瓶	thou yeu bin
 忒遠	thou yu
 土鯆魚	thu bu ng	55
@@ -37128,8 +37113,8 @@ import_tables:
 土匪	thu fi
 土郎中	thu laon tson	55
 土布	thu pu
+吐司	thu sy
 吐絲	thu sy
-土司	thu sy
 土笥	thu sy	55
 土燭	thu tsoq	55
 兔子	thu tsy
@@ -37170,7 +37155,6 @@ import_tables:
 抵隻豬娘	ti tsaq tsyu gnian
 癲子癲	ti tsy ti
 典主	ti tsyu	55
-爹頭娘腳	tia deu gnian ciaq
 爹頭孃腳	tia deu gnian ciaq	55
 爹孃	tia gnian
 嗲聲嗲氣	tia shin tia chi
@@ -37182,7 +37166,7 @@ import_tables:
 鳥頭	tiau deu
 吊紅	tiau ghon	55
 吊紅大舌頭	tiau ghon dou zhiq deu
-彫花臉	tiau huo li
+雕花臉	tiau huo li
 雕花師父	tiau huo sy vu	55
 鳥窠	tiau khou	55
 窵角	tiau koq	55
@@ -37208,11 +37192,9 @@ import_tables:
 吊水	tiau syu
 吊水繩	tiau syu zhin	55
 刁蹬	tiau ten
-刁𩍐	tiau ten
 吊吊唱	tiau tiau tshaon
 鳥測字	tiau tshaq zy	55
 刁嘴故生	tiau tsyu ku san
-吊嘴鼓腮	tiau tsyu ku se
 吊胃口	tiau wei kheu
 頂晏	tin ae
 頂晏來	tin ae le
@@ -37239,7 +37221,6 @@ import_tables:
 頂基本	tin ci pen
 頂簡單	tin ci tae
 丁僵骨粒	tin cian kuaq liq	55
-頂真	tin cin
 頂進	tin cin	55
 頂貴	tin ciu
 頂頭摸腳	tin deu moq ciaq	578
@@ -37361,7 +37342,7 @@ import_tables:
 頂頂主要	tin tin tsyu iau
 頂頂主要個	tin tin tsyu iau ghoq
 頂頂主要個	tin tin tsyu iau goq
-釘釘準準	tin tin tsyun tsyun
+頂頂真真	tin tin tsyun tsyun
 頂頂壞	tin tin ua
 頂頂煩	tin tin vae
 頂頂犯關	tin tin vae kuae
@@ -40253,7 +40234,7 @@ import_tables:
 油光水滑	yeu kuaon syu waq
 有勒	yeu laq	55
 有佬	yeu lau	55
-有佬佃倌講⿰忄態話	yeu lau di kun kaon the wo
+有佬佃倌講態話	yeu lau di kun kaon the wo
 有佬人家殺豬羊	yeu lau gnin ko saq tsyu yan
 有佬兒子	yeu lau ng tsy
 釉璃傢伙	yeu li ko hou
@@ -46123,8 +46104,9 @@ import_tables:
 好壞頂分明	hau ua tin fen min
 左鄰右舍是桿秤	tsou lin yeu so zy ki-ke chin
 隔河兩岸是面鏡	kaq ghou lian nge zy mi cin
-渾水越澄越清	wen syu yuq jin yuq chin
+渾水越濎越清	wen syu yuq tin yuq chin
 是非越辨越明	zy fi yuq bi yuq min
+渾水越濎越清	wen syu yuq ten yuq chin
 天怕東風雨	thi pho ton fon yu
 人怕牀頭鬼	gnin pho zaon deu ciu
 嘴如蜜糖	tsyu zyu miq daon
