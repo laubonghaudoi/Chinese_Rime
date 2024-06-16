@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2024.06.04"
+version: "2024.06.10"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -1579,6 +1579,7 @@ import_tables:
 縺	li
 褳	li
 嗹	li
+謰	li
 翴	li
 廉	li
 鐮	li
@@ -1745,7 +1746,6 @@ import_tables:
 力	li	0%
 爁	li
 哩	lhi
-謰	lhi
 齏	ci
 𧆌	ci
 虀	ci
@@ -3687,7 +3687,7 @@ import_tables:
 蕗	lu
 虂	lu
 絡	lu	0%
-謱	lhu
+嚕	lhu
 租	tsu
 狙	tsu
 怚	tsu
@@ -5789,7 +5789,7 @@ import_tables:
 拿	nho	5%
 挐	nho	5%
 拏	nho	5%
-謱	lho
+嚕	lho
 查	tso	5%
 査	tso	5%
 渣	tso
@@ -8799,7 +8799,6 @@ import_tables:
 楠	nei-nae
 枏	nei-nae
 柟	nei-nae
-腩	nei-nae
 喃	nei-nae
 諵	nei-nae
 男	nei-nae
@@ -8814,11 +8813,12 @@ import_tables:
 揇	nei-nae
 萳	nei-nae
 蝻	nei-nae
+腩	nei-nae
 耐	nei	0%
 內	nei
 内	nei
 汭	nei
-𤿏	nei	578
+𤿏	nei
 婻	nei-nae
 妠	nei-nae
 雷	lei
@@ -10224,6 +10224,7 @@ import_tables:
 慺	leu
 膢	leu
 鷜	leu
+謱	leu
 塿	leu
 摟	leu
 簍	leu
@@ -19235,7 +19236,7 @@ import_tables:
 辂	lu
 鹭	lu
 络	lu
-𫍴	lhu
+噜	lhu
 组	tsu
 诅	tsu
 驵	tsu
@@ -19556,7 +19557,7 @@ import_tables:
 杩	mo
 嬷	mho
 汤	tho
-𫍴	lho
+噜	lho
 鹧	tso
 𫍹	tso
 诈	tso
@@ -20420,6 +20421,7 @@ import_tables:
 䁖	leu
 㥪	leu
 𦝼	leu
+𫍴	leu
 𪣻	leu
 搂	leu
 篓	leu
@@ -22318,8 +22320,9 @@ import_tables:
 拔麪湯	baq mi thaon	55
 白米飯蝦	baq mi vae huo	55
 拔苗頭	baq miau deu	55
+白螞蟻	baq mo gni
 白木耳	baq moq er
-白𤿏糕	baq nei kau	55
+白腩糕	baq nei kau	55
 白眼	baq ngae
 白眼攦煞死	baq ngae li saq shi
 白板	baq pae
@@ -26352,7 +26355,7 @@ import_tables:
 紅頭黑炭	ghon deu haq thae	55
 紅頭蒼蠅	ghon deu tshaon in	55
 紅緞鑲邊	ghon doe shian pi	55
-紅粉鮮白	ghon fen shi baq	55
+紅粉細白	ghon fen shi baq	55
 洪峯	ghon fon
 叿叿	ghon ghon	55
 紅紅帳子拖踏牀	ghon ghon cian tsy thou daq zaon
@@ -26786,8 +26789,8 @@ import_tables:
 肉彩	gnioq tshe	55
 肉豬	gnioq tsyu
 掿豬油餡	gnioq tsyu yeu ghae
-肉勿𤿏	gnioq vaq nei
-肉弗𤿏	gnioq vaq nei	55
+肉勿腩	gnioq vaq nei
+肉弗腩	gnioq vaq nei	55
 肉油	gnioq yeu	55
 肉圓	gnioq yu
 肉圓子	gnioq yu tsy
@@ -30915,8 +30918,8 @@ import_tables:
 𠞭膿刮髓	lheu non kuaq shi	55
 𠞭種	lheu tson
 𠞭形刮髓	lheu yin kuaq shi	55
-謰謰謱謱	lhi lhi lho lho	55
-謰謰謱謱	lhi lhi lhu lhu	55
+哩哩嚕嚕	lhi lhi lho lho	55
+哩哩嚕嚕	lhi lhi lhu lhu	55
 拎包	lhin pau
 拎水	lhin syu	55
 拎得清	lhin taq chin
@@ -33001,17 +33004,17 @@ import_tables:
 唸佛個	ne-gnie vaq ghoq	55
 唸佛個	ne-gnie vaq goq	55
 唸符咒	ne-gnie vu cieu
-𤿏蒲蒲	nei bu bu	55
-𤿏氣氣	nei chi chi	55
+腩脯脯	nei bu bu	55
+腩氣氣	nei chi chi	55
 內臓	nei dzaon	55
 內行人	nei ghaon gnin
 內侄	nei jiq
 內侄囡	nei jiq noe	55
-𤿏殼蛋	nei khoq dae
+腩殼蛋	nei khoq dae
 耐耐心心	nei nei shin shin
 內八字	nei paq zy	55
 耐心耐相	nei shin nei shian	55
-𤿏飯	nei vae	55
+腩飯	nei vae	55
 南部吳語	nei-nae bu wu gniu
 南溪溫泉	nei-nae chi uen dzoe	55
 男同胞	nei-nae don pau
@@ -33679,8 +33682,8 @@ import_tables:
 涴衲	ou naq
 屙衲一樣	ou naq iq yan
 涴衲一樣	ou naq iq yan	55
-屙𤿏屁鬆	ou nei phi son
-涴𤿏屁鬆	ou nei phi son	55
+屙腩屁鬆	ou nei phi son
+涴腩屁鬆	ou nei phi son	55
 𤉦暖	ou noe	55
 𤉦𤉦暖暖	ou ou noe noe
 捼浜	ou pan	55
@@ -34857,7 +34860,7 @@ import_tables:
 燥點心	sau te shin	55
 燥點心	sau ti shin	55
 燥的剝落	sau tiq poq loq
-燥粥𤿏飯	sau tsoq nei vae	55
+燥粥腩飯	sau tsoq nei vae	55
 賽球	se jieu
 賽過	se khou	55
 賽過	se kou
@@ -36414,7 +36417,7 @@ import_tables:
 搭搭	taq taq
 答答	taq taq
 搭搭漿	taq taq cian	55
-𢝉𢝉動	taq taq don	55
+怛怛動	taq taq don	55
 溚溚渧	taq taq ti	578
 搭對	taq tei	55
 得寵	taq tshon
@@ -36724,7 +36727,7 @@ import_tables:
 忒鬆	thaq son
 搨帶魚	thaq ta ng
 忒陡	thaq teu
-塌塌𤿏	thaq thaq nei	55
+塌塌腩	thaq thaq nei	55
 塔塔響	thaq thaq shian	55
 沓沓腐	thaq thaq vu
 脫套換套	thaq thau wun thau
@@ -37151,7 +37154,7 @@ import_tables:
 抵配	ti phei
 顛三倒四	ti sae tau sy
 點心	ti shin
-點心嘸沒黃𤿏糕	ti shin mh maq waon nei kau
+點心嘸沒黃腩糕	ti shin mh maq waon nei kau
 點心飯	ti shin vae	55
 點心時	ti shin zy	55
 點天燈	ti thi ten
@@ -39682,7 +39685,7 @@ import_tables:
 黃狗咬痛腳	waon keu ngau thon ciaq
 黃狗拖來一梗臭年糕	waon keu thou le iq kan chieu gni kau
 黃狗拖來一梗臭年糕	waon keu thou le iq kuan chieu gni kau
-黃狗遊河	waon keu yeu ghou
+黃狗游河	waon keu yeu ghou
 惶恐	waon khon
 黃狗	waon ki-ke	55
 黃狗甩尾巴	waon ki-ke huaq mi po
@@ -39690,7 +39693,7 @@ import_tables:
 黃狗咬痛腳	waon ki-ke ngau thon ciaq
 黃狗拖來一梗臭年糕	waon ki-ke thou le iq kan chieu gni kau
 黃狗拖來一梗臭年糕	waon ki-ke thou le iq kuan chieu gni kau
-黃狗遊河	waon ki-ke yeu ghou
+黃狗游河	waon ki-ke yeu ghou
 王家墩	waon ko ten
 王家灣	waon ko uae
 黃古古	waon ku ku	55
@@ -39701,7 +39704,7 @@ import_tables:
 黃猛蛇	waon man dzo	55
 黃梅天	waon mei thi
 黃黴天	waon mei thi	55
-黃𤿏糕	waon nei kau	55
+黃腩糕	waon nei kau	55
 黃魚	waon ng
 黃魚鯗	waon ng shian	55
 黃魚鯗烤肉	waon ng shian khau gnioq
@@ -39953,7 +39956,7 @@ import_tables:
 黃狗咬痛腳	wu keu ngau thon ciaq
 黃狗拖來一梗臭年糕	wu keu thou le iq kan chieu gni kau
 黃狗拖來一梗臭年糕	wu keu thou le iq kuan chieu gni kau
-黃狗遊河	wu keu yeu ghou
+黃狗游河	wu keu yeu ghou
 戶口簿	wu kheu bu
 黃狗	wu ki-ke	55
 黃狗甩尾巴	wu ki-ke huaq mi po
@@ -39961,7 +39964,7 @@ import_tables:
 黃狗咬痛腳	wu ki-ke ngau thon ciaq
 黃狗拖來一梗臭年糕	wu ki-ke thou le iq kan chieu gni kau
 黃狗拖來一梗臭年糕	wu ki-ke thou le iq kuan chieu gni kau
-黃狗遊河	wu ki-ke yeu ghou
+黃狗游河	wu ki-ke yeu ghou
 胡家墳	wu ko ven
 胡家牆門	wu ko zhian men
 狐狸	wu li
@@ -40234,7 +40237,7 @@ import_tables:
 有揩嘸揩	yeu kha mh kha	55
 有看嘸看	yeu khi-khe mh khi-khe	55
 油果	yeu kou	55
-遊蛄	yeu ku	55
+游蛄	yeu ku	55
 油光水滑	yeu kuaon syu waq
 有勒	yeu laq	55
 有佬	yeu lau	55
@@ -43024,11 +43027,7 @@ import_tables:
 會講弗一定能幹	wei kaon vaq iq din nen ki-ke
 香花勿一定好看	shian huo vaq iq din hau khi-khe
 會講勿一定能幹	wei kaon vaq iq din nen ki-ke
-黃狗游河	waon keu yeu ghou
 出張嘴巴	tshyuq jian tsyu po
-黃狗游河	waon ki-ke yeu ghou
-黃狗游河	wu keu yeu ghou
-黃狗游河	wu ki-ke yeu ghou
 出張嘴巴	tshyuq cian tsyu po
 講講純勁道	kaon kaon zyun jin dau
 做做瘟跌倒	tsou tsou uen tiq tau
@@ -47171,9 +47170,9 @@ import_tables:
 屙急造茅坑	ou ciq zau mau khan
 來勿及	le vaq ji
 硬除磨	ngan dzyu mou
-𤿏除涴	nei dzyu ou
+腩除涴	nei dzyu ou
 樣樣要喫	yan yan iau chioq
-𤿏除屙	nei dzyu ou
+腩除屙	nei dzyu ou
 拖泥帶水	thou gni ta syu
 良心生勒肋胳肢下	lian shin san laq laq kaq tsy gho
 壞心	ua shin
