@@ -1,5 +1,5 @@
 <h1>中州韻輸入法非普通話漢語拼音方案全集
-<br/>Collection of Rime Input Method Phonetic Spelling Schemas for Chinese Languages & Dialects</h1>
+<br/>Collection of Rime Input Method Romanization Schemas for Chinese Languages & Dialects</h1>
 
 ![contributions welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen?style=for-the-badge&logo=contributions)
 ![licence](https://img.shields.io/badge/License-CC--BY--4.0-orange?style=for-the-badge&logo=contributions)
@@ -13,15 +13,11 @@
 2. 爲現代非普通話漢語、古漢語學習者提供實用便利的學習工具，通過拼音打字來練習正音和正字。
 3. 爲學術研究（語言學、漢學、人類學等）提供參考資料。
 
-本項目同時作爲推廣漢語非普通話拼音輸入的支持項目，項目主頁請見 [HanhNgiox.net](https://hanhngiox.net/)。
+This repository collects the romanization schemas and character sets of [Rime input method](https://rime.im/) for Old Chinese, Middle Chinese and modern Chinese languages & dialects. This project is aimed to:
 
-This repository collects the phonetic spelling schemas and character sets of [Rime input method](https://rime.im/) for Old Chinese, Middle Chinese and modern Chinese languages & dialects. This project aims to:
-
-1. Provide useful phonetic spelling input schemas for all non-Mandarin Chinese languages & dialects, solving the predicament where non-Mandarin Chinese speakers are compelled to type in Mandarin.
-2. Serve as a useful tool for Chinese language & dialect learners, as one can use phonetic spelling input to practice the standard pronunciation and orthography.
-3. Provide references for academic researches (Linguistics, Sinology, Anthropology, etc.).
-
-This project also supports the promotion project of non-Mandarin phonetic spelling input. The main page of this project is here [HanhNgiox.net](https://hanhngiox.net/) (Chinese only).
+1. Provide useful phonetic spelling (romanization) input schemas for all non-MSC(Modern Standard Chinese, a.k.a Standard Mandarin) languages & dialects, enabling non-MSC speakers to type in their mother tongues.
+2. Serve as a useful tool for Sinitic / Chinese language & dialect learners, as one can use phonetic spelling input to practice the standard pronunciation and orthography.
+3. Serve as a reference for academic researches (Linguistics, Sinology, Anthropology, etc.).
 
 本倉庫分为四个子文件夹：
 
