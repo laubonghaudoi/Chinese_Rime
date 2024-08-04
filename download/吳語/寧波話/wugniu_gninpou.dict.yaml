@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2024.07.05"
+version: "2024.08.04"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -13662,6 +13662,7 @@ import_tables:
 瀴	in
 窨	in
 癊	in
+引	in	0%
 衮	kuen
 袞	kuen
 滾	kuen
@@ -16098,6 +16099,7 @@ import_tables:
 螖	waq
 秳	waq
 活	waq
+𱮏	waq
 抇	waq
 囫	waq
 砉	waq
@@ -24446,6 +24448,7 @@ import_tables:
 稻鬚	dau syu
 稻鬚穀	dau syu koq
 淘湯飯	dau thaon vae	55
+掏撐	dau tshan
 稻草	dau tshau
 稻叉	dau tsho	55
 桃子	dau tsy
@@ -27572,6 +27575,7 @@ import_tables:
 櫻花	in huo
 隱隱動	in in don	55
 應酬	in jieu
+引擎	in jin
 引擎蓋	in jin ke
 印糕	in kau	55
 陰珓	in kau	55
@@ -30189,6 +30193,8 @@ import_tables:
 拐拐動	kua kua don
 拐籮窠	kua lou khou	55
 柺子	kua tsy
+怪勿得	kua vaq taq
+怪弗得	kua vaq taq	1
 拐搖籮	kua yau lou
 關照	kuae ciau
 關晝學	kuae cieu ghoq	55
@@ -31645,6 +31651,7 @@ import_tables:
 買賬	ma cian
 買豆芽	ma deu ngo
 買着買	ma dzoq ma	55
+馬虎	ma fu
 買下飯	ma gho vae
 買海蜒放生	ma he yi faon san
 埋怨	ma iu
@@ -32077,6 +32084,7 @@ import_tables:
 嘸話說	mh wo syuq	55
 嘸樣範	mh yan vae	55
 嘸用場	mh yon jian	55
+馬虎	mha fu
 𧻲𧻲動	mha mha don
 馬馬虎虎	mha mha fu fu
 蠻缺	mhae chiuq
@@ -34721,7 +34729,7 @@ import_tables:
 雙臺下巴	saon de gho po	55
 傷風	saon fon
 傷風氣	saon fon chi	55
-雙隑人	saon ge gnin	55
+雙戤人	saon ge gnin	55
 傷寒氣	saon ghei-ghe chi	55
 舂年糕	saon gni kau
 雙鱟	saon heu	55
@@ -36156,7 +36164,7 @@ import_tables:
 單頭重	tae deu dzon	55
 撣田墈	tae di khe	55
 單方	tae faon
-單隑人	tae ge gnin	55
+單戤人	tae ge gnin	55
 單耳朵	tae gni to	55
 單要	tae iau	55
 單件頭	tae ji deu
@@ -40828,7 +40836,7 @@ import_tables:
 前腳後頭	zhi ciaq gheu deu	55
 前腳後跟	zhi ciaq gheu ken	55
 自羯自	zhi ciq zhi
-自道自撐	zhi dau zhi tshan	55
+自掏自撐	zhi dau zhi tshan	55
 前頭	zhi deu
 前駝背	zhi dou pei	55
 前個月	zhi ghoq yuq	55
