@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2024.08.29"
+version: "2024.10.14"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -17040,7 +17040,6 @@ import_tables:
 鏎	piq
 韠	piq
 饆	piq
-百	piq	0%
 撥	piq	5%
 廦	piq
 綼	piq
@@ -24514,6 +24513,7 @@ import_tables:
 藤盤	den bun	55
 庉昶	den chian	55
 臀趼	den ci	55
+庉進	den cin
 屯隊	den dei	55
 𨄇𨄇	den den	55
 𨄇𨄇奔	den den pen	55
@@ -26664,12 +26664,19 @@ import_tables:
 鰙鰨	gniaq thaq	55
 鰙鰨魚	gniaq thaq ng	55
 鑷子鉗	gniaq tsy ji	55
+繞被頭	gniau bi deu
 繞七繞八	gniau chiq gniau paq
 繞腳貓	gniau ciaq mae
 繞藤飯瓜	gniau den vae kuo
 繞繞頭	gniau gniau deu	55
 繞繞煞煞	gniau gniau saq saq
 嘵嘵豬	gniau gniau tsyu
+繞鈕子	gniau gnieu tsy
+繞好	gniau hau
+繞衣裳	gniau i zaon
+繞褲子	gniau khu tsy
+繞牢	gniau lau
+繞攏	gniau lon
 繞籠頭	gniau lon deu
 嘵豬	gniau tsyu	578
 原方	gnieu faon	55
@@ -27627,6 +27634,7 @@ import_tables:
 永生永世	ion san ion shi	578
 甬蓆	ion zhiq	55
 一排生	iq ba san	55
+一爿	iq bae
 一爿廠	iq bae chian
 一爿店	iq bae ti
 一爿葉爿	iq bae yiq bae
@@ -29499,6 +29507,7 @@ import_tables:
 該好	kiq hau
 該要	kiq iau
 該一	kiq iq
+該一爿	kiq iq bae
 該一爿廠	kiq iq bae chian
 該一爿店	kiq iq bae ti
 該一爿葉爿	kiq iq bae yiq bae
@@ -29711,6 +29720,7 @@ import_tables:
 該摙柴	kiq li za
 該兩	kiq lian
 該輛	kiq lian
+該兩爿	kiq lian bae
 該兩爿廠	kiq lian bae chian
 該兩爿店	kiq lian bae ti
 該兩坒人	kiq lian bi gnin
@@ -30029,7 +30039,9 @@ import_tables:
 拱趣趣	kon tshyu tshyu	55
 供佛	kon vaq
 擱排凳	koq ba ten	55
+各爿	koq bae
 各爿廠	koq bae chian
+各爿店	koq bae ti
 各部汽車	koq bu chi tsho
 各部腳踏車	koq bu ciaq daq tsho
 各起管	koq chi kun	55
@@ -31031,6 +31043,7 @@ import_tables:
 利市頭	li zy deu	55
 利市肉	li zy gnioq
 楝樹	li zyu	55
+兩爿	lian bae
 兩爿廠	lian bae chian
 兩爿店	lian bae ti
 兩坒人	lian bi gnin
@@ -33815,7 +33828,7 @@ import_tables:
 八九	paq cieu
 百筋百骸	paq cin paq hae	55
 八節八禮	paq ciq paq li
-百發百準	paq faq paq tsyun
+百發百中	paq faq paq tson
 八分形過	paq fen in kou	55
 八分形過	paq fen yin kou	55
 八號	paq ghau
@@ -34268,7 +34281,7 @@ import_tables:
 筆借枝	piq cia tsyu
 筆頭	piq deu
 筆筒	piq don
-百發百準	piq faq piq tsyun
+必發必中	piq faq piq tson
 壁虎	piq fu
 癟炄㾭	piq gnieu chieu
 癟炄炄	piq gnieu gnieu
@@ -34459,7 +34472,9 @@ import_tables:
 灑藥水	sa yaq syu	55
 三㢊六坐九爬爬	sae a loq zou cieu bo bo
 山嶴	sae au	55
+三爿	sae bae
 三爿廠	sae bae chian
+三爿店	sae bae ti
 三瓶頭	sae bin deu
 三部汽車	sae bu chi tsho
 三部腳踏車	sae bu ciaq daq tsho
@@ -38755,7 +38770,9 @@ import_tables:
 竹牀	tsoq zaon	55
 竹字頭	tsoq zy deu	55
 斫樹	tsoq zyu	55
+做爿	tsou bae
 做爿廠	tsou bae chian
+做爿店	tsou bae ti
 做病	tsou bin	55
 做部汽車	tsou bu chi tsho
 做部腳踏車	tsou bu ciaq daq tsho
