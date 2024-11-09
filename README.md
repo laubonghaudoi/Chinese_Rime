@@ -77,21 +77,21 @@ python update_download.py
 <h2>已收錄方案
 <br/>Collected schemas</h2>
 
-目前學界對漢語分支分類歸類問題仍存較大分歧。常見的分類方式有傳統的七分法、《中國語言地圖集》的十分法和 ISO 國際標準的十六分法等。若使用傳統分法，則現代漢語族下分七大語支，官吳贛湘粵客閩。若採用《中國語言地圖集》之十分法，則晉語獨立於官話成一支，徽語獨立於吳語成一支，平話獨立於粵語成一支。若採用 ISO 693-3 標準的十六分法，則平話再分爲南北兩部，閩語再細分爲閩北、閩南、閩東、閩中、莆仙五支，另外文言文也計作一門語言。
+目前學界對漢語分支分類歸類問題仍存較大分歧。常見的分類方式有傳統的七分法、《中國語言地圖集》的十分法和 ISO 國際標準的十九分法等。若使用傳統分法，則現代漢語族下分七大語支，官吳贛湘粵客閩。若採用《中國語言地圖集》之十分法，則晉語獨立於官話成一支，徽語獨立於吳語成一支，平話獨立於粵語成一支。若採用 ISO 693-3 標準的十六分法，則平話再分爲南北兩部，閩語再細分爲閩北、閩南、閩東、閩中、莆仙、海南、雷州、邵將八支，另外文言文也計作一門語言。
 
-The classification for Chinese languages and dialects has been an unsettled issue in the academia. The traditional way (Jerry Norman 1988) puts Chinese languages into seven groups: Mandarin, Wu, Gan, Xiang, Cantonese, Hakka, Min. The _Language Atlas of China_ classifies them into 10 groups, separating Jin, Huizhou and Ping from Mandarin, Wu and Cantonese as independent languages. The ISO 693-3 standard further separates Ping into Northern and Southern divisions and divides Min into Northern, Southern, Eastern, Central and Pu-Xian branches.
+The classification for Chinese languages and dialects has been an unsettled issue in the academia. The traditional way (Jerry Norman 1988) puts Chinese languages into seven groups: Mandarin, Wu, Gan, Xiang, Cantonese, Hakka, Min. The _Language Atlas of China_ classifies them into 10 groups, separating Jin, Huizhou and Ping from Mandarin, Wu and Cantonese as independent languages. The ISO 693-3 standard further separates Ping into Northern and Southern divisions and divides Min into Northern, Southern, Eastern, Central, Pu-Xian, Hainanese, Leizhou, and Shaojiang branches.
 
-爲提高本項目可讀性和後續可維護性，本項目採用 ISO 693-3 標準的十六分法。此標準僅作參考，非最佳標準。若對此分類方式有任何疑問或意見，歡迎[新開一個 issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) 發起討論。下表爲此標準下各語言所對應的 ISO 639-3 代碼：
+爲提高本項目可讀性和後續可維護性，本項目採用 ISO 693-3 標準的十九分法。此標準僅作參考，非最佳標準。若對此分類方式有任何疑問或意見，歡迎[新開一個 issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) 發起討論。下表爲此標準下各語言所對應的 ISO 639-3 代碼：
 
 To improve the readability and maintainability of this project, here we adopt the ISO 693-3 system. This is for reference only and by no means the gold standard. If you have any questions or suggestions about this, feel free to [open a new issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) for discussions. The following table shows the ISO 639-3 codes for these languages.
 
-| 閩東語 Min Dong Chinese | 晉語 Jinyu Chinese | 官話 Mandarin Chinese | 莆仙語 Pu-Xian Chinese | 徽語 Huizhou Chinese | 閩中語 Min Zhong Chinese | 贛語 Gan Chinese | 客家話 Hakka Chinese | 湘語 Xiang Chinese | 文言文 Literary Chinese | 閩北語 Min Bei Chinese | 閩南語 Min Nan Chinese | 吳語 Wu Chinese | 粵語 Yue Chinese | 北部平話 Northern Ping Chinese | 南部平話 Southern Ping Chinese |
-| ----------------------- | ------------------ | --------------------- | ---------------------- | -------------------- | ------------------------ | ---------------- | -------------------- | ------------------ | ----------------------- | ---------------------- | ---------------------- | --------------- | ---------------- | ------------------------------ | ------------------------------ |
-| cdo                     | cjy                | cmn                   | cpx                    | czh                  | czo                      | gan              | hak                  | hsn                | lzh                     | mnp                    | nan                    | wuu             | yue              | cnp                            | csp                            |
+| 閩東語 Min Dong Chinese | 晉語 Jinyu Chinese | 官話 Mandarin Chinese | 莆仙語 Pu-Xian Chinese | 徽語 Huizhou Chinese | 閩中語 Min Zhong Chinese | 贛語 Gan Chinese | 客家話 Hakka Chinese | 海南話 Hainanese | 湘語 Xiang Chinese | 雷州話 Leizhou Chinese | 文言文 Literary Chinese | 閩北語 Min Bei Chinese | 閩南語 Min Nan Chinese | 邵將語 Shaojiang Chinese | 吳語 Wu Chinese | 粵語 Yue Chinese | 北部平話 Northern Ping Chinese | 南部平話 Southern Ping Chinese |
+| ----------------------- | ------------------ | --------------------- | ---------------------- | -------------------- | ------------------------ | ---------------- | -------------------- | ------------------ | ------------- | ---------------------  | ----------------------- | ---------------------- | ---------------------- | ---------------------- | --------------- | ---------------- | ------------------------------ | ------------------------------ |
+| cdo                     | cjy                | cmn                   | cpx                    | czh                  | czo                      | gan              | hak                  | hnm            | hsn                | luh                   | lzh                     | mnp                    | nan                    | sjc                    | wuu             | yue              | cnp                            | csp                            |
 
-目前 **暫缺閩中語、徽語、贛語、北部平話** 的輸入方案。如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或[新開一個 issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) 以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
+目前 **暫缺閩中語、徽語、贛語、海南話、雷州話、邵將語、北部平話** 的輸入方案。如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或[新開一個 issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) 以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
-Right now we are still **missing the schemas for Central Min, Huizhou, Gan, Northern Ping**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or [open a new issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) to add it to the collection. Schemas for other Chinese languages are also highly welcomed.
+Right now we are still **missing the schemas for Central Min, Huizhou, Gan, Hainanese, Leizhou, Shaojiang, and Northern Ping**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or [open a new issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) to add it to the collection. Schemas for other Chinese languages are also highly welcomed.
 
 以下爲方案總表和配方列表。其中配方以符號 ℞ 標識。
 
@@ -550,6 +550,24 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
   <li>
     <details>
+      <summary>海南話 Hainanese</summary>
+      <b>暫缺 Not available</b>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>雷州話 Leizhou Chinese</summary>
+      <b>暫缺 Not available</b>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>邵將語 Shaojiang Chinese</summary>
+      <b>暫缺 Not available</b>
+    </details>
+  </li>
+  <li>
+    <details>
       <summary>客家話 Hakka</summary>
       <ul>
         <li>
@@ -900,6 +918,24 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
       <ul>
         <li>大埔客家語拼音輸入方案  ℞ <code> huangjunxin/Rime-Hakka-TaibuShang </code></li>
       </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>海南話 Hainanese</summary>
+      <b>暫缺 Not available</b>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>雷州話 Leizhou Chinese</summary>
+      <b>暫缺 Not available</b>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>邵將語 Shaojiang Chinese</summary>
+      <b>暫缺 Not available</b>
     </details>
   </li>
   <li>
