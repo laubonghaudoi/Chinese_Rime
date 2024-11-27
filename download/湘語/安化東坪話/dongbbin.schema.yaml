@@ -1,0 +1,176 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  name: 湘語 安化東坪話
+  schema_id: dongbbin
+  version: "2024.11.267"
+  author:
+    - hulenkius <hulenkius@gmail.com>
+    - github.com/Hulenkius/rime_dongbbin
+  description: |
+    湘語 婁邵片 湘雙小片 益陽市安化縣東坪鎮
+    按漢語拼音的風格轉寫
+  dependencies:
+    - cangjie5
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba12367
+  delimiter: " '"
+  algebra:
+    - xform/(\*)(.*)$//
+    - derive/([1,2,3,6,7])//
+
+    - xform/^tsʰ/C/
+    - xform/^ts/Z/
+    - xform/^tɕʰ/Q/
+    - xform/^tɕ/J/
+    - xform/^ɕ/X/
+    - xform/^dʑ/Ɉ/
+    - xform/^z/Ƶ/
+
+    - xform/^pʰ/P/
+    - xform/^tʰ/T/
+    - xform/^kʰ/K/
+    - xform/^p/B/
+    - xform/^t/D/
+    - xform/^k/G/
+    - xform/^b/Ƀ/
+    - xform/^d/Đ/
+    - xform/^x/H/
+    - xform/^ɣ/Ħ/
+    - xform/ŋ/ng/
+
+    - xform/^ȵ/n/
+    - xform/^ɸ/f/
+    - derive/f/hu/
+    - xform/^β/v/
+    - derive/v/hhu/
+    - xform/uu/u/
+
+    - derive/ɛn/an/
+
+    - xform/ə/e/
+    - derive/ɤn/an/
+    - xform/ɤ/e/
+    - derive/uen/un/
+    - xform/ɛ/e/
+    - xform/^y/yu/
+    - xform/(.)y/$1v/
+    - derive/(.)v(.|.*$)/$1u$2/
+    - xform/ɿ/i/
+
+    - xform/^i(n|)([1,2,3,6,7]|)$/yi$1$2/
+    - xform/^u([1,2,3,6,7]|)$/wu$1/
+    - xform/^i/y/
+    - xform/^u/w/
+    
+    - derive/eu/ou/
+    - derive/au/ao/
+    - derive/ɛn/an/
+    - derive/ong/eng/
+    - derive/iou/iu/
+    - derive/uei/ui/
+    - derive/in/ing/
+    - derive/^n/l/
+    - derive/^l/n/
+
+    - xform/C/c/
+    - xform/Z/z/
+    - xform/Q/q/
+    - xform/J/j/
+    - xform/X/x/
+    - xform/Ɉ/jj/
+    - xform/Ƶ/zz/
+
+    - xform/P/p/
+    - xform/T/t/
+    - xform/K/k/
+    - xform/B/b/
+    - xform/D/d/
+    - xform/G/g/
+    - xform/Ƀ/bb/
+    - xform/Đ/dd/
+    - xform/H/h/
+    - xform/Ħ/hh/
+
+    - derive/jj/xx/
+    - derive/([j,q,x,l,n])io/$1uo/
+    - derive/([j,q,x,l,n])io/$1vo/
+
+translator:
+  dictionary: dongbbin
+  prism: dongbbin
+  enable_encoder: true
+  enable_completion: true
+  spelling_hints: 1
+  initial_quality: 1
+  preedit_format:
+    - xform/([nljqxy])(v|u)/$1ü/
+    - xform/1/¹/
+    - xform/2/²/
+    - xform/3/³/
+    - xform/6/⁶/
+    - xform/7/⁷/
+  comment_format:
+    - xform/\*/　/
+    - xform/1/¹/
+    - xform/2/²/
+    - xform/3/³/
+    - xform/6/⁶/
+    - xform/7/⁷/
+
+reverse_lookup:
+  dictionary: cangjie5
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔倉頡〕
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
