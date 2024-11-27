@@ -442,16 +442,16 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
       <summary>湘語 Xiang</summary>
       <ul>
         <li>
-          安化東坪話 ℞ <code>Hulenkius/rime_dongbbin</code>
-          <ul>
-            <li>湘語 安化東坪話 - <code>dongbbin</code></li>
-          </ul>
-        </li>
-        <li>
           邵東話輸入方案 ℞ <code>AlfredLouis00/rime-Sautungva</code>
           <ul>
             <li>邵東話 - <code>sautungva</code></li>
             <li>邵東話拼音 - <code>sautungva_phinin</code></li>
+          </ul>
+        </li>
+        <li>
+          安化東坪話 ℞ <code>Hulenkius/rime_dongbbin</code>
+          <ul>
+            <li>湘語 安化東坪話 - <code>dongbbin</code></li>
           </ul>
         </li>
       </ul>
