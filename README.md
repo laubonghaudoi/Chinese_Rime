@@ -723,8 +723,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
 </ul>
 
-<h3>配方列表（共 59 個配方）
-<br/>List of recipes (59 recipes in total)</h3>
+<h3>配方列表（共 60 個配方）
+<br/>List of recipes (60 recipes in total)</h3>
 
 <ul>
   <li>
