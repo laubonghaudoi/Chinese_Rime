@@ -99,7 +99,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共 142 個方案）
+<h3>方案列表（共 143 個方案）
 <br/>Full list of collected schemas (142 schemas in total)</h3>
 
 
@@ -441,6 +441,12 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
     <details>
       <summary>湘語 Xiang</summary>
       <ul>
+        <li>
+          安化東坪話 ℞ <code>Hulenkius/rime_dongbbin</code>
+          <ul>
+            <li>湘語 安化東坪話 - <code>dongbbin</code></li>
+          </ul>
+        </li>
         <li>
           邵東話輸入方案 ℞ <code>AlfredLouis00/rime-Sautungva</code>
           <ul>
@@ -864,6 +870,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
       <summary>湘語 Xiang</summary>
       <ul>
         <li>邵東話輸入方案 ℞ <code>AlfredLouis00/rime-Sautungva</code></li>
+	<li>安化東坪話 ℞ <code>Hulenkius/rime_dongbbin</code></li>
       </ul>
     </details>
   </li>
