@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2024.12.23"
+version: "2025.01.04"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -3465,6 +3465,7 @@ import_tables:
 亡	vu	0%
 侮	vu
 巫	vu
+誣	vu	10%
 莁	vu
 鵐	vu
 浮	vu	6%
@@ -3892,6 +3893,7 @@ import_tables:
 鯃	wu
 黃	wu	0%
 黄	wu	0%
+巫	wu
 鋘	wu
 誣	wu-vu	10%
 毋	wu-vu
@@ -6117,7 +6119,6 @@ import_tables:
 眺	thiau
 覜	thiau
 絩	thiau
-粜	thiau
 條	diau
 鰷	diau
 鞗	diau
@@ -6487,6 +6488,7 @@ import_tables:
 顦	zhiau
 癄	zhiau
 鐎	zhiau
+樵	zhiau
 兆	zhiau
 擾	zhiau
 肇	zhiau
@@ -6502,6 +6504,7 @@ import_tables:
 搖	yau
 揺	yau
 謠	yau
+謡	yau
 遙	yau
 鷂	yau
 徭	yau
@@ -6522,7 +6525,6 @@ import_tables:
 愮	yau
 榣	yau
 瑶	yau
-謡	yau
 遥	yau
 爻	yau
 肴	yau
@@ -6695,6 +6697,7 @@ import_tables:
 麚	cio	0%
 瘕	cio	0%
 豭	cio	0%
+佳	cio	0%
 犌	cio	0%
 猳	cio	0%
 貑	cio	0%
@@ -8637,6 +8640,7 @@ import_tables:
 邶	bei
 薜	bei
 軷	bei
+陛	bei	1%
 眉	mei
 楣	mei
 嵋	mei
@@ -9436,7 +9440,7 @@ import_tables:
 嘒	huei
 晦	huei
 喙	huei
-穢	huei
+穢	huei	10%
 翽	huei
 濊	huei
 鐬	huei
@@ -9483,7 +9487,7 @@ import_tables:
 烠	wei
 慧	wei
 蕙	wei
-慰	wei
+慰	wei	10%
 彙	wei
 巍	wei
 嵬	wei
@@ -9625,6 +9629,8 @@ import_tables:
 餵	uei	1%
 喂	uei	10%
 餧	uei	1%
+慰	uei
+穢	uei
 恚	uei
 螱	uei
 薈	uei
@@ -12272,6 +12278,7 @@ import_tables:
 䫈	dzen
 棖	dzen
 蹲	dzen	0%
+澄	dzen	0%
 橧	dzen
 竲	dzen
 梣	dzen
@@ -12284,6 +12291,7 @@ import_tables:
 鴆	dzen
 栫	dzen
 臶	dzen
+朕	dzen
 生	sen
 牲	sen
 甥	sen	1%
@@ -13140,6 +13148,7 @@ import_tables:
 螓	jin
 嗪	jin
 嶜	jin
+覃	jin
 辰	jin	0%
 敐	jin
 凌	jin	0%
@@ -14728,6 +14737,8 @@ import_tables:
 暻	cion
 煚	cion
 臩	cion
+塚	cion	1%
+冢	cion	1%
 穹	chion
 芎	chion
 匑	chion
@@ -15865,6 +15876,8 @@ import_tables:
 酌	ciaq
 圴	ciaq
 彴	ciaq
+勺	ciaq	0%
+杓	ciaq	0%
 著	ciaq	0%
 着	ciaq	1%
 擆	ciaq
@@ -16405,6 +16418,7 @@ import_tables:
 搙	noq
 錄	loq
 録	loq
+彔	loq
 綠	loq
 緑	loq
 菉	loq
@@ -16414,16 +16428,15 @@ import_tables:
 睩	loq	0%
 氯	loq
 祿	loq
+禄	loq
 醁	loq
 騄	loq
 䟿	loq
 逯	loq
 籙	loq
 𬆚	loq
-彔	loq
 淥	loq
 琭	loq
-禄	loq
 箓	loq
 簶	loq
 六	loq
@@ -17363,6 +17376,7 @@ import_tables:
 執	ciq
 縶	ciq
 蓻	ciq
+蟄	ciq
 汁	ciq
 迹	ciq
 跡	ciq
@@ -17669,6 +17683,7 @@ import_tables:
 姪	jiq
 妷	jiq
 集	jiq
+輯	jiq	5%
 犆	jiq
 俋	jiq
 紩	jiq
@@ -18504,6 +18519,7 @@ import_tables:
 霫	zyuq
 戢	zyuq
 集	zyuq	10%
+輯	zyuq	5%
 隰	zyuq
 踅	zyuq
 臸	zyuq
@@ -18581,6 +18597,7 @@ import_tables:
 𠄡	ng
 耳	ng
 午	ng	0%
+伍	ng	0%
 尾	ng	1%
 爾	ng	243244
 尒	ng
@@ -19181,6 +19198,7 @@ import_tables:
 浒	fu
 芜	vu
 怃	vu
+诬	vu
 鹀	vu
 𪢸	vu
 抚	vu
@@ -19605,6 +19623,7 @@ import_tables:
 鸼	tiau
 铞	tiau
 铫	thiau
+粜	thiau
 条	diau
 鲦	diau
 𣔌	diau
@@ -20304,6 +20323,7 @@ import_tables:
 𫐕	wei
 鳂	uei
 诿	uei
+秽	uei
 荟	uei
 𤞃	uei
 鳚	uei
@@ -21745,6 +21765,7 @@ import_tables:
 疖	ciq
 执	ciq
 絷	ciq
+蛰	ciq
 绩	ciq
 渍	ciq
 积	ciq
@@ -21784,6 +21805,7 @@ import_tables:
 掷	jiq
 踯	jiq
 蛰	jiq
+辑	jiq
 𪳍	jiq
 剧	jiq
 极	jiq
@@ -21904,6 +21926,7 @@ import_tables:
 术	zyuq
 𦶟	zyuq
 习	zyuq
+辑	zyuq
 𫚪	zyuq
 儿	er	0%
 尔	er
