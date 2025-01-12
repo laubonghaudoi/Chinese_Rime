@@ -3,13 +3,13 @@
 #
 # 南京官話拼音〔南京〕
 #
-# 來源：《南京話審音考義大字典》
+# 來源：《南京官話審音大字典》
 # - 柳漫據音序檢字表錄入，並按OpenCC的用字習慣調整字頭
 #
 
 ---
 name: langjin
-version: "2024.11.19"
+version: "2025.01.01"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -18172,8 +18172,8 @@ use_preset_vocabulary: true
 㾀	qe5
 𤴼	qe5
 揩	kä1
-揩	qä1
-揩	qä4
+揩	qä1	1%
+揩	qä4	1%
 𦂄	qä1
 𢔡	qä1
 𥻄	qä1
@@ -26718,7 +26718,7 @@ use_preset_vocabulary: true
 垧	shang3
 晌	shang3
 蟑	zhang1
-爿	pang2
+爿	bang1
 爿	ciang2
 釺	ciän1
 墒	shang1
