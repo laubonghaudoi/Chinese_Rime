@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2025.01.24"
+version: "2025.01.31"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -6181,7 +6181,7 @@ import_tables:
 翏	liau
 髎	liau
 䩍	liau
-了	liau
+了	liau	16000
 釕	liau
 憭	liau
 𨣀	liau
@@ -8843,7 +8843,7 @@ import_tables:
 欙	lei
 纝	lei
 羸	lei
-了	lei
+了	lei	600000
 櫑	lei
 瓃	lei
 轠	lei
@@ -15130,7 +15130,7 @@ import_tables:
 𢔶	taq
 鍀	taq
 嘚	taq
-掇	taq
+掇	taq	1500
 鵽	taq
 剟	taq
 裰	taq
@@ -15292,7 +15292,7 @@ import_tables:
 攔	laq
 搚	laq
 勒	laq	45114
-了	laq
+了	laq	1000000
 嘞	laq
 鰳	laq
 肋	laq
@@ -19636,6 +19636,7 @@ import_tables:
 缭	liau
 辽	liau
 鹩	liau
+了	liau
 钌	liau
 镣	liau
 诏	ciau
@@ -23764,6 +23765,7 @@ import_tables:
 交關冷	ciau kuae lan
 交關老	ciau kuae lau
 交關厲害	ciau kuae li ghe
+交關厲害	ciau kuae li yiq
 交關亮	ciau kuae lian
 交關慢	ciau kuae mae
 交關忙	ciau kuae maon
@@ -23986,6 +23988,7 @@ import_tables:
 整好挔好	cin hau i hau
 正好有數	cin hau yeu su	55
 正好亦數	cin hau yiq su
+正蕻	cin hon
 金錢蜜橘	cin ji miq ciuq	55
 金錢餅	cin ji pin	55
 整張	cin jian
@@ -31001,6 +31004,7 @@ import_tables:
 旅社	li dzo
 㪝槌	li dzyu	55
 連暗摸夜	li ei-e moq ya
+厲害	li ghe
 裏紐	li gnieu	55
 連日連夜	li gniq li ya
 離婚	li huen
@@ -31061,6 +31065,7 @@ import_tables:
 剺黃鱔	li waon yi
 連鏵連碎	li wo li sei
 旅遊鞋	li yeu gha
+厲害	li yiq
 摙柴	li za
 犁鑱	li zae	55
 犁鑱頭	li zae deu	55
@@ -32119,7 +32124,7 @@ import_tables:
 嘸雕督	mh tiau toq	55
 嘸采去	mh tshe chi	55
 嘸采好去	mh tshe hau chi
-嘸趣相	mh tshyu shian	55
+嘸趣向	mh tshyu shian	55
 嘸出產	mh tshyuq sae	55
 嘸做	mh tsou	55
 嘸話嘸說	mh wo mh syuq	55
@@ -37331,6 +37336,7 @@ import_tables:
 頂廣	tin kuaon
 頂厲害	tin li ghe
 頂裏向	tin li shian
+頂厲害	tin li yiq
 頂慢	tin mae
 頂末腳	tin maq ciaq	55
 頂難	tin nae
@@ -37391,6 +37397,7 @@ import_tables:
 頂頂高級	tin tin kau ciq
 頂頂厲害	tin tin li ghe
 頂頂裏向	tin tin li shian
+頂頂厲害	tin tin li yiq
 頂頂難	tin tin nae
 頂頂難得	tin tin nae taq
 頂頂噁心	tin tin oq shin
@@ -38303,12 +38310,10 @@ import_tables:
 扯平	tsho bin
 扯篷	tsho bon	55
 叉肩胛	tsho ci kaq	55
-扯淡	tsho dae
 扯蛋	tsho dae
 車頭	tsho deu
 差咋勿多	tsho dza vaq tou
 差咋弗多	tsho dza vaq tou	55
-扯風篷	tsho fon bon
 扯風蓬	tsho fon bon	55
 扯閒白直	tsho ghae baq jiq
 車行	tsho ghaon
@@ -38330,7 +38335,6 @@ import_tables:
 扯鈴	tsho lin
 岔路	tsho lu
 叉麻將	tsho mo cian	418
-叉木人	tsho moq gnin
 扯木人	tsho moq gnin	55
 叉魚	tsho ng	55
 差眼	tsho ngae	55
@@ -38338,7 +38342,6 @@ import_tables:
 差眼本鈿	tsho ngae pen di
 岔翁	tsho on	55
 差扳	tsho pae	55
-差板	tsho pae	55
 車板	tsho pae	55
 差扳眼	tsho pae ngae	55
 差扳勿起	tsho pae vaq chi
@@ -38365,7 +38368,6 @@ import_tables:
 扯仕	tsho zy	55
 扯士	tsho zy	55
 穿着	tshoe ciaq
-穿針	tshoe cin
 穿針眼	tshoe cin ngae
 穿針屁眼	tshoe cin phi ngae	55
 穿堂	tshoe daon
@@ -38468,7 +38470,6 @@ import_tables:
 初十邊	tshu zyuq pi	55
 刺棚	tshy ban	55
 刺棚弄裏	tshy ban lon li	55
-刺蓬	tshy bon
 雌雞胡嚨	tshy ci u lon
 雌雞胡嚨	tshy ci wu lon	55
 刺頭怕癩頭	tshy deu pho la deu
@@ -38494,8 +38495,7 @@ import_tables:
 吹牛屄	tshyu ngeu pi	55
 取保	tshyu pau
 趣向	tshyu shian	418
-趣相	tshyu shian	418
-趣相交關足	tshyu shian ciau kuae tsoq
+趣向交關足	tshyu shian ciau kuae tsoq
 吹簫	tshyu shiau
 處暑	tshyu syu
 吹打開門	tshyu tan khe men
@@ -38568,7 +38568,6 @@ import_tables:
 出卵	tshyuq loe	55
 出卵出膊	tshyuq loe tshyuq poq	55
 出梅	tshyuq mei
-出黴	tshyuq mei	418
 出門	tshyuq men
 出門阿裏	tshyuq men aq li
 出門人	tshyuq men gnin
@@ -38616,7 +38615,6 @@ import_tables:
 遮牢	tso lau	55
 蚱𧐖	tso li	55
 蚱𧐖褪殼	tso li then khoq
-榨面	tso mi
 榨麪	tso mi	55
 揸撲克牌	tso phoq khaq ba
 揸撲克牌	tso phoq khaq bae
@@ -38696,7 +38694,7 @@ import_tables:
 中裝	tson tsaon
 種草	tson tshau	55
 種草多	tson tshau tou
-種菜籽	tson tshe tsy
+種菜子	tson tshe tsy
 中指	tson tsy
 粽子	tson tsy
 種豬	tson tsyu
@@ -40703,7 +40701,6 @@ import_tables:
 牀底下	zaon ti gho	55
 上點心	zaon ti shin	55
 上濎下輕	zaon tin gho chin	55
-上督落	zaon toq loq	55
 上篤落	zaon toq loq	55
 上裝	zaon tsaon
 牀罩	zaon tsau
@@ -41364,7 +41361,6 @@ import_tables:
 十個	zyuq kou
 十梗	zyuq kuan
 入梅	zyuq mei
-入黴	zyuq mei	418
 入木	zyuq moq	55
 十磨九難	zyuq mou cieu nae
 十外	zyuq nga	55
