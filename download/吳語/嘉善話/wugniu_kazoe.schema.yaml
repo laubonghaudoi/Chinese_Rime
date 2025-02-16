@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_kazoe
   name: 吳語（嘉善）
-  version: "2022.07.26"
+  version: "2025.02.15"
   author:
     - 雪心居士 <sihsin@live.com> (dict, schema)
     - Shin Zoqchiuq <shinzoqchiuq@outlook.com> (schema)
@@ -22,7 +22,7 @@ switches:
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: simplification
+  - name: wugniu_kashin_simp
     reset: 1
     states: [ 漢字, 汉字 ]
   - name: ascii_punct
@@ -151,6 +151,9 @@ reverse_lookup:
 
     ## 聲調上標
     #- xlit/12345678/¹²³⁴⁵⁶⁷⁸/
+
+simplifier:
+  option_name: wugniu_kashin_simp
 
 punctuator:
   import_preset: symbols # 句讀處理器，統一從外部導入

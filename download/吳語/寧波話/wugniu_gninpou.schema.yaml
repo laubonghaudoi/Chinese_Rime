@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_gninpou
   name: 吳語（寧波）
-  version: "0.7.1"
+  version: "0.7.2"
   author:
     - Shin Zoqchiuq <shinzoqchiuq@outlook.com>
   description: |
@@ -22,7 +22,7 @@ switches:
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: simplification
+  - name: wugniu_gninpou_simp
     reset: 1
     states: [ 漢字, 汉字 ]
   - name: ascii_punct
@@ -190,6 +190,9 @@ reverse_lookup:
   dictionary: wugniu_gninpou  # 反查所得爲寧波吳拼
   comment_format:
     __include: translator/comment_format
+
+simplifier:
+  option_name: wugniu_gninpou_simp
 
 punctuator:
   import_preset: symbols # 句讀處理器，統一從外部導入
