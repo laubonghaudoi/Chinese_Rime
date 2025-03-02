@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2025.01.31"
+version: "2025.02.27"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -3877,6 +3877,9 @@ import_tables:
 瓳	wu
 箶	wu
 魱	wu
+黃	wu	0%
+黄	wu	0%
+巫	wu
 誤	wu	10%
 悟	wu	10%
 吳	wu
@@ -3891,9 +3894,6 @@ import_tables:
 祦	wu
 郚	wu
 鯃	wu
-黃	wu	0%
-黄	wu	0%
-巫	wu
 鋘	wu
 誣	wu-vu	10%
 毋	wu-vu
@@ -7763,6 +7763,7 @@ import_tables:
 鐶	wae
 患	wae
 洹	wae
+轘	wae
 頑	wae
 宦	wae
 幻	wae
@@ -7771,6 +7772,7 @@ import_tables:
 刓	wae
 抏	wae
 岏	wae
+忨	wae
 懷	wae
 懐	wae
 蘹	wae
@@ -7782,8 +7784,6 @@ import_tables:
 外	wae	0%
 糫	wae
 闤	wae
-轘	wae
-忨	wae
 鯇	wae
 睅	wae
 睆	wae
@@ -7791,8 +7791,8 @@ import_tables:
 擐	wae
 蘾	wae
 槵	wae
-薍	wae
 豢	wae
+薍	wae
 彎	uae
 灣	uae
 壪	uae
@@ -9055,12 +9055,12 @@ import_tables:
 瘁	zei
 睡	zei	1000
 瑞	zei
-𨅔	zei
 甀	zei
 鬌	zei
 擩	zei
 甤	zei
 圌	zei
+𨅔	zei-ze
 蠶	zei-ze
 鏨	zei-ze
 惢	zei
@@ -9488,11 +9488,6 @@ import_tables:
 蕙	wei
 慰	wei	10%
 彙	wei
-巍	wei
-嵬	wei
-危	wei
-𨴓	wei
-磑	wei
 槐	wei
 喂	wei
 佪	wei
@@ -9504,12 +9499,17 @@ import_tables:
 潿	wei
 鮰	wei
 壝	wei
-峞	wei
-洈	wei
-犩	wei
 溈	wei
 潙	wei
 鍏	wei
+巍	wei
+嵬	wei
+危	wei
+𨴓	wei
+磑	wei
+峞	wei
+洈	wei
+犩	wei
 洧	wei
 鮪	wei
 韋	wei
@@ -9529,8 +9529,6 @@ import_tables:
 滙	wei
 蔿	wei
 痏	wei
-頠	wei
-硊	wei
 隗	wei
 廆	wei
 瘣	wei
@@ -9544,9 +9542,11 @@ import_tables:
 芛	wei
 孈	wei
 瀢	wei
+媁	wei
+頠	wei
+硊	wei
 顡	wei
 姽	wei
-媁	wei
 彗	wei
 胃	wei
 猬	wei
@@ -9560,9 +9560,6 @@ import_tables:
 絵	wei
 璯	wei
 位	wei
-僞	wei
-偽	wei
-魏	wei
 惠	wei
 恵	wei
 蟪	wei
@@ -9592,6 +9589,9 @@ import_tables:
 讏	wei
 軎	wei
 轊	wei
+僞	wei
+偽	wei
+魏	wei
 威	uei
 葳	uei
 畏	uei
@@ -15443,7 +15443,6 @@ import_tables:
 翟	dzaq
 濯	dzaq
 𦑱	dzaq
-捽	dzaq
 㳐	dzaq
 檡	dzaq
 襗	dzaq
@@ -15463,6 +15462,7 @@ import_tables:
 枠	dzaq
 崱	dzaq
 溭	dzaq
+捽	dzaq
 崪	dzaq
 椊	dzaq
 崒	dzaq
@@ -20295,10 +20295,10 @@ import_tables:
 为	wei
 㧑	wei
 汇	wei
-硙	wei
 涠	wei
 𫚔	wei
 沩	wei
+硙	wei
 鲔	wei
 韦	wei
 违	wei
@@ -20316,12 +20316,12 @@ import_tables:
 烩	wei
 绘	wei
 㻅	wei
-伪	wei
 㱮	wei
 缋	wei
 𫝬	wei
 𫄹	wei
 𫐕	wei
+伪	wei
 鳂	uei
 诿	uei
 秽	uei
@@ -23292,7 +23292,7 @@ import_tables:
 挈當桶	chiq taon don	55
 七搭八搭	chiq taq paq taq	55
 挈的	chiq tiq
-七憎八嫌十難看	chiq tsen paq i zyuq nae khi
+七憎八嫌十難看	chiq tsen paq i zyuq nae khi-khe
 七闖八跌	chiq tshaon paq tiq	55
 七蹱八跌	chiq tshon paq tiq	55
 七簇星	chiq tshoq shin	55
@@ -28800,8 +28800,7 @@ import_tables:
 該應	ke in
 該了	ke lei
 該𡀂	ke lei
-該了	ke liq
-該𡀂	ke liq
+該咧	ke liq
 蓋捫碗	ke men un	55
 該死	ke shi
 該死畜生	ke shi tshoq san
@@ -37942,8 +37941,8 @@ import_tables:
 插蠟燭	tshaq laq tsoq	55
 赤佬	tshaq lau	418
 撮來依到	tshaq le i tau	55
-拆亂話好甮忖	tshaq loe hau ven tshen
 拆亂話	tshaq loe wo	418
+拆亂話好甮忖	tshaq loe wo hau ven tshen
 撮攏爿	tshaq lon bae
 尺六鑊	tshaq loq ghoq	55
 臿米	tshaq mi	55
@@ -46278,7 +46277,7 @@ import_tables:
 官都弗肯做	kun tu vaq khen tsou
 官都勿肯做	kun tu vaq khen tsou
 快活似神仙	khua waq zy zyun shi
-屁股生臀趼	phi ku san den kni
+屁股生臀趼	phi ku san den ci
 好日黃狗奔弄堂	hau gniq waon keu pen lon daon
 好日黃狗奔弄堂	hau gniq waon ki-ke pen lon daon
 好日黃狗奔弄堂	hau gniq wu keu pen lon daon
