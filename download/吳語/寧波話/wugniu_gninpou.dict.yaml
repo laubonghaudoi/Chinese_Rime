@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2025.02.27"
+version: "2025.03.09"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -6635,19 +6635,19 @@ import_tables:
 呵	huo	5%
 訶	huo	5%
 𩑸	huo
+颬	huo
 花	huo
 蘤	huo
 芲	huo
 糀	huo
 嘩	huo
 譁	huo
-颬	huo
 蝦	huo
 煆	huo
+謑	huo
 化	huo
 杹	huo
 華	huo	5%
-謑	huo
 咶	huo
 諣	huo
 華	wo
@@ -7008,20 +7008,20 @@ import_tables:
 唅	he
 醢	he
 海	he
-蔊	he
 橀	he
+蔊	he
 嚂	he
 咍	he
 㺔	he
 餀	he
 許	he	5%
+咳	he	5%
 漢	he
 熯	he	55
 暵	he
 𩈣	he
 旰	he
 厂	he
-咳	he	5%
 孩	ghe
 頦	ghe
 駭	ghe
@@ -7747,6 +7747,7 @@ import_tables:
 筷	khuae
 環	guae	5%
 𫩙	guae
+甩	guae	0%
 摜	guae
 儇	huae	20000
 嬛	huae
@@ -8717,37 +8718,37 @@ import_tables:
 嵟	tei
 磓	tei
 鴭	tei
+頧	tei
 妉	tei
 媅	tei
 甔	tei
-頧	tei
 𠡒	tei	578
 㨃	tei
+謉	tei
 瓭	tei
 衴	tei
-謉	tei
 對	tei
 対	tei
 碓	tei
 濧	tei
 𣝉	tei
-馾	tei
 祋	tei
 轛	tei
+馾	tei
 推	thei
 㷟	thei
 煺	thei
 藬	thei
-貪	thei
 胎	thei	0%
+貪	thei
 腿	thei
 骽	thei
-嗿	thei
-醓	thei
-襑	thei
 僓	thei
 聉	thei
 脮	thei
+嗿	thei
+醓	thei
+襑	thei
 退	thei
 褪	thei
 蛻	thei
@@ -8770,6 +8771,8 @@ import_tables:
 𧝋	dei
 魋	dei
 蹪	dei
+墤	dei
+尵	dei
 覃	dei
 潭	dei	5%
 窞	dei
@@ -8777,16 +8780,14 @@ import_tables:
 橝	dei
 蟫	dei
 鐔	dei
-墤	dei
-尵	dei
 陮	dei
+瀢	dei
 紿	dei
 禫	dei
 黮	dei
 倓	dei
 贉	dei
 醰	dei
-瀢	dei
 隊	dei
 兌	dei
 兑	dei
@@ -8957,9 +8958,9 @@ import_tables:
 漼	tshei
 皠	tshei
 噿	tshei
-噆	tshei
-朁	tshei
-黲	tshei
+噆	tshei-tshe
+朁	tshei-tshe
+黲	tshei-tshe
 脆	tshei
 脃	tshei
 翠	tshei
@@ -8973,12 +8974,12 @@ import_tables:
 焠	tshei
 啐	tshei
 韢	tshei
-𪙞	tshei	5%
 竁	tshei
 襊	tshei
 膬	tshei
 濢	tshei
 臎	tshei
+𪙞	tshei-tshe	5%
 ⿱咋會	dzei
 墜	dzei
 雖	sei
@@ -11311,6 +11312,7 @@ import_tables:
 艙	tshaon
 䱽	tshaon
 鶬	tshaon
+創	tshaon
 傖	tshaon
 凔	tshaon
 昌	tshaon
@@ -11329,7 +11331,6 @@ import_tables:
 牕	tshaon
 窓	tshaon
 窻	tshaon
-創	tshaon
 堫	tshaon
 惝	tshaon
 漺	tshaon
@@ -14773,9 +14774,9 @@ import_tables:
 醲	gnion
 𧲤	gnion
 顒	gnion
-𡢿	gnion
 檂	gnion
 鰅	gnion
+𡢿	gnion
 搑	gnion
 喗	gnion
 夽	gnion
@@ -16059,8 +16060,8 @@ import_tables:
 胐	khuaq
 顝	khuaq
 環	guaq	0%
-搰	guaq
 刮	guaq	0%
+搰	guaq
 忽	huaq
 惚	huaq
 笏	huaq
@@ -16511,7 +16512,6 @@ import_tables:
 傶	tsoq
 喌	tsoq
 摘	tsoq	5%
-折	tsoq	5%
 簇	tsoq	5%
 䭁	tsoq
 遭	tsoq	0%
@@ -16708,8 +16708,14 @@ import_tables:
 驌	soq
 鱐	soq
 鷫	soq
+蟰	soq
+橚	soq
+潚	soq
 夙	soq
 洬	soq
+裻	soq
+棴	soq
+玊	soq
 索	soq
 矟	soq
 𢱢	soq	55
@@ -16738,15 +16744,9 @@ import_tables:
 虪	soq
 跾	soq
 溹	soq
-橚	soq
-潚	soq
-玊	soq
-蟰	soq
 摵	soq
 謏	soq
 梀	soq
-棴	soq
-裻	soq
 束	soq
 𠲿	soq
 縮	soq
@@ -18436,6 +18436,7 @@ import_tables:
 黦	iuq
 擭	iuq
 這	tsyuq
+折	tsyuq	5%
 拙	tsyuq
 𠷅	tsyuq
 窋	tsyuq
@@ -20193,7 +20194,7 @@ import_tables:
 𥮾	tsei-tse
 赘	tsei
 缞	tshei
-黪	tshei
+黪	tshei-tshe
 ⿱咋会	dzei
 坠	dzei
 虽	sei
@@ -20661,11 +20662,11 @@ import_tables:
 舱	tshaon
 䲝	tshaon
 鸧	tshaon
+创	tshaon
 伧	tshaon
 鲳	tshaon
 阊	tshaon
 锠	tshaon
-创	tshaon
 闯	tshaon
 戗	tshaon
 怆	tshaon
@@ -21655,9 +21656,9 @@ import_tables:
 肃	soq
 骕	soq
 鹔	soq
+㴋	soq
 烁	soq
 铄	soq
-㴋	soq
 𫍲	soq
 缩	soq
 数	soq
@@ -22465,7 +22466,7 @@ import_tables:
 皮膚粗剌柴	bi fu tshu la za
 皮鞋	bi gha
 皮鞋鋥亮	bi gha dzan lian
-皮鞋簇刮新	bi gha tshaq kuaq shin
+皮鞋赤刮新	bi gha tshaq kuaq shin
 皮鞋油	bi gha yeu
 便宜	bi gni
 被甩	bi huaq	55
@@ -23461,7 +23462,7 @@ import_tables:
 姐夫	cia fu
 借因頭	cia in deu	55
 傢俱	cia jiu
-傢俱簇刮新	cia jiu tshaq kuaq shin
+傢俱赤刮新	cia jiu tshaq kuaq shin
 䶓箜	cia khon	55
 䶓箜籃	cia khon lae	55
 借力使	cia liq sy	55
@@ -27912,7 +27913,7 @@ import_tables:
 一百十一	iq paq zyuq iq
 一包頭	iq pau deu
 一包一𢷒	iq pau iq jiq	55
-一包一折	iq pau iq tsoq	55
+一包一折	iq pau iq tsyuq	55
 一報還一報	iq pau wae iq pau
 𨉖背賊	iq pei zaq	55
 一乓葡萄	iq phan bu dau
@@ -30160,6 +30161,7 @@ import_tables:
 過頭話	kou deu wo
 果桶	kou don	55
 過念	kou gni
+過念頭	kou gni deu
 過年過節	kou gni kou ciq	55
 過年過界	kou gni kou ka	55
 過年過界	kou gni kou kau	55
@@ -30777,7 +30779,7 @@ import_tables:
 老門檻	lau men khae	55
 老麻將	lau mo cian	55
 老木儱倲	lau moq lon ton	55
-老木躘踵	lau moq lon tshon	55
+老木躘蹱	lau moq lon tshon	55
 老呆大	lau nge dou
 老鴉	lau o
 老鴉臭	lau o chieu	55
@@ -31434,7 +31436,7 @@ import_tables:
 龍頭薧	lon deu khau
 龍頭鮳	lon deu khau	55
 龍頭魚	lon deu ng	55
-龍頭折轉	lon deu tsoq tsoe
+龍頭折轉	lon deu tsyuq tsoe
 弄掉	lon diau
 弄賺	lon dzae
 弄仿	lon faon	55
@@ -38123,10 +38125,10 @@ import_tables:
 𢶀耳朵皮	tshei gni to bi
 脆瓜	tshei kuo	55
 𢶀耳朵皮	tshei ng to bi
-𪙞牙	tshei ngo	55
 崔衙前	tshei ngo zhi
 啐啐	tshei tshei
 啐活靈	tshei waq lin
+𪙞牙	tshei-tshe ngo	55
 忖啊	tshen a
 寸白蛇	tshen baq dzo
 忖抱	tshen bau
@@ -38599,6 +38601,7 @@ import_tables:
 出天相	tshyuq thi shian	55
 出䠷	tshyuq thiau	418
 出𪙞牙	tshyuq tshae ngo
+出𪙞牙	tshyuq tshei-tshe ngo
 出瘄子	tshyuq tshu tsy
 出豬泥	tshyuq tsyu gni
 出洋相	tshyuq yan shian
