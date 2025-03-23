@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2025.03.09"
+version: "2025.03.22"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -20162,6 +20162,7 @@ import_tables:
 𫞗	mei
 𠊉	vei
 𫧃	vei
+𱐹	vei
 𫍷	tei
 对	tei
 㳔	tei
@@ -23665,7 +23666,7 @@ import_tables:
 腳指末頭	ciaq tsy maq deu	418
 腳指末頭踢豁	ciaq tsy maq deu thiq huaq
 雀子斑	ciaq tsy pae	55
-腳搲船	ciaq uo zoe	418
+腳划船	ciaq uo zoe	418
 腳勿撩地	ciaq vaq liau di
 腳弗撩地	ciaq vaq liau di	55
 腳勿落地	ciaq vaq loq di
@@ -24084,6 +24085,7 @@ import_tables:
 摺被頭	ciq bi deu
 積起	ciq chi	55
 只欠多	ciq chi tou	55
+結繭	ciq ci	55
 羯雞	ciq ci	55
 急驚風	ciq cin fon
 只只	ciq ciq	418
@@ -26406,6 +26408,7 @@ import_tables:
 紅猛日頭	ghon man gniq deu	55
 紅猛日頭火一樣	ghon man gniq deu hou iq yan
 紅毛瓶	ghon mau bin	55
+紅毛瓶結	ghon mau bin ciq
 紅毛番薯	ghon mau fae zyu	55
 紅毛人	ghon mau gnin	55
 紅毛人案	ghon mau gnin e	55
@@ -26944,6 +26947,7 @@ import_tables:
 軟塌塌	gniu thaq thaq
 軟菜	gniu tshe	55
 軟菜蛤螷羹	gniu tshe kaq bi kan
+扭轉	gniu tsoe
 愚豬	gniu tsyu	55
 軟柴	gniu za	55
 咖咖	go go	55
@@ -28288,6 +28292,7 @@ import_tables:
 情被	jin bi	55
 陳皮	jin bi
 近𥉻眼	jin chi ngae	55
+近昶	jin chian
 凌凙	jin daon	55
 成糖	jin daon	55
 勁道	jin dau
@@ -34807,6 +34812,7 @@ import_tables:
 雙雙落	saon saon loq
 爽性	saon shin	1500
 雙身老𡢿	saon shin lau gnion	55
+雙套結	saon thau ciq
 爽脆	saon tshei
 磉子	saon tsy	55
 舂芝麻	saon tsy mo
@@ -36122,7 +36128,7 @@ import_tables:
 書阿講讀	syu oq kaon doq
 書包	syu pau
 書包架	syu pau ko	55
-尿泡泡	syu phau phau	55
+尿脬脬	syu phau phau	55
 水泡泡	syu phau phau	55
 水波浪	syu pou laon	55
 尿布	syu pu
@@ -38792,7 +38798,6 @@ import_tables:
 捉回來	tsoq wei le
 捉癢	tsoq yan
 捉藥	tsoq yaq
-撮藥	tsoq yaq
 桌沿	tsoq yi	55
 竹葉	tsoq yiq
 斫柴	tsoq za
@@ -38964,6 +38969,7 @@ import_tables:
 祖基	tsu ci	55
 祖宗大人	tsu tson da zyun
 祖宗堂	tsu tson daon	55
+紙箔店	tsy boq ti	55
 紫葡萄	tsy bu dau
 紫絳紅	tsy cian ghon	55
 紫絳色	tsy cian saq
@@ -38989,7 +38995,6 @@ import_tables:
 指甲	tsy khaq	55
 指甲鉗	tsy khaq ji	522
 指甲伸	tsy khaq shin	55
-指甲深	tsy khaq shin	55
 指甲烏	tsy khaq u
 指甲縫道	tsy khaq von dau	55
 子孔	tsy khon	55
@@ -39008,7 +39013,6 @@ import_tables:
 紙襞箱	tsy paq shian	55
 紙包㪗開	tsy pau theu khe
 子孫	tsy sen
-紙箱店	tsy shian ti	55
 紫血	tsy shiuq	55
 紫血泡	tsy shiuq phau	55
 紫搭搭	tsy taq taq	55
@@ -39029,8 +39033,7 @@ import_tables:
 蛀蟲爛末	tsyu dzon lae maq
 蛀蟲末爛	tsyu dzon maq lae
 豬肺頭	tsyu fi deu
-㨖鞋	tsyu gha
-拄鞋	tsyu gha	55
+㨖鞋	tsyu gha	55
 疰夏	tsyu gho	55
 疰夏繩	tsyu gho zhin
 硃紅	tsyu ghon
@@ -39055,7 +39058,6 @@ import_tables:
 疰浪	tsyu laon	55
 拄牢	tsyu lau
 侏栗	tsyu liq	55
-株栗	tsyu liq	55
 豬玀	tsyu lou
 豬腦	tsyu nau
 蛀牙	tsyu ngo
@@ -39077,12 +39079,11 @@ import_tables:
 豬心	tsyu shin
 豬血	tsyu shiuq
 豬舍	tsyu so
-豬尿泡	tsyu syu phau
 豬尿脬	tsyu syu phau
 豬癲病	tsyu ti bin	55
 疰車	tsyu tsho	55
 蜘蛛	tsyu tsyu
-主主意意	tsyu tsyu i i	55
+注注意意	tsyu tsyu i i	55
 蜘蛛亂網	tsyu tsyu loe maon	55
 蜘蛛網	tsyu tsyu maon	55
 蜘蛛網絲	tsyu tsyu maon sy	55
@@ -39177,7 +39178,6 @@ import_tables:
 污素不剌	u su paq la
 污素不剌	u su paq laq
 烏筍	u syun	55
-萵筍	u syun
 捂雪	u syuq	55
 熓頓頓	u ten ten	55
 烏湯	u thaon	55
@@ -39300,9 +39300,9 @@ import_tables:
 蛙泳	uo ion
 搲垃圾	uo la shi
 搲疄頭	uo lin deu
-搲龍船	uo lon zoe	55
+划龍船	uo lon zoe	55
 搲飯	uo vae
-搲船	uo zoe	55
+划船	uo zoe	55
 犯怏	vae aon	55
 飯阿講喫	vae aq kaon chioq
 飯瓢	vae biau
@@ -39367,6 +39367,7 @@ import_tables:
 煩難	vae nae
 梵啞鈴	vae o lin
 飯阿講喫	vae oq kaon chioq
+凡百	vae paq
 飯包	vae pau	55
 萬寶全書	vae pau dzoe syu	55
 煩比牢糟	vae pi lau tsau	55
@@ -39436,8 +39437,9 @@ import_tables:
 弗招怪	vaq ciau kua	1
 罰咒	vaq cieu	55
 物證	vaq cin
-勿結	vaq ciq
+勿知	vaq ciq
 弗知	vaq ciq	55
+勿知咋是咋	vaq ciq dza zy dza
 弗知咋是咋	vaq ciq dza zy dza	55
 勿大	vaq da
 弗大	vaq da	55
@@ -39469,7 +39471,7 @@ import_tables:
 弗及屋裏	vaq jiq oq li	1
 勿尷勿尬	vaq kae vaq ka
 弗尷弗尬	vaq kae vaq ka	55
-勿合算	vaq kaq soe	578
+勿合算	vaq kaq soe
 弗合算	vaq kaq soe	578
 勿肯歇	vaq khen shiq
 弗肯歇	vaq khen shiq	55
@@ -39483,9 +39485,10 @@ import_tables:
 弗怪	vaq kua	55
 勿管賬	vaq kun cian
 弗管賬	vaq kun cian	55
-勿啦	vaq laq	418
+勿啦	vaq laq
 弗啦	vaq laq	1000
-弗老氣	vaq lau chi
+勿老氣	vaq lau chi
+弗老氣	vaq lau chi	1
 勿來	vaq le	20000
 弗來	vaq le	60000
 勿論	vaq len
@@ -39502,7 +39505,8 @@ import_tables:
 弗三弗四	vaq sae vaq sy	1
 勿生好心	vaq san hau shin
 弗生好心	vaq san hau shin	55
-弗生勿搞	vaq san vaq gau
+勿生勿搞	vaq san vaq gau
+弗生弗搞	vaq san vaq gau	1
 勿爽快	vaq saon khua
 弗爽快	vaq saon khua	55
 勿燥勿溼	vaq sau vaq shiq
@@ -39532,12 +39536,14 @@ import_tables:
 弗對	vaq tei	55
 勿討妙	vaq thau miau
 弗討妙	vaq thau miau	55
+勿得知	vaq toq tsyu
 弗得知	vaq toq tsyu
 罰鈔票	vaq tshau phiau	55
 勿錯	vaq tshou
 弗錯	vaq tshou	55
 勿出產	vaq tshyuq sae
 弗出產	vaq tshyuq sae	55
+勿作興	vaq tsoq shin
 弗作興	vaq tsoq shin
 勿做肉	vaq tsou gnioq
 弗做肉	vaq tsou gnioq	55
@@ -39557,13 +39563,16 @@ import_tables:
 弗然	vaq zoe	55
 勿是	vaq zy	70000
 弗是	vaq zy	170000
-弗是介	vaq zy ka
+勿是介	vaq zy ka
+弗是介	vaq zy ka	55
 勿是生意經	vaq zy san i cin
 弗是生意經	vaq zy san i cin	55
+勿是話頭	vaq zy wo deu
 弗是話頭	vaq zy wo deu
 勿入料	vaq zyuq liau
 弗入料	vaq zyuq liau	55
-弗入流	vaq zyuq lieu
+勿入流	vaq zyuq lieu
+弗入流	vaq zyuq lieu	1
 𣍐大	vei da	55
 𣍐咋	vei dza	55
 𣍐好	vei hau	578
@@ -39639,6 +39648,7 @@ import_tables:
 無名指	vu min tsy
 扶手	vu shieu
 務心	vu shin	55
+務心竭力	vu shin jiq liq	55
 腐竹	vu tsoq
 芙蓉花	vu yon huo
 壞賬	wa cian
@@ -39658,7 +39668,6 @@ import_tables:
 還價	wae ko
 環落	wae loq	55
 環眼	wae ngae	55
-還包門	wae pau men
 還報門	wae pau men	55
 環襻頭	wae phae deu	55
 頑僧和尚	wae sen ghou zaon
@@ -39679,7 +39688,8 @@ import_tables:
 橫道線	wan dau shi
 橫頭	wan deu	418
 橫頭多	wan deu tou
-橫愛司頭	wan e sy deu	55
+橫S頭	wan e sy deu
+橫愛司頭	wan e sy deu
 橫直	wan jiq
 橫闊大	wan khuaq dou	55
 橫裏	wan li	578
@@ -39710,10 +39720,10 @@ import_tables:
 黃道吉日	waon dau ciq gniq
 黃豆	waon deu
 黃頭貓	waon deu mae	55
-黃頭毛	waon deu mau
 黃豆芽	waon deu ngo
 黃豆湯	waon deu thaon	418
 黃銅	waon don
+黃蛇暴	waon dzo pau
 黃泉路	waon dzoe lu
 黃蜂	waon fon
 黃蜂窠	waon fon khou	55
@@ -39731,7 +39741,6 @@ import_tables:
 黃菸	waon i	55
 黃央央	waon ian ian	55
 黃秧菜	waon ian tshe
-黃喳暴	waon jia pau
 黃腸癟西	waon jian piq shi	55
 黃澄澄	waon jin jin
 王隘	waon ka
@@ -39807,9 +39816,7 @@ import_tables:
 黃鱔籠	waon yi lon	55
 黃葉爿	waon yiq bae
 活被	waq bei	55
-活被	waq bi	55
 滑皮皮	waq bi bi
-活皮蝦	waq bi huo	55
 滑皮蝦	waq bi huo	55
 活搶活奪	waq chian waq daq	55
 滑稽戲	waq ci shi
@@ -39828,7 +39835,6 @@ import_tables:
 活撞活顛	waq dzaon waq ti	55
 滑滯滯	waq ji ji	55
 滑腸	waq jian	55
-活股結	waq ku ciq	55
 囫圇	waq len
 活裏活絡	waq li waq loq	55
 活靈	waq lin	578
@@ -39884,7 +39890,7 @@ import_tables:
 回腳出	wei ciaq tshyuq	55
 燴積下飯	wei ciq gho vae
 圍塘	wei daon
-會庉弄堂篤底	wei den lon daon toq ti
+會庉弄堂㞘底	wei den lon daon toq ti
 回頭	wei deu
 回頭人	wei deu gnin
 蛔蟲朝下	wei dzon jiau gho	55
@@ -39954,7 +39960,6 @@ import_tables:
 渾頓頓	wen ten ten	55
 混草	wen tshau	55
 鏵鍬	wo chiau	55
-畫境線	wo cin shi	55
 畫鏡線	wo cin shi
 話頭	wo dei
 話頭	wo deu
@@ -40103,6 +40108,7 @@ import_tables:
 夜快邊	ya khua pi	55
 夜快點	ya khua ti	55
 夜快沿	ya khua yi	55
+夜蘭香	ya lae shian
 野老公	ya lau kon	55
 夜來香	ya le shian
 夜裏戤壁角	ya li ge piq koq
@@ -40251,8 +40257,7 @@ import_tables:
 搖籮	yau lou	55
 搖籮窠	yau lou khou
 鷂虻	yau man
-鷂虻	yau maon	55
-鷂虻喤喤響	yau maon waon waon shian
+鷂虻喤喤響	yau man waon waon shian
 鷂子	yau tsy
 搖船	yau zoe
 油皮	yeu bi
@@ -40260,7 +40265,6 @@ import_tables:
 油皮糙起	yeu bi tshau chi	55
 油氣	yeu chi
 有昶	yeu chian	418
-有槍	yeu chian	418
 有喫嘸喫	yeu chioq mh chioq	55
 油煎餛飩	yeu ci wen den	55
 油腳	yeu ciaq	55
@@ -40299,8 +40303,7 @@ import_tables:
 有佬佃倌講態話	yeu lau di kun kaon the wo
 有佬人家殺豬羊	yeu lau gnin ko saq tsyu yan
 有佬兒子	yeu lau ng tsy
-釉璃傢伙	yeu li ko hou
-釉璃家火	yeu li ko hou	55
+釉璃傢伙	yeu li ko hou	55
 有兩	yeu lian
 有兩遭	yeu lian tsau	55
 有力	yeu liq
@@ -40331,7 +40334,7 @@ import_tables:
 有喜	yeu shi
 有寫嘸寫	yeu shia mh shia	55
 游向天河	yeu shian thi ghou
-有相有量	yeu shian yeu lian	55
+有商有量	yeu shian yeu lian	55
 由手	yeu shieu	55
 有星	yeu shin	418
 有身	yeu shin
@@ -40369,7 +40372,6 @@ import_tables:
 油注格勒	yeu tsyu kaq laq
 油注刮搭	yeu tsyu kuaq taq	55
 有份地主	yeu ven di tsyu
-有環	yeu wae
 有還	yeu wae	55
 遊遊趤趤	yeu yeu dan dan
 有晌	yeu zaon	418
@@ -40488,7 +40490,6 @@ import_tables:
 圓滾滾	yu kuen kuen
 懸凌	yu lin	55
 圓領頭	yu lin deu
-懸凌個梢	yu lin kou sau
 懸凌個消	yu lin kou shiau	55
 圓領衫	yu lin sae	55
 雨落勒哚哚響	yu loq laq to to shian
