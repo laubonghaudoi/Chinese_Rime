@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2025.03.22"
+version: "2025.04.18"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -7716,7 +7716,6 @@ import_tables:
 銜	ghae
 啣	ghae
 衘	ghae
-言	ghae	0%
 餡	ghae
 限	ghae
 硍	ghae
@@ -8556,6 +8555,7 @@ import_tables:
 碑	pei
 卑	pei
 萆	pei
+鵯	pei
 悲	pei
 杯	pei
 𦈧	pei
@@ -17087,7 +17087,7 @@ import_tables:
 𩪧	phiq
 噼	phiq
 𨵩	phiq
-鵯	phiq
+鵯	phiq	0%
 憵	phiq
 嫳	phiq
 撆	phiq
@@ -20144,6 +20144,7 @@ import_tables:
 𪢮	loe
 篓	loe
 乱	loe
+鹎	pei
 贝	pei
 辈	pei
 呗	pei
@@ -22692,8 +22693,7 @@ import_tables:
 千軍萬馬	chi ciun vae mo
 起頭	chi deu
 牽頭皮	chi deu bi	55
-氣頭言話	chi deu ghae wo	55
-氣頭閒話	chi deu ghae wo
+氣頭閒話	chi deu ghae wo	55
 起頭家	chi deu ko
 起頭落腳	chi deu loq ciaq	55
 起地㽘	chi di gaon
@@ -26100,14 +26100,10 @@ import_tables:
 鹹滋滋	ghae tsy tsy	55
 鹹𣝗	ghae waq	55
 鹹𣝗青果	ghae waq chin kou	55
-言話	ghae wo	10000
-閒話	ghae wo
-言話一句	ghae wo iq ciu	55
-閒話一句	ghae wo iq ciu
-言話勿能煞潑	ghae wo vaq nen saq phaq
-言話弗能煞潑	ghae wo vaq nen saq phaq	1
+閒話	ghae wo	10000
+閒話一句	ghae wo iq ciu	55
 閒話勿能煞潑	ghae wo vaq nen saq phaq
-閒話弗能煞潑	ghae wo vaq nen saq phaq
+閒話弗能煞潑	ghae wo vaq nen saq phaq	1
 閒野	ghae ya	55
 閒食	ghae zhiq	55
 閒時不節	ghae zy paq ciq	55
@@ -26171,7 +26167,6 @@ import_tables:
 旱菸管	ghei-ghe i kun	55
 寒凚凚	ghei-ghe jin jin	55
 寒假	ghei-ghe ko
-韓國言話	ghei-ghe koq ghae wo	1
 韓國閒話	ghei-ghe koq ghae wo
 寒懍懍	ghei-ghe lin lin	55
 寒露	ghei-ghe lu
@@ -26765,13 +26760,11 @@ import_tables:
 韌比比	gnin pi pi	55
 韌比刁起	gnin pi tiau chi
 寧波評話	gnin poq bin wo
-寧波言話	gnin poq ghae wo	1
 寧波閒話	gnin poq ghae wo
 寧波灘簧	gnin poq thae waon	55
 寧波走書	gnin poq tseu syu
 寧波話	gnin poq wo
 寧波評話	gnin pou bin wo
-寧波言話	gnin pou ghae wo	1
 寧波閒話	gnin pou ghae wo
 寧波灘簧	gnin pou thae waon	55
 寧波走書	gnin pou tseu syu
@@ -27662,7 +27655,6 @@ import_tables:
 飲食店	in zhiq ti
 壅田	ion di	55
 甬劇	ion jiq
-甬江言話	ion kaon ghae wo
 甬江閒話	ion kaon ghae wo
 甬江小片	ion kaon shiau phi
 壅料	ion liau	55
@@ -28262,7 +28254,6 @@ import_tables:
 朝外貨	jiau nga hou
 撬䏘洞	jiau phiq don	55
 橋鋪	jiau phu	55
-潮汕言話	jiau sae ghae wo	1
 潮汕閒話	jiau sae ghae wo
 潮汕話	jiau sae wo
 橋蜆	jiau shi	55
@@ -28531,9 +28522,7 @@ import_tables:
 豇豆	kaon deu
 槓頭開花	kaon deu khe huo
 講肚仙	kaon du shi
-講言話	kaon ghae wo	20000
-講閒話	kaon ghae wo	578
-講言話慢他他	kaon ghae wo mae than than	1
+講閒話	kaon ghae wo	20000
 講閒話慢他他	kaon ghae wo mae than than
 講好看話	kaon hau khi-khe wo
 講纏話	kaon ji wo	55
@@ -28875,7 +28864,6 @@ import_tables:
 囥勿過	khaon vaq kou
 囥弗過	khaon vaq kou	1
 克切行爲	khaq chiq ghan wei
-客家言話	khaq cia ghae wo	1
 客家閒話	khaq cia ghae wo
 客家語	khaq cia gniu
 客家話	khaq cia wo
@@ -29167,8 +29155,7 @@ import_tables:
 空蕩	khon daon
 空頭	khon deu
 空頭白腦	khon deu baq nau	55
-空頭言話	khon deu ghae wo	55
-空頭閒話	khon deu ghae wo
+空頭閒話	khon deu ghae wo	55
 空頭白腦	khon deu paq nau	55
 空頭支票	khon deu tsy phiau
 空頭話	khon deu wo
@@ -29461,7 +29448,6 @@ import_tables:
 該𢆞草紙	kiq ciq tshau tsy
 該句	kiq ciu
 該捲	kiq ciu
-該句言話	kiq ciu ghae wo	1
 該句閒話	kiq ciu ghae wo
 該埭	kiq da
 該埭河	kiq da ghou
@@ -29476,7 +29462,6 @@ import_tables:
 該疊紙頭	kiq diaq tsy deu
 該條	kiq diau
 該段	kiq doe
-該段言話	kiq doe ghae wo	1
 該段閒話	kiq doe ghae wo
 該段路	kiq doe lu
 該段辰光	kiq doe zyun kuaon
@@ -29502,7 +29487,6 @@ import_tables:
 該副	kiq fu
 該也	kiq gha
 該也是	kiq gha zy
-該言話	kiq ghae wo	1
 該閒話	kiq ghae wo
 該行	kiq ghaon
 該項	kiq ghaon
@@ -29833,7 +29817,6 @@ import_tables:
 該面邊	kiq mi pi
 該名	kiq min
 該眼	kiq ngae	60000
-該眼言話	kiq ngae ghae wo	1
 該眼閒話	kiq ngae ghae wo
 該眼人	kiq ngae gnin
 該眼東西	kiq ngae ton shi
@@ -30281,7 +30264,6 @@ import_tables:
 光郎頭	kuaon laon deu	55
 光米落鑊純米飯	kuaon mi loq ghoq zyun mi vae
 光禿芋艿頭	kuaon thaq n na deu	55
-廣東言話	kuaon ton ghae wo	1
 廣東閒話	kuaon ton ghae wo
 光是	kuaon zy
 骨牌凳	kuaq ba ten	55
@@ -32247,7 +32229,6 @@ import_tables:
 嘸沒填	mhiq di	55
 嘸沒提	mhiq di	55
 嘸沒電	mhiq di	418
-嘸沒第二句言話	mhiq di gni ciu ghae wo	55
 嘸沒第二句閒話	mhiq di gni ciu ghae wo
 嘸沒動	mhiq don	418
 嘸沒銅鈿	mhiq don di
@@ -32277,14 +32258,10 @@ import_tables:
 嘸沒飛	mhiq fi	418
 嘸沒風	mhiq fon	418
 嘸沒付	mhiq fu	55
-嘸沒言話	mhiq ghae wo	418
-嘸沒閒話	mhiq ghae wo
-嘸沒言話成份	mhiq ghae wo jin ven	55
-嘸沒閒話成份	mhiq ghae wo jin ven
-嘸沒言話講	mhiq ghae wo kaon	418
-嘸沒閒話講	mhiq ghae wo kaon
-嘸沒言話份	mhiq ghae wo ven	55
-嘸沒閒話份	mhiq ghae wo ven
+嘸沒閒話	mhiq ghae wo	418
+嘸沒閒話成份	mhiq ghae wo jin ven	55
+嘸沒閒話講	mhiq ghae wo kaon	418
+嘸沒閒話份	mhiq ghae wo ven	55
 嘸沒後	mhiq gheu	55
 嘸沒後跟	mhiq gheu ken	418
 嘸沒學	mhiq ghoq	418
@@ -33258,7 +33235,6 @@ import_tables:
 外間	nga kae
 外快	nga khua
 外公	nga kon
-外國言話	nga koq ghae wo
 外國閒話	nga koq ghae wo
 外國紅	nga koq ghon	55
 外國人	nga koq gnin
@@ -34159,8 +34135,7 @@ import_tables:
 拼拼看	phin phin khe
 拼捨性命	phin so shin min	55
 䏘漿水	phiq cian syu	55
-劈直言話	phiq jiq ghae wo	55
-劈直閒話	phiq jiq ghae wo
+劈直閒話	phiq jiq ghae wo	55
 霹靂	phiq liq
 劈面相	phiq mi shian	55
 劈柴看絲流	phiq za khi-khe sy lieu
@@ -34207,7 +34182,6 @@ import_tables:
 鋪陳	phu jin
 鋪蓋	phu ke
 鋪板	phu pae
-普通言話	phu thon ghae wo
 普通閒話	phu thon ghae wo
 鋪塢	phu u	55
 半個	phun kou
@@ -34864,8 +34838,7 @@ import_tables:
 蝨眯老鬼	saq mhi lau ciu
 煞辣	saq naq	55
 煞潑	saq phaq	55
-煞潑言話	saq phaq ghae wo	55
-煞潑閒話	saq phaq ghae wo
+煞潑閒話	saq phaq ghae wo	55
 撒潑煞辣	saq phaq saq laq
 撒潑無賴	saq phaq vu la
 撒潑無賴	saq phaq wu- la
@@ -35266,8 +35239,7 @@ import_tables:
 燒火阿姆	shiau hou a m	55
 燒火阿姆	shiau hou an m	55
 小貨銅鈿	shiau hou don di	55
-小貨言話	shiau hou ghae wo	55
-小貨閒話	shiau hou ghae wo
+小貨閒話	shiau hou ghae wo	55
 笑呵呵	shiau hou hou
 小貨場	shiau hou jian	55
 小火輪	shiau hou len	55
@@ -36017,7 +35989,6 @@ import_tables:
 私章	sy tsaon
 四隻眼	sy tsaq ngae	55
 四寸銀蓮	sy tshen gnin li
-四川言話	sy tshoe ghae wo	1
 四川閒話	sy tshoe ghae wo
 四穿涼棚	sy tshoe lian ban
 獅子	sy tsy
@@ -37561,7 +37532,6 @@ import_tables:
 端午	ton ng
 端午節	ton ng ciq
 端午粽	ton ng tson	55
-東北言話	ton poq ghae wo	1
 東北閒話	ton poq ghae wo
 東北官話	ton poq kun wo
 東半邊	ton pun pi
@@ -38554,8 +38524,7 @@ import_tables:
 出頭髮	tshyuq deu faq	55
 出田	tshyuq di	55
 出大汗	tshyuq dou ghei-ghe	55
-出言話	tshyuq ghae wo	55
-出閒話	tshyuq ghae wo
+出閒話	tshyuq ghae wo	55
 出河頭	tshyuq ghou deu
 出灰	tshyuq huei
 出場	tshyuq jian
@@ -40270,10 +40239,8 @@ import_tables:
 油腳	yeu ciaq	55
 有腳力	yeu ciaq liq	55
 油漬格勒	yeu ciq kaq laq	55
-有句言話成份	yeu ciu ghae wo jin ven	55
-有句閒話成份	yeu ciu ghae wo jin ven
-有句言話份	yeu ciu ghae wo ven	55
-有句閒話份	yeu ciu ghae wo ven
+有句閒話成份	yeu ciu ghae wo jin ven	55
+有句閒話份	yeu ciu ghae wo ven	55
 有句講句	yeu ciu kaon ciu
 有陶成	yeu dau jin	55
 有隊	yeu dei	55
@@ -40623,7 +40590,6 @@ import_tables:
 上個月	zaon goq yuq
 上好孃	zaon hau gnian
 尚好使讓	zaon hau sy gnian
-上海言話	zaon he ghae wo	1
 上海閒話	zaon he ghae wo
 上蕻	zaon hon	55
 上灰	zaon huei	55
@@ -40812,8 +40778,7 @@ import_tables:
 造孽朋	zau gniq ban	55
 造孽精	zau gniq cin	55
 造孽頭朋	zau gniq deu ban	55
-造孽言話	zau gniq ghae wo	55
-造孽閒話	zau gniq ghae wo
+造孽閒話	zau gniq ghae wo	55
 造好掉	zau hau diau	55
 造六國大反	zau loq koq dou fae
 漕嘴	zau tsyu	55
@@ -41367,7 +41332,6 @@ import_tables:
 入木	zyuq moq	55
 十磨九難	zyuq mou cieu nae
 十外	zyuq nga	55
-日本言話	zyuq pen ghae wo	1
 日本閒話	zyuq pen ghae wo
 十三檔算盤	zyuq sae taon soe bun
 十三點	zyuq sae ti
@@ -42324,7 +42288,6 @@ import_tables:
 油包當點心	yeu pau taon ti shin
 油包當點心	yeu pau taon te shin
 老酒糯米做	lau cieu nou mi tsou
-喫落言話多	chioq loq ghae wo tou
 喫落閒話多	chioq loq ghae wo tou
 老酒日日醉	lau cieu gniq gniq tsei
 皇帝萬萬歲	waon ti vae vae sei
@@ -42762,7 +42725,6 @@ import_tables:
 中年丈姆家	tson gni jian m ko
 老來姊妹家	lau le ci mei ko
 孃舅大石頭	gnian jieu dou zaq deu
-言話獨句頭	ghae wo doq ciu deu
 閒話獨句頭	ghae wo doq ciu deu
 稍微有眼親	so bi yeu ngae chin
 勝過路外人	shin kou lu nga gnin
@@ -43051,31 +43013,25 @@ import_tables:
 說話越講越多	syuq wo yuq kaon yuq tou
 屙缸越㧕越臭	ou kaon yuq lieu yuq chieu
 果子弗可擇	kou tsy vaq khou dzaq
-言話弗可扎	ghae wo vaq khou tsaq
 閒話弗可扎	ghae wo vaq khou tsaq
 果子勿可擇	kou tsy vaq khou dzaq
-言話勿可扎	ghae wo vaq khou tsaq
 閒話勿可扎	ghae wo vaq khou tsaq
-言話聽音	ghae wo thin in
-蘿蔔喫心	lou boq chioq shin
 閒話聽音	ghae wo thin in
-言話要聽音	ghae wo iau thin in
-鰳魚要喫鱗	lei ng iau chioq lin
+蘿蔔喫心	lou boq chioq shin
 閒話要聽音	ghae wo iau thin in
+鰳魚要喫鱗	lei ng iau chioq lin
 甜言奪志	di yi daq tsy
 甜食壞齒	di zhiq ua tshy
 天弗言自高	thi vaq yi zy kau
 地弗言自厚	di vaq yi zy gheu
 天勿言自高	thi vaq yi zy kau
 地勿言自厚	di vaq yi zy gheu
-傳來言話莫輕信	dzoe le ghae wo mhau chin shin
+傳來閒話莫輕信	dzoe le ghae wo mhau chin shin
 過去事體莫再提	kou chi zy thi mhau tse di
-傳來言話莫輕信	dzoe le ghae wo mau chin shin
+傳來閒話莫輕信	dzoe le ghae wo mau chin shin
 過去事體莫再提	kou chi zy thi mau tse di
 過去事體莫再提	kou chiu zy thi mhau tse di
 過去事體莫再提	kou chiu zy thi mau tse di
-傳來閒話莫輕信	dzoe le ghae wo mhau chin shin
-傳來閒話莫輕信	dzoe le ghae wo mau chin shin
 香花弗一定好看	shian huo vaq iq din hau khi-khe
 會講弗一定能幹	wei kaon vaq iq din nen ki-ke
 香花勿一定好看	shian huo vaq iq din hau khi-khe
@@ -43087,24 +43043,18 @@ import_tables:
 講講神仙阿伯	kaon kaon zyun shi aq paq
 做做死蟹一隻	tsou tsou shi ha iq tsaq
 會賺銅鈿多揹債	wei dzae don di tou pei tsa
-會講言話多招怪	wei kaon ghae wo tou ciau kua
 會講閒話多招怪	wei kaon ghae wo tou ciau kua
 少講爲妙	shiau kaon wei miau
 多講傷料	tou kaon saon liau
 人像螄螺	gnin zhian sy lou
-言話甚多	ghae wo zhin tou
 閒話甚多	ghae wo zhin tou
 有話嘸話	yeu wo mh wo
 譬如弗話	phi zyu vaq wo
 譬如勿話	phi zyu vaq wo
 寧可聽蘇州人吵相罵	nen khou thin su cieu gnin tshau shian mo
-弗可聽寧波人講言話	vaq khou thin gnin pou gnin kaon ghae wo
 弗可聽寧波人講閒話	vaq khou thin gnin pou gnin kaon ghae wo
-勿可聽寧波人講言話	vaq khou thin gnin pou gnin kaon ghae wo
 勿可聽寧波人講閒話	vaq khou thin gnin pou gnin kaon ghae wo
-弗可聽寧波人講言話	vaq khou thin gnin poq gnin kaon ghae wo
 弗可聽寧波人講閒話	vaq khou thin gnin poq gnin kaon ghae wo
-勿可聽寧波人講言話	vaq khou thin gnin poq gnin kaon ghae wo
 勿可聽寧波人講閒話	vaq khou thin gnin poq gnin kaon ghae wo
 樹老根多	zyu lau ken tou
 人老話多	gnin lau wo tou
@@ -45801,7 +45751,6 @@ import_tables:
 全在衆人嘴裏	dzoe dze tson gnin tsyu li
 煮飯要有米	tsy vae iau yeu mi
 說話要在理	syuq wo iau dze li
-言話講道理	ghae wo kaon dau li
 閒話講道理	ghae wo kaon dau li
 是牛耕田	zy ngeu kan di
 是人識理	zy gnin shiq li
