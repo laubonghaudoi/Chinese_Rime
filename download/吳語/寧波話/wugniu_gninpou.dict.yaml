@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2025.04.18"
+version: "2025.04.24"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -15552,7 +15552,6 @@ import_tables:
 牐	zaq
 煠	zaq	578
 炸	zaq
-𧾁	zaq
 𧼰	zaq
 鍘	zaq
 䥷	zaq
@@ -15565,6 +15564,7 @@ import_tables:
 雑	zaq	10%
 襍	zaq	10%
 磼	zaq
+𧾁	zaq
 雥	zaq
 韴	zaq
 夾	kaq
@@ -22323,8 +22323,8 @@ import_tables:
 拔秧凳	baq ian ten
 拔長	baq jian	55
 拔長短	baq jian toe	55
-白鴿	baq kaq
-白鴿籠	baq kaq lon	55
+鵓鴿	baq kaq
+鵓鴿籠	baq kaq lon	55
 祓高秋	baq kau chieu
 白開水	baq khe syu
 白果	baq kou
@@ -25423,7 +25423,6 @@ import_tables:
 雜蟹	dzaq ha
 捽芹菜	dzaq jin tshe
 雜格楞敦	dzaq kaq len ten
-雜角𩞁餈	dzaq koq mo zy
 雜嘴雜舌	dzaq tsyu dzaq zhiq
 在行	dze ghaon
 在行三叔婆	dze ghaon sae soq bou	55
@@ -25700,7 +25699,7 @@ import_tables:
 番薯糊剌	fae zyu wu la	55
 番薯糊辣	fae zyu wu laq	55
 方矮凳	faon a ten	55
-放白鴿	faon baq kaq	55
+放鵓鴿	faon baq kaq	55
 放雞	faon ci	55
 放晝學	faon cieu ghoq	418
 方巾	faon cin
@@ -29103,7 +29102,7 @@ import_tables:
 看樣	khi-khe yan	55
 看樣子	khi-khe yan tsy
 看上加看	khi-khe zaon ko khi-khe	55
-抲白鴿	kho baq kaq
+抲鵓鴿	kho baq kaq
 抲白郎	kho baq laon	55
 抲去	kho chi	418
 抲進	kho cin
@@ -29121,7 +29120,7 @@ import_tables:
 抲牢勿放	kho lau vaq faon
 抲牢弗放	kho lau vaq faon	1
 抲來	kho le
-抲來白鴿直攦煞	kho le baq kaq jiq li saq
+抲來鵓鴿直攦煞	kho le baq kaq jiq li saq
 抲落	kho loq
 抲落去	kho loq chi
 抲落來	kho loq le
@@ -32956,25 +32955,25 @@ import_tables:
 奶油小生	na yeu shiau san	55
 爛泥	nae gni
 爛泥塊	nae gni khuei	55
-乃介	nae ka	55
-乃間	nae kae	55
+難介	nae ka	55
+難間	nae kae	55
 難講	nae kaon	55
-乃格	nae kaq	55
-乃該	nae ke
+難格	nae kaq	55
+難該	nae ke
 難看	nae khi-khe
 難看掉	nae khi-khe diau	55
 難看不剌	nae khi-khe paq la
 難看不剌	nae khi-khe paq laq
 難過	nae kou
 難弄	nae lon	55
-乃末	nae maq	55
+難末	nae maq	55
 難熬	nae ngau
 難熬不剌	nae ngau paq la
 難熬不剌	nae ngau paq laq
 難熬相	nae ngau shian
 難相	nae shian	55
-乃則	nae tsaq	578
-乃遭	nae tsau	578
+難則	nae tsaq	578
+難遭	nae tsau	578
 難處嘸沒	nae tshyu mhiq	55
 爛污泥	nae u gni	55
 難爲	nae wei
@@ -37692,7 +37691,7 @@ import_tables:
 側楞睏	tsaq len khuen	55
 責理太婆	tsaq li tha bou
 扎面子	tsaq mi tsy	55
-扎奶	tsaq na	55
+摘奶	tsaq na
 扎硬	tsaq ngan	55
 𡇠硬	tsaq ngan
 扎扮	tsaq pae	55
@@ -40621,14 +40620,12 @@ import_tables:
 上落勿問	zaon loq vaq men
 上落弗問	zaon loq vaq men	55
 上路	zaon lu
-上末	zaon maq	55
 昨末	zaon maq	3000
 昨末晝過	zaon maq cieu kou
 昨末下半日	zaon maq gho pun gniq
 昨末日裏	zaon maq gniq li
 昨末天亮	zaon maq thi gnian
 昨末天亮	zaon maq thiq gnian
-上末子	zaon maq tsy	55
 昨末子	zaon maq tsy	800
 昨末夜裏	zaon maq ya li
 昨末夜到	zaon maq ya tau
@@ -40719,8 +40716,8 @@ import_tables:
 石庫門	zaq khu men
 賊苦出	zaq khu tshyuq	55
 石庫牆門	zaq khu zhian men	55
-閘角	zaq koq	55
-雜角	zaq koq	55
+𧼰角	zaq koq	55
+𧼰角𩞁餈	zaq koq mo zy
 賊骨頭	zaq kuaq deu	578
 賊刮老	zaq kuaq lau	55
 石骨硬	zaq kuaq ngan	578
@@ -40748,7 +40745,6 @@ import_tables:
 賊偷貨	zaq theu hou	55
 賊土	zaq thu
 賊粗	zaq tshu
-閘出	zaq tshyuq	55
 𧼰出	zaq tshyuq	55
 賊出關門	zaq tshyuq kuae men	55
 賊衆生	zaq tson san
@@ -40798,6 +40794,7 @@ import_tables:
 隨便渠咋	zei bi ji dza
 隨便其咋勿咋	zei bi ji dza vaq dza
 隨便其咋弗咋	zei bi ji dza vaq dza	1
+隨便渠咋勿咋	zei bi ji dza vaq dza
 隨便渠咋弗咋	zei bi ji dza vaq dza	55
 隨便其法	zei bi ji faq	55
 隨便渠法	zei bi ji faq
@@ -40809,7 +40806,7 @@ import_tables:
 隨鑊落	zei ghoq loq	55
 罪孽	zei gniq
 隨羹粥飯	zei kan tsoq vae
-罪過	zei khou	55
+罪過	zei khou
 隨嫁	zei ko	55
 隨嫁阿姆	zei ko a m	55
 隨嫁阿姆	zei ko an m	55
