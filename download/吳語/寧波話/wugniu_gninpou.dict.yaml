@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2025.04.24"
+version: "2025.05.12"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -7002,10 +7002,10 @@ import_tables:
 罕	he
 撼	he
 憾	he
-嗨	he
 嬜	he
 蘫	he
 唅	he
+嗨	he
 醢	he
 海	he
 橀	he
@@ -7014,8 +7014,8 @@ import_tables:
 咍	he
 㺔	he
 餀	he
-許	he	5%
 咳	he	5%
+許	he	5%
 漢	he
 熯	he	55
 暵	he
@@ -9120,13 +9120,13 @@ import_tables:
 谽	hei-	6%
 馠	hei-	6%
 罕	hei-	6%
-許	hei-	5%
 撼	hei-	6%
 憾	hei-	6%
 咳	hei-	5%
 嬜	hei-
 蘫	hei-
 唅	hei-
+許	hei-	5%
 蔊	hei-	6%
 嚂	hei-
 厂	hei-	6%
@@ -13789,6 +13789,7 @@ import_tables:
 均	ciun
 鈞	ciun
 皸	ciun
+龜	ciun	0%
 麇	ciun
 袀	ciun
 麏	ciun
@@ -14885,6 +14886,7 @@ import_tables:
 柏	paq
 栢	paq
 伯	paq
+爸	paq	5%
 𦯉	paq
 掰	paq
 湐	paq
@@ -14909,7 +14911,6 @@ import_tables:
 迫	paq
 廹	paq
 檗	paq
-爸	paq	5%
 襞	paq
 癟	paq	0%
 㿜	paq	0%
@@ -21166,6 +21167,7 @@ import_tables:
 军	ciun
 钧	ciun
 皲	ciun
+龟	ciun
 鲪	ciun
 𫖳	ciun
 勋	shiun
@@ -22008,7 +22010,7 @@ import_tables:
 餲𦤣氣	aq boq chi	55
 餲𦤣嚌糟	aq boq ci tsau	55
 阿婆	aq bou
-阿伴	aq bun	55
+阿哺	aq bu	55
 押去	aq chi	55
 阿青阿黃	aq chin aq waon	418
 阿缺弄	aq chiuq lon	55
@@ -23068,10 +23070,10 @@ import_tables:
 喫氣勿過	chioq chi vaq kou
 喫氣弗過	chioq chi vaq kou	55
 喫喫阿拉	chioq chioq aq laq	55
-喫喫其	chioq chioq ji
-喫喫渠	chioq chioq ji	55
-喫喫其拉	chioq chioq jiq laq
-喫喫渠拉	chioq chioq jiq laq	55
+喫喫其	chioq chioq ji	55
+喫喫渠	chioq chioq ji
+喫喫其拉	chioq chioq jiq laq	55
+喫喫渠拉	chioq chioq jiq laq
 喫喫倷	chioq chioq naq	55
 喫喫我	chioq chioq ngo	55
 喫喫儂	chioq chioq nou	55
@@ -26529,7 +26531,7 @@ import_tables:
 和消頭	ghou shiau deu	55
 河屍鬼	ghou sy ciu	55
 河水鬼	ghou syu ciu	55
-河水翻漿	ghou syu fae cian
+河水氾漲	ghou syu fae cian
 河水怪清	ghou syu kuan chin
 和擔判	ghou tae phun
 河對頭	ghou tei deu
@@ -26770,6 +26772,7 @@ import_tables:
 寧波話	gnin pou wo
 人曬勒漆黑	gnin sa laq tshaq haq
 認生頭	gnin san deu	55
+寧式鱔絲	gnin shiq zoe sy	55
 認得	gnin taq
 韌鬥勢	gnin teu syu
 韌的的	gnin tiq tiq	55
@@ -34378,6 +34381,7 @@ import_tables:
 崩脆	pon tshei	55
 剝皮大㸆	poq bi dou khau	55
 剝皮大烤	poq bi dou khau	55
+剝皮魚	poq bi ng	55
 北部吳語	poq bu wu gniu
 北京是心臟	poq cin zy shin dzaon
 䃗大塘	poq dou daon
@@ -36283,6 +36287,7 @@ import_tables:
 打襉	tan kae	55
 打教方板	tan kau faon pae
 打瞌𥅻	tan khaq tshon	418
+打開	tan khe	17720
 打角麂	tan koq ci	55
 打官司	tan kun sy
 打官司草	tan kun sy tshau
@@ -37477,11 +37482,11 @@ import_tables:
 的滑	tiq waq	55
 的滑憐	tiq waq li	55
 的滑憐珠	tiq waq li tsyu
-朵辮子	to bi tsy	55
+打辮子	to bi tsy	55
 打發	to faq
-朵開	to khe	55
-挆籮繩	to lou zhin
-挆索	to soq
+打開	to khe	55
+打籮繩	to lou zhin
+打索	to soq
 朵朵	to to
 哚哚哭	to to khoq
 哚哚尿	to to syu
@@ -40953,10 +40958,9 @@ import_tables:
 壽斑	zhieu pae
 壽星	zhieu shin
 壽星竹	zhieu shin tsoq	55
-壽勢	zhieu syu
+壽歲	zhieu syu
 壽搭搭	zhieu taq taq	55
 袖套	zhieu thau
-袖套籠	zhieu thau lon
 袖套龍	zhieu thau lon	55
 壽燭	zhieu tsoq	55
 袖子管	zhieu tsy kun	55
@@ -40981,7 +40985,7 @@ import_tables:
 尋好	zhin hau
 尋吼勢	zhin heu syu	55
 尋幽貓	zhin ieu mae	418
-尋其	zhin ji
+尋其	zhin ji	1
 尋渠	zhin ji
 淨根	zhin ken	55
 淨根頭	zhin ken deu
@@ -41141,7 +41145,6 @@ import_tables:
 坐被窠	zou bi khou
 坐起間	zou chi kae	55
 坐堂	zou daon
-坐堂間	zou daon kae
 坐待筵	zou de yi	55
 座墊	zou di
 坐地分贓	zou di fen tsaon
@@ -41229,13 +41232,13 @@ import_tables:
 樹腦頭	zyu nau deu	55
 誰儂	zyu nou	55
 樹丫杈	zyu o tsho	55
-樹椏杈	zyu o tsho
 樹丫子	zyu o tsy	55
 豎屋酒	zyu oq cieu	55
 如心像意	zyu shin zhian i	55
 樹棦	zyu tsan	55
 樹樁	zyu tsaon
-如弗得知	zyu vaq toq tsyu
+誰勿得知	zyu vaq toq tsyu
+誰弗得知	zyu vaq toq tsyu	1
 如話	zyu wo	50000
 樹葉爿	zyu yiq bae	55
 順阿流	zyun aq lieu	55
@@ -41246,7 +41249,7 @@ import_tables:
 人證	zyun cin
 神經病	zyun cin bin
 純精肉	zyun cin gnioq
-純腈肉	zyun cin gnioq
+純腈肉	zyun cin gnioq	1
 神經稀稀	zyun cin shi shi	55
 認真話	zyun cin wo	55
 純只	zyun ciq	55
@@ -41296,7 +41299,7 @@ import_tables:
 神志無知	zyun tsy vu tsyu	55
 神志無知	zyun tsy wu- tsy
 神志無知	zyun tsy wu- tsyu	55
-神主牌	zyun tsyu ba
+神主牌	zyun tsyu bae
 純是	zyun zy	20000
 順順流流	zyun zyun lieu lieu	578
 順順湯湯	zyun zyun thaon thaon	418
