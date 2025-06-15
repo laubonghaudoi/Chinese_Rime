@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2025.05.12"
+version: "2025.06.14"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -2162,7 +2162,7 @@ import_tables:
 砌	chi
 摖	chi
 契	chi
-碶	chi
+碶	chi	55
 𬑻	chi
 氣	chi
 気	chi
@@ -8498,7 +8498,6 @@ import_tables:
 䳪	thoe
 煓	thoe
 彖	thoe
-段	thoe	0%
 偳	thoe
 貒	thoe
 疃	thoe
@@ -14895,6 +14894,7 @@ import_tables:
 釟	paq
 敀	paq
 糪	paq
+白	paq	0%
 不	paq	100000
 鈈	paq
 撥	paq	331919
@@ -14914,7 +14914,6 @@ import_tables:
 襞	paq
 癟	paq	0%
 㿜	paq	0%
-白	paq	0%
 拍	phaq
 啪	phaq
 帕	phaq
@@ -14930,12 +14929,12 @@ import_tables:
 皛	phaq
 糪	phaq
 汃	phaq
+趴	phaq
 擘	phaq
 潑	phaq
 鏺	phaq
 哱	phaq
 昢	phaq
-趴	phaq
 白	baq
 鮊	baq	0%
 拔	baq
@@ -14957,6 +14956,9 @@ import_tables:
 欂	baq
 繴	baq
 菝	baq
+百	baq	0%
+軷	baq
+颰	baq
 鼻	baq
 帛	baq
 孛	baq
@@ -14974,10 +14976,7 @@ import_tables:
 桲	baq
 郣	baq
 佛	baq	0%
-百	baq	0%
 𦤣	baq	5%
-軷	baq
-颰	baq
 麥	maq
 䥑	maq
 嘜	maq
@@ -15001,6 +15000,7 @@ import_tables:
 帓	maq
 睰	maq
 礣	maq
+瀎	maq
 妺	maq
 昩	maq
 覛	maq
@@ -15024,7 +15024,6 @@ import_tables:
 𥿉	maq
 秣	maq
 枚	maq	5%
-瀎	maq
 眜	maq
 粖	maq
 韎	maq
@@ -21375,10 +21374,10 @@ import_tables:
 䥽	phaq
 鲌	baq
 钹	baq
-饽	baq
-鹁	baq
 𫐈	baq
 𩙥	baq
+饽	baq
+鹁	baq
 麦	maq
 鿏	maq
 唛	maq
@@ -27966,7 +27965,6 @@ import_tables:
 一天世界	iq thi syu ka
 一聽頭	iq thin deu
 一彖路	iq thoe lu
-一段路	iq thoe lu
 一吊葡萄	iq tiau bu dau
 一釘一眼	iq tin iq ngae	55
 一頂傘	iq tin sae
@@ -29648,7 +29646,6 @@ import_tables:
 該一斢樓屋	kiq iq theu leu oq
 該一斢小屋	kiq iq theu shiau oq
 該一彖路	kiq iq thoe lu
-該一段路	kiq iq thoe lu
 該一點	kiq iq ti
 該一吊葡萄	kiq iq tiau bu dau
 該一頂傘	kiq iq tin sae
@@ -29889,7 +29886,6 @@ import_tables:
 該貼	kiq thiaq
 該聽頭	kiq thin deu
 該彖路	kiq thoe lu
-該段路	kiq thoe lu
 該統	kiq thon
 該統是	kiq thon zy
 該底	kiq ti	40000
@@ -30120,7 +30116,6 @@ import_tables:
 各𡍲	koq thaq	55
 各𡍲地方	koq thaq di faon
 各彖路	koq thoe lu
-各段路	koq thoe lu
 穀倉	koq tshaon
 角尺	koq tshaq
 各岔	koq tsho	55
@@ -36795,6 +36790,7 @@ import_tables:
 忒弗像樣	thaq vaq zhian yan	1
 忒油	thaq yeu
 忒遠	thaq yu
+脫穴	thaq yuq
 討便宜	thau bi gni
 套盤圈	thau bun chiu	55
 討賬	thau cian
@@ -37063,7 +37059,7 @@ import_tables:
 鐵匠	thiq zhian
 鐵樹	thiq zyu
 跺底	tho ti	55
-段頭	thoe deu
+彖頭	thoe deu
 統整	thon cin	55
 通條	thon diau
 統貨	thon hou
@@ -38899,7 +38895,6 @@ import_tables:
 做𡍲	tsou thaq	55
 做𡍲地方	tsou thaq di faon
 做彖路	tsou thoe lu
-做段路	tsou thoe lu
 做則	tsou tsaq	55
 做隻褲腳筒	tsou tsaq khu ciaq don
 做初一	tsou tshu iq	55

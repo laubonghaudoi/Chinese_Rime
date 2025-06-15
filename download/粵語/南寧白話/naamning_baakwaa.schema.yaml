@@ -4,7 +4,7 @@
 schema:
   schema_id: naamning_baakwaa
   name: "南寧白話"
-  version: "2024.11.03"
+  version: "2025.06.11"
   author:
     - LeiMaau <leimaau@qq.com>
   description: |
@@ -98,6 +98,9 @@ speller:
     - derive/i$/ei/          	       # 模糊 i -> ei
     - derive/u$/ou/          	       # 模糊 u -> ou
     - derive/saang$/sang/              # 模糊 saang -> sang 庚韻二等字文讀
+    - derive/eng$/ing/                 # 模糊 eng-> ing 梗攝三四等字文讀   
+    - derive/e([ptk])$/i$1/            # 模糊 e([ptk])-> i([ptk]) 梗攝三四等字文讀   
+    - derive/([bp])en$/$1in/           # 模糊 [bp])en-> [bp])in   
     - derive/kok$/fok/                 # 模糊 kok -> fok
     - derive/fut$/kut/                 # 模糊 fut -> kut 豁達、蛞蝓
     - derive/gwaat$/kut/               # 模糊 gwaat -> kut 包括、聒噪
@@ -111,7 +114,7 @@ speller:
     - derive/eo([int])$/oe$1/          # 容錯 eo(int) -> oe(int)
     - derive/eoi$/eoy/                 # 教院式 eoi -> eoy
     - abbrev/^([a-z]).+$/$1/           # 首字母簡拼
-#    - abbrev/^([a-z]{2}).+$/$1/        # 首2字母簡拼
+    - abbrev/^([a-z]{2}).+$/$1/        # 首2字母簡拼
     - abbrev/^(gw|kw|ng).+$/$1/        # 聲母簡拼
     - abbrev/^([s][l]).+$/$1/          # 聲母簡拼
 
