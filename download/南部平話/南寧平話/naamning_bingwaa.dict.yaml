@@ -22,7 +22,7 @@
 
 ---
 name: naamning_bingwaa
-version: "2025.06.11"
+version: "2025.06.21"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -79,102 +79,195 @@ import_tables:
 
 # 西文詞彙
 
-ABC	abc
-ABS	abs
-ADSL	adsl
-AI	ai
-AIDS	aids
-AM	am
-APC	apc
-APEC	apec
-API	api
-AQ	aq
-AV	av
-B2B	b2b
-B2C	b2c
-BBC	bbc
-BBS	bbs
-BD	bd
-BEC	bec
-BRT	brt
-C2C	c2c
-CAD	cad
-CAI	cai
-CATV	catv
-CBA	cba
-CBD	cbd
-CCC	ccc
-CCD	ccd
-CCTV	cctv
-CD	cd
-CD-R	cd-r
-CD-ROM	cd-rom
-CD-RW	cd-rw
-CDC	cdc
-CDMA	cdma
-CEO	ceo
-CEPA	cepa
-CET	cet
-CFO	cfo
-CI	ci
-CIA	cia
-CIMS	cims
-CIP	cip
-CISR	cisr
-CMOS	cmos
-CNN	cnn
-CPA	cpa
-CPI	cpi
-CPU	cpu
-CRT	crt
-CT	ct
-DC	dc
-DIY	diy
-DJ	dj
-DNA	dna
-DOS	dos
-DSL	dsl
-DV	dv
-DVD	dvd
-E-mail	e-mail
-EBD	ebd
-ECFA	ecfa
-ED	ed
-EDI	edi
-EMBA	emba
-EMS	ems
-EQ	eq
-ETC	etc
-EV	ev
-F1	f1
-FAX	fax
-FBI	fbi
-FM	fm
-FTA	fta
-GB	gb
-GDP	gdp
-GIS	gis
-GMAT	gmat
-GMP	gmp
-GNP	gnp
-GPS	gps
-GRE	gre
-GSM	gsm
-HDMI	hdmi
-HDTV	hdtv
-HIV	hiv
-HR	hr
-HSK	hsk
-ICP	icp
-ICU	icu
-IDC	idc
-IMAX	imax
-IMF	imf
-IOC	ioc
-IPO	ipo
-IPTV	iptv
-IQ	iq
-ISBN	isbn
+#ABC	abc
+#ABS	abs
+#ADSL	adsl
+#AI	ai
+#AIDS	aids
+#AM	am
+#APC	apc
+#APEC	apec
+#API	api
+#AQ	aq
+#AV	av
+#B2B	b2b
+#B2C	b2c
+#BBC	bbc
+#BBS	bbs
+#BD	bd
+#BEC	bec
+#BRT	brt
+#C2C	c2c
+#CAD	cad
+#CAI	cai
+#CATV	catv
+#CBA	cba
+#CBD	cbd
+#CCC	ccc
+#CCD	ccd
+#CCTV	cctv
+#CD	cd
+#CD-R	cd-r
+#CD-ROM	cd-rom
+#CD-RW	cd-rw
+#CDC	cdc
+#CDMA	cdma
+#CEO	ceo
+#CEPA	cepa
+#CET	cet
+#CFO	cfo
+#CI	ci
+#CIA	cia
+#CIMS	cims
+#CIP	cip
+#CISR	cisr
+#CMOS	cmos
+#CNN	cnn
+#CPA	cpa
+#CPI	cpi
+#CPU	cpu
+#CRT	crt
+#CT	ct
+#DC	dc
+#DIY	diy
+#DJ	dj
+#DNA	dna
+#DOS	dos
+#DSL	dsl
+#DV	dv
+#DVD	dvd
+#E-mail	e-mail
+#EBD	ebd
+#ECFA	ecfa
+#ED	ed
+#EDI	edi
+#EMBA	emba
+#EMS	ems
+#EQ	eq
+#ETC	etc
+#EV	ev
+#F1	f1
+#FAX	fax
+#FBI	fbi
+#FM	fm
+#FTA	fta
+#GB	gb
+#GDP	gdp
+#GIS	gis
+#GMAT	gmat
+#GMP	gmp
+#GNP	gnp
+#GPS	gps
+#GRE	gre
+#GSM	gsm
+#HDMI	hdmi
+#HDTV	hdtv
+#HIV	hiv
+#HR	hr
+#HSK	hsk
+#ICP	icp
+#ICU	icu
+#IDC	idc
+#IMAX	imax
+#IMF	imf
+#IOC	ioc
+#IPO	ipo
+#IPTV	iptv
+#IQ	iq
+#ISBN	isbn
+#AA制	aa zi3	100
+#ATM	atm	100
+#ATM機	atm gi1	100
+#Android	android	100
+#english	english	100
+#A片	apin3	100
+#A盤	abun4	100
+#A股	agu2	100
+#B淋巴細胞	blam4 baa1 slai3 baau1	100
+#B盤	bbun4	100
+#B細胞	bslai3 baau1	100
+#B股	bgu2	100
+#B超	bciu1	100
+#C盤	cbun4	100
+#C語言	cjyu5 jin4	100
+#DNA	dna	100
+#DVD	dvd	100
+#D盤	dbun4	100
+#E盤	ebun4	100
+#F盤	fbun4	100
+#Google	google	100
+#G盤	gbun4	100
+#G點	gdem2	100
+#H盤	hbun4	100
+#H股	hgu2	100
+#IP	ip	100
+#IP位址	ip wai6 zi2	100
+#IP卡	ip kaa1	100
+#IP地址	ip di6 zi2	100
+#IP電話	ip din6 waa6	100
+#I盤	ibun4	100
+#J盤	jbun4	100
+#KTV	ktv	100
+#K歌	kgo1	100
+#K歌	kei go1	100
+#K粉	kfan2	100
+#K粉	kei fan2	100
+#K金	kgam1	100
+#K金	kei gam1	100
+#Linux	linux	100
+#POS機	pos gi1	100
+#Python	python	100
+#QQ	qq	100
+#QQ	kiu kiu	100
+#QQ會員	qq wai6 jyun4	100
+#QQ羣	qq gwan	100
+#QQ號	qq haau6	100
+#QQ號碼	qq haau6 maa5	100
+#Q幣	qbi6	100
+#SIM卡	sim kaa1	100
+#T型臺	thing4 daai4	100
+#T臺	tdaai4	100
+#T恤	tslat3	100
+#T恤衫	tslat3 saam1	100
+#T淋巴細胞	tlam4 baa1 slai3 baau1	100
+#T細胞	tslai3 baau1	100
+#USB	usb	100
+#U形管	uhing4 gun2	100
+#U盤	ubun4	100
+#U盾	udan6	100
+#WiFi	waai faai	100
+#WiFi	wifi	100
+#X光	xgung1	100
+#X刀	xdaau1	100
+#X射綫	xse6 slin3	100
+#X射線	xse6 slin3	100
+#X染色體	xnjim5 sik2 tai2	100
+#Y染色體	ynjim5 sik2 tai2	100
+#iOS	ios	100
+#iPad	ipad	100
+#ipadmini	ipadmini	100
+#iPhone	iphone	100
+#iPod	ipod	100
+#α射線	aa faa se6 slin3	100
+#α粒子	aa faa nap3 zi2	100
+#β射線	be taa se6 slin3	100
+#β粒子	be taa nap3 zi2	100
+#γ刀	gaa maa daau1	100
+#γ射線	gaa maa se6 slin3	100
+#三K黨	slaam1 kdaang2	100
+#三K黨	slaam1 kei daang2	100
+#卡拉OK	kaa1 laai1 ok	100
+#卡啦OK	kaa1 laa1 ok	100
+#哆啦A夢	do1 laa1 amung6	100
+#哆啦A夢	do1 laa1 ei mung6	100
+#智能ABC	zi3 nang4 abc	100
+#阿Q	aa3q	100
+#阿Q正傳	aa3 qzing3 zyun6	100
+#阿Q正傳	aa3 kiu zing3 zyun6	100
+#B站	bzaam6	100
+#B站	bi zaam6	100
+#A站	azaam6	100
+#A站	ei zaam6	100
 
 # 基礎字音表
 
@@ -8790,7 +8883,7 @@ ISBN	isbn
 瘧	nak5	
 虐	nak5	
 謔	nak5	
-黮	(白)nam1	5%
+耽	(白)nam1	20%
 𦛚	(語)nam1	10%
 揕	(白)nam3	20%
 腍	(語)nam4	10%
@@ -14485,8 +14578,8 @@ Y染色體	Y njim5 sik2 tai2
 巴頭探腦	baa1 dau4 taam3 naau5
 巴頭探腦兒	baa1 dau4 taam3 naau5 nji4
 巴豆	baa1 dau6
-叭狗	baa1 gau2
 巴狗	baa1 gau2
+叭狗	baa1 gau2
 巴結	baa1 gyut2
 疤痕	baa1 han4
 疤拉	baa1 laai1
@@ -14503,8 +14596,8 @@ Y染色體	Y njim5 sik2 tai2
 芭蕾舞	baa1 lui4 fu5
 芭蕾舞	baa1 lui4 mu5
 巴望	baa1 mung6
-巴兒狗	baa1 nji4 gau2
 叭兒狗	baa1 nji4 gau2
+巴兒狗	baa1 nji4 gau2
 吧女	baa1 nyu5
 巴山蜀水	baa1 saan1 soek6 sui2
 巴山蜀水	baa1 saan1 zoek2 sui2
@@ -14751,8 +14844,8 @@ Y染色體	Y njim5 sik2 tai2
 排他	baai4 taa1
 排他性	baai4 taa1 sling3
 排外	baai4 waai6
-排位	baai4 wai6
 牌位	baai4 wai6
+排位	baai4 wai6
 排污	baai4 wu1
 排查	baai4 zaa4
 排擠	baai4 zai2
@@ -14795,8 +14888,8 @@ Y染色體	Y njim5 sik2 tai2
 敗陣	baai6 zan6
 敗走	baai6 zau2
 敗謝	baai6 ze6
-敗子	baai6 zi2
 稗子	baai6 zi2
+敗子	baai6 zi2
 敗仗	baai6 ziang3
 敗將	baai6 ziang3
 敗象	baai6 ziang6
@@ -14868,8 +14961,8 @@ Y染色體	Y njim5 sik2 tai2
 板刷	baan2 caat2
 板擦兒	baan2 caat2 nji4
 版次	baan2 ci3
-板築	baan2 coek2
 版築	baan2 coek2
+板築	baan2 coek2
 板寸	baan2 cun3
 板蕩	baan2 daang6
 扳倒	baan2 daau2
@@ -14915,8 +15008,8 @@ Y染色體	Y njim5 sik2 tai2
 板塊	baan2 waai3
 板材	baan2 zaai4
 板滯	baan2 zai6
-板子	baan2 zi2
 扳指	baan2 zi2
+板子	baan2 zi2
 扳子	baan2 zi2
 扳指兒	baan2 zi2 nji4
 板障	baan2 ziang3
@@ -14972,8 +15065,8 @@ Y染色體	Y njim5 sik2 tai2
 幫套	baang1 taau3
 幫貼	baang1 tip2
 幫會	baang1 wai6
-幫子	baang1 zi2
 梆子	baang1 zi2
+幫子	baang1 zi2
 梆子腔	baang1 zi2 kiang1
 幫助	baang1 zo6
 幫主	baang1 zyu2
@@ -15217,8 +15310,8 @@ Y染色體	Y njim5 sik2 tai2
 包藏禍心	baau1 zaang4 o6 slam1
 包紮	baau1 zaat2
 胞子	baau1 zi2
-孢子	baau1 zi2
 包子	baau1 zi2
+孢子	baau1 zi2
 孢子植物	baau1 zi2 zik6 fat5
 孢子植物	baau1 zi2 zik6 mat5
 褒詞	baau1 zi4
@@ -15234,8 +15327,8 @@ Y染色體	Y njim5 sik2 tai2
 保不齊	baau2 bat2 zai4
 保不住	baau2 bat2 zyu6
 寶瓶座	baau2 bing4 zo6
-保鑣	baau2 biu1
 保鏢	baau2 biu1
+保鑣	baau2 biu1
 保膘	baau2 biu1
 寶貝	baau2 bui3
 寶貝疙瘩	baau2 bui3 gat6 daap2
@@ -15312,14 +15405,14 @@ Y染色體	Y njim5 sik2 tai2
 保留劇目	baau2 lau4 gik6 moek5
 保齡球	baau2 ling4 gau4
 堡壘	baau2 lui5
-保密	baau2 mat5
 寶物	baau2 mat5
+保密	baau2 mat5
 保命	baau2 ming6
 保苗	baau2 miu4
-保母	baau2 mu5
-保姆	baau2 mu5
 褓姆	baau2 mu5
 鴇母	baau2 mu5
+保母	baau2 mu5
+保姆	baau2 mu5
 保媒	baau2 mui4
 飽滿	baau2 mun5
 保額	baau2 ngiak5
@@ -15355,8 +15448,8 @@ Y染色體	Y njim5 sik2 tai2
 保溫杯	baau2 wan1 bui1
 寶玩	baau2 wun6
 保藏	baau2 zaang4
-保狀	baau2 zaang6
 寶藏	baau2 zaang6
+保狀	baau2 zaang6
 保真	baau2 zan1
 保準	baau2 zan2
 保質期	baau2 zat2 gi4
@@ -15390,8 +15483,8 @@ Y染色體	Y njim5 sik2 tai2
 報單	baau3 daan1
 報答	baau3 daap2
 報到	baau3 daau3
-報導	baau3 daau6
 報道	baau3 daau6
+報導	baau3 daau6
 報德	baau3 dak2
 報頭	baau3 dau4
 報亭	baau3 ding4
@@ -15493,8 +15586,8 @@ Y染色體	Y njim5 sik2 tai2
 狍子	baau4 zi2
 刨子	baau4 zi2
 袍澤	baau4 ziak6
-庖廚	baau4 zyu4
 刨除	baau4 zyu4
+庖廚	baau4 zyu4
 抱不平	baau5 bat2 bing4
 抱病	baau5 bing6
 抱粗腿	baau5 cu1 tui2
@@ -15618,8 +15711,8 @@ Y染色體	Y njim5 sik2 tai2
 卑劣	bai1 lyut5
 悲憫	bai1 man5
 卑微	bai1 mi4
-碑銘	bai1 ming4
 悲鳴	bai1 ming4
+碑銘	bai1 ming4
 碑額	bai1 ngiak5
 卑鄙	bai1 pi2
 卑鄙齷齪	bai1 pi2 uk2 cuk2
@@ -15638,8 +15731,8 @@ Y染色體	Y njim5 sik2 tai2
 悲痛	bai1 toeng3
 卑污	bai1 wu1
 悲壯	bai1 zaang3
-跛子	bai1 zi2
 𨃅子	bai1 zi2
+跛子	bai1 zi2
 碑誌	bai1 zi3
 卑詞	bai1 zi4
 卑辭	bai1 zi4
@@ -15755,8 +15848,8 @@ Y染色體	Y njim5 sik2 tai2
 錛子	ban1 zi2
 檳子	ban1 zi2
 賓至如歸	ban1 zi3 jyu4 gwai1
-賓詞	ban1 zi4
 奔馳	ban1 zi4
+賓詞	ban1 zi4
 奔逐	ban1 zoek6
 賓主	ban1 zyu2
 稟報	ban2 baau3
@@ -15794,8 +15887,8 @@ Y染色體	Y njim5 sik2 tai2
 貧氣	ban4 hi3
 貧苦	ban4 hu2
 貧血	ban4 hyut2
-貧鈾	ban4 jau4
 貧油	ban4 jau4
+貧鈾	ban4 jau4
 貧鈾彈	ban4 jau4 daan6
 瀕於	ban4 jyu1
 貧礦	ban4 kwaang3
@@ -15833,7 +15926,6 @@ Y染色體	Y njim5 sik2 tai2
 笨重	ban6 zoeng5
 笨嘴拙舌	ban6 zui2 zyut2 sit6
 笨拙	ban6 zyut2
-鏰	bang1
 蹦蹦戲	bang1 bang1 hi3
 蹦蹦兒戲	bang1 bang1 nji4 hi3
 崩盤	bang1 bun4
@@ -15909,8 +16001,8 @@ Y染色體	Y njim5 sik2 tai2
 不齒	bat2 ci2
 不恥下問	bat2 ci2 jaa6 man6
 不啻	bat2 ci3
-不肖	bat2 ciu3
 畢肖	bat2 ciu3
+不肖	bat2 ciu3
 不錯	bat2 co3
 筆觸	bat2 coek2
 不速之客	bat2 coek2 zi1 hiak2
@@ -15959,14 +16051,14 @@ Y染色體	Y njim5 sik2 tai2
 不對	bat2 dui3
 不對勁	bat2 dui3 ging3
 不對茬兒	bat2 dui3 zaa4 nji4
-不端	bat2 dun1
 筆端	bat2 dun1
+不端	bat2 dun1
 不斷	bat2 dun5
 不凡	bat2 faan4
-不法	bat2 faat2
 筆法	bat2 faat2
-筆伐	bat2 faat6
+不法	bat2 faat2
 不乏	bat2 faat6
+筆伐	bat2 faat6
 不聞不問	bat2 fan4 bat2 man6
 不忿	bat2 fan5
 不菲	bat2 fi2
@@ -15995,17 +16087,17 @@ Y染色體	Y njim5 sik2 tai2
 不僅	bat2 gan2
 不近人情	bat2 gan5 njan4 zing4
 不及	bat2 gap6
-不久	bat2 gau2
 不苟	bat2 gau2
+不久	bat2 gau2
 不夠	bat2 gau3
 不咎既往	bat2 gau3 gi3 ung5
 不求有功，但求無過	bat2 gau4 jau5 goeng1，daan6 gau4 fu4 gu3
 不求有功，但求無過	bat2 gau4 jau5 goeng1，daan6 gau4 mu4 gu3
 不求甚解	bat2 gau4 sam6 gaai2
-不羈	bat2 gi1
 嗶嘰	bat2 gi1
-不計	bat2 gi3
+不羈	bat2 gi1
 筆記	bat2 gi3
+不計	bat2 gi3
 筆記本	bat2 gi3 bun2
 筆記本電腦	bat2 gi3 bun2 din6 naau5
 筆記本式計算機	bat2 gi3 bun2 sik2 gi3 slun3 gi1
@@ -16064,8 +16156,8 @@ Y染色體	Y njim5 sik2 tai2
 不遑	bat2 hung4
 不虛此行	bat2 hyu1 ci2 hiang4
 不許	bat2 hyu2
-筆下	bat2 jaa6
 不暇	bat2 jaa6
+筆下	bat2 jaa6
 不下	bat2 jaa6
 不下於	bat2 jaa6 jyu1
 筆下生花	bat2 jaa6 siang1 waa1
@@ -16133,25 +16225,25 @@ Y染色體	Y njim5 sik2 tai2
 不郎不秀	bat2 laang4 bat2 slau3
 不勞而獲	bat2 laau4 ji4 wiak6
 不倫不類	bat2 lan4 bat2 lui6
-不論	bat2 lan6
 不吝	bat2 lan6
+不論	bat2 lan6
 筆立	bat2 lap5
 篳篥	bat2 lat5
 不利	bat2 li6
 不良	bat2 liang4
 不良貸款	bat2 liang4 daai6 hon2
 不良貸款	bat2 liang4 taai3 hon2
-筆力	bat2 lik5
 不力	bat2 lik5
+筆力	bat2 lik5
 不了	bat2 liu5
 不了了之	bat2 liu5 liu5 zi1
 不料	bat2 liu6
 饆饠	bat2 lo4
 筆錄	bat2 loek5
-畢露	bat2 lu6
 筆路	bat2 lu6
-蓽路藍縷	bat2 lu6 laam4 lyu5
+畢露	bat2 lu6
 篳路藍縷	bat2 lu6 laam4 lyu5
+蓽路藍縷	bat2 lu6 laam4 lyu5
 不露聲色	bat2 lu6 sing1 sik2
 不蔓不枝	bat2 maan6 bat2 zi1
 不毛之地	bat2 maau4 zi1 di6
@@ -16235,8 +16327,8 @@ Y染色體	Y njim5 sik2 tai2
 不消	bat2 sliu1
 不送氣	bat2 sloeng3 hi3
 不遂	bat2 slui6
-不遜	bat2 slun3
 筆算	bat2 slun3
+不遜	bat2 slun3
 不善	bat2 syun6
 筆套	bat2 taau3
 筆體	bat2 tai2
@@ -16251,11 +16343,11 @@ Y染色體	Y njim5 sik2 tai2
 不韙	bat2 wai2
 不惟	bat2 wai4
 不爲已甚	bat2 wai4 ji5 sam6
-筆會	bat2 wai6
 不諱	bat2 wai6
 不謂	bat2 wai6
-不溫不火	bat2 wan1 bat2 hu2
+筆會	bat2 wai6
 不瘟不火	bat2 wan1 bat2 hu2
+不溫不火	bat2 wan1 bat2 hu2
 不穩定平衡	bat2 wan2 ding6 bing4 hang4
 不屈	bat2 wat2
 筆債	bat2 zaai3
@@ -16276,9 +16368,9 @@ Y染色體	Y njim5 sik2 tai2
 不周延	bat2 zau1 jyun4
 筆走龍蛇	bat2 zau2 loeng4 se4
 筆者	bat2 ze2
-筆資	bat2 zi1
 不支	bat2 zi1
 不貲	bat2 zi1
+筆資	bat2 zi1
 不知不覺	bat2 zi1 bat2 kiak2
 不知凡幾	bat2 zi1 faan4 gi2
 不知死活	bat2 zi1 sli2 wat6
@@ -16302,8 +16394,8 @@ Y染色體	Y njim5 sik2 tai2
 不着邊際	bat2 ziak6 bin1 zai3
 不擇手段	bat2 ziak6 sau2 dun6
 不爭	bat2 ziang1
-不詳	bat2 ziang4
 不祥	bat2 ziang4
+不詳	bat2 ziang4
 不像話	bat2 ziang6 waa6
 筆跡	bat2 zik2
 不即不離	bat2 zik2 bat2 li4
@@ -16326,7 +16418,6 @@ Y染色體	Y njim5 sik2 tai2
 不隨意肌	bat2 zui4 ji3 gi1
 不折不扣	bat2 zyut2 bat2 kau3
 不絕如縷	bat2 zyut6 jyu4 lyu5
-鼻	bat6
 鼻旁竇	bat6 baang4 dau6
 鼻翅	bat6 ci3
 鼻青臉腫	bat6 cing1 lim5 zoeng2
@@ -16435,8 +16526,8 @@ Y染色體	Y njim5 sik2 tai2
 比量	bi2 liang4
 比量	bi2 liang6
 比量齊觀	bi2 liang6 zai4 gun1
-媲美	bi2 mai5
 比美	bi2 mai5
+媲美	bi2 mai5
 比目魚	bi2 moek5 njyu4
 比武	bi2 mu5
 彼岸	bi2 ngaan6
@@ -16494,8 +16585,8 @@ Y染色體	Y njim5 sik2 tai2
 皮包公司	bi4 baau1 goeng1 sli1
 皮包骨	bi4 baau1 gwat2
 皮包商	bi4 baau1 siang1
-疲敝	bi4 bi6
 疲憊	bi4 bi6
+疲敝	bi4 bi6
 皮草	bi4 caau2
 膍胵	bi4 ci1
 皮尺	bi4 cik2
@@ -16528,8 +16619,8 @@ Y染色體	Y njim5 sik2 tai2
 貔虎	bi4 hu2
 皮庫	bi4 hu3
 皮貨	bi4 hu3
-皮簧	bi4 hung4
 皮黃	bi4 hung4
+皮簧	bi4 hung4
 皮影戲	bi4 ing2 hi3
 皮下組織	bi4 jaa6 zu2 zik2
 貔貅	bi4 jau1
@@ -16565,8 +16656,8 @@ Y染色體	Y njim5 sik2 tai2
 皮脂	bi4 zi1
 皮之不存，毛將焉附	bi4 zi1 bat2 zon4，maau4 ziang1 jyun1 fu6
 皮脂腺	bi4 zi1 slin3
-皮子	bi4 zi2
 貔子	bi4 zi2
+皮子	bi4 zi2
 皮張	bi4 ziang1
 裨將	bi4 ziang3
 皮匠	bi4 ziang6
@@ -16655,8 +16746,8 @@ Y染色體	Y njim5 sik2 tai2
 備災	bi6 zaai1
 敝帚千金	bi6 zau2 cin1 gam1
 敝帚自珍	bi6 zau2 zi6 zan1
-備至	bi6 zi3
 幣制	bi6 zi3
+備至	bi6 zi3
 蔽障	bi6 ziang3
 幣值	bi6 zik6
 備戰	bi6 zin3
@@ -16707,8 +16798,8 @@ Y染色體	Y njim5 sik2 tai2
 百貨	biak2 hu3
 百依百順	biak2 ji1 biak2 san6
 百葉	biak2 jip5
-百葉窗	biak2 jip5 caang1
 百頁窗	biak2 jip5 caang1
+百葉窗	biak2 jip5 caang1
 百葉箱	biak2 jip5 sliang1
 百孔千瘡	biak2 koeng2 cin1 caang1
 伯樂	biak2 laak5
@@ -16799,8 +16890,8 @@ Y染色體	Y njim5 sik2 tai2
 白乾兒	biak6 gaan1 nji4
 白金	biak6 gam1
 白金漢宮	biak6 gam1 haan3 goeng1
-白芨	biak6 gap6
 白及	biak6 gap6
+白芨	biak6 gap6
 白鱀豚	biak6 gi3 dan4
 白鱀豚	biak6 gi3 dan4
 白旗	biak6 gi4
@@ -16883,8 +16974,8 @@ Y染色體	Y njim5 sik2 tai2
 白蟻	biak6 nji5
 白熱	biak6 njit5
 白熱化	biak6 njit5 waa3
-白玉	biak6 njoek5
 白肉	biak6 njoek5
+白玉	biak6 njoek5
 白內障	biak6 nui6 ziang3
 白嫩	biak6 nun6
 白票	biak6 piu3
@@ -16892,8 +16983,8 @@ Y染色體	Y njim5 sik2 tai2
 白山黑水	biak6 saan1 hak2 sui2
 白事	biak6 sai6
 白脣鹿	biak6 san4 loek5
-白手	biak6 sau2
 白首	biak6 sau2
+白手	biak6 sau2
 白手起家	biak6 sau2 hi2 gaa1
 白壽	biak6 sau6
 白色	biak6 sik2
@@ -16920,8 +17011,8 @@ Y染色體	Y njim5 sik2 tai2
 白化	biak6 waa3
 白化病	biak6 waa3 bing6
 白樺	biak6 waa4
-帛畫	biak6 waa6
 白話	biak6 waa6
+帛畫	biak6 waa6
 白話文	biak6 waa6 fan4
 白話詩	biak6 waa6 si1
 白玩	biak6 waan6
@@ -16934,9 +17025,9 @@ Y染色體	Y njim5 sik2 tai2
 白碴	biak6 zaa4
 白茶	biak6 zaa4
 白茬	biak6 zaa4
+白茬兒	biak6 zaa4 nji4
 白碴兒	biak6 zaa4 nji4
 白槎兒	biak6 zaa4 nji4
-白茬兒	biak6 zaa4 nji4
 白災	biak6 zaai1
 白斬雞	biak6 zaam2 gai1
 白質	biak6 zat2
@@ -16946,8 +17037,8 @@ Y染色體	Y njim5 sik2 tai2
 白晝見鬼	biak6 zau3 gin3 gwai2
 白芷	biak6 zi2
 白紙黑字	biak6 zi2 hak2 zi6
-白雉	biak6 zi6
 白字	biak6 zi6
+白雉	biak6 zi6
 白淨	biak6 zing6
 白族	biak6 zoek6
 白種	biak6 zoeng2
@@ -17015,8 +17106,8 @@ Y染色體	Y njim5 sik2 tai2
 鞭打快牛	bin1 daa2 waai3 njau4
 萹豆	bin1 dau6
 邊地	bin1 di6
-蝙蝠	bin1 foek2
 邊幅	bin1 foek2
+蝙蝠	bin1 foek2
 邊鋒	bin1 foeng1
 邊務	bin1 fu6
 邊防	bin1 fung4
@@ -17030,8 +17121,8 @@ Y染色體	Y njim5 sik2 tai2
 邊款	bin1 hon2
 邊音	bin1 jam1
 箯輿	bin1 jyu4
-邊緣	bin1 jyun4
 邊沿	bin1 jyun4
+邊緣	bin1 jyun4
 邊緣科學	bin1 jyun4 hu1 haak6
 邊緣化	bin1 jyun4 waa3
 邊遠	bin1 jyun5
@@ -17066,8 +17157,8 @@ Y染色體	Y njim5 sik2 tai2
 貶斥	bin2 cik2
 貶稱	bin2 cing1
 貶低	bin2 dai1
-稨豆	bin2 dau6
 藊豆	bin2 dau6
+稨豆	bin2 dau6
 匾文	bin2 fan4
 褊急	bin2 gap2
 貶官	bin2 gun1
@@ -17109,8 +17200,8 @@ Y染色體	Y njim5 sik2 tai2
 變口	bin3 hau2
 變戲法	bin3 hi3 faat2
 變易	bin3 hik2
-變形	bin3 hing4
 變型	bin3 hing4
+變形	bin3 hing4
 變形金剛	bin3 hing4 gam1 gaang1
 變異	bin3 ji6
 變樣	bin3 jiang6
@@ -17150,8 +17241,8 @@ Y染色體	Y njim5 sik2 tai2
 變阻器	bin3 zo2 hi3
 變種	bin3 zoeng2
 便便	bin4 bin4
-駢闐	bin4 din4
 駢填	bin4 din4
+駢闐	bin4 din4
 駢文	bin4 fan4
 㛹娟	bin4 gyun1
 駢儷	bin4 lai6
@@ -17161,12 +17252,12 @@ Y染色體	Y njim5 sik2 tai2
 胼手胝足	bin4 sau2 zi1 zoek2
 駢體	bin4 tai2
 胼胝	bin4 zi1
-駢枝	bin4 zi1
 跰䟡	bin4 zi1
+駢枝	bin4 zi1
 胼胝體	bin4 zi1 tai2
 便祕	bin6 bi3
-辯白	bin6 biak6
 辨白	bin6 biak6
+辯白	bin6 biak6
 辨別	bin6 bit6
 便步	bin6 bu6
 辯駁	bin6 buk2
@@ -17229,11 +17320,11 @@ Y染色體	Y njim5 sik2 tai2
 辯詞	bin6 zi4
 辯辭	bin6 zi4
 便箋	bin6 zin1
-辨正	bin6 zing3
-辯證	bin6 zing3
 辨症	bin6 zing3
-辨證	bin6 zing3
 辯正	bin6 zing3
+辯證	bin6 zing3
+辨正	bin6 zing3
+辨證	bin6 zing3
 辯證法	bin6 zing3 faat2
 辨證論治	bin6 zing3 lan6 zi6
 辯證邏輯	bin6 zing3 lo4 cap2
@@ -17304,8 +17395,8 @@ Y染色體	Y njim5 sik2 tai2
 兵油子	bing1 jau4 zi2
 兵戎	bing1 joeng4
 兵勇	bing1 joeng5
-兵員	bing1 jyun4
 兵源	bing1 jyun4
+兵員	bing1 jyun4
 兵來將擋，水來土掩	bing1 laai4 ziang3 daang2，sui2 laai4 tu2 jim2
 兵艦	bing1 laam5
 兵臨城下	bing1 lam4 sing4 jaa6
@@ -17343,8 +17434,8 @@ Y染色體	Y njim5 sik2 tai2
 兵役制	bing1 wik5 zi3
 屏營	bing1 wing4
 兵營	bing1 wing4
-冰茶	bing1 zaa4
 冰碴	bing1 zaa4
+冰茶	bing1 zaa4
 冰碴兒	bing1 zaa4 nji4
 兵災	bing1 zaai1
 兵站	bing1 zaam6
@@ -17363,8 +17454,8 @@ Y染色體	Y njim5 sik2 tai2
 餅乾	bing2 gaan1
 秉公	bing2 goeng1
 秉國	bing2 guk2
-屏氣	bing2 hi3
 屏棄	bing2 hi3
+屏氣	bing2 hi3
 丙綸	bing2 lan4
 餅屋	bing2 oek2
 秉承	bing2 sing4
@@ -17374,8 +17465,8 @@ Y染色體	Y njim5 sik2 tai2
 餅子	bing2 zi2
 秉持	bing2 zi4
 屏跡	bing2 zik2
-秉政	bing2 zing3
 秉正	bing2 zing3
+秉政	bing2 zing3
 秉燭	bing2 zoek2
 屏除	bing2 zyu4
 併案	bing3 aan3
@@ -17459,8 +17550,8 @@ Y染色體	Y njim5 sik2 tai2
 平方	bing4 fung1
 平方米	bing4 fung1 mai5
 平房	bing4 fung4
-評價	bing4 gaa3
 平價	bing4 gaa3
+評價	bing4 gaa3
 評改	bing4 gaai2
 評介	bing4 gaai3
 平角	bing4 gaak2
@@ -17574,8 +17665,8 @@ Y染色體	Y njim5 sik2 tai2
 評委	bing4 wai2
 平穩	bing4 wan2
 平允	bing4 wan5
-平裝	bing4 zaang1
 瓶裝	bing4 zaang1
+平裝	bing4 zaang1
 平槽	bing4 zaau4
 平仄	bing4 zak2
 評騭	bing4 zat2
@@ -17587,8 +17678,8 @@ Y染色體	Y njim5 sik2 tai2
 平直	bing4 zik6
 平整	bing4 zing2
 平正	bing4 zing3
-平靜	bing4 zing6
 平靖	bing4 zing6
+平靜	bing4 zing6
 平足	bing4 zoek2
 萍蹤	bing4 zoeng1
 評註	bing4 zyu3
@@ -17633,8 +17724,8 @@ Y染色體	Y njim5 sik2 tai2
 病容	bing6 joeng4
 並用	bing6 joeng6
 病癒	bing6 jyu6
-病員	bing6 jyun4
 病原	bing6 jyun4
+病員	bing6 jyun4
 病源	bing6 jyun4
 病原體	bing6 jyun4 tai2
 病院	bing6 jyun6
@@ -17750,8 +17841,8 @@ Y染色體	Y njim5 sik2 tai2
 別情	bit6 zing4
 別傳	bit6 zyun6
 標牌	biu1 baai4
-標榜	biu1 baang2
 摽榜	biu1 baang2
+標榜	biu1 baang2
 標兵	biu1 bing1
 彪炳	biu1 bing2
 彪炳千古	biu1 bing2 cin1 gu2
@@ -17760,8 +17851,8 @@ Y染色體	Y njim5 sik2 tai2
 標本	biu1 bun2
 標本兼治	biu1 bun2 gim1 zi6
 錶盤	biu1 bun4
-標榜	biu1 bung2
 摽榜	biu1 bung2
+標榜	biu1 bung2
 藨草	biu1 caau2
 飆車	biu1 ce1
 標槍	biu1 ciang1
@@ -17822,9 +17913,9 @@ Y染色體	Y njim5 sik2 tai2
 標準時區	biu1 zan2 si4 kyu1
 標準化	biu1 zan2 waa3
 標準像	biu1 zan2 ziang6
+標緻	biu1 zi3
 標識	biu1 zi3
 標誌	biu1 zi3
-標緻	biu1 zi3
 飆漲	biu1 ziang3
 膘情	biu1 zing4
 瘭疽	biu1 zyu1
@@ -17978,9 +18069,9 @@ Y染色體	Y njim5 sik2 tai2
 補倉	bu2 caang1
 補充	bu2 coeng1
 補臺	bu2 daai4
-補釘	bu2 ding1
 補靪	bu2 ding1
 補丁	bu2 ding1
+補釘	bu2 ding1
 補角	bu2 gaak2
 補救	bu2 gau3
 補過	bu2 gu3
@@ -18169,9 +18260,9 @@ Y染色體	Y njim5 sik2 tai2
 背地	bui3 di6
 背地裏	bui3 di6 li5
 貝雕	bui3 diu1
+梖多	bui3 do1
+梖多	bui3 do1
 貝多	bui3 do1
-梖多	bui3 do1
-梖多	bui3 do1
 背對背	bui3 dui3 bui3
 輩分	bui3 fan6
 背風	bui3 foeng1
@@ -18185,8 +18276,8 @@ Y染色體	Y njim5 sik2 tai2
 輩行	bui3 haang4
 背黑鍋	bui3 hak2 gu1
 背後	bui3 hau6
-背棄	bui3 hi3
 背氣	bui3 hi3
+背棄	bui3 hi3
 背影	bui3 ing2
 背陰	bui3 jam1
 背約	bui3 jiak2
@@ -18218,10 +18309,10 @@ Y染色體	Y njim5 sik2 tai2
 貝塔粒子	bui3 taap2 nap3 zi2
 貝塔射線	bui3 taap2 se6 slin3
 揹債	bui3 zaai3
+背子	bui3 zi2
 輩子	bui3 zi2
 褙子	bui3 zi2
 貝子	bui3 zi2
-背子	bui3 zi2
 背脊	bui3 zik2
 背剪	bui3 zin2
 背井離鄉	bui3 zing2 li4 hiang1
@@ -18269,7 +18360,6 @@ Y染色體	Y njim5 sik2 tai2
 賠情	bui4 zing4
 賠罪	bui4 zui6
 陪住	bui4 zyu6
-倍	bui5
 倍道	bui5 daau6
 倍加	bui5 gaa1
 倍率	bui5 lat5
@@ -18287,10 +18377,10 @@ Y染色體	Y njim5 sik2 tai2
 背旮旯	bui6 kaa3 laa3
 背旮旯兒	bui6 kaa3 laa3 nji4
 悖論	bui6 lan6
-悖理	bui6 li5
 背理	bui6 li5
-背謬	bui6 mau6
+悖理	bui6 li5
 悖謬	bui6 mau6
+背謬	bui6 mau6
 悖逆	bui6 nik5
 背眼	bui6 njaan5
 背時	bui6 si4
@@ -18462,7 +18552,6 @@ Y染色體	Y njim5 sik2 tai2
 本證	bun2 zing3
 本主	bun2 zyu2
 本主兒	bun2 zyu2 nji4
-絆	bun3
 半不	bun3 bat2
 半百	bun3 biak2
 半壁	bun3 bik2
@@ -18495,8 +18584,8 @@ Y染色體	Y njim5 sik2 tai2
 半徑	bun3 ging3
 半晌	bun3 hiang2
 半空	bun3 hoeng1
-半夏	bun3 jaa6
 半夜	bun3 jaa6
+半夏	bun3 jaa6
 半夜三更	bun3 jaa6 slaam1 giang1
 半音	bun3 jam1
 半休	bun3 jau1
@@ -18533,8 +18622,8 @@ Y染色體	Y njim5 sik2 tai2
 半托	bun3 taak2
 半天	bun3 tin1
 半推半就	bun3 tui1 bun3 zau6
-半子	bun3 zi2
 絆子	bun3 zi2
+半子	bun3 zi2
 半製品	bun3 zi3 pan2
 半自動	bun3 zi6 doeng6
 半殖民地	bun3 zik6 man4 di6
@@ -18650,8 +18739,8 @@ Y染色體	Y njim5 sik2 tai2
 鉢頭	but2 dau4
 鉢盂	but2 jyu4
 鉢子	but2 zi2
-餑餑	but6 but6
 勃勃	but6 but6
+餑餑	but6 but6
 撥打	but6 daa2
 撥發	but6 faat2
 勃發	but6 faat2
@@ -18681,8 +18770,8 @@ Y染色體	Y njim5 sik2 tai2
 襏襫	but6 sik2
 撥雲見日	but6 wan4 gin3 njat5
 荸薺	but6 zai4
-撥子	but6 zi2
 脖子	but6 zi2
+撥子	but6 zi2
 差一點兒	caa1 at2 dem2 nji4
 搓板	caa1 baan2
 差不多	caa1 bat2 do1
@@ -44717,8 +44806,8 @@ e化	e waa3
 卡尺	kaa1 cik2
 卡帶	kaa1 daai3
 咔嗒	kaa1 daap3
-喀噠	kaa1 daat6
 咔噠	kaa1 daat6
+喀噠	kaa1 daat6
 卡特爾	kaa1 dak6 nji5
 卡丁車	kaa1 ding1 ce1
 咖啡	kaa1 fi1
@@ -44757,8 +44846,8 @@ e化	e waa3
 駕輕就熟	kaa3 hing1 zau6 soek6
 架空	kaa3 hoeng1
 架秧子	kaa3 jiang1 zi2
-駕御	kaa3 jyu6
 駕馭	kaa3 jyu6
+駕御	kaa3 jyu6
 駕轅	kaa3 jyun4
 架構	kaa3 kau3
 旮旯兒	kaa3 laa3 nji4
@@ -45006,15 +45095,15 @@ e化	e waa3
 稽延	kai1 jyun4
 谿卡	kai1 kaa1
 溪卡	kai1 kaa1
-谿壑	kai1 kaak2
 溪壑	kai1 kaak2
+谿壑	kai1 kaak2
 稽考	kai1 kaau2
-谿刻	kai1 kak2
 溪刻	kai1 kak2
+谿刻	kai1 kak2
 蹊蹺	kai1 kiu2
 奚落	kai1 laak5
-溪流	kai1 lau4
 稽留	kai1 lau4
+溪流	kai1 lau4
 鼷鼠	kai1 syu2
 稽查	kai1 zaa4
 稽首	kai2 sau2
@@ -45334,8 +45423,8 @@ e化	e waa3
 羯羊	kit2 jiang4
 孑然	kit2 jyun4
 蛣蜣	kit2 kiang1
-竭蹶	kit2 kyut2
 孑孓	kit2 kyut2
+竭蹶	kit2 kyut2
 竭力	kit2 lik5
 揭露	kit2 lu6
 詰問	kit2 man6
@@ -45373,8 +45462,8 @@ e化	e waa3
 苛捐雜稅	ko1 gyun1 zaap6 sui3
 苛刻	ko1 kak2
 坷拉	ko1 laa1
-坷垃	ko1 laa1
 𪽇𤰚	ko1 laa1
+坷垃	ko1 laa1
 珂羅版	ko1 lo4 baan2
 珂㼈版	ko1 lo4 baan2
 稞麥	ko1 miak5
@@ -45521,8 +45610,8 @@ e化	e waa3
 曲射炮	koek2 se6 paau3
 曲線	koek2 slin3
 酷暑	koek2 syu2
-蛐蟮	koek2 syun6
 曲蟮	koek2 syun6
+蛐蟮	koek2 syun6
 曲子	koek2 zi2
 曲直	koek2 zik6
 曲終人散	koek2 zoeng1 njan4 slaan3
@@ -45569,8 +45658,8 @@ e化	e waa3
 魁星	kui1 sling1
 魁偉	kui1 wai2
 盔子	kui1 zi2
-傀儡	kui2 lui5
 磈磊	kui2 lui5
+傀儡	kui2 lui5
 傀儡戲	kui2 lui5 hi3
 擴印	kuk2 an3
 擴版	kuk2 baan2
@@ -45622,8 +45711,8 @@ e化	e waa3
 曠職	kung3 zik2
 垮臺	kwaa1 daai4
 誇大	kwaa1 daai6
-誇大其辭	kwaa1 daai6 gi4 zi4
 誇大其詞	kwaa1 daai6 gi4 zi4
+誇大其辭	kwaa1 daai6 gi4 zi4
 夸誕	kwaa1 daan3
 胯襠	kwaa1 daang1
 跨度	kwaa1 du6
@@ -45674,13 +45763,13 @@ e化	e waa3
 框框	kwaang1 kwaang1
 哐啷	kwaang1 laang1
 匡謬	kwaang1 mau6
-㑌儴	kwaang1 ngiang4
 劻勷	kwaang1 ngiang4
+㑌儴	kwaang1 ngiang4
 誆騙	kwaang1 pin3
 匡時	kwaang1 si4
 匡算	kwaang1 slun3
-框子	kwaang1 zi2
 筐子	kwaang1 zi2
+框子	kwaang1 zi2
 匡正	kwaang1 zing3
 匡助	kwaang1 zo6
 礦產	kwaang3 caan2
@@ -45692,8 +45781,8 @@ e化	e waa3
 礦物	kwaang3 fat5
 礦物纖維	kwaang3 fat5 cim1 wai4
 礦物油	kwaang3 fat5 jau4
-曠廢	kwaang3 fi3
 曠費	kwaang3 fi3
+曠廢	kwaang3 fi3
 礦警	kwaang3 ging2
 礦工	kwaang3 goeng1
 曠工	kwaang3 goeng1
@@ -45755,8 +45844,8 @@ e化	e waa3
 規復	kwai1 foek2
 揮舞	kwai1 fu5
 虧負	kwai1 fu6
-規誡	kwai1 gaai3
 規戒	kwai1 gaai3
+規誡	kwai1 gaai3
 規諫	kwai1 gaan3
 揮金如土	kwai1 gam1 jyu4 tu2
 徽記	kwai1 gi3
@@ -45823,8 +45912,8 @@ e化	e waa3
 潰滅	kwai3 mit5
 鱠魚	kwai3 njyu4
 殨膿	kwai3 noeng4
-殨膿	kwai3 noeng4
 潰膿	kwai3 noeng4
+殨膿	kwai3 noeng4
 愧色	kwai3 sik2
 潰散	kwai3 slaan3
 愧痛	kwai3 toeng3
@@ -45849,10 +45938,10 @@ e化	e waa3
 崑曲	kwan1 koek2
 崑崙	kwan1 lan4
 坤伶	kwan1 ling4
-錕鋙	kwan1 ng4
 琨珸	kwan1 ng4
-錕鋙	kwan1 ngu4
+錕鋙	kwan1 ng4
 琨珸	kwan1 ngu4
+錕鋙	kwan1 ngu4
 均勢	kwan1 si3
 均線	kwan1 slin3
 均攤	kwan1 taan1
@@ -45922,8 +46011,8 @@ e化	e waa3
 囫圇	kwat2 lan4
 囫圇覺	kwat2 lan4 gaau3
 囫圇吞棗	kwat2 lan4 tan1 zaau2
-忽律	kwat2 lat5
 㺀𤝽	kwat2 lat5
+忽律	kwat2 lat5
 忽略	kwat2 liak5
 忽米	kwat2 mai5
 淴浴	kwat2 njoek5
@@ -46000,18 +46089,18 @@ e化	e waa3
 缺斤少兩	kyut2 gan1 siu2 liang5
 缺勤	kyut2 gan4
 決計	kyut2 gi3
-缺陷	kyut2 haam6
 缺憾	kyut2 haam6
-決口	kyut2 hau2
+缺陷	kyut2 haam6
 缺口	kyut2 hau2
+決口	kyut2 hau2
 缺欠	kyut2 him3
 蠍虎	kyut2 hu2
 決意	kyut2 ji3
 鍥而不捨	kyut2 ji4 bat2 se2
 訣要	kyut2 jiu3
 闕如	kyut2 jyu4
-決然	kyut2 jyun4
 缺員	kyut2 jyun4
+決然	kyut2 jyun4
 缺考	kyut2 kaau2
 缺刻	kyut2 kak2
 訣竅	kyut2 kiu3
@@ -46037,20 +46126,20 @@ e化	e waa3
 缺損	kyut2 slun2
 決算	kyut2 slun3
 炔烴	kyut2 ting1
-黠慧	kyut2 wai6
 缺位	kyut2 wai6
+黠慧	kyut2 wai6
 譎詐	kyut2 zaa3
 缺陣	kyut2 zan6
 橛子	kyut2 zi2
-蠍子	kyut2 zi2
 蹶子	kyut2 zi2
+蠍子	kyut2 zi2
 抉摘	kyut2 ziak2
 抉擇	kyut2 ziak6
 缺席	kyut2 zik6
 決戰	kyut2 zin3
-缺嘴	kyut2 zui2
 噘嘴	kyut2 zui2
 撅嘴	kyut2 zui2
+缺嘴	kyut2 zui2
 決絕	kyut2 zyut6
 啦啦隊	laa1 laa1 dui6
 喇叭	laa2 baa2
