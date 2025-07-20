@@ -16,7 +16,7 @@
 
 ---
 name: wugniu_gninpou.phrase
-version: "2025.03.13"
+version: "2025.07.16"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -1080,6 +1080,25 @@ use_preset_vocabulary: true
 甬舟高速
 甬莞高速
 穿山疏港高速
+杭甬
+杭甬高鐵
+杭甬高速鐵路
+杭甬客運專線
+杭甬客專
+甬台溫
+甬台溫鐵路
+通蘇嘉甬
+通蘇嘉甬高速鐵路
+通蘇嘉甬高鐵
+甬金
+甬金鐵路
+甬舟
+甬舟鐵路
+甬廣
+甬廣高速鐵路
+甬廣高鐵
+甬台溫高速鐵路
+甬台溫高鐵
 金塘大橋	cin daon da jiau
 象山港大橋	jian sae kaon da jiau
 象山港大橋	zhian sae kaon da jiau
@@ -1581,7 +1600,6 @@ use_preset_vocabulary: true
 學霸
 正能量
 負能量
-比特幣
 迷因
 模因
 貼貼
@@ -2045,10 +2063,39 @@ use_preset_vocabulary: true
 摜蛋
 微糖
 半糖
+三分糖	sae fen daon
 五分糖	ng fen daon
 七分糖	chiq fen daon
+標準糖
 化債
 雲閃付
+深度求索
+滬蘇浙
+和諧號
+和諧號列車
+和諧號動車組
+復興號
+復興號列車
+復興號動車組
+對等關稅
+預聘
+長聘	jian phin
+預聘長聘	yu phin jian phin
+預聘長聘制	yu phin jian phin tsyu
+非升即走
+兩頭婚
+蘇超
+加密貨幣
+穩定幣
+斜杠
+斜杠青年
+腦腐
+國潮
+國潮外賣
+京東外賣
+俄烏衝突
+巴以衝突
+順風車
 
 # 西北太平洋和南中國海熱帶氣旋命名表
 達維
@@ -6987,6 +7034,7 @@ use_preset_vocabulary: true
 乾掉蕩杯	ki-ke diau daon pei
 乾掉該杯	ki-ke diau kiq pei
 燥煞死	sau saq shi
+燥煞了	sau saq lei
 燥毛巾	sau mau cin
 乾個	ki-ke goq
 乾個	ki-ke ghoq
@@ -7858,6 +7906,7 @@ use_preset_vocabulary: true
 冒勒危險	mau laq wei shi
 冒勒生命危險	mau laq sen min wei shi
 冤煞死	iu saq shi
+冤煞了	iu saq lei
 凝視勒	gnin zy laq
 凝集個	gnin jiq goq
 凝集個	gnin jiq ghoq
@@ -7936,7 +7985,9 @@ use_preset_vocabulary: true
 刷落去	syuq loq chi
 刺落去	tshy loq chi
 刺煞死	tshy saq shi
+刺煞了	tshy saq lei
 戳煞死	tshoq saq shi
+戳煞了	tshoq saq lei
 刻勒	khaq laq
 刻的	khaq tiq
 削仔	shiaq tsy
@@ -7977,6 +8028,7 @@ use_preset_vocabulary: true
 晝飯辰光	cieu vae zyun kuaon
 卡煞	kha saq
 卡煞死	kha saq shi
+卡煞了	kha saq lei
 印落去	in loq chi
 印勒	in laq
 卸落去	shia loq chi
@@ -8137,6 +8189,7 @@ use_preset_vocabulary: true
 噴落去	phen loq chi
 嚇煞	haq saq
 嚇煞死	haq saq shi
+嚇煞了	haq saq lei
 嚇煞人	haq saq gnin
 嚥落去	i loq chi
 四房兩廳	sy vaon lian thin
@@ -8175,6 +8228,7 @@ use_preset_vocabulary: true
 壓抑勒	aq iq laq
 壓煞	aq saq
 壓煞死	aq saq shi
+壓煞了	aq saq lei
 壞掉了	wa diau lei
 壞事體	ua zy thi
 壞個	ua goq
@@ -8354,6 +8408,7 @@ use_preset_vocabulary: true
 延續落去	yi dzoq loq chi
 弄煞	lon saq
 弄煞死	lon saq shi
+弄煞了	lon saq lei
 弓勒	kon laq
 弓勒仔	kon laq tsy
 弓的	kon tiq
@@ -8384,8 +8439,10 @@ use_preset_vocabulary: true
 怪儂	kua nou
 恨煞	ghen saq
 恨煞死	ghen saq shi
+恨煞了	ghen saq lei
 悶煞	mhen saq
 悶煞死	mhen saq shi
+悶煞了	mhen saq lei
 悶勒	mhen laq
 悶勒仔	mhen laq tsy
 悶的	mhen tiq
@@ -8403,6 +8460,7 @@ use_preset_vocabulary: true
 感覺勿到	ki-ke ciuq vaq tau
 憋煞	piq saq
 憋煞死	piq saq shi
+憋煞了	piq saq lei
 憋勒	piq laq
 憋勒仔	piq laq tsy
 憋的	piq tiq
@@ -8492,6 +8550,7 @@ use_preset_vocabulary: true
 打隻電話	tan tsaq di wo
 打煞	tan saq
 打煞死	tan saq shi
+打煞了	tan saq lei
 打發辰光	tan faq zyun kuaon
 打勒	tan laq
 打蛇弗死	tan dzo vaq shi	1
@@ -8686,6 +8745,7 @@ use_preset_vocabulary: true
 撐勿落去	tshan vaq loq chi
 撐煞	tshan saq
 撐煞死	tshan saq shi
+撐煞了	tshan saq lei
 撐勒	tshan laq
 撐勒仔	tshan laq tsy
 撐的	tshan tiq
@@ -8693,6 +8753,7 @@ use_preset_vocabulary: true
 撕落去	sy loq chi
 撞煞	dzaon saq
 撞煞死	dzaon saq shi
+撞煞了	dzaon saq lei
 撤落去	chiq loq chi
 撬落去	jiau loq chi
 撮起	tshoq chi
@@ -9627,12 +9688,68 @@ use_preset_vocabulary: true
 
 # 帶字母的詞彙
 
+A	ei
+a	ei
+B	bi
+b	bi
+C	shi
+c	shi
+D	di
+d	di
+E	i
+e	i
+F	e fu
+f	e fu
+G	ji
+g	ji
+H	e chiu
+h	e chiu
+I	ei
+i	ei
+I	a i
+i	a i
+J	jie
+j	jie
 K	khe
 k	khe
-老K牌	lau k ba
-老K牌	lau k bae
+L	e er
+l	e er
+M	e m
+m	e m
+N	e n
+n	e n
+O	o
+o	o
+O	ou
+o	ou
+P	phi
+p	phi
+Q	khieu
+q	khieu
+R	a er
+r	a er
 S	e sy
 s	e sy
+T	thi
+t	thi
+U	yeu
+u	yeu
+U	ieu
+u	ieu
+V	vi
+v	vi
+W	daq baq lieu
+w	daq baq lieu
+X	e khaq sy
+x	e khaq sy
+Y	wei
+y	wei
+Y	wa yi
+y	wa yi
+Z	ze daq
+z	ze daq
+老K牌	lau khe ba
+老K牌	lau khe bae
 B超	bi chiau
 CT	shi thi
 T恤	thi shiuq
@@ -9646,7 +9763,21 @@ X光片	e khaq sy kuaon phi
 愛克斯光片	e khaq sy kuaon phi
 4S店	sy e sy ti
 DVD	di vi di
+DNA	di e n ei
 VCD	vi shi di
+AA制	ei ei tsyu
+ATM	ei thi e m
+ATM機	ei thi e m ci
+A股	ei ku
+QQ	khieu khieu
+MP3	e m phi sae
+MP4	e m phi sy
+T1	thi iq
+T2	thi lian
+T1航站樓	thi iq ghaon dzae leu
+T2航站樓	thi lian ghaon dzae leu
+NBA	e n bi ei
+浙BA	ciq bi ei
 
 # 增補地名
 

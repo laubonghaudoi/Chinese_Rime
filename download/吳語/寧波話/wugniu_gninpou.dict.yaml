@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2025.07.08"
+version: "2025.07.16"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -2299,6 +2299,7 @@ import_tables:
 汥	ji
 蚑	ji
 馶	ji
+及	ji	0%
 潜	ji
 潛	ji
 𤏖	ji
@@ -2343,7 +2344,6 @@ import_tables:
 鍵	ji
 腱	ji
 掮	ji
-及	ji	0%
 羬	ji
 鉆	ji
 雂	ji
@@ -2444,6 +2444,7 @@ import_tables:
 轙	gni
 狋	gni
 閻	gni
+閆	gni
 臡	gni
 嚴	gni
 厳	gni
@@ -4601,6 +4602,7 @@ import_tables:
 巴	pa	5%
 芭	pa	5%
 吧	pa
+峇	pa
 擺	pa
 襬	pa
 把	pa	5%
@@ -7075,6 +7077,8 @@ import_tables:
 鍇	chie
 趄	chie
 茄	jie
+嶰	shie
+獬	shie
 噧	shie
 齂	shie
 諧	ye
@@ -10682,6 +10686,7 @@ import_tables:
 晾	lian
 㾗	lian
 悢	lian
+靚	lian
 張	cian
 粻	cian
 餦	cian
@@ -13234,7 +13239,7 @@ import_tables:
 燼	jin
 藎	jin
 賮	jin
-靚	jin
+靚	jin	1%
 婧	jin
 競	jin
 瑾	jin
@@ -19039,6 +19044,7 @@ import_tables:
 𫠜	gni
 呓	gni
 阎	gni
+闫	gni
 严	gni
 俨	gni
 鲶	gni
@@ -20532,6 +20538,7 @@ import_tables:
 俩	lian
 𪭵	lian
 辆	lian
+靓	lian
 张	cian
 𫗠	cian
 将	cian
@@ -23536,9 +23543,9 @@ import_tables:
 槳柄	cian pin	55
 將補	cian pu	55
 將煞了	cian saq lei	55
-將煞𡀂	cian saq lei	55
+將煞𡀂	cian saq lei
 脹煞了	cian saq lei	55
-脹煞𡀂	cian saq lei	55
+脹煞𡀂	cian saq lei
 漲息	cian shiq	55
 漿水	cian syu	55
 脹膯	cian ten	55
@@ -24144,6 +24151,8 @@ import_tables:
 接生老孃	ciq san lau gnian	55
 漬煞	ciq saq	55
 漬煞孤老	ciq saq ku lau
+急煞了	ciq saq lei	1
+急煞𡀂	ciq saq lei
 急煞死	ciq saq shi
 摺扇	ciq shi
 即啥	ciq soq	55
@@ -25914,6 +25923,7 @@ import_tables:
 呼呼響	fu fu shian
 虎口	fu kheu
 膚殼𥀬	fu khoq i	55
+付盧	fu lu
 富翁生敗子	fu on san ba tsy
 虎擘	fu phaq
 虎螕	fu pi	55
@@ -26247,7 +26257,7 @@ import_tables:
 喉長氣短	gheu jian chi toe
 候成刻數	gheu jin khaq su	55
 後夾	gheu kaq	55
-後夾身	gheu kaq shin	55
+後夾心	gheu kaq shin	55
 候扣	gheu kheu	55
 候扣好	gheu kheu hau	55
 厚褲	gheu khu
@@ -26879,6 +26889,8 @@ import_tables:
 熱門貨	gniq men hou
 熱面孔貼冷屁股	gniq mi khon thiaq lan phi ku	55
 熱煞	gniq saq
+熱煞了	gniq saq lei	1
+熱煞𡀂	gniq saq lei
 熱煞死	gniq saq shi
 熱血刮心	gniq shiuq kuaq shin	55
 熱水	gniq syu
@@ -27299,6 +27311,7 @@ import_tables:
 甩頭甩腦	huaq deu huaq nau
 甩頭勢	huaq deu syu
 豁大大	huaq dou dou	55
+忽而然	huaq er zoe
 豁拳	huaq jiu
 豁開	huaq khe
 甩乾機	huaq ki-ke ci
@@ -29186,6 +29199,8 @@ import_tables:
 殼盝	khoq laon	55
 哭勒環天倒地	khoq laq wae thi tau di
 殼盝	khoq loq	55
+哭煞了	khoq saq lei	1
+哭煞𡀂	khoq saq lei
 哭煞死	khoq saq shi
 哭作無賴	khoq tshoq vu la
 哭作無賴	khoq tshoq wu- la
@@ -29309,6 +29324,7 @@ import_tables:
 睏勒正香	khuen laq cin shian
 睏勒着	khuen laq dzoq
 睏勒咖咖響	khuen laq go go shian
+睏勒其	khuen laq ji
 睏勒過	khuen laq kou
 睏勒嗤嗤響	khuen laq tshyu tshyu shian
 睏了又睏	khuen laq yi khuen
@@ -31335,6 +31351,7 @@ import_tables:
 立骨瘦	liq kuaq seu	55
 立了	liq laq
 立勒	liq laq
+立勒其	liq laq ji
 立牢	liq lau
 力力辣辣	liq liq laq laq
 粒粒瘃瘃	liq liq tsoq tsoq	55
@@ -31762,6 +31779,8 @@ import_tables:
 芒餅	maon pin
 忙煞	maon saq
 忙煞可憐	maon saq khou li
+忙煞了	maon saq lei	1
+忙煞𡀂	maon saq lei
 忙煞死	maon saq shi
 網線袋	maon shi de	55
 芒種	maon tson
@@ -34422,6 +34441,7 @@ import_tables:
 布店	pu ti
 半張	pun cian
 半腳短褲	pun ciaq toe khu
+半導體	pun dau thi
 半弗冷打	pun faq lan tan	55
 半弗牢告	pun faq lau kau	55
 半個	pun ghoq
@@ -34602,6 +34622,7 @@ import_tables:
 三北豆酥糖	sae poq deu su daon
 三三	sae sae
 三三兩兩	sae sae lian lian
+三三三十一	sae sae sae zyuq iq
 三牲福禮	sae san foq li
 三色	sae saq
 三鮮湯	sae shi thaon	55
@@ -34830,6 +34851,7 @@ import_tables:
 煞辣清爽	saq laq chin saon	55
 煞辣斯	saq laq sy	55
 煞辣斯清爽	saq laq sy chin saon	55
+煞了	saq lei
 蝨末鬼	saq maq ciu	55
 蝨末鬼介大	saq maq ciu ka dou
 蝨末老鬼	saq maq lau ciu	55
@@ -37538,6 +37560,8 @@ import_tables:
 東北官話	ton poq kun wo
 東半邊	ton pun pi
 凍煞鬼	ton saq ciu
+凍煞了	ton saq lei	1
+凍煞𡀂	ton saq lei
 凍煞死	ton saq shi
 凍煞汪梅	ton saq uaon mei
 東西	ton shi
@@ -39354,6 +39378,8 @@ import_tables:
 煩煞一樣	vae saq iq yan	55
 煩煞介	vae saq ka	55
 煩煞可憐	vae saq khou li
+煩煞了	vae saq lei	1
+煩煞𡀂	vae saq lei
 煩煞死	vae saq shi
 飯筲箕	vae sau ci	55
 飯筲箕籃	vae sau ci lae	55
@@ -40834,6 +40860,8 @@ import_tables:
 蠶涴	zei-ze ou	55
 蠶寶寶	zei-ze pau pau
 蠶上山	zei-ze zaon sae
+愁煞了	zeu saq lei	1
+愁煞𡀂	zeu saq lei
 愁煞死	zeu saq shi
 愁心	zeu shin
 愁水步鴣	zeu syu bu ku
@@ -40861,7 +40889,7 @@ import_tables:
 自翹自封	zhi jiau zhi fon
 自講自話	zhi kaon zhi wo
 前夾	zhi kaq	55
-前夾身	zhi kaq shin	55
+前夾心	zhi kaq shin	55
 自敲自封	zhi khau zhi fon
 自家	zhi ko	230000
 自家動手	zhi ko don shieu
@@ -41152,6 +41180,7 @@ import_tables:
 坐火櫃頭	zou hou jiu deu
 坐監牢	zou kae lau	55
 坐窠	zou khou	55
+坐勒其	zou laq ji
 坐勒過	zou laq kou
 坐牢監	zou lau kae	55
 坐落打手銃	zou loq tan shieu tshon
