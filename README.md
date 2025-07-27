@@ -113,7 +113,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
           RIME 上古漢語輸入方案集 ℞ <code>Hulenkius/RIME_OC_collections</code>
           <ul>
             <li>上古漢語（知乎新派） - <code>OC_NULLL</code></li>
-            <li>上古漢語（MSOEG, 布之道） - <code>OC_msoegDK</code></li>
+            <li>上古漢語（《廣韻形聲考》） - <code>OC_msoegDK</code></li>
             <li>古典漢語（MSOEG） - <code>OC_msoeg</code></li>
             <li>上古漢語（白-沙2014） - <code>OC_baxter-sagart</code></li>
             <li>晚期上古漢語（斯塔羅斯金） - <code>OC_starostinLO</code></li>
