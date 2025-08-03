@@ -22,7 +22,7 @@
 
 ---
 name: naamning_bingwaa
-version: "2025.07.13"
+version: "2025.08.01"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -2806,7 +2806,7 @@ import_tables:
 懂	doeng2	
 董	doeng2	
 凍	doeng3	
-彤	(又)doeng3	10%
+彤	(語)doeng3	10%
 棟	doeng3	
 腖	doeng3	
 仝	doeng4	
@@ -7451,6 +7451,7 @@ import_tables:
 倰	lang4	
 啷	(語)lang4	10%
 塄	lang4	
+崚	(又)lang4	10%
 愣	lang4	
 掕	(白)lang4	20%
 楞	lang4	
@@ -8399,7 +8400,7 @@ import_tables:
 乜	me1	5%
 咩	me1	
 哶	me1	
-孖	(白)me1	20%
+孖	(訓)me1	90%
 尾	(白)me1	5%
 羋	me1	
 𧋦	(白)me1	20%
@@ -11451,7 +11452,6 @@ import_tables:
 觟	waa6	
 話	waa6	
 歪	waai1	
-溾	waai1	
 噲	waai3	
 塊	waai3	
 快	(白)waai3	
@@ -11520,6 +11520,7 @@ import_tables:
 徽	(又)wai1	10%
 揮	(又)wai1	10%
 暉	(又)wai1	10%
+溾	wai1	
 琿	(又)wai1	10%
 翬	(又)wai1	10%
 葳	wai1	
@@ -12156,7 +12157,6 @@ import_tables:
 際	zai3	
 霽	zai3	
 鰶	zai3	
-儕	(白)zai4	20%
 臍	zai4	
 薺	zai4	
 蠐	zai4	
@@ -12331,7 +12331,7 @@ import_tables:
 䁬	zang4	
 倀	zang4	
 層	zang4	
-嶒	zang4	
+嶒	(又)zang4	10%
 曾	zang4	
 橙	(又)zang4	10%
 鄫	zang4	
@@ -12989,6 +12989,7 @@ import_tables:
 䝼	zing4	
 呈	zing4	
 埕	zing4	
+嶒	zing4	
 情	zing4	
 懲	zing4	
 憕	zing4	
@@ -46324,8 +46325,8 @@ e化	e waa3
 樂壇	laak5 daan4
 樂陶陶	laak5 daau4 daau4
 落第	laak5 dai6
-樂得	laak5 dak2
 落得	laak5 dak2
+樂得	laak5 dak2
 落地	laak5 di6
 落地窗	laak5 di6 caang1
 落地簽證	laak5 di6 cim1 zing3
@@ -46393,8 +46394,8 @@ e化	e waa3
 落水	laak5 sui2
 落水狗	laak5 sui2 gau2
 樂善好施	laak5 syun6 haau3 si1
-落魄	laak5 taak2
 落拓	laak5 taak2
+落魄	laak5 taak2
 落湯雞	laak5 taang1 gai1
 落套	laak5 taau3
 落體	laak5 tai2
@@ -46908,8 +46909,8 @@ e化	e waa3
 澇災	laau6 zaai1
 黎錦	lai4 gam2
 犁鏡	lai4 ging3
-黧黑	lai4 hak2
 黎黑	lai4 hak2
+黧黑	lai4 hak2
 藜藿	lai4 kaak2
 黎錦	lai4 kam2
 藜藿	lai4 kuk2
@@ -46943,8 +46944,8 @@ e化	e waa3
 禮遇	lai5 jyu6
 禮賢下士	lai5 jyun4 jaa6 sai6
 禮籃	lai5 laam4
-禮帽	lai5 maau6
 禮貌	lai5 maau6
+禮帽	lai5 maau6
 禮物	lai5 mat5
 禮讓	lai5 ngiang6
 禮儀	lai5 nji4
@@ -47033,8 +47034,8 @@ e化	e waa3
 臨刑	lam4 hing4
 林下	lam4 jaa6
 林㹭	lam4 jai6
-林蔭道	lam4 jam1 daau6
 林陰道	lam4 jam1 daau6
+林蔭道	lam4 jam1 daau6
 霖雨	lam4 jyu5
 臨淵羨魚	lam4 jyun1 slin3 njyu4
 林苑	lam4 jyun2
@@ -47055,8 +47056,8 @@ e化	e waa3
 臨門一腳	lam4 mun4 at2 giak2
 林網	lam4 mung5
 林業	lam4 nip5
-淋浴	lam4 njoek5
 臨蓐	lam4 njoek5
+淋浴	lam4 njoek5
 臨月	lam4 njyut5
 林農	lam4 noeng4
 臨牀	lam4 saang4
@@ -47066,8 +47067,8 @@ e化	e waa3
 林藪	lam4 slau2
 臨帖	lam4 tip2
 臨危	lam4 wai4
-臨危受命	lam4 wai4 sau6 ming6
 臨危授命	lam4 wai4 sau6 ming6
+臨危受命	lam4 wai4 sau6 ming6
 臨陣	lam4 zan6
 臨陣磨槍	lam4 zan6 mu4 ciang1
 臨陣脫逃	lam4 zan6 tut2 daau4
@@ -47181,8 +47182,8 @@ e化	e waa3
 論理學	lan6 li5 haak6
 論列	lan6 lyut5
 論難	lan6 naan6
-吝色	lan6 sik2
 吝嗇	lan6 sik2
+吝色	lan6 sik2
 論述	lan6 slat6
 吝惜	lan6 slik2
 論說	lan6 syut2
@@ -47199,6 +47200,7 @@ e化	e waa3
 塄坎	lang4 kaam2
 愣神兒	lang4 san4 nji4
 愣是	lang4 si6
+崚嶒	lang4 zang4
 愣怔	lang4 zing1
 泣不成聲	lap3 bat2 sing4 sing1
 泣訴	lap3 slu3
@@ -47259,8 +47261,8 @@ e化	e waa3
 立體戰爭	lap5 tai2 zin3 ziang1
 砬子	lap5 zi2
 立志	lap5 zi3
-立字	lap5 zi6
 立嗣	lap5 zi6
+立字	lap5 zi6
 立賬	lap5 ziang3
 立場	lap5 ziang4
 立即	lap5 zik2
@@ -47294,8 +47296,8 @@ e化	e waa3
 樓板	lau4 baan2
 流弊	lau4 bi6
 流變	lau4 bin3
-留別	lau4 bit6
 流別	lau4 bit6
+留別	lau4 bit6
 流標	lau4 biu1
 耬播	lau4 bo3
 流播	lau4 bo3
@@ -47308,8 +47310,8 @@ e化	e waa3
 流竄	lau4 cun3
 樓臺	lau4 daai4
 留待	lau4 daai6
-榴彈	lau4 daan6
 流彈	lau4 daan6
+榴彈	lau4 daan6
 榴彈炮	lau4 daan6 paau3
 樓堂館所	lau4 daang4 gun2 slo2
 流蕩	lau4 daang6
@@ -47373,20 +47375,20 @@ e化	e waa3
 流浪	lau4 laang6
 流麗	lau4 lai6
 飀飀	lau4 lau4
-琉璃	lau4 li4
 流離	lau4 li4
+琉璃	lau4 li4
 流離失所	lau4 li4 sat2 slo2
 琉璃瓦	lau4 li4 waa5
 流利	lau4 li6
 流量	lau4 liang6
-留連	lau4 lin4
-榴蓮	lau4 lin4
-榴槤	lau4 lin4
 流連	lau4 lin4
+榴槤	lau4 lin4
+榴蓮	lau4 lin4
+留連	lau4 lin4
 留戀	lau4 lin6
-嘍羅	lau4 lo4
-僂儸	lau4 lo4
 嘍囉	lau4 lo4
+僂儸	lau4 lo4
+嘍羅	lau4 lo4
 流露	lau4 lu6
 流氓	lau4 maang4
 流氓無產者	lau4 maang4 fu4 caan2 ze2
@@ -47402,10 +47404,10 @@ e化	e waa3
 留鳥	lau4 niu5
 留任	lau4 njam6
 螻蟻	lau4 nji5
-留言	lau4 njyun4
 流言	lau4 njyun4
-流言蜚語	lau4 njyun4 fi1 njyu5
+留言	lau4 njyun4
 流言飛語	lau4 njyun4 fi1 njyu5
+流言蜚語	lau4 njyun4 fi1 njyu5
 流派	lau4 paai3
 流盼	lau4 paan3
 流拍	lau4 piak2
@@ -47452,17 +47454,17 @@ e化	e waa3
 硫化	lau4 waa3
 硫化橡膠	lau4 waa3 ziang6 gaau1
 硫化橡膠	lau4 waa3 ziang6 geu1
-瘤胃	lau4 wai6
 流會	lau4 wai6
+瘤胃	lau4 wai6
 流域	lau4 wik5
 樓層	lau4 zang4
 流質	lau4 zat2
 螻螲	lau4 zat6
-瘤子	lau4 zi2
 婁子	lau4 zi2
+瘤子	lau4 zi2
 留職	lau4 zik2
-流程	lau4 zing4
 留情	lau4 zing4
+流程	lau4 zing4
 留存	lau4 zon4
 留駐	lau4 zyu3
 流轉	lau4 zyun2
@@ -47482,8 +47484,8 @@ e化	e waa3
 柳絮	lau5 slyu3
 柳體	lau5 tai2
 塿土	lau5 tu2
-綹子	lau5 zi2
 簍子	lau5 zi2
+綹子	lau5 zi2
 柳子戲	lau5 zi2 hi3
 漏窗	lau6 caang1
 溜達	lau6 daat6
@@ -47499,8 +47501,8 @@ e化	e waa3
 鏤空	lau6 hoeng1
 漏壺	lau6 hu4
 漏夜	lau6 jaa6
-漏刻	lau6 kak2
 鏤刻	lau6 kak2
+漏刻	lau6 kak2
 陋規	lau6 kwai1
 遛馬	lau6 maa5
 漏網	lau6 mung5
@@ -47514,15 +47516,15 @@ e化	e waa3
 漏泄	lau6 slyut2
 漏稅	lau6 sui3
 蹓躂	lau6 taat2
-遛彎兒	lau6 waan1 nji4
 蹓彎兒	lau6 waan1 nji4
-蹓早兒	lau6 zaau2 nji4
+遛彎兒	lau6 waan1 nji4
 遛早兒	lau6 zaau2 nji4
+蹓早兒	lau6 zaau2 nji4
 漏診	lau6 zan2
 陋習	lau6 zap6
 漏卮	lau6 zi1
-漏子	lau6 zi2
 鎦子	lau6 zi2
+漏子	lau6 zi2
 漏嘴	lau6 zui2
 咧咧	le3 le3
 褦襶	le5 de2
@@ -47648,8 +47650,8 @@ e化	e waa3
 理屈詞窮	li5 wat2 zi4 goeng4
 理茬兒	li5 zaa4 nji4
 理財	li5 zaai4
-裏子	li5 zi2
 李子	li5 zi2
+裏子	li5 zi2
 理智	li5 zi3
 李自成起義	li5 zi6 sing4 hi2 nji6
 裏脊	li5 zik2
@@ -47748,8 +47750,8 @@ e化	e waa3
 糧荒	liang4 hung1
 良莠不齊	liang4 jau5 bat2 zai4
 涼意	liang4 ji3
-涼藥	liang4 jiak5
 良藥	liang4 jiak5
+涼藥	liang4 jiak5
 良緣	liang4 jyun4
 涼快	liang4 kwaai3
 量規	liang4 kwai1
@@ -47871,8 +47873,8 @@ e化	e waa3
 兩利	liang5 li6
 冷臉子	liang5 lim5 zi2
 兩碼事	liang5 maa5 sai6
-冷面	liang5 min6
 冷麪	liang5 min6
+冷面	liang5 min6
 兩面	liang5 min6
 兩面光	liang5 min6 gung1
 兩面派	liang5 min6 paai3
@@ -47903,8 +47905,8 @@ e化	e waa3
 冷颼颼	liang5 slau1 slau1
 冷絲絲	liang5 sli1 sli1
 兩廂	liang5 sliang1
-兩相情願	liang5 sliang1 zing4 jyun6
 兩廂情願	liang5 sliang1 zing4 jyun6
+兩相情願	liang5 sliang1 zing4 jyun6
 冷線	liang5 slin3
 兩性	liang5 sling3
 兩性人	liang5 sling3 njan4
@@ -47922,24 +47924,24 @@ e化	e waa3
 冷藏庫	liang5 zaang4 hu3
 冷嘲熱諷	liang5 zaau1 njit5 foeng3
 兩造	liang5 zaau6
-兩晉	liang5 zan3
 冷峻	liang5 zan3
+兩晉	liang5 zan3
 兩袖清風	liang5 zau6 cing1 foeng1
 冷子	liang5 zi2
 冷字	liang5 zi6
 兩張皮	liang5 ziang1 bi4
 冷場	liang5 ziang4
 冷寂	liang5 zik6
-冷箭	liang5 zin3
 冷戰	liang5 zin3
+冷箭	liang5 zin3
 冷顫	liang5 zin3
 冷靜	liang5 zing6
 冷招	liang5 ziu1
 冷招兒	liang5 ziu1 nji4
 兩重性	liang5 zoeng4 sling3
 兩重天	liang5 zoeng4 tin1
-冷泉	liang5 zyun4
 兩全	liang5 zyun4
+冷泉	liang5 zyun4
 兩全其美	liang5 zyun4 gi4 mai5
 亮牌子	liang6 baai4 zi2
 量變	liang6 bin3
@@ -47985,15 +47987,15 @@ e化	e waa3
 歷次	lik5 ci3
 瀝青	lik5 cing1
 力挫	lik5 co3
-力促	lik5 coek2
 力畜	lik5 coek2
+力促	lik5 coek2
 歷代	lik5 daai6
 力道	lik5 daau6
 力圖	lik5 du4
 力度	lik5 du6
 曆法	lik5 faat2
-力戒	lik5 gaai3
 歷屆	lik5 gaai3
+力戒	lik5 gaai3
 歷久	lik5 gau2
 力求	lik5 gau4
 歷經	lik5 ging1
@@ -48083,8 +48085,8 @@ e化	e waa3
 聯綿	lim4 min4
 聯綿詞	lim4 min4 zi4
 聯綿字	lim4 min4 zi6
-廉明	lim4 ming4
 聯名	lim4 ming4
+廉明	lim4 ming4
 聯網	lim4 mung5
 聯誼	lim4 nji6
 聯翩	lim4 pin1
@@ -48099,8 +48101,8 @@ e化	e waa3
 簾子	lim4 zi2
 廉直	lim4 zik6
 聯席會議	lim4 zik6 wai6 nji6
-廉正	lim4 zing3
 廉政	lim4 zing3
+廉正	lim4 zing3
 聯程	lim4 zing4
 聯接	lim4 zip2
 聯屬	lim4 zoek2
@@ -48117,8 +48119,8 @@ e化	e waa3
 臉蛋兒	lim5 daan6 nji4
 臉膛兒	lim5 daang4 nji4
 臉頰	lim5 gaap2
-臉形	lim5 hing4
 臉型	lim5 hing4
+臉形	lim5 hing4
 臉紅	lim5 hoeng4
 臉紅脖子粗	lim5 hoeng4 but6 zi2 cu1
 斂容	lim5 joeng4
@@ -48164,10 +48166,10 @@ e化	e waa3
 連番	lin4 faan1
 連霧	lin4 fu6
 蓮霧	lin4 fu6
-蓮房	lin4 fung4
 聯防	lin4 fung4
-連枷	lin4 gaa1
+蓮房	lin4 fung4
 槤枷	lin4 gaa1
+連枷	lin4 gaa1
 連根拔	lin4 gan1 baat6
 聯勤	lin4 gan4
 連亙	lin4 gang2
@@ -48176,12 +48178,12 @@ e化	e waa3
 聯建	lin4 gin3
 連翹	lin4 giu4
 連鍋端	lin4 gu1 dun1
-聯貫	lin4 gun3
 連貫	lin4 gun3
+聯貫	lin4 gun3
 聯軍	lin4 gwan1
 聯句	lin4 gyu3
-聯結	lin4 gyut2
 連結	lin4 gyut2
+聯結	lin4 gyut2
 聯合	lin4 haap6
 連合	lin4 haap6
 聯合國	lin4 haap6 guk2
@@ -48227,8 +48229,8 @@ e化	e waa3
 連日	lin4 njat5
 聯誼	lin4 nji6
 連篇	lin4 pin1
-連翩	lin4 pin1
 聯翩	lin4 pin1
+連翩	lin4 pin1
 連篇累牘	lin4 pin1 lui5 doek6
 聯賽	lin4 saai3
 聯手	lin4 sau2
@@ -48247,8 +48249,8 @@ e化	e waa3
 聯署	lin4 syu5
 連體	lin4 tai2
 連天	lin4 tin1
-聯通	lin4 toeng1
 連通	lin4 toeng1
+聯通	lin4 toeng1
 連通器	lin4 toeng1 hi3
 蓮花	lin4 waa1
 蓮花白	lin4 waa1 biak6
@@ -48264,8 +48266,8 @@ e化	e waa3
 連詞	lin4 zi4
 聯席會議	lin4 zik6 wai6 nji6
 聯程	lin4 zing4
-聯接	lin4 zip2
 連接	lin4 zip2
+聯接	lin4 zip2
 連接號	lin4 zip2 haau6
 蓮座	lin4 zo6
 連屬	lin4 zoek2
@@ -48276,8 +48278,8 @@ e化	e waa3
 聯宗	lin4 zoeng1
 連中三元	lin4 zoeng3 slaam1 jyun4
 連坐	lin4 zu5
-連綴	lin4 zui3
 聯綴	lin4 zui3
+連綴	lin4 zui3
 連珠	lin4 zyu1
 聯展	lin4 zyun2
 戀愛	lin6 aai3
@@ -48379,8 +48381,8 @@ e化	e waa3
 零用	ling4 joeng6
 囹圄	ling4 jyu5
 囹圉	ling4 jyu5
-陵園	ling4 jyun4
 泠然	ling4 jyun4
+陵園	ling4 jyun4
 凌駕	ling4 kaa3
 棱坎	ling4 kaam2
 靈巧	ling4 kiu2
@@ -48390,8 +48392,8 @@ e化	e waa3
 伶俐	ling4 li6
 凌轢	ling4 lik5
 陵轢	ling4 lik5
-泠泠	ling4 ling4
 玲玲	ling4 ling4
+泠泠	ling4 ling4
 醽醁	ling4 loek5
 玲瓏	ling4 loeng4
 昤曨	ling4 loeng4
@@ -48450,17 +48452,17 @@ e化	e waa3
 凌雜	ling4 zaap6
 睖睜	ling4 zang1
 零增長	ling4 zang1 ziang2
-崚嶒	ling4 zang4
 靈芝	ling4 zi1
 綾子	ling4 zi2
 棱子	ling4 zi2
 翎子	ling4 zi2
-凌遲	ling4 zi4
 陵遲	ling4 zi4
+凌遲	ling4 zi4
 靈長目	ling4 ziang2 moek5
 零錢	ling4 zin4
-凌錐	ling4 zui1
+崚嶒	ling4 zing4
 棱錐	ling4 zui1
+凌錐	ling4 zui1
 零嘴	ling4 zui2
 棱柱	ling4 zyu5
 領班	ling5 baan1
@@ -48546,8 +48548,8 @@ e化	e waa3
 躐等	lip5 dang2
 獵頭	lip5 dau4
 獵物	lip5 fat5
-鬣狗	lip5 gau2
 獵狗	lip5 gau2
+鬣狗	lip5 gau2
 獵奇	lip5 gi4
 獵戶	lip5 hu6
 獵戶座	lip5 hu6 zo6
@@ -48609,8 +48611,8 @@ e化	e waa3
 寥廓	liu4 kuk2
 聊賴	liu4 laai6
 寥落	liu4 laak5
-嘹亮	liu4 liang6
 嘹喨	liu4 liang6
+嘹亮	liu4 liang6
 寥寥	liu4 liu4
 撩亂	liu4 lun6
 繚亂	liu4 lun6
@@ -48736,13 +48738,13 @@ e化	e waa3
 綠頭巾	loek5 dau4 gan1
 菉豆	loek5 dau6
 綠豆	loek5 dau6
-綠地	loek5 di6
 陸地	loek5 di6
+綠地	loek5 di6
 磟碡	loek5 doek6
 碌碡	loek5 doek6
 祿蠹	loek5 du6
-綠肺	loek5 fi3
 陸費	loek5 fi3
+綠肺	loek5 fi3
 綠肥	loek5 fi4
 六腑	loek5 fu2
 錄放	loek5 fung3
@@ -48757,8 +48759,8 @@ e化	e waa3
 六合	loek5 haap6
 氯氣	loek5 hi3
 錄影	loek5 ing2
-錄音	loek5 jam1
 綠蔭	loek5 jam1
+錄音	loek5 jam1
 綠陰	loek5 jam1
 錄音筆	loek5 jam1 bat2
 錄音帶	loek5 jam1 daai3
@@ -48927,8 +48929,8 @@ e化	e waa3
 爐臺	lu4 daai4
 爐膛	lu4 daang4
 蘆蕩	lu4 daang6
-螺甸	lu4 din6
 螺鈿	lu4 din6
+螺甸	lu4 din6
 螺釘	lu4 ding1
 爐條	lu4 diu4
 螺紋	lu4 fan4
@@ -48975,8 +48977,8 @@ e化	e waa3
 臚陳	lu4 zan4
 爐子	lu4 zi2
 鸕鷀	lu4 zi4
-蘆蓆	lu4 zik6
 壚埴	lu4 zik6
+蘆蓆	lu4 zik6
 魯班尺	lu5 baan1 cik2
 滷菜	lu5 caai3
 魯菜	lu5 caai3
@@ -49048,8 +49050,8 @@ e化	e waa3
 蕗蕨	lu6 kyut2
 露臉	lu6 lim5
 露馬腳	lu6 maa5 giak2
-露面	lu6 min6
 路面	lu6 min6
+露面	lu6 min6
 露苗	lu6 miu4
 路網	lu6 mung5
 路難	lu6 naan6
@@ -49285,8 +49287,8 @@ e化	e waa3
 劣弧	lyut5 hu4
 烈焰	lyut5 jim6
 裂隙	lyut5 kwik2
-劣馬	lyut5 maa5
 烈馬	lyut5 maa5
+劣馬	lyut5 maa5
 裂紋	lyut5 man4
 裂璺	lyut5 man6
 列寧主義	lyut5 ning4 zyu2 nji6
