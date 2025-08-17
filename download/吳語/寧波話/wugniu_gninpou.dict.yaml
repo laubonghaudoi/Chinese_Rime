@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2025.07.16"
+version: "2025.08.12"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -22425,6 +22425,7 @@ import_tables:
 暴時種田	bau zy tson di
 暴時做世人	bau zy tsou shi gnin
 刨樹皮	bau zyu bi
+備辦	bei bae
 陪人客	bei gnin khaq	55
 背陰	bei in
 被告	bei kau
@@ -23547,6 +23548,7 @@ import_tables:
 脹煞了	cian saq lei	55
 脹煞𡀂	cian saq lei
 漲息	cian shiq	55
+將息	cian shiq
 漿水	cian syu	55
 脹膯	cian ten	55
 帳頂	cian tin	55
@@ -24900,6 +24902,7 @@ import_tables:
 斷頭落環	doe deu loq guae	55
 斷掉	doe diau
 團團	doe doe
+團圈	doe chiu
 團團圈圈	doe doe chiu chiu	55
 團團圈圈生疔瘡	doe doe chiu chiu san tin tshaon
 段段落摜	doe doe loq guae	55
@@ -25665,6 +25668,7 @@ import_tables:
 翻白泥螺	fae baq gni lou	418
 翻被頭	fae bi deu
 反犬旁	fae chiu baon	55
+氾漲	fae cian
 翻筋倒	fae cin tau	55
 反即	fae ciq	55
 泛頭	fae deu
@@ -33100,15 +33104,15 @@ import_tables:
 能只	nen ciq	55
 嫩頭	nen deu	55
 嫩哀哀	nen e e	55
-寧可	nen khou	1722
-能可	nen khou	578
+寧可	nen khou	578
+能可	nen khou	1722
 能可做蝕	nen khou tsou zhiq
 能幹	nen ki-ke
 嫩面	nen mi	55
 嫩艾艾	nen nge nge
 嫩相	nen shian	578
-寧使	nen sy	1000
-能使	nen sy	578
+寧使	nen sy	578
+能使	nen sy	1000
 能使買蒲薺	nen sy ma bu ji
 能使買金孟	nen sy ma cin man
 能使買金櫻	nen sy ma cin man	1
@@ -33528,9 +33532,11 @@ import_tables:
 呶筋拔骸	nhu cin baq hae
 嗯克嗯克	nk khaq nk khaq	55
 孲伢	nk nga	578
+孲伢毛頭	nk nga mau deu
 㕶㕶	nk nk
 唔唔	nk nk
 孲伢	nk nka	578
+孲伢毛頭	nk nka mau deu
 扤頭	nkaq deu	55
 啞啞船	nko nko zoe
 拿周	no cieu	55
@@ -34341,6 +34347,7 @@ import_tables:
 潷滷	piq lu
 筆墨莊	piq moq tsaon	55
 䀣眼火	piq ngae hou	55
+逼難	piq nae
 𨂅𨂅	piq piq	55
 筆筆尖	piq piq ci	418
 筆筆直	piq piq jiq	55
@@ -35952,6 +35959,7 @@ import_tables:
 梳頭家生	sy deu ko san	55
 梳頭梳	sy deu sy	578
 四團六圈	sy doe loq chiu	55
+四凸亂圈	sy daq loe chiu
 私塾	sy dzoq
 四方的角	sy faon tiq koq	55
 絲行	sy ghaon	55
@@ -39039,6 +39047,7 @@ import_tables:
 主意	tsyu i
 注意	tsyu i
 豬圈	tsyu ji	55
+嘴鉗	tsyu ji
 豬圈間	tsyu ji kae	55
 豬圈格柵	tsyu ji kaq saq
 豬圈攔柵	tsyu ji laq saq
@@ -40595,6 +40604,7 @@ import_tables:
 上白沙	zaon baq so
 上昶	zaon chian	418
 上昶裏	zaon chian li
+上緊	zaon cin
 上傾下頂	zaon chin gho tin
 上照	zaon ciau
 上臺鐋鑼	zaon de than lou
