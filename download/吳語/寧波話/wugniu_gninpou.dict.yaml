@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2025.08.12"
+version: "2025.09.12"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -4766,7 +4766,8 @@ import_tables:
 跇	tsha
 咋	dza	100000
 咱	dza
-撒	dza	1%
+𱚼	dza
+撒	dza	0%
 射	dza	5%
 𠑞	dza
 ⿱寨	dza
@@ -4936,7 +4937,7 @@ import_tables:
 伽	jia
 笳	jia
 茄	jia
-喳	jia	5%
+𠸏	jia
 弶	jia	1%
 岈	shia
 疨	shia
@@ -5948,7 +5949,6 @@ import_tables:
 揢	kho	0%
 㰤	kho
 咖	go	0%
-茶	go	0%
 牙	ngo
 芽	ngo
 衙	ngo
@@ -7541,6 +7541,7 @@ import_tables:
 孱	dzae
 潺	dzae
 𩻣	dzae
+𲿷	dzae
 䱠	dzae
 慚	dzae
 慙	dzae
@@ -7629,9 +7630,11 @@ import_tables:
 饞	zae	5%
 鑱	zae
 𡓦	zae
+𩻣	zae
+𲿷	zae
+䱠	zae
 僝	zae
 劖	zae
-𩻣	zae
 奸	kae
 姦	kae
 葌	kae
@@ -7768,6 +7771,8 @@ import_tables:
 患	wae
 洹	wae
 轘	wae
+糫	wae
+闤	wae
 頑	wae
 宦	wae
 幻	wae
@@ -7786,8 +7791,6 @@ import_tables:
 褱	wae
 淮	wae
 外	wae	0%
-糫	wae
-闤	wae
 鯇	wae
 睅	wae
 睆	wae
@@ -8715,6 +8718,7 @@ import_tables:
 妹	mhei	5%
 否	fei	0%
 𣍐	vei	60000
+𲓕	vei
 浮	vei	0%
 堆	tei
 塠	tei
@@ -9342,7 +9346,7 @@ import_tables:
 奎	khuei
 塊	khuei
 磈	khuei
-⿰米鬼	khuei
+𲷓	khuei
 喟	khuei
 尯	khuei
 腃	khuei
@@ -15116,7 +15120,6 @@ import_tables:
 𢱕	taq
 笚	taq
 咄	taq
-啄	taq	5%
 矺	taq
 答	taq
 荅	taq
@@ -15149,6 +15152,7 @@ import_tables:
 敠	taq
 祋	taq
 腏	taq
+啄	taq	5%
 柮	taq
 塔	thaq
 墖	thaq
@@ -20009,9 +20013,9 @@ import_tables:
 环	wae
 鹮	wae
 镮	wae
+阛	wae
 顽	wae
 怀	wae
-阛	wae
 鲩	wae
 缳	wae
 弯	uae
@@ -20270,7 +20274,6 @@ import_tables:
 诙	khuei
 窥	khuei
 块	khuei
-⿰米夬	khuei
 䙌	khuei
 𪡞	khuei
 𫝬	khuei
@@ -22731,6 +22734,7 @@ import_tables:
 溪坑水	chi khan syu	55
 溪口鎮	chi kheu tsyun
 牽空磨	chi khon mou	55
+起課	chi khou
 起課算命	chi khou soe min
 起家	chi ko
 千家萬戶	chi ko vae wu
@@ -22961,8 +22965,8 @@ import_tables:
 輕可	chin khou	418
 輕可生活阿弟做	chin khou san waq aq di tsou
 輕可生活阿弟做	chin khou san wo aq di tsou
-青⿰米鬼	chin khuei
 青塊	chin khuei
+青𲷓	chin khuei
 秤桿	chin ki-ke
 親家	chin ko
 親家公	chin ko kon
@@ -23547,8 +23551,8 @@ import_tables:
 將煞𡀂	cian saq lei
 脹煞了	cian saq lei	55
 脹煞𡀂	cian saq lei
-漲息	cian shiq	55
 將息	cian shiq
+漲息	cian shiq	55
 漿水	cian syu	55
 脹膯	cian ten	55
 帳頂	cian tin	55
@@ -24891,6 +24895,7 @@ import_tables:
 斷氣	doe chi
 斷竅	doe chiau	55
 斷七	doe chiq
+團圈	doe chiu
 團箕	doe ci	55
 團蕩	doe daon	418
 團蕩阿姆	doe daon a m	418
@@ -24902,7 +24907,6 @@ import_tables:
 斷頭落環	doe deu loq guae	55
 斷掉	doe diau
 團團	doe doe
-團圈	doe chiu
 團團圈圈	doe doe chiu chiu	55
 團團圈圈生疔瘡	doe doe chiu chiu san tin tshaon
 段段落摜	doe doe loq guae	55
@@ -25239,9 +25243,10 @@ import_tables:
 大事體	dou zy thi	55
 肚皮	du bi
 肚皮喫勒脹鼓鼓	du bi chioq laq cian ku ku
-肚皮射	du bi dza
+肚皮射	du bi dza	55
 肚皮撒	du bi dza
-肚皮𠑞	du bi dza	55
+肚皮𠑞	du bi dza
+肚皮𱚼	du bi dza
 肚皮一貤一貤痛	du bi iq yi iq yi thon
 肚皮官司	du bi kun sy
 肚皮痛	du bi thon	55
@@ -25278,9 +25283,10 @@ import_tables:
 渡船道頭	du zoe dau deu
 咋記意思	dza ci i sy
 咋結煞	dza ciq saq	55
-射肚皮	dza du bi
+射肚皮	dza du bi	55
 撒肚皮	dza du bi
-𠑞肚皮	dza du bi	55
+𠑞肚皮	dza du bi
+𱚼肚皮	dza du bi
 咋呢	dza gni	55
 咋挔	dza i	578
 咱伊	dza i	55
@@ -25297,18 +25303,23 @@ import_tables:
 射爛薄屙	dza lae boq ou
 射爛薄涴	dza lae boq ou	55
 撒爛薄屙	dza lae boq ou
-撒爛薄涴	dza lae boq ou	55
+撒爛薄涴	dza lae boq ou
 𠑞爛薄屙	dza lae boq ou
-𠑞爛薄涴	dza lae boq ou	55
+𠑞爛薄涴	dza lae boq ou
+𱚼爛薄屙	dza lae boq ou
+𱚼爛薄涴	dza lae boq ou
 射爛屙	dza lae ou
 射爛涴	dza lae ou	55
 撒爛屙	dza lae ou
-撒爛涴	dza lae ou	55
+撒爛涴	dza lae ou
 𠑞爛屙	dza lae ou
-𠑞爛涴	dza lae ou	55
+𠑞爛涴	dza lae ou
+𱚼爛屙	dza lae ou
+𱚼爛涴	dza lae ou
 射痢疾	dza li jiq	55
-撒痢疾	dza li jiq	55
-𠑞痢疾	dza li jiq	55
+撒痢疾	dza li jiq
+𠑞痢疾	dza li jiq
+𱚼痢疾	dza li jiq
 咋弄	dza lon	578
 咋弄弄	dza lon lon	578
 咋末介	dza maq ka	25000
@@ -25317,44 +25328,62 @@ import_tables:
 咋貌介	dza mau ka	25000
 咋貌格	dza mau kaq	25000
 ⿱寨魚	dza ng	55
-射㕶㕶	dza nk nk
+射㕶㕶	dza nk nk	1
 射唔唔	dza nk nk
 撒㕶㕶	dza nk nk
 撒唔唔	dza nk nk
-𠑞㕶㕶	dza nk nk	1
+𠑞㕶㕶	dza nk nk
 𠑞唔唔	dza nk nk
+𱚼㕶㕶	dza nk nk
+𱚼唔唔	dza nk nk
 射屙	dza ou
-射涴	dza ou
+射涴	dza ou	418
 撒屙	dza ou
 撒涴	dza ou
 𠑞屙	dza ou
-𠑞涴	dza ou	55
+𠑞涴	dza ou
+𱚼屙	dza ou
+𱚼涴	dza ou
 射屙撲	dza ou phoq
-射涴撲	dza ou phoq
+射涴撲	dza ou phoq	55
 撒屙撲	dza ou phoq
 撒涴撲	dza ou phoq
 𠑞屙撲	dza ou phoq
-𠑞涴撲	dza ou phoq	55
+𠑞涴撲	dza ou phoq
+𱚼屙撲	dza ou phoq
+𱚼涴撲	dza ou phoq
 射屙出	dza ou tshyuq
-射涴出	dza ou tshyuq
+射涴出	dza ou tshyuq	55
 撒屙出	dza ou tshyuq
 撒涴出	dza ou tshyuq
 𠑞屙出	dza ou tshyuq
-𠑞涴出	dza ou tshyuq	55
+𠑞涴出	dza ou tshyuq
+𱚼屙出	dza ou tshyuq
+𱚼涴出	dza ou tshyuq
+射屙做記認	dza ou tsou ci gnin
+射涴做記認	dza ou tsou ci gnin	1
+撒屙做記認	dza ou tsou ci gnin
+撒涴做記認	dza ou tsou ci gnin
 𠑞屙做記認	dza ou tsou ci gnin
-𠑞涴做記認	dza ou tsou ci gnin	1
-射屁	dza phi
+𠑞涴做記認	dza ou tsou ci gnin
+𱚼屙做記認	dza ou tsou ci gnin
+𱚼涴做記認	dza ou tsou ci gnin
+射屁	dza phi	55
 撒屁	dza phi
-𠑞屁	dza phi	55
-射屁蟲	dza phi dzon
+𠑞屁	dza phi
+𱚼屁	dza phi
+射屁蟲	dza phi dzon	55
 撒屁蟲	dza phi dzon
-𠑞屁蟲	dza phi dzon	55
-射屁賴	dza phi la
+𠑞屁蟲	dza phi dzon
+𱚼屁蟲	dza phi dzon
+射屁賴	dza phi la	1
 撒屁賴	dza phi la
 𠑞屁賴	dza phi la
-射屁賴賴	dza phi la la
+𱚼屁賴	dza phi la
+射屁賴賴	dza phi la la	1
 撒屁賴賴	dza phi la la
 𠑞屁賴賴	dza phi la la
+𱚼屁賴賴	dza phi la la
 咋西孃介	dza shi gnian ka	55
 咋西孃格	dza shi gnian kaq	55
 咋相貌	dza shian mau	55
@@ -25363,26 +25392,32 @@ import_tables:
 咋式貌	dza shiq mau	55
 咋式貌介	dza shiq mau ka	55
 咋式貌格	dza shiq mau kaq	55
-射尿	dza syu
+射尿	dza syu	418
 撒尿	dza syu
-𠑞尿	dza syu	418
-射尿撲	dza syu phoq
+𠑞尿	dza syu
+𱚼尿	dza syu
+射尿撲	dza syu phoq	55
 撒尿撲	dza syu phoq
-𠑞尿撲	dza syu phoq	55
-射尿尿	dza syu syu
+𠑞尿撲	dza syu phoq
+𱚼尿撲	dza syu phoq
+射尿尿	dza syu syu	1
 撒尿尿	dza syu syu
-𠑞尿尿	dza syu syu	1
-射尿出	dza syu tshyuq
+𠑞尿尿	dza syu syu
+𱚼尿尿	dza syu syu
+射尿出	dza syu tshyuq	55
 撒尿出	dza syu tshyuq
-𠑞尿出	dza syu tshyuq	55
-射哚哚尿	dza to to syu
+𠑞尿出	dza syu tshyuq
+𱚼尿出	dza syu tshyuq
+射哚哚尿	dza to to syu	1
 撒哚哚尿	dza to to syu
-𠑞哚哚尿	dza to to syu	1
+𠑞哚哚尿	dza to to syu
+𱚼哚哚尿	dza to to syu
 咋回事體	dza wei zy thi	578
 咋話	dza wo	578
-射藥	dza yaq
+射藥	dza yaq	1
 撒藥	dza yaq
-𠑞藥	dza yaq	1
+𠑞藥	dza yaq
+𱚼藥	dza yaq
 賺進	dzae cin	55
 蹔𧉆	dzae ciq	55
 站頭	dzae deu	418
@@ -26963,7 +26998,6 @@ import_tables:
 愚豬	gniu tsyu	55
 軟柴	gniu za	55
 咖咖	go go	55
-茶茶	go go
 咖咖𧮙	go go zoq
 咖咖𧮙人	go go zoq gnin
 跫跫	gon gon
@@ -27472,6 +27506,7 @@ import_tables:
 蝦𩻣	huo zae	55
 蝦𩻣薧	huo zae khau
 蝦𩻣鮳	huo zae khau
+蝦𩻣氽豆腐	huo zae then deu vu
 花蕊	huo zei
 䞁棒	i baon
 燕青	i chin	55
@@ -27771,14 +27806,17 @@ import_tables:
 一堵板壁	iq du pae piq
 一堵牆	iq du zhian
 一射屙	iq dza ou
-一射涴	iq dza ou
+一射涴	iq dza ou	1
 一撒屙	iq dza ou
 一撒涴	iq dza ou
 一𠑞屙	iq dza ou
-一𠑞涴	iq dza ou	1
-一射尿	iq dza syu
+一𠑞涴	iq dza ou
+一𱚼屙	iq dza ou
+一𱚼涴	iq dza ou
+一射尿	iq dza syu	1
 一撒尿	iq dza syu
-一𠑞尿	iq dza syu	1
+一𠑞尿	iq dza syu
+一𱚼尿	iq dza syu
 一䂻䂻到王家弄	iq dzan dzan tau waon ko lon
 一幢箱子	iq dzaon shian tsy
 一幢書	iq dzaon syu
@@ -28127,9 +28165,9 @@ import_tables:
 忌嘴	ji tsyu
 纏嘴麻臉	ji tsyu mo li
 纏話	ji wo	55
-喳喳	jia jia	55
-喳喳嘶	jia jia shi
-喳喳嘶嘶	jia jia shi shi
+𠸏𠸏	jia jia	55
+𠸏𠸏嘶	jia jia shi
+𠸏𠸏嘶嘶	jia jia shi shi
 茄子	jia tsy
 長矮凳	jian a ten	55
 長白燈籠	jian baq ten lon	55
@@ -28872,8 +28910,8 @@ import_tables:
 檻窗	khae tshaon	55
 坑頭	khan deu	55
 坑頭間	khan deu kae	55
-坑頭⿰米鬼	khan deu khuei
 坑頭塊	khan deu khuei
+坑頭𲷓	khan deu khuei
 揞掉	khan diau	55
 坑跟間	khan ken kae	55
 揞水爿	khan syu bae	55
@@ -29201,7 +29239,7 @@ import_tables:
 空艙水鈿	khon tshaon syu di
 殼貨	khoq hou	55
 殼盝	khoq laon	55
-哭勒環天倒地	khoq laq wae thi tau di
+哭勒懷天倒地	khoq laq wae thi tau di
 殼盝	khoq loq	55
 哭煞了	khoq saq lei	1
 哭煞𡀂	khoq saq lei
@@ -30212,6 +30250,7 @@ import_tables:
 過晌	kou zaon
 過謝	kou zhia
 姑婆	ku bou
+孤悽	ku chi
 臌脹病	ku cian bin	55
 古銅色	ku don saq
 僱着	ku dzoq	55
@@ -30221,6 +30260,7 @@ import_tables:
 姑丈公	ku jian kon	55
 僱工	ku kon
 咕咕	ku ku
+孤孤悽悽	ku ku chi chi
 咕咕叫	ku ku ciau
 咕咕忖	ku ku tshen	55
 孤老	ku lau
@@ -31016,9 +31056,10 @@ import_tables:
 連日連夜	li gniq li ya
 離婚	li huen
 蓮花文書	li huo ven syu
-痢疾射	li jiq dza
+痢疾射	li jiq dza	55
 痢疾撒	li jiq dza
-痢疾𠑞	li jiq dza	55
+痢疾𠑞	li jiq dza
+痢疾𱚼	li jiq dza
 裏間	li kae
 連奸連滑	li kae li waq
 李家匯	li ko wei
@@ -33562,8 +33603,8 @@ import_tables:
 儂慢慢叫走	nou mae mae ciau tseu
 糯米	nou mi
 糯米絞	nou mi gau
-糯米⿰米鬼	nou mi khuei
 糯米塊	nou mi khuei
+糯米𲷓	nou mi khuei
 糯米𩞁餈	nou mi mo zy	55
 糯米𩞁餈	nou mi mo zyu	55
 糯米飯	nou mi vae
@@ -33693,9 +33734,11 @@ import_tables:
 屙射出	ou dza tshyuq
 屙撒出	ou dza tshyuq
 屙𠑞出	ou dza tshyuq
-涴射出	ou dza tshyuq
+屙𱚼出	ou dza tshyuq
+涴射出	ou dza tshyuq	55
 涴撒出	ou dza tshyuq
-涴𠑞出	ou dza tshyuq	55
+涴𠑞出	ou dza tshyuq
+涴𱚼出	ou dza tshyuq
 屙蟲	ou dzon
 涴蟲	ou dzon	55
 屙兒曼	ou er mae
@@ -33711,10 +33754,10 @@ import_tables:
 涴講	ou kaon	55
 屙缸蓋	ou kaon ke
 涴缸蓋	ou kaon ke	1
-屙缸⿰米鬼	ou kaon khuei
 屙缸塊	ou kaon khuei
-涴缸⿰米鬼	ou kaon khuei
+屙缸𲷓	ou kaon khuei
 涴缸塊	ou kaon khuei	1
+涴缸𲷓	ou kaon khuei
 屙缸邊頭罰願	ou kaon pi deu vaq gniu
 涴缸邊頭罰願	ou kaon pi deu vaq gniu
 屙缸沙	ou kaon so
@@ -34346,8 +34389,8 @@ import_tables:
 癟螺痧	piq lou so
 潷滷	piq lu
 筆墨莊	piq moq tsaon	55
-䀣眼火	piq ngae hou	55
 逼難	piq nae
+䀣眼火	piq ngae hou	55
 𨂅𨂅	piq piq	55
 筆筆尖	piq piq ci	418
 筆筆直	piq piq jiq	55
@@ -35953,13 +35996,13 @@ import_tables:
 四九	sy cieu
 斯整	sy cin
 絲巾	sy cin
+四凸亂圈	sy daq loe chiu
 梳頭	sy deu
 梳頭盤	sy deu bun
 梳頭鏡箱	sy deu cin shian	55
 梳頭家生	sy deu ko san	55
 梳頭梳	sy deu sy	578
 四團六圈	sy doe loq chiu	55
-四凸亂圈	sy daq loe chiu
 私塾	sy dzoq
 四方的角	sy faon tiq koq	55
 絲行	sy ghaon	55
@@ -36070,12 +36113,14 @@ import_tables:
 水桶脫底	syu don thaq ti
 書獨頭	syu doq deu	55
 書大糊	syu dou wu	55
-尿射	syu dza
+尿射	syu dza	55
 尿撒	syu dza
-尿𠑞	syu dza	55
-尿射出	syu dza tshyuq
+尿𠑞	syu dza
+尿𱚼	syu dza
+尿射出	syu dza tshyuq	55
 尿撒出	syu dza tshyuq
-尿𠑞出	syu dza tshyuq	55
+尿𠑞出	syu dza tshyuq
+尿𱚼出	syu dza tshyuq
 水宅宅滮出來	syu dzaq dzaq piau tshyuq le
 書櫥	syu dzyu
 書費	syu fi	55
@@ -39046,8 +39091,8 @@ import_tables:
 珠花	tsyu huo	55
 主意	tsyu i
 注意	tsyu i
-豬圈	tsyu ji	55
 嘴鉗	tsyu ji
+豬圈	tsyu ji	55
 豬圈間	tsyu ji kae	55
 豬圈格柵	tsyu ji kaq saq
 豬圈攔柵	tsyu ji laq saq
@@ -39096,7 +39141,7 @@ import_tables:
 豬羊架	tsyu yan ko
 豬油	tsyu yeu
 豬油餡	tsyu yeu ghae	55
-豬油⿰米鬼	tsyu yeu khuei
+豬油𲷓	tsyu yeu khuei
 豬油芋艿	tsyu yeu n na
 豬油湯糰	tsyu yeu thaon doe	418
 豬油湯糰燙丫麻	tsyu yeu thaon doe thaon o mo
@@ -39177,6 +39222,7 @@ import_tables:
 烏稍蛇	u shiau dzo
 烏筱絲	u shiau sy	55
 焐心	u shin	55
+惡愫	u su
 污素	u su	55
 焐酥豆	u su deu	55
 污素不剌	u su paq la
@@ -39677,17 +39723,17 @@ import_tables:
 還報門	wae pau men	55
 環襻頭	wae phae deu	55
 頑僧和尚	wae sen ghou zaon
-環天倒地	wae thi tau di	55
-環天倒地來該嘔	wae thi tau di le ke eu
-環天倒地來該謳	wae thi tau di le ke eu	1
+懷天倒地	wae thi tau di	55
+懷天倒地來該嘔	wae thi tau di le ke eu
+懷天倒地來該謳	wae thi tau di le ke eu	1
 還轉	wae tsoe	55
 環嘴	wae tsyu	55
-環環	wae wae
-環環嘔	wae wae eu
-環環謳	wae wae eu	1
-環環哭	wae wae khoq
-環環嘶	wae wae shi
-環環𧮙	wae wae zoq
+懷懷	wae wae
+懷懷嘔	wae wae eu
+懷懷謳	wae wae eu	1
+懷懷哭	wae wae khoq
+懷懷嘶	wae wae shi
+懷懷𧮙	wae wae zoq
 還魂酒	wae wen cieu	55
 還魂塑料	wae wen soq liau
 橫嶴	wan au
@@ -40604,9 +40650,9 @@ import_tables:
 上白沙	zaon baq so
 上昶	zaon chian	418
 上昶裏	zaon chian li
-上緊	zaon cin
 上傾下頂	zaon chin gho tin
 上照	zaon ciau
+上緊	zaon cin
 上臺鐋鑼	zaon de than lou
 上頭	zaon deu
 牀頭鬼	zaon deu ciu	55
@@ -40632,8 +40678,8 @@ import_tables:
 上蕻	zaon hon	55
 上灰	zaon huei	55
 上一昶	zaon iq chian	418
-上轎穿耳朵環	zaon jiau tshoe gni to wae
-上轎穿耳朵環	zaon jiau tshoe ng to wae
+上轎穿耳朵環	zaon jiau tshoe gni to guae
+上轎穿耳朵環	zaon jiau tshoe ng to guae
 上轎飯	zaon jiau vae	55
 上階沿	zaon ka yi	55
 上狗當	zaon keu taon	55
@@ -41048,6 +41094,7 @@ import_tables:
 尋眼	zhin ngae
 尋我	zhin ngo
 尋儂	zhin nou
+尋扳頭	zhin pae deu
 尋扳頭門	zhin pae deu men
 尋遍	zhin pi
 尋煞可憐	zhin saq khou li
@@ -41969,12 +42016,14 @@ import_tables:
 老來日日蔫	lau le gniq gniq i
 小來日日鮮	shiau le gniq gniq shi
 貧賤出孝子	bin zhi tshyuq shiau tsy
-尿涴屋裏𠑞	syu ou oq li dza
-尿屙屋裏𠑞	syu ou oq li dza
 尿涴屋裏射	syu ou oq li dza
 尿屙屋裏射	syu ou oq li dza
+尿涴屋裏𠑞	syu ou oq li dza
+尿屙屋裏𠑞	syu ou oq li dza
 尿涴屋裏撒	syu ou oq li dza
 尿屙屋裏撒	syu ou oq li dza
+尿涴屋裏𱚼	syu ou oq li dza
+尿屙屋裏𱚼	syu ou oq li dza
 十七十八一朵花	zyuq chiq zyuq paq iq to huo
 兒女當皇帝	er gniu taon waon ti
 爹孃做孃姨	tia gnian tsou gnian yi
@@ -42568,9 +42617,10 @@ import_tables:
 只醫病	ciq i bin
 弗醫命	vaq i min
 勿醫命	vaq i min
-千金難買六月𠑞	chi cin nae ma loq yuq dza
 千金難買六月射	chi cin nae ma loq yuq dza
+千金難買六月𠑞	chi cin nae ma loq yuq dza
 千金難買六月撒	chi cin nae ma loq yuq dza
+千金難買六月𱚼	chi cin nae ma loq yuq dza
 尿涴落眠牀	syu ou loq mi zaon
 尿屙落眠牀	syu ou loq mi zaon
 天黃有雨	thi waon yeu yu
@@ -42698,14 +42748,16 @@ import_tables:
 高勿來	kau vaq le
 低勿去	ti vaq chi
 要喫飯	iau chioq vae
-要𠑞涴	iau dza ou
+要射涴	iau dza ou
 箍馬桶	khu mo don
 箍馬桶	khou mo don
-要射涴	iau dza ou
+要𠑞涴	iau dza ou
 要撒涴	iau dza ou
-要𠑞屙	iau dza ou
+要𱚼涴	iau dza ou
 要射屙	iau dza ou
+要𠑞屙	iau dza ou
 要撒屙	iau dza ou
+要𱚼屙	iau dza ou
 三十過	sae zyuq kou
 四十來	sy zyuq le
 雙手招郎郎弗來	saon shieu ciau laon laon vaq le
@@ -43651,10 +43703,11 @@ import_tables:
 若要發	zoq iau faq
 養老鴨	ian lau aq
 鴨膯抵火燒	aq ten ti hou shiau
-邊喫邊𠑞	pi chioq pi dza
-六十日好賣	loq zyuq gniq hau ma
 邊喫邊射	pi chioq pi dza
+六十日好賣	loq zyuq gniq hau ma
+邊喫邊𠑞	pi chioq pi dza
 邊喫邊撒	pi chioq pi dza
+邊喫邊𱚼	pi chioq pi dza
 晝餵貓	cieu iu mae
 夜餵狗	ya iu keu
 水稻是米缸	syu dau zy mi kaon
@@ -44161,20 +44214,24 @@ import_tables:
 一場官司一場火	iq jian kun sy iq jian hou
 弗怕僚拉家計大	vaq pho liau lha ko ci dou
 勿怕僚拉家計大	vaq pho liau lha ko ci dou
-狗弗咬𠑞涴人	keu vaq ngau dza ou gnin
-官弗打送禮人	kun vaq tan son li gnin
-狗勿咬𠑞涴人	keu vaq ngau dza ou gnin
-官勿打送禮人	kun vaq tan son li gnin
-狗弗咬𠑞屙人	keu vaq ngau dza ou gnin
-狗勿咬𠑞屙人	keu vaq ngau dza ou gnin
 狗弗咬射涴人	keu vaq ngau dza ou gnin
+官弗打送禮人	kun vaq tan son li gnin
 狗勿咬射涴人	keu vaq ngau dza ou gnin
+官勿打送禮人	kun vaq tan son li gnin
 狗弗咬射屙人	keu vaq ngau dza ou gnin
 狗勿咬射屙人	keu vaq ngau dza ou gnin
+狗弗咬𠑞涴人	keu vaq ngau dza ou gnin
+狗勿咬𠑞涴人	keu vaq ngau dza ou gnin
+狗弗咬𠑞屙人	keu vaq ngau dza ou gnin
+狗勿咬𠑞屙人	keu vaq ngau dza ou gnin
 狗弗咬撒涴人	keu vaq ngau dza ou gnin
 狗勿咬撒涴人	keu vaq ngau dza ou gnin
 狗弗咬撒屙人	keu vaq ngau dza ou gnin
 狗勿咬撒屙人	keu vaq ngau dza ou gnin
+狗弗咬𱚼涴人	keu vaq ngau dza ou gnin
+狗勿咬𱚼涴人	keu vaq ngau dza ou gnin
+狗弗咬𱚼屙人	keu vaq ngau dza ou gnin
+狗勿咬𱚼屙人	keu vaq ngau dza ou gnin
 十隻黃狗九隻雄	zyuq tsaq waon keu cieu tsaq yon
 十個衙役九個兇	zyuq goq ngo yuq cieu goq shion
 十隻黃狗九隻雄	zyuq tsaq waon ki-ke cieu tsaq yon
@@ -46212,19 +46269,23 @@ import_tables:
 城隍廟得病	jin waon miau taq bin
 土地堂將息	thu di daon cian shiq
 拔蘿蔔人逃走了	baq lou boq gnin dau tseu lei
-𠑞涴人抲牢了	dza ou gnin kho lau lei
-𠑞屙人抲牢了	dza ou gnin kho lau lei
 射涴人抲牢了	dza ou gnin kho lau lei
 射屙人抲牢了	dza ou gnin kho lau lei
+𠑞涴人抲牢了	dza ou gnin kho lau lei
+𠑞屙人抲牢了	dza ou gnin kho lau lei
 撒涴人抲牢了	dza ou gnin kho lau lei
 撒屙人抲牢了	dza ou gnin kho lau lei
+𱚼涴人抲牢了	dza ou gnin kho lau lei
+𱚼屙人抲牢了	dza ou gnin kho lau lei
 拔蘿蔔人逃走𡀂	baq lou boq gnin dau tseu lei
-𠑞涴人抲牢𡀂	dza ou gnin kho lau lei
-𠑞屙人抲牢𡀂	dza ou gnin kho lau lei
 射涴人抲牢𡀂	dza ou gnin kho lau lei
 射屙人抲牢𡀂	dza ou gnin kho lau lei
+𠑞涴人抲牢𡀂	dza ou gnin kho lau lei
+𠑞屙人抲牢𡀂	dza ou gnin kho lau lei
 撒涴人抲牢𡀂	dza ou gnin kho lau lei
 撒屙人抲牢𡀂	dza ou gnin kho lau lei
+𱚼涴人抲牢𡀂	dza ou gnin kho lau lei
+𱚼屙人抲牢𡀂	dza ou gnin kho lau lei
 愁六月嘸日頭	zeu loq yuq mh gniq deu
 好省弗省	hau san vaq san
 唸佛送鯗	ne-gnie vaq son shian
@@ -46261,6 +46322,8 @@ import_tables:
 一堆屙割割喫	iq tei ou kaq kaq chioq
 捏勒卵子弗𠑞尿	gniaq laq loe tsy vaq dza syu
 捏勒卵子勿𠑞尿	gniaq laq loe tsy vaq dza syu
+捏勒卵子弗𱚼尿	gniaq laq loe tsy vaq dza syu
+捏勒卵子勿𱚼尿	gniaq laq loe tsy vaq dza syu
 新尿瓶等弗到夜	shin syu bin ten vaq tau ya
 新尿瓶等勿到夜	shin syu bin ten vaq tau ya
 三年飯討過	sae gni vae thau kou
@@ -46359,11 +46422,12 @@ import_tables:
 還當是福氣	gha taon zy foq chi
 嘸氣嘸倒	mh chi mh tau
 一世𣍐好	iq shi vei hau
-瞎子𠑞一屁	haq tsy dza iq phi
+瞎子射一屁	haq tsy dza iq phi
 亮眼奔弗及	lian ngae pen vaq ji
 亮眼奔勿及	lian ngae pen vaq ji
-瞎子射一屁	haq tsy dza iq phi
+瞎子𠑞一屁	haq tsy dza iq phi
 瞎子撒一屁	haq tsy dza iq phi
+瞎子𱚼一屁	haq tsy dza iq phi
 看見白牡丹	khi-khe ci baq meu tae
 地栿忘記𨂝	di boq maon ci bae
 三個女人抵潮鴨	sae goq gniu gnin ti jiau ae
@@ -46515,11 +46579,12 @@ import_tables:
 弄弗討好	lon vaq thau hau
 弄勿討好	lon vaq thau hau
 吵勒雞飛狗上屋	tshau laq ci fi keu zaon oq
-一人𠑞尿出	iq gnin dza syu tshyuq
+一人射尿出	iq gnin dza syu tshyuq
 和家弗得安	ghou ko vaq taq ei-e
 和家勿得安	ghou ko vaq taq ei-e
-一人射尿出	iq gnin dza syu tshyuq
+一人𠑞尿出	iq gnin dza syu tshyuq
 一人撒尿出	iq gnin dza syu tshyuq
+一人𱚼尿出	iq gnin dza syu tshyuq
 喫饅頭忘記	chioq mun deu maon ci
 喫拳頭記得	chioq jiu deu ci taq
 莫看人家喫魚頭	mhau khi-khe gnin ko chioq ng deu
@@ -46556,7 +46621,7 @@ import_tables:
 棺材板揞人	kun dze pae ghae gnin
 喫兩面巴掌	chioq lian mi po tsaon
 口渴喝鹽滷	kheu khaq haq yi lu
-上轎穿耳環	zaon jiau tshoe er wae
+上轎穿耳環	zaon jiau tshoe er guae
 氣力使戥子	chi liq sy ten tsy
 挖人家魚鰓	uaq gnin ko ng se
 黃狗管福禮	waon keu kun foq li
@@ -46570,24 +46635,30 @@ import_tables:
 稻大心勿熱	dau dou shin vaq gniq
 荒年搭大熟	huaon gni taq dou zoq
 溼手遭麪粉	shiq shieu tsau mi fen
-𠑞涴胡嚨癢	dza ou wu lon yan
-𠑞屙胡嚨癢	dza ou wu lon yan
 射涴胡嚨癢	dza ou wu lon yan
 射屙胡嚨癢	dza ou wu lon yan
+𠑞涴胡嚨癢	dza ou wu lon yan
+𠑞屙胡嚨癢	dza ou wu lon yan
 撒涴胡嚨癢	dza ou wu lon yan
 撒屙胡嚨癢	dza ou wu lon yan
-𠑞涴壅伸草	dza ou ion shin tshau
-𠑞屙壅伸草	dza ou ion shin tshau
+𱚼涴胡嚨癢	dza ou wu lon yan
+𱚼屙胡嚨癢	dza ou wu lon yan
 射涴壅伸草	dza ou ion shin tshau
 射屙壅伸草	dza ou ion shin tshau
+𠑞涴壅伸草	dza ou ion shin tshau
+𠑞屙壅伸草	dza ou ion shin tshau
 撒涴壅伸草	dza ou ion shin tshau
 撒屙壅伸草	dza ou ion shin tshau
-𠑞涴估堆頭	dza ou ku tei deu
-𠑞屙估堆頭	dza ou ku tei deu
+𱚼涴壅伸草	dza ou ion shin tshau
+𱚼屙壅伸草	dza ou ion shin tshau
 射涴估堆頭	dza ou ku tei deu
 射屙估堆頭	dza ou ku tei deu
+𠑞涴估堆頭	dza ou ku tei deu
+𠑞屙估堆頭	dza ou ku tei deu
 撒涴估堆頭	dza ou ku tei deu
 撒屙估堆頭	dza ou ku tei deu
+𱚼涴估堆頭	dza ou ku tei deu
+𱚼屙估堆頭	dza ou ku tei deu
 十二月飯蒸	zyuq gni yuq vae cin
 矮子寬寬心	a tsy khun khun shin
 太婆多𤃀尿	tha bou tou li syu
@@ -46669,9 +46740,10 @@ import_tables:
 鰳魚骨頭裏戳出	lei ng kuaq deu li tshoq tshyuq
 老鼠尾巴生大毒	lau tsy mi po san dou doq
 老鼠尾巴生大毒	lau tsy ng po san dou doq
-黃鼠狼𠑞救命屁	waon tsy laon dza cieu min phi
 黃鼠狼射救命屁	waon tsy laon dza cieu min phi
+黃鼠狼𠑞救命屁	waon tsy laon dza cieu min phi
 黃鼠狼撒救命屁	waon tsy laon dza cieu min phi
+黃鼠狼𱚼救命屁	waon tsy laon dza cieu min phi
 梅林草雞生大蛋	mei lin tshau ci san dou dae
 出了屁股撥人打	tshyuq laq phi ku paq gnin tan
 出了銅鈿暗坐	tshyuq laq don di ei-e zou
@@ -46856,12 +46928,14 @@ import_tables:
 有勢勿可盡行	yeu syu vaq khou jin ghan
 嚴嵩勢道要過	gni son syu dau iau kou
 綢緞衣衫要破	jieu doe i sae iau phou
-門背後𠑞涴天要亮	men pei gheu dza ou thi iau lian
-門背後𠑞屙天要亮	men pei gheu dza ou thi iau lian
 門背後射涴天要亮	men pei gheu dza ou thi iau lian
 門背後射屙天要亮	men pei gheu dza ou thi iau lian
+門背後𠑞涴天要亮	men pei gheu dza ou thi iau lian
+門背後𠑞屙天要亮	men pei gheu dza ou thi iau lian
 門背後撒涴天要亮	men pei gheu dza ou thi iau lian
 門背後撒屙天要亮	men pei gheu dza ou thi iau lian
+門背後𱚼涴天要亮	men pei gheu dza ou thi iau lian
+門背後𱚼屙天要亮	men pei gheu dza ou thi iau lian
 留梗尾巴撣撣蒼蠅	lieu kan mi po tae tae tshaon in
 留梗尾巴撣撣蒼蠅	lieu kan ng po tae tae tshaon in
 留梗尾巴撣撣蒼蠅	lieu kuan mi po tae tae tshaon in
@@ -47014,9 +47088,10 @@ import_tables:
 阿婆嘔我做人客	aq bou eu ngo tsou gnin khaq
 老公嘔我拗腰骨	lau kon eu ngo au iau kuaq
 阿毛孃	aq mau gnian
-𠑞尿哚哚響	dza syu to to shian
 射尿哚哚響	dza syu to to shian
+𠑞尿哚哚響	dza syu to to shian
 撒尿哚哚響	dza syu to to shian
+𱚼尿哚哚響	dza syu to to shian
 弗像爹	vaq zhian tia
 弗像孃	vaq zhian gnian
 只像門口賣蟹醬	ciq zhian men kheu ma ha cian
@@ -47049,12 +47124,14 @@ import_tables:
 兩個卵黃數勒天亮	lian ghoq loe uaon su laq thi gnian
 腳骨極細	ciaq kuaq jiq shi
 純是力氣	zyun zy liq chi
-𠑞涴筆篤	dza ou piq toq
-𠑞屙筆篤	dza ou piq toq
 射涴筆篤	dza ou piq toq
 射屙筆篤	dza ou piq toq
+𠑞涴筆篤	dza ou piq toq
+𠑞屙筆篤	dza ou piq toq
 撒涴筆篤	dza ou piq toq
 撒屙筆篤	dza ou piq toq
+𱚼涴筆篤	dza ou piq toq
+𱚼屙筆篤	dza ou piq toq
 羊肉當作狗肉賣	yan gnioq taon tsoq keu gnioq ma
 千遭滰腳	chi tsau jian ciaq
 弗如一遭滰被	vaq zyu iq tsau jian bi
@@ -47104,14 +47181,16 @@ import_tables:
 生頭熟人客	san deu zoq gnin khaq
 裝勒弗認得	tsaon laq vaq gnin taq
 裝勒勿認得	tsaon laq vaq gnin taq
-𠑞涴三刻鐘	dza ou sae khaq tson
+射涴三刻鐘	dza ou sae khaq tson
 弗算磨洋工	vaq soe mou yan kon
 勿算磨洋工	vaq soe mou yan kon
-𠑞屙三刻鐘	dza ou sae khaq tson
-射涴三刻鐘	dza ou sae khaq tson
 射屙三刻鐘	dza ou sae khaq tson
+𠑞涴三刻鐘	dza ou sae khaq tson
+𠑞屙三刻鐘	dza ou sae khaq tson
 撒涴三刻鐘	dza ou sae khaq tson
 撒屙三刻鐘	dza ou sae khaq tson
+𱚼涴三刻鐘	dza ou sae khaq tson
+𱚼屙三刻鐘	dza ou sae khaq tson
 謳謳街道辦	eu eu ka dau bae
 挑挑便桶擔	thiau thiau bi don tae
 嘔嘔街道辦	eu eu ka dau bae
@@ -47189,13 +47268,15 @@ import_tables:
 還要投河	gha iau deu ghou
 江西人釘碗	kaon shi gnin tin un
 自顧自	zhi ku zhi
-死豬𠑞硬涴	shi tsyu dza ngan ou
-死撐	shi tshan
-死豬𠑞硬屙	shi tsyu dza ngan ou
 死豬射硬涴	shi tsyu dza ngan ou
+死撐	shi tshan
 死豬射硬屙	shi tsyu dza ngan ou
+死豬𠑞硬涴	shi tsyu dza ngan ou
+死豬𠑞硬屙	shi tsyu dza ngan ou
 死豬撒硬涴	shi tsyu dza ngan ou
 死豬撒硬屙	shi tsyu dza ngan ou
+死豬𱚼硬涴	shi tsyu dza ngan ou
+死豬𱚼硬屙	shi tsyu dza ngan ou
 老虎舔螞蟻	lau fu thi mo gni
 喫弗飽	chioq vaq pau
 喫勿飽	chioq vaq pau
