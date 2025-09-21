@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_gnincieu
   name: 吳語（鄞州）
-  version: "0.7.2"
+  version: "0.7.3"
   author:
     - Shin Zoqchiuq <shinzoqchiuq@outlook.com>
   description: |
@@ -80,33 +80,33 @@ speller:
     - derive/(?<=[szh])yu(?=[nqh])/oe/
     - derive/er/r/
 
-    # 胡符不分
+    # 胡 ≈ 符
     - derive/wu$/vu/
     - derive/vu$/wu/
-    # 亂漏不分
+    # 卵 ≈ 漏
     - derive/loe/leu/
 
     # 新派
 
-    # 且采不分
+    # 且 ≈ 采
     - derive/c(h)?ie$/ts$1e/
     - derive/jie$/dze/
     - derive/(?<=[sz])hie$/e/
     - derive/^ye$/ghe/
-    # 降壯不分
+    # 降 ≈ 壯
     - derive/ciaon/tsaon/
-    # 穿秋不分
+    # 穿 ≈ 秋
     - derive/ts(h)?oe$/c$1ieu/
     - derive/dzoe$/jieu/
     - derive/^(s|z)oe$/$1hieu/
-    # 官孤不分
+    # 官 ≈ 孤
     - derive/(?<![iy])un/u/
-    # 春沖不分 出促不分
+    # 春 ≈ 充，出 ≈ 促
     - derive/(?<=[szh])(yu|oe)(?=[nqh])/o/
-    # 羣窮不分 缺吃不分
+    # 允 ≈ 用，缺 ≈ 喫
     - derive/(^y|i)u(?=[nqh])/$1o/
     - derive/(^y|i)o(?=[nqh])/$1u/
-    # 約一不分
+    # 削 ≈ 吸
     - derive/ia(?=q|h)/i/
     - derive/ya(?=q|h)/yi/
 
