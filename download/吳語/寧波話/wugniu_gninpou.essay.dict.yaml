@@ -12,7 +12,7 @@
 
 ---
 name: wugniu_gninpou.essay
-version: "2025.11.05"
+version: "2025.11.12"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -634,6 +634,7 @@ use_preset_vocabulary: true
 不分高下	paq fen kau gho
 不到長城非好漢	paq tau jian jin fi hau he
 不到長城非好漢	paq tau jian jin fi hau hei-
+不勉強	paq mi chian
 不動了	paq don lei
 不區分大小寫	paq chiu fen dou shiau shia
 不可一世	paq khou iq syu
@@ -830,6 +831,7 @@ use_preset_vocabulary: true
 不絕於耳	paq dzyuq yu er
 不經一事不長一智	paq cin iq zy paq cian iq tsyu
 不經意間	paq cin i ci
+不能勉強	paq nen mi chian
 不能忘記	paq nen maon ci
 不能確定	paq nen chiuq din
 不能自制	paq nen zy tsyu
@@ -854,6 +856,7 @@ use_preset_vocabulary: true
 不行	paq yin
 不行了	paq yin lei
 不被	paq bei
+不要勉強	paq iau mi chian
 不要問	paq iau men
 不要忘記	paq iau vaon ci
 不要輕易	paq iau chin yi
@@ -6815,6 +6818,14 @@ use_preset_vocabulary: true
 勃拉姆斯	baq lha meu sy
 勃然大怒	baq zoe da nu
 勇猛過人	ion man kou gnin
+勉勉強強	mi mi chian chian
+勉強	mi chian
+勉強同意	mi chian don i
+勉強接受	mi chian ciq zhieu
+勉強維持	mi chian vi dzy
+勉強維持	mi chian vi ji
+勉強通過	mi chian thon kou
+勉強餬口	mi chian wu kheu
 勒克萊爾	laq khaq le er
 勒哈費爾	laq ha fi er
 勒死	laq shi
@@ -12458,6 +12469,7 @@ use_preset_vocabulary: true
 天體力學	thi thi liq yuq
 天體物理學	thi thi vaq li yuq
 天體物理學家	thi thi vaq li yuq cia
+太勉強了	tha mi chian lei
 太古洋行	tha ku yan ghaon
 太子舍人	tha tsy so zyun
 太學	tha yuq
@@ -15990,7 +16002,39 @@ use_preset_vocabulary: true
 強行軍	jian yin ciun
 強行通過	jian yin thon kou
 強行進入	jian yin cin zyuq
+強迫	chian paq
+強迫	jian paq
+強迫中獎	chian paq tson cian
+強迫中獎	jian paq tson cian
+強迫人	chian paq gnin
+強迫人	jian paq gnin
+強迫儲蓄	chian paq zyu shiuq
+強迫儲蓄	jian paq zyu shiuq
+強迫勞動	chian paq lau don
+強迫勞動	jian paq lau don
+強迫取分	chian paq tshyu fen
+強迫取分	jian paq tshyu fen
+強迫型人格障礙	chian paq yin zyun kaq tsaon nge
+強迫型人格障礙	jian paq yin zyun kaq tsaon nge
+強迫性	chian paq shin
+強迫性	jian paq shin
+強迫性儲物症	chian paq shin zyu vaq cin
+強迫性儲物症	jian paq shin zyu vaq cin
 強迫性性行爲	jian paq shin shin yin wei
+強迫教育	chian paq ciau yuq
+強迫教育	jian paq ciau yuq
+強迫症	chian paq cin
+強迫症	jian paq cin
+強迫着	chian paq dzoq
+強迫着	chian paq zoq
+強迫着	jian paq dzoq
+強迫着	jian paq zoq
+強迫自己	chian paq zy ci
+強迫自己	jian paq zy ci
+強迫觀念	chian paq kun ne-gnie
+強迫觀念	jian paq kun ne-gnie
+強迫降落	chian paq ciaon loq
+強迫降落	jian paq ciaon loq
 強還原劑	jian wae gniu ci
 強顏	jian yi
 強顏歡笑	jian yi hun shiau
@@ -16097,6 +16141,7 @@ use_preset_vocabulary: true
 很久沒有	hen cieu mhaq yeu
 很乾	hen ki-ke
 很乾了	hen ki-ke liau
+很勉強	hen mi chian
 很壞	hen ua
 很多人	hen tou gnin
 很多人都	hen tou gnin tu
@@ -17249,6 +17294,7 @@ use_preset_vocabulary: true
 手錘	shieu zei
 才人	dze zyun
 才分	dze fen
+才勉強	dze mi chian
 才子佳人	dze tsy cia zyun
 才學	dze yuq
 才學兼優	dze yuq ci ieu
@@ -22354,7 +22400,7 @@ use_preset_vocabulary: true
 棄短取長	chi toe tshyu jian
 棄短就長	chi toe jieu jian
 棄耕	chi kan
-棄背	chi pei
+棄背	chi bei
 棉猴兒	mi gheu er
 棉被套	mi bi thau
 棋格狀	ji kaq dzaon
@@ -27906,7 +27952,7 @@ use_preset_vocabulary: true
 相生相剋	shian sen shian khaq
 相空間	shian khon ci
 相習	shian zhiq
-相背	shian pei
+相背	shian bei
 相認	shian gnin
 相輔而行	shian fu er yin
 相逢自是有緣	shian von zy zy yeu yu
@@ -30579,7 +30625,7 @@ use_preset_vocabulary: true
 耳聽八方	er thin paq faon
 耳聽爲虛	er thin wei shiu
 耳聾	er lon
-耳背	er pei
+耳背	er bei
 耳膜	er mou
 耳蝸	er uo
 耳蠟	er laq
@@ -30848,11 +30894,11 @@ use_preset_vocabulary: true
 背上去	pei zaon chi
 背不動	bei paq don
 背不動	pei paq don
-背了時	pei laq zy
+背了時	bei laq zy
 背井離鄉	pei cin li shian
 背人	pei gnin
-背信	pei shin
-背信棄義	pei shin chi gni
+背信	bei shin
+背信棄義	bei shin chi gni
 背側	pei tshaq
 背債	pei tsa
 背傷	pei saon
@@ -30870,8 +30916,8 @@ use_preset_vocabulary: true
 背包客	pei pau khaq
 背包袱	pei pau boq
 背包遊	pei pau yeu
-背叛	pei bun
-背叛者	pei bun tse
+背叛	bei bun
+背叛者	bei bun tse
 背向	pei shian
 背向着	pei shian dzoq
 背囊	pei naon
@@ -30905,7 +30951,7 @@ use_preset_vocabulary: true
 背會	bei wei
 背板	bei pae
 背梁骨	pei lian kuaq
-背棄	pei chi
+背棄	bei chi
 背椅	pei i
 背榜	pei paon
 背氣	pei chi
@@ -30917,7 +30963,7 @@ use_preset_vocabulary: true
 背痛	pei thon
 背痠	pei soe
 背的	pei tiq
-背盟	pei men
+背盟	bei men
 背眼	bei ngae
 背眼	pei ngae
 背着	pei dzoq
@@ -30927,14 +30973,14 @@ use_preset_vocabulary: true
 背筐	pei khuaon
 背篼	pei teu
 背簍	pei leu
-背約	pei iaq
+背約	bei iaq
 背背	bei bei
 背背	pei pei
 背興	pei shin
 背袋	pei de
 背誦	bei dzon
 背誦着	bei dzon dzoq
-背謬	pei miau
+背謬	bei miau
 背負	pei veu
 背負着	pei veu dzoq
 背負着	pei veu zoq
@@ -30942,13 +30988,11 @@ use_preset_vocabulary: true
 背起	pei chi
 背起來	bei chi le
 背起來	pei chi le
-背逆	pei gniq
-背運	pei yun
-背道而馳	pei dau er dzy
-背道而馳	pei dau er ji
+背逆	bei gniq
+背運	bei yun
 背部	pei bu
 背闊肌	pei khuaq ci
-背離	pei li
+背離	bei li
 背靠	pei khau
 背靠背	pei khau pei
 背面	pei mi
@@ -36687,7 +36731,7 @@ use_preset_vocabulary: true
 違法行爲	wei faq yin wei
 違紀參選	wei ci tshae soe
 違約責任	wei iaq tsaq zyun
-違背	wei pei
+違背	wei bei
 違規人	wei kuei gnin
 違規行爲	wei kuei yin wei
 遙望	yau vaon
@@ -39376,6 +39420,8 @@ use_preset_vocabulary: true
 隱去	in chiu
 隱沒	in maq
 隱生宙	in sen jieu
+隱蔽強迫下載	in bi chian paq gho tse
+隱蔽強迫下載	in bi jian paq gho tse
 隱身草兒	in shin tshau er
 隴斷	lon doe
 隻貓	tsaq mae

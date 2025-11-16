@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2025.11.05"
+version: "2025.11.11"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -15047,7 +15047,6 @@ import_tables:
 鮊	baq	0%
 拔	baq
 抜	baq
-鈸	baq
 坺	baq
 跋	baq
 祓	baq
@@ -15069,6 +15068,7 @@ import_tables:
 颰	baq
 鼻	baq
 帛	baq
+鈸	baq
 孛	baq
 勃	baq
 餑	baq
@@ -15083,8 +15083,8 @@ import_tables:
 挬	baq
 桲	baq
 郣	baq
-佛	baq	0%
 𦤣	baq	5%
+佛	baq	0%
 麥	maq
 䥑	maq
 嘜	maq
@@ -15500,7 +15500,6 @@ import_tables:
 笧	tshaq
 赤	tshaq	5%
 哧	tshaq
-漆	tshaq	5%
 斥	tshaq
 㿭	tshaq
 拆	tshaq
@@ -15526,6 +15525,7 @@ import_tables:
 蕞	tshaq
 珿	tshaq
 促	tshaq	5%
+漆	tshaq	5%
 囃	tshaq
 憡	tshaq
 皟	tshaq
@@ -15884,6 +15884,7 @@ import_tables:
 閼	aq
 阿	aq
 啊	aq	5%
+軛	aq
 庘	aq
 劜	aq
 呝	aq
@@ -15904,7 +15905,6 @@ import_tables:
 呃	aq
 扼	aq
 搤	aq
-軛	aq
 枙	aq
 砈	aq
 藹	aq
@@ -21510,9 +21510,9 @@ import_tables:
 泼	phaq
 䥽	phaq
 鲌	baq
-钹	baq
 𫐈	baq
 𩙥	baq
+钹	baq
 饽	baq
 鹁	baq
 麦	maq
@@ -36277,7 +36277,8 @@ import_tables:
 水出爛糟	syu tshyuq lae tsau	55
 書桌	syu tsoq
 水竹	syu tsoq	55
-世珠骨	syu tsyu kuaq
+數珠	syu tsyu
+數珠骨	syu tsyu kuaq
 書房	syu vaon
 水滉滉動	syu waon waon don
 四圍	syu wei
@@ -38444,6 +38445,7 @@ import_tables:
 扯平	tsho bin
 扯篷	tsho bon	55
 叉肩胛	tsho ci kaq	55
+扯淡	tsho dae
 扯蛋	tsho dae
 車頭	tsho deu
 差咋勿多	tsho dza vaq tou
