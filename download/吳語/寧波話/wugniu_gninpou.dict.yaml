@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2025.11.11"
+version: "2025.11.29"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -125,7 +125,7 @@ import_tables:
 沚	tsy
 凪	tsy
 子	tsy
-仔	tsy
+仔	tsy	10000
 籽	tsy
 耔	tsy
 虸	tsy
@@ -2849,11 +2849,11 @@ import_tables:
 蜬	ki-ke
 該	ki-	0%
 賅	ki-
-居	ki-	55
-𡨢	ki-
 丐	ki-	10%
 匃	ki-	10%
 匄	ki-	10%
+居	ki-	55
+𡨢	ki-
 敢	ki-ke
 澉	ki-ke
 感	ki-ke
@@ -6968,8 +6968,6 @@ import_tables:
 賅	ke
 胲	ke
 荄	ke
-居	ke	55
-𡨢	ke
 姟	ke
 峐	ke
 祴	ke
@@ -6977,6 +6975,8 @@ import_tables:
 晐	ke
 絯	ke
 豥	ke
+居	ke	55
+𡨢	ke
 改	ke
 絠	ke
 揀	ke	0%
@@ -27630,7 +27630,8 @@ import_tables:
 依埭	i da	55
 菸袋袋	i de de	55
 依掉	i diau	55
-蔫掉	i diau	55
+蔫掉	i diau
+饐掉	i diau	55
 挔鋤頭柄	i dzu deu pin
 衣櫥頭頂	i dzyu deu ten
 衣櫥裏向	i dzyu li shian
@@ -31025,14 +31026,14 @@ import_tables:
 來去	le chi
 來發哥	le faq kou
 來發來發講啥西	le faq le faq kaon so shi
-來該	le ke	55
+來該	le ke	578
 來勒	le laq	55
 來勒及	le laq ji	578
-來當	le taon	55
+來當	le taon	578
 來的	le tiq
 來的了	le tiq lei	55
 來的𡀂	le tiq lei	55
-來東	le ton	55
+來東	le ton	578
 來弗及	le vaq ji	578
 擂盆	lei ben	55
 礌盤	lei bun	55
@@ -34195,6 +34196,7 @@ import_tables:
 𤖼蟹股	phaq ha ku	55
 𤖼一字	phaq iq zy	55
 𤖼一字跌	phaq iq zy tiq	55
+𤖼開	phaq khe	55
 拍馬屁	phaq mo phi
 潑潑個	phaq phaq kou
 啪啪爆	phaq phaq pau
@@ -37075,10 +37077,10 @@ import_tables:
 天家忒熱	thi ko thou gniq
 天藍	thi lae
 天裏	thi li	55
-添裏	thi li	55
+替裏	thi li	55
 天裏菩薩	thi li bu saq
-添裏褲	thi li khu	55
-添裏布衫	thi li pu sae	55
+替裏褲	thi li khu	55
+替裏布衫	thi li pu sae	55
 體裏汰剌	thi li tha la	55
 天亮紅霞靉愁愁	thi lian ghon ya a zeu zeu
 天落水	thi loq syu	55
@@ -38363,7 +38365,7 @@ import_tables:
 忖變	tshen pi
 襯布	tshen pu
 襯衫	tshen sae
-襯衫添裏	tshen sae thi li
+襯衫替裏	tshen sae thi li
 忖煞介	tshen saq ka	55
 忖寫	tshen shia
 忖相	tshen shian	55
