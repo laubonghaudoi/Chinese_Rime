@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2025.12.14"
+version: "2026.01.10"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -1225,7 +1225,6 @@ import_tables:
 痱	fi
 疿	fi
 吠	fi
-𣏕	fi
 橃	fi
 唯	vi
 維	vi
@@ -1321,7 +1320,6 @@ import_tables:
 墊	ti	5%
 琠	ti
 錪	ti
-踮	ti
 帝	ti
 締	ti
 渧	ti
@@ -1342,6 +1340,7 @@ import_tables:
 坫	ti
 痁	ti
 惦	ti
+踮	ti
 殿	ti	0%
 埝	ti
 梯	thi
@@ -6024,8 +6023,8 @@ import_tables:
 堊	o	5%
 家	o	0%
 啞	o
-瘂	o
 唖	o
+瘂	o
 𦫪	o
 惑	o	0%
 掗	o
@@ -7201,6 +7200,7 @@ import_tables:
 鋬	phae
 盻	phae
 爿	bae
+丬	bae
 𤖭	bae
 牌	bae	10%
 魬	bae
@@ -7702,6 +7702,7 @@ import_tables:
 鹸	kae
 鹻	kae
 碱	kae
+硷	kae
 揀	kae
 襇	kae
 襉	kae
@@ -7922,6 +7923,7 @@ import_tables:
 翏	lieu
 鷚	lieu
 溜	lhieu
+熘	lhieu
 鑽	tsoe
 鑚	tsoe
 專	tsoe
@@ -17905,6 +17907,7 @@ import_tables:
 隉	gniq
 湼	gniq
 掜	gniq
+陧	gniq
 鷁	gniq
 屹	gniq
 圪	gniq
@@ -18747,6 +18750,8 @@ import_tables:
 
 𫛛	tsy
 资	tsy
+赀	tsy
+谘	tsy
 鲻	tsy
 缁	tsy
 辎	tsy
@@ -19267,6 +19272,7 @@ import_tables:
 盐	yi
 贤	yi
 闫	yi
+讠	yi
 铅	yi
 𫍯	yi
 颜	yi
@@ -19472,6 +19478,7 @@ import_tables:
 亏	chiu
 劝	chiu
 绻	chiu
+钜	jiu
 惧	jiu
 飓	jiu
 鸲	jiu
@@ -19728,12 +19735,14 @@ import_tables:
 𲍔	so
 赊	so
 𫚌	so
+厍	so
 厦	so
 价	ko	0%
 桠	o
 鸦	o
 垩	o
 哑	o
+痖	o
 挜	o
 标	piau
 飙	piau
@@ -19741,6 +19750,7 @@ import_tables:
 飑	piau
 骉	piau
 镖	piau
+镳	piau
 飘	phiau
 缥	phiau
 𫌬	phiau
@@ -19956,6 +19966,7 @@ import_tables:
 𫠐	he
 许	he
 汉	he
+颏	ghe
 骇	ghe
 锿	e
 诶	e
@@ -19964,6 +19975,7 @@ import_tables:
 霭	e
 爱	e
 瑷	e
+嗳	e
 嫒	e
 𫉁	e
 阶	cie
@@ -20225,6 +20237,7 @@ import_tables:
 䓓	jieu
 绸	jieu
 䌷	jieu
+雠	jieu
 㤽	jieu
 鲉	jieu
 赇	jieu
@@ -20385,6 +20398,8 @@ import_tables:
 刽	kuei
 脍	kuei
 鲙	kuei
+侩	kuei
+狯	kuei
 闺	kuei
 𤶊	kuei
 郐	kuei
@@ -20414,6 +20429,7 @@ import_tables:
 𫖃	guei
 挥	huei
 辉	huei
+晖	huei
 翚	huei
 珲	huei
 讳	huei
@@ -20540,6 +20556,7 @@ import_tables:
 卧	ngou
 饿	ngou
 钬	hou
+诃	hou
 货	hou
 鲄	ghou
 红	ghou
@@ -20740,6 +20757,7 @@ import_tables:
 痒	yan
 养	yan
 样	yan
+炀	yan
 鸯	ian
 𫓭	ian
 养	ian
@@ -20789,6 +20807,7 @@ import_tables:
 装	tsaon
 脏	tsaon
 赃	tsaon
+颡	tsaon
 𫠒	tsaon
 𫜂	tsaon
 桩	tsaon
@@ -21096,6 +21115,7 @@ import_tables:
 钲	cin
 诊	cin
 浕	cin
+钅	cin
 经	cin
 茎	cin
 惊	cin
@@ -21114,6 +21134,7 @@ import_tables:
 琎	cin
 缙	cin
 径	cin
+迳	cin
 刭	cin
 胫	cin
 弪	cin
@@ -21207,6 +21228,7 @@ import_tables:
 兴	shin
 审	shin
 婶	shin
+渖	shin
 谂	shin
 圣	shin	0%
 胜	shin	0%
@@ -21422,6 +21444,7 @@ import_tables:
 综	tson
 𫎆	tson
 钟	tson
+锺	tson
 终	tson
 总	tson
 偬	tson
@@ -24251,7 +24274,7 @@ import_tables:
 只勒	ciq laq	55
 灼辣辣	ciq laq laq	55
 接翎子	ciq lin tsy	55
-唧力刮剌	ciq liq kuaq laq
+咭咧骨勒	ciq liq kuaq laq
 接龍	ciq lon
 積落	ciq loq	55
 今末	ciq maq	50000
@@ -39242,6 +39265,7 @@ import_tables:
 㰵勒出	tsyuq laq tshyuq
 㰵奶奶	tsyuq nhe nhe
 㰵出來	tsyuq tshyuq le
+折轉	tsyuq tsoe
 㰵指末頭	tsyuq tsy maq deu
 㰵㰵	tsyuq tsyuq
 㰵勿出	tsyuq vaq tshyuq
