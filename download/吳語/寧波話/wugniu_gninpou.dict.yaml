@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2026.01.10"
+version: "2026.01.18"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -1213,6 +1213,7 @@ import_tables:
 肺	fi
 芾	fi
 杮	fi
+𣏕	fi
 費	fi
 鐨	fi
 昲	fi
@@ -3025,8 +3026,8 @@ import_tables:
 醎	yi
 檐	yi
 簷	yi
-顏	yi	5%
-顔	yi	5%
+顏	yi	0%
+顔	yi	0%
 㘖	yi
 楌	yi
 癇	yi
@@ -6028,6 +6029,7 @@ import_tables:
 𦫪	o
 惑	o	0%
 掗	o
+𢛟	o
 下	o	5%
 標	piau
 彪	piau
@@ -15210,6 +15212,7 @@ import_tables:
 刜	vaq
 昒	vaq
 沕	vaq
+搭	taq	831253
 妲	taq
 靼	taq
 怛	taq
@@ -15224,7 +15227,6 @@ import_tables:
 矺	taq
 答	taq
 荅	taq
-搭	taq	831253
 溚	taq
 嗒	taq
 㿯	taq
@@ -15258,6 +15260,7 @@ import_tables:
 柮	taq
 塔	thaq
 墖	thaq
+搭	thaq	1%
 獺	thaq
 塌	thaq
 榻	thaq
@@ -15294,7 +15297,6 @@ import_tables:
 慝	thaq
 拓	thaq	5%
 突	thaq	5%
-搭	thaq	5%
 脦	thaq
 侻	thaq
 宊	thaq
@@ -16468,7 +16470,7 @@ import_tables:
 築	toq	5%
 得	toq	0%
 跌	toq	0%
-搭	toq	5%
+搭	toq	1%
 豰	toq
 裻	toq
 庹	thoq
@@ -17327,7 +17329,7 @@ import_tables:
 甋	tiq
 笘	tiq
 聑	tiq
-搭	tiq	5%
+搭	tiq	1%
 肑	tiq
 蹢	tiq
 跕	tiq
@@ -19782,7 +19784,6 @@ import_tables:
 缭	liau
 辽	liau
 鹩	liau
-了	liau
 钌	liau
 镣	liau
 诏	ciau
@@ -21440,7 +21441,6 @@ import_tables:
 𫢒	lon
 𨀁	lon
 𫎦	lon
-弄	lon
 综	tson
 𫎆	tson
 钟	tson
@@ -21739,7 +21739,6 @@ import_tables:
 𫐗	poq
 钋	phoq
 泺	phoq
-卜	boq	0%
 铂	boq
 仆	boq	0%
 镤	boq
@@ -21877,7 +21876,6 @@ import_tables:
 𪪼	piq
 筚	piq
 荜	piq
-别	piq	0%
 铋	piq
 𫚑	piq
 鳖	piq
