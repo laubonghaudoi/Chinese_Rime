@@ -4,7 +4,7 @@
 schema:
   schema_id: wugniu_gnincieu
   name: 吳語（鄞州）
-  version: "0.7.3"
+  version: "0.8.1"
   author:
     - Shin Zoqchiuq <shinzoqchiuq@outlook.com>
   description: |
@@ -15,6 +15,7 @@ schema:
   dependencies:
     - luna_pinyin
     - stroke
+    - gninpou_lianfen
 
 switches:
   - name: ascii_mode
@@ -41,17 +42,19 @@ engine:
   segmentors:
     - ascii_segmentor
     - matcher
-    - affix_segmentor@luna_pinyin # 自定義tag luna_pinyin
-    - affix_segmentor@stroke      # 自定義tag stroke
+    - affix_segmentor@luna_pinyin      # 自定義tag luna_pinyin
+    - affix_segmentor@stroke           # 自定義tag stroke
+    - affix_segmentor@gnincieu_lianfen # 自定義tag gnincieu_lianfen
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
-    - script_translator              # 主翻譯器
-    - script_translator@luna_pinyin  # 用於反查的luna_pinyin翻譯器
-    - table_translator@stroke        # 用於反查的stroke翻譯器
-    - table_translator@custom_phrase # 用戶短語
+    - script_translator                  # 主翻譯器
+    - script_translator@luna_pinyin      # 用於反查的luna_pinyin翻譯器
+    - table_translator@stroke            # 用於反查的stroke翻譯器
+    - table_translator@gnincieu_lianfen  # 用於反查的gnincieu_lianfen翻譯器
+    - table_translator@custom_phrase     # 用戶短語
   filters:
     - simplifier
     - uniquifier
@@ -178,7 +181,18 @@ stroke:
   preedit_format:
     - xlit/hspnz/一丨丿丶乙/
 
-# 副翻譯器3 用戶短語
+# 副翻譯器3 寧波兩分
+gnincieu_lianfen:
+  tag: gnincieu_lianfen
+  dictionary: gninpou_lianfen # 調取詞典gninpou_lianfen
+  prism: gnincieu_lianfen     # 調取棱鏡文件gnincieu_lianfen
+  enable_user_dict: false     # 關閉用戶詞典
+  prefix: 'q'                 # 引導鍵「`」
+  suffix: "'"                 # 結束鍵「'」
+  tips: 〔兩分反查〕              # 輸入前提示〔反查〕
+  closing_tips: 〔吳語（寧波）〕
+
+# 副翻譯器4 用戶短語
 custom_phrase:
   dictionary: ""
   user_dict: custom_phrase # 用戶詞典名
@@ -189,7 +203,7 @@ custom_phrase:
 
 # 反查濾鏡
 reverse_lookup:
-  tags: [luna_pinyin, stroke] # 掛在翻譯器luna_pinyin和stroke上
+  tags: [luna_pinyin, stroke, gnincieu_lianfen] # 掛在翻譯器luna_pinyin、stroke和gnincieu_lianfen上
   overwrite_comment: true     # 覆蓋其他提示
   dictionary: wugniu_gninpou  # 反查所得爲寧波吳拼
   comment_format:
@@ -210,3 +224,4 @@ recognizer:
     punct: "^/([0-9]|10|[A-Za-z]+)$" # 按 / 輸入符號
     luna_pinyin: "`[hspnz]*[aeiouv][a-z]*'?$|`[a-gi-moqrt-y][a-z]*'?$"
     stroke: "`[hspnz]+'?$"
+    gninpou_lianfen: ^q[a-z]*'?$
