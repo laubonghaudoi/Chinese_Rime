@@ -18,7 +18,7 @@
 
 ---
 name: wugniu_gninpou
-version: "2026.01.24"
+version: "2026.01.26"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -231,7 +231,7 @@ import_tables:
 誃	tshy
 鉹	tshy
 次	tshy
-粢	tshy
+粢	tshy	50%
 刺	tshy
 莿	tshy
 蛓	tshy
@@ -551,7 +551,7 @@ import_tables:
 沮	tsyu
 菹	tsyu
 蛆	tsyu
-趄	tsyu
+趄	tsyu	0%
 置	tsyu
 櫧	tsyu
 蠩	tsyu
@@ -664,7 +664,7 @@ import_tables:
 覰	tshyu
 刞	tshyu
 痸	tshyu
-粢	tshyu
+粢	tshyu	45%
 懘	tshyu
 瘛	tshyu
 卶	tshyu
@@ -1866,7 +1866,7 @@ import_tables:
 鐗	ci
 鐧	ci
 菅	ci
-間	ci
+間	ci	20%
 覸	ci
 蕑	ci
 肩	ci
@@ -2244,7 +2244,7 @@ import_tables:
 筯	ji
 踟	ji
 畤	ji
-岻	ji
+岻	ji	50%
 謘	ji
 遟	ji
 懠	ji
@@ -2374,8 +2374,8 @@ import_tables:
 褫	ji
 滍	ji
 豸	ji
-洔	ji
-秲	ji
+洔	ji	50%
+秲	ji	50%
 啙	ji
 技	ji
 妓	ji
@@ -2499,7 +2499,7 @@ import_tables:
 礒	gni
 艤	gni
 齮	gni
-耳	gni
+耳	gni	50%
 擬	gni
 儗	gni
 旎	gni
@@ -3316,7 +3316,7 @@ import_tables:
 怖	pu
 鈽	pu
 鋪	phu
-脯	phu
+脯	phu	10%
 䮒	phu
 潽	phu
 墲	phu
@@ -3414,7 +3414,7 @@ import_tables:
 哹	fu
 鴀	fu
 妋	fu
-乎	fu
+乎	fu	1%
 呼	fu
 嘑	fu
 虖	fu
@@ -3759,9 +3759,9 @@ import_tables:
 徂	dzu
 齟	dzu
 殂	dzu
-鋤	dzu
-耡	dzu
-鉏	dzu
+鋤	dzu	20%
+耡	dzu	20%
+鉏	dzu	20%
 助	dzu
 豠	dzu
 秨	dzu
@@ -4247,8 +4247,8 @@ import_tables:
 淃	jiu
 韏	jiu
 虞	gniu
-娛	gniu
-娯	gniu
+娛	gniu	10%
+娯	gniu	10%
 鋙	gniu
 禺	gniu
 隅	gniu
@@ -4543,7 +4543,7 @@ import_tables:
 豫	yu
 蕷	yu
 瑗	yu
-芋	yu
+芋	yu	10%
 諭	yu
 礜	yu
 忬	yu
@@ -4604,7 +4604,7 @@ import_tables:
 惌	iu
 裷	iu
 嬽	iu
-椅	iu
+椅	iu	5%
 𩌑	iu
 䩩	iu	25
 畹	iu
@@ -4674,7 +4674,7 @@ import_tables:
 唄	ba
 韝	ba
 韛	ba
-埋	ma
+埋	ma	10%
 嘛	ma
 霾	ma
 薶	ma
@@ -4731,16 +4731,16 @@ import_tables:
 𢪂	da	55
 𠯈	da
 汏	da
-拿	na
-挐	na
-拏	na
+拿	na	5%
+挐	na	5%
+拏	na	5%
 鎿	na
 艿	na
 誽	na
 南	na	0%
 倷	na	55
-吶	na
-呐	na
+吶	na	40%
+呐	na	40%
 哪	na
 奶	na
 嬭	na
@@ -4748,7 +4748,7 @@ import_tables:
 爛	na	0%
 嬲	na	0%
 娜	na
-哪	nha
+哪	nha	50%
 吶	nha
 呐	nha
 那	nha
@@ -4768,7 +4768,7 @@ import_tables:
 啦	la
 洡	la	0%
 犡	la
-拉	lha
+拉	lha	50%
 啦	lha
 菈	lha
 齋	tsa
@@ -4782,7 +4782,7 @@ import_tables:
 瘵	tsa
 𨝋	tsa
 祭	tsa	0%
-差	tsha
+差	tsha	20%
 叉	tsha	0%
 釵	tsha
 攃	tsha
@@ -4883,7 +4883,7 @@ import_tables:
 合	gha	0%
 鞵	gha
 還	gha	10%
-啊	gha
+啊	gha	10%
 也	gha
 捱	a	0%
 挨	a
@@ -4895,9 +4895,9 @@ import_tables:
 矮	a
 躷	a
 㢊	a
-阿	a
+阿	a	30%
 靉	a
-隘	a
+隘	a	50%
 賹	a
 阸	a
 爹	tia
@@ -4905,8 +4905,8 @@ import_tables:
 蒫	cia
 袓	cia
 謯	cia
-家	cia
-傢	cia
+家	cia	20%
+傢	cia	20%
 稼	cia
 鎵	cia
 加	cia	6%
@@ -5028,7 +5028,7 @@ import_tables:
 野	ya
 埜	ya
 壄	ya
-也	ya
+也	ya	20%
 厊	ya
 懈	ya
 亱	ya
@@ -5036,8 +5036,8 @@ import_tables:
 犽	ya
 夜	ya
 鵺	ya
-鴉	ia
-鵶	ia
+鴉	ia	10%
+鵶	ia	10%
 訝	ia
 迓	ia
 䃁	ia
@@ -5548,7 +5548,7 @@ import_tables:
 槹	kau
 鷱	kau
 倃	kau
-絞	kau
+絞	kau	10%
 鉸	kau
 杲	kau
 縞	kau
@@ -6055,7 +6055,7 @@ import_tables:
 瀌	piau
 髟	piau
 儦	piau
-杓	piau
+杓	piau	10%
 爂	piau
 表	piau
 錶	piau
@@ -7012,7 +7012,7 @@ import_tables:
 慨	khe
 嘅	khe
 看	khe	5%
-墈	khe
+墈	khe	10%
 戤	ge
 隑	ge	0%
 寋	ge
@@ -7750,7 +7750,7 @@ import_tables:
 闞	khae
 檻	khae
 夾	gae	5%
-諫	gae
+諫	gae	5%
 岩	ngae
 巖	ngae
 巌	ngae
@@ -7813,7 +7813,7 @@ import_tables:
 嬛	huae
 咺	huae
 甩	huae	5%
-還	wae
+還	wae	20%
 環	wae
 圜	wae
 澴	wae
@@ -7836,8 +7836,8 @@ import_tables:
 抏	wae
 岏	wae
 忨	wae
-懷	wae
-懐	wae
+懷	wae	10%
+懐	wae	10%
 蘹	wae
 瀤	wae
 櫰	wae
@@ -8382,7 +8382,7 @@ import_tables:
 杻	gnieu
 糅	gnieu
 腬	gnieu
-扭	knieu
+扭	knieu	10%
 收	shieu
 収	shieu
 修	shieu
@@ -9050,7 +9050,7 @@ import_tables:
 臎	tshei
 𪙞	tshei-tshe	5%
 ⿱咋會	dzei
-墜	dzei
+墜	dzei	10%
 雖	sei
 綏	sei
 荽	sei
@@ -9263,7 +9263,7 @@ import_tables:
 譀	ghei-ghe
 忓	ghei-ghe
 唅	ghei-ghe
-哎	ei-e
+哎	ei-e	20%
 安	ei-e
 桉	ei-e
 鮟	ei-e
@@ -11189,8 +11189,8 @@ import_tables:
 棢	vaon
 蛧	vaon
 誷	vaon
-望	vaon
-朢	vaon
+望	vaon	10%
+朢	vaon	10%
 亡	vaon
 亾	vaon
 忘	vaon
@@ -12446,7 +12446,7 @@ import_tables:
 根	ken
 跟	ken
 耕	ken	6%
-更	ken
+更	ken	12%
 哽	ken
 亙	ken
 亘	ken
@@ -15277,7 +15277,7 @@ import_tables:
 𡍲	thaq	578
 撻	thaq
 闥	thaq
-沓	thaq
+沓	thaq	20%
 䵬	thaq
 㒓	thaq
 狧	thaq
@@ -15362,8 +15362,8 @@ import_tables:
 哪	naq	5%
 辣	naq	0%
 痆	naq
-吶	naq
-呐	naq
+吶	naq	10%
+呐	naq	10%
 鈉	naq
 納	naq
 衲	naq
@@ -15881,9 +15881,9 @@ import_tables:
 齕	ghaq
 壓	aq
 圧	aq
-鴨	aq
-𩿼	aq
-𪀌	aq
+鴨	aq	20%
+𩿼	aq	20%
+𪀌	aq	20%
 押	aq
 閼	aq
 阿	aq
@@ -16465,7 +16465,7 @@ import_tables:
 䐁	toq
 𡰪	toq
 沰	toq
-啄	toq
+啄	toq	5%
 裰	toq
 築	toq	5%
 得	toq	0%
@@ -16891,7 +16891,7 @@ import_tables:
 淑	zoq
 婌	zoq
 碩	zoq
-若	zoq
+若	zoq	10%
 鄀	zoq
 勺	zoq
 杓	zoq
@@ -17073,7 +17073,7 @@ import_tables:
 頶	ghoq
 貈	ghoq
 個	ghoq	1607642
-箇	ghoq
+箇	ghoq	10%
 嗰	ghoq
 屋	oq
 握	oq
@@ -18719,7 +18719,7 @@ import_tables:
 嘸	m	0%
 鰻	m	5%
 呣	mh
-姆	mh
+姆	mh	1%
 嘸	mh
 芋	n
 兒	ng
@@ -18730,7 +18730,7 @@ import_tables:
 呉	ng	0%
 五	ng
 𠄡	ng
-耳	ng
+耳	ng	44%
 午	ng	0%
 伍	ng	0%
 尾	ng	1%
