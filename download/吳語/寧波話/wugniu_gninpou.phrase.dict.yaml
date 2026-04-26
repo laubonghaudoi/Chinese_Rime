@@ -20,7 +20,7 @@
 
 ---
 name: wugniu_gninpou.phrase
-version: "2026.03.30"
+version: "2026.04.23"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -2194,6 +2194,11 @@ use_preset_vocabulary: true
 智能駕駛
 智駕
 輔助駕駛
+提示詞
+提示詞工程師
+短劇
+美伊以衝突
+美伊以戰爭
 
 # 西北太平洋和南中國海熱帶氣旋命名表
 
@@ -16333,6 +16338,7 @@ NBA	e n bi ei
 壓煞個	aq saq ghoq
 阿爹個	aq tia goq
 阿爹個	aq tia ghoq
+壓服	aq voq
 阿姨個	aq yi goq
 阿姨個	aq yi ghoq
 懊弗轉	au vaq tsoe	1
@@ -16373,6 +16379,8 @@ NBA	e n bi ei
 抱來	bau le
 抱來仔	bau le tsy
 暴虐	bau gniaq
+暴虐個	bau gniaq goq
+暴虐個	bau gniaq ghoq
 袍子	bau tsy
 抱仔	bau tsy
 抱進來	bau cin le
@@ -16413,6 +16421,7 @@ NBA	e n bi ei
 皮肉	bi gnioq
 皮鞭	bi pi
 皮帶	bi ta
+脾胃	bi wei
 皮匠	bi zhian
 嫖嬉	biau shi
 別爿	biq bae
@@ -16616,8 +16625,8 @@ NBA	e n bi ei
 棕色個	tson saq goq
 棕色個	tson saq ghoq
 棕色	tson saq
-忠心	tson shin
 忠信	tson shin
+忠心	tson shin
 忠信個	tson shin goq
 忠信個	tson shin ghoq
 忠心個	tson shin goq
@@ -16689,6 +16698,7 @@ NBA	e n bi ei
 轉來個	tsoe le goq
 轉來個	tsoe le ghoq
 專門	tsoe men
+轉變	tsoe pi
 轉賜撥	tsoe sy paq
 轉彎	tsoe uae
 出頭出腦	tshyuq deu tshyuq nau
@@ -16723,6 +16733,7 @@ NBA	e n bi ei
 出名個	tshyuq min ghoq
 出名	tshyuq min
 出孃胎	tshyuq gnian the
+出兵	tshyuq pin
 出膊個	tshyuq poq goq
 出膊個	tshyuq poq ghoq
 出息	tshyuq shiq
@@ -16873,6 +16884,7 @@ NBA	e n bi ei
 奪勒	daq laq
 奪勒去	daq laq chi
 奪了去	daq laq chi
+奪了來	daq laq le
 奪來個	daq le goq
 奪來個	daq le ghoq
 奪來	daq le
@@ -16930,6 +16942,7 @@ NBA	e n bi ei
 頭一起	deu iq chi
 頭一門	deu iq men
 頭一日	deu iq gniq
+頭一遭	deu iq tsau
 頭一胎	deu iq the
 頭一伐	deu iq vaq
 頭緒	deu zyu
@@ -17113,6 +17126,8 @@ NBA	e n bi ei
 定罪過	din zei kou
 絕掉	dzyuq diau
 絕開	dzyuq khe
+絕開個	dzyuq khe goq
+絕開個	dzyuq khe ghoq
 逐日個	dzoq gniq goq
 逐日個	dzoq gniq ghoq
 重頭	dzon deu
@@ -17148,7 +17163,6 @@ NBA	e n bi ei
 住間個	dzyu kae ghoq
 住該	dzyu ke
 除勒	dzyu laq
-住了	dzyu laq
 住來	dzyu le
 除滅	dzyu miq
 除滅掉	dzyu miq diau
@@ -17324,6 +17338,7 @@ NBA	e n bi ei
 童女	don gniu
 童女個	don gniu goq
 童女個	don gniu ghoq
+銅師父	don sy vu
 同室	don syuq
 同死同活個	don shi don waq goq
 同死同活個	don shi don waq ghoq
@@ -17384,6 +17399,8 @@ NBA	e n bi ei
 池裏	ji li
 池裏個	ji li goq
 池裏個	ji li ghoq
+遲誤	ji nu
+遲誤	ji wu
 遲早	ji tsau
 遲緩	ji wun
 着重	jiaq dzon
@@ -17444,6 +17461,8 @@ NBA	e n bi ei
 鄭重	jin dzon
 城池	jin ji
 成就	jin jieu
+成就個	jin jieu goq
+成就個	jin jieu ghoq
 仍舊	jin jieu
 誠實	jin zyuq
 誠實個	jin zyuq goq
@@ -17460,6 +17479,7 @@ NBA	e n bi ei
 成管個	jin kun ghoq
 成管	jin kun
 城腳沿	jin ciaq yi
+成見	jin ci
 成勒	jin laq
 剩勒	jin laq
 乘勒	jin laq
@@ -17480,6 +17500,9 @@ NBA	e n bi ei
 剩落東個	jin loq ton ghoq
 沉落	jin loq
 沉落去了	jin loq chi lei
+剩落間個	jin loq kae goq
+剩落間個	jin loq kae ghoq
+剩落該	jin loq ke
 城門個	jin men goq
 城門個	jin men ghoq
 城門口	jin men kheu
@@ -17492,6 +17515,7 @@ NBA	e n bi ei
 陣勢	jin syu
 盡心	jin shin
 誠心	jin shin
+誠信	jin shin
 盡心竭力	jin shin jiq liq
 城子	jin tsy
 臣子	jin tsy
@@ -17507,6 +17531,7 @@ NBA	e n bi ei
 仇敵	jieu diq
 仇敵個	jieu diq goq
 仇敵個	jieu diq ghoq
+囚犯	jieu vae
 族種	dzoq tson
 族種個	dzoq tson goq
 族種個	dzoq tson ghoq
@@ -17528,6 +17553,7 @@ NBA	e n bi ei
 助攏來個	dzu lon le goq
 助攏來個	dzu lon le ghoq
 助攏來	dzu lon le
+才全德備	dze dzoe taq bei
 才情	dze jin
 纔方	dze faon
 在其內	dze ji nei
@@ -17664,6 +17690,9 @@ NBA	e n bi ei
 安息日個	ei-e shiq gniq goq
 安息日個	ei-e shiq gniq ghoq
 安心	ei-e shin
+按手	ei-e shieu
+按手個	ei-e shieu goq
+按手個	ei-e shieu ghoq
 安搭	ei-e taq
 安得	ei-e taq
 安頓	ei-e ten
@@ -17725,6 +17754,7 @@ NBA	e n bi ei
 發達	faq daq
 發動	faq don
 法度	faq du
+發財	faq dze
 法堂前	faq daon zhi
 法堂上	faq daon zaon
 發風	faq fon
@@ -17899,6 +17929,7 @@ NBA	e n bi ei
 非禮	fi li
 非禮個	fi li goq
 非禮個	fi li ghoq
+非禮之財	fi li tsy dze
 費力	fi liq
 飛落來	fi loq le
 飛來	fi le
@@ -18003,6 +18034,7 @@ NBA	e n bi ei
 放落	faon loq
 放來	faon le
 放炮	faon phau
+放肆	faon sy
 放鬆	faon son
 妨得	faon taq
 妨得個	faon taq goq
@@ -18024,6 +18056,7 @@ NBA	e n bi ei
 搿泰	gaq tha
 跔進	geu cin
 共攏	gon lon
+饋送	guei son
 跍該	gu ke
 其中	ji tson
 其道	ji dau
@@ -18052,15 +18085,18 @@ NBA	e n bi ei
 旗號	ji ghau
 旗下	ji gho
 旗下人	ji gho gnin
+強辯	jian bi
 強辯個	jian bi goq
 強辯個	jian bi ghoq
-強辯	jian bi
 強奪	jian daq
 滰弗	jian vaq	1
 滰勿	jian vaq
 強個	jian goq
 強個	jian ghoq
 強如	jian zyu
+滰乾淨個	jian ki-ke zhin goq
+滰乾淨個	jian ki-ke zhin ghoq
+滰乾淨	jian ki-ke zhin
 滰過個	jian kou goq
 滰過個	jian kou ghoq
 滰過了	jian kou liau
@@ -18077,8 +18113,11 @@ NBA	e n bi ei
 及如	jiq zyu
 竭力	jiq liq
 虔誠	ji jin
+虔誠個	ji jin goq
+虔誠個	ji jin ghoq
 健個	ji goq
 健個	ji ghoq
+虔虔心心	ji ji shin shin
 圈裏	ji li
 虔生個	ji san goq
 虔生個	ji san ghoq
@@ -18106,6 +18145,10 @@ NBA	e n bi ei
 近身	jin shin
 近身弗攏	jin shin vaq lon	1
 近身勿攏	jin shin vaq lon
+近身弗攏個	jin shin vaq lon goq	1
+近身弗攏個	jin shin vaq lon ghoq	1
+近身勿攏個	jin shin vaq lon ghoq
+近身勿攏個	jin shin vaq lon goq
 近身官	jin shin kun
 禽獸	jin shieu
 近點	jin ti
@@ -18126,6 +18169,7 @@ NBA	e n bi ei
 舊人	jieu gnin
 求拜	jieu pa
 球打球	jieu tan jieu
+求榮	jieu yon
 求和	jieu ghou
 櫃頭	jiu deu
 櫃頭頂	jiu deu ten
@@ -18257,6 +18301,7 @@ NBA	e n bi ei
 烘火	hon hou
 烘烘	hon hon
 烘烘火	hon hon hou
+哄人精	hon gnin cin
 哄騙個	hon phi goq
 哄騙個	hon phi ghoq
 歪斜個	hua zhia goq
@@ -18347,6 +18392,7 @@ NBA	e n bi ei
 享完	shian wun
 香油	shian yeu
 孝順	shiau zyun
+孝敬	shiau cin
 𢳚開仔	shiau khe tsy
 曉得了	shiau taq lei
 曉得個	shiau taq goq
@@ -18394,6 +18440,8 @@ NBA	e n bi ei
 虛花個	shiu huo goq
 虛花個	shiu huo ghoq
 虛花事	shiu huo zy
+虛㽺個	shiu shiq goq
+虛㽺個	shiu shiq ghoq
 許過	shiu kou
 許該	shiu ke
 虛假個	shiu ko goq
@@ -18407,6 +18455,9 @@ NBA	e n bi ei
 许多	shiu tou
 許多個	shiu tou goq
 許多個	shiu tou ghoq
+虛浮個	shiu veu goq
+虛浮個	shiu veu ghoq
+虛浮	shiu veu
 虛妄個	shiu vaon goq
 虛妄個	shiu vaon ghoq
 虛話	shiu wo
@@ -18735,9 +18786,9 @@ NBA	e n bi ei
 應承了	in jin liau
 應承了個	in jin liau goq
 應承了個	in jin liau ghoq
+隱藏	in dzaon
 隱藏個	in dzaon goq
 隱藏個	in dzaon ghoq
-隱藏	in dzaon
 隱藏該	in dzaon ke
 隱藏的	in dzaon tiq
 隱藏的個	in dzaon tiq goq
@@ -18799,6 +18850,7 @@ NBA	e n bi ei
 幽的個	ieu tiq goq
 幽的個	ieu tiq ghoq
 幽的	ieu tiq
+幽進	ieu cin
 憂上	ieu zaon
 入隊	zyuq dei
 集隊	zyuq dei
@@ -18878,6 +18930,7 @@ NBA	e n bi ei
 忍耐弗住	zyun ne vaq dzyu	1
 忍耐勿住	zyun ne vaq dzyu
 忍相	zyun shian
+仁心	zyun shin
 順手邊	zyun shieu pi
 神子	zyun tsy
 順隻	zyun tsaq
@@ -18984,7 +19037,7 @@ NBA	e n bi ei
 然後	zoe gheu
 介出	ka tshyuq
 街道	ka dau
-介掉	ka diau
+戒掉	ka diau
 解個	ka goq
 解個	ka ghoq
 街街弄弄	ka ka lon lon
@@ -19098,6 +19151,7 @@ NBA	e n bi ei
 該星個	kiq shin goq
 該星個	kiq shin ghoq
 該星介	kiq shin ka
+該頂	kiq tin
 該東西	kiq ton shi
 該節	kiq ciq
 該伐	kiq vaq
@@ -19145,6 +19199,9 @@ NBA	e n bi ei
 跟着	ken dzoq
 跟從	ken dzon
 根根	ken ken
+根基	ken ci
+根基個	ken ci goq
+根基個	ken ci ghoq
 跟該	ken ke
 跟間個	ken kae goq
 跟間個	ken kae ghoq
@@ -19249,7 +19306,8 @@ NBA	e n bi ei
 公道個	kon dau ghoq
 公堂裏	kon daon li
 工夫	kon fu
-功夫	kon fu
+工夫個	kon fu goq
+工夫個	kon fu ghoq
 工具	kon jiu
 恭喜	kon shi
 供應	kon in
@@ -19261,6 +19319,7 @@ NBA	e n bi ei
 攻擊	kon ciq
 恭敬	kon cin
 公舉	kon ciu
+拱起	kon chi
 功勞	kon lau
 公子	kon tsy
 供奉	kon von
@@ -19319,9 +19378,12 @@ NBA	e n bi ei
 僱來	ku le
 古米	ku mi
 姑娘	ku gnian
+孤孀個	ku saon goq
+孤孀個	ku saon ghoq
 古典	ku ti
 臌脹	ku cian
 古蹟	ku ciq
+固執不通	ku ciq paq thon
 孤清	ku chin
 故事	ku zy
 古時	ku zy
@@ -19465,6 +19527,7 @@ NBA	e n bi ei
 寬空	khun khon
 款式	khun shiq
 寬恕	khun syu
+寬容	khun yon
 寬宏	khun ghon
 寬宏肚量	khun ghon du lian
 寬限	khun ghae
@@ -19552,6 +19615,9 @@ NBA	e n bi ei
 驕傲個	ciau ngau goq
 驕傲個	ciau ngau ghoq
 驕傲心	ciau ngau shin
+驕傲糊塗個	ciau ngau wu du goq
+驕傲糊塗個	ciau ngau wu du ghoq
+驕傲糊塗	ciau ngau wu du
 繳身帶	ciau shin ta
 繳的個	ciau tiq goq
 繳的個	ciau tiq ghoq
@@ -19636,6 +19702,7 @@ NBA	e n bi ei
 禁壓該	cin aq ke
 謹防	cin baon
 景緻	cin tsy
+金珠	cin tsyu
 枕頭上	cin deu zaon
 境地	cin di
 敬重	cin dzon
@@ -19730,6 +19797,7 @@ NBA	e n bi ei
 鬼個	ciu goq
 鬼個	ciu ghoq
 矩矩	ciu ciu
+貴貴	ciu ciu
 歸去了	kuei chi lei
 歸去個	kuei chi goq
 歸去個	kuei chi ghoq
@@ -19819,6 +19887,8 @@ NBA	e n bi ei
 欺騙勿來個	chi phi vaq le goq
 欺騙弗來	chi phi vaq le	1
 欺騙勿來	chi phi vaq le
+欺騙個	chi phi goq
+欺騙個	chi phi ghoq
 去惜	chi shiq
 起身	chi shin
 氣性	chi shin
@@ -19856,13 +19926,16 @@ NBA	e n bi ei
 謙恭個	chi kon ghoq
 謙恭	chi kon
 牽去	chi chi
+欠缺	chi chiuq
 牽勒來	chi laq le
 牽來	chi le
 欠少	chi shiau
 欠到	chi tau
 欠早	chi tsau
+輕嘴薄舌	chin tsyu boq zhiq
 輕個	chin goq
 輕個	chin ghoq
+輕舉	chin ciu
 輕輕	chin chin
 輕看	chin khi-khe
 輕可個	chin khou goq
@@ -19899,6 +19972,7 @@ NBA	e n bi ei
 勸化	chiu huo
 勸化個	chiu huo goq
 勸化個	chiu huo ghoq
+勸過	chiu kou
 勸勸	chiu chiu
 圈圈	chiu chiu
 勸息	chiu shiq
@@ -20085,6 +20159,7 @@ NBA	e n bi ei
 講過了個	kaon kou liau goq
 講過了個	kaon kou liau ghoq
 講過了說話	kaon kou liau syuq wo
+講經	kaon cin
 講究個	kaon cieu goq
 講究個	kaon cieu ghoq
 講起	kaon chi
@@ -20137,6 +20212,11 @@ NBA	e n bi ei
 靠勿實	khau vaq zyuq
 靠實	khau zyuq
 考實	khau zyuq
+靠實個	khau zyuq goq
+靠實個	khau zyuq ghoq
+靠實過個	khau zyuq kou goq
+靠實過個	khau zyuq kou ghoq
+靠實過	khau zyuq kou
 敲敲	khau khau
 敲開了	khau khe laq
 靠勒	khau laq
@@ -20148,6 +20228,7 @@ NBA	e n bi ei
 刻薄	khaq boq
 磕頭	khaq deu
 克治	khaq dzyu
+刻毒	khaq doq
 刻刻	khaq khaq
 渴想	khaq shian
 磕倒	khaq tau
@@ -20253,6 +20334,7 @@ NBA	e n bi ei
 空頭個	khon deu ghoq
 空地	khon di
 空城	khon jin
+空談	khon dae
 空裏	khon li
 空磨	khon mou
 空屋	khon oq
@@ -20374,6 +20456,8 @@ NBA	e n bi ei
 老本	lau pen
 老小	lau shiau
 老少	lau shiau
+老小個	lau shiau goq
+老小個	lau shiau ghoq
 勞心費力	lau shin fi liq
 勞心費力個	lau shin fi liq goq
 勞心費力個	lau shin fi liq ghoq
@@ -20386,6 +20470,8 @@ NBA	e n bi ei
 𨀤來	lei le
 屢年	lei gni
 屢次	lei tshy
+屢次個	lei tshy goq
+屢次個	lei tshy ghoq
 論千	len chi
 論千論萬個	len chi len vae goq
 論千論萬個	len chi len vae ghoq
@@ -20464,6 +20550,7 @@ NBA	e n bi ei
 亮亮個	lian lian ghoq
 量量相	lian lian shian
 兩篇	lian phi
+良心裏	lian shin li
 良心上	lian shin zaon
 兩三	lian sae
 兩三個	lian sae goq
@@ -20753,6 +20840,7 @@ NBA	e n bi ei
 懶惰個	lae dou goq
 懶惰個	lae dou ghoq
 藍陰陰	lae in in
+爛開去	lae khe chi
 籃裏	lae li
 懶得	lae taq
 爛糊	lae wu
@@ -20801,10 +20889,13 @@ NBA	e n bi ei
 嘸頭緒	mh deu zyu
 嘸頭嘸緒	mh deu mh zyu
 嘸法	mh faq
+嘸窮盡	mh jion jin
 嘸窮盡個	mh jion jin goq
 嘸窮盡個	mh jion jin ghoq
-嘸窮盡	mh jion jin
 嘸要緊	mh iau cin
+嘸影蹤個	mh in tson goq
+嘸影蹤個	mh in tson ghoq
+嘸影蹤	mh in tson
 嘸神氣	mh zyun chi
 嘸人性	mh zyun shin
 嘸緒	mh zyu
@@ -20897,6 +20988,10 @@ NBA	e n bi ei
 嘸罪	mh zei
 嘸罪個	mh zei goq
 嘸罪個	mh zei ghoq
+嘸學問個	mh ghoq ven goq
+嘸學問個	mh ghoq ven ghoq
+嘸學問	mh ghoq ven
+賣主	ma tsyu
 賣出	ma tshyuq
 賣出個	ma tshyuq goq
 賣出個	ma tshyuq ghoq
@@ -20944,6 +21039,7 @@ NBA	e n bi ei
 糜費掉	mi fi diau
 每封	mei fon
 𤈦起來	mei chi le
+美缺	mei chiuq
 每口	mei kheu
 美勒緊	mei laq cin
 黴爛	mei lae
@@ -21243,6 +21339,8 @@ NBA	e n bi ei
 危險個	wei shi goq
 危險個	wei shi ghoq
 互相	wu shian
+悟到	nu tau
+悟到	wu tau
 呆大大	nge dou dou
 捱打	nga tan
 捱凍	nga ton
@@ -21360,6 +21458,7 @@ NBA	e n bi ei
 年代	gni de
 嚴個	gni goq
 嚴個	gni ghoq
+儼然	gni zoe
 年庚個	gni kan goq
 年庚個	gni kan ghoq
 碾穀個	gni koq goq
@@ -21369,6 +21468,7 @@ NBA	e n bi ei
 嚴緊	gni cin
 染勒	gni laq
 嚴厲	gni li
+嚴嚴	gni gni
 年多星	gni tou shin
 扭帶轉	gnieu tae tsoe
 認着	gnin dzoq
@@ -21376,6 +21476,8 @@ NBA	e n bi ei
 認着個	gnin dzoq goq
 認着個	gnin dzoq ghoq
 人陣	gnin jin
+銀個	gnin goq
+銀個	gnin ghoq
 人個兒子	gnin goq ng tsy
 人個兒子	gnin ghoq ng tsy
 人過	gnin kou
@@ -21495,6 +21597,7 @@ NBA	e n bi ei
 拜菩薩個	pa bu saq ghoq
 拜菩薩	pa bu saq
 擺出	pa tshyuq
+擺出東	pa tshyuq ton
 拜個	pa goq
 拜個	pa ghoq
 擺過去	pa kou chi
@@ -21574,6 +21677,7 @@ NBA	e n bi ei
 保牢	pau lau
 包勒	pau laq
 報勒盡	pau laq jin
+保勒牢	pau laq lau
 包來	pau le
 寶藍	pau lae
 飽飽	pau pau
@@ -21654,6 +21758,7 @@ NBA	e n bi ei
 奔法	pen faq
 奔競	pen jin
 本鄉	pen shian
+本意	pen i
 本國	pen koq
 本國人個	pen koq gnin goq
 本國人個	pen koq gnin ghoq
@@ -21698,6 +21803,7 @@ NBA	e n bi ei
 比較	pi ciau
 比起來	pi chi le
 閉口	pi kheu
+比勒	pi laq
 閉攏	pi lon
 閉攏仔	pi lon tsy
 比來	pi le
@@ -21739,6 +21845,8 @@ NBA	e n bi ei
 變化勿來個	pi huo vaq le goq
 變化弗來	pi huo vaq le	1
 變化勿來	pi huo vaq le
+變化個	pi huo goq
+變化個	pi huo ghoq
 變勒	pi laq
 變色	pi saq
 鞭子	pi tsy
@@ -21799,6 +21907,8 @@ NBA	e n bi ei
 搬進	pun cin
 頒落來	pae loq le
 𢲔馬索	pae mo soq
+扳駁個	pae poq goq
+扳駁個	pae poq ghoq
 瘢疤個	pae po goq
 瘢疤個	pae po ghoq
 板數	pae su
@@ -22010,11 +22120,14 @@ NBA	e n bi ei
 試試個	sy sy goq
 試試個	sy sy ghoq
 思想	sy shian
+私心	sy shin
 屍首	sy shieu
 駛到	sy tau
 使得	sy taq
 使得個	sy taq goq
 使得個	sy taq ghoq
+獅子個	sy tsy goq
+獅子個	sy tsy ghoq
 四肢百體	sy tsy paq thi
 四隻	sy tsaq
 四隻腳個	sy tsaq ciaq goq
@@ -22225,6 +22338,7 @@ NBA	e n bi ei
 書房裏個	syu vaon li ghoq
 輸贏	syu yin
 水槽裏	syu zau li
+書籍	syu zhiq
 細阿	shi aq
 死法	shi faq
 死過	shi kou
@@ -22299,6 +22413,7 @@ NBA	e n bi ei
 相見	shian ci
 相敬	shian cin
 相勸	shian chiu
+相懇	shian khen
 商量好	shian lian hau
 商量過	shian lian kou
 商量仔	shian lian tsy
@@ -22356,7 +22471,9 @@ NBA	e n bi ei
 小國	shiau koq
 小驢	shiau li
 小攏去	shiau lon chi
+消滅	shiau miq
 小牛	shiau ngeu
+少年	shiau gni
 小人隊	shiau gnin dei
 小人個	shiau gnin goq
 小人個	shiau gnin ghoq
@@ -22441,6 +22558,7 @@ NBA	e n bi ei
 心灰	shin huei
 心虛突顫	shin shiu daq ci
 心意	shin i
+信約	shin iaq
 新約個	shin iaq goq
 新約個	shin iaq ghoq
 新約	shin iaq
@@ -22529,7 +22647,8 @@ NBA	e n bi ei
 星宿個	shin shieu ghoq
 升到	shin tau
 信德	shin taq
-心得	shin taq
+信德個	shin taq goq
+信德個	shin taq ghoq
 深點	shin ti
 聖子	shin tsy
 聖旨	shin tsy
@@ -22557,6 +22676,8 @@ NBA	e n bi ei
 升上	shin zaon
 身上個	shin zaon goq
 身上個	shin zaon ghoq
+升上個	shin zaon goq
+升上個	shin zaon ghoq
 升上去	shin zaon chi
 伸冤	shin iu
 申冤	shin iu
@@ -22575,17 +22696,21 @@ NBA	e n bi ei
 收割個	shieu kaq goq
 收割個	shieu kaq ghoq
 手梗	shieu kuan
+守己	shieu ci
 手巾裏	shieu cin li
 收歸	shieu kuei
 收起	shieu chi
 守該	shieu ke
 守攔進的	shieu laq cin tiq
+收勒住	shieu laq dzyu
 收勒去	shieu laq chi
 收勒牢	shieu laq lau
+守勒牢	shieu laq lau
 手裏	shieu li
 手裏個	shieu li goq
 手裏個	shieu li ghoq
 收留	shieu lieu
+收羅	shieu lou
 收攏	shieu lon
 收攏個	shieu lon goq
 收攏個	shieu lon ghoq
@@ -22868,6 +22993,7 @@ NBA	e n bi ei
 打算個	tan soe ghoq
 打算記	tan soe ci
 打打傷	tan tan saon
+打的	tan tiq
 打仗個	tan cian goq
 打仗個	tan cian ghoq
 打仗個	tan cian kou
@@ -22977,6 +23103,8 @@ NBA	e n bi ei
 德氣個	taq chi goq
 德氣個	taq chi ghoq
 得利	taq li
+得利個	taq li goq
+得利個	taq li ghoq
 得來個	taq le goq
 得來個	taq le ghoq
 得來	taq le
@@ -22989,6 +23117,7 @@ NBA	e n bi ei
 等勿到	ten vaq tau
 等弗到知	ten vaq tau tsyu	1
 等勿到知	ten vaq tau tsyu
+敦起	ten chi
 燈亮	ten lian
 等門徒	ten men du
 等到	ten tau
@@ -23076,6 +23205,8 @@ NBA	e n bi ei
 踮帶起	ti tae chi
 殿上	ti zaon
 叮囑	tin tsoq
+叮囑個	tin tsoq goq
+叮囑個	tin tsoq ghoq
 頂頭	tin dei
 頂高	tin kau
 頂高個	tin kau goq
@@ -23149,6 +23280,7 @@ NBA	e n bi ei
 止住	tsy dzyu
 籽個	tsy goq
 籽個	tsy ghoq
+至極	tsy jiq
 紫花	tsy huo
 志向	tsy shian
 指向	tsy shian
@@ -23164,6 +23296,8 @@ NBA	e n bi ei
 之外	tsy nga
 煮撥	tsy paq
 支派	tsy pha
+支派個	tsy pha goq
+支派個	tsy pha ghoq
 仔細	tsy shi
 指點	tsy ti
 指點個	tsy ti goq
@@ -23210,11 +23344,13 @@ NBA	e n bi ei
 爭起來	tsan chi le
 爭鬥個	tsan teu goq
 爭鬥個	tsan teu ghoq
+爭鬥囉唕	tsan teu lou zau
 爭差	tsan tsho
 爭造	tsan zau
 遭着	tsau dzoq
 遭着個	tsau dzoq goq
 遭着個	tsau dzoq ghoq
+罩衣	tsau i
 棗樹個	tsau zyu goq
 棗樹個	tsau zyu ghoq
 棗樹	tsau zyu
@@ -23225,6 +23361,8 @@ NBA	e n bi ei
 遭難個	tsau nae goq
 遭難個	tsau nae ghoq
 嘲笑	tsau shiau
+嘲笑個	tsau shiau goq
+嘲笑個	tsau shiau ghoq
 遭數	tsau su
 遭的個	tsau tiq goq
 遭的個	tsau tiq ghoq
@@ -23424,6 +23562,7 @@ NBA	e n bi ei
 照見	ciau ci
 照來	ciau le
 昭明	ciau min
+招募	ciau mou
 照遍	ciau pi
 詔書	ciau syu
 詔書裏	ciau syu li
@@ -23465,6 +23604,7 @@ NBA	e n bi ei
 積聚東	ciq zyu ton
 只顧	ciq ku
 只管	ciq kun
+只舉	ciq ciu
 接歸	ciq kuei
 節肯個	ciq khen goq
 節肯個	ciq khen ghoq
@@ -23474,6 +23614,7 @@ NBA	e n bi ei
 積落個	ciq loq ghoq
 摺攏該	ciq lon ke
 積落來	ciq loq le
+即使	ciq sy
 只消	ciq shiau
 只得	ciq taq
 質照	ciq ciau
@@ -23532,6 +23673,9 @@ NBA	e n bi ei
 進貢個	cin kon ghoq
 整塊	cin khuei
 真教	cin ciau
+正經	cin cin
+正經個	cin cin goq
+正經個	cin cin ghoq
 進去	cin chi
 進起	cin chi
 進去個	cin chi goq
@@ -23561,6 +23705,9 @@ NBA	e n bi ei
 真心個	cin shin ghoq
 真刀	cin tau
 整頓	cin ten
+整頓個	cin ten goq
+整頓個	cin ten ghoq
+貞節	cin ciq
 真正	cin cin
 進進出出	cin cin tshyuq tshyuq
 真槍	cin chian
@@ -23839,6 +23986,9 @@ NBA	e n bi ei
 撐進	tshan cin
 撐進去	tshan cin chi
 撐帶起	tshan tae chi
+操就	tshau jieu
+抄個	tshau goq
+抄個	tshau ghoq
 草寇	tshau kheu
 草裏	tshau li
 草料	tshau liau
@@ -24003,6 +24153,7 @@ NBA	e n bi ei
 清通了	chin thon lei
 清通個	chin thon goq
 清通個	chin thon ghoq
+請上	chin zaon
 親愛	chin e
 親愛個	chin e goq
 親愛個	chin e ghoq
@@ -24051,6 +24202,7 @@ NBA	e n bi ei
 瘥了	tsho lei
 瘥個	tsho goq
 瘥個	tsho ghoq
+岔開	tsho khe
 岔路個	tsho lu goq
 岔路個	tsho lu ghoq
 差落	tsho loq
@@ -24062,6 +24214,7 @@ NBA	e n bi ei
 錯配	tshou phei
 唱出	tshaon tshyuq
 唱出來	tshaon tshyuq le
+瘡毒	tshaon doq
 唱好	tshaon hau
 倉庫	tshaon khu
 唱起	tshaon chi
@@ -24119,6 +24272,7 @@ NBA	e n bi ei
 篤石頭案	toq zaq deu e
 篤石頭案	toq zaq deu ei-e
 當頭	taon deu
+當着	taon dzoq
 當值個	taon jiq goq
 當值個	taon jiq ghoq
 當弗住	taon vaq dzyu	1
@@ -24132,6 +24286,8 @@ NBA	e n bi ei
 當面前	taon mi zhi
 當年	taon gni
 當兵	taon pin
+當兵個	taon pin goq
+當兵個	taon pin ghoq
 當初	taon tshu
 當初子	taon tshu tsy
 當夜	taon ya
@@ -24145,6 +24301,8 @@ NBA	e n bi ei
 端正	toe cin
 端正個	toe cin goq
 端正個	toe cin ghoq
+端莊	toe tsaon
+端端正正	toe toe cin cin
 太平	tha bin
 太平個	tha bin goq
 太平個	tha bin ghoq
@@ -24472,6 +24630,7 @@ NBA	e n bi ei
 復活	veu waq
 復活之	veu waq tsy
 負義	veu gni
+浮言	veu yi
 未可知	vi khou tsyu
 未免	vi mi
 未必	vi piq
@@ -24526,6 +24685,10 @@ NBA	e n bi ei
 無花果	wu- huo kou
 無益	vu iq
 無益	wu- iq
+無益個	vu iq goq
+無益個	vu iq ghoq
+無益個	wu- iq ghoq
+無益個	wu- iq goq
 無益之舉	vu iq tsy ciu
 無益之舉	wu- iq tsy ciu
 無影	vu in
@@ -24545,6 +24708,8 @@ NBA	e n bi ei
 無故	vu ku
 無故	wu- ku
 武官	wu-vu kun
+無稽之	vu ci tsy
+無稽之	wu- ci tsy
 浮起	vu chi
 無價之	vu ko tsy
 無價之	wu- ko tsy
@@ -24570,6 +24735,8 @@ NBA	e n bi ei
 務必子	wu- piq tsy
 無邊	vu pi
 無邊	wu- pi
+無二言	vu er yi
+無二言	wu- er yi
 無始	vu sy
 無始	wu- sy
 無私	vu sy
@@ -24681,6 +24848,7 @@ NBA	e n bi ei
 萬有之	vae yeu tsy
 犯罪個	vae zei goq
 犯罪個	vae zei ghoq
+妄動	vaon don
 忘恩個	vaon en goq
 忘恩個	vaon en ghoq
 妄喫妄用	vaon chioq vaon yon
@@ -24688,10 +24856,16 @@ NBA	e n bi ei
 房裏個	vaon li goq
 房裏個	vaon li ghoq
 房子裏	vaon tsy li
+妄作妄爲個	vaon tsoq vaon wei goq
+妄作妄爲個	vaon tsoq vaon wei ghoq
+妄作妄爲	vaon tsoq vaon wei
 房分	vaon ven
 還有星	wa yeu shin
 還有得	wa yeu taq
 橫財	wan dze
+橫行不法個	wan yin paq faq goq
+橫行不法個	wan yin paq faq ghoq
+橫行不法	wan yin paq faq
 回轉	wei tsoe
 爲頭爲腦	wei deu wei nau
 會着	wei dzoq
@@ -24860,6 +25034,7 @@ NBA	e n bi ei
 壞處	ua tshyu
 壞法	ua faq
 壞鄉方	ua shian faon
+壞起來	ua chi le
 壞勒	ua laq
 壞壞	ua ua
 壞是	ua zy
@@ -24867,6 +25042,9 @@ NBA	e n bi ei
 橫綳勛流	uan pan shiun lieu
 橫綳勛流個	uan pan shiun lieu goq
 橫綳勛流個	uan pan shiun lieu ghoq
+橫七纏八個	uan chiq ji paq goq
+橫七纏八個	uan chiq ji paq ghoq
+橫七纏八	uan chiq ji paq
 威風	uei fon
 委曲	uei chiuq
 威嚴	uei gni
@@ -24879,6 +25057,8 @@ NBA	e n bi ei
 瘟人	uen gnin
 搵點	uen ti
 穩當	uen taon
+穩當個	uen taon goq
+穩當個	uen taon ghoq
 穩穩	uen uen
 溫柔	uen zhieu
 溫柔個	uen zhieu goq
@@ -24910,6 +25090,7 @@ NBA	e n bi ei
 遺產個	yi tshae goq
 遺產個	yi tshae ghoq
 遺產	yi tshae
+異端	yi toe
 又會	yi wei
 又是	yi zy
 以前個	yi zhi goq
@@ -24934,6 +25115,7 @@ NBA	e n bi ei
 藥方	yaq faon
 協力	yaq liq
 藥店裏	yaq ti li
+羊皮	yan bi
 羊隊	yan dei
 羊隊個	yan dei goq
 羊隊個	yan dei ghoq
@@ -25060,6 +25242,9 @@ NBA	e n bi ei
 有罪個	yeu zei ghoq
 有壽	yeu zhieu
 誘惑	yeu ghoq
+有害個	yeu ghe goq
+有害個	yeu ghe ghoq
+有害	yeu ghe
 有限	yeu ghae
 有限個	yeu ghae goq
 有限個	yeu ghae ghoq
@@ -25300,6 +25485,7 @@ NBA	e n bi ei
 謝好仔	zhia hau tsy
 邪術	zhia zyuq
 邪開去	zhia khe chi
+邪靈	zhia lin
 謝謝	zhia zhia
 弱病	zhiaq bin
 若講	zhiaq kaon
@@ -25323,6 +25509,9 @@ NBA	e n bi ei
 射箭	zhiq ci
 射箭個	zhiq ci goq
 射箭個	zhiq ci ghoq
+食言個	zhiq yi goq
+食言個	zhiq yi ghoq
+食言	zhiq yi
 前頭個	zhi deu goq
 前頭個	zhi deu ghoq
 前代個	zhi de goq
@@ -25383,6 +25572,8 @@ NBA	e n bi ei
 壽墳裏	zhieu ven li
 就話	jieu wo
 受用	zhieu yon
+受用個	zhieu yon goq
+受用個	zhieu yon ghoq
 就是	jieu zy
 就是個	jieu zy goq
 就是個	jieu zy ghoq
@@ -25438,6 +25629,7 @@ NBA	e n bi ei
 𧮙人罵倒個	zoq gnin mo tau goq
 𧮙人罵倒個	zoq gnin mo tau ghoq
 𧮙人罵倒	zoq gnin mo tau
+上軛了	zaon aq liau
 上主	zaon tsyu
 上主個	zaon tsyu goq
 上主個	zaon tsyu ghoq
@@ -25447,6 +25639,7 @@ NBA	e n bi ei
 上法	zaon faq
 上好斯樣個	zaon hau sy gnian goq
 上好斯樣個	zaon hau sy gnian ghoq
+上過	zaon kou
 嚐過	zaon kou
 上工個	zaon kon goq
 上工個	zaon kon ghoq
@@ -25510,6 +25703,7 @@ NBA	e n bi ei
 𢛟惶個	o waon goq
 𢛟惶個	o waon ghoq
 𢛟惶相	o waon shian
+惡嘴	oq tsyu
 惡毒	oq doq
 惡毒個	oq doq goq
 惡毒個	oq doq ghoq
@@ -25530,6 +25724,8 @@ NBA	e n bi ei
 惡貫	oq kun
 惡貫滿盈	oq kun mun yin
 惡計	oq ci
+惡鬼個	oq ciu goq
+惡鬼個	oq ciu ghoq
 惡名	oq min
 惡孽	oq gniq
 惡逆	oq gniq
@@ -25772,6 +25968,7 @@ NBA	e n bi ei
 紅簿面	ghon bu mi
 紅豆羹	ghon deu kan
 鴻恩	ghon en
+鴻福	ghon foq
 紅個	ghon goq
 紅個	ghon ghoq
 紅海	ghon he
@@ -25819,7 +26016,6 @@ NBA	e n bi ei
 下飯個	gho vae ghoq
 下賤	gho zhi
 或富	ghoq fu
-學習過	ghoq zyuq kou
 學過了	ghoq kou lei
 學過個	ghoq kou goq
 學過個	ghoq kou ghoq
