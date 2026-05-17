@@ -1828,8 +1828,6 @@ use_preset_vocabulary: true
 抪	bu1
 抪	bu4
 抪	pu1
-鈽	bu1
-鈽	bu4
 補	bu3
 譜	bu3
 譜	pu3
@@ -6453,7 +6451,6 @@ use_preset_vocabulary: true
 瓬	fang3
 𩦠	fang4
 𦜒	fang3
-釩	fang3
 訪	fang3
 訪	fang4
 軬	fang4
@@ -6884,8 +6881,9 @@ use_preset_vocabulary: true
 艀	fu2
 䨗	fu2
 甫	fu3
-脯	fu3
+脯	fu3	1%
 脯	pu2
+脯	pu3
 斧	fu3
 俯	fu3
 頫	fu3
@@ -7500,7 +7498,6 @@ use_preset_vocabulary: true
 合	go5
 合	ho5
 㪉	go5
-鉿	go5
 鮯	go5
 蛤	go5
 郃	go5
@@ -8064,8 +8061,9 @@ use_preset_vocabulary: true
 虢	guä5
 㶁	guä5
 𧭣	guä5
-唬	guä5
-唬	xa4
+唬	guä5	1%
+唬	xa4	1%
+唬	hu3
 蟈	guä5
 馘	guä5
 聝	guä5
@@ -13445,9 +13443,6 @@ use_preset_vocabulary: true
 硜	ken1
 摼	ken1
 㰢	ken1
-羥	ken1
-羥	qang1
-羥	qän1
 墾	ken3
 懇	ken3
 啃	ken3
@@ -14105,8 +14100,6 @@ use_preset_vocabulary: true
 爤	lang4
 𢒞	lang4
 糷	lang4
-鑭	lang2
-鑭	lang4
 𢅼	lang4
 𢅼	luei2
 埌	lang4
@@ -23554,6 +23547,7 @@ use_preset_vocabulary: true
 瞎	xa5
 𩮂	xa5
 洽	xa5
+洽	qa5
 䨐	xa5
 狹	xa5
 陜	xa5
@@ -26763,7 +26757,6 @@ use_preset_vocabulary: true
 乒	pin1
 嗶	bi5
 鍀	dä5
-氫	qin1
 藎	zin4
 砷	shen1
 鋅	sin1
@@ -26807,7 +26800,6 @@ use_preset_vocabulary: true
 餃	jao4
 礁	ziao1
 嘦	jao4
-氧	iang3
 樑	liang2
 晾	liang4
 鎳	lie5
@@ -26990,7 +26982,6 @@ use_preset_vocabulary: true
 羋	mi3
 醚	mi2
 穈	mi2
-鈮	li2
 妮	li2
 礃	zhang3
 嚐	chang2
@@ -27003,6 +26994,9 @@ use_preset_vocabulary: true
 墘	qän2
 唔	u2
 括	gua5
+#集韻字
+砳	lä5
+嚈	ie5
 #俗音
 撣	dang3
 這	zhe4
@@ -27029,12 +27023,10 @@ use_preset_vocabulary: true
 暑	chu3
 鼠	chu3
 叭	ba4
-砳	lä5
 肽	tä4
 粹	cuei4
 卍	uang4
 膝	ci5
-嚈	ie5
 圳	zen4
 瀋	shen3
 氓	mang2
@@ -27046,9 +27038,34 @@ use_preset_vocabulary: true
 礦	kuang4
 捐	jüän1
 艦	jän4
+#化學字
 氕	pie5
 氘	dao1
 氚	chuang1
+鿫	ao4
+醛	cüän2
+醛	cüe5	1%
+氧	iang3
+氫	qin1
+鈽	bu1	1%
+鈽	bu4
+釩	fang2
+釩	fang3	1%
+鉿	go5
+鉿	ha1	1%
+鑭	lang2
+鑭	lang4	1%
+鈮	li2
+鈮	li3	1%
+鉨	li3
+鉝	li5
+羥	qang3
+羥	ken1	1%
+羥	qän1	1%
+羧	so1
+羧	zuei1	1%
+羰	tang1
+鿬	tiän2
 #半邊音
 嶼	ü3
 鯨	jin1
