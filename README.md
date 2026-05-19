@@ -89,9 +89,9 @@ To improve the readability and maintainability of this project, here we adopt th
 | ----------------------- | ------------------ | --------------------- | ---------------------- | -------------------- | ------------------------ | ---------------- | -------------------- | ------------------ | ------------- | ---------------------  | ----------------------- | ---------------------- | ---------------------- | ---------------------- | --------------- | ---------------- | ------------------------------ | ------------------------------ |
 | cdo                     | cjy                | cmn                   | cpx                    | czh                  | czo                      | gan              | hak                  | hnm            | hsn                | luh                   | lzh                     | mnp                    | nan                    | sjc                    | wuu             | yue              | cnp                            | csp                            |
 
-目前 **暫缺閩中語、徽語、贛語、海南話、雷州話、邵將語、北部平話** 的輸入方案。如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或[新開一個 issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) 以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
+目前 **暫缺閩中語、徽語、海南話、雷州話、邵將語、北部平話** 的輸入方案。如有作者已編寫以上語言的輸入方案，請[聯系我](mailto:laubonghaudoi@icloud.com)或[新開一個 issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) 以添加收錄。其他漢語或域外方音的方案亦強烈歡迎。
 
-Right now we are still **missing the schemas for Central Min, Huizhou, Gan, Hainanese, Leizhou, Shaojiang, and Northern Ping**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or [open a new issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) to add it to the collection. Schemas for other Chinese languages are also highly welcomed.
+Right now we are still **missing the schemas for Central Min, Huizhou, Hainanese, Leizhou, Shaojiang, and Northern Ping**. If you have composed a schema for any of the languages above, please [contact me](mailto:laubonghaudoi@icloud.com) or [open a new issue](https://github.com/laubonghaudoi/Chinese_Rime/issues) to add it to the collection. Schemas for other Chinese languages are also highly welcomed.
 
 以下爲方案總表和配方列表。其中配方以符號 ℞ 標識。
 
@@ -99,8 +99,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共 143 個方案）
-<br/>Full list of collected schemas (143 schemas in total)</h3>
+<h3>方案列表（共 144 個方案）
+<br/>Full list of collected schemas (144 schemas in total)</h3>
 
 
 <ul>
@@ -435,7 +435,14 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   <li>
     <details>
       <summary>贛語 Gan</summary>
-      <b>暫缺 Not available</b>
+      <ul>
+        <li>
+          撫州話拼音輸入方案 ℞ <code>colescu/rime-fudiufa</code>
+          <ul>
+            <li>撫州話 - <code>fudiufa</code></li>
+          </ul>
+        </li>
+      </ul>
     </details>
   </li>
   <li>
@@ -718,8 +725,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   </li>
 </ul>
 
-<h3>配方列表（共 59 個配方）
-<br/>List of recipes (59 recipes in total)</h3>
+<h3>配方列表（共 60 個配方）
+<br/>List of recipes (60 recipes in total)</h3>
 
 <ul>
   <li>
@@ -857,7 +864,9 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
   <li>
     <details>
       <summary>贛語 Gan</summary>
-      <b>暫缺 Not available</b>
+      <ul>
+        <li>撫州話拼音輸入方案 ℞ <code>colescu/rime-fudiufa</code></li>
+      </ul>
     </details>
   </li>
   <li>
@@ -1167,6 +1176,7 @@ For detailed information of the collected schemas in the download package, pleas
 - [羽随风飞](https://github.com/yuxifongfei)
 - [a-thok](https://github.com/a-thok)
 - [biopolyhedron](https://github.com/biopolyhedron)
+- [colescu](https://github.com/colescu)
 - [cryptogun](https://github.com/cryptogun)
 - [Hector Sioh](https://github.com/only3km)
 - [inzoi](https://github.com/inzoi)

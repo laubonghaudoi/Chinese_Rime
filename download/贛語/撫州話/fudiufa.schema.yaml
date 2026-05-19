@@ -1,0 +1,111 @@
+schema:
+  name: 撫州話
+  schema_id: fudiufa
+  version: "2026.05.18"
+  author:
+    - 苦芋頭 <yuluyuxiaoxie@gmail.com>
+    - 微信：Colescu
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [中文, 西文]
+  - name: full_shape
+    states: [半角, 全角]
+  - name: simplification
+    states: [漢字, 汉字]
+  - name: ascii_punct
+    states: [。，, ．，]
+
+filters:
+  - ascii_composer
+
+ascii_composer:
+  good_old_caps_lock: false
+  full_shape: false
+  switch_key:
+    Shift_L: commit_code
+    Shift_R: commit_code
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - affix_segmentor@luna_pinyin
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - script_translator@luna_pinyin
+  filters:
+    - simplifier
+    - uniquifier
+    - reverse_lookup_filter@fudiufa_reverse_lookup
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - derive/[01235678]$// # 忽略聲調
+    - derive/yo([tn])$/ye$1/ # yon yot ~ yen yet
+    - derive/iau$/ieu/ # iau ~ ieu
+    - derive/h$/k/ # -h ~ -k
+    - derive/^ng(.+)/$1/ # ng- ~ ∅-
+
+    # allow Mandarin pinyin spellings
+    - derive/au$/ao/
+    - derive/ien$/ian/
+    - derive/^i$/yi/
+    - derive/^i([aoeu].*)/y$1/
+    - derive/^u$/wu/
+    - derive/^u([aoei].*)/w$1/
+    - derive/^y([eonth].*)/yu$1/
+    - derive/^([jqx])y/$1u/
+    - derive/^([dn])y/$1v/
+
+translator:
+  dictionary: fudiufa
+  spelling_hints: 8
+
+luna_pinyin:
+  tag: luna_pinyin
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: ";"
+  tips: 〔普通話〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+fudiufa_reverse_lookup:
+  tags: [luna_pinyin]
+  overwrite_comment: false
+  dictionary: fudiufa
+
+punctuator:
+  auto_switch: true
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    punct: "^/([0-9]0?|[A-Za-z]+)$"
+    reverse_lookup: "`[a-z]*'?$"
+    luna_pinyin: "^`[a-z']*;?$"
