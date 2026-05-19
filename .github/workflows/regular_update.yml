@@ -4,23 +4,47 @@ on:
     branches:
       - master
   schedule:
+    # GitHub cron has no native every-other-week interval. This fires weekly;
+    # the cadence step below skips off-cycle scheduled runs.
     - cron: '30 10 * * 0'
 jobs:
   regular_update:
     runs-on: ubuntu-latest
     steps:
+      - name: Check update cadence
+        id: cadence
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          anchor_epoch=$(date -u -d '2026-05-17' +%s)
+          today_epoch=$(date -u -d "$(date -u +%F)" +%s)
+          days_since=$(( (today_epoch - anchor_epoch) / 86400 ))
+
+          if [ "$days_since" -ge 0 ] && [ $(( days_since % 14 )) -eq 0 ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping scheduled update; next update runs on the biweekly cadence."
+          fi
       - name: checkout
+        if: steps.cadence.outputs.should_run == 'true'
         uses: actions/checkout@v2
       - name: Set up Python 3.x
+        if: steps.cadence.outputs.should_run == 'true'
         uses: actions/setup-python@v2
         with:
           python-version: '3.x' 
           architecture: 'x64'
       - name: Install dependencies
+        if: steps.cadence.outputs.should_run == 'true'
         run: |
           python -m pip install --upgrade pip
           pip install PyYaml
       - name: Update submodules
+        if: steps.cadence.outputs.should_run == 'true'
         run: |
           git submodule update --init --recursive
           cd ./script
@@ -28,12 +52,14 @@ jobs:
           ./update_submodules.sh
           cd ../
       - name: Update downloads
+        if: steps.cadence.outputs.should_run == 'true'
         run: |
           cd ./script
           chmod +x ./update_download.py
           ./update_download.py
           cd ../
       - name: commit
+        if: steps.cadence.outputs.should_run == 'true'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
