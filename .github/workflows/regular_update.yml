@@ -58,6 +58,17 @@ jobs:
           chmod +x ./update_download.py
           ./update_download.py
           cd ../
+      - name: Build site manifest
+        if: steps.cadence.outputs.should_run == 'true'
+        run: |
+          cd ./script
+          python -m build_manifest \
+            --sources ../sources \
+            --source-info source_info.yaml \
+            --overrides manifest_overrides.yaml \
+            --readme-ids .readme_ids.txt \
+            --out ../site/src/data/schemas.json
+          cd ../
       - name: commit
         if: steps.cadence.outputs.should_run == 'true'
         run: |
