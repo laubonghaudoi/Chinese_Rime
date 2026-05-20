@@ -1,0 +1,58 @@
+{
+  "branches": [
+    {
+      "key": "yue",
+      "name": "粵語",
+      "iso_639_3": "yue",
+      "intro": "粵語區的拼音輸入方案，以廣州話為主。",
+      "dialects": [
+        { "name": "廣州話", "schemas": ["jyutping"] }
+      ]
+    },
+    {
+      "key": "wuu",
+      "name": "吳語",
+      "iso_639_3": "wuu",
+      "intro": "吳語區拼音輸入方案。",
+      "dialects": [
+        { "name": "蘇州話", "schemas": ["wugniu_soutseu"] }
+      ]
+    }
+  ],
+  "schemas": {
+    "jyutping": {
+      "schema_id": "jyutping",
+      "slug": "jyutping",
+      "display_name": "粵拼",
+      "branch": "yue",
+      "dialect": "廣州話",
+      "authors": ["佛振", "LeiMaau"],
+      "version": "0.15",
+      "description": "採用香港語言學會粵語拼音方案。\n兼容教育學院拼音方案.\n",
+      "dependencies": ["luna_pinyin", "stroke"],
+      "license": "CC BY 4.0",
+      "recipe": "rime/rime-jyutping",
+      "upstream_url": "https://github.com/rime/rime-jyutping",
+      "last_commit_at": "2025-11-30T08:14:00Z",
+      "downloadable": true,
+      "download_package": "粵語/廣州話"
+    },
+    "wugniu_soutseu": {
+      "schema_id": "wugniu_soutseu",
+      "slug": "wugniu_soutseu",
+      "display_name": "蘇州話",
+      "branch": "wuu",
+      "dialect": "蘇州話",
+      "authors": ["吳語學堂"],
+      "version": "0.3",
+      "description": "吳語蘇州話拼音輸入方案，採用吳語協會式拼音。",
+      "dependencies": [],
+      "license": "CC BY-SA 4.0",
+      "recipe": "wugniu/wugniu",
+      "upstream_url": "https://github.com/wugniu/wugniu",
+      "last_commit_at": "2025-10-12T11:05:00Z",
+      "downloadable": true,
+      "download_package": "吳語/蘇州話"
+    }
+  }
+}
