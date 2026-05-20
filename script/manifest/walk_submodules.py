@@ -8,7 +8,7 @@ import yaml
 
 
 def walk_submodules(sources_dir: Path) -> list[dict]:
-    """Return one normalized dict per *.schema.yaml under sources_dir.
+    """Return one normalized dict per unique schema_id under sources_dir.
 
     The shape of each dict:
         {
@@ -19,16 +19,33 @@ def walk_submodules(sources_dir: Path) -> list[dict]:
           "description": str,                   # trailing whitespace stripped
           "dependencies": list[str],
         }
+
+    When the same schema_id is defined at two paths (e.g. a recipe ships
+    both a primary file at sources/<lang>/<recipe>/foo.schema.yaml AND a
+    mobile-keyboard variant at .../mobile/foo.schema.yaml), the shallower
+    path wins and the deeper one is skipped.
     """
-    return [_load_one(p) for p in _iter_schema_yamls(sources_dir)]
+    seen: dict[str, dict] = {}
+    for path in _iter_schema_yamls(sources_dir):
+        entry = _load_one(path)
+        seen.setdefault(entry["schema_id"], entry)
+    return list(seen.values())
 
 
 def _iter_schema_yamls(root: Path) -> Iterable[Path]:
-    yield from sorted(root.rglob("*.schema.yaml"))
+    # Walk recursively but emit shallower paths first so the de-dup in
+    # walk_submodules keeps the primary file rather than a nested variant.
+    yield from sorted(root.rglob("*.schema.yaml"), key=lambda p: (len(p.parts), str(p)))
 
 
 def _load_one(path: Path) -> dict:
-    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    raw = path.read_text(encoding="utf-8")
+    # Some upstream schema files use tabs in places pyyaml's strict scanner
+    # rejects: trailing after a quoted value, or aligning an inline #comment.
+    # YAML forbids tabs as indentation, so any tab here is post-content and
+    # safe to convert to a single space.
+    cleaned = raw.replace("\t", " ")
+    data = yaml.safe_load(cleaned) or {}
     schema = data.get("schema") or {}
 
     return {
@@ -36,9 +53,18 @@ def _load_one(path: Path) -> dict:
         "display_name": schema.get("name", schema["schema_id"]),
         "version": str(schema.get("version", "")),
         "authors": _normalize_authors(schema.get("author") or []),
-        "description": (schema.get("description") or "").strip(),
+        "description": _normalize_description(schema.get("description")),
         "dependencies": list(schema.get("dependencies") or []),
     }
+
+
+def _normalize_description(raw) -> str:
+    """Some upstream schemas write description as a list of lines; join them."""
+    if raw is None:
+        return ""
+    if isinstance(raw, list):
+        return "\n".join(str(line).rstrip() for line in raw).strip()
+    return str(raw).strip()
 
 
 def _normalize_authors(raw: list) -> list[str]:

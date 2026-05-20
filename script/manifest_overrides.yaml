@@ -3,78 +3,128 @@ branches:
     name: 上古漢語
     iso_639_3: och
     intro: 上古漢語的拼音方案多基於各家擬音系統，並非實際口語的拼寫。
-    dialects: ["上古漢語"]
+    dialects:
+    - 上古漢語
   ltc:
     name: 中古漢語
     iso_639_3: ltc
     intro: 中古漢語的擬音方案。
-    dialects: ["中古漢語"]
+    dialects:
+    - 中古漢語
   cmn:
     name: 官話
     iso_639_3: cmn
     intro: 官話下分中原、江淮、西南等支。
     dialects:
-      ["中原官話", "江淮官話", "西南官話"]
+    - 中原官話
+    - 江淮官話
+    - 西南官話
   cjy:
     name: 晉語
     iso_639_3: cjy
     intro: 晉語。
-    dialects: ["晉語"]
+    dialects:
+    - 晉語
   wuu:
     name: 吳語
     iso_639_3: wuu
     intro: 吳語各方言拼音方案。
-    dialects: ["上海話", "蘇州話", "寧波話", "杭州話", "嘉興話", "嘉善話", "桐鄉話", "海寧話", "海鹽話", "松江話", "樂清話", "永嘉話", "溫州話", "標準吳語"]
+    dialects:
+    - 上海話
+    - 蘇州話
+    - 寧波話
+    - 杭州話
+    - 嘉興話
+    - 嘉善話
+    - 桐鄉話
+    - 海寧話
+    - 海鹽話
+    - 松江話
+    - 樂清話
+    - 永嘉話
+    - 溫州話
+    - 標準吳語
   gan:
     name: 贛語
     iso_639_3: gan
     intro: 贛語。
-    dialects: ["撫州話"]
+    dialects:
+    - 撫州話
   hsn:
     name: 湘語
     iso_639_3: hsn
     intro: 湘語。
-    dialects: ["邵東話"]
+    dialects:
+    - 邵東話
   hak:
     name: 客家話
     iso_639_3: hak
     intro: 客家話拼音方案。
-    dialects: ["客家話綜合口音", "梅縣話", "大埔話"]
+    dialects:
+    - 客家話綜合口音
+    - 梅縣話
+    - 大埔話
   yue:
     name: 粵語
     iso_639_3: yue
     intro: 粵語拼音方案，以廣州話為主。
-    dialects: ["廣州話", "台山話", "欽州話", "梧州話", "南寧白話", "藤縣話", "貴港話"]
+    dialects:
+    - 廣州話
+    - 台山話
+    - 欽州話
+    - 梧州話
+    - 南寧白話
+    - 藤縣話
+    - 貴港話
   csp:
     name: 南部平話
     iso_639_3: csp
     intro: 南部平話。
-    dialects: ["南寧平話"]
+    dialects:
+    - 南寧平話
   cpx:
     name: 莆仙語
     iso_639_3: cpx
     intro: 莆仙語。
-    dialects: ["莆田話"]
+    dialects:
+    - 莆田話
   mnp:
     name: 閩北語
     iso_639_3: mnp
     intro: 閩北語。
-    dialects: ["建寧府方言"]
+    dialects:
+    - 建寧府方言
   nan:
     name: 閩南語
     iso_639_3: nan
     intro: 閩南語各方言拼音方案。
-    dialects: ["廈門話", "臺灣閩南語", "泉州話", "漳州話", "潮州話", "汕頭話", "揭陽話", "潮陽話", "澄海話", "饒平話"]
+    dialects:
+    - 廈門話
+    - 臺灣閩南語
+    - 泉州話
+    - 漳州話
+    - 潮州話
+    - 汕頭話
+    - 揭陽話
+    - 潮陽話
+    - 澄海話
+    - 饒平話
   cdo:
     name: 閩東語
     iso_639_3: cdo
     intro: 閩東語。
-    dialects: ["福州話"]
+    dialects:
+    - 福州話
   extra:
     name: 域外方音
-    iso_639_3: ""
+    iso_639_3: ''
     intro: 漢字在非漢語語言中的讀音方案。
-    dialects: ["日語漢字", "朝鮮語漢字", "京語漢喃字", "古壯字", "越南語漢喃字"]
+    dialects:
+    - 日語漢字
+    - 朝鮮語漢字
+    - 京語漢喃字
+    - 古壯字
+    - 越南語漢喃字
   czh:
     name: 徽語
     iso_639_3: czh
@@ -105,10 +155,8 @@ branches:
     iso_639_3: cnp
     intro: 暫缺。
     dialects: []
-
 schema_assignments:
-  # --- 上古漢語 (och) ---
-  OC_NULLL:
+  OC_nulll:
     branch: och
     dialect: 上古漢語
     recipe: Hulenkius/RIME_OC_collections
@@ -143,11 +191,6 @@ schema_assignments:
     dialect: 上古漢語
     recipe: Hulenkius/RIME_OC_collections
     upstream_url: https://github.com/Hulenkius/RIME_OC_collections
-  OC_schuesslerLHC:
-    branch: och
-    dialect: 上古漢語
-    recipe: Hulenkius/RIME_OC_collections
-    upstream_url: https://github.com/Hulenkius/RIME_OC_collections
   OC_zhengzhang:
     branch: och
     dialect: 上古漢語
@@ -178,8 +221,6 @@ schema_assignments:
     dialect: 上古漢語
     recipe: Hulenkius/RIME_OC_collections
     upstream_url: https://github.com/Hulenkius/RIME_OC_collections
-
-  # --- 中古漢語 (ltc) ---
   zyenpheng:
     branch: ltc
     dialect: 中古漢語
@@ -205,7 +246,7 @@ schema_assignments:
     dialect: 中古漢語
     recipe: inzoi/inzoi.github.io
     upstream_url: https://github.com/inzoi/inzoi.github.io
-  Dangrvond:
+  dangrvond:
     branch: ltc
     dialect: 中古漢語
     recipe: rime-aca/rime-dangrvond
@@ -230,8 +271,6 @@ schema_assignments:
     dialect: 中古漢語
     recipe: ayaka14732/rime-tupa
     upstream_url: https://github.com/ayaka14732/rime-tupa
-
-  # --- 官話 / 中原官話 (cmn) ---
   lakyang:
     branch: cmn
     dialect: 中原官話
@@ -282,8 +321,6 @@ schema_assignments:
     dialect: 中原官話
     recipe: tsauibusato/yihdjoouhuah
     upstream_url: https://github.com/tsauibusato/yihdjoouhuah
-
-  # --- 官話 / 江淮官話 (cmn) ---
   langjin:
     branch: cmn
     dialect: 江淮官話
@@ -309,8 +346,6 @@ schema_assignments:
     dialect: 江淮官話
     recipe: Sonner114514/huaipin
     upstream_url: https://github.com/Sonner114514/huaipin
-
-  # --- 官話 / 西南官話 (cmn) ---
   shupin_tongyin:
     branch: cmn
     dialect: 西南官話
@@ -366,8 +401,6 @@ schema_assignments:
     dialect: 西南官話
     recipe: shinzoqchiuq/rime-yunciu
     upstream_url: https://github.com/shinzoqchiuq/rime-yunciu
-
-  # --- 晉語 (cjy) ---
   jieny:
     branch: cjy
     dialect: 晉語
@@ -378,8 +411,6 @@ schema_assignments:
     dialect: 晉語
     recipe: Hynuza/fengyo
     upstream_url: https://github.com/Hynuza/fengyo
-
-  # --- 吳語 (wuu) ---
   yahwe_zaonhe:
     branch: wuu
     dialect: 上海話
@@ -505,15 +536,11 @@ schema_assignments:
     dialect: 溫州話
     recipe: ZWolken/rime-wenzhounese
     upstream_url: https://github.com/ZWolken/rime-wenzhounese
-
-  # --- 贛語 (gan) ---
   fudiufa:
     branch: gan
     dialect: 撫州話
     recipe: colescu/rime-fudiufa
     upstream_url: https://github.com/colescu/rime-fudiufa
-
-  # --- 湘語 (hsn) ---
   sautungva:
     branch: hsn
     dialect: 邵東話
@@ -524,15 +551,11 @@ schema_assignments:
     dialect: 邵東話
     recipe: AlfredLouis00/rime-Sautungva
     upstream_url: https://github.com/AlfredLouis00/rime-Sautungva
-
-  # --- 閩北語 (mnp) ---
   lmc:
     branch: mnp
     dialect: 建寧府方言
     recipe: triehhoo/svnihua
     upstream_url: https://github.com/triehhoo/svnihua
-
-  # --- 閩南語 (nan) ---
   blg_ha:
     branch: nan
     dialect: 廈門話
@@ -608,20 +631,6 @@ schema_assignments:
     dialect: 潮州話
     recipe: femkerr/dieghe
     upstream_url: https://github.com/femkerr/dieghe
-
-  # --- 閩東語 (cdo) ---
-  GauHuoiLMC:
-    branch: cdo
-    dialect: 福州話
-    recipe: DDFShanyu/Huk-ciu-ua-Lo-ma-ci
-    upstream_url: https://github.com/DDFShanyu/Huk-ciu-ua-Lo-ma-ci
-  BekIngLMC:
-    branch: cdo
-    dialect: 福州話
-    recipe: DDFShanyu/Huk-ciu-ua-Lo-ma-ci
-    upstream_url: https://github.com/DDFShanyu/Huk-ciu-ua-Lo-ma-ci
-
-  # --- 莆仙語 (cpx) ---
   Pouleng:
     branch: cpx
     dialect: 莆田話
@@ -632,8 +641,6 @@ schema_assignments:
     dialect: 莆田話
     recipe: Yaryou/HinghuaFactory
     upstream_url: https://github.com/Yaryou/HinghuaFactory
-
-  # --- 客家話 (hak) ---
   hakka:
     branch: hak
     dialect: 客家話綜合口音
@@ -654,8 +661,6 @@ schema_assignments:
     dialect: 大埔話
     recipe: huangjunxin/Rime-Hakka-TaibuShang
     upstream_url: https://github.com/huangjunxin/Rime-Hakka-TaibuShang
-
-  # --- 粵語 (yue) ---
   jyutping:
     branch: yue
     dialect: 廣州話
@@ -671,7 +676,7 @@ schema_assignments:
     dialect: 廣州話
     recipe: rime/rime-jyutping
     upstream_url: https://github.com/rime/rime-jyutping
-  "jyutping+":
+  jyutping_plus:
     branch: yue
     dialect: 廣州話
     recipe: rime-aca/rime-jyutping-plus
@@ -696,11 +701,6 @@ schema_assignments:
     dialect: 欽州話
     recipe: LaiJoengzit/hamzau_jyutping
     upstream_url: https://github.com/LaiJoengzit/hamzau_jyutping
-  jutjnyu_gaulaupin_dangjunbikwaa:
-    branch: yue
-    dialect: 藤縣話
-    recipe: cryptogun/gaulau_jyutping
-    upstream_url: https://github.com/cryptogun/gaulau_jyutping
   gene:
     branch: yue
     dialect: 台山話
@@ -711,15 +711,11 @@ schema_assignments:
     dialect: 台山話
     recipe: pearapple123/rime-hoisanva
     upstream_url: https://github.com/pearapple123/rime-hoisanva
-
-  # --- 南部平話 (csp) ---
   naamning_bingwaa:
     branch: csp
     dialect: 南寧平話
     recipe: leimaau/naamning_jyutping
     upstream_url: https://github.com/leimaau/naamning_jyutping
-
-  # --- 域外方音 (extra) ---
   hangyl:
     branch: extra
     dialect: 朝鮮語漢字
@@ -730,7 +726,7 @@ schema_assignments:
     dialect: 朝鮮語漢字
     recipe: rime-aca/rime-hangyl
     upstream_url: https://github.com/rime-aca/rime-hangyl
-  qyeyshanglr_hanja:
+  qyeishanglr_hanja:
     branch: extra
     dialect: 朝鮮語漢字
     recipe: biopolyhedron/rime-qyeyshanglr-hanja
@@ -760,130 +756,135 @@ schema_assignments:
     dialect: 京語漢喃字
     recipe: Hulenkius/rime_tiingkin
     upstream_url: https://github.com/Hulenkius/rime_tiingkin
-
+  gaulau_jyutping_dangjun:
+    branch: yue
+    dialect: 藤縣話
+    recipe: cryptogun/gaulau_jyutping
+    upstream_url: https://github.com/cryptogun/gaulau_jyutping
 orphans:
-  # --- 上古漢語 (och) ---
   dkzp:
     display_name: 上古全拼
     branch: och
     dialect: 上古漢語
     description: 上古全拼方案（無對應上游配方）。
-    license: ""
-
-  # --- 中古漢語 (ltc) ---
+    license: ''
   dghp:
     display_name: 中古汉拼
     branch: ltc
     dialect: 中古漢語
     description: 中古汉拼方案（無對應上游配方）。
-    license: ""
+    license: ''
   kuankhiunn:
     display_name: 廣韻羅馬字
     branch: ltc
     dialect: 中古漢語
     description: 廣韻羅馬字方案（無對應上游配方）。
-    license: ""
+    license: ''
   middle_chinese_lookup:
     display_name: 廣韻查詢
     branch: ltc
     dialect: 中古漢語
     description: 廣韻查詢方案（無對應上游配方）。
-    license: ""
-
-  # --- 晉語 (cjy) ---
+    license: ''
   haitrou:
     display_name: 晋拼解州片
     branch: cjy
     dialect: 晉語
     description: 晋拼解州片方案（無對應上游配方）。
-    license: ""
-
-  # --- 吳語 (wuu) ---
+    license: ''
   wugniu_ionko:
     display_name: 吳語（永嘉）
     branch: wuu
     dialect: 永嘉話
     description: 吳語永嘉話方案（無對應上游配方）。
-    license: ""
+    license: ''
   pcngng:
     display_name: 標準吳語
     branch: wuu
     dialect: 標準吳語
     description: 標準吳語方案（無對應上游配方）。
-    license: ""
-
-  # --- 閩南語 (nan) ---
+    license: ''
   mp:
     display_name: 閩倂輸入灋
     branch: nan
     dialect: 廈門話
     description: 閩倂輸入灋方案（無對應上游配方）。
-    license: ""
-
-  # --- 閩東語 (cdo) ---
+    license: ''
   ciklinbekin:
     display_name: 戚林八音
     branch: cdo
     dialect: 福州話
     description: 戚林八音方案（無對應上游配方）。
-    license: ""
+    license: ''
   dfd:
     display_name: 福州話字典
     branch: cdo
     dialect: 福州話
     description: 福州話字典方案（無對應上游配方）。
-    license: ""
-
-  # --- 客家話 (hak) ---
+    license: ''
   moi-eian:
     display_name: 客語粵台梅惠片梅縣音
     branch: hak
     dialect: 梅縣話
     description: 客語粵台梅惠片梅縣音方案（無對應上游配方）。
-    license: ""
-
-  # --- 粵語 (yue) ---
+    license: ''
   hoisiang:
     display_name: 台城
     branch: yue
     dialect: 台山話
     description: 台城方案（無對應上游配方）。
-    license: ""
+    license: ''
   SRenNing_EauSanCungLau:
     display_name: 新寧台山話　斗山兼沖蔞口音
     branch: yue
     dialect: 台山話
     description: 新寧台山話斗山兼沖蔞口音方案（無對應上游配方）。
-    license: ""
+    license: ''
   jyutsoeng:
     display_name: 粵語雙拼
     branch: yue
     dialect: 廣州話
     description: 粵語雙拼方案（無對應上游配方）。
-    license: ""
+    license: ''
   NgZjau_JyutPing:
     display_name: 梧州白話
     branch: yue
     dialect: 梧州話
     description: 梧州白話方案（無對應上游配方）。
-    license: ""
+    license: ''
   gvaizauvan:
     display_name: 貴州韻
     branch: yue
     dialect: 貴港話
     description: 貴州韻方案（無對應上游配方）。
-    license: ""
-
-  # --- 域外方音 (extra) ---
+    license: ''
   sawndip:
     display_name: 古壮字拼音
     branch: extra
     dialect: 古壯字
     description: 古壮字拼音方案（無對應上游配方）。
-    license: ""
+    license: ''
   newhannom:
     display_name: 部𢫈𡨸漢喃㗂越
     branch: extra
     dialect: 越南語漢喃字
     description: 部𢫈𡨸漢喃㗂越方案（無對應上游配方）。
-    license: ""
+    license: ''
+  BekIngLMC:
+    display_name: 福州話八音羅馬字
+    branch: cdo
+    dialect: 福州話
+    description: 福州話八音羅馬字方案（README 列出，但本倉庫未收錄對應上游配方）。
+    license: ''
+  GauHuoiLMC:
+    display_name: 福州話教會羅馬字
+    branch: cdo
+    dialect: 福州話
+    description: 福州話教會羅馬字方案（README 列出，但本倉庫未收錄對應上游配方）。
+    license: ''
+  OC_schuesslerLHC:
+    display_name: 東漢漢語（許思萊）
+    branch: och
+    dialect: 上古漢語
+    description: 東漢漢語（許思萊）擬音方案（README 列出，但目前上游 RIME_OC_collections 倉庫未提供對應檔案）。
+    license: ''
