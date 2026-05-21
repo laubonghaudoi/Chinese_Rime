@@ -1,12 +1,18 @@
 ---
 import { withBase } from "../utils/path";
 ---
-<img class="chop" src={withBase("/brand/logo.svg")} alt="" width="44" height="44" />
+<img class="chop" src={withBase("/brand/logo.png")} alt="" width="44" height="44" />
 
 <style>
   .chop {
     width: 44px;
     height: 44px;
     flex: 0 0 auto;
+  }
+  @media (max-width: 520px) {
+    .chop {
+      width: 38px;
+      height: 38px;
+    }
   }
 </style>

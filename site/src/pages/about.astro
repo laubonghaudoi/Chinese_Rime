@@ -2,36 +2,57 @@
 import ProseLayout from "../layouts/ProseLayout.astro";
 ---
 <ProseLayout title="關於" active="about" kicker="項目宗旨" heading="關於本項目">
-  <p>中州韻輸入法非普通話漢語拼音方案全集（簡稱「中州韻方案集」）收集現代漢語各大分支及上古、中古漢語的 Rime 拼音輸入方案和字庫，目標是讓非普通話使用者、學習者與研究者都能快速找到可用資料。</p>
+  <p>非普通話漢語拼音方案全集收集現代漢語各大分支及上古、中古漢語的 Rime 拼音輸入方案和字庫，目標是讓非普通話使用者、學習者與研究者都能快速找到可用資料。</p>
   <h2>分類方式</h2>
   <p>本目錄沿用 README 的 ISO 639-3 分類作為主軸，並以獨立列收錄上古漢語、中古漢語與域外方音。分類只作維護與瀏覽用途，並非語言分類的最終判準。</p>
   <table>
-    <thead><tr><th>代碼</th><th>語系</th><th>說明</th></tr></thead>
+    <thead><tr><th>代碼</th><th>語言</th><th>ISO 639-3</th></tr></thead>
     <tbody>
-      <tr><td><code>cdo</code></td><td>閩東語</td><td>Min Dong Chinese</td></tr>
-      <tr><td><code>cjy</code></td><td>晉語</td><td>Jinyu Chinese</td></tr>
-      <tr><td><code>cmn</code></td><td>官話</td><td>收錄中原、江淮、西南等官話分支方案。</td></tr>
-      <tr><td><code>cpx</code></td><td>莆仙語</td><td>Pu-Xian Chinese</td></tr>
-      <tr><td><code>czh</code></td><td>徽語</td><td>Huizhou Chinese</td></tr>
-      <tr><td><code>czo</code></td><td>閩中語</td><td>Min Zhong Chinese</td></tr>
-      <tr><td><code>gan</code></td><td>贛語</td><td>Gan Chinese</td></tr>
-      <tr><td><code>hak</code></td><td>客家話</td><td>Hakka Chinese</td></tr>
-      <tr><td><code>hnm</code></td><td>海南話</td><td>Hainanese</td></tr>
-      <tr><td><code>hsn</code></td><td>湘語</td><td>Xiang Chinese</td></tr>
-      <tr><td><code>luh</code></td><td>雷州話</td><td>Leizhou Chinese</td></tr>
-      <tr><td><code>lzh</code></td><td>文言文</td><td>Literary Chinese</td></tr>
-      <tr><td><code>mnp</code></td><td>閩北語</td><td>Min Bei Chinese</td></tr>
-      <tr><td><code>nan</code></td><td>閩南語</td><td>Min Nan Chinese</td></tr>
-      <tr><td><code>sjc</code></td><td>邵將語</td><td>Shaojiang Chinese</td></tr>
-      <tr><td><code>wuu</code></td><td>吳語</td><td>收錄上海、蘇州、寧波、溫州等吳語方案。</td></tr>
-      <tr><td><code>yue</code></td><td>粵語</td><td>以廣州話為主，並收錄台山、欽州、南寧等方案。</td></tr>
-      <tr><td><code>cnp</code></td><td>北部平話</td><td>Northern Ping Chinese</td></tr>
-      <tr><td><code>csp</code></td><td>南部平話</td><td>Southern Ping Chinese</td></tr>
-      <tr><td><code>och</code></td><td>上古漢語</td><td>項目自訂列，收錄各家上古擬音方案。</td></tr>
-      <tr><td><code>ltc</code></td><td>中古漢語</td><td>項目自訂列，收錄中古音系方案。</td></tr>
-      <tr><td><code>extra</code></td><td>域外方音</td><td>項目自訂列，收錄域外漢字音與相關方案。</td></tr>
+      <tr><td><code>cdo</code></td><td>閩東語</td><td><a href="https://iso639-3.sil.org/code/cdo">cdo | ISO 639-3</a></td></tr>
+      <tr><td><code>cjy</code></td><td>晉語</td><td><a href="https://iso639-3.sil.org/code/cjy">cjy | ISO 639-3</a></td></tr>
+      <tr><td><code>cmn</code></td><td>官話</td><td><a href="https://iso639-3.sil.org/code/cmn">cmn | ISO 639-3</a></td></tr>
+      <tr><td><code>cnp</code></td><td>北部平話</td><td><a href="https://iso639-3.sil.org/code/cnp">cnp | ISO 639-3</a></td></tr>
+      <tr><td><code>cpx</code></td><td>莆仙語</td><td><a href="https://iso639-3.sil.org/code/cpx">cpx | ISO 639-3</a></td></tr>
+      <tr><td><code>csp</code></td><td>南部平話</td><td><a href="https://iso639-3.sil.org/code/csp">csp | ISO 639-3</a></td></tr>
+      <tr><td><code>czh</code></td><td>徽語</td><td><a href="https://iso639-3.sil.org/code/czh">czh | ISO 639-3</a></td></tr>
+      <tr><td><code>czo</code></td><td>閩中語</td><td><a href="https://iso639-3.sil.org/code/czo">czo | ISO 639-3</a></td></tr>
+      <tr><td><code>gan</code></td><td>贛語</td><td><a href="https://iso639-3.sil.org/code/gan">gan | ISO 639-3</a></td></tr>
+      <tr><td><code>hak</code></td><td>客家話</td><td><a href="https://iso639-3.sil.org/code/hak">hak | ISO 639-3</a></td></tr>
+      <tr><td><code>hnm</code></td><td>海南話</td><td><a href="https://iso639-3.sil.org/code/hnm">hnm | ISO 639-3</a></td></tr>
+      <tr><td><code>hsn</code></td><td>湘語</td><td><a href="https://iso639-3.sil.org/code/hsn">hsn | ISO 639-3</a></td></tr>
+      <tr><td><code>ltc</code></td><td>中古漢語</td><td><a href="https://iso639-3.sil.org/code/ltc">ltc | ISO 639-3</a></td></tr>
+      <tr><td><code>luh</code></td><td>雷州話</td><td><a href="https://iso639-3.sil.org/code/luh">luh | ISO 639-3</a></td></tr>
+      <tr><td><code>lzh</code></td><td>文言文</td><td><a href="https://iso639-3.sil.org/code/lzh">lzh | ISO 639-3</a></td></tr>
+      <tr><td><code>mnp</code></td><td>閩北語</td><td><a href="https://iso639-3.sil.org/code/mnp">mnp | ISO 639-3</a></td></tr>
+      <tr><td><code>nan</code></td><td>閩南語</td><td><a href="https://iso639-3.sil.org/code/nan">nan | ISO 639-3</a></td></tr>
+      <tr><td><code>och</code></td><td>上古漢語</td><td><a href="https://iso639-3.sil.org/code/och">och | ISO 639-3</a></td></tr>
+      <tr><td><code>sjc</code></td><td>邵將語</td><td><a href="https://iso639-3.sil.org/code/sjc">sjc | ISO 639-3</a></td></tr>
+      <tr><td><code>wuu</code></td><td>吳語</td><td><a href="https://iso639-3.sil.org/code/wuu">wuu | ISO 639-3</a></td></tr>
+      <tr><td><code>yue</code></td><td>粵語</td><td><a href="https://iso639-3.sil.org/code/yue">yue | ISO 639-3</a></td></tr>
+      <tr><td><code>-</code></td><td>域外方音</td><td>項目自訂列，收錄域外漢字音與相關方案。</td></tr>
     </tbody>
   </table>
+  <h2>方案表資料如何生成</h2>
+  <p>方案頁上的「方案表」標記表示本網站已經從該方案的 Rime 檔案自動整理出可瀏覽的音系資料。這些資料不是人工編寫的音韻學定論，而是根據方案自身的碼表和拼寫規則生成的索引，目的在於幫助讀者快速理解「某個字在這套方案中如何拼寫」。</p>
+  <p>生成流程會先尋找方案的 <code>schema.yaml</code>，讀取其中指定的 <code>translator.dictionary</code>，再打開相應的 <code>dict.yaml</code>。系統只採用單字碼表列，會排除詞組列和帶空格的多段拼寫；之後按方案提示、聲調標記和已知拼寫規律，把每個拼寫保守地拆成聲母、韻母和聲調。</p>
+  <table>
+    <thead><tr><th>資料類型</th><th>生成方式</th><th>頁面用途</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>逐項資料（row data）</td>
+        <td>直接由碼表拆分和分組而成。每一項保存拼寫、常見例字、覆蓋音節數和字數，是最接近原始碼表的整理結果。</td>
+        <td>用於聲母、韻母、聲調和字音對照。若某方案不適合排成格表，頁面仍會顯示這類逐項資料。</td>
+      </tr>
+      <tr>
+        <td>格表資料（grid data）</td>
+        <td>在逐項資料之上，再對照通用 IPA 分類表和個別方案修正，把聲母放入「發音部位 × 發音方法」格表，把韻母放入「主要元音 × 韻尾」格表。</td>
+        <td>用於更像音系表的視覺排列，方便比較聲母和韻母分佈；但只有在分類覆蓋率足夠高，而且不會誤導讀者時才會顯示。</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>因此，「有方案表」不等於「一定有格表」。像上古擬音、域外漢字音，或其他拼寫規則特別複雜的方案，即使已經能整理出聲母、韻母和字音對照，也可能不強行排成 IPA 格表。這樣做是為了避免把一套本來不是現代音系拼音的方案，誤解成普通的聲韻表。</p>
+  <p>如果某個方案的聲母、韻母或聲調看起來明顯拆錯，通常代表該方案需要補充機械性的拼寫提示，例如聲調字母、額外聲母或局部 IPA 對應。這些修正只用來幫助自動解析，不會把人工整理的音系表硬寫進資料庫。</p>
+  <p>若貢獻者希望根據自己的音韻知識修正格表，請不要直接覆寫網站生成出的 <code>phonology</code> JSON 或頁面格表；那些檔案會在下次生成時被重新產生。正確做法是修改方案原始碼表，或在 <code>script/phonology_overrides.yaml</code> 補充解析提示，例如 <code>extra_initials</code>、<code>extra_finals</code>、<code>tone_letters</code>、<code>initials_ipa</code>、<code>nuclei_ipa</code>、<code>finals_ipa</code>，必要時也可以用 <code>suppress_grids: true</code> 關閉容易誤導的格表。這樣格表仍然由可追蹤的規則生成，後續更新才不會覆蓋人工修正。</p>
   <h2>致謝</h2>
   <p>本項目依賴眾多方案作者、字表整理者、語言社群與 Rime 生態維護者的長期工作。完整名單以 README 為準。</p>
   <p>每個方案頁會顯示可解析出的作者、配方與上游倉庫；若作者資料缺漏，歡迎提交修正。感謝所有提供方案、回報錯誤、維護碼表與補充文檔的貢獻者。</p>

@@ -13,7 +13,7 @@ interface Props {
 
 const {
   title,
-  description = "中州韻輸入法非普通話漢語拼音方案全集。",
+  description = "非普通話漢語拼音方案全集，收錄 Rime 拼音輸入方案與字庫。",
   active = ""
 } = Astro.props;
 ---
@@ -24,7 +24,7 @@ const {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
     <title>{title}</title>
-    <link rel="icon" href={withBase("/favicon.svg")} type="image/svg+xml" />
+    <link rel="icon" href={withBase("/favicon.png")} type="image/png" />
   </head>
   <body>
     <div class="page">

@@ -2,6 +2,7 @@
 import PlaceholderBand from "./PlaceholderBand.astro";
 import ConsonantGrid from "./ConsonantGrid.astro";
 import FinalGrid from "./FinalGrid.astro";
+import PhonologyListTable from "./PhonologyListTable.astro";
 import SoonBadge from "./SoonBadge.astro";
 import SyllableIndex from "./SyllableIndex.astro";
 import TonesTable from "./TonesTable.astro";
@@ -19,8 +20,8 @@ interface Props {
 const { index, title, intro, variant = "panel", data = null } = Astro.props;
 const shouldRender = !(index === "03" && data && data.tones.length === 0);
 const hasData = Boolean(data && (
-  (index === "01" && data.grid_status === "ok" && data.initials_grid) ||
-  (index === "02" && data.grid_status === "ok" && data.finals_grid) ||
+  (index === "01" && (data.initials_grid || data.initials.length > 0)) ||
+  (index === "02" && (data.finals_grid || data.finals.length > 0)) ||
   (index === "03" && data.tones.length > 0) ||
   (index === "04" && data.preview_syllables.length > 0)
 ));
@@ -37,7 +38,9 @@ const sectionIntro = hasData ? intro : `本方案的${title}尚待自動解析�
     {hasData && data ? (
       <>
         {index === "01" && data.initials_grid && <ConsonantGrid grid={data.initials_grid} />}
+        {index === "01" && !data.initials_grid && data.initials.length > 0 && <PhonologyListTable entries={data.initials} kind="initial" />}
         {index === "02" && data.finals_grid && <FinalGrid grid={data.finals_grid} />}
+        {index === "02" && !data.finals_grid && data.finals.length > 0 && <PhonologyListTable entries={data.finals} kind="final" />}
         {index === "03" && <TonesTable tones={data.tones} />}
         {index === "04" && (
           <SyllableIndex

@@ -46,11 +46,26 @@ const tagline = schema.description.split(/\n\s*\n|\n/)[0]?.trim() || "";
     margin-bottom: 18px;
   }
   code {
+    display: inline-flex;
+    align-items: center;
+    height: 24px;
+    min-height: 24px;
     padding: 3px 10px;
-    background: var(--zhu-tint);
-    color: var(--zhu);
+    background: var(--bg-chip);
+    color: var(--ink);
     font-family: var(--ff-mono);
     font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1;
+    box-sizing: border-box;
+  }
+  .schema-hero .ids :global(.badge) {
+    height: 24px;
+    min-height: 24px;
+    padding: 3px 10px;
+    font-size: 14px;
+    line-height: 1.1;
+    box-sizing: border-box;
   }
   p {
     max-width: 760px;

@@ -4,7 +4,7 @@ import Chop from "./Chop.astro";
 ---
 <a class="brand" href={withBase("/")}>
   <Chop />
-  <span>中州韻方案集</span>
+  <span>非普通話漢語拼音方案全集</span>
 </a>
 
 <style>
@@ -18,5 +18,11 @@ import Chop from "./Chop.astro";
     text-decoration: none;
     letter-spacing: 0;
     white-space: nowrap;
+  }
+  @media (max-width: 520px) {
+    .brand {
+      gap: 10px;
+      font-size: 17px;
+    }
   }
 </style>

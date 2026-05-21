@@ -1,0 +1,102 @@
+---
+import type { PhonologyRow } from "../data/types";
+
+interface Props {
+  entries: PhonologyRow[];
+  kind: "initial" | "final";
+}
+
+const { entries, kind } = Astro.props;
+const label = kind === "initial" ? "聲母" : "韻母";
+const filterFor = (entry: PhonologyRow) => {
+  if (!entry.spelling) return "";
+  return kind === "initial" ? `^${entry.spelling}` : entry.spelling;
+};
+---
+<div class="table-wrap">
+  <table aria-label={`${label}表`}>
+    <thead>
+      <tr><th>{label}</th><th>例字</th><th>音節</th><th>字數</th></tr>
+    </thead>
+    <tbody>
+      {entries.map((entry) => (
+        <tr>
+          <th scope="row">
+            <button type="button" data-syllable-filter={filterFor(entry)}>
+              <code>{entry.spelling || "ø"}</code>
+            </button>
+          </th>
+          <td>{entry.example_chars.join("　")}</td>
+          <td class="num">{entry.syllable_count}</td>
+          <td class="num">{entry.char_count}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+
+<style>
+  .table-wrap {
+    max-height: 560px;
+    overflow: auto;
+    border-top: 2px solid var(--ink);
+    border-bottom: 1px solid rgba(10, 10, 10, 0.16);
+  }
+  table {
+    width: 100%;
+    min-width: 560px;
+    border-collapse: collapse;
+    font-family: var(--ff-sans-tc);
+    font-size: 14px;
+  }
+  th,
+  td {
+    padding: 9px 12px;
+    border-bottom: 1px solid rgba(10, 10, 10, 0.16);
+    text-align: left;
+    vertical-align: top;
+  }
+  thead th {
+    position: sticky;
+    top: 0;
+    background: var(--bg-elev);
+    color: var(--ink-meta-2);
+    font-size: 12px;
+    letter-spacing: 0.14em;
+  }
+  tbody th {
+    width: 260px;
+  }
+  button {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--zhu);
+    cursor: pointer;
+  }
+  code {
+    font-family: var(--ff-mono);
+    font-size: 13.5px;
+    letter-spacing: 0;
+  }
+  .num {
+    color: var(--ink-meta-2);
+    font-family: var(--ff-sans);
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+    white-space: nowrap;
+  }
+  @media (max-width: 680px) {
+    table {
+      min-width: 520px;
+      font-size: 13px;
+    }
+    th,
+    td {
+      padding: 8px 10px;
+    }
+    tbody th {
+      width: 210px;
+    }
+  }
+</style>

@@ -10,9 +10,8 @@ const branches = [...getManifest().branches].sort((a, b) => {
 const max = Math.max(...branches.map(branchSchemaCount), 1);
 ---
 <section class="chart">
-  <span class="label">收錄分佈</span>
-  <h2>各語系方案數量</h2>
-  <p>下圖依方案數量降序排列；斜線格表示尚待收錄之語系。</p>
+  <h2>收錄方案語言數量</h2>
+  <p>方案並非越多越好，同一語言若有過多方案競爭（如上海話等）即代表該語言技術基建未達到標準化。目前主要缺乏各閩語、湘語、贛語、平話方案。</p>
   <div class="bars">
     {branches.map((branch) => {
       const count = branchSchemaCount(branch);
