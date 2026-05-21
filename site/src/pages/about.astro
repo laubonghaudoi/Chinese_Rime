@@ -1,11 +1,11 @@
 ---
 import ProseLayout from "../layouts/ProseLayout.astro";
 ---
-<ProseLayout title="關於" active="about" kicker="項目宗旨" heading="關於本項目">
+<ProseLayout title="關於" active="about" heading="關於本項目">
   <p>非普通話漢語拼音方案全集收集現代漢語各大分支及上古、中古漢語的 Rime 拼音輸入方案和字庫，目標是讓非普通話使用者、學習者與研究者都能快速找到可用資料。</p>
   <h2>分類方式</h2>
   <p>本目錄沿用 README 的 ISO 639-3 分類作為主軸，並以獨立列收錄上古漢語、中古漢語與域外方音。分類只作維護與瀏覽用途，並非語言分類的最終判準。</p>
-  <table>
+  <table class="fit-content">
     <thead><tr><th>代碼</th><th>語言</th><th>ISO 639-3</th></tr></thead>
     <tbody>
       <tr><td><code>cdo</code></td><td>閩東語</td><td><a href="https://iso639-3.sil.org/code/cdo">cdo | ISO 639-3</a></td></tr>
@@ -35,7 +35,7 @@ import ProseLayout from "../layouts/ProseLayout.astro";
   <h2>方案表資料如何生成</h2>
   <p>方案頁上的「方案表」標記表示本網站已經從該方案的 Rime 檔案自動整理出可瀏覽的音系資料。這些資料不是人工編寫的音韻學定論，而是根據方案自身的碼表和拼寫規則生成的索引，目的在於幫助讀者快速理解「某個字在這套方案中如何拼寫」。</p>
   <p>生成流程會先尋找方案的 <code>schema.yaml</code>，讀取其中指定的 <code>translator.dictionary</code>，再打開相應的 <code>dict.yaml</code>。系統只採用單字碼表列，會排除詞組列和帶空格的多段拼寫；之後按方案提示、聲調標記和已知拼寫規律，把每個拼寫保守地拆成聲母、韻母和聲調。</p>
-  <table>
+  <table class="text-width">
     <thead><tr><th>資料類型</th><th>生成方式</th><th>頁面用途</th></tr></thead>
     <tbody>
       <tr>

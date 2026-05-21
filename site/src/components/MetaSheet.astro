@@ -1,6 +1,7 @@
 ---
 import type { SchemaEntry } from "../data/types";
 import { getBranchByKey } from "../data/loader";
+import InstallCommand from "./InstallCommand.astro";
 
 interface Props {
   schema: SchemaEntry;
@@ -8,6 +9,8 @@ interface Props {
 
 const { schema } = Astro.props;
 const branch = schema.branch ? getBranchByKey(schema.branch) : null;
+const desc = schema.description.split(/\n\s*\n/).map((paragraph) => paragraph.trim()).filter(Boolean);
+const installCommand = schema.recipe ? `bash rime-install ${schema.recipe}` : null;
 const fields = [
   { label: "語系", value: branch ? `${branch.name} (${branch.iso_639_3 || "—"})` : "—" },
   { label: "方言", value: schema.dialect || "—" },
@@ -21,7 +24,7 @@ const fields = [
 ---
 <section class="meta-sheet">
   {fields.map((field) => (
-    <div>
+    <div class="field">
       <span>{field.label}</span>
       {field.href ? (
         <a class:list={[{ mono: field.mono }]} href={field.href}>{field.value}</a>
@@ -30,6 +33,44 @@ const fields = [
       )}
     </div>
   ))}
+  {desc.length > 0 && (
+    <div class="description-field">
+      <span>方案說明</span>
+      <div class="description-copy">
+        {desc.map((paragraph) => <p>{paragraph}</p>)}
+      </div>
+    </div>
+  )}
+  <div class="install-field">
+    <span>如何取得</span>
+    <div class="install-options">
+      {installCommand && (
+        <article class="install-option">
+          <h3>透過 plum 安裝</h3>
+          <p>plum 是中州韻配方安裝工具。執行以下命令即可獲取此配方：</p>
+          <InstallCommand command={installCommand} />
+        </article>
+      )}
+      {schema.downloadable ? (
+        <article class="install-option">
+          <h3>從本站下載整合包</h3>
+          <p>下載已配置好的整合包，解壓後置入中州韻使用者目錄即可使用。</p>
+          <a href="https://github.com/laubonghaudoi/Chinese_Rime/releases/latest">前往最新發佈 →</a>
+        </article>
+      ) : schema.upstream_url ? (
+        <article class="install-option">
+          <h3>從上游倉庫下載</h3>
+          <p>本方案未列入站點下載包；可從上游倉庫直接取得。</p>
+          <a href={schema.upstream_url}>前往上游倉庫 →</a>
+        </article>
+      ) : (
+        <article class="install-option">
+          <h3>暫無可用安裝來源</h3>
+          <p>此方案目前只保留目錄記錄；若有可部署檔案，後續可補入下載包或上游連結。</p>
+        </article>
+      )}
+    </div>
+  </div>
 </section>
 
 <style>
@@ -39,10 +80,30 @@ const fields = [
     background: var(--bg-elev);
     padding: 0 var(--sp-section-x) 32px;
   }
-  div {
+  .field,
+  .description-field,
+  .install-field {
     padding: 22px 18px 18px 0;
     min-width: 0;
     border-top: 2px solid var(--ink);
+  }
+  .field:nth-child(-n + 4) {
+    border-top: 0;
+  }
+  .description-field,
+  .install-field {
+    grid-column: 1 / -1;
+    display: block;
+    width: 100%;
+    padding: 24px 0 0;
+  }
+  .description-field > span,
+  .install-field > span {
+    margin-bottom: 14px;
+    color: var(--ink);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
   }
   span {
     display: block;
@@ -75,14 +136,80 @@ const fields = [
     font-size: 13px;
     font-weight: 500;
   }
+  .description-copy p {
+    max-width: 820px;
+    margin: 0 0 10px;
+    color: var(--ink-soft);
+    font-family: var(--ff-serif-tc);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.9;
+    overflow-wrap: anywhere;
+    white-space: pre-line;
+  }
+  .description-copy p:last-child {
+    margin-bottom: 0;
+  }
+  .install-options {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 430px));
+    gap: 18px;
+    max-width: 960px;
+  }
+  .install-option {
+    min-width: 0;
+  }
+  .install-option h3 {
+    margin: 0 0 10px;
+    font-family: var(--ff-serif-tc);
+    font-size: 18px;
+    line-height: 1.35;
+  }
+  .install-option p {
+    margin: 0 0 14px;
+    color: var(--ink-meta-2);
+    font-family: var(--ff-sans-tc);
+    font-size: 13px;
+    line-height: 1.7;
+  }
+  .install-option a {
+    display: inline-block;
+    color: var(--ink);
+    font-family: var(--ff-sans-tc);
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: var(--zhu);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+  }
   @media (max-width: 940px) {
     .meta-sheet {
       grid-template-columns: repeat(2, 1fr);
+    }
+    .field:nth-child(-n + 4) {
+      border-top: 2px solid var(--ink);
+    }
+    .field:nth-child(-n + 2) {
+      border-top: 0;
+    }
+    .install-options {
+      grid-template-columns: 1fr;
     }
   }
   @media (max-width: 560px) {
     .meta-sheet {
       grid-template-columns: 1fr;
+    }
+    .field:nth-child(-n + 2) {
+      border-top: 2px solid var(--ink);
+    }
+    .field:first-child {
+      border-top: 0;
+    }
+    .description-field,
+    .install-field {
+      padding-top: 22px;
     }
   }
 </style>

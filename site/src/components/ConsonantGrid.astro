@@ -26,7 +26,6 @@ const { grid } = Astro.props;
                 {entries.map((entry) => (
                   <button class="entry" type="button" data-syllable-filter={`^${entry.spelling}`}>
                     <code>{entry.spelling}</code>
-                    <span class="ipa">[{entry.ipa}]</span>
                     <span class="examples">{entry.examples.slice(0, 1).join("")}</span>
                   </button>
                 ))}
@@ -99,11 +98,6 @@ const { grid } = Astro.props;
     font-family: var(--ff-mono);
     font-size: 13.5px;
     letter-spacing: 0;
-  }
-  .ipa {
-    color: var(--ink-meta-2);
-    font-family: var(--ff-sans);
-    font-style: italic;
   }
   .examples {
     font-family: var(--ff-serif-tc);

@@ -22,16 +22,17 @@ const branches = getManifest().branches;
     top: 96px;
     align-self: start;
     display: grid;
-    gap: 2px;
+    gap: 0;
   }
   a {
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto;
-    gap: 10px;
-    padding: 8px 0;
+    gap: 8px;
+    padding: 4px 0;
     text-decoration: none;
     font-family: var(--ff-sans-tc);
     font-size: 14.5px;
+    line-height: 1.2;
   }
   a:hover {
     font-weight: 700;
@@ -39,7 +40,7 @@ const branches = getManifest().branches;
   span {
     display: flex;
     align-items: baseline;
-    gap: 8px;
+    gap: 6px;
     min-width: 0;
   }
   code {

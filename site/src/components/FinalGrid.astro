@@ -6,13 +6,16 @@ interface Props {
 }
 
 const { grid } = Astro.props;
+const visibleCols = grid.cols.filter((col) =>
+  grid.rows.some((row) => (grid.cells[`${row.key}|${col.suffix}`] ?? []).length > 0)
+);
 ---
 <div class="table-wrap">
   <table aria-label="韻母表">
     <thead>
       <tr>
         <th class="nucleus" scope="col">韻腹</th>
-        {grid.cols.map((col) => <th scope="col">{col.label}</th>)}
+        {visibleCols.map((col) => <th scope="col">{col.label}</th>)}
       </tr>
     </thead>
     <tbody>
@@ -20,16 +23,14 @@ const { grid } = Astro.props;
         <tr>
           <th scope="row">
             <code>{row.label}</code>
-            <span>[{row.ipa}]</span>
           </th>
-          {grid.cols.map((col) => {
+          {visibleCols.map((col) => {
             const entries = grid.cells[`${row.key}|${col.suffix}`] ?? [];
             return (
               <td>
                 {entries.map((entry) => (
                   <button class="entry" type="button" data-syllable-filter={entry.spelling}>
                     <code>{entry.spelling}</code>
-                    <span class="ipa">[{entry.ipa}]</span>
                     <span class="examples">{entry.examples.slice(0, 1).join("")}</span>
                   </button>
                 ))}
@@ -77,14 +78,7 @@ const { grid } = Astro.props;
     white-space: nowrap;
   }
   tbody th code {
-    display: block;
-    margin-bottom: 2px;
     color: var(--ink);
-  }
-  tbody th span {
-    font-family: var(--ff-sans);
-    font-style: italic;
-    font-weight: 400;
   }
   .nucleus {
     width: 76px;
@@ -115,11 +109,6 @@ const { grid } = Astro.props;
     font-family: var(--ff-mono);
     font-size: 13px;
     letter-spacing: 0;
-  }
-  .ipa {
-    color: var(--ink-meta-2);
-    font-family: var(--ff-sans);
-    font-style: italic;
   }
   .examples {
     font-family: var(--ff-serif-tc);

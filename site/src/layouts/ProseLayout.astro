@@ -3,7 +3,7 @@ import BaseLayout from "./BaseLayout.astro";
 
 interface Props {
   title: string;
-  kicker: string;
+  kicker?: string;
   heading: string;
   active: string;
 }
@@ -12,7 +12,7 @@ const { kicker, heading, active } = Astro.props;
 ---
 <BaseLayout title={`${heading} · 非普通話漢語拼音方案全集`} active={active}>
   <article class="prose">
-    <span>{kicker}</span>
+    {kicker && <span>{kicker}</span>}
     <h1>{heading}</h1>
     <slot />
   </article>
@@ -74,6 +74,13 @@ const { kicker, heading, active } = Astro.props;
     margin-top: 18px;
     font-family: var(--ff-sans-tc);
     font-size: 13px;
+  }
+  :global(.prose table.fit-content) {
+    width: auto;
+    max-width: 100%;
+  }
+  :global(.prose table.text-width) {
+    max-width: 820px;
   }
   :global(.prose th),
   :global(.prose td) {
