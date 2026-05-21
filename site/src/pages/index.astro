@@ -7,10 +7,10 @@ import { withBase } from "../utils/path";
 const manifest = getManifest();
 ---
 <!-- No active nav item on the homepage; the user has not entered a section yet. -->
-<BaseLayout title="中州韻輸入法非普通話漢語拼音方案全集" active="">
+<BaseLayout title="非普通話漢語拼音方案全集" active="">
   <section class="hero">
     <div class="left">
-      <h1>中州韻輸入法<br />非普通話漢語拼音方案全集</h1>
+      <h1>非普通話漢語拼音方案全集</h1>
       <p class="lede">收錄現代漢語各大分支，及上古、中古漢語的中州韻輸入法拼音輸入方案與字庫。</p>
       <div class="ctas">
         <a class="cta" href={withBase("/catalog/")}>瀏覽方案目錄</a>
@@ -25,7 +25,7 @@ const manifest = getManifest();
   </section>
 
   <section class="paths">
-    <span class="label">為三類讀者</span>
+    <span class="label">項目宗旨</span>
     <div class="cards">
       <article>
         <span>01</span>
@@ -62,7 +62,7 @@ const manifest = getManifest();
   h1 {
     margin: 0 0 18px;
     font-family: var(--ff-serif-tc);
-    /* Sized for the long title 中州韻輸入法 / 非普通話漢語拼音方案全集 */
+    /* Sized for the long title 非普通話漢語拼音方案全集 */
     font-size: clamp(2.2rem, 4vw, 3.4rem);
     font-weight: 800;
     line-height: 1.15;
@@ -129,13 +129,14 @@ const manifest = getManifest();
     padding: 54px var(--sp-section-x) 48px;
     background: var(--bg-elev);
   }
-  .label {
+  .paths > .label {
     display: block;
     margin-bottom: 20px;
     color: var(--ink-meta-3);
     font-family: var(--ff-sans-tc);
-    font-size: var(--fs-label);
-    letter-spacing: var(--ls-label);
+    font-size: 14.5px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
   }
   .cards {
     display: grid;

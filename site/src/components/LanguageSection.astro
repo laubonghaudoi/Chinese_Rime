@@ -55,14 +55,19 @@ const iso = branch.iso_639_3 || "—";
   code {
     color: var(--zhu);
     font-family: var(--ff-mono);
-    font-size: 13px;
+    font-size: 1em;
     font-weight: 600;
   }
   .count {
     color: var(--ink-meta-2);
     font-family: var(--ff-sans-tc);
-    font-size: 12.5px;
+    font-size: 14.5px;
+    font-weight: 500;
     white-space: nowrap;
+  }
+  .count :global(.badge) {
+    min-height: 23px;
+    font-size: 12px;
   }
   .missing {
     margin: 18px 0 0;
