@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T16:51:04+00:00",
+  "generated_at": "2026-05-21T19:14:14+00:00",
   "stats": {
     "schema_count": 173,
     "recipe_count": 60,
@@ -67,72 +67,12 @@
       ]
     },
     {
-      "key": "cmn",
-      "name": "官話",
-      "iso_639_3": "cmn",
-      "intro": "官話下分中原、江淮、西南等支。",
-      "status": "active",
-      "dialects": [
-        {
-          "name": "中原官話",
-          "schemas": [
-            "lakyang",
-            "lakyang_chuim",
-            "zhung",
-            "zhung_42",
-            "zhung_combo",
-            "zhung_combo_transcript",
-            "zhung_stenotype",
-            "zhung_transcript",
-            "yihdjoouhuah",
-            "yihjoouhuah_romatzyh"
-          ]
-        },
-        {
-          "name": "江淮官話",
-          "schemas": [
-            "langjin",
-            "ntw",
-            "taerv",
-            "huaipinquiizi",
-            "huaipinsuangzi"
-          ]
-        },
-        {
-          "name": "西南官話",
-          "schemas": [
-            "huanggang",
-            "huanggangxiangzhen",
-            "ngocen",
-            "wuhan",
-            "yunciu",
-            "shupin_cendu",
-            "shupin_cendu_9key",
-            "shupin_congqin",
-            "shupin_guiyang",
-            "shupin_libin",
-            "shupin_tongyin",
-            "shupin_zigong"
-          ]
-        }
-      ]
-    },
-    {
-      "key": "cjy",
-      "name": "晉語",
-      "iso_639_3": "cjy",
-      "intro": "晉語。",
-      "status": "active",
-      "dialects": [
-        {
-          "name": "晉語",
-          "schemas": [
-            "jieny",
-            "fengyo",
-            "haitrou"
-          ]
-        }
-      ]
+      "key": "cnp",
+      "name": "北部平話",
+      "iso_639_3": "cnp",
+      "intro": "暫缺。",
+      "status": "missing",
+      "dialects": []
     },
     {
       "key": "wuu",
@@ -251,34 +191,75 @@
       ]
     },
     {
-      "key": "gan",
-      "name": "贛語",
-      "iso_639_3": "gan",
-      "intro": "贛語。",
+      "key": "cmn",
+      "name": "官話",
+      "iso_639_3": "cmn",
+      "intro": "官話下分中原、江淮、西南等支。",
       "status": "active",
       "dialects": [
         {
-          "name": "撫州話",
+          "name": "中原官話",
           "schemas": [
-            "fudiufa"
+            "lakyang",
+            "lakyang_chuim",
+            "zhung",
+            "zhung_42",
+            "zhung_combo",
+            "zhung_combo_transcript",
+            "zhung_stenotype",
+            "zhung_transcript",
+            "yihdjoouhuah",
+            "yihjoouhuah_romatzyh"
+          ]
+        },
+        {
+          "name": "江淮官話",
+          "schemas": [
+            "langjin",
+            "ntw",
+            "taerv",
+            "huaipinquiizi",
+            "huaipinsuangzi"
+          ]
+        },
+        {
+          "name": "西南官話",
+          "schemas": [
+            "huanggang",
+            "huanggangxiangzhen",
+            "ngocen",
+            "wuhan",
+            "yunciu",
+            "shupin_cendu",
+            "shupin_cendu_9key",
+            "shupin_congqin",
+            "shupin_guiyang",
+            "shupin_libin",
+            "shupin_tongyin",
+            "shupin_zigong"
           ]
         }
       ]
     },
     {
-      "key": "hsn",
-      "name": "湘語",
-      "iso_639_3": "hsn",
-      "intro": "湘語。",
+      "key": "sjc",
+      "name": "邵將語",
+      "iso_639_3": "sjc",
+      "intro": "暫缺。",
+      "status": "missing",
+      "dialects": []
+    },
+    {
+      "key": "csp",
+      "name": "南部平話",
+      "iso_639_3": "csp",
+      "intro": "南部平話。",
       "status": "active",
       "dialects": [
         {
-          "name": "邵東話",
+          "name": "南寧平話",
           "schemas": [
-            "sautungva",
-            "sautungva_beta",
-            "sautungva_cyrillic",
-            "sautungva_phinin"
+            "naamning_bingwaa"
           ]
         }
       ]
@@ -308,6 +289,122 @@
           "name": "大埔話",
           "schemas": [
             "tai4bu1shang1"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cjy",
+      "name": "晉語",
+      "iso_639_3": "cjy",
+      "intro": "晉語。",
+      "status": "active",
+      "dialects": [
+        {
+          "name": "晉語",
+          "schemas": [
+            "jieny",
+            "fengyo",
+            "haitrou"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "hnm",
+      "name": "海南話",
+      "iso_639_3": "hnm",
+      "intro": "暫缺。",
+      "status": "missing",
+      "dialects": []
+    },
+    {
+      "key": "extra",
+      "name": "域外方音",
+      "iso_639_3": "",
+      "intro": "漢字在非漢語語言中的讀音方案。",
+      "status": "synthetic",
+      "dialects": [
+        {
+          "name": "日語漢字",
+          "schemas": [
+            "jap_poly",
+            "kunyomi"
+          ]
+        },
+        {
+          "name": "朝鮮語漢字",
+          "schemas": [
+            "hangeul",
+            "hanja",
+            "qyeishanglr_hanja",
+            "hangyl",
+            "hangyl_hanja"
+          ]
+        },
+        {
+          "name": "京語漢喃字",
+          "schemas": [
+            "tiingkin"
+          ]
+        },
+        {
+          "name": "古壯字",
+          "schemas": [
+            "sawndip"
+          ]
+        },
+        {
+          "name": "越南語漢喃字",
+          "schemas": [
+            "newhannom"
+          ]
+        },
+        {
+          "name": "其他方案",
+          "schemas": [
+            "swiftkana",
+            "manchu_aligali",
+            "mipa",
+            "manchu_gb",
+            "mongolian_gb",
+            "sibe_gb",
+            "todo_gb",
+            "uyghur_uly_pf"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cpx",
+      "name": "莆仙語",
+      "iso_639_3": "cpx",
+      "intro": "莆仙語。",
+      "status": "active",
+      "dialects": [
+        {
+          "name": "莆田話",
+          "schemas": [
+            "HinghuaBUC",
+            "Pouleng"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "hsn",
+      "name": "湘語",
+      "iso_639_3": "hsn",
+      "intro": "湘語。",
+      "status": "active",
+      "dialects": [
+        {
+          "name": "邵東話",
+          "schemas": [
+            "sautungva",
+            "sautungva_beta",
+            "sautungva_cyrillic",
+            "sautungva_phinin"
           ]
         }
       ]
@@ -380,35 +477,20 @@
       ]
     },
     {
-      "key": "csp",
-      "name": "南部平話",
-      "iso_639_3": "csp",
-      "intro": "南部平話。",
-      "status": "active",
-      "dialects": [
-        {
-          "name": "南寧平話",
-          "schemas": [
-            "naamning_bingwaa"
-          ]
-        }
-      ]
+      "key": "luh",
+      "name": "雷州話",
+      "iso_639_3": "luh",
+      "intro": "暫缺。",
+      "status": "missing",
+      "dialects": []
     },
     {
-      "key": "cpx",
-      "name": "莆仙語",
-      "iso_639_3": "cpx",
-      "intro": "莆仙語。",
-      "status": "active",
-      "dialects": [
-        {
-          "name": "莆田話",
-          "schemas": [
-            "HinghuaBUC",
-            "Pouleng"
-          ]
-        }
-      ]
+      "key": "czo",
+      "name": "閩中語",
+      "iso_639_3": "czo",
+      "intro": "暫缺。",
+      "status": "missing",
+      "dialects": []
     },
     {
       "key": "mnp",
@@ -421,6 +503,24 @@
           "name": "建寧府方言",
           "schemas": [
             "lmc"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cdo",
+      "name": "閩東語",
+      "iso_639_3": "cdo",
+      "intro": "閩東語。",
+      "status": "active",
+      "dialects": [
+        {
+          "name": "福州話",
+          "schemas": [
+            "ciklinbekin",
+            "dfd",
+            "BekIngLMC",
+            "GauHuoiLMC"
           ]
         }
       ]
@@ -513,81 +613,6 @@
       ]
     },
     {
-      "key": "cdo",
-      "name": "閩東語",
-      "iso_639_3": "cdo",
-      "intro": "閩東語。",
-      "status": "active",
-      "dialects": [
-        {
-          "name": "福州話",
-          "schemas": [
-            "ciklinbekin",
-            "dfd",
-            "BekIngLMC",
-            "GauHuoiLMC"
-          ]
-        }
-      ]
-    },
-    {
-      "key": "extra",
-      "name": "域外方音",
-      "iso_639_3": "",
-      "intro": "漢字在非漢語語言中的讀音方案。",
-      "status": "synthetic",
-      "dialects": [
-        {
-          "name": "日語漢字",
-          "schemas": [
-            "jap_poly",
-            "kunyomi"
-          ]
-        },
-        {
-          "name": "朝鮮語漢字",
-          "schemas": [
-            "hangeul",
-            "hanja",
-            "qyeishanglr_hanja",
-            "hangyl",
-            "hangyl_hanja"
-          ]
-        },
-        {
-          "name": "京語漢喃字",
-          "schemas": [
-            "tiingkin"
-          ]
-        },
-        {
-          "name": "古壯字",
-          "schemas": [
-            "sawndip"
-          ]
-        },
-        {
-          "name": "越南語漢喃字",
-          "schemas": [
-            "newhannom"
-          ]
-        },
-        {
-          "name": "其他方案",
-          "schemas": [
-            "swiftkana",
-            "manchu_aligali",
-            "mipa",
-            "manchu_gb",
-            "mongolian_gb",
-            "sibe_gb",
-            "todo_gb",
-            "uyghur_uly_pf"
-          ]
-        }
-      ]
-    },
-    {
       "key": "czh",
       "name": "徽語",
       "iso_639_3": "czh",
@@ -596,44 +621,19 @@
       "dialects": []
     },
     {
-      "key": "czo",
-      "name": "閩中語",
-      "iso_639_3": "czo",
-      "intro": "暫缺。",
-      "status": "missing",
-      "dialects": []
-    },
-    {
-      "key": "hnm",
-      "name": "海南話",
-      "iso_639_3": "hnm",
-      "intro": "暫缺。",
-      "status": "missing",
-      "dialects": []
-    },
-    {
-      "key": "luh",
-      "name": "雷州話",
-      "iso_639_3": "luh",
-      "intro": "暫缺。",
-      "status": "missing",
-      "dialects": []
-    },
-    {
-      "key": "sjc",
-      "name": "邵將語",
-      "iso_639_3": "sjc",
-      "intro": "暫缺。",
-      "status": "missing",
-      "dialects": []
-    },
-    {
-      "key": "cnp",
-      "name": "北部平話",
-      "iso_639_3": "cnp",
-      "intro": "暫缺。",
-      "status": "missing",
-      "dialects": []
+      "key": "gan",
+      "name": "贛語",
+      "iso_639_3": "gan",
+      "intro": "贛語。",
+      "status": "active",
+      "dialects": [
+        {
+          "name": "撫州話",
+          "schemas": [
+            "fudiufa"
+          ]
+        }
+      ]
     }
   ],
   "schemas": {

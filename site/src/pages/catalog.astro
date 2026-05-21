@@ -3,10 +3,10 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import FilterChips from "../components/FilterChips.astro";
 import LanguageSection from "../components/LanguageSection.astro";
 import SidebarTOC from "../components/SidebarTOC.astro";
-import { getBranchesByNameInitial, getManifest } from "../data/loader";
+import { getManifest } from "../data/loader";
 
 const manifest = getManifest();
-const branches = getBranchesByNameInitial();
+const branches = manifest.branches;
 ---
 <BaseLayout title="方案目錄 · 非普通話漢語拼音方案全集" active="catalog">
   <header class="page-head">

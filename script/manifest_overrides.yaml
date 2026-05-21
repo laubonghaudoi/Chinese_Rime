@@ -11,20 +11,11 @@ branches:
     intro: 中古漢語的擬音方案。
     dialects:
     - 中古漢語
-  cmn:
-    name: 官話
-    iso_639_3: cmn
-    intro: 官話下分中原、江淮、西南等支。
-    dialects:
-    - 中原官話
-    - 江淮官話
-    - 西南官話
-  cjy:
-    name: 晉語
-    iso_639_3: cjy
-    intro: 晉語。
-    dialects:
-    - 晉語
+  cnp:
+    name: 北部平話
+    iso_639_3: cnp
+    intro: 暫缺。
+    dialects: []
   wuu:
     name: 吳語
     iso_639_3: wuu
@@ -44,18 +35,25 @@ branches:
     - 永嘉話
     - 溫州話
     - 標準吳語
-  gan:
-    name: 贛語
-    iso_639_3: gan
-    intro: 贛語。
+  cmn:
+    name: 官話
+    iso_639_3: cmn
+    intro: 官話下分中原、江淮、西南等支。
     dialects:
-    - 撫州話
-  hsn:
-    name: 湘語
-    iso_639_3: hsn
-    intro: 湘語。
+    - 中原官話
+    - 江淮官話
+    - 西南官話
+  sjc:
+    name: 邵將語
+    iso_639_3: sjc
+    intro: 暫缺。
+    dialects: []
+  csp:
+    name: 南部平話
+    iso_639_3: csp
+    intro: 南部平話。
     dialects:
-    - 邵東話
+    - 南寧平話
   hak:
     name: 客家話
     iso_639_3: hak
@@ -64,6 +62,39 @@ branches:
     - 客家話綜合口音
     - 梅縣話
     - 大埔話
+  cjy:
+    name: 晉語
+    iso_639_3: cjy
+    intro: 晉語。
+    dialects:
+    - 晉語
+  hnm:
+    name: 海南話
+    iso_639_3: hnm
+    intro: 暫缺。
+    dialects: []
+  extra:
+    name: 域外方音
+    iso_639_3: ''
+    intro: 漢字在非漢語語言中的讀音方案。
+    dialects:
+    - 日語漢字
+    - 朝鮮語漢字
+    - 京語漢喃字
+    - 古壯字
+    - 越南語漢喃字
+  cpx:
+    name: 莆仙語
+    iso_639_3: cpx
+    intro: 莆仙語。
+    dialects:
+    - 莆田話
+  hsn:
+    name: 湘語
+    iso_639_3: hsn
+    intro: 湘語。
+    dialects:
+    - 邵東話
   yue:
     name: 粵語
     iso_639_3: yue
@@ -76,24 +107,28 @@ branches:
     - 南寧白話
     - 藤縣話
     - 貴港話
-  csp:
-    name: 南部平話
-    iso_639_3: csp
-    intro: 南部平話。
-    dialects:
-    - 南寧平話
-  cpx:
-    name: 莆仙語
-    iso_639_3: cpx
-    intro: 莆仙語。
-    dialects:
-    - 莆田話
+  luh:
+    name: 雷州話
+    iso_639_3: luh
+    intro: 暫缺。
+    dialects: []
+  czo:
+    name: 閩中語
+    iso_639_3: czo
+    intro: 暫缺。
+    dialects: []
   mnp:
     name: 閩北語
     iso_639_3: mnp
     intro: 閩北語。
     dialects:
     - 建寧府方言
+  cdo:
+    name: 閩東語
+    iso_639_3: cdo
+    intro: 閩東語。
+    dialects:
+    - 福州話
   nan:
     name: 閩南語
     iso_639_3: nan
@@ -109,52 +144,17 @@ branches:
     - 潮陽話
     - 澄海話
     - 饒平話
-  cdo:
-    name: 閩東語
-    iso_639_3: cdo
-    intro: 閩東語。
-    dialects:
-    - 福州話
-  extra:
-    name: 域外方音
-    iso_639_3: ''
-    intro: 漢字在非漢語語言中的讀音方案。
-    dialects:
-    - 日語漢字
-    - 朝鮮語漢字
-    - 京語漢喃字
-    - 古壯字
-    - 越南語漢喃字
   czh:
     name: 徽語
     iso_639_3: czh
     intro: 暫缺。
     dialects: []
-  czo:
-    name: 閩中語
-    iso_639_3: czo
-    intro: 暫缺。
-    dialects: []
-  hnm:
-    name: 海南話
-    iso_639_3: hnm
-    intro: 暫缺。
-    dialects: []
-  luh:
-    name: 雷州話
-    iso_639_3: luh
-    intro: 暫缺。
-    dialects: []
-  sjc:
-    name: 邵將語
-    iso_639_3: sjc
-    intro: 暫缺。
-    dialects: []
-  cnp:
-    name: 北部平話
-    iso_639_3: cnp
-    intro: 暫缺。
-    dialects: []
+  gan:
+    name: 贛語
+    iso_639_3: gan
+    intro: 贛語。
+    dialects:
+    - 撫州話
 schema_assignments:
   OC_nulll:
     branch: och
