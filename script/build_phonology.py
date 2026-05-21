@@ -33,6 +33,7 @@ def main(argv: list[str] | None = None) -> int:
         "skipped": {},
     }
     report_rows: list[dict[str, Any]] = []
+    family_by_schema = _schema_family_map(manifest)
 
     for schema_id, schema in sorted(manifest.get("schemas", {}).items()):
         resolved = resolve_schema_source(schema_id, args.sources_root, args.download_root)
@@ -66,7 +67,7 @@ def main(argv: list[str] | None = None) -> int:
         json.dumps(summary, ensure_ascii=False, separators=(",", ":"), sort_keys=True) + "\n",
         encoding="utf-8",
     )
-    _print_report(report_rows, summary["skipped"])
+    _print_report(report_rows, summary["skipped"], family_by_schema)
     return 0
 
 
@@ -97,18 +98,64 @@ def _infer_repo_root(sources_root: Path) -> Path:
     return Path.cwd()
 
 
-def _print_report(records: list[dict[str, Any]], skipped: dict[str, Any]) -> None:
-    print("schema_id\tinitials\tfinals\ttone_count\ttotal_chars\tundecomposable", file=sys.stderr)
-    for record in records[:40]:
+def _schema_family_map(manifest: dict[str, Any]) -> dict[str, str]:
+    families: dict[str, str] = {}
+    for branch in manifest.get("branches", []):
+        if not isinstance(branch, dict):
+            continue
+        family = str(branch.get("key", "-"))
+        for dialect in branch.get("dialects", []):
+            if not isinstance(dialect, dict):
+                continue
+            for schema_id in dialect.get("schemas", []):
+                families[str(schema_id)] = family
+    return families
+
+
+def _print_report(
+    records: list[dict[str, Any]],
+    skipped: dict[str, Any],
+    family_by_schema: dict[str, str] | None = None,
+) -> None:
+    family_by_schema = family_by_schema or {}
+    print(
+        "schema_id\tfamily\tinit_grid\tfinal_grid\tuncategorised_init\tuncategorised_final\tstatus",
+        file=sys.stderr,
+    )
+    for record in records:
         stats = record["stats"]
+        suppressed = bool(stats.get("grid_suppressed"))
+        initial_status = _coverage_status(stats.get("initial_grid_coverage"), suppressed)
+        final_status = _coverage_status(stats.get("final_grid_coverage"), suppressed)
+        initial_uncategorised = _coverage_gap(stats.get("initial_grid_coverage"), suppressed)
+        final_uncategorised = _coverage_gap(stats.get("final_grid_coverage"), suppressed)
+        status = "ok" if record.get("grid_status") == "ok" else ("suppressed" if suppressed else "needs_work")
         print(
-            f"{record['schema_id']}\t{len(record['initials'])}\t{len(record['finals'])}\t"
-            f"{len(record['tones'])}\t{stats['total_chars']}\t{stats['undecomposable_syllables']}",
+            f"{record['schema_id']}\t{family_by_schema.get(record['schema_id'], '-')}\t"
+            f"{initial_status}\t{final_status}\t{initial_uncategorised}\t{final_uncategorised}\t{status}",
             file=sys.stderr,
         )
-    if len(records) > 40:
-        print(f"... {len(records) - 40} more schema records omitted", file=sys.stderr)
     print(f"wrote={len(records)} skipped={len(skipped)}", file=sys.stderr)
+
+
+def _coverage_status(coverage: Any, suppressed: bool) -> str:
+    if suppressed:
+        return "-"
+    if not isinstance(coverage, dict):
+        return "missing"
+    if int(coverage.get("total", 0)) == 0:
+        return "empty"
+    if int(coverage.get("categorised", 0)) == int(coverage.get("total", 0)):
+        return "ok"
+    return "partial"
+
+
+def _coverage_gap(coverage: Any, suppressed: bool) -> str | int:
+    if suppressed:
+        return "-"
+    if not isinstance(coverage, dict):
+        return "-"
+    return int(coverage.get("total", 0)) - int(coverage.get("categorised", 0))
 
 
 if __name__ == "__main__":

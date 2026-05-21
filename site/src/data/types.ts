@@ -73,8 +73,11 @@ export interface PhonologyStats {
   total_syllables: number;
   single_char_rows: number;
   undecomposable_syllables: number;
+  grid_suppressed?: boolean;
   initial_grid_coverage?: PhonologyCoverage;
   final_grid_coverage?: PhonologyCoverage;
+  uncategorised_initial_count?: number;
+  uncategorised_final_count?: number;
 }
 
 export interface PhonologyCoverage {
@@ -133,7 +136,7 @@ export interface PhonologySummaryEntry {
   schema_id: SchemaId;
   display_name: string;
   asset_path: string;
-  tone_encoding: "digits" | "diacritics" | "letters" | "none";
+  tone_encoding: "digits" | "diacritics" | "letters" | "contours" | "none";
   initials: PhonologyRow[];
   finals: PhonologyRow[];
   tones: PhonologyTone[];

@@ -2,6 +2,9 @@ from pathlib import Path
 
 from manifest.phonology.compile import compile_phonology, summary_entry
 
+SCRIPT_DIR = Path(__file__).resolve().parents[1]
+IPA_DICTIONARY_PATH = SCRIPT_DIR / "phonology_ipa_dictionary.yaml"
+
 
 def test_compile_phonology_filters_phrases_and_builds_tables(fixtures_dir: Path):
     record = compile_phonology(
@@ -40,7 +43,7 @@ def test_compile_phonology_filters_single_char_multi_token_codes(tmp_path: Path)
         dictionary_name="multi",
         repo_root=tmp_path,
         overrides={"extra_initials": ["z", "c"]},
-        ipa_dictionary_path=Path("script/phonology_ipa_dictionary.yaml"),
+        ipa_dictionary_path=IPA_DICTIONARY_PATH,
     )
 
     assert record is not None
@@ -97,7 +100,7 @@ def test_compile_phonology_emits_ipa_grids_when_dictionary_supplied(fixtures_dir
         dict_path=fixtures_dir / "phonology" / "sample_jyutping.dict.yaml",
         dictionary_name="sample_jyutping",
         repo_root=fixtures_dir,
-        ipa_dictionary_path=Path("script/phonology_ipa_dictionary.yaml"),
+        ipa_dictionary_path=IPA_DICTIONARY_PATH,
     )
 
     assert record is not None
@@ -121,7 +124,7 @@ def test_compile_phonology_suppresses_grids_from_overrides(fixtures_dir: Path):
         dictionary_name="sample_jyutping",
         repo_root=fixtures_dir,
         overrides={"suppress_grids": True},
-        ipa_dictionary_path=Path("script/phonology_ipa_dictionary.yaml"),
+        ipa_dictionary_path=IPA_DICTIONARY_PATH,
     )
 
     assert record is not None
@@ -148,7 +151,7 @@ def test_compile_phonology_sorts_superscript_digit_tones(tmp_path: Path):
         dictionary_name="superscript",
         repo_root=tmp_path,
         overrides={"extra_initials": ["z"]},
-        ipa_dictionary_path=Path("script/phonology_ipa_dictionary.yaml"),
+        ipa_dictionary_path=IPA_DICTIONARY_PATH,
     )
 
     assert record is not None

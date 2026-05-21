@@ -45,6 +45,7 @@ def compile_phonology(
         hints.recognized_initials.update(str(key).lower() for key in ipa_dictionary.get("initials_default", {}))
         hints.recognized_finals.update(str(key).lower() for key in ipa_dictionary.get("nuclei_default", {}))
         hints.recognized_finals.update(str(key).lower() for key in ipa_dictionary.get("finals_default", {}))
+        hints.recognized_finals.update(_composed_finals(ipa_dictionary))
     split = build_decomposer(sorted(set(spellings)), hints)
 
     char_spellings: dict[str, list[str]] = defaultdict(list)
@@ -193,6 +194,16 @@ def _is_multi_token_spelling(spelling: str) -> bool:
     return any(char.isspace() for char in spelling.strip())
 
 
+def _composed_finals(ipa_dictionary: dict[str, Any]) -> set[str]:
+    nuclei = [str(key).lower() for key in ipa_dictionary.get("nuclei_default", {})]
+    codas = [
+        str(coda.get("suffix", "")).lower()
+        for coda in ipa_dictionary.get("codas", [])
+        if str(coda.get("suffix", ""))
+    ]
+    return {f"{nucleus}{coda}" for nucleus in nuclei for coda in codas}
+
+
 def _attach_grids(
     record: dict[str, Any],
     initials: list[dict[str, Any]],
@@ -200,6 +211,7 @@ def _attach_grids(
     hints: Any,
     ipa_dictionary: dict[str, Any] | None,
 ) -> None:
+    record["stats"]["grid_suppressed"] = bool(hints.suppress_grids)
     if ipa_dictionary is None or hints.suppress_grids:
         return
 
@@ -209,6 +221,12 @@ def _attach_grids(
     final_ratio = float(finals_grid["coverage"]["ratio"])
     record["stats"]["initial_grid_coverage"] = initials_grid["coverage"]
     record["stats"]["final_grid_coverage"] = finals_grid["coverage"]
+    record["stats"]["uncategorised_initial_count"] = (
+        int(initials_grid["coverage"]["total"]) - int(initials_grid["coverage"]["categorised"])
+    )
+    record["stats"]["uncategorised_final_count"] = (
+        int(finals_grid["coverage"]["total"]) - int(finals_grid["coverage"]["categorised"])
+    )
 
     if initial_ratio < GRID_COVERAGE_THRESHOLD or final_ratio < GRID_COVERAGE_THRESHOLD:
         return

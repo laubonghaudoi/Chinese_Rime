@@ -9,6 +9,15 @@ import yaml
 
 from .schema_hints import SchemaHints
 
+INITIAL_MODIFIERS = {
+    "w": ("ʷ", None),
+    "y": ("ʲ", "palatal"),
+    "j": ("ʲ", "palatal"),
+    "i": ("ʲ", "palatal"),
+    "v": ("ʷ", None),
+    "r": ("˞", "retroflex"),
+}
+
 
 def load_ipa_dictionary(path: Path) -> dict[str, Any]:
     data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
@@ -24,17 +33,26 @@ def classify_initial(
     hints: SchemaHints,
     dictionary: dict[str, Any],
 ) -> dict[str, str] | None:
-    key = spelling.lower()
+    return _classify_initial_key(spelling.lower(), hints, dictionary, seen=set())
+
+
+def _classify_initial_key(
+    key: str,
+    hints: SchemaHints,
+    dictionary: dict[str, Any],
+    seen: set[str],
+) -> dict[str, str] | None:
+    if not key or key in seen:
+        return None
+    seen.add(key)
     entry = _merged_entry(dictionary.get("initials_default", {}).get(key), hints.initials_ipa.get(key))
-    if not entry:
-        return None
-    if not {"ipa", "place", "manner"} <= set(entry):
-        return None
-    return {
-        "ipa": str(entry["ipa"]),
-        "place": str(entry["place"]),
-        "manner": str(entry["manner"]),
-    }
+    if entry and {"ipa", "place", "manner"} <= set(entry):
+        return {
+            "ipa": str(entry["ipa"]),
+            "place": str(entry["place"]),
+            "manner": str(entry["manner"]),
+        }
+    return _classify_modified_initial(key, hints, dictionary, seen)
 
 
 def split_final(spelling: str, dictionary: dict[str, Any]) -> tuple[str, str]:
@@ -188,7 +206,12 @@ def _nucleus_entry(
     hints: SchemaHints,
     dictionary: dict[str, Any],
 ) -> dict[str, Any] | None:
-    return _merged_entry(dictionary.get("nuclei_default", {}).get(nucleus), hints.nuclei_ipa.get(nucleus))
+    entry = _merged_entry(dictionary.get("nuclei_default", {}).get(nucleus), hints.nuclei_ipa.get(nucleus))
+    if entry:
+        return entry
+    if _looks_like_romanized_nucleus(nucleus):
+        return {"ipa": nucleus, "label": nucleus}
+    return None
 
 
 def _coda_entry(coda: str, dictionary: dict[str, Any]) -> dict[str, Any] | None:
@@ -219,6 +242,42 @@ def _merged_entry(default: Any, override: Any) -> dict[str, Any] | None:
     if isinstance(override, dict):
         merged.update(override)
     return merged
+
+
+def _classify_modified_initial(
+    key: str,
+    hints: SchemaHints,
+    dictionary: dict[str, Any],
+    seen: set[str],
+) -> dict[str, str] | None:
+    if key.endswith("h") and len(key) > 1:
+        base = _classify_initial_key(key[:-1], hints, dictionary, seen)
+        if base:
+            ipa = base["ipa"]
+            return {
+                **base,
+                "ipa": ipa if "ʰ" in ipa else f"{ipa}ʰ",
+            }
+
+    for suffix, (ipa_marker, place_override) in INITIAL_MODIFIERS.items():
+        if key.endswith(suffix) and len(key) > len(suffix):
+            base = _classify_initial_key(key[: -len(suffix)], hints, dictionary, seen)
+            if base:
+                return {
+                    **base,
+                    "ipa": f"{base['ipa']}{ipa_marker}",
+                    "place": place_override or base["place"],
+                }
+    return None
+
+
+def _looks_like_romanized_nucleus(nucleus: str) -> bool:
+    return (
+        bool(nucleus)
+        and nucleus.isascii()
+        and nucleus.isalpha()
+        and any(char in "aeiouyvr" for char in nucleus.lower())
+    )
 
 
 def _grid_entry(row: dict[str, Any], ipa: str) -> dict[str, Any]:

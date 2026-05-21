@@ -3,6 +3,8 @@ from __future__ import annotations
 
 from pathlib import Path
 
+COMMENT_MARKERS = ("||", "◎")
+
 
 def read_dict(path: Path) -> list[tuple[str, str]]:
     """Return ``[(text, spelling), ...]`` rows in dictionary order."""
@@ -26,7 +28,15 @@ def read_dict(path: Path) -> list[tuple[str, str]]:
         if len(parts) < 2:
             continue
         text_value = parts[0].strip()
-        spelling = parts[1].strip()
+        spelling = _normalise_spelling(parts[1])
         if text_value and spelling:
             rows.append((text_value, spelling))
     return rows
+
+
+def _normalise_spelling(value: str) -> str:
+    spelling = value.strip()
+    for marker in COMMENT_MARKERS:
+        spelling = spelling.split(marker, 1)[0].strip()
+    # Some dictionaries append Cyrillic Pe as an internal annotation after the code.
+    return spelling.replace("П", "").strip()

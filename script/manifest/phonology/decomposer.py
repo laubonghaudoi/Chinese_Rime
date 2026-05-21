@@ -9,6 +9,7 @@ from .schema_hints import SchemaHints
 
 VOWELS = set("aeiouAEIOU")
 CONSONANTS = set("bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ")
+TONE_CONTOURS = set("˥˦˧˨˩")
 
 
 def build_decomposer(
@@ -42,8 +43,9 @@ def build_decomposer(
 
 def _strip_tone(spelling: str, hints: SchemaHints) -> tuple[str, str | None]:
     if hints.tone_encoding == "digits":
-        if spelling and spelling[-1].isdigit():
-            return spelling[:-1], spelling[-1]
+        tone = "".join(char for char in spelling if char.isdigit())
+        if tone:
+            return "".join(char for char in spelling if not char.isdigit()), tone
         return spelling, None
     if hints.tone_encoding == "diacritics":
         normalized = unicodedata.normalize("NFD", spelling)
@@ -53,6 +55,15 @@ def _strip_tone(spelling: str, hints: SchemaHints) -> tuple[str, str | None]:
     if hints.tone_encoding == "letters":
         if spelling and spelling[-1].lower() in hints.tone_letters:
             return spelling[:-1], spelling[-1].lower()
+        return spelling, None
+    if hints.tone_encoding == "contours":
+        tone = ""
+        index = len(spelling)
+        while index > 0 and spelling[index - 1] in TONE_CONTOURS:
+            index -= 1
+            tone = spelling[index] + tone
+        if tone:
+            return spelling[:index], tone
         return spelling, None
     return spelling, None
 

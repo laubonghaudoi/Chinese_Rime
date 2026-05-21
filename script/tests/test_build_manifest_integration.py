@@ -122,7 +122,17 @@ def test_build_phonology_cli_writes_summary_and_assets(tmp_path: Path):
             {
                 "generated_at": "2026-05-20T00:00:00Z",
                 "stats": {"schema_count": 1},
-                "branches": [],
+                "branches": [
+                    {
+                        "key": "wuu",
+                        "dialects": [
+                            {
+                                "name": "吳語",
+                                "schemas": ["letter"],
+                            }
+                        ],
+                    }
+                ],
                 "schemas": {
                     "letter": {
                         "schema_id": "letter",
@@ -174,6 +184,8 @@ def test_build_phonology_cli_writes_summary_and_assets(tmp_path: Path):
     assert "letter" not in summary["skipped"]
     assert asset["dictionary"] == "shared"
     assert all(entry["char"] != "詞組" for entry in asset["syllable_index"])
+    assert "schema_id\tfamily\tinit_grid\tfinal_grid" in result.stderr
+    assert "\nletter\twuu\t" in result.stderr
 
 
 def test_root_build_phonology_wrapper_exposes_cli_help():

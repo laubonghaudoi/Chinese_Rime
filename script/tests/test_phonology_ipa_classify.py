@@ -10,9 +10,12 @@ from manifest.phonology.ipa_classify import (
 )
 from manifest.phonology.schema_hints import SchemaHints
 
+SCRIPT_DIR = Path(__file__).resolve().parents[1]
+DICTIONARY_PATH = SCRIPT_DIR / "phonology_ipa_dictionary.yaml"
+
 
 def test_ipa_dictionary_loads_required_keys():
-    dictionary = load_ipa_dictionary(Path("script/phonology_ipa_dictionary.yaml"))
+    dictionary = load_ipa_dictionary(DICTIONARY_PATH)
 
     assert set(dictionary) >= {
         "places",
@@ -27,7 +30,7 @@ def test_ipa_dictionary_loads_required_keys():
 
 
 def test_classify_jyutping_initials_into_ipa_cells():
-    dictionary = load_ipa_dictionary(Path("script/phonology_ipa_dictionary.yaml"))
+    dictionary = load_ipa_dictionary(DICTIONARY_PATH)
     hints = SchemaHints()
 
     assert classify_initial("b", hints, dictionary) == {
@@ -48,7 +51,7 @@ def test_classify_jyutping_initials_into_ipa_cells():
 
 
 def test_split_and_classify_jyutping_finals_with_exact_overrides():
-    dictionary = load_ipa_dictionary(Path("script/phonology_ipa_dictionary.yaml"))
+    dictionary = load_ipa_dictionary(DICTIONARY_PATH)
     hints = SchemaHints()
 
     assert split_final("aang", dictionary) == ("aa", "ng")
@@ -70,8 +73,67 @@ def test_split_and_classify_jyutping_finals_with_exact_overrides():
     }
 
 
+def test_classify_checked_and_nasalised_coda_spellings():
+    dictionary = load_ipa_dictionary(DICTIONARY_PATH)
+    hints = SchemaHints()
+
+    assert split_final("iab", dictionary) == ("ia", "b")
+    assert classify_final("iab", hints, dictionary) == {
+        "nucleus": "ia",
+        "nucleus_ipa": "ia",
+        "coda": "b",
+        "coda_label": "-p",
+        "ipa": "iap̚",
+        "row_key": "ia",
+    }
+    assert classify_final("iann", hints, dictionary) == {
+        "nucleus": "ia",
+        "nucleus_ipa": "ia",
+        "coda": "nn",
+        "coda_label": "-ⁿ",
+        "ipa": "iã",
+        "row_key": "ia",
+    }
+
+
+def test_classify_modified_initial_spellings():
+    dictionary = load_ipa_dictionary(DICTIONARY_PATH)
+    hints = SchemaHints()
+
+    assert classify_initial("ghw", hints, dictionary) == {
+        "ipa": "ɡʷ",
+        "place": "velar",
+        "manner": "plosive",
+    }
+    assert classify_initial("khr", hints, dictionary) == {
+        "ipa": "kʰ˞",
+        "place": "retroflex",
+        "manner": "plosive",
+    }
+    assert classify_initial("tjh", hints, dictionary) == {
+        "ipa": "tʰʲ",
+        "place": "palatal",
+        "manner": "plosive",
+    }
+
+
+def test_classify_reconstruction_style_finals_with_fallback_rows():
+    dictionary = load_ipa_dictionary(DICTIONARY_PATH)
+    hints = SchemaHints()
+
+    assert split_final("awq", dictionary) == ("aw", "q")
+    assert classify_final("awq", hints, dictionary) == {
+        "nucleus": "aw",
+        "nucleus_ipa": "aw",
+        "coda": "q",
+        "coda_label": "-ʔ",
+        "ipa": "awʔ",
+        "row_key": "aw",
+    }
+
+
 def test_compile_grids_places_jyutping_inventory():
-    dictionary = load_ipa_dictionary(Path("script/phonology_ipa_dictionary.yaml"))
+    dictionary = load_ipa_dictionary(DICTIONARY_PATH)
     hints = SchemaHints()
     initials = [
         {"spelling": "b", "example_chars": ["巴"], "syllable_count": 1, "char_count": 1},

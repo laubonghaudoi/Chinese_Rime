@@ -8,6 +8,8 @@ from pathlib import Path
 
 import yaml
 
+TONE_CONTOURS = set("˥˦˧˨˩")
+
 
 @dataclass
 class SchemaHints:
@@ -75,6 +77,8 @@ def _sniff_tone_encoding(alphabet: str, sample_spellings: list[str]) -> str:
     digits_at_end = any(spelling and spelling[-1].isdigit() for spelling in sample_spellings)
     if digits_at_end:
         return "digits"
+    if any(spelling and spelling[-1] in TONE_CONTOURS for spelling in sample_spellings):
+        return "contours"
     if any(_has_diacritic(spelling) for spelling in sample_spellings):
         return "diacritics"
     return "none"
