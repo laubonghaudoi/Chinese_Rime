@@ -1,8 +1,5 @@
 name: Regular update
 on:
-  push:
-    branches:
-      - master
   schedule:
     # GitHub cron has no native every-other-week interval. This fires weekly;
     # the cadence step below skips off-cycle scheduled runs.
@@ -14,11 +11,6 @@ jobs:
       - name: Check update cadence
         id: cadence
         run: |
-          if [ "${{ github.event_name }}" != "schedule" ]; then
-            echo "should_run=true" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-
           anchor_epoch=$(date -u -d '2026-05-17' +%s)
           today_epoch=$(date -u -d "$(date -u +%F)" +%s)
           days_since=$(( (today_epoch - anchor_epoch) / 86400 ))
