@@ -11,7 +11,7 @@ const branch = schema.branch ? getBranchByKey(schema.branch) : null;
 const fields = [
   { label: "語系", value: branch ? `${branch.name} (${branch.iso_639_3 || "—"})` : "—" },
   { label: "方言", value: schema.dialect || "—" },
-  { label: "配方", value: schema.recipe || "—", href: schema.upstream_url || undefined },
+  { label: "℞ 配方", value: schema.recipe || "—", href: schema.upstream_url || undefined },
   { label: "作者", value: schema.authors.length ? schema.authors.join("、") : "—" },
   { label: "版本", value: schema.version || "—", mono: true },
   { label: "授權", value: schema.license || "—", mono: true },
@@ -46,11 +46,12 @@ const fields = [
   }
   span {
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     color: var(--ink-meta-3);
     font-family: var(--ff-sans-tc);
-    font-size: 11px;
-    letter-spacing: var(--ls-label);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.16em;
   }
   b,
   a {

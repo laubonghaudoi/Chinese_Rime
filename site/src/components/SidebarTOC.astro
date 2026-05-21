@@ -5,9 +5,13 @@ const branches = getManifest().branches;
 ---
 <aside class="toc" aria-label="語系目錄">
   {branches.map((branch) => (
-    <a href={`#${branch.key}`} data-empty={branch.status === "missing" ? "true" : "false"}>
+    <a
+      href={`#${branch.key}`}
+      data-toc-branch={branch.key}
+      data-empty={branch.status === "missing" ? "true" : "false"}
+    >
       <span>{branch.name}<code>{branch.iso_639_3 || "—"}</code></span>
-      <b>{branchSchemaCount(branch)}</b>
+      <b data-toc-count={branchSchemaCount(branch)}>{branchSchemaCount(branch)}</b>
     </a>
   ))}
 </aside>

@@ -23,6 +23,7 @@ const chips = [
   const rows = [...document.querySelectorAll("[data-schema-row]")];
   const sections = [...document.querySelectorAll("[data-language-section]")];
   const dialects = [...document.querySelectorAll("[data-dialect-group]")];
+  const tocEntries = [...document.querySelectorAll("[data-toc-branch]")];
 
   function applyFilter(filter) {
     root?.querySelectorAll("[data-filter]").forEach((button) => {
@@ -45,6 +46,21 @@ const chips = [
       const isEmpty = section.dataset.empty === "true";
       const hasVisibleRows = [...section.querySelectorAll("[data-schema-row]")].some((row) => !row.hidden);
       section.hidden = isEmpty ? filter !== "missing" : !hasVisibleRows;
+    });
+
+    // Re-compute the per-branch count shown in the sidebar TOC so the right
+    // column reflects what's actually visible after the filter is applied.
+    tocEntries.forEach((entry) => {
+      const branchKey = entry.dataset.tocBranch;
+      const section = document.getElementById(branchKey);
+      const countEl = entry.querySelector("[data-toc-count]");
+      if (!countEl) return;
+      if (!section) {
+        countEl.textContent = "0";
+        return;
+      }
+      const visible = [...section.querySelectorAll("[data-schema-row]")].filter((row) => !row.hidden).length;
+      countEl.textContent = String(visible);
     });
   }
 

@@ -7,10 +7,10 @@ import { withBase } from "../utils/path";
 const manifest = getManifest();
 ---
 <!-- No active nav item on the homepage; the user has not entered a section yet. -->
-<BaseLayout title="中州韻方案集" active="">
+<BaseLayout title="中州韻輸入法非普通話漢語拼音方案全集" active="">
   <section class="hero">
     <div class="left">
-      <h1>中州韻<br />方案集</h1>
+      <h1>中州韻輸入法<br />非普通話漢語拼音方案全集</h1>
       <p class="lede">收錄現代漢語各大分支，及上古、中古漢語的中州韻輸入法拼音輸入方案與字庫。</p>
       <div class="ctas">
         <a class="cta" href={withBase("/catalog/")}>瀏覽方案目錄</a>
@@ -62,9 +62,10 @@ const manifest = getManifest();
   h1 {
     margin: 0 0 18px;
     font-family: var(--ff-serif-tc);
-    font-size: var(--fs-h1-hero);
+    /* Sized for the long title 中州韻輸入法 / 非普通話漢語拼音方案全集 */
+    font-size: clamp(2.2rem, 4vw, 3.4rem);
     font-weight: 800;
-    line-height: 1;
+    line-height: 1.15;
     letter-spacing: 0;
   }
   .lede {
@@ -117,11 +118,12 @@ const manifest = getManifest();
   }
   .stats span {
     display: block;
-    margin-top: 10px;
+    margin-top: 12px;
     color: var(--ink-meta-2);
     font-family: var(--ff-sans-tc);
-    font-size: 12px;
-    letter-spacing: 0.18em;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
   }
   .paths {
     padding: 54px var(--sp-section-x) 48px;
