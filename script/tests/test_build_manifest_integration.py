@@ -87,3 +87,15 @@ def test_root_module_wrapper_runs_against_fixtures(fixtures_dir: Path, tmp_path:
     assert result.returncode == 0, f"stderr was:\n{result.stderr}"
     data = json.loads(out_path.read_text(encoding="utf-8"))
     assert len(data["schemas"]) == 2
+
+
+def test_root_script_wrapper_exposes_cli_help():
+    result = subprocess.run(
+        ["python", "build_manifest.py", "--help"],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+    )
+
+    assert result.returncode == 0
+    assert "--sources" in result.stdout

@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Repo-root wrapper for script/build_manifest.py."""
+"""Convenience entry point for running the manifest builder from the repo root.
+
+The implementation lives in script/build_manifest.py so `python -m build_manifest`
+continues to work from inside script/. This wrapper intentionally keeps the same
+CLI available at the repository root, where site and workflow checks are usually
+run.
+"""
 from __future__ import annotations
 
 import importlib.util
