@@ -7,6 +7,9 @@ from typing import Iterable
 import yaml
 
 
+HELPER_SCHEMA_DIRS = {"ext-dict"}
+
+
 def walk_submodules(sources_dir: Path) -> list[dict]:
     """Return one normalized dict per unique schema_id under sources_dir.
 
@@ -35,7 +38,16 @@ def walk_submodules(sources_dir: Path) -> list[dict]:
 def _iter_schema_yamls(root: Path) -> Iterable[Path]:
     # Walk recursively but emit shallower paths first so the de-dup in
     # walk_submodules keeps the primary file rather than a nested variant.
-    yield from sorted(root.rglob("*.schema.yaml"), key=lambda p: (len(p.parts), str(p)))
+    schema_paths = (
+        path
+        for path in root.rglob("*.schema.yaml")
+        if not _is_helper_schema(path.relative_to(root))
+    )
+    yield from sorted(schema_paths, key=lambda p: (len(p.parts), str(p)))
+
+
+def _is_helper_schema(relative_path: Path) -> bool:
+    return any(part in HELPER_SCHEMA_DIRS for part in relative_path.parts[:-1])
 
 
 def _load_one(path: Path) -> dict:

@@ -70,3 +70,15 @@ def test_walk_submodules_keeps_shallow_duplicate_schema(tmp_path: Path):
     result = walk_submodules(tmp_path / "sources")
     assert len(result) == 1
     assert result[0]["display_name"] == "Primary"
+
+
+def test_walk_submodules_skips_extension_dictionary_schemas(tmp_path: Path):
+    primary = tmp_path / "sources" / "晉語" / "sample" / "jieny.schema.yaml"
+    helper = tmp_path / "sources" / "晉語" / "sample" / "ext-dict" / "easy_en.schema.yaml"
+    primary.parent.mkdir(parents=True)
+    helper.parent.mkdir(parents=True)
+    primary.write_text("schema:\n  schema_id: jieny\n  name: 嘉樂泉話\n", encoding="utf-8")
+    helper.write_text("schema:\n  schema_id: easy_en\n  name: Easy English\n", encoding="utf-8")
+
+    result = walk_submodules(tmp_path / "sources")
+    assert [schema["schema_id"] for schema in result] == ["jieny"]

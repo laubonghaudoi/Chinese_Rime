@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-21T15:52:53+00:00",
+  "generated_at": "2026-05-21T16:05:54+00:00",
   "stats": {
-    "schema_count": 174,
+    "schema_count": 173,
     "recipe_count": 60,
     "download_package_count": 70,
     "branch_count": 21,
@@ -129,7 +129,6 @@
           "schemas": [
             "jieny",
             "fengyo",
-            "easy_en",
             "haitrou"
           ]
         }
@@ -466,54 +465,49 @@
             "diege",
             "diege_gb",
             "diege_j",
-            "dieziu"
+            "dieziu",
+            "dieziu_60",
+            "dieziu_mtr"
           ]
         },
         {
           "name": "汕頭話",
           "schemas": [
-            "suantau"
+            "suantau",
+            "suantau_60",
+            "suantau_mtr"
           ]
         },
         {
           "name": "揭陽話",
           "schemas": [
-            "gekion"
+            "gekion",
+            "gekion_60",
+            "gekion_mtr"
           ]
         },
         {
           "name": "潮陽話",
           "schemas": [
-            "dioion"
+            "dioion",
+            "dioion_60",
+            "dioion_mtr"
           ]
         },
         {
           "name": "澄海話",
           "schemas": [
-            "tenghai"
+            "tenghai",
+            "tenghai_60",
+            "tenghai_mtr"
           ]
         },
         {
           "name": "饒平話",
           "schemas": [
-            "riaupeng"
-          ]
-        },
-        {
-          "name": "其他方案",
-          "schemas": [
-            "dieziu_60",
-            "dioion_60",
-            "gekion_60",
+            "riaupeng",
             "riaupeng_60",
-            "suantau_60",
-            "tenghai_60",
-            "dieziu_mtr",
-            "dioion_mtr",
-            "gekion_mtr",
-            "riaupeng_mtr",
-            "suantau_mtr",
-            "tenghai_mtr"
+            "riaupeng_mtr"
           ]
         }
       ]
@@ -3605,31 +3599,12 @@
       "downloadable": false,
       "download_package": null
     },
-    "easy_en": {
-      "schema_id": "easy_en",
-      "slug": "easy_en",
-      "display_name": "Easy English",
-      "branch": "cjy",
-      "dialect": "晉語",
-      "authors": [
-        "Patrick"
-      ],
-      "version": "0.2",
-      "description": "Easy English",
-      "dependencies": [],
-      "license": null,
-      "recipe": null,
-      "upstream_url": null,
-      "last_commit_at": null,
-      "downloadable": false,
-      "download_package": null
-    },
     "dieziu_60": {
       "schema_id": "dieziu_60",
       "slug": "dieziu_60",
       "display_name": "省教潮拼·潮州",
       "branch": "nan",
-      "dialect": "其他方案",
+      "dialect": "潮州話",
       "authors": [
         "騰達"
       ],
@@ -3639,8 +3614,8 @@
         "luna_pinyin"
       ],
       "license": null,
-      "recipe": null,
-      "upstream_url": null,
+      "recipe": "kahaani/dieghv",
+      "upstream_url": "https://github.com/kahaani/dieghv",
       "last_commit_at": null,
       "downloadable": false,
       "download_package": null
@@ -3650,7 +3625,7 @@
       "slug": "dioion_60",
       "display_name": "省教潮拼·潮陽",
       "branch": "nan",
-      "dialect": "其他方案",
+      "dialect": "潮陽話",
       "authors": [
         "騰達"
       ],
@@ -3660,8 +3635,8 @@
         "luna_pinyin"
       ],
       "license": null,
-      "recipe": null,
-      "upstream_url": null,
+      "recipe": "kahaani/dieghv",
+      "upstream_url": "https://github.com/kahaani/dieghv",
       "last_commit_at": null,
       "downloadable": false,
       "download_package": null
@@ -3671,7 +3646,7 @@
       "slug": "gekion_60",
       "display_name": "省教潮拼·揭陽",
       "branch": "nan",
-      "dialect": "其他方案",
+      "dialect": "揭陽話",
       "authors": [
         "騰達"
       ],
@@ -3681,8 +3656,8 @@
         "luna_pinyin"
       ],
       "license": null,
-      "recipe": null,
-      "upstream_url": null,
+      "recipe": "kahaani/dieghv",
+      "upstream_url": "https://github.com/kahaani/dieghv",
       "last_commit_at": null,
       "downloadable": false,
       "download_package": null
@@ -3692,7 +3667,7 @@
       "slug": "riaupeng_60",
       "display_name": "省教潮拼·饒平",
       "branch": "nan",
-      "dialect": "其他方案",
+      "dialect": "饒平話",
       "authors": [
         "騰達"
       ],
@@ -3702,8 +3677,8 @@
         "luna_pinyin"
       ],
       "license": null,
-      "recipe": null,
-      "upstream_url": null,
+      "recipe": "kahaani/dieghv",
+      "upstream_url": "https://github.com/kahaani/dieghv",
       "last_commit_at": null,
       "downloadable": false,
       "download_package": null
@@ -3713,7 +3688,7 @@
       "slug": "suantau_60",
       "display_name": "省教潮拼·汕頭",
       "branch": "nan",
-      "dialect": "其他方案",
+      "dialect": "汕頭話",
       "authors": [
         "騰達"
       ],
@@ -3723,8 +3698,8 @@
         "luna_pinyin"
       ],
       "license": null,
-      "recipe": null,
-      "upstream_url": null,
+      "recipe": "kahaani/dieghv",
+      "upstream_url": "https://github.com/kahaani/dieghv",
       "last_commit_at": null,
       "downloadable": false,
       "download_package": null
@@ -3734,7 +3709,7 @@
       "slug": "tenghai_60",
       "display_name": "省教潮拼·澄海",
       "branch": "nan",
-      "dialect": "其他方案",
+      "dialect": "澄海話",
       "authors": [
         "騰達"
       ],
@@ -3744,8 +3719,8 @@
         "luna_pinyin"
       ],
       "license": null,
-      "recipe": null,
-      "upstream_url": null,
+      "recipe": "kahaani/dieghv",
+      "upstream_url": "https://github.com/kahaani/dieghv",
       "last_commit_at": null,
       "downloadable": false,
       "download_package": null
@@ -3755,7 +3730,7 @@
       "slug": "dieziu_mtr",
       "display_name": "潮語羅馬字·潮州",
       "branch": "nan",
-      "dialect": "其他方案",
+      "dialect": "潮州話",
       "authors": [
         "騰達"
       ],
@@ -3765,8 +3740,8 @@
         "luna_pinyin"
       ],
       "license": null,
-      "recipe": null,
-      "upstream_url": null,
+      "recipe": "kahaani/dieghv",
+      "upstream_url": "https://github.com/kahaani/dieghv",
       "last_commit_at": null,
       "downloadable": false,
       "download_package": null
@@ -3776,7 +3751,7 @@
       "slug": "dioion_mtr",
       "display_name": "潮語羅馬字·潮陽",
       "branch": "nan",
-      "dialect": "其他方案",
+      "dialect": "潮陽話",
       "authors": [
         "騰達"
       ],
@@ -3786,8 +3761,8 @@
         "luna_pinyin"
       ],
       "license": null,
-      "recipe": null,
-      "upstream_url": null,
+      "recipe": "kahaani/dieghv",
+      "upstream_url": "https://github.com/kahaani/dieghv",
       "last_commit_at": null,
       "downloadable": false,
       "download_package": null
@@ -3797,7 +3772,7 @@
       "slug": "gekion_mtr",
       "display_name": "潮語羅馬字·揭陽",
       "branch": "nan",
-      "dialect": "其他方案",
+      "dialect": "揭陽話",
       "authors": [
         "騰達"
       ],
@@ -3807,8 +3782,8 @@
         "luna_pinyin"
       ],
       "license": null,
-      "recipe": null,
-      "upstream_url": null,
+      "recipe": "kahaani/dieghv",
+      "upstream_url": "https://github.com/kahaani/dieghv",
       "last_commit_at": null,
       "downloadable": false,
       "download_package": null
@@ -3818,7 +3793,7 @@
       "slug": "riaupeng_mtr",
       "display_name": "潮語羅馬字·饒平",
       "branch": "nan",
-      "dialect": "其他方案",
+      "dialect": "饒平話",
       "authors": [
         "騰達"
       ],
@@ -3828,8 +3803,8 @@
         "luna_pinyin"
       ],
       "license": null,
-      "recipe": null,
-      "upstream_url": null,
+      "recipe": "kahaani/dieghv",
+      "upstream_url": "https://github.com/kahaani/dieghv",
       "last_commit_at": null,
       "downloadable": false,
       "download_package": null
@@ -3839,7 +3814,7 @@
       "slug": "suantau_mtr",
       "display_name": "潮語羅馬字·汕頭",
       "branch": "nan",
-      "dialect": "其他方案",
+      "dialect": "汕頭話",
       "authors": [
         "騰達"
       ],
@@ -3849,8 +3824,8 @@
         "luna_pinyin"
       ],
       "license": null,
-      "recipe": null,
-      "upstream_url": null,
+      "recipe": "kahaani/dieghv",
+      "upstream_url": "https://github.com/kahaani/dieghv",
       "last_commit_at": null,
       "downloadable": false,
       "download_package": null
@@ -3860,7 +3835,7 @@
       "slug": "tenghai_mtr",
       "display_name": "潮語羅馬字·澄海",
       "branch": "nan",
-      "dialect": "其他方案",
+      "dialect": "澄海話",
       "authors": [
         "騰達"
       ],
@@ -3870,8 +3845,8 @@
         "luna_pinyin"
       ],
       "license": null,
-      "recipe": null,
-      "upstream_url": null,
+      "recipe": "kahaani/dieghv",
+      "upstream_url": "https://github.com/kahaani/dieghv",
       "last_commit_at": null,
       "downloadable": false,
       "download_package": null
