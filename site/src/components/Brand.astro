@@ -1,0 +1,22 @@
+---
+import { withBase } from "../utils/path";
+import Chop from "./Chop.astro";
+---
+<a class="brand" href={withBase("/")}>
+  <Chop />
+  <span>中州韻方案集</span>
+</a>
+
+<style>
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    font-family: var(--ff-serif-tc);
+    font-weight: 800;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+</style>

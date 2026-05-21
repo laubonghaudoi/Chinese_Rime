@@ -1,10 +1,19 @@
 {
+  "stats": {
+    "schema_count": 2,
+    "recipe_count": 2,
+    "download_package_count": 2,
+    "branch_count": 2,
+    "active_branch_count": 2,
+    "missing_branch_count": 0
+  },
   "branches": [
     {
       "key": "yue",
       "name": "粵語",
       "iso_639_3": "yue",
       "intro": "粵語區的拼音輸入方案，以廣州話為主。",
+      "status": "active",
       "dialects": [
         { "name": "廣州話", "schemas": ["jyutping"] }
       ]
@@ -14,6 +23,7 @@
       "name": "吳語",
       "iso_639_3": "wuu",
       "intro": "吳語區拼音輸入方案。",
+      "status": "active",
       "dialects": [
         { "name": "蘇州話", "schemas": ["wugniu_soutseu"] }
       ]

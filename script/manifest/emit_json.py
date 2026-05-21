@@ -10,6 +10,7 @@ def emit_json(schemas: list[dict], branches: list[dict], out_path: Path) -> None
     """Serialize the assembled schemas + branches to JSON at out_path."""
     out = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "stats": _stats(schemas, branches),
         "branches": branches,
         "schemas": {s["schema_id"]: _to_schema_entry(s) for s in schemas},
     }
@@ -37,6 +38,20 @@ def _to_schema_entry(s: dict) -> dict:
         "last_commit_at": s.get("last_commit_at"),
         "downloadable": s.get("downloadable", False),
         "download_package": s.get("download_package"),
+    }
+
+
+def _stats(schemas: list[dict], branches: list[dict]) -> dict:
+    recipes = {s.get("recipe") for s in schemas if s.get("recipe")}
+    download_packages = {s.get("download_package") for s in schemas if s.get("download_package")}
+    active_branches = [b for b in branches if b.get("status") != "missing"]
+    return {
+        "schema_count": len({s["schema_id"] for s in schemas}),
+        "recipe_count": len(recipes),
+        "download_package_count": len(download_packages),
+        "branch_count": len(branches),
+        "active_branch_count": len(active_branches),
+        "missing_branch_count": sum(1 for b in branches if b.get("status") == "missing"),
     }
 
 

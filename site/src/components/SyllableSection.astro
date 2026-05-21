@@ -1,0 +1,67 @@
+---
+import PlaceholderBand from "./PlaceholderBand.astro";
+import SoonBadge from "./SoonBadge.astro";
+
+interface Props {
+  index: "01" | "02" | "03" | "04";
+  title: string;
+  intro: string;
+  variant?: "panel" | "elev";
+}
+
+const { index, title, intro, variant = "panel" } = Astro.props;
+---
+<section class:list={["syl", `bg-${variant}`]}>
+  <span class="label">音系資料 · {index}</span>
+  <div class="head">
+    <h2>{title}</h2>
+    <SoonBadge />
+  </div>
+  <p>{intro}</p>
+  <PlaceholderBand variant={variant} />
+</section>
+
+<style>
+  .syl {
+    padding: 42px var(--sp-section-x) 36px;
+  }
+  .bg-panel {
+    background: var(--bg-panel);
+  }
+  .bg-elev {
+    background: var(--bg-elev);
+  }
+  .label {
+    display: inline-block;
+    margin-bottom: 12px;
+    padding: 2px 8px;
+    background: var(--zhu-tint);
+    color: var(--zhu);
+    font-family: var(--ff-mono);
+    font-size: 10.5px;
+    letter-spacing: 0.16em;
+  }
+  .head {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+  }
+  h2 {
+    margin: 0;
+    font-family: var(--ff-serif-tc);
+    font-size: var(--fs-h2-section);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0;
+  }
+  p {
+    max-width: 720px;
+    margin: 0 0 18px;
+    color: var(--ink-meta-2);
+    font-family: var(--ff-serif-tc);
+    font-size: 15.5px;
+    line-height: 1.7;
+  }
+</style>

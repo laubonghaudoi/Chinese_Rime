@@ -6,6 +6,7 @@ from pathlib import Path
 import pytest
 
 SCRIPT_DIR = Path(__file__).resolve().parents[1]
+REPO_ROOT = SCRIPT_DIR.parent
 
 
 def test_full_pipeline_against_fixtures(fixtures_dir: Path, tmp_path: Path):
@@ -55,3 +56,34 @@ def test_orphan_detection_fails_pipeline(fixtures_dir: Path, tmp_path: Path):
     )
     assert result.returncode != 0
     assert "dkzp" in result.stderr
+
+
+def test_root_module_wrapper_runs_against_fixtures(fixtures_dir: Path, tmp_path: Path):
+    out_path = tmp_path / "schemas.json"
+    readme_list = tmp_path / "readme_ids.txt"
+    readme_list.write_text("jyutping\nwugniu_soutseu\n", encoding="utf-8")
+
+    result = subprocess.run(
+        [
+            "python",
+            "-m",
+            "build_manifest",
+            "--sources",
+            str(fixtures_dir / "sources"),
+            "--source-info",
+            str(fixtures_dir / "source_info.yaml"),
+            "--overrides",
+            str(fixtures_dir / "manifest_overrides.yaml"),
+            "--readme-ids",
+            str(readme_list),
+            "--out",
+            str(out_path),
+        ],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+    )
+
+    assert result.returncode == 0, f"stderr was:\n{result.stderr}"
+    data = json.loads(out_path.read_text(encoding="utf-8"))
+    assert len(data["schemas"]) == 2

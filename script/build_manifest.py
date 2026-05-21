@@ -1,15 +1,10 @@
 """Entry point for the manifest builder.
 
 Usage:
-    python -m build_manifest \\
-        --sources sources/ \\
-        --source-info script/source_info.yaml \\
-        --overrides script/manifest_overrides.yaml \\
-        --readme-ids script/.readme_ids.txt \\
-        --out site/src/data/schemas.json
+    python -m build_manifest
 
-If --readme-ids is omitted, orphan detection is skipped (useful for ad-hoc runs
-during development; CI always supplies it).
+All paths default to the repository root. Flags may be supplied to run against
+fixtures or alternate outputs.
 """
 from __future__ import annotations
 
@@ -29,15 +24,15 @@ def main(argv: list[str] | None = None) -> int:
 
     schemas = walk_submodules(args.sources)
     schemas = join_source_info(schemas, args.source_info)
-    schemas, branches = merge_overrides(schemas, args.overrides)
 
     # Append orphan-only entries (schemas that the README mentions but no
     # submodule provides). These are described entirely by the overrides file.
     overrides_data = _read_yaml(args.overrides)
     orphan_entries = _build_orphan_entries(overrides_data.get("orphans") or {})
     schemas.extend(orphan_entries)
+    schemas, branches = merge_overrides(schemas, args.overrides)
 
-    if args.readme_ids:
+    if args.readme_ids.exists():
         readme_ids = _read_id_list(args.readme_ids)
         manifest_ids = {s["schema_id"] for s in schemas}
         try:
@@ -52,13 +47,14 @@ def main(argv: list[str] | None = None) -> int:
 
 
 def _parse_args(argv: list[str] | None) -> argparse.Namespace:
+    repo_root = Path(__file__).resolve().parents[1]
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--sources", type=Path, required=True)
-    p.add_argument("--source-info", type=Path, required=True)
-    p.add_argument("--overrides", type=Path, required=True)
-    p.add_argument("--readme-ids", type=Path, default=None,
-                   help="Optional file with one schema_id per line for orphan detection.")
-    p.add_argument("--out", type=Path, required=True)
+    p.add_argument("--sources", type=Path, default=repo_root / "sources")
+    p.add_argument("--source-info", type=Path, default=repo_root / "script" / "source_info.yaml")
+    p.add_argument("--overrides", type=Path, default=repo_root / "script" / "manifest_overrides.yaml")
+    p.add_argument("--readme-ids", type=Path, default=repo_root / "script" / ".readme_ids.txt",
+                   help="File with one schema_id per line for orphan detection.")
+    p.add_argument("--out", type=Path, default=repo_root / "site" / "src" / "data" / "schemas.json")
     return p.parse_args(argv)
 
 

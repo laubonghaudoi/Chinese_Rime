@@ -50,12 +50,21 @@ def _load_one(path: Path) -> dict:
 
     return {
         "schema_id": schema["schema_id"],
+        "source_group": _source_group(path),
         "display_name": schema.get("name", schema["schema_id"]),
         "version": str(schema.get("version", "")),
         "authors": _normalize_authors(schema.get("author") or []),
         "description": _normalize_description(schema.get("description")),
         "dependencies": list(schema.get("dependencies") or []),
     }
+
+
+def _source_group(path: Path) -> str:
+    parts = path.parts
+    try:
+        return parts[parts.index("sources") + 1]
+    except (ValueError, IndexError):
+        return ""
 
 
 def _normalize_description(raw) -> str:

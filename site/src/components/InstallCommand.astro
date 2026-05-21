@@ -1,0 +1,50 @@
+---
+interface Props {
+  command: string;
+}
+
+const { command } = Astro.props;
+---
+<div class="cmd">
+  <code>{command}</code>
+  <button type="button" data-copy={command}>複製</button>
+</div>
+
+<script>
+  // @ts-nocheck
+  document.addEventListener("click", async (event) => {
+    const button = event.target.closest("[data-copy]");
+    if (!button) return;
+    await navigator.clipboard.writeText(button.dataset.copy || "");
+    const old = button.textContent;
+    button.textContent = "已複製";
+    setTimeout(() => { button.textContent = old; }, 1200);
+  });
+</script>
+
+<style>
+  .cmd {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: stretch;
+    background: var(--ink);
+    color: #fff;
+  }
+  code {
+    overflow-x: auto;
+    padding: 14px 16px;
+    font-family: var(--ff-mono);
+    font-size: var(--fs-mono-code);
+    white-space: nowrap;
+  }
+  button {
+    padding: 0 14px;
+    color: #fff;
+    font-family: var(--ff-sans-tc);
+    font-size: 12px;
+    border-left: 2px solid var(--bg-elev);
+  }
+  button:hover {
+    background: var(--zhu);
+  }
+</style>

@@ -1,0 +1,19 @@
+---
+import ProseLayout from "../layouts/ProseLayout.astro";
+---
+<ProseLayout title="關於" active="about" kicker="項目宗旨" heading="關於本項目">
+  <p>中州韻方案集收集現代漢語各大分支及上古、中古漢語的 Rime 拼音輸入方案和字庫，目標是讓非普通話使用者、學習者與研究者都能快速找到可用資料。</p>
+  <h2>分類方式</h2>
+  <p>本目錄沿用 README 的 ISO 639-3 分類作為主軸，並以獨立列收錄上古漢語、中古漢語與域外方音。分類只作維護與瀏覽用途，並非語言分類的最終判準。</p>
+  <table>
+    <thead><tr><th>代碼</th><th>語系</th><th>說明</th></tr></thead>
+    <tbody>
+      <tr><td><code>yue</code></td><td>粵語</td><td>以廣州話為主，並收錄台山、欽州、南寧等方案。</td></tr>
+      <tr><td><code>wuu</code></td><td>吳語</td><td>收錄上海、蘇州、寧波、溫州等吳語方案。</td></tr>
+      <tr><td><code>cmn</code></td><td>官話</td><td>收錄中原、江淮、西南等官話分支方案。</td></tr>
+      <tr><td><code>och / ltc</code></td><td>上古 / 中古漢語</td><td>收錄各家擬音系統的輸入方案。</td></tr>
+    </tbody>
+  </table>
+  <h2>如何閱讀目錄</h2>
+  <p>每個語系下依方言分組，方言下列出各方案。標有 <code>℞</code> 者可透過 plum 安裝；標有「可下載」者已列入本站整合下載包。</p>
+</ProseLayout>

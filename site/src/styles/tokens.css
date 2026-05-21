@@ -1,0 +1,53 @@
+:root {
+  --bg-page: #cfcfcf;
+  --bg-panel: #fafafa;
+  --bg-elev: #ffffff;
+  --bg-chip: #ecebe6;
+  --bg-stripe: repeating-linear-gradient(45deg, #ececec 0 6px, #fafafa 6px 12px);
+  --bg-stripe-white: repeating-linear-gradient(45deg, #ececec 0 6px, #ffffff 6px 12px);
+
+  --ink: #0a0a0a;
+  --ink-soft: #1a1a1a;
+  --ink-meta-2: #444;
+  --ink-meta-3: #666;
+  --ink-meta-4: #888;
+
+  --zhu: #b8281f;
+  --zhu-tint: rgba(184, 40, 31, 0.1);
+
+  --ff-serif-tc: "Noto Serif TC", "Source Han Serif TC", "Songti TC", serif;
+  --ff-sans-tc: "Noto Sans TC", "Source Han Sans TC", system-ui, sans-serif;
+  --ff-sans: "IBM Plex Sans", system-ui, sans-serif;
+  --ff-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
+  --ff-serif: "IBM Plex Serif", serif;
+
+  --fs-h1-hero: 76px;
+  --fs-h1-page: 54px;
+  --fs-h2: 30px;
+  --fs-h2-section: 28px;
+  --fs-h3: 22px;
+  --fs-body: 15.5px;
+  --fs-lede: 17px;
+  --fs-meta-val: 18px;
+  --fs-label: 11.5px;
+  --fs-chip: 13px;
+  --fs-nav: 13.5px;
+  --fs-mono-id: 11.5px;
+  --fs-mono-code: 12.5px;
+
+  --sp-section-x: 36px;
+  --sp-section-y: 42px;
+  --sp-card: 22px;
+  --sp-row-y: 11px;
+  --ls-label: 0.26em;
+}
+
+@media (max-width: 720px) {
+  :root {
+    --fs-h1-hero: 48px;
+    --fs-h1-page: 42px;
+    --fs-h2: 26px;
+    --fs-h2-section: 24px;
+    --sp-section-x: 20px;
+  }
+}

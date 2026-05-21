@@ -1,0 +1,53 @@
+---
+import { withBase } from "../utils/path";
+---
+<footer class="footer">
+  <div>
+    <strong>© 中州韻方案集</strong>
+    <code>CC BY 4.0</code>
+  </div>
+  <nav aria-label="頁腳導覽">
+    <a href="https://github.com/laubonghaudoi/Chinese_Rime">源碼倉庫</a>
+    <a href={withBase("/contribute/")}>貢獻指南</a>
+    <a href="https://github.com/laubonghaudoi/Chinese_Rime/releases">版本發佈</a>
+  </nav>
+</footer>
+
+<style>
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 34px var(--sp-section-x);
+    background: var(--ink);
+    color: #fff;
+  }
+  div,
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+  strong {
+    font-family: var(--ff-serif-tc);
+    font-size: 17px;
+  }
+  code,
+  a {
+    font-family: var(--ff-mono);
+    font-size: 12px;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: var(--zhu);
+    text-decoration-thickness: 2px;
+  }
+  @media (max-width: 760px) {
+    .footer {
+      flex-direction: column;
+    }
+  }
+</style>

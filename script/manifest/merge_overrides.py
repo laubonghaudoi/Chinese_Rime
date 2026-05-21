@@ -28,15 +28,22 @@ def merge_overrides(schemas: list[dict], overrides_path: Path) -> tuple[list[dic
     overrides = yaml.safe_load(overrides_path.read_text(encoding="utf-8")) or {}
     branch_defs: dict = overrides.get("branches") or {}
     assignments: dict = overrides.get("schema_assignments") or {}
+    source_groups = _build_source_group_lookup(branch_defs)
 
     enriched: list[dict] = []
     for s in schemas:
         sid = s["schema_id"]
         a = assignments.get(sid, {})
+        branch = a.get("branch") or s.get("branch") or source_groups.get(s.get("source_group"))
+        dialect = (
+            a.get("dialect")
+            or s.get("dialect")
+            or _fallback_dialect(branch_defs, branch, s.get("source_group"))
+        )
         enriched.append({
             **s,
-            "branch": a.get("branch"),
-            "dialect": a.get("dialect"),
+            "branch": branch,
+            "dialect": dialect,
             "recipe": a.get("recipe"),
             "upstream_url": a.get("upstream_url"),
             "license": a.get("license"),
@@ -59,15 +66,55 @@ def _build_branches(branch_defs: dict, schemas: list[dict]) -> list[dict]:
 
     out: list[dict] = []
     for key, defn in branch_defs.items():
+        explicit_dialects = list(defn.get("dialects", []) or [])
+        extra_dialects = sorted(
+            dialect
+            for branch, dialect in by_branch_dialect
+            if branch == key and dialect not in explicit_dialects
+        )
         dialects: list[dict] = []
-        for dialect_name in defn.get("dialects", []) or []:
+        for dialect_name in explicit_dialects + extra_dialects:
             schemas_in = by_branch_dialect.get((key, dialect_name), [])
             dialects.append({"name": dialect_name, "schemas": schemas_in})
+        schema_count = sum(len(d["schemas"]) for d in dialects)
         out.append({
             "key": key,
             "name": defn.get("name", key),
             "iso_639_3": defn.get("iso_639_3", key),
             "intro": defn.get("intro", ""),
+            "status": defn.get("status") or _branch_status(key, explicit_dialects, schema_count),
             "dialects": dialects,
         })
     return out
+
+
+def _build_source_group_lookup(branch_defs: dict) -> dict[str, str]:
+    lookup: dict[str, str] = {}
+    for key, defn in branch_defs.items():
+        name = defn.get("name")
+        if name:
+            lookup[name] = key
+        for dialect in defn.get("dialects", []) or []:
+            lookup.setdefault(dialect, key)
+    return lookup
+
+
+def _fallback_dialect(branch_defs: dict, branch: str | None, source_group: str | None) -> str | None:
+    if not branch:
+        return None
+    dialects = list((branch_defs.get(branch) or {}).get("dialects", []) or [])
+    if source_group in dialects:
+        return source_group
+    if len(dialects) == 1:
+        return dialects[0]
+    if dialects:
+        return "其他方案"
+    return source_group or "其他方案"
+
+
+def _branch_status(key: str, dialects: list[str], schema_count: int) -> str:
+    if key in {"och", "ltc", "extra"}:
+        return "synthetic"
+    if not dialects and schema_count == 0:
+        return "missing"
+    return "active"

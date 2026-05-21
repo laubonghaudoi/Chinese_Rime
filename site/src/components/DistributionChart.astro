@@ -1,0 +1,111 @@
+---
+import { branchSchemaCount, getManifest } from "../data/loader";
+import { withBase } from "../utils/path";
+
+const branches = [...getManifest().branches].sort((a, b) => {
+  if (a.status === "missing" && b.status !== "missing") return 1;
+  if (a.status !== "missing" && b.status === "missing") return -1;
+  return branchSchemaCount(b) - branchSchemaCount(a);
+});
+const max = Math.max(...branches.map(branchSchemaCount), 1);
+---
+<section class="chart">
+  <span class="label">收錄分佈</span>
+  <h2>各語系方案數量</h2>
+  <p>下圖依方案數量降序排列；斜線格表示尚待收錄之語系。</p>
+  <div class="bars">
+    {branches.map((branch) => {
+      const count = branchSchemaCount(branch);
+      const pct = Math.max(4, Math.round((count / max) * 100));
+      return (
+        <a class:list={["bar", { missing: branch.status === "missing" }]} href={withBase(`/catalog/#${branch.key}`)}>
+          <span class="name">{branch.name}<code>{branch.iso_639_3 || "—"}</code></span>
+          <span class="track"><span style={`width:${branch.status === "missing" ? 100 : pct}%`} /></span>
+          <b>{count}</b>
+        </a>
+      );
+    })}
+  </div>
+</section>
+
+<style>
+  .chart {
+    padding: 54px var(--sp-section-x) 58px;
+    background: var(--bg-panel);
+  }
+  .label {
+    display: block;
+    color: var(--ink-meta-3);
+    font-family: var(--ff-sans-tc);
+    font-size: var(--fs-label);
+    letter-spacing: var(--ls-label);
+    margin-bottom: 8px;
+  }
+  h2 {
+    margin: 0;
+    font-family: var(--ff-serif-tc);
+    font-size: var(--fs-h2-section);
+    letter-spacing: 0;
+  }
+  p {
+    max-width: 620px;
+    margin: 10px 0 26px;
+    color: var(--ink-meta-2);
+    font-family: var(--ff-serif-tc);
+    line-height: 1.7;
+  }
+  .bars {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px 28px;
+  }
+  .bar {
+    display: grid;
+    grid-template-columns: 148px minmax(0, 1fr) 34px;
+    gap: 12px;
+    align-items: center;
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .bar:hover .name {
+    color: var(--zhu);
+  }
+  .name {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    font-family: var(--ff-sans-tc);
+    font-size: 13px;
+    min-width: 0;
+  }
+  code {
+    color: var(--zhu);
+    font-family: var(--ff-mono);
+    font-size: 10px;
+  }
+  .track {
+    height: 16px;
+    background: var(--bg-elev);
+  }
+  .track span {
+    display: block;
+    height: 100%;
+    background: var(--ink);
+  }
+  .missing .track span {
+    background: var(--bg-stripe-white);
+  }
+  b {
+    font-family: var(--ff-sans);
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+  }
+  @media (max-width: 820px) {
+    .bars {
+      grid-template-columns: 1fr;
+    }
+    .bar {
+      grid-template-columns: 118px minmax(0, 1fr) 30px;
+    }
+  }
+</style>

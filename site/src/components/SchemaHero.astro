@@ -1,0 +1,87 @@
+---
+import type { SchemaEntry } from "../data/types";
+import SchemaBadge from "./SchemaBadge.astro";
+
+interface Props {
+  schema: SchemaEntry;
+}
+
+const { schema } = Astro.props;
+const tagline = schema.description.split(/\n\s*\n|\n/)[0]?.trim() || "";
+---
+<section class="schema-hero">
+  <h1>{schema.display_name}</h1>
+  <div class="ids">
+    <code>{schema.schema_id}</code>
+    {schema.recipe && <SchemaBadge variant="recipe" />}
+    {schema.downloadable && <SchemaBadge variant="downloadable" />}
+  </div>
+  {tagline && <p>{tagline}</p>}
+  <div class="ctas">
+    {schema.downloadable && <a class="primary" href="https://github.com/laubonghaudoi/Chinese_Rime/releases/latest">下載安裝包</a>}
+    {schema.upstream_url && <a class="secondary" href={schema.upstream_url}>前往上游倉庫 →</a>}
+  </div>
+</section>
+
+<style>
+  .schema-hero {
+    padding: 44px var(--sp-section-x) 34px;
+    background: var(--bg-panel);
+  }
+  h1 {
+    margin: 0 0 14px;
+    font-family: var(--ff-serif-tc);
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: 0;
+  }
+  .ids {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+  }
+  code {
+    padding: 3px 10px;
+    background: var(--zhu-tint);
+    color: var(--zhu);
+    font-family: var(--ff-mono);
+    font-size: 14px;
+  }
+  p {
+    max-width: 760px;
+    margin: 0 0 24px;
+    color: var(--ink-soft);
+    font-family: var(--ff-serif-tc);
+    font-size: var(--fs-lede);
+    line-height: 1.75;
+  }
+  .ctas {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  a {
+    padding: 10px 20px;
+    font-family: var(--ff-sans-tc);
+    font-size: 13.5px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+  }
+  .primary {
+    background: var(--zhu);
+    color: #fff;
+  }
+  .secondary {
+    border: 2px solid var(--ink);
+    color: var(--ink);
+  }
+  @media (max-width: 700px) {
+    h1 {
+      font-size: 42px;
+    }
+  }
+</style>

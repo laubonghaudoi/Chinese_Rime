@@ -1,0 +1,49 @@
+---
+import type { Dialect } from "../data/types";
+import { schemasForDialect } from "../data/loader";
+import { dialectAnchor } from "../utils/anchors";
+import SchemaRow from "./SchemaRow.astro";
+
+interface Props {
+  branchKey: string;
+  dialect: Dialect;
+}
+
+const { branchKey, dialect } = Astro.props;
+const schemas = schemasForDialect(dialect);
+---
+<section class="dialect" id={dialectAnchor(branchKey, dialect.name)} data-dialect-group>
+  <h3>{dialect.name}<span>{schemas.length} 個方案</span></h3>
+  <div class="rows">
+    {schemas.map((schema) => <SchemaRow schema={schema} />)}
+  </div>
+</section>
+
+<style>
+  .dialect {
+    padding: 18px 0 10px;
+  }
+  h3 {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin: 0 0 10px;
+    font-family: var(--ff-serif-tc);
+    font-size: var(--fs-h3);
+    font-weight: 700;
+    letter-spacing: 0;
+  }
+  h3 span {
+    font-family: var(--ff-sans-tc);
+    color: var(--ink-meta-3);
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .rows {
+    display: grid;
+    gap: 2px;
+  }
+  [hidden] {
+    display: none;
+  }
+</style>

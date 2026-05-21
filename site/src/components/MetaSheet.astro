@@ -1,0 +1,87 @@
+---
+import type { SchemaEntry } from "../data/types";
+import { getBranchByKey } from "../data/loader";
+
+interface Props {
+  schema: SchemaEntry;
+}
+
+const { schema } = Astro.props;
+const branch = schema.branch ? getBranchByKey(schema.branch) : null;
+const fields = [
+  { label: "語系", value: branch ? `${branch.name} (${branch.iso_639_3 || "—"})` : "—" },
+  { label: "方言", value: schema.dialect || "—" },
+  { label: "配方", value: schema.recipe || "—", href: schema.upstream_url || undefined },
+  { label: "作者", value: schema.authors.length ? schema.authors.join("、") : "—" },
+  { label: "版本", value: schema.version || "—", mono: true },
+  { label: "授權", value: schema.license || "—", mono: true },
+  { label: "最後更新", value: schema.last_commit_at ? schema.last_commit_at.slice(0, 10) : "—", mono: true },
+  { label: "依賴", value: schema.dependencies.length ? schema.dependencies.join("、") : "—", mono: true }
+];
+---
+<section class="meta-sheet">
+  {fields.map((field) => (
+    <div>
+      <span>{field.label}</span>
+      {field.href ? (
+        <a class:list={[{ mono: field.mono }]} href={field.href}>{field.value}</a>
+      ) : (
+        <b class:list={[{ mono: field.mono }]}>{field.value}</b>
+      )}
+    </div>
+  ))}
+</section>
+
+<style>
+  .meta-sheet {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background: var(--bg-elev);
+    padding: 0 var(--sp-section-x) 32px;
+  }
+  div {
+    padding: 22px 18px 18px 0;
+    min-width: 0;
+    border-top: 2px solid var(--ink);
+  }
+  span {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--ink-meta-3);
+    font-family: var(--ff-sans-tc);
+    font-size: 11px;
+    letter-spacing: var(--ls-label);
+  }
+  b,
+  a {
+    display: block;
+    overflow-wrap: anywhere;
+    color: var(--ink);
+    font-family: var(--ff-serif-tc);
+    font-size: var(--fs-meta-val);
+    font-weight: 700;
+    line-height: 1.35;
+    text-decoration: none;
+  }
+  a {
+    text-decoration: underline;
+    text-decoration-color: var(--zhu);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+  }
+  .mono {
+    font-family: var(--ff-mono);
+    font-size: 13px;
+    font-weight: 500;
+  }
+  @media (max-width: 940px) {
+    .meta-sheet {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 560px) {
+    .meta-sheet {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

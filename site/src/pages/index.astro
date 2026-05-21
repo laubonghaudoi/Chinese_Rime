@@ -1,0 +1,188 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import DistributionChart from "../components/DistributionChart.astro";
+import { getManifest } from "../data/loader";
+import { withBase } from "../utils/path";
+
+const manifest = getManifest();
+---
+<BaseLayout title="中州韻方案集" active="">
+  <section class="hero">
+    <div class="left">
+      <h1>中州韻<br />方案集</h1>
+      <p class="lede">收錄現代漢語各大分支，及上古、中古漢語的中州韻輸入法拼音輸入方案與字庫。</p>
+      <div class="ctas">
+        <a class="cta" href={withBase("/catalog/")}>瀏覽方案目錄</a>
+        <a class="cta alt" href={withBase("/install/")}>如何安裝</a>
+      </div>
+    </div>
+    <div class="stats" aria-label="收錄統計">
+      <div><b>{manifest.stats.schema_count}</b><span>方案</span></div>
+      <div><b>{manifest.stats.recipe_count}</b><span>配方</span></div>
+      <div><b>{manifest.stats.active_branch_count}</b><span>語系</span></div>
+      <div><b>{manifest.stats.download_package_count}</b><span>下載包</span></div>
+    </div>
+  </section>
+
+  <section class="paths">
+    <span class="label">為三類讀者</span>
+    <div class="cards">
+      <article>
+        <span>01</span>
+        <h2>找到母語方案</h2>
+        <p>從各語系裡找到你的方言，下載即可安裝部署，立即用母語拼音輸入。</p>
+        <a href={withBase("/catalog/")}>瀏覽目錄 →</a>
+      </article>
+      <article>
+        <span>02</span>
+        <h2>練習正音正字</h2>
+        <p>以拼音輸入練習標準讀音與正字，每個方案附作者說明、上游連結與學習資源。</p>
+        <a href={withBase("/resources/")}>查看資源 →</a>
+      </article>
+      <article>
+        <span>03</span>
+        <h2>對照與引用</h2>
+        <p>以 ISO 639-3 分類，每個方案包含作者、版本、授權與來源倉庫，可作學術參考。</p>
+        <a href={withBase("/about/")}>關於分類 →</a>
+      </article>
+    </div>
+  </section>
+
+  <DistributionChart />
+</BaseLayout>
+
+<style>
+  .hero {
+    display: grid;
+    grid-template-columns: 1.35fr 1fr;
+    gap: 36px;
+    padding: 64px var(--sp-section-x) 52px;
+    background: var(--bg-panel);
+  }
+  h1 {
+    margin: 0 0 18px;
+    font-family: var(--ff-serif-tc);
+    font-size: var(--fs-h1-hero);
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0;
+  }
+  .lede {
+    max-width: 560px;
+    margin: 0;
+    color: var(--ink-soft);
+    font-family: var(--ff-serif-tc);
+    font-size: 18px;
+    line-height: 1.75;
+  }
+  .ctas {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 28px;
+  }
+  .cta {
+    padding: 11px 22px;
+    background: var(--zhu);
+    color: #fff;
+    font-family: var(--ff-sans-tc);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+  }
+  .cta.alt {
+    background: transparent;
+    color: var(--ink);
+    border: 2px solid var(--ink);
+  }
+  .stats {
+    align-self: start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 2px solid var(--ink);
+    margin-top: 14px;
+  }
+  .stats div {
+    padding: 18px 18px 12px 0;
+    border-bottom: 2px solid var(--ink);
+  }
+  .stats b {
+    display: block;
+    font-family: var(--ff-sans);
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+  }
+  .stats span {
+    display: block;
+    margin-top: 10px;
+    color: var(--ink-meta-2);
+    font-family: var(--ff-sans-tc);
+    font-size: 12px;
+    letter-spacing: 0.18em;
+  }
+  .paths {
+    padding: 54px var(--sp-section-x) 48px;
+    background: var(--bg-elev);
+  }
+  .label {
+    display: block;
+    margin-bottom: 20px;
+    color: var(--ink-meta-3);
+    font-family: var(--ff-sans-tc);
+    font-size: var(--fs-label);
+    letter-spacing: var(--ls-label);
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+    min-height: 208px;
+    padding: 26px;
+    background: var(--bg-panel);
+  }
+  article span {
+    margin-bottom: 16px;
+    color: var(--zhu);
+    font-family: var(--ff-mono);
+    font-size: 11px;
+    letter-spacing: 0.16em;
+  }
+  article h2 {
+    margin: 0 0 10px;
+    font-family: var(--ff-serif-tc);
+    font-size: 22px;
+    letter-spacing: 0;
+  }
+  article p {
+    flex: 1;
+    margin: 0 0 22px;
+    color: var(--ink-meta-2);
+    font-family: var(--ff-sans-tc);
+    font-size: 13.5px;
+    line-height: 1.75;
+  }
+  article a {
+    align-self: flex-start;
+    padding-bottom: 2px;
+    border-bottom: 2px solid var(--ink);
+    font-family: var(--ff-sans-tc);
+    font-size: 12px;
+    letter-spacing: 0.16em;
+    text-decoration: none;
+  }
+  @media (max-width: 900px) {
+    .hero {
+      grid-template-columns: 1fr;
+    }
+    .cards {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

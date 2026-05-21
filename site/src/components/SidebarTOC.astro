@@ -1,0 +1,58 @@
+---
+import { getManifest, branchSchemaCount } from "../data/loader";
+
+const branches = getManifest().branches;
+---
+<aside class="toc" aria-label="語系目錄">
+  {branches.map((branch) => (
+    <a href={`#${branch.key}`} data-empty={branch.status === "missing" ? "true" : "false"}>
+      <span>{branch.name}<code>{branch.iso_639_3 || "—"}</code></span>
+      <b>{branchSchemaCount(branch)}</b>
+    </a>
+  ))}
+</aside>
+
+<style>
+  .toc {
+    position: sticky;
+    top: 96px;
+    align-self: start;
+    display: grid;
+    gap: 2px;
+  }
+  a {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 10px;
+    padding: 8px 0;
+    text-decoration: none;
+    font-family: var(--ff-sans-tc);
+    font-size: 12px;
+  }
+  a:hover {
+    font-weight: 700;
+  }
+  span {
+    display: flex;
+    gap: 6px;
+    min-width: 0;
+  }
+  code {
+    color: var(--zhu);
+    font-family: var(--ff-mono);
+    font-size: 10.5px;
+  }
+  b {
+    font-family: var(--ff-sans);
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+  [data-empty="true"] {
+    color: var(--ink-meta-4);
+  }
+  @media (max-width: 1024px) {
+    .toc {
+      display: none;
+    }
+  }
+</style>

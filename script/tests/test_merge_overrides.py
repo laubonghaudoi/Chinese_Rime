@@ -27,6 +27,7 @@ def test_merge_returns_branch_definitions(fixtures_dir: Path):
     assert by_key["yue"]["name"] == "粵語"
     assert by_key["yue"]["iso_639_3"] == "yue"
     assert by_key["yue"]["intro"].startswith("粵語區")
+    assert by_key["yue"]["status"] == "active"
 
 
 def test_merge_groups_schemas_into_branch_dialects(fixtures_dir: Path):
@@ -49,3 +50,23 @@ def test_merge_omits_branches_with_no_schemas(fixtures_dir: Path):
     # wuu is in overrides but has no schemas in this run — still emitted so the
     # homepage chart can display it (potentially with count 0). See spec §5.1.
     assert "wuu" in keys
+
+
+def test_merge_preserves_preassigned_orphan_fields(fixtures_dir: Path):
+    schemas = [{"schema_id": "dkzp", "branch": "yue", "dialect": "廣州話"}]
+    merged, branches = merge_overrides(schemas, fixtures_dir / "manifest_overrides.yaml")
+
+    assert merged[0]["branch"] == "yue"
+    assert merged[0]["dialect"] == "廣州話"
+    yue = next(b for b in branches if b["key"] == "yue")
+    assert yue["dialects"][0]["schemas"] == ["dkzp"]
+
+
+def test_merge_assigns_source_only_schema_to_branch_tree(fixtures_dir: Path):
+    schemas = [{"schema_id": "extra_variant", "source_group": "粵語"}]
+    merged, branches = merge_overrides(schemas, fixtures_dir / "manifest_overrides.yaml")
+
+    assert merged[0]["branch"] == "yue"
+    assert merged[0]["dialect"] == "廣州話"
+    yue = next(b for b in branches if b["key"] == "yue")
+    assert yue["dialects"][0]["schemas"] == ["extra_variant"]

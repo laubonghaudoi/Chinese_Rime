@@ -1,0 +1,93 @@
+---
+import { countDownloadableSchemas, countRecipeSchemas, getManifest } from "../data/loader";
+
+const manifest = getManifest();
+const chips = [
+  { key: "all", label: "全部", count: manifest.stats.schema_count },
+  { key: "recipe", label: "℞ 限配方", count: countRecipeSchemas() },
+  { key: "downloadable", label: "限可下載", count: countDownloadableSchemas() },
+  { key: "missing", label: "含暫缺", count: manifest.stats.missing_branch_count }
+];
+---
+<div class="filters" data-filter-root>
+  {chips.map((chip, index) => (
+    <button class:list={["chip", { active: index === 0 }]} type="button" data-filter={chip.key}>
+      {chip.label} <span>{chip.count}</span>
+    </button>
+  ))}
+</div>
+
+<script>
+  // @ts-nocheck
+  const root = document.querySelector("[data-filter-root]");
+  const rows = [...document.querySelectorAll("[data-schema-row]")];
+  const sections = [...document.querySelectorAll("[data-language-section]")];
+  const dialects = [...document.querySelectorAll("[data-dialect-group]")];
+
+  function applyFilter(filter) {
+    root?.querySelectorAll("[data-filter]").forEach((button) => {
+      button.classList.toggle("active", button.dataset.filter === filter);
+    });
+
+    rows.forEach((row) => {
+      const show = filter === "all" || filter === "missing"
+        || (filter === "recipe" && row.dataset.recipe === "true")
+        || (filter === "downloadable" && row.dataset.downloadable === "true");
+      row.hidden = !show;
+    });
+
+    dialects.forEach((dialect) => {
+      const visibleRows = [...dialect.querySelectorAll("[data-schema-row]")].some((row) => !row.hidden);
+      dialect.hidden = !visibleRows;
+    });
+
+    sections.forEach((section) => {
+      const isEmpty = section.dataset.empty === "true";
+      const hasVisibleRows = [...section.querySelectorAll("[data-schema-row]")].some((row) => !row.hidden);
+      section.hidden = isEmpty ? filter !== "missing" : !hasVisibleRows;
+    });
+  }
+
+  root?.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-filter]");
+    if (!button) return;
+    applyFilter(button.dataset.filter);
+  });
+
+  applyFilter("all");
+</script>
+
+<style>
+  .filters {
+    position: sticky;
+    top: 67px;
+    z-index: 10;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    padding: 12px var(--sp-section-x);
+    background: var(--bg-elev);
+    border-bottom: 2px solid var(--ink);
+  }
+  .chip {
+    padding: 7px 12px;
+    background: var(--bg-chip);
+    font-family: var(--ff-sans-tc);
+    font-size: var(--fs-chip);
+    line-height: 1;
+  }
+  .chip.active {
+    background: var(--ink);
+    color: #fff;
+  }
+  span {
+    margin-left: 5px;
+    font-family: var(--ff-sans);
+    font-variant-numeric: tabular-nums;
+  }
+  @media (max-width: 760px) {
+    .filters {
+      top: 0;
+    }
+  }
+</style>

@@ -47,6 +47,7 @@ def test_emit_matches_golden(fixtures_dir: Path, tmp_path: Path):
             "name": "粵語",
             "iso_639_3": "yue",
             "intro": "粵語區的拼音輸入方案，以廣州話為主。",
+            "status": "active",
             "dialects": [{"name": "廣州話", "schemas": ["jyutping"]}],
         },
         {
@@ -54,6 +55,7 @@ def test_emit_matches_golden(fixtures_dir: Path, tmp_path: Path):
             "name": "吳語",
             "iso_639_3": "wuu",
             "intro": "吳語區拼音輸入方案。",
+            "status": "active",
             "dialects": [{"name": "蘇州話", "schemas": ["wugniu_soutseu"]}],
         },
     ]
@@ -92,3 +94,27 @@ def test_emit_sanitizes_slug_jyutping_plus(tmp_path: Path):
     emit_json(schemas, [], out_path)
     data = json.loads(out_path.read_text(encoding="utf-8"))
     assert data["schemas"]["jyutping+"]["slug"] == "jyutping-plus"
+
+
+def test_emit_adds_manifest_stats(tmp_path: Path):
+    schemas = [
+        {"schema_id": "a", "recipe": "owner/a", "download_package": "粵語/廣州話"},
+        {"schema_id": "b", "recipe": "owner/a", "download_package": "粵語/廣州話"},
+        {"schema_id": "c", "recipe": None, "download_package": None},
+    ]
+    branches = [
+        {"key": "yue", "status": "active", "dialects": [{"name": "廣州話", "schemas": ["a", "b"]}]},
+        {"key": "och", "status": "synthetic", "dialects": [{"name": "上古漢語", "schemas": ["c"]}]},
+        {"key": "czh", "status": "missing", "dialects": []},
+    ]
+    out_path = tmp_path / "schemas.json"
+    emit_json(schemas, branches, out_path)
+    stats = json.loads(out_path.read_text(encoding="utf-8"))["stats"]
+    assert stats == {
+        "schema_count": 3,
+        "recipe_count": 1,
+        "download_package_count": 1,
+        "branch_count": 3,
+        "active_branch_count": 2,
+        "missing_branch_count": 1,
+    }

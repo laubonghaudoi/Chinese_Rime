@@ -1,11 +1,20 @@
 {
-  "generated_at": "2026-05-20T23:41:26+00:00",
+  "generated_at": "2026-05-21T01:38:24+00:00",
+  "stats": {
+    "schema_count": 174,
+    "recipe_count": 60,
+    "download_package_count": 70,
+    "branch_count": 21,
+    "active_branch_count": 15,
+    "missing_branch_count": 6
+  },
   "branches": [
     {
       "key": "och",
       "name": "上古漢語",
       "iso_639_3": "och",
       "intro": "上古漢語的拼音方案多基於各家擬音系統，並非實際口語的拼寫。",
+      "status": "synthetic",
       "dialects": [
         {
           "name": "上古漢語",
@@ -22,7 +31,9 @@
             "OC_starostinTK",
             "OC_wangli",
             "OC_zhengzhang",
-            "OC_zhoufagao"
+            "OC_zhoufagao",
+            "dkzp",
+            "OC_schuesslerLHC"
           ]
         }
       ]
@@ -32,6 +43,7 @@
       "name": "中古漢語",
       "iso_639_3": "ltc",
       "intro": "中古漢語的擬音方案。",
+      "status": "synthetic",
       "dialects": [
         {
           "name": "中古漢語",
@@ -45,7 +57,11 @@
             "guangtong",
             "kmg",
             "nieh_ched",
-            "toongcuu"
+            "njerchet",
+            "toongcuu",
+            "dghp",
+            "kuankhiunn",
+            "middle_chinese_lookup"
           ]
         }
       ]
@@ -55,6 +71,7 @@
       "name": "官話",
       "iso_639_3": "cmn",
       "intro": "官話下分中原、江淮、西南等支。",
+      "status": "active",
       "dialects": [
         {
           "name": "中原官話",
@@ -90,6 +107,7 @@
             "wuhan",
             "yunciu",
             "shupin_cendu",
+            "shupin_cendu_9key",
             "shupin_congqin",
             "shupin_guiyang",
             "shupin_libin",
@@ -104,12 +122,15 @@
       "name": "晉語",
       "iso_639_3": "cjy",
       "intro": "晉語。",
+      "status": "active",
       "dialects": [
         {
           "name": "晉語",
           "schemas": [
             "jieny",
-            "fengyo"
+            "fengyo",
+            "easy_en",
+            "haitrou"
           ]
         }
       ]
@@ -119,6 +140,7 @@
       "name": "吳語",
       "iso_639_3": "wuu",
       "intro": "吳語各方言拼音方案。",
+      "status": "active",
       "dialects": [
         {
           "name": "上海話",
@@ -199,7 +221,9 @@
         },
         {
           "name": "永嘉話",
-          "schemas": []
+          "schemas": [
+            "wugniu_ionko"
+          ]
         },
         {
           "name": "溫州話",
@@ -211,7 +235,18 @@
         {
           "name": "標準吳語",
           "schemas": [
-            "nguphing"
+            "nguphing",
+            "pcngng"
+          ]
+        },
+        {
+          "name": "其他方案",
+          "schemas": [
+            "nguphin-yaehwei",
+            "nguphing-hiunduk",
+            "nguphing-ipa",
+            "nguphing-syphiq",
+            "pinyin_simp"
           ]
         }
       ]
@@ -221,6 +256,7 @@
       "name": "贛語",
       "iso_639_3": "gan",
       "intro": "贛語。",
+      "status": "active",
       "dialects": [
         {
           "name": "撫州話",
@@ -235,11 +271,14 @@
       "name": "湘語",
       "iso_639_3": "hsn",
       "intro": "湘語。",
+      "status": "active",
       "dialects": [
         {
           "name": "邵東話",
           "schemas": [
             "sautungva",
+            "sautungva_beta",
+            "sautungva_cyrillic",
             "sautungva_phinin"
           ]
         }
@@ -250,6 +289,7 @@
       "name": "客家話",
       "iso_639_3": "hak",
       "intro": "客家話拼音方案。",
+      "status": "active",
       "dialects": [
         {
           "name": "客家話綜合口音",
@@ -261,7 +301,8 @@
         {
           "name": "梅縣話",
           "schemas": [
-            "hakka_meixian"
+            "hakka_meixian",
+            "moi-eian"
           ]
         },
         {
@@ -277,6 +318,7 @@
       "name": "粵語",
       "iso_639_3": "yue",
       "intro": "粵語拼音方案，以廣州話為主。",
+      "status": "active",
       "dialects": [
         {
           "name": "廣州話",
@@ -286,14 +328,17 @@
             "yale",
             "jyutping_plus",
             "zyujam",
-            "jyutping_compact"
+            "jyutping_compact",
+            "jyutsoeng"
           ]
         },
         {
           "name": "台山話",
           "schemas": [
             "gene",
-            "gene_numeric"
+            "gene_numeric",
+            "hoisiang",
+            "SRenNing_EauSanCungLau"
           ]
         },
         {
@@ -304,7 +349,9 @@
         },
         {
           "name": "梧州話",
-          "schemas": []
+          "schemas": [
+            "NgZjau_JyutPing"
+          ]
         },
         {
           "name": "南寧白話",
@@ -320,7 +367,16 @@
         },
         {
           "name": "貴港話",
-          "schemas": []
+          "schemas": [
+            "gvaizauvan"
+          ]
+        },
+        {
+          "name": "其他方案",
+          "schemas": [
+            "naamning_baakwaa_ipa",
+            "naamning_bingwaa_ipa"
+          ]
         }
       ]
     },
@@ -329,6 +385,7 @@
       "name": "南部平話",
       "iso_639_3": "csp",
       "intro": "南部平話。",
+      "status": "active",
       "dialects": [
         {
           "name": "南寧平話",
@@ -343,6 +400,7 @@
       "name": "莆仙語",
       "iso_639_3": "cpx",
       "intro": "莆仙語。",
+      "status": "active",
       "dialects": [
         {
           "name": "莆田話",
@@ -358,6 +416,7 @@
       "name": "閩北語",
       "iso_639_3": "mnp",
       "intro": "閩北語。",
+      "status": "active",
       "dialects": [
         {
           "name": "建寧府方言",
@@ -372,12 +431,14 @@
       "name": "閩南語",
       "iso_639_3": "nan",
       "intro": "閩南語各方言拼音方案。",
+      "status": "active",
       "dialects": [
         {
           "name": "廈門話",
           "schemas": [
             "blg_etai",
-            "blg_ha"
+            "blg_ha",
+            "mp"
           ]
         },
         {
@@ -437,6 +498,23 @@
           "schemas": [
             "riaupeng"
           ]
+        },
+        {
+          "name": "其他方案",
+          "schemas": [
+            "dieziu_60",
+            "dioion_60",
+            "gekion_60",
+            "riaupeng_60",
+            "suantau_60",
+            "tenghai_60",
+            "dieziu_mtr",
+            "dioion_mtr",
+            "gekion_mtr",
+            "riaupeng_mtr",
+            "suantau_mtr",
+            "tenghai_mtr"
+          ]
         }
       ]
     },
@@ -445,10 +523,16 @@
       "name": "閩東語",
       "iso_639_3": "cdo",
       "intro": "閩東語。",
+      "status": "active",
       "dialects": [
         {
           "name": "福州話",
-          "schemas": []
+          "schemas": [
+            "ciklinbekin",
+            "dfd",
+            "BekIngLMC",
+            "GauHuoiLMC"
+          ]
         }
       ]
     },
@@ -457,6 +541,7 @@
       "name": "域外方音",
       "iso_639_3": "",
       "intro": "漢字在非漢語語言中的讀音方案。",
+      "status": "synthetic",
       "dialects": [
         {
           "name": "日語漢字",
@@ -483,11 +568,28 @@
         },
         {
           "name": "古壯字",
-          "schemas": []
+          "schemas": [
+            "sawndip"
+          ]
         },
         {
           "name": "越南語漢喃字",
-          "schemas": []
+          "schemas": [
+            "newhannom"
+          ]
+        },
+        {
+          "name": "其他方案",
+          "schemas": [
+            "swiftkana",
+            "manchu_aligali",
+            "mipa",
+            "manchu_gb",
+            "mongolian_gb",
+            "sibe_gb",
+            "todo_gb",
+            "uyghur_uly_pf"
+          ]
         }
       ]
     },
@@ -496,6 +598,7 @@
       "name": "徽語",
       "iso_639_3": "czh",
       "intro": "暫缺。",
+      "status": "missing",
       "dialects": []
     },
     {
@@ -503,6 +606,7 @@
       "name": "閩中語",
       "iso_639_3": "czo",
       "intro": "暫缺。",
+      "status": "missing",
       "dialects": []
     },
     {
@@ -510,6 +614,7 @@
       "name": "海南話",
       "iso_639_3": "hnm",
       "intro": "暫缺。",
+      "status": "missing",
       "dialects": []
     },
     {
@@ -517,6 +622,7 @@
       "name": "雷州話",
       "iso_639_3": "luh",
       "intro": "暫缺。",
+      "status": "missing",
       "dialects": []
     },
     {
@@ -524,6 +630,7 @@
       "name": "邵將語",
       "iso_639_3": "sjc",
       "intro": "暫缺。",
+      "status": "missing",
       "dialects": []
     },
     {
@@ -531,6 +638,7 @@
       "name": "北部平話",
       "iso_639_3": "cnp",
       "intro": "暫缺。",
+      "status": "missing",
       "dialects": []
     }
   ],
@@ -1207,8 +1315,8 @@
       "schema_id": "njerchet",
       "slug": "njerchet",
       "display_name": "爾切羅馬字",
-      "branch": null,
-      "dialect": null,
+      "branch": "ltc",
+      "dialect": "中古漢語",
       "authors": [
         "叔寍"
       ],
@@ -1621,8 +1729,8 @@
       "schema_id": "nguphin-yaehwei",
       "slug": "nguphin-yaehwei",
       "display_name": "吳語拼音·吳協式",
-      "branch": null,
-      "dialect": null,
+      "branch": "wuu",
+      "dialect": "其他方案",
       "authors": [
         "山前"
       ],
@@ -1640,8 +1748,8 @@
       "schema_id": "nguphing-hiunduk",
       "slug": "nguphing-hiunduk",
       "display_name": "吳語拼音·訓讀",
-      "branch": null,
-      "dialect": null,
+      "branch": "wuu",
+      "dialect": "其他方案",
       "authors": [
         "山前"
       ],
@@ -1659,8 +1767,8 @@
       "schema_id": "nguphing-ipa",
       "slug": "nguphing-ipa",
       "display_name": "吳語拼音·IPA",
-      "branch": null,
-      "dialect": null,
+      "branch": "wuu",
+      "dialect": "其他方案",
       "authors": [
         "山前"
       ],
@@ -1678,8 +1786,8 @@
       "schema_id": "nguphing-syphiq",
       "slug": "nguphing-syphiq",
       "display_name": "吳語四拼",
-      "branch": null,
-      "dialect": null,
+      "branch": "wuu",
+      "dialect": "其他方案",
       "authors": [
         "山前"
       ],
@@ -1974,8 +2082,8 @@
       "schema_id": "swiftkana",
       "slug": "swiftkana",
       "display_name": "スイフトカナ",
-      "branch": null,
-      "dialect": null,
+      "branch": "extra",
+      "dialect": "其他方案",
       "authors": [
         "sgalal"
       ],
@@ -2014,8 +2122,8 @@
       "schema_id": "manchu_aligali",
       "slug": "manchu_aligali",
       "display_name": "滿文阿禮嘎禮",
-      "branch": null,
-      "dialect": null,
+      "branch": "extra",
+      "dialect": "其他方案",
       "authors": [
         "沈逸磊"
       ],
@@ -2033,8 +2141,8 @@
       "schema_id": "mipa",
       "slug": "mipa",
       "display_name": "mIPA",
-      "branch": null,
-      "dialect": null,
+      "branch": "extra",
+      "dialect": "其他方案",
       "authors": [
         "沈逸磊"
       ],
@@ -2346,8 +2454,8 @@
       "schema_id": "sautungva_beta",
       "slug": "sautungva_beta",
       "display_name": "邵東話測試",
-      "branch": null,
-      "dialect": null,
+      "branch": "hsn",
+      "dialect": "邵東話",
       "authors": [
         "轀輬"
       ],
@@ -2371,8 +2479,8 @@
       "schema_id": "sautungva_cyrillic",
       "slug": "sautungva_cyrillic",
       "display_name": "邵東話西里爾",
-      "branch": null,
-      "dialect": null,
+      "branch": "hsn",
+      "dialect": "邵東話",
       "authors": [
         "轀輬"
       ],
@@ -2437,8 +2545,8 @@
       "schema_id": "naamning_baakwaa_ipa",
       "slug": "naamning_baakwaa_ipa",
       "display_name": "南寧白話(IPA)",
-      "branch": null,
-      "dialect": null,
+      "branch": "yue",
+      "dialect": "其他方案",
       "authors": [
         "LeiMaau"
       ],
@@ -2480,8 +2588,8 @@
       "schema_id": "naamning_bingwaa_ipa",
       "slug": "naamning_bingwaa_ipa",
       "display_name": "南寧(亭子)平話(IPA)",
-      "branch": null,
-      "dialect": null,
+      "branch": "yue",
+      "dialect": "其他方案",
       "authors": [
         "LeiMaau"
       ],
@@ -2890,8 +2998,8 @@
       "schema_id": "shupin_cendu_9key",
       "slug": "shupin_cendu_9key",
       "display_name": "蜀拼9Key-成都",
-      "branch": null,
-      "dialect": null,
+      "branch": "cmn",
+      "dialect": "西南官話",
       "authors": [
         "Ciphotis",
         "涼風Papnas",
@@ -3387,8 +3495,8 @@
       "schema_id": "manchu_gb",
       "slug": "manchu_gb",
       "display_name": "滿文國標鍵盤",
-      "branch": null,
-      "dialect": null,
+      "branch": "extra",
+      "dialect": "其他方案",
       "authors": [
         "渡邊鷹尾"
       ],
@@ -3406,8 +3514,8 @@
       "schema_id": "mongolian_gb",
       "slug": "mongolian_gb",
       "display_name": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ GB",
-      "branch": null,
-      "dialect": null,
+      "branch": "extra",
+      "dialect": "其他方案",
       "authors": [
         "渡邊鷹尾"
       ],
@@ -3425,8 +3533,8 @@
       "schema_id": "sibe_gb",
       "slug": "sibe_gb",
       "display_name": "錫伯文國標鍵盤",
-      "branch": null,
-      "dialect": null,
+      "branch": "extra",
+      "dialect": "其他方案",
       "authors": [
         "渡邊鷹尾"
       ],
@@ -3444,8 +3552,8 @@
       "schema_id": "todo_gb",
       "slug": "todo_gb",
       "display_name": "托忒文國標鍵盤",
-      "branch": null,
-      "dialect": null,
+      "branch": "extra",
+      "dialect": "其他方案",
       "authors": [
         "渡邊鷹尾"
       ],
@@ -3463,8 +3571,8 @@
       "schema_id": "uyghur_uly_pf",
       "slug": "uyghur_uly_pf",
       "display_name": "维吾尔ULY显现形式",
-      "branch": null,
-      "dialect": null,
+      "branch": "extra",
+      "dialect": "其他方案",
       "authors": [
         "沈逸磊"
       ],
@@ -3501,8 +3609,8 @@
       "schema_id": "easy_en",
       "slug": "easy_en",
       "display_name": "Easy English",
-      "branch": null,
-      "dialect": null,
+      "branch": "cjy",
+      "dialect": "晉語",
       "authors": [
         "Patrick"
       ],
@@ -3520,8 +3628,8 @@
       "schema_id": "dieziu_60",
       "slug": "dieziu_60",
       "display_name": "省教潮拼·潮州",
-      "branch": null,
-      "dialect": null,
+      "branch": "nan",
+      "dialect": "其他方案",
       "authors": [
         "騰達"
       ],
@@ -3541,8 +3649,8 @@
       "schema_id": "dioion_60",
       "slug": "dioion_60",
       "display_name": "省教潮拼·潮陽",
-      "branch": null,
-      "dialect": null,
+      "branch": "nan",
+      "dialect": "其他方案",
       "authors": [
         "騰達"
       ],
@@ -3562,8 +3670,8 @@
       "schema_id": "gekion_60",
       "slug": "gekion_60",
       "display_name": "省教潮拼·揭陽",
-      "branch": null,
-      "dialect": null,
+      "branch": "nan",
+      "dialect": "其他方案",
       "authors": [
         "騰達"
       ],
@@ -3583,8 +3691,8 @@
       "schema_id": "riaupeng_60",
       "slug": "riaupeng_60",
       "display_name": "省教潮拼·饒平",
-      "branch": null,
-      "dialect": null,
+      "branch": "nan",
+      "dialect": "其他方案",
       "authors": [
         "騰達"
       ],
@@ -3604,8 +3712,8 @@
       "schema_id": "suantau_60",
       "slug": "suantau_60",
       "display_name": "省教潮拼·汕頭",
-      "branch": null,
-      "dialect": null,
+      "branch": "nan",
+      "dialect": "其他方案",
       "authors": [
         "騰達"
       ],
@@ -3625,8 +3733,8 @@
       "schema_id": "tenghai_60",
       "slug": "tenghai_60",
       "display_name": "省教潮拼·澄海",
-      "branch": null,
-      "dialect": null,
+      "branch": "nan",
+      "dialect": "其他方案",
       "authors": [
         "騰達"
       ],
@@ -3646,8 +3754,8 @@
       "schema_id": "dieziu_mtr",
       "slug": "dieziu_mtr",
       "display_name": "潮語羅馬字·潮州",
-      "branch": null,
-      "dialect": null,
+      "branch": "nan",
+      "dialect": "其他方案",
       "authors": [
         "騰達"
       ],
@@ -3667,8 +3775,8 @@
       "schema_id": "dioion_mtr",
       "slug": "dioion_mtr",
       "display_name": "潮語羅馬字·潮陽",
-      "branch": null,
-      "dialect": null,
+      "branch": "nan",
+      "dialect": "其他方案",
       "authors": [
         "騰達"
       ],
@@ -3688,8 +3796,8 @@
       "schema_id": "gekion_mtr",
       "slug": "gekion_mtr",
       "display_name": "潮語羅馬字·揭陽",
-      "branch": null,
-      "dialect": null,
+      "branch": "nan",
+      "dialect": "其他方案",
       "authors": [
         "騰達"
       ],
@@ -3709,8 +3817,8 @@
       "schema_id": "riaupeng_mtr",
       "slug": "riaupeng_mtr",
       "display_name": "潮語羅馬字·饒平",
-      "branch": null,
-      "dialect": null,
+      "branch": "nan",
+      "dialect": "其他方案",
       "authors": [
         "騰達"
       ],
@@ -3730,8 +3838,8 @@
       "schema_id": "suantau_mtr",
       "slug": "suantau_mtr",
       "display_name": "潮語羅馬字·汕頭",
-      "branch": null,
-      "dialect": null,
+      "branch": "nan",
+      "dialect": "其他方案",
       "authors": [
         "騰達"
       ],
@@ -3751,8 +3859,8 @@
       "schema_id": "tenghai_mtr",
       "slug": "tenghai_mtr",
       "display_name": "潮語羅馬字·澄海",
-      "branch": null,
-      "dialect": null,
+      "branch": "nan",
+      "dialect": "其他方案",
       "authors": [
         "騰達"
       ],
@@ -3772,8 +3880,8 @@
       "schema_id": "pinyin_simp",
       "slug": "pinyin_simp",
       "display_name": "袖珍简化字拼音",
-      "branch": null,
-      "dialect": null,
+      "branch": "wuu",
+      "dialect": "其他方案",
       "authors": [
         "佚名"
       ],
@@ -3799,7 +3907,7 @@
       "version": "",
       "description": "上古全拼方案（無對應上游配方）。",
       "dependencies": [],
-      "license": "",
+      "license": null,
       "recipe": null,
       "upstream_url": null,
       "last_commit_at": null,
@@ -3816,7 +3924,7 @@
       "version": "",
       "description": "中古汉拼方案（無對應上游配方）。",
       "dependencies": [],
-      "license": "",
+      "license": null,
       "recipe": null,
       "upstream_url": null,
       "last_commit_at": null,
@@ -3833,7 +3941,7 @@
       "version": "",
       "description": "廣韻羅馬字方案（無對應上游配方）。",
       "dependencies": [],
-      "license": "",
+      "license": null,
       "recipe": null,
       "upstream_url": null,
       "last_commit_at": null,
@@ -3850,7 +3958,7 @@
       "version": "",
       "description": "廣韻查詢方案（無對應上游配方）。",
       "dependencies": [],
-      "license": "",
+      "license": null,
       "recipe": null,
       "upstream_url": null,
       "last_commit_at": null,
@@ -3867,7 +3975,7 @@
       "version": "",
       "description": "晋拼解州片方案（無對應上游配方）。",
       "dependencies": [],
-      "license": "",
+      "license": null,
       "recipe": null,
       "upstream_url": null,
       "last_commit_at": null,
@@ -3884,7 +3992,7 @@
       "version": "",
       "description": "吳語永嘉話方案（無對應上游配方）。",
       "dependencies": [],
-      "license": "",
+      "license": null,
       "recipe": null,
       "upstream_url": null,
       "last_commit_at": null,
@@ -3901,7 +4009,7 @@
       "version": "",
       "description": "標準吳語方案（無對應上游配方）。",
       "dependencies": [],
-      "license": "",
+      "license": null,
       "recipe": null,
       "upstream_url": null,
       "last_commit_at": null,
@@ -3918,7 +4026,7 @@
       "version": "",
       "description": "閩倂輸入灋方案（無對應上游配方）。",
       "dependencies": [],
-      "license": "",
+      "license": null,
       "recipe": null,
       "upstream_url": null,
       "last_commit_at": null,
@@ -3935,7 +4043,7 @@
       "version": "",
       "description": "戚林八音方案（無對應上游配方）。",
       "dependencies": [],
-      "license": "",
+      "license": null,
       "recipe": null,
       "upstream_url": null,
       "last_commit_at": null,
@@ -3952,7 +4060,7 @@
       "version": "",
       "description": "福州話字典方案（無對應上游配方）。",
       "dependencies": [],
-      "license": "",
+      "license": null,
       "recipe": null,
       "upstream_url": null,
       "last_commit_at": null,
@@ -3969,7 +4077,7 @@
       "version": "",
       "description": "客語粵台梅惠片梅縣音方案（無對應上游配方）。",
       "dependencies": [],
-      "license": "",
+      "license": null,
       "recipe": null,
       "upstream_url": null,
       "last_commit_at": null,
@@ -3986,7 +4094,7 @@
       "version": "",
       "description": "台城方案（無對應上游配方）。",
       "dependencies": [],
-      "license": "",
+      "license": null,
       "recipe": null,
       "upstream_url": null,
       "last_commit_at": null,
@@ -4003,7 +4111,7 @@
       "version": "",
       "description": "新寧台山話斗山兼沖蔞口音方案（無對應上游配方）。",
       "dependencies": [],
-      "license": "",
+      "license": null,
       "recipe": null,
       "upstream_url": null,
       "last_commit_at": null,
@@ -4020,7 +4128,7 @@
       "version": "",
       "description": "粵語雙拼方案（無對應上游配方）。",
       "dependencies": [],
-      "license": "",
+      "license": null,
       "recipe": null,
       "upstream_url": null,
       "last_commit_at": null,
@@ -4037,7 +4145,7 @@
       "version": "",
       "description": "梧州白話方案（無對應上游配方）。",
       "dependencies": [],
-      "license": "",
+      "license": null,
       "recipe": null,
       "upstream_url": null,
       "last_commit_at": null,
@@ -4054,7 +4162,7 @@
       "version": "",
       "description": "貴州韻方案（無對應上游配方）。",
       "dependencies": [],
-      "license": "",
+      "license": null,
       "recipe": null,
       "upstream_url": null,
       "last_commit_at": null,
@@ -4071,7 +4179,7 @@
       "version": "",
       "description": "古壮字拼音方案（無對應上游配方）。",
       "dependencies": [],
-      "license": "",
+      "license": null,
       "recipe": null,
       "upstream_url": null,
       "last_commit_at": null,
@@ -4088,7 +4196,7 @@
       "version": "",
       "description": "部𢫈𡨸漢喃㗂越方案（無對應上游配方）。",
       "dependencies": [],
-      "license": "",
+      "license": null,
       "recipe": null,
       "upstream_url": null,
       "last_commit_at": null,
@@ -4105,7 +4213,7 @@
       "version": "",
       "description": "福州話八音羅馬字方案（README 列出，但本倉庫未收錄對應上游配方）。",
       "dependencies": [],
-      "license": "",
+      "license": null,
       "recipe": null,
       "upstream_url": null,
       "last_commit_at": null,
@@ -4122,7 +4230,7 @@
       "version": "",
       "description": "福州話教會羅馬字方案（README 列出，但本倉庫未收錄對應上游配方）。",
       "dependencies": [],
-      "license": "",
+      "license": null,
       "recipe": null,
       "upstream_url": null,
       "last_commit_at": null,
@@ -4139,7 +4247,7 @@
       "version": "",
       "description": "東漢漢語（許思萊）擬音方案（README 列出，但目前上游 RIME_OC_collections 倉庫未提供對應檔案）。",
       "dependencies": [],
-      "license": "",
+      "license": null,
       "recipe": null,
       "upstream_url": null,
       "last_commit_at": null,
