@@ -3,9 +3,10 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import FilterChips from "../components/FilterChips.astro";
 import LanguageSection from "../components/LanguageSection.astro";
 import SidebarTOC from "../components/SidebarTOC.astro";
-import { getManifest } from "../data/loader";
+import { getBranchesByNameInitial, getManifest } from "../data/loader";
 
 const manifest = getManifest();
+const branches = getBranchesByNameInitial();
 ---
 <BaseLayout title="方案目錄 · 非普通話漢語拼音方案全集" active="catalog">
   <header class="page-head">
@@ -18,7 +19,7 @@ const manifest = getManifest();
   <FilterChips />
   <div class="catalog">
     <div class="tree">
-      {manifest.branches.map((branch) => <LanguageSection branch={branch} />)}
+      {branches.map((branch) => <LanguageSection branch={branch} />)}
     </div>
     <SidebarTOC />
   </div>

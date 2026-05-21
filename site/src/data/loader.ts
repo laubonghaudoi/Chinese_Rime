@@ -65,6 +65,15 @@ export function branchSchemaCount(branch: Branch): number {
   return branch.dialects.reduce((sum, dialect) => sum + dialect.schemas.length, 0);
 }
 
+export function getBranchesByNameInitial(): Branch[] {
+  const collator = new Intl.Collator("zh-Hant-u-co-stroke");
+  return [...MANIFEST.branches].sort((a, b) => {
+    const aInitial = Array.from(a.name)[0] || "";
+    const bInitial = Array.from(b.name)[0] || "";
+    return collator.compare(aInitial, bInitial) || collator.compare(a.name, b.name) || a.key.localeCompare(b.key);
+  });
+}
+
 export function branchRecipeCount(branch: Branch): number {
   const recipes = new Set<string>();
   for (const dialect of branch.dialects) {

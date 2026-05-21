@@ -1,0 +1,137 @@
+---
+import { getManifest, hasPhonology } from "../data/loader";
+
+const schemas = Object.values(getManifest().schemas);
+const withPhonology = schemas.filter((schema) => hasPhonology(schema.schema_id)).length;
+const withoutPhonology = schemas.length - withPhonology;
+const rows = [
+  {
+    label: "有方案表",
+    description: "已整理聲母、韻母與聲調資料",
+    count: withPhonology,
+    kind: "ready"
+  },
+  {
+    label: "無方案表",
+    description: "暫未能由碼表生成音系資料",
+    count: withoutPhonology,
+    kind: "pending"
+  }
+];
+const max = Math.max(...rows.map((row) => row.count), 1);
+---
+<section class="phonology-chart" aria-labelledby="phonology-chart-title">
+  <div class="inner">
+    <div class="copy">
+      <h2 id="phonology-chart-title">方案表狀態</h2>
+      <p>方案表由 schema 與碼表自動整理出聲母、韻母和聲調。若缺少必要檔案、碼表不適合拆分，或仍待人工補正，頁面便暫不顯示方案表。</p>
+    </div>
+    <div class="status-bars">
+      {rows.map((row) => {
+        const pct = Math.max(6, Math.round((row.count / max) * 100));
+        return (
+          <div class:list={["status-row", row.kind]}>
+            <span class="name">
+              <strong>{row.label}</strong>
+              <small>{row.description}</small>
+            </span>
+            <span class="track" aria-hidden="true"><span style={`width:${pct}%`} /></span>
+            <b>{row.count}</b>
+          </div>
+        );
+      })}
+    </div>
+  </div>
+</section>
+
+<style>
+  .phonology-chart {
+    padding: 0 var(--sp-section-x) 62px;
+    background: var(--bg-panel);
+  }
+  .inner {
+    display: grid;
+    grid-template-columns: minmax(260px, 0.72fr) minmax(0, 1fr);
+    gap: 44px;
+    border-top: 2px solid var(--ink);
+    padding-top: 38px;
+  }
+  h2 {
+    margin: 0;
+    font-family: var(--ff-serif-tc);
+    font-size: var(--fs-h2-section);
+    letter-spacing: 0;
+  }
+  p {
+    max-width: 620px;
+    margin: 10px 0 0;
+    color: var(--ink-meta-2);
+    font-family: var(--ff-serif-tc);
+    line-height: 1.7;
+  }
+  .status-bars {
+    display: grid;
+    align-content: start;
+    gap: 18px;
+  }
+  .status-row {
+    display: grid;
+    grid-template-columns: 190px minmax(0, 1fr) 46px;
+    gap: 16px;
+    align-items: center;
+  }
+  .name {
+    display: grid;
+    gap: 3px;
+    min-width: 0;
+    font-family: var(--ff-sans-tc);
+  }
+  strong {
+    color: var(--ink);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+  }
+  small {
+    color: var(--ink-meta-3);
+    font-size: 12px;
+    line-height: 1.35;
+  }
+  .track {
+    height: 18px;
+    background: var(--bg-elev);
+  }
+  .track span {
+    display: block;
+    height: 100%;
+    background: var(--ink);
+  }
+  .pending .track span {
+    background: var(--zhu);
+  }
+  b {
+    font-family: var(--ff-sans);
+    font-size: 17px;
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+  }
+  @media (max-width: 900px) {
+    .inner {
+      grid-template-columns: 1fr;
+      gap: 28px;
+    }
+  }
+  @media (max-width: 620px) {
+    .status-row {
+      grid-template-columns: 1fr 42px;
+      gap: 10px 12px;
+    }
+    .track {
+      grid-column: 1 / -1;
+      grid-row: 2;
+    }
+    b {
+      align-self: start;
+    }
+  }
+</style>

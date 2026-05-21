@@ -1,6 +1,8 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import DistributionChart from "../components/DistributionChart.astro";
+import PhonologyStatusChart from "../components/PhonologyStatusChart.astro";
+import RecipeStatusChart from "../components/RecipeStatusChart.astro";
 import { getManifest } from "../data/loader";
 import { withBase } from "../utils/path";
 
@@ -49,6 +51,8 @@ const manifest = getManifest();
   </section>
 
   <DistributionChart />
+  <RecipeStatusChart />
+  <PhonologyStatusChart />
 </BaseLayout>
 
 <style>

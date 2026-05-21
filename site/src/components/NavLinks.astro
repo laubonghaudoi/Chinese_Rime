@@ -8,8 +8,7 @@ interface Props {
 const { active = "" } = Astro.props;
 const links = [
   { key: "catalog", label: "方案目錄", href: withBase("/catalog/") },
-  { key: "about", label: "關於", href: withBase("/about/") },
-  { key: "contribute", label: "貢獻", href: withBase("/contribute/") }
+  { key: "about", label: "關於", href: withBase("/about/") }
 ];
 ---
 <nav class="nav" aria-label="主導覽">

@@ -1,7 +1,7 @@
 ---
-import { getManifest, branchSchemaCount } from "../data/loader";
+import { branchSchemaCount, getBranchesByNameInitial } from "../data/loader";
 
-const branches = getManifest().branches;
+const branches = getBranchesByNameInitial();
 ---
 <aside class="toc" aria-label="語系目錄">
   {branches.map((branch) => (
