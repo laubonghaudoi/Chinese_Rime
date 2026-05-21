@@ -19,12 +19,20 @@ def build_decomposer(
     toneless = [spelling for spelling, _ in toneless_pairs]
     initials = _empirical_initials(toneless) | hints.recognized_initials
     initials_sorted = sorted(initials, key=len, reverse=True)
+    recognized_initials = {initial.lower() for initial in hints.recognized_initials}
+    recognized_finals = {final.lower() for final in hints.recognized_finals}
 
     def split(spelling: str) -> tuple[str, str, str | None] | None:
         base, tone = _strip_tone(spelling, hints)
+        matches: list[tuple[int, int, int, str, str]] = []
         for initial in initials_sorted:
-            if initial and base.lower().startswith(initial):
-                return initial, base[len(initial):], tone
+            lower = base.lower()
+            if initial and lower.startswith(initial):
+                final = base[len(initial):]
+                matches.append(_candidate_score(initial, final, recognized_initials, recognized_finals) + (initial, final))
+        if matches:
+            _, _, _, initial, final = max(matches)
+            return initial, final, tone
         if base and base[0] in VOWELS:
             return "", base, tone
         return None
@@ -64,3 +72,17 @@ def _empirical_initials(toneless_spellings: list[str]) -> set[str]:
         for prefix, count in candidates.items()
         if count >= 2 or len(prefix) <= 1
     }
+
+
+def _candidate_score(
+    initial: str,
+    final: str,
+    recognized_initials: set[str],
+    recognized_finals: set[str],
+) -> tuple[int, int, int]:
+    lower_final = final.lower()
+    exact_final = 1 if lower_final in recognized_finals else 0
+    recognized_initial = 1 if initial.lower() in recognized_initials else 0
+    # Prefer a known final and known initial over the longest consonant prefix.
+    # When both sides are known, keep the longer final: j+yu beats jy+u.
+    return (exact_final, recognized_initial, len(final))

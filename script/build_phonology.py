@@ -11,6 +11,7 @@ from typing import Any
 import yaml
 
 from manifest.phonology.compile import compile_phonology, summary_entry
+from manifest.phonology.ipa_classify import load_ipa_dictionary
 from manifest.phonology.resolver import ResolvedSource, resolve_schema_source
 
 
@@ -18,6 +19,7 @@ def main(argv: list[str] | None = None) -> int:
     args = _parse_args(argv)
     manifest = json.loads(args.schemas.read_text(encoding="utf-8"))
     overrides = _read_overrides(args.overrides)
+    ipa_dictionary = load_ipa_dictionary(args.ipa_dictionary)
     repo_root = _infer_repo_root(args.sources_root)
 
     args.summary_out.parent.mkdir(parents=True, exist_ok=True)
@@ -46,6 +48,7 @@ def main(argv: list[str] | None = None) -> int:
             dictionary_name=resolved.dictionary_name,
             repo_root=repo_root,
             overrides=overrides.get(schema_id),
+            ipa_dictionary=ipa_dictionary,
         )
         if record is None:
             summary["skipped"][schema_id] = {"reason": "no_single_char_rows"}
@@ -74,6 +77,7 @@ def _parse_args(argv: list[str] | None) -> argparse.Namespace:
     parser.add_argument("--sources-root", type=Path, default=repo_root / "sources")
     parser.add_argument("--download-root", type=Path, default=repo_root / "download")
     parser.add_argument("--overrides", type=Path, default=repo_root / "script" / "phonology_overrides.yaml")
+    parser.add_argument("--ipa-dictionary", type=Path, default=repo_root / "script" / "phonology_ipa_dictionary.yaml")
     parser.add_argument("--summary-out", type=Path, default=repo_root / "site" / "src" / "data" / "phonology-summary.json")
     parser.add_argument("--assets-out-dir", type=Path, default=repo_root / "site" / "public" / "phonology")
     return parser.parse_args(argv)

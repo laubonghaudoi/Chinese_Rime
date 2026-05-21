@@ -55,6 +55,9 @@ describe("manifest loader", () => {
   it("loads compact phonology summaries without requiring full public assets", () => {
     const summary = getPhonologySummary("jyutping");
     expect(summary?.asset_path).toBe("/phonology/jyutping.json");
+    expect(summary?.grid_status).toBe("ok");
+    expect(summary?.initials_grid?.cells.plosive.bilabial[0].spelling).toBe("b");
+    expect(summary?.finals_grid?.cells["i|"][0].spelling).toBe("i");
     expect(summary?.preview_syllables.length).toBeGreaterThan(0);
     expect(hasPhonology("jyutping")).toBe(true);
     expect(getPhonologySummary("__missing__")).toBeNull();

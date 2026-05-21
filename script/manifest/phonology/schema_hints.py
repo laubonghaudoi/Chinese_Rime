@@ -16,6 +16,10 @@ class SchemaHints:
     recognized_initials: set[str] = field(default_factory=set)
     recognized_finals: set[str] = field(default_factory=set)
     alphabet: str = ""
+    suppress_grids: bool = False
+    initials_ipa: dict[str, dict] = field(default_factory=dict)
+    nuclei_ipa: dict[str, dict] = field(default_factory=dict)
+    finals_ipa: dict[str, dict] = field(default_factory=dict)
 
 
 _INITIAL_ALGEBRA = re.compile(r"^\s*(?:derive|abbrev|fuzz|xform)/\^([a-zA-Z]+)")
@@ -56,16 +60,20 @@ def extract_hints(
 def _apply_overrides(hints: SchemaHints, overrides: dict) -> SchemaHints:
     if "tone_encoding" in overrides:
         hints.tone_encoding = str(overrides["tone_encoding"])
+    if "suppress_grids" in overrides:
+        hints.suppress_grids = bool(overrides["suppress_grids"])
     hints.tone_letters.update(str(value).lower() for value in overrides.get("tone_letters", []))
     hints.recognized_initials.update(str(value).lower() for value in overrides.get("extra_initials", []))
     hints.recognized_finals.update(str(value).lower() for value in overrides.get("extra_finals", []))
+    hints.initials_ipa.update(_normalised_map(overrides.get("initials_ipa")))
+    hints.nuclei_ipa.update(_normalised_map(overrides.get("nuclei_ipa")))
+    hints.finals_ipa.update(_normalised_map(overrides.get("finals_ipa")))
     return hints
 
 
 def _sniff_tone_encoding(alphabet: str, sample_spellings: list[str]) -> str:
-    digits_in_alphabet = any(char.isdigit() for char in alphabet)
     digits_at_end = any(spelling and spelling[-1].isdigit() for spelling in sample_spellings)
-    if digits_at_end and (digits_in_alphabet or alphabet == ""):
+    if digits_at_end:
         return "digits"
     if any(_has_diacritic(spelling) for spelling in sample_spellings):
         return "diacritics"
@@ -74,3 +82,13 @@ def _sniff_tone_encoding(alphabet: str, sample_spellings: list[str]) -> str:
 
 def _has_diacritic(value: str) -> bool:
     return any(unicodedata.combining(char) for char in unicodedata.normalize("NFD", value))
+
+
+def _normalised_map(value: object) -> dict[str, dict]:
+    if not isinstance(value, dict):
+        return {}
+    return {
+        str(key).lower(): entry
+        for key, entry in value.items()
+        if isinstance(entry, dict)
+    }

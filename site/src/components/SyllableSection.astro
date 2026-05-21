@@ -1,6 +1,7 @@
 ---
 import PlaceholderBand from "./PlaceholderBand.astro";
-import PhonologyTable from "./PhonologyTable.astro";
+import ConsonantGrid from "./ConsonantGrid.astro";
+import FinalGrid from "./FinalGrid.astro";
 import SoonBadge from "./SoonBadge.astro";
 import SyllableIndex from "./SyllableIndex.astro";
 import TonesTable from "./TonesTable.astro";
@@ -16,38 +17,41 @@ interface Props {
 }
 
 const { index, title, intro, variant = "panel", data = null } = Astro.props;
+const shouldRender = !(index === "03" && data && data.tones.length === 0);
 const hasData = Boolean(data && (
-  (index === "01" && data.initials.length > 0) ||
-  (index === "02" && data.finals.length > 0) ||
+  (index === "01" && data.grid_status === "ok" && data.initials_grid) ||
+  (index === "02" && data.grid_status === "ok" && data.finals_grid) ||
   (index === "03" && data.tones.length > 0) ||
   (index === "04" && data.preview_syllables.length > 0)
 ));
 const sectionIntro = hasData ? intro : `本方案的${title}尚待自動解析或人工補充。`;
 ---
-<section class:list={["syl", `bg-${variant}`]}>
-  <span class="label">音系資料 · {index}</span>
-  <div class="head">
-    <h2>{title}</h2>
-    {!hasData && <SoonBadge />}
-  </div>
-  <p>{sectionIntro}</p>
-  {hasData && data ? (
-    <>
-      {index === "01" && <PhonologyTable caption={title} rows={data.initials} filterMode="prefix" />}
-      {index === "02" && <PhonologyTable caption={title} rows={data.finals} filterMode="contains" />}
-      {index === "03" && <TonesTable tones={data.tones} />}
-      {index === "04" && (
-        <SyllableIndex
-          entries={data.preview_syllables}
-          fetchUrl={withBase(data.asset_path)}
-          total={data.stats.total_chars}
-        />
-      )}
-    </>
-  ) : (
-    <PlaceholderBand variant={variant} />
-  )}
-</section>
+{shouldRender && (
+  <section class:list={["syl", `bg-${variant}`]}>
+    <span class="label">音系資料 · {index}</span>
+    <div class="head">
+      <h2>{title}</h2>
+      {!hasData && <SoonBadge />}
+    </div>
+    <p>{sectionIntro}</p>
+    {hasData && data ? (
+      <>
+        {index === "01" && data.initials_grid && <ConsonantGrid grid={data.initials_grid} />}
+        {index === "02" && data.finals_grid && <FinalGrid grid={data.finals_grid} />}
+        {index === "03" && <TonesTable tones={data.tones} />}
+        {index === "04" && (
+          <SyllableIndex
+            entries={data.preview_syllables}
+            fetchUrl={withBase(data.asset_path)}
+            total={data.stats.total_chars}
+          />
+        )}
+      </>
+    ) : (
+      <PlaceholderBand variant={variant} />
+    )}
+  </section>
+)}
 
 <style>
   .syl {

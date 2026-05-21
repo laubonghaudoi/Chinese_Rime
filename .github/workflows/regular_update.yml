@@ -78,6 +78,7 @@ jobs:
             --sources-root ../sources \
             --download-root ../download \
             --overrides phonology_overrides.yaml \
+            --ipa-dictionary phonology_ipa_dictionary.yaml \
             --summary-out ../site/src/data/phonology-summary.json \
             --assets-out-dir ../site/public/phonology
           cd ../

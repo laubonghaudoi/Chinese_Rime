@@ -73,6 +73,60 @@ export interface PhonologyStats {
   total_syllables: number;
   single_char_rows: number;
   undecomposable_syllables: number;
+  initial_grid_coverage?: PhonologyCoverage;
+  final_grid_coverage?: PhonologyCoverage;
+}
+
+export interface PhonologyCoverage {
+  categorised: number;
+  total: number;
+  ratio: number;
+}
+
+export interface PhonologyGridEntry {
+  spelling: string;
+  ipa: string;
+  examples: string[];
+  syllable_count: number;
+  char_count: number;
+}
+
+export interface PhonologyUncategorisedEntry {
+  spelling: string;
+  examples: string[];
+  syllable_count: number;
+  char_count: number;
+}
+
+export interface PhonologyInitialGrid {
+  rows: string[];
+  cols: string[];
+  row_labels: Record<string, string>;
+  col_labels: Record<string, string>;
+  cells: Record<string, Record<string, PhonologyGridEntry[]>>;
+  uncategorised: PhonologyUncategorisedEntry[];
+  coverage: PhonologyCoverage;
+}
+
+export interface PhonologyFinalGridColumn {
+  suffix: string;
+  label: string;
+  ipa: string;
+}
+
+export interface PhonologyFinalGridRow {
+  key: string;
+  nucleus: string;
+  label: string;
+  ipa: string;
+}
+
+export interface PhonologyFinalGrid {
+  rows: PhonologyFinalGridRow[];
+  cols: PhonologyFinalGridColumn[];
+  cells: Record<string, PhonologyGridEntry[]>;
+  uncategorised: PhonologyUncategorisedEntry[];
+  coverage: PhonologyCoverage;
 }
 
 export interface PhonologySummaryEntry {
@@ -86,6 +140,9 @@ export interface PhonologySummaryEntry {
   preview_syllables: PhonologySyllable[];
   stats: PhonologyStats;
   status: "ok" | "partial";
+  grid_status: "ok" | "no_grids";
+  initials_grid?: PhonologyInitialGrid;
+  finals_grid?: PhonologyFinalGrid;
 }
 
 export interface PhonologySummary {

@@ -36,6 +36,21 @@ def test_decomposer_handles_two_char_initial_from_hints():
     assert split("gwong1") == ("gw", "ong", "1")
 
 
+def test_decomposer_prefers_jyutping_nucleus_over_overlong_initial():
+    hints = SchemaHints(
+        tone_encoding="digits",
+        recognized_initials={"s", "c", "j", "jyu", "k", "gw"},
+        recognized_finals={"yu", "ong"},
+    )
+    split = build_decomposer(["syu1", "cyu1", "jyu1", "kyu1", "gwong1"], hints)
+
+    assert split("syu1") == ("s", "yu", "1")
+    assert split("cyu1") == ("c", "yu", "1")
+    assert split("jyu1") == ("j", "yu", "1")
+    assert split("kyu1") == ("k", "yu", "1")
+    assert split("gwong1") == ("gw", "ong", "1")
+
+
 def test_decomposer_handles_null_initial():
     split = build_decomposer(["aa1", "a3", "oi2"], SchemaHints(tone_encoding="digits"))
 
