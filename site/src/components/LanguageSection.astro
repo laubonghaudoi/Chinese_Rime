@@ -1,0 +1,87 @@
+---
+import type { Branch } from "../data/types";
+import { branchRecipeCount, branchSchemaCount } from "../data/loader";
+import DialectGroup from "./DialectGroup.astro";
+import SchemaBadge from "./SchemaBadge.astro";
+
+interface Props {
+  branch: Branch;
+}
+
+const { branch } = Astro.props;
+const schemaCount = branchSchemaCount(branch);
+const recipeCount = branchRecipeCount(branch);
+const isMissing = branch.status === "missing";
+const iso = branch.iso_639_3 || "—";
+---
+<section class="language" id={branch.key} data-language-section data-empty={isMissing ? "true" : "false"}>
+  <div class="head">
+    <h2><code>{iso}</code>{branch.name}</h2>
+    <div class="count">
+      {isMissing ? <SchemaBadge variant="empty" /> : `${schemaCount} 個方案 · ${recipeCount} 個配方`}
+    </div>
+  </div>
+  {isMissing ? (
+    <p class="missing">尚待收錄。若已有相關中州韻輸入方案，歡迎提交倉庫或開 issue 補充。</p>
+  ) : (
+    branch.dialects.map((dialect) => <DialectGroup branchKey={branch.key} dialect={dialect} />)
+  )}
+</section>
+
+<style>
+  .language {
+    scroll-margin-top: 96px;
+    padding: 26px 0 12px;
+  }
+  .head {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 18px;
+    align-items: end;
+    padding-bottom: 9px;
+    border-bottom: 2px solid var(--ink);
+  }
+  h2 {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin: 0;
+    font-family: var(--ff-serif-tc);
+    font-size: var(--fs-h2);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0;
+  }
+  code {
+    color: var(--zhu);
+    font-family: var(--ff-mono);
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .count {
+    color: var(--ink-meta-2);
+    font-family: var(--ff-sans-tc);
+    font-size: 12.5px;
+    white-space: nowrap;
+  }
+  .missing {
+    margin: 18px 0 0;
+    padding: 18px;
+    background: var(--bg-stripe);
+    color: var(--ink-meta-2);
+    font-family: var(--ff-serif-tc);
+    font-style: italic;
+  }
+  [hidden] {
+    display: none;
+  }
+  @media (max-width: 700px) {
+    .head {
+      grid-template-columns: 1fr;
+      align-items: start;
+    }
+    .count {
+      white-space: normal;
+    }
+  }
+</style>

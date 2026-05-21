@@ -1,0 +1,80 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import FilterChips from "../components/FilterChips.astro";
+import LanguageSection from "../components/LanguageSection.astro";
+import SidebarTOC from "../components/SidebarTOC.astro";
+import { getManifest } from "../data/loader";
+
+const manifest = getManifest();
+---
+<BaseLayout title="方案目錄 · 中州韻輸入法非普通話漢語拼音方案全集" active="catalog">
+  <header class="page-head">
+    <span>收錄總覽</span>
+    <h1>方案目錄</h1>
+    <p>本目錄按 ISO 639-3 標準將漢語族分為多支，並收錄上古、中古漢語與域外方音。每一語系下依方言分組，方言下列出各方案、配方與下載包。</p>
+    <p class="summary">
+      共收錄 <b>{manifest.stats.schema_count}</b> 個方案、<b>{manifest.stats.recipe_count}</b> 個配方、<b>{manifest.stats.download_package_count}</b> 個下載包，涵蓋 <b>{manifest.stats.active_branch_count}</b> 個語系，仍待收錄 <b>{manifest.stats.missing_branch_count}</b> 支。
+    </p>
+  </header>
+  <FilterChips />
+  <div class="catalog">
+    <div class="tree">
+      {manifest.branches.map((branch) => <LanguageSection branch={branch} />)}
+    </div>
+    <SidebarTOC />
+  </div>
+</BaseLayout>
+
+<style>
+  .page-head {
+    padding: 42px var(--sp-section-x) 24px;
+    background: var(--bg-panel);
+  }
+  .page-head > span {
+    display: block;
+    margin-bottom: 6px;
+    color: var(--ink-meta-3);
+    font-family: var(--ff-sans-tc);
+    font-size: var(--fs-label);
+    letter-spacing: var(--ls-label);
+  }
+  h1 {
+    margin: 0 0 12px;
+    font-family: var(--ff-serif-tc);
+    font-size: var(--fs-h1-page);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: 0;
+  }
+  p {
+    max-width: 800px;
+    margin: 0 0 18px;
+    color: var(--ink-meta-2);
+    font-family: var(--ff-serif-tc);
+    font-size: 16px;
+    line-height: 1.75;
+  }
+  .summary {
+    margin-bottom: 0;
+    font-family: var(--ff-sans-tc);
+    font-size: 13px;
+    letter-spacing: 0.04em;
+  }
+  .summary b {
+    color: var(--ink);
+    font-family: var(--ff-sans);
+    font-variant-numeric: tabular-nums;
+  }
+  .catalog {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 220px;
+    gap: 48px;
+    padding: 22px var(--sp-section-x) 60px;
+    background: var(--bg-panel);
+  }
+  @media (max-width: 1024px) {
+    .catalog {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

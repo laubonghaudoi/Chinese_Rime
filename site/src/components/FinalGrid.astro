@@ -1,0 +1,145 @@
+---
+import type { PhonologyFinalGrid } from "../data/types";
+
+interface Props {
+  grid: PhonologyFinalGrid;
+}
+
+const { grid } = Astro.props;
+---
+<div class="table-wrap">
+  <table aria-label="韻母表">
+    <thead>
+      <tr>
+        <th class="nucleus" scope="col">韻腹</th>
+        {grid.cols.map((col) => <th scope="col">{col.label}</th>)}
+      </tr>
+    </thead>
+    <tbody>
+      {grid.rows.map((row) => (
+        <tr>
+          <th scope="row">
+            <code>{row.label}</code>
+            <span>[{row.ipa}]</span>
+          </th>
+          {grid.cols.map((col) => {
+            const entries = grid.cells[`${row.key}|${col.suffix}`] ?? [];
+            return (
+              <td>
+                {entries.map((entry) => (
+                  <button class="entry" type="button" data-syllable-filter={entry.spelling}>
+                    <code>{entry.spelling}</code>
+                    <span class="ipa">[{entry.ipa}]</span>
+                    <span class="examples">{entry.examples.slice(0, 1).join("")}</span>
+                  </button>
+                ))}
+              </td>
+            );
+          })}
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+{grid.uncategorised.length > 0 && (
+  <p class="uncat">未分類韻母：{grid.uncategorised.map((entry) => entry.spelling || "ø").join("、")}</p>
+)}
+
+<style>
+  .table-wrap {
+    overflow-x: auto;
+    border-top: 2px solid var(--ink);
+  }
+  table {
+    width: 100%;
+    min-width: 860px;
+    border-collapse: collapse;
+    font-family: var(--ff-sans-tc);
+    font-size: 14px;
+  }
+  th,
+  td {
+    padding: 9px 8px;
+    border: 1px solid rgba(10, 10, 10, 0.16);
+    text-align: left;
+    vertical-align: top;
+  }
+  thead th,
+  tbody th {
+    background: var(--bg-elev);
+    color: var(--ink-meta-2);
+    font-weight: 700;
+  }
+  thead th {
+    text-align: center;
+  }
+  tbody th {
+    white-space: nowrap;
+  }
+  tbody th code {
+    display: block;
+    margin-bottom: 2px;
+    color: var(--ink);
+  }
+  tbody th span {
+    font-family: var(--ff-sans);
+    font-style: italic;
+    font-weight: 400;
+  }
+  .nucleus {
+    width: 76px;
+  }
+  td {
+    min-width: 82px;
+    background: var(--bg-panel);
+  }
+  .entry {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px;
+    width: 100%;
+    margin: 0 0 6px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--ink);
+    text-align: left;
+    cursor: pointer;
+  }
+  .entry:last-child {
+    margin-bottom: 0;
+  }
+  code {
+    color: var(--zhu);
+    font-family: var(--ff-mono);
+    font-size: 13px;
+    letter-spacing: 0;
+  }
+  .ipa {
+    color: var(--ink-meta-2);
+    font-family: var(--ff-sans);
+    font-style: italic;
+  }
+  .examples {
+    font-family: var(--ff-serif-tc);
+    font-size: 15px;
+  }
+  .uncat {
+    margin: 10px 0 0;
+    color: var(--ink-meta-3);
+    font-family: var(--ff-sans-tc);
+    font-size: 12px;
+    line-height: 1.6;
+  }
+  @media (max-width: 680px) {
+    table {
+      min-width: 760px;
+      font-size: 13px;
+    }
+    th,
+    td {
+      padding: 8px 7px;
+    }
+  }
+</style>

@@ -1,0 +1,43 @@
+---
+interface Props {
+  variant: "recipe" | "downloadable" | "phonology" | "empty";
+}
+
+const { variant } = Astro.props;
+const label = {
+  recipe: "℞ 配方",
+  downloadable: "可下載",
+  phonology: "音系",
+  empty: "暫缺"
+}[variant];
+---
+<span class:list={["badge", variant]}>{label}</span>
+
+<style>
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    min-height: 22px;
+    padding: 2px 8px;
+    font-family: var(--ff-sans-tc);
+    font-size: 11px;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+  .recipe {
+    background: var(--zhu-tint);
+    color: var(--zhu);
+  }
+  .downloadable {
+    background: var(--ink);
+    color: #fff;
+  }
+  .phonology {
+    border: 1px solid var(--zhu);
+    color: var(--zhu);
+  }
+  .empty {
+    background: var(--bg-stripe);
+    color: var(--ink);
+  }
+</style>

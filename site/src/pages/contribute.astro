@@ -1,0 +1,16 @@
+---
+import ProseLayout from "../layouts/ProseLayout.astro";
+---
+<ProseLayout title="貢獻" active="contribute" kicker="加入收錄" heading="貢獻新方案">
+  <p>新增方案時，請同時考慮上游來源、下載包、目錄資料與 README 記錄。站點的 catalog 會由 manifest 自動更新。</p>
+  <h2>基本流程</h2>
+  <ol>
+    <li>確認語言分類、方案名稱、上游倉庫、預設分支與實際 <code>schema_id</code>。</li>
+    <li>以 submodule 收錄上游配方至 <code>sources/&lt;分類&gt;/&lt;方案名稱&gt;</code>。</li>
+    <li>將需要發佈的檔案列入 <code>script/source_info.yaml</code> 對應下載包。</li>
+    <li>更新 <code>script/manifest_overrides.yaml</code> 的語系、方言、配方與 orphan 資料。</li>
+    <li>重新產生 <code>site/src/data/schemas.json</code> 並執行測試。</li>
+  </ol>
+  <h2>聯絡</h2>
+  <p>如有疑問可在 GitHub 開 issue，或依 README 提供的方式聯絡維護者。</p>
+</ProseLayout>

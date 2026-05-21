@@ -1,0 +1,9 @@
+schema:
+  schema_id: sample_tabs
+  name: 含 Tab 樣本
+speller:
+  alphabet: "abcdefghijklmnopqrstuvwxyz"
+  algebra:
+    - derive/^z/dz/	# upstream files sometimes align comments with tabs
+translator:
+  dictionary: sample_tabs

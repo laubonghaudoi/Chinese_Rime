@@ -1,0 +1,85 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+
+interface Props {
+  title: string;
+  kicker: string;
+  heading: string;
+  active: string;
+}
+
+const { kicker, heading, active } = Astro.props;
+---
+<BaseLayout title={`${heading} · 中州韻輸入法非普通話漢語拼音方案全集`} active={active}>
+  <article class="prose">
+    <span>{kicker}</span>
+    <h1>{heading}</h1>
+    <slot />
+  </article>
+</BaseLayout>
+
+<style>
+  .prose {
+    padding: 42px var(--sp-section-x) 64px;
+    background: var(--bg-panel);
+  }
+  span {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--ink-meta-3);
+    font-family: var(--ff-sans-tc);
+    font-size: var(--fs-label);
+    letter-spacing: var(--ls-label);
+  }
+  h1 {
+    margin: 0 0 24px;
+    font-family: var(--ff-serif-tc);
+    font-size: var(--fs-h1-page);
+    line-height: 1.05;
+    letter-spacing: 0;
+  }
+  :global(.prose h2) {
+    margin: 34px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--ink);
+    font-family: var(--ff-serif-tc);
+    font-size: var(--fs-h2-section);
+    letter-spacing: 0;
+  }
+  :global(.prose p),
+  :global(.prose li) {
+    max-width: 820px;
+    color: var(--ink-soft);
+    font-family: var(--ff-serif-tc);
+    font-size: 16px;
+    line-height: 1.85;
+  }
+  :global(.prose ul),
+  :global(.prose ol) {
+    padding-left: 1.4em;
+  }
+  :global(.prose a) {
+    text-decoration-color: var(--zhu);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+  }
+  :global(.prose code) {
+    color: var(--zhu);
+    font-family: var(--ff-mono);
+    font-size: 0.92em;
+  }
+  :global(.prose table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 18px;
+    font-family: var(--ff-sans-tc);
+    font-size: 13px;
+  }
+  :global(.prose th),
+  :global(.prose td) {
+    padding: 10px 12px 10px 0;
+    border-bottom: 2px solid var(--ink);
+    text-align: left;
+    vertical-align: top;
+  }
+</style>

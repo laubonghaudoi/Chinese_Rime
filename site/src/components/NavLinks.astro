@@ -1,0 +1,51 @@
+---
+import { withBase } from "../utils/path";
+
+interface Props {
+  active?: string;
+}
+
+const { active = "" } = Astro.props;
+const links = [
+  { key: "catalog", label: "方案目錄", href: withBase("/catalog/") },
+  { key: "about", label: "關於", href: withBase("/about/") },
+  { key: "contribute", label: "貢獻", href: withBase("/contribute/") }
+];
+---
+<nav class="nav" aria-label="主導覽">
+  {links.map((link) => (
+    <a class:list={[{ active: link.key === active }]} href={link.href}>{link.label}</a>
+  ))}
+</nav>
+
+<style>
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    flex-wrap: wrap;
+  }
+  a {
+    font-family: var(--ff-sans-tc);
+    font-size: var(--fs-nav);
+    font-weight: 500;
+    text-decoration: none;
+    padding: 20px 0 17px;
+    border-bottom: 3px solid transparent;
+    letter-spacing: 0.08em;
+  }
+  a:hover,
+  a.active {
+    border-bottom-color: var(--zhu);
+  }
+  @media (max-width: 760px) {
+    .nav {
+      gap: 14px;
+      width: 100%;
+    }
+    a {
+      padding: 4px 0 8px;
+      font-size: 13px;
+    }
+  }
+</style>

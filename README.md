@@ -4,6 +4,8 @@
 ![contributions welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen?style=for-the-badge&logo=contributions)
 ![licence](https://img.shields.io/badge/License-CC--BY--4.0-orange?style=for-the-badge&logo=contributions)
 
+> 🌐 線上瀏覽：<https://laubonghaudoi.github.io/Chinese_Rime/>
+
 <h2>項目宗旨
 <br/>The mission of this project</h2>
 

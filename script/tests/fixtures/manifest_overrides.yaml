@@ -1,0 +1,28 @@
+# Branch-level metadata (ISO 639-3, display name, intro, dialect listing).
+branches:
+  yue:
+    name: 粵語
+    intro: 粵語區的拼音輸入方案，以廣州話為主。
+    dialects: ["廣州話"]
+  wuu:
+    name: 吳語
+    intro: 吳語區拼音輸入方案。
+    dialects: ["蘇州話"]
+# Dialect/branch assignment for each schema_id discovered under sources/.
+schema_assignments:
+  jyutping:
+    branch: yue
+    dialect: 廣州話
+    recipe: rime/rime-jyutping
+    upstream_url: https://github.com/rime/rime-jyutping
+    license: CC BY 4.0
+    last_commit_at: "2025-11-30T08:14:00Z"
+  wugniu_soutseu:
+    branch: wuu
+    dialect: 蘇州話
+    recipe: wugniu/wugniu
+    upstream_url: https://github.com/wugniu/wugniu
+    license: CC BY-SA 4.0
+    last_commit_at: "2025-10-12T11:05:00Z"
+# Orphan schemas — listed in README but absent from sources/. Optional in fixtures.
+orphans: {}

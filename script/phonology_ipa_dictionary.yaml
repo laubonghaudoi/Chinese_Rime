@@ -1,0 +1,147 @@
+# Broad IPA classifications used to render generated phonology inventories as
+# IPA-style grids. Scheme-specific corrections belong in phonology_overrides.yaml.
+
+places:
+  bilabial: 雙脣音
+  labiodental: 脣齒音
+  dental: 齒間音
+  alveolar: 齒齦音
+  postalveolar: 齒齦後音
+  retroflex: 捲舌音
+  palatal: 硬腭音
+  velar: 軟腭音
+  uvular: 小舌音
+  glottal: 喉音
+  other: 其他
+
+manners:
+  plosive: 爆發音
+  affricate: 塞擦音
+  nasal: 鼻音
+  fricative: 擦音
+  approximant: 近音
+  lateral: 邊近音
+  trill: 顫音
+  lateral_fricative: 邊擦音
+  other: 其他
+
+initials_default:
+  bb: { ipa: "b", place: bilabial, manner: plosive }
+  b: { ipa: "p", place: bilabial, manner: plosive }
+  bh: { ipa: "b", place: bilabial, manner: plosive }
+  p: { ipa: "pʰ", place: bilabial, manner: plosive }
+  ph: { ipa: "pʰ", place: bilabial, manner: plosive }
+  m: { ipa: "m", place: bilabial, manner: nasal }
+  f: { ipa: "f", place: labiodental, manner: fricative }
+  v: { ipa: "v", place: labiodental, manner: fricative }
+  dd: { ipa: "d", place: alveolar, manner: plosive }
+  d: { ipa: "t", place: alveolar, manner: plosive }
+  dh: { ipa: "d", place: alveolar, manner: plosive }
+  t: { ipa: "tʰ", place: alveolar, manner: plosive }
+  th: { ipa: "tʰ", place: alveolar, manner: plosive }
+  n: { ipa: "n", place: alveolar, manner: nasal }
+  l: { ipa: "l", place: alveolar, manner: lateral }
+  s: { ipa: "s", place: alveolar, manner: fricative }
+  z: { ipa: "ts", place: alveolar, manner: affricate }
+  c: { ipa: "tsʰ", place: alveolar, manner: affricate }
+  tc: { ipa: "ts", place: alveolar, manner: affricate }
+  tch: { ipa: "tsʰ", place: alveolar, manner: affricate }
+  ts: { ipa: "ts", place: alveolar, manner: affricate }
+  tsh: { ipa: "tsʰ", place: alveolar, manner: affricate }
+  zz: { ipa: "dz", place: alveolar, manner: affricate }
+  dz: { ipa: "dz", place: alveolar, manner: affricate }
+  jj: { ipa: "dʑ", place: palatal, manner: affricate }
+  j: { ipa: "j", place: palatal, manner: approximant }
+  i: { ipa: "j", place: palatal, manner: approximant }
+  y: { ipa: "j", place: palatal, manner: approximant }
+  ny: { ipa: "ɲ", place: palatal, manner: nasal }
+  gn: { ipa: "ɲ", place: palatal, manner: nasal }
+  nj: { ipa: "ɲ", place: palatal, manner: nasal }
+  q: { ipa: "tɕʰ", place: palatal, manner: affricate }
+  x: { ipa: "ɕ", place: palatal, manner: fricative }
+  gg: { ipa: "ɡ", place: velar, manner: plosive }
+  g: { ipa: "k", place: velar, manner: plosive }
+  gh: { ipa: "ɡ", place: velar, manner: plosive }
+  k: { ipa: "kʰ", place: velar, manner: plosive }
+  kh: { ipa: "kʰ", place: velar, manner: plosive }
+  ng: { ipa: "ŋ", place: velar, manner: nasal }
+  h: { ipa: "h", place: glottal, manner: fricative }
+  w: { ipa: "w", place: velar, manner: approximant }
+  u: { ipa: "w", place: velar, manner: approximant }
+  gw: { ipa: "kʷ", place: velar, manner: plosive }
+  kw: { ipa: "kʷʰ", place: velar, manner: plosive }
+  zh: { ipa: "tʂ", place: retroflex, manner: affricate }
+  ch: { ipa: "tʂʰ", place: retroflex, manner: affricate }
+  sh: { ipa: "ʂ", place: retroflex, manner: fricative }
+  r: { ipa: "ɻ", place: retroflex, manner: approximant }
+  tr: { ipa: "ʈ", place: retroflex, manner: plosive }
+  trh: { ipa: "ʈʰ", place: retroflex, manner: plosive }
+  dr: { ipa: "ɖ", place: retroflex, manner: plosive }
+  o: { ipa: "ʔ", place: glottal, manner: plosive }
+
+nuclei_default:
+  ia: { ipa: "ia", label: "ia" }
+  ie: { ipa: "iɛ", label: "ie" }
+  io: { ipa: "io", label: "io" }
+  iu: { ipa: "iu", label: "iu" }
+  ua: { ipa: "ua", label: "ua" }
+  ue: { ipa: "ue", label: "ue" }
+  uo: { ipa: "uo", label: "uo" }
+  i: { ipa: "iː", label: "i" }
+  y: { ipa: "y", label: "y" }
+  yu: { ipa: "yː", label: "yu" }
+  u: { ipa: "uː", label: "u" }
+  ii: { ipa: "ɿ", label: "ii" }
+  ee: { ipa: "e", label: "ee" }
+  e: { ipa: "ɛː", label: "e" }
+  eo: { ipa: "ɵ", label: "eo" }
+  oe: { ipa: "œː", label: "oe" }
+  eu: { ipa: "eu", label: "eu" }
+  oo: { ipa: "ɔ", label: "oo" }
+  o: { ipa: "ɔː", label: "o" }
+  a: { ipa: "ɐ", label: "a" }
+  aa: { ipa: "aː", label: "aa" }
+  ae: { ipa: "æ", label: "ae" }
+  ai: { ipa: "ai", label: "ai" }
+  au: { ipa: "au", label: "au" }
+  ao: { ipa: "au", label: "ao" }
+  ui: { ipa: "ui", label: "ui" }
+  v: { ipa: "y", label: "v" }
+  er: { ipa: "ɚ", label: "er" }
+  ir: { ipa: "ɿ", label: "ir" }
+  m: { ipa: "m̩", label: "m" }
+  ng: { ipa: "ŋ̩", label: "ng" }
+
+codas:
+  - { suffix: "", label: "-", ipa: "" }
+  - { suffix: "nn", label: "-ⁿ", ipa: "̃" }
+  - { suffix: "ⁿ", label: "-ⁿ", ipa: "̃" }
+  - { suffix: "i", label: "-i", ipa: "i̯" }
+  - { suffix: "u", label: "-u", ipa: "u̯" }
+  - { suffix: "m", label: "-m", ipa: "m" }
+  - { suffix: "n", label: "-n", ipa: "n" }
+  - { suffix: "ng", label: "-ng", ipa: "ŋ" }
+  - { suffix: "p", label: "-p", ipa: "p̚" }
+  - { suffix: "b", label: "-p", ipa: "p̚" }
+  - { suffix: "t", label: "-t", ipa: "t̚" }
+  - { suffix: "d", label: "-t", ipa: "t̚" }
+  - { suffix: "k", label: "-k", ipa: "k̚" }
+  - { suffix: "g", label: "-k", ipa: "k̚" }
+  - { suffix: "h", label: "-ʔ", ipa: "ʔ" }
+  - { suffix: "q", label: "-ʔ", ipa: "ʔ" }
+  - { suffix: "c", label: "-c", ipa: "" }
+  - { suffix: "f", label: "-f", ipa: "f" }
+  - { suffix: "j", label: "-j", ipa: "i̯" }
+  - { suffix: "l", label: "-l", ipa: "l" }
+  - { suffix: "r", label: "-r", ipa: "ɻ" }
+  - { suffix: "s", label: "-s", ipa: "" }
+  - { suffix: "v", label: "-v", ipa: "" }
+  - { suffix: "w", label: "-w", ipa: "u̯" }
+  - { suffix: "x", label: "-x", ipa: "" }
+  - { suffix: "y", label: "-y", ipa: "i̯" }
+
+finals_default:
+  ing: { nucleus: i, nucleus_ipa: "e", coda: ng, ipa: "eŋ" }
+  ik: { nucleus: i, nucleus_ipa: "e", coda: k, ipa: "ek̚" }
+  ung: { nucleus: u, nucleus_ipa: "o", coda: ng, ipa: "oŋ" }
+  uk: { nucleus: u, nucleus_ipa: "o", coda: k, ipa: "ok̚" }

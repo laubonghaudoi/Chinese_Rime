@@ -1,0 +1,73 @@
+---
+import type { PhonologyTone } from "../data/types";
+
+interface Props {
+  tones: PhonologyTone[];
+}
+
+const { tones } = Astro.props;
+---
+<div class="table-wrap">
+  <table aria-label="聲調">
+    <thead>
+      <tr><th>聲調</th><th>例字</th><th>音節</th><th>字數</th></tr>
+    </thead>
+    <tbody>
+      {tones.map((tone) => (
+        <tr>
+          <th scope="row">
+            <button type="button" data-syllable-filter={tone.value}>
+              <code>{tone.value}</code>
+            </button>
+          </th>
+          <td>{tone.example_chars.join("　")}</td>
+          <td class="num">{tone.syllable_count}</td>
+          <td class="num">{tone.char_count}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+
+<style>
+  .table-wrap {
+    overflow-x: auto;
+    border-top: 2px solid var(--ink);
+  }
+  table {
+    width: 100%;
+    min-width: 520px;
+    border-collapse: collapse;
+    font-family: var(--ff-sans-tc);
+    font-size: 14px;
+  }
+  th,
+  td {
+    padding: 9px 12px;
+    border-bottom: 1px solid rgba(10, 10, 10, 0.16);
+    text-align: left;
+  }
+  thead th {
+    background: var(--bg-elev);
+    color: var(--ink-meta-2);
+    font-size: 12px;
+    letter-spacing: 0.14em;
+  }
+  button {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--zhu);
+    cursor: pointer;
+  }
+  code {
+    font-family: var(--ff-mono);
+    font-size: 13.5px;
+  }
+  .num {
+    color: var(--ink-meta-2);
+    font-family: var(--ff-sans);
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+  }
+</style>

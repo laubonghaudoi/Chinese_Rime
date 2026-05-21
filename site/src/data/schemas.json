@@ -1,0 +1,4258 @@
+{
+  "generated_at": "2026-05-21T01:38:24+00:00",
+  "stats": {
+    "schema_count": 174,
+    "recipe_count": 60,
+    "download_package_count": 70,
+    "branch_count": 21,
+    "active_branch_count": 15,
+    "missing_branch_count": 6
+  },
+  "branches": [
+    {
+      "key": "och",
+      "name": "上古漢語",
+      "iso_639_3": "och",
+      "intro": "上古漢語的拼音方案多基於各家擬音系統，並非實際口語的拼寫。",
+      "status": "synthetic",
+      "dialects": [
+        {
+          "name": "上古漢語",
+          "schemas": [
+            "OC_baxter-sagart",
+            "OC_baxter1992",
+            "OC_jinlixin",
+            "OC_lifanggui",
+            "OC_msoeg",
+            "OC_msoegDK",
+            "OC_nulll",
+            "OC_schuesslerOC",
+            "OC_starostinLO",
+            "OC_starostinTK",
+            "OC_wangli",
+            "OC_zhengzhang",
+            "OC_zhoufagao",
+            "dkzp",
+            "OC_schuesslerLHC"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ltc",
+      "name": "中古漢語",
+      "iso_639_3": "ltc",
+      "intro": "中古漢語的擬音方案。",
+      "status": "synthetic",
+      "dialects": [
+        {
+          "name": "中古漢語",
+          "schemas": [
+            "deuqguv4",
+            "triungkoxsampheng",
+            "zyenpheng",
+            "tupa",
+            "tupa_unspaced",
+            "dangrvond",
+            "guangtong",
+            "kmg",
+            "nieh_ched",
+            "njerchet",
+            "toongcuu",
+            "dghp",
+            "kuankhiunn",
+            "middle_chinese_lookup"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cmn",
+      "name": "官話",
+      "iso_639_3": "cmn",
+      "intro": "官話下分中原、江淮、西南等支。",
+      "status": "active",
+      "dialects": [
+        {
+          "name": "中原官話",
+          "schemas": [
+            "lakyang",
+            "lakyang_chuim",
+            "zhung",
+            "zhung_42",
+            "zhung_combo",
+            "zhung_combo_transcript",
+            "zhung_stenotype",
+            "zhung_transcript",
+            "yihdjoouhuah",
+            "yihjoouhuah_romatzyh"
+          ]
+        },
+        {
+          "name": "江淮官話",
+          "schemas": [
+            "langjin",
+            "ntw",
+            "taerv",
+            "huaipinquiizi",
+            "huaipinsuangzi"
+          ]
+        },
+        {
+          "name": "西南官話",
+          "schemas": [
+            "huanggang",
+            "huanggangxiangzhen",
+            "ngocen",
+            "wuhan",
+            "yunciu",
+            "shupin_cendu",
+            "shupin_cendu_9key",
+            "shupin_congqin",
+            "shupin_guiyang",
+            "shupin_libin",
+            "shupin_tongyin",
+            "shupin_zigong"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cjy",
+      "name": "晉語",
+      "iso_639_3": "cjy",
+      "intro": "晉語。",
+      "status": "active",
+      "dialects": [
+        {
+          "name": "晉語",
+          "schemas": [
+            "jieny",
+            "fengyo",
+            "easy_en",
+            "haitrou"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "wuu",
+      "name": "吳語",
+      "iso_639_3": "wuu",
+      "intro": "吳語各方言拼音方案。",
+      "status": "active",
+      "dialects": [
+        {
+          "name": "上海話",
+          "schemas": [
+            "wugniu",
+            "wugniu_lopha",
+            "yahwe_zaonhe",
+            "wugniu_zaonhe",
+            "wugniu_zaonhe_laupha",
+            "shanghe_xhipin",
+            "zanghe_wrunri",
+            "zaonhe_faqwu",
+            "zonhe_nrss"
+          ]
+        },
+        {
+          "name": "蘇州話",
+          "schemas": [
+            "wugniu_soutseu",
+            "soutzoe"
+          ]
+        },
+        {
+          "name": "寧波話",
+          "schemas": [
+            "wugniu_gnincieu",
+            "wugniu_gninpou"
+          ]
+        },
+        {
+          "name": "杭州話",
+          "schemas": [
+            "hangtseinese"
+          ]
+        },
+        {
+          "name": "嘉興話",
+          "schemas": [
+            "wugniu_kashin"
+          ]
+        },
+        {
+          "name": "嘉善話",
+          "schemas": [
+            "wugniu_kazoe"
+          ]
+        },
+        {
+          "name": "桐鄉話",
+          "schemas": [
+            "wugniu_donshian"
+          ]
+        },
+        {
+          "name": "海寧話",
+          "schemas": [
+            "wugniu_haegnin"
+          ]
+        },
+        {
+          "name": "海鹽話",
+          "schemas": [
+            "wugniu_haeye"
+          ]
+        },
+        {
+          "name": "松江話",
+          "schemas": [
+            "wugniu_sonkaon"
+          ]
+        },
+        {
+          "name": "樂清話",
+          "schemas": [
+            "ay_ncld",
+            "ay_ncls"
+          ]
+        },
+        {
+          "name": "永嘉話",
+          "schemas": [
+            "wugniu_ionko"
+          ]
+        },
+        {
+          "name": "溫州話",
+          "schemas": [
+            "wenzhounese",
+            "iuciou"
+          ]
+        },
+        {
+          "name": "標準吳語",
+          "schemas": [
+            "nguphing",
+            "pcngng"
+          ]
+        },
+        {
+          "name": "其他方案",
+          "schemas": [
+            "nguphin-yaehwei",
+            "nguphing-hiunduk",
+            "nguphing-ipa",
+            "nguphing-syphiq",
+            "pinyin_simp"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gan",
+      "name": "贛語",
+      "iso_639_3": "gan",
+      "intro": "贛語。",
+      "status": "active",
+      "dialects": [
+        {
+          "name": "撫州話",
+          "schemas": [
+            "fudiufa"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "hsn",
+      "name": "湘語",
+      "iso_639_3": "hsn",
+      "intro": "湘語。",
+      "status": "active",
+      "dialects": [
+        {
+          "name": "邵東話",
+          "schemas": [
+            "sautungva",
+            "sautungva_beta",
+            "sautungva_cyrillic",
+            "sautungva_phinin"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "hak",
+      "name": "客家話",
+      "iso_639_3": "hak",
+      "intro": "客家話拼音方案。",
+      "status": "active",
+      "dialects": [
+        {
+          "name": "客家話綜合口音",
+          "schemas": [
+            "hakka",
+            "hakka_pinyin"
+          ]
+        },
+        {
+          "name": "梅縣話",
+          "schemas": [
+            "hakka_meixian",
+            "moi-eian"
+          ]
+        },
+        {
+          "name": "大埔話",
+          "schemas": [
+            "tai4bu1shang1"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "yue",
+      "name": "粵語",
+      "iso_639_3": "yue",
+      "intro": "粵語拼音方案，以廣州話為主。",
+      "status": "active",
+      "dialects": [
+        {
+          "name": "廣州話",
+          "schemas": [
+            "hkcantonese",
+            "jyutping",
+            "yale",
+            "jyutping_plus",
+            "zyujam",
+            "jyutping_compact",
+            "jyutsoeng"
+          ]
+        },
+        {
+          "name": "台山話",
+          "schemas": [
+            "gene",
+            "gene_numeric",
+            "hoisiang",
+            "SRenNing_EauSanCungLau"
+          ]
+        },
+        {
+          "name": "欽州話",
+          "schemas": [
+            "hamzau_jyutping"
+          ]
+        },
+        {
+          "name": "梧州話",
+          "schemas": [
+            "NgZjau_JyutPing"
+          ]
+        },
+        {
+          "name": "南寧白話",
+          "schemas": [
+            "naamning_baakwaa"
+          ]
+        },
+        {
+          "name": "藤縣話",
+          "schemas": [
+            "gaulau_jyutping_dangjun"
+          ]
+        },
+        {
+          "name": "貴港話",
+          "schemas": [
+            "gvaizauvan"
+          ]
+        },
+        {
+          "name": "其他方案",
+          "schemas": [
+            "naamning_baakwaa_ipa",
+            "naamning_bingwaa_ipa"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "csp",
+      "name": "南部平話",
+      "iso_639_3": "csp",
+      "intro": "南部平話。",
+      "status": "active",
+      "dialects": [
+        {
+          "name": "南寧平話",
+          "schemas": [
+            "naamning_bingwaa"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cpx",
+      "name": "莆仙語",
+      "iso_639_3": "cpx",
+      "intro": "莆仙語。",
+      "status": "active",
+      "dialects": [
+        {
+          "name": "莆田話",
+          "schemas": [
+            "HinghuaBUC",
+            "Pouleng"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mnp",
+      "name": "閩北語",
+      "iso_639_3": "mnp",
+      "intro": "閩北語。",
+      "status": "active",
+      "dialects": [
+        {
+          "name": "建寧府方言",
+          "schemas": [
+            "lmc"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nan",
+      "name": "閩南語",
+      "iso_639_3": "nan",
+      "intro": "閩南語各方言拼音方案。",
+      "status": "active",
+      "dialects": [
+        {
+          "name": "廈門話",
+          "schemas": [
+            "blg_etai",
+            "blg_ha",
+            "mp"
+          ]
+        },
+        {
+          "name": "臺灣閩南語",
+          "schemas": [
+            "taigi_tps",
+            "blg_tai"
+          ]
+        },
+        {
+          "name": "泉州話",
+          "schemas": [
+            "blg_tsuan"
+          ]
+        },
+        {
+          "name": "漳州話",
+          "schemas": [
+            "blg_tsiang"
+          ]
+        },
+        {
+          "name": "潮州話",
+          "schemas": [
+            "diege",
+            "diege_gb",
+            "diege_j",
+            "dieziu"
+          ]
+        },
+        {
+          "name": "汕頭話",
+          "schemas": [
+            "suantau"
+          ]
+        },
+        {
+          "name": "揭陽話",
+          "schemas": [
+            "gekion"
+          ]
+        },
+        {
+          "name": "潮陽話",
+          "schemas": [
+            "dioion"
+          ]
+        },
+        {
+          "name": "澄海話",
+          "schemas": [
+            "tenghai"
+          ]
+        },
+        {
+          "name": "饒平話",
+          "schemas": [
+            "riaupeng"
+          ]
+        },
+        {
+          "name": "其他方案",
+          "schemas": [
+            "dieziu_60",
+            "dioion_60",
+            "gekion_60",
+            "riaupeng_60",
+            "suantau_60",
+            "tenghai_60",
+            "dieziu_mtr",
+            "dioion_mtr",
+            "gekion_mtr",
+            "riaupeng_mtr",
+            "suantau_mtr",
+            "tenghai_mtr"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cdo",
+      "name": "閩東語",
+      "iso_639_3": "cdo",
+      "intro": "閩東語。",
+      "status": "active",
+      "dialects": [
+        {
+          "name": "福州話",
+          "schemas": [
+            "ciklinbekin",
+            "dfd",
+            "BekIngLMC",
+            "GauHuoiLMC"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "extra",
+      "name": "域外方音",
+      "iso_639_3": "",
+      "intro": "漢字在非漢語語言中的讀音方案。",
+      "status": "synthetic",
+      "dialects": [
+        {
+          "name": "日語漢字",
+          "schemas": [
+            "jap_poly",
+            "kunyomi"
+          ]
+        },
+        {
+          "name": "朝鮮語漢字",
+          "schemas": [
+            "hangeul",
+            "hanja",
+            "qyeishanglr_hanja",
+            "hangyl",
+            "hangyl_hanja"
+          ]
+        },
+        {
+          "name": "京語漢喃字",
+          "schemas": [
+            "tiingkin"
+          ]
+        },
+        {
+          "name": "古壯字",
+          "schemas": [
+            "sawndip"
+          ]
+        },
+        {
+          "name": "越南語漢喃字",
+          "schemas": [
+            "newhannom"
+          ]
+        },
+        {
+          "name": "其他方案",
+          "schemas": [
+            "swiftkana",
+            "manchu_aligali",
+            "mipa",
+            "manchu_gb",
+            "mongolian_gb",
+            "sibe_gb",
+            "todo_gb",
+            "uyghur_uly_pf"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "czh",
+      "name": "徽語",
+      "iso_639_3": "czh",
+      "intro": "暫缺。",
+      "status": "missing",
+      "dialects": []
+    },
+    {
+      "key": "czo",
+      "name": "閩中語",
+      "iso_639_3": "czo",
+      "intro": "暫缺。",
+      "status": "missing",
+      "dialects": []
+    },
+    {
+      "key": "hnm",
+      "name": "海南話",
+      "iso_639_3": "hnm",
+      "intro": "暫缺。",
+      "status": "missing",
+      "dialects": []
+    },
+    {
+      "key": "luh",
+      "name": "雷州話",
+      "iso_639_3": "luh",
+      "intro": "暫缺。",
+      "status": "missing",
+      "dialects": []
+    },
+    {
+      "key": "sjc",
+      "name": "邵將語",
+      "iso_639_3": "sjc",
+      "intro": "暫缺。",
+      "status": "missing",
+      "dialects": []
+    },
+    {
+      "key": "cnp",
+      "name": "北部平話",
+      "iso_639_3": "cnp",
+      "intro": "暫缺。",
+      "status": "missing",
+      "dialects": []
+    }
+  ],
+  "schemas": {
+    "OC_baxter-sagart": {
+      "schema_id": "OC_baxter-sagart",
+      "slug": "OC_baxter-sagart",
+      "display_name": "上古漢語（白-沙2014）",
+      "branch": "och",
+      "dialect": "上古漢語",
+      "authors": [
+        "hulenkius",
+        "github.com/Hulenkius/RIME_OC_collections"
+      ],
+      "version": "2023.07.27",
+      "description": "上古音輸入方案：白一平-沙加爾擬音\n[] <> . - 不寫　　()內容可不寫\n大寫字母可單、雙小寫\nʰ 作 h　　◌̥◌̊ 作 h\nɦ 作 hh 或 f　　ə 作 y\nɢ 作 gg 或 v　　ŋ 作 ng\nʔ、ˤ 作 x",
+      "dependencies": [
+        "cangjie5"
+      ],
+      "license": null,
+      "recipe": "Hulenkius/RIME_OC_collections",
+      "upstream_url": "https://github.com/Hulenkius/RIME_OC_collections",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "上古漢語/上古漢語（白-沙2014）"
+    },
+    "OC_baxter1992": {
+      "schema_id": "OC_baxter1992",
+      "slug": "OC_baxter1992",
+      "display_name": "上古漢語（白一平1992）",
+      "branch": "och",
+      "dialect": "上古漢語",
+      "authors": [
+        "hulenkius",
+        "github.com/Hulenkius/RIME_OC_collections"
+      ],
+      "version": "2023.07.14",
+      "description": "上古音輸入方案：白一平1992版擬音\n[] - 不寫　　()內容可不寫\n大寫字母可單、雙小寫\nɦ 作 hh 或 f　　ʰ 作 h\nɨ 作 y　　ŋ 作ng　　ʔ 作 x",
+      "dependencies": [
+        "cangjie5"
+      ],
+      "license": null,
+      "recipe": "Hulenkius/RIME_OC_collections",
+      "upstream_url": "https://github.com/Hulenkius/RIME_OC_collections",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "上古漢語/上古漢語（白一平1992）"
+    },
+    "OC_jinlixin": {
+      "schema_id": "OC_jinlixin",
+      "slug": "OC_jinlixin",
+      "display_name": "上古漢語（金理新）",
+      "branch": "och",
+      "dialect": "上古漢語",
+      "authors": [
+        "hulenkius",
+        "github.com/Hulenkius/RIME_OC_collections"
+      ],
+      "version": "2024.01.082",
+      "description": "上古音輸入方案：金理新 2023 版擬音\n//內插音可不寫　三等單寫　非三等雙寫\nɯ 作 y　　ŋ 作 ng　　ȶ ȡ 作 ts ds\nɕ 作 sh　　x 作 h　ɣ 作 hh 或 v\nq 可作 kw　ɢ 作 gg 或 w　　ʔ 作 x\nɴ 作 nn 或 nng ngg　　χ 作 cc 或 c\nʁ 作 rr 或 gw",
+      "dependencies": [
+        "cangjie5"
+      ],
+      "license": null,
+      "recipe": "Hulenkius/RIME_OC_collections",
+      "upstream_url": "https://github.com/Hulenkius/RIME_OC_collections",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "上古漢語/上古漢語（金理新）"
+    },
+    "OC_lifanggui": {
+      "schema_id": "OC_lifanggui",
+      "slug": "OC_lifanggui",
+      "display_name": "上古漢語（李方桂）",
+      "branch": "och",
+      "dialect": "上古漢語",
+      "authors": [
+        "hulenkius",
+        "github.com/Hulenkius/RIME_OC_collections"
+      ],
+      "version": "2023.07.151",
+      "description": "上古音輸入方案：李方桂擬音\nə 作 y　　ʔ(·) 作 x",
+      "dependencies": [
+        "cangjie5"
+      ],
+      "license": null,
+      "recipe": "Hulenkius/RIME_OC_collections",
+      "upstream_url": "https://github.com/Hulenkius/RIME_OC_collections",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "上古漢語/上古漢語（李方桂）"
+    },
+    "OC_msoeg": {
+      "schema_id": "OC_msoeg",
+      "slug": "OC_msoeg",
+      "display_name": "古典漢語（MSOEG）",
+      "branch": "och",
+      "dialect": "上古漢語",
+      "authors": [
+        "hulenkius",
+        "github.com/Hulenkius/RIME_OC_collections"
+      ],
+      "version": "2023.07.141",
+      "description": "上古音輸入方案：msoeg 初釋版擬音\n[]不寫　　() 內容可不寫\nɛ作e　ɔ作o　ə作y　ɫ作j\nθ作s　ŋ作ng　ʃ ʒ 作 sr zr\nɹ ʴ 作 r　　ʔ ʕ ˤ 作 x\nʰ◌̊◌̥作h　◌̃作v　ɦ作hh或f",
+      "dependencies": [
+        "cangjie5"
+      ],
+      "license": null,
+      "recipe": "Hulenkius/RIME_OC_collections",
+      "upstream_url": "https://github.com/Hulenkius/RIME_OC_collections",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "上古漢語/上古漢語（MSOEG）"
+    },
+    "OC_msoegDK": {
+      "schema_id": "OC_msoegDK",
+      "slug": "OC_msoegDK",
+      "display_name": "上古漢語（《廣韻形聲考》）",
+      "branch": "och",
+      "dialect": "上古漢語",
+      "authors": [
+        "hulenkius",
+        "github.com/Hulenkius/RIME_OC_collections"
+      ],
+      "version": "2025.07.25",
+      "description": "上古音輸入方案：布之道《廣韻形聲考》\n[]不寫　　() 內容可不寫\nə 作 y　　ŋ 作 ng\nɬ 作 ll　　ɫ 作 l\nʍ 作 sw 或 hw　　ʰ◌̊◌̥ 作 h\nʔ ˤ 作 x　　ˤ 可替以雙寫元音",
+      "dependencies": [
+        "cangjie5"
+      ],
+      "license": null,
+      "recipe": "Hulenkius/RIME_OC_collections",
+      "upstream_url": "https://github.com/Hulenkius/RIME_OC_collections",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "上古漢語/上古漢語（MSOEG）"
+    },
+    "OC_nulll": {
+      "schema_id": "OC_nulll",
+      "slug": "OC_nulll",
+      "display_name": "上古漢語（知乎新派）",
+      "branch": "och",
+      "dialect": "上古漢語",
+      "authors": [
+        "hulenkius",
+        "github.com/Hulenkius/RIME_OC_collections"
+      ],
+      "version": "2025.07.265",
+      "description": "上古音輸入方案：知乎新派\n元部 *-r 改用 l 書寫\n分號鍵分詞",
+      "dependencies": [
+        "cangjie5"
+      ],
+      "license": null,
+      "recipe": "Hulenkius/RIME_OC_collections",
+      "upstream_url": "https://github.com/Hulenkius/RIME_OC_collections",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "上古漢語/上古漢語（知乎新派）"
+    },
+    "OC_schuesslerOC": {
+      "schema_id": "OC_schuesslerOC",
+      "slug": "OC_schuesslerOC",
+      "display_name": "上古漢語（許思萊）",
+      "branch": "och",
+      "dialect": "上古漢語",
+      "authors": [
+        "hulenkius",
+        "github.com/Hulenkius/RIME_OC_collections"
+      ],
+      "version": "2023.07.141",
+      "description": "上古音輸入方案：許思萊上古擬音\n- 不寫　^ 作前置x 或雙寫其後元音\nɦ 作 hh 或 f　　ə 作 y　　ŋ 作 ng\ni 與 j、u 與 w 可淆 　　ʔ 作 x",
+      "dependencies": [
+        "cangjie5"
+      ],
+      "license": null,
+      "recipe": "Hulenkius/RIME_OC_collections",
+      "upstream_url": "https://github.com/Hulenkius/RIME_OC_collections",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "上古漢語/上古漢語（許思萊）"
+    },
+    "OC_starostinLO": {
+      "schema_id": "OC_starostinLO",
+      "slug": "OC_starostinLO",
+      "display_name": "晚期上古漢語（斯塔羅斯金）",
+      "branch": "och",
+      "dialect": "上古漢語",
+      "authors": [
+        "hulenkius",
+        "github.com/Hulenkius/RIME_OC_collections"
+      ],
+      "version": "2023.07.16",
+      "description": "上古音輸入方案：斯塔羅斯金晚期上古漢語擬音\n長音雙寫或前置 x　高調末尾加 x\n() 內容可不寫\nə 作 y　　tɬ dɮ 作 tl dl\nŋ 作 ng　　tɕ 作 tc ts c\nʔ 作 x 或不寫\nʰ ʱ ◌̥ 作 h",
+      "dependencies": [
+        "cangjie5"
+      ],
+      "license": null,
+      "recipe": "Hulenkius/RIME_OC_collections",
+      "upstream_url": "https://github.com/Hulenkius/RIME_OC_collections",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "上古漢語/上古漢語（斯塔羅斯金）"
+    },
+    "OC_starostinTK": {
+      "schema_id": "OC_starostinTK",
+      "slug": "OC_starostinTK",
+      "display_name": "詩經韻尾（斯塔羅斯金）",
+      "branch": "och",
+      "dialect": "上古漢語",
+      "authors": [
+        "hulenkius",
+        "github.com/Hulenkius/RIME_OC_collections"
+      ],
+      "version": "2023.07.15",
+      "description": "上古音輸入方案：斯塔羅斯金詩經韻尾擬音\n長音雙寫或前置 x　　() 內容可不寫\nŋ 作 ng　　tɕ 作 tsx tc　ʑ 作 zx\nə 作 y　　tɬ dɮ 作 tl dl\nʔ- 作 x 或不寫　-ʔ 作 x\nʰ ʱ ◌̥ 作 h",
+      "dependencies": [
+        "cangjie5"
+      ],
+      "license": null,
+      "recipe": "Hulenkius/RIME_OC_collections",
+      "upstream_url": "https://github.com/Hulenkius/RIME_OC_collections",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "上古漢語/上古漢語（斯塔羅斯金）"
+    },
+    "OC_wangli": {
+      "schema_id": "OC_wangli",
+      "slug": "OC_wangli",
+      "display_name": "上古漢語（王力）",
+      "branch": "och",
+      "dialect": "上古漢語",
+      "authors": [
+        "hulenkius",
+        "github.com/Hulenkius/RIME_OC_collections"
+      ],
+      "version": "2023.07.16",
+      "description": "上古音輸入方案：王力擬音\nȶ ȡ ɕ ʑ ȵ 作 tx dx sx zx nx\nʎ 作 lx　　ŋ 作 ng\nɣ 作 xx 或 f 或 v\nʃ ʒ 作 sr zr　零聲母作 x 或不寫\nʰ 作 h　　ǐ 作 j\nə 作 y　　ɔ 作 o",
+      "dependencies": [
+        "cangjie5"
+      ],
+      "license": null,
+      "recipe": "Hulenkius/RIME_OC_collections",
+      "upstream_url": "https://github.com/Hulenkius/RIME_OC_collections",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "上古漢語/上古漢語（王力）"
+    },
+    "OC_zhengzhang": {
+      "schema_id": "OC_zhengzhang",
+      "slug": "OC_zhengzhang",
+      "display_name": "上古漢語（鄭張尚芳）",
+      "branch": "och",
+      "dialect": "上古漢語",
+      "authors": [
+        "hulenkius",
+        "github.com/Hulenkius/RIME_OC_collections"
+      ],
+      "version": "2023.07.20",
+      "description": "上古音輸入方案：鄭張尚芳擬音\nɯ 作 y　　ɦ 作 hh 或 f\nʔ 作 x　　ɢ 作 gg 或 v\n' 作 c　　ʰ、◌̥ʰ 作 h\nŋ 作 ng　　· 不寫\n長音雙寫",
+      "dependencies": [
+        "cangjie5"
+      ],
+      "license": null,
+      "recipe": "Hulenkius/RIME_OC_collections",
+      "upstream_url": "https://github.com/Hulenkius/RIME_OC_collections",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "上古漢語/上古漢語（鄭張尚芳）"
+    },
+    "OC_zhoufagao": {
+      "schema_id": "OC_zhoufagao",
+      "slug": "OC_zhoufagao",
+      "display_name": "上古漢語（周法高）",
+      "branch": "och",
+      "dialect": "上古漢語",
+      "authors": [
+        "hulenkius",
+        "github.com/Hulenkius/RIME_OC_collections"
+      ],
+      "version": "2023.07.15",
+      "description": "上古音輸入方案：周法高擬音\nə 作 y　　ʔ 作 x 或不寫\nɣ 作 xx 或 f 或 v　　ʰ 作 h\n-ɣ 尾可作 -g",
+      "dependencies": [
+        "cangjie5"
+      ],
+      "license": null,
+      "recipe": "Hulenkius/RIME_OC_collections",
+      "upstream_url": "https://github.com/Hulenkius/RIME_OC_collections",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "上古漢語/上古漢語（周法高）"
+    },
+    "lakyang": {
+      "schema_id": "lakyang",
+      "slug": "lakyang",
+      "display_name": "洛陽羅馬字 ₁.₂",
+      "branch": "cmn",
+      "dialect": "中原官話",
+      "authors": [
+        "Patrick"
+      ],
+      "version": "1.2",
+      "description": "洛陽羅馬字\n中原官話洛陽方言",
+      "dependencies": [],
+      "license": null,
+      "recipe": "Patricivs/lakyang",
+      "upstream_url": "https://github.com/Patricivs/lakyang",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "官話/中原官話/洛陽話"
+    },
+    "lakyang_chuim": {
+      "schema_id": "lakyang_chuim",
+      "slug": "lakyang_chuim",
+      "display_name": "洛陽註音 ₀.₉ᵦ",
+      "branch": "cmn",
+      "dialect": "中原官話",
+      "authors": [
+        "Patrick"
+      ],
+      "version": "0.9β5",
+      "description": "洛陽註音\n中原官話洛陽方言",
+      "dependencies": [],
+      "license": null,
+      "recipe": "Patricivs/lakyang",
+      "upstream_url": "https://github.com/Patricivs/lakyang",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "zhung": {
+      "schema_id": "zhung",
+      "slug": "zhung",
+      "display_name": "中州羅馬字",
+      "branch": "cmn",
+      "dialect": "中原官話",
+      "authors": [
+        "佛振"
+      ],
+      "version": "0.5",
+      "description": "老派鄭州話\n採用《中州羅馬字》拼音方案",
+      "dependencies": [],
+      "license": null,
+      "recipe": "lotem/rime-zhung",
+      "upstream_url": "https://github.com/lotem/rime-zhung",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "官話/中原官話/鄭州話"
+    },
+    "zhung_42": {
+      "schema_id": "zhung_42",
+      "slug": "zhung_42",
+      "display_name": "中州注音法（四十二鍵）",
+      "branch": "cmn",
+      "dialect": "中原官話",
+      "authors": [
+        "佛振"
+      ],
+      "version": "0.4",
+      "description": "老派鄭州話\n以注音符號錄入！",
+      "dependencies": [],
+      "license": null,
+      "recipe": "lotem/rime-zhung",
+      "upstream_url": "https://github.com/lotem/rime-zhung",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "zhung_combo": {
+      "schema_id": "zhung_combo",
+      "slug": "zhung_combo",
+      "display_name": "中州羅馬字（並擊）",
+      "branch": "cmn",
+      "dialect": "中原官話",
+      "authors": [
+        "佛振"
+      ],
+      "version": "0.3",
+      "description": "並擊輸入老派鄭州話",
+      "dependencies": [],
+      "license": null,
+      "recipe": "lotem/rime-zhung",
+      "upstream_url": "https://github.com/lotem/rime-zhung",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "zhung_combo_transcript": {
+      "schema_id": "zhung_combo_transcript",
+      "slug": "zhung_combo_transcript",
+      "display_name": "中州注音法（並擊）",
+      "branch": "cmn",
+      "dialect": "中原官話",
+      "authors": [
+        "佛振"
+      ],
+      "version": "0.4",
+      "description": "並擊輸入老派鄭州話",
+      "dependencies": [],
+      "license": null,
+      "recipe": "lotem/rime-zhung",
+      "upstream_url": "https://github.com/lotem/rime-zhung",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "zhung_stenotype": {
+      "schema_id": "zhung_stenotype",
+      "slug": "zhung_stenotype",
+      "display_name": "中州打字速記法",
+      "branch": "cmn",
+      "dialect": "中原官話",
+      "authors": [
+        "佛振"
+      ],
+      "version": "0.1",
+      "description": "老派鄭州話\n改編自早期的打字速記方案",
+      "dependencies": [
+        "zhung"
+      ],
+      "license": null,
+      "recipe": "lotem/rime-zhung",
+      "upstream_url": "https://github.com/lotem/rime-zhung",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "zhung_transcript": {
+      "schema_id": "zhung_transcript",
+      "slug": "zhung_transcript",
+      "display_name": "中州注音法（轉寫）",
+      "branch": "cmn",
+      "dialect": "中原官話",
+      "authors": [
+        "佛振"
+      ],
+      "version": "0.4",
+      "description": "老派鄭州話\n以羅馬字轉寫注音符號",
+      "dependencies": [],
+      "license": null,
+      "recipe": "lotem/rime-zhung",
+      "upstream_url": "https://github.com/lotem/rime-zhung",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "yihdjoouhuah": {
+      "schema_id": "yihdjoouhuah",
+      "slug": "yihdjoouhuah",
+      "display_name": "嶧州話傳統羅馬字",
+      "branch": "cmn",
+      "dialect": "中原官話",
+      "authors": [
+        "陬繹部鄉"
+      ],
+      "version": "1.26",
+      "description": "分捲翹的嶧州話羅馬字輸入方案，基本表現中老年嶧州人（棗莊人）的口音，缺憾是沒能分開尖團音。",
+      "dependencies": [
+        "stroke"
+      ],
+      "license": null,
+      "recipe": "tsauibusato/yihdjoouhuah",
+      "upstream_url": "https://github.com/tsauibusato/yihdjoouhuah",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "官話/中原官話/棗莊話"
+    },
+    "yihjoouhuah_romatzyh": {
+      "schema_id": "yihjoouhuah_romatzyh",
+      "slug": "yihjoouhuah_romatzyh",
+      "display_name": "嶧州話羅馬字",
+      "branch": "cmn",
+      "dialect": "中原官話",
+      "authors": [
+        "陬繹部鄉"
+      ],
+      "version": "1.26",
+      "description": "Rime 預設的嶧州話輸入方案。基於美式英語發音創作，音位寬，能夠表現嶧州年輕一代的讀書音。",
+      "dependencies": [
+        "stroke"
+      ],
+      "license": null,
+      "recipe": "tsauibusato/yihdjoouhuah",
+      "upstream_url": "https://github.com/tsauibusato/yihdjoouhuah",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "deuqguv4": {
+      "schema_id": "deuqguv4",
+      "slug": "deuqguv4",
+      "display_name": "中古四拼",
+      "branch": "ltc",
+      "dialect": "中古漢語",
+      "authors": [
+        "inzoi"
+      ],
+      "version": "2017.1.12",
+      "description": "中古汉语QQ群：531376406 2016.12.04",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "inzoi/inzoi.github.io",
+      "upstream_url": "https://github.com/inzoi/inzoi.github.io",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "triungkoxsampheng": {
+      "schema_id": "triungkoxsampheng",
+      "slug": "triungkoxsampheng",
+      "display_name": "中古三拼",
+      "branch": "ltc",
+      "dialect": "中古漢語",
+      "authors": [
+        "polyhedron",
+        "Lely"
+      ],
+      "version": "2015.03.13",
+      "description": "中古漢語三拼，採用《廣韻》音系的中古漢語三拼， 每個字第一碼爲聲母、第二碼爲介音和主元音、第三碼爲韻尾和聲調。 鍵盤圖見http://vdisk.weibo.com/s/aNz6u\n詞庫使用zyenpheng.dict.yaml（中古全拼的詞庫，以共享詞彙）",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "biopolyhedron/rime-middle-chinese",
+      "upstream_url": "https://github.com/biopolyhedron/rime-middle-chinese",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "中古漢語/biopolyhedron中古音"
+    },
+    "zyenpheng": {
+      "schema_id": "zyenpheng",
+      "slug": "zyenpheng",
+      "display_name": "中古全拼",
+      "branch": "ltc",
+      "dialect": "中古漢語",
+      "authors": [
+        "古韻"
+      ],
+      "version": "2014.04.30",
+      "description": "採用《廣韻》音系的中古漢語拼音，亦稱「古韻羅馬字」。\n韻典網·廣韻 http://ytenx.org/kyonh/\nhttp://zh.wikipedia.org/wiki/User:Polyhedron/中古漢語拼音",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "biopolyhedron/rime-middle-chinese",
+      "upstream_url": "https://github.com/biopolyhedron/rime-middle-chinese",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "中古漢語/biopolyhedron中古音"
+    },
+    "tupa": {
+      "schema_id": "tupa",
+      "slug": "tupa",
+      "display_name": "切韻拼音",
+      "branch": "ltc",
+      "dialect": "中古漢語",
+      "authors": [
+        "Ayaka Mikazuki"
+      ],
+      "version": "2022.05.21",
+      "description": "切韻拼音\n\nhttps://zhuanlan.zhihu.com/p/478751152",
+      "dependencies": [
+        "luna_pinyin",
+        "jyut6ping3",
+        "tupa_unspaced"
+      ],
+      "license": null,
+      "recipe": "ayaka14732/rime-tupa",
+      "upstream_url": "https://github.com/ayaka14732/rime-tupa",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "中古漢語/切韻拼音"
+    },
+    "tupa_unspaced": {
+      "schema_id": "tupa_unspaced",
+      "slug": "tupa_unspaced",
+      "display_name": "無空格切韻拼音",
+      "branch": "ltc",
+      "dialect": "中古漢語",
+      "authors": [],
+      "version": "0.1",
+      "description": "",
+      "dependencies": [],
+      "license": null,
+      "recipe": "ayaka14732/rime-tupa",
+      "upstream_url": "https://github.com/ayaka14732/rime-tupa",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "dangrvond": {
+      "schema_id": "dangrvond",
+      "slug": "dangrvond",
+      "display_name": "唐韻",
+      "branch": "ltc",
+      "dialect": "中古漢語",
+      "authors": [
+        "紫雪藍海"
+      ],
+      "version": "2015.09.14",
+      "description": "中古拼音輸方案，根據「廣韻」音系，參考諸家擬音而製作。",
+      "dependencies": [],
+      "license": null,
+      "recipe": "rime-aca/rime-dangrvond",
+      "upstream_url": "https://github.com/rime-aca/rime-dangrvond",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "guangtong": {
+      "schema_id": "guangtong",
+      "slug": "guangtong",
+      "display_name": "廣通中古拼音",
+      "branch": "ltc",
+      "dialect": "中古漢語",
+      "authors": [
+        "柳漫"
+      ],
+      "version": "2022.01.13",
+      "description": "廣通中古拼音輸入法\n拼音教程 https://zhuanlan.zhihu.com/p/453393955",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "uliloewi/guang2tong1zhong1gu3",
+      "upstream_url": "https://github.com/uliloewi/guang2tong1zhong1gu3",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "中古漢語/柳漫中古音"
+    },
+    "kmg": {
+      "schema_id": "kmg",
+      "slug": "kmg",
+      "display_name": "廣韻段毄攴字法",
+      "branch": "ltc",
+      "dialect": "中古漢語",
+      "authors": [
+        "叔寍"
+      ],
+      "version": "2013.10.05",
+      "description": "以《廣韻》音系爲基礎旳合理拼音方案，單字碼長爲三，依次取聲母、介音加聲調、韻基。",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "rime-aca/rime-kmg",
+      "upstream_url": "https://github.com/rime-aca/rime-kmg",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "nieh_ched": {
+      "schema_id": "nieh_ched",
+      "slug": "nieh_ched",
+      "display_name": "爾切羅馬字",
+      "branch": "ltc",
+      "dialect": "中古漢語",
+      "authors": [
+        "叔寍"
+      ],
+      "version": "2017.12.28",
+      "description": "以《切韻》音系爲基礎旳拼音方案，碼長由2到7不等。",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "rime-aca/rime-nieh-ched",
+      "upstream_url": "https://github.com/rime-aca/rime-nieh-ched",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "njerchet": {
+      "schema_id": "njerchet",
+      "slug": "njerchet",
+      "display_name": "爾切羅馬字",
+      "branch": "ltc",
+      "dialect": "中古漢語",
+      "authors": [
+        "叔寍"
+      ],
+      "version": "2019.06.22",
+      "description": "以《切韵》音系爲基礎旳倂音方案, 碼長由2到8不等, 均碼約爲4。",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "toongcuu": {
+      "schema_id": "toongcuu",
+      "slug": "toongcuu",
+      "display_name": "通古羅馬字",
+      "branch": "ltc",
+      "dialect": "中古漢語",
+      "authors": [
+        "Baopaau"
+      ],
+      "version": "0.3",
+      "description": "一種模仿通字方案拼式的中古漢語拼音",
+      "dependencies": [
+        "terra_pinyin",
+        "jyut6ping3",
+        "stroke",
+        "cangjie5"
+      ],
+      "license": null,
+      "recipe": "baopaau/rime-toongcuu",
+      "upstream_url": "https://github.com/baopaau/rime-toongcuu",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "wugniu": {
+      "schema_id": "wugniu",
+      "slug": "wugniu",
+      "display_name": "上海新派",
+      "branch": "wuu",
+      "dialect": "上海話",
+      "authors": [
+        "上海閒話abc",
+        "吳語越音"
+      ],
+      "version": "0.15",
+      "description": "上海言話（新派）\n拼寫方案採用《吳語拉丁式注音法》\nhttp://input.foruto.com/wu/method.html",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "rime/rime-wugniu",
+      "upstream_url": "https://github.com/rime/rime-wugniu",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "wugniu_lopha": {
+      "schema_id": "wugniu_lopha",
+      "slug": "wugniu_lopha",
+      "display_name": "上海吳語",
+      "branch": "wuu",
+      "dialect": "上海話",
+      "authors": [
+        "上海閒話abc",
+        "吳語越音"
+      ],
+      "version": "0.15",
+      "description": "上海言話（老派）\n拼寫方案採用《吳語拉丁式注音法》\nhttp://input.foruto.com/wu/method.html",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "rime/rime-wugniu",
+      "upstream_url": "https://github.com/rime/rime-wugniu",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "wenzhounese": {
+      "schema_id": "wenzhounese",
+      "slug": "wenzhounese",
+      "display_name": "溫州話",
+      "branch": "wuu",
+      "dialect": "溫州話",
+      "authors": [
+        "Wolken",
+        "Email"
+      ],
+      "version": "1.0.0",
+      "description": "基於Rime的溫州話輸入方案規則（采用沈克成先生-沈迦先生的拼音方案）",
+      "dependencies": [
+        "luna_pinyin",
+        "pinyin_simp"
+      ],
+      "license": null,
+      "recipe": "ZWolken/rime-wenzhounese",
+      "upstream_url": "https://github.com/ZWolken/rime-wenzhounese",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "yahwe_zaonhe": {
+      "schema_id": "yahwe_zaonhe",
+      "slug": "yahwe_zaonhe",
+      "display_name": "吳協式上海言話",
+      "branch": "wuu",
+      "dialect": "上海話",
+      "authors": [
+        "Yuanhao 'Nyoeghau' Chen ‹nyoeghau@nyoeghau.com›"
+      ],
+      "version": "2022.07.05",
+      "description": "上海言話\n拼寫方案採用吳語協會式\nhttp://wu-chinese.com/romanization/\nhttp://wu-chinese.com/minidict/",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "wugniu/rime-yahwe_zaonhe",
+      "upstream_url": "https://github.com/wugniu/rime-yahwe_zaonhe",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "吳語/上海話"
+    },
+    "hangtseinese": {
+      "schema_id": "hangtseinese",
+      "slug": "hangtseinese",
+      "display_name": "杭語",
+      "branch": "wuu",
+      "dialect": "杭州話",
+      "authors": [
+        "山清江澤"
+      ],
+      "version": "0.1",
+      "description": "",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "saeziae/hangzhou_wu",
+      "upstream_url": "https://github.com/saeziae/hangzhou_wu",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "吳語/杭州話"
+    },
+    "wugniu_sonkaon": {
+      "schema_id": "wugniu_sonkaon",
+      "slug": "wugniu_sonkaon",
+      "display_name": "吳語（松江）",
+      "branch": "wuu",
+      "dialect": "松江話",
+      "authors": [
+        "神死慟瞑",
+        "雪心居士",
+        "Shin Zoqchiuq"
+      ],
+      "version": "2025.02.15",
+      "description": "松江吳語注音輸入方案吳語學堂版\nhttps://www.wugniu.com/\nhttps://github.com/NGLI/rime-wugniu_zaonhe/",
+      "dependencies": [
+        "luna_pinyin",
+        "stroke"
+      ],
+      "license": null,
+      "recipe": "NGLI/rime-wugniu_zaonhe",
+      "upstream_url": "https://github.com/NGLI/rime-wugniu_zaonhe",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "吳語/松江話"
+    },
+    "wugniu_zaonhe": {
+      "schema_id": "wugniu_zaonhe",
+      "slug": "wugniu_zaonhe",
+      "display_name": "吳語（上海）",
+      "branch": "wuu",
+      "dialect": "上海話",
+      "authors": [
+        "吳飛得",
+        "神死慟瞑",
+        "沪语角",
+        "雪心居士",
+        "Shin Zoqchiuq"
+      ],
+      "version": "0.37",
+      "description": "採用學堂式吳語拼音\n上海中派（分尖團）\nhttps://www.wugniu.com/\nhttps://github.com/NGLI/rime-wugniu_zaonhe/",
+      "dependencies": [
+        "luna_pinyin",
+        "stroke"
+      ],
+      "license": null,
+      "recipe": "NGLI/rime-wugniu_zaonhe",
+      "upstream_url": "https://github.com/NGLI/rime-wugniu_zaonhe",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "wugniu_zaonhe_laupha": {
+      "schema_id": "wugniu_zaonhe_laupha",
+      "slug": "wugniu_zaonhe_laupha",
+      "display_name": "吳語（上海老派）",
+      "branch": "wuu",
+      "dialect": "上海話",
+      "authors": [
+        "吳飛得",
+        "Shin Zoqchiuq"
+      ],
+      "version": "0.3.2",
+      "description": "老派上海吳語拼音輸入方案\nhttps://www.wugniu.com/\nhttps://github.com/NGLI/rime-wugniu_zaonhe/",
+      "dependencies": [
+        "luna_pinyin",
+        "stroke"
+      ],
+      "license": null,
+      "recipe": "NGLI/rime-wugniu_zaonhe",
+      "upstream_url": "https://github.com/NGLI/rime-wugniu_zaonhe",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "wugniu_donshian": {
+      "schema_id": "wugniu_donshian",
+      "slug": "wugniu_donshian",
+      "display_name": "吳語（桐鄉）",
+      "branch": "wuu",
+      "dialect": "桐鄉話",
+      "authors": [
+        "雪心居士",
+        "Shin Zoqchiuq"
+      ],
+      "version": "2025.02.15",
+      "description": "吳語注音輸入方案-桐鄉\nhttps://www.wugniu.com/\nhttps://github.com/NGLI/rime-wugniu_kashin/",
+      "dependencies": [
+        "luna_pinyin",
+        "stroke"
+      ],
+      "license": null,
+      "recipe": "NGLI/rime-wugniu_kashin",
+      "upstream_url": "https://github.com/NGLI/rime-wugniu_kashin",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "吳語/桐鄉話"
+    },
+    "wugniu_haegnin": {
+      "schema_id": "wugniu_haegnin",
+      "slug": "wugniu_haegnin",
+      "display_name": "吳語（海寧）",
+      "branch": "wuu",
+      "dialect": "海寧話",
+      "authors": [
+        "陳熙元",
+        "雪心居士",
+        "Shin Zoqchiuq"
+      ],
+      "version": "2025.02.15",
+      "description": "海寧吳語注音輸入方案吳語學堂版\nhttps://www.wugniu.com/\nhttps://github.com/NGLI/rime-wugniu_kashin/",
+      "dependencies": [
+        "luna_pinyin",
+        "stroke"
+      ],
+      "license": null,
+      "recipe": "NGLI/rime-wugniu_kashin",
+      "upstream_url": "https://github.com/NGLI/rime-wugniu_kashin",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "吳語/海寧話"
+    },
+    "wugniu_haeye": {
+      "schema_id": "wugniu_haeye",
+      "slug": "wugniu_haeye",
+      "display_name": "吳語（海鹽）",
+      "branch": "wuu",
+      "dialect": "海鹽話",
+      "authors": [
+        "雪心居士",
+        "Shin Zoqchiuq"
+      ],
+      "version": "2025.02.15",
+      "description": "吳語注音輸入方案-海鹽\nhttps://www.wugniu.com/\nhttps://github.com/NGLI/rime-wugniu_kashin/",
+      "dependencies": [
+        "luna_pinyin",
+        "stroke"
+      ],
+      "license": null,
+      "recipe": "NGLI/rime-wugniu_kashin",
+      "upstream_url": "https://github.com/NGLI/rime-wugniu_kashin",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "吳語/海鹽話"
+    },
+    "wugniu_kashin": {
+      "schema_id": "wugniu_kashin",
+      "slug": "wugniu_kashin",
+      "display_name": "吳語（嘉興）",
+      "branch": "wuu",
+      "dialect": "嘉興話",
+      "authors": [
+        "雪心居士",
+        "步履躊躇 (dict)",
+        "Shin Zoqchiuq"
+      ],
+      "version": "2025.02.15",
+      "description": "吳語注音輸入方案-嘉興\nhttps://www.wugniu.com/\nhttps://github.com/NGLI/rime-wugniu_kashin/",
+      "dependencies": [
+        "luna_pinyin",
+        "stroke"
+      ],
+      "license": null,
+      "recipe": "NGLI/rime-wugniu_kashin",
+      "upstream_url": "https://github.com/NGLI/rime-wugniu_kashin",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "吳語/嘉興話"
+    },
+    "wugniu_kazoe": {
+      "schema_id": "wugniu_kazoe",
+      "slug": "wugniu_kazoe",
+      "display_name": "吳語（嘉善）",
+      "branch": "wuu",
+      "dialect": "嘉善話",
+      "authors": [
+        "雪心居士",
+        "Shin Zoqchiuq"
+      ],
+      "version": "2025.02.15",
+      "description": "吳語注音輸入方案-嘉善\nhttps://www.wugniu.com/\nhttps://github.com/NGLI/rime-wugniu_kashin/",
+      "dependencies": [
+        "luna_pinyin",
+        "stroke"
+      ],
+      "license": null,
+      "recipe": "NGLI/rime-wugniu_kashin",
+      "upstream_url": "https://github.com/NGLI/rime-wugniu_kashin",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "吳語/嘉善話"
+    },
+    "wugniu_gnincieu": {
+      "schema_id": "wugniu_gnincieu",
+      "slug": "wugniu_gnincieu",
+      "display_name": "吳語（鄞州）",
+      "branch": "wuu",
+      "dialect": "寧波話",
+      "authors": [
+        "Shin Zoqchiuq"
+      ],
+      "version": "0.8.1",
+      "description": "採用學堂式吳語拼音\n鍾公廟、首南附近口音\nhttps://www.wugniu.com/\nhttps://github.com/NGLI/rime-wugniu_gninpou/",
+      "dependencies": [
+        "luna_pinyin",
+        "stroke",
+        "gninpou_lianfen"
+      ],
+      "license": null,
+      "recipe": "NGLI/rime-wugniu_gninpou",
+      "upstream_url": "https://github.com/NGLI/rime-wugniu_gninpou",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "吳語/寧波話"
+    },
+    "wugniu_gninpou": {
+      "schema_id": "wugniu_gninpou",
+      "slug": "wugniu_gninpou",
+      "display_name": "吳語（寧波）",
+      "branch": "wuu",
+      "dialect": "寧波話",
+      "authors": [
+        "Shin Zoqchiuq"
+      ],
+      "version": "0.8.1",
+      "description": "採用學堂式吳語拼音\n老三區口音\nhttps://www.wugniu.com/\nhttps://github.com/NGLI/rime-wugniu_gninpou/",
+      "dependencies": [
+        "luna_pinyin",
+        "stroke",
+        "gninpou_lianfen"
+      ],
+      "license": null,
+      "recipe": "NGLI/rime-wugniu_gninpou",
+      "upstream_url": "https://github.com/NGLI/rime-wugniu_gninpou",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "吳語/寧波話"
+    },
+    "wugniu_soutseu": {
+      "schema_id": "wugniu_soutseu",
+      "slug": "wugniu_soutseu",
+      "display_name": "吳語（蘇州）",
+      "branch": "wuu",
+      "dialect": "蘇州話",
+      "authors": [
+        "予安",
+        "雪心居士",
+        "Shin Zoqchiuq"
+      ],
+      "version": "2025.02.15",
+      "description": "蘇州吳語注音輸入方案吳語學堂版\nhttps://www.wugniu.com/\nhttps://github.com/NGLI/rime-wugniu_soutseu/",
+      "dependencies": [
+        "luna_pinyin",
+        "stroke"
+      ],
+      "license": null,
+      "recipe": "NGLI/rime-wugniu_soutseu",
+      "upstream_url": "https://github.com/NGLI/rime-wugniu_soutseu",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "吳語/蘇州話"
+    },
+    "nguphin-yaehwei": {
+      "schema_id": "nguphin-yaehwei",
+      "slug": "nguphin-yaehwei",
+      "display_name": "吳語拼音·吳協式",
+      "branch": "wuu",
+      "dialect": "其他方案",
+      "authors": [
+        "山前"
+      ],
+      "version": "20240224",
+      "description": "* 標準吳語\n* 使用吳語協會拼法",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "nguphing-hiunduk": {
+      "schema_id": "nguphing-hiunduk",
+      "slug": "nguphing-hiunduk",
+      "display_name": "吳語拼音·訓讀",
+      "branch": "wuu",
+      "dialect": "其他方案",
+      "authors": [
+        "山前"
+      ],
+      "version": "20240120",
+      "description": "* 標準吳語\n* 包括官話白話文訓讀",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "nguphing-ipa": {
+      "schema_id": "nguphing-ipa",
+      "slug": "nguphing-ipa",
+      "display_name": "吳語拼音·IPA",
+      "branch": "wuu",
+      "dialect": "其他方案",
+      "authors": [
+        "山前"
+      ],
+      "version": "20240220",
+      "description": "* 標準吳語\n* IQA个 preedit 対 comment 輸出",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "nguphing-syphiq": {
+      "schema_id": "nguphing-syphiq",
+      "slug": "nguphing-syphiq",
+      "display_name": "吳語四拼",
+      "branch": "wuu",
+      "dialect": "其他方案",
+      "authors": [
+        "山前"
+      ],
+      "version": "20240224",
+      "description": "* 標準吳語\n* 縮短拼式\n* [ptkgcsz]h+i+[aeou] -> y\n* [ptkgcsz]h+u+[aeo] -> w\n* ng -> q\n* tzi+aeou -> xi, tsi+aeou -> xy",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "nguphing": {
+      "schema_id": "nguphing",
+      "slug": "nguphing",
+      "display_name": "吳語拼音",
+      "branch": "wuu",
+      "dialect": "標準吳語",
+      "authors": [
+        "山前"
+      ],
+      "version": "20240224",
+      "description": "* 標準吳語\n* R/X/Q 代表平上去\n* 拼音反查撳Q，筆畫反查撳X",
+      "dependencies": [
+        "luna_pinyin",
+        "stroke"
+      ],
+      "license": null,
+      "recipe": "saeziae/nguphing",
+      "upstream_url": "https://github.com/saeziae/nguphing",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "ay_ncld": {
+      "schema_id": "ay_ncld",
+      "slug": "ay_ncld",
+      "display_name": "樂清柳東口音",
+      "branch": "wuu",
+      "dialect": "樂清話",
+      "authors": [
+        "寒逸"
+      ],
+      "version": "1.00",
+      "description": "適用於樂清柳東地區\n製作人：\n  * 字音表:寒逸\n  * 詞彙表:寒逸",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "lotem/rime-aoyu",
+      "upstream_url": "https://github.com/lotem/rime-aoyu",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "吳語/樂清話"
+    },
+    "ay_ncls": {
+      "schema_id": "ay_ncls",
+      "slug": "ay_ncls",
+      "display_name": "樂清柳西口音",
+      "branch": "wuu",
+      "dialect": "樂清話",
+      "authors": [
+        "寒逸"
+      ],
+      "version": "1.00",
+      "description": "適用於樂清柳西地區\n字音提供人：\n  林佳靜\n  吴落杰\n碼表編輯人:\n  寒逸",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "lotem/rime-aoyu",
+      "upstream_url": "https://github.com/lotem/rime-aoyu",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "吳語/樂清話"
+    },
+    "iuciou": {
+      "schema_id": "iuciou",
+      "slug": "iuciou",
+      "display_name": "甌語輸入輔",
+      "branch": "wuu",
+      "dialect": "溫州話",
+      "authors": [
+        "空埃",
+        "Telegram 〈@nezake5〉",
+        "email 〈stickytoffeepuddingwithcaramel@gmail.com〉",
+        "Discord 〈空埃#3329〉"
+      ],
+      "version": "1.0.0",
+      "description": "用「滬語」拼音的溫州話的輸入法",
+      "dependencies": [],
+      "license": null,
+      "recipe": "pearapple123/rime-iuciou",
+      "upstream_url": "https://github.com/pearapple123/rime-iuciou",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "吳語/溫州話"
+    },
+    "soutzoe": {
+      "schema_id": "soutzoe",
+      "slug": "soutzoe",
+      "display_name": "蘇州吳語",
+      "branch": "wuu",
+      "dialect": "蘇州話",
+      "authors": [
+        "寒寒豆",
+        "吳語越音"
+      ],
+      "version": "0.5",
+      "description": "蘇州言話，採用《吳語拉丁式注音法》拼寫\nhttp://input.foruto.com/wu/method.html",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "rime/rime-soutzoe",
+      "upstream_url": "https://github.com/rime/rime-soutzoe",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "shanghe_xhipin": {
+      "schema_id": "shanghe_xhipin",
+      "slug": "shanghe_xhipin",
+      "display_name": "上海中派（錢拼）",
+      "branch": "wuu",
+      "dialect": "上海話",
+      "authors": [
+        "Shin Zoqchiuq"
+      ],
+      "version": "0.4.0",
+      "description": "中派上海話輸入方案（錢拼）\n採用上海話拼音方案 正式（錢拼）\n本方案依賴於\n- 上海吳語拼音輸入方案 ℞ NGLI/rime-wugniu_zaonhe\nhttps://github.com/shinzoqchiuq/rime-shanghainese/",
+      "dependencies": [
+        "luna_pinyin",
+        "stroke"
+      ],
+      "license": null,
+      "recipe": "shinzoqchiuq/rime-shanghainese",
+      "upstream_url": "https://github.com/shinzoqchiuq/rime-shanghainese",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "zanghe_wrunri": {
+      "schema_id": "zanghe_wrunri",
+      "slug": "zanghe_wrunri",
+      "display_name": "上海中派（滬二）",
+      "branch": "wuu",
+      "dialect": "上海話",
+      "authors": [
+        "Shin Zoqchiuq"
+      ],
+      "version": "0.2.4",
+      "description": "中派上海話輸入方案（滬二）\n採用上海話拼音方案 副式（滬二）\n本方案依賴於\n- 上海吳語拼音輸入方案 ℞ NGLI/rime-wugniu_zaonhe\nhttps://github.com/shinzoqchiuq/rime-shanghainese/",
+      "dependencies": [
+        "luna_pinyin",
+        "stroke"
+      ],
+      "license": null,
+      "recipe": "shinzoqchiuq/rime-shanghainese",
+      "upstream_url": "https://github.com/shinzoqchiuq/rime-shanghainese",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "zaonhe_faqwu": {
+      "schema_id": "zaonhe_faqwu",
+      "slug": "zaonhe_faqwu",
+      "display_name": "上海中派（法吳）",
+      "branch": "wuu",
+      "dialect": "上海話",
+      "authors": [
+        "Shin Zoqchiuq"
+      ],
+      "version": "0.3.2",
+      "description": "中派上海話輸入方案（法吳）\n吳語拉丁式注音法（法吳）\n本方案依賴於\n- 上海吳語拼音輸入方案 ℞ NGLI/rime-wugniu_zaonhe\nhttps://github.com/shinzoqchiuq/rime-shanghainese/",
+      "dependencies": [
+        "luna_pinyin",
+        "stroke"
+      ],
+      "license": null,
+      "recipe": "shinzoqchiuq/rime-shanghainese",
+      "upstream_url": "https://github.com/shinzoqchiuq/rime-shanghainese",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "zonhe_nrss": {
+      "schema_id": "zonhe_nrss",
+      "slug": "zonhe_nrss",
+      "display_name": "上海中派（NRSS）",
+      "branch": "wuu",
+      "dialect": "上海話",
+      "authors": [
+        "Shin Zoqchiuq"
+      ],
+      "version": "0.3.2",
+      "description": "The New Romanization System of Shanghainese (NRSS)\n方案設計：沪语角 <930702500@qq.com>\n本方案依賴於\n- 上海吳語拼音輸入方案 ℞ NGLI/rime-wugniu_zaonhe\nhttps://github.com/shinzoqchiuq/rime-shanghainese/",
+      "dependencies": [
+        "luna_pinyin",
+        "stroke"
+      ],
+      "license": null,
+      "recipe": "shinzoqchiuq/rime-shanghainese",
+      "upstream_url": "https://github.com/shinzoqchiuq/rime-shanghainese",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "jap_poly": {
+      "schema_id": "jap_poly",
+      "slug": "jap_poly",
+      "display_name": "poly日文",
+      "branch": "extra",
+      "dialect": "日語漢字",
+      "authors": [
+        "polyhedron"
+      ],
+      "version": "2013.10.08",
+      "description": "日文假名輸入，小寫假名用x前導\n音讀用中文，其餘用假名（歷史的假名遣）\n即輸入“lekisiteki kanadukahi”，輸出“歷史的假なづかひ”\n可通過放開模糊控制，輸入現代假名遣而輸出歷史的假名遣及音讀正體漢字",
+      "dependencies": [],
+      "license": null,
+      "recipe": "biopolyhedron/rime-jap-poly",
+      "upstream_url": "https://github.com/biopolyhedron/rime-jap-poly",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "域外方音/日語漢字"
+    },
+    "hangeul": {
+      "schema_id": "hangeul",
+      "slug": "hangeul",
+      "display_name": "ハングル",
+      "branch": "extra",
+      "dialect": "朝鮮語漢字",
+      "authors": [
+        "chromezh"
+      ],
+      "version": "20190224 V1.0.01",
+      "description": "",
+      "dependencies": [],
+      "license": null,
+      "recipe": "sgalal/rime-hanja",
+      "upstream_url": "https://github.com/sgalal/rime-hanja",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "hanja": {
+      "schema_id": "hanja",
+      "slug": "hanja",
+      "display_name": "韓語漢字音",
+      "branch": "extra",
+      "dialect": "朝鮮語漢字",
+      "authors": [
+        "chromezh"
+      ],
+      "version": "20190224 V1.0.02",
+      "description": "Input schema for Korean Hanja. Depends on luna_pinyin for reverse lookup, and hangeul schema for input hangeul.",
+      "dependencies": [
+        "luna_pinyin",
+        "hangeul"
+      ],
+      "license": null,
+      "recipe": "sgalal/rime-hanja",
+      "upstream_url": "https://github.com/sgalal/rime-hanja",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "kunyomi": {
+      "schema_id": "kunyomi",
+      "slug": "kunyomi",
+      "display_name": "訓読み",
+      "branch": "extra",
+      "dialect": "日語漢字",
+      "authors": [
+        "sgalal"
+      ],
+      "version": "2020.07.09",
+      "description": "The kunyomi input method for rime.",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "sgalal/rime-kunyomi",
+      "upstream_url": "https://github.com/sgalal/rime-kunyomi",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "swiftkana": {
+      "schema_id": "swiftkana",
+      "slug": "swiftkana",
+      "display_name": "スイフトカナ",
+      "branch": "extra",
+      "dialect": "其他方案",
+      "authors": [
+        "sgalal"
+      ],
+      "version": "1.4.2",
+      "description": "スイフトカナ（Swift Kana）快速假名輸入方案。\n本方案使用 OpenCC 進行平假名/片假名轉換，使用前請將 hirakata.ocd 和 hira2kata.json 兩個文件置於 opencc 文件夾中。\n為使輸入時無需選字，撥音 ん 使用 nnn 輸入，以免出現諸如 nna 既表示 っな，又表示 んあ 的情況。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "tiingkin": {
+      "schema_id": "tiingkin",
+      "slug": "tiingkin",
+      "display_name": "𡦂喃㗂京中國",
+      "branch": "extra",
+      "dialect": "京語漢喃字",
+      "authors": [
+        "hulenkius"
+      ],
+      "version": "2023.06.02",
+      "description": "中國京語詞典字头\n需要 Nom Na Tong 字體私用區支持\n聲調用 telex 寫法，可省略\n長音雙寫\nɛ>ee　ɔ>oo　ɔː >ooo\nɯ>w　ə>y　ɤ>v\nɣ>ɡ　ŋ>ng \nʔ->x或不寫　ʔb>b　ʔd>d \nȵ>nh/nj　ɬ>lh",
+      "dependencies": [
+        "cangjie5"
+      ],
+      "license": null,
+      "recipe": "Hulenkius/rime_tiingkin",
+      "upstream_url": "https://github.com/Hulenkius/rime_tiingkin",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "域外方音/京語漢喃字"
+    },
+    "manchu_aligali": {
+      "schema_id": "manchu_aligali",
+      "slug": "manchu_aligali",
+      "display_name": "滿文阿禮嘎禮",
+      "branch": "extra",
+      "dialect": "其他方案",
+      "authors": [
+        "沈逸磊"
+      ],
+      "version": "20190728",
+      "description": "Manchu Ali-Gali input method\nFVS0=~ FVS1=' FVS2=\" FVS3=`\nanusvara=M visarga=:\ndamaru=;h ubadama=;p ubadama_alt=;f\nbaluda=;; baluda3;;;\nalep/SSBM/achen=A achung=E\na e i o u v I rI lI\n k g g;  h   \nG K   n; H   \nq; q j   x x; y \nC; C Z Z; N S  R \nc; c z z;  s s;  \nt; t d d; n   r l l;\np; p b b; m f  w",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "mipa": {
+      "schema_id": "mipa",
+      "slug": "mipa",
+      "display_name": "mIPA",
+      "branch": "extra",
+      "dialect": "其他方案",
+      "authors": [
+        "沈逸磊"
+      ],
+      "version": "2.0",
+      "description": "Seamless (ext)IPA input method, with phonological symbol extensions.\nThe author would like to thank 劉楚龍 for the preliminary work.\nInstructions:\n    The semicolon (;) is the delimiter.\n    Double letters are assigned to bizzare chars, alphabetically, 'ɑβçðɛɸɣɦɿʝɲɮɱŋɔ(p)(q)ɾʃθʊʋɯχʮʒ'.\n    Triple letters are assigned to small capitals.\n    Suffixal '9's are for alveolopalatals and chars bottom-left hooks,\n        '8's for retroflexes/rhotics,\n        '6's for reversed chars and chars with top-right hooks,\n        and '7's for turned/inverted chars.\n    Bars (-) / pipes (|) / slashes (/) / tildes (~) are suffixed to derive the corresponding chars. Bars (-) also indicate ligatures.\n    'q's are suffixed to derive superscripts.\n    Prefixal 'p's & 'pp's are for Chao's tone letters, and 'q's & 'qq's for super- & subscript numerals.\n    Prefixal single commas (,) are for supercombinings, double commas (,,) for subcombinings, triple commas (,,,) for overlayings, and apostrophes (') for spacing chars.\n    Prefixal '0's and '00's are for greeks and cyrillics.\n    The vowel chart: (Note that the code is not unique for some vowels. e.g. [ɘ] may either be 'e-' or 'e6'.)\n        Coronal vowels:\n            [ɿ]:ii  [ʮ]:yy  [ʅ]:i8  [ʯ]:y8\n        Dorsal vowels:\n            [i]:i   [y]:y   [ɨ]:i-  [ʉ]:u-  [ɯ]:ww  [u]:u\n            [ɪ]:iii [ʏ]:yyy                         [ʊ]:uuu\n            [e]:e   [ø]:o/  [ɘ]:e-  [ɵ]:o-  [ɤ]:e/  [o]:o\n                            [ə]:e7\n            [ɛ]:ee  [œ]:oe  [ɜ]:ee- [ɞ]:oo- [ʌ]:eo  [ɔ]:oo\n            [æ]:ae          [ɐ]:a7\n            [a]:a   [ɶ]:oeee                [ɑ]:aa  [ɒ]:aa7\nSee the DICT file for details. NOTE that you shall substitute '9' for '@9' & '@j', '8' for '@8', '7' for '@7', and '6' for '@6' & '@-'.",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "qyeishanglr_hanja": {
+      "schema_id": "qyeishanglr_hanja",
+      "slug": "qyeishanglr_hanja",
+      "display_name": "옛한글・漢字",
+      "branch": "extra",
+      "dialect": "朝鮮語漢字",
+      "authors": [
+        "沈逸磊",
+        "Patrick",
+        "polyhedron"
+      ],
+      "version": "20180902",
+      "description": "옛한글·漢字 input method\n\nㄱg ㄴn ㄷd ㄹr ㅁm ㅂb ㅅs ㅇq ㅈj\nㅊc ㅋk ㅌt ㅍp ㅎh\nㆁ; ㅿz ㆆx ㅸv\ndouble letter: 各字竝書\nsuffixing 1: 齒頭音\nsuffixing 2: 正齒音\nsuffixing q: light sound\nᄼᅠs1 ᅑᅠjj2 ㅹvv ㅱmq ㆄpq ᄛᅠrq\n\nㅏa ㅐai ㅑya ㅒyai ㅓe ㅔei ㅕye ㅖyei\nㅗo ㅘoa ㅙoai ㅚoi ㅛyo ㅜu ㅝue ㅞuei ㅟui ㅠyu\nㅡl ㅢli ㅣi ㆍf ㆎfi\n\nCoseongs(初聲) filler: 8\nJungseong(中聲) filler: 9\nsingle dot Bangjeom(傍點): 1\ndouble dot Bangjeom(傍點): 2\n\nUse apostrophe (') as the delimiter before complex Coseongs(初聲) when necessary.\nPress Space or 3~7 to yield dictionary match sequences; press Enter to yield combining jamo sequences.",
+      "dependencies": [],
+      "license": null,
+      "recipe": "biopolyhedron/rime-qyeyshanglr-hanja",
+      "upstream_url": "https://github.com/biopolyhedron/rime-qyeyshanglr-hanja",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "域外方音/朝鮮語漢字"
+    },
+    "hangyl": {
+      "schema_id": "hangyl",
+      "slug": "hangyl",
+      "display_name": "한글 ₀.₉₃",
+      "branch": "extra",
+      "dialect": "朝鮮語漢字",
+      "authors": [
+        "Patrick",
+        "雪齋"
+      ],
+      "version": "0.93",
+      "description": "한글입력법 for Rime\nㄱg ㄴn ㄷd ㄹlr ㅁm ㅂbv ㅅs ㅇqx\nㅈjz ㅊc ㅋk ㅌt ㅍpf ㅎh\nㅏaㅐai ㅑia ㅒiai ㅓe ㅔei ㅕie ㅖiei\nㅗo ㅘoa ㅙoai ㅚoi ㅛio\nㅜu ㅝue ㅞuei ㅟui ㅠiu\nㅡy ㅢyi ㅣi",
+      "dependencies": [],
+      "license": null,
+      "recipe": "rime-aca/rime-hangyl",
+      "upstream_url": "https://github.com/rime-aca/rime-hangyl",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "hangyl_hanja": {
+      "schema_id": "hangyl_hanja",
+      "slug": "hangyl_hanja",
+      "display_name": "한글・漢字 ₀.₅₁",
+      "branch": "extra",
+      "dialect": "朝鮮語漢字",
+      "authors": [
+        "Patrick"
+      ],
+      "version": "0.51",
+      "description": "朝鮮半島漢字音",
+      "dependencies": [],
+      "license": null,
+      "recipe": "rime-aca/rime-hangyl",
+      "upstream_url": "https://github.com/rime-aca/rime-hangyl",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "tai4bu1shang1": {
+      "schema_id": "tai4bu1shang1",
+      "slug": "tai4bu1shang1",
+      "display_name": "大埔聲",
+      "branch": "hak",
+      "dialect": "大埔話",
+      "authors": [
+        "以成"
+      ],
+      "version": "0.2.2",
+      "description": "大埔客家語拼音輸入方案\n採用臺灣客家語拼音方案\n(新增ae韻腹、er韻母以適配百侯話，顎化兼容將xi轉為hi)\n可輸入聲調 陰平陽入w 陽平y 上聲陰入x 去聲q\n兼容湖寮話、台灣大埔腔",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "huangjunxin/Rime-Hakka-TaibuShang",
+      "upstream_url": "https://github.com/huangjunxin/Rime-Hakka-TaibuShang",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "客家話/大埔話"
+    },
+    "hakka": {
+      "schema_id": "hakka",
+      "slug": "hakka",
+      "display_name": "客語",
+      "branch": "hak",
+      "dialect": "客家話綜合口音",
+      "authors": [
+        "www.syndict.com"
+      ],
+      "version": "2019.04.17",
+      "description": "碼表源自 薪典綜合口音",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "syndict/hakka",
+      "upstream_url": "https://github.com/syndict/hakka",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "客家話/客家話綜合口音"
+    },
+    "hakka_meixian": {
+      "schema_id": "hakka_meixian",
+      "slug": "hakka_meixian",
+      "display_name": "客語-梅縣",
+      "branch": "hak",
+      "dialect": "梅縣話",
+      "authors": [
+        "www.syndict.com"
+      ],
+      "version": "2019.04.17",
+      "description": "碼表源自 薪典",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "syndict/hakka",
+      "upstream_url": "https://github.com/syndict/hakka",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "客家話/梅縣話"
+    },
+    "jieny": {
+      "schema_id": "jieny",
+      "slug": "jieny",
+      "display_name": "嘉樂泉話",
+      "branch": "cjy",
+      "dialect": "晉語",
+      "authors": [
+        "noazeioai",
+        "1066693321@qq.com"
+      ],
+      "version": "0.7390851332152",
+      "description": "",
+      "dependencies": [
+        "jieny",
+        "cangjie5"
+      ],
+      "license": null,
+      "recipe": "iaoiezaon/rime-jieny",
+      "upstream_url": "https://github.com/iaoiezaon/rime-jieny",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "晉語/嘉樂泉話"
+    },
+    "fengyo": {
+      "schema_id": "fengyo",
+      "slug": "fengyo",
+      "display_name": "汾阳拼音",
+      "branch": "cjy",
+      "dialect": "晉語",
+      "authors": [
+        "字表录入与维护：Hynuza",
+        "词汇表提供：李卫锋",
+        "字表、词汇表处理：侯睿"
+      ],
+      "version": "2022.05.18",
+      "description": "字表依1963年赵骏程著《汾阳话与普通话》及2018年李卫锋著《汾阳方言研究》同音字表增补整理而成。\n词汇表来自《汾阳方言研究》由作者李卫锋提供",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "Hynuza/fengyo",
+      "upstream_url": "https://github.com/Hynuza/fengyo",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "晉語/汾陽話"
+    },
+    "langjin": {
+      "schema_id": "langjin",
+      "slug": "langjin",
+      "display_name": "南京官話拼音",
+      "branch": "cmn",
+      "dialect": "江淮官話",
+      "authors": [
+        "李鬱"
+      ],
+      "version": "2019.02.14",
+      "description": "南京官話輸入法\n項目主頁 https://github.com/uliloewi/lang2jin1\n拼音教程 https://uliloewi.github.io/LangJinPinIn/SUMMARY",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "uliloewi/lang2jin1",
+      "upstream_url": "https://github.com/uliloewi/lang2jin1",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "官話/江淮官話/南京話"
+    },
+    "ntw": {
+      "schema_id": "ntw",
+      "slug": "ntw",
+      "display_name": "南通方言",
+      "branch": "cmn",
+      "dialect": "江淮官話",
+      "authors": [
+        "本源斋主人 水月"
+      ],
+      "version": "1.0",
+      "description": "南通话拼寫方案採用《南通话输入法拼音方案》\nhttps://pan.baidu.com/s/1tUkBWgaNdl8dh8E8fDSHmg",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "gaozhiyan/nt_input",
+      "upstream_url": "https://github.com/gaozhiyan/nt_input",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "官話/江淮官話/南通話"
+    },
+    "taerv": {
+      "schema_id": "taerv",
+      "slug": "taerv",
+      "display_name": "泰如拼音",
+      "branch": "cmn",
+      "dialect": "江淮官話",
+      "authors": [
+        "hisahara"
+      ],
+      "version": "2020.6",
+      "description": "http://taerv.nguyoeh.com/",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "osfans/rime-taerv",
+      "upstream_url": "https://github.com/osfans/rime-taerv",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "官話/江淮官話/通泰話"
+    },
+    "huaipinquiizi": {
+      "schema_id": "huaipinquiizi",
+      "slug": "huaipinquiizi",
+      "display_name": "淮拼（全字）",
+      "branch": "cmn",
+      "dialect": "江淮官話",
+      "authors": [
+        "三孕"
+      ],
+      "version": "1.2",
+      "description": "專門爲淮安方案設計的輸入法方案",
+      "dependencies": [],
+      "license": null,
+      "recipe": "Sonner114514/huaipin",
+      "upstream_url": "https://github.com/Sonner114514/huaipin",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "官話/江淮官話/淮安話"
+    },
+    "huaipinsuangzi": {
+      "schema_id": "huaipinsuangzi",
+      "slug": "huaipinsuangzi",
+      "display_name": "淮拼（雙字）",
+      "branch": "cmn",
+      "dialect": "江淮官話",
+      "authors": [
+        "三孕"
+      ],
+      "version": "1.1",
+      "description": "專門爲淮安方案設計的雙拼輸入法方案",
+      "dependencies": [],
+      "license": null,
+      "recipe": "Sonner114514/huaipin",
+      "upstream_url": "https://github.com/Sonner114514/huaipin",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "官話/江淮官話/淮安話"
+    },
+    "sautungva": {
+      "schema_id": "sautungva",
+      "slug": "sautungva",
+      "display_name": "邵東話",
+      "branch": "hsn",
+      "dialect": "邵東話",
+      "authors": [
+        "轀輬"
+      ],
+      "version": "0.1",
+      "description": "「邵東話拼音自編」，以按鍵qrwj輸入五聲（聽感近似的陰陽去聲45皆用j表示）",
+      "dependencies": [
+        "luna_pinyin",
+        "kana",
+        "oldhangeul",
+        "cyrillic"
+      ],
+      "license": null,
+      "recipe": "AlfredLouis00/rime-Sautungva",
+      "upstream_url": "https://github.com/AlfredLouis00/rime-Sautungva",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "湘語/邵東話"
+    },
+    "sautungva_beta": {
+      "schema_id": "sautungva_beta",
+      "slug": "sautungva_beta",
+      "display_name": "邵東話測試",
+      "branch": "hsn",
+      "dialect": "邵東話",
+      "authors": [
+        "轀輬"
+      ],
+      "version": "0.1",
+      "description": "「邵東話拼音魔改」，以按鍵qrwj輸入五聲（聽感近似的陰陽去聲45皆用j表示）",
+      "dependencies": [
+        "luna_pinyin",
+        "kana",
+        "oldhangeul",
+        "cyrillic",
+        "njerchet"
+      ],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "sautungva_cyrillic": {
+      "schema_id": "sautungva_cyrillic",
+      "slug": "sautungva_cyrillic",
+      "display_name": "邵東話西里爾",
+      "branch": "hsn",
+      "dialect": "邵東話",
+      "authors": [
+        "轀輬"
+      ],
+      "version": "0.1",
+      "description": "「邵東話西里尔拼音自編」，以按鍵ьъшрж輸入五聲（聽感近似的陰陽去聲45皆可以用р表示）",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "sautungva_phinin": {
+      "schema_id": "sautungva_phinin",
+      "slug": "sautungva_phinin",
+      "display_name": "邵東話拼音",
+      "branch": "hsn",
+      "dialect": "邵東話",
+      "authors": [
+        "轀輬"
+      ],
+      "version": "0.1",
+      "description": "「邵東話拼音自編」",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "AlfredLouis00/rime-Sautungva",
+      "upstream_url": "https://github.com/AlfredLouis00/rime-Sautungva",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "湘語/邵東話"
+    },
+    "naamning_baakwaa": {
+      "schema_id": "naamning_baakwaa",
+      "slug": "naamning_baakwaa",
+      "display_name": "南寧白話",
+      "branch": "yue",
+      "dialect": "南寧白話",
+      "authors": [
+        "LeiMaau"
+      ],
+      "version": "2026.02.22",
+      "description": "採用香港語言學學會粵語拼音方案\n提供聲調輸入 q平 v上 x去 （雙擊爲陽調）和多種字形轉換\n提供四種反查方案，[`]普拼反查粵拼，[x]五筆畫反查粵拼，[v]倉頡五代反查粵拼，[r]粵語兩分反查粵拼\nPC上按Ctrl+Enter可將提示音上屏，按Ctrl+Shift+Enter可將候選項上屏",
+      "dependencies": [
+        "luna_pinyin",
+        "stroke",
+        "cangjie5",
+        "loengfan"
+      ],
+      "license": null,
+      "recipe": "leimaau/naamning_jyutping",
+      "upstream_url": "https://github.com/leimaau/naamning_jyutping",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "粵語/南寧白話"
+    },
+    "naamning_baakwaa_ipa": {
+      "schema_id": "naamning_baakwaa_ipa",
+      "slug": "naamning_baakwaa_ipa",
+      "display_name": "南寧白話(IPA)",
+      "branch": "yue",
+      "dialect": "其他方案",
+      "authors": [
+        "LeiMaau"
+      ],
+      "version": "2026.02.22",
+      "description": "採用香港語言學學會粵語拼音方案\n提供聲調輸入 q平 v上 x去 （雙擊爲陽調）和多種字形轉換\n提供四種反查方案，[`]普拼反查粵拼，[x]五筆畫反查粵拼，[v]倉頡五代反查粵拼，[r]粵語兩分反查粵拼\nPC上按Ctrl+Enter可將提示音上屏，按Ctrl+Shift+Enter可將候選項上屏",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "naamning_bingwaa": {
+      "schema_id": "naamning_bingwaa",
+      "slug": "naamning_bingwaa",
+      "display_name": "南寧(亭子)平話",
+      "branch": "csp",
+      "dialect": "南寧平話",
+      "authors": [
+        "LeiMaau"
+      ],
+      "version": "2026.02.22",
+      "description": "採用香港語言學學會粵語拼音方案\n提供聲調輸入 q平 v上 x去 （雙擊爲陽調）和多種字形轉換\n提供四種反查方案，[`]普拼反查粵拼，[x]五筆畫反查粵拼，[v]倉頡五代反查粵拼，[r]粵語兩分反查粵拼\nPC上按Ctrl+Enter可將提示音上屏，按Ctrl+Shift+Enter可將候選項上屏",
+      "dependencies": [
+        "luna_pinyin",
+        "stroke",
+        "cangjie5",
+        "loengfan"
+      ],
+      "license": null,
+      "recipe": "leimaau/naamning_jyutping",
+      "upstream_url": "https://github.com/leimaau/naamning_jyutping",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "南部平話/南寧平話"
+    },
+    "naamning_bingwaa_ipa": {
+      "schema_id": "naamning_bingwaa_ipa",
+      "slug": "naamning_bingwaa_ipa",
+      "display_name": "南寧(亭子)平話(IPA)",
+      "branch": "yue",
+      "dialect": "其他方案",
+      "authors": [
+        "LeiMaau"
+      ],
+      "version": "2026.02.22",
+      "description": "採用香港語言學學會粵語拼音方案\n提供聲調輸入 q平 v上 x去 （雙擊爲陽調）和多種字形轉換\n提供四種反查方案，[`]普拼反查粵拼，[x]五筆畫反查粵拼，[v]倉頡五代反查粵拼，[r]粵語兩分反查粵拼\nPC上按Ctrl+Enter可將提示音上屏，按Ctrl+Shift+Enter可將候選項上屏",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "gene": {
+      "schema_id": "gene",
+      "slug": "gene",
+      "display_name": "台山話",
+      "branch": "yue",
+      "dialect": "台山話",
+      "authors": [
+        "𥹘𥼱〈Discord 𥹘𥼱#3329〉",
+        "suspiciouscactus〈Discord suspiciouscactus#2120〉"
+      ],
+      "version": "0.0.0",
+      "description": "採用陳振文「Gene Chin」台山話拼系輸入法 https://sites.fitnyc.edu/users/gene_chin/hed/intro/index.htm 支援聲調顯示同輸入",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "pearapple123/rime-hoisanva",
+      "upstream_url": "https://github.com/pearapple123/rime-hoisanva",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "粵語/台山話"
+    },
+    "gene_numeric": {
+      "schema_id": "gene_numeric",
+      "slug": "gene_numeric",
+      "display_name": "台山話（數字聲調版）",
+      "branch": "yue",
+      "dialect": "台山話",
+      "authors": [
+        "𥹘𥼱〈Discord 𥹘𥼱#3329〉",
+        "suspiciouscactus〈Discord suspiciouscactus#2120〉"
+      ],
+      "version": "0.0.0",
+      "description": "陳振文「Gene Chin」台山話拼系輸入法 https://sites.fitnyc.edu/users/gene_chin/hed/intro/index.htm 支援數字聲調顯示同輸入",
+      "dependencies": [],
+      "license": null,
+      "recipe": "pearapple123/rime-hoisanva",
+      "upstream_url": "https://github.com/pearapple123/rime-hoisanva",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "粵語/台山話"
+    },
+    "hamzau_jyutping": {
+      "schema_id": "hamzau_jyutping",
+      "slug": "hamzau_jyutping",
+      "display_name": "欽拼",
+      "branch": "yue",
+      "dialect": "欽州話",
+      "authors": [
+        "Dr.Khuy"
+      ],
+      "version": "201026",
+      "description": "基于香港語言學會粵語拼音方案",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "LaiJoengzit/hamzau_jyutping",
+      "upstream_url": "https://github.com/LaiJoengzit/hamzau_jyutping",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "粵語/欽州話"
+    },
+    "gaulau_jyutping_dangjun": {
+      "schema_id": "gaulau_jyutping_dangjun",
+      "slug": "gaulau_jyutping_dangjun",
+      "display_name": "勾漏粤拼藤县白话",
+      "branch": "yue",
+      "dialect": "藤縣話",
+      "authors": [
+        "safetychinese"
+      ],
+      "version": "2.00",
+      "description": "藤县白话 採用香港語言學會粵語拼音方案并修改。\nhttps://www.lshk.org/jyutping",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "cryptogun/gaulau_jyutping",
+      "upstream_url": "https://github.com/cryptogun/gaulau_jyutping",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "粵語/藤縣話"
+    },
+    "hkcantonese": {
+      "schema_id": "hkcantonese",
+      "slug": "hkcantonese",
+      "display_name": "香港廣東話拼音",
+      "branch": "yue",
+      "dialect": "廣州話",
+      "authors": [
+        "Matthew Wo"
+      ],
+      "version": "0.2",
+      "description": "香港廣東話拼音方案\nhttps://zh.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E6%94%BF%E5%BA%9C%E7%B2%B5%E8%AA%9E%E6%8B%BC%E9%9F%B3",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "rime/rime-jyutping",
+      "upstream_url": "https://github.com/rime/rime-jyutping",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "jyutping": {
+      "schema_id": "jyutping",
+      "slug": "jyutping",
+      "display_name": "粵語拼音（無聲調）",
+      "branch": "yue",
+      "dialect": "廣州話",
+      "authors": [
+        "佛振",
+        "LeiMaau",
+        "劉邦後代"
+      ],
+      "version": "0.15",
+      "description": "採用香港語言學會粵語拼音方案\nhttps://www.lshk.org/jyutping\n兼容教育學院拼音方案\n碼表源自 scim-table-zh",
+      "dependencies": [
+        "luna_pinyin",
+        "stroke",
+        "cangjie5"
+      ],
+      "license": null,
+      "recipe": "rime/rime-jyutping",
+      "upstream_url": "https://github.com/rime/rime-jyutping",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "粵語/廣州話"
+    },
+    "yale": {
+      "schema_id": "yale",
+      "slug": "yale",
+      "display_name": "耶魯粵語拼音",
+      "branch": "yue",
+      "dialect": "廣州話",
+      "authors": [
+        "幸延"
+      ],
+      "version": "0.1",
+      "description": "耶魯粵語拼音方案\nhttps://zh-yue.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E8%AA%9E%E8%A8%80%E5%AD%B8%E5%AD%B8%E6%9C%83%E7%B2%B5%E8%AA%9E%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "rime/rime-jyutping",
+      "upstream_url": "https://github.com/rime/rime-jyutping",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "jyutping_plus": {
+      "schema_id": "jyutping_plus",
+      "slug": "jyutping_plus",
+      "display_name": "粵拼⁺ ₀.₉₆",
+      "branch": "yue",
+      "dialect": "廣州話",
+      "authors": [
+        "佛振",
+        "Patrick"
+      ],
+      "version": "0.96",
+      "description": "由默認ヶ「粵拼」方案改良而成\n採用『香港語言學會粵語拼音方案』\nhttp://www.lshk.org/cantonese.php\n提示碼爲IPA （粵拼 jyːt̚ pʰɪŋ）\n聲調輸入 q平 v上 x去 （雙擊爲陽調）\n並支持最新版ヶsymbols.yaml",
+      "dependencies": [
+        "jyutping"
+      ],
+      "license": null,
+      "recipe": "rime-aca/rime-jyutping-plus",
+      "upstream_url": "https://github.com/rime-aca/rime-jyutping-plus",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "zyujam": {
+      "schema_id": "zyujam",
+      "slug": "zyujam",
+      "display_name": "粵語注音",
+      "branch": "yue",
+      "dialect": "廣州話",
+      "authors": [
+        "Andrew D. M. PARKE",
+        "雪齋"
+      ],
+      "version": "0.1",
+      "description": "基於國語和臺語註音方案製作",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "rime-aca/rime-zyujam",
+      "upstream_url": "https://github.com/rime-aca/rime-zyujam",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "jyutping_compact": {
+      "schema_id": "jyutping_compact",
+      "slug": "jyutping_compact",
+      "display_name": "袖珍粵拼",
+      "branch": "yue",
+      "dialect": "廣州話",
+      "authors": [
+        "雪齋"
+      ],
+      "version": "0.9.5",
+      "description": "採用「香港語言學會粵語拼音方案」\n簡拼不帶聲調三碼以內，帶聲調四碼以內\n僅使用個字母輸入",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "rime-aca/rime-jyutping-compact",
+      "upstream_url": "https://github.com/rime-aca/rime-jyutping-compact",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "HinghuaBUC": {
+      "schema_id": "HinghuaBUC",
+      "slug": "HinghuaBUC",
+      "display_name": "興化語平話字",
+      "branch": "cpx",
+      "dialect": "莆田話",
+      "authors": [
+        "文本：芽油",
+        "程序：子善"
+      ],
+      "version": "2019.2.25.1",
+      "description": "测试版 v0.1",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "Yaryou/HinghuaFactory",
+      "upstream_url": "https://github.com/Yaryou/HinghuaFactory",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "Pouleng": {
+      "schema_id": "Pouleng",
+      "slug": "Pouleng",
+      "display_name": "莆仙話拼音-莆田",
+      "branch": "cpx",
+      "dialect": "莆田話",
+      "authors": [
+        "文本：芽油",
+        "程序：子善"
+      ],
+      "version": "2019.11.22.1",
+      "description": "測試版 v0.1詞彙錄入中 討論羣「莆仙興化閩語 643608959」",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "Yaryou/HinghuaFactory",
+      "upstream_url": "https://github.com/Yaryou/HinghuaFactory",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "莆仙語/莆田話"
+    },
+    "huanggang": {
+      "schema_id": "huanggang",
+      "slug": "huanggang",
+      "display_name": "黃岡",
+      "branch": "cmn",
+      "dialect": "西南官話",
+      "authors": [
+        "知乎 羽隨風飛"
+      ],
+      "version": "2019.5.1",
+      "description": "https://www.zhihu.com/people/yu-sui-feng-fei-81",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "yuxifongfei/hubehua",
+      "upstream_url": "https://github.com/yuxifongfei/hubehua",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "官話/西南官話/湖北話/黃岡鄂城話"
+    },
+    "huanggangxiangzhen": {
+      "schema_id": "huanggangxiangzhen",
+      "slug": "huanggangxiangzhen",
+      "display_name": "黃岡（混胡符版）",
+      "branch": "cmn",
+      "dialect": "西南官話",
+      "authors": [
+        "知乎 羽隨風飛"
+      ],
+      "version": "2019.5.1",
+      "description": "https://www.zhihu.com/people/yu-sui-feng-fei-81",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "yuxifongfei/hubehua",
+      "upstream_url": "https://github.com/yuxifongfei/hubehua",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "官話/西南官話/湖北話/黃岡鄂城話"
+    },
+    "ngocen": {
+      "schema_id": "ngocen",
+      "slug": "ngocen",
+      "display_name": "鄂城",
+      "branch": "cmn",
+      "dialect": "西南官話",
+      "authors": [
+        "知乎 羽隨風飛"
+      ],
+      "version": "2019.5.15",
+      "description": "https://www.zhihu.com/people/yu-sui-feng-fei-81",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "yuxifongfei/hubehua",
+      "upstream_url": "https://github.com/yuxifongfei/hubehua",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "官話/西南官話/湖北話/黃岡鄂城話"
+    },
+    "wuhan": {
+      "schema_id": "wuhan",
+      "slug": "wuhan",
+      "display_name": "武漢",
+      "branch": "cmn",
+      "dialect": "西南官話",
+      "authors": [
+        "知乎 羽隨風飛"
+      ],
+      "version": "2019.5.1",
+      "description": "https://www.zhihu.com/people/yu-sui-feng-fei-81",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "yuxifongfei/hubehua",
+      "upstream_url": "https://github.com/yuxifongfei/hubehua",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "官話/西南官話/湖北話/武漢話"
+    },
+    "yunciu": {
+      "schema_id": "yunciu",
+      "slug": "yunciu",
+      "display_name": "永州官話",
+      "branch": "cmn",
+      "dialect": "西南官話",
+      "authors": [
+        "Shin Zoqchiuq"
+      ],
+      "version": "0.0.6",
+      "description": "零陵口音\nhttps://github.com/shinzoqchiuq/rime-yunciu/",
+      "dependencies": [
+        "luna_pinyin",
+        "stroke"
+      ],
+      "license": null,
+      "recipe": "shinzoqchiuq/rime-yunciu",
+      "upstream_url": "https://github.com/shinzoqchiuq/rime-yunciu",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "官話/西南官話/永州官話"
+    },
+    "shupin_cendu": {
+      "schema_id": "shupin_cendu",
+      "slug": "shupin_cendu",
+      "display_name": "蜀拼-成都",
+      "branch": "cmn",
+      "dialect": "西南官話",
+      "authors": [
+        "Ciphotis",
+        "涼風Papnas",
+        "旷_野",
+        "soenghaagong",
+        "holy19891004"
+      ],
+      "version": "0.99",
+      "description": "「四川話通音」，以符號按鍵 - < \\ / q 輸入五聲",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "Papnas/shupin",
+      "upstream_url": "https://github.com/Papnas/shupin",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "官話/西南官話/四川話/成都話"
+    },
+    "shupin_cendu_9key": {
+      "schema_id": "shupin_cendu_9key",
+      "slug": "shupin_cendu_9key",
+      "display_name": "蜀拼9Key-成都",
+      "branch": "cmn",
+      "dialect": "西南官話",
+      "authors": [
+        "Ciphotis",
+        "涼風Papnas",
+        "旷_野",
+        "soenghaagong",
+        "holy19891004"
+      ],
+      "version": "0.99",
+      "description": "「四川話通音」，以符號按鍵 - < \\ / q 輸入五聲",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "shupin_congqin": {
+      "schema_id": "shupin_congqin",
+      "slug": "shupin_congqin",
+      "display_name": "蜀拼-重慶",
+      "branch": "cmn",
+      "dialect": "西南官話",
+      "authors": [
+        "Ciphotis",
+        "涼風Papnas",
+        "旷_野",
+        "soenghaagong",
+        "holy19891004"
+      ],
+      "version": "0.99",
+      "description": "「四川話通音」，以符號按鍵 - < \\ / q 輸入五聲",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "Papnas/shupin",
+      "upstream_url": "https://github.com/Papnas/shupin",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "官話/西南官話/四川話/重慶話"
+    },
+    "shupin_guiyang": {
+      "schema_id": "shupin_guiyang",
+      "slug": "shupin_guiyang",
+      "display_name": "蜀拼-貴陽",
+      "branch": "cmn",
+      "dialect": "西南官話",
+      "authors": [
+        "Ciphotis",
+        "涼風Papnas",
+        "旷_野",
+        "soenghaagong",
+        "holy19891004"
+      ],
+      "version": "0.99",
+      "description": "「四川話通音」，以符號按鍵 - < \\ / q 輸入五聲",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "Papnas/shupin",
+      "upstream_url": "https://github.com/Papnas/shupin",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "官話/西南官話/四川話/貴陽話"
+    },
+    "shupin_libin": {
+      "schema_id": "shupin_libin",
+      "slug": "shupin_libin",
+      "display_name": "蜀拼-宜賓",
+      "branch": "cmn",
+      "dialect": "西南官話",
+      "authors": [
+        "Ciphotis",
+        "涼風Papnas",
+        "旷_野",
+        "soenghaagong",
+        "holy19891004"
+      ],
+      "version": "0.99",
+      "description": "「四川話通音」，以符號按鍵 - < \\ / q 輸入五聲",
+      "dependencies": [
+        "cangjie5"
+      ],
+      "license": null,
+      "recipe": "Papnas/shupin",
+      "upstream_url": "https://github.com/Papnas/shupin",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "官話/西南官話/四川話/宜賓話"
+    },
+    "shupin_tongyin": {
+      "schema_id": "shupin_tongyin",
+      "slug": "shupin_tongyin",
+      "display_name": "蜀拼通音",
+      "branch": "cmn",
+      "dialect": "西南官話",
+      "authors": [
+        "Ciphotis",
+        "涼風Papnas",
+        "旷_野",
+        "soenghaagong",
+        "holy19891004"
+      ],
+      "version": "0.99",
+      "description": "「四川話通音」，以符號按鍵 - < \\ / q 輸入五聲",
+      "dependencies": [
+        "cangjie5"
+      ],
+      "license": null,
+      "recipe": "Papnas/shupin",
+      "upstream_url": "https://github.com/Papnas/shupin",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "官話/西南官話/四川話/四川話通音"
+    },
+    "shupin_zigong": {
+      "schema_id": "shupin_zigong",
+      "slug": "shupin_zigong",
+      "display_name": "蜀拼-自貢",
+      "branch": "cmn",
+      "dialect": "西南官話",
+      "authors": [
+        "Ciphotis",
+        "涼風Papnas",
+        "旷_野",
+        "soenghaagong",
+        "holy19891004"
+      ],
+      "version": "0.99",
+      "description": "「四川話通音」，以符號按鍵 - < \\ / q 輸入五聲",
+      "dependencies": [
+        "cangjie5"
+      ],
+      "license": null,
+      "recipe": "Papnas/shupin",
+      "upstream_url": "https://github.com/Papnas/shupin",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "官話/西南官話/四川話/自貢話"
+    },
+    "fudiufa": {
+      "schema_id": "fudiufa",
+      "slug": "fudiufa",
+      "display_name": "撫州話",
+      "branch": "gan",
+      "dialect": "撫州話",
+      "authors": [
+        "苦芋頭",
+        "微信：Colescu"
+      ],
+      "version": "2026.05.18",
+      "description": "",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "colescu/rime-fudiufa",
+      "upstream_url": "https://github.com/colescu/rime-fudiufa",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "贛語/撫州話"
+    },
+    "lmc": {
+      "schema_id": "lmc",
+      "slug": "lmc",
+      "display_name": "羅馬字〔建甌〕",
+      "branch": "mnp",
+      "dialect": "建寧府方言",
+      "authors": [
+        "triehhoo"
+      ],
+      "version": "2017.09.23",
+      "description": "建寧府羅馬字輸入法",
+      "dependencies": [],
+      "license": null,
+      "recipe": "triehhoo/svnihua",
+      "upstream_url": "https://github.com/triehhoo/svnihua",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "閩北語/建寧府方言"
+    },
+    "taigi_tps": {
+      "schema_id": "taigi_tps",
+      "slug": "taigi_tps",
+      "display_name": "台語方音",
+      "branch": "nan",
+      "dialect": "臺灣閩南語",
+      "authors": [
+        "Yu-Ren Pan"
+      ],
+      "version": "0.4",
+      "description": "對 bopomofo 來修改\n\n鍵盤對應：\n  ㄅ ㄉ ３ ２ ７ ５ ． ㄚ ㄞ ㄢ ｎ\n  ㄆ ㄊ ㄍ ㄐ ㆣ ㄗ ㄧ ㆦ ㆤ ㄣ\n  ㄇ ㄋ ㄎ ㄑ ㄫ ㄘ ㄨ ㄜ ㄠ ㄤ\n  ㆠ ㄌ ㄏ ㄒ Ｊ ㄙ ㆬ ㆰ ㆲ ㆭ",
+      "dependencies": [],
+      "license": null,
+      "recipe": "YuRen-tw/rime-taigi-tps",
+      "upstream_url": "https://github.com/YuRen-tw/rime-taigi-tps",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "diege": {
+      "schema_id": "diege",
+      "slug": "diege",
+      "display_name": "潮語（帶潮語形聲鍵盤）",
+      "branch": "nan",
+      "dialect": "潮州話",
+      "authors": [
+        "鴻志",
+        "貼吧 femkerr",
+        "github 項目主頁：http://femkerr.github.io/dieghe/"
+      ],
+      "version": "2.0",
+      "description": "潮汕话輸入方案",
+      "dependencies": [],
+      "license": null,
+      "recipe": "femkerr/dieghe",
+      "upstream_url": "https://github.com/femkerr/dieghe",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "diege_gb": {
+      "schema_id": "diege_gb",
+      "slug": "diege_gb",
+      "display_name": "潮語（形聲鍵盤）",
+      "branch": "nan",
+      "dialect": "潮州話",
+      "authors": [
+        "鴻志",
+        "貼吧 femkerr",
+        "github 項目主頁：http://femkerr.github.io/dieghe/"
+      ],
+      "version": "2.0",
+      "description": "潮汕话輸入方案",
+      "dependencies": [],
+      "license": null,
+      "recipe": "femkerr/dieghe",
+      "upstream_url": "https://github.com/femkerr/dieghe",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "diege_j": {
+      "schema_id": "diege_j",
+      "slug": "diege_j",
+      "display_name": "潮語",
+      "branch": "nan",
+      "dialect": "潮州話",
+      "authors": [
+        "鴻志",
+        "貼吧 femkerr",
+        "github 項目主頁：http://femkerr.github.io/dieghe/"
+      ],
+      "version": "1.6",
+      "description": "潮汕话輸入方案",
+      "dependencies": [],
+      "license": null,
+      "recipe": "femkerr/dieghe",
+      "upstream_url": "https://github.com/femkerr/dieghe",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "dieziu": {
+      "schema_id": "dieziu",
+      "slug": "dieziu",
+      "display_name": "潮語拼音·潮州",
+      "branch": "nan",
+      "dialect": "潮州話",
+      "authors": [
+        "騰達"
+      ],
+      "version": "2019.02.11",
+      "description": "潮語拼音輸入法\n項目主頁 https://kahaani.github.io/dieghv\n拼音教程 https://kahaani.github.io/gatian",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "kahaani/dieghv",
+      "upstream_url": "https://github.com/kahaani/dieghv",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "閩南語/潮州話"
+    },
+    "dioion": {
+      "schema_id": "dioion",
+      "slug": "dioion",
+      "display_name": "潮語拼音·潮陽",
+      "branch": "nan",
+      "dialect": "潮陽話",
+      "authors": [
+        "騰達"
+      ],
+      "version": "2019.02.11",
+      "description": "潮語拼音輸入法\n項目主頁 https://kahaani.github.io/dieghv\n拼音教程 https://kahaani.github.io/gatian",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "kahaani/dieghv",
+      "upstream_url": "https://github.com/kahaani/dieghv",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "閩南語/潮陽話"
+    },
+    "gekion": {
+      "schema_id": "gekion",
+      "slug": "gekion",
+      "display_name": "潮語拼音·揭陽",
+      "branch": "nan",
+      "dialect": "揭陽話",
+      "authors": [
+        "騰達"
+      ],
+      "version": "2019.02.11",
+      "description": "潮語拼音輸入法\n項目主頁 https://kahaani.github.io/dieghv\n拼音教程 https://kahaani.github.io/gatian",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "kahaani/dieghv",
+      "upstream_url": "https://github.com/kahaani/dieghv",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "閩南語/揭陽話"
+    },
+    "riaupeng": {
+      "schema_id": "riaupeng",
+      "slug": "riaupeng",
+      "display_name": "潮語拼音·饒平",
+      "branch": "nan",
+      "dialect": "饒平話",
+      "authors": [
+        "騰達"
+      ],
+      "version": "2019.02.11",
+      "description": "潮語拼音輸入法\n項目主頁 https://kahaani.github.io/dieghv\n拼音教程 https://kahaani.github.io/gatian",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "kahaani/dieghv",
+      "upstream_url": "https://github.com/kahaani/dieghv",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "閩南語/饒平話"
+    },
+    "suantau": {
+      "schema_id": "suantau",
+      "slug": "suantau",
+      "display_name": "潮語拼音·汕頭",
+      "branch": "nan",
+      "dialect": "汕頭話",
+      "authors": [
+        "騰達"
+      ],
+      "version": "2019.02.11",
+      "description": "潮語拼音輸入法\n項目主頁 https://kahaani.github.io/dieghv\n拼音教程 https://kahaani.github.io/gatian",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "kahaani/dieghv",
+      "upstream_url": "https://github.com/kahaani/dieghv",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "閩南語/汕頭話"
+    },
+    "tenghai": {
+      "schema_id": "tenghai",
+      "slug": "tenghai",
+      "display_name": "潮語拼音·澄海",
+      "branch": "nan",
+      "dialect": "澄海話",
+      "authors": [
+        "騰達"
+      ],
+      "version": "2019.02.11",
+      "description": "潮語拼音輸入法\n項目主頁 https://kahaani.github.io/dieghv\n拼音教程 https://kahaani.github.io/gatian",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "kahaani/dieghv",
+      "upstream_url": "https://github.com/kahaani/dieghv",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "閩南語/澄海話"
+    },
+    "blg_etai": {
+      "schema_id": "blg_etai",
+      "slug": "blg_etai",
+      "display_name": "廈台閩語",
+      "branch": "nan",
+      "dialect": "廈門話",
+      "authors": [
+        "阿托",
+        "阿濤"
+      ],
+      "version": "1.0",
+      "description": "閩南語輸入方案\n採用「臺灣閩南語羅馬字拼音方案」\nhttp://www.ntcu.edu.tw/tailo/",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "LimTo/etaiBLG",
+      "upstream_url": "https://github.com/LimTo/etaiBLG",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "blg_ha": {
+      "schema_id": "blg_ha",
+      "slug": "blg_ha",
+      "display_name": "閩南語廈門音",
+      "branch": "nan",
+      "dialect": "廈門話",
+      "authors": [
+        "阿托"
+      ],
+      "version": "1.0",
+      "description": "閩南語輸入方案\n採用「臺灣閩南語羅馬字拼音方案」\nhttp://www.ntcu.edu.tw/tailo/",
+      "dependencies": [],
+      "license": null,
+      "recipe": "a-thok/rime-hokkien",
+      "upstream_url": "https://github.com/a-thok/rime-hokkien",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "閩南語/廈門話"
+    },
+    "blg_tai": {
+      "schema_id": "blg_tai",
+      "slug": "blg_tai",
+      "display_name": "閩南語臺灣音",
+      "branch": "nan",
+      "dialect": "臺灣閩南語",
+      "authors": [
+        "阿托"
+      ],
+      "version": "0.5",
+      "description": "閩南語輸入方案\n採用「臺灣閩南語羅馬字拼音方案」\nhttp://www.ntcu.edu.tw/tailo/",
+      "dependencies": [],
+      "license": null,
+      "recipe": "a-thok/rime-hokkien",
+      "upstream_url": "https://github.com/a-thok/rime-hokkien",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "閩南語/臺灣閩南語"
+    },
+    "blg_tsiang": {
+      "schema_id": "blg_tsiang",
+      "slug": "blg_tsiang",
+      "display_name": "閩南語漳州音",
+      "branch": "nan",
+      "dialect": "漳州話",
+      "authors": [
+        "阿托"
+      ],
+      "version": "0.5",
+      "description": "閩南語輸入方案\n採用「臺灣閩南語羅馬字拼音方案」\nhttp://www.ntcu.edu.tw/tailo/",
+      "dependencies": [],
+      "license": null,
+      "recipe": "a-thok/rime-hokkien",
+      "upstream_url": "https://github.com/a-thok/rime-hokkien",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "閩南語/漳州話"
+    },
+    "blg_tsuan": {
+      "schema_id": "blg_tsuan",
+      "slug": "blg_tsuan",
+      "display_name": "閩南語泉州音",
+      "branch": "nan",
+      "dialect": "泉州話",
+      "authors": [
+        "阿托"
+      ],
+      "version": "1.0",
+      "description": "閩南語輸入方案\n採用「臺灣閩南語羅馬字拼音方案」\nhttp://www.ntcu.edu.tw/tailo/",
+      "dependencies": [],
+      "license": null,
+      "recipe": "a-thok/rime-hokkien",
+      "upstream_url": "https://github.com/a-thok/rime-hokkien",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "閩南語/泉州話"
+    },
+    "manchu_gb": {
+      "schema_id": "manchu_gb",
+      "slug": "manchu_gb",
+      "display_name": "滿文國標鍵盤",
+      "branch": "extra",
+      "dialect": "其他方案",
+      "authors": [
+        "渡邊鷹尾"
+      ],
+      "version": "0.0",
+      "description": "圈點滿文字母，含滿文阿禮嘎禮字母。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "mongolian_gb": {
+      "schema_id": "mongolian_gb",
+      "slug": "mongolian_gb",
+      "display_name": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ GB",
+      "branch": "extra",
+      "dialect": "其他方案",
+      "authors": [
+        "渡邊鷹尾"
+      ],
+      "version": "0.0",
+      "description": "胡都木蒙古文字母，含蒙古文阿禮嘎禮字母。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "sibe_gb": {
+      "schema_id": "sibe_gb",
+      "slug": "sibe_gb",
+      "display_name": "錫伯文國標鍵盤",
+      "branch": "extra",
+      "dialect": "其他方案",
+      "authors": [
+        "渡邊鷹尾"
+      ],
+      "version": "0.0",
+      "description": "錫伯文字母，含滿文阿禮嘎禮字母。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "todo_gb": {
+      "schema_id": "todo_gb",
+      "slug": "todo_gb",
+      "display_name": "托忒文國標鍵盤",
+      "branch": "extra",
+      "dialect": "其他方案",
+      "authors": [
+        "渡邊鷹尾"
+      ],
+      "version": "0.0",
+      "description": "托忒文字母，含托忒文阿禮嘎禮字母。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "uyghur_uly_pf": {
+      "schema_id": "uyghur_uly_pf",
+      "slug": "uyghur_uly_pf",
+      "display_name": "维吾尔ULY显现形式",
+      "branch": "extra",
+      "dialect": "其他方案",
+      "authors": [
+        "沈逸磊"
+      ],
+      "version": "20201208",
+      "description": "维吾尔文\nULY兼容的键盘输入，显现形式的字符输出\nv '\nc/C č\nZ ž\nS š\nG ğ\nN ŋ\nO ö\nU ü\nE ë",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "hakka_pinyin": {
+      "schema_id": "hakka_pinyin",
+      "slug": "hakka_pinyin",
+      "display_name": "客拼",
+      "branch": "hak",
+      "dialect": "客家話綜合口音",
+      "authors": [],
+      "version": "0.12",
+      "description": "採用大陸客家語拼音方案\nhttp://hakka.dict.edu.tw/hakkadict/index.htm",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": "xunux/hakka-culture",
+      "upstream_url": "https://github.com/xunux/hakka-culture",
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "easy_en": {
+      "schema_id": "easy_en",
+      "slug": "easy_en",
+      "display_name": "Easy English",
+      "branch": "cjy",
+      "dialect": "晉語",
+      "authors": [
+        "Patrick"
+      ],
+      "version": "0.2",
+      "description": "Easy English",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "dieziu_60": {
+      "schema_id": "dieziu_60",
+      "slug": "dieziu_60",
+      "display_name": "省教潮拼·潮州",
+      "branch": "nan",
+      "dialect": "其他方案",
+      "authors": [
+        "騰達"
+      ],
+      "version": "2019.02.11",
+      "description": "項目主頁 https://kahaani.github.io/dieghv\n\n採用1960年9月廣東省教育行政部門公佈的《潮州話拼音方案》，方案中的ê在打字時用ee或v替代",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "dioion_60": {
+      "schema_id": "dioion_60",
+      "slug": "dioion_60",
+      "display_name": "省教潮拼·潮陽",
+      "branch": "nan",
+      "dialect": "其他方案",
+      "authors": [
+        "騰達"
+      ],
+      "version": "2019.02.11",
+      "description": "項目主頁 https://kahaani.github.io/dieghv\n\n採用1960年9月廣東省教育行政部門公佈的《潮州話拼音方案》，方案中的ê在打字時用ee或v替代",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "gekion_60": {
+      "schema_id": "gekion_60",
+      "slug": "gekion_60",
+      "display_name": "省教潮拼·揭陽",
+      "branch": "nan",
+      "dialect": "其他方案",
+      "authors": [
+        "騰達"
+      ],
+      "version": "2019.02.11",
+      "description": "項目主頁 https://kahaani.github.io/dieghv\n\n採用1960年9月廣東省教育行政部門公佈的《潮州話拼音方案》，方案中的ê在打字時用ee或v替代",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "riaupeng_60": {
+      "schema_id": "riaupeng_60",
+      "slug": "riaupeng_60",
+      "display_name": "省教潮拼·饒平",
+      "branch": "nan",
+      "dialect": "其他方案",
+      "authors": [
+        "騰達"
+      ],
+      "version": "2019.02.11",
+      "description": "項目主頁 https://kahaani.github.io/dieghv\n\n採用1960年9月廣東省教育行政部門公佈的《潮州話拼音方案》，方案中的ê在打字時用ee或v替代",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "suantau_60": {
+      "schema_id": "suantau_60",
+      "slug": "suantau_60",
+      "display_name": "省教潮拼·汕頭",
+      "branch": "nan",
+      "dialect": "其他方案",
+      "authors": [
+        "騰達"
+      ],
+      "version": "2019.02.11",
+      "description": "項目主頁 https://kahaani.github.io/dieghv\n\n採用1960年9月廣東省教育行政部門公佈的《潮州話拼音方案》，方案中的ê在打字時用ee或v替代",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "tenghai_60": {
+      "schema_id": "tenghai_60",
+      "slug": "tenghai_60",
+      "display_name": "省教潮拼·澄海",
+      "branch": "nan",
+      "dialect": "其他方案",
+      "authors": [
+        "騰達"
+      ],
+      "version": "2019.02.11",
+      "description": "項目主頁 https://kahaani.github.io/dieghv\n\n採用1960年9月廣東省教育行政部門公佈的《潮州話拼音方案》，方案中的ê在打字時用ee或v替代",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "dieziu_mtr": {
+      "schema_id": "dieziu_mtr",
+      "slug": "dieziu_mtr",
+      "display_name": "潮語羅馬字·潮州",
+      "branch": "nan",
+      "dialect": "其他方案",
+      "authors": [
+        "騰達"
+      ],
+      "version": "2019.02.11",
+      "description": "項目主頁 https://kahaani.github.io/dieghv\n\n採用海墘閩語論壇的「現代潮語羅馬字」（MTR）",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "dioion_mtr": {
+      "schema_id": "dioion_mtr",
+      "slug": "dioion_mtr",
+      "display_name": "潮語羅馬字·潮陽",
+      "branch": "nan",
+      "dialect": "其他方案",
+      "authors": [
+        "騰達"
+      ],
+      "version": "2019.02.11",
+      "description": "項目主頁 https://kahaani.github.io/dieghv\n\n採用海墘閩語論壇的「現代潮語羅馬字」（MTR）",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "gekion_mtr": {
+      "schema_id": "gekion_mtr",
+      "slug": "gekion_mtr",
+      "display_name": "潮語羅馬字·揭陽",
+      "branch": "nan",
+      "dialect": "其他方案",
+      "authors": [
+        "騰達"
+      ],
+      "version": "2019.02.11",
+      "description": "項目主頁 https://kahaani.github.io/dieghv\n\n採用海墘閩語論壇的「現代潮語羅馬字」（MTR）",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "riaupeng_mtr": {
+      "schema_id": "riaupeng_mtr",
+      "slug": "riaupeng_mtr",
+      "display_name": "潮語羅馬字·饒平",
+      "branch": "nan",
+      "dialect": "其他方案",
+      "authors": [
+        "騰達"
+      ],
+      "version": "2019.02.11",
+      "description": "項目主頁 https://kahaani.github.io/dieghv\n\n採用海墘閩語論壇的「現代潮語羅馬字」（MTR）",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "suantau_mtr": {
+      "schema_id": "suantau_mtr",
+      "slug": "suantau_mtr",
+      "display_name": "潮語羅馬字·汕頭",
+      "branch": "nan",
+      "dialect": "其他方案",
+      "authors": [
+        "騰達"
+      ],
+      "version": "2019.02.11",
+      "description": "項目主頁 https://kahaani.github.io/dieghv\n\n採用海墘閩語論壇的「現代潮語羅馬字」（MTR）",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "tenghai_mtr": {
+      "schema_id": "tenghai_mtr",
+      "slug": "tenghai_mtr",
+      "display_name": "潮語羅馬字·澄海",
+      "branch": "nan",
+      "dialect": "其他方案",
+      "authors": [
+        "騰達"
+      ],
+      "version": "2019.02.11",
+      "description": "項目主頁 https://kahaani.github.io/dieghv\n\n採用海墘閩語論壇的「現代潮語羅馬字」（MTR）",
+      "dependencies": [
+        "luna_pinyin"
+      ],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "pinyin_simp": {
+      "schema_id": "pinyin_simp",
+      "slug": "pinyin_simp",
+      "display_name": "袖珍简化字拼音",
+      "branch": "wuu",
+      "dialect": "其他方案",
+      "authors": [
+        "佚名"
+      ],
+      "version": "0.9",
+      "description": "源自 Android 拼音",
+      "dependencies": [
+        "stroke"
+      ],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "dkzp": {
+      "schema_id": "dkzp",
+      "slug": "dkzp",
+      "display_name": "上古全拼",
+      "branch": "och",
+      "dialect": "上古漢語",
+      "authors": [],
+      "version": "",
+      "description": "上古全拼方案（無對應上游配方）。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "dghp": {
+      "schema_id": "dghp",
+      "slug": "dghp",
+      "display_name": "中古汉拼",
+      "branch": "ltc",
+      "dialect": "中古漢語",
+      "authors": [],
+      "version": "",
+      "description": "中古汉拼方案（無對應上游配方）。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "kuankhiunn": {
+      "schema_id": "kuankhiunn",
+      "slug": "kuankhiunn",
+      "display_name": "廣韻羅馬字",
+      "branch": "ltc",
+      "dialect": "中古漢語",
+      "authors": [],
+      "version": "",
+      "description": "廣韻羅馬字方案（無對應上游配方）。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "middle_chinese_lookup": {
+      "schema_id": "middle_chinese_lookup",
+      "slug": "middle_chinese_lookup",
+      "display_name": "廣韻查詢",
+      "branch": "ltc",
+      "dialect": "中古漢語",
+      "authors": [],
+      "version": "",
+      "description": "廣韻查詢方案（無對應上游配方）。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "haitrou": {
+      "schema_id": "haitrou",
+      "slug": "haitrou",
+      "display_name": "晋拼解州片",
+      "branch": "cjy",
+      "dialect": "晉語",
+      "authors": [],
+      "version": "",
+      "description": "晋拼解州片方案（無對應上游配方）。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "wugniu_ionko": {
+      "schema_id": "wugniu_ionko",
+      "slug": "wugniu_ionko",
+      "display_name": "吳語（永嘉）",
+      "branch": "wuu",
+      "dialect": "永嘉話",
+      "authors": [],
+      "version": "",
+      "description": "吳語永嘉話方案（無對應上游配方）。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "pcngng": {
+      "schema_id": "pcngng",
+      "slug": "pcngng",
+      "display_name": "標準吳語",
+      "branch": "wuu",
+      "dialect": "標準吳語",
+      "authors": [],
+      "version": "",
+      "description": "標準吳語方案（無對應上游配方）。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "mp": {
+      "schema_id": "mp",
+      "slug": "mp",
+      "display_name": "閩倂輸入灋",
+      "branch": "nan",
+      "dialect": "廈門話",
+      "authors": [],
+      "version": "",
+      "description": "閩倂輸入灋方案（無對應上游配方）。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "ciklinbekin": {
+      "schema_id": "ciklinbekin",
+      "slug": "ciklinbekin",
+      "display_name": "戚林八音",
+      "branch": "cdo",
+      "dialect": "福州話",
+      "authors": [],
+      "version": "",
+      "description": "戚林八音方案（無對應上游配方）。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "dfd": {
+      "schema_id": "dfd",
+      "slug": "dfd",
+      "display_name": "福州話字典",
+      "branch": "cdo",
+      "dialect": "福州話",
+      "authors": [],
+      "version": "",
+      "description": "福州話字典方案（無對應上游配方）。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "moi-eian": {
+      "schema_id": "moi-eian",
+      "slug": "moi-eian",
+      "display_name": "客語粵台梅惠片梅縣音",
+      "branch": "hak",
+      "dialect": "梅縣話",
+      "authors": [],
+      "version": "",
+      "description": "客語粵台梅惠片梅縣音方案（無對應上游配方）。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "hoisiang": {
+      "schema_id": "hoisiang",
+      "slug": "hoisiang",
+      "display_name": "台城",
+      "branch": "yue",
+      "dialect": "台山話",
+      "authors": [],
+      "version": "",
+      "description": "台城方案（無對應上游配方）。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "SRenNing_EauSanCungLau": {
+      "schema_id": "SRenNing_EauSanCungLau",
+      "slug": "SRenNing_EauSanCungLau",
+      "display_name": "新寧台山話　斗山兼沖蔞口音",
+      "branch": "yue",
+      "dialect": "台山話",
+      "authors": [],
+      "version": "",
+      "description": "新寧台山話斗山兼沖蔞口音方案（無對應上游配方）。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "jyutsoeng": {
+      "schema_id": "jyutsoeng",
+      "slug": "jyutsoeng",
+      "display_name": "粵語雙拼",
+      "branch": "yue",
+      "dialect": "廣州話",
+      "authors": [],
+      "version": "",
+      "description": "粵語雙拼方案（無對應上游配方）。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "NgZjau_JyutPing": {
+      "schema_id": "NgZjau_JyutPing",
+      "slug": "NgZjau_JyutPing",
+      "display_name": "梧州白話",
+      "branch": "yue",
+      "dialect": "梧州話",
+      "authors": [],
+      "version": "",
+      "description": "梧州白話方案（無對應上游配方）。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "gvaizauvan": {
+      "schema_id": "gvaizauvan",
+      "slug": "gvaizauvan",
+      "display_name": "貴州韻",
+      "branch": "yue",
+      "dialect": "貴港話",
+      "authors": [],
+      "version": "",
+      "description": "貴州韻方案（無對應上游配方）。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "sawndip": {
+      "schema_id": "sawndip",
+      "slug": "sawndip",
+      "display_name": "古壮字拼音",
+      "branch": "extra",
+      "dialect": "古壯字",
+      "authors": [],
+      "version": "",
+      "description": "古壮字拼音方案（無對應上游配方）。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "newhannom": {
+      "schema_id": "newhannom",
+      "slug": "newhannom",
+      "display_name": "部𢫈𡨸漢喃㗂越",
+      "branch": "extra",
+      "dialect": "越南語漢喃字",
+      "authors": [],
+      "version": "",
+      "description": "部𢫈𡨸漢喃㗂越方案（無對應上游配方）。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "BekIngLMC": {
+      "schema_id": "BekIngLMC",
+      "slug": "BekIngLMC",
+      "display_name": "福州話八音羅馬字",
+      "branch": "cdo",
+      "dialect": "福州話",
+      "authors": [],
+      "version": "",
+      "description": "福州話八音羅馬字方案（README 列出，但本倉庫未收錄對應上游配方）。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "GauHuoiLMC": {
+      "schema_id": "GauHuoiLMC",
+      "slug": "GauHuoiLMC",
+      "display_name": "福州話教會羅馬字",
+      "branch": "cdo",
+      "dialect": "福州話",
+      "authors": [],
+      "version": "",
+      "description": "福州話教會羅馬字方案（README 列出，但本倉庫未收錄對應上游配方）。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    },
+    "OC_schuesslerLHC": {
+      "schema_id": "OC_schuesslerLHC",
+      "slug": "OC_schuesslerLHC",
+      "display_name": "東漢漢語（許思萊）",
+      "branch": "och",
+      "dialect": "上古漢語",
+      "authors": [],
+      "version": "",
+      "description": "東漢漢語（許思萊）擬音方案（README 列出，但目前上游 RIME_OC_collections 倉庫未提供對應檔案）。",
+      "dependencies": [],
+      "license": null,
+      "recipe": null,
+      "upstream_url": null,
+      "last_commit_at": null,
+      "downloadable": false,
+      "download_package": null
+    }
+  }
+}

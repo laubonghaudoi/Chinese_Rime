@@ -1,0 +1,28 @@
+---
+interface Props {
+  variant?: "panel" | "elev";
+}
+
+const { variant = "panel" } = Astro.props;
+---
+<div class:list={["placeholder", `bg-${variant}`]}>
+  <code>data · v2</code>
+</div>
+
+<style>
+  .placeholder {
+    display: grid;
+    place-items: center;
+    min-height: 118px;
+    background: var(--bg-stripe);
+  }
+  .bg-elev {
+    background: var(--bg-stripe-white);
+  }
+  code {
+    color: var(--ink-meta-3);
+    font-family: var(--ff-mono);
+    font-size: 12px;
+    letter-spacing: 0.18em;
+  }
+</style>

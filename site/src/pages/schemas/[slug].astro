@@ -1,0 +1,172 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Breadcrumb from "../../components/Breadcrumb.astro";
+import InstallCommand from "../../components/InstallCommand.astro";
+import MetaSheet from "../../components/MetaSheet.astro";
+import SchemaHero from "../../components/SchemaHero.astro";
+import SchemaRow from "../../components/SchemaRow.astro";
+import SyllableSection from "../../components/SyllableSection.astro";
+import { getBranchByKey, getManifest, getPhonologySummary, getSchema, getSiblingSchemas, hasPhonology } from "../../data/loader";
+import { dialectAnchor } from "../../utils/anchors";
+import { withBase } from "../../utils/path";
+
+export function getStaticPaths() {
+  return Object.values(getManifest().schemas).map((schema) => ({
+    params: { slug: schema.slug },
+    props: { schemaId: schema.schema_id }
+  }));
+}
+
+const { schemaId } = Astro.props as { schemaId: string };
+const schema = getSchema(schemaId);
+const branch = schema.branch ? getBranchByKey(schema.branch) : null;
+const siblings = getSiblingSchemas(schema.schema_id);
+const phonology = getPhonologySummary(schema.schema_id);
+const installCommand = schema.recipe ? `bash rime-install ${schema.recipe}` : null;
+const desc = schema.description.split(/\n\s*\n/).filter(Boolean);
+const crumbs = [
+  { label: "方案目錄", href: withBase("/catalog/") },
+  ...(branch ? [{ label: branch.name, href: withBase(`/catalog/#${branch.key}`) }] : []),
+  ...(branch && schema.dialect ? [{ label: schema.dialect, href: withBase(`/catalog/#${encodeURIComponent(dialectAnchor(branch.key, schema.dialect))}`) }] : []),
+  { label: schema.display_name }
+];
+---
+<BaseLayout title={`${schema.display_name} · 中州韻輸入法非普通話漢語拼音方案全集`} active="catalog">
+  <Breadcrumb items={crumbs} />
+  <SchemaHero schema={schema} hasPhonology={Boolean(phonology)} />
+  <MetaSheet schema={schema} />
+
+  {desc.length > 0 && (
+    <section class="desc">
+      <span class="lab">方案說明</span>
+      <h2>說明</h2>
+      {desc.map((paragraph) => <p>{paragraph}</p>)}
+    </section>
+  )}
+
+  <section class="install">
+    <span class="lab">如何取得</span>
+    <h2>安裝方式</h2>
+    <div class="grid">
+      {installCommand && (
+        <article>
+          <h3>透過 plum 安裝</h3>
+          <p>plum 是中州韻配方安裝工具。執行以下命令即可獲取此配方：</p>
+          <InstallCommand command={installCommand} />
+        </article>
+      )}
+      {schema.downloadable ? (
+        <article>
+          <h3>從本站下載整合包</h3>
+          <p>下載已配置好的整合包，解壓後置入中州韻使用者目錄即可使用。</p>
+          <a href="https://github.com/laubonghaudoi/Chinese_Rime/releases/latest">前往最新發佈 →</a>
+        </article>
+      ) : schema.upstream_url ? (
+        <article>
+          <h3>從上游倉庫下載</h3>
+          <p>本方案未列入站點下載包；可從上游倉庫直接取得。</p>
+          <a href={schema.upstream_url}>前往上游倉庫 →</a>
+        </article>
+      ) : (
+        <article>
+          <h3>暫無可用安裝來源</h3>
+          <p>此方案目前只保留目錄記錄；若有可部署檔案，後續可補入下載包或上游連結。</p>
+        </article>
+      )}
+    </div>
+  </section>
+
+  <SyllableSection index="01" title="聲母表" intro="由碼表推得的聲母、例字與覆蓋字數。" variant="panel" data={phonology} />
+  <SyllableSection index="02" title="韻母表" intro="由碼表推得的韻母、例字與覆蓋字數。" variant="elev" data={phonology} />
+  <SyllableSection index="03" title="聲調" intro="由拼寫尾碼或附加符號推得的聲調分佈。" variant="panel" data={phonology} />
+  <SyllableSection index="04" title="字音對照" intro="依單字碼表整理的字與拼寫對照，可搜尋完整資料。" variant="elev" data={phonology} />
+
+  {siblings.length > 0 && (
+    <section class="related">
+      <span class="lab">同方言其他方案</span>
+      <h2>更多{schema.dialect}方案</h2>
+      <div class="related-grid">
+        {siblings.map((sibling) => <SchemaRow schema={sibling} hasPhonology={hasPhonology(sibling.schema_id)} />)}
+      </div>
+    </section>
+  )}
+</BaseLayout>
+
+<style>
+  .desc,
+  .install,
+  .related {
+    padding: 42px var(--sp-section-x) 36px;
+  }
+  .desc,
+  .related {
+    background: var(--bg-panel);
+  }
+  .install {
+    background: var(--bg-elev);
+  }
+  .lab {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--ink-meta-3);
+    font-family: var(--ff-sans-tc);
+    font-size: var(--fs-label);
+    letter-spacing: var(--ls-label);
+  }
+  h2 {
+    margin: 0 0 14px;
+    font-family: var(--ff-serif-tc);
+    font-size: var(--fs-h2-section);
+    letter-spacing: 0;
+  }
+  .desc p {
+    max-width: 760px;
+    margin: 0 0 12px;
+    color: var(--ink-soft);
+    font-family: var(--ff-serif-tc);
+    font-size: 16px;
+    line-height: 1.85;
+    white-space: pre-line;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+  article {
+    padding: 22px;
+    background: var(--bg-panel);
+  }
+  article h3 {
+    margin: 0 0 10px;
+    font-family: var(--ff-serif-tc);
+    font-size: 18px;
+  }
+  article p {
+    margin: 0 0 14px;
+    color: var(--ink-meta-2);
+    font-family: var(--ff-sans-tc);
+    font-size: 13px;
+    line-height: 1.7;
+  }
+  article a {
+    color: var(--ink);
+    font-family: var(--ff-sans-tc);
+    font-size: 13px;
+    text-decoration: underline;
+    text-decoration-color: var(--zhu);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+  }
+  .related-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+  }
+  @media (max-width: 900px) {
+    .grid,
+    .related-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

@@ -1,0 +1,96 @@
+---
+import type { SchemaEntry } from "../data/types";
+import { withBase } from "../utils/path";
+import SchemaBadge from "./SchemaBadge.astro";
+
+interface Props {
+  schema: SchemaEntry;
+  href?: string;
+  hasPhonology?: boolean;
+}
+
+const { schema, href, hasPhonology = false } = Astro.props;
+const link = href ?? withBase(`/schemas/${schema.slug}/`);
+const desc = schema.description.split(/\n/)[0] || "暫無方案說明。";
+---
+<a
+  class="schema-row"
+  href={link}
+  data-schema-row
+  data-recipe={schema.recipe ? "true" : "false"}
+  data-downloadable={schema.downloadable ? "true" : "false"}
+>
+  <span class="main">
+    <span class="title">{schema.display_name}</span>
+    <code>{schema.schema_id}</code>
+    {schema.recipe && <SchemaBadge variant="recipe" />}
+    {schema.downloadable && <SchemaBadge variant="downloadable" />}
+    {hasPhonology && <SchemaBadge variant="phonology" />}
+  </span>
+  <span class="sub">
+    <span>{desc}</span>
+    <span class="arrow" aria-hidden="true">→</span>
+  </span>
+</a>
+
+<style>
+  .schema-row {
+    display: block;
+    padding: var(--sp-row-y) 12px var(--sp-row-y) 14px;
+    border-left: 1px solid var(--ink);
+    text-decoration: none;
+    transition: background 150ms ease, border-color 150ms ease, padding-left 150ms ease;
+  }
+  .schema-row:hover {
+    background: var(--bg-elev);
+    border-left-width: 4px;
+    border-left-color: var(--zhu);
+    padding-left: 18px;
+  }
+  .main {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    min-width: 0;
+  }
+  .title {
+    font-family: var(--ff-serif-tc);
+    font-size: 15.5px;
+    font-weight: 700;
+    line-height: 1.35;
+  }
+  code {
+    color: var(--zhu);
+    font-family: var(--ff-mono);
+    font-size: var(--fs-mono-id);
+    letter-spacing: 0;
+  }
+  .sub {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 12px;
+    margin-top: 4px;
+    color: var(--ink-meta-2);
+    font-family: var(--ff-sans-tc);
+    font-size: 12.5px;
+    line-height: 1.55;
+  }
+  .sub span:first-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .arrow {
+    color: var(--zhu);
+    font-family: var(--ff-mono);
+  }
+  [hidden] {
+    display: none;
+  }
+  @media (max-width: 640px) {
+    .sub span:first-child {
+      white-space: normal;
+    }
+  }
+</style>

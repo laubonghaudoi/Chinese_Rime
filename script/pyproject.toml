@@ -1,0 +1,13 @@
+[project]
+name = "chinese-rime-manifest"
+version = "0.1.0"
+description = "Manifest builder for the Chinese_Rime site (generates site/src/data/schemas.json)."
+requires-python = ">=3.11"
+dependencies = ["pyyaml>=6"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-mock>=3.12"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

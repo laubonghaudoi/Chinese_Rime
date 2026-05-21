@@ -1,0 +1,203 @@
+---
+import type { PhonologySyllable } from "../data/types";
+
+interface Props {
+  entries: PhonologySyllable[];
+  fetchUrl: string;
+  total: number;
+}
+
+const { entries, fetchUrl, total } = Astro.props;
+const serialized = JSON.stringify(entries).replace(/</g, "\\u003c");
+---
+<div class="index" data-syllable-index data-fetch-url={fetchUrl}>
+  <div class="tools">
+    <input data-syllable-search type="search" placeholder="搜尋字或拼寫" autocomplete="off" />
+    <button type="button" data-load-full>全部載入</button>
+    <span data-syllable-count>顯示 {entries.length} / {total}（預覽）</span>
+  </div>
+  <div class="table-wrap">
+    <table aria-label="字音對照">
+      <thead>
+        <tr><th>字</th><th>拼寫</th></tr>
+      </thead>
+      <tbody data-syllable-rows>
+        {entries.map((entry) => (
+          <tr data-syllable-row data-search={`${entry.char} ${entry.spellings.join(" ")}`}>
+            <th scope="row">{entry.char}</th>
+            <td>{entry.spellings.map((spelling) => <code>{spelling}</code>)}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <script is:inline type="application/json" data-syllable-preview set:html={serialized}></script>
+</div>
+
+<script>
+  // @ts-nocheck
+  const roots = [...document.querySelectorAll("[data-syllable-index]")];
+
+  function matches(entry, query) {
+    if (!query) return true;
+    if (query.startsWith("^")) {
+      const prefix = query.slice(1).toLowerCase();
+      return entry.spellings.some((spelling) => spelling.toLowerCase().startsWith(prefix));
+    }
+    const q = query.toLowerCase();
+    return entry.char.includes(query) || entry.spellings.some((spelling) => spelling.toLowerCase().includes(q));
+  }
+
+  for (const root of roots) {
+    const body = root.querySelector("[data-syllable-rows]");
+    const input = root.querySelector("[data-syllable-search]");
+    const count = root.querySelector("[data-syllable-count]");
+    const loadButton = root.querySelector("[data-load-full]");
+    const preview = JSON.parse(root.querySelector("[data-syllable-preview]")?.textContent || "[]");
+    let entries = preview;
+    let loaded = false;
+    let loading = false;
+
+    function render(query = "") {
+      const visible = entries.filter((entry) => matches(entry, query)).slice(0, 800);
+      body.replaceChildren(...visible.map((entry) => {
+        const tr = document.createElement("tr");
+        tr.dataset.syllableRow = "";
+        tr.dataset.search = `${entry.char} ${entry.spellings.join(" ")}`;
+
+        const th = document.createElement("th");
+        th.scope = "row";
+        th.textContent = entry.char;
+        const td = document.createElement("td");
+        for (const spelling of entry.spellings) {
+          const code = document.createElement("code");
+          code.textContent = spelling;
+          td.append(code);
+        }
+        tr.append(th, td);
+        return tr;
+      }));
+      const suffix = loaded ? "" : "（預覽）";
+      count.textContent = `顯示 ${visible.length} / ${entries.length}${suffix}`;
+    }
+
+    async function loadFull() {
+      if (loaded || loading) return;
+      loading = true;
+      loadButton.disabled = true;
+      loadButton.textContent = "載入中";
+      try {
+        const response = await fetch(root.dataset.fetchUrl);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        entries = data.syllable_index || preview;
+        loaded = true;
+        loadButton.textContent = "已載入";
+      } catch {
+        loadButton.disabled = false;
+        loadButton.textContent = "重新載入";
+      } finally {
+        loading = false;
+      }
+    }
+
+    async function applySearch() {
+      const query = input.value.trim();
+      if (query) await loadFull();
+      render(query);
+    }
+
+    input.addEventListener("focus", () => loadFull().then(() => render(input.value.trim())));
+    input.addEventListener("input", applySearch);
+    loadButton.addEventListener("click", () => loadFull().then(() => render(input.value.trim())));
+  }
+
+  document.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-syllable-filter]");
+    if (!button) return;
+    const root = document.querySelector("[data-syllable-index]");
+    const input = root?.querySelector("[data-syllable-search]");
+    if (!root || !input) return;
+    input.value = button.dataset.syllableFilter || "";
+    root.scrollIntoView({ block: "start", behavior: "smooth" });
+    input.dispatchEvent(new Event("input"));
+  });
+</script>
+
+<style>
+  .index {
+    border-top: 2px solid var(--ink);
+  }
+  .tools {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 12px 0;
+  }
+  input {
+    min-width: min(320px, 100%);
+    padding: 9px 11px;
+    border: 1px solid var(--ink);
+    background: var(--bg-panel);
+    color: var(--ink);
+    font-family: var(--ff-sans-tc);
+    font-size: 14px;
+  }
+  button {
+    padding: 9px 12px;
+    border: 1px solid var(--ink);
+    background: var(--bg-chip);
+    color: var(--ink);
+    font-family: var(--ff-sans-tc);
+    font-size: 13px;
+    cursor: pointer;
+  }
+  button:disabled {
+    color: var(--ink-meta-2);
+    cursor: default;
+  }
+  span {
+    color: var(--ink-meta-2);
+    font-family: var(--ff-sans-tc);
+    font-size: 12.5px;
+  }
+  .table-wrap {
+    max-height: 540px;
+    overflow: auto;
+    border-bottom: 1px solid rgba(10, 10, 10, 0.16);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--ff-sans-tc);
+    font-size: 14px;
+  }
+  th,
+  td {
+    padding: 9px 12px;
+    border-bottom: 1px solid rgba(10, 10, 10, 0.16);
+    text-align: left;
+    vertical-align: top;
+  }
+  thead th {
+    position: sticky;
+    top: 0;
+    background: var(--bg-elev);
+    color: var(--ink-meta-2);
+    font-size: 12px;
+    letter-spacing: 0.14em;
+  }
+  tbody th {
+    width: 88px;
+    font-family: var(--ff-serif-tc);
+    font-size: 18px;
+  }
+  code {
+    display: inline-block;
+    margin: 0 8px 5px 0;
+    color: var(--zhu);
+    font-family: var(--ff-mono);
+    font-size: 13px;
+  }
+</style>

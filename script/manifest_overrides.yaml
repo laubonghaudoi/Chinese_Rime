@@ -1,0 +1,890 @@
+branches:
+  och:
+    name: 上古漢語
+    iso_639_3: och
+    intro: 上古漢語的拼音方案多基於各家擬音系統，並非實際口語的拼寫。
+    dialects:
+    - 上古漢語
+  ltc:
+    name: 中古漢語
+    iso_639_3: ltc
+    intro: 中古漢語的擬音方案。
+    dialects:
+    - 中古漢語
+  cmn:
+    name: 官話
+    iso_639_3: cmn
+    intro: 官話下分中原、江淮、西南等支。
+    dialects:
+    - 中原官話
+    - 江淮官話
+    - 西南官話
+  cjy:
+    name: 晉語
+    iso_639_3: cjy
+    intro: 晉語。
+    dialects:
+    - 晉語
+  wuu:
+    name: 吳語
+    iso_639_3: wuu
+    intro: 吳語各方言拼音方案。
+    dialects:
+    - 上海話
+    - 蘇州話
+    - 寧波話
+    - 杭州話
+    - 嘉興話
+    - 嘉善話
+    - 桐鄉話
+    - 海寧話
+    - 海鹽話
+    - 松江話
+    - 樂清話
+    - 永嘉話
+    - 溫州話
+    - 標準吳語
+  gan:
+    name: 贛語
+    iso_639_3: gan
+    intro: 贛語。
+    dialects:
+    - 撫州話
+  hsn:
+    name: 湘語
+    iso_639_3: hsn
+    intro: 湘語。
+    dialects:
+    - 邵東話
+  hak:
+    name: 客家話
+    iso_639_3: hak
+    intro: 客家話拼音方案。
+    dialects:
+    - 客家話綜合口音
+    - 梅縣話
+    - 大埔話
+  yue:
+    name: 粵語
+    iso_639_3: yue
+    intro: 粵語拼音方案，以廣州話為主。
+    dialects:
+    - 廣州話
+    - 台山話
+    - 欽州話
+    - 梧州話
+    - 南寧白話
+    - 藤縣話
+    - 貴港話
+  csp:
+    name: 南部平話
+    iso_639_3: csp
+    intro: 南部平話。
+    dialects:
+    - 南寧平話
+  cpx:
+    name: 莆仙語
+    iso_639_3: cpx
+    intro: 莆仙語。
+    dialects:
+    - 莆田話
+  mnp:
+    name: 閩北語
+    iso_639_3: mnp
+    intro: 閩北語。
+    dialects:
+    - 建寧府方言
+  nan:
+    name: 閩南語
+    iso_639_3: nan
+    intro: 閩南語各方言拼音方案。
+    dialects:
+    - 廈門話
+    - 臺灣閩南語
+    - 泉州話
+    - 漳州話
+    - 潮州話
+    - 汕頭話
+    - 揭陽話
+    - 潮陽話
+    - 澄海話
+    - 饒平話
+  cdo:
+    name: 閩東語
+    iso_639_3: cdo
+    intro: 閩東語。
+    dialects:
+    - 福州話
+  extra:
+    name: 域外方音
+    iso_639_3: ''
+    intro: 漢字在非漢語語言中的讀音方案。
+    dialects:
+    - 日語漢字
+    - 朝鮮語漢字
+    - 京語漢喃字
+    - 古壯字
+    - 越南語漢喃字
+  czh:
+    name: 徽語
+    iso_639_3: czh
+    intro: 暫缺。
+    dialects: []
+  czo:
+    name: 閩中語
+    iso_639_3: czo
+    intro: 暫缺。
+    dialects: []
+  hnm:
+    name: 海南話
+    iso_639_3: hnm
+    intro: 暫缺。
+    dialects: []
+  luh:
+    name: 雷州話
+    iso_639_3: luh
+    intro: 暫缺。
+    dialects: []
+  sjc:
+    name: 邵將語
+    iso_639_3: sjc
+    intro: 暫缺。
+    dialects: []
+  cnp:
+    name: 北部平話
+    iso_639_3: cnp
+    intro: 暫缺。
+    dialects: []
+schema_assignments:
+  OC_nulll:
+    branch: och
+    dialect: 上古漢語
+    recipe: Hulenkius/RIME_OC_collections
+    upstream_url: https://github.com/Hulenkius/RIME_OC_collections
+  OC_msoegDK:
+    branch: och
+    dialect: 上古漢語
+    recipe: Hulenkius/RIME_OC_collections
+    upstream_url: https://github.com/Hulenkius/RIME_OC_collections
+  OC_msoeg:
+    branch: och
+    dialect: 上古漢語
+    recipe: Hulenkius/RIME_OC_collections
+    upstream_url: https://github.com/Hulenkius/RIME_OC_collections
+  OC_baxter-sagart:
+    branch: och
+    dialect: 上古漢語
+    recipe: Hulenkius/RIME_OC_collections
+    upstream_url: https://github.com/Hulenkius/RIME_OC_collections
+  OC_starostinLO:
+    branch: och
+    dialect: 上古漢語
+    recipe: Hulenkius/RIME_OC_collections
+    upstream_url: https://github.com/Hulenkius/RIME_OC_collections
+  OC_starostinTK:
+    branch: och
+    dialect: 上古漢語
+    recipe: Hulenkius/RIME_OC_collections
+    upstream_url: https://github.com/Hulenkius/RIME_OC_collections
+  OC_schuesslerOC:
+    branch: och
+    dialect: 上古漢語
+    recipe: Hulenkius/RIME_OC_collections
+    upstream_url: https://github.com/Hulenkius/RIME_OC_collections
+  OC_zhengzhang:
+    branch: och
+    dialect: 上古漢語
+    recipe: Hulenkius/RIME_OC_collections
+    upstream_url: https://github.com/Hulenkius/RIME_OC_collections
+  OC_jinlixin:
+    branch: och
+    dialect: 上古漢語
+    recipe: Hulenkius/RIME_OC_collections
+    upstream_url: https://github.com/Hulenkius/RIME_OC_collections
+  OC_baxter1992:
+    branch: och
+    dialect: 上古漢語
+    recipe: Hulenkius/RIME_OC_collections
+    upstream_url: https://github.com/Hulenkius/RIME_OC_collections
+  OC_wangli:
+    branch: och
+    dialect: 上古漢語
+    recipe: Hulenkius/RIME_OC_collections
+    upstream_url: https://github.com/Hulenkius/RIME_OC_collections
+  OC_lifanggui:
+    branch: och
+    dialect: 上古漢語
+    recipe: Hulenkius/RIME_OC_collections
+    upstream_url: https://github.com/Hulenkius/RIME_OC_collections
+  OC_zhoufagao:
+    branch: och
+    dialect: 上古漢語
+    recipe: Hulenkius/RIME_OC_collections
+    upstream_url: https://github.com/Hulenkius/RIME_OC_collections
+  zyenpheng:
+    branch: ltc
+    dialect: 中古漢語
+    recipe: biopolyhedron/rime-middle-chinese
+    upstream_url: https://github.com/biopolyhedron/rime-middle-chinese
+  triungkoxsampheng:
+    branch: ltc
+    dialect: 中古漢語
+    recipe: biopolyhedron/rime-middle-chinese
+    upstream_url: https://github.com/biopolyhedron/rime-middle-chinese
+  nieh_ched:
+    branch: ltc
+    dialect: 中古漢語
+    recipe: rime-aca/rime-nieh-ched
+    upstream_url: https://github.com/rime-aca/rime-nieh-ched
+  kmg:
+    branch: ltc
+    dialect: 中古漢語
+    recipe: rime-aca/rime-kmg
+    upstream_url: https://github.com/rime-aca/rime-kmg
+  deuqguv4:
+    branch: ltc
+    dialect: 中古漢語
+    recipe: inzoi/inzoi.github.io
+    upstream_url: https://github.com/inzoi/inzoi.github.io
+  dangrvond:
+    branch: ltc
+    dialect: 中古漢語
+    recipe: rime-aca/rime-dangrvond
+    upstream_url: https://github.com/rime-aca/rime-dangrvond
+  toongcuu:
+    branch: ltc
+    dialect: 中古漢語
+    recipe: baopaau/rime-toongcuu
+    upstream_url: https://github.com/baopaau/rime-toongcuu
+  guangtong:
+    branch: ltc
+    dialect: 中古漢語
+    recipe: uliloewi/guang2tong1zhong1gu3
+    upstream_url: https://github.com/uliloewi/guang2tong1zhong1gu3
+  tupa:
+    branch: ltc
+    dialect: 中古漢語
+    recipe: ayaka14732/rime-tupa
+    upstream_url: https://github.com/ayaka14732/rime-tupa
+  tupa_unspaced:
+    branch: ltc
+    dialect: 中古漢語
+    recipe: ayaka14732/rime-tupa
+    upstream_url: https://github.com/ayaka14732/rime-tupa
+  lakyang:
+    branch: cmn
+    dialect: 中原官話
+    recipe: Patricivs/lakyang
+    upstream_url: https://github.com/Patricivs/lakyang
+  lakyang_chuim:
+    branch: cmn
+    dialect: 中原官話
+    recipe: Patricivs/lakyang
+    upstream_url: https://github.com/Patricivs/lakyang
+  zhung:
+    branch: cmn
+    dialect: 中原官話
+    recipe: lotem/rime-zhung
+    upstream_url: https://github.com/lotem/rime-zhung
+  zhung_stenotype:
+    branch: cmn
+    dialect: 中原官話
+    recipe: lotem/rime-zhung
+    upstream_url: https://github.com/lotem/rime-zhung
+  zhung_42:
+    branch: cmn
+    dialect: 中原官話
+    recipe: lotem/rime-zhung
+    upstream_url: https://github.com/lotem/rime-zhung
+  zhung_combo:
+    branch: cmn
+    dialect: 中原官話
+    recipe: lotem/rime-zhung
+    upstream_url: https://github.com/lotem/rime-zhung
+  zhung_transcript:
+    branch: cmn
+    dialect: 中原官話
+    recipe: lotem/rime-zhung
+    upstream_url: https://github.com/lotem/rime-zhung
+  zhung_combo_transcript:
+    branch: cmn
+    dialect: 中原官話
+    recipe: lotem/rime-zhung
+    upstream_url: https://github.com/lotem/rime-zhung
+  yihdjoouhuah:
+    branch: cmn
+    dialect: 中原官話
+    recipe: tsauibusato/yihdjoouhuah
+    upstream_url: https://github.com/tsauibusato/yihdjoouhuah
+  yihjoouhuah_romatzyh:
+    branch: cmn
+    dialect: 中原官話
+    recipe: tsauibusato/yihdjoouhuah
+    upstream_url: https://github.com/tsauibusato/yihdjoouhuah
+  langjin:
+    branch: cmn
+    dialect: 江淮官話
+    recipe: uliloewi/lang2jin1
+    upstream_url: https://github.com/uliloewi/lang2jin1
+  taerv:
+    branch: cmn
+    dialect: 江淮官話
+    recipe: osfans/rime-taerv
+    upstream_url: https://github.com/osfans/rime-taerv
+  ntw:
+    branch: cmn
+    dialect: 江淮官話
+    recipe: gaozhiyan/nt_input
+    upstream_url: https://github.com/gaozhiyan/nt_input
+  huaipinquiizi:
+    branch: cmn
+    dialect: 江淮官話
+    recipe: Sonner114514/huaipin
+    upstream_url: https://github.com/Sonner114514/huaipin
+  huaipinsuangzi:
+    branch: cmn
+    dialect: 江淮官話
+    recipe: Sonner114514/huaipin
+    upstream_url: https://github.com/Sonner114514/huaipin
+  shupin_tongyin:
+    branch: cmn
+    dialect: 西南官話
+    recipe: Papnas/shupin
+    upstream_url: https://github.com/Papnas/shupin
+  shupin_cendu:
+    branch: cmn
+    dialect: 西南官話
+    recipe: Papnas/shupin
+    upstream_url: https://github.com/Papnas/shupin
+  shupin_congqin:
+    branch: cmn
+    dialect: 西南官話
+    recipe: Papnas/shupin
+    upstream_url: https://github.com/Papnas/shupin
+  shupin_guiyang:
+    branch: cmn
+    dialect: 西南官話
+    recipe: Papnas/shupin
+    upstream_url: https://github.com/Papnas/shupin
+  shupin_libin:
+    branch: cmn
+    dialect: 西南官話
+    recipe: Papnas/shupin
+    upstream_url: https://github.com/Papnas/shupin
+  shupin_zigong:
+    branch: cmn
+    dialect: 西南官話
+    recipe: Papnas/shupin
+    upstream_url: https://github.com/Papnas/shupin
+  huanggang:
+    branch: cmn
+    dialect: 西南官話
+    recipe: yuxifongfei/hubehua
+    upstream_url: https://github.com/yuxifongfei/hubehua
+  huanggangxiangzhen:
+    branch: cmn
+    dialect: 西南官話
+    recipe: yuxifongfei/hubehua
+    upstream_url: https://github.com/yuxifongfei/hubehua
+  ngocen:
+    branch: cmn
+    dialect: 西南官話
+    recipe: yuxifongfei/hubehua
+    upstream_url: https://github.com/yuxifongfei/hubehua
+  wuhan:
+    branch: cmn
+    dialect: 西南官話
+    recipe: yuxifongfei/hubehua
+    upstream_url: https://github.com/yuxifongfei/hubehua
+  yunciu:
+    branch: cmn
+    dialect: 西南官話
+    recipe: shinzoqchiuq/rime-yunciu
+    upstream_url: https://github.com/shinzoqchiuq/rime-yunciu
+  jieny:
+    branch: cjy
+    dialect: 晉語
+    recipe: iaoiezaon/rime-jieny
+    upstream_url: https://github.com/iaoiezaon/rime-jieny
+  fengyo:
+    branch: cjy
+    dialect: 晉語
+    recipe: Hynuza/fengyo
+    upstream_url: https://github.com/Hynuza/fengyo
+  yahwe_zaonhe:
+    branch: wuu
+    dialect: 上海話
+    recipe: wugniu/rime-yahwe_zaonhe
+    upstream_url: https://github.com/wugniu/rime-yahwe_zaonhe
+  wugniu_zaonhe:
+    branch: wuu
+    dialect: 上海話
+    recipe: NGLI/rime-wugniu_zaonhe
+    upstream_url: https://github.com/NGLI/rime-wugniu_zaonhe
+  wugniu_zaonhe_laupha:
+    branch: wuu
+    dialect: 上海話
+    recipe: NGLI/rime-wugniu_zaonhe
+    upstream_url: https://github.com/NGLI/rime-wugniu_zaonhe
+  wugniu_sonkaon:
+    branch: wuu
+    dialect: 松江話
+    recipe: NGLI/rime-wugniu_zaonhe
+    upstream_url: https://github.com/NGLI/rime-wugniu_zaonhe
+  wugniu_soutseu:
+    branch: wuu
+    dialect: 蘇州話
+    recipe: NGLI/rime-wugniu_soutseu
+    upstream_url: https://github.com/NGLI/rime-wugniu_soutseu
+  wugniu_gninpou:
+    branch: wuu
+    dialect: 寧波話
+    recipe: NGLI/rime-wugniu_gninpou
+    upstream_url: https://github.com/NGLI/rime-wugniu_gninpou
+  wugniu_gnincieu:
+    branch: wuu
+    dialect: 寧波話
+    recipe: NGLI/rime-wugniu_gninpou
+    upstream_url: https://github.com/NGLI/rime-wugniu_gninpou
+  wugniu_donshian:
+    branch: wuu
+    dialect: 桐鄉話
+    recipe: NGLI/rime-wugniu_kashin
+    upstream_url: https://github.com/NGLI/rime-wugniu_kashin
+  wugniu_haegnin:
+    branch: wuu
+    dialect: 海寧話
+    recipe: NGLI/rime-wugniu_kashin
+    upstream_url: https://github.com/NGLI/rime-wugniu_kashin
+  wugniu_haeye:
+    branch: wuu
+    dialect: 海鹽話
+    recipe: NGLI/rime-wugniu_kashin
+    upstream_url: https://github.com/NGLI/rime-wugniu_kashin
+  wugniu_kashin:
+    branch: wuu
+    dialect: 嘉興話
+    recipe: NGLI/rime-wugniu_kashin
+    upstream_url: https://github.com/NGLI/rime-wugniu_kashin
+  wugniu_kazoe:
+    branch: wuu
+    dialect: 嘉善話
+    recipe: NGLI/rime-wugniu_kashin
+    upstream_url: https://github.com/NGLI/rime-wugniu_kashin
+  shanghe_xhipin:
+    branch: wuu
+    dialect: 上海話
+    recipe: shinzoqchiuq/rime-shanghainese
+    upstream_url: https://github.com/shinzoqchiuq/rime-shanghainese
+  zanghe_wrunri:
+    branch: wuu
+    dialect: 上海話
+    recipe: shinzoqchiuq/rime-shanghainese
+    upstream_url: https://github.com/shinzoqchiuq/rime-shanghainese
+  zaonhe_faqwu:
+    branch: wuu
+    dialect: 上海話
+    recipe: shinzoqchiuq/rime-shanghainese
+    upstream_url: https://github.com/shinzoqchiuq/rime-shanghainese
+  zonhe_nrss:
+    branch: wuu
+    dialect: 上海話
+    recipe: shinzoqchiuq/rime-shanghainese
+    upstream_url: https://github.com/shinzoqchiuq/rime-shanghainese
+  wugniu_lopha:
+    branch: wuu
+    dialect: 上海話
+    recipe: rime/rime-wugniu
+    upstream_url: https://github.com/rime/rime-wugniu
+  wugniu:
+    branch: wuu
+    dialect: 上海話
+    recipe: rime/rime-wugniu
+    upstream_url: https://github.com/rime/rime-wugniu
+  soutzoe:
+    branch: wuu
+    dialect: 蘇州話
+    recipe: rime/rime-soutzoe
+    upstream_url: https://github.com/rime/rime-soutzoe
+  ay_ncld:
+    branch: wuu
+    dialect: 樂清話
+    recipe: lotem/rime-aoyu
+    upstream_url: https://github.com/lotem/rime-aoyu
+  ay_ncls:
+    branch: wuu
+    dialect: 樂清話
+    recipe: lotem/rime-aoyu
+    upstream_url: https://github.com/lotem/rime-aoyu
+  hangtseinese:
+    branch: wuu
+    dialect: 杭州話
+    recipe: saeziae/hangzhou_wu
+    upstream_url: https://github.com/saeziae/hangzhou_wu
+  nguphing:
+    branch: wuu
+    dialect: 標準吳語
+    recipe: saeziae/nguphing
+    upstream_url: https://github.com/saeziae/nguphing
+  iuciou:
+    branch: wuu
+    dialect: 溫州話
+    recipe: pearapple123/rime-iuciou
+    upstream_url: https://github.com/pearapple123/rime-iuciou
+  wenzhounese:
+    branch: wuu
+    dialect: 溫州話
+    recipe: ZWolken/rime-wenzhounese
+    upstream_url: https://github.com/ZWolken/rime-wenzhounese
+  fudiufa:
+    branch: gan
+    dialect: 撫州話
+    recipe: colescu/rime-fudiufa
+    upstream_url: https://github.com/colescu/rime-fudiufa
+  sautungva:
+    branch: hsn
+    dialect: 邵東話
+    recipe: AlfredLouis00/rime-Sautungva
+    upstream_url: https://github.com/AlfredLouis00/rime-Sautungva
+  sautungva_phinin:
+    branch: hsn
+    dialect: 邵東話
+    recipe: AlfredLouis00/rime-Sautungva
+    upstream_url: https://github.com/AlfredLouis00/rime-Sautungva
+  lmc:
+    branch: mnp
+    dialect: 建寧府方言
+    recipe: triehhoo/svnihua
+    upstream_url: https://github.com/triehhoo/svnihua
+  blg_ha:
+    branch: nan
+    dialect: 廈門話
+    recipe: a-thok/rime-hokkien
+    upstream_url: https://github.com/a-thok/rime-hokkien
+  blg_tai:
+    branch: nan
+    dialect: 臺灣閩南語
+    recipe: a-thok/rime-hokkien
+    upstream_url: https://github.com/a-thok/rime-hokkien
+  blg_tsiang:
+    branch: nan
+    dialect: 漳州話
+    recipe: a-thok/rime-hokkien
+    upstream_url: https://github.com/a-thok/rime-hokkien
+  blg_tsuan:
+    branch: nan
+    dialect: 泉州話
+    recipe: a-thok/rime-hokkien
+    upstream_url: https://github.com/a-thok/rime-hokkien
+  blg_etai:
+    branch: nan
+    dialect: 廈門話
+    recipe: LimTo/etaiBLG
+    upstream_url: https://github.com/LimTo/etaiBLG
+  taigi_tps:
+    branch: nan
+    dialect: 臺灣閩南語
+    recipe: YuRen-tw/rime-taigi-tps
+    upstream_url: https://github.com/YuRen-tw/rime-taigi-tps
+  dieziu:
+    branch: nan
+    dialect: 潮州話
+    recipe: kahaani/dieghv
+    upstream_url: https://github.com/kahaani/dieghv
+  dioion:
+    branch: nan
+    dialect: 潮陽話
+    recipe: kahaani/dieghv
+    upstream_url: https://github.com/kahaani/dieghv
+  gekion:
+    branch: nan
+    dialect: 揭陽話
+    recipe: kahaani/dieghv
+    upstream_url: https://github.com/kahaani/dieghv
+  suantau:
+    branch: nan
+    dialect: 汕頭話
+    recipe: kahaani/dieghv
+    upstream_url: https://github.com/kahaani/dieghv
+  tenghai:
+    branch: nan
+    dialect: 澄海話
+    recipe: kahaani/dieghv
+    upstream_url: https://github.com/kahaani/dieghv
+  riaupeng:
+    branch: nan
+    dialect: 饒平話
+    recipe: kahaani/dieghv
+    upstream_url: https://github.com/kahaani/dieghv
+  diege_j:
+    branch: nan
+    dialect: 潮州話
+    recipe: femkerr/dieghe
+    upstream_url: https://github.com/femkerr/dieghe
+  diege:
+    branch: nan
+    dialect: 潮州話
+    recipe: femkerr/dieghe
+    upstream_url: https://github.com/femkerr/dieghe
+  diege_gb:
+    branch: nan
+    dialect: 潮州話
+    recipe: femkerr/dieghe
+    upstream_url: https://github.com/femkerr/dieghe
+  Pouleng:
+    branch: cpx
+    dialect: 莆田話
+    recipe: Yaryou/HinghuaFactory
+    upstream_url: https://github.com/Yaryou/HinghuaFactory
+  HinghuaBUC:
+    branch: cpx
+    dialect: 莆田話
+    recipe: Yaryou/HinghuaFactory
+    upstream_url: https://github.com/Yaryou/HinghuaFactory
+  hakka:
+    branch: hak
+    dialect: 客家話綜合口音
+    recipe: syndict/hakka
+    upstream_url: https://github.com/syndict/hakka
+  hakka_meixian:
+    branch: hak
+    dialect: 梅縣話
+    recipe: syndict/hakka
+    upstream_url: https://github.com/syndict/hakka
+  hakka_pinyin:
+    branch: hak
+    dialect: 客家話綜合口音
+    recipe: xunux/hakka-culture
+    upstream_url: https://github.com/xunux/hakka-culture
+  tai4bu1shang1:
+    branch: hak
+    dialect: 大埔話
+    recipe: huangjunxin/Rime-Hakka-TaibuShang
+    upstream_url: https://github.com/huangjunxin/Rime-Hakka-TaibuShang
+  jyutping:
+    branch: yue
+    dialect: 廣州話
+    recipe: rime/rime-jyutping
+    upstream_url: https://github.com/rime/rime-jyutping
+  yale:
+    branch: yue
+    dialect: 廣州話
+    recipe: rime/rime-jyutping
+    upstream_url: https://github.com/rime/rime-jyutping
+  hkcantonese:
+    branch: yue
+    dialect: 廣州話
+    recipe: rime/rime-jyutping
+    upstream_url: https://github.com/rime/rime-jyutping
+  jyutping_plus:
+    branch: yue
+    dialect: 廣州話
+    recipe: rime-aca/rime-jyutping-plus
+    upstream_url: https://github.com/rime-aca/rime-jyutping-plus
+  zyujam:
+    branch: yue
+    dialect: 廣州話
+    recipe: rime-aca/rime-zyujam
+    upstream_url: https://github.com/rime-aca/rime-zyujam
+  jyutping_compact:
+    branch: yue
+    dialect: 廣州話
+    recipe: rime-aca/rime-jyutping-compact
+    upstream_url: https://github.com/rime-aca/rime-jyutping-compact
+  naamning_baakwaa:
+    branch: yue
+    dialect: 南寧白話
+    recipe: leimaau/naamning_jyutping
+    upstream_url: https://github.com/leimaau/naamning_jyutping
+  hamzau_jyutping:
+    branch: yue
+    dialect: 欽州話
+    recipe: LaiJoengzit/hamzau_jyutping
+    upstream_url: https://github.com/LaiJoengzit/hamzau_jyutping
+  gene:
+    branch: yue
+    dialect: 台山話
+    recipe: pearapple123/rime-hoisanva
+    upstream_url: https://github.com/pearapple123/rime-hoisanva
+  gene_numeric:
+    branch: yue
+    dialect: 台山話
+    recipe: pearapple123/rime-hoisanva
+    upstream_url: https://github.com/pearapple123/rime-hoisanva
+  naamning_bingwaa:
+    branch: csp
+    dialect: 南寧平話
+    recipe: leimaau/naamning_jyutping
+    upstream_url: https://github.com/leimaau/naamning_jyutping
+  hangyl:
+    branch: extra
+    dialect: 朝鮮語漢字
+    recipe: rime-aca/rime-hangyl
+    upstream_url: https://github.com/rime-aca/rime-hangyl
+  hangyl_hanja:
+    branch: extra
+    dialect: 朝鮮語漢字
+    recipe: rime-aca/rime-hangyl
+    upstream_url: https://github.com/rime-aca/rime-hangyl
+  qyeishanglr_hanja:
+    branch: extra
+    dialect: 朝鮮語漢字
+    recipe: biopolyhedron/rime-qyeyshanglr-hanja
+    upstream_url: https://github.com/biopolyhedron/rime-qyeyshanglr-hanja
+  hangeul:
+    branch: extra
+    dialect: 朝鮮語漢字
+    recipe: sgalal/rime-hanja
+    upstream_url: https://github.com/sgalal/rime-hanja
+  hanja:
+    branch: extra
+    dialect: 朝鮮語漢字
+    recipe: sgalal/rime-hanja
+    upstream_url: https://github.com/sgalal/rime-hanja
+  jap_poly:
+    branch: extra
+    dialect: 日語漢字
+    recipe: biopolyhedron/rime-jap-poly
+    upstream_url: https://github.com/biopolyhedron/rime-jap-poly
+  kunyomi:
+    branch: extra
+    dialect: 日語漢字
+    recipe: sgalal/rime-kunyomi
+    upstream_url: https://github.com/sgalal/rime-kunyomi
+  tiingkin:
+    branch: extra
+    dialect: 京語漢喃字
+    recipe: Hulenkius/rime_tiingkin
+    upstream_url: https://github.com/Hulenkius/rime_tiingkin
+  gaulau_jyutping_dangjun:
+    branch: yue
+    dialect: 藤縣話
+    recipe: cryptogun/gaulau_jyutping
+    upstream_url: https://github.com/cryptogun/gaulau_jyutping
+orphans:
+  dkzp:
+    display_name: 上古全拼
+    branch: och
+    dialect: 上古漢語
+    description: 上古全拼方案（無對應上游配方）。
+    license: ''
+  dghp:
+    display_name: 中古汉拼
+    branch: ltc
+    dialect: 中古漢語
+    description: 中古汉拼方案（無對應上游配方）。
+    license: ''
+  kuankhiunn:
+    display_name: 廣韻羅馬字
+    branch: ltc
+    dialect: 中古漢語
+    description: 廣韻羅馬字方案（無對應上游配方）。
+    license: ''
+  middle_chinese_lookup:
+    display_name: 廣韻查詢
+    branch: ltc
+    dialect: 中古漢語
+    description: 廣韻查詢方案（無對應上游配方）。
+    license: ''
+  haitrou:
+    display_name: 晋拼解州片
+    branch: cjy
+    dialect: 晉語
+    description: 晋拼解州片方案（無對應上游配方）。
+    license: ''
+  wugniu_ionko:
+    display_name: 吳語（永嘉）
+    branch: wuu
+    dialect: 永嘉話
+    description: 吳語永嘉話方案（無對應上游配方）。
+    license: ''
+  pcngng:
+    display_name: 標準吳語
+    branch: wuu
+    dialect: 標準吳語
+    description: 標準吳語方案（無對應上游配方）。
+    license: ''
+  mp:
+    display_name: 閩倂輸入灋
+    branch: nan
+    dialect: 廈門話
+    description: 閩倂輸入灋方案（無對應上游配方）。
+    license: ''
+  ciklinbekin:
+    display_name: 戚林八音
+    branch: cdo
+    dialect: 福州話
+    description: 戚林八音方案（無對應上游配方）。
+    license: ''
+  dfd:
+    display_name: 福州話字典
+    branch: cdo
+    dialect: 福州話
+    description: 福州話字典方案（無對應上游配方）。
+    license: ''
+  moi-eian:
+    display_name: 客語粵台梅惠片梅縣音
+    branch: hak
+    dialect: 梅縣話
+    description: 客語粵台梅惠片梅縣音方案（無對應上游配方）。
+    license: ''
+  hoisiang:
+    display_name: 台城
+    branch: yue
+    dialect: 台山話
+    description: 台城方案（無對應上游配方）。
+    license: ''
+  SRenNing_EauSanCungLau:
+    display_name: 新寧台山話　斗山兼沖蔞口音
+    branch: yue
+    dialect: 台山話
+    description: 新寧台山話斗山兼沖蔞口音方案（無對應上游配方）。
+    license: ''
+  jyutsoeng:
+    display_name: 粵語雙拼
+    branch: yue
+    dialect: 廣州話
+    description: 粵語雙拼方案（無對應上游配方）。
+    license: ''
+  NgZjau_JyutPing:
+    display_name: 梧州白話
+    branch: yue
+    dialect: 梧州話
+    description: 梧州白話方案（無對應上游配方）。
+    license: ''
+  gvaizauvan:
+    display_name: 貴州韻
+    branch: yue
+    dialect: 貴港話
+    description: 貴州韻方案（無對應上游配方）。
+    license: ''
+  sawndip:
+    display_name: 古壮字拼音
+    branch: extra
+    dialect: 古壯字
+    description: 古壮字拼音方案（無對應上游配方）。
+    license: ''
+  newhannom:
+    display_name: 部𢫈𡨸漢喃㗂越
+    branch: extra
+    dialect: 越南語漢喃字
+    description: 部𢫈𡨸漢喃㗂越方案（無對應上游配方）。
+    license: ''
+  BekIngLMC:
+    display_name: 福州話八音羅馬字
+    branch: cdo
+    dialect: 福州話
+    description: 福州話八音羅馬字方案（README 列出，但本倉庫未收錄對應上游配方）。
+    license: ''
+  GauHuoiLMC:
+    display_name: 福州話教會羅馬字
+    branch: cdo
+    dialect: 福州話
+    description: 福州話教會羅馬字方案（README 列出，但本倉庫未收錄對應上游配方）。
+    license: ''
+  OC_schuesslerLHC:
+    display_name: 東漢漢語（許思萊）
+    branch: och
+    dialect: 上古漢語
+    description: 東漢漢語（許思萊）擬音方案（README 列出，但目前上游 RIME_OC_collections 倉庫未提供對應檔案）。
+    license: ''

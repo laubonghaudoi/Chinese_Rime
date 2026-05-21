@@ -1,0 +1,7 @@
+# Superpowers brainstorming runtime — local-only, never commit
+.superpowers/
+
+# Astro / Node — added once the site/ workspace lands
+site/node_modules/
+site/dist/
+site/.astro/

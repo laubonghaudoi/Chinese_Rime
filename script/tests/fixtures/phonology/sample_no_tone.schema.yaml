@@ -1,0 +1,9 @@
+schema:
+  schema_id: sample_no_tone
+  name: 無調樣本
+speller:
+  alphabet: "abcdefghijklmnopqrstuvwxyz"
+  algebra:
+    - abbrev/^([a-z]).+$/$1/
+translator:
+  dictionary: sample_no_tone
