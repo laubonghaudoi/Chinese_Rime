@@ -1,5 +1,5 @@
 :root {
-  --bg-page: #cfcfcf;
+  --bg-page: #fafafa;
   --bg-panel: #fafafa;
   --bg-elev: #ffffff;
   --bg-chip: #ecebe6;
@@ -35,7 +35,10 @@
   --fs-mono-id: 11.5px;
   --fs-mono-code: 12.5px;
 
-  --sp-section-x: 36px;
+  --site-max-width: 1280px;
+  --site-head-height: 64px;
+  --sp-edge-x: 36px;
+  --sp-section-x: max(var(--sp-edge-x), calc((100vw - var(--site-max-width)) / 2 + var(--sp-edge-x)));
   --sp-section-y: 42px;
   --sp-card: 22px;
   --sp-row-y: 11px;
@@ -48,6 +51,6 @@
     --fs-h1-page: 42px;
     --fs-h2: 26px;
     --fs-h2-section: 24px;
-    --sp-section-x: 20px;
+    --sp-edge-x: 20px;
   }
 }
