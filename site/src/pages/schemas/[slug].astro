@@ -6,7 +6,7 @@ import MetaSheet from "../../components/MetaSheet.astro";
 import SchemaHero from "../../components/SchemaHero.astro";
 import SchemaRow from "../../components/SchemaRow.astro";
 import SyllableSection from "../../components/SyllableSection.astro";
-import { getBranchByKey, getManifest, getSchema, getSiblingSchemas } from "../../data/loader";
+import { getBranchByKey, getManifest, getPhonologySummary, getSchema, getSiblingSchemas, hasPhonology } from "../../data/loader";
 import { dialectAnchor } from "../../utils/anchors";
 import { withBase } from "../../utils/path";
 
@@ -21,6 +21,7 @@ const { schemaId } = Astro.props as { schemaId: string };
 const schema = getSchema(schemaId);
 const branch = schema.branch ? getBranchByKey(schema.branch) : null;
 const siblings = getSiblingSchemas(schema.schema_id);
+const phonology = getPhonologySummary(schema.schema_id);
 const installCommand = schema.recipe ? `bash rime-install ${schema.recipe}` : null;
 const desc = schema.description.split(/\n\s*\n/).filter(Boolean);
 const crumbs = [
@@ -32,7 +33,7 @@ const crumbs = [
 ---
 <BaseLayout title={`${schema.display_name} · 中州韻輸入法非普通話漢語拼音方案全集`} active="catalog">
   <Breadcrumb items={crumbs} />
-  <SchemaHero schema={schema} />
+  <SchemaHero schema={schema} hasPhonology={Boolean(phonology)} />
   <MetaSheet schema={schema} />
 
   {desc.length > 0 && (
@@ -75,17 +76,17 @@ const crumbs = [
     </div>
   </section>
 
-  <SyllableSection index="01" title="聲母表" intro="所有聲母及其對應之 IPA 與例字，將於下一版本加入。" variant="panel" />
-  <SyllableSection index="02" title="韻母表" intro="所有韻母按韻尾分組，附 IPA 與例字。" variant="elev" />
-  <SyllableSection index="03" title="聲調" intro="全部聲調之調值、調類與例字。" variant="panel" />
-  <SyllableSection index="04" title="字音對照" intro="常用字之拼寫與發音對照查詢。" variant="elev" />
+  <SyllableSection index="01" title="聲母表" intro="由碼表推得的聲母、例字與覆蓋字數。" variant="panel" data={phonology} />
+  <SyllableSection index="02" title="韻母表" intro="由碼表推得的韻母、例字與覆蓋字數。" variant="elev" data={phonology} />
+  <SyllableSection index="03" title="聲調" intro="由拼寫尾碼或附加符號推得的聲調分佈。" variant="panel" data={phonology} />
+  <SyllableSection index="04" title="字音對照" intro="依單字碼表整理的字與拼寫對照，可搜尋完整資料。" variant="elev" data={phonology} />
 
   {siblings.length > 0 && (
     <section class="related">
       <span class="lab">同方言其他方案</span>
       <h2>更多{schema.dialect}方案</h2>
       <div class="related-grid">
-        {siblings.map((sibling) => <SchemaRow schema={sibling} />)}
+        {siblings.map((sibling) => <SchemaRow schema={sibling} hasPhonology={hasPhonology(sibling.schema_id)} />)}
       </div>
     </section>
   )}

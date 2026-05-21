@@ -1,12 +1,13 @@
 ---
 interface Props {
-  variant: "recipe" | "downloadable" | "empty";
+  variant: "recipe" | "downloadable" | "phonology" | "empty";
 }
 
 const { variant } = Astro.props;
 const label = {
   recipe: "℞ 配方",
   downloadable: "可下載",
+  phonology: "音系",
   empty: "暫缺"
 }[variant];
 ---
@@ -30,6 +31,10 @@ const label = {
   .downloadable {
     background: var(--ink);
     color: #fff;
+  }
+  .phonology {
+    border: 1px solid var(--zhu);
+    color: var(--zhu);
   }
   .empty {
     background: var(--bg-stripe);

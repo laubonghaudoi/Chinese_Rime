@@ -6,9 +6,10 @@ import SchemaBadge from "./SchemaBadge.astro";
 interface Props {
   schema: SchemaEntry;
   href?: string;
+  hasPhonology?: boolean;
 }
 
-const { schema, href } = Astro.props;
+const { schema, href, hasPhonology = false } = Astro.props;
 const link = href ?? withBase(`/schemas/${schema.slug}/`);
 const desc = schema.description.split(/\n/)[0] || "暫無方案說明。";
 ---
@@ -24,6 +25,7 @@ const desc = schema.description.split(/\n/)[0] || "暫無方案說明。";
     <code>{schema.schema_id}</code>
     {schema.recipe && <SchemaBadge variant="recipe" />}
     {schema.downloadable && <SchemaBadge variant="downloadable" />}
+    {hasPhonology && <SchemaBadge variant="phonology" />}
   </span>
   <span class="sub">
     <span>{desc}</span>

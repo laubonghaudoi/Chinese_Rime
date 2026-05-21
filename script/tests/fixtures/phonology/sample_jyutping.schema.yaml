@@ -1,0 +1,12 @@
+schema:
+  schema_id: sample
+  name: 粵拼樣本
+speller:
+  alphabet: "zyxwvutsrqponmlkjihgfedcba0123456789"
+  algebra:
+    - derive/^z/dz/
+    - derive/^c/ts/
+    - derive/^j([aeiou])/y$1/
+    - abbrev/^([a-z]).+$/$1/
+translator:
+  dictionary: sample_jyutping

@@ -4,9 +4,10 @@ import SchemaBadge from "./SchemaBadge.astro";
 
 interface Props {
   schema: SchemaEntry;
+  hasPhonology?: boolean;
 }
 
-const { schema } = Astro.props;
+const { schema, hasPhonology = false } = Astro.props;
 const tagline = schema.description.split(/\n\s*\n|\n/)[0]?.trim() || "";
 ---
 <section class="schema-hero">
@@ -15,6 +16,7 @@ const tagline = schema.description.split(/\n\s*\n|\n/)[0]?.trim() || "";
     <code>{schema.schema_id}</code>
     {schema.recipe && <SchemaBadge variant="recipe" />}
     {schema.downloadable && <SchemaBadge variant="downloadable" />}
+    {hasPhonology && <SchemaBadge variant="phonology" />}
   </div>
   {tagline && <p>{tagline}</p>}
   <div class="ctas">

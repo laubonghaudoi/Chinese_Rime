@@ -69,6 +69,18 @@ jobs:
             --readme-ids .readme_ids.txt \
             --out ../site/src/data/schemas.json
           cd ../
+      - name: Build phonology data
+        if: steps.cadence.outputs.should_run == 'true'
+        run: |
+          cd ./script
+          python -m build_phonology \
+            --schemas ../site/src/data/schemas.json \
+            --sources-root ../sources \
+            --download-root ../download \
+            --overrides phonology_overrides.yaml \
+            --summary-out ../site/src/data/phonology-summary.json \
+            --assets-out-dir ../site/public/phonology
+          cd ../
       - name: commit
         if: steps.cadence.outputs.should_run == 'true'
         run: |

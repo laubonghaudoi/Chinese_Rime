@@ -1,24 +1,52 @@
 ---
 import PlaceholderBand from "./PlaceholderBand.astro";
+import PhonologyTable from "./PhonologyTable.astro";
 import SoonBadge from "./SoonBadge.astro";
+import SyllableIndex from "./SyllableIndex.astro";
+import TonesTable from "./TonesTable.astro";
+import type { PhonologySummaryEntry } from "../data/types";
+import { withBase } from "../utils/path";
 
 interface Props {
   index: "01" | "02" | "03" | "04";
   title: string;
   intro: string;
   variant?: "panel" | "elev";
+  data?: PhonologySummaryEntry | null;
 }
 
-const { index, title, intro, variant = "panel" } = Astro.props;
+const { index, title, intro, variant = "panel", data = null } = Astro.props;
+const hasData = Boolean(data && (
+  (index === "01" && data.initials.length > 0) ||
+  (index === "02" && data.finals.length > 0) ||
+  (index === "03" && data.tones.length > 0) ||
+  (index === "04" && data.preview_syllables.length > 0)
+));
+const sectionIntro = hasData ? intro : `本方案的${title}尚待自動解析或人工補充。`;
 ---
 <section class:list={["syl", `bg-${variant}`]}>
   <span class="label">音系資料 · {index}</span>
   <div class="head">
     <h2>{title}</h2>
-    <SoonBadge />
+    {!hasData && <SoonBadge />}
   </div>
-  <p>{intro}</p>
-  <PlaceholderBand variant={variant} />
+  <p>{sectionIntro}</p>
+  {hasData && data ? (
+    <>
+      {index === "01" && <PhonologyTable caption={title} rows={data.initials} filterMode="prefix" />}
+      {index === "02" && <PhonologyTable caption={title} rows={data.finals} filterMode="contains" />}
+      {index === "03" && <TonesTable tones={data.tones} />}
+      {index === "04" && (
+        <SyllableIndex
+          entries={data.preview_syllables}
+          fetchUrl={withBase(data.asset_path)}
+          total={data.stats.total_chars}
+        />
+      )}
+    </>
+  ) : (
+    <PlaceholderBand variant={variant} />
+  )}
 </section>
 
 <style>

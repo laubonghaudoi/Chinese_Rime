@@ -1,0 +1,68 @@
+from manifest.phonology.decomposer import build_decomposer
+from manifest.phonology.schema_hints import SchemaHints
+
+
+JYUTPING_SAMPLE = [
+    "si1",
+    "si2",
+    "si3",
+    "si4",
+    "bong1",
+    "baan2",
+    "paa3",
+    "paai4",
+    "maa1",
+    "gaa1",
+    "gwong1",
+    "gwong3",
+    "zi1",
+    "ci1",
+    "ng5",
+]
+
+
+def test_decomposer_splits_jyutping_consonant_initial():
+    split = build_decomposer(JYUTPING_SAMPLE, SchemaHints(tone_encoding="digits"))
+
+    assert split("si1") == ("s", "i", "1")
+    assert split("paai4") == ("p", "aai", "4")
+    assert split("zi1") == ("z", "i", "1")
+
+
+def test_decomposer_handles_two_char_initial_from_hints():
+    hints = SchemaHints(tone_encoding="digits", recognized_initials={"gw"})
+    split = build_decomposer(JYUTPING_SAMPLE, hints)
+
+    assert split("gwong1") == ("gw", "ong", "1")
+
+
+def test_decomposer_handles_null_initial():
+    split = build_decomposer(["aa1", "a3", "oi2"], SchemaHints(tone_encoding="digits"))
+
+    assert split("aa1") == ("", "aa", "1")
+    assert split("oi2") == ("", "oi", "2")
+
+
+def test_decomposer_handles_syllabic_consonant_ng():
+    hints = SchemaHints(tone_encoding="digits", recognized_initials={"ng"})
+    split = build_decomposer(["ng5", "ngaa1", "ngo2"], hints)
+
+    assert split("ng5") == ("ng", "", "5")
+
+
+def test_decomposer_strips_letter_tone_from_overrides():
+    hints = SchemaHints(
+        tone_encoding="letters",
+        tone_letters={"q", "r"},
+        recognized_initials={"z"},
+    )
+    split = build_decomposer(["zaq", "zar", "zoq"], hints)
+
+    assert split("zaq") == ("z", "a", "q")
+    assert split("zar") == ("z", "a", "r")
+
+
+def test_decomposer_returns_none_on_unknown_spelling():
+    split = build_decomposer(JYUTPING_SAMPLE, SchemaHints(tone_encoding="digits"))
+
+    assert split("xyz") is None

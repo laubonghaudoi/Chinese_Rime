@@ -4,10 +4,12 @@ import {
   branchSchemaCount,
   getDialectForSchema,
   getManifest,
+  getPhonologySummary,
   getSchema,
   getSchemaBySlug,
   getSchemaSlugs,
-  getSiblingSchemas
+  getSiblingSchemas,
+  hasPhonology
 } from "../loader";
 
 describe("manifest loader", () => {
@@ -48,5 +50,14 @@ describe("manifest loader", () => {
   it("counts schemas in a branch", () => {
     const branch = getManifest().branches.find((entry) => entry.status !== "missing")!;
     expect(branchSchemaCount(branch)).toBeGreaterThan(0);
+  });
+
+  it("loads compact phonology summaries without requiring full public assets", () => {
+    const summary = getPhonologySummary("jyutping");
+    expect(summary?.asset_path).toBe("/phonology/jyutping.json");
+    expect(summary?.preview_syllables.length).toBeGreaterThan(0);
+    expect(hasPhonology("jyutping")).toBe(true);
+    expect(getPhonologySummary("__missing__")).toBeNull();
+    expect(hasPhonology("__missing__")).toBe(false);
   });
 });

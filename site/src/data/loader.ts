@@ -1,7 +1,9 @@
 import manifestJson from "./schemas.json";
-import type { Branch, Dialect, Manifest, SchemaEntry, SchemaId } from "./types";
+import phonologySummaryJson from "./phonology-summary.json";
+import type { Branch, Dialect, Manifest, PhonologySummary, PhonologySummaryEntry, SchemaEntry, SchemaId } from "./types";
 
 const MANIFEST = manifestJson as Manifest;
+const PHONOLOGY_SUMMARY = phonologySummaryJson as PhonologySummary;
 
 export function getManifest(): Manifest {
   return MANIFEST;
@@ -80,4 +82,12 @@ export function countRecipeSchemas(): number {
 
 export function countDownloadableSchemas(): number {
   return Object.values(MANIFEST.schemas).filter((schema) => schema.downloadable).length;
+}
+
+export function getPhonologySummary(id: SchemaId): PhonologySummaryEntry | null {
+  return PHONOLOGY_SUMMARY.schemas[id] ?? null;
+}
+
+export function hasPhonology(id: SchemaId): boolean {
+  return Boolean(getPhonologySummary(id));
 }

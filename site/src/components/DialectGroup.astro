@@ -1,6 +1,6 @@
 ---
 import type { Dialect } from "../data/types";
-import { schemasForDialect } from "../data/loader";
+import { hasPhonology, schemasForDialect } from "../data/loader";
 import { dialectAnchor } from "../utils/anchors";
 import SchemaRow from "./SchemaRow.astro";
 
@@ -15,7 +15,7 @@ const schemas = schemasForDialect(dialect);
 <section class="dialect" id={dialectAnchor(branchKey, dialect.name)} data-dialect-group>
   <h3>{dialect.name}<span>{schemas.length} 個方案</span></h3>
   <div class="rows">
-    {schemas.map((schema) => <SchemaRow schema={schema} />)}
+    {schemas.map((schema) => <SchemaRow schema={schema} hasPhonology={hasPhonology(schema.schema_id)} />)}
   </div>
 </section>
 
