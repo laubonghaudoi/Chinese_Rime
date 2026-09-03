@@ -155,6 +155,8 @@ branches:
     intro: 贛語。
     dialects:
     - 撫州話
+    - 南昌話
+    - 分宜話
 schema_assignments:
   OC_nulll:
     branch: och
@@ -541,6 +543,16 @@ schema_assignments:
     dialect: 撫州話
     recipe: colescu/rime-fudiufa
     upstream_url: https://github.com/colescu/rime-fudiufa
+  gannyu_lancong:
+    branch: gan
+    dialect: 南昌話
+    recipe: Doohaey/GonnyuGeneralIME-Rime-Lancong
+    upstream_url: https://github.com/Doohaey/GonnyuGeneralIME-Rime-Lancong
+  gannyu_fenni:
+    branch: gan
+    dialect: 分宜話
+    recipe: Doohaey/GonnyuGeneralIME-Rime-Fenni
+    upstream_url: https://github.com/Doohaey/GonnyuGeneralIME-Rime-Fenni
   sautungva:
     branch: hsn
     dialect: 邵東話

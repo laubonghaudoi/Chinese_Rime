@@ -184,6 +184,24 @@
     - fudiufa.custom.yaml
     - fudiufa.dict.yaml
     - fudiufa.schema.yaml
+贛語/南昌話:
+  source: 贛語/贛語通用輸入法（南昌）/
+  files:
+    - default.custom.yaml
+    - gannyu_lancong.dict.yaml
+    - gannyu_lancong.schema.yaml
+    - lua/gannyu_filter.lua
+    - lua/gannyu_lancong_data.lua
+    - LICENSE
+贛語/分宜話:
+  source: 贛語/贛語通用輸入法（分宜）/
+  files:
+    - default.custom.yaml
+    - gannyu_fenni.dict.yaml
+    - gannyu_fenni.schema.yaml
+    - lua/gannyu_filter.lua
+    - lua/gannyu_fenni_data.lua
+    - LICENSE
 湘語/邵東話:
   source: 湘語/邵東話輸入方案/
   files:

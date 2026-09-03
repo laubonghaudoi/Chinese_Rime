@@ -41,6 +41,15 @@ def compile_phonology(
 
     spellings = [spelling for _, spelling in rows]
     hints = extract_hints(schema_path, sample_spellings=spellings, overrides=overrides)
+    if hints.code_prefix:
+        rows = [
+            (char, spelling[len(hints.code_prefix):])
+            for char, spelling in rows
+            if spelling.startswith(hints.code_prefix)
+        ]
+    if hints.zero_initial_pinyin:
+        rows = [(char, _normalise_pinyin_zero_initial(spelling, hints.zero_initial_rewrites)) for char, spelling in rows]
+        spellings = [spelling for _, spelling in rows]
     if ipa_dictionary is not None:
         hints.recognized_initials.update(str(key).lower() for key in ipa_dictionary.get("initials_default", {}))
         hints.recognized_finals.update(str(key).lower() for key in ipa_dictionary.get("nuclei_default", {}))
@@ -102,6 +111,23 @@ def compile_phonology(
     }
     _attach_grids(record, initial_rows, final_rows, hints, ipa_dictionary)
     return record
+
+
+def _normalise_pinyin_zero_initial(spelling: str, rewrites: dict[str, str]) -> str:
+    spelling = rewrites.get(spelling.lower(), spelling)
+    if spelling.startswith("yu"):
+        return spelling
+    if spelling.startswith("yi"):
+        return spelling[1:]
+    if len(spelling) > 1 and spelling[0] == "y" and spelling[1] in "aeo":
+        return "i" + spelling[1:]
+    if spelling.startswith("wu"):
+        return spelling[1:]
+    if spelling.startswith("w"):
+        return "u" + spelling[1:]
+    if len(spelling) > 1 and spelling.endswith("y"):
+        return f"{spelling[:-1]}yu"
+    return spelling
 
 
 def summary_entry(

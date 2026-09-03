@@ -1,4 +1,27 @@
 overrides:
+  # Keep only Gan codes marked with uppercase G, then remove that marker.
+  # This affects generated phonology assets only; source dictionaries remain exact.
+  gannyu_lancong:
+    code_prefix: G
+    blocked_initials: [o, y, w, i, u]
+    extra_initials: [ng]
+    whole_syllables: { ng: [ng, ""] }
+    blocked_initial_suffixes: [y]
+    zero_initial_pinyin: true
+    zero_initial_finals: [yu, yue, yun, yung, yuon, yuot, yut]
+    finals_ipa:
+      yu: { nucleus: yu, nucleus_ipa: "y", coda: "", ipa: "y" }
+  gannyu_fenni:
+    code_prefix: G
+    blocked_initials: [o, y, w, i, u]
+    extra_initials: [ng]
+    whole_syllables: { ng: [ng, ""] }
+    blocked_initial_suffixes: [y]
+    zero_initial_pinyin: true
+    zero_initial_finals: [yu, yue, yun, yung, yuon, yuot, yut]
+    zero_initial_rewrites: { y: yu, yn: yun }
+    finals_ipa:
+      yu: { nucleus: yu, nucleus_ipa: "y", coda: "", ipa: "y" }
   OC_baxter-sagart:
     suppress_grids: true
   OC_baxter1992:

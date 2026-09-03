@@ -101,8 +101,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共 144 個方案）
-<br/>Full list of collected schemas (144 schemas in total)</h3>
+<h3>方案列表（共 146 個方案）
+<br/>Full list of collected schemas (146 schemas in total)</h3>
 
 
 <ul>
@@ -723,13 +723,25 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
             <li>撫州話 - <code>fudiufa</code></li>
           </ul>
         </li>
+        <li>
+          贛語通用輸入法（南昌話） ℞ <code>Doohaey/GonnyuGeneralIME-Rime-Lancong</code>
+          <ul>
+            <li>南昌話 - <code>gannyu_lancong</code></li>
+          </ul>
+        </li>
+        <li>
+          贛語通用輸入法（分宜話） ℞ <code>Doohaey/GonnyuGeneralIME-Rime-Fenni</code>
+          <ul>
+            <li>分宜話 - <code>gannyu_fenni</code></li>
+          </ul>
+        </li>
       </ul>
     </details>
   </li>
 </ul>
 
-<h3>配方列表（共 60 個配方）
-<br/>List of recipes (60 recipes in total)</h3>
+<h3>配方列表（共 62 個配方）
+<br/>List of recipes (62 recipes in total)</h3>
 
 <ul>
   <li>
@@ -992,6 +1004,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
       <summary>贛語 Gan</summary>
       <ul>
         <li>撫州話拼音輸入方案 ℞ <code>colescu/rime-fudiufa</code></li>
+        <li>贛語通用輸入法（南昌話） ℞ <code>Doohaey/GonnyuGeneralIME-Rime-Lancong</code></li>
+        <li>贛語通用輸入法（分宜話） ℞ <code>Doohaey/GonnyuGeneralIME-Rime-Fenni</code></li>
       </ul>
     </details>
   </li>
@@ -1183,6 +1197,7 @@ For detailed information of the collected schemas in the download package, pleas
 - [biopolyhedron](https://github.com/biopolyhedron)
 - [colescu](https://github.com/colescu)
 - [cryptogun](https://github.com/cryptogun)
+- [Doohaey](https://github.com/Doohaey)
 - [Hector Sioh](https://github.com/only3km)
 - [inzoi](https://github.com/inzoi)
 - [jimmy54](https://github.com/jimmy54)

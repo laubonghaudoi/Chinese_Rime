@@ -18,13 +18,26 @@ def build_decomposer(
 ) -> Callable[[str], tuple[str, str, str | None] | None]:
     toneless_pairs = [_strip_tone(spelling, hints) for spelling in spellings]
     toneless = [spelling for spelling, _ in toneless_pairs]
-    initials = _empirical_initials(toneless) | hints.recognized_initials
+    candidate_initials = (
+        _empirical_initials(toneless)
+        | hints.recognized_initials
+        | _initials_before_blocked_suffix(toneless, hints.blocked_initial_suffixes)
+    )
+    initials = {
+        _strip_blocked_initial_suffix(initial, hints.blocked_initial_suffixes)
+        for initial in candidate_initials
+        if initial not in hints.blocked_initials
+    } - {""}
     initials_sorted = sorted(initials, key=len, reverse=True)
     recognized_initials = {initial.lower() for initial in hints.recognized_initials}
     recognized_finals = {final.lower() for final in hints.recognized_finals}
 
     def split(spelling: str) -> tuple[str, str, str | None] | None:
         base, tone = _strip_tone(spelling, hints)
+        if whole := hints.whole_syllables.get(base.lower()):
+            return *whole, tone
+        if base.lower() in hints.zero_initial_finals:
+            return "", base, tone
         matches: list[tuple[int, int, int, str, str]] = []
         for initial in initials_sorted:
             lower = base.lower()
@@ -39,6 +52,28 @@ def build_decomposer(
         return None
 
     return split
+
+
+def _strip_blocked_initial_suffix(initial: str, suffixes: set[str]) -> str:
+    for suffix in sorted(suffixes, key=len, reverse=True):
+        if initial.endswith(suffix):
+            return initial[: -len(suffix)]
+    return initial
+
+
+def _initials_before_blocked_suffix(spellings: list[str], suffixes: set[str]) -> set[str]:
+    initials: set[str] = set()
+    for spelling in spellings:
+        prefix = ""
+        for char in spelling:
+            if char in CONSONANTS:
+                prefix += char.lower()
+            else:
+                break
+        for suffix in suffixes:
+            if prefix.endswith(suffix) and len(prefix) > len(suffix):
+                initials.add(prefix[: -len(suffix)])
+    return initials
 
 
 def _strip_tone(spelling: str, hints: SchemaHints) -> tuple[str, str | None]:

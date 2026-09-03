@@ -75,6 +75,81 @@ def test_compile_phonology_applies_letter_tone_overrides(tmp_path: Path):
     assert {row["value"] for row in record["tones"]} == {"q", "r"}
 
 
+def test_compile_phonology_keeps_and_strips_configured_prefix(tmp_path: Path):
+    schema = tmp_path / "gan.schema.yaml"
+    dictionary = tmp_path / "gan.dict.yaml"
+    schema.write_text("schema:\n  schema_id: gan\ntranslator:\n  dictionary: gan\n", encoding="utf-8")
+    dictionary.write_text("...\n一\tGyi\n甲\tGgak\n乙\tgak\n", encoding="utf-8")
+
+    record = compile_phonology(
+        schema_id="gan",
+        display_name="贛語",
+        schema_path=schema,
+        dict_path=dictionary,
+        dictionary_name="gan",
+        repo_root=tmp_path,
+        overrides={"code_prefix": "G"},
+    )
+
+    assert record is not None
+    assert record["syllable_index"] == [
+        {"char": "一", "spellings": ["yi"]},
+        {"char": "甲", "spellings": ["gak"]},
+    ]
+
+
+def test_compile_phonology_blocks_configured_initial(tmp_path: Path):
+    schema = tmp_path / "gan.schema.yaml"
+    dictionary = tmp_path / "gan.dict.yaml"
+    schema.write_text("schema:\n  schema_id: gan\ntranslator:\n  dictionary: gan\n", encoding="utf-8")
+    dictionary.write_text("...\n女\tGnyu\n", encoding="utf-8")
+
+    record = compile_phonology(
+        schema_id="gan",
+        display_name="贛語",
+        schema_path=schema,
+        dict_path=dictionary,
+        dictionary_name="gan",
+        repo_root=tmp_path,
+        overrides={"code_prefix": "G", "blocked_initials": ["ny"]},
+        ipa_dictionary_path=IPA_DICTIONARY_PATH,
+    )
+
+    assert record is not None
+    assert {item["spelling"] for item in record["initials"]} == {"n"}
+    assert {item["spelling"] for item in record["finals"]} == {"yu"}
+
+
+
+def test_compile_phonology_normalises_pinyin_zero_initials(tmp_path: Path):
+    schema = tmp_path / "gan.schema.yaml"
+    dictionary = tmp_path / "gan.dict.yaml"
+    schema.write_text("schema:\n  schema_id: gan\ntranslator:\n  dictionary: gan\n", encoding="utf-8")
+    dictionary.write_text("...\n衣\tGyi\n蛙\tGwa\n屋\tGwu\n五\tGng\n女\tGny\n鱼\tGy\n云\tGyn\n绝\tGjy\n", encoding="utf-8")
+
+    record = compile_phonology(
+        schema_id="gan",
+        display_name="贛語",
+        schema_path=schema,
+        dict_path=dictionary,
+        dictionary_name="gan",
+        repo_root=tmp_path,
+        overrides={
+            "code_prefix": "G",
+            "blocked_initials": ["y", "w", "i", "u"],
+            "extra_initials": ["ng"],
+            "blocked_initial_suffixes": ["y"],
+            "zero_initial_pinyin": True,
+            "zero_initial_finals": ["yu", "yun"],
+            "zero_initial_rewrites": {"y": "yu", "yn": "yun"},
+            "whole_syllables": {"ng": ["ng", ""]},
+        },
+    )
+
+    assert record is not None
+    assert {item["spelling"] for item in record["initials"]} == {"", "j", "n", "ng"}
+    assert {item["spelling"] for item in record["finals"]} == {"", "i", "u", "ua", "yu", "yun"}
+
 def test_summary_entry_caps_large_arrays(fixtures_dir: Path):
     record = compile_phonology(
         schema_id="jyutping",

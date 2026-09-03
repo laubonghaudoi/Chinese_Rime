@@ -22,6 +22,13 @@ class SchemaHints:
     initials_ipa: dict[str, dict] = field(default_factory=dict)
     nuclei_ipa: dict[str, dict] = field(default_factory=dict)
     finals_ipa: dict[str, dict] = field(default_factory=dict)
+    code_prefix: str = ""
+    blocked_initials: set[str] = field(default_factory=set)
+    blocked_initial_suffixes: set[str] = field(default_factory=set)
+    zero_initial_pinyin: bool = False
+    zero_initial_rewrites: dict[str, str] = field(default_factory=dict)
+    zero_initial_finals: set[str] = field(default_factory=set)
+    whole_syllables: dict[str, tuple[str, str]] = field(default_factory=dict)
 
 
 _INITIAL_ALGEBRA = re.compile(r"^\s*(?:derive|abbrev|fuzz|xform)/\^([a-zA-Z]+)")
@@ -64,6 +71,16 @@ def _apply_overrides(hints: SchemaHints, overrides: dict) -> SchemaHints:
         hints.tone_encoding = str(overrides["tone_encoding"])
     if "suppress_grids" in overrides:
         hints.suppress_grids = bool(overrides["suppress_grids"])
+    if "code_prefix" in overrides:
+        hints.code_prefix = str(overrides["code_prefix"])
+    hints.blocked_initials.update(str(value).lower() for value in overrides.get("blocked_initials", []))
+    hints.blocked_initial_suffixes.update(str(value).lower() for value in overrides.get("blocked_initial_suffixes", []))
+    hints.zero_initial_pinyin = bool(overrides.get("zero_initial_pinyin", False))
+    hints.zero_initial_rewrites.update({str(key).lower(): str(value).lower() for key, value in (overrides.get("zero_initial_rewrites") or {}).items()})
+    hints.zero_initial_finals.update(str(value).lower() for value in overrides.get("zero_initial_finals", []))
+    for spelling, parts in (overrides.get("whole_syllables") or {}).items():
+        if isinstance(parts, (list, tuple)) and len(parts) == 2:
+            hints.whole_syllables[str(spelling).lower()] = (str(parts[0]).lower(), str(parts[1]).lower())
     hints.tone_letters.update(str(value).lower() for value in overrides.get("tone_letters", []))
     hints.recognized_initials.update(str(value).lower() for value in overrides.get("extra_initials", []))
     hints.recognized_finals.update(str(value).lower() for value in overrides.get("extra_finals", []))
