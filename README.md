@@ -101,8 +101,8 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
 
 ---
 
-<h3>方案列表（共 146 個方案）
-<br/>Full list of collected schemas (146 schemas in total)</h3>
+<h3>方案列表（共 147 個方案）
+<br/>Full list of collected schemas (147 schemas in total)</h3>
 
 
 <ul>
@@ -735,13 +735,19 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
             <li>分宜話 - <code>gannyu_fenni</code></li>
           </ul>
         </li>
+        <li>
+          贛語通用輸入法（豐城話） ℞ <code>Doohaey/GonnyuGeneralIME-Rime-Fungcen</code>
+          <ul>
+            <li>豐城話 - <code>gannyu_fungcen</code></li>
+          </ul>
+        </li>
       </ul>
     </details>
   </li>
 </ul>
 
-<h3>配方列表（共 62 個配方）
-<br/>List of recipes (62 recipes in total)</h3>
+<h3>配方列表（共 63 個配方）
+<br/>List of recipes (63 recipes in total)</h3>
 
 <ul>
   <li>
@@ -1006,6 +1012,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         <li>撫州話拼音輸入方案 ℞ <code>colescu/rime-fudiufa</code></li>
         <li>贛語通用輸入法（南昌話） ℞ <code>Doohaey/GonnyuGeneralIME-Rime-Lancong</code></li>
         <li>贛語通用輸入法（分宜話） ℞ <code>Doohaey/GonnyuGeneralIME-Rime-Fenni</code></li>
+        <li>贛語通用輸入法（豐城話） ℞ <code>Doohaey/GonnyuGeneralIME-Rime-Fungcen</code></li>
       </ul>
     </details>
   </li>

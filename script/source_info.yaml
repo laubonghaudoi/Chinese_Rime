@@ -190,8 +190,11 @@
     - default.custom.yaml
     - gannyu_lancong.dict.yaml
     - gannyu_lancong.schema.yaml
-    - lua/gannyu_filter.lua
+    - lua/gannyu_annotation_filter.lua
+    - lua/gannyu_single_char_filter.lua
+    - lua/gannyu_relation_filter.lua
     - lua/gannyu_lancong_data.lua
+    - resource-manifest.json
     - LICENSE
 贛語/分宜話:
   source: 贛語/贛語通用輸入法（分宜）/
@@ -199,8 +202,23 @@
     - default.custom.yaml
     - gannyu_fenni.dict.yaml
     - gannyu_fenni.schema.yaml
-    - lua/gannyu_filter.lua
+    - lua/gannyu_annotation_filter.lua
+    - lua/gannyu_single_char_filter.lua
+    - lua/gannyu_relation_filter.lua
     - lua/gannyu_fenni_data.lua
+    - resource-manifest.json
+    - LICENSE
+贛語/豐城話:
+  source: 贛語/贛語通用輸入法（豐城）/
+  files:
+    - default.custom.yaml
+    - gannyu_fungcen.dict.yaml
+    - gannyu_fungcen.schema.yaml
+    - lua/gannyu_annotation_filter.lua
+    - lua/gannyu_single_char_filter.lua
+    - lua/gannyu_relation_filter.lua
+    - lua/gannyu_fungcen_data.lua
+    - resource-manifest.json
     - LICENSE
 湘語/邵東話:
   source: 湘語/邵東話輸入方案/

@@ -2,7 +2,7 @@
 schema:
   schema_id: gannyu_lancong
   name: 赣语－南昌
-  version: "0.2.3"
+  version: "1.0.1"
   author:
     - GannyuInputMethod contributors
   description: |
@@ -33,7 +33,9 @@ engine:
     - punct_translator
     - script_translator
   filters:
-    - lua_filter@*gannyu_filter
+    - lua_filter@*gannyu_annotation_filter
+    - lua_filter@*gannyu_single_char_filter
+    - lua_filter@*gannyu_relation_filter
     - uniquifier
 
 speller:
@@ -88,8 +90,6 @@ speller:
     - derive/^Gceu$/Fcou/
     - fuzz/^Gcit$/Fci/
     - fuzz/^Gcit$/Fcik/
-    - fuzz/^Gcoet$/Fcoe/
-    - fuzz/^Gcoet$/Fcoek/
     - fuzz/^Gcok$/Fco/
     - fuzz/^Gcok$/Fcot/
     - fuzz/^Gcon$/Fcioin/
@@ -101,6 +101,9 @@ speller:
     - fuzz/^Gcot$/Fco/
     - fuzz/^Gcot$/Fcok/
     - derive/^Gcuan$/Fcuang/
+    - fuzz/^Gcuet$/Fcue/
+    - fuzz/^Gcuet$/Fcuek/
+    - derive/^Gcui$/Fcuei/
     - fuzz/^Gcuk$/Fcu/
     - fuzz/^Gcuk$/Fcut/
     - derive/^Gcun$/Fcuen/
@@ -137,6 +140,7 @@ speller:
     - derive/^Gdong$/Fdon/
     - fuzz/^Gdot$/Fdo/
     - fuzz/^Gdot$/Fdok/
+    - derive/^Gdui$/Fduei/
     - fuzz/^Gduk$/Fdu/
     - fuzz/^Gduk$/Fdut/
     - derive/^Gdun$/Fduen/
@@ -146,6 +150,7 @@ speller:
     - fuzz/^Gfak$/Ffa/
     - fuzz/^Gfak$/Ffat/
     - derive/^Gfan$/Ffang/
+    - derive/^Gfang$/Ffan/
     - fuzz/^Gfat$/Ffa/
     - fuzz/^Gfat$/Ffak/
     - derive/^Gfei$/Ffi/
@@ -202,6 +207,7 @@ speller:
     - fuzz/^Gguat$/Fguak/
     - fuzz/^Gguet$/Fgue/
     - fuzz/^Gguet$/Fguek/
+    - derive/^Ggui$/Fguei/
     - fuzz/^Gguk$/Fgu/
     - fuzz/^Gguk$/Fgut/
     - derive/^Ggun$/Fguen/
@@ -330,6 +336,7 @@ speller:
     - fuzz/^Gkuat$/Fkuak/
     - fuzz/^Gkuet$/Fkue/
     - fuzz/^Gkuet$/Fkuek/
+    - derive/^Gkui$/Fkuei/
     - fuzz/^Gkuk$/Fku/
     - fuzz/^Gkuk$/Fkut/
     - derive/^Gkun$/Fkuen/
@@ -382,6 +389,7 @@ speller:
     - derive/^Glong$/Flon/
     - fuzz/^Glot$/Flo/
     - fuzz/^Glot$/Flok/
+    - derive/^Glui$/Fluei/
     - fuzz/^Gluk$/Flu/
     - fuzz/^Gluk$/Flut/
     - derive/^Glun$/Fluen/
@@ -648,6 +656,7 @@ speller:
     - derive/^Gsuan$/Fsuang/
     - fuzz/^Gsuet$/Fsue/
     - fuzz/^Gsuet$/Fsuek/
+    - derive/^Gsui$/Fsuei/
     - fuzz/^Gsuk$/Fsu/
     - fuzz/^Gsuk$/Fsut/
     - derive/^Gsun$/Fsuen/
@@ -683,14 +692,13 @@ speller:
     - fuzz/^Gtot$/Ftok/
     - fuzz/^Gtuet$/Ftue/
     - fuzz/^Gtuet$/Ftuek/
+    - derive/^Gtui$/Ftuei/
     - fuzz/^Gtuk$/Ftu/
     - fuzz/^Gtuk$/Ftut/
     - derive/^Gtun$/Ftuen/
     - derive/^Gtun$/Ftung/
     - derive/^Gtung$/Ftuen/
     - derive/^Gtung$/Ftun/
-    - fuzz/^Gtut$/Ftu/
-    - fuzz/^Gtut$/Ftuk/
     - derive/^Gwa$/Fua/
     - derive/^Gwai$/Fuai/
     - derive/^Gwan$/Fuan/
@@ -723,6 +731,7 @@ speller:
     - derive/^Gwui$/Fui/
     - derive/^Gwui$/Fwei/
     - fuzz/^Gwui$/Fwi/
+    - derive/^Gwui$/Fwuei/
     - fuzz/^Gwuk$/Fwu/
     - fuzz/^Gwuk$/Fwut/
     - derive/^Gwun$/Fwuen/
@@ -921,6 +930,7 @@ speller:
     - fuzz/^Gzot$/Fzok/
     - fuzz/^Gzuet$/Fzue/
     - fuzz/^Gzuet$/Fzuek/
+    - derive/^Gzui$/Fzuei/
     - fuzz/^Gzuk$/Fzu/
     - fuzz/^Gzuk$/Fzut/
     - derive/^Gzun$/Fzuen/
@@ -929,6 +939,7 @@ speller:
     - derive/^Gzung$/Fzun/
     - xform/^G//
     - xform/^F//
+    - abbrev/^([a-z]).+$/$1/
 
 translator:
   dictionary: gannyu_lancong
@@ -936,6 +947,9 @@ translator:
   enable_sentence: true
   enable_completion: true
   spelling_hints: 8
+
+menu:
+  page_size: 9
 
 punctuator:
   import_preset: default

@@ -1,0 +1,53 @@
+{
+  "files": [
+    {
+      "path": "default.custom.yaml",
+      "sha256": "751e8f55fdd789d3b394c92a37f4a2070ad12cd6de3ef1ecbf05318dc6a5000f",
+      "size": 53
+    },
+    {
+      "path": "default.yaml",
+      "sha256": "e82c3bc499c3162816036402ea9d37c2b7dace54d04338cc40f8af47e03c7101",
+      "size": 585
+    },
+    {
+      "path": "gannyu_fungcen.dict.yaml",
+      "sha256": "29c4d971cc9be12923661d0d51debc498a9aa78921aadc2ecaaeaf6f13f2c2b3",
+      "size": 169708
+    },
+    {
+      "path": "gannyu_fungcen.schema.yaml",
+      "sha256": "a0c5302d967a99c6fecbe7fb3a1273b43573c9c2fc75dc0b55c1468657da31c2",
+      "size": 34710
+    },
+    {
+      "path": "lua/gannyu_annotation_filter.lua",
+      "sha256": "d2aa756b530b3ccc33fb8749f1dfba0de45be99867a6a397592d3933e6b24e07",
+      "size": 791
+    },
+    {
+      "path": "lua/gannyu_fungcen_data.lua",
+      "sha256": "65cc37076bdcd76a1e00d3f1a037031ebe38f016e90b0732d7bb1572afad8899",
+      "size": 258697
+    },
+    {
+      "path": "lua/gannyu_relation_filter.lua",
+      "sha256": "be668175d0635fb7032d81d9a835991dda199d472afe673ea5f7257c880b4208",
+      "size": 1066
+    },
+    {
+      "path": "lua/gannyu_single_char_filter.lua",
+      "sha256": "b1c999f334992edacb8ef4b18fa4c1260c2edb0180f125844d28c033891fa0c8",
+      "size": 1566
+    }
+  ],
+  "product_version": "1.0.1",
+  "regions": [
+    {
+      "id": "fungcen",
+      "name_zh": "丰城",
+      "schema_id": "gannyu_fungcen"
+    }
+  ],
+  "schema_version": "1.0.1"
+}

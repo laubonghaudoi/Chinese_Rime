@@ -1,29 +1,7 @@
-local function clean_spelling(comment)
-  return (comment or ""):gsub("^G", ""):gsub(" G", " ")
-end
-
-local function sentence_reading(text, data)
-  local readings = {}
-  for character in text:gmatch("[%z\1-\127\194-\244][\128-\191]*") do
-    local reading = data.readings[character]
-    if not reading then
-      return nil
-    end
-    table.insert(readings, reading)
-  end
-  return table.concat(readings, " ")
-end
-
-local function annotate(candidate, data)
-  candidate.comment = data.annotations[candidate.text]
-    or sentence_reading(candidate.text, data)
-    or clean_spelling(candidate.comment)
-  return candidate
-end
-
 local function related(source, text, quality, data)
   local candidate = Candidate("gannyu_relation", source.start, source._end, text, data.annotations[text] or "")
   candidate.quality = quality
+  candidate.preedit = source.preedit
   return candidate
 end
 
@@ -49,7 +27,7 @@ function M.func(input, env)
       emit_relations(candidate, data.before[candidate.text], seen, 0.01, data)
       if not seen[candidate.text] then
         seen[candidate.text] = true
-        yield(annotate(candidate, data))
+        yield(candidate)
       end
       emit_relations(candidate, data.after[candidate.text], seen, -0.02, data)
     end
