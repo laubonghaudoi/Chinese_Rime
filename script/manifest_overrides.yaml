@@ -157,6 +157,7 @@ branches:
     - 撫州話
     - 南昌話
     - 分宜話
+    - 豐城話
 schema_assignments:
   OC_nulll:
     branch: och
@@ -553,6 +554,11 @@ schema_assignments:
     dialect: 分宜話
     recipe: Doohaey/GonnyuGeneralIME-Rime-Fenni
     upstream_url: https://github.com/Doohaey/GonnyuGeneralIME-Rime-Fenni
+  gannyu_fungcen:
+    branch: gan
+    dialect: 豐城話
+    recipe: Doohaey/GonnyuGeneralIME-Rime-Fungcen
+    upstream_url: https://github.com/Doohaey/GonnyuGeneralIME-Rime-Fungcen
   sautungva:
     branch: hsn
     dialect: 邵東話

@@ -1,0 +1,53 @@
+{
+  "files": [
+    {
+      "path": "default.custom.yaml",
+      "sha256": "79a6827cd63cba1ba23aaf3d9e821afadc092f19ace8d45b59383a7f57e62f4c",
+      "size": 53
+    },
+    {
+      "path": "default.yaml",
+      "sha256": "198095871612f2294149b4f4022ff8727e02497733e769f8f49d3f3e40f1a96d",
+      "size": 585
+    },
+    {
+      "path": "gannyu_lancong.dict.yaml",
+      "sha256": "4120068fa855b25fe6680280580fdf26d9567f04afded3b9b431b93b9fac0f8b",
+      "size": 20441015
+    },
+    {
+      "path": "gannyu_lancong.schema.yaml",
+      "sha256": "3a4a9b4f3514f09d8b8b87e02eaf609e3b0a5ad3ee9d2782b0a051960590283a",
+      "size": 24727
+    },
+    {
+      "path": "lua/gannyu_annotation_filter.lua",
+      "sha256": "d2aa756b530b3ccc33fb8749f1dfba0de45be99867a6a397592d3933e6b24e07",
+      "size": 791
+    },
+    {
+      "path": "lua/gannyu_lancong_data.lua",
+      "sha256": "b6ecdf021e640c853f656a9ead23e8807082daf2c0a350cc6c0a390e1ec012de",
+      "size": 5669380
+    },
+    {
+      "path": "lua/gannyu_relation_filter.lua",
+      "sha256": "be668175d0635fb7032d81d9a835991dda199d472afe673ea5f7257c880b4208",
+      "size": 1066
+    },
+    {
+      "path": "lua/gannyu_single_char_filter.lua",
+      "sha256": "b1c999f334992edacb8ef4b18fa4c1260c2edb0180f125844d28c033891fa0c8",
+      "size": 1566
+    }
+  ],
+  "product_version": "1.0.1",
+  "regions": [
+    {
+      "id": "lancong",
+      "name_zh": "南昌",
+      "schema_id": "gannyu_lancong"
+    }
+  ],
+  "schema_version": "1.0.1"
+}

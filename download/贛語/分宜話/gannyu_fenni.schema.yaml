@@ -2,7 +2,7 @@
 schema:
   schema_id: gannyu_fenni
   name: 赣语－分宜
-  version: "0.2.3"
+  version: "1.0.1"
   author:
     - GannyuInputMethod contributors
   description: |
@@ -33,7 +33,9 @@ engine:
     - punct_translator
     - script_translator
   filters:
-    - lua_filter@*gannyu_filter
+    - lua_filter@*gannyu_annotation_filter
+    - lua_filter@*gannyu_single_char_filter
+    - lua_filter@*gannyu_relation_filter
     - uniquifier
 
 speller:
@@ -84,8 +86,6 @@ speller:
     - fuzz/^Gdon$/Fdnyoin/
     - derive/^Gdon$/Fdong/
     - derive/^Gdong$/Fdon/
-    - fuzz/^Gfak$/Ffa/
-    - fuzz/^Gfak$/Ffat/
     - derive/^Gfan$/Ffang/
     - derive/^Gfei$/Ffi/
     - derive/^Gfen$/Ffeng/
@@ -110,6 +110,7 @@ speller:
     - derive/^Ggong$/Fgon/
     - derive/^Gguan$/Fguang/
     - derive/^Gguang$/Fguan/
+    - derive/^Ggui$/Fguei/
     - derive/^Ggun$/Fguen/
     - derive/^Ggun$/Fgung/
     - derive/^Ggung$/Fguen/
@@ -155,9 +156,13 @@ speller:
     - derive/^Gjyuei$/Fjuei/
     - derive/^Gjyuei$/Fjvei/
     - derive/^Gjyuei$/Fjyei/
+    - derive/^Gjyui$/Fjuei/
     - fuzz/^Gjyui$/Fjui/
+    - derive/^Gjyui$/Fjvei/
     - derive/^Gjyui$/Fjvi/
+    - derive/^Gjyui$/Fjyei/
     - derive/^Gjyui$/Fjyi/
+    - derive/^Gjyui$/Fjyuei/
     - derive/^Gjyun$/Fjuen/
     - fuzz/^Gjyun$/Fjun/
     - derive/^Gjyun$/Fjven/
@@ -190,6 +195,7 @@ speller:
     - derive/^Gkong$/Fkon/
     - derive/^Gkuan$/Fkuang/
     - derive/^Gkuang$/Fkuan/
+    - derive/^Gkui$/Fkuei/
     - derive/^Gkun$/Fkuen/
     - derive/^Gkun$/Fkung/
     - derive/^Gkung$/Fkuen/
@@ -203,8 +209,7 @@ speller:
     - fuzz/^Gkyui$/Fkui/
     - derive/^Gkyui$/Fkvi/
     - derive/^Gkyui$/Fkyi/
-    - fuzz/^Glak$/Fla/
-    - fuzz/^Glak$/Flat/
+    - derive/^Gkyui$/Fkyuei/
     - derive/^Glan$/Flang/
     - derive/^Glang$/Flan/
     - derive/^Glau$/Flao/
@@ -222,6 +227,7 @@ speller:
     - fuzz/^Glon$/Flnyoin/
     - derive/^Glon$/Flong/
     - derive/^Glong$/Flon/
+    - derive/^Glui$/Fluei/
     - fuzz/^Glyu$/Flu/
     - derive/^Glyu$/Flv/
     - derive/^Glyu$/Fly/
@@ -322,9 +328,13 @@ speller:
     - derive/^Gqyue$/Fque/
     - derive/^Gqyue$/Fqve/
     - derive/^Gqyue$/Fqye/
+    - derive/^Gqyui$/Fquei/
     - fuzz/^Gqyui$/Fqui/
+    - derive/^Gqyui$/Fqvei/
     - derive/^Gqyui$/Fqvi/
+    - derive/^Gqyui$/Fqyei/
     - derive/^Gqyui$/Fqyi/
+    - derive/^Gqyui$/Fqyuei/
     - derive/^Gqyun$/Fquen/
     - fuzz/^Gqyun$/Fqun/
     - derive/^Gqyun$/Fqven/
@@ -344,15 +354,11 @@ speller:
     - fuzz/^Gqyuon$/Fqyuion/
     - fuzz/^Gqyuon$/Fqyunyoin/
     - derive/^Gqyuon$/Fqyuong/
-    - fuzz/^Gsak$/Fsa/
-    - fuzz/^Gsak$/Fsat/
     - derive/^Gsan$/Fsang/
     - derive/^Gsang$/Fsan/
     - derive/^Gsau$/Fsao/
     - derive/^Gsen$/Fseng/
     - derive/^Gseng$/Fsen/
-    - fuzz/^Gset$/Fse/
-    - fuzz/^Gset$/Fsek/
     - derive/^Gseu$/Fsiu/
     - derive/^Gseu$/Fsou/
     - derive/^Gsiong$/Fsion/
@@ -530,8 +536,10 @@ speller:
     - fuzz/^Gzyui$/Fzui/
     - derive/^Gzyui$/Fzvi/
     - derive/^Gzyui$/Fzyi/
+    - derive/^Gzyui$/Fzyuei/
     - xform/^G//
     - xform/^F//
+    - abbrev/^([a-z]).+$/$1/
 
 translator:
   dictionary: gannyu_fenni
@@ -539,6 +547,9 @@ translator:
   enable_sentence: true
   enable_completion: true
   spelling_hints: 8
+
+menu:
+  page_size: 9
 
 punctuator:
   import_preset: default
