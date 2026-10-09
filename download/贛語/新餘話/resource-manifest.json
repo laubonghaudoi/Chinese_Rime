@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "path": "default.custom.yaml",
+      "sha256": "fd69b6d1eb98fea6921952ab26f428c790637452a16fb8a81392f2b16b743d4d",
+      "size": 51
+    },
+    {
+      "path": "default.yaml",
+      "sha256": "6f190bb2bd9961a34823d7d3a7d63d86ccbcfc33aa80f8d49e01b3b23ba87f75",
+      "size": 583
+    },
+    {
+      "path": "gannyu_sinyi.dict.yaml",
+      "sha256": "15e0eb85cca6116014a1034674a5cf7eb23f681b1e2b14e7a1d5ad0557bb2fe5",
+      "size": 195146
+    },
+    {
+      "path": "gannyu_sinyi.schema.yaml",
+      "sha256": "8fa29cb33bc3ab0e182fcda2521b6dbbb44f8c87c982a712956e75405d436cff",
+      "size": 15835
+    },
+    {
+      "path": "lua/gannyu_annotation_filter.lua",
+      "sha256": "89c7296638878d97182e46ad4bc3c16b7cd44dc9715ccfee8a110ebb9c04f7bb",
+      "size": 804
+    },
+    {
+      "path": "lua/gannyu_annotation_store.lua",
+      "sha256": "f0396605b71b38d2d3fc61855c5343914535e7e7e0e741ab8b56e43737fd3bc3",
+      "size": 4361
+    },
+    {
+      "path": "lua/gannyu_data_lifecycle.lua",
+      "sha256": "d6324896266ad0c10c7f73b0258fdc72689e0c1e654b418683e8276ff0024799",
+      "size": 597
+    },
+    {
+      "path": "lua/gannyu_relation_filter.lua",
+      "sha256": "6aeb83db15d556efddc3caeb9a28b7b06b1ef652afddf895bf6da8991c0c8894",
+      "size": 1079
+    },
+    {
+      "path": "lua/gannyu_single_char_filter.lua",
+      "sha256": "c9c73418381568788ce55c2319b2bbe4359631037b9ed360129e0c11f84b29b3",
+      "size": 1579
+    },
+    {
+      "path": "lua/gannyu_sinyi_annotations.bin",
+      "sha256": "c0d891498c6206cc33c0d85e3a802056ce5f0f9765736dc5a878dea0f7d2ca49",
+      "size": 132210
+    },
+    {
+      "path": "lua/gannyu_sinyi_data.lua",
+      "sha256": "8b413834435bb4ffaeec59d96b6025bcf06c191dd3440b8659c1f6d9ce9ee6b0",
+      "size": 162946
+    }
+  ],
+  "product_version": "1.2.0",
+  "regions": [
+    {
+      "id": "sinyi",
+      "name_zh": "新余市",
+      "schema_id": "gannyu_sinyi"
+    }
+  ],
+  "schema_version": "1.2.0"
+}

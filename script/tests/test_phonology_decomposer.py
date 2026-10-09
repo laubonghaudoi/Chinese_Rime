@@ -117,3 +117,15 @@ def test_decomposer_returns_none_on_unknown_spelling():
     split = build_decomposer(JYUTPING_SAMPLE, SchemaHints(tone_encoding="digits"))
 
     assert split("xyz") is None
+
+
+def test_decomposer_preserves_accented_vowels_in_toneless_codes():
+    hints = SchemaHints(tone_encoding="none", recognized_initials={"g", "j"})
+    split = build_decomposer(["ê", "e", "ï", "i", "gê", "jï"], hints)
+
+    assert split("ê") == ("", "ê", None)
+    assert split("e") == ("", "e", None)
+    assert split("ï") == ("", "ï", None)
+    assert split("i") == ("", "i", None)
+    assert split("gê") == ("g", "ê", None)
+    assert split("jï") == ("j", "ï", None)

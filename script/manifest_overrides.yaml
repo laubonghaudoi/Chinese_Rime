@@ -158,6 +158,8 @@ branches:
     - 南昌話
     - 分宜話
     - 豐城話
+    - 弋陽－橫峰話
+    - 新餘話
 schema_assignments:
   OC_nulll:
     branch: och
@@ -559,6 +561,16 @@ schema_assignments:
     dialect: 豐城話
     recipe: Doohaey/GonnyuGeneralIME-Rime-Fungcen
     upstream_url: https://github.com/Doohaey/GonnyuGeneralIME-Rime-Fungcen
+  gannyu_yikyan-henfeng:
+    branch: gan
+    dialect: 弋陽－橫峰話
+    recipe: Doohaey/GonnyuGeneralIME-Rime-Yikyan-Henfeng
+    upstream_url: https://github.com/Doohaey/GonnyuGeneralIME-Rime-Yikyan-Henfeng
+  gannyu_sinyi:
+    branch: gan
+    dialect: 新餘話
+    recipe: Doohaey/GonnyuGeneralIME-Rime-Sinyi
+    upstream_url: https://github.com/Doohaey/GonnyuGeneralIME-Rime-Sinyi
   sautungva:
     branch: hsn
     dialect: 邵東話

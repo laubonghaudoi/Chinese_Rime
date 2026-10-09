@@ -2,6 +2,7 @@ overrides:
   # Keep only Gan codes marked with uppercase G, then remove that marker.
   # This affects generated phonology assets only; source dictionaries remain exact.
   gannyu_lancong:
+    tone_encoding: none
     code_prefix: G
     blocked_initials: [o, y, w, i, u]
     extra_initials: [ng]
@@ -12,6 +13,7 @@ overrides:
     finals_ipa:
       yu: { nucleus: yu, nucleus_ipa: "y", coda: "", ipa: "y" }
   gannyu_fenni:
+    tone_encoding: none
     code_prefix: G
     blocked_initials: [o, y, w, i, u]
     extra_initials: [ng]
@@ -23,6 +25,31 @@ overrides:
     finals_ipa:
       yu: { nucleus: yu, nucleus_ipa: "y", coda: "", ipa: "y" }
   gannyu_fungcen:
+    tone_encoding: none
+    code_prefix: G
+    blocked_initials: [o, y, w, i, u]
+    extra_initials: [ng]
+    whole_syllables: { ng: [ng, ""] }
+    blocked_initial_suffixes: [y]
+    zero_initial_pinyin: true
+    zero_initial_finals: [yu, yue, yun, yung, yuon, yuot, yut, yuet, yuk, yuok]
+    zero_initial_rewrites: { y: yu, yn: yun }
+    finals_ipa:
+      yu: { nucleus: yu, nucleus_ipa: "y", coda: "", ipa: "y" }
+  gannyu_yikyan-henfeng:
+    tone_encoding: none
+    code_prefix: G
+    blocked_initials: [o, y, w, i, u]
+    extra_initials: [ng]
+    whole_syllables: { ng: [ng, ""] }
+    blocked_initial_suffixes: [y]
+    zero_initial_pinyin: true
+    zero_initial_finals: [yu, yue, yun, yung, yuon, yuot, yut, yuet, yuk, yuok]
+    zero_initial_rewrites: { y: yu, yn: yun }
+    finals_ipa:
+      yu: { nucleus: yu, nucleus_ipa: "y", coda: "", ipa: "y" }
+  gannyu_sinyi:
+    tone_encoding: none
     code_prefix: G
     blocked_initials: [o, y, w, i, u]
     extra_initials: [ng]
