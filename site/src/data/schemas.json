@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-14T12:25:41+00:00",
+  "generated_at": "2026-10-09T04:38:11+00:00",
   "stats": {
-    "schema_count": 173,
-    "recipe_count": 60,
-    "download_package_count": 70,
+    "schema_count": 178,
+    "recipe_count": 65,
+    "download_package_count": 75,
     "branch_count": 21,
     "active_branch_count": 15,
     "missing_branch_count": 6
@@ -631,6 +631,36 @@
           "name": "撫州話",
           "schemas": [
             "fudiufa"
+          ]
+        },
+        {
+          "name": "南昌話",
+          "schemas": [
+            "gannyu_lancong"
+          ]
+        },
+        {
+          "name": "分宜話",
+          "schemas": [
+            "gannyu_fenni"
+          ]
+        },
+        {
+          "name": "豐城話",
+          "schemas": [
+            "gannyu_fungcen"
+          ]
+        },
+        {
+          "name": "弋陽－橫峰話",
+          "schemas": [
+            "gannyu_yikyan-henfeng"
+          ]
+        },
+        {
+          "name": "新喻話",
+          "schemas": [
+            "gannyu_sinyi"
           ]
         }
       ]
@@ -4228,6 +4258,101 @@
       "last_commit_at": null,
       "downloadable": false,
       "download_package": null
+    },
+    "gannyu_fenni": {
+      "schema_id": "gannyu_fenni",
+      "slug": "gannyu_fenni",
+      "display_name": "赣语－分宜",
+      "branch": "gan",
+      "dialect": "分宜話",
+      "authors": [
+        "GannyuInputMethod contributors"
+      ],
+      "version": "1.2.0",
+      "description": "从项目规范词典生成；使用 Rime 原生用户学习，Lua 提供标注和连带候选。",
+      "dependencies": [],
+      "license": null,
+      "recipe": "Doohaey/GonnyuGeneralIME-Rime-Fenni",
+      "upstream_url": "https://github.com/Doohaey/GonnyuGeneralIME-Rime-Fenni",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "贛語/分宜話"
+    },
+    "gannyu_lancong": {
+      "schema_id": "gannyu_lancong",
+      "slug": "gannyu_lancong",
+      "display_name": "赣语－南昌",
+      "branch": "gan",
+      "dialect": "南昌話",
+      "authors": [
+        "GannyuInputMethod contributors"
+      ],
+      "version": "1.2.0",
+      "description": "从项目规范词典生成；使用 Rime 原生用户学习，Lua 提供标注和连带候选。",
+      "dependencies": [],
+      "license": null,
+      "recipe": "Doohaey/GonnyuGeneralIME-Rime-Lancong",
+      "upstream_url": "https://github.com/Doohaey/GonnyuGeneralIME-Rime-Lancong",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "贛語/南昌話"
+    },
+    "gannyu_yikyan-henfeng": {
+      "schema_id": "gannyu_yikyan-henfeng",
+      "slug": "gannyu_yikyan-henfeng",
+      "display_name": "赣语－弋阳-横峰",
+      "branch": "gan",
+      "dialect": "弋陽－橫峰話",
+      "authors": [
+        "GannyuInputMethod contributors"
+      ],
+      "version": "1.2.0",
+      "description": "从项目规范词典生成；使用 Rime 原生用户学习，Lua 提供标注和连带候选。",
+      "dependencies": [],
+      "license": null,
+      "recipe": "Doohaey/GonnyuGeneralIME-Rime-Yikyan-Henfeng",
+      "upstream_url": "https://github.com/Doohaey/GonnyuGeneralIME-Rime-Yikyan-Henfeng",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "贛語/弋陽－橫峰話"
+    },
+    "gannyu_sinyi": {
+      "schema_id": "gannyu_sinyi",
+      "slug": "gannyu_sinyi",
+      "display_name": "赣语－新余市",
+      "branch": "gan",
+      "dialect": "新喻話",
+      "authors": [
+        "GannyuInputMethod contributors"
+      ],
+      "version": "1.2.0",
+      "description": "从项目规范词典生成；使用 Rime 原生用户学习，Lua 提供标注和连带候选。",
+      "dependencies": [],
+      "license": null,
+      "recipe": "Doohaey/GonnyuGeneralIME-Rime-Sinyi",
+      "upstream_url": "https://github.com/Doohaey/GonnyuGeneralIME-Rime-Sinyi",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "贛語/新喻話"
+    },
+    "gannyu_fungcen": {
+      "schema_id": "gannyu_fungcen",
+      "slug": "gannyu_fungcen",
+      "display_name": "赣语－丰城",
+      "branch": "gan",
+      "dialect": "豐城話",
+      "authors": [
+        "GannyuInputMethod contributors"
+      ],
+      "version": "1.2.0",
+      "description": "从项目规范词典生成；使用 Rime 原生用户学习，Lua 提供标注和连带候选。",
+      "dependencies": [],
+      "license": null,
+      "recipe": "Doohaey/GonnyuGeneralIME-Rime-Fungcen",
+      "upstream_url": "https://github.com/Doohaey/GonnyuGeneralIME-Rime-Fungcen",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "贛語/豐城話"
     }
   }
 }

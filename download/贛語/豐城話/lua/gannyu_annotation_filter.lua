@@ -26,8 +26,8 @@ function M.func(input, env)
   end
 end
 
-function M.init(env)
-  env.data = require(env.engine.schema.schema_id .. "_data")
-end
+local lifecycle = require("gannyu_data_lifecycle")
+M.init = lifecycle.init
+M.fini = lifecycle.fini
 
 return M

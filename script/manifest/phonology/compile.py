@@ -119,7 +119,11 @@ def _normalise_pinyin_zero_initial(spelling: str, rewrites: dict[str, str]) -> s
         return spelling
     if spelling.startswith("yi"):
         return spelling[1:]
-    if len(spelling) > 1 and spelling[0] == "y" and spelling[1] in "aeo":
+    if (
+        len(spelling) > 1
+        and spelling[0] == "y"
+        and unicodedata.normalize("NFD", spelling[1])[0] in "aeo"
+    ):
         return "i" + spelling[1:]
     if spelling.startswith("wu"):
         return spelling[1:]

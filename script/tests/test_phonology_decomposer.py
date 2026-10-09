@@ -1,3 +1,5 @@
+import pytest
+
 from manifest.phonology.decomposer import build_decomposer
 from manifest.phonology.schema_hints import SchemaHints
 
@@ -78,6 +80,41 @@ def test_decomposer_handles_syllabic_consonant_ng():
     assert split("ng5") == ("ng", "", "5")
 
 
+@pytest.mark.parametrize("final", ["au", "e", "ê", "ek", "êk", "en", "ên", "êu", "iêk", "iên", "iêu", "êi"])
+def test_decomposer_prioritises_recognized_ng_over_n_and_longer_final(final):
+    hints = SchemaHints(
+        tone_encoding="none",
+        recognized_initials={"n", "ng"},
+        recognized_finals={"g" + final},
+    )
+    split = build_decomposer(["ng" + final], hints)
+
+    assert split("ng" + final) == ("ng", final, None)
+
+
+def test_decomposer_ng_priority_preserves_tone():
+    hints = SchemaHints(
+        tone_encoding="digits",
+        recognized_initials={"n", "ng"},
+        recognized_finals={"gau"},
+    )
+    split = build_decomposer(["ngau3"], hints)
+
+    assert split("ngau3") == ("ng", "au", "3")
+
+
+def test_decomposer_ng_priority_respects_blocked_initials():
+    hints = SchemaHints(
+        tone_encoding="none",
+        recognized_initials={"n", "ng"},
+        blocked_initials={"ng"},
+        recognized_finals={"gau"},
+    )
+    split = build_decomposer(["ngau"], hints)
+
+    assert split("ngau") == ("n", "gau", None)
+
+
 def test_decomposer_strips_letter_tone_from_overrides():
     hints = SchemaHints(
         tone_encoding="letters",
@@ -117,3 +154,15 @@ def test_decomposer_returns_none_on_unknown_spelling():
     split = build_decomposer(JYUTPING_SAMPLE, SchemaHints(tone_encoding="digits"))
 
     assert split("xyz") is None
+
+
+def test_decomposer_preserves_accented_vowels_in_toneless_codes():
+    hints = SchemaHints(tone_encoding="none", recognized_initials={"g", "j"})
+    split = build_decomposer(["ê", "e", "ï", "i", "gê", "jï"], hints)
+
+    assert split("ê") == ("", "ê", None)
+    assert split("e") == ("", "e", None)
+    assert split("ï") == ("", "ï", None)
+    assert split("i") == ("", "i", None)
+    assert split("gê") == ("g", "ê", None)
+    assert split("jï") == ("j", "ï", None)

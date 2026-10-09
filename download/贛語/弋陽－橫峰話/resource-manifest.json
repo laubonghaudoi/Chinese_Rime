@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "path": "default.custom.yaml",
+      "sha256": "e39577d72be18e94bb8c85187c5d06fe2c2d0f7fcf47711ceb344c302f9a9850",
+      "size": 60
+    },
+    {
+      "path": "default.yaml",
+      "sha256": "43acf17d04ec06a69df538e20b6d6d2bf69b8a03a7ddbb10814327696a409dd1",
+      "size": 592
+    },
+    {
+      "path": "gannyu_yikyan-henfeng.dict.yaml",
+      "sha256": "52dc3de3c73ff11c66bbe1318509d120fcd7911bd732e827ece323706f586443",
+      "size": 141297
+    },
+    {
+      "path": "gannyu_yikyan-henfeng.schema.yaml",
+      "sha256": "999b21927626f42d9a71fbdc0965029d14240325597a9e12b1592de5c3e6c926",
+      "size": 17991
+    },
+    {
+      "path": "lua/gannyu_annotation_filter.lua",
+      "sha256": "89c7296638878d97182e46ad4bc3c16b7cd44dc9715ccfee8a110ebb9c04f7bb",
+      "size": 804
+    },
+    {
+      "path": "lua/gannyu_annotation_store.lua",
+      "sha256": "f0396605b71b38d2d3fc61855c5343914535e7e7e0e741ab8b56e43737fd3bc3",
+      "size": 4361
+    },
+    {
+      "path": "lua/gannyu_data_lifecycle.lua",
+      "sha256": "d6324896266ad0c10c7f73b0258fdc72689e0c1e654b418683e8276ff0024799",
+      "size": 597
+    },
+    {
+      "path": "lua/gannyu_relation_filter.lua",
+      "sha256": "6aeb83db15d556efddc3caeb9a28b7b06b1ef652afddf895bf6da8991c0c8894",
+      "size": 1079
+    },
+    {
+      "path": "lua/gannyu_single_char_filter.lua",
+      "sha256": "c9c73418381568788ce55c2319b2bbe4359631037b9ed360129e0c11f84b29b3",
+      "size": 1579
+    },
+    {
+      "path": "lua/gannyu_yikyan-henfeng_annotations.bin",
+      "sha256": "f59627e1435e2a742ca0390fa3b11fea9a765b996da1d9d4da08482f619015dc",
+      "size": 107172
+    },
+    {
+      "path": "lua/gannyu_yikyan-henfeng_data.lua",
+      "sha256": "8aae8974457a7865331f2b594fe4de63205514aa1128a57e84e59213c272fb5a",
+      "size": 138309
+    }
+  ],
+  "product_version": "1.2.0",
+  "regions": [
+    {
+      "id": "yikyan-henfeng",
+      "name_zh": "弋阳-横峰",
+      "schema_id": "gannyu_yikyan-henfeng"
+    }
+  ],
+  "schema_version": "1.2.0"
+}

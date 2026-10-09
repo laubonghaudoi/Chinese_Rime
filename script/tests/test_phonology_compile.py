@@ -1,9 +1,40 @@
 from pathlib import Path
 
+import pytest
+import yaml
+
 from manifest.phonology.compile import compile_phonology, summary_entry
 
 SCRIPT_DIR = Path(__file__).resolve().parents[1]
 IPA_DICTIONARY_PATH = SCRIPT_DIR / "phonology_ipa_dictionary.yaml"
+
+
+@pytest.mark.parametrize("region", ["lancong", "fenni", "fungcen", "yikyan-henfeng", "sinyi"])
+def test_compile_gan_keeps_toneless_vowels_and_filters_mandarin(tmp_path: Path, region: str):
+    schema_id = f"gannyu_{region}"
+    schema = tmp_path / f"{schema_id}.schema.yaml"
+    dictionary = tmp_path / f"{schema_id}.dict.yaml"
+    schema.write_text(f"schema:\n  schema_id: {schema_id}\ntranslator:\n  dictionary: {schema_id}\n", encoding="utf-8")
+    dictionary.write_text("...\n甲\tGê\n乙\tGe\n丙\tGï\n丁\tGi\n戊\tGgê\n己\tGjï\n庚\tGyê\n辛\tGyuêk\n壬\tGyuong\n子\tjia\n", encoding="utf-8")
+    overrides = yaml.safe_load((SCRIPT_DIR / "phonology_overrides.yaml").read_text(encoding="utf-8"))["overrides"][schema_id]
+
+    record = compile_phonology(
+        schema_id=schema_id,
+        display_name=schema_id,
+        schema_path=schema,
+        dict_path=dictionary,
+        dictionary_name=schema_id,
+        repo_root=tmp_path,
+        overrides=overrides,
+    )
+
+    assert record is not None
+    assert record["tone_encoding"] == "none"
+    assert record["tones"] == []
+    assert {row["spelling"] for row in record["finals"]} == {"ê", "e", "ï", "i", "iê", "yuêk", "yuong"}
+    assert record["stats"]["single_char_rows"] == 9
+    assert record["stats"]["undecomposable_syllables"] == 0
+    assert all(row["char"] != "子" for row in record["syllable_index"])
 
 
 def test_compile_phonology_filters_phrases_and_builds_tables(fixtures_dir: Path):

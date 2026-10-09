@@ -190,6 +190,9 @@
     - default.custom.yaml
     - gannyu_lancong.dict.yaml
     - gannyu_lancong.schema.yaml
+    - lua/gannyu_data_lifecycle.lua
+    - lua/gannyu_annotation_store.lua
+    - lua/gannyu_lancong_annotations.bin
     - lua/gannyu_annotation_filter.lua
     - lua/gannyu_single_char_filter.lua
     - lua/gannyu_relation_filter.lua
@@ -202,6 +205,9 @@
     - default.custom.yaml
     - gannyu_fenni.dict.yaml
     - gannyu_fenni.schema.yaml
+    - lua/gannyu_data_lifecycle.lua
+    - lua/gannyu_annotation_store.lua
+    - lua/gannyu_fenni_annotations.bin
     - lua/gannyu_annotation_filter.lua
     - lua/gannyu_single_char_filter.lua
     - lua/gannyu_relation_filter.lua
@@ -214,12 +220,45 @@
     - default.custom.yaml
     - gannyu_fungcen.dict.yaml
     - gannyu_fungcen.schema.yaml
+    - lua/gannyu_data_lifecycle.lua
+    - lua/gannyu_annotation_store.lua
+    - lua/gannyu_fungcen_annotations.bin
     - lua/gannyu_annotation_filter.lua
     - lua/gannyu_single_char_filter.lua
     - lua/gannyu_relation_filter.lua
     - lua/gannyu_fungcen_data.lua
     - resource-manifest.json
     - LICENSE
+贛語/弋陽－橫峰話:
+  source: 贛語/贛語通用輸入法（弋陽－橫峰話）/
+  files:
+    - default.custom.yaml
+    - gannyu_yikyan-henfeng.dict.yaml
+    - gannyu_yikyan-henfeng.schema.yaml
+    - lua/gannyu_data_lifecycle.lua
+    - lua/gannyu_annotation_store.lua
+    - lua/gannyu_yikyan-henfeng_annotations.bin
+    - lua/gannyu_annotation_filter.lua
+    - lua/gannyu_single_char_filter.lua
+    - lua/gannyu_relation_filter.lua
+    - lua/gannyu_yikyan-henfeng_data.lua
+    - resource-manifest.json
+
+贛語/新喻話:
+  source: 贛語/贛語通用輸入法（新喻話）/
+  files:
+    - default.custom.yaml
+    - gannyu_sinyi.dict.yaml
+    - gannyu_sinyi.schema.yaml
+    - lua/gannyu_data_lifecycle.lua
+    - lua/gannyu_annotation_store.lua
+    - lua/gannyu_sinyi_annotations.bin
+    - lua/gannyu_annotation_filter.lua
+    - lua/gannyu_single_char_filter.lua
+    - lua/gannyu_relation_filter.lua
+    - lua/gannyu_sinyi_data.lua
+    - resource-manifest.json
+
 湘語/邵東話:
   source: 湘語/邵東話輸入方案/
   files:

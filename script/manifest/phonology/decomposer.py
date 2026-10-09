@@ -36,8 +36,12 @@ def build_decomposer(
         base, tone = _strip_tone(spelling, hints)
         if whole := hints.whole_syllables.get(base.lower()):
             return *whole, tone
-        if base.lower() in hints.zero_initial_finals:
+        if base.lower() in hints.zero_initial_finals or (
+            hints.zero_initial_pinyin and base.lower().startswith("yu")
+        ):
             return "", base, tone
+        if base.lower().startswith("ng") and "ng" in initials and "ng" in recognized_initials:
+            return "ng", base[2:], tone
         matches: list[tuple[int, int, int, str, str]] = []
         for initial in initials_sorted:
             lower = base.lower()
@@ -47,7 +51,7 @@ def build_decomposer(
         if matches:
             _, _, _, initial, final = max(matches)
             return initial, final, tone
-        if base and base[0] in VOWELS:
+        if base and unicodedata.normalize("NFD", base[0])[0] in VOWELS:
             return "", base, tone
         return None
 
