@@ -40,6 +40,8 @@ def build_decomposer(
             hints.zero_initial_pinyin and base.lower().startswith("yu")
         ):
             return "", base, tone
+        if base.lower().startswith("ng") and "ng" in initials and "ng" in recognized_initials:
+            return "ng", base[2:], tone
         matches: list[tuple[int, int, int, str, str]] = []
         for initial in initials_sorted:
             lower = base.lower()
