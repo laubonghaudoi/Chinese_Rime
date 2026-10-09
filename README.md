@@ -748,9 +748,9 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
           </ul>
         </li>
         <li>
-          贛語通用輸入法（新餘話） ℞ <code>Doohaey/GonnyuGeneralIME-Rime-Sinyi</code>
+          贛語通用輸入法（新喻話） ℞ <code>Doohaey/GonnyuGeneralIME-Rime-Sinyi</code>
           <ul>
-            <li>新餘話 - <code>gannyu_sinyi</code></li>
+            <li>新喻話 - <code>gannyu_sinyi</code></li>
           </ul>
         </li>
       </ul>
@@ -1026,7 +1026,7 @@ Below are the lists of all collected schemas and recipes, where recipes are mark
         <li>贛語通用輸入法（分宜話） ℞ <code>Doohaey/GonnyuGeneralIME-Rime-Fenni</code></li>
         <li>贛語通用輸入法（豐城話） ℞ <code>Doohaey/GonnyuGeneralIME-Rime-Fungcen</code></li>
         <li>贛語通用輸入法（弋陽－橫峰話） ℞ <code>Doohaey/GonnyuGeneralIME-Rime-Yikyan-Henfeng</code></li>
-        <li>贛語通用輸入法（新餘話） ℞ <code>Doohaey/GonnyuGeneralIME-Rime-Sinyi</code></li>
+        <li>贛語通用輸入法（新喻話） ℞ <code>Doohaey/GonnyuGeneralIME-Rime-Sinyi</code></li>
       </ul>
     </details>
   </li>
