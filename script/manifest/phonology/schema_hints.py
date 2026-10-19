@@ -19,6 +19,7 @@ class SchemaHints:
     recognized_finals: set[str] = field(default_factory=set)
     alphabet: str = ""
     suppress_grids: bool = False
+    require_ipa_overrides: bool = False
     initials_ipa: dict[str, dict] = field(default_factory=dict)
     nuclei_ipa: dict[str, dict] = field(default_factory=dict)
     finals_ipa: dict[str, dict] = field(default_factory=dict)
@@ -71,6 +72,7 @@ def _apply_overrides(hints: SchemaHints, overrides: dict) -> SchemaHints:
         hints.tone_encoding = str(overrides["tone_encoding"])
     if "suppress_grids" in overrides:
         hints.suppress_grids = bool(overrides["suppress_grids"])
+    hints.require_ipa_overrides = bool(overrides.get("require_ipa_overrides", False))
     if "code_prefix" in overrides:
         hints.code_prefix = str(overrides["code_prefix"])
     hints.blocked_initials.update(str(value).lower() for value in overrides.get("blocked_initials", []))

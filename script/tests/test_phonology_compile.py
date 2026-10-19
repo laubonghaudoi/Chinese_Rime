@@ -262,3 +262,27 @@ def test_compile_phonology_sorts_superscript_digit_tones(tmp_path: Path):
 
     assert record is not None
     assert [tone["value"] for tone in record["tones"]] == ["⁷", "⁸"]
+
+
+@pytest.mark.parametrize("region", ["lancong", "fungcen", "yikyan-henfeng", "sinyi", "goungon"])
+def test_gan_region_grids_use_dictionary_ipa_and_syllabic_nasals(tmp_path: Path, region: str):
+    schema_id = f"gannyu_{region}"
+    schema = tmp_path / f"{schema_id}.schema.yaml"
+    dictionary = tmp_path / f"{schema_id}.dict.yaml"
+    schema.write_text(f"schema:\n  schema_id: {schema_id}\ntranslator:\n  dictionary: {schema_id}\n", encoding="utf-8")
+    dictionary.write_text("...\n甲\tGja\n五\tGng\n乙\tGê\n丙\tGiên\n普\tmandarin\n", encoding="utf-8")
+    overrides = yaml.safe_load((SCRIPT_DIR / "phonology_overrides.yaml").read_text(encoding="utf-8"))["overrides"][schema_id]
+    record = compile_phonology(schema_id, schema_id, schema, dictionary, schema_id, tmp_path,
+                               overrides=overrides, ipa_dictionary_path=IPA_DICTIONARY_PATH)
+
+    assert record is not None
+    assert record["stats"]["single_char_rows"] == 4
+    assert record["stats"]["undecomposable_syllables"] == 0
+    assert record["stats"]["uncategorised_final_count"] == 0
+    assert "ng" in {row["spelling"] for row in record["finals"]}
+    assert "ng" not in {row["spelling"] for row in record["initials"]}
+    entries = [entry for cell in record["finals_grid"]["cells"].values() for entry in cell]
+    assert any(entry["spelling"] == "a" and entry["ipa"] == "a" for entry in entries)
+    assert any(entry["spelling"] == "iên" and entry["ipa"] in {"iɛn", "ien"} for entry in entries)
+    j_entries = [entry for cells in record["initials_grid"]["cells"].values() for cell in cells.values() for entry in cell if entry["spelling"] == "j"]
+    assert {entry["ipa"] for entry in j_entries} <= {"tɕ", "tʃ"}

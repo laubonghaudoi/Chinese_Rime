@@ -2,16 +2,109 @@ overrides:
   # Keep only Gan codes marked with uppercase G, then remove that marker.
   # This affects generated phonology assets only; source dictionaries remain exact.
   gannyu_lancong:
-    tone_encoding: none
-    code_prefix: G
-    blocked_initials: [o, y, w, i, u]
-    extra_initials: [ng]
-    whole_syllables: { ng: [ng, ""] }
-    blocked_initial_suffixes: [y]
+    tone_encoding: "none"
+    code_prefix: "G"
+    extra_initials: ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "ng", "p", "q", "s", "t", "x", "z"]
+    blocked_initial_suffixes: ["y"]
     zero_initial_pinyin: true
-    zero_initial_finals: [yu, yue, yun, yung, yuon, yuot, yut]
+    zero_initial_finals: ["yu", "yue", "yun", "yung", "yuon", "yuot", "yut"]
+    require_ipa_overrides: true
+    initials_ipa:
+      "b": {"ipa": "p", "place": "bilabial", "manner": "plosive", "examples": ["不", "啵", "并"], "char_count": 626, "syllable_count": 28}
+      "c": {"ipa": "tsʰ", "place": "alveolar", "manner": "affricate", "examples": ["着", "在", "成"], "char_count": 1774, "syllable_count": 30}
+      "d": {"ipa": "t", "place": "alveolar", "manner": "plosive", "examples": ["到", "都", "等"], "char_count": 619, "syllable_count": 31}
+      "f": {"ipa": "f", "place": "labiodental", "manner": "fricative", "examples": ["和", "分", "话"], "char_count": 1257, "syllable_count": 19, "variants": [{"ipa": "f", "place": "labiodental", "manner": "fricative", "examples": ["和", "分", "话"], "char_count": 1257, "syllable_count": 19}, {"ipa": "ɸ", "place": "bilabial", "manner": "fricative", "examples": ["会", "化", "非"], "char_count": 255, "syllable_count": 10}]}
+      "g": {"ipa": "k", "place": "velar", "manner": "plosive", "examples": ["嗰", "高", "赣"], "char_count": 1193, "syllable_count": 36}
+      "h": {"ipa": "h", "place": "glottal", "manner": "fricative", "examples": ["和", "许", "喝"], "char_count": 691, "syllable_count": 15}
+      "j": {"ipa": "tɕ", "place": "palatal", "manner": "affricate", "examples": ["佢", "渠", "系"], "char_count": 1316, "syllable_count": 21}
+      "k": {"ipa": "kʰ", "place": "velar", "manner": "plosive", "examples": ["会", "卡", "口"], "char_count": 676, "syllable_count": 34}
+      "l": {"ipa": "l", "place": "alveolar", "manner": "lateral", "examples": ["啷", "了", "来"], "char_count": 2124, "syllable_count": 41}
+      "m": {"ipa": "m", "place": "bilabial", "manner": "nasal", "examples": ["冇", "问", "面"], "char_count": 875, "syllable_count": 28}
+      "n": {"ipa": "n", "place": "alveolar", "manner": "nasal", "examples": ["你", "尔", "伱"], "char_count": 4, "syllable_count": 3, "variants": [{"ipa": "n", "place": "alveolar", "manner": "nasal", "examples": ["你", "尔", "伱"], "char_count": 4, "syllable_count": 3}, {"ipa": "ȵ", "place": "palatal", "manner": "nasal", "examples": ["年", "语", "元"], "char_count": 627, "syllable_count": 18}]}
+      "ng": {"ipa": "ŋ", "place": "velar", "manner": "nasal", "examples": ["我", "晏", "哦"], "char_count": 544, "syllable_count": 15}
+      "p": {"ipa": "pʰ", "place": "bilabial", "manner": "plosive", "examples": ["并", "被", "别"], "char_count": 1039, "syllable_count": 29}
+      "q": {"ipa": "tɕʰ", "place": "palatal", "manner": "affricate", "examples": ["佢", "渠", "就"], "char_count": 1610, "syllable_count": 22}
+      "s": {"ipa": "s", "place": "alveolar", "manner": "fricative", "examples": ["是", "上", "说"], "char_count": 1473, "syllable_count": 30}
+      "t": {"ipa": "tʰ", "place": "alveolar", "manner": "plosive", "examples": ["他", "驮", "大"], "char_count": 1435, "syllable_count": 29}
+      "x": {"ipa": "ɕ", "place": "palatal", "manner": "fricative", "examples": ["是", "系", "许"], "char_count": 1381, "syllable_count": 23}
+      "z": {"ipa": "ts", "place": "alveolar", "manner": "affricate", "examples": ["这", "中", "子"], "char_count": 1361, "syllable_count": 27}
     finals_ipa:
-      yu: { nucleus: yu, nucleus_ipa: "y", coda: "", ipa: "y" }
+      "a": {"nucleus": "a", "nucleus_ipa": "a", "coda": "", "ipa": "a", "examples": ["他", "这", "把"], "char_count": 454, "syllable_count": 15}
+      "ai": {"nucleus": "a", "nucleus_ipa": "a", "coda": "i", "ipa": "ai", "examples": ["在", "还", "大"], "char_count": 626, "syllable_count": 15}
+      "ak": {"nucleus": "a", "nucleus_ipa": "a", "coda": "k", "ipa": "aʔ", "examples": ["拿", "白", "搦"], "char_count": 26, "syllable_count": 12, "variants": [{"nucleus": "a", "nucleus_ipa": "a", "coda": "k", "ipa": "aʔ", "examples": ["拿", "白", "搦"], "char_count": 26, "syllable_count": 12}, {"nucleus": "a", "nucleus_ipa": "ɑ", "coda": "k", "ipa": "ɑʔ", "examples": ["墨"], "char_count": 1, "syllable_count": 1}]}
+      "an": {"nucleus": "a", "nucleus_ipa": "a", "coda": "n", "ipa": "an", "examples": ["晏", "还", "三"], "char_count": 873, "syllable_count": 15}
+      "ang": {"nucleus": "a", "nucleus_ipa": "a", "coda": "ng", "ipa": "aŋ", "examples": ["成", "正", "声"], "char_count": 41, "syllable_count": 10, "variants": [{"nucleus": "a", "nucleus_ipa": "a", "coda": "ng", "ipa": "aŋ", "examples": ["成", "正", "声"], "char_count": 41, "syllable_count": 10}, {"nucleus": "a", "nucleus_ipa": "ɑ", "coda": "ng", "ipa": "ɑŋ", "examples": ["揈"], "char_count": 1, "syllable_count": 1}]}
+      "at": {"nucleus": "a", "nucleus_ipa": "a", "coda": "t", "ipa": "at", "examples": ["还", "只", "发"], "char_count": 551, "syllable_count": 14}
+      "au": {"nucleus": "a", "nucleus_ipa": "a", "coda": "u", "ipa": "au", "examples": ["到", "冇", "高"], "char_count": 804, "syllable_count": 13}
+      "e": {"nucleus": "e", "nucleus_ipa": "ə", "coda": "", "ipa": "ə", "examples": ["了"], "char_count": 1, "syllable_count": 1}
+      "en": {"nucleus": "e", "nucleus_ipa": "ə", "coda": "n", "ipa": "ən", "examples": ["伱", "韧", "仑"], "char_count": 123, "syllable_count": 7, "variants": [{"nucleus": "e", "nucleus_ipa": "ə", "coda": "n", "ipa": "ən", "examples": ["伱", "韧", "仑"], "char_count": 123, "syllable_count": 7}, {"nucleus": "e", "nucleus_ipa": "ɨ", "coda": "n", "ipa": "ɨn", "examples": ["分", "成", "正"], "char_count": 890, "syllable_count": 10}]}
+      "eo": {"nucleus": "eo", "nucleus_ipa": "ɵ", "coda": "", "ipa": "ɵ", "examples": ["如", "而", "二"], "char_count": 88, "syllable_count": 1}
+      "et": {"nucleus": "e", "nucleus_ipa": "ə", "coda": "t", "ipa": "ət", "examples": ["蟋", "栉", "迮"], "char_count": 39, "syllable_count": 4, "variants": [{"nucleus": "e", "nucleus_ipa": "ə", "coda": "t", "ipa": "ət", "examples": ["蟋", "栉", "迮"], "char_count": 39, "syllable_count": 4}, {"nucleus": "e", "nucleus_ipa": "ɨ", "coda": "t", "ipa": "ɨt", "examples": ["不", "出", "只"], "char_count": 405, "syllable_count": 8}]}
+      "eu": {"nucleus": "e", "nucleus_ipa": "ɨ", "coda": "u", "ipa": "ɨu", "examples": ["周", "手", "首"], "char_count": 37, "syllable_count": 3}
+      "i": {"nucleus": "i", "nucleus_ipa": "i", "coda": "", "ipa": "i", "examples": ["是", "系", "几"], "char_count": 1745, "syllable_count": 11, "variants": [{"nucleus": "i", "nucleus_ipa": "i", "coda": "", "ipa": "i", "examples": ["是", "系", "几"], "char_count": 1745, "syllable_count": 11}, {"nucleus": "i", "nucleus_ipa": "ɿ", "coda": "", "ipa": "ɿ", "examples": ["是", "子", "之"], "char_count": 736, "syllable_count": 3}]}
+      "ia": {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "", "ipa": "ia", "examples": ["也", "呀", "且"], "char_count": 80, "syllable_count": 7}
+      "iak": {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "k", "ipa": "iaʔ", "examples": ["喫", "日", "吃"], "char_count": 15, "syllable_count": 8}
+      "iang": {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "ng", "ipa": "iaŋ", "examples": ["请", "明", "赢"], "char_count": 62, "syllable_count": 10}
+      "ik": {"nucleus": "i", "nucleus_ipa": "i", "coda": "k", "ipa": "iʔ", "examples": ["实", "式", "锡"], "char_count": 3, "syllable_count": 1, "variants": [{"nucleus": "i", "nucleus_ipa": "i", "coda": "k", "ipa": "iʔ", "examples": ["实", "式", "锡"], "char_count": 3, "syllable_count": 1}, {"nucleus": "i", "nucleus_ipa": "ɿ", "coda": "k", "ipa": "ɿʔ", "examples": ["只", "什", "值"], "char_count": 33, "syllable_count": 3}]}
+      "in": {"nucleus": "i", "nucleus_ipa": "i", "coda": "n", "ipa": "in", "examples": ["并", "新", "请"], "char_count": 1173, "syllable_count": 11}
+      "iok": {"nucleus": "io", "nucleus_ipa": "io", "coda": "k", "ipa": "ioʔ", "examples": ["嚼"], "char_count": 1, "syllable_count": 1, "variants": [{"nucleus": "io", "nucleus_ipa": "io", "coda": "k", "ipa": "ioʔ", "examples": ["嚼"], "char_count": 1, "syllable_count": 1}, {"nucleus": "io", "nucleus_ipa": "iɔ", "coda": "k", "ipa": "iɔʔ", "examples": ["嚼", "却", "乐"], "char_count": 104, "syllable_count": 6}]}
+      "iong": {"nucleus": "io", "nucleus_ipa": "iɔ", "coda": "ng", "ipa": "iɔŋ", "examples": ["想", "将", "两"], "char_count": 274, "syllable_count": 6, "variants": [{"nucleus": "io", "nucleus_ipa": "iɔ", "coda": "ng", "ipa": "iɔŋ", "examples": ["想", "将", "两"], "char_count": 274, "syllable_count": 6}, {"nucleus": "io", "nucleus_ipa": "iɔː", "coda": "ng", "ipa": "iɔːŋ", "examples": ["祥", "详"], "char_count": 2, "syllable_count": 1}]}
+      "it": {"nucleus": "i", "nucleus_ipa": "i", "coda": "t", "ipa": "it", "examples": ["一", "什", "日"], "char_count": 811, "syllable_count": 11}
+      "iu": {"nucleus": "i", "nucleus_ipa": "i", "coda": "u", "ipa": "iu", "examples": ["有", "就", "又"], "char_count": 491, "syllable_count": 7}
+      "iuk": {"nucleus": "iu", "nucleus_ipa": "iu", "coda": "k", "ipa": "iuʔ", "examples": ["六", "足", "肉"], "char_count": 201, "syllable_count": 5}
+      "iung": {"nucleus": "iu", "nucleus_ipa": "iu", "coda": "ng", "ipa": "iuŋ", "examples": ["供", "兄", "熊"], "char_count": 61, "syllable_count": 4}
+      "iut": {"nucleus": "iu", "nucleus_ipa": "iu", "coda": "t", "ipa": "iut", "examples": ["局"], "char_count": 1, "syllable_count": 1}
+      "iê": {"nucleus": "iê", "nucleus_ipa": "ie", "coda": "", "ipa": "ie", "examples": ["佢", "渠", "其"], "char_count": 30, "syllable_count": 11}
+      "iên": {"nucleus": "iê", "nucleus_ipa": "iɛ", "coda": "n", "ipa": "iɛn", "examples": ["年", "前", "面"], "char_count": 1118, "syllable_count": 14}
+      "iêt": {"nucleus": "iê", "nucleus_ipa": "iɛ", "coda": "t", "ipa": "iɛt", "examples": ["些", "别", "列"], "char_count": 677, "syllable_count": 14}
+      "iêu": {"nucleus": "iê", "nucleus_ipa": "iɛ", "coda": "u", "ipa": "iɛu", "examples": ["了", "要", "口"], "char_count": 737, "syllable_count": 14}
+      "m": {"nucleus": "m", "nucleus_ipa": "m", "coda": "", "ipa": "m", "examples": ["姆", "呣"], "char_count": 2, "syllable_count": 1, "variants": [{"nucleus": "m", "nucleus_ipa": "m", "coda": "", "ipa": "m", "examples": ["姆", "呣"], "char_count": 2, "syllable_count": 1}, {"nucleus": "m", "nucleus_ipa": "m̩", "coda": "", "ipa": "m̩", "examples": ["唔"], "char_count": 1, "syllable_count": 1}]}
+      "n": {"nucleus": "n", "nucleus_ipa": "n̩", "coda": "", "ipa": "n̩", "examples": ["你", "恁", "尔"], "char_count": 3, "syllable_count": 1}
+      "ng": {"nucleus": "ng", "nucleus_ipa": "ŋ̍", "coda": "", "ipa": "ŋ̍", "examples": ["五", "嗯", "蕹"], "char_count": 3, "syllable_count": 1}
+      "o": {"nucleus": "o", "nucleus_ipa": "o", "coda": "", "ipa": "o", "examples": ["和", "我", "啵"], "char_count": 427, "syllable_count": 14}
+      "oi": {"nucleus": "o", "nucleus_ipa": "o", "coda": "i", "ipa": "oi", "examples": ["嗳"], "char_count": 1, "syllable_count": 1}
+      "ok": {"nucleus": "o", "nucleus_ipa": "o", "coda": "k", "ipa": "oʔ", "examples": ["着", "学", "莫"], "char_count": 10, "syllable_count": 7, "variants": [{"nucleus": "o", "nucleus_ipa": "o", "coda": "k", "ipa": "oʔ", "examples": ["着", "学", "莫"], "char_count": 10, "syllable_count": 7}, {"nucleus": "o", "nucleus_ipa": "ɔ", "coda": "k", "ipa": "ɔʔ", "examples": ["着", "搁", "学"], "char_count": 489, "syllable_count": 14}]}
+      "on": {"nucleus": "o", "nucleus_ipa": "o", "coda": "n", "ipa": "on", "examples": ["赣", "转", "端"], "char_count": 660, "syllable_count": 14}
+      "ong": {"nucleus": "o", "nucleus_ipa": "ɔ", "coda": "ng", "ipa": "ɔŋ", "examples": ["啷", "上", "长"], "char_count": 753, "syllable_count": 14, "variants": [{"nucleus": "o", "nucleus_ipa": "ɔ", "coda": "ng", "ipa": "ɔŋ", "examples": ["啷", "上", "长"], "char_count": 753, "syllable_count": 14}, {"nucleus": "o", "nucleus_ipa": "ɔː", "coda": "ng", "ipa": "ɔːŋ", "examples": ["啷", "项", "昂"], "char_count": 5, "syllable_count": 4}]}
+      "ot": {"nucleus": "o", "nucleus_ipa": "o", "coda": "t", "ipa": "ot", "examples": ["说", "喝", "刷"], "char_count": 306, "syllable_count": 14}
+      "u": {"nucleus": "u", "nucleus_ipa": "u", "coda": "", "ipa": "u", "examples": ["都", "做", "如"], "char_count": 902, "syllable_count": 13}
+      "ua": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "", "ipa": "ua", "examples": ["话", "瓦", "垮"], "char_count": 65, "syllable_count": 3, "variants": [{"nucleus": "ua", "nucleus_ipa": "ua", "coda": "", "ipa": "ua", "examples": ["话", "瓦", "垮"], "char_count": 65, "syllable_count": 3}, {"nucleus": "ua", "nucleus_ipa": "uɑ", "coda": "", "ipa": "uɑ", "examples": ["跨", "挂", "褂"], "char_count": 3, "syllable_count": 2}]}
+      "uai": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "i", "ipa": "uai", "examples": ["会", "快", "外"], "char_count": 59, "syllable_count": 5}
+      "uak": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "k", "ipa": "uaʔ", "examples": ["冎", "劃", "𠚳"], "char_count": 4, "syllable_count": 2}
+      "uan": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "n", "ipa": "uan", "examples": ["还", "玩", "万"], "char_count": 52, "syllable_count": 5}
+      "uang": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "ng", "ipa": "uaŋ", "examples": ["横", "框", "诓"], "char_count": 9, "syllable_count": 3}
+      "uat": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "t", "ipa": "uat", "examples": ["挖", "刮", "滑"], "char_count": 24, "syllable_count": 3}
+      "ui": {"nucleus": "u", "nucleus_ipa": "u", "coda": "i", "ipa": "ui", "examples": ["为", "对", "会"], "char_count": 1129, "syllable_count": 10}
+      "uk": {"nucleus": "u", "nucleus_ipa": "u", "coda": "k", "ipa": "uk", "examples": ["突"], "char_count": 1, "syllable_count": 1, "variants": [{"nucleus": "u", "nucleus_ipa": "u", "coda": "k", "ipa": "uk", "examples": ["突"], "char_count": 1, "syllable_count": 1}, {"nucleus": "u", "nucleus_ipa": "u", "coda": "k", "ipa": "uʔ", "examples": ["出", "读", "入"], "char_count": 554, "syllable_count": 13}]}
+      "un": {"nucleus": "u", "nucleus_ipa": "u", "coda": "n", "ipa": "un", "examples": ["文", "问", "睏"], "char_count": 409, "syllable_count": 10}
+      "ung": {"nucleus": "u", "nucleus_ipa": "u", "coda": "ng", "ipa": "uŋ", "examples": ["中", "从", "同"], "char_count": 760, "syllable_count": 13, "variants": [{"nucleus": "u", "nucleus_ipa": "u", "coda": "ng", "ipa": "uŋ", "examples": ["中", "从", "同"], "char_count": 760, "syllable_count": 13}, {"nucleus": "u", "nucleus_ipa": "ʊ", "coda": "ng", "ipa": "ʊŋ", "examples": ["崩", "宏", "弘"], "char_count": 6, "syllable_count": 3}]}
+      "uo": {"nucleus": "uo", "nucleus_ipa": "uo", "coda": "", "ipa": "uo", "examples": ["和", "过", "喔"], "char_count": 68, "syllable_count": 3}
+      "uok": {"nucleus": "uo", "nucleus_ipa": "uɔ", "coda": "k", "ipa": "uɔʔ", "examples": ["扩", "郭", "括"], "char_count": 29, "syllable_count": 2}
+      "uon": {"nucleus": "uo", "nucleus_ipa": "uo", "coda": "n", "ipa": "uon", "examples": ["完", "管", "换"], "char_count": 87, "syllable_count": 3}
+      "uong": {"nucleus": "uo", "nucleus_ipa": "uo", "coda": "ng", "ipa": "uoŋ", "examples": ["汪", "况", "衁"], "char_count": 4, "syllable_count": 2, "variants": [{"nucleus": "uo", "nucleus_ipa": "uo", "coda": "ng", "ipa": "uoŋ", "examples": ["汪", "况", "衁"], "char_count": 4, "syllable_count": 2}, {"nucleus": "uo", "nucleus_ipa": "uɔ", "coda": "ng", "ipa": "uɔŋ", "examples": ["望", "黄", "往"], "char_count": 106, "syllable_count": 3}]}
+      "uot": {"nucleus": "uo", "nucleus_ipa": "uo", "coda": "t", "ipa": "uot", "examples": ["出", "活", "握"], "char_count": 42, "syllable_count": 3}
+      "ut": {"nucleus": "u", "nucleus_ipa": "u", "coda": "t", "ipa": "ut", "examples": ["物", "骨", "勿"], "char_count": 82, "syllable_count": 4}
+      "uê": {"nucleus": "uê", "nucleus_ipa": "ue", "coda": "", "ipa": "ue", "examples": ["啯"], "char_count": 1, "syllable_count": 1}
+      "uêt": {"nucleus": "uê", "nucleus_ipa": "uɛ", "coda": "t", "ipa": "uɛt", "examples": ["国", "刷", "活"], "char_count": 41, "syllable_count": 8}
+      "yu": {"nucleus": "yu", "nucleus_ipa": "y", "coda": "", "ipa": "y", "examples": ["渠", "许", "区"], "char_count": 716, "syllable_count": 6}
+      "yue": {"nucleus": "yue", "nucleus_ipa": "yə", "coda": "", "ipa": "yə", "examples": ["嗾"], "char_count": 1, "syllable_count": 1}
+      "yun": {"nucleus": "yu", "nucleus_ipa": "y", "coda": "n", "ipa": "yn", "examples": ["女", "群", "寻"], "char_count": 241, "syllable_count": 5}
+      "yung": {"nucleus": "yu", "nucleus_ipa": "iu", "coda": "ng", "ipa": "iuŋ", "examples": ["用", "容", "泳"], "char_count": 105, "syllable_count": 1, "variants": [{"nucleus": "yu", "nucleus_ipa": "iu", "coda": "ng", "ipa": "iuŋ", "examples": ["用", "容", "泳"], "char_count": 105, "syllable_count": 1}, {"nucleus": "yu", "nucleus_ipa": "y", "coda": "ng", "ipa": "yŋ", "examples": ["嵩"], "char_count": 1, "syllable_count": 1}]}
+      "yuon": {"nucleus": "yuo", "nucleus_ipa": "yo", "coda": "n", "ipa": "yon", "examples": ["元", "全", "完"], "char_count": 419, "syllable_count": 5}
+      "yuot": {"nucleus": "yuo", "nucleus_ipa": "yo", "coda": "t", "ipa": "yot", "examples": ["月", "钥", "越"], "char_count": 149, "syllable_count": 6}
+      "yut": {"nucleus": "yu", "nucleus_ipa": "y", "coda": "t", "ipa": "yt", "examples": ["率", "律", "域"], "char_count": 184, "syllable_count": 5}
+      "yuê": {"nucleus": "yuê", "nucleus_ipa": "ye", "coda": "", "ipa": "ye", "examples": ["唆", "靴", "嘢"], "char_count": 12, "syllable_count": 4}
+      "ê": {"nucleus": "ê", "nucleus_ipa": "e", "coda": "", "ipa": "e", "examples": ["许", "嘞", "么"], "char_count": 13, "syllable_count": 8}
+      "êi": {"nucleus": "ê", "nucleus_ipa": "e", "coda": "i", "ipa": "ei", "examples": ["在", "来", "每"], "char_count": 11, "syllable_count": 5}
+      "ên": {"nucleus": "ê", "nucleus_ipa": "e", "coda": "n", "ipa": "en", "examples": ["你", "尔"], "char_count": 2, "syllable_count": 1, "variants": [{"nucleus": "ê", "nucleus_ipa": "e", "coda": "n", "ipa": "en", "examples": ["你", "尔"], "char_count": 2, "syllable_count": 1}, {"nucleus": "ê", "nucleus_ipa": "ɛ", "coda": "n", "ipa": "ɛn", "examples": ["许", "等", "怎"], "char_count": 245, "syllable_count": 9}]}
+      "êt": {"nucleus": "ê", "nucleus_ipa": "e", "coda": "t", "ipa": "et", "examples": ["锝", "叻", "䗪"], "char_count": 3, "syllable_count": 3, "variants": [{"nucleus": "ê", "nucleus_ipa": "e", "coda": "t", "ipa": "et", "examples": ["锝", "叻", "䗪"], "char_count": 3, "syllable_count": 3}, {"nucleus": "ê", "nucleus_ipa": "ɛ", "coda": "t", "ipa": "ɛt", "examples": ["得", "则", "没"], "char_count": 338, "syllable_count": 10}]}
+      "êu": {"nucleus": "ê", "nucleus_ipa": "ɛ", "coda": "u", "ipa": "ɛu", "examples": ["后", "少", "某"], "char_count": 550, "syllable_count": 10}
+    whole_syllables:
+      "m": ["", "m"]
+      "n": ["", "n"]
+      "ng": ["", "ng"]
+    blocked_initials: ["", "bb", "bh", "ch", "dd", "dh", "dr", "dz", "gg", "gh", "gn", "gw", "i", "jj", "jy", "kh", "kw", "ly", "nj", "ny", "o", "ph", "qy", "r", "sh", "tc", "tch", "th", "tr", "trh", "ts", "tsh", "u", "v", "w", "xy", "y", "zh", "zz"]
+    extra_finals: ["a", "ai", "ak", "an", "ang", "at", "au", "e", "en", "eo", "et", "eu", "i", "ia", "iak", "iang", "ik", "in", "iok", "iong", "it", "iu", "iuk", "iung", "iut", "iê", "iên", "iêt", "iêu", "m", "n", "ng", "o", "oi", "ok", "on", "ong", "ot", "u", "ua", "uai", "uak", "uan", "uang", "uat", "ui", "uk", "un", "ung", "uo", "uok", "uon", "uong", "uot", "ut", "uê", "uêt", "yu", "yue", "yun", "yung", "yuon", "yuot", "yut", "yuê", "ê", "êi", "ên", "êt", "êu"]
   gannyu_fenni:
     tone_encoding: none
     code_prefix: G
@@ -25,53 +118,488 @@ overrides:
     finals_ipa:
       yu: { nucleus: yu, nucleus_ipa: "y", coda: "", ipa: "y" }
   gannyu_fungcen:
-    tone_encoding: none
-    code_prefix: G
-    blocked_initials: [o, y, w, i, u]
-    extra_initials: [ng]
-    whole_syllables: { ng: [ng, ""] }
-    blocked_initial_suffixes: [y]
+    tone_encoding: "none"
+    code_prefix: "G"
+    extra_initials: ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "ng", "p", "q", "s", "t", "v", "x", "z"]
+    blocked_initial_suffixes: ["y"]
     zero_initial_pinyin: true
-    zero_initial_finals: [yu, yue, yun, yung, yuon, yuot, yut, yuet, yuk, yuok]
-    zero_initial_rewrites: { y: yu, yn: yun }
+    zero_initial_finals: ["yu", "yue", "yun", "yung", "yuon", "yuot", "yut", "yuet", "yuk", "yuok"]
+    zero_initial_rewrites: {"y": "yu", "yn": "yun"}
+    require_ipa_overrides: true
+    initials_ipa:
+      "b": {"ipa": "p", "place": "bilabial", "manner": "plosive", "examples": ["不", "并", "把"], "char_count": 176, "syllable_count": 33}
+      "c": {"ipa": "tsʰ", "place": "alveolar", "manner": "affricate", "examples": ["着", "在", "成"], "char_count": 377, "syllable_count": 43}
+      "d": {"ipa": "t", "place": "alveolar", "manner": "plosive", "examples": ["到", "都", "等"], "char_count": 173, "syllable_count": 42}
+      "f": {"ipa": "f", "place": "labiodental", "manner": "fricative", "examples": ["和", "分", "话"], "char_count": 252, "syllable_count": 25}
+      "g": {"ipa": "k", "place": "velar", "manner": "plosive", "examples": ["这", "高", "赣"], "char_count": 277, "syllable_count": 44}
+      "h": {"ipa": "h", "place": "glottal", "manner": "fricative", "examples": ["和", "还", "后"], "char_count": 124, "syllable_count": 26, "variants": [{"ipa": "h", "place": "glottal", "manner": "fricative", "examples": ["和", "还", "后"], "char_count": 124, "syllable_count": 26}, {"ipa": "x", "place": "velar", "manner": "fricative", "examples": ["下", "虾", "霞"], "char_count": 5, "syllable_count": 1}]}
+      "j": {"ipa": "tɕ", "place": "palatal", "manner": "affricate", "examples": ["他", "系", "几"], "char_count": 307, "syllable_count": 29}
+      "k": {"ipa": "kʰ", "place": "velar", "manner": "plosive", "examples": ["会", "卡", "口"], "char_count": 166, "syllable_count": 38}
+      "l": {"ipa": "l", "place": "alveolar", "manner": "lateral", "examples": ["了", "把", "来"], "char_count": 367, "syllable_count": 49}
+      "m": {"ipa": "m", "place": "bilabial", "manner": "nasal", "examples": ["不", "冇", "面"], "char_count": 206, "syllable_count": 30}
+      "n": {"ipa": "ȵ", "place": "palatal", "manner": "nasal", "examples": ["年", "你", "语"], "char_count": 226, "syllable_count": 38}
+      "ng": {"ipa": "ŋ", "place": "velar", "manner": "nasal", "examples": ["我", "啊", "呀"], "char_count": 109, "syllable_count": 19}
+      "p": {"ipa": "pʰ", "place": "bilabial", "manner": "plosive", "examples": ["并", "被", "别"], "char_count": 204, "syllable_count": 29}
+      "q": {"ipa": "tɕʰ", "place": "palatal", "manner": "affricate", "examples": ["就", "区", "前"], "char_count": 276, "syllable_count": 30}
+      "s": {"ipa": "s", "place": "alveolar", "manner": "fricative", "examples": ["是", "上", "说"], "char_count": 370, "syllable_count": 48}
+      "t": {"ipa": "tʰ", "place": "alveolar", "manner": "plosive", "examples": ["他", "大", "度"], "char_count": 246, "syllable_count": 37}
+      "v": {"ipa": "v", "place": "labiodental", "manner": "fricative", "examples": ["为", "未", "位"], "char_count": 25, "syllable_count": 1}
+      "x": {"ipa": "ɕ", "place": "palatal", "manner": "fricative", "examples": ["系", "想", "些"], "char_count": 259, "syllable_count": 30}
+      "z": {"ipa": "ts", "place": "alveolar", "manner": "affricate", "examples": ["这", "中", "子"], "char_count": 364, "syllable_count": 46}
     finals_ipa:
-      yu: { nucleus: yu, nucleus_ipa: "y", coda: "", ipa: "y" }
+      "a": {"nucleus": "a", "nucleus_ipa": "a", "coda": "", "ipa": "a", "examples": ["也", "他", "这"], "char_count": 159, "syllable_count": 16}
+      "aek": {"nucleus": "ae", "nucleus_ipa": "æ", "coda": "k", "ipa": "æk", "examples": ["插"], "char_count": 1, "syllable_count": 1, "variants": [{"nucleus": "ae", "nucleus_ipa": "æ", "coda": "k", "ipa": "æk", "examples": ["插"], "char_count": 1, "syllable_count": 1}, {"nucleus": "ae", "nucleus_ipa": "æ", "coda": "k", "ipa": "æʔ", "examples": ["达", "纳", "窄"], "char_count": 20, "syllable_count": 9}]}
+      "aep": {"nucleus": "ae", "nucleus_ipa": "æ", "coda": "p", "ipa": "æp", "examples": ["打", "夹", "搭"], "char_count": 19, "syllable_count": 8}
+      "aet": {"nucleus": "ae", "nucleus_ipa": "æ", "coda": "t", "ipa": "æt", "examples": ["发", "瞎", "杀"], "char_count": 34, "syllable_count": 9}
+      "ai": {"nucleus": "a", "nucleus_ipa": "a", "coda": "i", "ipa": "ai", "examples": ["还", "大", "才"], "char_count": 80, "syllable_count": 15}
+      "ak": {"nucleus": "a", "nucleus_ipa": "a", "coda": "k", "ipa": "aʔ", "examples": ["只", "搁", "则"], "char_count": 46, "syllable_count": 12}
+      "am": {"nucleus": "a", "nucleus_ipa": "a", "coda": "m", "ipa": "am", "examples": ["三", "谈", "痰"], "char_count": 12, "syllable_count": 5}
+      "an": {"nucleus": "a", "nucleus_ipa": "a", "coda": "n", "ipa": "an", "examples": ["三", "眼", "蛮"], "char_count": 147, "syllable_count": 15}
+      "ang": {"nucleus": "a", "nucleus_ipa": "ɑ", "coda": "ng", "ipa": "ɑŋ", "examples": ["成", "正", "声"], "char_count": 50, "syllable_count": 14}
+      "ap": {"nucleus": "a", "nucleus_ipa": "a", "coda": "p", "ipa": "ap", "examples": ["甲", "砸", "侠"], "char_count": 4, "syllable_count": 4}
+      "at": {"nucleus": "a", "nucleus_ipa": "a", "coda": "t", "ipa": "at", "examples": ["实", "泊", "拶"], "char_count": 7, "syllable_count": 4}
+      "au": {"nucleus": "a", "nucleus_ipa": "ɑ", "coda": "u", "ipa": "ɑu", "examples": ["到", "冇", "高"], "char_count": 175, "syllable_count": 15}
+      "ek": {"nucleus": "e", "nucleus_ipa": "ɨ", "coda": "k", "ipa": "ɨʔ", "examples": ["不", "什", "值"], "char_count": 45, "syllable_count": 10}
+      "en": {"nucleus": "e", "nucleus_ipa": "ə", "coda": "n", "ipa": "ən", "examples": ["分", "成", "并"], "char_count": 145, "syllable_count": 10, "variants": [{"nucleus": "e", "nucleus_ipa": "ə", "coda": "n", "ipa": "ən", "examples": ["分", "成", "并"], "char_count": 145, "syllable_count": 10}, {"nucleus": "e", "nucleus_ipa": "ɨ", "coda": "n", "ipa": "ɨn", "examples": ["等", "成", "并"], "char_count": 91, "syllable_count": 13}]}
+      "eo": {"nucleus": "eo", "nucleus_ipa": "ɵ", "coda": "", "ipa": "ɵ", "examples": ["如", "二", "儿"], "char_count": 4, "syllable_count": 1}
+      "eok": {"nucleus": "eo", "nucleus_ipa": "ɵ", "coda": "k", "ipa": "ɵʔ", "examples": ["刷", "夺", "脱"], "char_count": 15, "syllable_count": 9}
+      "eop": {"nucleus": "eo", "nucleus_ipa": "ɵ", "coda": "p", "ipa": "ɵp", "examples": ["鸽"], "char_count": 1, "syllable_count": 1}
+      "eot": {"nucleus": "eo", "nucleus_ipa": "ɵ", "coda": "t", "ipa": "ɵt", "examples": ["说", "合", "葛"], "char_count": 3, "syllable_count": 3}
+      "eu": {"nucleus": "e", "nucleus_ipa": "ə", "coda": "u", "ipa": "əu", "examples": ["周", "手", "首"], "char_count": 42, "syllable_count": 10}
+      "i": {"nucleus": "i", "nucleus_ipa": "i", "coda": "", "ipa": "i", "examples": ["是", "系", "为"], "char_count": 474, "syllable_count": 18}
+      "ia": {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "", "ipa": "ia", "examples": ["也", "且", "写"], "char_count": 28, "syllable_count": 6}
+      "iak": {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "k", "ipa": "iaʔ", "examples": ["点", "壁", "扚"], "char_count": 20, "syllable_count": 9}
+      "ian": {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "n", "ipa": "ian", "examples": ["连", "典", "贬"], "char_count": 8, "syllable_count": 4}
+      "iang": {"nucleus": "ia", "nucleus_ipa": "iɑ", "coda": "ng", "ipa": "iɑŋ", "examples": ["并", "请", "音"], "char_count": 94, "syllable_count": 11}
+      "iap": {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "p", "ipa": "iap", "examples": ["怯"], "char_count": 1, "syllable_count": 1}
+      "iat": {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "t", "ipa": "iat", "examples": ["日"], "char_count": 1, "syllable_count": 1}
+      "iau": {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "u", "ipa": "iau", "examples": ["了", "要", "口"], "char_count": 103, "syllable_count": 12}
+      "ieu": {"nucleus": "ie", "nucleus_ipa": "iə", "coda": "u", "ipa": "iəu", "examples": ["有", "就", "又"], "char_count": 53, "syllable_count": 7}
+      "ik": {"nucleus": "i", "nucleus_ipa": "i", "coda": "k", "ipa": "iʔ", "examples": ["什", "值", "指"], "char_count": 116, "syllable_count": 14}
+      "im": {"nucleus": "i", "nucleus_ipa": "i", "coda": "m", "ipa": "im", "examples": ["搇", "妗"], "char_count": 3, "syllable_count": 3}
+      "in": {"nucleus": "i", "nucleus_ipa": "i", "coda": "n", "ipa": "in", "examples": ["分", "们", "找"], "char_count": 263, "syllable_count": 16}
+      "io": {"nucleus": "io", "nucleus_ipa": "iɔ", "coda": "", "ipa": "iɔ", "examples": ["哟"], "char_count": 1, "syllable_count": 1}
+      "iok": {"nucleus": "io", "nucleus_ipa": "iɔ", "coda": "k", "ipa": "iɔʔ", "examples": ["嚼", "削", "角"], "char_count": 15, "syllable_count": 6}
+      "iong": {"nucleus": "io", "nucleus_ipa": "io", "coda": "ng", "ipa": "ioŋ", "examples": ["想", "将", "两"], "char_count": 72, "syllable_count": 6}
+      "ip": {"nucleus": "i", "nucleus_ipa": "i", "coda": "p", "ipa": "ip", "examples": ["入", "急", "十"], "char_count": 13, "syllable_count": 6}
+      "it": {"nucleus": "i", "nucleus_ipa": "i", "coda": "t", "ipa": "it", "examples": ["不", "一", "出"], "char_count": 27, "syllable_count": 10}
+      "iu": {"nucleus": "i", "nucleus_ipa": "i", "coda": "u", "ipa": "iu", "examples": ["有", "就", "又"], "char_count": 89, "syllable_count": 10}
+      "iuk": {"nucleus": "iu", "nucleus_ipa": "iu", "coda": "k", "ipa": "iuʔ", "examples": ["区", "率", "六"], "char_count": 26, "syllable_count": 6}
+      "iung": {"nucleus": "iu", "nucleus_ipa": "iu", "coda": "ng", "ipa": "iuŋ", "examples": ["从", "供", "熊"], "char_count": 22, "syllable_count": 5}
+      "iê": {"nucleus": "iê", "nucleus_ipa": "iɛ", "coda": "", "ipa": "iɛ", "examples": ["他", "去", "些"], "char_count": 35, "syllable_count": 11}
+      "iêk": {"nucleus": "iê", "nucleus_ipa": "iɛ", "coda": "k", "ipa": "iɛʔ", "examples": ["掉", "侧", "捏"], "char_count": 49, "syllable_count": 16}
+      "iên": {"nucleus": "iê", "nucleus_ipa": "iɛ", "coda": "n", "ipa": "iɛn", "examples": ["年", "等", "前"], "char_count": 297, "syllable_count": 19}
+      "iêp": {"nucleus": "iê", "nucleus_ipa": "iɛ", "coda": "p", "ipa": "iɛp", "examples": ["页", "接", "业"], "char_count": 10, "syllable_count": 6}
+      "iêt": {"nucleus": "iê", "nucleus_ipa": "iɛ", "coda": "t", "ipa": "iɛt", "examples": ["别", "列", "歇"], "char_count": 34, "syllable_count": 14}
+      "iêu": {"nucleus": "iê", "nucleus_ipa": "iɛ", "coda": "u", "ipa": "iɛu", "examples": ["了", "要", "口"], "char_count": 140, "syllable_count": 18}
+      "m": {"nucleus": "m", "nucleus_ipa": "m̩", "coda": "", "ipa": "m̩", "examples": ["姆"], "char_count": 1, "syllable_count": 1}
+      "ng": {"nucleus": "ng", "nucleus_ipa": "ŋ̩", "coda": "", "ipa": "ŋ̩", "examples": ["五", "屎", "齆"], "char_count": 9, "syllable_count": 1}
+      "o": {"nucleus": "o", "nucleus_ipa": "o", "coda": "", "ipa": "o", "examples": ["和", "我", "这"], "char_count": 117, "syllable_count": 16}
+      "oi": {"nucleus": "o", "nucleus_ipa": "o", "coda": "i", "ipa": "oi", "examples": ["水"], "char_count": 1, "syllable_count": 1}
+      "ok": {"nucleus": "o", "nucleus_ipa": "o", "coda": "k", "ipa": "oʔ", "examples": ["的", "却", "乐"], "char_count": 40, "syllable_count": 12, "variants": [{"nucleus": "o", "nucleus_ipa": "o", "coda": "k", "ipa": "oʔ", "examples": ["的", "却", "乐"], "char_count": 40, "syllable_count": 12}, {"nucleus": "o", "nucleus_ipa": "ɔ", "coda": "k", "ipa": "ɔʔ", "examples": ["不", "着", "搁"], "char_count": 55, "syllable_count": 14}]}
+      "on": {"nucleus": "o", "nucleus_ipa": "o", "coda": "n", "ipa": "on", "examples": ["赣", "转", "端"], "char_count": 91, "syllable_count": 12}
+      "ong": {"nucleus": "o", "nucleus_ipa": "o", "coda": "ng", "ipa": "oŋ", "examples": ["上", "长", "将"], "char_count": 207, "syllable_count": 14}
+      "ot": {"nucleus": "o", "nucleus_ipa": "o", "coda": "t", "ipa": "ot", "examples": ["没", "渴", "葛"], "char_count": 9, "syllable_count": 6}
+      "u": {"nucleus": "u", "nucleus_ipa": "u", "coda": "", "ipa": "u", "examples": ["和", "都", "做"], "char_count": 196, "syllable_count": 14}
+      "ua": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "", "ipa": "ua", "examples": ["话", "垮", "挖"], "char_count": 19, "syllable_count": 5}
+      "uaek": {"nucleus": "uae", "nucleus_ipa": "uæ", "coda": "k", "ipa": "uæʔ", "examples": ["挖"], "char_count": 1, "syllable_count": 1}
+      "uaet": {"nucleus": "uae", "nucleus_ipa": "uæ", "coda": "t", "ipa": "uæt", "examples": ["刮", "滑", "猾"], "char_count": 4, "syllable_count": 2}
+      "uai": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "i", "ipa": "uai", "examples": ["会", "快", "块"], "char_count": 10, "syllable_count": 3}
+      "uak": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "k", "ipa": "uaʔ", "examples": ["轭"], "char_count": 1, "syllable_count": 1}
+      "uan": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "n", "ipa": "uan", "examples": ["还", "万", "环"], "char_count": 13, "syllable_count": 2}
+      "uang": {"nucleus": "ua", "nucleus_ipa": "uɑ", "coda": "ng", "ipa": "uɑŋ", "examples": ["光", "横", "梗"], "char_count": 3, "syllable_count": 2}
+      "uek": {"nucleus": "ue", "nucleus_ipa": "uɨ", "coda": "k", "ipa": "uɨʔ", "examples": ["物", "突", "核"], "char_count": 4, "syllable_count": 3}
+      "uet": {"nucleus": "ue", "nucleus_ipa": "uɨ", "coda": "t", "ipa": "uɨt", "examples": ["骨"], "char_count": 1, "syllable_count": 1}
+      "ui": {"nucleus": "u", "nucleus_ipa": "u", "coda": "i", "ipa": "ui", "examples": ["内", "类", "归"], "char_count": 31, "syllable_count": 7, "variants": [{"nucleus": "u", "nucleus_ipa": "u", "coda": "i", "ipa": "ui", "examples": ["内", "类", "归"], "char_count": 31, "syllable_count": 7}, {"nucleus": "u", "nucleus_ipa": "uɛ", "coda": "i", "ipa": "uɛi", "examples": ["归", "闺", "规"], "char_count": 8, "syllable_count": 3}]}
+      "uin": {"nucleus": "ui", "nucleus_ipa": "ui", "coda": "n", "ipa": "uin", "examples": ["文", "问", "完"], "char_count": 28, "syllable_count": 3}
+      "uiê": {"nucleus": "uiê", "nucleus_ipa": "uiɛ", "coda": "", "ipa": "uiɛ", "examples": ["喡"], "char_count": 1, "syllable_count": 1}
+      "uiên": {"nucleus": "uiê", "nucleus_ipa": "uiɛ", "coda": "n", "ipa": "uiɛn", "examples": ["文", "问", "完"], "char_count": 20, "syllable_count": 1}
+      "uk": {"nucleus": "u", "nucleus_ipa": "u", "coda": "k", "ipa": "uʔ", "examples": ["所", "读", "储"], "char_count": 74, "syllable_count": 13}
+      "un": {"nucleus": "u", "nucleus_ipa": "u", "coda": "n", "ipa": "un", "examples": ["文", "问", "嫩"], "char_count": 28, "syllable_count": 6, "variants": [{"nucleus": "u", "nucleus_ipa": "u", "coda": "n", "ipa": "un", "examples": ["文", "问", "嫩"], "char_count": 28, "syllable_count": 6}, {"nucleus": "u", "nucleus_ipa": "uɛ", "coda": "n", "ipa": "uɛn", "examples": ["管", "官", "存"], "char_count": 38, "syllable_count": 9}]}
+      "ung": {"nucleus": "u", "nucleus_ipa": "u", "coda": "ng", "ipa": "uŋ", "examples": ["中", "同", "总"], "char_count": 158, "syllable_count": 14}
+      "uo": {"nucleus": "uo", "nucleus_ipa": "uo", "coda": "", "ipa": "uo", "examples": ["和", "拉", "过"], "char_count": 14, "syllable_count": 2}
+      "uok": {"nucleus": "uo", "nucleus_ipa": "uo", "coda": "k", "ipa": "uoʔ", "examples": ["阔"], "char_count": 1, "syllable_count": 1, "variants": [{"nucleus": "uo", "nucleus_ipa": "uo", "coda": "k", "ipa": "uoʔ", "examples": ["阔"], "char_count": 1, "syllable_count": 1}, {"nucleus": "uo", "nucleus_ipa": "uɔ", "coda": "k", "ipa": "uɔʔ", "examples": ["握", "或", "沃"], "char_count": 4, "syllable_count": 1}]}
+      "uon": {"nucleus": "uo", "nucleus_ipa": "uo", "coda": "n", "ipa": "uon", "examples": ["转", "换", "官"], "char_count": 18, "syllable_count": 7}
+      "uong": {"nucleus": "uo", "nucleus_ipa": "uo", "coda": "ng", "ipa": "uoŋ", "examples": ["望", "黄", "往"], "char_count": 26, "syllable_count": 3}
+      "uot": {"nucleus": "uo", "nucleus_ipa": "uo", "coda": "t", "ipa": "uot", "examples": ["活"], "char_count": 1, "syllable_count": 1}
+      "ut": {"nucleus": "u", "nucleus_ipa": "u", "coda": "t", "ipa": "ut", "examples": ["术", "卒", "秫"], "char_count": 3, "syllable_count": 2}
+      "uêi": {"nucleus": "uê", "nucleus_ipa": "uɛ", "coda": "i", "ipa": "uɛi", "examples": ["会", "玩", "喂"], "char_count": 9, "syllable_count": 1}
+      "uêik": {"nucleus": "uêi", "nucleus_ipa": "uɛi", "coda": "k", "ipa": "uɛiʔ", "examples": ["物"], "char_count": 1, "syllable_count": 1}
+      "uêk": {"nucleus": "uê", "nucleus_ipa": "uɛ", "coda": "k", "ipa": "uɛʔ", "examples": ["活"], "char_count": 1, "syllable_count": 1}
+      "uên": {"nucleus": "uê", "nucleus_ipa": "uɛ", "coda": "n", "ipa": "uɛn", "examples": ["文", "问", "完"], "char_count": 20, "syllable_count": 1}
+      "yu": {"nucleus": "yu", "nucleus_ipa": "y", "coda": "", "ipa": "y", "examples": ["区", "主", "处"], "char_count": 139, "syllable_count": 9}
+      "yueo": {"nucleus": "yueo", "nucleus_ipa": "yɵ", "coda": "", "ipa": "yɵ", "examples": ["茄", "靴"], "char_count": 2, "syllable_count": 2}
+      "yueok": {"nucleus": "yueo", "nucleus_ipa": "yɵ", "coda": "k", "ipa": "yɵʔ", "examples": ["月", "越", "缺"], "char_count": 14, "syllable_count": 5}
+      "yuk": {"nucleus": "yu", "nucleus_ipa": "y", "coda": "k", "ipa": "yʔ", "examples": ["出", "序", "浴"], "char_count": 13, "syllable_count": 7}
+      "yun": {"nucleus": "yu", "nucleus_ipa": "y", "coda": "n", "ipa": "yn", "examples": ["群", "韵", "云"], "char_count": 56, "syllable_count": 8}
+      "yung": {"nucleus": "yu", "nucleus_ipa": "iu", "coda": "ng", "ipa": "iuŋ", "examples": ["用", "容", "佣"], "char_count": 12, "syllable_count": 1, "variants": [{"nucleus": "yu", "nucleus_ipa": "iu", "coda": "ng", "ipa": "iuŋ", "examples": ["用", "容", "佣"], "char_count": 12, "syllable_count": 1}, {"nucleus": "yu", "nucleus_ipa": "y", "coda": "ng", "ipa": "yŋ", "examples": ["泳", "永", "绒"], "char_count": 5, "syllable_count": 2}]}
+      "yuon": {"nucleus": "yuo", "nucleus_ipa": "yo", "coda": "n", "ipa": "yon", "examples": ["元", "全", "完"], "char_count": 66, "syllable_count": 5}
+      "yut": {"nucleus": "yu", "nucleus_ipa": "y", "coda": "t", "ipa": "yt", "examples": ["律", "虑", "术"], "char_count": 9, "syllable_count": 4}
+      "yuê": {"nucleus": "yuê", "nucleus_ipa": "ye", "coda": "", "ipa": "ye", "examples": ["穴"], "char_count": 1, "syllable_count": 1}
+      "yuêk": {"nucleus": "yuê", "nucleus_ipa": "ye", "coda": "k", "ipa": "yeʔ", "examples": ["国", "革", "略"], "char_count": 11, "syllable_count": 6}
+      "yuêp": {"nucleus": "yuê", "nucleus_ipa": "ye", "coda": "p", "ipa": "yep", "examples": ["鸽"], "char_count": 1, "syllable_count": 1}
+      "yuêt": {"nucleus": "yuê", "nucleus_ipa": "ye", "coda": "t", "ipa": "yet", "examples": ["说", "月", "刷"], "char_count": 28, "syllable_count": 11}
+      "ê": {"nucleus": "ê", "nucleus_ipa": "ɛ", "coda": "", "ipa": "ɛ", "examples": ["呢", "该", "惹"], "char_count": 5, "syllable_count": 5}
+      "êi": {"nucleus": "ê", "nucleus_ipa": "ɛ", "coda": "i", "ipa": "ɛi", "examples": ["这", "对", "在"], "char_count": 164, "syllable_count": 16}
+      "êk": {"nucleus": "ê", "nucleus_ipa": "ɛ", "coda": "k", "ipa": "ɛʔ", "examples": ["得", "则", "侧"], "char_count": 43, "syllable_count": 10}
+      "ên": {"nucleus": "ê", "nucleus_ipa": "ɛ", "coda": "n", "ipa": "ɛn", "examples": ["怎", "能", "层"], "char_count": 64, "syllable_count": 11}
+      "êt": {"nucleus": "ê", "nucleus_ipa": "ɛ", "coda": "t", "ipa": "ɛt", "examples": ["没", "特", "勒"], "char_count": 11, "syllable_count": 5}
+      "êu": {"nucleus": "ê", "nucleus_ipa": "ɛ", "coda": "u", "ipa": "ɛu", "examples": ["后", "少", "某"], "char_count": 63, "syllable_count": 9}
+    whole_syllables:
+      "m": ["", "m"]
+      "ng": ["", "ng"]
+    blocked_initials: ["", "bb", "bh", "ch", "cy", "dd", "dh", "dr", "dz", "gg", "gh", "gn", "gw", "gy", "i", "jj", "jy", "kh", "kw", "ky", "ly", "nj", "ny", "o", "ph", "qy", "r", "sh", "sy", "tc", "tch", "th", "tr", "trh", "ts", "tsh", "u", "w", "xy", "y", "zh", "zy", "zz"]
+    extra_finals: ["a", "aek", "aep", "aet", "ai", "ak", "am", "an", "ang", "ap", "at", "au", "ek", "en", "eo", "eok", "eop", "eot", "eu", "i", "ia", "iak", "ian", "iang", "iap", "iat", "iau", "ieu", "ik", "im", "in", "io", "iok", "iong", "ip", "it", "iu", "iuk", "iung", "iê", "iêk", "iên", "iêp", "iêt", "iêu", "m", "ng", "o", "oi", "ok", "on", "ong", "ot", "u", "ua", "uaek", "uaet", "uai", "uak", "uan", "uang", "uek", "uet", "ui", "uin", "uiê", "uiên", "uk", "un", "ung", "uo", "uok", "uon", "uong", "uot", "ut", "uêi", "uêik", "uêk", "uên", "yu", "yueo", "yueok", "yuk", "yun", "yung", "yuon", "yut", "yuê", "yuêk", "yuêp", "yuêt", "ê", "êi", "êk", "ên", "êt", "êu"]
   gannyu_yikyan-henfeng:
-    tone_encoding: none
-    code_prefix: G
-    blocked_initials: [o, y, w, i, u]
-    extra_initials: [ng]
-    whole_syllables: { ng: [ng, ""] }
-    blocked_initial_suffixes: [y]
+    tone_encoding: "none"
+    code_prefix: "G"
+    extra_initials: ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "ng", "p", "q", "s", "t", "x", "z"]
+    blocked_initial_suffixes: ["y"]
     zero_initial_pinyin: true
-    zero_initial_finals: [yu, yue, yun, yung, yuon, yuot, yut, yuet, yuk, yuok]
-    zero_initial_rewrites: { y: yu, yn: yun }
+    zero_initial_finals: ["yu", "yue", "yun", "yung", "yuon", "yuot", "yut", "yuet", "yuk", "yuok"]
+    zero_initial_rewrites: {"y": "yu", "yn": "yun"}
+    require_ipa_overrides: true
+    initials_ipa:
+      "b": {"ipa": "p", "place": "bilabial", "manner": "plosive", "examples": ["不", "本", "标"], "char_count": 346, "syllable_count": 25}
+      "c": {"ipa": "tsʰ", "place": "alveolar", "manner": "affricate", "examples": ["在", "成", "才"], "char_count": 474, "syllable_count": 25}
+      "d": {"ipa": "t", "place": "alveolar", "manner": "plosive", "examples": ["到", "都", "对"], "char_count": 288, "syllable_count": 31}
+      "f": {"ipa": "f", "place": "labiodental", "manner": "fricative", "examples": ["分", "化", "发"], "char_count": 356, "syllable_count": 20}
+      "g": {"ipa": "k", "place": "velar", "manner": "plosive", "examples": ["瑰", "硅", "高"], "char_count": 508, "syllable_count": 35}
+      "h": {"ipa": "x", "place": "velar", "manner": "fricative", "examples": ["和", "会", "后"], "char_count": 435, "syllable_count": 35}
+      "j": {"ipa": "tɕ", "place": "palatal", "manner": "affricate", "examples": ["系", "中", "几"], "char_count": 533, "syllable_count": 23, "variants": [{"ipa": "tɕ", "place": "palatal", "manner": "affricate", "examples": ["系", "中", "几"], "char_count": 533, "syllable_count": 23}, {"ipa": "tʃ", "place": "postalveolar", "manner": "affricate", "examples": ["之", "指", "周"], "char_count": 182, "syllable_count": 4}]}
+      "k": {"ipa": "kʰ", "place": "velar", "manner": "plosive", "examples": ["会", "口", "可"], "char_count": 317, "syllable_count": 32}
+      "l": {"ipa": "l", "place": "alveolar", "manner": "lateral", "examples": ["了", "来", "两"], "char_count": 656, "syllable_count": 35}
+      "m": {"ipa": "m", "place": "bilabial", "manner": "nasal", "examples": ["面", "某", "每"], "char_count": 362, "syllable_count": 29}
+      "n": {"ipa": "n", "place": "alveolar", "manner": "nasal", "examples": ["内", "拿", "能"], "char_count": 128, "syllable_count": 18, "variants": [{"ipa": "n", "place": "alveolar", "manner": "nasal", "examples": ["内", "拿", "能"], "char_count": 128, "syllable_count": 18}, {"ipa": "ȵ", "place": "palatal", "manner": "nasal", "examples": ["年", "你", "元"], "char_count": 174, "syllable_count": 22}]}
+      "ng": {"ipa": "ŋ", "place": "velar", "manner": "nasal", "examples": ["我", "按", "眼"], "char_count": 190, "syllable_count": 16}
+      "p": {"ipa": "pʰ", "place": "bilabial", "manner": "plosive", "examples": ["并", "被", "别"], "char_count": 386, "syllable_count": 29}
+      "q": {"ipa": "tɕʰ", "place": "palatal", "manner": "affricate", "examples": ["就", "区", "前"], "char_count": 569, "syllable_count": 23, "variants": [{"ipa": "tɕʰ", "place": "palatal", "manner": "affricate", "examples": ["就", "区", "前"], "char_count": 569, "syllable_count": 23}, {"ipa": "tʃʰ", "place": "postalveolar", "manner": "affricate", "examples": ["就", "旧", "钱"], "char_count": 142, "syllable_count": 4}]}
+      "s": {"ipa": "s", "place": "alveolar", "manner": "fricative", "examples": ["是", "上", "成"], "char_count": 468, "syllable_count": 25}
+      "t": {"ipa": "tʰ", "place": "alveolar", "manner": "plosive", "examples": ["他", "驮", "大"], "char_count": 516, "syllable_count": 30}
+      "x": {"ipa": "ɕ", "place": "palatal", "manner": "fricative", "examples": ["系", "成", "些"], "char_count": 456, "syllable_count": 23, "variants": [{"ipa": "ɕ", "place": "palatal", "manner": "fricative", "examples": ["系", "成", "些"], "char_count": 456, "syllable_count": 23}, {"ipa": "ʃ", "place": "postalveolar", "manner": "fricative", "examples": ["是", "手", "新"], "char_count": 174, "syllable_count": 4}]}
+      "z": {"ipa": "ts", "place": "alveolar", "manner": "affricate", "examples": ["中", "子", "做"], "char_count": 464, "syllable_count": 25}
     finals_ipa:
-      yu: { nucleus: yu, nucleus_ipa: "y", coda: "", ipa: "y" }
+      "a": {"nucleus": "a", "nucleus_ipa": "a", "coda": "", "ipa": "a", "examples": ["他", "加", "化"], "char_count": 246, "syllable_count": 16}
+      "ai": {"nucleus": "a", "nucleus_ipa": "a", "coda": "i", "ipa": "ai", "examples": ["在", "来", "大"], "char_count": 215, "syllable_count": 15}
+      "ak": {"nucleus": "a", "nucleus_ipa": "a", "coda": "k", "ipa": "aʔ", "examples": ["发", "戳", "夹"], "char_count": 157, "syllable_count": 15}
+      "an": {"nucleus": "a", "nucleus_ipa": "a", "coda": "n", "ipa": "an", "examples": ["上", "三", "当"], "char_count": 512, "syllable_count": 16}
+      "au": {"nucleus": "a", "nucleus_ipa": "a", "coda": "u", "ipa": "au", "examples": ["到", "高", "好"], "char_count": 337, "syllable_count": 15}
+      "e": {"nucleus": "e", "nucleus_ipa": "ə", "coda": "", "ipa": "ə", "examples": ["么", "呃", "嘞"], "char_count": 23, "syllable_count": 7}
+      "ek": {"nucleus": "e", "nucleus_ipa": "ɪ", "coda": "k", "ipa": "ɪʔ", "examples": ["只", "值", "实"], "char_count": 38, "syllable_count": 8}
+      "eng": {"nucleus": "e", "nucleus_ipa": "ə", "coda": "ng", "ipa": "əŋ", "examples": ["同", "总", "懂"], "char_count": 253, "syllable_count": 15}
+      "eu": {"nucleus": "e", "nucleus_ipa": "ə", "coda": "u", "ipa": "əu", "examples": ["后", "口", "头"], "char_count": 43, "syllable_count": 8}
+      "i": {"nucleus": "i", "nucleus_ipa": "i", "coda": "", "ipa": "i", "examples": ["系", "你", "几"], "char_count": 659, "syllable_count": 13}
+      "ia": {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "", "ipa": "ia", "examples": ["也", "且", "写"], "char_count": 37, "syllable_count": 5}
+      "iak": {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "k", "ipa": "iaʔ", "examples": ["页", "嚼", "若"], "char_count": 29, "syllable_count": 6}
+      "ian": {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "n", "ipa": "ian", "examples": ["将", "两", "像"], "char_count": 128, "syllable_count": 6}
+      "iang": {"nucleus": "ia", "nucleus_ipa": "iɑ", "coda": "ng", "ipa": "iɑŋ", "examples": ["壤", "儴", "瀼"], "char_count": 6, "syllable_count": 1}
+      "iau": {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "u", "ipa": "iau", "examples": ["了", "要", "叫"], "char_count": 249, "syllable_count": 11}
+      "iek": {"nucleus": "ie", "nucleus_ipa": "iɪ", "coda": "k", "ipa": "iɪʔ", "examples": ["一", "吉", "吸"], "char_count": 8, "syllable_count": 6}
+      "ieu": {"nucleus": "ie", "nucleus_ipa": "iə", "coda": "u", "ipa": "iəu", "examples": ["有", "就", "又"], "char_count": 152, "syllable_count": 13}
+      "ik": {"nucleus": "i", "nucleus_ipa": "i", "coda": "k", "ipa": "iʔ", "examples": ["一", "成", "得"], "char_count": 246, "syllable_count": 11}
+      "in": {"nucleus": "i", "nucleus_ipa": "i", "coda": "n", "ipa": "in", "examples": ["并", "面", "新"], "char_count": 602, "syllable_count": 11}
+      "io": {"nucleus": "io", "nucleus_ipa": "io", "coda": "", "ipa": "io", "examples": ["哟", "唷"], "char_count": 2, "syllable_count": 1}
+      "iu": {"nucleus": "i", "nucleus_ipa": "i", "coda": "u", "ipa": "iu", "examples": ["有", "就", "后"], "char_count": 331, "syllable_count": 14}
+      "iuk": {"nucleus": "iu", "nucleus_ipa": "iu", "coda": "k", "ipa": "iuʔ", "examples": ["矗", "辱", "瞩"], "char_count": 35, "syllable_count": 5}
+      "iung": {"nucleus": "iu", "nucleus_ipa": "iu", "coda": "ng", "ipa": "iuŋ", "examples": ["窘", "冏", "坰"], "char_count": 11, "syllable_count": 1}
+      "iê": {"nucleus": "iê", "nucleus_ipa": "iɛ", "coda": "", "ipa": "iɛ", "examples": ["也", "写", "野"], "char_count": 25, "syllable_count": 7}
+      "iêk": {"nucleus": "iê", "nucleus_ipa": "iɛ", "coda": "k", "ipa": "iɛʔ", "examples": ["些", "别", "列"], "char_count": 140, "syllable_count": 11}
+      "iên": {"nucleus": "iê", "nucleus_ipa": "ie", "coda": "n", "ipa": "ien", "examples": ["并", "新", "音"], "char_count": 263, "syllable_count": 11, "variants": [{"nucleus": "iê", "nucleus_ipa": "ie", "coda": "n", "ipa": "ien", "examples": ["并", "新", "音"], "char_count": 263, "syllable_count": 11}, {"nucleus": "iê", "nucleus_ipa": "iɛ", "coda": "n", "ipa": "iɛn", "examples": ["年", "前", "面"], "char_count": 345, "syllable_count": 11}]}
+      "m": {"nucleus": "m", "nucleus_ipa": "m̩", "coda": "", "ipa": "m̩", "examples": ["姆", "呒", "呣"], "char_count": 4, "syllable_count": 1}
+      "n": {"nucleus": "n", "nucleus_ipa": "n̩", "coda": "", "ipa": "n̩", "examples": ["你", "那", "您"], "char_count": 4, "syllable_count": 1}
+      "ng": {"nucleus": "ng", "nucleus_ipa": "ŋ̍", "coda": "", "ipa": "ŋ̍", "examples": ["五", "吴", "伍"], "char_count": 19, "syllable_count": 1}
+      "o": {"nucleus": "o", "nucleus_ipa": "o", "coda": "", "ipa": "o", "examples": ["和", "我", "驮"], "char_count": 181, "syllable_count": 16}
+      "oi": {"nucleus": "o", "nucleus_ipa": "o", "coda": "i", "ipa": "oi", "examples": ["在", "来", "开"], "char_count": 56, "syllable_count": 11}
+      "ok": {"nucleus": "o", "nucleus_ipa": "ɔ", "coda": "k", "ipa": "ɔʔ", "examples": ["学", "忽", "恶"], "char_count": 127, "syllable_count": 12}
+      "on": {"nucleus": "o", "nucleus_ipa": "o", "coda": "n", "ipa": "on", "examples": ["畔", "悍", "捍"], "char_count": 29, "syllable_count": 4}
+      "ong": {"nucleus": "o", "nucleus_ipa": "ɔ", "coda": "ng", "ipa": "ɔŋ", "examples": ["按", "放", "看"], "char_count": 171, "syllable_count": 10}
+      "ou": {"nucleus": "o", "nucleus_ipa": "ɔ", "coda": "u", "ipa": "ɔu", "examples": ["垺", "孚", "缶"], "char_count": 3, "syllable_count": 1}
+      "u": {"nucleus": "u", "nucleus_ipa": "u", "coda": "", "ipa": "u", "examples": ["都", "度", "无"], "char_count": 336, "syllable_count": 14}
+      "ua": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "", "ipa": "ua", "examples": ["化", "华", "跨"], "char_count": 36, "syllable_count": 6}
+      "uai": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "i", "ipa": "uai", "examples": ["快", "坏", "块"], "char_count": 21, "syllable_count": 4}
+      "uak": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "k", "ipa": "uaʔ", "examples": ["活", "挖", "刮"], "char_count": 11, "syllable_count": 4}
+      "uan": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "n", "ipa": "uan", "examples": ["管", "晚", "关"], "char_count": 45, "syllable_count": 4}
+      "uek": {"nucleus": "ue", "nucleus_ipa": "uə", "coda": "k", "ipa": "uəʔ", "examples": ["不", "读", "六"], "char_count": 69, "syllable_count": 14, "variants": [{"nucleus": "ue", "nucleus_ipa": "uə", "coda": "k", "ipa": "uəʔ", "examples": ["不", "读", "六"], "char_count": 69, "syllable_count": 14}, {"nucleus": "ue", "nucleus_ipa": "uɪ", "coda": "k", "ipa": "uɪʔ", "examples": ["物", "骨", "勿"], "char_count": 5, "syllable_count": 3}]}
+      "ui": {"nucleus": "u", "nucleus_ipa": "ue", "coda": "i", "ipa": "uei", "examples": ["瑰", "硅", "会"], "char_count": 113, "syllable_count": 9}
+      "uk": {"nucleus": "u", "nucleus_ipa": "u", "coda": "k", "ipa": "uʔ", "examples": ["突", "辐", "凸"], "char_count": 74, "syllable_count": 12}
+      "un": {"nucleus": "u", "nucleus_ipa": "ue", "coda": "n", "ipa": "uen", "examples": ["公", "顺", "困"], "char_count": 34, "syllable_count": 4, "variants": [{"nucleus": "u", "nucleus_ipa": "ue", "coda": "n", "ipa": "uen", "examples": ["公", "顺", "困"], "char_count": 34, "syllable_count": 4}, {"nucleus": "u", "nucleus_ipa": "uɛ", "coda": "n", "ipa": "uɛn", "examples": ["梗", "轰"], "char_count": 2, "syllable_count": 2}]}
+      "ung": {"nucleus": "u", "nucleus_ipa": "u", "coda": "ng", "ipa": "uŋ", "examples": ["中", "同", "总"], "char_count": 136, "syllable_count": 15}
+      "uo": {"nucleus": "uo", "nucleus_ipa": "uo", "coda": "", "ipa": "uo", "examples": ["做", "多", "过"], "char_count": 55, "syllable_count": 10}
+      "uoi": {"nucleus": "uo", "nucleus_ipa": "uo", "coda": "i", "ipa": "uoi", "examples": ["对", "会", "最"], "char_count": 140, "syllable_count": 14}
+      "uok": {"nucleus": "uo", "nucleus_ipa": "uɔ", "coda": "k", "ipa": "uɔʔ", "examples": ["刷", "索", "夺"], "char_count": 46, "syllable_count": 11}
+      "uon": {"nucleus": "uo", "nucleus_ipa": "uo", "coda": "n", "ipa": "uon", "examples": ["断", "完", "短"], "char_count": 74, "syllable_count": 10}
+      "uong": {"nucleus": "uo", "nucleus_ipa": "uɔ", "coda": "ng", "ipa": "uɔŋ", "examples": ["乱", "算", "往"], "char_count": 96, "syllable_count": 12}
+      "uê": {"nucleus": "uê", "nucleus_ipa": "uɛ", "coda": "", "ipa": "uɛ", "examples": ["累", "虑", "吕"], "char_count": 4, "syllable_count": 1}
+      "uêi": {"nucleus": "uê", "nucleus_ipa": "ue", "coda": "i", "ipa": "uei", "examples": ["为", "未", "位"], "char_count": 74, "syllable_count": 1}
+      "uêk": {"nucleus": "uê", "nucleus_ipa": "uɛ", "coda": "k", "ipa": "uɛʔ", "examples": ["国", "括", "获"], "char_count": 17, "syllable_count": 4}
+      "uên": {"nucleus": "uê", "nucleus_ipa": "ue", "coda": "n", "ipa": "uen", "examples": ["文", "温", "吻"], "char_count": 18, "syllable_count": 1, "variants": [{"nucleus": "uê", "nucleus_ipa": "ue", "coda": "n", "ipa": "uen", "examples": ["文", "温", "吻"], "char_count": 18, "syllable_count": 1}, {"nucleus": "uê", "nucleus_ipa": "uɛ", "coda": "n", "ipa": "uɛn", "examples": ["横", "汶", "炆"], "char_count": 7, "syllable_count": 1}]}
+      "uêng": {"nucleus": "uê", "nucleus_ipa": "ue", "coda": "ng", "ipa": "ueŋ", "examples": ["公", "空", "工"], "char_count": 62, "syllable_count": 4}
+      "yu": {"nucleus": "yu", "nucleus_ipa": "y", "coda": "", "ipa": "y", "examples": ["区", "与", "主"], "char_count": 358, "syllable_count": 6}
+      "yua": {"nucleus": "yua", "nucleus_ipa": "ya", "coda": "", "ipa": "ya", "examples": ["瘸"], "char_count": 1, "syllable_count": 1}
+      "yuak": {"nucleus": "yua", "nucleus_ipa": "ya", "coda": "k", "ipa": "yaʔ", "examples": ["爵"], "char_count": 1, "syllable_count": 1}
+      "yuek": {"nucleus": "yue", "nucleus_ipa": "yə", "coda": "k", "ipa": "yəʔ", "examples": ["族", "肉", "熟"], "char_count": 24, "syllable_count": 5, "variants": [{"nucleus": "yue", "nucleus_ipa": "yə", "coda": "k", "ipa": "yəʔ", "examples": ["族", "肉", "熟"], "char_count": 24, "syllable_count": 5}, {"nucleus": "yue", "nucleus_ipa": "yɪ", "coda": "k", "ipa": "yɪʔ", "examples": ["域", "求", "出"], "char_count": 5, "syllable_count": 3}]}
+      "yuk": {"nucleus": "yu", "nucleus_ipa": "y", "coda": "k", "ipa": "yʔ", "examples": ["畜", "熨", "洫"], "char_count": 3, "syllable_count": 3}
+      "yun": {"nucleus": "yu", "nucleus_ipa": "y", "coda": "n", "ipa": "yn", "examples": ["群", "韵", "云"], "char_count": 41, "syllable_count": 4}
+      "yung": {"nucleus": "yu", "nucleus_ipa": "y", "coda": "ng", "ipa": "yŋ", "examples": ["中", "用", "重"], "char_count": 47, "syllable_count": 5}
+      "yuoi": {"nucleus": "yuo", "nucleus_ipa": "yo", "coda": "i", "ipa": "yoi", "examples": ["蕊", "偌", "枘"], "char_count": 8, "syllable_count": 1}
+      "yuok": {"nucleus": "yuo", "nucleus_ipa": "yɔ", "coda": "k", "ipa": "yɔʔ", "examples": ["戳", "越", "决"], "char_count": 94, "syllable_count": 5}
+      "yuon": {"nucleus": "yuo", "nucleus_ipa": "yo", "coda": "n", "ipa": "yon", "examples": ["元", "全", "转"], "char_count": 171, "syllable_count": 5}
+      "yuong": {"nucleus": "yuo", "nucleus_ipa": "yɔ", "coda": "ng", "ipa": "yɔŋ", "examples": ["创", "圆", "疮"], "char_count": 21, "syllable_count": 4}
+      "yuê": {"nucleus": "yuê", "nucleus_ipa": "yɛ", "coda": "", "ipa": "yɛ", "examples": ["靴"], "char_count": 1, "syllable_count": 1}
+      "yuêk": {"nucleus": "yuê", "nucleus_ipa": "yɛ", "coda": "k", "ipa": "yɛʔ", "examples": ["越", "缺", "决"], "char_count": 36, "syllable_count": 5}
+      "yuên": {"nucleus": "yuê", "nucleus_ipa": "yɛ", "coda": "n", "ipa": "yɛn", "examples": ["元", "全", "转"], "char_count": 131, "syllable_count": 5}
+      "yuêng": {"nucleus": "yuê", "nucleus_ipa": "ye", "coda": "ng", "ipa": "yeŋ", "examples": ["中", "重", "种"], "char_count": 82, "syllable_count": 4}
+      "ê": {"nucleus": "ê", "nucleus_ipa": "ɛ", "coda": "", "ipa": "ɛ", "examples": ["而", "者", "二"], "char_count": 32, "syllable_count": 8}
+      "êan": {"nucleus": "êa", "nucleus_ipa": "ɛa", "coda": "n", "ipa": "ɛan", "examples": [], "char_count": 0, "syllable_count": 0}
+      "êi": {"nucleus": "ê", "nucleus_ipa": "e", "coda": "i", "ipa": "ei", "examples": ["对", "每", "退"], "char_count": 41, "syllable_count": 7}
+      "êk": {"nucleus": "ê", "nucleus_ipa": "ɛ", "coda": "k", "ipa": "ɛʔ", "examples": ["得", "则", "没"], "char_count": 213, "syllable_count": 14}
+      "ên": {"nucleus": "ê", "nucleus_ipa": "e", "coda": "n", "ipa": "en", "examples": ["分", "成", "本"], "char_count": 249, "syllable_count": 15, "variants": [{"nucleus": "ê", "nucleus_ipa": "e", "coda": "n", "ipa": "en", "examples": ["分", "成", "本"], "char_count": 249, "syllable_count": 15}, {"nucleus": "ê", "nucleus_ipa": "ɛe", "coda": "n", "ipa": "ɛen", "examples": ["盾", "豚", "腾"], "char_count": 12, "syllable_count": 1}, {"nucleus": "ê", "nucleus_ipa": "ɛ", "coda": "n", "ipa": "ɛn", "examples": ["单", "撑", "蝉"], "char_count": 169, "syllable_count": 13}]}
+      "êu": {"nucleus": "ê", "nucleus_ipa": "ɛ", "coda": "u", "ipa": "ɛu", "examples": ["桴", "琈", "蜉"], "char_count": 4, "syllable_count": 1}
+      "ï": {"nucleus": "ï", "nucleus_ipa": "ɿ", "coda": "", "ipa": "ɿ", "examples": ["是", "子", "之"], "char_count": 314, "syllable_count": 6}
+    whole_syllables:
+      "m": ["", "m"]
+      "n": ["", "n"]
+      "ng": ["", "ng"]
+    blocked_initials: ["", "bb", "bh", "ch", "dd", "dh", "dr", "dz", "gg", "gh", "gn", "gw", "i", "jj", "jy", "kh", "kw", "nj", "ny", "o", "ph", "qy", "r", "sh", "tc", "tch", "th", "tr", "trh", "ts", "tsh", "u", "v", "w", "xy", "y", "zh", "zz"]
+    extra_finals: ["a", "ai", "ak", "an", "au", "e", "ek", "eng", "eu", "i", "ia", "iak", "ian", "iang", "iau", "iek", "ieu", "ik", "in", "io", "iu", "iuk", "iung", "iê", "iêk", "iên", "m", "n", "ng", "o", "oi", "ok", "on", "ong", "ou", "u", "ua", "uai", "uak", "uan", "uek", "ui", "uk", "un", "ung", "uo", "uoi", "uok", "uon", "uong", "uê", "uêi", "uêk", "uên", "uêng", "yu", "yua", "yuak", "yuek", "yuk", "yun", "yung", "yuoi", "yuok", "yuon", "yuong", "yuê", "yuêk", "yuên", "yuêng", "ê", "êan", "êi", "êk", "ên", "êu", "ï"]
   gannyu_sinyi:
-    tone_encoding: none
-    code_prefix: G
-    blocked_initials: [o, y, w, i, u]
-    extra_initials: [ng]
-    whole_syllables: { ng: [ng, ""] }
-    blocked_initial_suffixes: [y]
+    tone_encoding: "none"
+    code_prefix: "G"
+    extra_initials: ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "ng", "p", "q", "s", "t", "x", "z"]
+    blocked_initial_suffixes: ["y"]
     zero_initial_pinyin: true
-    zero_initial_finals: [yu, yue, yun, yung, yuon, yuot, yut, yuet, yuk, yuok]
-    zero_initial_rewrites: { y: yu, yn: yun }
+    zero_initial_finals: ["yu", "yue", "yun", "yung", "yuon", "yuot", "yut", "yuet", "yuk", "yuok"]
+    zero_initial_rewrites: {"y": "yu", "yn": "yun"}
+    require_ipa_overrides: true
+    initials_ipa:
+      "b": {"ipa": "p", "place": "bilabial", "manner": "plosive", "examples": ["不", "并", "本"], "char_count": 160, "syllable_count": 37}
+      "c": {"ipa": "tsʰ", "place": "alveolar", "manner": "affricate", "examples": ["区", "在", "成"], "char_count": 194, "syllable_count": 24}
+      "d": {"ipa": "t", "place": "alveolar", "manner": "plosive", "examples": ["中", "到", "都"], "char_count": 253, "syllable_count": 35}
+      "f": {"ipa": "f", "place": "labiodental", "manner": "fricative", "examples": ["和", "分", "会"], "char_count": 210, "syllable_count": 22}
+      "g": {"ipa": "k", "place": "velar", "manner": "plosive", "examples": ["高", "赣", "加"], "char_count": 262, "syllable_count": 37}
+      "h": {"ipa": "h", "place": "glottal", "manner": "fricative", "examples": ["和", "大", "后"], "char_count": 179, "syllable_count": 22}
+      "j": {"ipa": "tɕ", "place": "palatal", "manner": "affricate", "examples": ["系", "几", "之"], "char_count": 369, "syllable_count": 29}
+      "k": {"ipa": "kʰ", "place": "velar", "manner": "plosive", "examples": ["会", "卡", "口"], "char_count": 143, "syllable_count": 35}
+      "l": {"ipa": "l", "place": "alveolar", "manner": "lateral", "examples": ["了", "来", "两"], "char_count": 392, "syllable_count": 44}
+      "m": {"ipa": "m", "place": "bilabial", "manner": "nasal", "examples": ["面", "某", "每"], "char_count": 204, "syllable_count": 34}
+      "n": {"ipa": "ȵ", "place": "palatal", "manner": "nasal", "examples": ["年", "元", "让"], "char_count": 108, "syllable_count": 20}
+      "ng": {"ipa": "ŋ", "place": "velar", "manner": "nasal", "examples": ["我", "区", "按"], "char_count": 116, "syllable_count": 18}
+      "p": {"ipa": "pʰ", "place": "bilabial", "manner": "plosive", "examples": ["并", "被", "别"], "char_count": 237, "syllable_count": 34}
+      "q": {"ipa": "tɕʰ", "place": "palatal", "manner": "affricate", "examples": ["就", "区", "在"], "char_count": 396, "syllable_count": 30}
+      "s": {"ipa": "s", "place": "alveolar", "manner": "fricative", "examples": ["上", "说", "成"], "char_count": 554, "syllable_count": 42}
+      "t": {"ipa": "tʰ", "place": "alveolar", "manner": "plosive", "examples": ["他", "驮", "大"], "char_count": 422, "syllable_count": 47}
+      "x": {"ipa": "ɕ", "place": "palatal", "manner": "fricative", "examples": ["是", "系", "时"], "char_count": 74, "syllable_count": 8}
+      "z": {"ipa": "ts", "place": "alveolar", "manner": "affricate", "examples": ["子", "做", "主"], "char_count": 139, "syllable_count": 23}
     finals_ipa:
-      yu: { nucleus: yu, nucleus_ipa: "y", coda: "", ipa: "y" }
+      "a": {"nucleus": "a", "nucleus_ipa": "a", "coda": "", "ipa": "a", "examples": ["我", "他", "大"], "char_count": 148, "syllable_count": 15}
+      "ai": {"nucleus": "a", "nucleus_ipa": "a", "coda": "i", "ipa": "ai", "examples": ["在", "来", "大"], "char_count": 90, "syllable_count": 14}
+      "aik": {"nucleus": "ai", "nucleus_ipa": "ai", "coda": "k", "ipa": "aiʔ", "examples": ["发", "夹", "瞎"], "char_count": 53, "syllable_count": 13}
+      "ak": {"nucleus": "a", "nucleus_ipa": "a", "coda": "k", "ipa": "aʔ", "examples": ["只", "夹", "瞎"], "char_count": 74, "syllable_count": 13}
+      "an": {"nucleus": "a", "nucleus_ipa": "a", "coda": "n", "ipa": "an", "examples": ["三", "眼", "蛮"], "char_count": 159, "syllable_count": 14}
+      "ang": {"nucleus": "a", "nucleus_ipa": "a", "coda": "ng", "ipa": "aŋ", "examples": ["成", "行", "撑"], "char_count": 42, "syllable_count": 13}
+      "at": {"nucleus": "a", "nucleus_ipa": "a", "coda": "t", "ipa": "at", "examples": ["发", "夹", "瞎"], "char_count": 60, "syllable_count": 13}
+      "au": {"nucleus": "a", "nucleus_ipa": "a", "coda": "u", "ipa": "au", "examples": ["到", "高", "好"], "char_count": 171, "syllable_count": 13}
+      "ek": {"nucleus": "e", "nucleus_ipa": "ə", "coda": "k", "ipa": "əʔ", "examples": ["不", "值", "实"], "char_count": 46, "syllable_count": 7}
+      "en": {"nucleus": "e", "nucleus_ipa": "ɪ", "coda": "n", "ipa": "ɪn", "examples": ["行", "神", "升"], "char_count": 79, "syllable_count": 4}
+      "eo": {"nucleus": "eo", "nucleus_ipa": "ɵ", "coda": "", "ipa": "ɵ", "examples": ["而", "二", "儿"], "char_count": 11, "syllable_count": 1}
+      "eoi": {"nucleus": "eo", "nucleus_ipa": "ɵ", "coda": "i", "ipa": "ɵi", "examples": ["水", "税", "暑"], "char_count": 5, "syllable_count": 1}
+      "eot": {"nucleus": "eo", "nucleus_ipa": "ɵ", "coda": "t", "ipa": "ɵt", "examples": ["出"], "char_count": 1, "syllable_count": 1}
+      "et": {"nucleus": "e", "nucleus_ipa": "ə", "coda": "t", "ipa": "ət", "examples": ["忽", "佛", "勿"], "char_count": 3, "syllable_count": 1, "variants": [{"nucleus": "e", "nucleus_ipa": "ə", "coda": "t", "ipa": "ət", "examples": ["忽", "佛", "勿"], "char_count": 3, "syllable_count": 1}, {"nucleus": "e", "nucleus_ipa": "ɪ", "coda": "t", "ipa": "ɪt", "examples": ["实", "湿", "饰"], "char_count": 13, "syllable_count": 1}]}
+      "eu": {"nucleus": "e", "nucleus_ipa": "ɪ", "coda": "u", "ipa": "ɪu", "examples": ["周", "手", "首"], "char_count": 26, "syllable_count": 3}
+      "i": {"nucleus": "i", "nucleus_ipa": "i", "coda": "", "ipa": "i", "examples": ["是", "系", "几"], "char_count": 435, "syllable_count": 13}
+      "ia": {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "", "ipa": "ia", "examples": ["也", "且", "家"], "char_count": 35, "syllable_count": 7}
+      "iai": {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "i", "ipa": "iai", "examples": ["在", "猜", "崽"], "char_count": 11, "syllable_count": 2}
+      "iaik": {"nucleus": "iai", "nucleus_ipa": "iai", "coda": "k", "ipa": "iaiʔ", "examples": ["别", "接", "切"], "char_count": 38, "syllable_count": 9}
+      "iak": {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "k", "ipa": "iaʔ", "examples": ["踢", "摘", "册"], "char_count": 28, "syllable_count": 8}
+      "ian": {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "n", "ipa": "ian", "examples": ["词", "动", "赚"], "char_count": 22, "syllable_count": 2}
+      "iang": {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "ng", "ipa": "iaŋ", "examples": ["丙", "撑", "丁"], "char_count": 60, "syllable_count": 11}
+      "iat": {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "t", "ipa": "iat", "examples": ["擦", "插", "杂"], "char_count": 4, "syllable_count": 1}
+      "iau": {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "u", "ipa": "iau", "examples": ["找", "造", "早"], "char_count": 25, "syllable_count": 2}
+      "iek": {"nucleus": "ie", "nucleus_ipa": "iə", "coda": "k", "ipa": "iəʔ", "examples": ["一", "值", "的"], "char_count": 77, "syllable_count": 10}
+      "iet": {"nucleus": "ie", "nucleus_ipa": "iə", "coda": "t", "ipa": "iət", "examples": ["立", "历", "力"], "char_count": 7, "syllable_count": 1}
+      "ik": {"nucleus": "i", "nucleus_ipa": "i", "coda": "k", "ipa": "iʔ", "examples": ["弋"], "char_count": 1, "syllable_count": 1}
+      "in": {"nucleus": "i", "nucleus_ipa": "i", "coda": "n", "ipa": "in", "examples": ["成", "并", "新"], "char_count": 231, "syllable_count": 11}
+      "io": {"nucleus": "io", "nucleus_ipa": "io", "coda": "", "ipa": "io", "examples": ["坐", "左", "佐"], "char_count": 12, "syllable_count": 4}
+      "ioi": {"nucleus": "io", "nucleus_ipa": "iɔ", "coda": "i", "ipa": "iɔi", "examples": ["在", "才", "最"], "char_count": 23, "syllable_count": 2}
+      "iok": {"nucleus": "io", "nucleus_ipa": "io", "coda": "k", "ipa": "ioʔ", "examples": ["戳", "错", "削"], "char_count": 25, "syllable_count": 6}
+      "iong": {"nucleus": "io", "nucleus_ipa": "io", "coda": "ng", "ipa": "ioŋ", "examples": ["将", "两", "像"], "char_count": 81, "syllable_count": 7}
+      "iot": {"nucleus": "io", "nucleus_ipa": "iɔ", "coda": "t", "ipa": "iɔt", "examples": ["域", "豁"], "char_count": 2, "syllable_count": 1}
+      "it": {"nucleus": "i", "nucleus_ipa": "i", "coda": "t", "ipa": "it", "examples": ["一", "指", "值"], "char_count": 80, "syllable_count": 12}
+      "iu": {"nucleus": "i", "nucleus_ipa": "i", "coda": "u", "ipa": "iu", "examples": ["有", "就", "区"], "char_count": 102, "syllable_count": 8}
+      "iuk": {"nucleus": "iu", "nucleus_ipa": "iu", "coda": "k", "ipa": "iuʔ", "examples": ["六", "域", "足"], "char_count": 25, "syllable_count": 6}
+      "iun": {"nucleus": "iu", "nucleus_ipa": "iu", "coda": "n", "ipa": "iun", "examples": ["群", "存", "均"], "char_count": 20, "syllable_count": 2}
+      "iung": {"nucleus": "iu", "nucleus_ipa": "iu", "coda": "ng", "ipa": "iuŋ", "examples": ["总", "供", "宗"], "char_count": 22, "syllable_count": 4}
+      "iuok": {"nucleus": "iuo", "nucleus_ipa": "iuɔ", "coda": "k", "ipa": "iuɔʔ", "examples": ["缺"], "char_count": 1, "syllable_count": 1}
+      "iê": {"nucleus": "iê", "nucleus_ipa": "ie", "coda": "", "ipa": "ie", "examples": ["夜", "啧"], "char_count": 2, "syllable_count": 2, "variants": [{"nucleus": "iê", "nucleus_ipa": "ie", "coda": "", "ipa": "ie", "examples": ["夜", "啧"], "char_count": 2, "syllable_count": 2}, {"nucleus": "iê", "nucleus_ipa": "iɛ", "coda": "", "ipa": "iɛ", "examples": ["指", "且", "缉"], "char_count": 20, "syllable_count": 6}]}
+      "iêk": {"nucleus": "iê", "nucleus_ipa": "iɛ", "coda": "k", "ipa": "iɛʔ", "examples": ["则", "级", "铁"], "char_count": 25, "syllable_count": 6}
+      "iên": {"nucleus": "iê", "nucleus_ipa": "iɛ", "coda": "n", "ipa": "iɛn", "examples": ["年", "前", "面"], "char_count": 165, "syllable_count": 11}
+      "iêt": {"nucleus": "iê", "nucleus_ipa": "iɛ", "coda": "t", "ipa": "iɛt", "examples": ["别", "接", "歇"], "char_count": 59, "syllable_count": 11}
+      "iêu": {"nucleus": "iê", "nucleus_ipa": "iɛ", "coda": "u", "ipa": "iɛu", "examples": ["了", "要", "叫"], "char_count": 112, "syllable_count": 10}
+      "m": {"nucleus": "m", "nucleus_ipa": "m̩", "coda": "", "ipa": "m̩", "examples": ["姆"], "char_count": 1, "syllable_count": 1}
+      "n": {"nucleus": "n", "nucleus_ipa": "n̩", "coda": "", "ipa": "n̩", "examples": ["嗯"], "char_count": 1, "syllable_count": 1}
+      "ng": {"nucleus": "ng", "nucleus_ipa": "ŋ̍", "coda": "", "ipa": "ŋ̍", "examples": ["五", "吴", "误"], "char_count": 10, "syllable_count": 1}
+      "o": {"nucleus": "o", "nucleus_ipa": "o", "coda": "", "ipa": "o", "examples": ["和", "我", "驮"], "char_count": 127, "syllable_count": 15}
+      "oe": {"nucleus": "oe", "nucleus_ipa": "ø", "coda": "", "ipa": "ø", "examples": ["输", "树", "舒"], "char_count": 9, "syllable_count": 1}
+      "oek": {"nucleus": "oe", "nucleus_ipa": "ø", "coda": "k", "ipa": "øʔ", "examples": ["熟", "赎", "鼠"], "char_count": 6, "syllable_count": 1}
+      "oen": {"nucleus": "oe", "nucleus_ipa": "ø", "coda": "n", "ipa": "øn", "examples": ["顺", "熏", "训"], "char_count": 8, "syllable_count": 2}
+      "oet": {"nucleus": "oe", "nucleus_ipa": "ø", "coda": "t", "ipa": "øt", "examples": ["入"], "char_count": 1, "syllable_count": 1}
+      "oi": {"nucleus": "o", "nucleus_ipa": "o", "coda": "i", "ipa": "oi", "examples": ["而", "内", "开"], "char_count": 44, "syllable_count": 10, "variants": [{"nucleus": "o", "nucleus_ipa": "o", "coda": "i", "ipa": "oi", "examples": ["而", "内", "开"], "char_count": 44, "syllable_count": 10}, {"nucleus": "o", "nucleus_ipa": "ɔ", "coda": "i", "ipa": "ɔi", "examples": ["对", "来", "才"], "char_count": 62, "syllable_count": 12}]}
+      "ok": {"nucleus": "o", "nucleus_ipa": "o", "coda": "k", "ipa": "oʔ", "examples": ["学", "戳", "错"], "char_count": 78, "syllable_count": 14, "variants": [{"nucleus": "o", "nucleus_ipa": "o", "coda": "k", "ipa": "oʔ", "examples": ["学", "戳", "错"], "char_count": 78, "syllable_count": 14}, {"nucleus": "o", "nucleus_ipa": "ɔ", "coda": "k", "ipa": "ɔʔ", "examples": ["物"], "char_count": 1, "syllable_count": 1}]}
+      "on": {"nucleus": "o", "nucleus_ipa": "o", "coda": "n", "ipa": "on", "examples": ["按", "安", "鞍"], "char_count": 21, "syllable_count": 4, "variants": [{"nucleus": "o", "nucleus_ipa": "o", "coda": "n", "ipa": "on", "examples": ["按", "安", "鞍"], "char_count": 21, "syllable_count": 4}, {"nucleus": "o", "nucleus_ipa": "ɔ", "coda": "n", "ipa": "ɔn", "examples": ["赣", "按", "看"], "char_count": 30, "syllable_count": 5}]}
+      "ong": {"nucleus": "o", "nucleus_ipa": "o", "coda": "ng", "ipa": "oŋ", "examples": ["上", "当", "放"], "char_count": 189, "syllable_count": 14, "variants": [{"nucleus": "o", "nucleus_ipa": "o", "coda": "ng", "ipa": "oŋ", "examples": ["上", "当", "放"], "char_count": 189, "syllable_count": 14}, {"nucleus": "o", "nucleus_ipa": "ɔ", "coda": "ng", "ipa": "ɔŋ", "examples": ["巷"], "char_count": 1, "syllable_count": 1}]}
+      "ot": {"nucleus": "o", "nucleus_ipa": "ɔ", "coda": "t", "ipa": "ɔt", "examples": ["不", "活", "抹"], "char_count": 20, "syllable_count": 7}
+      "u": {"nucleus": "u", "nucleus_ipa": "u", "coda": "", "ipa": "u", "examples": ["和", "都", "度"], "char_count": 203, "syllable_count": 10}
+      "ua": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "", "ipa": "ua", "examples": ["化", "华", "跨"], "char_count": 21, "syllable_count": 3}
+      "uai": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "i", "ipa": "uai", "examples": ["会", "快", "外"], "char_count": 19, "syllable_count": 3}
+      "uaik": {"nucleus": "uai", "nucleus_ipa": "uai", "coda": "k", "ipa": "uaiʔ", "examples": ["滑", "猾", "袜"], "char_count": 3, "syllable_count": 1}
+      "uak": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "k", "ipa": "uaʔ", "examples": ["和", "发", "率"], "char_count": 21, "syllable_count": 6}
+      "uan": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "n", "ipa": "uan", "examples": ["翻", "饭", "晚"], "char_count": 31, "syllable_count": 3}
+      "uang": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "ng", "ipa": "uaŋ", "examples": ["晃", "框", "梗"], "char_count": 6, "syllable_count": 3}
+      "uat": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "t", "ipa": "uat", "examples": ["挖", "刮", "滑"], "char_count": 5, "syllable_count": 2}
+      "uei": {"nucleus": "ue", "nucleus_ipa": "uə", "coda": "i", "ipa": "uəi", "examples": ["未", "位", "味"], "char_count": 22, "syllable_count": 1}
+      "uet": {"nucleus": "ue", "nucleus_ipa": "uə", "coda": "t", "ipa": "uət", "examples": ["突", "骨", "戌"], "char_count": 5, "syllable_count": 4}
+      "ui": {"nucleus": "u", "nucleus_ipa": "u", "coda": "i", "ipa": "ui", "examples": ["为", "对", "会"], "char_count": 125, "syllable_count": 12}
+      "uin": {"nucleus": "ui", "nucleus_ipa": "ui", "coda": "n", "ipa": "uin", "examples": ["群"], "char_count": 1, "syllable_count": 1}
+      "uk": {"nucleus": "u", "nucleus_ipa": "u", "coda": "k", "ipa": "uʔ", "examples": ["读", "目", "复"], "char_count": 57, "syllable_count": 11}
+      "un": {"nucleus": "u", "nucleus_ipa": "u", "coda": "n", "ipa": "un", "examples": ["文", "分", "本"], "char_count": 121, "syllable_count": 13}
+      "ung": {"nucleus": "u", "nucleus_ipa": "u", "coda": "ng", "ipa": "uŋ", "examples": ["中", "同", "总"], "char_count": 159, "syllable_count": 13}
+      "uo": {"nucleus": "uo", "nucleus_ipa": "uo", "coda": "", "ipa": "uo", "examples": ["过", "握", "卧"], "char_count": 20, "syllable_count": 3}
+      "uoi": {"nucleus": "uo", "nucleus_ipa": "uo", "coda": "i", "ipa": "uoi", "examples": ["碎"], "char_count": 1, "syllable_count": 1, "variants": [{"nucleus": "uo", "nucleus_ipa": "uo", "coda": "i", "ipa": "uoi", "examples": ["碎"], "char_count": 1, "syllable_count": 1}, {"nucleus": "uo", "nucleus_ipa": "uɔ", "coda": "i", "ipa": "uɔi", "examples": ["会", "媒", "妹"], "char_count": 14, "syllable_count": 6}]}
+      "uok": {"nucleus": "uo", "nucleus_ipa": "uo", "coda": "k", "ipa": "uoʔ", "examples": ["握", "喔", "廓"], "char_count": 7, "syllable_count": 3, "variants": [{"nucleus": "uo", "nucleus_ipa": "uo", "coda": "k", "ipa": "uoʔ", "examples": ["握", "喔", "廓"], "char_count": 7, "syllable_count": 3}, {"nucleus": "uo", "nucleus_ipa": "uɔ", "coda": "k", "ipa": "uɔʔ", "examples": ["国", "物", "忽"], "char_count": 10, "syllable_count": 4}]}
+      "uon": {"nucleus": "uo", "nucleus_ipa": "uo", "coda": "n", "ipa": "uon", "examples": ["乱", "纂", "县"], "char_count": 6, "syllable_count": 3, "variants": [{"nucleus": "uo", "nucleus_ipa": "uo", "coda": "n", "ipa": "uon", "examples": ["乱", "纂", "县"], "char_count": 6, "syllable_count": 3}, {"nucleus": "uo", "nucleus_ipa": "uɔ", "coda": "n", "ipa": "uɔn", "examples": ["算", "管", "转"], "char_count": 86, "syllable_count": 13}]}
+      "uong": {"nucleus": "uo", "nucleus_ipa": "uo", "coda": "ng", "ipa": "uoŋ", "examples": ["放", "往", "方"], "char_count": 33, "syllable_count": 3}
+      "uot": {"nucleus": "uo", "nucleus_ipa": "uɔ", "coda": "t", "ipa": "uɔt", "examples": ["说", "刷", "活"], "char_count": 28, "syllable_count": 10}
+      "ut": {"nucleus": "u", "nucleus_ipa": "u", "coda": "t", "ipa": "ut", "examples": ["不", "物", "术"], "char_count": 5, "syllable_count": 3}
+      "uê": {"nucleus": "uê", "nucleus_ipa": "uɛ", "coda": "", "ipa": "uɛ", "examples": ["瘸"], "char_count": 1, "syllable_count": 1}
+      "uêk": {"nucleus": "uê", "nucleus_ipa": "uɛ", "coda": "k", "ipa": "uɛʔ", "examples": ["国", "或", "惑"], "char_count": 5, "syllable_count": 2}
+      "uêt": {"nucleus": "uê", "nucleus_ipa": "uɛ", "coda": "t", "ipa": "uɛt", "examples": ["聒"], "char_count": 1, "syllable_count": 1}
+      "uêu": {"nucleus": "uê", "nucleus_ipa": "ue", "coda": "u", "ipa": "ueu", "examples": ["否", "浮"], "char_count": 2, "syllable_count": 1}
+      "yu": {"nucleus": "yu", "nucleus_ipa": "y", "coda": "", "ipa": "y", "examples": ["与", "主", "于"], "char_count": 51, "syllable_count": 4}
+      "yuek": {"nucleus": "yue", "nucleus_ipa": "iuə", "coda": "k", "ipa": "iuəʔ", "examples": ["役", "疫"], "char_count": 2, "syllable_count": 1, "variants": [{"nucleus": "yue", "nucleus_ipa": "iuə", "coda": "k", "ipa": "iuəʔ", "examples": ["役", "疫"], "char_count": 2, "syllable_count": 1}, {"nucleus": "yue", "nucleus_ipa": "yə", "coda": "k", "ipa": "yəʔ", "examples": ["倔", "屈", "掘"], "char_count": 3, "syllable_count": 2}]}
+      "yuet": {"nucleus": "yue", "nucleus_ipa": "yə", "coda": "t", "ipa": "yət", "examples": ["倔", "屈"], "char_count": 2, "syllable_count": 2}
+      "yuk": {"nucleus": "yu", "nucleus_ipa": "y", "coda": "k", "ipa": "yʔ", "examples": ["鼠"], "char_count": 1, "syllable_count": 1}
+      "yun": {"nucleus": "yu", "nucleus_ipa": "iu", "coda": "n", "ipa": "iun", "examples": ["韵", "云", "运"], "char_count": 13, "syllable_count": 1}
+      "yung": {"nucleus": "yu", "nucleus_ipa": "iu", "coda": "ng", "ipa": "iuŋ", "examples": ["用", "容", "浓"], "char_count": 17, "syllable_count": 1}
+      "yuok": {"nucleus": "yuo", "nucleus_ipa": "iuɔ", "coda": "k", "ipa": "iuɔʔ", "examples": ["役", "熨", "疫"], "char_count": 3, "syllable_count": 1}
+      "yuon": {"nucleus": "yuo", "nucleus_ipa": "yɔ", "coda": "n", "ipa": "yɔn", "examples": ["元", "全", "远"], "char_count": 41, "syllable_count": 4}
+      "yuot": {"nucleus": "yuo", "nucleus_ipa": "yɔ", "coda": "t", "ipa": "yɔt", "examples": ["越", "缺", "决"], "char_count": 20, "syllable_count": 5}
+      "yut": {"nucleus": "yu", "nucleus_ipa": "y", "coda": "t", "ipa": "yt", "examples": ["役", "疫", "鬱"], "char_count": 3, "syllable_count": 1}
+      "ê": {"nucleus": "ê", "nucleus_ipa": "ɛ", "coda": "", "ipa": "ɛ", "examples": ["而", "二", "塞"], "char_count": 39, "syllable_count": 11}
+      "êk": {"nucleus": "ê", "nucleus_ipa": "ɛ", "coda": "k", "ipa": "ɛʔ", "examples": ["得", "则", "的"], "char_count": 57, "syllable_count": 14}
+      "ên": {"nucleus": "ê", "nucleus_ipa": "ɛ", "coda": "n", "ipa": "ɛn", "examples": ["先", "线", "能"], "char_count": 127, "syllable_count": 14}
+      "êt": {"nucleus": "ê", "nucleus_ipa": "ɛ", "coda": "t", "ipa": "ɛt", "examples": ["北", "厕", "泽"], "char_count": 24, "syllable_count": 6}
+      "êu": {"nucleus": "ê", "nucleus_ipa": "ɛ", "coda": "u", "ipa": "ɛu", "examples": ["区", "后", "口"], "char_count": 128, "syllable_count": 14}
+      "ï": {"nucleus": "ï", "nucleus_ipa": "ɿ", "coda": "", "ipa": "ɿ", "examples": ["区", "子", "做"], "char_count": 161, "syllable_count": 4}
+      "ïk": {"nucleus": "ï", "nucleus_ipa": "ɿ", "coda": "k", "ipa": "ɿʔ", "examples": ["族", "熟", "赎"], "char_count": 12, "syllable_count": 3}
+    whole_syllables:
+      "m": ["", "m"]
+      "n": ["", "n"]
+      "ng": ["", "ng"]
+    blocked_initials: ["", "bb", "bh", "ch", "dd", "dh", "dr", "dz", "gg", "gh", "gn", "gw", "i", "jj", "jy", "kh", "kw", "nj", "ny", "o", "ph", "qy", "r", "sh", "tc", "tch", "th", "tr", "trh", "ts", "tsh", "u", "v", "w", "xy", "y", "zh", "zz"]
+    extra_finals: ["a", "ai", "aik", "ak", "an", "ang", "at", "au", "ek", "en", "eo", "eoi", "eot", "et", "eu", "i", "ia", "iai", "iaik", "iak", "ian", "iang", "iat", "iau", "iek", "iet", "ik", "in", "io", "ioi", "iok", "iong", "iot", "it", "iu", "iuk", "iun", "iung", "iuok", "iê", "iêk", "iên", "iêt", "iêu", "m", "n", "ng", "o", "oe", "oek", "oen", "oet", "oi", "ok", "on", "ong", "ot", "u", "ua", "uai", "uaik", "uak", "uan", "uang", "uat", "uei", "uet", "ui", "uin", "uk", "un", "ung", "uo", "uoi", "uok", "uon", "uong", "uot", "ut", "uê", "uêk", "uêt", "uêu", "yu", "yuek", "yuet", "yuk", "yun", "yung", "yuok", "yuon", "yuot", "yut", "ê", "êk", "ên", "êt", "êu", "ï", "ïk"]
   gannyu_goungon:
-    tone_encoding: none
-    code_prefix: G
-    blocked_initials: [o, y, w, i, u]
-    extra_initials: [ng]
-    whole_syllables: { ng: [ng, ""] }
-    blocked_initial_suffixes: [y]
+    tone_encoding: "none"
+    code_prefix: "G"
+    extra_initials: ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "ng", "p", "q", "s", "t", "x", "z"]
+    blocked_initial_suffixes: ["y"]
     zero_initial_pinyin: true
-    zero_initial_finals: [yu, yue, yun, yung, yuon, yuot, yut, yuet, yuk, yuok]
-    zero_initial_rewrites: { y: yu, yn: yun }
+    zero_initial_finals: ["yu", "yue", "yun", "yung", "yuon", "yuot", "yut", "yuet", "yuk", "yuok"]
+    zero_initial_rewrites: {"y": "yu", "yn": "yun"}
+    require_ipa_overrides: true
+    initials_ipa:
+      "b": {"ipa": "p", "place": "bilabial", "manner": "plosive", "examples": ["不", "并", "本"], "char_count": 122, "syllable_count": 23}
+      "c": {"ipa": "tsʰ", "place": "alveolar", "manner": "affricate", "examples": ["区", "出", "才"], "char_count": 184, "syllable_count": 27}
+      "d": {"ipa": "t", "place": "alveolar", "manner": "plosive", "examples": ["中", "都", "等"], "char_count": 198, "syllable_count": 33}
+      "f": {"ipa": "f", "place": "labiodental", "manner": "fricative", "examples": ["分", "会", "化"], "char_count": 194, "syllable_count": 18}
+      "g": {"ipa": "k", "place": "velar", "manner": "plosive", "examples": ["佢", "系", "嗰"], "char_count": 196, "syllable_count": 33}
+      "h": {"ipa": "h", "place": "glottal", "manner": "fricative", "examples": ["喝", "大", "后"], "char_count": 160, "syllable_count": 24}
+      "j": {"ipa": "tɕ", "place": "palatal", "manner": "affricate", "examples": ["几", "将", "叫"], "char_count": 175, "syllable_count": 18}
+      "k": {"ipa": "kʰ", "place": "velar", "manner": "plosive", "examples": ["会", "口", "可"], "char_count": 111, "syllable_count": 27}
+      "l": {"ipa": "l", "place": "alveolar", "manner": "lateral", "examples": ["你", "来", "如"], "char_count": 307, "syllable_count": 37}
+      "m": {"ipa": "m", "place": "bilabial", "manner": "nasal", "examples": ["冇", "面", "某"], "char_count": 145, "syllable_count": 27}
+      "ng": {"ipa": "ŋ", "place": "velar", "manner": "nasal", "examples": ["按", "眼", "日"], "char_count": 86, "syllable_count": 15}
+      "p": {"ipa": "pʰ", "place": "bilabial", "manner": "plosive", "examples": ["并", "被", "别"], "char_count": 169, "syllable_count": 26}
+      "q": {"ipa": "tɕʰ", "place": "palatal", "manner": "affricate", "examples": ["就", "前", "从"], "char_count": 115, "syllable_count": 17}
+      "s": {"ipa": "s", "place": "alveolar", "manner": "fricative", "examples": ["说", "成", "什"], "char_count": 258, "syllable_count": 29}
+      "t": {"ipa": "tʰ", "place": "alveolar", "manner": "plosive", "examples": ["他", "成", "大"], "char_count": 292, "syllable_count": 34}
+      "x": {"ipa": "ɕ", "place": "palatal", "manner": "fricative", "examples": ["系", "想", "些"], "char_count": 258, "syllable_count": 18}
+      "z": {"ipa": "ts", "place": "alveolar", "manner": "affricate", "examples": ["做", "主", "再"], "char_count": 143, "syllable_count": 26}
     finals_ipa:
-      yu: { nucleus: yu, nucleus_ipa: "y", coda: "", ipa: "y" }
+      "a": {"nucleus": "a", "nucleus_ipa": "a", "coda": "", "ipa": "a", "examples": ["他", "啊", "加"], "char_count": 100, "syllable_count": 15}
+      "ai": {"nucleus": "a", "nucleus_ipa": "a", "coda": "i", "ipa": "ai", "examples": ["来", "大", "太"], "char_count": 67, "syllable_count": 15}
+      "ak": {"nucleus": "a", "nucleus_ipa": "a", "coda": "k", "ipa": "ak", "examples": ["拿", "石", "摘"], "char_count": 24, "syllable_count": 11, "variants": [{"nucleus": "a", "nucleus_ipa": "a", "coda": "k", "ipa": "ak", "examples": ["拿", "石", "摘"], "char_count": 24, "syllable_count": 11}, {"nucleus": "a", "nucleus_ipa": "a", "coda": "k", "ipa": "aʔ", "examples": ["只", "客"], "char_count": 2, "syllable_count": 2}]}
+      "an": {"nucleus": "a", "nucleus_ipa": "a", "coda": "n", "ipa": "an", "examples": ["三", "眼", "蛮"], "char_count": 127, "syllable_count": 14}
+      "ang": {"nucleus": "a", "nucleus_ipa": "a", "coda": "ng", "ipa": "aŋ", "examples": ["成", "正", "长"], "char_count": 25, "syllable_count": 11}
+      "at": {"nucleus": "a", "nucleus_ipa": "a", "coda": "t", "ipa": "at", "examples": ["发", "夹", "瞎"], "char_count": 51, "syllable_count": 13}
+      "au": {"nucleus": "a", "nucleus_ipa": "a", "coda": "u", "ipa": "au", "examples": ["冇", "跑", "到"], "char_count": 59, "syllable_count": 13}
+      "e": {"nucleus": "e", "nucleus_ipa": "ə", "coda": "", "ipa": "ə", "examples": ["区", "如", "与"], "char_count": 164, "syllable_count": 7}
+      "ei": {"nucleus": "e", "nucleus_ipa": "ə", "coda": "i", "ipa": "əi", "examples": ["对", "内", "最"], "char_count": 25, "syllable_count": 6}
+      "en": {"nucleus": "e", "nucleus_ipa": "ə", "coda": "n", "ipa": "ən", "examples": ["分", "成", "群"], "char_count": 150, "syllable_count": 10}
+      "eo": {"nucleus": "eo", "nucleus_ipa": "ɵ", "coda": "", "ipa": "ɵ", "examples": ["而", "书", "水"], "char_count": 7, "syllable_count": 3}
+      "eon": {"nucleus": "eo", "nucleus_ipa": "ɵ", "coda": "n", "ipa": "ɵn", "examples": ["韵", "运", "云"], "char_count": 11, "syllable_count": 3}
+      "et": {"nucleus": "e", "nucleus_ipa": "ə", "coda": "t", "ipa": "ət", "examples": ["出", "什", "没"], "char_count": 46, "syllable_count": 10}
+      "eu": {"nucleus": "e", "nucleus_ipa": "ə", "coda": "u", "ipa": "əu", "examples": ["手", "周", "抽"], "char_count": 25, "syllable_count": 3}
+      "i": {"nucleus": "i", "nucleus_ipa": "i", "coda": "", "ipa": "i", "examples": ["系", "你", "几"], "char_count": 250, "syllable_count": 11}
+      "ia": {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "", "ipa": "ia", "examples": ["也", "些", "写"], "char_count": 24, "syllable_count": 5}
+      "iak": {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "k", "ipa": "iak", "examples": ["劈", "壁", "脊"], "char_count": 4, "syllable_count": 4, "variants": [{"nucleus": "ia", "nucleus_ipa": "ia", "coda": "k", "ipa": "iak", "examples": ["劈", "壁", "脊"], "char_count": 4, "syllable_count": 4}, {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "k", "ipa": "iaʔ", "examples": ["吃"], "char_count": 1, "syllable_count": 1}]}
+      "iang": {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "ng", "ipa": "iaŋ", "examples": ["丁", "井", "兄"], "char_count": 39, "syllable_count": 10}
+      "iau": {"nucleus": "ia", "nucleus_ipa": "ia", "coda": "u", "ipa": "iau", "examples": ["嚼", "孝", "效"], "char_count": 10, "syllable_count": 4}
+      "in": {"nucleus": "i", "nucleus_ipa": "i", "coda": "n", "ipa": "in", "examples": ["并", "新", "本"], "char_count": 201, "syllable_count": 10}
+      "io": {"nucleus": "io", "nucleus_ipa": "iɔ", "coda": "", "ipa": "iɔ", "examples": ["瘸", "茄", "靴"], "char_count": 3, "syllable_count": 1}
+      "iok": {"nucleus": "io", "nucleus_ipa": "iɔ", "coda": "k", "ipa": "iɔk", "examples": ["钥", "乐", "削"], "char_count": 16, "syllable_count": 4}
+      "ion": {"nucleus": "io", "nucleus_ipa": "iɔ", "coda": "n", "ipa": "iɔn", "examples": ["院"], "char_count": 1, "syllable_count": 1}
+      "iong": {"nucleus": "io", "nucleus_ipa": "iɔ", "coda": "ng", "ipa": "iɔŋ", "examples": ["想", "将", "两"], "char_count": 67, "syllable_count": 5}
+      "it": {"nucleus": "i", "nucleus_ipa": "i", "coda": "t", "ipa": "it", "examples": ["不", "一", "没"], "char_count": 97, "syllable_count": 10}
+      "iu": {"nucleus": "i", "nucleus_ipa": "i", "coda": "u", "ipa": "iu", "examples": ["有", "就", "又"], "char_count": 73, "syllable_count": 5}
+      "iuk": {"nucleus": "iu", "nucleus_ipa": "iu", "coda": "k", "ipa": "iuk", "examples": ["六", "足", "肉"], "char_count": 23, "syllable_count": 5}
+      "iung": {"nucleus": "iu", "nucleus_ipa": "iu", "coda": "ng", "ipa": "iuŋ", "examples": ["从", "丛", "供"], "char_count": 20, "syllable_count": 3}
+      "iê": {"nucleus": "iê", "nucleus_ipa": "iɛ", "coda": "", "ipa": "iɛ", "examples": ["佢", "些", "锯"], "char_count": 12, "syllable_count": 6}
+      "iên": {"nucleus": "iê", "nucleus_ipa": "iɛ", "coda": "n", "ipa": "iɛn", "examples": ["年", "前", "面"], "char_count": 172, "syllable_count": 13}
+      "iêt": {"nucleus": "iê", "nucleus_ipa": "iɛ", "coda": "t", "ipa": "iɛt", "examples": ["别", "给", "列"], "char_count": 64, "syllable_count": 13}
+      "iêu": {"nucleus": "iê", "nucleus_ipa": "iɛ", "coda": "u", "ipa": "iɛu", "examples": ["要", "口", "叫"], "char_count": 117, "syllable_count": 13}
+      "m": {"nucleus": "m", "nucleus_ipa": "m̩", "coda": "", "ipa": "m̩", "examples": ["姆"], "char_count": 1, "syllable_count": 1}
+      "n": {"nucleus": "n", "nucleus_ipa": "n̩", "coda": "", "ipa": "n̩", "examples": ["尔"], "char_count": 1, "syllable_count": 1}
+      "ng": {"nucleus": "ng", "nucleus_ipa": "ŋ̍", "coda": "", "ipa": "ŋ̍", "examples": ["你", "五"], "char_count": 2, "syllable_count": 1}
+      "o": {"nucleus": "o", "nucleus_ipa": "ɔ", "coda": "", "ipa": "ɔ", "examples": ["嗰", "箇", "个"], "char_count": 86, "syllable_count": 15}
+      "oi": {"nucleus": "o", "nucleus_ipa": "ɔ", "coda": "i", "ipa": "ɔi", "examples": ["才", "再", "开"], "char_count": 55, "syllable_count": 9}
+      "ok": {"nucleus": "o", "nucleus_ipa": "ɔ", "coda": "k", "ipa": "ɔk", "examples": ["搁", "学", "戳"], "char_count": 66, "syllable_count": 13, "variants": [{"nucleus": "o", "nucleus_ipa": "ɔ", "coda": "k", "ipa": "ɔk", "examples": ["搁", "学", "戳"], "char_count": 66, "syllable_count": 13}, {"nucleus": "o", "nucleus_ipa": "ɔ", "coda": "k", "ipa": "ɔʔ", "examples": ["刷", "落", "莫"], "char_count": 6, "syllable_count": 6}]}
+      "on": {"nucleus": "o", "nucleus_ipa": "ɔ", "coda": "n", "ipa": "ɔn", "examples": ["乱", "按", "看"], "char_count": 68, "syllable_count": 8}
+      "ong": {"nucleus": "o", "nucleus_ipa": "ɔ", "coda": "ng", "ipa": "ɔŋ", "examples": ["当", "放", "长"], "char_count": 155, "syllable_count": 15}
+      "ot": {"nucleus": "o", "nucleus_ipa": "ɔ", "coda": "t", "ipa": "ɔt", "examples": ["说", "喝", "着"], "char_count": 20, "syllable_count": 9}
+      "ou": {"nucleus": "o", "nucleus_ipa": "ɔ", "coda": "u", "ipa": "ɔu", "examples": ["高", "好", "老"], "char_count": 93, "syllable_count": 13}
+      "u": {"nucleus": "u", "nucleus_ipa": "u", "coda": "", "ipa": "u", "examples": ["都", "做", "如"], "char_count": 221, "syllable_count": 13}
+      "ua": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "", "ipa": "ua", "examples": ["跨", "垮", "挂"], "char_count": 11, "syllable_count": 3}
+      "uai": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "i", "ipa": "uai", "examples": ["会", "发", "快"], "char_count": 9, "syllable_count": 3}
+      "uan": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "n", "ipa": "uan", "examples": ["还", "晚", "关"], "char_count": 11, "syllable_count": 2}
+      "uang": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "ng", "ipa": "uaŋ", "examples": ["横", "推", "梗"], "char_count": 3, "syllable_count": 3}
+      "uat": {"nucleus": "ua", "nucleus_ipa": "ua", "coda": "t", "ipa": "uat", "examples": ["挖", "刮", "滑"], "char_count": 5, "syllable_count": 2}
+      "uen": {"nucleus": "ue", "nucleus_ipa": "uə", "coda": "n", "ipa": "uən", "examples": ["文", "温", "吻"], "char_count": 10, "syllable_count": 1}
+      "ueon": {"nucleus": "ueo", "nucleus_ipa": "uɵ", "coda": "n", "ipa": "uɵn", "examples": ["晕"], "char_count": 1, "syllable_count": 1}
+      "uet": {"nucleus": "ue", "nucleus_ipa": "uə", "coda": "t", "ipa": "uət", "examples": ["物", "骨", "勿"], "char_count": 4, "syllable_count": 3}
+      "ui": {"nucleus": "u", "nucleus_ipa": "u", "coda": "i", "ipa": "ui", "examples": ["为", "未", "位"], "char_count": 50, "syllable_count": 3, "variants": [{"nucleus": "u", "nucleus_ipa": "u", "coda": "i", "ipa": "ui", "examples": ["为", "未", "位"], "char_count": 50, "syllable_count": 3}, {"nucleus": "u", "nucleus_ipa": "uə", "coda": "i", "ipa": "uəi", "examples": ["坠", "粹", "翠"], "char_count": 3, "syllable_count": 2}]}
+      "uk": {"nucleus": "u", "nucleus_ipa": "u", "coda": "k", "ipa": "uk", "examples": ["读", "目", "复"], "char_count": 55, "syllable_count": 11, "variants": [{"nucleus": "u", "nucleus_ipa": "u", "coda": "k", "ipa": "uk", "examples": ["读", "目", "复"], "char_count": 55, "syllable_count": 11}, {"nucleus": "u", "nucleus_ipa": "u", "coda": "k", "ipa": "uʔ", "examples": ["念", "屋", "厾"], "char_count": 5, "syllable_count": 3}]}
+      "un": {"nucleus": "u", "nucleus_ipa": "u", "coda": "n", "ipa": "un", "examples": ["敦"], "char_count": 1, "syllable_count": 1, "variants": [{"nucleus": "u", "nucleus_ipa": "u", "coda": "n", "ipa": "un", "examples": ["敦"], "char_count": 1, "syllable_count": 1}, {"nucleus": "u", "nucleus_ipa": "uə", "coda": "n", "ipa": "uən", "examples": ["困", "睡", "坤"], "char_count": 10, "syllable_count": 5}, {"nucleus": "u", "nucleus_ipa": "uɛ", "coda": "n", "ipa": "uɛn", "examples": ["管", "官", "观"], "char_count": 11, "syllable_count": 2}]}
+      "ung": {"nucleus": "u", "nucleus_ipa": "u", "coda": "ng", "ipa": "uŋ", "examples": ["中", "同", "总"], "char_count": 121, "syllable_count": 12}
+      "uo": {"nucleus": "uo", "nucleus_ipa": "uɔ", "coda": "", "ipa": "uɔ", "examples": ["过", "果", "禾"], "char_count": 9, "syllable_count": 3}
+      "uon": {"nucleus": "uo", "nucleus_ipa": "uɔ", "coda": "n", "ipa": "uɔn", "examples": ["端", "算", "纂"], "char_count": 14, "syllable_count": 5}
+      "uong": {"nucleus": "uo", "nucleus_ipa": "uɔ", "coda": "ng", "ipa": "uɔŋ", "examples": ["往", "光", "汪"], "char_count": 14, "syllable_count": 2}
+      "uêi": {"nucleus": "uê", "nucleus_ipa": "uɛ", "coda": "i", "ipa": "uɛi", "examples": ["会", "煨"], "char_count": 2, "syllable_count": 1}
+      "uên": {"nucleus": "uê", "nucleus_ipa": "uɛ", "coda": "n", "ipa": "uɛn", "examples": ["换", "皖", "宛"], "char_count": 7, "syllable_count": 1}
+      "uêt": {"nucleus": "uê", "nucleus_ipa": "uɛ", "coda": "t", "ipa": "uɛt", "examples": ["国", "活", "阔"], "char_count": 6, "syllable_count": 3}
+      "yung": {"nucleus": "yu", "nucleus_ipa": "iu", "coda": "ng", "ipa": "iuŋ", "examples": ["用", "容", "勇"], "char_count": 14, "syllable_count": 1}
+      "yuon": {"nucleus": "yuo", "nucleus_ipa": "yɔ", "coda": "n", "ipa": "yɔn", "examples": ["元", "转", "远"], "char_count": 46, "syllable_count": 4}
+      "yuot": {"nucleus": "yuo", "nucleus_ipa": "yɔ", "coda": "t", "ipa": "yɔt", "examples": ["月", "越", "缺"], "char_count": 15, "syllable_count": 4}
+      "ê": {"nucleus": "ê", "nucleus_ipa": "ɛ", "coda": "", "ipa": "ɛ", "examples": ["拽", "墨", "扯"], "char_count": 6, "syllable_count": 5}
+      "êi": {"nucleus": "ê", "nucleus_ipa": "e", "coda": "i", "ipa": "ei", "examples": ["何", "哪"], "char_count": 2, "syllable_count": 1, "variants": [{"nucleus": "ê", "nucleus_ipa": "e", "coda": "i", "ipa": "ei", "examples": ["何", "哪"], "char_count": 2, "syllable_count": 1}, {"nucleus": "ê", "nucleus_ipa": "ɛ", "coda": "i", "ipa": "ɛi", "examples": ["系", "会", "配"], "char_count": 25, "syllable_count": 9}]}
+      "ên": {"nucleus": "ê", "nucleus_ipa": "ɛ", "coda": "n", "ipa": "ɛn", "examples": ["等", "能", "层"], "char_count": 88, "syllable_count": 11}
+      "êt": {"nucleus": "ê", "nucleus_ipa": "ɛ", "coda": "t", "ipa": "ɛt", "examples": ["得", "则", "侧"], "char_count": 58, "syllable_count": 11}
+      "êu": {"nucleus": "ê", "nucleus_ipa": "ɛ", "coda": "u", "ipa": "ɛu", "examples": ["后", "某", "走"], "char_count": 74, "syllable_count": 9}
+    whole_syllables:
+      "m": ["", "m"]
+      "n": ["", "n"]
+      "ng": ["", "ng"]
+    blocked_initials: ["", "bb", "bh", "ch", "dd", "dh", "dr", "dz", "gg", "gh", "gn", "gw", "i", "jj", "jy", "kh", "kw", "n", "nj", "ny", "o", "ph", "qy", "r", "sh", "tc", "tch", "th", "tr", "trh", "ts", "tsh", "u", "v", "w", "xy", "y", "zh", "zz"]
+    extra_finals: ["a", "ai", "ak", "an", "ang", "at", "au", "e", "ei", "en", "eo", "eon", "et", "eu", "i", "ia", "iak", "iang", "iau", "in", "io", "iok", "ion", "iong", "it", "iu", "iuk", "iung", "iê", "iên", "iêt", "iêu", "m", "n", "ng", "o", "oi", "ok", "on", "ong", "ot", "ou", "u", "ua", "uai", "uan", "uang", "uat", "uen", "ueon", "uet", "ui", "uk", "un", "ung", "uo", "uon", "uong", "uêi", "uên", "uêt", "yung", "yuon", "yuot", "ê", "êi", "ên", "êt", "êu"]
   OC_baxter-sagart:
     suppress_grids: true
   OC_baxter1992:

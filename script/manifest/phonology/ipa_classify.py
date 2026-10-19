@@ -42,7 +42,7 @@ def _classify_initial_key(
     dictionary: dict[str, Any],
     seen: set[str],
 ) -> dict[str, str] | None:
-    if not key or key in seen:
+    if not key or key in seen or (hints.require_ipa_overrides and key not in hints.initials_ipa):
         return None
     seen.add(key)
     entry = _merged_entry(dictionary.get("initials_default", {}).get(key), hints.initials_ipa.get(key))
@@ -72,9 +72,14 @@ def classify_final(
     spelling: str,
     hints: SchemaHints,
     dictionary: dict[str, Any],
+    *,
+    variant: dict[str, Any] | None = None,
 ) -> dict[str, str] | None:
     key = spelling.lower()
-    exact = _merged_entry(dictionary.get("finals_default", {}).get(key), hints.finals_ipa.get(key))
+    override = hints.finals_ipa.get(key) if variant is None else variant
+    if hints.require_ipa_overrides and override is None:
+        return None
+    exact = _merged_entry(dictionary.get("finals_default", {}).get(key), override)
     if exact:
         nucleus = str(exact.get("nucleus", ""))
         coda = str(exact.get("coda", ""))
@@ -125,17 +130,21 @@ def compile_initials_grid(
         if spelling == "":
             continue
         total += 1
-        classification = classify_initial(spelling, hints, dictionary)
-        if not classification:
+        variants = hints.initials_ipa.get(spelling, {}).get("variants")
+        classifications = variants if variants is not None else [classify_initial(spelling, hints, dictionary)]
+        if not classifications or any(not entry or not {"ipa", "place", "manner"} <= entry.keys() for entry in classifications):
             uncategorised.append(_uncategorised_entry(row))
             continue
 
-        manner = classification["manner"]
-        place = classification["place"]
-        used_manners.add(manner)
-        used_places.add(place)
         categorised += 1
-        cells.setdefault(manner, {}).setdefault(place, []).append(_grid_entry(row, classification["ipa"]))
+        for classification in classifications:
+            manner = classification["manner"]
+            place = classification["place"]
+            used_manners.add(manner)
+            used_places.add(place)
+            cells.setdefault(manner, {}).setdefault(place, []).append(_grid_entry(
+                row, classification["ipa"], classification if variants is not None else hints.initials_ipa.get(spelling)
+            ))
 
     rows = _ordered_subset(dictionary.get("manners", {}), used_manners)
     cols = _ordered_subset(dictionary.get("places", {}), used_places)
@@ -167,25 +176,32 @@ def compile_finals_grid(
         if spelling == "":
             continue
         total += 1
-        classification = classify_final(spelling, hints, dictionary)
-        if not classification:
+        variants = hints.finals_ipa.get(spelling, {}).get("variants")
+        classifications = (
+            [classify_final(spelling, hints, dictionary, variant=entry) for entry in variants]
+            if variants is not None else [classify_final(spelling, hints, dictionary)]
+        )
+        if not classifications or any(entry is None for entry in classifications):
             uncategorised.append(_uncategorised_entry(row))
             continue
 
         categorised += 1
-        row_key = classification["row_key"]
-        nucleus = classification["nucleus"]
-        coda = classification["coda"]
-        used_rows.setdefault(
-            row_key,
-            {
-                "key": row_key,
-                "nucleus": nucleus,
-                "label": str((_nucleus_entry(nucleus, hints, dictionary) or {}).get("label", nucleus)),
-                "ipa": classification["nucleus_ipa"],
-            },
-        )
-        cells.setdefault(f"{row_key}|{coda}", []).append(_grid_entry(row, classification["ipa"]))
+        for index, classification in enumerate(classifications):
+            row_key = classification["row_key"]
+            nucleus = classification["nucleus"]
+            coda = classification["coda"]
+            used_rows.setdefault(
+                row_key,
+                {
+                    "key": row_key,
+                    "nucleus": nucleus,
+                    "label": str((_nucleus_entry(nucleus, hints, dictionary) or {}).get("label", nucleus)),
+                    "ipa": classification["nucleus_ipa"],
+                },
+            )
+            cells.setdefault(f"{row_key}|{coda}", []).append(_grid_entry(
+                row, classification["ipa"], variants[index] if variants is not None else hints.finals_ipa.get(spelling)
+            ))
 
     row_order = list(dictionary.get("nuclei_default", {}).keys())
     rows = sorted(used_rows.values(), key=lambda row: _row_order_key(row_order, row))
@@ -228,7 +244,7 @@ def _final_row_key(
     dictionary: dict[str, Any],
 ) -> str:
     default_ipa = str((_nucleus_entry(nucleus, hints, dictionary) or {}).get("ipa", ""))
-    if nucleus_ipa and default_ipa and nucleus_ipa != default_ipa:
+    if nucleus_ipa and nucleus_ipa != default_ipa:
         return f"{nucleus}:{nucleus_ipa}"
     return nucleus
 
@@ -280,13 +296,14 @@ def _looks_like_romanized_nucleus(nucleus: str) -> bool:
     )
 
 
-def _grid_entry(row: dict[str, Any], ipa: str) -> dict[str, Any]:
+def _grid_entry(row: dict[str, Any], ipa: str, evidence: dict[str, Any] | None = None) -> dict[str, Any]:
+    evidence = evidence or {}
     return {
         "spelling": str(row.get("spelling", "")),
         "ipa": ipa,
-        "examples": list(row.get("example_chars", []))[:3],
-        "syllable_count": int(row.get("syllable_count", 0)),
-        "char_count": int(row.get("char_count", 0)),
+        "examples": list(evidence.get("examples", row.get("example_chars", [])))[:3],
+        "syllable_count": int(evidence.get("syllable_count", row.get("syllable_count", 0))),
+        "char_count": int(evidence.get("char_count", row.get("char_count", 0))),
     }
 
 
