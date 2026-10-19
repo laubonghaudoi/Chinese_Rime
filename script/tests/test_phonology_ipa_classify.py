@@ -160,3 +160,51 @@ def test_compile_grids_places_jyutping_inventory():
     assert finals_grid["cells"]["i|"][0]["ipa"] == "iː"
     assert finals_grid["cells"]["i:e|ng"][0]["ipa"] == "eŋ"
     assert finals_grid["cells"]["aa|k"][0]["ipa"] == "aːk̚"
+
+
+def test_initial_variants_keep_separate_places_and_evidence():
+    dictionary = load_ipa_dictionary(DICTIONARY_PATH)
+    variants = [
+        {"ipa": "tɕ", "place": "palatal", "manner": "affricate", "examples": ["甲"], "char_count": 1, "syllable_count": 1},
+        {"ipa": "tʃ", "place": "postalveolar", "manner": "affricate", "examples": ["乙"], "char_count": 1, "syllable_count": 1},
+    ]
+    hints = SchemaHints(initials_ipa={"j": {**variants[0], "variants": variants}})
+    grid = compile_initials_grid([
+        {"spelling": "j", "example_chars": ["甲", "乙"], "char_count": 2, "syllable_count": 2}
+    ], hints, dictionary)
+
+    assert grid["coverage"] == {"categorised": 1, "total": 1, "ratio": 1.0}
+    for place, ipa, example in [("palatal", "tɕ", "甲"), ("postalveolar", "tʃ", "乙")]:
+        entry = grid["cells"]["affricate"][place][0]
+        assert entry["ipa"] == ipa
+        assert entry["examples"] == [example]
+        assert entry["char_count"] == entry["syllable_count"] == 1
+
+
+def test_final_variants_keep_distinct_nuclei_and_evidence():
+    dictionary = load_ipa_dictionary(DICTIONARY_PATH)
+    variants = [
+        {"nucleus": "ê", "nucleus_ipa": "e", "coda": "", "ipa": "e", "examples": ["甲"], "char_count": 1, "syllable_count": 1},
+        {"nucleus": "ê", "nucleus_ipa": "ɛ", "coda": "", "ipa": "ɛ", "examples": ["乙"], "char_count": 1, "syllable_count": 1},
+    ]
+    hints = SchemaHints(finals_ipa={"ê": {**variants[0], "variants": variants}})
+    grid = compile_finals_grid([
+        {"spelling": "ê", "example_chars": ["甲", "乙"], "char_count": 2, "syllable_count": 2}
+    ], hints, dictionary)
+
+    assert grid["coverage"] == {"categorised": 1, "total": 1, "ratio": 1.0}
+    assert {(row["nucleus"], row["ipa"]) for row in grid["rows"]} == {("ê", "e"), ("ê", "ɛ")}
+    entries = [entry for cell in grid["cells"].values() for entry in cell]
+    assert {(entry["ipa"], tuple(entry["examples"])) for entry in entries} == {("e", ("甲",)), ("ɛ", ("乙",))}
+
+
+def test_explicit_ipa_mode_reports_unmapped_sounds_instead_of_using_defaults():
+    dictionary = load_ipa_dictionary(DICTIONARY_PATH)
+    hints = SchemaHints(require_ipa_overrides=True)
+
+    assert classify_initial("j", hints, dictionary) is None
+    assert classify_final("a", hints, dictionary) is None
+    rows = [{"spelling": "a", "example_chars": ["甲"], "char_count": 1, "syllable_count": 1}]
+    grid = compile_finals_grid(rows, hints, dictionary)
+    assert grid["coverage"]["categorised"] == 0
+    assert grid["uncategorised"][0]["spelling"] == "a"

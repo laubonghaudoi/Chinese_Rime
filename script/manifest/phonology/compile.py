@@ -49,7 +49,7 @@ def compile_phonology(
         ]
     if hints.zero_initial_pinyin:
         rows = [(char, _normalise_pinyin_zero_initial(spelling, hints.zero_initial_rewrites)) for char, spelling in rows]
-        spellings = [spelling for _, spelling in rows]
+    spellings = [spelling for _, spelling in rows]
     if ipa_dictionary is not None:
         hints.recognized_initials.update(str(key).lower() for key in ipa_dictionary.get("initials_default", {}))
         hints.recognized_finals.update(str(key).lower() for key in ipa_dictionary.get("nuclei_default", {}))

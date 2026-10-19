@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-09T04:38:11+00:00",
+  "generated_at": "2026-10-19T19:14:50+00:00",
   "stats": {
-    "schema_count": 178,
-    "recipe_count": 65,
-    "download_package_count": 75,
+    "schema_count": 179,
+    "recipe_count": 66,
+    "download_package_count": 76,
     "branch_count": 21,
     "active_branch_count": 15,
     "missing_branch_count": 6
@@ -661,6 +661,12 @@
           "name": "新喻話",
           "schemas": [
             "gannyu_sinyi"
+          ]
+        },
+        {
+          "name": "高安話",
+          "schemas": [
+            "gannyu_goungon"
           ]
         }
       ]
@@ -4268,7 +4274,7 @@
       "authors": [
         "GannyuInputMethod contributors"
       ],
-      "version": "1.2.0",
+      "version": "1.2.2",
       "description": "从项目规范词典生成；使用 Rime 原生用户学习，Lua 提供标注和连带候选。",
       "dependencies": [],
       "license": null,
@@ -4287,7 +4293,7 @@
       "authors": [
         "GannyuInputMethod contributors"
       ],
-      "version": "1.2.0",
+      "version": "1.2.2",
       "description": "从项目规范词典生成；使用 Rime 原生用户学习，Lua 提供标注和连带候选。",
       "dependencies": [],
       "license": null,
@@ -4306,7 +4312,7 @@
       "authors": [
         "GannyuInputMethod contributors"
       ],
-      "version": "1.2.0",
+      "version": "1.2.2",
       "description": "从项目规范词典生成；使用 Rime 原生用户学习，Lua 提供标注和连带候选。",
       "dependencies": [],
       "license": null,
@@ -4325,7 +4331,7 @@
       "authors": [
         "GannyuInputMethod contributors"
       ],
-      "version": "1.2.0",
+      "version": "1.2.2",
       "description": "从项目规范词典生成；使用 Rime 原生用户学习，Lua 提供标注和连带候选。",
       "dependencies": [],
       "license": null,
@@ -4344,7 +4350,7 @@
       "authors": [
         "GannyuInputMethod contributors"
       ],
-      "version": "1.2.0",
+      "version": "1.2.2",
       "description": "从项目规范词典生成；使用 Rime 原生用户学习，Lua 提供标注和连带候选。",
       "dependencies": [],
       "license": null,
@@ -4353,6 +4359,25 @@
       "last_commit_at": null,
       "downloadable": true,
       "download_package": "贛語/豐城話"
+    },
+    "gannyu_goungon": {
+      "schema_id": "gannyu_goungon",
+      "slug": "gannyu_goungon",
+      "display_name": "赣语－高安",
+      "branch": "gan",
+      "dialect": "高安話",
+      "authors": [
+        "GannyuInputMethod contributors"
+      ],
+      "version": "1.2.2",
+      "description": "从项目规范词典生成；使用 Rime 原生用户学习，Lua 提供标注和连带候选。",
+      "dependencies": [],
+      "license": null,
+      "recipe": "Doohaey/GonnyuGeneralIME-Rime-Goungon",
+      "upstream_url": "https://github.com/Doohaey/GonnyuGeneralIME-Rime-Goungon",
+      "last_commit_at": null,
+      "downloadable": true,
+      "download_package": "贛語/高安話"
     }
   }
 }

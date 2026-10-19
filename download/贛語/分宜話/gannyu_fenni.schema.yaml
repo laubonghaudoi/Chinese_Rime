@@ -2,7 +2,7 @@
 schema:
   schema_id: gannyu_fenni
   name: 赣语－分宜
-  version: "1.2.0"
+  version: "1.2.2"
   author:
     - GannyuInputMethod contributors
   description: |
@@ -44,221 +44,421 @@ speller:
   algebra:
     - derive/^Gau$/Fao/
     - derive/^Gbau$/Fbao/
+    - derive/^Gbe$/Fbir/
+    - derive/^Gbei$/Fbiri/
+    - derive/^Gben$/Fbirn/
+    - derive/^Gbeng$/Fbirng/
+    - derive/^Gbie$/Fbiir/
+    - derive/^Gbien$/Fbiirn/
+    - derive/^Gbieu$/Fbiiru/
     - derive/^Gcau$/Fcao/
+    - derive/^Gce$/Fcir/
+    - derive/^Gcei$/Fciri/
+    - derive/^Gcen$/Fcirn/
+    - derive/^Gceng$/Fcirng/
+    - derive/^Gceu$/Fciru/
     - derive/^Gceu$/Fciu/
     - derive/^Gceu$/Fcou/
     - derive/^Gcon$/Fcuon/
     - fuzz/^Gcyu$/Fcu/
     - derive/^Gcyu$/Fcv/
     - derive/^Gdau$/Fdao/
+    - derive/^Gde$/Fdir/
+    - derive/^Gdei$/Fdiri/
+    - derive/^Gden$/Fdirn/
+    - derive/^Gdeng$/Fdirng/
+    - derive/^Gdeu$/Fdiru/
     - derive/^Gdeu$/Fdou/
-    - derive/^Gfei$/Ffi/
+    - derive/^Gdie$/Fdiir/
+    - derive/^Gdien$/Fdiirn/
+    - derive/^Gdieu$/Fdiiru/
+    - derive/^Ge$/Fir/
+    - derive/^Gfei$/Ffiri/
+    - derive/^Gfen$/Ffirn/
+    - derive/^Gfeng$/Ffirng/
+    - derive/^Gfeu$/Ffiru/
     - derive/^Gfeu$/Ffou/
     - derive/^Ggau$/Fgao/
-    - derive/^Ggien$/Fgen/
+    - derive/^Ggie$/Fgiir/
+    - derive/^Ggien$/Fgiirn/
     - fuzz/^Ggieu$/Fgeu/
+    - derive/^Ggieu$/Fgiiru/
+    - fuzz/^Ggieu$/Fgiru/
+    - derive/^Ggue$/Fguir/
     - derive/^Ggui$/Fguei/
-    - derive/^Ggui$/Fguêi/
+    - derive/^Ggui$/Fguiri/
     - derive/^Ggun$/Fguen/
-    - derive/^Ggun$/Fguên/
+    - derive/^Ggun$/Fguirn/
     - derive/^Gguon$/Fguen/
+    - derive/^Gguon$/Fguirn/
     - derive/^Ghau$/Fhao/
+    - derive/^Ghe$/Fhir/
+    - derive/^Ghei$/Fhiri/
+    - derive/^Ghen$/Fhirn/
+    - derive/^Gheng$/Fhirng/
     - fuzz/^Gheu$/Fhieu/
+    - fuzz/^Gheu$/Fhiiru/
+    - derive/^Gheu$/Fhiru/
     - derive/^Gheu$/Fhou/
+    - derive/^Gjie$/Fjiir/
+    - derive/^Gjien$/Fjiirn/
+    - derive/^Gjieu$/Fjiiru/
     - fuzz/^Gjyu$/Fju/
     - derive/^Gjyu$/Fjv/
     - derive/^Gjyue$/Fjue/
+    - derive/^Gjyue$/Fjuir/
     - derive/^Gjyue$/Fjve/
+    - derive/^Gjyue$/Fjvir/
+    - derive/^Gjyue$/Fjyuir/
     - derive/^Gjyuei$/Fjuei/
+    - derive/^Gjyuei$/Fjuiri/
     - derive/^Gjyuei$/Fjvei/
+    - derive/^Gjyuei$/Fjviri/
+    - derive/^Gjyuei$/Fjyuiri/
     - derive/^Gjyui$/Fjuei/
     - fuzz/^Gjyui$/Fjui/
-    - fuzz/^Gjyui$/Fjuêi/
+    - derive/^Gjyui$/Fjuiri/
     - derive/^Gjyui$/Fjvei/
     - derive/^Gjyui$/Fjvi/
+    - derive/^Gjyui$/Fjviri/
     - derive/^Gjyui$/Fjyuei/
-    - derive/^Gjyui$/Fjyuêi/
+    - derive/^Gjyui$/Fjyuiri/
     - derive/^Gjyun$/Fjuen/
     - derive/^Gjyun$/Fjueng/
+    - derive/^Gjyun$/Fjuirn/
+    - derive/^Gjyun$/Fjuirng/
     - fuzz/^Gjyun$/Fjun/
-    - fuzz/^Gjyun$/Fjuên/
     - derive/^Gjyun$/Fjven/
     - derive/^Gjyun$/Fjveng/
+    - derive/^Gjyun$/Fjvirn/
+    - derive/^Gjyun$/Fjvirng/
     - derive/^Gjyun$/Fjvn/
     - derive/^Gjyun$/Fjyuen/
     - derive/^Gjyun$/Fjyueng/
-    - derive/^Gjyun$/Fjyuên/
-    - derive/^Gjyung$/Fjuen/
-    - derive/^Gjyung$/Fjueng/
+    - derive/^Gjyun$/Fjyuirn/
+    - derive/^Gjyun$/Fjyuirng/
     - fuzz/^Gjyung$/Fjung/
-    - derive/^Gjyung$/Fjven/
-    - derive/^Gjyung$/Fjveng/
     - derive/^Gjyung$/Fjvng/
-    - derive/^Gjyung$/Fjyuen/
-    - derive/^Gjyung$/Fjyueng/
-    - derive/^Gjyung$/Fjyun/
-    - derive/^Gjyung$/Fjyuên/
     - derive/^Gkau$/Fkao/
-    - derive/^Gkien$/Fken/
+    - derive/^Gkie$/Fkiir/
+    - derive/^Gkien$/Fkiirn/
     - fuzz/^Gkieu$/Fkeu/
+    - derive/^Gkieu$/Fkiiru/
+    - fuzz/^Gkieu$/Fkiru/
+    - derive/^Gkue$/Fkuir/
     - derive/^Gkui$/Fkuei/
-    - derive/^Gkui$/Fkuêi/
+    - derive/^Gkui$/Fkuiri/
     - derive/^Gkun$/Fkuen/
-    - derive/^Gkun$/Fkuên/
+    - derive/^Gkun$/Fkuirn/
     - derive/^Gkuon$/Fkuen/
+    - derive/^Gkuon$/Fkuirn/
     - fuzz/^Gkyui$/Fkuei/
     - fuzz/^Gkyui$/Fkui/
-    - fuzz/^Gkyui$/Fkuêi/
+    - fuzz/^Gkyui$/Fkuiri/
     - derive/^Gkyui$/Fkvi/
     - derive/^Gkyui$/Fkyuei/
-    - derive/^Gkyui$/Fkyuêi/
+    - derive/^Gkyui$/Fkyuiri/
     - derive/^Glau$/Flao/
+    - derive/^Gle$/Flir/
+    - derive/^Glei$/Fliri/
+    - derive/^Glen$/Flirn/
+    - derive/^Gleng$/Flirng/
+    - derive/^Gleu$/Fliru/
     - derive/^Gleu$/Flou/
+    - derive/^Glie$/Fliir/
+    - derive/^Glien$/Fliirn/
+    - derive/^Glieu$/Fliiru/
     - derive/^Glui$/Fluei/
-    - derive/^Glui$/Fluêi/
+    - derive/^Glui$/Fluiri/
     - fuzz/^Glyu$/Flu/
     - derive/^Glyu$/Flv/
     - derive/^Glyue$/Flue/
+    - derive/^Glyue$/Fluir/
     - derive/^Glyue$/Flve/
+    - derive/^Glyue$/Flvir/
+    - derive/^Glyue$/Flyuir/
     - derive/^Gmau$/Fmao/
+    - derive/^Gme$/Fmir/
+    - derive/^Gmen$/Fmirn/
+    - derive/^Gmeng$/Fmirng/
+    - derive/^Gmeu$/Fmiru/
     - derive/^Gmeu$/Fmou/
+    - derive/^Gmie$/Fmiir/
+    - derive/^Gmien$/Fmiirn/
+    - derive/^Gmieu$/Fmiiru/
     - derive/^Gngau$/Fngao/
+    - derive/^Gngeu$/Fngiru/
     - derive/^Gngeu$/Fngou/
-    - derive/^Gngien$/Fngen/
+    - derive/^Gngien$/Fngiirn/
     - fuzz/^Gngieu$/Fngeu/
+    - derive/^Gngieu$/Fngiiru/
+    - fuzz/^Gngieu$/Fngiru/
     - fuzz/^Gngyu$/Fngu/
     - derive/^Gngyu$/Fngv/
     - derive/^Gniau$/Fniao/
+    - derive/^Gnie$/Fniir/
+    - derive/^Gnien$/Fniirn/
+    - derive/^Gnieu$/Fniiru/
     - fuzz/^Gnyu$/Fnu/
     - derive/^Gnyu$/Fnv/
     - derive/^Gnyue$/Fnue/
+    - derive/^Gnyue$/Fnuir/
     - derive/^Gnyue$/Fnve/
+    - derive/^Gnyue$/Fnvir/
+    - derive/^Gnyue$/Fnyuir/
     - derive/^Gnyuon$/Fnuen/
     - derive/^Gnyuon$/Fnueng/
+    - derive/^Gnyuon$/Fnuirn/
+    - derive/^Gnyuon$/Fnuirng/
     - fuzz/^Gnyuon$/Fnuon/
     - derive/^Gnyuon$/Fnven/
     - derive/^Gnyuon$/Fnveng/
+    - derive/^Gnyuon$/Fnvirn/
+    - derive/^Gnyuon$/Fnvirng/
     - derive/^Gnyuon$/Fnvon/
     - derive/^Gnyuon$/Fnyuen/
     - derive/^Gnyuon$/Fnyueng/
+    - derive/^Gnyuon$/Fnyuirn/
+    - derive/^Gnyuon$/Fnyuirng/
     - derive/^Gpau$/Fpao/
+    - derive/^Gpei$/Fpiri/
+    - derive/^Gpen$/Fpirn/
+    - derive/^Gpeng$/Fpirng/
+    - derive/^Gpeu$/Fpiru/
     - derive/^Gpeu$/Fpou/
+    - derive/^Gpie$/Fpiir/
+    - derive/^Gpien$/Fpiirn/
+    - derive/^Gpieu$/Fpiiru/
+    - derive/^Gqie$/Fqiir/
+    - derive/^Gqien$/Fqiirn/
+    - derive/^Gqieu$/Fqiiru/
     - derive/^Gqiun$/Fqiuen/
-    - derive/^Gqiun$/Fqiuên/
+    - derive/^Gqiun$/Fqiuirn/
     - fuzz/^Gqyu$/Fqu/
     - derive/^Gqyu$/Fqv/
     - derive/^Gqyue$/Fque/
+    - derive/^Gqyue$/Fquir/
     - derive/^Gqyue$/Fqve/
+    - derive/^Gqyue$/Fqvir/
+    - derive/^Gqyue$/Fqyuir/
     - derive/^Gqyui$/Fquei/
     - fuzz/^Gqyui$/Fqui/
-    - fuzz/^Gqyui$/Fquêi/
+    - derive/^Gqyui$/Fquiri/
     - derive/^Gqyui$/Fqvei/
     - derive/^Gqyui$/Fqvi/
+    - derive/^Gqyui$/Fqviri/
     - derive/^Gqyui$/Fqyuei/
-    - derive/^Gqyui$/Fqyuêi/
+    - derive/^Gqyui$/Fqyuiri/
     - derive/^Gqyun$/Fquen/
     - derive/^Gqyun$/Fqueng/
+    - derive/^Gqyun$/Fquirn/
+    - derive/^Gqyun$/Fquirng/
     - fuzz/^Gqyun$/Fqun/
-    - fuzz/^Gqyun$/Fquên/
     - derive/^Gqyun$/Fqven/
     - derive/^Gqyun$/Fqveng/
+    - derive/^Gqyun$/Fqvirn/
+    - derive/^Gqyun$/Fqvirng/
     - derive/^Gqyun$/Fqvn/
     - derive/^Gqyun$/Fqyuen/
     - derive/^Gqyun$/Fqyueng/
-    - derive/^Gqyun$/Fqyuên/
+    - derive/^Gqyun$/Fqyuirn/
+    - derive/^Gqyun$/Fqyuirng/
     - derive/^Gqyuon$/Fquen/
     - derive/^Gqyuon$/Fqueng/
+    - derive/^Gqyuon$/Fquirn/
+    - derive/^Gqyuon$/Fquirng/
     - fuzz/^Gqyuon$/Fquon/
     - derive/^Gqyuon$/Fqven/
     - derive/^Gqyuon$/Fqveng/
+    - derive/^Gqyuon$/Fqvirn/
+    - derive/^Gqyuon$/Fqvirng/
     - derive/^Gqyuon$/Fqvon/
     - derive/^Gqyuon$/Fqyuen/
     - derive/^Gqyuon$/Fqyueng/
+    - derive/^Gqyuon$/Fqyuirn/
+    - derive/^Gqyuon$/Fqyuirng/
     - derive/^Gsau$/Fsao/
+    - derive/^Gse$/Fsir/
+    - derive/^Gsei$/Fsiri/
+    - derive/^Gsen$/Fsirn/
+    - derive/^Gseng$/Fsirng/
+    - fuzz/^Gset$/Fse/
+    - fuzz/^Gset$/Fsek/
+    - fuzz/^Gset$/Fsep/
+    - fuzz/^Gset$/Fsir/
+    - fuzz/^Gset$/Fsirk/
+    - fuzz/^Gset$/Fsirp/
+    - derive/^Gset$/Fsirt/
+    - derive/^Gseu$/Fsiru/
     - derive/^Gseu$/Fsiu/
     - derive/^Gseu$/Fsou/
+    - derive/^Gsie$/Fsiir/
     - derive/^Gson$/Fsuon/
     - derive/^Gtau$/Ftao/
+    - derive/^Gte$/Ftir/
+    - derive/^Gtei$/Ftiri/
+    - derive/^Gten$/Ftirn/
+    - derive/^Gteng$/Ftirng/
+    - derive/^Gteu$/Ftiru/
     - derive/^Gteu$/Ftou/
+    - derive/^Gtie$/Ftiir/
+    - derive/^Gtien$/Ftiirn/
+    - derive/^Gtieu$/Ftiiru/
     - derive/^Gwa$/Fua/
     - derive/^Gwai$/Fuai/
     - derive/^Gwan$/Fuan/
     - derive/^Gwang$/Fuang/
     - derive/^Gwei$/Fuei/
+    - derive/^Gwei$/Fueiri/
+    - derive/^Gwei$/Fuiri/
+    - derive/^Gwei$/Fuiriri/
+    - derive/^Gwei$/Fuiririri/
+    - derive/^Gwei$/Fweiri/
+    - derive/^Gwei$/Fweiriri/
+    - derive/^Gwei$/Fwiri/
+    - derive/^Gwei$/Fwiriri/
+    - derive/^Gwei$/Fwiririri/
+    - derive/^Gwei$/Fwuiri/
+    - derive/^Gwei$/Fwuiriri/
+    - derive/^Gwen$/Fueirirn/
+    - derive/^Gwen$/Fueirn/
     - derive/^Gwen$/Fuen/
+    - derive/^Gwen$/Fuiririrn/
+    - derive/^Gwen$/Fuirirn/
+    - derive/^Gwen$/Fuirn/
     - derive/^Gwen$/Fun/
+    - derive/^Gwen$/Fweirirn/
+    - derive/^Gwen$/Fweirn/
+    - derive/^Gwen$/Fwiririrn/
+    - derive/^Gwen$/Fwirirn/
+    - derive/^Gwen$/Fwirn/
+    - derive/^Gwen$/Fwuirirn/
+    - derive/^Gwen$/Fwuirn/
+    - derive/^Gweng$/Fueirirng/
+    - derive/^Gweng$/Fueirng/
     - derive/^Gweng$/Fueng/
+    - derive/^Gweng$/Fuiririrng/
+    - derive/^Gweng$/Fuirirng/
+    - derive/^Gweng$/Fuirng/
+    - derive/^Gweng$/Fweirirng/
+    - derive/^Gweng$/Fweirng/
+    - derive/^Gweng$/Fwiririrng/
+    - derive/^Gweng$/Fwirirng/
+    - derive/^Gweng$/Fwirng/
+    - derive/^Gweng$/Fwuirirng/
+    - derive/^Gweng$/Fwuirng/
     - derive/^Gwo$/Fuo/
     - derive/^Gwoi$/Fuoi/
+    - derive/^Gwon$/Fueirirn/
+    - derive/^Gwon$/Fueirn/
     - derive/^Gwon$/Fuen/
+    - derive/^Gwon$/Fuiririrn/
+    - derive/^Gwon$/Fuirirn/
+    - derive/^Gwon$/Fuirn/
     - derive/^Gwon$/Fun/
     - derive/^Gwon$/Fuon/
+    - derive/^Gwon$/Fweirirn/
+    - derive/^Gwon$/Fweirn/
     - derive/^Gwon$/Fwen/
+    - derive/^Gwon$/Fwiririrn/
+    - derive/^Gwon$/Fwirirn/
+    - derive/^Gwon$/Fwirn/
+    - derive/^Gwon$/Fwuirirn/
+    - derive/^Gwon$/Fwuirn/
     - derive/^Gwong$/Fuong/
     - derive/^Gwu$/Fu/
+    - derive/^Gwun$/Fun/
     - derive/^Gwung$/Fung/
-    - derive/^Gxun$/Fxuen/
-    - derive/^Gxun$/Fxuên/
-    - derive/^Gxuon$/Fxuen/
+    - derive/^Gxie$/Fxiir/
+    - derive/^Gxien$/Fxiirn/
+    - derive/^Gxieu$/Fxiiru/
     - fuzz/^Gxyu$/Fxu/
     - derive/^Gxyu$/Fxv/
     - derive/^Gxyue$/Fxue/
+    - derive/^Gxyue$/Fxuir/
     - derive/^Gxyue$/Fxve/
+    - derive/^Gxyue$/Fxvir/
+    - derive/^Gxyue$/Fxyuir/
     - derive/^Gxyun$/Fxuen/
     - derive/^Gxyun$/Fxueng/
+    - derive/^Gxyun$/Fxuirn/
+    - derive/^Gxyun$/Fxuirng/
     - fuzz/^Gxyun$/Fxun/
-    - fuzz/^Gxyun$/Fxuên/
     - derive/^Gxyun$/Fxven/
     - derive/^Gxyun$/Fxveng/
+    - derive/^Gxyun$/Fxvirn/
+    - derive/^Gxyun$/Fxvirng/
     - derive/^Gxyun$/Fxvn/
     - derive/^Gxyun$/Fxyuen/
     - derive/^Gxyun$/Fxyueng/
-    - derive/^Gxyun$/Fxyuên/
+    - derive/^Gxyun$/Fxyuirn/
+    - derive/^Gxyun$/Fxyuirng/
     - derive/^Gxyuon$/Fxuen/
     - derive/^Gxyuon$/Fxueng/
+    - derive/^Gxyuon$/Fxuirn/
+    - derive/^Gxyuon$/Fxuirng/
     - fuzz/^Gxyuon$/Fxuon/
     - derive/^Gxyuon$/Fxven/
     - derive/^Gxyuon$/Fxveng/
+    - derive/^Gxyuon$/Fxvirn/
+    - derive/^Gxyuon$/Fxvirng/
     - derive/^Gxyuon$/Fxvon/
     - derive/^Gxyuon$/Fxyuen/
     - derive/^Gxyuon$/Fxyueng/
+    - derive/^Gxyuon$/Fxyuirn/
+    - derive/^Gxyuon$/Fxyuirng/
     - derive/^Gya$/Fia/
     - derive/^Gyang$/Fiang/
     - derive/^Gye$/Fie/
+    - derive/^Gye$/Fiir/
+    - derive/^Gye$/Fyir/
     - derive/^Gyen$/Fien/
-    - derive/^Gyen$/Fyan/
+    - derive/^Gyen$/Fiirn/
+    - derive/^Gyen$/Fyirn/
     - derive/^Gyeu$/Fiao/
     - derive/^Gyeu$/Fiau/
     - derive/^Gyeu$/Fieu/
+    - derive/^Gyeu$/Fiiru/
+    - derive/^Gyeu$/Fiou/
     - derive/^Gyeu$/Fyao/
+    - derive/^Gyeu$/Fyiru/
     - derive/^Gyeu$/Fyou/
     - derive/^Gyi$/Fi/
     - derive/^Gyin$/Fin/
+    - derive/^Gyiu$/Fiou/
     - derive/^Gyiu$/Fiu/
     - derive/^Gyiu$/Fyou/
     - derive/^Gyo$/Fio/
     - derive/^Gyon$/Fion/
     - derive/^Gyong$/Fiong/
-    - derive/^Gyue$/Fue/
-    - derive/^Gyue$/Fve/
+    - derive/^Gyue$/Fiue/
+    - derive/^Gyue$/Fiuir/
+    - derive/^Gyue$/Fyuir/
     - derive/^Gyun$/Fiun/
-    - derive/^Gyuon$/Fuen/
-    - derive/^Gyuon$/Fueng/
-    - derive/^Gyuon$/Fven/
-    - derive/^Gyuon$/Fveng/
+    - derive/^Gyung$/Fiung/
+    - fuzz/^Gyuon$/Fioin/
+    - derive/^Gyuon$/Fiuon/
     - fuzz/^Gyuon$/Fyoin/
     - derive/^Gyuon$/Fyuen/
     - derive/^Gyuon$/Fyueng/
+    - derive/^Gyuon$/Fyuirn/
+    - derive/^Gyuon$/Fyuirng/
     - derive/^Gzau$/Fzao/
+    - derive/^Gze$/Fzir/
+    - derive/^Gzei$/Fziri/
+    - derive/^Gzen$/Fzirn/
+    - derive/^Gzeng$/Fzirng/
+    - derive/^Gzeu$/Fziru/
     - derive/^Gzeu$/Fzou/
     - derive/^Gzon$/Fzuon/
     - derive/^Gzuon$/Fzuen/
+    - derive/^Gzuon$/Fzuirn/
     - fuzz/^Gzyui$/Fzuei/
     - fuzz/^Gzyui$/Fzui/
-    - fuzz/^Gzyui$/Fzuêi/
+    - fuzz/^Gzyui$/Fzuiri/
     - derive/^Gzyui$/Fzvi/
     - derive/^Gzyui$/Fzyuei/
-    - derive/^Gzyui$/Fzyuêi/
+    - derive/^Gzyui$/Fzyuiri/
     - xform/^G//
     - xform/^F//
     - abbrev/^([a-z]).+$/$1/

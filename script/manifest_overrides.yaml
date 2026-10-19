@@ -571,6 +571,11 @@ schema_assignments:
     dialect: 新喻話
     recipe: Doohaey/GonnyuGeneralIME-Rime-Sinyi
     upstream_url: https://github.com/Doohaey/GonnyuGeneralIME-Rime-Sinyi
+  gannyu_goungon:
+    branch: gan
+    dialect: 高安話
+    recipe: Doohaey/GonnyuGeneralIME-Rime-Goungon
+    upstream_url: https://github.com/Doohaey/GonnyuGeneralIME-Rime-Goungon
   sautungva:
     branch: hsn
     dialect: 邵東話

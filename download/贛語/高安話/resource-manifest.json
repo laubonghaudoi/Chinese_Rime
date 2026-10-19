@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "size": 35149
+    },
+    {
+      "path": "default.custom.yaml",
+      "sha256": "186483c408989ce51522e7cdc032b9fbe95ec423bb6810c56b154810027815af",
+      "size": 53
+    },
+    {
+      "path": "gannyu_goungon.dict.yaml",
+      "sha256": "f032dd56d542998548c5b1836dff3a5684d0cdb20f14f3b42ebd03d10f540fd4",
+      "size": 201014
+    },
+    {
+      "path": "gannyu_goungon.schema.yaml",
+      "sha256": "8a8023f176d453079608c56f33141f1b8b39fd3bd7aabcbea4ed2ae05dc1c3f6",
+      "size": 28989
+    },
+    {
+      "path": "lua/gannyu_annotation_filter.lua",
+      "sha256": "89c7296638878d97182e46ad4bc3c16b7cd44dc9715ccfee8a110ebb9c04f7bb",
+      "size": 804
+    },
+    {
+      "path": "lua/gannyu_annotation_store.lua",
+      "sha256": "f0396605b71b38d2d3fc61855c5343914535e7e7e0e741ab8b56e43737fd3bc3",
+      "size": 4361
+    },
+    {
+      "path": "lua/gannyu_data_lifecycle.lua",
+      "sha256": "d6324896266ad0c10c7f73b0258fdc72689e0c1e654b418683e8276ff0024799",
+      "size": 597
+    },
+    {
+      "path": "lua/gannyu_goungon_annotations.bin",
+      "sha256": "c84e1a4bd40a375f01cd1d9d997274f44c1c2c1966c4d8c4ea1265bedf1c69dc",
+      "size": 116878
+    },
+    {
+      "path": "lua/gannyu_goungon_data.lua",
+      "sha256": "f1513eb8c09545ac2be6bdb7ec098f45df60c4406ffd7b552697220299c725da",
+      "size": 134908
+    },
+    {
+      "path": "lua/gannyu_relation_filter.lua",
+      "sha256": "6aeb83db15d556efddc3caeb9a28b7b06b1ef652afddf895bf6da8991c0c8894",
+      "size": 1079
+    },
+    {
+      "path": "lua/gannyu_single_char_filter.lua",
+      "sha256": "c9c73418381568788ce55c2319b2bbe4359631037b9ed360129e0c11f84b29b3",
+      "size": 1579
+    }
+  ],
+  "product_version": "1.2.2",
+  "regions": [
+    {
+      "id": "goungon",
+      "name_zh": "高安",
+      "schema_id": "gannyu_goungon"
+    }
+  ],
+  "schema_version": "1.2.2"
+}

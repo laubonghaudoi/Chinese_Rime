@@ -1,24 +1,24 @@
 {
   "files": [
     {
+      "path": "LICENSE",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "size": 35149
+    },
+    {
       "path": "default.custom.yaml",
       "sha256": "e39577d72be18e94bb8c85187c5d06fe2c2d0f7fcf47711ceb344c302f9a9850",
       "size": 60
     },
     {
-      "path": "default.yaml",
-      "sha256": "43acf17d04ec06a69df538e20b6d6d2bf69b8a03a7ddbb10814327696a409dd1",
-      "size": 592
-    },
-    {
       "path": "gannyu_yikyan-henfeng.dict.yaml",
-      "sha256": "52dc3de3c73ff11c66bbe1318509d120fcd7911bd732e827ece323706f586443",
-      "size": 141297
+      "sha256": "69acb4250e262e7de4907282e9318e29f6b6a3abc71ff88a7ace785460129f24",
+      "size": 271780
     },
     {
       "path": "gannyu_yikyan-henfeng.schema.yaml",
-      "sha256": "999b21927626f42d9a71fbdc0965029d14240325597a9e12b1592de5c3e6c926",
-      "size": 17991
+      "sha256": "d73de4f511e0b546a5bb33af81f7f856a3fce8b1c85c758acc27e3325b33ec19",
+      "size": 37361
     },
     {
       "path": "lua/gannyu_annotation_filter.lua",
@@ -47,16 +47,16 @@
     },
     {
       "path": "lua/gannyu_yikyan-henfeng_annotations.bin",
-      "sha256": "f59627e1435e2a742ca0390fa3b11fea9a765b996da1d9d4da08482f619015dc",
-      "size": 107172
+      "sha256": "1fa0957869094197e13cccef216d4b4ceb42b5a7ccce494dac08cd69ec2537cf",
+      "size": 222611
     },
     {
       "path": "lua/gannyu_yikyan-henfeng_data.lua",
-      "sha256": "8aae8974457a7865331f2b594fe4de63205514aa1128a57e84e59213c272fb5a",
-      "size": 138309
+      "sha256": "02d17f27d020368b7bcd1aec27f49349e8810974b335fc73042be84b1e5d5d04",
+      "size": 332354
     }
   ],
-  "product_version": "1.2.0",
+  "product_version": "1.2.2",
   "regions": [
     {
       "id": "yikyan-henfeng",
@@ -64,5 +64,5 @@
       "schema_id": "gannyu_yikyan-henfeng"
     }
   ],
-  "schema_version": "1.2.0"
+  "schema_version": "1.2.2"
 }
