@@ -259,6 +259,21 @@
     - lua/gannyu_sinyi_data.lua
     - resource-manifest.json
 
+贛語/高安話:
+  source: 贛語/贛語通用輸入法（高安話）/
+  files:
+    - default.custom.yaml
+    - gannyu_goungon.dict.yaml
+    - gannyu_goungon.schema.yaml
+    - lua/gannyu_data_lifecycle.lua
+    - lua/gannyu_annotation_store.lua
+    - lua/gannyu_goungon_annotations.bin
+    - lua/gannyu_annotation_filter.lua
+    - lua/gannyu_single_char_filter.lua
+    - lua/gannyu_relation_filter.lua
+    - lua/gannyu_goungon_data.lua
+    - resource-manifest.json
+
 湘語/邵東話:
   source: 湘語/邵東話輸入方案/
   files:
