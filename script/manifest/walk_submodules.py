@@ -1,6 +1,7 @@
 """Walk a sources/ tree and parse every *.schema.yaml file into normalized dicts."""
 from __future__ import annotations
 
+import json
 from pathlib import Path
 from typing import Iterable
 
@@ -31,6 +32,12 @@ def walk_submodules(sources_dir: Path) -> list[dict]:
     seen: dict[str, dict] = {}
     for path in _iter_schema_yamls(sources_dir):
         entry = _load_one(path)
+        manifest_path = path.parent / "resource-manifest.json"
+        if manifest_path.is_file():
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            region_ids = {region["schema_id"] for region in manifest.get("regions", [])}
+            if region_ids and entry["schema_id"] not in region_ids:
+                continue
         seen.setdefault(entry["schema_id"], entry)
     return list(seen.values())
 
