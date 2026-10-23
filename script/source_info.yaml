@@ -186,6 +186,7 @@
     - fudiufa.schema.yaml
 贛語/南昌話:
   source: 贛語/贛語通用輸入法（南昌）/
+  file_manifest: resource-manifest.json
   files:
     - default.custom.yaml
     - gannyu_lancong.dict.yaml
@@ -201,6 +202,7 @@
     - LICENSE
 贛語/分宜話:
   source: 贛語/贛語通用輸入法（分宜）/
+  file_manifest: resource-manifest.json
   files:
     - default.custom.yaml
     - gannyu_fenni.dict.yaml
@@ -216,6 +218,7 @@
     - LICENSE
 贛語/豐城話:
   source: 贛語/贛語通用輸入法（豐城）/
+  file_manifest: resource-manifest.json
   files:
     - default.custom.yaml
     - gannyu_fungcen.dict.yaml
@@ -231,6 +234,7 @@
     - LICENSE
 贛語/弋陽－橫峰話:
   source: 贛語/贛語通用輸入法（弋陽－橫峰話）/
+  file_manifest: resource-manifest.json
   files:
     - default.custom.yaml
     - gannyu_yikyan-henfeng.dict.yaml
@@ -247,6 +251,7 @@
 
 贛語/新喻話:
   source: 贛語/贛語通用輸入法（新喻話）/
+  file_manifest: resource-manifest.json
   files:
     - default.custom.yaml
     - gannyu_sinyi.dict.yaml
@@ -263,6 +268,7 @@
 
 贛語/高安話:
   source: 贛語/贛語通用輸入法（高安話）/
+  file_manifest: resource-manifest.json
   files:
     - default.custom.yaml
     - gannyu_goungon.dict.yaml

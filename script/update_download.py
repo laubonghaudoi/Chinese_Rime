@@ -6,6 +6,7 @@
 配合`update_submodules.sh`可更新`download`文件夾中的碼表。
 """
 
+import json
 import shutil
 
 from pathlib import Path
@@ -20,6 +21,11 @@ downloads = sys.argv[1:] or info.keys()
 for download in downloads:
     if download not in info:
         raise KeyError(f"unknown download package: {download}")
+    source_dir = Path("../sources") / info[download]["source"]
+    files = list(info[download]["files"])
+    if manifest_file := info[download].get("file_manifest"):
+        manifest = json.loads((source_dir / manifest_file).read_text(encoding="utf-8"))
+        files.extend(record["path"] for record in manifest["files"])
     output_dir = Path("../download") / download
     output_dir.mkdir(parents=True, exist_ok=True)
     for file in output_dir.iterdir():
@@ -27,7 +33,7 @@ for download in downloads:
             shutil.rmtree(file)
         else:
             file.unlink()
-    for file in info[download]["files"]:
+    for file in dict.fromkeys(files):
         output_file = output_dir / file
         output_file.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(Path("../sources") / info[download]["source"] / file, output_file)
+        shutil.copy2(source_dir / file, output_file)
