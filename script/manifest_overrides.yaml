@@ -549,33 +549,74 @@ schema_assignments:
   gannyu_lancong:
     branch: gan
     dialect: 南昌話
+    display_name: "赣语－南昌"
     recipe: Doohaey/GonnyuGeneralIME-Rime-Lancong
     upstream_url: https://github.com/Doohaey/GonnyuGeneralIME-Rime-Lancong
   gannyu_fenni:
     branch: gan
     dialect: 分宜話
+    display_name: "赣语－分宜"
     recipe: Doohaey/GonnyuGeneralIME-Rime-Fenni
     upstream_url: https://github.com/Doohaey/GonnyuGeneralIME-Rime-Fenni
   gannyu_fungcen:
     branch: gan
     dialect: 豐城話
+    display_name: "赣语－丰城"
     recipe: Doohaey/GonnyuGeneralIME-Rime-Fungcen
     upstream_url: https://github.com/Doohaey/GonnyuGeneralIME-Rime-Fungcen
   gannyu_yikyan-henfeng:
     branch: gan
     dialect: 弋陽－橫峰話
+    display_name: "赣语－弋阳-横峰"
     recipe: Doohaey/GonnyuGeneralIME-Rime-Yikyan-Henfeng
     upstream_url: https://github.com/Doohaey/GonnyuGeneralIME-Rime-Yikyan-Henfeng
   gannyu_sinyi:
     branch: gan
     dialect: 新喻話
+    display_name: "赣语－新余市"
     recipe: Doohaey/GonnyuGeneralIME-Rime-Sinyi
     upstream_url: https://github.com/Doohaey/GonnyuGeneralIME-Rime-Sinyi
   gannyu_goungon:
     branch: gan
     dialect: 高安話
+    display_name: "赣语－高安"
     recipe: Doohaey/GonnyuGeneralIME-Rime-Goungon
     upstream_url: https://github.com/Doohaey/GonnyuGeneralIME-Rime-Goungon
+  konny_lancong_II:
+    branch: gan
+    dialect: 南昌話
+    display_name: "Konny－南昌"
+    description: "二式（组合式）方案。"
+    recipe: Doohaey/GonnyuGeneralIME-Rime-Lancong-II
+    upstream_url: https://github.com/Doohaey/GonnyuGeneralIME-Rime-Lancong-II
+  konny_fungcen_II:
+    branch: gan
+    dialect: 豐城話
+    display_name: "Konny－丰城"
+    description: "二式（组合式）方案。"
+    recipe: Doohaey/GonnyuGeneralIME-Rime-Fungcen-II
+    upstream_url: https://github.com/Doohaey/GonnyuGeneralIME-Rime-Fungcen-II
+  konny_yikyan-henfeng_II:
+    branch: gan
+    dialect: 弋陽－橫峰話
+    display_name: "Konny－弋阳-横峰"
+    description: "二式（组合式）方案。"
+    recipe: Doohaey/GonnyuGeneralIME-Rime-Yikyan-Henfeng-II
+    upstream_url: https://github.com/Doohaey/GonnyuGeneralIME-Rime-Yikyan-Henfeng-II
+  konny_sinyi_II:
+    branch: gan
+    dialect: 新喻話
+    display_name: "Konny－新余市"
+    description: "二式（组合式）方案。"
+    recipe: Doohaey/GonnyuGeneralIME-Rime-Sinyi-II
+    upstream_url: https://github.com/Doohaey/GonnyuGeneralIME-Rime-Sinyi-II
+  konny_goungon_II:
+    branch: gan
+    dialect: 高安話
+    display_name: "Konny－高安"
+    description: "二式（组合式）方案。"
+    recipe: Doohaey/GonnyuGeneralIME-Rime-Goungon-II
+    upstream_url: https://github.com/Doohaey/GonnyuGeneralIME-Rime-Goungon-II
   sautungva:
     branch: hsn
     dialect: 邵東話
