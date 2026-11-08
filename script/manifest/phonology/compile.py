@@ -9,7 +9,7 @@ from typing import Any
 from .decomposer import build_decomposer
 from .dict_reader import read_dict
 from .ipa_classify import compile_finals_grid, compile_initials_grid, load_ipa_dictionary
-from .schema_hints import extract_hints
+from .schema_hints import SchemaHints, extract_hints
 
 SUMMARY_INITIAL_LIMIT = 80
 SUMMARY_FINAL_LIMIT = 160
@@ -27,10 +27,14 @@ def compile_phonology(
     overrides: dict | None = None,
     ipa_dictionary: dict[str, Any] | None = None,
     ipa_dictionary_path: Path | None = None,
+    rows: list[tuple[str, str]] | None = None,
+    hints: SchemaHints | None = None,
 ) -> dict[str, Any] | None:
+    if rows is None:
+        rows = read_dict(dict_path)
     rows = [
         (char, spelling)
-        for char, spelling in read_dict(dict_path)
+        for char, spelling in rows
         if len(char) == 1 and not _is_multi_token_spelling(spelling)
     ]
     if not rows:
@@ -40,7 +44,9 @@ def compile_phonology(
         ipa_dictionary = load_ipa_dictionary(ipa_dictionary_path)
 
     spellings = [spelling for _, spelling in rows]
-    hints = extract_hints(schema_path, sample_spellings=spellings, overrides=overrides)
+    provided_hints = hints is not None
+    if hints is None:
+        hints = extract_hints(schema_path, sample_spellings=spellings, overrides=overrides)
     if hints.code_prefix:
         rows = [
             (char, spelling[len(hints.code_prefix):])
@@ -50,7 +56,7 @@ def compile_phonology(
     if hints.zero_initial_pinyin:
         rows = [(char, _normalise_pinyin_zero_initial(spelling, hints.zero_initial_rewrites)) for char, spelling in rows]
     spellings = [spelling for _, spelling in rows]
-    if ipa_dictionary is not None:
+    if ipa_dictionary is not None and not provided_hints:
         hints.recognized_initials.update(str(key).lower() for key in ipa_dictionary.get("initials_default", {}))
         hints.recognized_finals.update(str(key).lower() for key in ipa_dictionary.get("nuclei_default", {}))
         hints.recognized_finals.update(str(key).lower() for key in ipa_dictionary.get("finals_default", {}))
