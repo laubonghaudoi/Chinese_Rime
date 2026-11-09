@@ -209,7 +209,7 @@ def _match(
                 if parts is None:
                     continue
                 ii_final, nucleus, coda = parts
-                composed = _compose(ii_initial, ii_final, str(final_variant["ipa"]))
+                composed = _compose(ii_initial, ii_final, str(final_variant["ipa"]), table)
                 if composed == second:
                     return (
                         ii_initial,
@@ -288,8 +288,13 @@ def _final_parts(
     return nucleus_spelling + nasal + coda_spelling, nucleus_spelling, coda_spelling
 
 
-def _compose(initial: str, final: str, final_ipa: str) -> str:
-    if initial.endswith("j") and normalize_ipa(final_ipa).startswith("i"):
+def _compose(initial: str, final: str, final_ipa: str, table: Scheme2Table) -> str:
+    body = normalize_ipa(final_ipa)
+    for coda in table.coda_keys:
+        if body.endswith(coda) and len(body) > len(coda):
+            body = body[: -len(coda)]
+            break
+    if initial.endswith("j") and len(body) > 1 and body.startswith("i"):
         final = final[1:]
     return initial + final
 
