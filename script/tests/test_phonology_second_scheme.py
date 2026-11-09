@@ -6,10 +6,12 @@ import yaml
 import build_phonology
 from manifest.phonology.ipa_classify import load_ipa_dictionary
 from manifest.phonology.second_scheme import (
+    _compose,
     base_schema_id,
     compile_second_scheme,
     find_spelling_map,
     is_second_scheme,
+    load_table,
 )
 
 SCRIPT_DIR = Path(__file__).resolve().parents[1]
@@ -66,6 +68,15 @@ def test_find_spelling_map_reads_lua_table(tmp_path: Path):
     }
 
 
+def test_compose_only_drops_i_medial_for_long_nucleus():
+    table = load_table(TABLE_PATH)
+
+    assert _compose("nj", "i", "i", table) == "nji"
+    assert _compose("nj", "in", "in", table) == "njin"
+    assert _compose("nj", "ia", "ia", table) == "nja"
+    assert _compose("nj", "ien", "iɛn", table) == "njen"
+
+
 def test_compile_second_scheme_uses_dictionary_ipa(tmp_path: Path):
     schema = tmp_path / "konny_test_II.schema.yaml"
     schema.write_text(
@@ -95,7 +106,7 @@ def test_compile_second_scheme_uses_dictionary_ipa(tmp_path: Path):
         '    ["pa"] = "pha",\n'
         '    ["ji"] = "ci",\n'
         '    ["ni"] = "ni",\n'
-        '    ["nji"] = "nj",\n'
+        '    ["nji"] = "nji",\n'
         '    ["sï"] = "sii",\n'
         '    ["sïk"] = "siih",\n'
         '    ["guet"] = "kuert",\n'
@@ -132,7 +143,7 @@ def test_compile_second_scheme_uses_dictionary_ipa(tmp_path: Path):
         "乙": ["pha"],
         "丙": ["ci"],
         "丁": ["ni"],
-        "戊": ["nj"],
+        "戊": ["nji"],
         "己": ["sii"],
         "庚": ["siih"],
         "辛": ["kuert"],
