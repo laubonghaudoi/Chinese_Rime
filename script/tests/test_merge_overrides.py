@@ -62,6 +62,40 @@ def test_merge_preserves_preassigned_orphan_fields(fixtures_dir: Path):
     assert yue["dialects"][0]["schemas"] == ["dkzp"]
 
 
+def test_merge_applies_display_name_override(tmp_path: Path):
+    overrides = tmp_path / "manifest_overrides.yaml"
+    overrides.write_text(
+        "branches: {}\n"
+        "schema_assignments:\n"
+        "  fixed:\n"
+        "    display_name: 固定名稱\n",
+        encoding="utf-8",
+    )
+    merged, _branches = merge_overrides(
+        [{"schema_id": "fixed", "display_name": "原始名稱"}],
+        overrides,
+    )
+
+    assert merged[0]["display_name"] == "固定名稱"
+
+
+def test_merge_applies_description_override(tmp_path: Path):
+    overrides = tmp_path / "manifest_overrides.yaml"
+    overrides.write_text(
+        "branches: {}\n"
+        "schema_assignments:\n"
+        "  fixed:\n"
+        "    description: 固定描述\n",
+        encoding="utf-8",
+    )
+    merged, _branches = merge_overrides(
+        [{"schema_id": "fixed", "description": "原始描述"}],
+        overrides,
+    )
+
+    assert merged[0]["description"] == "固定描述"
+
+
 def test_merge_assigns_source_only_schema_to_branch_tree(fixtures_dir: Path):
     schemas = [{"schema_id": "extra_variant", "source_group": "粵語"}]
     merged, branches = merge_overrides(schemas, fixtures_dir / "manifest_overrides.yaml")

@@ -283,6 +283,96 @@
     - resource-manifest.json
     - LICENSE
 
+贛語/南昌話（二式）:
+  source: 贛語/贛語通用輸入法（南昌·二式）/
+  file_manifest: resource-manifest.json
+  files:
+    - default.custom.yaml
+    - konny_lancong_II.schema.yaml
+    - gannyu_lancong.dict.yaml
+    - lua/gannyu_data_lifecycle.lua
+    - lua/gannyu_annotation_store.lua
+    - lua/konny_lancong_scheme2.lua
+    - lua/gannyu_lancong_annotations.bin
+    - lua/gannyu_annotation_filter.lua
+    - lua/gannyu_single_char_filter.lua
+    - lua/gannyu_relation_filter.lua
+    - lua/gannyu_lancong_data.lua
+    - resource-manifest.json
+    - LICENSE
+
+贛語/豐城話（二式）:
+  source: 贛語/贛語通用輸入法（豐城·二式）/
+  file_manifest: resource-manifest.json
+  files:
+    - default.custom.yaml
+    - konny_fungcen_II.schema.yaml
+    - gannyu_fungcen.dict.yaml
+    - lua/gannyu_data_lifecycle.lua
+    - lua/gannyu_annotation_store.lua
+    - lua/konny_fungcen_scheme2.lua
+    - lua/gannyu_fungcen_annotations.bin
+    - lua/gannyu_annotation_filter.lua
+    - lua/gannyu_single_char_filter.lua
+    - lua/gannyu_relation_filter.lua
+    - lua/gannyu_fungcen_data.lua
+    - resource-manifest.json
+    - LICENSE
+
+贛語/弋陽－橫峰話（二式）:
+  source: 贛語/贛語通用輸入法（弋陽－橫峰·二式）/
+  file_manifest: resource-manifest.json
+  files:
+    - default.custom.yaml
+    - konny_yikyan-henfeng_II.schema.yaml
+    - gannyu_yikyan-henfeng.dict.yaml
+    - lua/gannyu_data_lifecycle.lua
+    - lua/gannyu_annotation_store.lua
+    - lua/konny_yikyan-henfeng_scheme2.lua
+    - lua/gannyu_yikyan-henfeng_annotations.bin
+    - lua/gannyu_annotation_filter.lua
+    - lua/gannyu_single_char_filter.lua
+    - lua/gannyu_relation_filter.lua
+    - lua/gannyu_yikyan-henfeng_data.lua
+    - resource-manifest.json
+    - LICENSE
+
+贛語/新喻話（二式）:
+  source: 贛語/贛語通用輸入法（新喻·二式）/
+  file_manifest: resource-manifest.json
+  files:
+    - default.custom.yaml
+    - konny_sinyi_II.schema.yaml
+    - gannyu_sinyi.dict.yaml
+    - lua/gannyu_data_lifecycle.lua
+    - lua/gannyu_annotation_store.lua
+    - lua/konny_sinyi_scheme2.lua
+    - lua/gannyu_sinyi_annotations.bin
+    - lua/gannyu_annotation_filter.lua
+    - lua/gannyu_single_char_filter.lua
+    - lua/gannyu_relation_filter.lua
+    - lua/gannyu_sinyi_data.lua
+    - resource-manifest.json
+    - LICENSE
+
+贛語/高安話（二式）:
+  source: 贛語/贛語通用輸入法（高安·二式）/
+  file_manifest: resource-manifest.json
+  files:
+    - default.custom.yaml
+    - konny_goungon_II.schema.yaml
+    - gannyu_goungon.dict.yaml
+    - lua/gannyu_data_lifecycle.lua
+    - lua/gannyu_annotation_store.lua
+    - lua/konny_goungon_scheme2.lua
+    - lua/gannyu_goungon_annotations.bin
+    - lua/gannyu_annotation_filter.lua
+    - lua/gannyu_single_char_filter.lua
+    - lua/gannyu_relation_filter.lua
+    - lua/gannyu_goungon_data.lua
+    - resource-manifest.json
+    - LICENSE
+
 湘語/邵東話:
   source: 湘語/邵東話輸入方案/
   files:

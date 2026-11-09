@@ -57,3 +57,21 @@ Use `suppress_grids: true` for schemes where an IPA consonant/vowel chart would
 be misleading, such as Old Chinese reconstruction spellings or script-oriented
 Sinoxenic schemes. Suppressed schemes still keep `字音對照`; they simply render
 placeholders for `聲母表` and `韻母表`.
+
+## Second-scheme schemas
+
+Schemas in the `konny_` series reuse the base `gannyu_` dictionary, which
+stores first-scheme codes. Their second-scheme spellings live in
+`lua/konny_<region>_scheme2.lua`. For these schemas the compiler:
+
+1. resolves the base schema's overrides, whose `initials_ipa` and `finals_ipa`
+   values come from the dictionary IPA;
+2. reads the base spelling map from `lua/konny_<region>_scheme2.lua`;
+3. projects each base initial and final IPA through
+   `script/phonology_scheme2.tsv`; and
+4. rewrites the single-character rows to second-scheme spellings before
+   splitting them.
+
+`script/phonology_scheme2.tsv` mirrors the Gonnyu transcription table. Update
+both copies together when the second-scheme spelling rules change. A `konny_`
+schema is skipped when the base overrides or the spelling map is unavailable.

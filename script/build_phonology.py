@@ -13,6 +13,11 @@ import yaml
 from manifest.phonology.compile import compile_phonology, summary_entry
 from manifest.phonology.ipa_classify import load_ipa_dictionary
 from manifest.phonology.resolver import ResolvedSource, resolve_schema_source
+from manifest.phonology.second_scheme import (
+    base_schema_id,
+    compile_second_scheme,
+    is_second_scheme,
+)
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -41,18 +46,40 @@ def main(argv: list[str] | None = None) -> int:
             summary["skipped"][schema_id] = {"reason": resolved.reason}
             continue
 
-        record = compile_phonology(
-            schema_id=schema_id,
-            display_name=schema.get("display_name", schema_id),
-            schema_path=resolved.schema_path,
-            dict_path=resolved.dict_path,
-            dictionary_name=resolved.dictionary_name,
-            repo_root=repo_root,
-            overrides=overrides.get(schema_id),
-            ipa_dictionary=ipa_dictionary,
-        )
+        if is_second_scheme(schema_id):
+            base = base_schema_id(schema_id)
+            base_overrides = overrides.get(base)
+            if not base_overrides:
+                summary["skipped"][schema_id] = {"reason": "missing_second_scheme_base"}
+                continue
+            record = compile_second_scheme(
+                schema_id=schema_id,
+                display_name=schema.get("display_name", schema_id),
+                schema_path=resolved.schema_path,
+                dict_path=resolved.dict_path,
+                dictionary_name=resolved.dictionary_name,
+                repo_root=repo_root,
+                base_overrides=base_overrides,
+                sources_root=args.sources_root,
+                download_root=args.download_root,
+                ipa_dictionary=ipa_dictionary,
+                table_path=args.scheme2_table,
+            )
+            reason = "missing_second_scheme_data"
+        else:
+            record = compile_phonology(
+                schema_id=schema_id,
+                display_name=schema.get("display_name", schema_id),
+                schema_path=resolved.schema_path,
+                dict_path=resolved.dict_path,
+                dictionary_name=resolved.dictionary_name,
+                repo_root=repo_root,
+                overrides=overrides.get(schema_id),
+                ipa_dictionary=ipa_dictionary,
+            )
+            reason = "no_single_char_rows"
         if record is None:
-            summary["skipped"][schema_id] = {"reason": "no_single_char_rows"}
+            summary["skipped"][schema_id] = {"reason": reason}
             continue
 
         asset_path = f"/phonology/{schema_id}.json"
@@ -79,6 +106,7 @@ def _parse_args(argv: list[str] | None) -> argparse.Namespace:
     parser.add_argument("--download-root", type=Path, default=repo_root / "download")
     parser.add_argument("--overrides", type=Path, default=repo_root / "script" / "phonology_overrides.yaml")
     parser.add_argument("--ipa-dictionary", type=Path, default=repo_root / "script" / "phonology_ipa_dictionary.yaml")
+    parser.add_argument("--scheme2-table", type=Path, default=repo_root / "script" / "phonology_scheme2.tsv")
     parser.add_argument("--summary-out", type=Path, default=repo_root / "site" / "src" / "data" / "phonology-summary.json")
     parser.add_argument("--assets-out-dir", type=Path, default=repo_root / "site" / "public" / "phonology")
     return parser.parse_args(argv)

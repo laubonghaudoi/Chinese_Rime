@@ -40,8 +40,12 @@ def merge_overrides(schemas: list[dict], overrides_path: Path) -> tuple[list[dic
             or s.get("dialect")
             or _fallback_dialect(branch_defs, branch, s.get("source_group"))
         )
+        display_name = a.get("display_name") or s.get("display_name") or sid
+        description = a.get("description") or s.get("description", "")
         enriched.append({
             **s,
+            "display_name": display_name,
+            "description": description,
             "branch": branch,
             "dialect": dialect,
             "recipe": a.get("recipe"),
